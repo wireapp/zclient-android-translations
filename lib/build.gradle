@@ -9,14 +9,18 @@ android {
     defaultConfig {
         minSdkVersion 17
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        versionCode System.getenv("BUILD_NUMBER") as Integer ?: 1
+        versionName "1." + android.defaultConfig.versionCode
     }
     buildTypes {
         release {
             minifyEnabled false
         }
     }
+}
+
+ext {
+    mavenVersion = "1." + System.getenv("BUILD_NUMBER")
 }
 
 dependencies {
@@ -37,7 +41,7 @@ publishing {
             artifacts {
                 groupId 'com.wire'
                 artifactId 'wiretranslations'
-                version '1.0'
+                version mavenVersion
                 artifact 'build/outputs/aar/lib-release.aar'
             }
         }
