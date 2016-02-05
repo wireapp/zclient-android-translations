@@ -99,6 +99,12 @@
   <string name="content__otr__conversation_verified">Unterhaltung überprüft</string>
   <string name="content__otr__conversation_unverified">Nicht überprüfte Unterhaltung</string>
   <string name="content__otr__message_error">Nachricht konnte nicht entschlüsselt werden</string>
+  <string name="content__otr__added_new_device__message">[[%1$s]] STARTED USING A _NEW DEVICE_</string>
+  <string name="content__otr__start_this_device__message">[[YOU]] STARTED USING _THIS DEVICE_</string>
+  <string name="content__otr__all_fingerprints_verified">ALL FINGERPRINTS ARE VERIFIED</string>
+  <string name="content__otr__lost_history">YOU HAVEN\'T USED THIS DEVICE FOR A WHILE. SOME MESSAGES MAY NOT APPEAR HERE.</string>
+  <string name="content__otr__unverified_device__message">[[YOU]] UNVERIFIED ONE OF _%1$s\'s DEVICES_</string>
+  <string name="content__otr__your_unverified_device__message">[[YOU]] UNVERIFIED ONE OF _YOUR DEVICES_</string>
   <string name="conversation__action__rename">UMBENENNEN</string>
   <string name="conversation__action__delete">LÖSCHEN</string>
   <string name="conversation__action__archive">ARCHIVIEREN</string>
@@ -269,7 +275,7 @@
   <string name="pref_devices_warning_summary">Sollte eines der oben stehenden Geräte nicht durch dich registriert worden sein, entferne es bitte und setze das Passwort in deinem Benutzerkonto zurück.</string>
   <string name="pref_devices_device_screen_title">Geräteinformationen</string>
   <string name="pref_devices_device_fingerprint_title">Schlüssel-Fingerabdruck</string>
-  <string name="pref_devices_device_fingerprint_summary">\nJedes Gerät hat einen einzigartigen Fingerabdruck. Prüfe, ob die Fingerabdrücke auf deinen Geräten übereinstimmen.</string>
+  <string name="pref_devices_device_fingerprint_summary">\nWire gives every device a unique fingerprint. Compare them and verify your devices and conversations.</string>
   <string name="pref_devices_device_trust_title">Überprüft</string>
   <string name="pref_devices_device_reset_session_title">Session zurücksetzen</string>
   <string name="pref_devices_device_reset_session_summary">Falls die Fingerabdrücke nicht übereinstimmen, setze die Session zurück um sicherzustellen, dass die richtigen Fingerabdrücke auf allen Geräten angezeigt werden.</string>
@@ -339,7 +345,8 @@
   <string name="url_privacy_policy">https://www.wire.com/legal/privacy/embed/</string>
   <string name="url__help">https://support.wire.com?hl=de</string>
   <string name="url_password_reset">https://www.wire.com/forgot/?hl=de</string>
-  <string name="url_otr_learn_more">https://wire.com/privacy</string>
+  <string name="url_otr_learn_why">https://wire.com/privacy/why</string>
+  <string name="url_otr_learn_how">https://wire.com/privacy/how</string>
   <string name="system_status__no_connectivity">KEINE INTERNETVERBINDUNG</string>
   <string name="system_status__sharing">WÄHLE EINE UNTERHALTUNG</string>
   <string name="sign_up__no_internet__title">Keine Internet Verbindung</string>
@@ -588,27 +595,28 @@
   <string name="otr__error_dialog__cannot_register__message">Entferne eines deiner anderen Geräte, um Wire hier zu benutzen.</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Geräte verwalten</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Abmelden</string>
-  <string name="otr__participant__device_header">Jedes Gerät hat einen eindeutigen Fingerabdruck. Frage %1$s, um sicherzustellen, dass sie übereinstimmen.</string>
+  <string name="otr__participant__device_header">Wire gives every device a unique fingerprint. Compare them with %1$s and verify your conversation.</string>
   <string name="otr__participant__device_header__no_devices">%1$s verwendet nicht die verschlüsselte Version von Wire.</string>
-  <string name="otr__participant__device_header__link_text">_Erfahre mehr_</string>
+  <string name="otr__participant__device_header__link_text">_Why verify conversations?_</string>
   <string name="otr__participant__device_class__unknown">Unbekannt</string>
   <string name="otr__participant__device_class__phone">Handy</string>
   <string name="otr__participant__device_class__tablet">Tablet</string>
   <string name="otr__participant__device_class__desktop">Desktop-Computer</string>
   <string name="otr__participant__tab_details">Details</string>
   <string name="otr__participant__tab_devices">Geräte</string>
-  <string name="otr__device_type_info">Ein %s hat sich in deinem Benutzerkonto eingelogged.</string>
   <string name="otr__device_activated_info">Aktiviert in %s</string>
   <string name="otr__participant__single_device__my_fingerprint_link">Zeige den Fingerabdruck meines Geräts</string>
   <string name="otr__participant__single_device__reset_session_link">Session zurücksetzen</string>
   <string name="otr__participant__my_device__description">Geräte-Fingerabdruck</string>
   <string name="otr__participant__my_device__show_all_devices_link">Alle meine Geräte anzeigen</string>
   <string name="otr__participant__single_device__description">Überprüfe, ob dieser Fingerabdruck mit dem auf %1$s\' Gerät übereinstimmt.</string>
+  <string name="otr__participant__single_device__how_to_link">_How do I do that?_</string>
   <string name="otr__device_id">ID: %s</string>
   <string name="otr__first_launch__header">Du benutzt Wire zum ersten Mal auf diesem Gerät.</string>
-  <string name="otr__first_launch__sub_header">Du wirst nicht in der Lage sein, vorherige Nachrichten zu sehen.</string>
+  <string name="otr__first_launch__sub_header">Aus Sicherheitsgründen wird dein alter Gesprächsverlauf nicht angezeigt.</string>
   <string name="otr__first_launch__button">Verstanden</string>
-  <string name="otr__device_approve__note">Wenn du dieses Gerät nicht erkennst, setze bitte dein Passwort in den Einstellungen zurück.</string>
+  <string name="otr__device_approve__header">You have connected a device to your Wire account.</string>
+  <string name="otr__device_approve__note">If you didn\'t do this, remove the device and reset your password.</string>
   <string name="otr__signin__info_text">Login</string>
   <string name="otr__reset_session__message_ok">Die Session wurde zurückgesetzt</string>
   <string name="otr__reset_session__message_fail">Die Session konnte nicht zurückgesetzt werden</string>
