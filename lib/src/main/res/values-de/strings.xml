@@ -100,7 +100,7 @@
   <string name="content__otr__conversation_unverified">Nicht überprüfte Unterhaltung</string>
   <string name="content__otr__message_error">Nachricht konnte nicht entschlüsselt werden</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] BENUTZT EIN _NEUES GERÄT_</string>
-  <string name="content__otr__start_this_device__message">[[YOU]] BENUTZT JETZT _DIESES GERÄT_</string>
+  <string name="content__otr__start_this_device__message">[[DU]] BENUTZT JETZT _DIESES GERÄT_</string>
   <string name="content__otr__all_fingerprints_verified">ALLE FINGERABDRÜCKE SIND ÜBERPRÜFT</string>
   <string name="content__otr__lost_history">DIESES GERÄT WURDE FÜR EINE WEILE NICHT BENUTZT. EINIGE MELDUNGEN WERDEN HIER VIELLEICHT NICHT ANGEZEIGT.</string>
   <string name="content__otr__unverified_device__message">[[YOU]] HAST DIE ÜBERPRÜFUNG VON _%1$s\'s GERÄTEN_ WIDERRUFEN</string>
@@ -128,6 +128,7 @@
   <string name="calling__slow_connection__title">Schlechte Internetverbindung</string>
   <string name="calling__slow_connection__message">Deine Internetverbindung ist gerade zu langsam um anzurufen. Bitte versuche es später erneut.</string>
   <string name="calling__slow_connection__button">OK</string>
+  <string name="calling__video_call__slow_connection__message">Eventuell kommt es zu Problemen während des Anrufs</string>
   <string name="calling__cannot_start__title">Anrufen nicht möglich</string>
   <string name="calling__cannot_start__message">Beende bitte den aktuellen Anruf um einen neuen zu beginnen.</string>
   <string name="calling__cannot_start__no_permission__message">Um anzurufen, erteile die Berechtigung auf das Mikrofon zuzugreifen.</string>
@@ -144,6 +145,16 @@
   <string name="calling__join_call">ANRUF ANNEHMEN</string>
   <string name="cancelled__call__message">ABGEBROCHEN</string>
   <string name="ignored__call__message">IGNORIERT</string>
+  <string name="calling__header__outgoing_subtitle">RINGING</string>
+  <string name="calling__header__incoming_subtitle">ANRUFEN</string>
+  <string name="calling__header__incoming_subtitle__video">VIDEO CALLING</string>
+  <string name="incoming__controls__incoming__decline">ABLEHNEN</string>
+  <string name="incoming__controls__incoming__accept">ANNEHMEN</string>
+  <string name="incoming__controls__ongoing__hangup">AUFLEGEN</string>
+  <string name="incoming__controls__ongoing__speaker">LAUTSPRECHER</string>
+  <string name="incoming__controls__ongoing__mute">STUMM</string>
+  <string name="incoming__controls__ongoing__video">VIDEO</string>
+  <string name="ongoing__other_turned_off_video">%1$s HAT VIDEO DEAKTIVIERT</string>
   <string name="connect__message">Hallo %1$s, \nbitte füge mich als Kontakt hinzu. \n%2$s</string>
   <string name="connect_request__common_users__label">Ihr beide kennt</string>
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
@@ -161,6 +172,7 @@
     <item quantity="one">%1$s hat ein neues Gerät hinzugefügt.</item>
     <item quantity="other">%1$s hat neue Geräte hinzugefügt.</item>
   </plurals>
+  <string name="conversation__degraded_confirmation__header__someone">Jemand verwendet ein neues Gerät.</string>
   <string name="conversation__degraded_confirmation__header__multiple_user">%1$s und %2$s benutzen jetzt neue Geräte.</string>
   <plurals name="conversation__degraded_confirmation__message">
     <item quantity="one">Möchtest du die Nachricht noch senden?</item>
@@ -425,7 +437,9 @@
   <string name="system_notification__join_call">Anruf annehmen</string>
   <string name="system_notification__leave_call">Anruf beenden</string>
   <string name="system_notification__outgoing">Anrufen</string>
+  <string name="system_notification__outgoing_video">Videoanruf</string>
   <string name="system_notification__incoming">Ruft an</string>
+  <string name="system_notification__incoming_video">Ruft mit Video an</string>
   <string name="system_notification__ongoing">Im Anruf</string>
   <string name="number_of_conversations_string">ARCHIVIEREN</string>
   <string name="notification__image_saving__content__title">Wire-Bild gespeichert.</string>
@@ -611,7 +625,7 @@
   <string name="otr__first_launch__sub_header">Aus Sicherheitsgründen wird dein alter Gesprächsverlauf nicht angezeigt.</string>
   <string name="otr__first_launch__button">Verstanden</string>
   <string name="otr__device_approve__header">Du hast ein Gerät zu deinem Wire-Benutzerkonto hinzugefügt.</string>
-  <string name="otr__device_approve__note">Falls du dieses Gerät nicht hinzugefügt hast, entfernen es und setze dein Passwort zurück.</string>
+  <string name="otr__device_approve__note">Falls du dieses Gerät nicht hinzugefügt hast, entferne es und setze dein Passwort zurück.</string>
   <string name="otr__signin__info_text">Login</string>
   <string name="otr__reset_session__message_ok">Die Session wurde zurückgesetzt</string>
   <string name="otr__reset_session__message_fail">Die Session konnte nicht zurückgesetzt werden</string>
