@@ -142,29 +142,29 @@
   <string name="conversation_quick_menu__conversation_button__single_label">ÖFFNEN</string>
   <string name="conversation_quick_menu__conversation_button__group_label">GRUPPE ERSTELLEN</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__other_added_participant">%1$s hat %2$s hinzugefügt</string>
-  <string name="content__system__other_started_participant">%1$s hat eine Unterhaltung mit %2$s begonnen</string>
-  <string name="content__system__other_added_you">%1$s hat dich hinzugefügt</string>
-  <string name="content__system__other_started_you">%1$s hat eine Unterhaltung mit dir begonnen</string>
-  <string name="content__system__you_added_participant">Du hast %2$s hinzugefügt</string>
-  <string name="content__system__you_started_participant">Du hast eine Unterhaltung mit %2$s begonnen</string>
-  <string name="content__system__other_left">%1$s hat die Unterhaltung verlassen</string>
-  <string name="content__system__you_left">Du hast die Unterhaltung verlassen</string>
-  <string name="content__system__other_removed_other">%1$s entfernte %2$s</string>
-  <string name="content__system__other_removed_you">%1$s hat dich entfernt</string>
-  <string name="content__system__you_removed_other">Du hast %2$s entfernt</string>
-  <string name="content__system__other_renamed_conv">%1$s hat die Unterhaltung umbenannt</string>
-  <string name="content__system__you_renamed_conv">Du hast die Unterhaltung umbenannt</string>
+  <string name="content__system__other_added_participant">[[%1$s]] hat %2$s hinzugefügt</string>
+  <string name="content__system__other_started_participant">[[%1$s]] hat eine Unterhaltung mit %2$s begonnen</string>
+  <string name="content__system__other_added_you">[[%1$s]] hat dich hinzugefügt</string>
+  <string name="content__system__other_started_you">[[%1$s]] hat eine Unterhaltung mit dir begonnen</string>
+  <string name="content__system__you_added_participant">[[Du]] hast %2$s hinzugefügt</string>
+  <string name="content__system__you_started_participant">[[Du]] hast eine Unterhaltung mit %2$s begonnen</string>
+  <string name="content__system__other_left">[[%1$s]] hat die Unterhaltung verlassen</string>
+  <string name="content__system__you_left">[[Du]] hast die Unterhaltung verlassen</string>
+  <string name="content__system__other_removed_other">[[%1$s]] hat %2$s entfernt</string>
+  <string name="content__system__other_removed_you">[[%1$s]] hat dich entfernt</string>
+  <string name="content__system__you_removed_other">[[Du]] hast %2$s entfernt</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] HAT DIE UNTERHALTUNG UMBENANNT</string>
+  <string name="content__system__you_renamed_conv">[[DU]] HAST DIE UNTERHALTUNG UMBENANNT</string>
   <string name="content__system__message_deleted">Diese Nachricht wurde entfernt</string>
   <string name="content_system_message_timestamp_failure">Nicht gesendete Nachricht.</string>
   <string name="content_system_message_timestamp_pending">Senden\u2026</string>
   <!-- Conversation: missed call -->
-  <string name="content__missed_call__you_called">DU HAST ANGERUFEN</string>
-  <string name="content__missed_call__xxx_called">%1$s HAT VERSUCHT ANZURUFEN</string>
-  <string name="content__you_pinged">DU HAST GEPINGT</string>
-  <string name="content__you_pinged_again">DU HAST NOCHMAL GEPINGT</string>
-  <string name="content__xxx_pinged">%1$s  HAT GEPINGT</string>
-  <string name="content__xxx_pinged_again">%1$s HAT NOCHMAL GEPINGT</string>
+  <string name="content__missed_call__you_called">[[DU]] HAST ANGERUFEN</string>
+  <string name="content__missed_call__xxx_called">[[%1$s]] HAT ANGERUFEN</string>
+  <string name="content__you_pinged">[[DU]] HAST GEPINGT</string>
+  <string name="content__you_pinged_again">[[DU]] HAST ERNEUT GEPINGT</string>
+  <string name="content__xxx_pinged">[[%1$s]] HAT GEPINGT</string>
+  <string name="content__xxx_pinged_again">[[%1$s]] HAT ERNEUT GEPINGT</string>
   <!-- Conversation: E2EE system messages -->
   <string name="content__otr__conversation_verified">Unterhaltung überprüft</string>
   <string name="content__otr__conversation_unverified">Nicht überprüfte Unterhaltung</string>
@@ -175,7 +175,28 @@
   <string name="content__otr__lost_history">DIESES GERÄT WURDE FÜR EINE WEILE NICHT BENUTZT. EINIGE MELDUNGEN WERDEN HIER VIELLEICHT NICHT ANGEZEIGT.</string>
   <string name="content__otr__unverified_device__message">[[DU]] HAST DIE ÜBERPRÜFUNG VON _%1$s\'s GERÄTEN_ WIDERRUFEN</string>
   <string name="content__otr__your_unverified_device__message">[[DU]] HAST DIE ÜBERPRÜFUNG EINES _DEINER GERÄTE_ WIDERRUFEN</string>
-  <!-- Conversation: actions -->
+  <!-- File transfer -->
+  <string name="content__file__status__default">%1$s</string>
+  <string name="content__file__status__uploading__minimized">HOCHLADEN&#8230;</string>
+  <string name="content__file__status__downloading__minimized">HERUNTERLADEN&#8230;</string>
+  <string name="content__file__status__download_failed__minimized">_HERUNTERLADEN FEHLGESCHLAGEN_</string>
+  <string name="content__file__status__upload_failed__minimized">_HOCHLADEN FEHLGESCHLAGEN_</string>
+  <string name="content__file__status__uploading">%1$s · HOCHLADEN&#8230;</string>
+  <string name="content__file__status__downloading">%1$s · HERUNTERLADEN&#8230;</string>
+  <string name="content__file__status__download_failed">%1$s · _HERUNTERLADEN FEHLGESCHLAGEN_</string>
+  <string name="content__file__status__upload_failed">%1$s · _HOCHLADEN FEHLGESCHLAGEN_</string>
+  <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
+  <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
+  <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · HOCHLADEN&#8230;</string>
+  <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · HERUNTERLADEN&#8230;</string>
+  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · _HERUNTERLADEN FEHLGESCHLAGEN_</string>
+  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · _HOCHLADEN FEHLGESCHLAGEN_</string>
+  <string name="content__file__action__open">ÖFFNEN</string>
+  <string name="content__file__action__save">SPEICHERN</string>
+  <string name="content__file__action__share">TEILEN</string>
+  <string name="content__file__action__open__no_app_found">Keine App gefunden, um diesen Dateityp öffnen</string>
+  <string name="content__file__action__save_completed">Datei erfolgreich gespeichert</string>
+  <!-- Conversation actions -->
   <string name="conversation__action__rename">UMBENENNEN</string>
   <string name="conversation__action__delete">LÖSCHEN</string>
   <string name="conversation__action__archive">ARCHIVIEREN</string>
@@ -234,10 +255,11 @@
   <string name="connect_inbox__one_person__link__name">Eine Kontaktanfrage</string>
   <string name="connect_inbox__multiple_people__link__name">%1$s Kontaktanfragen</string>
   <string name="connect_request__ignore_button__text">Ignorieren</string>
-  <string name="content__message__connect_request__chathead__footer">Verbunden mit <b>%1$s</b>.\nBeginne eine Unterhaltung</string>
-  <!-- Connected to {user name in bold} -->
+  <string name="content__message__connect_request__footer">VERBUNDEN</string>
+  <string name="content__message__connect_request__auto_connect__footer">AUTOMATISCH-VERBUNDEN. _ERFAHRE MEHR_</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">Hat ein Foto geteilt</string>
+  <string name="in_app_notification__footer__file">Hat eine Datei geteilt</string>
   <string name="in_app_notification__footer__ping">hat gepingt</string>
   <string name="in_app_notification__footer__pinged_again">hat nochmal gepingt</string>
   <!-- Otr-->
@@ -522,11 +544,13 @@
   <string name="notification__message__one_to_one__wanted_to_talk">Hat versucht dich anzurufen</string>
   <string name="notification__message__one_to_one__pinged">hat gepingt</string>
   <string name="notification__message__one_to_one__shared_picture">hat ein Bild geteilt</string>
+  <string name="notification__message__one_to_one__shared_file">Hat eine Datei geteilt</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s in %2$s \u0020</string>
   <string name="notification__message__group__pinged">hat gepingt</string>
   <string name="notification__message__group__shared_picture">hat ein Bild geteilt</string>
+  <string name="notification__message__group__shared_file">hat eine Datei geteilt</string>
   <string name="notification__message__group__renamed_conversation">hat die Unterhaltung in %1$s umbenannt</string>
   <string name="notification__message__group__add">hat Personen zur Unterhaltung hinzugefügt</string>
   <string name="notification__message__group__remove">hat Personen aus der Unterhaltung entfernt</string>
@@ -537,8 +561,6 @@
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
   <string name="content__system__last_item_separator">und</string>
-  <string name="content__system__one_other">\u0020 und %1$s andere</string>
-  <string name="content__system__multiple_other">\u0020 und %1$s andere</string>
   <string name="content__system__you">du</string>
   <!-- System notifications -->
   <string name="system_notification__group_call_title">%1$s in %2$s</string>
@@ -551,11 +573,19 @@
   <string name="system_notification__incoming_video">Ruft mit Video an</string>
   <string name="system_notification__ongoing">Im Anruf</string>
   <string name="number_of_conversations_string">ARCHIVIEREN</string>
+  <!-- Notification actions -->
+  <string name="notification__action__call">Anruf</string>
+  <string name="notification__action__reply">Antworten</string>
+  <!-- Quick reply -->
+  <string name="quick_reply__counter">%1$d von %2$d</string>
+  <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
+  <string name="quick_reply__open_wire">Öffne Wire</string>
   <!-- Save image notification -->
   <string name="notification__image_saving__content__title">Wire-Bild gespeichert.</string>
   <string name="notification__image_saving__content__subtitle">Tippe um anzuzeigen.</string>
   <string name="notification__image_saving__action__share">Teilen</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
+  <string name="notification__file_saving__content__title">Wire-Datei gespeichert.</string>
   <!-- forced update -->
   <string name="forced_update__header">Wichtiges Update</string>
   <string name="forced_update__sub_header">Bitte installiere die neueste Version von Wire.</string>
@@ -695,7 +725,7 @@
   <string name="otr__device_id">ID: %s</string>
   <string name="otr__first_launch__header">Du benutzt Wire zum ersten Mal auf diesem Gerät.</string>
   <string name="otr__first_launch__sub_header">Aus Datenschutzgründen wird dein bisheriger Gesprächsverlauf nicht angezeigt.</string>
-  <string name="otr__first_launch__button">Verstanden</string>
+  <string name="otr__first_launch__button">OK</string>
   <string name="otr__device_approve__header">Du hast ein Gerät zu deinem Wire-Benutzerkonto hinzugefügt.</string>
   <string name="otr__device_approve__note">Falls du dieses Gerät nicht hinzugefügt hast, entferne es und setze dein Passwort zurück.</string>
   <string name="otr__signin__info_text">Login</string>
@@ -717,4 +747,20 @@
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__call_video">Videoanruf</string>
   <string name="conversation_toolbar__call_audio">Audioanruf</string>
+  <!-- Asset upload errors -->
+  <string name="asset_upload_error__not_found__title">Datei nicht gefunden</string>
+  <string name="asset_upload_error__not_found__message">Angegebene Datei kann nicht abgerufen werden</string>
+  <string name="asset_upload_error__not_found__button">OK</string>
+  <string name="asset_upload_error__file_too_large__title">Datei zu groß</string>
+  <string name="asset_upload_error__file_too_large__message_default">Das Hochladen von großen Dateien wird nicht unterstützt.</string>
+  <string name="asset_upload_error__file_too_large__message">Du kannst Dateien bis zueiner Größe von %1$s senden.</string>
+  <string name="asset_upload_error__file_too_large__button">OK</string>
+  <string name="asset_upload_warning__large_file__title">Du bist nicht auf Wi-Fi</string>
+  <string name="asset_upload_warning__large_file__message_default">Bist du sicher, dass du eine große Datei im mobilen Datennetz hochladen willst?</string>
+  <string name="asset_upload_warning__large_file__message">Bist du sicher, dass du %1$s über das mobile Datennetz senden möchtest?</string>
+  <string name="asset_upload_warning__large_file__button_accept">OK</string>
+  <string name="asset_upload_warning__large_file__button_cancel">ABBRECHEN</string>
+  <!-- no contacts -->
+  <string name="no_conversation_in_list__header">Keine Unterhaltungen</string>
+  <string name="no_conversation_in_list__message">Tippe auf das Kontaktsymbol, um eine neue Unterhaltung zu beginnen</string>
 </resources>
