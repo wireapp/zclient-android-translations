@@ -663,8 +663,8 @@
   <string name="edit_phone_number">TELEFONNUMMER ÄNDERN</string>
   <string name="i_have_an_account">LOGIN</string>
   <plurals name="welcome__resend__timer_label">
-    <item quantity="one">KEIN CODE?\nDU KANNST EINEN NEUEN IN %1$d SEKUNDE ANFORDERN</item>
-    <item quantity="other">KEIN CODE?\nDU KANNST EINEN NEUEN IN %1$d SEKUNDE ANFORDERN</item>
+    <item quantity="one">KEIN CODE?\nDU KANNST EINEN NEUEN IN %1$d SEKUNDEN ANFORDERN</item>
+    <item quantity="other">KEIN CODE?\nDU KANNST EINEN NEUEN IN %1$d SEKUNDEN ANFORDERN</item>
   </plurals>
   <string name="welcome__resend__manual">ERNEUT SENDEN</string>
   <string name="activation_code_info_manual">Bitte gib den Code ein den wir an &lt;b&gt;%s&lt;/b&gt; gesendet haben;</string>
@@ -747,6 +747,8 @@
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__call_video">Videoanruf</string>
   <string name="conversation_toolbar__call_audio">Audioanruf</string>
+  <string name="conversation_toolbar__delete">Löschen</string>
+  <string name="conversation_toolbar__copy">Kopieren</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Datei nicht gefunden</string>
   <string name="asset_upload_error__not_found__message">Angegebene Datei kann nicht abgerufen werden</string>
@@ -761,8 +763,8 @@
   <string name="asset_upload_warning__large_file__button_accept">OK</string>
   <string name="asset_upload_warning__large_file__button_cancel">ABBRECHEN</string>
   <!-- no contacts -->
-  <string name="no_conversation_in_list__header">Keine Unterhaltungen</string>
-  <string name="no_conversation_in_list__message">Tippe auf das Kontaktsymbol, um eine neue Unterhaltung zu beginnen</string>
+  <string name="no_conversation_in_list__header">Keine aktiven Unterhaltungen</string>
+  <string name="no_conversation_in_list__message">Tippe auf Kontakte, um eine neue Unterhaltung zu beginnen</string>
   <string name="cursor__type_a_message">TIPPE EINE NACHRICHT</string>
   <string name="tooltip_record">Video aufnehmen</string>
   <string name="tooltip_camera">Foto hinzufügen</string>
@@ -770,4 +772,17 @@
   <string name="tooltip_ping">Ping</string>
   <string name="tooltip_file">Datei senden</string>
   <string name="new_feature">Neu</string>
+  <!-- Delete -->
+  <plurals name="conversation__action_mode__delete__dialog__title">
+    <item quantity="one">Nachricht löschen</item>
+    <item quantity="other">Nachrichten löschen</item>
+  </plurals>
+  <plurals name="conversation__action_mode__delete__dialog__message">
+    <item quantity="one">Die Nachricht wird nur auf deiner Seite der Unterhaltung gelöscht. Dies kann nicht rückgängig gemacht werden.</item>
+    <item quantity="other">Die Nachrichten werden nur auf deiner Seite der Unterhaltung gelöscht. Dies kann nicht rückgängig gemacht werden.</item>
+  </plurals>
+  <string name="conversation__action_mode__delete__dialog__cancel">ABBRECHEN</string>
+  <string name="conversation__action_mode__delete__dialog__ok">Löschen</string>
+  <string name="conversation__action_mode__copy__description">Nachricht von %1$s</string>
+  <string name="conversation__action_mode__copy__toast">Kopiert</string>
 </resources>

@@ -765,11 +765,13 @@ Plural:
   <string name="change_settings">Изменить настройки</string>
   <string name="single_image__save_to_disk__error">Не удается сохранить изображение, нет доступа к внешнему хранилищу</string>
   <string name="conversation_list__label_action__contacts">КОНТАКТЫ</string>
-  <string name="conversation_list__hint_header">Любой разговор начинается здесь</string>
-  <string name="conversation_list__hint_text">Начни разговор или пригласи еще людей. Звонки, сообщения и многое другое - приватно или в группе.</string>
+  <string name="conversation_list__hint_header">Conversations start here</string>
+  <string name="conversation_list__hint_text">Start a conversation or invite more people to join. Call, message and share in private or with groups.</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__call_video">Видео звонок</string>
   <string name="conversation_toolbar__call_audio">Аудиозвонок</string>
+  <string name="conversation_toolbar__delete">Удалить</string>
+  <string name="conversation_toolbar__copy">Копировать</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Файл не найден</string>
   <string name="asset_upload_error__not_found__message">Не удается найти указанный файл</string>
@@ -784,8 +786,8 @@ Plural:
   <string name="asset_upload_warning__large_file__button_accept">OK</string>
   <string name="asset_upload_warning__large_file__button_cancel">Отменить</string>
   <!-- no contacts -->
-  <string name="no_conversation_in_list__header">Нет разговоров</string>
-  <string name="no_conversation_in_list__message">Нажмите на контакты, чтобы начать новый диалог</string>
+  <string name="no_conversation_in_list__header">No active conversations</string>
+  <string name="no_conversation_in_list__message">Tap contacts to start a conversation</string>
   <string name="cursor__type_a_message">ВВЕДИТЕ СООБЩЕНИЕ</string>
   <string name="tooltip_record">Записать видео</string>
   <string name="tooltip_camera">Добавить фотографию</string>
@@ -793,4 +795,19 @@ Plural:
   <string name="tooltip_ping">Пинг</string>
   <string name="tooltip_file">Отправить файл</string>
   <string name="new_feature">Новое</string>
+  <!-- Delete -->
+  <plurals name="conversation__action_mode__delete__dialog__title">
+    <item quantity="one">Delete message</item>
+    <item quantity="few">Delete messages</item>
+    <item quantity="other">Delete messages</item>
+  </plurals>
+  <plurals name="conversation__action_mode__delete__dialog__message">
+    <item quantity="one">The message will only be removed from your view of the conversation. This cannot be undone.</item>
+    <item quantity="few">The messages will only be removed from your view of the conversation. This cannot be undone.</item>
+    <item quantity="other">The messages will only be removed from your view of the conversation. This cannot be undone.</item>
+  </plurals>
+  <string name="conversation__action_mode__delete__dialog__cancel">Отменить</string>
+  <string name="conversation__action_mode__delete__dialog__ok">Удалить</string>
+  <string name="conversation__action_mode__copy__description">Message from %1$s</string>
+  <string name="conversation__action_mode__copy__toast">Copied</string>
 </resources>
