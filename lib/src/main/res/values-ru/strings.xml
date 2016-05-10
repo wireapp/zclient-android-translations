@@ -87,10 +87,6 @@
   <string name="invitation__phone__failed">Не удалось зарегистрироваться по этому приглашению.</string>
   <string name="invitation__email__failed">Не удалось зарегистрироваться по этому приглашению.</string>
   <!-- Onboarding hints (first-time use) -->
-  <string name="instructions__app_map__title">Wire может использовать жесты.</string>
-  <string name="instructions__app_map__dismiss_button">ПОНЯТНО, СПАСИБО</string>
-  <string name="instructions__app_map__subtitle_top">Просто потяните вниз, чтобы начать разговор.</string>
-  <string name="instructions__app_map__subtitle_bottom">Проведите снизу вверх для создания групп.\nПотяните курсор, чтобы показать инструменты.</string>
   <string name="instructions__discover_change_profile_picture__title">НАЖМИТЕ, ЧТОБЫ ИЗМЕНИТЬ ВАШЕ ФОТО</string>
   <string name="instructions__discover_change_accent_color__title">НАЖМИТЕ, ЧТОБЫ ИЗМЕНИТЬ ЦВЕТ ВАШЕГО ПРОФИЛЯ</string>
   <string name="instructions__discover_theme_toggle_hint">НАЖМИТЕ ДЛЯ ПЕРЕКЛЮЧЕНИЯ ЦВЕТА РАЗГОВОРА</string>
@@ -488,12 +484,9 @@
   <string name="system_status__no_connectivity">ОТСУТСТВУЕТ ПОДКЛЮЧЕНИЕ К ИНТЕРНЕТУ</string>
   <!-- SHARING -->
   <string name="system_status__sharing">ВЫБЕРИТЕ РАЗГОВОР</string>
-  <string name="sign_up__no_internet__title">Отсутствует подключение к интернету</string>
-  <string name="sign_up__no_internet__message">Вы должны быть онлайн, чтобы присоединиться. Проверьте подключение и повторите попытку.</string>
-  <string name="sign_up__no_internet__button">OK</string>
-  <string name="sign_in__no_internet__title">Отсутствует подключение к интернету</string>
+  <string name="alert_dialog__confirmation">OK</string>
+  <string name="alert_dialog__no_network__header">Отсутствует подключение к интернету</string>
   <string name="sign_in__no_internet__message">Вы должны быть онлайн, чтобы войти. Проверьте подключение и повторите попытку.</string>
-  <string name="sign_in__no_internet__button">OK</string>
   <string name="sign_up__take_picture__back">Изменить имя</string>
   <string name="sign_up__take_picture_dialog__gallery">Галерея</string>
   <string name="sign_up__take_picture_dialog__camera">Камера</string>
@@ -503,21 +496,12 @@
   <string name="sign_up__set_picture__keep">Оставить эту</string>
   <string name="sign_up__set_picture__guidance">Wire выглядит лучше с вашей фотографией.</string>
   <string name="sign_up__set_picture__loading">Загрузка фото</string>
-  <string name="rename_conversation__no_network__header">Отсутствует подключение к интернету</string>
   <string name="rename_conversation__no_network__message">Вы должны быть онлайн, чтобы переименовать разговор. Проверьте подключение и повторите попытку.</string>
-  <string name="rename_conversation__no_network__button">OK</string>
-  <string name="leave_conversation_failed__title">Отсутствует подключение к интернету</string>
+  <string name="resend_message__no_network__message">Вы должны быть онлайн, чтобы переотправить сообщение. Проверьте подключение и повторите попытку.</string>
   <string name="leave_conversation_failed__message">Вы должны быть онлайн, чтобы покинуть разговор. Проверьте подключение и повторите попытку.</string>
-  <string name="leave_conversation_failed__button">OK</string>
-  <string name="remove_from_conversation__no_network__header">Отсутствует подключение к интернету</string>
   <string name="remove_from_conversation__no_network__message">Вы должны быть онлайн, чтобы удалять людей из разговора. Проверьте подключение и повторите попытку.</string>
-  <string name="remove_from_conversation__no_network__button">OK</string>
-  <string name="calling__call_drop__title">Отсутствует подключение к интернету</string>
   <string name="calling__call_drop__message">Вы должны быть онлайн, чтобы позвонить. Проверьте подключение и повторите попытку.</string>
-  <string name="calling__call_drop__button">OK</string>
-  <string name="profile_pic__no_network__header">Отсутствует подключение к интернету</string>
   <string name="profile_pic__no_network__message">Вы должны быть онлайн, чтобы изменить ваше фото. Проверьте подключение и повторите попытку.</string>
-  <string name="profile_pic__no_network__button">OK</string>
   <string name="calling__voice_channel_full__title">Слишком много людей на звонке</string>
   <plurals name="calling__voice_channel_full__message">
     <!-- should not happen though -->
@@ -525,7 +509,6 @@
     <item quantity="few">Здесь осталось место только для %1$d людей.</item>
     <item quantity="other">Здесь осталось место только для %1$d участников.</item>
   </plurals>
-  <string name="calling__voice_channel_full__button">OK</string>
   <string name="calling__conversation_full__title">Слишком много людей для группового звонка</string>
   <plurals name="calling__conversation_full__message">
     <!-- should not happen though -->
@@ -533,7 +516,6 @@
     <item quantity="few">Звонки работают в разговорах до %1$d участников.</item>
     <item quantity="other">Звонки работают в разговорах до %1$d человек.</item>
   </plurals>
-  <string name="calling__conversation_full__button">OK</string>
   <!-- Lockscreen and notifications -->
   <string name="lockscreen__talk">ЗВОНИТ</string>
   <plurals name="notification__new_messages">
@@ -765,8 +747,8 @@ Plural:
   <string name="change_settings">Изменить настройки</string>
   <string name="single_image__save_to_disk__error">Не удается сохранить изображение, нет доступа к внешнему хранилищу</string>
   <string name="conversation_list__label_action__contacts">КОНТАКТЫ</string>
-  <string name="conversation_list__hint_header">Conversations start here</string>
-  <string name="conversation_list__hint_text">Start a conversation or invite more people to join. Call, message and share in private or with groups.</string>
+  <string name="conversation_list__hint_header">Разговоры начинаются здесь</string>
+  <string name="conversation_list__hint_text">Начни разговор или пригласи еще людей. Звонки, сообщения и многое другое - приватно или в группе.</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__call_video">Видео звонок</string>
   <string name="conversation_toolbar__call_audio">Аудиозвонок</string>
@@ -786,28 +768,28 @@ Plural:
   <string name="asset_upload_warning__large_file__button_accept">OK</string>
   <string name="asset_upload_warning__large_file__button_cancel">Отменить</string>
   <!-- no contacts -->
-  <string name="no_conversation_in_list__header">No active conversations</string>
-  <string name="no_conversation_in_list__message">Tap contacts to start a conversation</string>
+  <string name="no_conversation_in_list__header">Нет активных разговоров</string>
+  <string name="no_conversation_in_list__message">Нажмите на контакты, чтобы начать новый разговор</string>
   <string name="cursor__type_a_message">ВВЕДИТЕ СООБЩЕНИЕ</string>
   <string name="tooltip_record">Записать видео</string>
   <string name="tooltip_camera">Добавить фотографию</string>
   <string name="tooltip_sketch">Нарисовать картинку</string>
-  <string name="tooltip_ping">Пинг</string>
+  <string name="tooltip_ping">Пингануть</string>
   <string name="tooltip_file">Отправить файл</string>
   <string name="new_feature">Новое</string>
   <!-- Delete -->
   <plurals name="conversation__action_mode__delete__dialog__title">
-    <item quantity="one">Delete message</item>
-    <item quantity="few">Delete messages</item>
-    <item quantity="other">Delete messages</item>
+    <item quantity="one">Удалить сообщение</item>
+    <item quantity="few">Удалить сообщения</item>
+    <item quantity="other">Удалить сообщения</item>
   </plurals>
   <plurals name="conversation__action_mode__delete__dialog__message">
-    <item quantity="one">The message will only be removed from your view of the conversation. This cannot be undone.</item>
-    <item quantity="few">The messages will only be removed from your view of the conversation. This cannot be undone.</item>
-    <item quantity="other">The messages will only be removed from your view of the conversation. This cannot be undone.</item>
+    <item quantity="one">Сообщение будет удалено только из разговора на вашей стороне. Это действие не может быть отменено.</item>
+    <item quantity="few">Сообщения будут удалены только из разговора на вашей стороне. Это действие не может быть отменено.</item>
+    <item quantity="other">Сообщения будут удалены только из разговора на вашей стороне. Это действие не может быть отменено.</item>
   </plurals>
   <string name="conversation__action_mode__delete__dialog__cancel">Отменить</string>
   <string name="conversation__action_mode__delete__dialog__ok">Удалить</string>
-  <string name="conversation__action_mode__copy__description">Message from %1$s</string>
-  <string name="conversation__action_mode__copy__toast">Copied</string>
+  <string name="conversation__action_mode__copy__description">Сообщение от %1$s</string>
+  <string name="conversation__action_mode__copy__toast">Скопировано</string>
 </resources>
