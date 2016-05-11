@@ -159,10 +159,10 @@
   <string name="content_system_message_timestamp_failure">Неотправленное сообщение.</string>
   <string name="content_system_message_timestamp_pending">Отправка\u2026</string>
   <!-- Conversation: missed call -->
-  <string name="content__missed_call__you_called">[[YOU]] ЗВОНИЛИ</string>
+  <string name="content__missed_call__you_called">[[ВЫ]] ЗВОНИЛИ</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] ЗВОНИЛ(-А)</string>
-  <string name="content__you_pinged">[[YOU]] ОТПРАВИЛИ ПИНГ</string>
-  <string name="content__you_pinged_again">[[YOU]] ОТПРАВИЛИ ПИНГ ЕЩЕ РАЗ</string>
+  <string name="content__you_pinged">[[ВЫ]] ОТПРАВИЛИ ПИНГ</string>
+  <string name="content__you_pinged_again">[[ВЫ]] ОТПРАВИЛИ ПИНГ ЕЩЕ РАЗ</string>
   <string name="content__xxx_pinged">[[%1$s]] ОТПРАВИЛ(-А) ПИНГ</string>
   <string name="content__xxx_pinged_again">[[%1$s]] ОТПРАВИЛ(-А) ПИНГ ЕЩЕ РАЗ</string>
   <!-- Conversation: E2EE system messages -->
@@ -170,24 +170,27 @@
   <string name="content__otr__conversation_unverified">Непроверенный разговор</string>
   <string name="content__otr__message_error">СООБЩЕНИЕ ОТ [[%1$s]] НЕ БЫЛО ПОЛУЧЕНО. _ПОЧЕМУ? _</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] НАЧАЛ(-А) ИСПОЛЬЗОВАТЬ _НОВОЕ УСТРОЙСТВО_</string>
-  <string name="content__otr__start_this_device__message">[[YOU]] НАЧАЛИ ИСПОЛЬЗОВАТЬ _ДАННОЕ УСТРОЙСТВО_</string>
+  <string name="content__otr__start_this_device__message">[[ВЫ]] НАЧАЛИ ИСПОЛЬЗОВАТЬ _ДАННОЕ УСТРОЙСТВО_</string>
   <string name="content__otr__all_fingerprints_verified">ВСЕ ОТПЕЧАТКИ ПРОВЕРЕНЫ</string>
   <string name="content__otr__lost_history">ВЫ НЕ ИСПОЛЬЗОВАЛИ ЭТО УСТРОЙСТВО НЕКОТОРОЕ ВРЕМЯ. НЕКОТОРЫЕ СООБЩЕНИЯ МОГУТ БЫТЬ НЕ ПОКАЗАНЫ.</string>
-  <string name="content__otr__unverified_device__message">[[YOU]] ОТМЕТИЛИ ОДНО ИЗ УСТРОЙСТВ _%1$s_ КАК НЕПРОВЕРЕННОЕ</string>
+  <string name="content__otr__unverified_device__message">[[ВЫ]] ОТМЕТИЛИ ОДНО ИЗ УСТРОЙСТВ _%1$s_ КАК НЕПРОВЕРЕННОЕ</string>
   <string name="content__otr__your_unverified_device__message">[[YOU]] ВЫ ОТМЕТИЛИ ОДНО ИЗ _YOUR DEVICES_ КАК НЕПРОВЕРЕННОЕ</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">ЗАГРУЗКА&#8230;</string>
+  <string name="content__file__status__cancelled__minimized">ОТМЕНЕНО&#8230;</string>
   <string name="content__file__status__downloading__minimized">СКАЧИВАНИЕ&#8230;</string>
   <string name="content__file__status__download_failed__minimized">_ОШИБКА СКАЧИВАНИЯ_</string>
   <string name="content__file__status__upload_failed__minimized">_ОШИБКА ЗАГРУЗКИ_</string>
   <string name="content__file__status__uploading">%1$s · ЗАГРУЗКА&#8230;</string>
+  <string name="content__file__status__cancelled">%1$s · ОТМЕНЕНО&#8230;</string>
   <string name="content__file__status__downloading">%1$s · СКАЧИВАНИЕ&#8230;</string>
   <string name="content__file__status__download_failed">%1$s · _ОШИБКА СКАЧИВАНИЯ_</string>
   <string name="content__file__status__upload_failed">%1$s · _ОШИБКА ЗАГРУЗКИ_</string>
   <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
   <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
   <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · ЗАГРУЗКА&#8230;</string>
+  <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · ОТМЕНЕНО&#8230;</string>
   <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · СКАЧИВАНИЕ&#8230;</string>
   <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · _ОШИБКА СКАЧИВАНИЯ_</string>
   <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · _ОШИБКА ЗАГРУЗКИ_</string>
@@ -486,6 +489,7 @@
   <string name="system_status__sharing">ВЫБЕРИТЕ РАЗГОВОР</string>
   <string name="alert_dialog__confirmation">OK</string>
   <string name="alert_dialog__no_network__header">Отсутствует подключение к интернету</string>
+  <string name="sign_up__no_internet__message">Вы должны быть онлайн, чтобы присоединиться. Проверьте подключение и повторите попытку.</string>
   <string name="sign_in__no_internet__message">Вы должны быть онлайн, чтобы войти. Проверьте подключение и повторите попытку.</string>
   <string name="sign_up__take_picture__back">Изменить имя</string>
   <string name="sign_up__take_picture_dialog__gallery">Галерея</string>
@@ -497,7 +501,7 @@
   <string name="sign_up__set_picture__guidance">Wire выглядит лучше с вашей фотографией.</string>
   <string name="sign_up__set_picture__loading">Загрузка фото</string>
   <string name="rename_conversation__no_network__message">Вы должны быть онлайн, чтобы переименовать разговор. Проверьте подключение и повторите попытку.</string>
-  <string name="resend_message__no_network__message">Вы должны быть онлайн, чтобы переотправить сообщение. Проверьте подключение и повторите попытку.</string>
+  <string name="resend_message__no_network__message">Вы должны быть онлайн, чтобы заново отправить сообщение. Проверьте подключение и повторите попытку.</string>
   <string name="leave_conversation_failed__message">Вы должны быть онлайн, чтобы покинуть разговор. Проверьте подключение и повторите попытку.</string>
   <string name="remove_from_conversation__no_network__message">Вы должны быть онлайн, чтобы удалять людей из разговора. Проверьте подключение и повторите попытку.</string>
   <string name="calling__call_drop__message">Вы должны быть онлайн, чтобы позвонить. Проверьте подключение и повторите попытку.</string>
