@@ -3,7 +3,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!-- Registration and Sign in -->
   <string name="welcome__slogan">Обсуждайте, разговаривайте, делитесь.\nWire - это захватывающие разговоры.</string>
-  <string name="welcome__terms_of_service">ПРОДОЛЖАЯ, ВЫ СОГЛАШАЕТЕСЬ С _ПРАВИЛАМИ ИСПОЛЬЗОВАНИЯ_.</string>
+  <string name="welcome__terms_of_service">ПРОДОЛЖАЯ, ВЫ СОГЛАШАЕТЕСЬ С _ПРАВИЛАМИ_.</string>
   <string name="profile__photo__guidance">ПРИВЕТ %1$s,\n\nWIRE ВЫГЛЯДИТ НАМНОГО ЛУЧШЕ\nС ВАШИМ ФОТО.</string>
   <string name="profile__name__guidance__tooshort__title">НЕ МЕНЕЕ 2 СИМВОЛОВ</string>
   <string name="profile__email__placeholder">Email</string>
@@ -171,7 +171,7 @@
   <string name="content__otr__message_error">СООБЩЕНИЕ ОТ [[%1$s]] НЕ БЫЛО ПОЛУЧЕНО. _ПОЧЕМУ? _</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] НАЧАЛ(-А) ИСПОЛЬЗОВАТЬ _НОВОЕ УСТРОЙСТВО_</string>
   <string name="content__otr__start_this_device__message">[[ВЫ]] НАЧАЛИ ИСПОЛЬЗОВАТЬ _ДАННОЕ УСТРОЙСТВО_</string>
-  <string name="content__otr__all_fingerprints_verified">ВСЕ ОТПЕЧАТКИ ПРОВЕРЕНЫ</string>
+  <string name="content__otr__all_fingerprints_verified">ВСЕ УСТРОЙСТВА ВЕРИФИЦИРОВАНЫ</string>
   <string name="content__otr__lost_history">ВЫ НЕ ИСПОЛЬЗОВАЛИ ЭТО УСТРОЙСТВО НЕКОТОРОЕ ВРЕМЯ. НЕКОТОРЫЕ СООБЩЕНИЯ МОГУТ БЫТЬ НЕ ПОКАЗАНЫ.</string>
   <string name="content__otr__unverified_device__message">[[ВЫ]] ОТМЕТИЛИ ОДНО ИЗ УСТРОЙСТВ _%1$s_ КАК НЕПРОВЕРЕННОЕ</string>
   <string name="content__otr__your_unverified_device__message">[[YOU]] ВЫ ОТМЕТИЛИ ОДНО ИЗ _YOUR DEVICES_ КАК НЕПРОВЕРЕННОЕ</string>
@@ -252,13 +252,13 @@
   <string name="connect__message">Привет %1$s,\nДавай общаться в Wire.\n%2$s</string>
   <string name="connect_request__common_users__label">Вы оба знакомы с</string>
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
-  <string name="connect_request__sub_header__pending_label">Ожидают</string>
+  <string name="connect_request__sub_header__pending_label">Ожидает подтверждения</string>
   <string name="connect_request__unblock__button__text">Разблокировать</string>
   <string name="send_connect_request__connect_button__text">Добавить в контакты</string>
   <string name="connect_inbox__one_person__link__name">1 человек ожидает</string>
   <string name="connect_inbox__multiple_people__link__name">%1$s людей ожидают</string>
   <string name="connect_request__ignore_button__text">Игнорировать</string>
-  <string name="content__message__connect_request__footer">ДОБАВЛЕН</string>
+  <string name="content__message__connect_request__footer">КОНТАКТ ДОБАВЛЕН</string>
   <string name="content__message__connect_request__auto_connect__footer">ДОБАВЛЕНЫ АВТОМАТИЧЕСКИ. _УЗНАТЬ БОЛЬШЕ_</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">Поделился(-лась) фотографией</string>
@@ -330,7 +330,7 @@
   <string name="mediaplayer__spotify__hint">Подключить Spotify</string>
   <string name="mediaplayer__open_external">Открыть в браузере</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">РАСПРОСТРАНИТЬ ИНФОРМАЦИЮ!</string>
+  <string name="content__invite_banner__title">НАЧНИТЕ ОБЩЕНИЕ!</string>
   <string name="content__invite_banner__subtitle">Добавьте людей или поделитесь ссылкой на этот разговор.</string>
   <string name="content__invite_banner__howto_link">Как это работает?</string>
   <string name="content__invite_banner__button_label">Добавить людей в этот разговор</string>
@@ -399,12 +399,12 @@
   <string name="pref_devices_other_devices_category_title">ДРУГИЕ УСТРОЙСТВА</string>
   <string name="pref_devices_device_activation_summary">Активировано в %1$s - %2$s</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
-  <string name="pref_devices_device_verified">Верифицировано</string>
+  <string name="pref_devices_device_verified">Проверено</string>
   <string name="pref_devices_device_not_verified">Не проверено</string>
   <string name="pref_devices_warning_summary">Если вы не узнаете устройство выше, удалите его и измените пароль в меню Настройки &gt; Аккаунт.</string>
   <string name="pref_devices_device_screen_title">Информация об устройстве</string>
   <string name="pref_devices_device_fingerprint_title">Отпечаток</string>
-  <string name="pref_devices_device_fingerprint_summary">\nWire дает каждому устройству уникальный отпечаток. Сравните их и проверьте ваши устройства и разговоры.</string>
+  <string name="pref_devices_device_fingerprint_summary">\nWire дает каждому устройству уникальный отпечаток. Сравните их и верифицируйте ваши устройства и разговоры.</string>
   <string name="pref_devices_device_trust_title">Верифицировано</string>
   <string name="pref_devices_device_reset_session_title">Сбросить сессию</string>
   <string name="pref_devices_device_reset_session_summary">Если отпечатки не совпадают, сбросьте вашу сессию безопасности, чтобы убедиться, что отпечатки правильно отображаются на всех устройствах.</string>
@@ -432,9 +432,9 @@
   <string name="pref_advanced_screen_title">Дополнительные настройки</string>
   <string name="pref_advanced_category_title">@string/pref_advanced_screen_title</string>
   <string name="pref_advanced_troubleshooting_category_title">УСТРАНЕНИЕ НЕПОЛАДОК</string>
-  <string name="pref_advanced_debug_report_title">Отправить отчет отладки</string>
+  <string name="pref_advanced_debug_report_title">Отправить отладочный отчет</string>
   <string name="pref_advanced_debug_report_summary">Эта информация поможет службе поддержки Wire диагностировать проблемы.</string>
-  <string name="pref_advanced_analytics_title">Данные по использованию и отчеты об ошибках</string>
+  <string name="pref_advanced_analytics_title">Статистика использования и сбои</string>
   <string name="pref_advanced_analytics_summary">Сделайте Wire лучше, отправляя анонимную информацию.</string>
   <string name="pref_advanced_image_download_title">Скачивать картинки</string>
   <string name="pref_advanced_image_download_always">Всегда</string>
@@ -715,21 +715,21 @@ Plural:
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Управление устройствами</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Выход</string>
   <!-- OTR Participants -->
-  <string name="otr__participant__device_header">Wire дает каждому устройству уникальный отпечаток. Сравните их с %1$s и проверьте ваш разговор.</string>
+  <string name="otr__participant__device_header">Wire дает каждому устройству уникальный отпечаток. Сравните их с %1$s и верифицируйте ваш разговор.</string>
   <string name="otr__participant__device_header__no_devices">%1$s использует устаревшую версию Wire. Устройства не отображаются.</string>
   <string name="otr__participant__device_header__link_text">_Зачем верифицировать разговоры?_</string>
   <string name="otr__participant__device_class__unknown">Неизвестное</string>
   <string name="otr__participant__device_class__phone">Телефон</string>
   <string name="otr__participant__device_class__tablet">Планшет</string>
   <string name="otr__participant__device_class__desktop">Настольный компьютер</string>
-  <string name="otr__participant__tab_details">Подробней</string>
+  <string name="otr__participant__tab_details">Профиль</string>
   <string name="otr__participant__tab_devices">Устройства</string>
   <string name="otr__device_activated_info">Активирован в %s</string>
   <string name="otr__participant__single_device__my_fingerprint_link">Показать отпечаток моего устройства</string>
   <string name="otr__participant__single_device__reset_session_link">Сбросить сессию</string>
   <string name="otr__participant__my_device__description">Отпечаток вашего устройства</string>
   <string name="otr__participant__my_device__show_all_devices_link">Показать все мои устройства</string>
-  <string name="otr__participant__single_device__description">Убедитесь, что это соответствует отпечатку, показанному на устройстве %1$s.</string>
+  <string name="otr__participant__single_device__description">Убедитесь, что этот отпечаток соответствует отпечатку, показанному на устройстве %1$s.</string>
   <string name="otr__participant__single_device__how_to_link">_Как это сделать? _</string>
   <string name="otr__device_id">ID: %s</string>
   <string name="otr__first_launch__header">Вы впервые используете Wire на этом устройстве.</string>
