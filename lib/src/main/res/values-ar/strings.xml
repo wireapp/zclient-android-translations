@@ -265,6 +265,7 @@
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">شارك صورة</string>
   <string name="in_app_notification__footer__file">شارك ملف</string>
+  <string name="in_app_notification__footer__video">Shared a video</string>
   <string name="in_app_notification__footer__ping">بينغ</string>
   <string name="in_app_notification__footer__pinged_again">بينغ مرة أخرى</string>
   <!-- Otr-->
@@ -574,12 +575,14 @@
   <string name="notification__message__one_to_one__pinged">بينغ</string>
   <string name="notification__message__one_to_one__shared_picture">شارك صورة</string>
   <string name="notification__message__one_to_one__shared_file">شارك ملف</string>
+  <string name="notification__message__one_to_one__shared_video">Shared a video</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s في %2$s \u0020</string>
   <string name="notification__message__group__pinged">بينغ</string>
   <string name="notification__message__group__shared_picture">شارك صورة</string>
   <string name="notification__message__group__shared_file">شارك ملف</string>
+  <string name="notification__message__group__shared_video">shared a video</string>
   <string name="notification__message__group__renamed_conversation">تمت إعادة تسمية المحادثة إلى %1$s</string>
   <string name="notification__message__group__add">أضاف أشخاص للمحادثة</string>
   <string name="notification__message__group__remove">قام بإزالة أشخاص من المحادثة</string>
@@ -823,6 +826,13 @@
   <string name="asset_upload_warning__large_file__message">هل أنت متأكد من أنك تريد إرسال %1$s عبر شبكة الموبايل؟</string>
   <string name="asset_upload_warning__large_file__button_accept">موافق</string>
   <string name="asset_upload_warning__large_file__button_cancel">إلغاء</string>
+  <!-- Video message errors -->
+  <string name="video_message_error__too_big__title">Video too large</string>
+  <string name="video_message_error__too_big__message">You can send videos up to 25 MB.</string>
+  <string name="video_message_error__title">Video error</string>
+  <string name="video_message_error__message">Unable to process video file</string>
+  <string name="video_message_error__button">موافق</string>
+  <string name="video_message_error__missing_camera_permissions">To send video message, grant permission to access the camera and media files.</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">لا توجد محادثات نشطة</string>
   <string name="no_conversation_in_list__message">اضغط على جهات الاتصال لبدء محادثة جديدة</string>
@@ -854,4 +864,8 @@
   <string name="conversation__action_mode__delete__dialog__ok">حذف</string>
   <string name="conversation__action_mode__copy__description">رسالة من  %1$s</string>
   <string name="conversation__action_mode__copy__toast">تم النسخ</string>
+  <!-- video message preview -->
+  <string name="video_message__preview__header">Send to %1$s</string>
+  <string name="video_message__quick_menu__send_label">Send</string>
+  <string name="video_message__preview__compressing">COMPRESSING&#8230;</string>
 </resources>
