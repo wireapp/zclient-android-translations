@@ -32,15 +32,15 @@
   <string name="new_reg__otr__add_email_sub_info">Hiermit kannst du Wire auf mehreren Geräten verwenden.</string>
   <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
   <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Ungültige E-Mail-Adresse</string>
+  <string name="new_reg_email_invalid_header">Gib eine gültige E-Mail Adresse ein</string>
   <string name="new_reg_email_invalid_message">Bitte gib eine gültige E-Mail-Adresse ein.</string>
-  <string name="new_reg_email_generic_error_header">Ungültige E-Mail-Adresse</string>
+  <string name="new_reg_email_generic_error_header">Gib eine gültige E-Mail Adresse ein</string>
   <string name="new_reg_email_generic_error_message">Bitte gib eine gültige E-Mail-Adresse ein.</string>
   <string name="new_reg_email_register_generic_error_header">Ungültige Informationen</string>
   <string name="new_reg_email_register_generic_error_message">Bitte gib deinen Namen und eine gültige E-Mail-Adresse sowie ein Passwort ein.</string>
   <string name="new_reg_email_invalid_login_credentials_header">Ungültige Informationen</string>
   <string name="new_reg_email_invalid_login_credentials_message">Bitte überprüfe deine Eingaben und versuche es erneut.</string>
-  <string name="new_reg_phone_exists_header">Telefonnummer bereits vergeben</string>
+  <string name="new_reg_phone_exists_header">Telefonnummer bereits in Benutzung</string>
   <string name="new_reg_phone_exists_message">Die Telefonnummer, die du zur Verfügung gestellt hast, wurde bereits registriert. Bitte versuche es erneut.</string>
   <string name="new_reg_phone_invalid_format_header">Ungültige Telefonnummer</string>
   <string name="new_reg_phone_invalid_format_message">Gib bitte eine gültige Telefonnummer ein.</string>
@@ -54,7 +54,7 @@
   <string name="new_reg_phone_pending_login_message">Wir haben dir bereits einen Code per SMS gesendet. Tippe nach 10 Minuten auf  “Erneut senden” um einen neuen Code zu erhalten.</string>
   <string name="new_reg_phone_add_password_header">Ungültiges Passwort</string>
   <string name="new_reg_phone_add_password_message">Bitte überprüfe deine Eingaben und versuche es erneut.</string>
-  <string name="new_reg_phone_generic_error_header">Es ist ein Fehler aufgetreten</string>
+  <string name="new_reg_phone_generic_error_header">Ein Fehler ist aufgetreten</string>
   <string name="new_reg_phone_generic_error_message">Bitte versuche dich erneut zu registrieren.</string>
   <string name="profile_generic_error_header">Ein Fehler ist aufgetreten</string>
   <string name="profile_generic_error_message">Bitte versuche es erneut.</string>
@@ -62,7 +62,7 @@
   <string name="profile_phone_generic_error_message">Bitte gib eine gültige Telefonnummer ein.</string>
   <string name="new_reg_phone_too_man_attempts_header">Zu viele Versuche</string>
   <string name="new_reg_phone_too_man_attempts_message">Versuche dich bitte später einzuloggen.</string>
-  <string name="new_reg_server_connectivity_error_header">Es ist ein Fehler aufgetreten</string>
+  <string name="new_reg_server_connectivity_error_header">Ein Fehler ist aufgetreten</string>
   <string name="new_reg_server_connectivity_error_message">Bitte überprüfe deine Internetverbindung und versuche es erneut.</string>
   <string name="new_reg_internet_connectivity_error_header">Keine Internetverbindung</string>
   <string name="new_reg_internet_connectivity_error_message">Bitte überprüfe deine Internetverbindung und versuche es erneut.</string>
@@ -260,6 +260,7 @@
   <string name="in_app_notification__footer__photo">Hat ein Foto geteilt</string>
   <string name="in_app_notification__footer__file">Hat eine Datei geteilt</string>
   <string name="in_app_notification__footer__video">Hat ein Video geteilt</string>
+  <string name="in_app_notification__footer__audio">Shared an audio message</string>
   <string name="in_app_notification__footer__ping">hat gepingt</string>
   <string name="in_app_notification__footer__pinged_again">hat nochmal gepingt</string>
   <!-- Otr-->
@@ -390,27 +391,33 @@
   <!-- Devices -->
   <string name="pref_devices_current_device_category_title">Aktuelles Gerät</string>
   <string name="pref_devices_other_devices_category_title">Andere Geräte</string>
-  <string name="pref_devices_device_activation_summary">Aktiviert in %1$s - %2$s</string>
+  <string name="pref_devices_device_activation_summary">Aktiviert in [[%1$s]] [[%2$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Überprüft</string>
   <string name="pref_devices_device_not_verified">Nicht überprüft</string>
   <string name="pref_devices_warning_summary">Sollte eines der oben stehenden Geräte nicht durch dich registriert worden sein, entferne es bitte und setze das Passwort in deinem Benutzerkonto zurück.</string>
-  <string name="pref_devices_device_screen_title">Geräteinformationen</string>
-  <string name="pref_devices_device_fingerprint_title">Schlüssel-Fingerabdruck</string>
+  <string name="pref_devices_device_screen_title">Gerätedetails</string>
+  <string name="pref_devices_device_fingerprint_category_title">Schlüssel-Fingerabdruck</string>
   <string name="pref_devices_device_fingerprint_summary">Wire gibt jedem Gerät einen einzigartigen Fingerabdruck. Vergleiche diese und überprüfe deine Geräte und Unterhaltungen.</string>
+  <string name="pref_devices_device_actions_category_title">Aktionen</string>
   <string name="pref_devices_device_trust_title">Überprüft</string>
   <string name="pref_devices_device_reset_session_title">Session zurücksetzen</string>
   <string name="pref_devices_device_reset_session_summary">Falls die Fingerabdrücke nicht übereinstimmen, setze die Session zurück um sicherzustellen, dass die richtigen Fingerabdrücke auf allen Geräten angezeigt werden.</string>
   <string name="pref_devices_device_remove_title">Gerät entfernen</string>
   <string name="pref_devices_device_warning_summary">Du wirst automatisch von dem Gerät abgemeldet.</string>
   <!-- Alerts -->
-  <string name="pref_alerts_screen_title">Benachrichtigungen</string>
-  <string name="pref_alerts_category_title">@string/pref_alerts_screen_title</string>
+  <string name="pref_alerts_screen_title">Töne &amp; Benachrichtigungen</string>
   <string name="pref_alerts_sounds_title">Benachrichtigungstöne</string>
   <string name="pref_alerts_sounds_all">Alle</string>
   <string name="pref_alerts_sounds_new_conversations_and_talks_only">Erste Nachricht, Ping und Anrufe</string>
   <string name="pref_alerts_sounds_none">Keine</string>
   <string name="pref_alerts_vibration_title">Vibration</string>
+  <string name="pref_alerts_sounds_category_title">Benachrichtigungen</string>
+  <string name="pref_alerts_ringtones_category_title">Töne</string>
+  <string name="pref_alerts_ringtones_ringtone_title">Klingeltöne</string>
+  <string name="pref_alerts_ringtones_text_title">Nachrichtenton</string>
+  <string name="pref_alerts_ringtones_ping_title">Ping</string>
+  <string name="pref_alerts_ringtones_default_summary">Wire-Standardton</string>
   <!-- Minions -->
   <string name="pref_minions_screen_title">Minions</string>
   <string name="pref_minions_category_title">@string/pref_minions_screen_title</string>
@@ -432,6 +439,8 @@
   <string name="pref_advanced_image_download_title">Bilder laden</string>
   <string name="pref_advanced_image_download_always">Immer</string>
   <string name="pref_advanced_image_download_wifi">Wi-Fi</string>
+  <string name="debug_report__title">Android Wire bug report - %1$s</string>
+  <string name="debug_report__body">Help us troubleshoot! Please tell us details of what happened, what error message you received or screenshot, and if possible the steps to reproduce the issue.\n\n</string>
   <!-- Developer preferences -->
   <string name="pref_dev_status_bar_title">Statusleiste</string>
   <string name="pref_dev_status_bar_summary">App Neustart erforderlich</string>
@@ -457,7 +466,7 @@
   <string name="pref__account_action__dialog__add_email_password__password">Passwort</string>
   <string name="pref__account_action__dialog__add_email_password__email">E-Mail-Adresse</string>
   <string name="pref__account_action__dialog__add_email_password__title">E-Mail-Adresse hinzufügen</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Ungültige E-Mail-Adresse</string>
+  <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Gib eine gültige E-Mail Adresse ein</string>
   <string name="pref__account_action__dialog__add_email_password__error__invalid_password">Mindestens 8 Zeichen</string>
   <string name="pref__account_action__dialog__edit_phone__title">Telefonnummer bearbeiten</string>
   <string name="pref__account_action__dialog__add_phone__title">Telefonnummer hinzufügen</string>
@@ -533,6 +542,7 @@
   <string name="notification__message__one_to_one__shared_picture">hat ein Bild geteilt</string>
   <string name="notification__message__one_to_one__shared_file">Hat eine Datei geteilt</string>
   <string name="notification__message__one_to_one__shared_video">Hat ein Video geteilt</string>
+  <string name="notification__message__one_to_one__shared_audio">Shared an audio message</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s in %2$s \u0020</string>
@@ -540,6 +550,7 @@
   <string name="notification__message__group__shared_picture">hat ein Bild geteilt</string>
   <string name="notification__message__group__shared_file">hat eine Datei geteilt</string>
   <string name="notification__message__group__shared_video">hat ein Video geteilt</string>
+  <string name="notification__message__group__shared_audio">shared an audio message</string>
   <string name="notification__message__group__renamed_conversation">hat die Unterhaltung in %1$s umbenannt</string>
   <string name="notification__message__group__add">hat Personen zur Unterhaltung hinzugefügt</string>
   <string name="notification__message__group__remove">hat Personen aus der Unterhaltung entfernt</string>
@@ -590,8 +601,8 @@
   <string name="sharing__files__ok">Teilen</string>
   <string name="sharing__files__cancel">ABBRECHEN</string>
   <plurals name="sharing__files__message">
-    <item quantity="one">You are about to share %1$d file with %2$s.</item>
-    <item quantity="other">You are about to share %1$d files with %2$s.</item>
+    <item quantity="one">Du teilst %1$d Datei mit %2$s.</item>
+    <item quantity="other">Du teilst %1$d Dateien mit %2$s.</item>
   </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">Konnte nicht erstellt werden</string>
@@ -764,6 +775,7 @@
   <string name="video_message_error__message">Video-Datei kann nicht verarbeitet werden</string>
   <string name="video_message_error__button">Verstanden</string>
   <string name="video_message_error__missing_camera_permissions">Um die Video-Nachricht zu senden, erteile bitte die Berechtigung auf die Kamera und Media-Dateien zuzugreifen.</string>
+  <string name="audio_message_error__generic">Unable to play audio</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Keine aktiven Unterhaltungen</string>
   <string name="no_conversation_in_list__message">Tippe auf Kontakte, um eine neue Unterhaltung zu beginnen</string>
@@ -772,6 +784,7 @@
   <string name="tooltip_camera">Foto hinzufügen</string>
   <string name="tooltip_sketch">Sketch zeichnen</string>
   <string name="tooltip_ping">Ping</string>
+  <string name="tooltip_audio_message">Zum Senden von Audio, tippe und halte</string>
   <string name="tooltip_file">Datei senden</string>
   <string name="new_feature">Neu</string>
   <!-- Delete -->
@@ -791,4 +804,11 @@
   <string name="video_message__preview__header">An %1$s senden</string>
   <string name="video_message__quick_menu__send_label">Senden</string>
   <string name="video_message__preview__compressing">KOMPRIMIERE&#8230;</string>
+  <string name="audio_message__recording__slide_control__slide_hint">SLIDE UP TO SEND</string>
+  <string name="audio_message__recording__slide_control__tap_hint">TAP TO SEND</string>
+  <string name="audio_message__recording__failure__title">Can\'t record audio</string>
+  <string name="audio_message__recording__failure__message">Versuche es erneut.</string>
+  <string name="audio_message__recording__limit_reached__title">Recording stopped</string>
+  <string name="audio_message__recording__limit_reached__message">Audio messages are limited to 25MB. Send this message?</string>
+  <string name="audio_message__recording__limit_reached__confirmation">SENDEN</string>
 </resources>

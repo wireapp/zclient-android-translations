@@ -33,24 +33,24 @@
   <string name="new_reg__otr__add_email_sub_info">Это позволит использовать Wire на нескольких устройствах.</string>
   <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
   <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Неверный email</string>
+  <string name="new_reg_email_invalid_header">Неправильный email</string>
   <string name="new_reg_email_invalid_message">Пожалуйста, введите правильный email.</string>
-  <string name="new_reg_email_generic_error_header">Неверный email</string>
+  <string name="new_reg_email_generic_error_header">Неправильный email</string>
   <string name="new_reg_email_generic_error_message">Пожалуйста, введите правильный email.</string>
   <string name="new_reg_email_register_generic_error_header">Неверная информация</string>
   <string name="new_reg_email_register_generic_error_message">Пожалуйста, введите свое полное имя, действующий email и пароль.</string>
   <string name="new_reg_email_invalid_login_credentials_header">Неверная информация</string>
   <string name="new_reg_email_invalid_login_credentials_message">Пожалуйста, проверьте ваши данные
 и попробуйте еще раз.</string>
-  <string name="new_reg_phone_exists_header">Такой номер телефона уже использовался</string>
+  <string name="new_reg_phone_exists_header">Такой номер телефона уже использован</string>
   <string name="new_reg_phone_exists_message">Номер телефона, который вы ввели, уже зарегистрирован. Пожалуйста, попробуйте еще раз.</string>
   <string name="new_reg_phone_invalid_format_header">Неправильный номер телефона</string>
   <string name="new_reg_phone_invalid_format_message">Пожалуйста, введите правильный номер телефона</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Неверный код</string>
+  <string name="new_reg_phone_invalid_registration_code_header">Неправильный код</string>
   <string name="new_reg_phone_invalid_registration_code_message">Пожалуйста, введите правильный код.</string>
-  <string name="new_reg_phone_invalid_add_code_header">Неверный код</string>
+  <string name="new_reg_phone_invalid_add_code_header">Неправильный код</string>
   <string name="new_reg_phone_invalid_add_code_message">Пожалуйста, введите правильный код.</string>
-  <string name="new_reg_phone_invalid_login_code_header">Неверный код</string>
+  <string name="new_reg_phone_invalid_login_code_header">Неправильный код</string>
   <string name="new_reg_phone_invalid_login_code_message">Пожалуйста, введите правильный код.</string>
   <string name="new_reg_phone_pending_login_header">Код уже отправлен</string>
   <string name="new_reg_phone_pending_login_message">Мы уже отправили вам код в SMS. Для получения нового кода нажмите \"Отправить повторно\" через 10 минут.</string>
@@ -264,6 +264,7 @@
   <string name="in_app_notification__footer__photo">Поделился(-лась) фотографией</string>
   <string name="in_app_notification__footer__file">Поделился(-лась) файлом</string>
   <string name="in_app_notification__footer__video">Поделился(-лась) видео</string>
+  <string name="in_app_notification__footer__audio">Поделился(-лась) аудио сообщением</string>
   <string name="in_app_notification__footer__ping">Отправил(-а) пинг</string>
   <string name="in_app_notification__footer__pinged_again">Отправил(-а) пинг снова</string>
   <!-- Otr-->
@@ -398,27 +399,33 @@
   <!-- Devices -->
   <string name="pref_devices_current_device_category_title">ТЕКУЩЕЕ УСТРОЙСТВО</string>
   <string name="pref_devices_other_devices_category_title">ДРУГИЕ УСТРОЙСТВА</string>
-  <string name="pref_devices_device_activation_summary">Активировано в %1$s - %2$s</string>
+  <string name="pref_devices_device_activation_summary">Активирован в [[%1$s]]\n [[%2$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Проверено</string>
   <string name="pref_devices_device_not_verified">Не проверено</string>
   <string name="pref_devices_warning_summary">Если вы не узнаете устройство выше, удалите его и измените пароль в меню Настройки &gt; Аккаунт.</string>
-  <string name="pref_devices_device_screen_title">Информация об устройстве</string>
-  <string name="pref_devices_device_fingerprint_title">Отпечаток</string>
+  <string name="pref_devices_device_screen_title">Детали устройства</string>
+  <string name="pref_devices_device_fingerprint_category_title">Отпечаток</string>
   <string name="pref_devices_device_fingerprint_summary">\nWire дает каждому устройству уникальный отпечаток. Сравните их и верифицируйте ваши устройства и разговоры.</string>
+  <string name="pref_devices_device_actions_category_title">Действия</string>
   <string name="pref_devices_device_trust_title">Верифицировано</string>
   <string name="pref_devices_device_reset_session_title">Сбросить сессию</string>
   <string name="pref_devices_device_reset_session_summary">Если отпечатки не совпадают, сбросьте вашу сессию безопасности, чтобы убедиться, что отпечатки правильно отображаются на всех устройствах.</string>
   <string name="pref_devices_device_remove_title">Удалить устройство</string>
   <string name="pref_devices_device_warning_summary">Вы автоматически выйдете из этого устройства.</string>
   <!-- Alerts -->
-  <string name="pref_alerts_screen_title">Оповещения</string>
-  <string name="pref_alerts_category_title">@string/pref_alerts_screen_title</string>
+  <string name="pref_alerts_screen_title">Звуки и оповещения</string>
   <string name="pref_alerts_sounds_title">Звуковые уведомления</string>
   <string name="pref_alerts_sounds_all">Все</string>
   <string name="pref_alerts_sounds_new_conversations_and_talks_only">Первое сообщение, звонки и пинги</string>
   <string name="pref_alerts_sounds_none">Отключены</string>
   <string name="pref_alerts_vibration_title">Вибрация</string>
+  <string name="pref_alerts_sounds_category_title">Оповещения</string>
+  <string name="pref_alerts_ringtones_category_title">Звуки</string>
+  <string name="pref_alerts_ringtones_ringtone_title">Рингтон</string>
+  <string name="pref_alerts_ringtones_text_title">Звук текстового сообщения</string>
+  <string name="pref_alerts_ringtones_ping_title">Пинг</string>
+  <string name="pref_alerts_ringtones_default_summary">Стандартный рингтон Wire</string>
   <!-- Minions -->
   <string name="pref_minions_screen_title">Миньоны</string>
   <string name="pref_minions_category_title">@string/pref_minions_screen_title</string>
@@ -440,6 +447,8 @@
   <string name="pref_advanced_image_download_title">Скачивать картинки</string>
   <string name="pref_advanced_image_download_always">Всегда</string>
   <string name="pref_advanced_image_download_wifi">Только когда подключен Wi-Fi</string>
+  <string name="debug_report__title">Отчет Android об ошибке Wire - %1$s</string>
+  <string name="debug_report__body">Помогите нам устранить ошибку! Пожалуйста, сообщите нам подробности произошедшей ошибки, текст или скриншот и, если возможно, шаги для ее воспроизведения.\n\n</string>
   <!-- Developer preferences -->
   <string name="pref_dev_status_bar_title">Строка состояния</string>
   <string name="pref_dev_status_bar_summary">Необходим перезапуск приложения</string>
@@ -465,11 +474,11 @@
   <string name="pref__account_action__dialog__add_email_password__password">Пароль</string>
   <string name="pref__account_action__dialog__add_email_password__email">Email</string>
   <string name="pref__account_action__dialog__add_email_password__title">Добавить email</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Неверный email</string>
+  <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Неправильный email</string>
   <string name="pref__account_action__dialog__add_email_password__error__invalid_password">Необходимо минимум 8 символов</string>
   <string name="pref__account_action__dialog__edit_phone__title">Изменить телефонный номер</string>
   <string name="pref__account_action__dialog__add_phone__title">Добавить номер телефона</string>
-  <string name="pref__account_action__dialog__add_phone__error__country">Неверный код страны</string>
+  <string name="pref__account_action__dialog__add_phone__error__country">Неправильный код страны</string>
   <string name="pref__account_action__dialog__add_phone__error__number">Неправильный номер телефона</string>
   <string name="pref__account_action__dialog__add_phone__confirm__title">Подтвердите номер</string>
   <string name="pref__account_action__dialog__add_phone__confirm__message">Мы вышлем код уведомления на \n%s</string>
@@ -549,6 +558,7 @@ Plural:
   <string name="notification__message__one_to_one__shared_picture">Поделился(-лась) картинкой</string>
   <string name="notification__message__one_to_one__shared_file">Поделился(-лась) файлом</string>
   <string name="notification__message__one_to_one__shared_video">Поделился(-лась) видео</string>
+  <string name="notification__message__one_to_one__shared_audio">Поделился(-лась) аудио сообщением</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s в %2$s \u0020</string>
@@ -556,6 +566,7 @@ Plural:
   <string name="notification__message__group__shared_picture">поделился картинкой</string>
   <string name="notification__message__group__shared_file">поделился(-лась) файлом</string>
   <string name="notification__message__group__shared_video">поделился(-лась) видео</string>
+  <string name="notification__message__group__shared_audio">поделился(-лась) аудио сообщением</string>
   <string name="notification__message__group__renamed_conversation">переименовал(-а) разговор на %1$s</string>
   <string name="notification__message__group__add">добавил(-а) участников в разговор</string>
   <string name="notification__message__group__remove">удалил(-а) участников из разговора</string>
@@ -603,12 +614,12 @@ Plural:
   <string name="sharing__user_not_logged_in__dialog__title">Пожалуйста, войдите</string>
   <string name="sharing__user_not_logged_in__dialog__message">Откройте Wire и войдите в свой аккаунт, чтобы поделиться.</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
-  <string name="sharing__files__ok">Поделится</string>
+  <string name="sharing__files__ok">Поделиться</string>
   <string name="sharing__files__cancel">Отменить</string>
   <plurals name="sharing__files__message">
-    <item quantity="one">You are about to share %1$d file with %2$s.</item>
-    <item quantity="few">You are about to share %1$d files with %2$s.</item>
-    <item quantity="other">You are about to share %1$d files with %2$s.</item>
+    <item quantity="one">Вы собираетесь поделиться файлом %1$d с %2$s.</item>
+    <item quantity="few">Вы собираетесь поделиться файлом %1$d с %2$s.</item>
+    <item quantity="other">Вы собираетесь поделиться файлами %1$d с %2$s.</item>
   </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">Не удается создать</string>
@@ -788,6 +799,7 @@ Plural:
   <string name="video_message_error__message">Не удается обработать видеофайл</string>
   <string name="video_message_error__button">OK</string>
   <string name="video_message_error__missing_camera_permissions">Чтобы отправить видео, разрешите доступ к камере и медиафайлам.</string>
+  <string name="audio_message_error__generic">Не удается воспроизвести аудио</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Нет активных разговоров</string>
   <string name="no_conversation_in_list__message">Нажмите на контакты, чтобы начать новый разговор</string>
@@ -796,6 +808,7 @@ Plural:
   <string name="tooltip_camera">Добавить фотографию</string>
   <string name="tooltip_sketch">Нарисовать картинку</string>
   <string name="tooltip_ping">Пингануть</string>
+  <string name="tooltip_audio_message">Нажмите и удерживайте, чтобы отправить аудио сообщение</string>
   <string name="tooltip_file">Отправить файл</string>
   <string name="new_feature">Новое</string>
   <!-- Delete -->
@@ -817,4 +830,11 @@ Plural:
   <string name="video_message__preview__header">Отправить %1$s</string>
   <string name="video_message__quick_menu__send_label">Отправить</string>
   <string name="video_message__preview__compressing">СЖАТИЕ&#8230;</string>
+  <string name="audio_message__recording__slide_control__slide_hint">Проведите, чтобы отправить</string>
+  <string name="audio_message__recording__slide_control__tap_hint">НАЖМИТЕ ЧТОБЫ ОТПРАВИТЬ</string>
+  <string name="audio_message__recording__failure__title">Не удается записать аудио</string>
+  <string name="audio_message__recording__failure__message">Пожалуйста, попробуйте еще раз.</string>
+  <string name="audio_message__recording__limit_reached__title">Запись остановлена</string>
+  <string name="audio_message__recording__limit_reached__message">Размер аудио сообщений ограничен 25 Мб. Отправить это сообщение?</string>
+  <string name="audio_message__recording__limit_reached__confirmation">ОТПРАВИТЬ</string>
 </resources>

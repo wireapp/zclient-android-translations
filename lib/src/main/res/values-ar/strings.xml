@@ -32,9 +32,9 @@
   <string name="new_reg__otr__add_email_sub_info">هذا يمكنك من استخدام واير على أجهزة متعددة.</string>
   <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
   <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">بريد إلكتروني غير صحيح</string>
+  <string name="new_reg_email_invalid_header">Invalid email address</string>
   <string name="new_reg_email_invalid_message">الرجاء إدخال عنوان بريد إلكتروني صحيح.</string>
-  <string name="new_reg_email_generic_error_header">بريد إلكتروني غير صالح</string>
+  <string name="new_reg_email_generic_error_header">Invalid email address</string>
   <string name="new_reg_email_generic_error_message">الرجاء إدخال عنوان بريد إلكتروني صالح.</string>
   <string name="new_reg_email_register_generic_error_header">معلومات غير صحيحة</string>
   <string name="new_reg_email_register_generic_error_message">الرجاء إدخال اسمك الكامل وعنوان بريد إلكتروني صالح وكلمة مرور.</string>
@@ -44,7 +44,7 @@
   <string name="new_reg_phone_exists_message">رقم الهاتف الذي أعطيته تم تسجيله من قبل. الرجاء حاول مرة أخرى.</string>
   <string name="new_reg_phone_invalid_format_header">رقم الهاتف غير صحيح</string>
   <string name="new_reg_phone_invalid_format_message">الرجاء إدخال رقم هاتف صحيح</string>
-  <string name="new_reg_phone_invalid_registration_code_header">رمز غير صحيح</string>
+  <string name="new_reg_phone_invalid_registration_code_header">رمز غيرفعال</string>
   <string name="new_reg_phone_invalid_registration_code_message">الرجاء إدخال رمز فعال</string>
   <string name="new_reg_phone_invalid_add_code_header">رمز غيرفعال</string>
   <string name="new_reg_phone_invalid_add_code_message">الرجاء إدخال رمز فعال</string>
@@ -266,6 +266,7 @@
   <string name="in_app_notification__footer__photo">شارك صورة</string>
   <string name="in_app_notification__footer__file">شارك ملف</string>
   <string name="in_app_notification__footer__video">شارك فيديو</string>
+  <string name="in_app_notification__footer__audio">Shared an audio message</string>
   <string name="in_app_notification__footer__ping">بينغ</string>
   <string name="in_app_notification__footer__pinged_again">بينغ مرة أخرى</string>
   <!-- Otr-->
@@ -413,27 +414,33 @@
   <!-- Devices -->
   <string name="pref_devices_current_device_category_title">الجهاز الحالي</string>
   <string name="pref_devices_other_devices_category_title">أجهزة أخرى</string>
-  <string name="pref_devices_device_activation_summary">نشط في %1$s - %2$s</string>
+  <string name="pref_devices_device_activation_summary">Activated in [[%1$s]]\nfrom [[%2$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">تم التحقق</string>
   <string name="pref_devices_device_not_verified">لم يتم التحقق</string>
   <string name="pref_devices_warning_summary">إذا كنت لا تعرف الجهاز أعلاه، قم بإزالته وإعادة تعيين كلمة المرور في إعدادات &gt; حساب.</string>
-  <string name="pref_devices_device_screen_title">معلومات الجهاز</string>
-  <string name="pref_devices_device_fingerprint_title">مفتاح البصمة</string>
+  <string name="pref_devices_device_screen_title">Device details</string>
+  <string name="pref_devices_device_fingerprint_category_title">مفتاح البصمة</string>
   <string name="pref_devices_device_fingerprint_summary">واير يعطي كل جهاز بصمة فريدة. قم بمقارنة البصمات  و تحقق من أجهزتك و محادثاتك.</string>
+  <string name="pref_devices_device_actions_category_title">Actions</string>
   <string name="pref_devices_device_trust_title">تم التحقق</string>
   <string name="pref_devices_device_reset_session_title">إعادة تعيين الجلسة</string>
   <string name="pref_devices_device_reset_session_summary">في حالة عدم تطابق البصمات ، قم بإعادة تعيين الجلسة  للتأكد من ظهور البصمات الصحيحة على كافة أجهزة.</string>
   <string name="pref_devices_device_remove_title">إزالة الجهاز</string>
   <string name="pref_devices_device_warning_summary">سيتم تلقائياً تسجيل خروجك من ذلك الجهاز.</string>
   <!-- Alerts -->
-  <string name="pref_alerts_screen_title">تنبيهات</string>
-  <string name="pref_alerts_category_title">@string/pref_alerts_screen_title</string>
+  <string name="pref_alerts_screen_title">Sounds &amp; Alerts</string>
   <string name="pref_alerts_sounds_title">التنبيهات الصوتية</string>
   <string name="pref_alerts_sounds_all">الكل</string>
   <string name="pref_alerts_sounds_new_conversations_and_talks_only">أولا رسالة، اتصالات و بينغ</string>
   <string name="pref_alerts_sounds_none">لا شيء</string>
   <string name="pref_alerts_vibration_title">اهتزاز</string>
+  <string name="pref_alerts_sounds_category_title">تنبيهات</string>
+  <string name="pref_alerts_ringtones_category_title">Sounds</string>
+  <string name="pref_alerts_ringtones_ringtone_title">Ringtone</string>
+  <string name="pref_alerts_ringtones_text_title">Text tone</string>
+  <string name="pref_alerts_ringtones_ping_title">بينغ</string>
+  <string name="pref_alerts_ringtones_default_summary">Wire Default</string>
   <!-- Minions -->
   <string name="pref_minions_screen_title">التوابع (منيونز)</string>
   <string name="pref_minions_category_title">@string/pref_minions_screen_title</string>
@@ -455,6 +462,8 @@
   <string name="pref_advanced_image_download_title">تنزيل الصور</string>
   <string name="pref_advanced_image_download_always">دائماً</string>
   <string name="pref_advanced_image_download_wifi">واي فاي فقط</string>
+  <string name="debug_report__title">Android Wire bug report - %1$s</string>
+  <string name="debug_report__body">Help us troubleshoot! Please tell us details of what happened, what error message you received or screenshot, and if possible the steps to reproduce the issue.\n\n</string>
   <!-- Developer preferences -->
   <string name="pref_dev_status_bar_title">شريط الحالة</string>
   <string name="pref_dev_status_bar_summary">إعادة تشغيل التطبيق مطلوبة</string>
@@ -480,7 +489,7 @@
   <string name="pref__account_action__dialog__add_email_password__password">كلمة المرور</string>
   <string name="pref__account_action__dialog__add_email_password__email">البريد الإلكتروني</string>
   <string name="pref__account_action__dialog__add_email_password__title">إضافة عنوان البريد الإلكتروني</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_email">بريد إلكتروني غير صالح</string>
+  <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Invalid email address</string>
   <string name="pref__account_action__dialog__add_email_password__error__invalid_password">8 أحرف على الأقل</string>
   <string name="pref__account_action__dialog__edit_phone__title">تعديل رقم الهاتف</string>
   <string name="pref__account_action__dialog__add_phone__title">إضافة رقم الهاتف</string>
@@ -576,6 +585,7 @@
   <string name="notification__message__one_to_one__shared_picture">شارك صورة</string>
   <string name="notification__message__one_to_one__shared_file">شارك ملف</string>
   <string name="notification__message__one_to_one__shared_video">شارك فيديو</string>
+  <string name="notification__message__one_to_one__shared_audio">Shared an audio message</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s في %2$s \u0020</string>
@@ -583,6 +593,7 @@
   <string name="notification__message__group__shared_picture">شارك صورة</string>
   <string name="notification__message__group__shared_file">شارك ملف</string>
   <string name="notification__message__group__shared_video">شارك فيديو</string>
+  <string name="notification__message__group__shared_audio">shared an audio message</string>
   <string name="notification__message__group__renamed_conversation">تمت إعادة تسمية المحادثة إلى %1$s</string>
   <string name="notification__message__group__add">أضاف أشخاص للمحادثة</string>
   <string name="notification__message__group__remove">قام بإزالة أشخاص من المحادثة</string>
@@ -843,6 +854,7 @@
   <string name="video_message_error__message">غير قادر على معالجة ملف الفيديو</string>
   <string name="video_message_error__button">موافق</string>
   <string name="video_message_error__missing_camera_permissions">لإرسال رسالة فيديو، امنح إذن للوصول إلى الكاميرا وملفات الوسائل.</string>
+  <string name="audio_message_error__generic">Unable to play audio</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">لا توجد محادثات نشطة</string>
   <string name="no_conversation_in_list__message">اضغط على جهات الاتصال لبدء محادثة جديدة</string>
@@ -851,6 +863,7 @@
   <string name="tooltip_camera">إضافة صورة</string>
   <string name="tooltip_sketch">ارسم صورة</string>
   <string name="tooltip_ping">بينغ</string>
+  <string name="tooltip_audio_message">Tap and hold to send an audio message</string>
   <string name="tooltip_file">إرسال ملف</string>
   <string name="new_feature">جديد</string>
   <!-- Delete -->
@@ -878,4 +891,11 @@
   <string name="video_message__preview__header">إرسال إلى %1$s</string>
   <string name="video_message__quick_menu__send_label">إرسال</string>
   <string name="video_message__preview__compressing">ضغط...</string>
+  <string name="audio_message__recording__slide_control__slide_hint">SLIDE UP TO SEND</string>
+  <string name="audio_message__recording__slide_control__tap_hint">TAP TO SEND</string>
+  <string name="audio_message__recording__failure__title">Can\'t record audio</string>
+  <string name="audio_message__recording__failure__message">من فضلك حاول مرة أخرى.</string>
+  <string name="audio_message__recording__limit_reached__title">Recording stopped</string>
+  <string name="audio_message__recording__limit_reached__message">Audio messages are limited to 25MB. Send this message?</string>
+  <string name="audio_message__recording__limit_reached__confirmation">إرسال</string>
 </resources>
