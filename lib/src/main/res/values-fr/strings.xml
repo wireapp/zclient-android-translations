@@ -67,7 +67,7 @@
   <string name="new_reg_internet_connectivity_error_header">Pas de connexion Internet</string>
   <string name="new_reg_internet_connectivity_error_message">Veuillez verifier votre connexion internet et essayer à nouveau.</string>
   <string name="new_reg__code_resent">Un nouveau code vous a été envoyé par SMS</string>
-  <string name="new_reg__code_resent__call">Stand by for a call</string>
+  <string name="new_reg__code_resent__call">Attendez de recevoir un appel</string>
   <string name="new_reg__invalid_code__auto_verification__manual">Une erreur est survenue.\n Veuillez verifier que votre numéro de téléphone and votre code soient valides.</string>
   <string name="new_reg__default_country">fr</string>
   <!-- consider updating this for every new language -->
@@ -233,12 +233,12 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Répondre</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">Annuler</string>
   <string name="calling__video_call__slow_connection__message">Vous pourriez avoir des problèmes pendant l\'appel</string>
-  <string name="calling__header__joining">Joining</string>
-  <string name="calling__header__outgoing_subtitle">Ringing</string>
-  <string name="calling__header__outgoing_video_subtitle">Ringing</string>
+  <string name="calling__header__joining">Connexion</string>
+  <string name="calling__header__outgoing_subtitle">Sonnerie</string>
+  <string name="calling__header__outgoing_video_subtitle">Sonnerie</string>
   <string name="calling__header__incoming_subtitle">Appel sortant</string>
   <string name="calling__header__incoming_subtitle__video">Appel video sortant</string>
-  <string name="calling__self_preview_unavailable">VIDEO OFF</string>
+  <string name="calling__self_preview_unavailable">VIDÉO COUPÉE</string>
   <string name="incoming__controls__incoming__decline">REJETER</string>
   <string name="incoming__controls__incoming__accept">ACCEPTER</string>
   <string name="incoming__controls__ongoing__hangup">RACCROCHER</string>
@@ -246,8 +246,8 @@
   <string name="incoming__controls__ongoing__mute">SILENCE</string>
   <string name="incoming__controls__ongoing__video">VIDÉO</string>
   <string name="ongoing__other_turned_off_video">%1$s A DÉSACTIVÉ LA VIDÉO</string>
-  <string name="ongoing__other_unable_to_send_video">%1$s IS UNABLE TO SEND VIDEO</string>
-  <string name="ongoing__poor_connection_message">VIDEO STOPPED DUE TO POOR CONNECTION</string>
+  <string name="ongoing__other_unable_to_send_video">%1$s NE PEUT PAS ENVOYER LA VIDÉO</string>
+  <string name="ongoing__poor_connection_message">VIDÉO ARRÊTÉE POUR CAUSE DE CONNEXION FAIBLE</string>
   <string name="ongoing__connecting">APPEL&#8230;</string>
   <!-- Connect request -->
   <string name="connect__message">Bonjour %1$s,\nAjoutons-nous sur Wire.\n%2$s</string>
@@ -674,11 +674,11 @@
   <string name="edit_phone_number">MODIFIER LE NUMÉRO DE TÉLÉPHONE</string>
   <string name="i_have_an_account">SE CONNECTER</string>
   <plurals name="welcome__resend__timer_label">
-    <item quantity="one">YOU CAN REQUEST A NEW CODE IN %1$d SECOND</item>
-    <item quantity="other">YOU CAN REQUEST A NEW CODE IN %1$d SECONDS</item>
+    <item quantity="one">VOUS POUVEZ DEMANDER UN NOUVEAU CODE DANS %1$d SECONDE</item>
+    <item quantity="other">VOUS POUVEZ DEMANDER UN NOUVEAU CODE DANS %1$d SECONDES</item>
   </plurals>
   <string name="welcome__resend__manual">RENVOYER</string>
-  <string name="welcome__resend__callme">CALL ME</string>
+  <string name="welcome__resend__callme">APPELEZ MOI</string>
   <string name="activation_code_info_manual">Entrez le code de vérification que nous avons envoyé au &lt;b&gt;%s&lt;/b&gt;</string>
   <string name="enter_name">Comment vous appelez-vous?</string>
   <string name="enter_name_hint">Entrez votre nom complet</string>
@@ -761,7 +761,7 @@
   <string name="conversation_toolbar__call_audio">Appel audio</string>
   <string name="conversation_toolbar__delete">Supprimer</string>
   <string name="conversation_toolbar__copy">Copier</string>
-  <string name="conversation_toolbar__fwd">Forward</string>
+  <string name="conversation_toolbar__fwd">Vers l’avant</string>
   <string name="conversation_toolbar__mediabar__close">Arrêter</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Fichier non trouvé</string>
@@ -772,8 +772,8 @@
   <string name="asset_upload_error__file_too_large__message">Vous pouvez envoyer des fichiers jusqu\'à %1$s.</string>
   <string name="asset_upload_error__file_too_large__button">OK</string>
   <string name="asset_upload_warning__large_file__title">Vous n\'êtes pas connecté via Wi-Fi</string>
-  <string name="asset_upload_warning__large_file__message_default">Are you sure you want to send a large file via the mobile network?</string>
-  <string name="asset_upload_warning__large_file__message">Are you sure you want to send %1$s via the mobile network?</string>
+  <string name="asset_upload_warning__large_file__message_default">Êtes-vous sûr de vouloir envoyer un fichier volumineux via connexion mobile ?</string>
+  <string name="asset_upload_warning__large_file__message">Êtes vous sûr de vouloir envoyer %1$s via connexion mobile ?</string>
   <string name="asset_upload_warning__large_file__button_accept">OK</string>
   <string name="asset_upload_warning__large_file__button_cancel">Annuler</string>
   <!-- Video message errors -->
@@ -782,7 +782,7 @@
   <string name="video_message_error__title">Erreur vidéo</string>
   <string name="video_message_error__message">Impossible de traiter le fichier vidéo</string>
   <string name="video_message_error__button">OK</string>
-  <string name="video_message_error__missing_camera_permissions">To send video messages, grant permission to access the camera and media files.</string>
+  <string name="video_message_error__missing_camera_permissions">Pour envoyer un message vidéo, accorder l’autorisation d’accéder à la caméra et autres médias.</string>
   <string name="audio_message_error__generic">Incapable de lire les données audio</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Aucune conversation active</string>
@@ -808,14 +808,14 @@
   <string name="conversation__action_mode__delete__dialog__ok">Supprimer</string>
   <string name="conversation__action_mode__copy__description">Message de %1$s</string>
   <string name="conversation__action_mode__copy__toast">Copié</string>
-  <string name="conversation__action_mode__fwd__dialog__title">Preparing content</string>
-  <string name="conversation__action_mode__fwd__dialog__message">Please wait&#8230;</string>
-  <string name="conversation__action_mode__fwd__chooser__title">Forward to</string>
+  <string name="conversation__action_mode__fwd__dialog__title">En train de préparer le contenu</string>
+  <string name="conversation__action_mode__fwd__dialog__message">Veuillez patienter&#8230;</string>
+  <string name="conversation__action_mode__fwd__chooser__title">Envoyer à</string>
   <!-- video message preview -->
   <string name="video_message__preview__header">Envoyer à %1$s</string>
   <string name="video_message__quick_menu__send_label">Envoyer</string>
   <string name="video_message__preview__compressing">COMPRESSION&#8230;</string>
-  <string name="audio_message__recording__slide_control__slide_hint">SWIPE UP TO SEND</string>
+  <string name="audio_message__recording__slide_control__slide_hint">FAÎTES GLISSER POUR ENVOYER</string>
   <string name="audio_message__recording__slide_control__tap_hint">APPUYEZ POUR ENVOYER</string>
   <string name="audio_message__recording__failure__title">Ne peut pas enregistrer les données audio</string>
   <string name="audio_message__recording__failure__message">Veuillez essayer à nouveau.</string>
