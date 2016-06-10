@@ -70,6 +70,7 @@
   <string name="new_reg_internet_connectivity_error_header">Отсутствует подключение к интернету</string>
   <string name="new_reg_internet_connectivity_error_message">Пожалуйста, проверьте подключение к интернету и повторите попытку.</string>
   <string name="new_reg__code_resent">Новый код был отправлен Вам по SMS</string>
+  <string name="new_reg__code_resent__call">Ожидать звонок</string>
   <string name="new_reg__invalid_code__auto_verification__manual">Что-то пошло не так.\nПожалуйста, убедитесь, что номер телефона и код верны.</string>
   <string name="new_reg__default_country">ru</string>
   <!-- consider updating this for every new language -->
@@ -236,10 +237,12 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Ответить</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">Отмена</string>
   <string name="calling__video_call__slow_connection__message">Могут возникнуть проблемы во время звонка</string>
-  <string name="calling__header__outgoing_subtitle">ЗВОНИТ</string>
-  <string name="calling__header__outgoing_video_subtitle">звонит</string>
-  <string name="calling__header__incoming_subtitle">ЗВОНИТ</string>
-  <string name="calling__header__incoming_subtitle__video">Видеозвонок</string>
+  <string name="calling__header__joining">Присоединиться</string>
+  <string name="calling__header__outgoing_subtitle">Звонок</string>
+  <string name="calling__header__outgoing_video_subtitle">Звонок</string>
+  <string name="calling__header__incoming_subtitle">Звонит</string>
+  <string name="calling__header__incoming_subtitle__video">Видео звонок</string>
+  <string name="calling__self_preview_unavailable">ВИДЕО ВЫКЛЮЧЕНО</string>
   <string name="incoming__controls__incoming__decline">Отклонить</string>
   <string name="incoming__controls__incoming__accept">Принять</string>
   <string name="incoming__controls__ongoing__hangup">ПОВЕСИТЬ ТРУБКУ</string>
@@ -247,6 +250,8 @@
   <string name="incoming__controls__ongoing__mute">ВЫКЛ. ЗВУК</string>
   <string name="incoming__controls__ongoing__video">Видео</string>
   <string name="ongoing__other_turned_off_video">%1$s ОТКЛЮЧИЛ ВИДЕО</string>
+  <string name="ongoing__other_unable_to_send_video">%1$s НЕ МОЖЕТ ОТПРАВИТЬ ВИДЕО</string>
+  <string name="ongoing__poor_connection_message">ВИДЕО ОСТАНОВЛЕНО ИЗ-ЗА ПЛОХОГО СОЕДИНЕНИЯ</string>
   <string name="ongoing__connecting">ПОДКЛЮЧЕНИЕ&#8230;</string>
   <!-- Connect request -->
   <string name="connect__message">Привет %1$s,\nДавай общаться в Wire.\n%2$s</string>
@@ -692,11 +697,12 @@ Plural:
   <string name="edit_phone_number">ИЗМЕНИТЬ НОМЕР ТЕЛЕФОНА</string>
   <string name="i_have_an_account">ВОЙТИ</string>
   <plurals name="welcome__resend__timer_label">
-    <item quantity="one">НЕ ПОЛУЧИЛИ КОД? \nВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ ЧЕРЕЗ %1$d СЕКУНДУ</item>
-    <item quantity="few">НЕ ПОЛУЧИЛИ КОД? \nВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ ЧЕРЕЗ %1$d СЕКУНД</item>
-    <item quantity="other">НЕ ПОЛУЧИЛИ КОД? \nВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ ЧЕРЕЗ %1$d СЕКУНД</item>
+    <item quantity="one">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНДУ</item>
+    <item quantity="few">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНДУ</item>
+    <item quantity="other">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНД</item>
   </plurals>
   <string name="welcome__resend__manual">ОТПРАВИТЬ ПОВТОРНО</string>
+  <string name="welcome__resend__callme">Позвони мне</string>
   <string name="activation_code_info_manual">Введите код, который мы отправили для &lt;b&gt;%s&lt;/b&gt;</string>
   <string name="enter_name">Как нам называть вас?</string>
   <string name="enter_name_hint">Введите полное имя</string>
@@ -800,7 +806,7 @@ Plural:
   <string name="video_message_error__title">Ошибка видео</string>
   <string name="video_message_error__message">Не удается обработать видеофайл</string>
   <string name="video_message_error__button">OK</string>
-  <string name="video_message_error__missing_camera_permissions">Чтобы отправить видео, разрешите доступ к камере и медиафайлам.</string>
+  <string name="video_message_error__missing_camera_permissions">Для отправки видео сообщений разрешите доступ к камере и медиафайлам.</string>
   <string name="audio_message_error__generic">Не удается воспроизвести аудио</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Нет активных разговоров</string>
@@ -835,7 +841,7 @@ Plural:
   <string name="video_message__preview__header">Отправить %1$s</string>
   <string name="video_message__quick_menu__send_label">Отправить</string>
   <string name="video_message__preview__compressing">СЖАТИЕ&#8230;</string>
-  <string name="audio_message__recording__slide_control__slide_hint">Проведите, чтобы отправить</string>
+  <string name="audio_message__recording__slide_control__slide_hint">ПРОВЕДИТЕ ВВЕРХ ДЛЯ ОТПРАВКИ</string>
   <string name="audio_message__recording__slide_control__tap_hint">НАЖМИТЕ ЧТОБЫ ОТПРАВИТЬ</string>
   <string name="audio_message__recording__failure__title">Не удается записать аудио</string>
   <string name="audio_message__recording__failure__message">Пожалуйста, попробуйте еще раз.</string>

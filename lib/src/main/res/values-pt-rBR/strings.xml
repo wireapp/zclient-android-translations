@@ -67,6 +67,7 @@
   <string name="new_reg_internet_connectivity_error_header">Sem conexão de internet</string>
   <string name="new_reg_internet_connectivity_error_message">Por favor, verifique sua conexão de Internet e tente novamente.</string>
   <string name="new_reg__code_resent">Um novo código foi enviado via SMS</string>
+  <string name="new_reg__code_resent__call">Aguarde para a chamada</string>
   <string name="new_reg__invalid_code__auto_verification__manual">Algo deu errado. \nPor favor, confirme se o número de telefone e código estão corretos.</string>
   <string name="new_reg__default_country">br</string>
   <!-- consider updating this for every new language -->
@@ -232,10 +233,12 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Atender</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">Cancelar</string>
   <string name="calling__video_call__slow_connection__message">Pode haver alguns problemas durante a chamada</string>
-  <string name="calling__header__outgoing_subtitle">TOCANDO</string>
-  <string name="calling__header__outgoing_video_subtitle">tocando</string>
-  <string name="calling__header__incoming_subtitle">CHAMANDO</string>
-  <string name="calling__header__incoming_subtitle__video">VÍDEO-CHAMADAS</string>
+  <string name="calling__header__joining">Entrando</string>
+  <string name="calling__header__outgoing_subtitle">Chamando</string>
+  <string name="calling__header__outgoing_video_subtitle">Chamando</string>
+  <string name="calling__header__incoming_subtitle">Chamando</string>
+  <string name="calling__header__incoming_subtitle__video">Chamando em Vídeo</string>
+  <string name="calling__self_preview_unavailable">VÍDEO DESLIGADO</string>
   <string name="incoming__controls__incoming__decline">RECUSAR</string>
   <string name="incoming__controls__incoming__accept">ACEITAR</string>
   <string name="incoming__controls__ongoing__hangup">DESLIGAR</string>
@@ -243,6 +246,8 @@
   <string name="incoming__controls__ongoing__mute">SEM SOM</string>
   <string name="incoming__controls__ongoing__video">VÍDEO</string>
   <string name="ongoing__other_turned_off_video">%1$s DESLIGOU O VÍDEO</string>
+  <string name="ongoing__other_unable_to_send_video">%1$s NÃO PODE ENVIAR VÍDEO</string>
+  <string name="ongoing__poor_connection_message">VÍDEO PAROU DEVIDO A CONEXÃO LENTA</string>
   <string name="ongoing__connecting">CONECTANDO&#8230;</string>
   <!-- Connect request -->
   <string name="connect__message">Olá %1$s,\nVamos nos conectar no Wire.\n%2$s</string>
@@ -669,10 +674,11 @@
   <string name="edit_phone_number">EDITAR NÚMERO DE TELEFONE</string>
   <string name="i_have_an_account">ENTRAR</string>
   <plurals name="welcome__resend__timer_label">
-    <item quantity="one">NENHUM CÓDIGO APARECENDO?\n VOCÊ PODE SOLICITAR UM NOVO EM %1$d SEGUNDO</item>
-    <item quantity="other">NENHUM CÓDIGO APARECENDO?\n VOCÊ PODE SOLICITAR UM NOVO EM %1$d SEGUNDOS</item>
+    <item quantity="one">VOCÊ PODE SOLICITAR UM NOVO CÓDIGO EM %1$d SEGUNDO</item>
+    <item quantity="other">VOCÊ PODE SOLICITAR UM NOVO CÓDIGO EM %1$d SEGUNDOS</item>
   </plurals>
   <string name="welcome__resend__manual">REENVIAR</string>
+  <string name="welcome__resend__callme">ME LIGUE</string>
   <string name="activation_code_info_manual">Insira o código de verificação que enviarmos para &lt;b&gt;%s&lt;/b&gt;</string>
   <string name="enter_name">Como você quer ser chamado?</string>
   <string name="enter_name_hint">Digite o nome completo</string>
@@ -776,7 +782,7 @@
   <string name="video_message_error__title">Vídeo com erro</string>
   <string name="video_message_error__message">Não foi possível processar o arquivo de vídeo</string>
   <string name="video_message_error__button">OK</string>
-  <string name="video_message_error__missing_camera_permissions">Para enviar a mensagem de vídeo, conceda permissão para acessar os câmera e arquivos de mídia.</string>
+  <string name="video_message_error__missing_camera_permissions">Para enviar a mensagem de vídeo, permita o acesso a câmera e arquivos de mídia.</string>
   <string name="audio_message_error__generic">Não é possível reproduzir o áudio</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Não há conversas ativas</string>

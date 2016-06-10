@@ -67,6 +67,7 @@
   <string name="new_reg_internet_connectivity_error_header">Keine Internetverbindung</string>
   <string name="new_reg_internet_connectivity_error_message">Bitte überprüfe deine Internetverbindung und versuche es erneut.</string>
   <string name="new_reg__code_resent">Ein neuer Code wurde per SMS gesendet</string>
+  <string name="new_reg__code_resent__call">Auf Anruf warten</string>
   <string name="new_reg__invalid_code__auto_verification__manual">Es ist ein Fehler aufgetreten.\nBitte bestätige das Telefonnummer und Code richtig sind.</string>
   <string name="new_reg__default_country">de</string>
   <!-- consider updating this for every new language -->
@@ -232,10 +233,12 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Annehmen</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">ABBRECHEN</string>
   <string name="calling__video_call__slow_connection__message">Eventuell kommt es zu Problemen während des Anrufs</string>
-  <string name="calling__header__outgoing_subtitle">KLINGELT</string>
+  <string name="calling__header__joining">Beitreten</string>
+  <string name="calling__header__outgoing_subtitle">Klingelt</string>
   <string name="calling__header__outgoing_video_subtitle">Klingelt</string>
-  <string name="calling__header__incoming_subtitle">ANRUF</string>
-  <string name="calling__header__incoming_subtitle__video">VIDEOANRUF</string>
+  <string name="calling__header__incoming_subtitle">Ruft an</string>
+  <string name="calling__header__incoming_subtitle__video">Videoanruf</string>
+  <string name="calling__self_preview_unavailable">VIDEO AUS</string>
   <string name="incoming__controls__incoming__decline">ABLEHNEN</string>
   <string name="incoming__controls__incoming__accept">ANNEHMEN</string>
   <string name="incoming__controls__ongoing__hangup">AUFLEGEN</string>
@@ -243,6 +246,8 @@
   <string name="incoming__controls__ongoing__mute">STUMM</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
   <string name="ongoing__other_turned_off_video">%1$s HAT VIDEO DEAKTIVIERT</string>
+  <string name="ongoing__other_unable_to_send_video">%1$s KANN KEIN VIDEO SENDEN</string>
+  <string name="ongoing__poor_connection_message">VIDEO WEGEN SCHLECHTER VERBINDUNG GESTOPPT</string>
   <string name="ongoing__connecting">VERBINDUNG WIRD HERGESTELLT&#8230;</string>
   <!-- Connect request -->
   <string name="connect__message">Hallo %1$s, \nbitte füge mich als Kontakt hinzu. \n%2$s</string>
@@ -669,10 +674,11 @@
   <string name="edit_phone_number">TELEFONNUMMER ÄNDERN</string>
   <string name="i_have_an_account">LOGIN</string>
   <plurals name="welcome__resend__timer_label">
-    <item quantity="one">KEIN CODE?\nDU KANNST EINEN NEUEN IN %1$d SEKUNDEN ANFORDERN</item>
-    <item quantity="other">KEIN CODE?\nDU KANNST EINEN NEUEN IN %1$d SEKUNDEN ANFORDERN</item>
+    <item quantity="one">DU KANNST EINEN NEUEN CODE IN %1$d SEKUNDEN ANFRAGEN</item>
+    <item quantity="other">DU KANNST EINEN NEUEN CODE IN %1$d SEKUNDEN ANFRAGEN</item>
   </plurals>
   <string name="welcome__resend__manual">ERNEUT SENDEN</string>
+  <string name="welcome__resend__callme">RUFT MICH ZURÜCK</string>
   <string name="activation_code_info_manual">Bitte gib den Code ein den wir an &lt;b&gt;%s&lt;/b&gt; gesendet haben;</string>
   <string name="enter_name">Wie heißt du?</string>
   <string name="enter_name_hint">Bitte gib deinen vollständigen Namen ein</string>
@@ -766,7 +772,7 @@
   <string name="asset_upload_error__file_too_large__message">Du kannst Dateien bis zueiner Größe von %1$s senden.</string>
   <string name="asset_upload_error__file_too_large__button">OK</string>
   <string name="asset_upload_warning__large_file__title">Du bist nicht auf Wi-Fi</string>
-  <string name="asset_upload_warning__large_file__message_default">Bist du sicher, dass du eine große Datei im mobilen Datennetz hochladen willst?</string>
+  <string name="asset_upload_warning__large_file__message_default">Bist du sicher, dass du eine große Datei im mobilen Datennetz senden willst?</string>
   <string name="asset_upload_warning__large_file__message">Bist du sicher, dass du %1$s über das mobile Datennetz senden möchtest?</string>
   <string name="asset_upload_warning__large_file__button_accept">OK</string>
   <string name="asset_upload_warning__large_file__button_cancel">ABBRECHEN</string>
