@@ -379,19 +379,24 @@
   <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">الإعدادات</string>
   <string name="pref_developer_screen_title">إعدادات المطور</string>
+  <string name="pref_dev_avs_screen_title">إعدادات AVS</string>
   <!-- Account -->
   <string name="pref_account_screen_title">الحساب</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">الاسم</string>
   <string name="pref_account_edit_name_title">تعديل الاسم</string>
-  <string name="pref_account_details_category_title">تفاصيل الحساب</string>
+  <string name="pref_account_details_category_title">معلومات</string>
   <string name="pref_account_actions_category_title">الإجراءات</string>
-  <string name="pref_account_details_category_summary">معلوماتك ستكون مشفرة. Wire واير لن تتمكن من رؤيتها، و لكن سيتمكن الناس من إيجادك.</string>
+  <string name="pref_account_appearance_category_title">المظهر</string>
+  <string name="pref_account_details_category_summary">يستطيع الناس إيجادك بواسطة هذه التفاصيل. المعلومات مشفرة وغير مرئية لأي شخص آخر.</string>
   <string name="pref_account_phone_title">الهاتف</string>
   <string name="pref_account_add_phone_title">أضف رقم الهاتف</string>
   <string name="pref_account_email_title">البريد الإلكتروني</string>
   <string name="pref_account_add_email_title">أضف البريد الإلكتروني</string>
   <string name="pref_account_sign_out_title">تسجيل الخروج</string>
+  <string name="pref_account_dark_theme_title">ثيم غامق</string>
+  <string name="pref_account_color_title">اللون</string>
+  <string name="pref_account_picture_title">الصورة</string>
   <string name="pref_account_delete_title">حذف الحساب</string>
   <string name="pref_account_delete_warning_title">حذف الحساب</string>
   <string name="pref_account_delete_warning_message_email">سوف نقوم بإرسال بريد إلكتروني إلى:  [[%1$s]]  اتبع الرابط لحذف حسابك بشكل دائم.</string>
@@ -402,21 +407,37 @@
   <string name="pref_account_sign_out_warning_verify">تسجيل الخروج</string>
   <string name="pref_account_sign_out_warning_cancel">إلغاء</string>
   <string name="pref_account_password_title">إعادة تعيين كلمة المرور</string>
-  <!-- Privacy -->
-  <string name="pref_privacy_screen_title">الخصوصية والأمان</string>
-  <string name="pref_privacy_category_title">@string/pref_privacy_screen_title</string>
-  <string name="pref_privacy_contacts_title">مشاركة جهات الاتصال</string>
-  <string name="pref_privacy_contacts_summary">مشاركة جهات الاتصال الخاصة بك يساعدك على التواصل مع الآخرين. ونحن نخفي هوية جميع المعلومات  ولا نشاركها مع أي شخص آخر.</string>
+  <!-- Options -->
+  <string name="pref_options_screen_title">الخيارات</string>
+  <string name="pref_options_contacts_title">مشاركة جهات الاتصال</string>
+  <string name="pref_options_contacts_summary">هذا يساعدك على التواصل مع الآخرين. ونحن نخفي هوية جميع المعلومات  ولا نشاركها مع أي شخص آخر.</string>
+  <string name="pref_options_alerts_category_title">تنبيهات</string>
+  <string name="pref_options_sounds_title">الأصوات</string>
+  <string name="pref_options_sounds_all">الكل</string>
+  <string name="pref_options_sounds_new_conversations_and_talks_only">أولا رسالة، اتصالات و بينغ</string>
+  <string name="pref_options_sounds_none">لا شيء</string>
+  <string name="pref_options_vibration_title">اهتزاز</string>
+  <string name="pref_options_sounds_category_title">تنبيهات</string>
+  <string name="pref_options_ringtones_category_title">الأصوات</string>
+  <string name="pref_options_ringtones_ringtone_title">نغمة الرنين</string>
+  <string name="pref_options_ringtones_text_title">نغمة النص</string>
+  <string name="pref_options_ringtones_ping_title">بينغ</string>
+  <string name="pref_options_ringtones_default_summary">نغمة واير الافتراضية</string>
+  <string name="pref_options_image_download_title">تنزيل الصور</string>
+  <string name="pref_options_image_download_always">دائماً</string>
+  <string name="pref_options_image_download_wifi">واي فاي فقط</string>
+  <string name="pref_options_media_category_title">الوسائط </string>
+  <string name="pref_options_giphy_title">جيفي</string>
+  <string name="pref_options_giphy_summary">استبدل الرسالة النصية بصور متحركة GIFs.</string>
+  <string name="pref_options_spotify_title">اربط مع سبوتيفاي (Spotify)</string>
+  <string name="pref_options_spotify_logout_title">لا تربط مع سبوتيفاي (Spotify)</string>
+  <string name="pref_options_spotify_summary">تحتاج إلى حساب سبوتيفاي بريميوم (Spotify Premium).</string>
+  <string name="pref_options_spotify_login_failed">لم ينجح تسجيل الدخول. الرجاء المحاولة مرة أخرى!</string>
+  <!-- Devices -->
   <string name="pref_devices_screen_title">الأجهزة</string>
   <string name="pref_current_device_category_title">الجهاز الحالي</string>
   <string name="pref_other_devices_category_title">الأجهزة النشطة</string>
   <string name="pref_devices_summary">انقر للحذف</string>
-  <string name="pref_privacy_report_misuse_title">بلغ عن إساءة الاستخدام</string>
-  <string name="pref_privacy_clear_history_title">مسح التاريخ</string>
-  <string name="pref_privacy_clear_history_summary">سيؤدي هذا إلى محو محتوى جميع المحادثات الخاصة بك بشكل دائم.</string>
-  <string name="pref_privacy_devices_title">الأجهزة</string>
-  <string name="pref_privacy_devices_summary">إدارة الأجهزة التي تستخدمها في حساب Wire واير  الخاص بك.</string>
-  <!-- Devices -->
   <string name="pref_devices_current_device_category_title">الجهاز الحالي</string>
   <string name="pref_devices_other_devices_category_title">أجهزة أخرى</string>
   <string name="pref_devices_device_activation_summary">تم التفعيل في  [[ %1$s]]  n\ من [[%2$s]]</string>
@@ -426,59 +447,41 @@
   <string name="pref_devices_warning_summary">إذا كنت لا تعرف الجهاز أعلاه، قم بإزالته وإعادة تعيين كلمة المرور في إعدادات &gt; حساب.</string>
   <string name="pref_devices_device_screen_title">تفاصيل الجهاز</string>
   <string name="pref_devices_device_fingerprint_category_title">مفتاح البصمة</string>
-  <string name="pref_devices_device_fingerprint_summary">واير يعطي كل جهاز بصمة فريدة. قم بمقارنة البصمات  و تحقق من أجهزتك و محادثاتك.</string>
+  <string name="pref_devices_device_fingerprint_summary">واير يعطي كل جهاز بصمة فريدة. قم بمقارنة البصمات و تحقق من أجهزتك و محادثاتك.</string>
   <string name="pref_devices_device_actions_category_title">الإجراءات</string>
   <string name="pref_devices_device_trust_title">تم التحقق</string>
   <string name="pref_devices_device_reset_session_title">إعادة تعيين الجلسة</string>
-  <string name="pref_devices_device_reset_session_summary">في حالة عدم تطابق البصمات ، قم بإعادة تعيين الجلسة  للتأكد من ظهور البصمات الصحيحة على كافة أجهزة.</string>
+  <string name="pref_devices_device_reset_session_summary">في حالة عدم تطابق بصمات الأجهزة، قم بتحديث الاتصال بينهما. سيؤدي هذا إلى إنشاء مفاتيح تشفير جديدة على كلا الجانبين.</string>
   <string name="pref_devices_device_remove_title">إزالة الجهاز</string>
-  <string name="pref_devices_device_warning_summary">سيتم تلقائياً تسجيل خروجك من ذلك الجهاز.</string>
-  <!-- Alerts -->
-  <string name="pref_alerts_screen_title">الأصوات والتنبيهات</string>
-  <string name="pref_alerts_sounds_title">التنبيهات الصوتية</string>
-  <string name="pref_alerts_sounds_all">الكل</string>
-  <string name="pref_alerts_sounds_new_conversations_and_talks_only">أولا رسالة، اتصالات و بينغ</string>
-  <string name="pref_alerts_sounds_none">لا شيء</string>
-  <string name="pref_alerts_vibration_title">اهتزاز</string>
-  <string name="pref_alerts_sounds_category_title">تنبيهات</string>
-  <string name="pref_alerts_ringtones_category_title">الأصوات</string>
-  <string name="pref_alerts_ringtones_ringtone_title">نغمة الرنين</string>
-  <string name="pref_alerts_ringtones_text_title">نغمة النص</string>
-  <string name="pref_alerts_ringtones_ping_title">بينغ</string>
-  <string name="pref_alerts_ringtones_default_summary">نغمة واير الافتراضية</string>
-  <!-- Minions -->
-  <string name="pref_minions_screen_title">التوابع (منيونز)</string>
-  <string name="pref_minions_category_title">@string/pref_minions_screen_title</string>
-  <string name="pref_minions_screen_summary">التوابع (منيونز) هي وسائل مساعدة تجعل المحادثة مفيدة و ممتعة أكثر.</string>
-  <string name="pref_minions_giphy_title">جيفي</string>
-  <string name="pref_minions_giphy_summary">استبدال الرسائل النصية بصور متحركة GIFs.</string>
-  <string name="pref_minions_spotify_title">اربط مع سبوتيفاي (Spotify)</string>
-  <string name="pref_minions_spotify_logout_title">لا تربط مع سبوتيفاي (Spotify)</string>
-  <string name="pref_minions_spotify_summary">بحاجة إلى سبوتيفاي بريميوم (Spotify Premium)</string>
-  <string name="pref_minions_spotify_login_failed">لم ينجح تسجيل الدخول. الرجاء المحاولة مرة أخرى!</string>
+  <string name="pref_devices_device_remove_summary">سيتم مسح تاريخ الرسائل الخاصة بك، وسيتم تسجيل خروجك تلقائيا من الجهاز.</string>
+  <string name="pref_devices_device_fingerprint_copy_description">مفتاح البصمة</string>
+  <string name="pref_devices_device_fingerprint_copy_toast">تم نسخ مفتاح البصمة</string>
   <!-- Advanced -->
   <string name="pref_advanced_screen_title">متقدم</string>
-  <string name="pref_advanced_category_title">@string/pref_advanced_screen_title</string>
-  <string name="pref_advanced_troubleshooting_category_title">تشخيص الأخطاء وإصلاحها</string>
   <string name="pref_advanced_debug_report_title">قدم تقرير التصحيح</string>
   <string name="pref_advanced_debug_report_summary">هذه المعلومات تساعد  Wire Support في تشخيص المشاكل.</string>
   <string name="pref_advanced_analytics_title">استخدام بيانات وتقارير الأعطال</string>
   <string name="pref_advanced_analytics_summary">اجعل  Wire  واير  أفضل عن طريق إرسال معلومات مجهولة المصدر.</string>
-  <string name="pref_advanced_image_download_title">تنزيل الصور</string>
-  <string name="pref_advanced_image_download_always">دائماً</string>
-  <string name="pref_advanced_image_download_wifi">واي فاي فقط</string>
   <string name="debug_report__title">تقرير أعطال واير للأندرويد - %1$s</string>
   <string name="debug_report__body">ساعدنا في اكتشاف الأخطاء وإصلاحها! الرجاء إعلامنا بتفاصيل ما حدث، أي رسالة خطأ أو لقطة شاشة وصلتك ، وإذا أمكن أن تعلمنا بالخطوات التي اتبعت لحصول المشكلة.</string>
-  <!-- Developer preferences -->
-  <string name="pref_dev_status_bar_title">شريط الحالة</string>
-  <string name="pref_dev_status_bar_summary">إعادة تشغيل التطبيق مطلوبة</string>
-  <string name="pref_dev_avs_post_session_id_title">معرف الجلسة لما بعد المكالمة</string>
-  <string name="pref_dev_avs_post_session_id_summary">معرف الجلسة للمحادثة</string>
-  <string name="pref_dev_avs_last_call_session_id_title">معرف الجلسة لآخر مكالمة</string>
-  <string name="pref_dev_avs_last_call_session_id_not_available">غير متوفر</string>
-  <string name="pref_dev_avs_last_call_session_id_copied_to_clipboard">تم نسخ معرف الجلسة إلى الحافظة</string>
-  <string name="pref_dev_otr_only_title">E2EE only</string>
-  <string name="pref_dev_otr_only_summary">إرسال الرسائل المشفرة فقط</string>
+  <!-- Support -->
+  <string name="pref_support_screen_title">الدعم</string>
+  <string name="pref_support_website_title">الموقع الإلكتروني للدعم في واير </string>
+  <string name="pref_support_website_url">https://support.wire.com</string>
+  <string name="pref_support_contact_title">اتصل بالدعم</string>
+  <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
+  <!-- About -->
+  <string name="pref_about_screen_title">عن</string>
+  <string name="pref_about_website_title">الموقع الإلكتروني ل واير</string>
+  <string name="pref_about_website_url">https://www.wire.com</string>
+  <string name="pref_about_tos_title">شروط الاستخدام</string>
+  <string name="pref_about_tos_url">@string/url_terms_of_service</string>
+  <string name="pref_about_privacy_policy_title">سياسة الخصوصية</string>
+  <string name="pref_about_privacy_policy_url">@string/url_privacy_policy</string>
+  <string name="pref_about_licenses_title">التراخيص</string>
+  <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
+  <string name="pref_about_version_title">الإصدار %s</string>
+  <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">تأكيد رقم الهاتف</string>
   <string name="pref__account_action__phone_verification__description">أدخل رمز التحقق الذي  أرسلناه إلى %s</string>
@@ -786,8 +789,9 @@
   <string name="zms_empty_conversation_name">محادثة فارغة</string>
   <string name="new_reg__phone_signup__create_account">إنشاء حساب</string>
   <!-- OTR -->
-  <string name="otr__remove_device__title">إزالة الجهاز</string>
-  <string name="otr__remove_device__message">كلمة المرور</string>
+  <string name="otr__remove_device__title">إزالة %1$s</string>
+  <string name="otr__remove_device__message">أدخل كلمة المرور الخاصة بك</string>
+  <string name="otr__remove_device__default">الجهاز</string>
   <string name="otr__remove_device__button_delete">موافق</string>
   <string name="otr__remove_device__button_cancel">إلغاء</string>
   <string name="otr__remove_device__error">كلمة مرور خاطئة</string>

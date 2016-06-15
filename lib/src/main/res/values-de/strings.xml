@@ -356,19 +356,24 @@
   <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Einstellungen</string>
   <string name="pref_developer_screen_title">Developer-Einstellungen</string>
+  <string name="pref_dev_avs_screen_title">AVS-Einstellungen</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Benutzerkonto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Name</string>
   <string name="pref_account_edit_name_title">Name ändern</string>
-  <string name="pref_account_details_category_title">Details</string>
+  <string name="pref_account_details_category_title">Info</string>
   <string name="pref_account_actions_category_title">Aktionen</string>
-  <string name="pref_account_details_category_summary">Deine Daten werden verschlüsselt. Wire kann sie nicht sehen, aber andere Nutzer werden in der Lage sein, dich zu finden.</string>
+  <string name="pref_account_appearance_category_title">Erscheinungsbild</string>
+  <string name="pref_account_details_category_summary">People can find you with these details. The information are encrypted and not visible to anyone else.</string>
   <string name="pref_account_phone_title">Telefon</string>
   <string name="pref_account_add_phone_title">Telefonnummer hinzufügen</string>
   <string name="pref_account_email_title">Email</string>
   <string name="pref_account_add_email_title">E-Mail hinzufügen</string>
   <string name="pref_account_sign_out_title">Abmelden</string>
+  <string name="pref_account_dark_theme_title">Dunkler Hintergrund</string>
+  <string name="pref_account_color_title">Farbe</string>
+  <string name="pref_account_picture_title">Bild</string>
   <string name="pref_account_delete_title">Benutzerkonto löschen</string>
   <string name="pref_account_delete_warning_title">Benutzerkonto löschen</string>
   <string name="pref_account_delete_warning_message_email">Wir senden eine E-Mail an: \n [[%1$s]] \nFolge dem Link in dieser E-Mail, um dein Benutzerkonto zu löschen.</string>
@@ -379,21 +384,37 @@
   <string name="pref_account_sign_out_warning_verify">Abmelden</string>
   <string name="pref_account_sign_out_warning_cancel">Abbrechen</string>
   <string name="pref_account_password_title">Passwort zurücksetzen</string>
-  <!-- Privacy -->
-  <string name="pref_privacy_screen_title">Privatsphäre &amp; Sicherheit</string>
-  <string name="pref_privacy_category_title">@string/pref_privacy_screen_title</string>
-  <string name="pref_privacy_contacts_title">Teile Deine Kontakte</string>
-  <string name="pref_privacy_contacts_summary">Wir verwenden deine Kontaktdaten, um Kontakte für dich zu erstellen. Wir anonymisieren alle Informationen und geben sie nicht weiter.</string>
+  <!-- Options -->
+  <string name="pref_options_screen_title">Optionen</string>
+  <string name="pref_options_contacts_title">Teile deine Kontakte</string>
+  <string name="pref_options_contacts_summary">Wir verwenden deine Kontaktdaten, um Kontakte für dich zu erstellen. Wir anonymisieren alle Informationen und geben sie nicht weiter.</string>
+  <string name="pref_options_alerts_category_title">Benachrichtigungen</string>
+  <string name="pref_options_sounds_title">Töne</string>
+  <string name="pref_options_sounds_all">Alle</string>
+  <string name="pref_options_sounds_new_conversations_and_talks_only">Erste Nachricht, Ping und Anrufe</string>
+  <string name="pref_options_sounds_none">Keine</string>
+  <string name="pref_options_vibration_title">Vibration</string>
+  <string name="pref_options_sounds_category_title">Benachrichtigungen</string>
+  <string name="pref_options_ringtones_category_title">Töne</string>
+  <string name="pref_options_ringtones_ringtone_title">Klingeltöne</string>
+  <string name="pref_options_ringtones_text_title">Nachrichtenton</string>
+  <string name="pref_options_ringtones_ping_title">Ping</string>
+  <string name="pref_options_ringtones_default_summary">Wire-Standardton</string>
+  <string name="pref_options_image_download_title">Bilder laden</string>
+  <string name="pref_options_image_download_always">Immer</string>
+  <string name="pref_options_image_download_wifi">Wi-Fi</string>
+  <string name="pref_options_media_category_title">Medien</string>
+  <string name="pref_options_giphy_title">Giphy</string>
+  <string name="pref_options_giphy_summary">GIFs verschicken.</string>
+  <string name="pref_options_spotify_title">Mit Spotify vebinden</string>
+  <string name="pref_options_spotify_logout_title">Von Spotify trennen</string>
+  <string name="pref_options_spotify_summary">Du benötigst ein Spotify Premium-Konto.</string>
+  <string name="pref_options_spotify_login_failed">Login fehlgeschlagen. Bitte versuche es erneut!</string>
+  <!-- Devices -->
   <string name="pref_devices_screen_title">Geräte</string>
   <string name="pref_current_device_category_title">Aktuelles Gerät</string>
   <string name="pref_other_devices_category_title">Aktive Geräte</string>
   <string name="pref_devices_summary">Tippe, um zu entfernen</string>
-  <string name="pref_privacy_report_misuse_title">Missbrauch melden</string>
-  <string name="pref_privacy_clear_history_title">Verlauf löschen</string>
-  <string name="pref_privacy_clear_history_summary">Dies löscht dauerhaft den Inhalt all deiner Unterhaltungen.</string>
-  <string name="pref_privacy_devices_title">Geräte</string>
-  <string name="pref_privacy_devices_summary">Verwalte die Geräte, mit denen du Wire verwendest.</string>
-  <!-- Devices -->
   <string name="pref_devices_current_device_category_title">Aktuelles Gerät</string>
   <string name="pref_devices_other_devices_category_title">Andere Geräte</string>
   <string name="pref_devices_device_activation_summary">Aktiviert in [[%1$s]] [[%2$s]]</string>
@@ -403,59 +424,41 @@
   <string name="pref_devices_warning_summary">Sollte eines der oben stehenden Geräte nicht durch dich registriert worden sein, entferne es bitte und setze das Passwort in deinem Benutzerkonto zurück.</string>
   <string name="pref_devices_device_screen_title">Gerätedetails</string>
   <string name="pref_devices_device_fingerprint_category_title">Schlüssel-Fingerabdruck</string>
-  <string name="pref_devices_device_fingerprint_summary">Wire gibt jedem Gerät einen einzigartigen Fingerabdruck. Vergleiche diese und überprüfe deine Geräte und Unterhaltungen.</string>
+  <string name="pref_devices_device_fingerprint_summary">Wire gibt jedem Gerät einen einzigartigen Fingerabdruck. Vergleiche diese und verifiziere deine Geräte und Unterhaltungen.</string>
   <string name="pref_devices_device_actions_category_title">Aktionen</string>
   <string name="pref_devices_device_trust_title">Überprüft</string>
   <string name="pref_devices_device_reset_session_title">Session zurücksetzen</string>
   <string name="pref_devices_device_reset_session_summary">Falls die Fingerabdrücke nicht übereinstimmen, setze die Session zurück um sicherzustellen, dass die richtigen Fingerabdrücke auf allen Geräten angezeigt werden.</string>
   <string name="pref_devices_device_remove_title">Gerät entfernen</string>
-  <string name="pref_devices_device_warning_summary">Du wirst automatisch von dem Gerät abgemeldet.</string>
-  <!-- Alerts -->
-  <string name="pref_alerts_screen_title">Töne &amp; Benachrichtigungen</string>
-  <string name="pref_alerts_sounds_title">Benachrichtigungstöne</string>
-  <string name="pref_alerts_sounds_all">Alle</string>
-  <string name="pref_alerts_sounds_new_conversations_and_talks_only">Erste Nachricht, Ping und Anrufe</string>
-  <string name="pref_alerts_sounds_none">Keine</string>
-  <string name="pref_alerts_vibration_title">Vibration</string>
-  <string name="pref_alerts_sounds_category_title">Benachrichtigungen</string>
-  <string name="pref_alerts_ringtones_category_title">Töne</string>
-  <string name="pref_alerts_ringtones_ringtone_title">Klingeltöne</string>
-  <string name="pref_alerts_ringtones_text_title">Nachrichtenton</string>
-  <string name="pref_alerts_ringtones_ping_title">Ping</string>
-  <string name="pref_alerts_ringtones_default_summary">Wire-Standardton</string>
-  <!-- Minions -->
-  <string name="pref_minions_screen_title">Minions</string>
-  <string name="pref_minions_category_title">@string/pref_minions_screen_title</string>
-  <string name="pref_minions_screen_summary">Minions sind kleine Helfer, die deine Unterhaltungen nützlicher und lustiger machen.</string>
-  <string name="pref_minions_giphy_title">Giphy</string>
-  <string name="pref_minions_giphy_summary">GIFs verschicken</string>
-  <string name="pref_minions_spotify_title">Mit Spotify verbinden</string>
-  <string name="pref_minions_spotify_logout_title">Von Spotify trennen</string>
-  <string name="pref_minions_spotify_summary">Nur möglich mit Spotify Premium</string>
-  <string name="pref_minions_spotify_login_failed">Login fehlgeschlagen. Bitte versuche es erneut!</string>
+  <string name="pref_devices_device_remove_summary">Du wirst automatisch von dem Gerät abgemeldet und der Nachrichtenverlauf gelöscht.</string>
+  <string name="pref_devices_device_fingerprint_copy_description">Schlüssel-Fingerabdruck</string>
+  <string name="pref_devices_device_fingerprint_copy_toast">Schlüssel-Fingerabdruck kopiert</string>
   <!-- Advanced -->
   <string name="pref_advanced_screen_title">Fortgeschrittene Einstellungen</string>
-  <string name="pref_advanced_category_title">@string/pref_advanced_screen_title</string>
-  <string name="pref_advanced_troubleshooting_category_title">Fehlerbehebung</string>
   <string name="pref_advanced_debug_report_title">Debug Bericht</string>
-  <string name="pref_advanced_debug_report_summary">Debug Bericht an Wire senden</string>
+  <string name="pref_advanced_debug_report_summary">Debug Bericht an Wire senden.</string>
   <string name="pref_advanced_analytics_title">Datenbenutzung und Absturzberichte</string>
   <string name="pref_advanced_analytics_summary">Durch das Senden anonymisierter Informationen hilfst du uns, Wire zu verbessern.</string>
-  <string name="pref_advanced_image_download_title">Bilder laden</string>
-  <string name="pref_advanced_image_download_always">Immer</string>
-  <string name="pref_advanced_image_download_wifi">Wi-Fi</string>
   <string name="debug_report__title">Android Wire Fehlerbericht - %1$s</string>
   <string name="debug_report__body">Hilf uns Fehler schneller zu finden! Teile uns mit, was genau passiert ist, welche Fehlermeldung du erhalten hast oder sende uns ein Bildschirmfoto. Falls möglich, freuen wir uns über eine Schritt-für-Schritt Beschreibung, wie der Fehler reproduziert werden kann.\n\n</string>
-  <!-- Developer preferences -->
-  <string name="pref_dev_status_bar_title">Statusleiste</string>
-  <string name="pref_dev_status_bar_summary">App Neustart erforderlich</string>
-  <string name="pref_dev_avs_post_session_id_title">Session ID teilen</string>
-  <string name="pref_dev_avs_post_session_id_summary">Session ID in Unterhaltung teilen</string>
-  <string name="pref_dev_avs_last_call_session_id_title">Letzte Session ID</string>
-  <string name="pref_dev_avs_last_call_session_id_not_available">Nicht verfügbar</string>
-  <string name="pref_dev_avs_last_call_session_id_copied_to_clipboard">Session-ID in die Zwischenablage kopiert</string>
-  <string name="pref_dev_otr_only_title">Nur E2EE</string>
-  <string name="pref_dev_otr_only_summary">Sende ausschließlich verschlüsselte Nachrichten</string>
+  <!-- Support -->
+  <string name="pref_support_screen_title">Hilfe</string>
+  <string name="pref_support_website_title">Wire-Support-Webseite</string>
+  <string name="pref_support_website_url">https://support.wire.com</string>
+  <string name="pref_support_contact_title">Kontaktiere den Support</string>
+  <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
+  <!-- About -->
+  <string name="pref_about_screen_title">Über Wire</string>
+  <string name="pref_about_website_title">Wire-Webseite</string>
+  <string name="pref_about_website_url">https://www.wire.com</string>
+  <string name="pref_about_tos_title">Nutzungsbedingungen</string>
+  <string name="pref_about_tos_url">@string/url_terms_of_service</string>
+  <string name="pref_about_privacy_policy_title">Datenschutzrichtlinie</string>
+  <string name="pref_about_privacy_policy_url">@string/url_privacy_policy</string>
+  <string name="pref_about_licenses_title">Lizenzen</string>
+  <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
+  <string name="pref_about_version_title">Version %s</string>
+  <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Telefonnummer bestätigen</string>
   <string name="pref__account_action__phone_verification__description">Bitte gib den PIN-Code ein, den wir an %s gesendet haben</string>
@@ -707,8 +710,9 @@
   <string name="zms_empty_conversation_name">Leere Unterhaltung</string>
   <string name="new_reg__phone_signup__create_account">Erstelle ein Benutzerkonto</string>
   <!-- OTR -->
-  <string name="otr__remove_device__title">Gerät entfernen</string>
-  <string name="otr__remove_device__message">Passwort</string>
+  <string name="otr__remove_device__title">%1$s entfernen</string>
+  <string name="otr__remove_device__message">Passwort eingeben</string>
+  <string name="otr__remove_device__default">Gerät</string>
   <string name="otr__remove_device__button_delete">OK</string>
   <string name="otr__remove_device__button_cancel">Abbrechen</string>
   <string name="otr__remove_device__error">Falsches Passwort</string>
