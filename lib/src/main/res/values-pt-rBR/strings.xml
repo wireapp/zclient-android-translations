@@ -9,7 +9,7 @@
   <string name="profile__email__placeholder">E-mail</string>
   <string name="profile__password__placeholder">Senha</string>
   <string name="profile__password__guidance__tooshort__title">AO MENOS 8 CARACTERES</string>
-  <string name="profile__email__verify__instructions">We sent an email to \n[[%1$s]]. Follow the link to verify your address.</string>
+  <string name="profile__email__verify__instructions">We sent an email to \n[[%1$s]]. \nFollow the link to verify your address.</string>
   <string name="profile__email__verify__didnt_get">Não recebeu a mensagem de verificação?</string>
   <string name="profile__email__verify__resend">Re-enviar</string>
   <string name="sign_up__account_creation_error__duplicate_email_header">Endereço de e-mail já foi usado.</string>
@@ -84,10 +84,6 @@
   <string name="invitation_phone__welcome_message">Você está a um passo de criar sua conta.</string>
   <string name="invitation__phone__failed">Não é possível se registrar com este convite.</string>
   <string name="invitation__email__failed">Não é possível se registrar com este convite.</string>
-  <!-- Onboarding hints (first-time use) -->
-  <string name="instructions__discover_change_profile_picture__title">TOQUE PARA ALTERAR A IMAGEM</string>
-  <string name="instructions__discover_change_accent_color__title">DESLIZE PARA MUDAR DE COR</string>
-  <string name="instructions__discover_theme_toggle_hint">TOQUE PARA ALTERNAR A COR DA CONVERSA</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 PROCURE POR NOME OU E-MAIL</string>
   <string name="pick_user_search__add_to_conversation">\u0020 PROCURE POR NOME</string>
@@ -266,6 +262,7 @@
   <string name="in_app_notification__footer__file">Compartilhou um arquivo</string>
   <string name="in_app_notification__footer__video">Compartilhou um vídeo</string>
   <string name="in_app_notification__footer__audio">Compartilhou uma mensagem de áudio</string>
+  <string name="in_app_notification__footer__location">Shared a location</string>
   <string name="in_app_notification__footer__ping">Pingado</string>
   <string name="in_app_notification__footer__pinged_again">Pingado novamente</string>
   <!-- Otr-->
@@ -356,19 +353,24 @@
   <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Configurações</string>
   <string name="pref_developer_screen_title">Configurações de desenvolvedor</string>
+  <string name="pref_dev_avs_screen_title">AVS Settings</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Conta</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Nome</string>
   <string name="pref_account_edit_name_title">Editar Nome</string>
-  <string name="pref_account_details_category_title">ACCOUNT DETAILS</string>
-  <string name="pref_account_actions_category_title">ACTIONS</string>
-  <string name="pref_account_details_category_summary">Your information will be encrypted. Wire can not see it, but people will be able to find you.</string>
+  <string name="pref_account_details_category_title">Info</string>
+  <string name="pref_account_actions_category_title">Ações</string>
+  <string name="pref_account_appearance_category_title">Appearance</string>
+  <string name="pref_account_details_category_summary">People can find you with these details. The information are encrypted and not visible to anyone else.</string>
   <string name="pref_account_phone_title">Telefone</string>
   <string name="pref_account_add_phone_title">Adicionar número de telefone</string>
   <string name="pref_account_email_title">E-mail</string>
   <string name="pref_account_add_email_title">Adicionar e-mail</string>
   <string name="pref_account_sign_out_title">Sair</string>
+  <string name="pref_account_dark_theme_title">Dark Theme</string>
+  <string name="pref_account_color_title">Color</string>
+  <string name="pref_account_picture_title">Picture</string>
   <string name="pref_account_delete_title">Excluir Conta</string>
   <string name="pref_account_delete_warning_title">Excluir conta</string>
   <string name="pref_account_delete_warning_message_email">Nós enviaremos um email para:\n[[%1$s]]\n Siga o link para apagar permanentemente a sua conta.</string>
@@ -379,83 +381,81 @@
   <string name="pref_account_sign_out_warning_verify">Sair</string>
   <string name="pref_account_sign_out_warning_cancel">Cancelar</string>
   <string name="pref_account_password_title">Redefinir senha</string>
-  <!-- Privacy -->
-  <string name="pref_privacy_screen_title">Privacy &amp; Security</string>
-  <string name="pref_privacy_category_title">@string/pref_privacy_screen_title</string>
-  <string name="pref_privacy_contacts_title">Share Contacts</string>
-  <string name="pref_privacy_contacts_summary">Sharing your contacts helps you connect with others. We anonymize all the information and do not share it with anyone else.</string>
+  <!-- Options -->
+  <string name="pref_options_screen_title">Options</string>
+  <string name="pref_options_contacts_title">Share Contacts</string>
+  <string name="pref_options_contacts_summary">This helps you connect with others. We anonymize all the information and do not share it with anyone else.</string>
+  <string name="pref_options_alerts_category_title">Alerts</string>
+  <string name="pref_options_sounds_title">Sounds</string>
+  <string name="pref_options_sounds_all">All</string>
+  <string name="pref_options_sounds_new_conversations_and_talks_only">First message, calls and pings</string>
+  <string name="pref_options_sounds_none">None</string>
+  <string name="pref_options_vibration_title">Vibration</string>
+  <string name="pref_options_sounds_category_title">Alerts</string>
+  <string name="pref_options_ringtones_category_title">Sounds</string>
+  <string name="pref_options_ringtones_ringtone_title">Ringtone</string>
+  <string name="pref_options_ringtones_text_title">Text tone</string>
+  <string name="pref_options_ringtones_ping_title">Ping</string>
+  <string name="pref_options_ringtones_default_summary">Wire Default</string>
+  <string name="pref_options_image_download_title">Download Pictures</string>
+  <string name="pref_options_image_download_always">Always</string>
+  <string name="pref_options_image_download_wifi">Wi-Fi only</string>
+  <string name="pref_options_media_category_title">Media</string>
+  <string name="pref_options_giphy_title">Giphy</string>
+  <string name="pref_options_giphy_summary">Replace message text with animated GIFs.</string>
+  <string name="pref_options_spotify_title">Conectar-se com o Spotify</string>
+  <string name="pref_options_spotify_logout_title">Disconnect with Spotify</string>
+  <string name="pref_options_spotify_summary">You need a Spotify Premium account.</string>
+  <string name="pref_options_spotify_login_failed">Login failed. Please try again!</string>
+  <!-- Devices -->
   <string name="pref_devices_screen_title">Dispositivos</string>
   <string name="pref_current_device_category_title">Dispositivo atual</string>
   <string name="pref_other_devices_category_title">Dispositivos ativos</string>
   <string name="pref_devices_summary">Clique para excluir</string>
-  <string name="pref_privacy_report_misuse_title">Report Misuse</string>
-  <string name="pref_privacy_clear_history_title">Clear History</string>
-  <string name="pref_privacy_clear_history_summary">This will permanently erase the content of all your conversations.</string>
-  <string name="pref_privacy_devices_title">Dispositivos</string>
-  <string name="pref_privacy_devices_summary">Manage the devices you use with your Wire account.</string>
-  <!-- Devices -->
-  <string name="pref_devices_current_device_category_title">CURRENT DEVICE</string>
-  <string name="pref_devices_other_devices_category_title">OTHER DEVICES</string>
+  <string name="pref_devices_current_device_category_title">Current Device</string>
+  <string name="pref_devices_other_devices_category_title">Other Devices</string>
   <string name="pref_devices_device_activation_summary">Ativado em \nde [[%1$s]] [[%2$s]]</string>
-  <string name="pref_devices_device_id">ID %1$s</string>
+  <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Verificado</string>
   <string name="pref_devices_device_not_verified">Não verificado</string>
   <string name="pref_devices_warning_summary">Se você não reconhecer um dispositivo acima, remova-o e redefina sua senha em configurações &gt; conta.</string>
   <string name="pref_devices_device_screen_title">Detalhes do dispositivo</string>
   <string name="pref_devices_device_fingerprint_category_title">Chave digital</string>
-  <string name="pref_devices_device_fingerprint_summary">\nWire gives every device a unique fingerprint. Compare them and verify your devices and conversations.</string>
+  <string name="pref_devices_device_fingerprint_summary">Wire gives every device a unique fingerprint. Compare them and verify your devices and conversations.</string>
   <string name="pref_devices_device_actions_category_title">Ações</string>
   <string name="pref_devices_device_trust_title">Verificado</string>
   <string name="pref_devices_device_reset_session_title">Redefinir sessão</string>
-  <string name="pref_devices_device_reset_session_summary">If fingerprints don’t match, reset your secure session to make sure that the correct fingerprints are shown on all devices.</string>
+  <string name="pref_devices_device_reset_session_summary">If fingerprints don’t match, refresh the connection between them. This will generate new encryption keys on both sides.</string>
   <string name="pref_devices_device_remove_title">Remover o dispositivo</string>
-  <string name="pref_devices_device_warning_summary">You will be automatically logged out of that device.</string>
-  <!-- Alerts -->
-  <string name="pref_alerts_screen_title">Sounds &amp; Alerts</string>
-  <string name="pref_alerts_sounds_title">Sound Alerts</string>
-  <string name="pref_alerts_sounds_all">All</string>
-  <string name="pref_alerts_sounds_new_conversations_and_talks_only">First message, calls and pings</string>
-  <string name="pref_alerts_sounds_none">None</string>
-  <string name="pref_alerts_vibration_title">Vibration</string>
-  <string name="pref_alerts_sounds_category_title">Alerts</string>
-  <string name="pref_alerts_ringtones_category_title">Sounds</string>
-  <string name="pref_alerts_ringtones_ringtone_title">Ringtone</string>
-  <string name="pref_alerts_ringtones_text_title">Text tone</string>
-  <string name="pref_alerts_ringtones_ping_title">Ping</string>
-  <string name="pref_alerts_ringtones_default_summary">Wire Default</string>
-  <!-- Minions -->
-  <string name="pref_minions_screen_title">Minions</string>
-  <string name="pref_minions_category_title">@string/pref_minions_screen_title</string>
-  <string name="pref_minions_screen_summary">Minions are little helpers that make conversations more useful and fun.</string>
-  <string name="pref_minions_giphy_title">Giphy</string>
-  <string name="pref_minions_giphy_summary">Replace message texts with animated GIFs.</string>
-  <string name="pref_minions_spotify_title">Conectar-se com o Spotify</string>
-  <string name="pref_minions_spotify_logout_title">Disconnect with Spotify</string>
-  <string name="pref_minions_spotify_summary">Spotify Premium required</string>
-  <string name="pref_minions_spotify_login_failed">Login failed. Please try again!</string>
+  <string name="pref_devices_device_remove_summary">Your message history will be erased and you will be automatically logged out of the device.</string>
+  <string name="pref_devices_device_fingerprint_copy_description">Fingerprint</string>
+  <string name="pref_devices_device_fingerprint_copy_toast">Key Fingerprint Copied</string>
   <!-- Advanced -->
   <string name="pref_advanced_screen_title">Avançado</string>
-  <string name="pref_advanced_category_title">@string/pref_advanced_screen_title</string>
-  <string name="pref_advanced_troubleshooting_category_title">TROUBLESHOOTING</string>
   <string name="pref_advanced_debug_report_title">Enviar relatório de depuração</string>
-  <string name="pref_advanced_debug_report_summary">This information helps Wire Support diagnose problems.</string>
+  <string name="pref_advanced_debug_report_summary">This helps Wire Support diagnose problems.</string>
   <string name="pref_advanced_analytics_title">Dados de uso e relatórios de erro</string>
   <string name="pref_advanced_analytics_summary">Faça o Wire melhorar mandando informações de uso anônimas.</string>
-  <string name="pref_advanced_image_download_title">Download Pictures</string>
-  <string name="pref_advanced_image_download_always">Always</string>
-  <string name="pref_advanced_image_download_wifi">Wi-Fi only</string>
   <string name="debug_report__title">Relatório de bug do Wire para Android - %1$s</string>
   <string name="debug_report__body">Nos ajude a solucionar problemas! Por favor, conte-nos detalhes do que aconteceu, que mensagem de erro que você recebeu ou insira uma screenshot e se possível os passos para reproduzir o problema.\n\n</string>
-  <!-- Developer preferences -->
-  <string name="pref_dev_status_bar_title">Status bar</string>
-  <string name="pref_dev_status_bar_summary">App restart needed</string>
-  <string name="pref_dev_avs_post_session_id_title">Post call session id</string>
-  <string name="pref_dev_avs_post_session_id_summary">Post session id into conversation</string>
-  <string name="pref_dev_avs_last_call_session_id_title">Last call session id</string>
-  <string name="pref_dev_avs_last_call_session_id_not_available">N/A</string>
-  <string name="pref_dev_avs_last_call_session_id_copied_to_clipboard">Session id copied to clipboard</string>
-  <string name="pref_dev_otr_only_title">E2EE only</string>
-  <string name="pref_dev_otr_only_summary">Send only encrypted messages</string>
+  <!-- Support -->
+  <string name="pref_support_screen_title">Support</string>
+  <string name="pref_support_website_title">Wire Support Website</string>
+  <string name="pref_support_website_url">https://support.wire.com</string>
+  <string name="pref_support_contact_title">Contact Support</string>
+  <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
+  <!-- About -->
+  <string name="pref_about_screen_title">About</string>
+  <string name="pref_about_website_title">Wire Website</string>
+  <string name="pref_about_website_url">https://www.wire.com</string>
+  <string name="pref_about_tos_title">Terms Of Use</string>
+  <string name="pref_about_tos_url">@string/url_terms_of_service</string>
+  <string name="pref_about_privacy_policy_title">Política de privacidade</string>
+  <string name="pref_about_privacy_policy_url">@string/url_privacy_policy</string>
+  <string name="pref_about_licenses_title">Licenses</string>
+  <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
+  <string name="pref_about_version_title">Version %s</string>
+  <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Verificar número de telefone</string>
   <string name="pref__account_action__phone_verification__description">Digite o código de verificação que nós enviamos para %s</string>
@@ -487,6 +487,7 @@
   <string name="url_privacy_policy">https://www.wire.com/legal/privacy/embed/</string>
   <string name="url__help">https://support.wire.com</string>
   <string name="url_password_reset">https://www.wire.com/forgot/</string>
+  <string name="url_third_party_licences">https://wire.com/legal/#licenses</string>
   <string name="url_otr_learn_why">https://wire.com/privacy/why</string>
   <string name="url_otr_learn_how">https://wire.com/privacy/how</string>
   <string name="url_otr_decryption_error_1">https://wire.com/privacy/error-1</string>
@@ -548,6 +549,7 @@
   <string name="notification__message__one_to_one__shared_file">Compartilhou um arquivo</string>
   <string name="notification__message__one_to_one__shared_video">Compartilhou um vídeo</string>
   <string name="notification__message__one_to_one__shared_audio">Compartilhou uma mensagem de áudio</string>
+  <string name="notification__message__one_to_one__shared_location">Shared a location</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s em %2$s \u0020</string>
@@ -556,6 +558,7 @@
   <string name="notification__message__group__shared_file">compartilhou um arquivo</string>
   <string name="notification__message__group__shared_video">compartilhou um vídeo</string>
   <string name="notification__message__group__shared_audio">compartilhou uma mensagem de áudio</string>
+  <string name="notification__message__group__shared_location">shared a location</string>
   <string name="notification__message__group__renamed_conversation">renomeou a conversa para %1$s</string>
   <string name="notification__message__group__add">adicionou pessoas a conversa</string>
   <string name="notification__message__group__remove">removeu pessoas da conversa</string>
@@ -703,12 +706,21 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">TOQUE NA COR PARA MUDAR O TAMANHO DO PINCEL. \n\nAGITE PARA REMOVER FOTOS.</string>
   <string name="drawing__tip__message">TOQUE NA COR PARA MUDAR O TAMANHO DO PINCEL.\n\nPRESSIONE E SEGURE PARA PREENCHER UMA ÁREA.</string>
+  <!-- Location sharing -->
+  <string name="location_sharing__tip">Drag the map to change location</string>
+  <string name="location_sharing__permission_error">Unable to retrieve current location, permissions denied</string>
+  <string name="location_sharing__send_button">ENVIAR</string>
+  <string name="location_sharing__enable_system_location__title">Use location?</string>
+  <string name="location_sharing__enable_system_location__message">Enable location in settings to show your current position</string>
+  <string name="location_sharing__enable_system_location__confirm">Configurações</string>
+  <string name="location_sharing__enable_system_location__cancel">Cancelar</string>
   <!-- From SyncEngine -->
   <string name="zms_empty_conversation_name">Conversa vazia</string>
   <string name="new_reg__phone_signup__create_account">Criar uma conta</string>
   <!-- OTR -->
-  <string name="otr__remove_device__title">Remover o dispositivo</string>
-  <string name="otr__remove_device__message">Senha</string>
+  <string name="otr__remove_device__title">Remove %1$s</string>
+  <string name="otr__remove_device__message">Enter your password</string>
+  <string name="otr__remove_device__default">device</string>
   <string name="otr__remove_device__button_delete">OK</string>
   <string name="otr__remove_device__button_cancel">Cancelar</string>
   <string name="otr__remove_device__error">Senha errada</string>
@@ -774,6 +786,7 @@
   <string name="asset_upload_warning__large_file__title">Você não está no Wi-Fi</string>
   <string name="asset_upload_warning__large_file__message_default">Você tem certeza de que deseja enviar um arquivo grande através da rede móvel?</string>
   <string name="asset_upload_warning__large_file__message">Você tem certeza de que deseja enviar %1$s através da rede móvel?</string>
+  <string name="asset_upload_warning__large_file__message__video">Are you sure you want to send a video via the mobile network?</string>
   <string name="asset_upload_warning__large_file__button_accept">OK</string>
   <string name="asset_upload_warning__large_file__button_cancel">Cancelar</string>
   <!-- Video message errors -->
@@ -792,6 +805,8 @@
   <string name="tooltip_camera">Adicionar foto</string>
   <string name="tooltip_sketch">Desenhar</string>
   <string name="tooltip_ping">Ping</string>
+  <string name="tooltip_location">Location</string>
+  <string name="tooltip_more">More actions</string>
   <string name="tooltip_audio_message">Toque e segure para enviar um áudio</string>
   <string name="tooltip_file">Enviar arquivo</string>
   <string name="new_feature">Novo</string>

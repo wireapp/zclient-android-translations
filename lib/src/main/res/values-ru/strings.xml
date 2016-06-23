@@ -9,7 +9,7 @@
   <string name="profile__email__placeholder">Email</string>
   <string name="profile__password__placeholder">Пароль</string>
   <string name="profile__password__guidance__tooshort__title">НЕ МЕНЕЕ 8 СИМВОЛОВ</string>
-  <string name="profile__email__verify__instructions">Мы отправили email для\n[[%1$s]]. Перейдите по ссылке в письме для подтверждения вашего адреса.</string>
+  <string name="profile__email__verify__instructions">Мы отправили email на \n[[%1$s]]. \nПерейдите по ссылке в письме для подтверждения вашего адреса.</string>
   <string name="profile__email__verify__didnt_get">Не получили уведомление?</string>
   <string name="profile__email__verify__resend">Отправить повторно</string>
   <string name="sign_up__account_creation_error__duplicate_email_header">Такой email уже используется.</string>
@@ -87,10 +87,6 @@
   <string name="invitation_phone__welcome_message">Вы в одном шаге от создания аккаунта.</string>
   <string name="invitation__phone__failed">Не удалось зарегистрироваться по этому приглашению.</string>
   <string name="invitation__email__failed">Не удалось зарегистрироваться по этому приглашению.</string>
-  <!-- Onboarding hints (first-time use) -->
-  <string name="instructions__discover_change_profile_picture__title">НАЖМИТЕ, ЧТОБЫ ИЗМЕНИТЬ ВАШЕ ФОТО</string>
-  <string name="instructions__discover_change_accent_color__title">НАЖМИТЕ, ЧТОБЫ ИЗМЕНИТЬ ЦВЕТ ВАШЕГО ПРОФИЛЯ</string>
-  <string name="instructions__discover_theme_toggle_hint">НАЖМИТЕ ДЛЯ ПЕРЕКЛЮЧЕНИЯ ЦВЕТА РАЗГОВОРА</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 ПОИСК ПО ИМЕНИ ИЛИ EMAIL</string>
   <string name="pick_user_search__add_to_conversation">\u0020 ПОИСК ПО ИМЕНИ</string>
@@ -270,6 +266,7 @@
   <string name="in_app_notification__footer__file">Поделился(-лась) файлом</string>
   <string name="in_app_notification__footer__video">Поделился(-лась) видео</string>
   <string name="in_app_notification__footer__audio">Поделился(-лась) аудио сообщением</string>
+  <string name="in_app_notification__footer__location">Shared a location</string>
   <string name="in_app_notification__footer__ping">Отправил(-а) пинг</string>
   <string name="in_app_notification__footer__pinged_again">Отправил(-а) пинг снова</string>
   <!-- Otr-->
@@ -364,19 +361,24 @@
   <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Настройки</string>
   <string name="pref_developer_screen_title">Настройки разработчика</string>
+  <string name="pref_dev_avs_screen_title">Настройки AVS</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Аккаунт</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Имя</string>
   <string name="pref_account_edit_name_title">Изменить имя</string>
-  <string name="pref_account_details_category_title">ИНФОРМАЦИЯ ОБ АККАУНТЕ</string>
-  <string name="pref_account_actions_category_title">ДЕЙСТВИЯ</string>
-  <string name="pref_account_details_category_summary">Ваша информация будет зашифрована. Wire не может видеть её, но люди смогут найти вас.</string>
+  <string name="pref_account_details_category_title">Информация</string>
+  <string name="pref_account_actions_category_title">Действия</string>
+  <string name="pref_account_appearance_category_title">Внешний вид</string>
+  <string name="pref_account_details_category_summary">Люди смогут найти вас с этими данными. Информация зашифрована и не видна кому-либо еще.</string>
   <string name="pref_account_phone_title">Телефон</string>
   <string name="pref_account_add_phone_title">Добавить номер телефона</string>
   <string name="pref_account_email_title">Email</string>
   <string name="pref_account_add_email_title">Добавьте email</string>
   <string name="pref_account_sign_out_title">Выход</string>
+  <string name="pref_account_dark_theme_title">Темная тема</string>
+  <string name="pref_account_color_title">Цвет</string>
+  <string name="pref_account_picture_title">Изображение</string>
   <string name="pref_account_delete_title">Удалить аккаунт</string>
   <string name="pref_account_delete_warning_title">Удалить аккаунт</string>
   <string name="pref_account_delete_warning_message_email">Мы пришлем email на: \n [[%1$s]] \nПерейдите по ссылке, чтобы окончательно удалить свой аккаунт.</string>
@@ -387,23 +389,39 @@
   <string name="pref_account_sign_out_warning_verify">Выход</string>
   <string name="pref_account_sign_out_warning_cancel">Отмена</string>
   <string name="pref_account_password_title">Сбросить пароль</string>
-  <!-- Privacy -->
-  <string name="pref_privacy_screen_title">Конфиденциальность и безопасность</string>
-  <string name="pref_privacy_category_title">@string/pref_privacy_screen_title</string>
-  <string name="pref_privacy_contacts_title">Поделиться контактами</string>
-  <string name="pref_privacy_contacts_summary">Предоставление доступа к вашим контактам поможет Вам связаться с другими людьми. Вся информация анонимна, мы не предоставляем её третьим лицам.</string>
+  <!-- Options -->
+  <string name="pref_options_screen_title">Настройки</string>
+  <string name="pref_options_contacts_title">Поделиться контактами</string>
+  <string name="pref_options_contacts_summary">Это поможет Вам связаться с другими людьми. Вся информация анонимна, мы не предоставляем её третьим лицам.</string>
+  <string name="pref_options_alerts_category_title">Оповещения</string>
+  <string name="pref_options_sounds_title">Звуки</string>
+  <string name="pref_options_sounds_all">Все</string>
+  <string name="pref_options_sounds_new_conversations_and_talks_only">Первое сообщение, звонки и пинги</string>
+  <string name="pref_options_sounds_none">Отключены</string>
+  <string name="pref_options_vibration_title">Вибрация</string>
+  <string name="pref_options_sounds_category_title">Оповещения</string>
+  <string name="pref_options_ringtones_category_title">Звуки</string>
+  <string name="pref_options_ringtones_ringtone_title">Рингтон</string>
+  <string name="pref_options_ringtones_text_title">Звук текстового сообщения</string>
+  <string name="pref_options_ringtones_ping_title">Пинг</string>
+  <string name="pref_options_ringtones_default_summary">Стандартный рингтон Wire</string>
+  <string name="pref_options_image_download_title">Скачать картинки</string>
+  <string name="pref_options_image_download_always">Всегда</string>
+  <string name="pref_options_image_download_wifi">Только когда подключен к Wi-Fi</string>
+  <string name="pref_options_media_category_title">Медиа</string>
+  <string name="pref_options_giphy_title">Giphy</string>
+  <string name="pref_options_giphy_summary">Заменить текст сообщения анимированными GIF.</string>
+  <string name="pref_options_spotify_title">Подключить Spotify</string>
+  <string name="pref_options_spotify_logout_title">Отключить Spotify</string>
+  <string name="pref_options_spotify_summary">Вам нужен премиум-аккаунт Spotify.</string>
+  <string name="pref_options_spotify_login_failed">Ошибка входа. Пожалуйста, попробуйте еще раз!</string>
+  <!-- Devices -->
   <string name="pref_devices_screen_title">Устройства</string>
   <string name="pref_current_device_category_title">Текущее устройство</string>
   <string name="pref_other_devices_category_title">Активные устройства</string>
   <string name="pref_devices_summary">Нажмите, чтобы удалить</string>
-  <string name="pref_privacy_report_misuse_title">Сообщить о злоупотреблении</string>
-  <string name="pref_privacy_clear_history_title">Очистить историю</string>
-  <string name="pref_privacy_clear_history_summary">Это навсегда удалит содержимое всех ваших разговоров.</string>
-  <string name="pref_privacy_devices_title">Устройства</string>
-  <string name="pref_privacy_devices_summary">Управление устройствами, на которых вы используете Wire.</string>
-  <!-- Devices -->
-  <string name="pref_devices_current_device_category_title">ТЕКУЩЕЕ УСТРОЙСТВО</string>
-  <string name="pref_devices_other_devices_category_title">ДРУГИЕ УСТРОЙСТВА</string>
+  <string name="pref_devices_current_device_category_title">Текущее устройство</string>
+  <string name="pref_devices_other_devices_category_title">Другие устройства</string>
   <string name="pref_devices_device_activation_summary">Активирован в [[%1$s]]\n [[%2$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Проверено</string>
@@ -411,59 +429,41 @@
   <string name="pref_devices_warning_summary">Если вы не узнаете устройство выше, удалите его и измените пароль в меню Настройки &gt; Аккаунт.</string>
   <string name="pref_devices_device_screen_title">Детали устройства</string>
   <string name="pref_devices_device_fingerprint_category_title">Отпечаток</string>
-  <string name="pref_devices_device_fingerprint_summary">\nWire дает каждому устройству уникальный отпечаток. Сравните их и верифицируйте ваши устройства и разговоры.</string>
+  <string name="pref_devices_device_fingerprint_summary">Wire присваивает каждому устройству уникальный отпечаток. Сравните их, и верифицируйте ваши устройства и разговоры.</string>
   <string name="pref_devices_device_actions_category_title">Действия</string>
   <string name="pref_devices_device_trust_title">Верифицировано</string>
   <string name="pref_devices_device_reset_session_title">Сбросить сессию</string>
-  <string name="pref_devices_device_reset_session_summary">Если отпечатки не совпадают, сбросьте вашу сессию безопасности, чтобы убедиться, что отпечатки правильно отображаются на всех устройствах.</string>
+  <string name="pref_devices_device_reset_session_summary">Если отпечатки пальцев не совпадают, обновите соединение между ними. Это сгенерирует новые ключи шифрования с обеих сторон.</string>
   <string name="pref_devices_device_remove_title">Удалить устройство</string>
-  <string name="pref_devices_device_warning_summary">Вы автоматически выйдете из этого устройства.</string>
-  <!-- Alerts -->
-  <string name="pref_alerts_screen_title">Звуки и оповещения</string>
-  <string name="pref_alerts_sounds_title">Звуковые уведомления</string>
-  <string name="pref_alerts_sounds_all">Все</string>
-  <string name="pref_alerts_sounds_new_conversations_and_talks_only">Первое сообщение, звонки и пинги</string>
-  <string name="pref_alerts_sounds_none">Отключены</string>
-  <string name="pref_alerts_vibration_title">Вибрация</string>
-  <string name="pref_alerts_sounds_category_title">Оповещения</string>
-  <string name="pref_alerts_ringtones_category_title">Звуки</string>
-  <string name="pref_alerts_ringtones_ringtone_title">Рингтон</string>
-  <string name="pref_alerts_ringtones_text_title">Звук текстового сообщения</string>
-  <string name="pref_alerts_ringtones_ping_title">Пинг</string>
-  <string name="pref_alerts_ringtones_default_summary">Стандартный рингтон Wire</string>
-  <!-- Minions -->
-  <string name="pref_minions_screen_title">Миньоны</string>
-  <string name="pref_minions_category_title">@string/pref_minions_screen_title</string>
-  <string name="pref_minions_screen_summary">Миньоны - это маленькие помощники, которые сделают разговор интересней и приятней.</string>
-  <string name="pref_minions_giphy_title">Giphy</string>
-  <string name="pref_minions_giphy_summary">Заменить тексты сообщений анимированными GIF.</string>
-  <string name="pref_minions_spotify_title">Подключить Spotify</string>
-  <string name="pref_minions_spotify_logout_title">Отключить Spotify</string>
-  <string name="pref_minions_spotify_summary">Требуется Премиум-аккаунт Spotify</string>
-  <string name="pref_minions_spotify_login_failed">Ошибка входа. Пожалуйста, попробуйте еще раз!</string>
+  <string name="pref_devices_device_remove_summary">История ваших сообщений будут удалена, и вы автоматически выйдете из устройства.</string>
+  <string name="pref_devices_device_fingerprint_copy_description">Отпечаток</string>
+  <string name="pref_devices_device_fingerprint_copy_toast">Отпечаток скопирован</string>
   <!-- Advanced -->
   <string name="pref_advanced_screen_title">Дополнительные настройки</string>
-  <string name="pref_advanced_category_title">@string/pref_advanced_screen_title</string>
-  <string name="pref_advanced_troubleshooting_category_title">УСТРАНЕНИЕ НЕПОЛАДОК</string>
   <string name="pref_advanced_debug_report_title">Отправить отладочный отчет</string>
-  <string name="pref_advanced_debug_report_summary">Эта информация поможет службе поддержки Wire диагностировать проблемы.</string>
+  <string name="pref_advanced_debug_report_summary">Это поможет службе поддержки Wire диагностировать проблемы.</string>
   <string name="pref_advanced_analytics_title">Статистика использования и сбои</string>
   <string name="pref_advanced_analytics_summary">Сделайте Wire лучше, отправляя анонимную информацию.</string>
-  <string name="pref_advanced_image_download_title">Скачать картинки</string>
-  <string name="pref_advanced_image_download_always">Всегда</string>
-  <string name="pref_advanced_image_download_wifi">Только когда подключен Wi-Fi</string>
   <string name="debug_report__title">Отчет Android об ошибке Wire - %1$s</string>
   <string name="debug_report__body">Помогите нам устранить ошибку! Пожалуйста, сообщите нам подробности произошедшей ошибки, текст или скриншот и, если возможно, шаги для ее воспроизведения.\n\n</string>
-  <!-- Developer preferences -->
-  <string name="pref_dev_status_bar_title">Строка состояния</string>
-  <string name="pref_dev_status_bar_summary">Необходим перезапуск приложения</string>
-  <string name="pref_dev_avs_post_session_id_title">Отправить идентификатор голосовой сессии</string>
-  <string name="pref_dev_avs_post_session_id_summary">Отправить идентификатор сессии в разговор</string>
-  <string name="pref_dev_avs_last_call_session_id_title">Идентификатор последней голосовой сессии</string>
-  <string name="pref_dev_avs_last_call_session_id_not_available">Недоступно</string>
-  <string name="pref_dev_avs_last_call_session_id_copied_to_clipboard">Идентификатор голосовой сессии скопирован в буфер обмена</string>
-  <string name="pref_dev_otr_only_title">Только E2EE</string>
-  <string name="pref_dev_otr_only_summary">Отправить только зашифрованные сообщения</string>
+  <!-- Support -->
+  <string name="pref_support_screen_title">Служба поддержки</string>
+  <string name="pref_support_website_title">Cайт техподдержки Wire</string>
+  <string name="pref_support_website_url">https://support.wire.com</string>
+  <string name="pref_support_contact_title">Обратитесь в службу поддержки</string>
+  <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
+  <!-- About -->
+  <string name="pref_about_screen_title">О программе</string>
+  <string name="pref_about_website_title">Веб-сайт Wire</string>
+  <string name="pref_about_website_url">https://www.wire.com</string>
+  <string name="pref_about_tos_title">Условия использования</string>
+  <string name="pref_about_tos_url">@string/url_terms_of_service</string>
+  <string name="pref_about_privacy_policy_title">Политика конфиденциальности</string>
+  <string name="pref_about_privacy_policy_url">@string/url_privacy_policy</string>
+  <string name="pref_about_licenses_title">Лицензии</string>
+  <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
+  <string name="pref_about_version_title">Версия %s</string>
+  <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Подтвердить номер телефона</string>
   <string name="pref__account_action__phone_verification__description">Введите код подтверждения, который мы отправили на %s</string>
@@ -495,6 +495,7 @@
   <string name="url_privacy_policy">https://www.wire.com/legal/privacy/embed/</string>
   <string name="url__help">https://support.wire.com</string>
   <string name="url_password_reset">https://www.wire.com/forgot/</string>
+  <string name="url_third_party_licences">https://wire.com/legal/#licenses</string>
   <string name="url_otr_learn_why">https://wire.com/privacy/why</string>
   <string name="url_otr_learn_how">https://wire.com/privacy/how</string>
   <string name="url_otr_decryption_error_1">https://wire.com/privacy/error-1</string>
@@ -564,6 +565,7 @@ Plural:
   <string name="notification__message__one_to_one__shared_file">Поделился(-лась) файлом</string>
   <string name="notification__message__one_to_one__shared_video">Поделился(-лась) видео</string>
   <string name="notification__message__one_to_one__shared_audio">Поделился(-лась) аудио сообщением</string>
+  <string name="notification__message__one_to_one__shared_location">Shared a location</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s в %2$s \u0020</string>
@@ -572,6 +574,7 @@ Plural:
   <string name="notification__message__group__shared_file">поделился(-лась) файлом</string>
   <string name="notification__message__group__shared_video">поделился(-лась) видео</string>
   <string name="notification__message__group__shared_audio">поделился(-лась) аудио сообщением</string>
+  <string name="notification__message__group__shared_location">shared a location</string>
   <string name="notification__message__group__renamed_conversation">переименовал(-а) разговор на %1$s</string>
   <string name="notification__message__group__add">добавил(-а) участников в разговор</string>
   <string name="notification__message__group__remove">удалил(-а) участников из разговора</string>
@@ -727,12 +730,21 @@ Plural:
   <!--Sketch-->
   <string name="drawing__tip__picture__message">НАЖМИТЕ НА ЦВЕТ, ЧТОБЫ ИЗМЕНИТЬ РАЗМЕР ПЕРА.\n\nВСТРЯХНИТЕ УСТРОЙСТВО ДЛЯ УДАЛЕНИЯ ФОНОВОГО РИСУНКА.</string>
   <string name="drawing__tip__message">НАЖМИТЕ НА ЦВЕТ, ЧТОБЫ ИЗМЕНИТЬ РАЗМЕР ПЕРА.\n\nНАЖМИТЕ И УДЕРЖИВАЙТЕ, ЧТОБЫ ЗАКРАСИТЬ ФОН.</string>
+  <!-- Location sharing -->
+  <string name="location_sharing__tip">Drag the map to change location</string>
+  <string name="location_sharing__permission_error">Не удается получить текущее местоположение, отказано в доступе</string>
+  <string name="location_sharing__send_button">ОТПРАВИТЬ</string>
+  <string name="location_sharing__enable_system_location__title">Use location?</string>
+  <string name="location_sharing__enable_system_location__message">Enable location in settings to show your current position</string>
+  <string name="location_sharing__enable_system_location__confirm">Настройки</string>
+  <string name="location_sharing__enable_system_location__cancel">Отменить</string>
   <!-- From SyncEngine -->
   <string name="zms_empty_conversation_name">Разговор без участников</string>
   <string name="new_reg__phone_signup__create_account">Создать аккаунт</string>
   <!-- OTR -->
-  <string name="otr__remove_device__title">Удалить устройство</string>
-  <string name="otr__remove_device__message">Пароль</string>
+  <string name="otr__remove_device__title">Удалить %1$s</string>
+  <string name="otr__remove_device__message">Введите свой пароль</string>
+  <string name="otr__remove_device__default">устройство</string>
   <string name="otr__remove_device__button_delete">OK</string>
   <string name="otr__remove_device__button_cancel">Отмена</string>
   <string name="otr__remove_device__error">Неправильный пароль</string>
@@ -798,6 +810,7 @@ Plural:
   <string name="asset_upload_warning__large_file__title">Вы не подключены к вайфаю</string>
   <string name="asset_upload_warning__large_file__message_default">Вы действительно хотите отправить большой файл используя мобильную сеть?</string>
   <string name="asset_upload_warning__large_file__message">Вы действительно хотите отправить %1$s используя мобильную сеть?</string>
+  <string name="asset_upload_warning__large_file__message__video">Вы действительно хотите отправить видео используя мобильную сеть?</string>
   <string name="asset_upload_warning__large_file__button_accept">OK</string>
   <string name="asset_upload_warning__large_file__button_cancel">Отмена</string>
   <!-- Video message errors -->
@@ -816,6 +829,8 @@ Plural:
   <string name="tooltip_camera">Добавить фотографию</string>
   <string name="tooltip_sketch">Нарисовать картинку</string>
   <string name="tooltip_ping">Пингануть</string>
+  <string name="tooltip_location">Местоположение</string>
+  <string name="tooltip_more">Дополнительные действия</string>
   <string name="tooltip_audio_message">Нажмите и удерживайте, чтобы отправить аудио сообщение</string>
   <string name="tooltip_file">Отправить файл</string>
   <string name="new_feature">Новое</string>
