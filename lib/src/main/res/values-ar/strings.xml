@@ -9,7 +9,7 @@
   <string name="profile__email__placeholder">البريد الإلكتروني</string>
   <string name="profile__password__placeholder">كلمة المرور</string>
   <string name="profile__password__guidance__tooshort__title">8 أحرف على الأقل</string>
-  <string name="profile__email__verify__instructions">We sent an email to \n[[%1$s]]. \nFollow the link to verify your address.</string>
+  <string name="profile__email__verify__instructions">قمنا بإرسال بريد إلكتروني إلى [[%1$s]] .  اتبع الرابط لتأكيد عنوانك الإلكتروني.</string>
   <string name="profile__email__verify__didnt_get">لم تستلم الرسالة؟</string>
   <string name="profile__email__verify__resend">إعادة إرسال</string>
   <string name="sign_up__account_creation_error__duplicate_email_header">البريد الإلكتروني مستخدم قبلا</string>
@@ -26,6 +26,7 @@
   <string name="new_reg__phone_signup__info">إنشاء حساب</string>
   <string name="new_reg__helps_to_find_people">هذا يساعدنا في العثور على أشخاص قد تعرفهم.</string>
   <string name="new_reg__add_phone_number">أضف رقم الهاتف</string>
+  <string name="new_reg_phone__change_country">_تغيير الدولة _</string>
   <string name="new_reg__add_email">إضافة عنوان البريد الإلكتروني وكلمة المرور</string>
   <string name="new_reg__add_email_info">أنها تساعدك على تسجيل الدخول إذا  لم تتمكن من دخول هاتفك أو فقدت الهاتف الخاص بك.</string>
   <string name="new_reg__otr__add_email_info">قم بإضافة عنوان البريد الإلكتروني الخاص بك وكلمة مرور.</string>
@@ -71,6 +72,8 @@
   <string name="new_reg__invalid_code__auto_verification__manual">حدث خطأ . n\ الرجاء التأكد من أن رقم الهاتف والرمز صحيحان.</string>
   <string name="new_reg__default_country"> </string>
   <!-- consider updating this for every new language -->
+  <string name="new_reg_phone__title__variant_1">اتصل، أرسل رسائل، شارك. بشكل فردي أو مع مجموعة.</string>
+  <string name="new_reg_phone__title__variant_2">مكالمات خاصة وآمنة، رسائل و مشاركة .</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">قم بالتسجيل باستخدام رقم الهاتف</string>
   <string name="invitation_email__normal_email_signup_button">قم بالتسجيل باستخدام بريد إلكتروني آخر</string>
@@ -268,7 +271,7 @@
   <string name="in_app_notification__footer__file">شارك ملف</string>
   <string name="in_app_notification__footer__video">شارك فيديو</string>
   <string name="in_app_notification__footer__audio">شارك رسالة صوتية</string>
-  <string name="in_app_notification__footer__location">Shared a location</string>
+  <string name="in_app_notification__footer__location">شارك موقع</string>
   <string name="in_app_notification__footer__ping">بينغ</string>
   <string name="in_app_notification__footer__pinged_again">بينغ مرة أخرى</string>
   <!-- Otr-->
@@ -592,7 +595,7 @@
   <string name="notification__message__one_to_one__shared_file">شارك ملف</string>
   <string name="notification__message__one_to_one__shared_video">شارك فيديو</string>
   <string name="notification__message__one_to_one__shared_audio">شارك رسالة صوتية</string>
-  <string name="notification__message__one_to_one__shared_location">Shared a location</string>
+  <string name="notification__message__one_to_one__shared_location">شارك موقع</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s في %2$s \u0020</string>
@@ -601,7 +604,7 @@
   <string name="notification__message__group__shared_file">شارك ملف</string>
   <string name="notification__message__group__shared_video">شارك فيديو</string>
   <string name="notification__message__group__shared_audio">شارك رسالة صوتية</string>
-  <string name="notification__message__group__shared_location">shared a location</string>
+  <string name="notification__message__group__shared_location">شارك موقع</string>
   <string name="notification__message__group__renamed_conversation">تمت إعادة تسمية المحادثة إلى %1$s</string>
   <string name="notification__message__group__add">أضاف أشخاص للمحادثة</string>
   <string name="notification__message__group__remove">قام بإزالة أشخاص من المحادثة</string>
@@ -786,11 +789,12 @@
   <string name="drawing__tip__picture__message">انقر فوق اللون لتغيير حجم الفرشاة. حركها لإزالة الصور</string>
   <string name="drawing__tip__message">انقر فوق لون لتغيير حجم الفرشاة. ضغط متواصل لملء منطقة.</string>
   <!-- Location sharing -->
-  <string name="location_sharing__tip">Drag the map to change location</string>
-  <string name="location_sharing__permission_error">Unable to retrieve current location, permissions denied</string>
+  <string name="location_sharing__tip">اسحب الخريطة لتغيير الموقع</string>
+  <string name="location_sharing__permission_error">غير قادر على استرداد الموقع الحالي، لم يتم إعطاء الإذن.
+</string>
   <string name="location_sharing__send_button">إرسال</string>
-  <string name="location_sharing__enable_system_location__title">Use location?</string>
-  <string name="location_sharing__enable_system_location__message">Enable location in settings to show your current position</string>
+  <string name="location_sharing__enable_system_location__title">استخدام الموقع؟</string>
+  <string name="location_sharing__enable_system_location__message">فعل الموقع في الإعدادات لعرض موقعك الحالي.</string>
   <string name="location_sharing__enable_system_location__confirm">الإعدادات</string>
   <string name="location_sharing__enable_system_location__cancel">إلغاء</string>
   <!-- From SyncEngine -->
@@ -884,8 +888,8 @@
   <string name="tooltip_camera">إضافة صورة</string>
   <string name="tooltip_sketch">ارسم صورة</string>
   <string name="tooltip_ping">بينغ</string>
-  <string name="tooltip_location">Location</string>
-  <string name="tooltip_more">More actions</string>
+  <string name="tooltip_location">الموقع</string>
+  <string name="tooltip_more">المزيد من الإجراءات</string>
   <string name="tooltip_audio_message">اضغط باستمرار لإرسال رسالة صوتية</string>
   <string name="tooltip_file">إرسال ملف</string>
   <string name="new_feature">جديد</string>

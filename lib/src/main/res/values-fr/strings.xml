@@ -9,7 +9,7 @@
   <string name="profile__email__placeholder">Email</string>
   <string name="profile__password__placeholder">Mot de passe</string>
   <string name="profile__password__guidance__tooshort__title">AU MOINS 8 CARACTÈRES</string>
-  <string name="profile__email__verify__instructions">We sent an email to \n[[%1$s]]. \nFollow the link to verify your address.</string>
+  <string name="profile__email__verify__instructions">Nous avons envoyé un email à \n[[%1$s]]. \nCliquez sur le lien afin de vérifier votre adresse.</string>
   <string name="profile__email__verify__didnt_get">Message non reçu?</string>
   <string name="profile__email__verify__resend">Envoyer de nouveau</string>
   <string name="sign_up__account_creation_error__duplicate_email_header">Cette adresse email n\'est pas disponible.</string>
@@ -26,6 +26,7 @@
   <string name="new_reg__phone_signup__info">Créer un compte</string>
   <string name="new_reg__helps_to_find_people">Cela nous aides à trouver les personnes que vous pourriez connaître.</string>
   <string name="new_reg__add_phone_number">Ajouter un numéro de téléphone</string>
+  <string name="new_reg_phone__change_country">_CHANGER DE PAYS_</string>
   <string name="new_reg__add_email">Ajouter une adresse email et un mot de passe</string>
   <string name="new_reg__add_email_info">Cela vous aide à vous connecter si vous êtes bloqué ou si vous perdez votre téléphone.</string>
   <string name="new_reg__otr__add_email_info">Ajouter une adresse email et un mot de passe.</string>
@@ -71,6 +72,8 @@
   <string name="new_reg__invalid_code__auto_verification__manual">Une erreur est survenue.\n Veuillez verifier que votre numéro de téléphone and votre code soient valides.</string>
   <string name="new_reg__default_country">fr</string>
   <!-- consider updating this for every new language -->
+  <string name="new_reg_phone__title__variant_1">Appelez, envoyez des messages, partagez. \nEn privé ou en groupe.</string>
+  <string name="new_reg_phone__title__variant_2">Appels privés et sécurisés,\nmessages et partage.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Inscrivez-vous en utilisant votre numéro de téléphone</string>
   <string name="invitation_email__normal_email_signup_button">Inscrivez-vous en utilisant une autre adresse email</string>
@@ -262,7 +265,7 @@
   <string name="in_app_notification__footer__file">A Partagé un fichier</string>
   <string name="in_app_notification__footer__video">A Partagé une vidéo</string>
   <string name="in_app_notification__footer__audio">A partagé un message audio</string>
-  <string name="in_app_notification__footer__location">Shared a location</string>
+  <string name="in_app_notification__footer__location">A partagé un emplacement</string>
   <string name="in_app_notification__footer__ping">A fait un signe</string>
   <string name="in_app_notification__footer__pinged_again">A fait un signe de nouveau</string>
   <!-- Otr-->
@@ -549,7 +552,7 @@
   <string name="notification__message__one_to_one__shared_file">Partager un fichier</string>
   <string name="notification__message__one_to_one__shared_video">A Partagé une vidéo</string>
   <string name="notification__message__one_to_one__shared_audio">A partagé un message audio</string>
-  <string name="notification__message__one_to_one__shared_location">Shared a location</string>
+  <string name="notification__message__one_to_one__shared_location">Partager un emplacement</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s dans %2$s \u0020</string>
@@ -558,7 +561,7 @@
   <string name="notification__message__group__shared_file">a partagé un fichier</string>
   <string name="notification__message__group__shared_video">a partagé une vidéo</string>
   <string name="notification__message__group__shared_audio">a partagé un message audio</string>
-  <string name="notification__message__group__shared_location">shared a location</string>
+  <string name="notification__message__group__shared_location">partager un emplacement</string>
   <string name="notification__message__group__renamed_conversation">a renommé la conversation: %1$s</string>
   <string name="notification__message__group__add">a ajouté des personnes à la conversation</string>
   <string name="notification__message__group__remove">a enlevé des personnes de la conversation</string>
@@ -707,11 +710,11 @@
   <string name="drawing__tip__picture__message">CLIQUEZ SUR LA COULEUR POUR CHANGER LA TAILLE DE LA BROSSE.\n\nSECOUEZ POUR RETIRER LA PHOTO.</string>
   <string name="drawing__tip__message">CLIQUEZ SUR LA COULEUR POUR CHANGER LA TAILLE DE LA BROSSE.\n\nRESTEZ APPUYÉ POUR REMPLIR LA ZONE.</string>
   <!-- Location sharing -->
-  <string name="location_sharing__tip">Drag the map to change location</string>
-  <string name="location_sharing__permission_error">Unable to retrieve current location, permissions denied</string>
+  <string name="location_sharing__tip">Faites glisser la carte pour changer d’emplacement</string>
+  <string name="location_sharing__permission_error">Impossible de trouver l’emplacement actuel, autorisations refusées</string>
   <string name="location_sharing__send_button">ENVOYER</string>
-  <string name="location_sharing__enable_system_location__title">Use location?</string>
-  <string name="location_sharing__enable_system_location__message">Enable location in settings to show your current position</string>
+  <string name="location_sharing__enable_system_location__title">Utilisez l’emplacement?</string>
+  <string name="location_sharing__enable_system_location__message">Activez la localisation dans les paramètres afin d\'afficher votre position actuelle</string>
   <string name="location_sharing__enable_system_location__confirm">Paramètres</string>
   <string name="location_sharing__enable_system_location__cancel">Annuler</string>
   <!-- From SyncEngine -->
@@ -805,8 +808,8 @@
   <string name="tooltip_camera">Ajouter une Photo</string>
   <string name="tooltip_sketch">Dessiner Une Image</string>
   <string name="tooltip_ping">Ping</string>
-  <string name="tooltip_location">Location</string>
-  <string name="tooltip_more">More actions</string>
+  <string name="tooltip_location">Emplacement</string>
+  <string name="tooltip_more">Plus d’actions</string>
   <string name="tooltip_audio_message">Appuyez et maintenez pour envoyer un message audio</string>
   <string name="tooltip_file">Envoyer un fichier</string>
   <string name="new_feature">Nouveau</string>

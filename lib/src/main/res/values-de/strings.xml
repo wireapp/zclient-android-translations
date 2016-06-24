@@ -9,7 +9,7 @@
   <string name="profile__email__placeholder">E-Mail-Adresse</string>
   <string name="profile__password__placeholder">Passwort</string>
   <string name="profile__password__guidance__tooshort__title">MINDESTENS 8 ZEICHEN</string>
-  <string name="profile__email__verify__instructions">We sent an email to \n[[%1$s]]. \nFollow the link to verify your address.</string>
+  <string name="profile__email__verify__instructions">Wir haben eine E-Mail an \n[[%1$s]] gesendet.\nBitte gehe auf den Link um deine Adresse zu bestätigen.</string>
   <string name="profile__email__verify__didnt_get">Nachricht nicht erhalten?</string>
   <string name="profile__email__verify__resend">Erneut schicken</string>
   <string name="sign_up__account_creation_error__duplicate_email_header">E-Mail Adresse bereits vergeben.</string>
@@ -26,6 +26,7 @@
   <string name="new_reg__phone_signup__info">Benutzerkonto erstellen</string>
   <string name="new_reg__helps_to_find_people">Dies hilft uns Leute zu finden die du kennst.</string>
   <string name="new_reg__add_phone_number">Telefonnummer hinzufügen</string>
+  <string name="new_reg_phone__change_country">_CHANGE COUNTRY_</string>
   <string name="new_reg__add_email">E-Mail-Adresse und \nPasswort hinzufügen.</string>
   <string name="new_reg__add_email_info">Es hilft dir dich einzuloggen, wenn du dein Handy verlierst oder dich versehentlich abmelden solltest.</string>
   <string name="new_reg__otr__add_email_info">Füge deine E-Mail-Adresse und ein Passwort hinzu.</string>
@@ -71,6 +72,8 @@
   <string name="new_reg__invalid_code__auto_verification__manual">Es ist ein Fehler aufgetreten.\nBitte bestätige das Telefonnummer und Code richtig sind.</string>
   <string name="new_reg__default_country">de</string>
   <!-- consider updating this for every new language -->
+  <string name="new_reg_phone__title__variant_1">Anrufe, Nachrichten und Medien teilen\nAlles auch in Gruppen</string>
+  <string name="new_reg_phone__title__variant_2">Vollständig verschlüsselt\nAnrufe, Nachrichten und Medien.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Mit Telefonnummer registrieren</string>
   <string name="invitation_email__normal_email_signup_button">Mit anderer E-Mail registrieren</string>
@@ -262,7 +265,7 @@
   <string name="in_app_notification__footer__file">Hat eine Datei geteilt</string>
   <string name="in_app_notification__footer__video">Hat ein Video geteilt</string>
   <string name="in_app_notification__footer__audio">Hat eine Audio-Nachricht geteilt</string>
-  <string name="in_app_notification__footer__location">Shared a location</string>
+  <string name="in_app_notification__footer__location">Hat einen Standort geteilt</string>
   <string name="in_app_notification__footer__ping">hat gepingt</string>
   <string name="in_app_notification__footer__pinged_again">hat nochmal gepingt</string>
   <!-- Otr-->
@@ -362,7 +365,7 @@
   <string name="pref_account_details_category_title">Info</string>
   <string name="pref_account_actions_category_title">Aktionen</string>
   <string name="pref_account_appearance_category_title">Erscheinungsbild</string>
-  <string name="pref_account_details_category_summary">People can find you with these details. The information are encrypted and not visible to anyone else.</string>
+  <string name="pref_account_details_category_summary">Du kannst über diese Informationen von anderen gefunden werden. Sie sind verschlüsselt und für niemanden sichtbar.</string>
   <string name="pref_account_phone_title">Telefon</string>
   <string name="pref_account_add_phone_title">Telefonnummer hinzufügen</string>
   <string name="pref_account_email_title">Email</string>
@@ -549,7 +552,7 @@
   <string name="notification__message__one_to_one__shared_file">Hat eine Datei geteilt</string>
   <string name="notification__message__one_to_one__shared_video">Hat ein Video geteilt</string>
   <string name="notification__message__one_to_one__shared_audio">Hat eine Audio-Nachricht geteilt</string>
-  <string name="notification__message__one_to_one__shared_location">Shared a location</string>
+  <string name="notification__message__one_to_one__shared_location">Hat einen Standort geteilt</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s in %2$s \u0020</string>
@@ -558,7 +561,7 @@
   <string name="notification__message__group__shared_file">hat eine Datei geteilt</string>
   <string name="notification__message__group__shared_video">hat ein Video geteilt</string>
   <string name="notification__message__group__shared_audio">hat eine Audio-Nachricht geteilt</string>
-  <string name="notification__message__group__shared_location">hat einen Ort geteilt</string>
+  <string name="notification__message__group__shared_location">hat einen Standort geteilt</string>
   <string name="notification__message__group__renamed_conversation">hat die Unterhaltung in %1$s umbenannt</string>
   <string name="notification__message__group__add">hat Personen zur Unterhaltung hinzugefügt</string>
   <string name="notification__message__group__remove">hat Personen aus der Unterhaltung entfernt</string>
@@ -707,11 +710,11 @@
   <string name="drawing__tip__picture__message">TIPPE DIE FARBPALETTE UM DIE PINSELGRÖSSE ZU ÄNDERN.\n\nSCHÜTTELN UM DEN HINTERGRUND ZU ENTFERNEN.</string>
   <string name="drawing__tip__message">TIPPE DIE FARBPALETTE UM DIE PINSELGRÖSSE ZU ÄNDERN.\n\nGEDRÜCKT HALTEN UM DIE FLÄCHE ZU FÜLLEN.</string>
   <!-- Location sharing -->
-  <string name="location_sharing__tip">Drag the map to change location</string>
-  <string name="location_sharing__permission_error">Unable to retrieve current location, permissions denied</string>
+  <string name="location_sharing__tip">Ziehe der Karte, um den Standort zu verändern</string>
+  <string name="location_sharing__permission_error">Der aktuelle Standort kann nicht bestimmt werden, da der Zugriff verweigert wurde</string>
   <string name="location_sharing__send_button">SENDEN</string>
-  <string name="location_sharing__enable_system_location__title">Use location?</string>
-  <string name="location_sharing__enable_system_location__message">Enable location in settings to show your current position</string>
+  <string name="location_sharing__enable_system_location__title">Standort verwenden?</string>
+  <string name="location_sharing__enable_system_location__message">Zum Anzeigen deiner aktuellen Position aktiviere Standort in den Einstellungen</string>
   <string name="location_sharing__enable_system_location__confirm">Einstellungen</string>
   <string name="location_sharing__enable_system_location__cancel">ABBRECHEN</string>
   <!-- From SyncEngine -->
@@ -786,7 +789,7 @@
   <string name="asset_upload_warning__large_file__title">Du bist nicht auf Wi-Fi</string>
   <string name="asset_upload_warning__large_file__message_default">Bist du sicher, dass du eine große Datei im mobilen Datennetz senden willst?</string>
   <string name="asset_upload_warning__large_file__message">Bist du sicher, dass du %1$s über das mobile Datennetz senden möchtest?</string>
-  <string name="asset_upload_warning__large_file__message__video">Are you sure you want to send a video via the mobile network?</string>
+  <string name="asset_upload_warning__large_file__message__video">Bist du sicher, dass du ein Video über das mobile Datennetz senden willst?</string>
   <string name="asset_upload_warning__large_file__button_accept">OK</string>
   <string name="asset_upload_warning__large_file__button_cancel">ABBRECHEN</string>
   <!-- Video message errors -->
@@ -805,8 +808,8 @@
   <string name="tooltip_camera">Foto hinzufügen</string>
   <string name="tooltip_sketch">Sketch zeichnen</string>
   <string name="tooltip_ping">Ping</string>
-  <string name="tooltip_location">Location</string>
-  <string name="tooltip_more">More actions</string>
+  <string name="tooltip_location">Standort</string>
+  <string name="tooltip_more">Weitere Aktionen</string>
   <string name="tooltip_audio_message">Zum Senden von Audio, tippe und halte</string>
   <string name="tooltip_file">Datei senden</string>
   <string name="new_feature">Neu</string>
