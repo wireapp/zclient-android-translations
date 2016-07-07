@@ -73,7 +73,7 @@
   <string name="new_reg__default_country">it</string>
   <!-- consider updating this for every new language -->
   <string name="new_reg_phone__title__variant_1">Chiama, messaggia, condividi.\nIn privato o in gruppo.</string>
-  <string name="new_reg_phone__title__variant_2">Private and secure calls,\nmessaging and sharing.</string>
+  <string name="new_reg_phone__title__variant_2">Chiamate private e sicure, \nmessaggistica e condivisione file.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Registrati con il numero di telefono</string>
   <string name="invitation_email__normal_email_signup_button">Registrati usando un\'altra email</string>
@@ -144,8 +144,8 @@
   <string name="content__system__other_started_you">[[%1$s]] ha iniziato una conversazione con te</string>
   <string name="content__system__you_added_participant">[[Tu]] hai aggiunto %2$s</string>
   <string name="content__system__you_started_participant">[[Tu]] hai iniziato una conversazione con %2$s</string>
-  <string name="content__system__other_left">[[%1$s]] left</string>
-  <string name="content__system__you_left">[[You]] left</string>
+  <string name="content__system__other_left">[[%1$s]] ha lasciato la conversazione</string>
+  <string name="content__system__you_left">[[Tu]] hai lasciato la conversazione</string>
   <string name="content__system__other_removed_other">[[%1$s]] ha rimosso %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] ti ha rimosso</string>
   <string name="content__system__you_removed_other">[[Tu]] hai rimosso %2$s</string>
@@ -168,7 +168,7 @@
   <string name="content__otr__identity_changed_error">L\'IDENTITÀ DEL DISPOSITIVO DI [[%1$s]] È CAMBIATA. MESSAGGIO NON CONSEGNATO _SCOPRI DI PIÙ_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] HA INIZIATO AD USARE UN _NUOVO DISPOSITIVO_</string>
   <string name="content__otr__start_this_device__message">[[TU]] HAI INIZIATO AD USARE _QUESTO DISPOSITIVO_</string>
-  <string name="content__otr__all_fingerprints_verified">TUTTE LE IMPRONTE SONO STATE VERIFICATE</string>
+  <string name="content__otr__all_fingerprints_verified">TUTTE LE IMPRONTE DIGITALI SONO STATE VERIFICATE</string>
   <string name="content__otr__lost_history">NON HAI USATO QUESTO DISPOSITIVO PER UN PO\'. ALCUNI MESSAGGI POTREBBERO NON APPARIRE QUI.</string>
   <string name="content__otr__unverified_device__message">[[TU]] HAI TOLTO LA VERIFICA DI _%1$s DISPOSITIVI_</string>
   <string name="content__otr__your_unverified_device__message">[[TU]] HAI TOLTO LA VERIFICA DI UNO DEI _TUOI DISPOSITIVI_</string>
@@ -196,6 +196,7 @@
   <string name="content__file__action__share">CONDIVIDI</string>
   <string name="content__file__action__open__no_app_found">Nessuna app trovata per aprire questo tipo di file</string>
   <string name="content__file__action__save_completed">File salvato con successo</string>
+  <string name="content__location__no_map_placeholder">LA POSIZIONE APPARIRÀ SULLA MAPPA QUANDO TORNERAI ONLINE.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">RINOMINA</string>
   <string name="conversation__action__delete">ELIMINA</string>
@@ -282,8 +283,8 @@
   </plurals>
   <string name="conversation__degraded_confirmation__positive_action">Invia comunque</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
-    <item quantity="one">Show device</item>
-    <item quantity="other">Show people</item>
+    <item quantity="one">Visualizza dispositivo</item>
+    <item quantity="other">Visualizza persone</item>
   </plurals>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
@@ -378,7 +379,7 @@
   <string name="pref_account_delete_title">Cancella account</string>
   <string name="pref_account_delete_warning_title">Cancella account</string>
   <string name="pref_account_delete_warning_message_email">Invieremo un\'email a:\n[[%1$s]]\nClicca il link per eliminare definitivamente il tuo account.</string>
-  <string name="pref_account_delete_warning_message_sms">We will send a SMS to:\n[[%1$s]]\nFollow the link to permanently delete your account.</string>
+  <string name="pref_account_delete_warning_message_sms">Invieremo un SMS a:\n[[%1$s]]\nApri il link per eliminare definitivamente il tuo account.</string>
   <string name="pref_account_delete_warning_verify">OK</string>
   <string name="pref_account_delete_warning_cancel">Annulla</string>
   <string name="pref_account_sign_out_warning_message">Sei sicuro di voler effettuare il log out?</string>
@@ -388,7 +389,7 @@
   <!-- Options -->
   <string name="pref_options_screen_title">Opzioni</string>
   <string name="pref_options_contacts_title">Condividi contatti</string>
-  <string name="pref_options_contacts_summary">This helps you connect with others. We anonymize all the information and do not share it with anyone else.</string>
+  <string name="pref_options_contacts_summary">Questo ti aiuta a connetterti con gli altri. Rendiamo anonime tutte le informazioni e i dati non sono trasmessi a nessun altro.</string>
   <string name="pref_options_alerts_category_title">Notifiche</string>
   <string name="pref_options_sounds_title">Suoni</string>
   <string name="pref_options_sounds_all">Tutto</string>
@@ -424,27 +425,27 @@
   <string name="pref_devices_device_not_verified">Non verificato</string>
   <string name="pref_devices_warning_summary">Se non riconosci un dispositivo qui sopra, rimuovilo e reimposta la password in Impostazioni &gt; Account.</string>
   <string name="pref_devices_device_screen_title">Dettagli dispositivo</string>
-  <string name="pref_devices_device_fingerprint_category_title">Impronta della chiave</string>
-  <string name="pref_devices_device_fingerprint_summary">Wire dà un\'impronta unica a ogni dispositivo. Confrontale per verificare i tuoi dispositivi e le conversazioni.</string>
+  <string name="pref_devices_device_fingerprint_category_title">Impronta digitale della chiave</string>
+  <string name="pref_devices_device_fingerprint_summary">Wire dà ad ogni dispositivo un\'impronta digitale unica. Confronta le impronte digitali per verificare i dispositivi e le conversazioni.</string>
   <string name="pref_devices_device_actions_category_title">Azioni</string>
   <string name="pref_devices_device_trust_title">Verificato</string>
   <string name="pref_devices_device_reset_session_title">Resetta la sessione</string>
-  <string name="pref_devices_device_reset_session_summary">If fingerprints don’t match, refresh the connection between them. This will generate new encryption keys on both sides.</string>
+  <string name="pref_devices_device_reset_session_summary">Se le impronte digitali non corrispondono, resetta la sessione protetta per assicurarti che le impronte digitali corrette vengano visualizzate su tutti i dispositivi.</string>
   <string name="pref_devices_device_remove_title">Rimuovi dispositivo</string>
-  <string name="pref_devices_device_remove_summary">Your message history will be erased and you will be automatically logged out of the device.</string>
-  <string name="pref_devices_device_fingerprint_copy_description">Impronta</string>
-  <string name="pref_devices_device_fingerprint_copy_toast">Impronta della chiave copiata</string>
+  <string name="pref_devices_device_remove_summary">Verrai automaticamente disconnesso da quel dispositivo.</string>
+  <string name="pref_devices_device_fingerprint_copy_description">Impronta digitale</string>
+  <string name="pref_devices_device_fingerprint_copy_toast">Impronta digitale della chiave copiata</string>
   <!-- Advanced -->
   <string name="pref_advanced_screen_title">Avanzate</string>
-  <string name="pref_advanced_debug_report_title">Submit Debug Report</string>
+  <string name="pref_advanced_debug_report_title">Invia report di debug</string>
   <string name="pref_advanced_debug_report_summary">Questo aiuta il supporto di Wire a diagnosticare il problema.</string>
-  <string name="pref_advanced_analytics_title">Usage data and crash reports</string>
+  <string name="pref_advanced_analytics_title">Segnalazioni di crash e dati di utilizzo</string>
   <string name="pref_advanced_analytics_summary">Migliora Wire con l\'invio di informazioni anonime.</string>
-  <string name="debug_report__title">Android Wire bug report - %1$s</string>
+  <string name="debug_report__title">Report di bug di Android Wire - %1$s</string>
   <string name="debug_report__body">Aiutaci a risolvere il problema! Spiegaci i dettagli di cosa è successo, che errore hai ricevuto, e se possibile i passi da ripetere per riprodurre l\'errore.\n\n</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Supporto</string>
-  <string name="pref_support_website_title">Wire Support Website</string>
+  <string name="pref_support_website_title">Sito assistenza clienti Wire</string>
   <string name="pref_support_website_url">https://support.wire.com</string>
   <string name="pref_support_contact_title">Contatta il supporto</string>
   <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
