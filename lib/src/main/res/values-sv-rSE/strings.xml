@@ -178,6 +178,7 @@
   <string name="content__system__message_deleted">Detta meddelande har tagits bort</string>
   <string name="content_system_message_timestamp_failure">Ej skickat meddelande.</string>
   <string name="content_system_message_timestamp_pending">Skickar\u2026</string>
+  <string name="content_system_message_timestamp_deleted">Togs bort vid %1$s</string>
   <!-- Conversation: missed call -->
   <string name="content__missed_call__you_called">[[DU]] RINGDE</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] RINGDE</string>
@@ -231,12 +232,12 @@
   <string name="conversation__action__silence">TYSTA</string>
   <string name="conversation__action__unsilence">SLÅ PÅ LJUD</string>
   <string name="conversation__action__leave">LÄMNA</string>
-  <string name="conversation__action__remove">TA BORT</string>
+  <string name="conversation__action__remove">RADERA</string>
   <string name="conversation__action__call">RING</string>
   <string name="conversation__action__picture">BILD</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ÖPPNA</string>
-  <string name="popover__action__remove">TA BORT</string>
+  <string name="popover__action__remove">RADERA</string>
   <string name="popover__action__block">BLOCKERA</string>
   <string name="popover__action__profile">PROFIL</string>
   <!-- Calling/voice -->
@@ -423,7 +424,7 @@
   <string name="pref_options_ringtones_category_title">Ljud</string>
   <string name="pref_options_ringtones_ringtone_title">Ringsignal</string>
   <string name="pref_options_ringtones_text_title">Text signal</string>
-  <string name="pref_options_ringtones_ping_title">Ping</string>
+  <string name="pref_options_ringtones_ping_title">Ping signal</string>
   <string name="pref_options_ringtones_default_summary">Wire Standard</string>
   <string name="pref_options_image_download_title">Ladda ner bilder</string>
   <string name="pref_options_image_download_always">Alltid</string>
@@ -459,11 +460,11 @@
   <string name="pref_devices_device_fingerprint_copy_description">Fingeravtryck</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Nyckel Fingeravtryck kopierad</string>
   <!-- Advanced -->
-  <string name="pref_advanced_screen_title">Avancerad</string>
+  <string name="pref_advanced_screen_title">Avancerat</string>
   <string name="pref_advanced_debug_report_title">Skicka in Debug rapport</string>
   <string name="pref_advanced_debug_report_summary">Detta hjälper Wire Support att diagnostisera problem.</string>
   <string name="pref_advanced_analytics_title">Användningsrapporter för data och krasch rapporter</string>
-  <string name="pref_advanced_analytics_summary">Göra Wire bättre genom skicka anonym information.</string>
+  <string name="pref_advanced_analytics_summary">Gör Wire bättre genom skicka anonym information.</string>
   <string name="debug_report__title">Android Wire felrapport - %1$s</string>
   <string name="debug_report__body">Hjälp oss att felsöka! Vänligen berätta detaljer om vad som hände, vilket felmeddelandet du fick eller skärmdump, och om möjligt göra stegen igen för att få problemet.\n\n</string>
   <!-- Support -->
@@ -612,8 +613,8 @@
   <string name="system_notification__ongoing">I ett samtal</string>
   <string name="number_of_conversations_string">ARKIV</string>
   <!-- Notification actions -->
-  <string name="notification__action__call">Samtal</string>
-  <string name="notification__action__reply">Svar</string>
+  <string name="notification__action__call">Ring</string>
+  <string name="notification__action__reply">Svara</string>
   <!-- Quick reply -->
   <string name="quick_reply__counter">%1$d av %2$d</string>
   <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
@@ -679,9 +680,9 @@
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <string name="timestamp_pattern__date_and_time__no_year">EEE, MMM: d, %1$s</string>
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year">EEE, MMM d, ÅÅÅÅ, %1$s</string>
+  <string name="timestamp_pattern__date_and_time__with_year">EEE, MMM d, YYYY, %1$s</string>
   <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM ÅÅÅÅ \u30FB %1$s</string>
+  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
   <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MONDAY -->
@@ -843,16 +844,12 @@
   <string name="tooltip_file">Skicka fil</string>
   <string name="new_feature">Nytt</string>
   <!-- Delete -->
-  <plurals name="conversation__action_mode__delete__dialog__title">
-    <item quantity="one">Radera meddelandet</item>
-    <item quantity="other">Radera meddelandena</item>
-  </plurals>
-  <plurals name="conversation__action_mode__delete__dialog__message">
-    <item quantity="one">Meddelandet tas bara bort från din sida av konversationen. Detta kan inte ångras.</item>
-    <item quantity="other">Meddelandena tas bara bort från din sida av konversationen. Detta kan inte ångras.</item>
-  </plurals>
-  <string name="conversation__action_mode__delete__dialog__cancel">Avbryt</string>
-  <string name="conversation__action_mode__delete__dialog__ok">Radera</string>
+  <string name="conversation__message_action__delete_for_me">Radera bara för mig?</string>
+  <string name="conversation__message_action__delete_for_everyone">Radera för alla?</string>
+  <string name="conversation__message_action__delete_details">Detta kan inte ångras.</string>
+  <string name="conversation__message_action__delete__dialog__cancel">Avbryt</string>
+  <string name="conversation__message_action__delete__dialog__ok">Radera</string>
+  <string name="conversation__message_action__delete__confirmation">Meddelandet är borttaget</string>
   <string name="conversation__action_mode__copy__description">Meddelande från %1$s</string>
   <string name="conversation__action_mode__copy__toast">Kopierad</string>
   <string name="conversation__action_mode__fwd__dialog__title">Förbereder innehåll</string>
@@ -871,4 +868,9 @@
   <string name="audio_message__recording__limit_reached__message">Ljudmeddelande är begränsade till 25MB. Skicka detta meddelande?</string>
   <string name="audio_message__recording__limit_reached__confirmation">SKICKA</string>
   <string name="hint_change_filter">Ändra ett filter ovan</string>
+  <string name="message_bottom_menu_action_forward">Framåt</string>
+  <string name="message_bottom_menu_action_copy">Kopiera</string>
+  <string name="message_bottom_menu_action_edit">Redigera</string>
+  <string name="message_bottom_menu_action_delete_local">Radera bara för mig</string>
+  <string name="message_bottom_menu_action_delete_global">Radera för alla</string>
 </resources>

@@ -178,6 +178,7 @@
   <string name="content__system__message_deleted">Questo messaggio è stato rimosso</string>
   <string name="content_system_message_timestamp_failure">Messaggio non inviato.</string>
   <string name="content_system_message_timestamp_pending">Invio in corso\u2026</string>
+  <string name="content_system_message_timestamp_deleted">Cancellato il %1$s</string>
   <!-- Conversation: missed call -->
   <string name="content__missed_call__you_called">[[TU]] HAI CHIAMATO</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] HA CHIAMATO</string>
@@ -843,16 +844,12 @@
   <string name="tooltip_file">Invia file</string>
   <string name="new_feature">Novità</string>
   <!-- Delete -->
-  <plurals name="conversation__action_mode__delete__dialog__title">
-    <item quantity="one">Elimina messaggio</item>
-    <item quantity="other">Elimina messaggi</item>
-  </plurals>
-  <plurals name="conversation__action_mode__delete__dialog__message">
-    <item quantity="one">Il messaggio verrà rimosso solo dalla tua conversazione. Non può essere annullato.</item>
-    <item quantity="other">I messaggi verranno rimossi solo dalla tua conversazione. Non può essere annullato.</item>
-  </plurals>
-  <string name="conversation__action_mode__delete__dialog__cancel">Annulla</string>
-  <string name="conversation__action_mode__delete__dialog__ok">Elimina</string>
+  <string name="conversation__message_action__delete_for_me">Eliminare solo per me?</string>
+  <string name="conversation__message_action__delete_for_everyone">Eliminare per tutti?</string>
+  <string name="conversation__message_action__delete_details">Questa azione non può essere annullata.</string>
+  <string name="conversation__message_action__delete__dialog__cancel">Annulla</string>
+  <string name="conversation__message_action__delete__dialog__ok">Elimina</string>
+  <string name="conversation__message_action__delete__confirmation">Messaggio eliminato</string>
   <string name="conversation__action_mode__copy__description">Messaggio da %1$s</string>
   <string name="conversation__action_mode__copy__toast">Copiato</string>
   <string name="conversation__action_mode__fwd__dialog__title">In preparazione</string>
@@ -871,4 +868,9 @@
   <string name="audio_message__recording__limit_reached__message">I messaggi audio sono limitati a 25MB. Invia questo messaggio?</string>
   <string name="audio_message__recording__limit_reached__confirmation">INVIA</string>
   <string name="hint_change_filter">Cambia un filtro qui sopra</string>
+  <string name="message_bottom_menu_action_forward">Inoltra</string>
+  <string name="message_bottom_menu_action_copy">Copia</string>
+  <string name="message_bottom_menu_action_edit">Modifica</string>
+  <string name="message_bottom_menu_action_delete_local">Elimina solo per me</string>
+  <string name="message_bottom_menu_action_delete_global">Elimina per tutti</string>
 </resources>

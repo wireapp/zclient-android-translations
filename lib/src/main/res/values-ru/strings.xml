@@ -170,18 +170,19 @@
   <string name="content__system__other_started_participant">[[%1$s]] начал(-а) разговор с %2$s</string>
   <string name="content__system__other_added_you">[[%1$s]] добавил(-а) вас</string>
   <string name="content__system__other_started_you">[[%1$s]] начал(-а) разговор с вами</string>
-  <string name="content__system__you_added_participant">Вы добавили %2$s</string>
-  <string name="content__system__you_started_participant">Вы начали разговор с %2$s</string>
+  <string name="content__system__you_added_participant">[[Вы]] добавили %2$s</string>
+  <string name="content__system__you_started_participant">[[Вы]] начали разговор с %2$s</string>
   <string name="content__system__other_left">[[%1$s]] вышел(-ла)</string>
-  <string name="content__system__you_left">Вы вышли</string>
+  <string name="content__system__you_left">[[Вы]] вышли</string>
   <string name="content__system__other_removed_other">[[%1$s]] удалил(-а) %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] удалил(-а) вас</string>
-  <string name="content__system__you_removed_other">Вы удалили %2$s</string>
+  <string name="content__system__you_removed_other">[[Вы]] удалили %2$s</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] ПЕРЕИМЕНОВАЛ(-А) РАЗГОВОР</string>
   <string name="content__system__you_renamed_conv">[[ВЫ]] ПЕРЕИМЕНОВАЛИ РАЗГОВОР</string>
   <string name="content__system__message_deleted">Это сообщение было удалено</string>
   <string name="content_system_message_timestamp_failure">Неотправленное сообщение.</string>
   <string name="content_system_message_timestamp_pending">Отправка\u2026</string>
+  <string name="content_system_message_timestamp_deleted">Удалено %1$s</string>
   <!-- Conversation: missed call -->
   <string name="content__missed_call__you_called">[[ВЫ]] ЗВОНИЛИ</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] ЗВОНИЛ(-А)</string>
@@ -199,7 +200,7 @@
   <string name="content__otr__all_fingerprints_verified">ВСЕ УСТРОЙСТВА ВЕРИФИЦИРОВАНЫ</string>
   <string name="content__otr__lost_history">ВЫ НЕ ИСПОЛЬЗОВАЛИ ЭТО УСТРОЙСТВО НЕКОТОРОЕ ВРЕМЯ. НЕКОТОРЫЕ СООБЩЕНИЯ МОГУТ БЫТЬ НЕ ПОКАЗАНЫ.</string>
   <string name="content__otr__unverified_device__message">[[ВЫ]] ОТМЕТИЛИ ОДНО ИЗ УСТРОЙСТВ _%1$s_ КАК НЕПРОВЕРЕННОЕ</string>
-  <string name="content__otr__your_unverified_device__message">[[YOU]] ВЫ ОТМЕТИЛИ ОДНО ИЗ _YOUR DEVICES_ КАК НЕПРОВЕРЕННОЕ</string>
+  <string name="content__otr__your_unverified_device__message">[[ВЫ]] ОТМЕТИЛИ ОДНО ИЗ _YOUR DEVICES_ КАК НЕПРОВЕРЕННОЕ</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">ЗАГРУЗКА&#8230;</string>
@@ -752,7 +753,7 @@ Plural:
   <!-- Giphy -->
   <string name="giphy_preview__title_search">#%s</string>
   <string name="giphy_preview__title_random">СЛУЧАЙНАЯ</string>
-  <string name="giphy_preview__try_another_action">ПОПРОБУЙТЕ ЕЩЕ</string>
+  <string name="giphy_preview__try_another_action">ДРУГАЯ</string>
   <string name="giphy_preview__error">GIF-файл НЕ НАЙДЕН.</string>
   <string name="giphy_preview__message_via_random">через giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · через giphy.com</string>
@@ -867,18 +868,12 @@ Plural:
   <string name="tooltip_file">Отправить файл</string>
   <string name="new_feature">Новое</string>
   <!-- Delete -->
-  <plurals name="conversation__action_mode__delete__dialog__title">
-    <item quantity="one">Удалить сообщение</item>
-    <item quantity="few">Удалить сообщения</item>
-    <item quantity="other">Удалить сообщения</item>
-  </plurals>
-  <plurals name="conversation__action_mode__delete__dialog__message">
-    <item quantity="one">Сообщение будет удалено только из разговора на вашей стороне. Это действие не может быть отменено.</item>
-    <item quantity="few">Сообщения будут удалены только из разговора на вашей стороне. Это действие не может быть отменено.</item>
-    <item quantity="other">Сообщения будут удалены только из разговора на вашей стороне. Это действие не может быть отменено.</item>
-  </plurals>
-  <string name="conversation__action_mode__delete__dialog__cancel">Отмена</string>
-  <string name="conversation__action_mode__delete__dialog__ok">Удалить</string>
+  <string name="conversation__message_action__delete_for_me">Удалить только для меня?</string>
+  <string name="conversation__message_action__delete_for_everyone">Удалить для всех?</string>
+  <string name="conversation__message_action__delete_details">Действие не может быть отменено.</string>
+  <string name="conversation__message_action__delete__dialog__cancel">Отменить</string>
+  <string name="conversation__message_action__delete__dialog__ok">Удалить</string>
+  <string name="conversation__message_action__delete__confirmation">Сообщение удалено</string>
   <string name="conversation__action_mode__copy__description">Сообщение от %1$s</string>
   <string name="conversation__action_mode__copy__toast">Скопировано</string>
   <string name="conversation__action_mode__fwd__dialog__title">Подготовка контента</string>
@@ -897,4 +892,9 @@ Plural:
   <string name="audio_message__recording__limit_reached__message">Размер аудио сообщений ограничен 25 Мб. Отправить это сообщение?</string>
   <string name="audio_message__recording__limit_reached__confirmation">ОТПРАВИТЬ</string>
   <string name="hint_change_filter">Поменять фильтр выше</string>
+  <string name="message_bottom_menu_action_forward">Дальше</string>
+  <string name="message_bottom_menu_action_copy">Копировать</string>
+  <string name="message_bottom_menu_action_edit">Редактировать</string>
+  <string name="message_bottom_menu_action_delete_local">Удалить только для меня</string>
+  <string name="message_bottom_menu_action_delete_global">Удалить для всех</string>
 </resources>

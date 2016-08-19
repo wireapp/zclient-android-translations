@@ -178,6 +178,7 @@
   <string name="content__system__message_deleted">Este mensaje ha sido eliminado</string>
   <string name="content_system_message_timestamp_failure">Mensaje no enviado.</string>
   <string name="content_system_message_timestamp_pending">Enviando\u2026</string>
+  <string name="content_system_message_timestamp_deleted">Eliminados en %1$s</string>
   <!-- Conversation: missed call -->
   <string name="content__missed_call__you_called">[[TÚ]] LLAMASTE</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] LLAMADO</string>
@@ -843,16 +844,12 @@
   <string name="tooltip_file">Enviar archivo</string>
   <string name="new_feature">Nuevo</string>
   <!-- Delete -->
-  <plurals name="conversation__action_mode__delete__dialog__title">
-    <item quantity="one">Eliminar mensaje</item>
-    <item quantity="other">Eliminar mensajes</item>
-  </plurals>
-  <plurals name="conversation__action_mode__delete__dialog__message">
-    <item quantity="one">El mensaje sólo se eliminará de la vista de la conversación. Esto no se puede deshacer.</item>
-    <item quantity="other">El mensaje sólo se eliminará de la vista de la conversación. Esto no se puede deshacer.</item>
-  </plurals>
-  <string name="conversation__action_mode__delete__dialog__cancel">Cancelar</string>
-  <string name="conversation__action_mode__delete__dialog__ok">Eliminar</string>
+  <string name="conversation__message_action__delete_for_me">¿Borrar sólo para mí?</string>
+  <string name="conversation__message_action__delete_for_everyone">¿Eliminar para todos?</string>
+  <string name="conversation__message_action__delete_details">Esto no se puede deshacer.</string>
+  <string name="conversation__message_action__delete__dialog__cancel">Cancelar</string>
+  <string name="conversation__message_action__delete__dialog__ok">Eliminar</string>
+  <string name="conversation__message_action__delete__confirmation">Mensaje eliminado</string>
   <string name="conversation__action_mode__copy__description">Mensaje de %1$s</string>
   <string name="conversation__action_mode__copy__toast">Copiado</string>
   <string name="conversation__action_mode__fwd__dialog__title">Preparando contenido</string>
@@ -871,4 +868,9 @@
   <string name="audio_message__recording__limit_reached__message">Los mensajes de audio tienen un límite de 25MB ¿Enviar este mensaje?</string>
   <string name="audio_message__recording__limit_reached__confirmation">ENVIAR</string>
   <string name="hint_change_filter">Cambiar un filtro arriba</string>
+  <string name="message_bottom_menu_action_forward">Hacia adelante</string>
+  <string name="message_bottom_menu_action_copy">Copiar</string>
+  <string name="message_bottom_menu_action_edit">Editar</string>
+  <string name="message_bottom_menu_action_delete_local">Eliminar sólo para mí</string>
+  <string name="message_bottom_menu_action_delete_global">Eliminar para todos</string>
 </resources>

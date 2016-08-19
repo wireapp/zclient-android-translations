@@ -75,7 +75,7 @@
   <string name="new_reg_phone_invalid_add_code_message">বৈধ কোড প্রবেশ করান।</string>
   <string name="new_reg_phone_invalid_login_code_header">ভুল কোড</string>
   <string name="new_reg_phone_invalid_login_code_message">বৈধ কোড প্রবেশ করান।</string>
-  <string name="new_reg_phone_pending_login_header">কোড পাঠানো হয়েছে।</string>
+  <string name="new_reg_phone_pending_login_header">কোড ইতোমধ্যে পাঠানো হয়েছে।</string>
   <string name="new_reg_phone_pending_login_message">আমরা আপনাকে ইতিমধ্যেই মেসেজের মাধ্যমে কোড পাঠিয়েছি। রিসেন্ড বাটনে চাপ দিন ১০ মিনিট পরে নতুন একটি কোড পেতে।</string>
   <string name="new_reg_phone_add_password_header">অবৈধ পাসওয়ার্ড</string>
   <string name="new_reg_phone_add_password_message">অনুগ্রহ করে আপনার তথ্য যাচাই করুন এবং আবার চেষ্টা করুন।</string>
@@ -178,6 +178,7 @@
   <string name="content__system__message_deleted">এই বার্তাটি মুছে ফেলা হয়েছে</string>
   <string name="content_system_message_timestamp_failure">না পাঠানো বার্তা।</string>
   <string name="content_system_message_timestamp_pending">পাঠানো হচ্ছে\u2026</string>
+  <string name="content_system_message_timestamp_deleted">ডিলেট করার সময় -%1$s</string>
   <!-- Conversation: missed call -->
   <string name="content__missed_call__you_called">[[YOU]] কল করেছেন</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] কল করেছিলেন</string>
@@ -844,16 +845,12 @@
   <string name="tooltip_file">ফাইল প্রেরণ করুন</string>
   <string name="new_feature">নতুন</string>
   <!-- Delete -->
-  <plurals name="conversation__action_mode__delete__dialog__title">
-    <item quantity="one">বার্তা মুছুন</item>
-    <item quantity="other">বার্তাগুলি মুছুন</item>
-  </plurals>
-  <plurals name="conversation__action_mode__delete__dialog__message">
-    <item quantity="one">বার্তাটি কেবল আপনার কথোপকথন থেকে অপসারণ করা হবে। এটা বদলানো যাবে না।</item>
-    <item quantity="other">বার্তা সমূহ কেবল আপনার কথোপকথন থেকে অপসারণ করা হবে। এটা বদলানো যাবে না।</item>
-  </plurals>
-  <string name="conversation__action_mode__delete__dialog__cancel">বাতিল করুন</string>
-  <string name="conversation__action_mode__delete__dialog__ok">মুছে ফেলুন</string>
+  <string name="conversation__message_action__delete_for_me">শুধুমাত্র নিজের জন্য মুছে ফেলবেন?</string>
+  <string name="conversation__message_action__delete_for_everyone">সকলের জন্য মুছে ফেলবেন?</string>
+  <string name="conversation__message_action__delete_details">এইটা পূর্বের অবস্থায় ফিরিয়ে নেয়া যাবে না।</string>
+  <string name="conversation__message_action__delete__dialog__cancel">বাতিল করুন</string>
+  <string name="conversation__message_action__delete__dialog__ok">মুছে ফেলুন</string>
+  <string name="conversation__message_action__delete__confirmation">বার্তাটি মুছে ফেলা হয়েছে</string>
   <string name="conversation__action_mode__copy__description">%1$s বার্তা পাঠিয়েছে</string>
   <string name="conversation__action_mode__copy__toast">কপি করা হয়েছে</string>
   <string name="conversation__action_mode__fwd__dialog__title">কন্টেন্ট তৈরি করা হচ্ছে।</string>
@@ -872,4 +869,9 @@
   <string name="audio_message__recording__limit_reached__message">অডিও মেজেস এর লিমিট 25 MB। এই বার্তাটি প্রেরণ করবেন?</string>
   <string name="audio_message__recording__limit_reached__confirmation">প্রেরণ করুন</string>
   <string name="hint_change_filter">উপরের একটি ফিল্টার পরিবর্তন করুন</string>
+  <string name="message_bottom_menu_action_forward">সামনে</string>
+  <string name="message_bottom_menu_action_copy">কপি</string>
+  <string name="message_bottom_menu_action_edit">সম্পাদনা করুন</string>
+  <string name="message_bottom_menu_action_delete_local">শুধুমাত্র আমার জন্য মুছে ফেলুন</string>
+  <string name="message_bottom_menu_action_delete_global">সকলের জন্য মুছে ফেলুন</string>
 </resources>
