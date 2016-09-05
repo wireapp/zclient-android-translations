@@ -431,7 +431,7 @@
   <string name="pref_options_image_download_wifi">Solo su Wi-Fi</string>
   <string name="pref_options_media_category_title">Media</string>
   <string name="pref_options_giphy_title">Giphy</string>
-  <string name="pref_options_giphy_summary">Sostituisci il testo dei messaggi con le GIF animate.</string>
+  <string name="pref_options_giphy_summary">Mostra il pulsante GIF</string>
   <string name="pref_options_spotify_title">Connetti a Spotify</string>
   <string name="pref_options_spotify_logout_title">Disconnetti da Spotify</string>
   <string name="pref_options_spotify_summary">È necessario un account Spotify Premium.</string>
@@ -440,10 +440,10 @@
   <string name="pref_devices_screen_title">Dispositivi</string>
   <string name="pref_current_device_category_title">Dispositivo corrente</string>
   <string name="pref_other_devices_category_title">Dispositivi attivi</string>
-  <string name="pref_devices_summary">Clicca per eliminare</string>
+  <string name="pref_devices_summary">Tocca per eliminare</string>
   <string name="pref_devices_current_device_category_title">Dispositivo corrente</string>
   <string name="pref_devices_other_devices_category_title">Altri dispositivi</string>
-  <string name="pref_devices_device_activation_summary">Attivato [[%1$s]]\na [[%2$s]]</string>
+  <string name="pref_devices_device_activation_summary">Attivato il [[%1$s]]\n a [[%2$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Verificato</string>
   <string name="pref_devices_device_not_verified">Non verificato</string>
@@ -581,6 +581,7 @@
   <string name="notification__message__one_to_one__shared_video">Ha condiviso un video</string>
   <string name="notification__message__one_to_one__shared_audio">Ha condiviso un messaggio vocale</string>
   <string name="notification__message__one_to_one__shared_location">Ha condiviso una posizione</string>
+  <string name="notification__message__one_to_one__liked">Ha messo un mi piace</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s in %2$s \u0020</string>
@@ -596,6 +597,7 @@
   <string name="notification__message__multiple__accept_request">ha accettato la tua richiesta di connessione</string>
   <string name="notification__message__single__accept_request">Ha accettato la tua richiesta di connessione</string>
   <string name="notification__message__group__default_conversation_name">conversazione di gruppo</string>
+  <string name="notification__message__group__liked">ha messo un mi piace</string>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -746,7 +748,7 @@
   <string name="location_sharing__enable_system_location__message">Attiva la posizione nelle impostazioni per mostrare la tua posizione attuale</string>
   <string name="location_sharing__enable_system_location__confirm">Impostazioni</string>
   <string name="location_sharing__enable_system_location__cancel">Annulla</string>
-  <string name="location_sharing__missing_play_services">Google Play Services is needed for location sharing</string>
+  <string name="location_sharing__missing_play_services">Google Play Services è necessario per la condivisione della posizione</string>
   <!-- From SyncEngine -->
   <string name="zms_empty_conversation_name">Conversazione vuota</string>
   <string name="new_reg__phone_signup__create_account">Crea un account</string>
@@ -868,10 +870,23 @@
   <string name="audio_message__recording__limit_reached__title">Registrazione interrotta</string>
   <string name="audio_message__recording__limit_reached__message">I messaggi audio sono limitati a 25MB. Invia questo messaggio?</string>
   <string name="audio_message__recording__limit_reached__confirmation">INVIA</string>
-  <string name="hint_change_filter">Cambia un filtro qui sopra</string>
+  <string name="hint_change_filter">Scegli un filtro qui sopra</string>
   <string name="message_bottom_menu_action_forward">Inoltra</string>
   <string name="message_bottom_menu_action_copy">Copia</string>
   <string name="message_bottom_menu_action_edit">Modifica</string>
-  <string name="message_bottom_menu_action_delete_local">Elimina solo per me</string>
+  <string name="message_bottom_menu_action_like">Mi piace</string>
+  <string name="message_bottom_menu_action_unlike">Non mi piace più</string>
+  <string name="message_bottom_menu_action_delete_local">Elimina per me</string>
   <string name="message_bottom_menu_action_delete_global">Elimina per tutti</string>
+  <string name="likes_list__header">Piace a</string>
+  <string name="message_footer__tap_to_like">Tocca per mettere mi piace</string>
+  <plurals name="message_footer__number_of_likes">
+    <item quantity="one">%1$d persone</item>
+    <item quantity="other">%1$d persone</item>
+  </plurals>
+  <string name="message_footer__status__sending">Invio in corso&#8230;</string>
+  <string name="message_footer__status__sent">%1$s \u30FB Inviato</string>
+  <string name="message_footer__status__delivered">%1$s \u30FB Consegnato</string>
+  <string name="message_footer__status__failed">Invio non riuscito. _Rimanda_</string>
+  <string name="message_footer__status__deleted">%1$s \u30FB Eliminato</string>
 </resources>

@@ -133,7 +133,7 @@
   <string name="people_picker__error_message__no_results__send_invite">надішліть\nзапрошення</string>
   <string name="people_picker__error_message__no_users_to_add_to_conversation">Всі ваші контакти уже присутні в даній групі.</string>
   <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Ми не змогли знайти нікого з ваших знайомих в Wire. Введіть повне ім\'я або email-адресу.</string>
-  <string name="people_picker__toolbar_header__group">Додати людей</string>
+  <string name="people_picker__toolbar_header__group">Додати учасників</string>
   <string name="people_picker__toolbar_header__one_to_one">Створити групу</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">Знайомий(-а) з %1$s</string>
@@ -228,7 +228,7 @@
   <string name="conversation__action__delete">ВИДАЛИТИ</string>
   <string name="conversation__action__archive">АРХІВУВАТИ</string>
   <string name="conversation__action__unarchive">РОЗАРХІВУВАТИ</string>
-  <string name="conversation__action__add_people">ДОДАТИ ЛЮДЕЙ</string>
+  <string name="conversation__action__add_people">ДОДАТИ УЧАСНИКІВ</string>
   <string name="conversation__action__create_group">СТВОРИТИ ГРУПУ</string>
   <string name="conversation__action__silence">ВИМКН. ЗВУК</string>
   <string name="conversation__action__unsilence">ВКЛ. ЗВУК</string>
@@ -281,7 +281,7 @@
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
   <string name="connect_request__sub_header__pending_label">Очікує підтвердження</string>
   <string name="connect_request__unblock__button__text">Розблокувати</string>
-  <string name="send_connect_request__connect_button__text">Додати в контакти</string>
+  <string name="send_connect_request__connect_button__text">Додати до контактів</string>
   <string name="connect_inbox__one_person__link__name">1 людина очікує</string>
   <string name="connect_inbox__multiple_people__link__name">%1$s людей очікує</string>
   <string name="connect_request__ignore_button__text">Ігнорувати</string>
@@ -316,9 +316,9 @@
   </plurals>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
-    <item quantity="one">%1$d ЛЮДИНА</item>
-    <item quantity="few">%1$d ЛЮДИНИ</item>
-    <item quantity="other">%1$d ЛЮДЕЙ</item>
+    <item quantity="one">%1$d УЧАСНИК</item>
+    <item quantity="few">%1$d УЧАСНИКИ</item>
+    <item quantity="other">%1$d УЧАСНИКІВ</item>
   </plurals>
   <string name="group_name">Назва групи</string>
   <!-- Picture selection confirmation -->
@@ -326,11 +326,11 @@
   <string name="confirmation_menu__cancel">СКАСУВАТИ</string>
   <!-- ADD TO CONVERSATION offline -->
   <string name="conversation__add_user__no_network__title">Немає з\'єднання з Інтернетом</string>
-  <string name="conversation__add_user__no_network__message">Ви повинні бути онлайн, щоб додати людей. Ми спробуємо ще раз, коли ви будете знову в мережі.</string>
+  <string name="conversation__add_user__no_network__message">Ви повинні бути онлайн, щоб додати учасників. Ми спробуємо ще раз, коли ви будете знову в мережі.</string>
   <string name="conversation__add_user__no_network__button">OK</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
   <string name="conversation__create_group_conversation__no_network__title">Немає з\'єднання з Інтернетом</string>
-  <string name="conversation__create_group_conversation__no_network__message">Ви повинні знаходитися в Інтернеті щоб почати розмову. Інші люди будуть бачити внесені зміни, коли ви будете знову онлайн.</string>
+  <string name="conversation__create_group_conversation__no_network__message">Ви повинні знаходитися в Інтернеті щоб почати розмову. Інші учасники будуть бачити внесені зміни, коли ви будете знову онлайн.</string>
   <string name="conversation__create_group_conversation__no_network__button">OK</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">Вийти з розмови?</string>
@@ -344,7 +344,7 @@
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Блокувати?</string>
-  <string name="confirmation_menu__block_text_with_name">%1$s більше не зможе знайти або зв\'язатися з вами у Wire.</string>
+  <string name="confirmation_menu__block_text_with_name">%1$s більше не зможе знайти вас або зв\'язатися з вами у Wire.</string>
   <string name="confirmation_menu__confirm_block">ЗАБЛОКУВАТИ</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Заблокований(-на)</string>
@@ -361,9 +361,9 @@
   <string name="mediaplayer__open_external">Відкрити у браузері</string>
   <!-- Invite banner -->
   <string name="content__invite_banner__title">РОЗПОЧНІТЬ СПІЛКУВАТИСЬ!</string>
-  <string name="content__invite_banner__subtitle">Додайте людей або поділіться посиланням на цю розмову.</string>
+  <string name="content__invite_banner__subtitle">Додайте учасників або поділіться посиланням на цю розмову.</string>
   <string name="content__invite_banner__howto_link">Як це працює?</string>
-  <string name="content__invite_banner__button_label">Додати людей до цієї розмови</string>
+  <string name="content__invite_banner__button_label">Додати учасників до цієї розмови</string>
   <!-- Self profile -->
   <string name="self_name">Ваше повне ім\'я</string>
   <string name="self_add_email">Додати email \u0026 пароль</string>
@@ -436,7 +436,7 @@
   <string name="pref_options_image_download_wifi">Тільки в мережі Wi-Fi</string>
   <string name="pref_options_media_category_title">Медіа</string>
   <string name="pref_options_giphy_title">Giphy</string>
-  <string name="pref_options_giphy_summary">Заміняє текстові повідомлення анімованими GIF-картинками.</string>
+  <string name="pref_options_giphy_summary">Показувати кнопку GIF</string>
   <string name="pref_options_spotify_title">Підключити Spotify</string>
   <string name="pref_options_spotify_logout_title">Відключити Spotify</string>
   <string name="pref_options_spotify_summary">Вам знадобиться преміум-акаунт Spotify.</string>
@@ -445,7 +445,7 @@
   <string name="pref_devices_screen_title">Пристрої</string>
   <string name="pref_current_device_category_title">Поточний пристрій</string>
   <string name="pref_other_devices_category_title">Активні пристрої</string>
-  <string name="pref_devices_summary">Натисніть для видалення</string>
+  <string name="pref_devices_summary">Торкніться, щоб видалити</string>
   <string name="pref_devices_current_device_category_title">Поточний пристрій</string>
   <string name="pref_devices_other_devices_category_title">Інші пристрої</string>
   <string name="pref_devices_device_activation_summary">Активований: [[%1$s]]\n[[%2$s]]</string>
@@ -547,7 +547,7 @@
   <string name="rename_conversation__no_network__message">Ви повинні бути онлайн, щоб перейменувати розмову. Перевірте підключення та спробуйте ще раз.</string>
   <string name="resend_message__no_network__message">Ви повинні бути онлайн, щоб надіслати повідомлення. Перевірте підключення та спробуйте ще раз.</string>
   <string name="leave_conversation_failed__message">Ви повинні бути онлайн, щоб вийти з розмови. Перевірте підключення та спробуйте ще раз.</string>
-  <string name="remove_from_conversation__no_network__message">Ви повинні бути онлайн, щоб видаляти людей з розмови. Перевірте підключення та спробуйте ще раз.</string>
+  <string name="remove_from_conversation__no_network__message">Ви повинні бути онлайн, щоб видаляти учасників з розмови. Перевірте підключення та спробуйте ще раз.</string>
   <string name="calling__call_drop__message">Ви повинні бути онлайн, щоб зателефонувати. Перевірте підключення та спробуйте ще раз.</string>
   <string name="profile_pic__no_network__message">Ви повинні бути онлайн, щоб змінити своє фото. Перевірте підключення та спробуйте ще раз.</string>
   <string name="calling__voice_channel_full__title">Забагато людей в дзвінку</string>
@@ -557,12 +557,12 @@
     <item quantity="few">Тут залишилось місце тільки для %1$d учасників.</item>
     <item quantity="other">Тут залишилось місце тільки для %1$d учасників.</item>
   </plurals>
-  <string name="calling__conversation_full__title">Забагато людей для здійснення дзвінка</string>
+  <string name="calling__conversation_full__title">Забагато учасників для здійснення дзвінка</string>
   <plurals name="calling__conversation_full__message">
     <!-- should not happen though -->
-    <item quantity="one">Дзвінки можливі в розмовах до %1$d людини.</item>
-    <item quantity="few">Дзвінки можливі в розмовах до %1$d людей.</item>
-    <item quantity="other">Дзвінки можливі в розмовах до %1$d людей.</item>
+    <item quantity="one">Дзвінки можливі в розмовах до %1$d учасника.</item>
+    <item quantity="few">Дзвінки можливі в розмовах до %1$d учасників.</item>
+    <item quantity="other">Дзвінки можливі в розмовах до %1$d учасників.</item>
   </plurals>
   <!-- Lockscreen and notifications -->
   <string name="lockscreen__talk">ДЗВОНИТЬ</string>
@@ -591,6 +591,7 @@
   <string name="notification__message__one_to_one__shared_video">Поділився(-лась) відео</string>
   <string name="notification__message__one_to_one__shared_audio">Поділився(-лась) аудіоповідомленням</string>
   <string name="notification__message__one_to_one__shared_location">Поділився(-лась) розташуванням</string>
+  <string name="notification__message__one_to_one__liked">Сподобалося повідомлення</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s в %2$s \u0020</string>
@@ -602,10 +603,11 @@
   <string name="notification__message__group__shared_location">поділився(-лась) розташуванням</string>
   <string name="notification__message__group__renamed_conversation">змінив(-лв) тему розмови на %1$s</string>
   <string name="notification__message__group__add">запросив(-ла) людей до розмови</string>
-  <string name="notification__message__group__remove">видалив(-ла) людей з розмови</string>
+  <string name="notification__message__group__remove">видалив(-ла) учасників з розмови</string>
   <string name="notification__message__multiple__accept_request">прийняв(-ла) ваш запит на додавання до контактів</string>
   <string name="notification__message__single__accept_request">Прийняв(-ла) ваш запит на додавання до контактів</string>
   <string name="notification__message__group__default_conversation_name">групова розмова</string>
+  <string name="notification__message__group__liked">сподобалося повідомлення</string>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -658,7 +660,7 @@
   <string name="in_app_notification__sync_error__create_group_convo__title">Не вдалося створити</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">Не вдалося почати розмову з %1$s</string>
   <string name="in_app_notification__sync_error__add_user__body">%1$s не хоче бути доданим до розмови.</string>
-  <string name="in_app_notification__sync_error__add_multiple_user__body">Один з людей, яких ви вибрали, не хоче бути доданим до розмови.</string>
+  <string name="in_app_notification__sync_error__add_multiple_user__body">Один з контактів, яких ви вибрали, не хоче бути доданим до розмови.</string>
   <string name="in_app_notification__sync_error__unknown__body">Ой, щось пішло не так! Будь ласка, спробуйте ще раз.</string>
   <string name="in_app_notification__sync_error__create_convo__button">Продовжити</string>
   <!--Timestamp formatting -->
@@ -764,7 +766,7 @@
   <string name="location_sharing__enable_system_location__message">Увімкніть геолокацію в налаштуваннях, щоб визначити ваше теперішнє розташування</string>
   <string name="location_sharing__enable_system_location__confirm">Налаштування</string>
   <string name="location_sharing__enable_system_location__cancel">Скасувати</string>
-  <string name="location_sharing__missing_play_services">Google Play Services is needed for location sharing</string>
+  <string name="location_sharing__missing_play_services">Для того, щоб поділитись розташуванням, необхідна нявність служб Google Play</string>
   <!-- From SyncEngine -->
   <string name="zms_empty_conversation_name">Розмова без співрозмовників</string>
   <string name="new_reg__phone_signup__create_account">Створити акаунт</string>
@@ -818,7 +820,7 @@
   <string name="single_image__save_to_disk__error">Не вдається зберегти картинку. Відсутній доступ до зовнішнього накопичувача</string>
   <string name="conversation_list__label_action__contacts">КОНТАКТИ</string>
   <string name="conversation_list__hint_header">Розмови починаються тут</string>
-  <string name="conversation_list__hint_text">Почніть розмову або запросіть більше людей приєднатися. Дзвінки, повідомлення та багато іншого — приватно або в групі.</string>
+  <string name="conversation_list__hint_text">Почніть розмову або запросіть більше людей. Дзвінки, повідомлення та багато іншого — приватно або в групі.</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__call_video">Відеодзвінок</string>
   <string name="conversation_toolbar__call_audio">Аудіодзвінок</string>
@@ -886,10 +888,24 @@
   <string name="audio_message__recording__limit_reached__title">Запис зупинено</string>
   <string name="audio_message__recording__limit_reached__message">Аудіоповідомлення обмежені розміром у 25Мб. Надіслати це повідомлення?</string>
   <string name="audio_message__recording__limit_reached__confirmation">НАДІСЛАТИ</string>
-  <string name="hint_change_filter">Змінити фільтр вище</string>
+  <string name="hint_change_filter">Оберіть фільтр вище</string>
   <string name="message_bottom_menu_action_forward">Переслати</string>
   <string name="message_bottom_menu_action_copy">Скопіювати</string>
   <string name="message_bottom_menu_action_edit">Редагувати</string>
-  <string name="message_bottom_menu_action_delete_local">Видалити тільки для мене</string>
+  <string name="message_bottom_menu_action_like">Подобається</string>
+  <string name="message_bottom_menu_action_unlike">Не подобається</string>
+  <string name="message_bottom_menu_action_delete_local">Видалити для мене</string>
   <string name="message_bottom_menu_action_delete_global">Видалити для всіх</string>
+  <string name="likes_list__header">Сподобалося</string>
+  <string name="message_footer__tap_to_like">Торкніться, якщо сподобалося</string>
+  <plurals name="message_footer__number_of_likes">
+    <item quantity="one">%1$d учасник</item>
+    <item quantity="few">%1$d учасники</item>
+    <item quantity="other">%1$d учасників</item>
+  </plurals>
+  <string name="message_footer__status__sending">Надсилання&#8230;</string>
+  <string name="message_footer__status__sent">%1$s \u30FB надсилається</string>
+  <string name="message_footer__status__delivered">%1$s \u30FB доставлено</string>
+  <string name="message_footer__status__failed">Помилка надсилання. _Повторити_</string>
+  <string name="message_footer__status__deleted">%1$s \u30FB видалено</string>
 </resources>

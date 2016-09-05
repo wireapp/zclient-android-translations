@@ -431,7 +431,7 @@
   <string name="pref_options_image_download_wifi">শুধু Wi-Fi</string>
   <string name="pref_options_media_category_title">মিডিয়া</string>
   <string name="pref_options_giphy_title">গিফি</string>
-  <string name="pref_options_giphy_summary">মেসেজ এর টেক্সট অ্যানিমেটেড গিফ দিয়ে প্রতিস্থাপন করুন।</string>
+  <string name="pref_options_giphy_summary">Show GIF button</string>
   <string name="pref_options_spotify_title">Spotify এর সাথে সংযুক্ত করুন</string>
   <string name="pref_options_spotify_logout_title">Spotify সাথে সংযোগ বিচ্ছিন্ন করুন</string>
   <string name="pref_options_spotify_summary">Spotify প্রিমিয়াম একাউন্ট দরকার।</string>
@@ -440,10 +440,10 @@
   <string name="pref_devices_screen_title">ডিভাইসগুলি</string>
   <string name="pref_current_device_category_title">বর্তমান ডিভাইস</string>
   <string name="pref_other_devices_category_title">সক্রিয় ডিভাইসসমূহ</string>
-  <string name="pref_devices_summary">মুছে ফেলার জন্যে ক্লিক করুন</string>
+  <string name="pref_devices_summary">মুছে ফেলতে হালকা টোকা দিন</string>
   <string name="pref_devices_current_device_category_title">বর্তমান ডিভাইস</string>
   <string name="pref_devices_other_devices_category_title">অন্যান্য ডিভাইস</string>
-  <string name="pref_devices_device_activation_summary">সক্রিয় ছিল [[%1$s]]\n থেকে [[%2$s]] পর্যন্ত</string>
+  <string name="pref_devices_device_activation_summary">Activated on [[%1$s]]\nin [[%2$s]]</string>
   <string name="pref_devices_device_id">আইডি: %1$s</string>
   <string name="pref_devices_device_verified">যাচাইকৃত</string>
   <string name="pref_devices_device_not_verified">যাচাইকৃত নয়</string>
@@ -582,6 +582,7 @@
   <string name="notification__message__one_to_one__shared_video">একটি ভিডিও শেয়ার করেছেন</string>
   <string name="notification__message__one_to_one__shared_audio">একটি অডিও বার্তা শেয়ার করেছেন</string>
   <string name="notification__message__one_to_one__shared_location">লোকেশন শেয়ার করুন</string>
+  <string name="notification__message__one_to_one__liked">Liked a message</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%2$s \u0020 %1$s</string>
@@ -597,6 +598,7 @@
   <string name="notification__message__multiple__accept_request">আপনার সংযুক্ত করার অনুরোধটি গ্রহন করা হলো</string>
   <string name="notification__message__single__accept_request">আপনার সংযুক্ত করার অনুরোধটি গ্রহন করা হলো</string>
   <string name="notification__message__group__default_conversation_name">দলগত কথোপকথন</string>
+  <string name="notification__message__group__liked">liked a message</string>
   <!-- Others -->
   <string name="app_name">ওয়্যার</string>
   <string name="content__system__item_separator">,</string>
@@ -869,10 +871,23 @@
   <string name="audio_message__recording__limit_reached__title">রেকর্ড বন্ধ হয়ে গেছে</string>
   <string name="audio_message__recording__limit_reached__message">অডিও মেজেস এর লিমিট 25 MB। এই বার্তাটি প্রেরণ করবেন?</string>
   <string name="audio_message__recording__limit_reached__confirmation">প্রেরণ করুন</string>
-  <string name="hint_change_filter">উপরের একটি ফিল্টার পরিবর্তন করুন</string>
+  <string name="hint_change_filter">Choose a filter above</string>
   <string name="message_bottom_menu_action_forward">সামনে</string>
   <string name="message_bottom_menu_action_copy">কপি</string>
   <string name="message_bottom_menu_action_edit">সম্পাদনা করুন</string>
-  <string name="message_bottom_menu_action_delete_local">শুধুমাত্র আমার জন্য মুছে ফেলুন</string>
+  <string name="message_bottom_menu_action_like">Like</string>
+  <string name="message_bottom_menu_action_unlike">Unlike</string>
+  <string name="message_bottom_menu_action_delete_local">আমার জন্য মুছে ফেলুন</string>
   <string name="message_bottom_menu_action_delete_global">সকলের জন্য মুছে ফেলুন</string>
+  <string name="likes_list__header">Liked by</string>
+  <string name="message_footer__tap_to_like">Tap to like</string>
+  <plurals name="message_footer__number_of_likes">
+    <item quantity="one">%1$d people</item>
+    <item quantity="other">%1$d people</item>
+  </plurals>
+  <string name="message_footer__status__sending">Sending&#8230;</string>
+  <string name="message_footer__status__sent">%1$s \u30FB Sent</string>
+  <string name="message_footer__status__delivered">%1$s \u30FB Delivered</string>
+  <string name="message_footer__status__failed">Sending failed. _Resend_</string>
+  <string name="message_footer__status__deleted">%1$s \u30FB Deleted</string>
 </resources>

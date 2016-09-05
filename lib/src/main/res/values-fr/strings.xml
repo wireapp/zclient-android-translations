@@ -24,7 +24,7 @@
   <string name="permissions_denied_dialog_settings">Paramètres</string>
   <string name="camera_not_available">CAMÉRA NON DISPONIBLE</string>
   <string name="camera_permissions_denied_title">Caméra non disponible</string>
-  <string name="camera_permissions_denied_message">Pour prendre et envoyer des photos, autorisez l’acces la caméra</string>
+  <string name="camera_permissions_denied_message">Pour prendre et envoyer des photos, autorisez l’accès à la caméra</string>
   <!-- Registration and Sign in -->
   <string name="welcome__slogan">Communication moderne et privée.</string>
   <string name="welcome__terms_of_service">EN CONTINUANT, VOUS ACCEPTEZ NOS _CONDITIONS D\'UTILISATION_.</string>
@@ -43,7 +43,7 @@
   <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">VOTRE NUMÉRO EST FACULTATIF, MAIS IL PERMET DE TROUVER LES PERSONNES QUE VOUS CONNAISSEZ PLUS FACILEMENT. POUR NOUS ASSURER QUE C\'EST VOUS, NOUS VOUS ENVERRONS UN CODE DE CONFIRMATION PAR SMS.</string>
   <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">AJOUTER UN CODE DE PAYS</string>
   <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">ENTRER LE CODE DE CONFIRMATION À 3 CHIFFRES RECU PAR SMS.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">MESSAGE NON RECU? </string>
+  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">MESSAGE NON REÇU? </string>
   <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">ENVOYER DE NOUVEAU</string>
   <string name="profile__sms__validate__button" tools:ignore="UnusedResources">CONFIRMER</string>
   <!-- New Reg-->
@@ -431,7 +431,7 @@
   <string name="pref_options_image_download_wifi">Wi-Fi seulement</string>
   <string name="pref_options_media_category_title">Médias</string>
   <string name="pref_options_giphy_title">Giphy</string>
-  <string name="pref_options_giphy_summary">Remplacer les messages textuels avec des GIFs animés.</string>
+  <string name="pref_options_giphy_summary">Afficher le bouton GIF</string>
   <string name="pref_options_spotify_title">Connecter à Spotify</string>
   <string name="pref_options_spotify_logout_title">Se déconnecter de Spotify</string>
   <string name="pref_options_spotify_summary">Vous avez besoin d’un compte Spotify Premium.</string>
@@ -440,10 +440,10 @@
   <string name="pref_devices_screen_title">Appareils</string>
   <string name="pref_current_device_category_title">Appareil utilisé</string>
   <string name="pref_other_devices_category_title">Appareils actifs</string>
-  <string name="pref_devices_summary">Cliquez pour effacer</string>
+  <string name="pref_devices_summary">Appuyez pour supprimer</string>
   <string name="pref_devices_current_device_category_title">Appareil utilisé</string>
   <string name="pref_devices_other_devices_category_title">Autres appareils</string>
-  <string name="pref_devices_device_activation_summary">Activé à [[%1$s]]\ndepuis [[%2$s]]</string>
+  <string name="pref_devices_device_activation_summary">Activé le [[%1$s]]\ndepuis [[%2$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Vérifié</string>
   <string name="pref_devices_device_not_verified">Non vérifié</string>
@@ -581,6 +581,7 @@
   <string name="notification__message__one_to_one__shared_video">A Partagé une vidéo</string>
   <string name="notification__message__one_to_one__shared_audio">A partagé un message audio</string>
   <string name="notification__message__one_to_one__shared_location">Partager un emplacement</string>
+  <string name="notification__message__one_to_one__liked">Liked a message</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s dans %2$s \u0020</string>
@@ -596,6 +597,7 @@
   <string name="notification__message__multiple__accept_request">a accepté votre demande de connexion</string>
   <string name="notification__message__single__accept_request">A accepté votre demande de connexion</string>
   <string name="notification__message__group__default_conversation_name">conversation de groupe</string>
+  <string name="notification__message__group__liked">liked a message</string>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -746,7 +748,7 @@
   <string name="location_sharing__enable_system_location__message">Activez la localisation dans les paramètres afin d\'afficher votre position actuelle</string>
   <string name="location_sharing__enable_system_location__confirm">Paramètres</string>
   <string name="location_sharing__enable_system_location__cancel">Annuler</string>
-  <string name="location_sharing__missing_play_services">Google Play Services is needed for location sharing</string>
+  <string name="location_sharing__missing_play_services">Google Play Services est nécessaire pour le partage de localisation</string>
   <!-- From SyncEngine -->
   <string name="zms_empty_conversation_name">Conversation vide</string>
   <string name="new_reg__phone_signup__create_account">Créer un compte</string>
@@ -872,6 +874,19 @@
   <string name="message_bottom_menu_action_forward">Vers l’avant</string>
   <string name="message_bottom_menu_action_copy">Copier</string>
   <string name="message_bottom_menu_action_edit">Modifier</string>
-  <string name="message_bottom_menu_action_delete_local">Supprimer seulement pour moi</string>
+  <string name="message_bottom_menu_action_like">Like</string>
+  <string name="message_bottom_menu_action_unlike">Unlike</string>
+  <string name="message_bottom_menu_action_delete_local">Supprimer pour moi</string>
   <string name="message_bottom_menu_action_delete_global">Supprimer pour tous le monde</string>
+  <string name="likes_list__header">Liked by</string>
+  <string name="message_footer__tap_to_like">Tap to like</string>
+  <plurals name="message_footer__number_of_likes">
+    <item quantity="one">%1$d people</item>
+    <item quantity="other">%1$d people</item>
+  </plurals>
+  <string name="message_footer__status__sending">Envoi&#8230;</string>
+  <string name="message_footer__status__sent">%1$s \u30FB Sent</string>
+  <string name="message_footer__status__delivered">%1$s \u30FB Delivered</string>
+  <string name="message_footer__status__failed">Sending failed. _Resend_</string>
+  <string name="message_footer__status__deleted">%1$s \u30FB Deleted</string>
 </resources>

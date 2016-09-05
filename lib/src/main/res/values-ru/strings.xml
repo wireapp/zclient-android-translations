@@ -439,7 +439,7 @@
   <string name="pref_options_image_download_wifi">Только когда подключен к Wi-Fi</string>
   <string name="pref_options_media_category_title">Медиа</string>
   <string name="pref_options_giphy_title">Giphy</string>
-  <string name="pref_options_giphy_summary">Заменить текст сообщения анимированными GIF.</string>
+  <string name="pref_options_giphy_summary">Show GIF button</string>
   <string name="pref_options_spotify_title">Подключить Spotify</string>
   <string name="pref_options_spotify_logout_title">Отключить Spotify</string>
   <string name="pref_options_spotify_summary">Вам нужен премиум-аккаунт Spotify.</string>
@@ -448,10 +448,10 @@
   <string name="pref_devices_screen_title">Устройства</string>
   <string name="pref_current_device_category_title">Текущее устройство</string>
   <string name="pref_other_devices_category_title">Активные устройства</string>
-  <string name="pref_devices_summary">Нажмите, чтобы удалить</string>
+  <string name="pref_devices_summary">Tap to delete</string>
   <string name="pref_devices_current_device_category_title">Текущее устройство</string>
   <string name="pref_devices_other_devices_category_title">Другие устройства</string>
-  <string name="pref_devices_device_activation_summary">Активирован в [[%1$s]]\n [[%2$s]]</string>
+  <string name="pref_devices_device_activation_summary">Activated on [[%1$s]]\nin [[%2$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Проверено</string>
   <string name="pref_devices_device_not_verified">Не проверено</string>
@@ -597,6 +597,7 @@ Plural:
   <string name="notification__message__one_to_one__shared_video">Поделился(-лась) видео</string>
   <string name="notification__message__one_to_one__shared_audio">Поделился(-лась) аудио сообщением</string>
   <string name="notification__message__one_to_one__shared_location">Поделился местоположением</string>
+  <string name="notification__message__one_to_one__liked">Liked a message</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s в %2$s \u0020</string>
@@ -612,6 +613,7 @@ Plural:
   <string name="notification__message__multiple__accept_request">принял ваш запрос на добавление</string>
   <string name="notification__message__single__accept_request">Принял вашу заявку на добавление</string>
   <string name="notification__message__group__default_conversation_name">группа</string>
+  <string name="notification__message__group__liked">liked a message</string>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -770,7 +772,7 @@ Plural:
   <string name="location_sharing__enable_system_location__message">Включите геолокацию в настройках, чтобы показать ваше текущее положение</string>
   <string name="location_sharing__enable_system_location__confirm">Настройки</string>
   <string name="location_sharing__enable_system_location__cancel">Отменить</string>
-  <string name="location_sharing__missing_play_services">Google Play Services is needed for location sharing</string>
+  <string name="location_sharing__missing_play_services">Для геолокации необходимы Google Play Services</string>
   <!-- From SyncEngine -->
   <string name="zms_empty_conversation_name">Разговор без участников</string>
   <string name="new_reg__phone_signup__create_account">Создать аккаунт</string>
@@ -892,10 +894,24 @@ Plural:
   <string name="audio_message__recording__limit_reached__title">Запись остановлена</string>
   <string name="audio_message__recording__limit_reached__message">Размер аудио сообщений ограничен 25 Мб. Отправить это сообщение?</string>
   <string name="audio_message__recording__limit_reached__confirmation">ОТПРАВИТЬ</string>
-  <string name="hint_change_filter">Поменять фильтр выше</string>
+  <string name="hint_change_filter">Выберите фильтр выше</string>
   <string name="message_bottom_menu_action_forward">Дальше</string>
   <string name="message_bottom_menu_action_copy">Копировать</string>
   <string name="message_bottom_menu_action_edit">Редактировать</string>
-  <string name="message_bottom_menu_action_delete_local">Удалить только для меня</string>
+  <string name="message_bottom_menu_action_like">Нравится</string>
+  <string name="message_bottom_menu_action_unlike">Не нравится</string>
+  <string name="message_bottom_menu_action_delete_local">Удалить для меня</string>
   <string name="message_bottom_menu_action_delete_global">Удалить для всех</string>
+  <string name="likes_list__header">Liked by</string>
+  <string name="message_footer__tap_to_like">Tap to like</string>
+  <plurals name="message_footer__number_of_likes">
+    <item quantity="one">%1$d people</item>
+    <item quantity="few">%1$d people</item>
+    <item quantity="other">%1$d people</item>
+  </plurals>
+  <string name="message_footer__status__sending">Отправка...</string>
+  <string name="message_footer__status__sent">%1$s \u30FB Sent</string>
+  <string name="message_footer__status__delivered">%1$s \u30FB Delivered</string>
+  <string name="message_footer__status__failed">Sending failed. _Resend_</string>
+  <string name="message_footer__status__deleted">%1$s \u30FB Deleted</string>
 </resources>
