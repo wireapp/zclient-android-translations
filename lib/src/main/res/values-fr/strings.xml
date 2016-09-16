@@ -581,7 +581,7 @@
   <string name="notification__message__one_to_one__shared_video">A Partagé une vidéo</string>
   <string name="notification__message__one_to_one__shared_audio">A partagé un message audio</string>
   <string name="notification__message__one_to_one__shared_location">Partager un emplacement</string>
-  <string name="notification__message__one_to_one__liked">\u2764 your message</string>
+  <string name="notification__message__one_to_one__liked">\u2764 votre message</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s dans %2$s \u0020</string>
@@ -597,7 +597,7 @@
   <string name="notification__message__multiple__accept_request">a accepté votre demande de connexion</string>
   <string name="notification__message__single__accept_request">A accepté votre demande de connexion</string>
   <string name="notification__message__group__default_conversation_name">conversation de groupe</string>
-  <string name="notification__message__group__liked">\u2764 your message</string>
+  <string name="notification__message__group__liked">\u2764 votre message</string>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -740,6 +740,9 @@
   <string name="drawing__tip__picture__message">CLIQUEZ SUR LA COULEUR POUR CHANGER LA TAILLE DE LA BROSSE.\n\nSECOUEZ POUR RETIRER LA PHOTO.</string>
   <string name="drawing__tip__message">CLIQUEZ SUR LA COULEUR POUR CHANGER LA TAILLE DE LA BROSSE.\n\nRESTEZ APPUYÉ POUR REMPLIR LA ZONE.</string>
   <string name="add_a_sketch">Ajouter un sketch</string>
+  <string name="sketch__emoji_keyboard__size_label__small">SMALL</string>
+  <string name="sketch__emoji_keyboard__size_label__medium">MEDIUM</string>
+  <string name="sketch__emoji_keyboard__size_label__large">LARGE</string>
   <!-- Location sharing -->
   <string name="location_sharing__tip">Faites glisser la carte pour changer d’emplacement</string>
   <string name="location_sharing__permission_error">Impossible de trouver l’emplacement actuel, autorisations refusées</string>
@@ -808,7 +811,7 @@
   <string name="conversation_toolbar__call_audio">Appel audio</string>
   <string name="conversation_toolbar__delete">Supprimer</string>
   <string name="conversation_toolbar__copy">Copier</string>
-  <string name="conversation_toolbar__fwd">Vers l’avant</string>
+  <string name="conversation_toolbar__fwd">Faire suivre</string>
   <string name="conversation_toolbar__mediabar__close">Arrêter</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Fichier non trouvé</string>
@@ -874,22 +877,22 @@
   <string name="message_bottom_menu_action_forward">Vers l’avant</string>
   <string name="message_bottom_menu_action_copy">Copier</string>
   <string name="message_bottom_menu_action_edit">Modifier</string>
-  <string name="message_bottom_menu_action_like">Like</string>
-  <string name="message_bottom_menu_action_unlike">Unlike</string>
+  <string name="message_bottom_menu_action_like">J\'aime</string>
+  <string name="message_bottom_menu_action_unlike">Je n\'aime plus</string>
   <string name="message_bottom_menu_action_save">Enregistrer</string>
   <string name="message_bottom_menu_action_delete_local">Supprimer pour moi</string>
   <string name="message_bottom_menu_action_delete_global">Supprimer pour tous le monde</string>
-  <string name="likes_list__header">Liked by</string>
-  <string name="message_bottom_menu_action_save_ok">Picture saved</string>
-  <string name="message_bottom_menu_action_save_fail">Error saving image</string>
-  <string name="message_footer__tap_to_like">Tap to like</string>
+  <string name="likes_list__header">Aimé par</string>
+  <string name="message_bottom_menu_action_save_ok">Image enregistrée</string>
+  <string name="message_bottom_menu_action_save_fail">Erreur de sauvegarde de l\'image</string>
+  <string name="message_footer__tap_to_like">Appuyez pour aimer</string>
   <plurals name="message_footer__number_of_likes">
-    <item quantity="one">%1$d people</item>
-    <item quantity="other">%1$d people</item>
+    <item quantity="one">%1$d personne</item>
+    <item quantity="other">%1$d personnes</item>
   </plurals>
   <string name="message_footer__status__sending">Envoi&#8230;</string>
-  <string name="message_footer__status__sent">%1$s \u30FB Sent</string>
-  <string name="message_footer__status__delivered">%1$s \u30FB Delivered</string>
-  <string name="message_footer__status__failed">Envoi échoué. _Resend_</string>
+  <string name="message_footer__status__sent">%1$s \u30FB envoyé</string>
+  <string name="message_footer__status__delivered">%1$s \u30FB reçu</string>
+  <string name="message_footer__status__failed">L’envoi a échoué. _Resend_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Supprimé</string>
 </resources>
