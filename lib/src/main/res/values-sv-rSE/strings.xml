@@ -23,11 +23,11 @@
   <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Inställningar</string>
   <string name="camera_not_available">KAMERA EJ TILLGÄNGLIG</string>
-  <string name="camera_permissions_denied_title">Kamera ej tillgänglig</string>
+  <string name="camera_permissions_denied_title">Kamera inte tillgänglig</string>
   <string name="camera_permissions_denied_message">För att ta och skicka bilder, bevilja behörighet att använda kameran</string>
   <!-- Registration and Sign in -->
   <string name="welcome__slogan">Modern, privat kommunikation.</string>
-  <string name="welcome__terms_of_service">GENOM ATT FORTSÄTTA ACCEPTERAR DU _VILLKOREN FÖR ANVÄNDNING_.</string>
+  <string name="welcome__terms_of_service">GENOM ATT FORTSÄTTA ACCEPTERAR DU _ANVÄNDARVILLKOREN_.</string>
   <string name="profile__photo__guidance">Hej %1$s, \n\n WIRE ÄR SÅ MYCKET TREVLIGARE\n MED EN BILD.</string>
   <string name="profile__name__guidance__tooshort__title">MINST 2 TECKEN</string>
   <string name="profile__email__placeholder">E-post</string>
@@ -77,7 +77,7 @@
   <string name="new_reg_phone_invalid_login_code_message">Ange en giltig kod.</string>
   <string name="new_reg_phone_pending_login_header">Koden redan skickad</string>
   <string name="new_reg_phone_pending_login_message">Vi har redan skickat dig en kod via SMS. Tryck på Skicka igen efter 10 minuter för och få en ny.</string>
-  <string name="new_reg_phone_add_password_header">Ogiltigt lösenord</string>
+  <string name="new_reg_phone_add_password_header">Felaktigt lösenord</string>
   <string name="new_reg_phone_add_password_message">Vänligen bekräfta dina uppgifter och försök igen.</string>
   <string name="new_reg_phone_generic_error_header">Något gick fel</string>
   <string name="new_reg_phone_generic_error_message">Försök att registrera igen.</string>
@@ -221,7 +221,7 @@
   <string name="content__file__action__share">DELA</string>
   <string name="content__file__action__open__no_app_found">Ingen app hittades för att öppna den här filtypen</string>
   <string name="content__file__action__save_completed">Filen har sparats</string>
-  <string name="content__file__action__save_error">Unable to save file</string>
+  <string name="content__file__action__save_error">Det gick inte att spara filen</string>
   <string name="content__location__no_map_placeholder">PLATSEN VISAS PÅ KARTAN NÄR DU ÄR ONLINE IGEN.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">BYT NAMN</string>
@@ -379,7 +379,7 @@
   <string name="about_privacy_policy">Integritetspolicy</string>
   <string name="about_third_party_licences">Licenser</string>
   <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">Villkor för användning</string>
+  <string name="about_terms_of_service">Användarvillkor</string>
   <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Inställningar</string>
   <string name="pref_developer_screen_title">Utvecklarinställnigar</string>
@@ -398,7 +398,7 @@
   <string name="pref_account_email_title">E-post</string>
   <string name="pref_account_add_email_title">Lägg till e-post</string>
   <string name="pref_account_sign_out_title">Logga ut</string>
-  <string name="pref_account_dark_theme_title">Mörkt tema</string>
+  <string name="pref_account_dark_theme_title">Mörkt Tema</string>
   <string name="pref_account_color_title">Färg</string>
   <string name="pref_account_picture_title">Bild</string>
   <string name="pref_account_delete_title">Radera ditt konto</string>
@@ -431,8 +431,8 @@
   <string name="pref_options_image_download_always">Alltid</string>
   <string name="pref_options_image_download_wifi">Bara på Wi-Fi</string>
   <string name="pref_options_media_category_title">Media</string>
-  <string name="pref_options_giphy_title">Giphy</string>
-  <string name="pref_options_giphy_summary">Visa GIF-knappen</string>
+  <string name="pref_options_cursor_send_button_title">Skicka knappen</string>
+  <string name="pref_options_cursor_send_button_summary">Visa Skicka-knappen</string>
   <string name="pref_options_spotify_title">Koppla med Spotify</string>
   <string name="pref_options_spotify_logout_title">Koppla ifrån Spotify</string>
   <string name="pref_options_spotify_summary">Du behöver ett Spotify Premium konto.</string>
@@ -448,16 +448,16 @@
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Verifierad</string>
   <string name="pref_devices_device_not_verified">Inte verifierad</string>
-  <string name="pref_devices_warning_summary">Om du inte känner igen en enhet ovan, ta bort den och återställ ditt lösenord i Inställningar &gt; Konto.</string>
+  <string name="pref_devices_warning_summary">Om du inte känner igen en enhet ovan, ta bort den och återställ ditt lösenord.</string>
   <string name="pref_devices_device_screen_title">Enhet detaljer</string>
   <string name="pref_devices_device_fingerprint_category_title">Nyckel Fingeravtryck</string>
-  <string name="pref_devices_device_fingerprint_summary">Wire ger varje enhet ett unikt fingeravtryck. Jämför fingeravtryck för att kontrollera dina enheter och konversationer.</string>
+  <string name="pref_devices_device_fingerprint_summary">Wire ger varje enhet ett unika fingeravtryck. Jämför dem och kontrollera dina enheter och konversationer.</string>
   <string name="pref_devices_device_actions_category_title">Åtgärder</string>
   <string name="pref_devices_device_trust_title">Verifierad</string>
   <string name="pref_devices_device_reset_session_title">Börja om sessionen</string>
-  <string name="pref_devices_device_reset_session_summary">Om fingeravtryck inte matchar, återställ sessionen för att se till att rätt fingeravtryck visas på alla enheter.</string>
+  <string name="pref_devices_device_reset_session_summary">Om fingeravtryck inte matchar, återställa sessionen för att generera nya krypteringsnycklar på båda enheterna.</string>
   <string name="pref_devices_device_remove_title">Ta bort enhet</string>
-  <string name="pref_devices_device_remove_summary">Du loggas automatiskt ut ur den enheten.</string>
+  <string name="pref_devices_device_remove_summary">Ta bort den här enheten om du har slutat använda den. Din meddelandehistorik kommer tas bort och du kommer att loggas ut.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Fingeravtryck</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Nyckel Fingeravtryck kopierad</string>
   <!-- Advanced -->
@@ -466,8 +466,8 @@
   <string name="pref_advanced_debug_report_summary">Detta hjälper Wire Support att diagnostisera problem.</string>
   <string name="pref_advanced_analytics_title">Användningsrapporter för data och krasch rapporter</string>
   <string name="pref_advanced_analytics_summary">Gör Wire bättre genom skicka anonym information.</string>
-  <string name="debug_report__title">Android Wire felrapport - %1$s</string>
-  <string name="debug_report__body">Hjälp oss att felsöka! Vänligen berätta detaljer om vad som hände, vilket felmeddelandet du fick eller skärmdump, och om möjligt göra stegen igen för att få problemet.\n\n</string>
+  <string name="debug_report__title">Wire debug rapport - %1$s</string>
+  <string name="debug_report__body">Beskriv de steg som krävs för att återskapa problemet, om möjligt ge skärmdumpar också och skicka till denna email.\n\n</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Support</string>
   <string name="pref_support_website_title">Wire Support Websida</string>
@@ -477,12 +477,12 @@
   <!-- About -->
   <string name="pref_about_screen_title">Om</string>
   <string name="pref_about_website_title">Wire Hemsida</string>
-  <string name="pref_about_website_url">https://www.wire.com</string>
-  <string name="pref_about_tos_title">Villkor för användning</string>
+  <string name="pref_about_website_url">https://wire.com</string>
+  <string name="pref_about_tos_title">Användarvillkor</string>
   <string name="pref_about_tos_url">@string/url_terms_of_service</string>
   <string name="pref_about_privacy_policy_title">Integritetspolicy</string>
   <string name="pref_about_privacy_policy_url">@string/url_privacy_policy</string>
-  <string name="pref_about_licenses_title">Licenser</string>
+  <string name="pref_about_licenses_title">Licensinformation</string>
   <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
   <string name="pref_about_version_title">Version %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Schweiziska GmbH</string>
@@ -512,11 +512,11 @@
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Ange giltig e-postadress</string>
   <string name="pref__account_action__dialog__change_email__title">Redigera e-postadress</string>
   <!-- URLs -->
-  <string name="url_home">https://www.wire.com</string>
-  <string name="url_terms_of_service">https://www.wire.com/legal/terms/embed/</string>
-  <string name="url_privacy_policy">https://www.wire.com/legal/privacy/embed/</string>
+  <string name="url_home">https://wire.com</string>
+  <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
+  <string name="url_privacy_policy">https://wire.com/legal/privacy/embed/</string>
   <string name="url__help">https://support.wire.com</string>
-  <string name="url_password_reset">https://www.wire.com/forgot/</string>
+  <string name="url_password_reset">https://account.wire.com/forgot/</string>
   <string name="url_third_party_licences">https://wire.com/legal/#licenses</string>
   <string name="url_otr_learn_why">https://wire.com/privacy/why</string>
   <string name="url_otr_learn_how">https://wire.com/privacy/how</string>
@@ -582,7 +582,7 @@
   <string name="notification__message__one_to_one__shared_video">Delade en video</string>
   <string name="notification__message__one_to_one__shared_audio">Delade ett ljudmeddelande</string>
   <string name="notification__message__one_to_one__shared_location">Delade en plats</string>
-  <string name="notification__message__one_to_one__liked">\u2764 your message</string>
+  <string name="notification__message__one_to_one__liked">\u2764 ditt meddelande</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s i %2$s \u0020</string>
@@ -598,7 +598,7 @@
   <string name="notification__message__multiple__accept_request">accepterade din kontakt förfrågan</string>
   <string name="notification__message__single__accept_request">Accepterade din kontakt förfrågan</string>
   <string name="notification__message__group__default_conversation_name">grupp konversation</string>
-  <string name="notification__message__group__liked">\u2764 your message</string>
+  <string name="notification__message__group__liked">\u2764 ditt meddelande</string>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -623,11 +623,11 @@
   <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
   <string name="quick_reply__open_wire">Öppna Wire</string>
   <!-- Save image notification -->
-  <string name="notification__image_saving__content__title">Wire bilden sparad.</string>
+  <string name="notification__image_saving__content__title">Wire har sparat en bild.</string>
   <string name="notification__image_saving__content__subtitle">Tryck för att visa.</string>
   <string name="notification__image_saving__action__share">Dela</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
-  <string name="notification__file_saving__content__title">Wire fil sparad.</string>
+  <string name="notification__file_saving__content__title">Wire har sparat en fil.</string>
   <!-- forced update -->
   <string name="forced_update__header">Viktig uppdatering</string>
   <string name="forced_update__sub_header">Vänligen installera den senaste versionen av Wire.</string>
@@ -730,20 +730,20 @@
   <string name="sign_in">Logga in</string>
   <string name="new_reg__password_length">MINST %1$s TECKEN</string>
   <!-- Giphy -->
+  <string name="giphy_preview__search_hint">Sök på Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
   <string name="giphy_preview__title_random">SLUMPMÄSSIG</string>
-  <string name="giphy_preview__try_another_action">PROVA EN ANNAN</string>
   <string name="giphy_preview__error">INGA GIFS HITTADE.</string>
-  <string name="giphy_preview__message_via_random">Via giphy.com</string>
+  <string name="giphy_preview__message_via_random_trending">Via giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
   <string name="service_giphy_name">Giphy</string>
   <!--Sketch-->
   <string name="drawing__tip__picture__message">TRYCK FÄRG FÖR ATT ÄNDRA PENSEL STORLEK.\n\nSKAKA FÖR ATT TA BORT BILDER.</string>
   <string name="drawing__tip__message">TRYCK FÄRG FÖR ATT ÄNDRA PENSEL STORLEK.\n\nTRYCK OCH HÅLL FÖR ATT FYLLA EN YTA.</string>
   <string name="add_a_sketch">Lägg till en skiss</string>
-  <string name="sketch__emoji_keyboard__size_label__small">SMALL</string>
+  <string name="sketch__emoji_keyboard__size_label__small">LITEN</string>
   <string name="sketch__emoji_keyboard__size_label__medium">MEDIUM</string>
-  <string name="sketch__emoji_keyboard__size_label__large">LARGE</string>
+  <string name="sketch__emoji_keyboard__size_label__large">STORA</string>
   <!-- Location sharing -->
   <string name="location_sharing__tip">Dra kartan för att ändra plats</string>
   <string name="location_sharing__permission_error">Det gick inte att hämta aktuell position, behörighet nekad</string>
@@ -803,7 +803,7 @@
   <string name="otr__device_inbox__name">Från: [[%s]]</string>
   <string name="advanced_image_download_wifi_info">Bilden kommer att visas när du \n är uppkopplad på Wi-Fi igen</string>
   <string name="change_settings">Ändra inställningar</string>
-  <string name="single_image__save_to_disk__error">Det går inte att spara bilden, ingen tillgång till extern lagring</string>
+  <string name="single_image__save_to_disk__error">Det gick inte att spara bilden, ingen tillgång till extern lagring</string>
   <string name="conversation_list__label_action__contacts">KONTAKTER</string>
   <string name="conversation_list__hint_header">Konversationerna börjar här</string>
   <string name="conversation_list__hint_text">Starta en konversation eller bjud in flera. Ring, skicka meddelande och dela i privat eller i grupp.</string>
@@ -845,10 +845,12 @@
   <string name="tooltip_camera">Lägg till foto</string>
   <string name="tooltip_sketch">Rita en bild</string>
   <string name="tooltip_ping">Ping</string>
+  <string name="tooltip_emoji">Emoji</string>
   <string name="tooltip_location">Plats</string>
   <string name="tooltip_more">Fler åtgärder</string>
   <string name="tooltip_audio_message">Tryck och håll för att skicka en ljudmeddelande</string>
   <string name="tooltip_file">Skicka fil</string>
+  <string name="tooltip_gif">Gif</string>
   <string name="new_feature">Nytt</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Ta bort bara för mig?</string>
@@ -884,8 +886,8 @@
   <string name="message_bottom_menu_action_delete_local">Ta bort för mig</string>
   <string name="message_bottom_menu_action_delete_global">Radera för alla</string>
   <string name="likes_list__header">Gillad av</string>
-  <string name="message_bottom_menu_action_save_ok">Picture saved</string>
-  <string name="message_bottom_menu_action_save_fail">Error saving image</string>
+  <string name="message_bottom_menu_action_save_ok">Bild sparad</string>
+  <string name="message_bottom_menu_action_save_fail">Gick inte att spara bild</string>
   <string name="message_footer__tap_to_like">Tryck för att gilla</string>
   <plurals name="message_footer__number_of_likes">
     <item quantity="one">%1$d personer</item>

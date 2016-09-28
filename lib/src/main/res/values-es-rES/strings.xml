@@ -398,7 +398,7 @@
   <string name="pref_account_email_title">Correo electrónico</string>
   <string name="pref_account_add_email_title">Agregar correo electrónico</string>
   <string name="pref_account_sign_out_title">Cerrar sesión</string>
-  <string name="pref_account_dark_theme_title">Tema Oscuro</string>
+  <string name="pref_account_dark_theme_title">Tema oscuro</string>
   <string name="pref_account_color_title">Color</string>
   <string name="pref_account_picture_title">Imagen</string>
   <string name="pref_account_delete_title">Eliminar Cuenta</string>
@@ -431,8 +431,8 @@
   <string name="pref_options_image_download_always">Siempre</string>
   <string name="pref_options_image_download_wifi">Solo Wi-Fi</string>
   <string name="pref_options_media_category_title">Multimedia</string>
-  <string name="pref_options_giphy_title">Giphy</string>
-  <string name="pref_options_giphy_summary">Show GIF button</string>
+  <string name="pref_options_cursor_send_button_title">Send button</string>
+  <string name="pref_options_cursor_send_button_summary">Show send button</string>
   <string name="pref_options_spotify_title">Conectar con Spotify</string>
   <string name="pref_options_spotify_logout_title">Desconectarse de Spotify</string>
   <string name="pref_options_spotify_summary">Necesitas una cuenta Spotify Premium.</string>
@@ -448,16 +448,16 @@
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Verificado</string>
   <string name="pref_devices_device_not_verified">No verificado</string>
-  <string name="pref_devices_warning_summary">Si no reconoce un dispositivo arriba, eliminelo y restablecezca la contraseña en Configuración &gt; Cuenta.</string>
+  <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your password.</string>
   <string name="pref_devices_device_screen_title">Detalles del dispositivo</string>
   <string name="pref_devices_device_fingerprint_category_title">Llave huella digital</string>
   <string name="pref_devices_device_fingerprint_summary">Wire proporciona a cada dispositivo una huella digital única. Compare las huellas dactilares para verificar su dispositivos y conversaciones.</string>
   <string name="pref_devices_device_actions_category_title">Acciones</string>
   <string name="pref_devices_device_trust_title">Verificado</string>
   <string name="pref_devices_device_reset_session_title">Restablecer sesión</string>
-  <string name="pref_devices_device_reset_session_summary">Si no coinciden las huellas digitales, restablecer su sesión segura para asegurarse de que las huellas son correctas t aparecen en todos los dispositivos.</string>
+  <string name="pref_devices_device_reset_session_summary">If fingerprints don\'t match, reset the session to generate new encryption keys on both sides.</string>
   <string name="pref_devices_device_remove_title">Quitar dispositivo</string>
-  <string name="pref_devices_device_remove_summary">Usted será desconectado automáticamente de ese dispositivo.</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. Your message history will be erased and you will be logged out.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Huella digital</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Huella digital copiada</string>
   <!-- Advanced -->
@@ -466,8 +466,8 @@
   <string name="pref_advanced_debug_report_summary">Esto ayuda al equipo de soporte de Wire a diagnosticar problemas.</string>
   <string name="pref_advanced_analytics_title">Reportes de uso de datos y fallos</string>
   <string name="pref_advanced_analytics_summary">Ayudar a mejorar Wire enviando información anónima.</string>
-  <string name="debug_report__title">Reporte de fallo de Wire para Android - %1$s</string>
-  <string name="debug_report__body">Ayudenos a solucionar problemas! Por favor díganos los detalles de lo sucedido, el mensaje de que error que recibió o captura de pantalla, y si es posible los pasos para reproducir el problema.\n\n</string>
+  <string name="debug_report__title">Wire debug report - %1$s</string>
+  <string name="debug_report__body">Please describe the steps required to reproduce the issue, provide screenshots if possible and send this email.\n\n</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Soporte</string>
   <string name="pref_support_website_title">Página de soporte de Wire</string>
@@ -476,13 +476,13 @@
   <string name="pref_support_contact_url">https://support.wire.com/hc/en-us/requests/new</string>
   <!-- About -->
   <string name="pref_about_screen_title">Acerca de</string>
-  <string name="pref_about_website_title">Sitio web de Wire</string>
-  <string name="pref_about_website_url">https://www.wire.com</string>
-  <string name="pref_about_tos_title">Términos de Uso</string>
+  <string name="pref_about_website_title">Página web de Wire</string>
+  <string name="pref_about_website_url">https://wire.com</string>
+  <string name="pref_about_tos_title">Términos de uso</string>
   <string name="pref_about_tos_url">@string/url_terms_of_service</string>
   <string name="pref_about_privacy_policy_title">Política de privacidad</string>
   <string name="pref_about_privacy_policy_url">@string/url_privacy_policy</string>
-  <string name="pref_about_licenses_title">Licencias</string>
+  <string name="pref_about_licenses_title">Información de la licencia</string>
   <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
   <string name="pref_about_version_title">Versión %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
@@ -512,11 +512,11 @@
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Ingrese un email válido</string>
   <string name="pref__account_action__dialog__change_email__title">Editar dirección de correo electrónico</string>
   <!-- URLs -->
-  <string name="url_home">https://www.wire.com</string>
-  <string name="url_terms_of_service">https://www.wire.com/legal/terms/embed/</string>
-  <string name="url_privacy_policy">https://www.wire.com/legal/privacy/embed/</string>
+  <string name="url_home">https://wire.com</string>
+  <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
+  <string name="url_privacy_policy">https://wire.com/legal/privacy/embed/</string>
   <string name="url__help">https://support.wire.com</string>
-  <string name="url_password_reset">https://www.wire.com/forgot/</string>
+  <string name="url_password_reset">https://account.wire.com/forgot/</string>
   <string name="url_third_party_licences">https://wire.com/legal/#licenses</string>
   <string name="url_otr_learn_why">https://wire.com/privacy/why</string>
   <string name="url_otr_learn_how">https://wire.com/privacy/how</string>
@@ -730,20 +730,20 @@
   <string name="sign_in">Iniciar sesión</string>
   <string name="new_reg__password_length">AL MENOS %1$s CARACTERES</string>
   <!-- Giphy -->
+  <string name="giphy_preview__search_hint">Search Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
   <string name="giphy_preview__title_random">AL AZAR</string>
-  <string name="giphy_preview__try_another_action">INTENTAR OTRO</string>
   <string name="giphy_preview__error">NO GIFS ENCONTRADOS.</string>
-  <string name="giphy_preview__message_via_random">Via giphy.com</string>
+  <string name="giphy_preview__message_via_random_trending">Via giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
   <string name="service_giphy_name">Giphy</string>
   <!--Sketch-->
   <string name="drawing__tip__picture__message">TOQUE COLOR PARA CAMBIAR EL TAMAÑO DE CEPILLO.\n\nSACUDA para eliminar fotos.</string>
   <string name="drawing__tip__message">TOQUE de COLOR para cambiar el TAMAÑO del cepillo.\n\nPRESS y mantengalo pulsado para rellenar un área.</string>
   <string name="add_a_sketch">Añadir un dibujo</string>
-  <string name="sketch__emoji_keyboard__size_label__small">SMALL</string>
-  <string name="sketch__emoji_keyboard__size_label__medium">MEDIUM</string>
-  <string name="sketch__emoji_keyboard__size_label__large">LARGE</string>
+  <string name="sketch__emoji_keyboard__size_label__small">PEQUEÑO</string>
+  <string name="sketch__emoji_keyboard__size_label__medium">MEDIO</string>
+  <string name="sketch__emoji_keyboard__size_label__large">GRANDES</string>
   <!-- Location sharing -->
   <string name="location_sharing__tip">Arrastre el mapa para cambiar ubicación</string>
   <string name="location_sharing__permission_error">No es posible obtener la ubicación actual, permisos denegados</string>
@@ -845,10 +845,12 @@
   <string name="tooltip_camera">Agregar Foto</string>
   <string name="tooltip_sketch">Dibujar</string>
   <string name="tooltip_ping">Ping</string>
+  <string name="tooltip_emoji">Emoji</string>
   <string name="tooltip_location">Ubicación</string>
   <string name="tooltip_more">Más acciones</string>
   <string name="tooltip_audio_message">Toque y mantenga presionado para enviar un mensaje de audio</string>
   <string name="tooltip_file">Enviar archivo</string>
+  <string name="tooltip_gif">Gif</string>
   <string name="new_feature">Nuevo</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">¿Borrar sólo para mí?</string>

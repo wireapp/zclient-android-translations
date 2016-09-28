@@ -398,7 +398,7 @@
   <string name="pref_account_email_title">ই-মেইল</string>
   <string name="pref_account_add_email_title">ই-মেইল যুক্ত করুন</string>
   <string name="pref_account_sign_out_title">লগ আউট</string>
-  <string name="pref_account_dark_theme_title">অন্ধকার থিম</string>
+  <string name="pref_account_dark_theme_title">গাঢ় থিম</string>
   <string name="pref_account_color_title">রং</string>
   <string name="pref_account_picture_title">ছবি</string>
   <string name="pref_account_delete_title">একাউন্ট মুছে ফেলুন</string>
@@ -431,8 +431,8 @@
   <string name="pref_options_image_download_always">সবসময়</string>
   <string name="pref_options_image_download_wifi">শুধু Wi-Fi</string>
   <string name="pref_options_media_category_title">মিডিয়া</string>
-  <string name="pref_options_giphy_title">গিফি</string>
-  <string name="pref_options_giphy_summary">Show GIF button</string>
+  <string name="pref_options_cursor_send_button_title">Send button</string>
+  <string name="pref_options_cursor_send_button_summary">Show send button</string>
   <string name="pref_options_spotify_title">Spotify এর সাথে সংযুক্ত করুন</string>
   <string name="pref_options_spotify_logout_title">Spotify সাথে সংযোগ বিচ্ছিন্ন করুন</string>
   <string name="pref_options_spotify_summary">Spotify প্রিমিয়াম একাউন্ট দরকার।</string>
@@ -448,42 +448,41 @@
   <string name="pref_devices_device_id">আইডি: %1$s</string>
   <string name="pref_devices_device_verified">যাচাইকৃত</string>
   <string name="pref_devices_device_not_verified">যাচাইকৃত নয়</string>
-  <string name="pref_devices_warning_summary">এখানে যদি কোন ডিভাইস খুঁজে না পান, তবে এটি মুছে ফেলুন এবং আবার আপনার গোপন নাম্বারটি সংযুক্ত করুন একাউন্ট এর সেটিংস থেকে.
-</string>
+  <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your password.</string>
   <string name="pref_devices_device_screen_title">ডিভাইসটির বিস্তারিত তথ্য</string>
   <string name="pref_devices_device_fingerprint_category_title">ফিঙ্গারপ্রিন্ট</string>
-  <string name="pref_devices_device_fingerprint_summary">প্রত্যেকটি ডিভাইসের একটি অনন্য ফিঙ্গারপ্রিন্ট রয়েছে। আপনার ডিভাইস এবং কথোপকথন তুলনা করতে তা যাচাই করে নিন.</string>
+  <string name="pref_devices_device_fingerprint_summary">Wire gives every device a unique fingerprint. Compare them and verify your devices and conversations.</string>
   <string name="pref_devices_device_actions_category_title">ক্রিয়া</string>
   <string name="pref_devices_device_trust_title">যাচাইকৃত</string>
   <string name="pref_devices_device_reset_session_title">অধিবেশনটি পুনরায় সচল করুন</string>
-  <string name="pref_devices_device_reset_session_summary">যদি ফিঙ্গারপ্রিন্ট না মিলে তাহলে নিরাপদ অধিবেশন পুনরায় চালু করুন যাতে আপনার ডিভাইসে সঠিক ফিঙ্গারপ্রিন্ট প্রদর্শন করা যায়.</string>
+  <string name="pref_devices_device_reset_session_summary">If fingerprints don\'t match, reset the session to generate new encryption keys on both sides.</string>
   <string name="pref_devices_device_remove_title">ডিভাইসটি অপসারণ করুন</string>
-  <string name="pref_devices_device_remove_summary">আপনি স্বয়ংক্রিয়ভাবে ডিভাইসটি থেকে বেরিয়ে যাবেন.</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. Your message history will be erased and you will be logged out.</string>
   <string name="pref_devices_device_fingerprint_copy_description">ফিঙ্গারপ্রিন্ট</string>
   <string name="pref_devices_device_fingerprint_copy_toast">অনুলিপি ফিঙ্গারপ্রিন্ট দিন</string>
   <!-- Advanced -->
   <string name="pref_advanced_screen_title">উন্নততর</string>
-  <string name="pref_advanced_debug_report_title">ত্রুটি প্রতিবেদন জমা দিন</string>
+  <string name="pref_advanced_debug_report_title">Submit debug report</string>
   <string name="pref_advanced_debug_report_summary">এটি সাহায্য করবে ওয়ার এ সাহায্যকারী সমস্যা ত্রুটিমুক্তকরণে.</string>
   <string name="pref_advanced_analytics_title">ব্যবহ্রত ডাটা এবং ক্রাশ প্রতিবেদন</string>
   <string name="pref_advanced_analytics_summary">বেনামে তথ্য প্রেরণ করে ওয়ারকে উন্নত করতে সাহায্য করুন.</string>
-  <string name="debug_report__title">এন্ডয়েড ওয়ার বাগ রিপোর্ট - %1$s</string>
-  <string name="debug_report__body">আমাদের সমস্যা-সমাধান করতে সহায়তা করুন! অনুগ্রহ করে আমাদের কি ঘটেছিল তার বিস্তারিত বলুন, যা এরর পেয়েছিলেন সেইটা এবং স্ক্রিনশট, এবং সম্ভব হলে ইস্যুটা\n\n রিপ্রোডিউস করার পদক্ষেপ।</string>
+  <string name="debug_report__title">Wire debug report - %1$s</string>
+  <string name="debug_report__body">Please describe the steps required to reproduce the issue, provide screenshots if possible and send this email.\n\n</string>
   <!-- Support -->
   <string name="pref_support_screen_title">সমর্থন</string>
-  <string name="pref_support_website_title">ওয়্যার সমর্থন ওয়েবসাইট</string>
+  <string name="pref_support_website_title">Wire Support website</string>
   <string name="pref_support_website_url">https://support.wire.com</string>
   <string name="pref_support_contact_title">যোগাযোগ সহায়তা</string>
   <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
   <!-- About -->
   <string name="pref_about_screen_title">সম্পর্কে</string>
-  <string name="pref_about_website_title">Wire ওয়েবসাইট</string>
-  <string name="pref_about_website_url">https://www.wire.com</string>
+  <string name="pref_about_website_title">Wire website</string>
+  <string name="pref_about_website_url">https://wire.com</string>
   <string name="pref_about_tos_title">ব্যবহারের শর্তাবলী</string>
   <string name="pref_about_tos_url">@string/url_terms_of_service</string>
   <string name="pref_about_privacy_policy_title">গোপনীয়তা নীতি</string>
   <string name="pref_about_privacy_policy_url">@string/url_privacy_policy</string>
-  <string name="pref_about_licenses_title">লাইসেন্স</string>
+  <string name="pref_about_licenses_title">লাইসেন্স তথ্য</string>
   <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
   <string name="pref_about_version_title">সংস্করণ %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
@@ -513,11 +512,11 @@
   <string name="pref__account_action__dialog__change_email__error__invalid_email">বৈধ ই-মেইল লিখুন</string>
   <string name="pref__account_action__dialog__change_email__title">ই-মেইল ঠিকানা পরিবর্তন করুন</string>
   <!-- URLs -->
-  <string name="url_home">https://www.wire.com</string>
-  <string name="url_terms_of_service">https://www.wire.com/legal/terms/embed/</string>
-  <string name="url_privacy_policy">https://www.wire.com/legal/privacy/embed/</string>
+  <string name="url_home">https://wire.com</string>
+  <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
+  <string name="url_privacy_policy">https://wire.com/legal/privacy/embed/</string>
   <string name="url__help">https://support.wire.com</string>
-  <string name="url_password_reset">https://www.wire.com/forgot/</string>
+  <string name="url_password_reset">https://account.wire.com/forgot/</string>
   <string name="url_third_party_licences">https://wire.com/legal/#licenses</string>
   <string name="url_otr_learn_why">https://wire.com/privacy/why</string>
   <string name="url_otr_learn_how">https://wire.com/privacy/how</string>
@@ -583,7 +582,7 @@
   <string name="notification__message__one_to_one__shared_video">একটি ভিডিও শেয়ার করেছেন</string>
   <string name="notification__message__one_to_one__shared_audio">একটি অডিও বার্তা শেয়ার করেছেন</string>
   <string name="notification__message__one_to_one__shared_location">লোকেশন শেয়ার করুন</string>
-  <string name="notification__message__one_to_one__liked">\u2764 your message</string>
+  <string name="notification__message__one_to_one__liked">\u2764 আপনার বার্তা</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%2$s \u0020 %1$s</string>
@@ -599,7 +598,7 @@
   <string name="notification__message__multiple__accept_request">আপনার সংযুক্ত করার অনুরোধটি গ্রহন করা হলো</string>
   <string name="notification__message__single__accept_request">আপনার সংযুক্ত করার অনুরোধটি গ্রহন করা হলো</string>
   <string name="notification__message__group__default_conversation_name">দলগত কথোপকথন</string>
-  <string name="notification__message__group__liked">\u2764 your message</string>
+  <string name="notification__message__group__liked">\u2764 আপনার বার্তা</string>
   <!-- Others -->
   <string name="app_name">ওয়্যার</string>
   <string name="content__system__item_separator">,</string>
@@ -731,11 +730,11 @@
   <string name="sign_in">লগ ইন</string>
   <string name="new_reg__password_length">অন্তত %1$s বর্ণ/চিহ্ন </string>
   <!-- Giphy -->
+  <string name="giphy_preview__search_hint">Search Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
   <string name="giphy_preview__title_random">এলোমেলো</string>
-  <string name="giphy_preview__try_another_action">পুনরায় চেষ্টা করুন</string>
   <string name="giphy_preview__error">কোন GIFS পাওয়া যায়নি।.</string>
-  <string name="giphy_preview__message_via_random">Via giphy.com</string>
+  <string name="giphy_preview__message_via_random_trending">Via giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
   <string name="service_giphy_name">Giphy</string>
   <!--Sketch-->
@@ -744,7 +743,7 @@
   <string name="add_a_sketch">স্কেচ যুক্ত করুন</string>
   <string name="sketch__emoji_keyboard__size_label__small">SMALL</string>
   <string name="sketch__emoji_keyboard__size_label__medium">MEDIUM</string>
-  <string name="sketch__emoji_keyboard__size_label__large">LARGE</string>
+  <string name="sketch__emoji_keyboard__size_label__large">বড়</string>
   <!-- Location sharing -->
   <string name="location_sharing__tip">অবস্থান পরিবর্তনের জন্য মানচিত্রটি টানুন</string>
   <string name="location_sharing__permission_error">বর্তমান অবস্থান পাওয়া যায় নি, অনুমতি অস্বীকৃত</string>
@@ -846,10 +845,12 @@
   <string name="tooltip_camera">ছবি যোগ করুন</string>
   <string name="tooltip_sketch">একটি ছবি আঁকুন</string>
   <string name="tooltip_ping">পিং</string>
+  <string name="tooltip_emoji">Emoji</string>
   <string name="tooltip_location">ঠিকানা</string>
   <string name="tooltip_more">আরো কাজ</string>
   <string name="tooltip_audio_message">অডিও বার্তা প্রেরণের জন্য চেপে ধরে রাখুন</string>
   <string name="tooltip_file">ফাইল প্রেরণ করুন</string>
+  <string name="tooltip_gif">Gif</string>
   <string name="new_feature">নতুন</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">শুধুমাত্র নিজের জন্য মুছে ফেলবেন?</string>

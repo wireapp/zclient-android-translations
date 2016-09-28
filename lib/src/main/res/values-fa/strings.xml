@@ -431,8 +431,8 @@
   <string name="pref_options_image_download_always">همیشه</string>
   <string name="pref_options_image_download_wifi">تنها روی Wi-Fi</string>
   <string name="pref_options_media_category_title">رسانه</string>
-  <string name="pref_options_giphy_title">Giphy</string>
-  <string name="pref_options_giphy_summary">Show GIF button</string>
+  <string name="pref_options_cursor_send_button_title">Send button</string>
+  <string name="pref_options_cursor_send_button_summary">Show send button</string>
   <string name="pref_options_spotify_title">Spotify را به اپ وصل کنید</string>
   <string name="pref_options_spotify_logout_title">قطع کردن Spotify با اپ</string>
   <string name="pref_options_spotify_summary">شما نیاز به Spotify Premium دارید.</string>
@@ -448,16 +448,16 @@
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">تایید شده</string>
   <string name="pref_devices_device_not_verified">تایید نشده است</string>
-  <string name="pref_devices_warning_summary">اگر شما دستگا‌ه‌های بالا را نمیشناسید، آن را حذف کنید و رمز عبور خود را از طریق زبانه تنظیمات&gt; در حساب کاربری تغییر دهید.</string>
+  <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your password.</string>
   <string name="pref_devices_device_screen_title">جزییات اطلاعات دستگاه</string>
   <string name="pref_devices_device_fingerprint_category_title">کلید اثرانگشت</string>
-  <string name="pref_devices_device_fingerprint_summary">Wire به هر دستگاه یک اثرانگشت الکترونیکی می‌دهد. اثرانگشت‌ها را با هم مقایسه کنید تا بتوانید دستگاه و گفتگوهای خود را تایید کنید.</string>
+  <string name="pref_devices_device_fingerprint_summary">Wire gives every device a unique fingerprint. Compare them and verify your devices and conversations.</string>
   <string name="pref_devices_device_actions_category_title">اقدامات</string>
   <string name="pref_devices_device_trust_title">تایید شده</string>
   <string name="pref_devices_device_reset_session_title">راه اندازی مجدد session</string>
-  <string name="pref_devices_device_reset_session_summary">اگر اثرانگشت‌های الکترونیکی شما با هم متباقبت نمی‌کرد، session خود را دوباره راه اندازی کنید تا مطمئن شوید اثر انگشت بر روی تمامی دستگاه‌ها یکسان است.</string>
+  <string name="pref_devices_device_reset_session_summary">If fingerprints don\'t match, reset the session to generate new encryption keys on both sides.</string>
   <string name="pref_devices_device_remove_title">حذف دستگاه</string>
-  <string name="pref_devices_device_remove_summary">بصورت خودکار از دستگاه مذکور خارج خواهید شد.</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. Your message history will be erased and you will be logged out.</string>
   <string name="pref_devices_device_fingerprint_copy_description">اثرانگشت</string>
   <string name="pref_devices_device_fingerprint_copy_toast">کلید اثرانگشت کپی شد</string>
   <!-- Advanced -->
@@ -466,8 +466,8 @@
   <string name="pref_advanced_debug_report_summary">این به Wire کمک می‌کند تا مشکلات را تشخیص دهد.</string>
   <string name="pref_advanced_analytics_title">استفاده از داده و گزارش‌های خرابی</string>
   <string name="pref_advanced_analytics_summary">از طریق ارسال اطلاعات بصورت ناشناس شما به Wire کمک می‌کنید تا رشد کند.</string>
-  <string name="debug_report__title">گزارش باگ‌های Wire برای اندروید - %1$s</string>
-  <string name="debug_report__body">به ما کمک کنید تا عیب یابی کنیم! لطفا با جزییات و مرحله به مرحله به ما بگید که چه اتفاقی افتاد و چه پیامی مشاهده کردید. اگر اینها همراه اسکرین شات باشد خیلی به ما کمک می‌کند.\n\n</string>
+  <string name="debug_report__title">Wire debug report - %1$s</string>
+  <string name="debug_report__body">Please describe the steps required to reproduce the issue, provide screenshots if possible and send this email.\n\n</string>
   <!-- Support -->
   <string name="pref_support_screen_title">پشتیبانی</string>
   <string name="pref_support_website_title">پشتیبانی در وب‌سایت Wire</string>
@@ -477,12 +477,12 @@
   <!-- About -->
   <string name="pref_about_screen_title">درباره</string>
   <string name="pref_about_website_title">وب‌سایت Wire</string>
-  <string name="pref_about_website_url">https://www.wire.com</string>
+  <string name="pref_about_website_url">https://wire.com</string>
   <string name="pref_about_tos_title">شرایط و مقررات استفاده</string>
   <string name="pref_about_tos_url">@string/url_terms_of_service</string>
   <string name="pref_about_privacy_policy_title">سیاست حفظ از حریم خصوصی</string>
   <string name="pref_about_privacy_policy_url">@string/url_privacy_policy</string>
-  <string name="pref_about_licenses_title">پروانه‌ها</string>
+  <string name="pref_about_licenses_title">License information</string>
   <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
   <string name="pref_about_version_title">نسخه‌ %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
@@ -512,11 +512,11 @@
   <string name="pref__account_action__dialog__change_email__error__invalid_email">یک ایمیل معتبر وارد کنید</string>
   <string name="pref__account_action__dialog__change_email__title">ویرایش ایمیل آدرس</string>
   <!-- URLs -->
-  <string name="url_home">https://www.wire.com</string>
-  <string name="url_terms_of_service">https://www.wire.com/legal/terms/embed/</string>
-  <string name="url_privacy_policy">https://www.wire.com/legal/privacy/embed/</string>
+  <string name="url_home">https://wire.com</string>
+  <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
+  <string name="url_privacy_policy">https://wire.com/legal/privacy/embed/</string>
   <string name="url__help">https://support.wire.com</string>
-  <string name="url_password_reset">https://www.wire.com/forgot/</string>
+  <string name="url_password_reset">https://account.wire.com/forgot/</string>
   <string name="url_third_party_licences">https://wire.com/legal/#licenses</string>
   <string name="url_otr_learn_why">https://wire.com/privacy/why</string>
   <string name="url_otr_learn_how">https://wire.com/privacy/how</string>
@@ -730,11 +730,11 @@
   <string name="sign_in">وارد شدن</string>
   <string name="new_reg__password_length">حداقل %1$s کاراکتر</string>
   <!-- Giphy -->
+  <string name="giphy_preview__search_hint">Search Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
   <string name="giphy_preview__title_random">تصادفی</string>
-  <string name="giphy_preview__try_another_action">دیگری را امتحان کنید</string>
   <string name="giphy_preview__error">هیچ تصویر متحرکی پیدا نشد.</string>
-  <string name="giphy_preview__message_via_random">Via giphy.com</string>
+  <string name="giphy_preview__message_via_random_trending">Via giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
   <string name="service_giphy_name">Giphy</string>
   <!--Sketch-->
@@ -845,10 +845,12 @@
   <string name="tooltip_camera">یک تصویر اضافه کنید</string>
   <string name="tooltip_sketch">یک نقاشی بکشید</string>
   <string name="tooltip_ping">Ping</string>
+  <string name="tooltip_emoji">Emoji</string>
   <string name="tooltip_location">موقعیت جغرافیایی</string>
   <string name="tooltip_more">اقدامات بیشتر</string>
   <string name="tooltip_audio_message">اینجا را نگه دارید تا بتونید یک پیام صوتی را ضبط و ارسال کنید</string>
   <string name="tooltip_file">ارسال فایل</string>
+  <string name="tooltip_gif">Gif</string>
   <string name="new_feature">جدید</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">فقط برای خودم حذف بشه؟</string>
@@ -874,7 +876,7 @@
   <string name="audio_message__recording__limit_reached__title">ضبط متوقف شد</string>
   <string name="audio_message__recording__limit_reached__message">پیام‌های صوتی محدود به ۲۵ مگابایت هستند. این پیام رو بفرستم؟</string>
   <string name="audio_message__recording__limit_reached__confirmation">بفرست</string>
-  <string name="hint_change_filter">Choose a filter above</string>
+  <string name="hint_change_filter">فیلتر بالا را تغییر دهید</string>
   <string name="message_bottom_menu_action_forward">فوروارد</string>
   <string name="message_bottom_menu_action_copy">کپی</string>
   <string name="message_bottom_menu_action_edit">ویرایش</string>
