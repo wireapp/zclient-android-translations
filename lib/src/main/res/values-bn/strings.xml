@@ -221,7 +221,7 @@
   <string name="content__file__action__share">শেয়ার</string>
   <string name="content__file__action__open__no_app_found">এই ধরনের ফাইল খোলার মতো কোন অ্যাপ্লিকেশন খুঁজে পাওয়া যায়নি</string>
   <string name="content__file__action__save_completed">ফাইল সফলভাবে সংরক্ষণ করা হয়েছে</string>
-  <string name="content__file__action__save_error">Unable to save file</string>
+  <string name="content__file__action__save_error">ফাইলটি সংরক্ষণ করতে সক্ষম হয় নি</string>
   <string name="content__location__no_map_placeholder">অবস্থান ম্যাপ এ উপস্থিত হবে যখন আপনি আবার অনলাইন হবেন।</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">পুনঃনামকরণ করুন</string>
@@ -411,7 +411,7 @@
   <string name="pref_account_sign_out_warning_cancel">বাতিল করুন</string>
   <string name="pref_account_password_title">পাসওয়ার্ড রিসেট করুন।</string>
   <!-- Options -->
-  <string name="pref_options_dark_theme_title">Dark theme</string>
+  <string name="pref_options_dark_theme_title">গাঢ় থিম</string>
   <string name="pref_options_screen_title">বিকল্পসমূহ</string>
   <string name="pref_options_contacts_title">কন্টাক্ট সমূহ শেয়ার করুন</string>
   <string name="pref_options_contacts_summary">এটি আপনাকে অন্যদের সাথে সংযুক্ত হতে সাহায্য করে। আমরা এই তথ্যসমূহ গোপন রাখি এবং কারো কাছে প্রদর্শন করি না।</string>
@@ -431,8 +431,8 @@
   <string name="pref_options_image_download_always">সবসময়</string>
   <string name="pref_options_image_download_wifi">শুধু Wi-Fi</string>
   <string name="pref_options_media_category_title">মিডিয়া</string>
-  <string name="pref_options_requested_category_title">By popular demand</string>
-  <string name="pref_options_cursor_send_button_title">Send button</string>
+  <string name="pref_options_requested_category_title">জনপ্রিয় চাহিদা অনুযায়ী</string>
+  <string name="pref_options_cursor_send_button_title">প্রেরণ করুন বাটন</string>
   <string name="pref_options_cursor_send_button_summary">Disable to send via the keyboard.</string>
   <string name="pref_options_spotify_title">Spotify এর সাথে সংযুক্ত করুন</string>
   <string name="pref_options_spotify_logout_title">Spotify সাথে সংযোগ বিচ্ছিন্ন করুন</string>
@@ -742,8 +742,8 @@
   <string name="drawing__tip__picture__message">ব্রাশ সাইজ পরিবর্তনের জন্যে রং এর উপর ক্লিক করুন।\n\nছবি অপসারণের জন্য ঝাঁকুনি(shake) দিন</string>
   <string name="drawing__tip__message">ব্রাশ সাইজ পরিবর্তনের জন্যে ক্লিক করুন।\n\nএকটি এরিয়া পরিপূর্ণ করার জন্য লং-প্রেস করুন। </string>
   <string name="add_a_sketch">স্কেচ যুক্ত করুন</string>
-  <string name="sketch__emoji_keyboard__size_label__small">SMALL</string>
-  <string name="sketch__emoji_keyboard__size_label__medium">MEDIUM</string>
+  <string name="sketch__emoji_keyboard__size_label__small">ছোট</string>
+  <string name="sketch__emoji_keyboard__size_label__medium">মাঝারি</string>
   <string name="sketch__emoji_keyboard__size_label__large">বড়</string>
   <!-- Location sharing -->
   <string name="location_sharing__tip">অবস্থান পরিবর্তনের জন্য মানচিত্রটি টানুন</string>
@@ -846,12 +846,12 @@
   <string name="tooltip_camera">ছবি যোগ করুন</string>
   <string name="tooltip_sketch">একটি ছবি আঁকুন</string>
   <string name="tooltip_ping">পিং</string>
-  <string name="tooltip_emoji">Emoji</string>
+  <string name="tooltip_emoji">ইমোজি</string>
   <string name="tooltip_location">ঠিকানা</string>
   <string name="tooltip_more">আরো কাজ</string>
   <string name="tooltip_audio_message">অডিও বার্তা প্রেরণের জন্য চেপে ধরে রাখুন</string>
   <string name="tooltip_file">ফাইল প্রেরণ করুন</string>
-  <string name="tooltip_gif">Gif</string>
+  <string name="tooltip_gif">অ্যানিমেটেড ছবি</string>
   <string name="new_feature">নতুন</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">শুধুমাত্র নিজের জন্য মুছে ফেলবেন?</string>
@@ -887,16 +887,16 @@
   <string name="message_bottom_menu_action_delete_local">আমার জন্য মুছে ফেলুন</string>
   <string name="message_bottom_menu_action_delete_global">সকলের জন্য মুছে ফেলুন</string>
   <string name="likes_list__header">Liked by</string>
-  <string name="message_bottom_menu_action_save_ok">Picture saved</string>
-  <string name="message_bottom_menu_action_save_fail">Error saving image</string>
+  <string name="message_bottom_menu_action_save_ok">ছবিটি সংরক্ষণ করা হয়েছে</string>
+  <string name="message_bottom_menu_action_save_fail">ছবিটি সংরক্ষণ করতে ত্রুটি ঘটেছে</string>
   <string name="message_footer__tap_to_like">Tap to like</string>
   <plurals name="message_footer__number_of_likes">
     <item quantity="one">%1$d people</item>
     <item quantity="other">%1$d people</item>
   </plurals>
   <string name="message_footer__status__sending">প্রেরণ করা হচ্ছে&#8230;</string>
-  <string name="message_footer__status__sent">%1$s \u30FB Sent</string>
+  <string name="message_footer__status__sent">%1$s \u30FB প্রেরিত</string>
   <string name="message_footer__status__delivered">%1$s \u30FB Delivered</string>
-  <string name="message_footer__status__failed">Sending failed. _Resend_</string>
-  <string name="message_footer__status__deleted">%1$s \u30FB Deleted</string>
+  <string name="message_footer__status__failed">প্রেরণ বিফল হয়েছে। _আবার পাঠান_</string>
+  <string name="message_footer__status__deleted">%1$s \u30FB মুছে ফেলা হয়েছে</string>
 </resources>
