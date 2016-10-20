@@ -258,11 +258,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">উত্তর দিন</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">বাতিল করুন</string>
   <string name="calling__video_call__slow_connection__message">আপনি কল করার সময় সমস্যার সম্মুখীন হতে পারেন</string>
-  <string name="calling__header__joining">সংযোগ স্থাপিত হচ্ছে</string>
-  <string name="calling__header__outgoing_subtitle">রিং বাজছে</string>
-  <string name="calling__header__outgoing_video_subtitle">রিং বাজছে</string>
-  <string name="calling__header__incoming_subtitle">কলিং</string>
-  <string name="calling__header__incoming_subtitle__video">ভিডিও কলিং</string>
+  <string name="calling__header__joining">joining</string>
+  <string name="calling__header__outgoing_subtitle">ringing</string>
+  <string name="calling__header__outgoing_video_subtitle">ringing</string>
+  <string name="calling__header__incoming_subtitle">calling</string>
+  <string name="calling__header__incoming_subtitle__video">video calling</string>
   <string name="incoming__controls__incoming__decline">কেটে দিন</string>
   <string name="incoming__controls__incoming__accept">গ্রহণ করুন</string>
   <string name="incoming__controls__ongoing__hangup">কেটে দিন</string>
@@ -459,7 +459,7 @@
   <string name="pref_devices_device_reset_session_title">অধিবেশনটি পুনরায় সচল করুন</string>
   <string name="pref_devices_device_reset_session_summary">ফিঙ্গারপ্রিন্ট ম্যাচ না করলে সেশন রিসেট করুন এবং দুই প্রান্তেই নতুন এনক্রিপশন কী জেনারেট করুন।</string>
   <string name="pref_devices_device_remove_title">ডিভাইসটি অপসারণ করুন</string>
-  <string name="pref_devices_device_remove_summary">আপনি যদি এই ডিভাইস ব্যবহার করা বন্ধ করে থাকেন তাহলে তা রিমুভ করে ফেলুন। মেসেজের হিস্টোরি মুছে যাবে এবং আপনি লগ আউট হয়ে যাবেন।</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. Your message history will be erased on this device and you will be logged out.</string>
   <string name="pref_devices_device_fingerprint_copy_description">ফিঙ্গারপ্রিন্ট</string>
   <string name="pref_devices_device_fingerprint_copy_toast">অনুলিপি ফিঙ্গারপ্রিন্ট দিন</string>
   <!-- Advanced -->
@@ -601,6 +601,12 @@
   <string name="notification__message__single__accept_request">আপনার সংযুক্ত করার অনুরোধটি গ্রহন করা হলো</string>
   <string name="notification__message__group__default_conversation_name">দলগত কথোপকথন</string>
   <string name="notification__message__group__liked">\u2764 আপনার বার্তা</string>
+  <!-- ephemeral -->
+  <string name="notification__message__ephemeral_details">Press for more</string>
+  <plurals name="notification__message__ephemeral">
+    <item quantity="one">Someone sent you a message</item>
+    <item quantity="other">Someone sent you %1$d messages</item>
+  </plurals>
   <!-- Others -->
   <string name="app_name">ওয়্যার</string>
   <string name="content__system__item_separator">,</string>
@@ -902,10 +908,11 @@
   <string name="message_footer__status__failed">প্রেরণ বিফল হয়েছে। _আবার পাঠান_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB মুছে ফেলা হয়েছে</string>
   <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$ds চলে গেছেন_</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TIMED MESSAGES</string>
-  <string name="ephemeral_message__timeout__off">Off</string>
+  <string name="ephemeral_message__timeout_selection_info">অস্থায়ী বার্তাসমূহের জন্য টাইমার সেট করুন</string>
+  <string name="ephemeral_message__timeout__off">বন্ধ</string>
   <string name="ephemeral_message__timeout__5_sec">5 seconds</string>
   <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
+  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
   <string name="ephemeral_message__timeout__1_min">1 minute</string>
-  <string name="ephemeral_message__timeout__15_min">15 minutes</string>
+  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
 </resources>

@@ -258,11 +258,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Svara</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">Avbryt</string>
   <string name="calling__video_call__slow_connection__message">Du kan känna av problem under samtalet</string>
-  <string name="calling__header__joining">Går med</string>
-  <string name="calling__header__outgoing_subtitle">Ringer</string>
-  <string name="calling__header__outgoing_video_subtitle">Ringer</string>
-  <string name="calling__header__incoming_subtitle">Ringer</string>
-  <string name="calling__header__incoming_subtitle__video">Videosamtal</string>
+  <string name="calling__header__joining">går med</string>
+  <string name="calling__header__outgoing_subtitle">ringer</string>
+  <string name="calling__header__outgoing_video_subtitle">ringer</string>
+  <string name="calling__header__incoming_subtitle">ringer</string>
+  <string name="calling__header__incoming_subtitle__video">videosamtalar</string>
   <string name="incoming__controls__incoming__decline">NEKA</string>
   <string name="incoming__controls__incoming__accept">ACCEPTERA</string>
   <string name="incoming__controls__ongoing__hangup">LÄGG PÅ</string>
@@ -458,7 +458,7 @@
   <string name="pref_devices_device_reset_session_title">Börja om sessionen</string>
   <string name="pref_devices_device_reset_session_summary">Om fingeravtryck inte matchar, återställa sessionen för att generera nya krypteringsnycklar på båda enheterna.</string>
   <string name="pref_devices_device_remove_title">Ta bort enhet</string>
-  <string name="pref_devices_device_remove_summary">Ta bort den här enheten om du har slutat använda den. Din meddelandehistorik kommer tas bort och du kommer att loggas ut.</string>
+  <string name="pref_devices_device_remove_summary">Ta bort den här enheten om du har slutat använda den. Din meddelandehistorik kommer tas bort på denna enhet och du kommer att loggas ut.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Fingeravtryck</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Nyckel Fingeravtryck kopierad</string>
   <!-- Advanced -->
@@ -600,6 +600,12 @@
   <string name="notification__message__single__accept_request">Accepterade din kontakt förfrågan</string>
   <string name="notification__message__group__default_conversation_name">grupp konversation</string>
   <string name="notification__message__group__liked">\u2764 ditt meddelande</string>
+  <!-- ephemeral -->
+  <string name="notification__message__ephemeral_details">Tryck för mer</string>
+  <plurals name="notification__message__ephemeral">
+    <item quantity="one">Någon har skickat ett meddelande</item>
+    <item quantity="other">Någon har skickat %1$d meddelanden</item>
+  </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -901,10 +907,11 @@
   <string name="message_footer__status__failed">Skickning misslyckades. _Skicka igen_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Togs bort</string>
   <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$ds kvar_</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TIMED MESSAGES</string>
+  <string name="ephemeral_message__timeout_selection_info">STÄLL IN EN TIMER FÖR TILLFÄLLIGA MEDDELANDEN</string>
   <string name="ephemeral_message__timeout__off">Av</string>
-  <string name="ephemeral_message__timeout__5_sec">5 seconds</string>
-  <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
-  <string name="ephemeral_message__timeout__1_min">1 minute</string>
-  <string name="ephemeral_message__timeout__15_min">15 minutes</string>
+  <string name="ephemeral_message__timeout__5_sec">5 sekunder</string>
+  <string name="ephemeral_message__timeout__15_sec">15 sekunder</string>
+  <string name="ephemeral_message__timeout__30_sec">30 sekunder</string>
+  <string name="ephemeral_message__timeout__1_min">1 minut</string>
+  <string name="ephemeral_message__timeout__5_min">5 minuter</string>
 </resources>

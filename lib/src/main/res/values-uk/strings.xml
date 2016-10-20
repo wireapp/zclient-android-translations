@@ -259,11 +259,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Відповісти</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">Скасувати</string>
   <string name="calling__video_call__slow_connection__message">Можуть виникнути проблеми під час дзвінка</string>
-  <string name="calling__header__joining">З\'єднання</string>
-  <string name="calling__header__outgoing_subtitle">Дзвонить</string>
-  <string name="calling__header__outgoing_video_subtitle">Дзвонить</string>
-  <string name="calling__header__incoming_subtitle">Дзвонить</string>
-  <string name="calling__header__incoming_subtitle__video">Відео-дзвінок</string>
+  <string name="calling__header__joining">з\'єднання</string>
+  <string name="calling__header__outgoing_subtitle">дзвонить</string>
+  <string name="calling__header__outgoing_video_subtitle">дзвонить</string>
+  <string name="calling__header__incoming_subtitle">дзвонить</string>
+  <string name="calling__header__incoming_subtitle__video">відеодзвінок</string>
   <string name="incoming__controls__incoming__decline">СКАСУВАТИ</string>
   <string name="incoming__controls__incoming__accept">ПРИЙНЯТИ</string>
   <string name="incoming__controls__ongoing__hangup">СКАСУВАТИ</string>
@@ -463,7 +463,7 @@
   <string name="pref_devices_device_reset_session_title">Скидання сесії</string>
   <string name="pref_devices_device_reset_session_summary">Якщо ідентифікатори не збігаються, виконайте скидання сесії, щоб згенерувати нові ключі шифрування з обидвох сторін.</string>
   <string name="pref_devices_device_remove_title">Видалити пристрій</string>
-  <string name="pref_devices_device_remove_summary">Видаліть цей пристрій, якщо ви більше не використовуєте його. Вашу історію повідомлень буде стерто, і ви вийдете із системи на цьому пристрої.</string>
+  <string name="pref_devices_device_remove_summary">Видаліть цей пристрій, якщо ви більше не використовуєте його. Вашу історію повідомлень буде стерто на цьому пристрої, і ви повернетесь до діалогу вводу імені та паролю.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Ідентифікатор</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Ідентифікатор скопійовано</string>
   <!-- Advanced -->
@@ -478,7 +478,7 @@
   <string name="pref_support_screen_title">Підтримка</string>
   <string name="pref_support_website_title">Сайт підтримки Wire</string>
   <string name="pref_support_website_url">https://support.wire.com</string>
-  <string name="pref_support_contact_title">Зверніться до служби підтримки</string>
+  <string name="pref_support_contact_title">Звернутися до служби підтримки</string>
   <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
   <!-- About -->
   <string name="pref_about_screen_title">Про програму</string>
@@ -610,6 +610,13 @@
   <string name="notification__message__single__accept_request">Прийняв(-ла) ваш запит на додавання до контактів</string>
   <string name="notification__message__group__default_conversation_name">групова розмова</string>
   <string name="notification__message__group__liked">\u2764 ваше повідомлення</string>
+  <!-- ephemeral -->
+  <string name="notification__message__ephemeral_details">Торкніться, щоб показати деталі</string>
+  <plurals name="notification__message__ephemeral">
+    <item quantity="one">Хтось надіслав вам повідомлення</item>
+    <item quantity="few">Хтось надіслав вам %1$d повідомлення</item>
+    <item quantity="other">Хтось надіслав вам %1$d повідомлень</item>
+  </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -924,6 +931,7 @@
   <string name="ephemeral_message__timeout__off">Вимкнений</string>
   <string name="ephemeral_message__timeout__5_sec">5 секунд</string>
   <string name="ephemeral_message__timeout__15_sec">15 секунд</string>
+  <string name="ephemeral_message__timeout__30_sec">30 секунд</string>
   <string name="ephemeral_message__timeout__1_min">1 хвилина</string>
-  <string name="ephemeral_message__timeout__15_min">15 хвилин</string>
+  <string name="ephemeral_message__timeout__5_min">5 хвилин</string>
 </resources>

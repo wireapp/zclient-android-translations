@@ -258,11 +258,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Atender</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">Cancelar</string>
   <string name="calling__video_call__slow_connection__message">Pode haver alguns problemas durante a chamada</string>
-  <string name="calling__header__joining">Entrando</string>
-  <string name="calling__header__outgoing_subtitle">Chamando</string>
-  <string name="calling__header__outgoing_video_subtitle">Chamando</string>
-  <string name="calling__header__incoming_subtitle">Chamando</string>
-  <string name="calling__header__incoming_subtitle__video">Chamando em Vídeo</string>
+  <string name="calling__header__joining">joining</string>
+  <string name="calling__header__outgoing_subtitle">tocando</string>
+  <string name="calling__header__outgoing_video_subtitle">tocando</string>
+  <string name="calling__header__incoming_subtitle">calling</string>
+  <string name="calling__header__incoming_subtitle__video">video calling</string>
   <string name="incoming__controls__incoming__decline">RECUSAR</string>
   <string name="incoming__controls__incoming__accept">ACEITAR</string>
   <string name="incoming__controls__ongoing__hangup">DESLIGAR</string>
@@ -458,7 +458,7 @@
   <string name="pref_devices_device_reset_session_title">Redefinir sessão</string>
   <string name="pref_devices_device_reset_session_summary">Se as impressões digitais não corresponderem, redefina a sessão para gerar novas chaves de criptografia em ambos os lados.</string>
   <string name="pref_devices_device_remove_title">Remover o dispositivo</string>
-  <string name="pref_devices_device_remove_summary">Remova este dispositivo se você ter parado de usá-lo. Seu histórico de mensagens será apagado e você será registrado para fora.</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. Your message history will be erased on this device and you will be logged out.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Chave Digital</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Chave Digital Copiada</string>
   <!-- Advanced -->
@@ -600,6 +600,12 @@
   <string name="notification__message__single__accept_request">Aceitou seu pedido de conexão</string>
   <string name="notification__message__group__default_conversation_name">conversa em grupo</string>
   <string name="notification__message__group__liked">\u2764 sua mensagem</string>
+  <!-- ephemeral -->
+  <string name="notification__message__ephemeral_details">Press for more</string>
+  <plurals name="notification__message__ephemeral">
+    <item quantity="one">Alguém te mandou uma mensagem</item>
+    <item quantity="other">Someone sent you %1$d messages</item>
+  </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -900,11 +906,12 @@
   <string name="message_footer__status__delivered">%1$s \u30FB Entregue</string>
   <string name="message_footer__status__failed">Envio falhou. _Reenviar_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Excluída</string>
-  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$ds left_</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TIMED MESSAGES</string>
+  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$ds restantes_</string>
+  <string name="ephemeral_message__timeout_selection_info">DEFINIR UM TEMPO PARA MENSAGENS TEMPORÁRIAS</string>
   <string name="ephemeral_message__timeout__off">Desligar</string>
-  <string name="ephemeral_message__timeout__5_sec">5 seconds</string>
-  <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
-  <string name="ephemeral_message__timeout__1_min">1 minute</string>
-  <string name="ephemeral_message__timeout__15_min">15 minutes</string>
+  <string name="ephemeral_message__timeout__5_sec">5 segundos</string>
+  <string name="ephemeral_message__timeout__15_sec">15 segundos</string>
+  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
+  <string name="ephemeral_message__timeout__1_min">1 minuto</string>
+  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
 </resources>

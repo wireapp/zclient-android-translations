@@ -257,11 +257,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Jawab</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">Batal</string>
   <string name="calling__video_call__slow_connection__message">Anda mungkin mengalami masalah selama panggilan</string>
-  <string name="calling__header__joining">Bergabung</string>
-  <string name="calling__header__outgoing_subtitle">Berdering</string>
-  <string name="calling__header__outgoing_video_subtitle">Berdering</string>
-  <string name="calling__header__incoming_subtitle">Memanggil</string>
-  <string name="calling__header__incoming_subtitle__video">Panggilan video</string>
+  <string name="calling__header__joining">joining</string>
+  <string name="calling__header__outgoing_subtitle">ringing</string>
+  <string name="calling__header__outgoing_video_subtitle">ringing</string>
+  <string name="calling__header__incoming_subtitle">calling</string>
+  <string name="calling__header__incoming_subtitle__video">video calling</string>
   <string name="incoming__controls__incoming__decline">TOLAK</string>
   <string name="incoming__controls__incoming__accept">TERIMA</string>
   <string name="incoming__controls__ongoing__hangup">TUTUP</string>
@@ -453,7 +453,7 @@
   <string name="pref_devices_device_reset_session_title">Ulangi sesi</string>
   <string name="pref_devices_device_reset_session_summary">Jika sidik jari tidak cocok, ulangi sesi untuk membuat enkripsi batu di kedua sisi.</string>
   <string name="pref_devices_device_remove_title">Hapus perangkat</string>
-  <string name="pref_devices_device_remove_summary">Hapus perangkat ini jika Anda berhenti menggunakannya. Riwayat percakapan Anda akan dihapus dan Anda akan keluar.</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. Your message history will be erased on this device and you will be logged out.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Sidik jari</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Kunci Sidik Jari Tersalin</string>
   <!-- Advanced -->
@@ -590,6 +590,11 @@
   <string name="notification__message__single__accept_request">Menerima permintaan koneksi Anda</string>
   <string name="notification__message__group__default_conversation_name">percakapan grup</string>
   <string name="notification__message__group__liked">\u2764 pesan Anda</string>
+  <!-- ephemeral -->
+  <string name="notification__message__ephemeral_details">Press for more</string>
+  <plurals name="notification__message__ephemeral">
+    <item quantity="other">Someone sent you %1$d messages</item>
+  </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -882,10 +887,11 @@
   <string name="message_footer__status__failed">Gagal mengirim. _Kirim Ulang_</string>
   <string name="message_footer__status__deleted">%1$s /u30FB Terhapus</string>
   <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$ds left_</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TIMED MESSAGES</string>
+  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TEMPORARY MESSAGES</string>
   <string name="ephemeral_message__timeout__off">Off</string>
   <string name="ephemeral_message__timeout__5_sec">5 seconds</string>
   <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
+  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
   <string name="ephemeral_message__timeout__1_min">1 minute</string>
-  <string name="ephemeral_message__timeout__15_min">15 minutes</string>
+  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
 </resources>

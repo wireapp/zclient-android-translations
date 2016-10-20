@@ -264,11 +264,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">رد</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">إلغاء</string>
   <string name="calling__video_call__slow_connection__message">قد تواجه مشكلات أثناء المكالمة</string>
-  <string name="calling__header__joining">انضمام</string>
+  <string name="calling__header__joining">joining</string>
   <string name="calling__header__outgoing_subtitle">جاري الاتصال</string>
   <string name="calling__header__outgoing_video_subtitle">جاري الاتصال</string>
-  <string name="calling__header__incoming_subtitle">جاري الاتصال</string>
-  <string name="calling__header__incoming_subtitle__video">مكالمة فيديو</string>
+  <string name="calling__header__incoming_subtitle">calling</string>
+  <string name="calling__header__incoming_subtitle__video">video calling</string>
   <string name="incoming__controls__incoming__decline">رفض</string>
   <string name="incoming__controls__incoming__accept">قبول</string>
   <string name="incoming__controls__ongoing__hangup">إنهاء الاتصال</string>
@@ -415,7 +415,7 @@
   <string name="pref_account_details_category_title">معلومات</string>
   <string name="pref_account_actions_category_title">الإجراءات</string>
   <string name="pref_account_appearance_category_title">المظهر</string>
-  <string name="pref_account_details_category_summary">People can find you with these details.</string>
+  <string name="pref_account_details_category_summary">سيتمكن الناس من ايجادك من خلال هذه التفاصيل.</string>
   <string name="pref_account_phone_title">الهاتف</string>
   <string name="pref_account_add_phone_title">أضف رقم الهاتف</string>
   <string name="pref_account_email_title">البريد الإلكتروني</string>
@@ -454,9 +454,9 @@
   <string name="pref_options_image_download_always">دائماً</string>
   <string name="pref_options_image_download_wifi">واي فاي فقط</string>
   <string name="pref_options_media_category_title">الوسائط </string>
-  <string name="pref_options_requested_category_title">By popular demand</string>
+  <string name="pref_options_requested_category_title">الأكثر شعبية</string>
   <string name="pref_options_cursor_send_button_title">زر الإرسال</string>
-  <string name="pref_options_cursor_send_button_summary">Disable to send via the keyboard.</string>
+  <string name="pref_options_cursor_send_button_summary">تعطي الإرسال عن طريق لوحة المفاتيح.</string>
   <string name="pref_options_spotify_title">اربط مع سبوتيفاي (Spotify)</string>
   <string name="pref_options_spotify_logout_title">لا تربط مع سبوتيفاي (Spotify)</string>
   <string name="pref_options_spotify_summary">تحتاج إلى حساب سبوتيفاي بريميوم (Spotify Premium).</string>
@@ -481,7 +481,7 @@
   <string name="pref_devices_device_reset_session_title">إعادة تعيين الجلسة</string>
   <string name="pref_devices_device_reset_session_summary">في حالة عدم تطابق بصمات الأجهزة، قم بتحديث الجلسة لإنشاء مفاتيح تشفير جديدة على كلا الجانبين.</string>
   <string name="pref_devices_device_remove_title">إزالة الجهاز</string>
-  <string name="pref_devices_device_remove_summary">قم بإزالة هذا الجهاز إذا كنت قد توقفت عن استخدامه. سيتم مسح تاريخ الرسائل الخاصة بك و تسجيل خروجك.</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. Your message history will be erased on this device and you will be logged out.</string>
   <string name="pref_devices_device_fingerprint_copy_description">مفتاح البصمة</string>
   <string name="pref_devices_device_fingerprint_copy_toast">تم نسخ مفتاح البصمة</string>
   <!-- Advanced -->
@@ -643,6 +643,16 @@
   <string name="notification__message__single__accept_request">قبل طلب الاتصال الخاص بك</string>
   <string name="notification__message__group__default_conversation_name">محادثة جماعية</string>
   <string name="notification__message__group__liked">\u2764 رسالتك</string>
+  <!-- ephemeral -->
+  <string name="notification__message__ephemeral_details">Press for more</string>
+  <plurals name="notification__message__ephemeral">
+    <item quantity="zero">Someone sent you %1$d messages</item>
+    <item quantity="one">Someone sent you a message</item>
+    <item quantity="two">Someone sent you %1$d messages</item>
+    <item quantity="few">Someone sent you %1$d messages</item>
+    <item quantity="many">Someone sent you %1$d messages</item>
+    <item quantity="other">Someone sent you %1$d messages</item>
+  </plurals>
   <!-- Others -->
   <string name="app_name">Wire واير</string>
   <string name="content__system__item_separator">,</string>
@@ -922,7 +932,7 @@
   <string name="no_conversation_in_list__header">لا توجد محادثات نشطة</string>
   <string name="no_conversation_in_list__message">اضغط على جهات الاتصال لبدء محادثة جديدة</string>
   <string name="cursor__type_a_message">اكتب رسالة</string>
-  <string name="cursor__ephemeral_message">TIMED MESSAGE</string>
+  <string name="cursor__ephemeral_message">رسالة مؤقتة</string>
   <string name="tooltip_record">تسجيل فيديو</string>
   <string name="tooltip_camera">إضافة صورة</string>
   <string name="tooltip_sketch">ارسم صورة</string>
@@ -984,11 +994,12 @@
   <string name="message_footer__status__delivered">\u30FB %1$s تم الاستلام</string>
   <string name="message_footer__status__failed">فشل الإرسال. _إعادة إرسال_</string>
   <string name="message_footer__status__deleted">\u30FB %1$s حذفت</string>
-  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$ds left_</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TIMED MESSAGES</string>
-  <string name="ephemeral_message__timeout__off">Off</string>
-  <string name="ephemeral_message__timeout__5_sec">5 seconds</string>
-  <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
-  <string name="ephemeral_message__timeout__1_min">1 minute</string>
-  <string name="ephemeral_message__timeout__15_min">15 minutes</string>
+  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$ds بقي_</string>
+  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TEMPORARY MESSAGES</string>
+  <string name="ephemeral_message__timeout__off">غير مفعل</string>
+  <string name="ephemeral_message__timeout__5_sec">5 ثوانٍ</string>
+  <string name="ephemeral_message__timeout__15_sec">15 ثانية</string>
+  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
+  <string name="ephemeral_message__timeout__1_min">دقيقة واحدة</string>
+  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
 </resources>

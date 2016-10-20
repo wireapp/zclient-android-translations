@@ -258,11 +258,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Contestar</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">Cancelar</string>
   <string name="calling__video_call__slow_connection__message">Es posible que experimente problemas durante la llamada</string>
-  <string name="calling__header__joining">Uniendose</string>
-  <string name="calling__header__outgoing_subtitle">Llamando</string>
-  <string name="calling__header__outgoing_video_subtitle">Llamando</string>
-  <string name="calling__header__incoming_subtitle">Llamando</string>
-  <string name="calling__header__incoming_subtitle__video">Video llamada</string>
+  <string name="calling__header__joining">joining</string>
+  <string name="calling__header__outgoing_subtitle">ringing</string>
+  <string name="calling__header__outgoing_video_subtitle">ringing</string>
+  <string name="calling__header__incoming_subtitle">calling</string>
+  <string name="calling__header__incoming_subtitle__video">video calling</string>
   <string name="incoming__controls__incoming__decline">RECHAZAR</string>
   <string name="incoming__controls__incoming__accept">ACEPTAR</string>
   <string name="incoming__controls__ongoing__hangup">COLGAR</string>
@@ -600,6 +600,12 @@
   <string name="notification__message__single__accept_request">Su solicitud de conexion ha sido aceptada</string>
   <string name="notification__message__group__default_conversation_name">conversación de grupo</string>
   <string name="notification__message__group__liked">\u2764 su mensaje</string>
+  <!-- ephemeral -->
+  <string name="notification__message__ephemeral_details">Press for more</string>
+  <plurals name="notification__message__ephemeral">
+    <item quantity="one">Someone sent you a message</item>
+    <item quantity="other">Someone sent you %1$d messages</item>
+  </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -901,10 +907,11 @@
   <string name="message_footer__status__failed">Envío fallido. _Reenviar_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB eliminado</string>
   <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$ds left_</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TIMED MESSAGES</string>
+  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TEMPORARY MESSAGES</string>
   <string name="ephemeral_message__timeout__off">Desactivar</string>
   <string name="ephemeral_message__timeout__5_sec">5 seconds</string>
   <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
+  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
   <string name="ephemeral_message__timeout__1_min">1 minute</string>
-  <string name="ephemeral_message__timeout__15_min">15 minutes</string>
+  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
 </resources>

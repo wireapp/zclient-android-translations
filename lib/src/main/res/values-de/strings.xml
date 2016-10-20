@@ -258,11 +258,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Annehmen</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">ABBRECHEN</string>
   <string name="calling__video_call__slow_connection__message">Eventuell kommt es zu Problemen während des Anrufs</string>
-  <string name="calling__header__joining">Beitreten</string>
+  <string name="calling__header__joining">joining</string>
   <string name="calling__header__outgoing_subtitle">Klingelt</string>
   <string name="calling__header__outgoing_video_subtitle">Klingelt</string>
-  <string name="calling__header__incoming_subtitle">Ruft an</string>
-  <string name="calling__header__incoming_subtitle__video">Videoanruf</string>
+  <string name="calling__header__incoming_subtitle">anrufen</string>
+  <string name="calling__header__incoming_subtitle__video">video calling</string>
   <string name="incoming__controls__incoming__decline">ABLEHNEN</string>
   <string name="incoming__controls__incoming__accept">ANNEHMEN</string>
   <string name="incoming__controls__ongoing__hangup">AUFLEGEN</string>
@@ -449,7 +449,7 @@
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Überprüft</string>
   <string name="pref_devices_device_not_verified">Nicht überprüft</string>
-  <string name="pref_devices_warning_summary">Falls du dieses Gerät nicht erkennst, entferne es und setze dein Passwort zurück.</string>
+  <string name="pref_devices_warning_summary">Falls du eines dieser Geräte nicht erkennst, entferne es und setze dein Passwort zurück.</string>
   <string name="pref_devices_device_screen_title">Gerätedetails</string>
   <string name="pref_devices_device_fingerprint_category_title">Schlüssel-Fingerabdruck</string>
   <string name="pref_devices_device_fingerprint_summary">Wire gibt jedem Gerät einen einzigartigen Fingerabdruck. Vergleiche diese und verifiziere deine Geräte und Unterhaltungen.</string>
@@ -458,7 +458,7 @@
   <string name="pref_devices_device_reset_session_title">Session zurücksetzen</string>
   <string name="pref_devices_device_reset_session_summary">Falls die Fingerabdrücke nicht übereinstimmen, setze die Session zurück um neue Verschlüsselungs-Schlüssel auf beiden Seiten zu erstellen.</string>
   <string name="pref_devices_device_remove_title">Gerät entfernen</string>
-  <string name="pref_devices_device_remove_summary">Entferne das Gerät, wenn du es nicht mehr nutzt. Der Nachrichtenverlauf wird gelöscht werden und du wirst abgemeldet.</string>
+  <string name="pref_devices_device_remove_summary">Entferne das Gerät, wenn du es nicht mehr nutzt. Der Nachrichtenverlauf wird auf diesem Gerät gelöscht und du wirst abgemeldet.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Schlüssel-Fingerabdruck</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Schlüssel-Fingerabdruck kopiert</string>
   <!-- Advanced -->
@@ -600,6 +600,12 @@
   <string name="notification__message__single__accept_request">hat deine Kontaktanfrage akzeptiert</string>
   <string name="notification__message__group__default_conversation_name">Gruppe</string>
   <string name="notification__message__group__liked">\u2764 deine Nachricht</string>
+  <!-- ephemeral -->
+  <string name="notification__message__ephemeral_details">Press for more</string>
+  <plurals name="notification__message__ephemeral">
+    <item quantity="one">Jemand hat dir eine Nachricht gesendet</item>
+    <item quantity="other">Someone sent you %1$d messages</item>
+  </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -902,10 +908,11 @@
   <string name="message_footer__status__failed">Senden fehlgeschlagen. _Erneut senden_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Gelöscht</string>
   <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$ds übrig_</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TIMED MESSAGES</string>
+  <string name="ephemeral_message__timeout_selection_info">DAUER FÜR TEMPORÄRE NACHRICHTEN</string>
   <string name="ephemeral_message__timeout__off">Aus</string>
   <string name="ephemeral_message__timeout__5_sec">5 seconds</string>
   <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
+  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
   <string name="ephemeral_message__timeout__1_min">1 minute</string>
-  <string name="ephemeral_message__timeout__15_min">15 minutes</string>
+  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
 </resources>
