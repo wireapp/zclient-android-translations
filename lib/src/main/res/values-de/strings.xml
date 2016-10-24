@@ -156,8 +156,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">EINLADEN</string>
   <string name="people_picker__contact_list__invite_dialog__title">Einladung senden</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 NACH NAMEN SUCHEN</string>
-  <string name="people_picker__contact_list__generic_invite__label">TEILE WIRE MIT DEINEN FREUNDEN</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">TEILEN</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">WEITERE PERSONEN EINLADEN</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ÖFFNEN</string>
   <string name="conversation_quick_menu__conversation_button__group_label">GRUPPE ERSTELLEN</string>
@@ -258,11 +257,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Annehmen</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">ABBRECHEN</string>
   <string name="calling__video_call__slow_connection__message">Eventuell kommt es zu Problemen während des Anrufs</string>
-  <string name="calling__header__joining">joining</string>
-  <string name="calling__header__outgoing_subtitle">Klingelt</string>
-  <string name="calling__header__outgoing_video_subtitle">Klingelt</string>
-  <string name="calling__header__incoming_subtitle">anrufen</string>
-  <string name="calling__header__incoming_subtitle__video">video calling</string>
+  <string name="calling__header__joining">tritt bei</string>
+  <string name="calling__header__outgoing_subtitle">klingelt</string>
+  <string name="calling__header__outgoing_video_subtitle">klingelt</string>
+  <string name="calling__header__incoming_subtitle">ruft an</string>
+  <string name="calling__header__incoming_subtitle__video">ruft mit Video an</string>
   <string name="incoming__controls__incoming__decline">ABLEHNEN</string>
   <string name="incoming__controls__incoming__accept">ANNEHMEN</string>
   <string name="incoming__controls__ongoing__hangup">AUFLEGEN</string>
@@ -410,6 +409,8 @@
   <string name="pref_account_sign_out_warning_verify">Abmelden</string>
   <string name="pref_account_sign_out_warning_cancel">Abbrechen</string>
   <string name="pref_account_password_title">Passwort zurücksetzen</string>
+  <string name="pref_account_edit_name_empty_warning">Name muss mindestens 2 Zeichen lang sein</string>
+  <string name="pref_account_edit_name_empty_verify">Verstanden</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Dunkler Hintergrund</string>
   <string name="pref_options_screen_title">Optionen</string>
@@ -601,7 +602,7 @@
   <string name="notification__message__group__default_conversation_name">Gruppe</string>
   <string name="notification__message__group__liked">\u2764 deine Nachricht</string>
   <!-- ephemeral -->
-  <string name="notification__message__ephemeral_details">Press for more</string>
+  <string name="notification__message__ephemeral_details">Tippen, um zu öffnen</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Jemand hat dir eine Nachricht gesendet</item>
     <item quantity="other">Jemand hat dir %1$d Nachrichten gesendet</item>
@@ -915,7 +916,7 @@
   <string name="ephemeral_message__timeout__1_min">1 Minute</string>
   <string name="ephemeral_message__timeout__5_min">5 Minuten</string>
   <string name="ephemeral_message__timeout__1_day">1 Tag</string>
-  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s übrig_</string>
+  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$s übrig_</string>
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d Tag</item>
     <item quantity="other">%1$d Tage</item>
