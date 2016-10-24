@@ -156,7 +156,8 @@
   <string name="people_picker__contact_list__contact_selection_button__label">আমন্ত্রণ</string>
   <string name="people_picker__contact_list__invite_dialog__title">আমন্ত্রণ পাঠান</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 নাম দিয়ে খুঁজুন</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITE MORE PEOPLE</string>
+  <string name="people_picker__contact_list__generic_invite__label">আপনার বন্ধুদের সাথে ওয়্যার শেয়ার করুন</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">শেয়ার</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">খুলুন</string>
   <string name="conversation_quick_menu__conversation_button__group_label">গ্রুপ তৈরী করুন</string>
@@ -257,11 +258,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">উত্তর দিন</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">বাতিল করুন</string>
   <string name="calling__video_call__slow_connection__message">আপনি কল করার সময় সমস্যার সম্মুখীন হতে পারেন</string>
-  <string name="calling__header__joining">joining</string>
-  <string name="calling__header__outgoing_subtitle">ringing</string>
-  <string name="calling__header__outgoing_video_subtitle">ringing</string>
-  <string name="calling__header__incoming_subtitle">calling</string>
-  <string name="calling__header__incoming_subtitle__video">video calling</string>
+  <string name="calling__header__joining">সংযোগ স্থাপিত হচ্ছে</string>
+  <string name="calling__header__outgoing_subtitle">রিং বাজছে</string>
+  <string name="calling__header__outgoing_video_subtitle">রিং বাজছে</string>
+  <string name="calling__header__incoming_subtitle">কলিং</string>
+  <string name="calling__header__incoming_subtitle__video">ভিডিও কলিং</string>
   <string name="incoming__controls__incoming__decline">কেটে দিন</string>
   <string name="incoming__controls__incoming__accept">গ্রহণ করুন</string>
   <string name="incoming__controls__ongoing__hangup">কেটে দিন</string>
@@ -458,7 +459,7 @@
   <string name="pref_devices_device_reset_session_title">অধিবেশনটি পুনরায় সচল করুন</string>
   <string name="pref_devices_device_reset_session_summary">ফিঙ্গারপ্রিন্ট ম্যাচ না করলে সেশন রিসেট করুন এবং দুই প্রান্তেই নতুন এনক্রিপশন কী জেনারেট করুন।</string>
   <string name="pref_devices_device_remove_title">ডিভাইসটি অপসারণ করুন</string>
-  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. Your message history will be erased on this device and you will be logged out.</string>
+  <string name="pref_devices_device_remove_summary">আপনি যদি এই ডিভাইস ব্যবহার করা বন্ধ করে থাকেন তাহলে তা রিমুভ করে ফেলুন। মেসেজের হিস্টোরি মুছে যাবে এবং আপনি লগ আউট হয়ে যাবেন।</string>
   <string name="pref_devices_device_fingerprint_copy_description">ফিঙ্গারপ্রিন্ট</string>
   <string name="pref_devices_device_fingerprint_copy_toast">অনুলিপি ফিঙ্গারপ্রিন্ট দিন</string>
   <!-- Advanced -->
@@ -907,25 +908,25 @@
   <string name="message_footer__status__failed">প্রেরণ বিফল হয়েছে। _আবার পাঠান_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB মুছে ফেলা হয়েছে</string>
   <string name="ephemeral_message__timeout_selection_info">অস্থায়ী বার্তাসমূহের জন্য টাইমার সেট করুন</string>
-  <string name="ephemeral_message__timeout__off">OFF</string>
-  <string name="ephemeral_message__timeout__5_sec">5 seconds</string>
-  <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
-  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
-  <string name="ephemeral_message__timeout__1_min">1 minute</string>
-  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
-  <string name="ephemeral_message__timeout__1_day">1 day</string>
-  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$s left_</string>
+  <string name="ephemeral_message__timeout__off">বন্ধ</string>
+  <string name="ephemeral_message__timeout__5_sec">৫ সেকেন্ড</string>
+  <string name="ephemeral_message__timeout__15_sec">১৫ সেকেন্ডের</string>
+  <string name="ephemeral_message__timeout__30_sec">৩০ সেকেন্ড</string>
+  <string name="ephemeral_message__timeout__1_min">১ মিনিট</string>
+  <string name="ephemeral_message__timeout__5_min">৫ মিনিট</string>
+  <string name="ephemeral_message__timeout__1_day">১ দিন</string>
+  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s চলে গেছেন_</string>
   <plurals name="message_footer__expire__days">
-    <item quantity="one">%1$d day</item>
-    <item quantity="other">%1$d days</item>
+    <item quantity="one">%1$d দিন</item>
+    <item quantity="other">%1$d দিন</item>
   </plurals>
   <plurals name="message_footer__expire__hours">
-    <item quantity="one">%1$d hour</item>
-    <item quantity="other">%1$d hours</item>
+    <item quantity="one">%1$d ঘণ্টা</item>
+    <item quantity="other">%1$d ঘণ্টা</item>
   </plurals>
   <plurals name="message_footer__expire__minutes">
-    <item quantity="one">%1$d minute</item>
-    <item quantity="other">%1$d minutes</item>
+    <item quantity="one">%1$d মিনিট</item>
+    <item quantity="other">%1$d মিনিট</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
     <item quantity="one">%1$d second</item>

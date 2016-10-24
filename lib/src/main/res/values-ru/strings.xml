@@ -160,7 +160,8 @@
   <string name="people_picker__contact_list__contact_selection_button__label">Пригласить</string>
   <string name="people_picker__contact_list__invite_dialog__title">Отправить приглашение</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 ПОИСК ПО ИМЕНИ</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">ПРИГЛАСИТЬ БОЛЬШЕ ЛЮДЕЙ</string>
+  <string name="people_picker__contact_list__generic_invite__label">ПОДЕЛИСЬ WIRE СО СВОИМИ ДРУЗЬЯМИ</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">ПОДЕЛИТСЯ</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ОТКРЫТЬ</string>
   <string name="conversation_quick_menu__conversation_button__group_label">Создать группу</string>
@@ -261,11 +262,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Ответить</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">Отмена</string>
   <string name="calling__video_call__slow_connection__message">Могут возникнуть проблемы во время звонка</string>
-  <string name="calling__header__joining">joining</string>
+  <string name="calling__header__joining">соединение</string>
   <string name="calling__header__outgoing_subtitle">звонит</string>
   <string name="calling__header__outgoing_video_subtitle">звонит</string>
-  <string name="calling__header__incoming_subtitle">звонок</string>
-  <string name="calling__header__incoming_subtitle__video">video calling</string>
+  <string name="calling__header__incoming_subtitle">звонит</string>
+  <string name="calling__header__incoming_subtitle__video">видеозвонок</string>
   <string name="incoming__controls__incoming__decline">Отклонить</string>
   <string name="incoming__controls__incoming__accept">Принять</string>
   <string name="incoming__controls__ongoing__hangup">ПОВЕСИТЬ ТРУБКУ</string>
@@ -616,11 +617,11 @@ Plural:
   <string name="notification__message__group__default_conversation_name">группа</string>
   <string name="notification__message__group__liked">\u2764 твое сообщение</string>
   <!-- ephemeral -->
-  <string name="notification__message__ephemeral_details">Press for more</string>
+  <string name="notification__message__ephemeral_details">Нажмите, чтобы просмотреть детали</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Вам отправлено сообщение</item>
-    <item quantity="few">Someone sent you %1$d messages</item>
-    <item quantity="other">Someone sent you %1$d messages</item>
+    <item quantity="few">Вам отправлено %1$d сообщения</item>
+    <item quantity="other">Вам отправлено %1$d сообщений</item>
   </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
@@ -931,33 +932,33 @@ Plural:
   <string name="message_footer__status__delivered">%1$s \u30FB Доставлено</string>
   <string name="message_footer__status__failed">Отправка не удалась. _Отправить заново_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Удалено</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TEMPORARY MESSAGES</string>
-  <string name="ephemeral_message__timeout__off">OFF</string>
+  <string name="ephemeral_message__timeout_selection_info">УСТАНОВИТЕ ТАЙМЕР ДЛЯ ВРЕМЕННЫХ СООБЩЕНИЙ</string>
+  <string name="ephemeral_message__timeout__off">Выключен</string>
   <string name="ephemeral_message__timeout__5_sec">5 секунд</string>
   <string name="ephemeral_message__timeout__15_sec">15 секунд</string>
-  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
+  <string name="ephemeral_message__timeout__30_sec">30 секунд</string>
   <string name="ephemeral_message__timeout__1_min">1 минута</string>
-  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
-  <string name="ephemeral_message__timeout__1_day">1 day</string>
-  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$s left_</string>
+  <string name="ephemeral_message__timeout__5_min">5 минут</string>
+  <string name="ephemeral_message__timeout__1_day">1 день</string>
+  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _Осталось %2$s_</string>
   <plurals name="message_footer__expire__days">
-    <item quantity="one">%1$d day</item>
-    <item quantity="few">%1$d days</item>
-    <item quantity="other">%1$d days</item>
+    <item quantity="one">%1$d день</item>
+    <item quantity="few">%1$d дня</item>
+    <item quantity="other">%1$d дней</item>
   </plurals>
   <plurals name="message_footer__expire__hours">
-    <item quantity="one">%1$d hour</item>
-    <item quantity="few">%1$d hours</item>
-    <item quantity="other">%1$d hours</item>
+    <item quantity="one">%1$d час</item>
+    <item quantity="few">%1$d часа</item>
+    <item quantity="other">%1$d часов</item>
   </plurals>
   <plurals name="message_footer__expire__minutes">
-    <item quantity="one">%1$d minute</item>
-    <item quantity="few">%1$d minutes</item>
-    <item quantity="other">%1$d minutes</item>
+    <item quantity="one">%1$d минута</item>
+    <item quantity="few">%1$d минуты</item>
+    <item quantity="other">%1$d минут</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
-    <item quantity="one">%1$d second</item>
-    <item quantity="few">%1$d seconds</item>
-    <item quantity="other">%1$d seconds</item>
+    <item quantity="one">%1$d секунда</item>
+    <item quantity="few">%1$d секунды</item>
+    <item quantity="other">%1$d секунд</item>
   </plurals>
 </resources>

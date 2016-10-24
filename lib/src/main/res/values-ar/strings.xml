@@ -162,7 +162,8 @@
   <string name="people_picker__contact_list__contact_selection_button__label">قم بدعوة</string>
   <string name="people_picker__contact_list__invite_dialog__title">إرسال دعوة</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 البحث حسب الاسم</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITE MORE PEOPLE</string>
+  <string name="people_picker__contact_list__generic_invite__label">شارك واير مع أصدقائك</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">شارك</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">فتح</string>
   <string name="conversation_quick_menu__conversation_button__group_label">إنشاء مجموعة</string>
@@ -263,11 +264,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">رد</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">إلغاء</string>
   <string name="calling__video_call__slow_connection__message">قد تواجه مشكلات أثناء المكالمة</string>
-  <string name="calling__header__joining">joining</string>
+  <string name="calling__header__joining">انضمام</string>
   <string name="calling__header__outgoing_subtitle">جاري الاتصال</string>
   <string name="calling__header__outgoing_video_subtitle">جاري الاتصال</string>
-  <string name="calling__header__incoming_subtitle">calling</string>
-  <string name="calling__header__incoming_subtitle__video">video calling</string>
+  <string name="calling__header__incoming_subtitle">جاري الاتصال</string>
+  <string name="calling__header__incoming_subtitle__video">مكالمة فيديو</string>
   <string name="incoming__controls__incoming__decline">رفض</string>
   <string name="incoming__controls__incoming__accept">قبول</string>
   <string name="incoming__controls__ongoing__hangup">إنهاء الاتصال</string>
@@ -480,7 +481,7 @@
   <string name="pref_devices_device_reset_session_title">إعادة تعيين الجلسة</string>
   <string name="pref_devices_device_reset_session_summary">في حالة عدم تطابق بصمات الأجهزة، قم بتحديث الجلسة لإنشاء مفاتيح تشفير جديدة على كلا الجانبين.</string>
   <string name="pref_devices_device_remove_title">إزالة الجهاز</string>
-  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. Your message history will be erased on this device and you will be logged out.</string>
+  <string name="pref_devices_device_remove_summary">قم بإزالة هذا الجهاز إذا كنت قد توقفت عن استخدامه. سيتم مسح تاريخ الرسائل الخاصة بك و تسجيل خروجك.</string>
   <string name="pref_devices_device_fingerprint_copy_description">مفتاح البصمة</string>
   <string name="pref_devices_device_fingerprint_copy_toast">تم نسخ مفتاح البصمة</string>
   <!-- Advanced -->
@@ -643,14 +644,14 @@
   <string name="notification__message__group__default_conversation_name">محادثة جماعية</string>
   <string name="notification__message__group__liked">\u2764 رسالتك</string>
   <!-- ephemeral -->
-  <string name="notification__message__ephemeral_details">Press for more</string>
+  <string name="notification__message__ephemeral_details">اضغط للمزيد </string>
   <plurals name="notification__message__ephemeral">
-    <item quantity="zero">Someone sent you %1$d messages</item>
-    <item quantity="one">Someone sent you a message</item>
-    <item quantity="two">Someone sent you %1$d messages</item>
+    <item quantity="zero">أحدهم أرسل لك  %1$d رسالة</item>
+    <item quantity="one">أحدهم أرسل لك رسالة</item>
+    <item quantity="two">أحدهم أرسل لك  %1$d رسالة</item>
     <item quantity="few">Someone sent you %1$d messages</item>
-    <item quantity="many">Someone sent you %1$d messages</item>
-    <item quantity="other">Someone sent you %1$d messages</item>
+    <item quantity="many">أحدهم أرسل لك  %1$d رسالة</item>
+    <item quantity="other">أحدهم أرسل لك  %1$d رسالة</item>
   </plurals>
   <!-- Others -->
   <string name="app_name">Wire واير</string>
@@ -993,45 +994,45 @@
   <string name="message_footer__status__delivered">\u30FB %1$s تم الاستلام</string>
   <string name="message_footer__status__failed">فشل الإرسال. _إعادة إرسال_</string>
   <string name="message_footer__status__deleted">\u30FB %1$s حذفت</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TEMPORARY MESSAGES</string>
-  <string name="ephemeral_message__timeout__off">OFF</string>
+  <string name="ephemeral_message__timeout_selection_info">ضبط المؤقت للرسائل المؤقتة</string>
+  <string name="ephemeral_message__timeout__off">إغلاق</string>
   <string name="ephemeral_message__timeout__5_sec">5 ثوانٍ</string>
   <string name="ephemeral_message__timeout__15_sec">15 ثانية</string>
-  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
+  <string name="ephemeral_message__timeout__30_sec">30 ثانية</string>
   <string name="ephemeral_message__timeout__1_min">دقيقة واحدة</string>
-  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
-  <string name="ephemeral_message__timeout__1_day">1 day</string>
-  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$s left_</string>
+  <string name="ephemeral_message__timeout__5_min">خمس دقائق</string>
+  <string name="ephemeral_message__timeout__1_day">يوم واحد</string>
+  <string name="message_footer__status__ephemeral_summary">بقي %1$s \u30FB _%2$s </string>
   <plurals name="message_footer__expire__days">
-    <item quantity="zero">%1$d days</item>
-    <item quantity="one">%1$d day</item>
-    <item quantity="two">%1$d days</item>
-    <item quantity="few">%1$d days</item>
-    <item quantity="many">%1$d days</item>
-    <item quantity="other">%1$d days</item>
+    <item quantity="zero">%1$d يوم</item>
+    <item quantity="one">%1$d ايام</item>
+    <item quantity="two">%1$d يوم</item>
+    <item quantity="few">%1$d يوم</item>
+    <item quantity="many">%1$d يوم</item>
+    <item quantity="other">%1$d يوم</item>
   </plurals>
   <plurals name="message_footer__expire__hours">
-    <item quantity="zero">%1$d hours</item>
-    <item quantity="one">%1$d hour</item>
-    <item quantity="two">%1$d hours</item>
-    <item quantity="few">%1$d hours</item>
-    <item quantity="many">%1$d hours</item>
-    <item quantity="other">%1$d hours</item>
+    <item quantity="zero">%1$d ساعات</item>
+    <item quantity="one">%1$d ساعة</item>
+    <item quantity="two">%1$d ساعات</item>
+    <item quantity="few">%1$d ساعات</item>
+    <item quantity="many">%1$d ساعات</item>
+    <item quantity="other">%1$d ساعات</item>
   </plurals>
   <plurals name="message_footer__expire__minutes">
-    <item quantity="zero">%1$d minutes</item>
-    <item quantity="one">%1$d minute</item>
-    <item quantity="two">%1$d minutes</item>
-    <item quantity="few">%1$d minutes</item>
-    <item quantity="many">%1$d minutes</item>
-    <item quantity="other">%1$d minutes</item>
+    <item quantity="zero">%1$d دقيقة</item>
+    <item quantity="one">%1$d دقيقة</item>
+    <item quantity="two">%1$d دقيقة</item>
+    <item quantity="few">%1$d دقيقة</item>
+    <item quantity="many">%1$d دقيقة</item>
+    <item quantity="other">%1$d دقيقة</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
-    <item quantity="zero">%1$d seconds</item>
-    <item quantity="one">%1$d second</item>
-    <item quantity="two">%1$d seconds</item>
-    <item quantity="few">%1$d seconds</item>
-    <item quantity="many">%1$d seconds</item>
+    <item quantity="zero">%1$d ثانية</item>
+    <item quantity="one">%1$d ثانية</item>
+    <item quantity="two">%1$d ثانية</item>
+    <item quantity="few">%1$d ثانية</item>
+    <item quantity="many">%1$d ثانية</item>
     <item quantity="other">%1$d seconds</item>
   </plurals>
 </resources>
