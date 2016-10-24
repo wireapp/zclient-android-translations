@@ -156,8 +156,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">CONVIDAR</string>
   <string name="people_picker__contact_list__invite_dialog__title">Enviar convite</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 PROCURE POR NOME</string>
-  <string name="people_picker__contact_list__generic_invite__label">COMPARTILHE WIRE COM SEUS AMIGOS</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">COMPARTILHAR</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">INVITE MORE PEOPLE</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ABRIR</string>
   <string name="conversation_quick_menu__conversation_button__group_label">CRIAR GRUPO</string>
@@ -906,7 +905,6 @@
   <string name="message_footer__status__delivered">%1$s \u30FB Entregue</string>
   <string name="message_footer__status__failed">Envio falhou. _Reenviar_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Excluída</string>
-  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$ds restantes_</string>
   <string name="ephemeral_message__timeout_selection_info">DEFINIR UM TEMPO PARA MENSAGENS TEMPORÁRIAS</string>
   <string name="ephemeral_message__timeout__off">OFF</string>
   <string name="ephemeral_message__timeout__5_sec">5 segundos</string>
@@ -915,4 +913,21 @@
   <string name="ephemeral_message__timeout__1_min">1 minuto</string>
   <string name="ephemeral_message__timeout__5_min">5 minutes</string>
   <string name="ephemeral_message__timeout__1_day">1 day</string>
+  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$s left_</string>
+  <plurals name="message_footer__expire__days">
+    <item quantity="one">%1$d day</item>
+    <item quantity="other">%1$d days</item>
+  </plurals>
+  <plurals name="message_footer__expire__hours">
+    <item quantity="one">%1$d hour</item>
+    <item quantity="other">%1$d hours</item>
+  </plurals>
+  <plurals name="message_footer__expire__minutes">
+    <item quantity="one">%1$d minute</item>
+    <item quantity="other">%1$d minutes</item>
+  </plurals>
+  <plurals name="message_footer__expire__seconds">
+    <item quantity="one">%1$d second</item>
+    <item quantity="other">%1$d seconds</item>
+  </plurals>
 </resources>

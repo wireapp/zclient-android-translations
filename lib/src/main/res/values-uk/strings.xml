@@ -157,8 +157,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">ЗАПРОСИТИ</string>
   <string name="people_picker__contact_list__invite_dialog__title">Надіслати запрошення</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 ПОШУК ЗА ІМЕНЕМ</string>
-  <string name="people_picker__contact_list__generic_invite__label">ПОДІЛІТЬСЯ WIRE З ВАШИМИ ДРУЗЯМИ</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">ПОДІЛИТИСЬ</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">ЗАПРОСИТИ БІЛЬШЕ ЛЮДЕЙ</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ВІДКРИТИ</string>
   <string name="conversation_quick_menu__conversation_button__group_label">СТВОРИТИ ГРУПУ</string>
@@ -926,13 +925,33 @@
   <string name="message_footer__status__delivered">%1$s \u30FB доставлено</string>
   <string name="message_footer__status__failed">Помилка надсилання. _Повторити_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB видалено</string>
-  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$dс залишилось_</string>
   <string name="ephemeral_message__timeout_selection_info">ВСТАНОВІТЬ ТАЙМЕР ДЛЯ ТИМЧАСОВИХ ПОВІДОМЛЕНЬ</string>
-  <string name="ephemeral_message__timeout__off">OFF</string>
+  <string name="ephemeral_message__timeout__off">Вимкнено</string>
   <string name="ephemeral_message__timeout__5_sec">5 секунд</string>
   <string name="ephemeral_message__timeout__15_sec">15 секунд</string>
   <string name="ephemeral_message__timeout__30_sec">30 секунд</string>
   <string name="ephemeral_message__timeout__1_min">1 хвилина</string>
   <string name="ephemeral_message__timeout__5_min">5 хвилин</string>
-  <string name="ephemeral_message__timeout__1_day">1 day</string>
+  <string name="ephemeral_message__timeout__1_day">1 день</string>
+  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$s залишилось_</string>
+  <plurals name="message_footer__expire__days">
+    <item quantity="one">%1$d день</item>
+    <item quantity="few">%1$d дні</item>
+    <item quantity="other">%1$d днів</item>
+  </plurals>
+  <plurals name="message_footer__expire__hours">
+    <item quantity="one">%1$d година</item>
+    <item quantity="few">%1$d години</item>
+    <item quantity="other">%1$d годин</item>
+  </plurals>
+  <plurals name="message_footer__expire__minutes">
+    <item quantity="one">%1$d хвилина</item>
+    <item quantity="few">%1$d хвилини</item>
+    <item quantity="other">%1$d хвилин</item>
+  </plurals>
+  <plurals name="message_footer__expire__seconds">
+    <item quantity="one">%1$d секунда</item>
+    <item quantity="few">%1$d секунди</item>
+    <item quantity="other">%1$d секунд</item>
+  </plurals>
 </resources>
