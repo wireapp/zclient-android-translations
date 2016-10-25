@@ -156,7 +156,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">CONVIDAR</string>
   <string name="people_picker__contact_list__invite_dialog__title">Enviar convite</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 PROCURE POR NOME</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITE MORE PEOPLE</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">CONVIDAR MAIS PESSOAS</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ABRIR</string>
   <string name="conversation_quick_menu__conversation_button__group_label">CRIAR GRUPO</string>
@@ -257,11 +257,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Atender</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">Cancelar</string>
   <string name="calling__video_call__slow_connection__message">Pode haver alguns problemas durante a chamada</string>
-  <string name="calling__header__joining">joining</string>
+  <string name="calling__header__joining">entrando</string>
   <string name="calling__header__outgoing_subtitle">tocando</string>
   <string name="calling__header__outgoing_video_subtitle">tocando</string>
-  <string name="calling__header__incoming_subtitle">calling</string>
-  <string name="calling__header__incoming_subtitle__video">video calling</string>
+  <string name="calling__header__incoming_subtitle">chamando</string>
+  <string name="calling__header__incoming_subtitle__video">vídeo chamada</string>
   <string name="incoming__controls__incoming__decline">RECUSAR</string>
   <string name="incoming__controls__incoming__accept">ACEITAR</string>
   <string name="incoming__controls__ongoing__hangup">DESLIGAR</string>
@@ -409,7 +409,7 @@
   <string name="pref_account_sign_out_warning_verify">Sair</string>
   <string name="pref_account_sign_out_warning_cancel">Cancelar</string>
   <string name="pref_account_password_title">Redefinir senha</string>
-  <string name="pref_account_edit_name_empty_warning">Name must have 2 or more characters</string>
+  <string name="pref_account_edit_name_empty_warning">O nome deve ter 2 ou mais caracteres</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Tema escuro</string>
@@ -459,7 +459,7 @@
   <string name="pref_devices_device_reset_session_title">Redefinir sessão</string>
   <string name="pref_devices_device_reset_session_summary">Se as impressões digitais não corresponderem, redefina a sessão para gerar novas chaves de criptografia em ambos os lados.</string>
   <string name="pref_devices_device_remove_title">Remover o dispositivo</string>
-  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. Your message history will be erased on this device and you will be logged out.</string>
+  <string name="pref_devices_device_remove_summary">Remova este dispositivo se já o não utiliza. Seu histórico de mensagens será apagado nesse dispositivo e você será desconectado.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Chave Digital</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Chave Digital Copiada</string>
   <!-- Advanced -->
@@ -602,10 +602,10 @@
   <string name="notification__message__group__default_conversation_name">conversa em grupo</string>
   <string name="notification__message__group__liked">\u2764 sua mensagem</string>
   <!-- ephemeral -->
-  <string name="notification__message__ephemeral_details">Press for more</string>
+  <string name="notification__message__ephemeral_details">Pressione para mais</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Alguém te mandou uma mensagem</item>
-    <item quantity="other">Someone sent you %1$d messages</item>
+    <item quantity="other">Alguém te mandou %1$d mensagens</item>
   </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
@@ -908,28 +908,28 @@
   <string name="message_footer__status__failed">Envio falhou. _Reenviar_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Excluída</string>
   <string name="ephemeral_message__timeout_selection_info">DEFINIR UM TEMPO PARA MENSAGENS TEMPORÁRIAS</string>
-  <string name="ephemeral_message__timeout__off">OFF</string>
+  <string name="ephemeral_message__timeout__off">DESLIGADO</string>
   <string name="ephemeral_message__timeout__5_sec">5 segundos</string>
   <string name="ephemeral_message__timeout__15_sec">15 segundos</string>
-  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
+  <string name="ephemeral_message__timeout__30_sec">30 segundos</string>
   <string name="ephemeral_message__timeout__1_min">1 minuto</string>
-  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
-  <string name="ephemeral_message__timeout__1_day">1 day</string>
-  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$s left_</string>
+  <string name="ephemeral_message__timeout__5_min">5 minutos</string>
+  <string name="ephemeral_message__timeout__1_day">1 dia</string>
+  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s restantes_</string>
   <plurals name="message_footer__expire__days">
-    <item quantity="one">%1$d day</item>
-    <item quantity="other">%1$d days</item>
+    <item quantity="one">%1$d dia</item>
+    <item quantity="other">%1$d dias</item>
   </plurals>
   <plurals name="message_footer__expire__hours">
-    <item quantity="one">%1$d hour</item>
-    <item quantity="other">%1$d hours</item>
+    <item quantity="one">%1$d hora</item>
+    <item quantity="other">%1$d horas</item>
   </plurals>
   <plurals name="message_footer__expire__minutes">
-    <item quantity="one">%1$d minute</item>
-    <item quantity="other">%1$d minutes</item>
+    <item quantity="one">%1$d minuto</item>
+    <item quantity="other">%1$d minutos</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
-    <item quantity="one">%1$d second</item>
-    <item quantity="other">%1$d seconds</item>
+    <item quantity="one">%1$d segundo</item>
+    <item quantity="other">%1$d segundos</item>
   </plurals>
 </resources>

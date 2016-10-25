@@ -156,7 +156,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">DAVET ET</string>
   <string name="people_picker__contact_list__invite_dialog__title">Davetiye gönder</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 İSİMLE ARA</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITE MORE PEOPLE</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">DAHA FAZLA KİŞİ DAVET ET</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">AÇ</string>
   <string name="conversation_quick_menu__conversation_button__group_label">GRUP OLUŞTUR</string>
@@ -257,11 +257,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Cevap Ver</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">İptal Et</string>
   <string name="calling__video_call__slow_connection__message">Arama sırasında sorunlarla karşılaşabilirsiniz</string>
-  <string name="calling__header__joining">joining</string>
-  <string name="calling__header__outgoing_subtitle">ringing</string>
-  <string name="calling__header__outgoing_video_subtitle">ringing</string>
-  <string name="calling__header__incoming_subtitle">calling</string>
-  <string name="calling__header__incoming_subtitle__video">video calling</string>
+  <string name="calling__header__joining">katılınıyor</string>
+  <string name="calling__header__outgoing_subtitle">çalıyor</string>
+  <string name="calling__header__outgoing_video_subtitle">çalıyor</string>
+  <string name="calling__header__incoming_subtitle">arıyor</string>
+  <string name="calling__header__incoming_subtitle__video">görüntülü arıyor</string>
   <string name="incoming__controls__incoming__decline">REDDET</string>
   <string name="incoming__controls__incoming__accept">KABUL ET</string>
   <string name="incoming__controls__ongoing__hangup">KAPAT</string>
@@ -409,7 +409,7 @@
   <string name="pref_account_sign_out_warning_verify">Çıkış yap</string>
   <string name="pref_account_sign_out_warning_cancel">İptal</string>
   <string name="pref_account_password_title">Parolayı Sıfırla</string>
-  <string name="pref_account_edit_name_empty_warning">Name must have 2 or more characters</string>
+  <string name="pref_account_edit_name_empty_warning">İsim 2 veya daha fazla karakter içermek zorundadır</string>
   <string name="pref_account_edit_name_empty_verify">TAMAM</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Karanlık tema</string>
@@ -434,7 +434,7 @@
   <string name="pref_options_media_category_title">Medya</string>
   <string name="pref_options_requested_category_title">Yoğun talep üzerine</string>
   <string name="pref_options_cursor_send_button_title">Gönder butonu</string>
-  <string name="pref_options_cursor_send_button_summary">Disable to send via the keyboard.</string>
+  <string name="pref_options_cursor_send_button_summary">Klavye ile göndermeyi devre dışı bırak.</string>
   <string name="pref_options_spotify_title">Spotify ile bağlan</string>
   <string name="pref_options_spotify_logout_title">Spotify ile bağlantıyı kes</string>
   <string name="pref_options_spotify_summary">Spotify Premium hesabınız olması gerekir.</string>
@@ -530,7 +530,7 @@
   <!-- SHARING -->
   <string name="system_status__sharing">BİR KONUŞMA SEÇİN</string>
   <string name="alert_dialog__confirmation">TAMAM</string>
-  <string name="alert_dialog__no_network__header">Internet bağlantısı yok</string>
+  <string name="alert_dialog__no_network__header">İnternet bağlantısı yok</string>
   <string name="sign_up__no_internet__message">Katılmak için çevrimiçi olmanız gerekir. Bağlantınızı kontrol edin ve yeniden deneyin.</string>
   <string name="sign_in__no_internet__message">Oturum açmak için çevrimiçi olmanız gerekir. Bağlantınızı kontrol edin ve yeniden deneyin.</string>
   <string name="sign_up__take_picture__back">Adı Düzenle</string>
@@ -602,10 +602,10 @@
   <string name="notification__message__group__default_conversation_name">grup sohbeti</string>
   <string name="notification__message__group__liked">Mesajınızı \u2764</string>
   <!-- ephemeral -->
-  <string name="notification__message__ephemeral_details">Press for more</string>
+  <string name="notification__message__ephemeral_details">Dahası için tıklayın</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Birisi size mesaj gönderdi</item>
-    <item quantity="other">Someone sent you %1$d messages</item>
+    <item quantity="other">Birisi size %1$d mesaj gönderdi</item>
   </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
@@ -788,7 +788,7 @@
   <string name="otr__participant__tab_devices">Cihazlar</string>
   <string name="otr__device_activated_info">%s konumunda etkinleştirildi</string>
   <string name="otr__participant__single_device__my_fingerprint_link">Cihazımın parmak izini göster</string>
-  <string name="otr__participant__single_device__reset_session_link">Oturumu Sıfırla</string>
+  <string name="otr__participant__single_device__reset_session_link">Oturumu sıfırla</string>
   <string name="otr__participant__my_device__description">Cihazınızın parmak izi</string>
   <string name="otr__participant__my_device__show_all_devices_link">Tüm cihazlarımı göster</string>
   <string name="otr__participant__single_device__description">Bunun %1$s\'ın aygıtında gösterilen parmak iziyle eşleştiğini doğrulayın.</string>
@@ -849,7 +849,7 @@
   <string name="no_conversation_in_list__header">Hiç aktif sohbet yok</string>
   <string name="no_conversation_in_list__message">Bir sohbet başlatmak için kişilere dokunun</string>
   <string name="cursor__type_a_message">BİR MESAJ YAZIN</string>
-  <string name="cursor__ephemeral_message">TIMED MESSAGE</string>
+  <string name="cursor__ephemeral_message">SÜRELİ MESAJ</string>
   <string name="tooltip_record">Video Kaydet</string>
   <string name="tooltip_camera">Fotoğraf Ekle</string>
   <string name="tooltip_sketch">Bir Resim Çiz</string>
@@ -881,7 +881,7 @@
   <string name="audio_message__recording__slide_control__tap_hint">GÖNDERMEK İÇİN DOKUNUN</string>
   <string name="audio_message__recording__tap_to_record">Mesaj kaydetmek için dokunun\nbundan sonra _GLYPH_ yapabilirsiniz</string>
   <string name="audio_message__recording__failure__title">Ses kaydı yapılamıyor</string>
-  <string name="audio_message__recording__failure__message">Lütfen tekrar deneyin.</string>
+  <string name="audio_message__recording__failure__message">Lütfen yeniden deneyin.</string>
   <string name="audio_message__recording__limit_reached__title">Kayıt durduruldu</string>
   <string name="audio_message__recording__limit_reached__message">Sesli mesajlar 25 MB ile sınırlıdır. Bu mesaj gönderilsin mi?</string>
   <string name="audio_message__recording__limit_reached__confirmation">GÖNDER</string>
@@ -907,29 +907,29 @@
   <string name="message_footer__status__delivered">%1$s \u30FB Teslim Edildi</string>
   <string name="message_footer__status__failed">Başarısız gönderme. _Tekrardan Gönder_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Silindi</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TEMPORARY MESSAGES</string>
-  <string name="ephemeral_message__timeout__off">OFF</string>
-  <string name="ephemeral_message__timeout__5_sec">5 seconds</string>
-  <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
-  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
-  <string name="ephemeral_message__timeout__1_min">1 minute</string>
-  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
-  <string name="ephemeral_message__timeout__1_day">1 day</string>
-  <string name="message_footer__status__ephemeral">%1$s \u30FB _%2$s left_</string>
+  <string name="ephemeral_message__timeout_selection_info">SÜRELİ MESAJLAR İÇİN BİR SÜRE AYARLAYIN</string>
+  <string name="ephemeral_message__timeout__off">YOK</string>
+  <string name="ephemeral_message__timeout__5_sec">5 saniye</string>
+  <string name="ephemeral_message__timeout__15_sec">15 saniye</string>
+  <string name="ephemeral_message__timeout__30_sec">30 saniye</string>
+  <string name="ephemeral_message__timeout__1_min">1 dakika</string>
+  <string name="ephemeral_message__timeout__5_min">5 dakika</string>
+  <string name="ephemeral_message__timeout__1_day">1 gün</string>
+  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s left_</string>
   <plurals name="message_footer__expire__days">
-    <item quantity="one">%1$d day</item>
-    <item quantity="other">%1$d days</item>
+    <item quantity="one">%1$d gün</item>
+    <item quantity="other">%1$d gün</item>
   </plurals>
   <plurals name="message_footer__expire__hours">
-    <item quantity="one">%1$d hour</item>
-    <item quantity="other">%1$d hours</item>
+    <item quantity="one">%1$d saat</item>
+    <item quantity="other">%1$d saat</item>
   </plurals>
   <plurals name="message_footer__expire__minutes">
-    <item quantity="one">%1$d minute</item>
-    <item quantity="other">%1$d minutes</item>
+    <item quantity="one">%1$d dakika</item>
+    <item quantity="other">%1$d dakika</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
-    <item quantity="one">%1$d second</item>
-    <item quantity="other">%1$d seconds</item>
+    <item quantity="one">%1$d saniye</item>
+    <item quantity="other">%1$d saniye</item>
   </plurals>
 </resources>
