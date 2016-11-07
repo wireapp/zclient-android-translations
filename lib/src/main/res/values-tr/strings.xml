@@ -146,7 +146,7 @@
   <!-- Invite -->
   <string name="people_picker__invite__share_details_label">Davetiye gönder</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Wire\'ı arkadaşlarınızla paylaşın. Davetiye 2 hafta kullanılabilir.</string>
+  <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
   <string name="people_picker__invite__share_text__header">%1$s Wire üzerinde bağlanmak istiyor</string>
   <string name="people_picker__invite__share_text__body">Wire kullanıyorum, buradan görüşelim: https://get.wire.com</string>
   <string name="people_picker__invite__message">Selam,\nDavetiye için teşekkürler. Hadi bağlanalım.\n%1$s</string>
@@ -459,7 +459,7 @@
   <string name="pref_devices_device_reset_session_title">Oturumu sıfırla</string>
   <string name="pref_devices_device_reset_session_summary">Parmak izleri eşleşmezse, her iki tarafta da yeni şifreleme anahtarları oluşturmak için oturumu sıfırlayın.</string>
   <string name="pref_devices_device_remove_title">Cihazı Kaldır</string>
-  <string name="pref_devices_device_remove_summary">Eğer bu cihazı kullanmayı bıraktıysanız, cihazı kaldırın. Konuşma geçmişinizden cihazdan silinecek ve otomatik olarak çıkış yapılacak.</string>
+  <string name="pref_devices_device_remove_summary">Eğer bu cihazı kullanmayı bıraktıysanız, cihazı kaldırın. Ardından cihazdan otomatik olarak çıkış yapılacaktır.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Parmak izi</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Parmak İzi Anahtarı Kopyalandı</string>
   <!-- Advanced -->
@@ -850,6 +850,10 @@
   <string name="no_conversation_in_list__message">Bir sohbet başlatmak için kişilere dokunun</string>
   <string name="cursor__type_a_message">BİR MESAJ YAZIN</string>
   <string name="cursor__ephemeral_message">SÜRELİ MESAJ</string>
+  <!-- ephemeral duration e.g. "30s" or "1h"-->
+  <string name="cursor__ephemeral_message__timer_seconds">%1$ss</string>
+  <string name="cursor__ephemeral_message__timer_min">%1$sd</string>
+  <string name="cursor__ephemeral_message__timer_days">%1$sg</string>
   <string name="tooltip_record">Video Kaydet</string>
   <string name="tooltip_camera">Fotoğraf Ekle</string>
   <string name="tooltip_sketch">Bir Resim Çiz</string>
@@ -907,7 +911,7 @@
   <string name="message_footer__status__delivered">%1$s \u30FB Teslim Edildi</string>
   <string name="message_footer__status__failed">Başarısız gönderme. _Tekrardan Gönder_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Silindi</string>
-  <string name="ephemeral_message__timeout_selection_info">SÜRELİ MESAJLAR İÇİN BİR SÜRE AYARLAYIN</string>
+  <string name="ephemeral_message__timeout_selection_info">MESAJIN KAYBOLMASI İÇİN BİR SÜRE SEÇİN</string>
   <string name="ephemeral_message__timeout__off">YOK</string>
   <string name="ephemeral_message__timeout__5_sec">5 saniye</string>
   <string name="ephemeral_message__timeout__15_sec">15 saniye</string>
@@ -915,7 +919,7 @@
   <string name="ephemeral_message__timeout__1_min">1 dakika</string>
   <string name="ephemeral_message__timeout__5_min">5 dakika</string>
   <string name="ephemeral_message__timeout__1_day">1 gün</string>
-  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s left_</string>
+  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s kaldı_</string>
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d gün</item>
     <item quantity="other">%1$d gün</item>

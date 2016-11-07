@@ -146,7 +146,7 @@
   <!-- Invite -->
   <string name="people_picker__invite__share_details_label">আমন্ত্রণ পাঠান</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">আপনার বন্ধুদের সাথে ওয়্যার শেয়ার করুন। এই আমন্ত্রনটি ২ সপ্তাহের জন্য ব্যবহার করা যেতে পারে।</string>
+  <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
   <string name="people_picker__invite__share_text__header">%1$s ওয়্যার সাথে যুক্ত হতে চায় </string>
   <string name="people_picker__invite__share_text__body">আমি ওয়্যার এ আছি।কথা হবে https://get.wire.com</string>
   <string name="people_picker__invite__message">হাই, \n  আমন্ত্রণ জন্য ধন্যবাদ। চলুন সংযুক্ত হই  \n%1$s</string>
@@ -460,7 +460,7 @@
   <string name="pref_devices_device_reset_session_title">অধিবেশনটি পুনরায় সচল করুন</string>
   <string name="pref_devices_device_reset_session_summary">ফিঙ্গারপ্রিন্ট ম্যাচ না করলে সেশন রিসেট করুন এবং দুই প্রান্তেই নতুন এনক্রিপশন কী জেনারেট করুন।</string>
   <string name="pref_devices_device_remove_title">ডিভাইসটি অপসারণ করুন</string>
-  <string name="pref_devices_device_remove_summary">আপনি যদি এই ডিভাইস ব্যবহার করা বন্ধ করে থাকেন তাহলে তা রিমুভ করে ফেলুন। মেসেজের হিস্টোরি মুছে যাবে এবং আপনি লগ আউট হয়ে যাবেন।</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. You will be logged out of this device immediately.</string>
   <string name="pref_devices_device_fingerprint_copy_description">ফিঙ্গারপ্রিন্ট</string>
   <string name="pref_devices_device_fingerprint_copy_toast">অনুলিপি ফিঙ্গারপ্রিন্ট দিন</string>
   <!-- Advanced -->
@@ -851,6 +851,10 @@
   <string name="no_conversation_in_list__message">কথোপকথন শুরু করতে যোগাযোগে এ চাপুন</string>
   <string name="cursor__type_a_message">বার্তা লিখুন</string>
   <string name="cursor__ephemeral_message">সময়যুক্ত বার্তা</string>
+  <!-- ephemeral duration e.g. "30s" or "1h"-->
+  <string name="cursor__ephemeral_message__timer_seconds">%1$ss</string>
+  <string name="cursor__ephemeral_message__timer_min">%1$sm</string>
+  <string name="cursor__ephemeral_message__timer_days">%1$sd</string>
   <string name="tooltip_record">ভিডিও রেকর্ড করুন</string>
   <string name="tooltip_camera">ছবি যোগ করুন</string>
   <string name="tooltip_sketch">একটি ছবি আঁকুন</string>
@@ -908,7 +912,7 @@
   <string name="message_footer__status__delivered">%1$s \u30FB পাঠানো হয়েছে</string>
   <string name="message_footer__status__failed">প্রেরণ বিফল হয়েছে। _আবার পাঠান_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB মুছে ফেলা হয়েছে</string>
-  <string name="ephemeral_message__timeout_selection_info">অস্থায়ী বার্তাসমূহের জন্য টাইমার সেট করুন</string>
+  <string name="ephemeral_message__timeout_selection_info">SET A TIME FOR THE MESSAGE TO DISAPPEAR</string>
   <string name="ephemeral_message__timeout__off">বন্ধ</string>
   <string name="ephemeral_message__timeout__5_sec">৫ সেকেন্ড</string>
   <string name="ephemeral_message__timeout__15_sec">১৫ সেকেন্ডের</string>

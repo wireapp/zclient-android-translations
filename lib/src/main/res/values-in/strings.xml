@@ -145,7 +145,7 @@
   <!-- Invite -->
   <string name="people_picker__invite__share_details_label">Kirim undangan</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Bagikan Wire dengan teman Anda. Undangan dapat digunakan selama 2 minggu.</string>
+  <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
   <string name="people_picker__invite__share_text__header">%1$s ingin terhubung pada Wire</string>
   <string name="people_picker__invite__share_text__body">Saya ada di Wire, bicara kepada Anda di sana https://get.wire.com</string>
   <string name="people_picker__invite__message">Hai, \nTerima kasih undangannya. Mari kita terhubung. \n%1$s</string>
@@ -155,7 +155,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">UNDANG</string>
   <string name="people_picker__contact_list__invite_dialog__title">Kirim undangan</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 Cari dengan nama</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITE MORE PEOPLE</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">UNDANG LEBIH BANYAK ORANG</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">BUKA</string>
   <string name="conversation_quick_menu__conversation_button__group_label">BUAT GRUP</string>
@@ -386,7 +386,7 @@
   <string name="pref_account_details_category_title">Info</string>
   <string name="pref_account_actions_category_title">Tindakan</string>
   <string name="pref_account_appearance_category_title">Tampilan</string>
-  <string name="pref_account_details_category_summary">People can find you with these details.</string>
+  <string name="pref_account_details_category_summary">Orang-orang dapat menemukan Anda dengan detil ini.</string>
   <string name="pref_account_phone_title">Telepon</string>
   <string name="pref_account_add_phone_title">Tambah nomor telepon</string>
   <string name="pref_account_email_title">Email</string>
@@ -404,7 +404,7 @@
   <string name="pref_account_sign_out_warning_verify">Keluar</string>
   <string name="pref_account_sign_out_warning_cancel">Batal</string>
   <string name="pref_account_password_title">Buat ulang sandi</string>
-  <string name="pref_account_edit_name_empty_warning">Name must have 2 or more characters</string>
+  <string name="pref_account_edit_name_empty_warning">Nama harus memiliki 2 atau lebih dari dua karakter</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Tema gelap</string>
@@ -427,9 +427,9 @@
   <string name="pref_options_image_download_always">Selalu</string>
   <string name="pref_options_image_download_wifi">Hanya Wi-Fi</string>
   <string name="pref_options_media_category_title">Media</string>
-  <string name="pref_options_requested_category_title">By popular demand</string>
+  <string name="pref_options_requested_category_title">Dengan permintaan populer</string>
   <string name="pref_options_cursor_send_button_title">Tombol kirim</string>
-  <string name="pref_options_cursor_send_button_summary">Disable to send via the keyboard.</string>
+  <string name="pref_options_cursor_send_button_summary">Tidak dapat mengirim melalui papan teks.</string>
   <string name="pref_options_spotify_title">Terhubung dengan Spotify</string>
   <string name="pref_options_spotify_logout_title">Putus hubungan dengan Spotify</string>
   <string name="pref_options_spotify_summary">Anda membutuhkan akun Premium Spotify.</string>
@@ -454,7 +454,7 @@
   <string name="pref_devices_device_reset_session_title">Ulangi sesi</string>
   <string name="pref_devices_device_reset_session_summary">Jika sidik jari tidak cocok, ulangi sesi untuk membuat enkripsi batu di kedua sisi.</string>
   <string name="pref_devices_device_remove_title">Hapus perangkat</string>
-  <string name="pref_devices_device_remove_summary">Hapus perangkat ini jika Anda berhenti menggunakannya. Riwayat percakapan Anda akan dihapus dan Anda akan keluar.</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. You will be logged out of this device immediately.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Sidik jari</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Kunci Sidik Jari Tersalin</string>
   <!-- Advanced -->
@@ -592,9 +592,9 @@
   <string name="notification__message__group__default_conversation_name">percakapan grup</string>
   <string name="notification__message__group__liked">\u2764 pesan Anda</string>
   <!-- ephemeral -->
-  <string name="notification__message__ephemeral_details">Press for more</string>
+  <string name="notification__message__ephemeral_details">Tekan untuk lebih lanjut</string>
   <plurals name="notification__message__ephemeral">
-    <item quantity="other">Someone sent you %1$d messages</item>
+    <item quantity="other">Seseorang mengirimi Anda %1$d pesan</item>
   </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
@@ -831,6 +831,10 @@
   <string name="no_conversation_in_list__message">Ketuk kontak untuk memulai percakapan</string>
   <string name="cursor__type_a_message">KETIK PESAN</string>
   <string name="cursor__ephemeral_message">TIMED MESSAGE</string>
+  <!-- ephemeral duration e.g. "30s" or "1h"-->
+  <string name="cursor__ephemeral_message__timer_seconds">%1$ss</string>
+  <string name="cursor__ephemeral_message__timer_min">%1$sm</string>
+  <string name="cursor__ephemeral_message__timer_days">%1$sd</string>
   <string name="tooltip_record">Rekam video</string>
   <string name="tooltip_camera">Tambah foto</string>
   <string name="tooltip_sketch">Corat-coret Gambar</string>
@@ -887,7 +891,7 @@
   <string name="message_footer__status__delivered">%1$s /u30FB Diterima</string>
   <string name="message_footer__status__failed">Gagal mengirim. _Kirim Ulang_</string>
   <string name="message_footer__status__deleted">%1$s /u30FB Terhapus</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TEMPORARY MESSAGES</string>
+  <string name="ephemeral_message__timeout_selection_info">SET A TIME FOR THE MESSAGE TO DISAPPEAR</string>
   <string name="ephemeral_message__timeout__off">Mati</string>
   <string name="ephemeral_message__timeout__5_sec">5 detik</string>
   <string name="ephemeral_message__timeout__15_sec">15 detik</string>
@@ -895,7 +899,7 @@
   <string name="ephemeral_message__timeout__1_min">1 menit</string>
   <string name="ephemeral_message__timeout__5_min">5 menit</string>
   <string name="ephemeral_message__timeout__1_day">1 hari</string>
-  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s left_</string>
+  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s keluar_</string>
   <plurals name="message_footer__expire__days">
     <item quantity="other">%1$d hari</item>
   </plurals>

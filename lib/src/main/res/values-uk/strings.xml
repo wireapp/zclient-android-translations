@@ -147,7 +147,7 @@
   <!-- Invite -->
   <string name="people_picker__invite__share_details_label">Надіслати запрошення</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Поділіться Wire з друзями. Запрошення можуть бути використані протягом 2 тижнів.</string>
+  <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
   <string name="people_picker__invite__share_text__header">%1$s бажає додати вас до своїх контактів в Wire</string>
   <string name="people_picker__invite__share_text__body">Я вже в Wire. Поспілкуємося тут https://get.wire.com</string>
   <string name="people_picker__invite__message">Привіт,\nДякую за запрошення. Давай спілкуватися.\n%1$s</string>
@@ -414,7 +414,7 @@
   <string name="pref_account_sign_out_warning_verify">Вийти</string>
   <string name="pref_account_sign_out_warning_cancel">Скасувати</string>
   <string name="pref_account_password_title">Змінити пароль</string>
-  <string name="pref_account_edit_name_empty_warning">Name must have 2 or more characters</string>
+  <string name="pref_account_edit_name_empty_warning">Ім\'я має містити мінімум 2 символи</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Темна тема</string>
@@ -464,7 +464,7 @@
   <string name="pref_devices_device_reset_session_title">Скидання сесії</string>
   <string name="pref_devices_device_reset_session_summary">Якщо ідентифікатори не збігаються, виконайте скидання сесії, щоб згенерувати нові ключі шифрування з обидвох сторін.</string>
   <string name="pref_devices_device_remove_title">Видалити пристрій</string>
-  <string name="pref_devices_device_remove_summary">Видаліть цей пристрій, якщо ви більше не використовуєте його. Вашу історію повідомлень буде стерто на цьому пристрої, і ви повернетесь до діалогу вводу імені та паролю.</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. You will be logged out of this device immediately.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Ідентифікатор</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Ідентифікатор скопійовано</string>
   <!-- Advanced -->
@@ -869,6 +869,10 @@
   <string name="no_conversation_in_list__message">Натисніть \'КОНТАКТИ\', щоб почати розмову</string>
   <string name="cursor__type_a_message">НАПИШІТЬ ЩОСЬ</string>
   <string name="cursor__ephemeral_message">ТИМЧАСОВЕ ПОВІДОМЛЕННЯ</string>
+  <!-- ephemeral duration e.g. "30s" or "1h"-->
+  <string name="cursor__ephemeral_message__timer_seconds">%1$sс</string>
+  <string name="cursor__ephemeral_message__timer_min">%1$sхв</string>
+  <string name="cursor__ephemeral_message__timer_days">%1$sд.</string>
   <string name="tooltip_record">Записати відео</string>
   <string name="tooltip_camera">Додати фото</string>
   <string name="tooltip_sketch">Намалювати картинку</string>
@@ -927,7 +931,7 @@
   <string name="message_footer__status__delivered">%1$s \u30FB доставлено</string>
   <string name="message_footer__status__failed">Помилка надсилання. _Повторити_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB видалено</string>
-  <string name="ephemeral_message__timeout_selection_info">ВСТАНОВІТЬ ТАЙМЕР ДЛЯ ТИМЧАСОВИХ ПОВІДОМЛЕНЬ</string>
+  <string name="ephemeral_message__timeout_selection_info">ВСТАНОВІТЬ ПЕРІОД, ПІСЛЯ ЯКОГО ПОВІДОМЛЕННЯ ЗНИКНЕ</string>
   <string name="ephemeral_message__timeout__off">Вимкнено</string>
   <string name="ephemeral_message__timeout__5_sec">5 секунд</string>
   <string name="ephemeral_message__timeout__15_sec">15 секунд</string>

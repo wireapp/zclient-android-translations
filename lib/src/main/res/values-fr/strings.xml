@@ -146,7 +146,7 @@
   <!-- Invite -->
   <string name="people_picker__invite__share_details_label">Envoyer une invitation</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Partagez Wire avec vos amis. Les invitations sont valides pendant 2 semaines.</string>
+  <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
   <string name="people_picker__invite__share_text__header">%1$s veut se connecter sur Wire</string>
   <string name="people_picker__invite__share_text__body">Je suis sur Wire, rejoins moi https://get.wire.com là</string>
   <string name="people_picker__invite__message">Bonjour,\nMerci pour l\'invitation. Connectons nous.\n%1$s</string>
@@ -156,7 +156,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">INVITEZ</string>
   <string name="people_picker__contact_list__invite_dialog__title">Envoyez une invitation</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 CHERCHEZ PAR NOM</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITE MORE PEOPLE</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">INVITER PLUS DE PERSONNES</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">OUVRIR</string>
   <string name="conversation_quick_menu__conversation_button__group_label">CRÉEZ UN GROUPE</string>
@@ -409,7 +409,7 @@
   <string name="pref_account_sign_out_warning_verify">Se déconnecter</string>
   <string name="pref_account_sign_out_warning_cancel">Annuler</string>
   <string name="pref_account_password_title">Changer de mot de passe</string>
-  <string name="pref_account_edit_name_empty_warning">Name must have 2 or more characters</string>
+  <string name="pref_account_edit_name_empty_warning">Le nom doit avoir au moins 2 caractères</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Thème sombre</string>
@@ -459,7 +459,7 @@
   <string name="pref_devices_device_reset_session_title">Réinitialiser la session</string>
   <string name="pref_devices_device_reset_session_summary">Si les empreintes digitales ne correspondent pas, réinitialisez la session afin de générer de nouvelles clés de chiffrement des deux côtés.</string>
   <string name="pref_devices_device_remove_title">Enlever l\'appareil</string>
-  <string name="pref_devices_device_remove_summary">Supprimez cet appareil si vous avez arrêté de l\'utiliser. L\'historique de vos messages sera effacé de l\'appareil et vous serez déconnecté.</string>
+  <string name="pref_devices_device_remove_summary">Supprimez ce périphérique si vous avez cessé de l’utiliser. Vous serez déconnecté de cet appareil immédiatement.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Emprunte digitale</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Emprunte digitale copiée</string>
   <!-- Advanced -->
@@ -602,10 +602,10 @@
   <string name="notification__message__group__default_conversation_name">conversation de groupe</string>
   <string name="notification__message__group__liked">\u2764 votre message</string>
   <!-- ephemeral -->
-  <string name="notification__message__ephemeral_details">Press for more</string>
+  <string name="notification__message__ephemeral_details">Appuyer pour en savoir plus</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Quelqu\'un vous a envoyé un message</item>
-    <item quantity="other">Someone sent you %1$d messages</item>
+    <item quantity="other">Quelqu\'un vous a envoyé %1$d messages</item>
   </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
@@ -849,7 +849,11 @@
   <string name="no_conversation_in_list__header">Aucune conversation active</string>
   <string name="no_conversation_in_list__message">Appuyer sur contacts pour démarrer une nouvelle conversation</string>
   <string name="cursor__type_a_message">TAPEZ UN MESSAGE</string>
-  <string name="cursor__ephemeral_message">TIMED MESSAGE</string>
+  <string name="cursor__ephemeral_message">MESSAGES TEMPORAIRES</string>
+  <!-- ephemeral duration e.g. "30s" or "1h"-->
+  <string name="cursor__ephemeral_message__timer_seconds">%1$ss</string>
+  <string name="cursor__ephemeral_message__timer_min">%1$sm</string>
+  <string name="cursor__ephemeral_message__timer_days">%1$sj</string>
   <string name="tooltip_record">Enregistrer une vidéo</string>
   <string name="tooltip_camera">Ajouter une Photo</string>
   <string name="tooltip_sketch">Dessiner Une Image</string>
@@ -907,7 +911,7 @@
   <string name="message_footer__status__delivered">%1$s \u30FB reçu</string>
   <string name="message_footer__status__failed">L’envoi a échoué. _Resend_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Supprimé</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TEMPORARY MESSAGES</string>
+  <string name="ephemeral_message__timeout_selection_info">DÉFINIR UN TEMPS AVANT LA DISPARITION DU MESSAGE</string>
   <string name="ephemeral_message__timeout__off">Arrêté</string>
   <string name="ephemeral_message__timeout__5_sec">5 secondes</string>
   <string name="ephemeral_message__timeout__15_sec">15 secondes</string>
@@ -915,7 +919,7 @@
   <string name="ephemeral_message__timeout__1_min">1 minute</string>
   <string name="ephemeral_message__timeout__5_min">5 Minutes</string>
   <string name="ephemeral_message__timeout__1_day">un jour</string>
-  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s left_</string>
+  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s restant_</string>
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d jour</item>
     <item quantity="other">%1$d jours</item>

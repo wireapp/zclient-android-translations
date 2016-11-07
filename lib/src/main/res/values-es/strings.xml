@@ -146,7 +146,7 @@
   <!-- Invite -->
   <string name="people_picker__invite__share_details_label">Enviar una invitación</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Comparte Wire con tus amigos. La invitación puede utilizarse durante 2 semanas.</string>
+  <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
   <string name="people_picker__invite__share_text__header">%1$s quiere conectarse a Wire</string>
   <string name="people_picker__invite__share_text__body">Estoy en Wire, te hablo allí https://get.wire.com</string>
   <string name="people_picker__invite__message">Hola, \nGracias por la invitación. Vamos a conectar. \n%1$s</string>
@@ -156,7 +156,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">INVITAR</string>
   <string name="people_picker__contact_list__invite_dialog__title">Enviar invitación</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 BUSCAR POR NOMBRE</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITE MORE PEOPLE</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">INVITAR MÁS PERSONAS</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ABRIR</string>
   <string name="conversation_quick_menu__conversation_button__group_label">CREAR GRUPO</string>
@@ -173,7 +173,7 @@
   <string name="content__system__other_removed_you">[[%1$s]] eliminado tu</string>
   <string name="content__system__you_removed_other">[[Usted]] eliminado %2$s</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] RENOMBRADA LA CONVERSACIÓN</string>
-  <string name="content__system__you_renamed_conv">[[USTED]] CONVERSACIÓN RENOMBRADA</string>
+  <string name="content__system__you_renamed_conv">[[TÚ]] CAMBIASTE EL NOMBRE DE LA CONVERSACIÓN</string>
   <string name="content__system__message_deleted">Este mensaje ha sido eliminado</string>
   <string name="content_system_message_timestamp_failure">Mensaje no enviado.</string>
   <string name="content_system_message_timestamp_pending">Enviando\u2026</string>
@@ -257,11 +257,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">Contestar</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">Cancelar</string>
   <string name="calling__video_call__slow_connection__message">Es posible que experimente problemas durante la llamada</string>
-  <string name="calling__header__joining">joining</string>
-  <string name="calling__header__outgoing_subtitle">ringing</string>
-  <string name="calling__header__outgoing_video_subtitle">ringing</string>
-  <string name="calling__header__incoming_subtitle">calling</string>
-  <string name="calling__header__incoming_subtitle__video">video calling</string>
+  <string name="calling__header__joining">Uniendose</string>
+  <string name="calling__header__outgoing_subtitle">Llamando</string>
+  <string name="calling__header__outgoing_video_subtitle">Llamando</string>
+  <string name="calling__header__incoming_subtitle">Llamando</string>
+  <string name="calling__header__incoming_subtitle__video">Video llamada</string>
   <string name="incoming__controls__incoming__decline">RECHAZAR</string>
   <string name="incoming__controls__incoming__accept">ACEPTAR</string>
   <string name="incoming__controls__ongoing__hangup">COLGAR</string>
@@ -409,7 +409,7 @@
   <string name="pref_account_sign_out_warning_verify">Cerrar sesión</string>
   <string name="pref_account_sign_out_warning_cancel">Cancelar</string>
   <string name="pref_account_password_title">Restablecer Contraseña</string>
-  <string name="pref_account_edit_name_empty_warning">Name must have 2 or more characters</string>
+  <string name="pref_account_edit_name_empty_warning">El nombre debe tener al menos 2 caracteres</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Tema oscuro</string>
@@ -459,7 +459,7 @@
   <string name="pref_devices_device_reset_session_title">Restablecer sesión</string>
   <string name="pref_devices_device_reset_session_summary">Si no coinciden las huellas digitales, reiniciar la sesión para generar nuevas claves de cifrado en ambos lados.</string>
   <string name="pref_devices_device_remove_title">Quitar dispositivo</string>
-  <string name="pref_devices_device_remove_summary">Eliminar este dispositivo si ha dejado de usarlo. Se borrará el historial de mensajes y será desconectado.</string>
+  <string name="pref_devices_device_remove_summary">Elimina este dispositivo si has dejado de usarlo. Se cerrará la sesión inmediatamente en este dispositivo.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Huella digital</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Huella digital copiada</string>
   <!-- Advanced -->
@@ -602,10 +602,10 @@
   <string name="notification__message__group__default_conversation_name">conversación de grupo</string>
   <string name="notification__message__group__liked">\u2764 su mensaje</string>
   <!-- ephemeral -->
-  <string name="notification__message__ephemeral_details">Press for more</string>
+  <string name="notification__message__ephemeral_details">Pulsar para más</string>
   <plurals name="notification__message__ephemeral">
-    <item quantity="one">Someone sent you a message</item>
-    <item quantity="other">Someone sent you %1$d messages</item>
+    <item quantity="one">Alguien te envió un mensaje</item>
+    <item quantity="other">Alguien te envió %1$d mensajes</item>
   </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
@@ -849,7 +849,11 @@
   <string name="no_conversation_in_list__header">No hay conversaciones activas</string>
   <string name="no_conversation_in_list__message">Toque sobre contactos para iniciar una conversación</string>
   <string name="cursor__type_a_message">ESCRIBIR UN MENSAJE</string>
-  <string name="cursor__ephemeral_message">TIMED MESSAGE</string>
+  <string name="cursor__ephemeral_message">MENSAJE TEMPORIZADO</string>
+  <!-- ephemeral duration e.g. "30s" or "1h"-->
+  <string name="cursor__ephemeral_message__timer_seconds">%1$ss</string>
+  <string name="cursor__ephemeral_message__timer_min">%1$sm</string>
+  <string name="cursor__ephemeral_message__timer_days">%1$sd</string>
   <string name="tooltip_record">Grabar Video</string>
   <string name="tooltip_camera">Agregar Foto</string>
   <string name="tooltip_sketch">Dibujar</string>
@@ -907,29 +911,29 @@
   <string name="message_footer__status__delivered">%1$s \u30FB entregado</string>
   <string name="message_footer__status__failed">Envío fallido. _Reenviar_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB eliminado</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TEMPORARY MESSAGES</string>
-  <string name="ephemeral_message__timeout__off">OFF</string>
-  <string name="ephemeral_message__timeout__5_sec">5 seconds</string>
+  <string name="ephemeral_message__timeout_selection_info">SET A TIME FOR THE MESSAGE TO DISAPPEAR</string>
+  <string name="ephemeral_message__timeout__off">DESACTIVADO</string>
+  <string name="ephemeral_message__timeout__5_sec">5 segundos</string>
   <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
-  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
-  <string name="ephemeral_message__timeout__1_min">1 minute</string>
-  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
-  <string name="ephemeral_message__timeout__1_day">1 day</string>
-  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s left_</string>
+  <string name="ephemeral_message__timeout__30_sec">30 segundos</string>
+  <string name="ephemeral_message__timeout__1_min">Un minuto</string>
+  <string name="ephemeral_message__timeout__5_min">5 minutos</string>
+  <string name="ephemeral_message__timeout__1_day">1 día</string>
+  <string name="message_footer__status__ephemeral_summary">_queda_ %1$s \u30FB _%2$s_</string>
   <plurals name="message_footer__expire__days">
-    <item quantity="one">%1$d day</item>
-    <item quantity="other">%1$d days</item>
+    <item quantity="one">%1$d día</item>
+    <item quantity="other">%1$d días</item>
   </plurals>
   <plurals name="message_footer__expire__hours">
-    <item quantity="one">%1$d hour</item>
-    <item quantity="other">%1$d hours</item>
+    <item quantity="one">%1$d hora</item>
+    <item quantity="other">%1$d horas</item>
   </plurals>
   <plurals name="message_footer__expire__minutes">
-    <item quantity="one">%1$d minute</item>
-    <item quantity="other">%1$d minutes</item>
+    <item quantity="one">%1$d minuto</item>
+    <item quantity="other">%1$d minutos</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
-    <item quantity="one">%1$d second</item>
-    <item quantity="other">%1$d seconds</item>
+    <item quantity="one">%1$d segundo</item>
+    <item quantity="other">%1$d segundos</item>
   </plurals>
 </resources>

@@ -146,7 +146,7 @@
   <!-- Invite -->
   <string name="people_picker__invite__share_details_label">發送邀請</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">邀請您的朋友加入Wire。邀請鏈結有效期限為2週。</string>
+  <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
   <string name="people_picker__invite__share_text__header">%1$s 想和您在Wire上聯繫</string>
   <string name="people_picker__invite__share_text__body">我使用了Wire，一起加入我吧 https://get.wire.com</string>
   <string name="people_picker__invite__message">嗨，\n謝謝您的邀請。讓我們成為連絡人吧。 \n%1$s</string>
@@ -156,7 +156,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">邀請</string>
   <string name="people_picker__contact_list__invite_dialog__title">發送邀請</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020透過名稱來搜尋</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITE MORE PEOPLE</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">邀請更多人</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">開啟</string>
   <string name="conversation_quick_menu__conversation_button__group_label">建立群組</string>
@@ -257,11 +257,11 @@
   <string name="calling__cannot_start__ongoing_voice__button_positive">接聽</string>
   <string name="calling__cannot_start__ongoing_voice__button_negative">取消</string>
   <string name="calling__video_call__slow_connection__message">您可能會在通話期間遇到問題</string>
-  <string name="calling__header__joining">joining</string>
-  <string name="calling__header__outgoing_subtitle">ringing</string>
-  <string name="calling__header__outgoing_video_subtitle">ringing</string>
-  <string name="calling__header__incoming_subtitle">calling</string>
-  <string name="calling__header__incoming_subtitle__video">video calling</string>
+  <string name="calling__header__joining">正加入通話</string>
+  <string name="calling__header__outgoing_subtitle">撥號中</string>
+  <string name="calling__header__outgoing_video_subtitle">撥號中</string>
+  <string name="calling__header__incoming_subtitle">來電</string>
+  <string name="calling__header__incoming_subtitle__video">視訊來電</string>
   <string name="incoming__controls__incoming__decline">不接聽</string>
   <string name="incoming__controls__incoming__accept">接聽</string>
   <string name="incoming__controls__ongoing__hangup">結束通話</string>
@@ -387,7 +387,7 @@
   <string name="pref_account_details_category_title">資訊</string>
   <string name="pref_account_actions_category_title">操作</string>
   <string name="pref_account_appearance_category_title">外觀</string>
-  <string name="pref_account_details_category_summary">People can find you with these details.</string>
+  <string name="pref_account_details_category_summary">其他使用者能透過這些資料搜尋到您。</string>
   <string name="pref_account_phone_title">手機</string>
   <string name="pref_account_add_phone_title">新增手機號碼</string>
   <string name="pref_account_email_title">電子郵件</string>
@@ -405,7 +405,7 @@
   <string name="pref_account_sign_out_warning_verify">登出</string>
   <string name="pref_account_sign_out_warning_cancel">取消</string>
   <string name="pref_account_password_title">重設密碼</string>
-  <string name="pref_account_edit_name_empty_warning">Name must have 2 or more characters</string>
+  <string name="pref_account_edit_name_empty_warning">名稱需至少兩個字元</string>
   <string name="pref_account_edit_name_empty_verify">確認</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">黑色系主題</string>
@@ -428,9 +428,9 @@
   <string name="pref_options_image_download_always">總是</string>
   <string name="pref_options_image_download_wifi">無線網路連線時</string>
   <string name="pref_options_media_category_title">媒體</string>
-  <string name="pref_options_requested_category_title">By popular demand</string>
-  <string name="pref_options_cursor_send_button_title">Send button</string>
-  <string name="pref_options_cursor_send_button_summary">Disable to send via the keyboard.</string>
+  <string name="pref_options_requested_category_title">推薦選項</string>
+  <string name="pref_options_cursor_send_button_title">發送按鍵</string>
+  <string name="pref_options_cursor_send_button_summary">關閉發送按鍵</string>
   <string name="pref_options_spotify_title">連結到Spotify</string>
   <string name="pref_options_spotify_logout_title">取消連結到Spotify</string>
   <string name="pref_options_spotify_summary">您需要Spotify Premium帳戶。</string>
@@ -439,33 +439,33 @@
   <string name="pref_devices_screen_title">設備</string>
   <string name="pref_current_device_category_title">目前的設備</string>
   <string name="pref_other_devices_category_title">已啟用的設備</string>
-  <string name="pref_devices_summary">Tap to delete</string>
+  <string name="pref_devices_summary">點一下來刪除</string>
   <string name="pref_devices_current_device_category_title">目前的設備</string>
   <string name="pref_devices_other_devices_category_title">其他設備</string>
-  <string name="pref_devices_device_activation_summary">Activated on [[%1$s]]\nin [[%2$s]]</string>
+  <string name="pref_devices_device_activation_summary">於 [[%1$s]]\n，[[%2$s]]，被啟用</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">已驗證</string>
   <string name="pref_devices_device_not_verified">未驗證</string>
-  <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your password.</string>
+  <string name="pref_devices_warning_summary">如果您不認識該設備，請到設定> 帳戶，刪除它並且重設您的密碼。</string>
   <string name="pref_devices_device_screen_title">設備詳細資訊</string>
   <string name="pref_devices_device_fingerprint_category_title">指紋識別</string>
-  <string name="pref_devices_device_fingerprint_summary">Wire gives every device a unique fingerprint. Compare them and verify your devices and conversations.</string>
+  <string name="pref_devices_device_fingerprint_summary">Wire為每個設備設置了一個獨特的指紋。您可以透過指紋比對來驗證您的設備和聊天室。</string>
   <string name="pref_devices_device_actions_category_title">操作</string>
   <string name="pref_devices_device_trust_title">已驗證</string>
   <string name="pref_devices_device_reset_session_title">重設session</string>
-  <string name="pref_devices_device_reset_session_summary">If fingerprints don\'t match, reset the session to generate new encryption keys on both sides.</string>
+  <string name="pref_devices_device_reset_session_summary">如果設備指紋比對結果不吻合，請重設session以產生兩方新的加密金鎖。</string>
   <string name="pref_devices_device_remove_title">移除設備</string>
-  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. Your message history will be erased on this device and you will be logged out.</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. You will be logged out of this device immediately.</string>
   <string name="pref_devices_device_fingerprint_copy_description">指紋識別</string>
   <string name="pref_devices_device_fingerprint_copy_toast">已複製指紋識別</string>
   <!-- Advanced -->
   <string name="pref_advanced_screen_title">進階</string>
-  <string name="pref_advanced_debug_report_title">Submit debug report</string>
+  <string name="pref_advanced_debug_report_title">提交錯誤報告</string>
   <string name="pref_advanced_debug_report_summary">這將協助Wire診斷問題。</string>
   <string name="pref_advanced_analytics_title">使用資料和崩潰報告</string>
   <string name="pref_advanced_analytics_summary">通過發送匿名資訊讓Wire變得更好。</string>
-  <string name="debug_report__title">Wire debug report - %1$s</string>
-  <string name="debug_report__body">Please describe the steps required to reproduce the issue, provide screenshots if possible and send this email.\n\n</string>
+  <string name="debug_report__title">Wire 錯誤報告 - %1$s</string>
+  <string name="debug_report__body">請告訴我們重現錯誤的步驟，如有螢幕截圖請一起發送至此郵件。\n\n</string>
   <!-- Support -->
   <string name="pref_support_screen_title">支援</string>
   <string name="pref_support_website_title">Wire支援網站</string>
@@ -575,7 +575,7 @@
   <string name="notification__message__one_to_one__shared_video">分享了影片</string>
   <string name="notification__message__one_to_one__shared_audio">分享了語音訊息</string>
   <string name="notification__message__one_to_one__shared_location">分享了位置</string>
-  <string name="notification__message__one_to_one__liked">\u2764 your message</string>
+  <string name="notification__message__one_to_one__liked">\u2764 您的訊息</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s\u0020</string>
   <string name="notification__message__group__prefix__other">%1$s於%2$s\u0020</string>
@@ -591,11 +591,11 @@
   <string name="notification__message__multiple__accept_request">接受了您的連絡人邀請</string>
   <string name="notification__message__single__accept_request">接受了您的連絡人邀請</string>
   <string name="notification__message__group__default_conversation_name">群組聊天室</string>
-  <string name="notification__message__group__liked">\u2764 your message</string>
+  <string name="notification__message__group__liked">\u2764 您的訊息</string>
   <!-- ephemeral -->
-  <string name="notification__message__ephemeral_details">Press for more</string>
+  <string name="notification__message__ephemeral_details">點擊查看更多</string>
   <plurals name="notification__message__ephemeral">
-    <item quantity="other">Someone sent you %1$d messages</item>
+    <item quantity="other">您有 %1$d 則新訊息</item>
   </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
@@ -720,7 +720,7 @@
   <string name="sign_in">登入</string>
   <string name="new_reg__password_length">至少需要%1$s字元</string>
   <!-- Giphy -->
-  <string name="giphy_preview__search_hint">Search Giphy</string>
+  <string name="giphy_preview__search_hint">搜尋Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
   <string name="giphy_preview__title_random">隨機</string>
   <string name="giphy_preview__error">找不到動畫。</string>
@@ -731,9 +731,9 @@
   <string name="drawing__tip__picture__message">點擊顏色來更改畫筆大小。\n\n搖晃手機可移除照片。</string>
   <string name="drawing__tip__message">點擊顏色更改畫筆大小。\n\n點擊不放開可填充整個區域。</string>
   <string name="add_a_sketch">加入手繪</string>
-  <string name="sketch__emoji_keyboard__size_label__small">SMALL</string>
-  <string name="sketch__emoji_keyboard__size_label__medium">MEDIUM</string>
-  <string name="sketch__emoji_keyboard__size_label__large">LARGE</string>
+  <string name="sketch__emoji_keyboard__size_label__small">小</string>
+  <string name="sketch__emoji_keyboard__size_label__medium">中</string>
+  <string name="sketch__emoji_keyboard__size_label__large">大</string>
   <!-- Location sharing -->
   <string name="location_sharing__tip">拖曳地圖來改變位置</string>
   <string name="location_sharing__permission_error">無法偵測目前位置，沒有所需的許可權</string>
@@ -831,17 +831,21 @@
   <string name="no_conversation_in_list__header">沒有正在使用的對話</string>
   <string name="no_conversation_in_list__message">請輕觸連絡人來開始一個對話。</string>
   <string name="cursor__type_a_message">請輸入訊息</string>
-  <string name="cursor__ephemeral_message">TIMED MESSAGE</string>
+  <string name="cursor__ephemeral_message">限時訊息</string>
+  <!-- ephemeral duration e.g. "30s" or "1h"-->
+  <string name="cursor__ephemeral_message__timer_seconds">%1$ss</string>
+  <string name="cursor__ephemeral_message__timer_min">%1$sm</string>
+  <string name="cursor__ephemeral_message__timer_days">%1$sd</string>
   <string name="tooltip_record">錄製影像</string>
   <string name="tooltip_camera">新增相片</string>
   <string name="tooltip_sketch">繪製圖片</string>
   <string name="tooltip_ping">打招呼</string>
-  <string name="tooltip_emoji">Emoji</string>
+  <string name="tooltip_emoji">表情符號</string>
   <string name="tooltip_location">地點</string>
   <string name="tooltip_more">更多操作</string>
   <string name="tooltip_audio_message">請點擊並按住來發送語音訊息</string>
   <string name="tooltip_file">發送檔案</string>
-  <string name="tooltip_gif">Gif</string>
+  <string name="tooltip_gif">動態圖片</string>
   <string name="new_feature">新</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">確定為自己刪除？</string>
@@ -877,36 +881,36 @@
   <string name="message_bottom_menu_action_delete_local">為自己刪除</string>
   <string name="message_bottom_menu_action_delete_global">為每個人刪除</string>
   <string name="likes_list__header">被喜歡</string>
-  <string name="message_bottom_menu_action_save_ok">Picture saved</string>
+  <string name="message_bottom_menu_action_save_ok">相片已儲存</string>
   <string name="message_bottom_menu_action_save_fail">保存图像出错</string>
-  <string name="message_footer__tap_to_like">Tap to like</string>
+  <string name="message_footer__tap_to_like">點一下來按讚</string>
   <plurals name="message_footer__number_of_likes">
-    <item quantity="other">%1$d people</item>
+    <item quantity="other">%1$d人</item>
   </plurals>
   <string name="message_footer__status__sending">正在發送...</string>
-  <string name="message_footer__status__sent">%1$s \u30FB Sent</string>
-  <string name="message_footer__status__delivered">%1$s \u30FB Delivered</string>
-  <string name="message_footer__status__failed">Sending failed. _Resend_</string>
-  <string name="message_footer__status__deleted">%1$s \u30FB Deleted</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TEMPORARY MESSAGES</string>
-  <string name="ephemeral_message__timeout__off">OFF</string>
-  <string name="ephemeral_message__timeout__5_sec">5 seconds</string>
-  <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
-  <string name="ephemeral_message__timeout__30_sec">30 seconds</string>
-  <string name="ephemeral_message__timeout__1_min">1 minute</string>
-  <string name="ephemeral_message__timeout__5_min">5 minutes</string>
-  <string name="ephemeral_message__timeout__1_day">1 day</string>
-  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s left_</string>
+  <string name="message_footer__status__sent">%1$s \u30FB 已送出</string>
+  <string name="message_footer__status__delivered">%1$s \u30FB 已送達</string>
+  <string name="message_footer__status__failed">發送失敗。請_重試_</string>
+  <string name="message_footer__status__deleted">%1$s \u30FB 已刪除</string>
+  <string name="ephemeral_message__timeout_selection_info">SET A TIME FOR THE MESSAGE TO DISAPPEAR</string>
+  <string name="ephemeral_message__timeout__off">關閉</string>
+  <string name="ephemeral_message__timeout__5_sec">5 秒</string>
+  <string name="ephemeral_message__timeout__15_sec">15 秒</string>
+  <string name="ephemeral_message__timeout__30_sec">30 秒</string>
+  <string name="ephemeral_message__timeout__1_min">1 分鐘</string>
+  <string name="ephemeral_message__timeout__5_min">5 分鐘</string>
+  <string name="ephemeral_message__timeout__1_day">1 天</string>
+  <string name="message_footer__status__ephemeral_summary">倒數 %1$s \u30FB _%2$s</string>
   <plurals name="message_footer__expire__days">
-    <item quantity="other">%1$d days</item>
+    <item quantity="other">%1$d 天</item>
   </plurals>
   <plurals name="message_footer__expire__hours">
-    <item quantity="other">%1$d hours</item>
+    <item quantity="other">%1$d 小時</item>
   </plurals>
   <plurals name="message_footer__expire__minutes">
-    <item quantity="other">%1$d minutes</item>
+    <item quantity="other">%1$d 分鐘</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
-    <item quantity="other">%1$d seconds</item>
+    <item quantity="other">%1$d 秒</item>
   </plurals>
 </resources>

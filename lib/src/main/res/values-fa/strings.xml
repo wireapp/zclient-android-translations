@@ -146,7 +146,7 @@
   <!-- Invite -->
   <string name="people_picker__invite__share_details_label">ارسال یک دعوت‌نامه</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">دوستان خود را به Wire دعوت کنید. هر دعوت‌نامه تنها برای ۲ هفته معتبر خواهد بود.</string>
+  <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
   <string name="people_picker__invite__share_text__header">%1$s تمایل دارد با شما در Wire صحبت کند</string>
   <string name="people_picker__invite__share_text__body">من دارم از اپلیکیشن امن Wire استفاده می‌کنم. برای عضویت از این لینک استفاده کن https://get.wire.com</string>
   <string name="people_picker__invite__message">سلام، \nمرسی برای دعوت نامه. بیا صحبت کنیم.\n%1$s</string>
@@ -156,7 +156,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">دعوت کردن</string>
   <string name="people_picker__contact_list__invite_dialog__title">ارسال یک دعوت‌نامه</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 جستجو با نام</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITE MORE PEOPLE</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">دعوت دوستان بیشتر</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">انتخاب فایل</string>
   <string name="conversation_quick_menu__conversation_button__group_label">ایجاد گروه</string>
@@ -409,7 +409,7 @@
   <string name="pref_account_sign_out_warning_verify">خروج</string>
   <string name="pref_account_sign_out_warning_cancel">انصراف</string>
   <string name="pref_account_password_title">راه اندازی مجدد رمز عبور</string>
-  <string name="pref_account_edit_name_empty_warning">Name must have 2 or more characters</string>
+  <string name="pref_account_edit_name_empty_warning">نام باید بیشتر از 2 کارکتر داشته باشد</string>
   <string name="pref_account_edit_name_empty_verify">تایید</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">ظاهر تیره</string>
@@ -459,7 +459,7 @@
   <string name="pref_devices_device_reset_session_title">راه اندازی مجدد session</string>
   <string name="pref_devices_device_reset_session_summary">اگر اثر انگشت‌ها با هم مطابقت ندارند، یک کلید رمزگذاری جدید برای دو طرف ایجاد کنید.</string>
   <string name="pref_devices_device_remove_title">حذف دستگاه</string>
-  <string name="pref_devices_device_remove_summary">این دستگاه را اگر دیگر ازش استفاده نمی‌کنید حذف کنید. تاریخچه پیام‌های شما پاک خواهد شد و شما از برنامه خارج خواهید شد.</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. You will be logged out of this device immediately.</string>
   <string name="pref_devices_device_fingerprint_copy_description">اثرانگشت</string>
   <string name="pref_devices_device_fingerprint_copy_toast">کلید اثرانگشت کپی شد</string>
   <!-- Advanced -->
@@ -850,6 +850,10 @@
   <string name="no_conversation_in_list__message">روی یکی از دوستان خود تاچ کنید تا گفتگو را شروع کنید</string>
   <string name="cursor__type_a_message">یک پیام بنویسید</string>
   <string name="cursor__ephemeral_message">TIMED MESSAGE</string>
+  <!-- ephemeral duration e.g. "30s" or "1h"-->
+  <string name="cursor__ephemeral_message__timer_seconds">%1$s ثانیه</string>
+  <string name="cursor__ephemeral_message__timer_min">%1$s دقیقه</string>
+  <string name="cursor__ephemeral_message__timer_days">%1$s روز</string>
   <string name="tooltip_record">یک ویدیو ضبط کنید</string>
   <string name="tooltip_camera">یک تصویر اضافه کنید</string>
   <string name="tooltip_sketch">یک نقاشی بکشید</string>
@@ -907,7 +911,7 @@
   <string name="message_footer__status__delivered">%1$s \u30FB دریافت شد</string>
   <string name="message_footer__status__failed">خطایی رخ داد _دوباره بفرست_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB حذف شد</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIMER FOR TEMPORARY MESSAGES</string>
+  <string name="ephemeral_message__timeout_selection_info">SET A TIME FOR THE MESSAGE TO DISAPPEAR</string>
   <string name="ephemeral_message__timeout__off">خاموش</string>
   <string name="ephemeral_message__timeout__5_sec">5 ثانیه</string>
   <string name="ephemeral_message__timeout__15_sec">15 ثانیه</string>
@@ -929,7 +933,7 @@
     <item quantity="other">%1$d دقیقه</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
-    <item quantity="one">%1$d second</item>
-    <item quantity="other">%1$d seconds</item>
+    <item quantity="one">%1$d ثانیه</item>
+    <item quantity="other">%1$d ثانیه</item>
   </plurals>
 </resources>

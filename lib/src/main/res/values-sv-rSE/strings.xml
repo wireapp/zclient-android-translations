@@ -146,7 +146,7 @@
   <!-- Invite -->
   <string name="people_picker__invite__share_details_label">Skicka en inbjudan</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Dela Wire med dina vänner. Denna inbjudan kan användas i 2 veckor.</string>
+  <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
   <string name="people_picker__invite__share_text__header">%1$s vill ansluta på Wire</string>
   <string name="people_picker__invite__share_text__body">Jag är på Wire, ses där https://get.wire.com</string>
   <string name="people_picker__invite__message">Hej,\nTack för inbjudan. Låt oss ansluta.%1$s</string>
@@ -156,7 +156,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">BJUD IN</string>
   <string name="people_picker__contact_list__invite_dialog__title">Skicka inbjudan</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 SÖK EFTER NAMN</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITE MORE PEOPLE</string>
+  <string name="people_picker__contact_list__generic_invite__button__label">BJUDA IN FLER PERSONER</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ÖPPNA</string>
   <string name="conversation_quick_menu__conversation_button__group_label">SKAPA GRUPP</string>
@@ -409,7 +409,7 @@
   <string name="pref_account_sign_out_warning_verify">Logga ut</string>
   <string name="pref_account_sign_out_warning_cancel">Avbryt</string>
   <string name="pref_account_password_title">Återställ lösenord</string>
-  <string name="pref_account_edit_name_empty_warning">Name must have 2 or more characters</string>
+  <string name="pref_account_edit_name_empty_warning">Namnet måste ha 2 eller fler tecken</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Mörkt Tema</string>
@@ -459,7 +459,7 @@
   <string name="pref_devices_device_reset_session_title">Börja om sessionen</string>
   <string name="pref_devices_device_reset_session_summary">Om fingeravtryck inte matchar, återställa sessionen för att generera nya krypteringsnycklar på båda enheterna.</string>
   <string name="pref_devices_device_remove_title">Ta bort enhet</string>
-  <string name="pref_devices_device_remove_summary">Ta bort den här enheten om du har slutat använda den. Din meddelandehistorik kommer tas bort på denna enhet och du kommer att loggas ut.</string>
+  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. You will be logged out of this device immediately.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Fingeravtryck</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Nyckel Fingeravtryck kopierad</string>
   <!-- Advanced -->
@@ -850,6 +850,10 @@
   <string name="no_conversation_in_list__message">Tryck på kontakter för att starta en konversation</string>
   <string name="cursor__type_a_message">SKRIV ETT MEDDELANDE</string>
   <string name="cursor__ephemeral_message">TIDSMEDDELANDE</string>
+  <!-- ephemeral duration e.g. "30s" or "1h"-->
+  <string name="cursor__ephemeral_message__timer_seconds">%1$ss</string>
+  <string name="cursor__ephemeral_message__timer_min">%1$sm</string>
+  <string name="cursor__ephemeral_message__timer_days">%1$sd</string>
   <string name="tooltip_record">Spela in video</string>
   <string name="tooltip_camera">Lägg till foto</string>
   <string name="tooltip_sketch">Rita en bild</string>
@@ -907,7 +911,7 @@
   <string name="message_footer__status__delivered">%1$s \u30FB Leverat</string>
   <string name="message_footer__status__failed">Skickning misslyckades. _Skicka igen_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Togs bort</string>
-  <string name="ephemeral_message__timeout_selection_info">STÄLL IN EN TIMER FÖR TILLFÄLLIGA MEDDELANDEN</string>
+  <string name="ephemeral_message__timeout_selection_info">STÄLL IN EN TID NÄR MEDDELANDET SKA FÖRSVINNA</string>
   <string name="ephemeral_message__timeout__off">AV</string>
   <string name="ephemeral_message__timeout__5_sec">5 sekunder</string>
   <string name="ephemeral_message__timeout__15_sec">15 sekunder</string>
@@ -915,21 +919,21 @@
   <string name="ephemeral_message__timeout__1_min">1 minut</string>
   <string name="ephemeral_message__timeout__5_min">5 minuter</string>
   <string name="ephemeral_message__timeout__1_day">1 dag</string>
-  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s left_</string>
+  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s kvar_</string>
   <plurals name="message_footer__expire__days">
-    <item quantity="one">%1$d day</item>
-    <item quantity="other">%1$d days</item>
+    <item quantity="one">%1$d dag</item>
+    <item quantity="other">%1$d dagar</item>
   </plurals>
   <plurals name="message_footer__expire__hours">
-    <item quantity="one">%1$d hour</item>
-    <item quantity="other">%1$d hours</item>
+    <item quantity="one">%1$d timme</item>
+    <item quantity="other">%1$d timmar</item>
   </plurals>
   <plurals name="message_footer__expire__minutes">
-    <item quantity="one">%1$d minute</item>
-    <item quantity="other">%1$d minutes</item>
+    <item quantity="one">%1$d minut</item>
+    <item quantity="other">%1$d minuter</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
-    <item quantity="one">%1$d second</item>
-    <item quantity="other">%1$d seconds</item>
+    <item quantity="one">%1$d sekund</item>
+    <item quantity="other">%1$d sekunder</item>
   </plurals>
 </resources>
