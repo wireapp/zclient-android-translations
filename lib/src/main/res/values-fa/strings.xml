@@ -146,7 +146,7 @@
   <!-- Invite -->
   <string name="people_picker__invite__share_details_label">ارسال یک دعوت‌نامه</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
+  <string name="people_picker__invite__share_details_dialog">Wire را با دیگر دوستان خود به اشتراک بگذارید.</string>
   <string name="people_picker__invite__share_text__header">%1$s تمایل دارد با شما در Wire صحبت کند</string>
   <string name="people_picker__invite__share_text__body">من دارم از اپلیکیشن امن Wire استفاده می‌کنم. برای عضویت از این لینک استفاده کن https://get.wire.com</string>
   <string name="people_picker__invite__message">سلام، \nمرسی برای دعوت نامه. بیا صحبت کنیم.\n%1$s</string>
@@ -459,7 +459,7 @@
   <string name="pref_devices_device_reset_session_title">راه اندازی مجدد session</string>
   <string name="pref_devices_device_reset_session_summary">اگر اثر انگشت‌ها با هم مطابقت ندارند، یک کلید رمزگذاری جدید برای دو طرف ایجاد کنید.</string>
   <string name="pref_devices_device_remove_title">حذف دستگاه</string>
-  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. You will be logged out of this device immediately.</string>
+  <string name="pref_devices_device_remove_summary">این دستگاه را اگر حذف کنید دیگر نمی‌تواند از حساب شما استفاده کند. بلافاصله از حساب کاربری شما خارج می‌شود.</string>
   <string name="pref_devices_device_fingerprint_copy_description">اثرانگشت</string>
   <string name="pref_devices_device_fingerprint_copy_toast">کلید اثرانگشت کپی شد</string>
   <!-- Advanced -->
@@ -851,7 +851,7 @@
   <string name="no_conversation_in_list__header">هیچ گفتگوی فعالی وجود ندارد</string>
   <string name="no_conversation_in_list__message">روی یکی از دوستان خود تاچ کنید تا گفتگو را شروع کنید</string>
   <string name="cursor__type_a_message">یک پیام بنویسید</string>
-  <string name="cursor__ephemeral_message">TIMED MESSAGE</string>
+  <string name="cursor__ephemeral_message">پیام موقت</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
   <string name="cursor__ephemeral_message__timer_seconds">%1$s ثانیه</string>
   <string name="cursor__ephemeral_message__timer_min">%1$s دقیقه</string>
@@ -898,6 +898,7 @@
   <string name="message_bottom_menu_action_like">می‌پسندم</string>
   <string name="message_bottom_menu_action_unlike">نمی‌پسندم</string>
   <string name="message_bottom_menu_action_save">ذخيره</string>
+  <string name="message_bottom_menu_action_open">باز کردن</string>
   <string name="message_bottom_menu_action_delete_local">تنها برای من حذف کن</string>
   <string name="message_bottom_menu_action_delete_global">از دستگاه‌های دوستانم حذف کن</string>
   <string name="likes_list__header">پسندیده شده توسط</string>
@@ -913,7 +914,7 @@
   <string name="message_footer__status__delivered">%1$s \u30FB دریافت شد</string>
   <string name="message_footer__status__failed">خطایی رخ داد _دوباره بفرست_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB حذف شد</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIME FOR THE MESSAGE TO DISAPPEAR</string>
+  <string name="ephemeral_message__timeout_selection_info">تنظیم زمان برای ناپدید شدن پیام موقت</string>
   <string name="ephemeral_message__timeout__off">خاموش</string>
   <string name="ephemeral_message__timeout__5_sec">5 ثانیه</string>
   <string name="ephemeral_message__timeout__15_sec">15 ثانیه</string>
@@ -921,7 +922,7 @@
   <string name="ephemeral_message__timeout__1_min">1 دقیقه</string>
   <string name="ephemeral_message__timeout__5_min">5 دقیقه</string>
   <string name="ephemeral_message__timeout__1_day">1 روز</string>
-  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s left_</string>
+  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s رفت_</string>
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d روز</item>
     <item quantity="other">%1$d روز</item>
