@@ -45,6 +45,28 @@ ext {
 dependencies {
 }
 
+publishing {
+    publications {
+
+        repositories.maven {
+            url 'http://192.168.10.18:8081/nexus/content/repositories/releases/'
+            credentials {
+                username "deployment"
+                password "deployment123"
+            }
+        }
+
+        maven(MavenPublication) {
+            artifacts {
+                groupId 'com.wire'
+                artifactId 'wiretranslations'
+                version mavenVersion
+                artifact 'build/outputs/aar/lib-release.aar'
+            }
+        }
+    }
+}
+
 bintray {
     user = System.getenv('BINTRAY_USER')
     key = System.getenv('BINTRAY_KEY')
