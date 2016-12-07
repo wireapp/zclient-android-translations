@@ -9,7 +9,7 @@ buildscript {
 
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
-apply plugin: 'maven-publish'
+apply plugin: 'signing'
 apply plugin: 'com.jfrog.bintray'
 
 android {
@@ -31,32 +31,17 @@ android {
 
 ext {
     mavenVersion = "1." + System.getenv("BUILD_NUMBER")
+    sonatypeUsername = System.getenv("SONATYPE_USER")
+    sonatypePassword = System.getenv("SONATYPE_PASSWORD")
+    //sonatypeRepo = "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+    sonatypeRepo = "http://192.168.10.18:8081/nexus/content/repositories/releases/"
+
+    allprojects { ext."signing.keyId" = System.getenv("SIGN_ID") }
+    allprojects { ext."signing.secretKeyRingFile" = System.getenv("SIGN_FILE") }
+    allprojects { ext."signing.password" = System.getenv("SIGN_PASSWORD") }
 }
 
 dependencies {
-}
-
-publishing {
-    publications {
-
-        repositories.maven {
-            url 'http://192.168.10.18:8081/nexus/content/repositories/releases/'
-            credentials {
-                username "deployment"
-                password "deployment123"
-            }
-        }
-
-        maven(MavenPublication) {
-            artifacts {
-                groupId 'com.wire'
-                artifactId 'wiretranslations'
-                version mavenVersion
-                artifact 'build/outputs/aar/lib-release.aar'
-            }
-        }
-    }
-
 }
 
 bintray {
@@ -77,3 +62,56 @@ bintray {
     }
 }
 
+uploadArchives {
+    configuration = configurations.archives
+    repositories.mavenDeployer {
+        beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+
+        repository(url: "$sonatypeRepo") {
+            authentication(userName: "$sonatypeUsername", password: "$sonatypePassword")
+        }
+        pom.version = mavenVersion
+        pom.artifactId = "wiretranslations"
+        pom.groupId = "com.wire"
+
+        pom.project {
+            name 'Wire Translations for Android'
+            packaging 'aar'
+            description 'This lib contains translations resources for Wire for Android.'
+            url 'https://github.com/wireapp/wire-android-translations'
+
+            licenses {
+                license {
+                    name 'GNU General Public License, Version 3'
+                    url 'https://www.gnu.org/licenses/gpl-3.0.en.html'
+                    distribution 'repo'
+                }
+            }
+        }
+    }
+}
+
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives javadocJar
+    archives sourcesJar
+}
+
+signing {
+    required { has("release") && gradle.taskGraph.hasTask("uploadArchives") }
+    sign configurations.archives
+}
