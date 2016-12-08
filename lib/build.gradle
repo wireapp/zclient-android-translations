@@ -102,6 +102,7 @@ uploadArchives {
         pom.project {
             name 'com.wire.wiretranslations'
             packaging 'aar'
+            version = "${android.defaultConfig.versionName}"
             description 'This lib contains translations resources for Wire for Android.'
             url 'https://github.com/wireapp/wire-android-translations'
 
