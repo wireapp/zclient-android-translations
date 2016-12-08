@@ -4,6 +4,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7'
+        classpath "io.codearte.gradle.nexus:gradle-nexus-staging-plugin:0.5.3"
     }
 }
 
@@ -12,6 +13,7 @@ apply plugin: 'maven'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
 apply plugin: 'com.jfrog.bintray'
+apply plugin: 'io.codearte.nexus-staging'
 
 android {
     compileSdkVersion 23
@@ -126,6 +128,11 @@ uploadArchives {
             }
         }
     }
+}
+
+nexusStaging {
+    packageGroup = "com.wire"
+    stagingProfileId = "33d607a20b8d47" //optional, but reduce number of calls to Nexus
 }
 
 task sourcesJar(type: Jar) {
