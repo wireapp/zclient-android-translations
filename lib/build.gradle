@@ -98,7 +98,7 @@ uploadArchives {
         pom.groupId = "com.wire"
 
         pom.project {
-            name 'Wire Translations for Android'
+            name 'com.wire.wiretranslations'
             packaging 'aar'
             description 'This lib contains translations resources for Wire for Android.'
             url 'https://github.com/wireapp/wire-android-translations'
@@ -107,8 +107,22 @@ uploadArchives {
                 license {
                     name 'GNU General Public License, Version 3'
                     url 'https://www.gnu.org/licenses/gpl-3.0.en.html'
-                    distribution 'repo'
                 }
+            }
+
+            developers {
+                developer {
+                    name 'Björn "The Herbinator" Herbig'
+                    email 'bjoern@wire.com'
+                    organization 'Wire'
+                    organizationUrl 'https://wire.com/'
+                }
+            }
+
+            scm {
+                connection 'scm:git:git://github.com/wireapp/wire-android-translations.git'
+                developerConnection 'scm:git:ssh://github.com:wireapp/wire-android-translations.git'
+                url 'http://github.com/wireapp/wire-android-translations/tree/master'
             }
         }
     }
