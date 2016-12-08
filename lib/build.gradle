@@ -34,8 +34,8 @@ ext {
     mavenVersion = "1." + System.getenv("BUILD_NUMBER")
     sonatypeUsername = System.getenv("SONATYPE_USER")
     sonatypePassword = System.getenv("SONATYPE_PASSWORD")
-    //sonatypeRepo = "https://oss.sonatype.org/service/local/staging/deploy/maven2"
-    sonatypeRepo = "http://192.168.10.18:8081/nexus/content/repositories/releases/"
+    sonatypeRepo = "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+    //sonatypeRepo = "http://192.168.10.18:8081/nexus/content/repositories/releases/"
 
     allprojects { ext."signing.keyId" = System.getenv("SIGN_ID") }
     allprojects { ext."signing.secretKeyRingFile" = System.getenv("SIGN_FILE") }
