@@ -150,7 +150,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Delite Wire s svojimi prijatelji.</string>
   <string name="people_picker__invite__share_text__header">%1$s si želi povezati na Wire</string>
-  <string name="people_picker__invite__share_text__body">Sem na Wire, se slišiva tam https://get.wire.com</string>
+  <string name="people_picker__invite__share_text__body">Sem na Wire, poišči %1$s ali obišči wire.com/download</string>
   <string name="people_picker__invite__message">Hej,\nHvala za povabilo. Poveživa se.\n%1$s</string>
   <string name="people_picker__invite__sent_feedback">Povabilo poslano</string>
   <string name="people_picker__contact_list__user_selection_button__label">ODPRI</string>
@@ -159,6 +159,14 @@
   <string name="people_picker__contact_list__invite_dialog__title">Pošlji povabilo</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 IŠČI PO IMENU</string>
   <string name="people_picker__contact_list__generic_invite__button__label">POVABI VEČ OSEB</string>
+  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
+    <item quantity="one">%1$d skupna oseba</item>
+    <item quantity="two">%1$d skupni osebi</item>
+    <item quantity="few">%1$d skupni osebi</item>
+    <item quantity="other">%1$d skupni osebi</item>
+  </plurals>
+  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s v imeniku</string>
+  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">v imeniku</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ODPRI</string>
   <string name="conversation_quick_menu__conversation_button__group_label">USTVARI SKUPINO</string>
@@ -280,7 +288,14 @@
   <string name="connect__message">Hej %1$s,\npoveživa se na Wire.\n%2$s</string>
   <string name="connect_request__common_users__label">Oba poznata</string>
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
+  <plurals name="connect_request__common_users__summary">
+    <item quantity="one">%1$d skupna oseba</item>
+    <item quantity="two">%1$d skupni osebi</item>
+    <item quantity="few">%1$d skupni osebi</item>
+    <item quantity="other">%1$d skupni osebi</item>
+  </plurals>
   <string name="connect_request__sub_header__pending_label">V teku</string>
+  <string name="connect_request__cancel_request__label">Prekliči zahtevo za povezavo</string>
   <string name="connect_request__unblock__button__text">Odblokiraj</string>
   <string name="send_connect_request__connect_button__text">Poveži</string>
   <string name="connect_inbox__one_person__link__name">1 oseba čaka</string>
@@ -288,6 +303,7 @@
   <string name="connect_request__ignore_button__text">Ignoriraj</string>
   <string name="content__message__connect_request__footer">POVEZAN</string>
   <string name="content__message__connect_request__auto_connect__footer">SAMODEJNO POVEZAN. _NAUČI SE VEČ_</string>
+  <string name="content__message__connect_request__user_info">%1$s v imeniku</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">Je delil(-a) fotografijo</string>
   <string name="in_app_notification__footer__file">Je delil(-a) zbirko</string>
@@ -400,8 +416,11 @@
   <string name="pref_account_edit_name_title">Uredi ime</string>
   <string name="pref_account_details_category_title">Informacije</string>
   <string name="pref_account_actions_category_title">Dejanja</string>
+  <string name="pref_account_personal_category_title">Osebno</string>
   <string name="pref_account_appearance_category_title">Videz</string>
   <string name="pref_account_details_category_summary">Osebe vas lahko najdejo s temi podrobnostmi.</string>
+  <string name="pref_account_personal_category_summary">Informacije niso vidne nikomur drugemu</string>
+  <string name="pref_account_username_title">Uporabniško ime</string>
   <string name="pref_account_phone_title">Telefon</string>
   <string name="pref_account_add_phone_title">Dodaj telefonsko številko</string>
   <string name="pref_account_email_title">E-pošta</string>
@@ -523,6 +542,11 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">Poslali vam bomo kodo obvestila na:\n%s</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Vnesi veljaven e-poštni naslov</string>
   <string name="pref__account_action__dialog__change_email__title">Uredi e-poštni naslov</string>
+  <string name="pref__account_action__dialog__change_username__summary">S tem uporabniškim imenom vas bodo lahko osebe našle na Wire brez poznavanja vašega e-poštnega naslova ali telefonske številke.</string>
+  <string name="pref__account_action__dialog__change_username__rules">Vsaj 2 znaka. a–z, 0–9, in le _</string>
+  <string name="pref__account_action__dialog__change_username__title">Uporabniško ime</string>
+  <string name="pref__account_action__dialog__change_username__error_already_taken">Že zasedeno</string>
+  <string name="pref__account_action__dialog__change_username__error_unknown">Napaka pri povezavi, prosimo poizkusite znova</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
   <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
@@ -749,7 +773,6 @@
   <string name="email_placeholder">E-pošta</string>
   <string name="name_placeholder">Ime</string>
   <string name="registration_back">Nazaj</string>
-  <string name="connect_request__inbox__header">%s</string>
   <!-- Strings -->
   <string name="your_phone_number">Vaša telefonska številka</string>
   <string name="edit_phone_number">UREDI TELEFONSKO ŠTEVILKO</string>
@@ -775,6 +798,7 @@
   <string name="hello">Hej, &lt;b&gt;%s&lt;/b&gt;</string>
   <string name="sign_in">Prijava</string>
   <string name="new_reg__password_length">VSAJ %1$s ZNAKOV</string>
+  <string name="username__set__toast_error">Napaka pri posodabljanju uporabniškega imena</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Preišči Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
@@ -964,6 +988,12 @@
   <string name="ephemeral_message__timeout__5_min">5 minut</string>
   <string name="ephemeral_message__timeout__1_day">1 dan</string>
   <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s preostalo_</string>
+  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
+  <string name="usernames__take_over__title">Uporabniška imena so tukaj.</string>
+  <string name="usernames__take_over__summary">Zavzemite vaše unikatno ime na Wire. _Nauči se več._</string>
+  <string name="usernames__take_over__choose">IZBERITE SVOJE</string>
+  <string name="usernames__take_over__keep">OBDRŽI TOLE</string>
+  <string name="pref_account_username_empty_title">Dodaj uporabniško ime</string>
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d dan</item>
     <item quantity="two">%1$d dni</item>

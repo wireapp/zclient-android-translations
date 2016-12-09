@@ -148,7 +148,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
   <string name="people_picker__invite__share_text__header">%1$s 想和您在Wire上聯繫</string>
-  <string name="people_picker__invite__share_text__body">我使用了Wire，一起加入我吧 https://get.wire.com</string>
+  <string name="people_picker__invite__share_text__body">I am on Wire, search for %1$s or visit wire.com/download</string>
   <string name="people_picker__invite__message">嗨，\n謝謝您的邀請。讓我們成為連絡人吧。 \n%1$s</string>
   <string name="people_picker__invite__sent_feedback">已送出邀請</string>
   <string name="people_picker__contact_list__user_selection_button__label">開啓</string>
@@ -157,6 +157,11 @@
   <string name="people_picker__contact_list__invite_dialog__title">發送邀請</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020透過名稱來搜尋</string>
   <string name="people_picker__contact_list__generic_invite__button__label">邀請更多人</string>
+  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
+    <item quantity="other">%1$d people in common</item>
+  </plurals>
+  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s in Address Book</string>
+  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">in Address Book</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">開啟</string>
   <string name="conversation_quick_menu__conversation_button__group_label">建立群組</string>
@@ -278,7 +283,11 @@
   <string name="connect__message">Hi %1$s，\n請加我為連絡人。\n%2$s</string>
   <string name="connect_request__common_users__label">共同連絡人</string>
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
+  <plurals name="connect_request__common_users__summary">
+    <item quantity="other">%1$d people in common</item>
+  </plurals>
   <string name="connect_request__sub_header__pending_label">等待對方接受</string>
+  <string name="connect_request__cancel_request__label">Cancel connection request</string>
   <string name="connect_request__unblock__button__text">解除封鎖</string>
   <string name="send_connect_request__connect_button__text">加為連絡人</string>
   <string name="connect_inbox__one_person__link__name">1個連絡人邀請</string>
@@ -286,6 +295,7 @@
   <string name="connect_request__ignore_button__text">忽略</string>
   <string name="content__message__connect_request__footer">已成為連絡人</string>
   <string name="content__message__connect_request__auto_connect__footer">自動加為連絡人。_瞭解更多_</string>
+  <string name="content__message__connect_request__user_info">%1$s in Address Book</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">分享了照片</string>
   <string name="in_app_notification__footer__file">分享了檔案</string>
@@ -386,8 +396,11 @@
   <string name="pref_account_edit_name_title">編輯名稱</string>
   <string name="pref_account_details_category_title">資訊</string>
   <string name="pref_account_actions_category_title">操作</string>
+  <string name="pref_account_personal_category_title">Personal</string>
   <string name="pref_account_appearance_category_title">外觀</string>
   <string name="pref_account_details_category_summary">其他使用者能透過這些資料搜尋到您。</string>
+  <string name="pref_account_personal_category_summary">The information is not visible to anyone else</string>
+  <string name="pref_account_username_title">Username</string>
   <string name="pref_account_phone_title">手機</string>
   <string name="pref_account_add_phone_title">新增手機號碼</string>
   <string name="pref_account_email_title">電子郵件</string>
@@ -509,6 +522,11 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">我們將發送通知代碼到︰\n%s</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">請輸入有效的電子郵件</string>
   <string name="pref__account_action__dialog__change_email__title">編輯電子郵件地址</string>
+  <string name="pref__account_action__dialog__change_username__summary">With this username, people will be able to find you on Wire without knowing your email address or phone number.</string>
+  <string name="pref__account_action__dialog__change_username__rules">At least 2 characters. a–z, 0–9, and _ only</string>
+  <string name="pref__account_action__dialog__change_username__title">Username</string>
+  <string name="pref__account_action__dialog__change_username__error_already_taken">Already taken</string>
+  <string name="pref__account_action__dialog__change_username__error_unknown">Connection error, please try again</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
   <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
@@ -696,7 +714,6 @@
   <string name="email_placeholder">電子郵件</string>
   <string name="name_placeholder">名稱</string>
   <string name="registration_back">返回</string>
-  <string name="connect_request__inbox__header">%s</string>
   <!-- Strings -->
   <string name="your_phone_number">您的手機號碼</string>
   <string name="edit_phone_number">編輯手機號碼</string>
@@ -719,6 +736,7 @@
   <string name="hello">您好，&lt;b&gt;%s&lt;/b&gt;</string>
   <string name="sign_in">登入</string>
   <string name="new_reg__password_length">至少需要%1$s字元</string>
+  <string name="username__set__toast_error">Error updating username</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">搜尋Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
@@ -905,6 +923,12 @@
   <string name="ephemeral_message__timeout__5_min">5 分鐘</string>
   <string name="ephemeral_message__timeout__1_day">1 天</string>
   <string name="message_footer__status__ephemeral_summary">倒數 %1$s \u30FB _%2$s</string>
+  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
+  <string name="usernames__take_over__title">Usernames are here.</string>
+  <string name="usernames__take_over__summary">Claim your unique name on Wire. _Learn more._</string>
+  <string name="usernames__take_over__choose">CHOOSE YOUR OWN</string>
+  <string name="usernames__take_over__keep">KEEP THIS ONE</string>
+  <string name="pref_account_username_empty_title">Add username</string>
   <plurals name="message_footer__expire__days">
     <item quantity="other">%1$d 天</item>
   </plurals>

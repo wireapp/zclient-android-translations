@@ -149,7 +149,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Поділіться Wire з друзями.</string>
   <string name="people_picker__invite__share_text__header">%1$s бажає додати вас до своїх контактів в Wire</string>
-  <string name="people_picker__invite__share_text__body">Я вже в Wire. Поспілкуємося тут https://get.wire.com</string>
+  <string name="people_picker__invite__share_text__body">I am on Wire, search for %1$s or visit wire.com/download</string>
   <string name="people_picker__invite__message">Привіт,\nДякую за запрошення. Давай спілкуватися.\n%1$s</string>
   <string name="people_picker__invite__sent_feedback">Запрошення надіслано</string>
   <string name="people_picker__contact_list__user_selection_button__label">ВІДКРИТИ</string>
@@ -158,6 +158,13 @@
   <string name="people_picker__contact_list__invite_dialog__title">Надіслати запрошення</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 ПОШУК ЗА ІМЕНЕМ</string>
   <string name="people_picker__contact_list__generic_invite__button__label">ЗАПРОСИТИ БІЛЬШЕ ЛЮДЕЙ</string>
+  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
+    <item quantity="one">%1$d person in common</item>
+    <item quantity="few">%1$d people in common</item>
+    <item quantity="other">%1$d people in common</item>
+  </plurals>
+  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s in Address Book</string>
+  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">в адресній книзі</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ВІДКРИТИ</string>
   <string name="conversation_quick_menu__conversation_button__group_label">СТВОРИТИ ГРУПУ</string>
@@ -279,7 +286,13 @@
   <string name="connect__message">Ппивіт %1$s,\nДавай спікуватися в Wire.\n%2$s</string>
   <string name="connect_request__common_users__label">Ви обидва знайомі з</string>
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
+  <plurals name="connect_request__common_users__summary">
+    <item quantity="one">%1$d person in common</item>
+    <item quantity="few">%1$d people in common</item>
+    <item quantity="other">%1$d people in common</item>
+  </plurals>
   <string name="connect_request__sub_header__pending_label">Очікує підтвердження</string>
+  <string name="connect_request__cancel_request__label">Скасувати запит на додавання до контактів</string>
   <string name="connect_request__unblock__button__text">Розблокувати</string>
   <string name="send_connect_request__connect_button__text">Додати до контактів</string>
   <string name="connect_inbox__one_person__link__name">1 людина очікує</string>
@@ -287,6 +300,7 @@
   <string name="connect_request__ignore_button__text">Ігнорувати</string>
   <string name="content__message__connect_request__footer">КОНТАКТ ДОДАНО</string>
   <string name="content__message__connect_request__auto_connect__footer">ДОДАНІ АВТОМАТИЧНО. _ДІЗНАТИСЬ БІЛЬШЕ_</string>
+  <string name="content__message__connect_request__user_info">%1$s in Address Book</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">Поділився(-лась) фото</string>
   <string name="in_app_notification__footer__file">Поділився(-лась) файлом</string>
@@ -395,8 +409,11 @@
   <string name="pref_account_edit_name_title">Редагувати ім\'я</string>
   <string name="pref_account_details_category_title">Інформація</string>
   <string name="pref_account_actions_category_title">Дії</string>
+  <string name="pref_account_personal_category_title">Персональні дані</string>
   <string name="pref_account_appearance_category_title">Оформлення</string>
   <string name="pref_account_details_category_summary">Ці деталі допоможуть іншим людям знайти вас.</string>
+  <string name="pref_account_personal_category_summary">The information is not visible to anyone else</string>
+  <string name="pref_account_username_title">Нік</string>
   <string name="pref_account_phone_title">Телефон</string>
   <string name="pref_account_add_phone_title">Додайте номер телефону</string>
   <string name="pref_account_email_title">Email</string>
@@ -518,6 +535,11 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">Ви вишлемо код підтвердження на:\n%s</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Введіть дійсний email</string>
   <string name="pref__account_action__dialog__change_email__title">Змінити email</string>
+  <string name="pref__account_action__dialog__change_username__summary">With this username, people will be able to find you on Wire without knowing your email address or phone number.</string>
+  <string name="pref__account_action__dialog__change_username__rules">At least 2 characters. a–z, 0–9, and _ only</string>
+  <string name="pref__account_action__dialog__change_username__title">Нік</string>
+  <string name="pref__account_action__dialog__change_username__error_already_taken">Уже зарезервоване</string>
+  <string name="pref__account_action__dialog__change_username__error_unknown">Connection error, please try again</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
   <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
@@ -731,7 +753,6 @@
   <string name="email_placeholder">Email</string>
   <string name="name_placeholder">Ім’я</string>
   <string name="registration_back">Назад</string>
-  <string name="connect_request__inbox__header">%s</string>
   <!-- Strings -->
   <string name="your_phone_number">Ваш номер телефону</string>
   <string name="edit_phone_number">РЕДАГУВАТИ НОМЕР ТЕЛЕФОНУ</string>
@@ -756,6 +777,7 @@
   <string name="hello">Привіт, &lt;b&gt;%s&lt;/b&gt;</string>
   <string name="sign_in">Увійти</string>
   <string name="new_reg__password_length">НЕ МЕНШЕ %1$s СИМВОЛІВ</string>
+  <string name="username__set__toast_error">Error updating username</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Пошук Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
@@ -944,6 +966,12 @@
   <string name="ephemeral_message__timeout__5_min">5 хвилин</string>
   <string name="ephemeral_message__timeout__1_day">1 день</string>
   <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _Залишилось %2$s_</string>
+  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
+  <string name="usernames__take_over__title">Ніки вже тут.</string>
+  <string name="usernames__take_over__summary">Claim your unique name on Wire. _Learn more._</string>
+  <string name="usernames__take_over__choose">CHOOSE YOUR OWN</string>
+  <string name="usernames__take_over__keep">KEEP THIS ONE</string>
+  <string name="pref_account_username_empty_title">Додати нік</string>
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d день</item>
     <item quantity="few">%1$d дні</item>
