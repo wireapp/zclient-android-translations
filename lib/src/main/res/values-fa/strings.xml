@@ -148,7 +148,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Wire را با دیگر دوستان خود به اشتراک بگذارید.</string>
   <string name="people_picker__invite__share_text__header">%1$s تمایل دارد با شما در Wire صحبت کند</string>
-  <string name="people_picker__invite__share_text__body">من دارم از اپلیکیشن امن Wire استفاده می‌کنم. برای عضویت از این لینک استفاده کن https://get.wire.com</string>
+  <string name="people_picker__invite__share_text__body">I am on Wire, search for %1$s or visit wire.com/download</string>
   <string name="people_picker__invite__message">سلام، \nمرسی برای دعوت نامه. بیا صحبت کنیم.\n%1$s</string>
   <string name="people_picker__invite__sent_feedback">دعوت‌نامه ارسال شد</string>
   <string name="people_picker__contact_list__user_selection_button__label">انتخاب فایل</string>
@@ -157,6 +157,12 @@
   <string name="people_picker__contact_list__invite_dialog__title">ارسال یک دعوت‌نامه</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 جستجو با نام</string>
   <string name="people_picker__contact_list__generic_invite__button__label">دعوت دوستان بیشتر</string>
+  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
+    <item quantity="one">%1$d person in common</item>
+    <item quantity="other">%1$d people in common</item>
+  </plurals>
+  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s in Address Book</string>
+  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">in Address Book</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">انتخاب فایل</string>
   <string name="conversation_quick_menu__conversation_button__group_label">ایجاد گروه</string>
@@ -278,7 +284,12 @@
   <string name="connect__message">سلام %1$s, \nبیا باهم تو Wire گپ بزنیم.\n%2$s</string>
   <string name="connect_request__common_users__label">هر دو میشناسید</string>
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
+  <plurals name="connect_request__common_users__summary">
+    <item quantity="one">%1$d person in common</item>
+    <item quantity="other">%1$d people in common</item>
+  </plurals>
   <string name="connect_request__sub_header__pending_label">درحال انتظار</string>
+  <string name="connect_request__cancel_request__label">لغو درخواست دوستی</string>
   <string name="connect_request__unblock__button__text">خارج کردن از مسدود بودن</string>
   <string name="send_connect_request__connect_button__text">درخواست دوستی</string>
   <string name="connect_inbox__one_person__link__name">1 نفر در انتظار است</string>
@@ -286,6 +297,7 @@
   <string name="connect_request__ignore_button__text">نادیده گرفتن</string>
   <string name="content__message__connect_request__footer">ارتباط برقرار شد</string>
   <string name="content__message__connect_request__auto_connect__footer">بصورت خودکار ارتباط برقرار شد. _در مورد این امکان بیشتر بدانید_</string>
+  <string name="content__message__connect_request__user_info">%1$s in Address Book</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">تصویری به اشتراک گذاشت</string>
   <string name="in_app_notification__footer__file">فایلی به اشتراک گذاشت</string>
@@ -390,8 +402,11 @@
   <string name="pref_account_edit_name_title">ویرایش نام</string>
   <string name="pref_account_details_category_title">اطلاعات بیشتر</string>
   <string name="pref_account_actions_category_title">اقدامات</string>
+  <string name="pref_account_personal_category_title">Personal</string>
   <string name="pref_account_appearance_category_title">ظاهر</string>
   <string name="pref_account_details_category_summary">مردم شما را با این جزئیات پیدا خواهند کرد.</string>
+  <string name="pref_account_personal_category_summary">The information is not visible to anyone else</string>
+  <string name="pref_account_username_title">Username</string>
   <string name="pref_account_phone_title">تلفن</string>
   <string name="pref_account_add_phone_title">اضافه کردن شماره تلفن</string>
   <string name="pref_account_email_title">ایمیل</string>
@@ -513,6 +528,11 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">ما یک اعلان برای شماره \n%s ارسال می‌کنیم</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">یک ایمیل معتبر وارد کنید</string>
   <string name="pref__account_action__dialog__change_email__title">ویرایش ایمیل آدرس</string>
+  <string name="pref__account_action__dialog__change_username__summary">With this username, people will be able to find you on Wire without knowing your email address or phone number.</string>
+  <string name="pref__account_action__dialog__change_username__rules">At least 2 characters. a–z, 0–9, and _ only</string>
+  <string name="pref__account_action__dialog__change_username__title">Username</string>
+  <string name="pref__account_action__dialog__change_username__error_already_taken">Already taken</string>
+  <string name="pref__account_action__dialog__change_username__error_unknown">Connection error, please try again</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
   <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
@@ -713,7 +733,6 @@
   <string name="email_placeholder">ایمیل</string>
   <string name="name_placeholder">نام</string>
   <string name="registration_back">مرحله قبل</string>
-  <string name="connect_request__inbox__header">%s</string>
   <!-- Strings -->
   <string name="your_phone_number">شماره تلفن شما</string>
   <string name="edit_phone_number">ویرایش شماره تلفن</string>
@@ -737,6 +756,7 @@
   <string name="hello">سلام، &lt;b&gt;%s&lt;/b&gt;</string>
   <string name="sign_in">وارد شدن</string>
   <string name="new_reg__password_length">حداقل %1$s کاراکتر</string>
+  <string name="username__set__toast_error">Error updating username</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">جستجو در Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
@@ -924,6 +944,12 @@
   <string name="ephemeral_message__timeout__5_min">5 دقیقه</string>
   <string name="ephemeral_message__timeout__1_day">1 روز</string>
   <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s رفت_</string>
+  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
+  <string name="usernames__take_over__title">Usernames are here.</string>
+  <string name="usernames__take_over__summary">Claim your unique name on Wire. _Learn more._</string>
+  <string name="usernames__take_over__choose">CHOOSE YOUR OWN</string>
+  <string name="usernames__take_over__keep">KEEP THIS ONE</string>
+  <string name="pref_account_username_empty_title">Add username</string>
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d روز</item>
     <item quantity="other">%1$d روز</item>

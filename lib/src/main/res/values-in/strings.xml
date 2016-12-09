@@ -147,7 +147,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Bagikan Wire dengan teman Anda.</string>
   <string name="people_picker__invite__share_text__header">%1$s ingin terhubung pada Wire</string>
-  <string name="people_picker__invite__share_text__body">Saya ada di Wire, bicara kepada Anda di sana https://get.wire.com</string>
+  <string name="people_picker__invite__share_text__body">I am on Wire, search for %1$s or visit wire.com/download</string>
   <string name="people_picker__invite__message">Hai, \nTerima kasih undangannya. Mari kita terhubung. \n%1$s</string>
   <string name="people_picker__invite__sent_feedback">Undangan terkirim</string>
   <string name="people_picker__contact_list__user_selection_button__label">BUKA</string>
@@ -156,6 +156,11 @@
   <string name="people_picker__contact_list__invite_dialog__title">Kirim undangan</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 Cari dengan nama</string>
   <string name="people_picker__contact_list__generic_invite__button__label">UNDANG LEBIH BANYAK ORANG</string>
+  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
+    <item quantity="other">%1$d people in common</item>
+  </plurals>
+  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s in Address Book</string>
+  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">in Address Book</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">BUKA</string>
   <string name="conversation_quick_menu__conversation_button__group_label">BUAT GRUP</string>
@@ -277,7 +282,11 @@
   <string name="connect__message">Hai %1$s, \nMari terhubung pada Wire.\n%2$s</string>
   <string name="connect_request__common_users__label">Anda berdua mengenal</string>
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
+  <plurals name="connect_request__common_users__summary">
+    <item quantity="other">%1$d people in common</item>
+  </plurals>
   <string name="connect_request__sub_header__pending_label">Tertunda</string>
+  <string name="connect_request__cancel_request__label">Batalkan permintaan koneksi</string>
   <string name="connect_request__unblock__button__text">Buka blokir</string>
   <string name="send_connect_request__connect_button__text">Hubungkan</string>
   <string name="connect_inbox__one_person__link__name">1 orang menunggu</string>
@@ -285,6 +294,7 @@
   <string name="connect_request__ignore_button__text">Abaikan</string>
   <string name="content__message__connect_request__footer">TERHUBUNG</string>
   <string name="content__message__connect_request__auto_connect__footer">TERHUBUNG OTOMATIS. _PELAJARI LEBIH LANJUT_</string>
+  <string name="content__message__connect_request__user_info">%1$s in Address Book</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">Membagikan foto</string>
   <string name="in_app_notification__footer__file">Membagikan berkas</string>
@@ -385,8 +395,11 @@
   <string name="pref_account_edit_name_title">Ubah nama</string>
   <string name="pref_account_details_category_title">Info</string>
   <string name="pref_account_actions_category_title">Tindakan</string>
+  <string name="pref_account_personal_category_title">Personal</string>
   <string name="pref_account_appearance_category_title">Tampilan</string>
   <string name="pref_account_details_category_summary">Orang-orang dapat menemukan Anda dengan detil ini.</string>
+  <string name="pref_account_personal_category_summary">The information is not visible to anyone else</string>
+  <string name="pref_account_username_title">Username</string>
   <string name="pref_account_phone_title">Telepon</string>
   <string name="pref_account_add_phone_title">Tambah nomor telepon</string>
   <string name="pref_account_email_title">Email</string>
@@ -508,6 +521,11 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">Kami akan mengirimkan pemberitahuan kode ke:\n%s</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Masukkan email yang valid</string>
   <string name="pref__account_action__dialog__change_email__title">Ubah alamat email</string>
+  <string name="pref__account_action__dialog__change_username__summary">With this username, people will be able to find you on Wire without knowing your email address or phone number.</string>
+  <string name="pref__account_action__dialog__change_username__rules">At least 2 characters. a–z, 0–9, and _ only</string>
+  <string name="pref__account_action__dialog__change_username__title">Username</string>
+  <string name="pref__account_action__dialog__change_username__error_already_taken">Already taken</string>
+  <string name="pref__account_action__dialog__change_username__error_unknown">Connection error, please try again</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
   <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
@@ -695,7 +713,6 @@
   <string name="email_placeholder">Email</string>
   <string name="name_placeholder">Nama</string>
   <string name="registration_back">Kembali</string>
-  <string name="connect_request__inbox__header">%s</string>
   <!-- Strings -->
   <string name="your_phone_number">Nomor Telepon Anda</string>
   <string name="edit_phone_number">UBAH NOMOR TELEPON</string>
@@ -718,6 +735,7 @@
   <string name="hello">Halo, &lt;b&gt;%s&lt;/b&gt;</string>
   <string name="sign_in">Masuk</string>
   <string name="new_reg__password_length">MINIMAL %1$s KARAKTER</string>
+  <string name="username__set__toast_error">Error updating username</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Cari Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
@@ -904,6 +922,12 @@
   <string name="ephemeral_message__timeout__5_min">5 menit</string>
   <string name="ephemeral_message__timeout__1_day">1 hari</string>
   <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s keluar_</string>
+  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
+  <string name="usernames__take_over__title">Usernames are here.</string>
+  <string name="usernames__take_over__summary">Claim your unique name on Wire. _Learn more._</string>
+  <string name="usernames__take_over__choose">CHOOSE YOUR OWN</string>
+  <string name="usernames__take_over__keep">KEEP THIS ONE</string>
+  <string name="pref_account_username_empty_title">Add username</string>
   <plurals name="message_footer__expire__days">
     <item quantity="other">%1$d hari</item>
   </plurals>

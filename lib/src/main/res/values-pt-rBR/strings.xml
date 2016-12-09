@@ -148,7 +148,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Compartilhe o Wire com seus amigos.</string>
   <string name="people_picker__invite__share_text__header">%1$s quer se conectar no Wire</string>
-  <string name="people_picker__invite__share_text__body">Estou no Wire, falo com você lá https://get.wire.com</string>
+  <string name="people_picker__invite__share_text__body">Eu estou no Wire, pesquise por %1$s ou visite wire.com/download</string>
   <string name="people_picker__invite__message">Olá, \n Obrigado pelo convite. Vamos nos conectar.\n%1$s</string>
   <string name="people_picker__invite__sent_feedback">Convite enviado</string>
   <string name="people_picker__contact_list__user_selection_button__label">ABRIR</string>
@@ -157,6 +157,12 @@
   <string name="people_picker__contact_list__invite_dialog__title">Enviar convite</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 PROCURE POR NOME</string>
   <string name="people_picker__contact_list__generic_invite__button__label">CONVIDAR MAIS PESSOAS</string>
+  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
+    <item quantity="one">%1$d pessoa em comum</item>
+    <item quantity="other">%1$d pessoas em comum</item>
+  </plurals>
+  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s nos Contatos</string>
+  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">nos Contatos</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ABRIR</string>
   <string name="conversation_quick_menu__conversation_button__group_label">CRIAR GRUPO</string>
@@ -278,7 +284,12 @@
   <string name="connect__message">Olá %1$s,\nVamos nos conectar no Wire.\n%2$s</string>
   <string name="connect_request__common_users__label">Vocês conhecem</string>
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
+  <plurals name="connect_request__common_users__summary">
+    <item quantity="one">%1$d pessoa em comum</item>
+    <item quantity="other">%1$d pessoas em comum</item>
+  </plurals>
   <string name="connect_request__sub_header__pending_label">Pendente</string>
+  <string name="connect_request__cancel_request__label">Cancelar a solicitação de conexão</string>
   <string name="connect_request__unblock__button__text">Desbloquear</string>
   <string name="send_connect_request__connect_button__text">Conectar</string>
   <string name="connect_inbox__one_person__link__name">1 pessoa esperando</string>
@@ -286,6 +297,7 @@
   <string name="connect_request__ignore_button__text">Ignorar</string>
   <string name="content__message__connect_request__footer">CONECTADO</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTO-CONECTADO. _LEARN MORE_</string>
+  <string name="content__message__connect_request__user_info">%1$s nos Contatos</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">Compartilhou uma foto</string>
   <string name="in_app_notification__footer__file">Compartilhou um arquivo</string>
@@ -390,8 +402,11 @@
   <string name="pref_account_edit_name_title">Editar Nome</string>
   <string name="pref_account_details_category_title">Informações</string>
   <string name="pref_account_actions_category_title">Ações</string>
+  <string name="pref_account_personal_category_title">Pessoal</string>
   <string name="pref_account_appearance_category_title">Aparência</string>
   <string name="pref_account_details_category_summary">Pessoas podem te encontrar com esses detalhes.</string>
+  <string name="pref_account_personal_category_summary">A informação não é visível para qualquer outra pessoa</string>
+  <string name="pref_account_username_title">Nome do Usuário</string>
   <string name="pref_account_phone_title">Telefone</string>
   <string name="pref_account_add_phone_title">Adicionar número de telefone</string>
   <string name="pref_account_email_title">E-mail</string>
@@ -513,6 +528,11 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">Nós enviaremos um código de notificação para: \n%s</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Digite o e-mail válido</string>
   <string name="pref__account_action__dialog__change_email__title">Editar o endereço de e-mail</string>
+  <string name="pref__account_action__dialog__change_username__summary">Com este nome de usuário, as pessoas poderão encontrá-lo no Wire sem saber seu número de telefone ou endereço de e-mail.</string>
+  <string name="pref__account_action__dialog__change_username__rules">Ao menos 2 caracteres. a–z, 0–9 e _ apenas</string>
+  <string name="pref__account_action__dialog__change_username__title">Nome do Usuário</string>
+  <string name="pref__account_action__dialog__change_username__error_already_taken">Já está sendo usado</string>
+  <string name="pref__account_action__dialog__change_username__error_unknown">Erro de Conexão, por favor tente novamente</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
   <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
@@ -713,7 +733,6 @@
   <string name="email_placeholder">E-mail</string>
   <string name="name_placeholder">Nome</string>
   <string name="registration_back">Voltar</string>
-  <string name="connect_request__inbox__header">%s</string>
   <!-- Strings -->
   <string name="your_phone_number">Seu número de telefone</string>
   <string name="edit_phone_number">EDITAR NÚMERO DE TELEFONE</string>
@@ -737,6 +756,7 @@
   <string name="hello">Olá, &lt; b &gt;%s &lt;/b &gt;</string>
   <string name="sign_in">Entrar</string>
   <string name="new_reg__password_length">PELO MENOS %1$s CARACTERES</string>
+  <string name="username__set__toast_error">Erro ao atualizar o nome de usuário</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Pesquisa Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
@@ -924,6 +944,12 @@
   <string name="ephemeral_message__timeout__5_min">5 minutos</string>
   <string name="ephemeral_message__timeout__1_day">1 dia</string>
   <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s restantes_</string>
+  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
+  <string name="usernames__take_over__title">Nomes de usuário estão aqui.</string>
+  <string name="usernames__take_over__summary">Reivindicar seu nome único no Wire. _Saiba mais._</string>
+  <string name="usernames__take_over__choose">ESCOLHA O SEU PRÓPRIO</string>
+  <string name="usernames__take_over__keep">MANTER ESSE</string>
+  <string name="pref_account_username_empty_title">Adicionar nome de usuário</string>
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d dia</item>
     <item quantity="other">%1$d dias</item>

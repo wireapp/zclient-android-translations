@@ -152,7 +152,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Расскажите своим друзьям о Wire.</string>
   <string name="people_picker__invite__share_text__header">%1$s хочет добавиться в Wire</string>
-  <string name="people_picker__invite__share_text__body">Я в Wire, поговорим там https://get.wire.com</string>
+  <string name="people_picker__invite__share_text__body">Я использую Wire, введи в поиске %1$s или перейди на wire.com/download</string>
   <string name="people_picker__invite__message">Привет,\nспасибо за приглашение. Давай общаться!\n%1$s</string>
   <string name="people_picker__invite__sent_feedback">Приглашение отправлено</string>
   <string name="people_picker__contact_list__user_selection_button__label">ОТКРЫТЬ</string>
@@ -161,6 +161,13 @@
   <string name="people_picker__contact_list__invite_dialog__title">Отправить приглашение</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 ПОИСК ПО ИМЕНИ</string>
   <string name="people_picker__contact_list__generic_invite__button__label">ПРИГЛАСИТЬ БОЛЬШЕ ЛЮДЕЙ</string>
+  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
+    <item quantity="one">%1$d общий знакомый</item>
+    <item quantity="few">%1$d общих знакомых</item>
+    <item quantity="other">%1$d общих знакомых</item>
+  </plurals>
+  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s в адресной книге</string>
+  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">В адресной книге</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ОТКРЫТЬ</string>
   <string name="conversation_quick_menu__conversation_button__group_label">Создать группу</string>
@@ -282,7 +289,13 @@
   <string name="connect__message">Привет %1$s,\nДавай общаться в Wire.\n%2$s</string>
   <string name="connect_request__common_users__label">Вы оба знакомы с</string>
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
+  <plurals name="connect_request__common_users__summary">
+    <item quantity="one">%1$d общий знакомый</item>
+    <item quantity="few">%1$d общих знакомых</item>
+    <item quantity="other">%1$d общих знакомых</item>
+  </plurals>
   <string name="connect_request__sub_header__pending_label">Ожидает подтверждения</string>
+  <string name="connect_request__cancel_request__label">Отменить запрос</string>
   <string name="connect_request__unblock__button__text">Разблокировать</string>
   <string name="send_connect_request__connect_button__text">Добавить в контакты</string>
   <string name="connect_inbox__one_person__link__name">1 человек ожидает</string>
@@ -290,6 +303,7 @@
   <string name="connect_request__ignore_button__text">Игнорировать</string>
   <string name="content__message__connect_request__footer">КОНТАКТ ДОБАВЛЕН</string>
   <string name="content__message__connect_request__auto_connect__footer">ДОБАВЛЕНЫ АВТОМАТИЧЕСКИ. _УЗНАТЬ БОЛЬШЕ_</string>
+  <string name="content__message__connect_request__user_info">%1$s в адресной книге</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">Поделился(-лась) фотографией</string>
   <string name="in_app_notification__footer__file">Поделился(-лась) файлом</string>
@@ -363,7 +377,7 @@
   <string name="mediaplayer__spotify__hint">Подключить Spotify</string>
   <string name="mediaplayer__open_external">Открыть в браузере</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">НАЧНИТЕ ОБЩЕНИЕ!</string>
+  <string name="content__invite_banner__title">РАССКАЖИТЕ ДРУГИМ!</string>
   <string name="content__invite_banner__subtitle">Добавьте людей или поделитесь ссылкой на этот разговор.</string>
   <string name="content__invite_banner__howto_link">Как это работает?</string>
   <string name="content__invite_banner__button_label">Добавить людей в этот разговор</string>
@@ -398,8 +412,11 @@
   <string name="pref_account_edit_name_title">Изменить имя</string>
   <string name="pref_account_details_category_title">Информация</string>
   <string name="pref_account_actions_category_title">Действия</string>
+  <string name="pref_account_personal_category_title">Личные</string>
   <string name="pref_account_appearance_category_title">Внешний вид</string>
   <string name="pref_account_details_category_summary">Люди могут найти вас с этими данными.</string>
+  <string name="pref_account_personal_category_summary">Информация недоступна другим</string>
+  <string name="pref_account_username_title">Имя пользователя</string>
   <string name="pref_account_phone_title">Телефон</string>
   <string name="pref_account_add_phone_title">Добавить номер телефона</string>
   <string name="pref_account_email_title">Email</string>
@@ -521,6 +538,11 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">Мы вышлем код уведомления на \n%s</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Введите действующий email</string>
   <string name="pref__account_action__dialog__change_email__title">Изменить email</string>
+  <string name="pref__account_action__dialog__change_username__summary">По этому имени люди смогут находить вас в Wire, не зная вашего email или телефона.</string>
+  <string name="pref__account_action__dialog__change_username__rules">Минимум 2 символа. Только a–z, 0–9 и _</string>
+  <string name="pref__account_action__dialog__change_username__title">Имя пользователя</string>
+  <string name="pref__account_action__dialog__change_username__error_already_taken">Уже занято</string>
+  <string name="pref__account_action__dialog__change_username__error_unknown">Ошибка соединения, пожалуйста, попробуйте снова</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
   <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
@@ -737,7 +759,6 @@ Plural:
   <string name="email_placeholder">Email</string>
   <string name="name_placeholder">Имя</string>
   <string name="registration_back">Назад</string>
-  <string name="connect_request__inbox__header">%s</string>
   <!-- Strings -->
   <string name="your_phone_number">Ваш номер телефона</string>
   <string name="edit_phone_number">ИЗМЕНИТЬ НОМЕР ТЕЛЕФОНА</string>
@@ -762,6 +783,7 @@ Plural:
   <string name="hello">Привет, &lt;b&gt;%s&lt;/b&gt;</string>
   <string name="sign_in">Войти</string>
   <string name="new_reg__password_length">НЕ МЕНЕЕ %1$s СИМВОЛОВ</string>
+  <string name="username__set__toast_error">Ошибка обновления имени пользователя</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Поиск Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
@@ -950,6 +972,12 @@ Plural:
   <string name="ephemeral_message__timeout__5_min">5 минут</string>
   <string name="ephemeral_message__timeout__1_day">1 день</string>
   <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _Осталось %2$s_</string>
+  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
+  <string name="usernames__take_over__title">Имена пользователей уже здесь.</string>
+  <string name="usernames__take_over__summary">Зарегистрируйте своё уникальное имя в Wire. _Подробнее._</string>
+  <string name="usernames__take_over__choose">ВЫБРАТЬ СВОЁ</string>
+  <string name="usernames__take_over__keep">ОСТАВИТЬ ЭТО</string>
+  <string name="pref_account_username_empty_title">Добавить имя пользователя</string>
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d день</item>
     <item quantity="few">%1$d дня</item>
