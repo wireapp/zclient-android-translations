@@ -154,7 +154,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">شارك واير مع أصدقائك</string>
   <string name="people_picker__invite__share_text__header">%1$s يريد الارتباط بك على واير.</string>
-  <string name="people_picker__invite__share_text__body">I am on Wire, search for %1$s or visit wire.com/download</string>
+  <string name="people_picker__invite__share_text__body">أنا على واير، أحدثكم هناك https://get.wire.com</string>
   <string name="people_picker__invite__message">مرحبا،  n\  شكرا لهذه الدعوة. دعنا نرتبط. </string>
   <string name="people_picker__invite__sent_feedback">تم إرسال الدعوة</string>
   <string name="people_picker__contact_list__user_selection_button__label">فتح</string>
@@ -163,16 +163,6 @@
   <string name="people_picker__contact_list__invite_dialog__title">إرسال دعوة</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 البحث حسب الاسم</string>
   <string name="people_picker__contact_list__generic_invite__button__label">ادعُ المزيد من الأشخاص</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="zero">%1$d people in common</item>
-    <item quantity="one">%1$d person in common</item>
-    <item quantity="two">%1$d people in common</item>
-    <item quantity="few">%1$d people in common</item>
-    <item quantity="many">%1$d people in common</item>
-    <item quantity="other">%1$d people in common</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s in Address Book</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">في سِجلّ العناوين</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">فتح</string>
   <string name="conversation_quick_menu__conversation_button__group_label">إنشاء مجموعة</string>
@@ -294,16 +284,7 @@
   <string name="connect__message">مرحبا %1$s ، هيا لنتصل عبر واير. %2$s</string>
   <string name="connect_request__common_users__label">كلاكما تعرفان</string>
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="zero">%1$d people in common</item>
-    <item quantity="one">%1$d person in common</item>
-    <item quantity="two">%1$d people in common</item>
-    <item quantity="few">%1$d people in common</item>
-    <item quantity="many">%1$d people in common</item>
-    <item quantity="other">%1$d people in common</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">معلق</string>
-  <string name="connect_request__cancel_request__label">إلغاء طلب الاتصال</string>
   <string name="connect_request__unblock__button__text">إلغاء حظر</string>
   <string name="send_connect_request__connect_button__text">الاتصال</string>
   <string name="connect_inbox__one_person__link__name">1 شخص في الانتظار</string>
@@ -311,7 +292,6 @@
   <string name="connect_request__ignore_button__text">تجاهل</string>
   <string name="content__message__connect_request__footer">متصل</string>
   <string name="content__message__connect_request__auto_connect__footer">ربط تلقائي. _اعرف المزيد_</string>
-  <string name="content__message__connect_request__user_info">%1$s in Address Book</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">شارك صورة</string>
   <string name="in_app_notification__footer__file">شارك ملف</string>
@@ -433,11 +413,8 @@
   <string name="pref_account_edit_name_title">تعديل الاسم</string>
   <string name="pref_account_details_category_title">معلومات</string>
   <string name="pref_account_actions_category_title">الإجراءات</string>
-  <string name="pref_account_personal_category_title">شخصي</string>
   <string name="pref_account_appearance_category_title">المظهر</string>
   <string name="pref_account_details_category_summary">سيتمكن الناس من ايجادك من خلال هذه التفاصيل.</string>
-  <string name="pref_account_personal_category_summary">The information is not visible to anyone else</string>
-  <string name="pref_account_username_title">مُعرّف</string>
   <string name="pref_account_phone_title">الهاتف</string>
   <string name="pref_account_add_phone_title">أضف رقم الهاتف</string>
   <string name="pref_account_email_title">البريد الإلكتروني</string>
@@ -560,11 +537,6 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">سوف نقوم بإرسال رمز إعلام إلى: \n%s</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">أدخل بريد إلكتروني صالح</string>
   <string name="pref__account_action__dialog__change_email__title">تعديل عنوان البريد الإلكتروني</string>
-  <string name="pref__account_action__dialog__change_username__summary">With this username, people will be able to find you on Wire without knowing your email address or phone number.</string>
-  <string name="pref__account_action__dialog__change_username__rules">At least 2 characters. a–z, 0–9, and _ only</string>
-  <string name="pref__account_action__dialog__change_username__title">مُعرّف</string>
-  <string name="pref__account_action__dialog__change_username__error_already_taken">تمّ استخدامه</string>
-  <string name="pref__account_action__dialog__change_username__error_unknown">Connection error, please try again</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
   <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
@@ -821,6 +793,7 @@
   <string name="email_placeholder">البريد الإلكتروني</string>
   <string name="name_placeholder">الاسم</string>
   <string name="registration_back">العودة</string>
+  <string name="connect_request__inbox__header">%s</string>
   <!-- Strings -->
   <string name="your_phone_number">رقم هاتفك </string>
   <string name="edit_phone_number">تعديل رقم الهاتف</string>
@@ -848,7 +821,6 @@
   <string name="hello">مرحبا، %s &lt; ب &gt; &lt;/b &gt;</string>
   <string name="sign_in">تسجيل الدخول</string>
   <string name="new_reg__password_length">على الأقل %1$s أحرف</string>
-  <string name="username__set__toast_error">Error updating username</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">البحث عن جيفي</string>
   <string name="giphy_preview__title_search">#%s</string>
@@ -1041,12 +1013,6 @@
   <string name="ephemeral_message__timeout__5_min">خمس دقائق</string>
   <string name="ephemeral_message__timeout__1_day">يوم واحد</string>
   <string name="message_footer__status__ephemeral_summary">بقي %1$s \u30FB _%2$s </string>
-  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
-  <string name="usernames__take_over__title">نقدِّم المعرّفات.</string>
-  <string name="usernames__take_over__summary">Claim your unique name on Wire. _Learn more._</string>
-  <string name="usernames__take_over__choose">CHOOSE YOUR OWN</string>
-  <string name="usernames__take_over__keep">KEEP THIS ONE</string>
-  <string name="pref_account_username_empty_title">أضف مُعرّف</string>
   <plurals name="message_footer__expire__days">
     <item quantity="zero">%1$d يوم</item>
     <item quantity="one">%1$d ايام</item>

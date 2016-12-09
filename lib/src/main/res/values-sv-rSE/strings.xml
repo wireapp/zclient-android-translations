@@ -148,7 +148,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Dela Wire med dina vänner.</string>
   <string name="people_picker__invite__share_text__header">%1$s vill ansluta på Wire</string>
-  <string name="people_picker__invite__share_text__body">I am on Wire, search for %1$s or visit wire.com/download</string>
+  <string name="people_picker__invite__share_text__body">Jag är på Wire, ses där https://get.wire.com</string>
   <string name="people_picker__invite__message">Hej,\nTack för inbjudan. Låt oss ansluta.%1$s</string>
   <string name="people_picker__invite__sent_feedback">Inbjudan skickat</string>
   <string name="people_picker__contact_list__user_selection_button__label">ÖPPEN</string>
@@ -157,12 +157,6 @@
   <string name="people_picker__contact_list__invite_dialog__title">Skicka inbjudan</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 SÖK EFTER NAMN</string>
   <string name="people_picker__contact_list__generic_invite__button__label">BJUDA IN FLER PERSONER</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="one">%1$d person in common</item>
-    <item quantity="other">%1$d people in common</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s in Address Book</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">in Address Book</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ÖPPNA</string>
   <string name="conversation_quick_menu__conversation_button__group_label">SKAPA GRUPP</string>
@@ -284,12 +278,7 @@
   <string name="connect__message">Hej %1$s, \nLåt oss ansluta på Wire.\n%2$s</string>
   <string name="connect_request__common_users__label">Ni båda känner</string>
   <string name="connect_request__common_users__connection_counter">+%1$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="one">%1$d person in common</item>
-    <item quantity="other">%1$d people in common</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">Väntande</string>
-  <string name="connect_request__cancel_request__label">Cancel connection request</string>
   <string name="connect_request__unblock__button__text">Avblockera</string>
   <string name="send_connect_request__connect_button__text">Anslut</string>
   <string name="connect_inbox__one_person__link__name">1 person väntar</string>
@@ -297,7 +286,6 @@
   <string name="connect_request__ignore_button__text">Ignorera</string>
   <string name="content__message__connect_request__footer">ANSLUTNA</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTOMATISKT-ANSLUTEN. _LÄR DIG MER_</string>
-  <string name="content__message__connect_request__user_info">%1$s in Address Book</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">Delade ett foto</string>
   <string name="in_app_notification__footer__file">Delade en fil</string>
@@ -402,11 +390,8 @@
   <string name="pref_account_edit_name_title">Redigera namn</string>
   <string name="pref_account_details_category_title">Information</string>
   <string name="pref_account_actions_category_title">Åtgärder</string>
-  <string name="pref_account_personal_category_title">Personligt</string>
   <string name="pref_account_appearance_category_title">Utseende</string>
   <string name="pref_account_details_category_summary">Andra kan hitta dig med dessa uppgifter.</string>
-  <string name="pref_account_personal_category_summary">The information is not visible to anyone else</string>
-  <string name="pref_account_username_title">Användarnanm</string>
   <string name="pref_account_phone_title">Telefon</string>
   <string name="pref_account_add_phone_title">Lägg till telefonnummer</string>
   <string name="pref_account_email_title">E-post</string>
@@ -528,11 +513,6 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">Vi skickar en meddelandekod till:\n%s</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Ange giltig e-postadress</string>
   <string name="pref__account_action__dialog__change_email__title">Redigera e-postadress</string>
-  <string name="pref__account_action__dialog__change_username__summary">With this username, people will be able to find you on Wire without knowing your email address or phone number.</string>
-  <string name="pref__account_action__dialog__change_username__rules">At least 2 characters. a–z, 0–9, and _ only</string>
-  <string name="pref__account_action__dialog__change_username__title">Användarnanm</string>
-  <string name="pref__account_action__dialog__change_username__error_already_taken">Already taken</string>
-  <string name="pref__account_action__dialog__change_username__error_unknown">Connection error, please try again</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
   <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
@@ -733,6 +713,7 @@
   <string name="email_placeholder">E-post</string>
   <string name="name_placeholder">Namn</string>
   <string name="registration_back">Tillbaka</string>
+  <string name="connect_request__inbox__header">%s</string>
   <!-- Strings -->
   <string name="your_phone_number">Ditt telefonnummer</string>
   <string name="edit_phone_number">REDIGERA TELEFONNUMMER</string>
@@ -756,7 +737,6 @@
   <string name="hello">Hej, &lt; b &gt;%s &lt; /b &gt;</string>
   <string name="sign_in">Logga in</string>
   <string name="new_reg__password_length">MINST %1$s TECKEN</string>
-  <string name="username__set__toast_error">Error updating username</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Sök på Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
@@ -944,12 +924,6 @@
   <string name="ephemeral_message__timeout__5_min">5 minuter</string>
   <string name="ephemeral_message__timeout__1_day">1 dag</string>
   <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s kvar_</string>
-  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
-  <string name="usernames__take_over__title">Usernames are here.</string>
-  <string name="usernames__take_over__summary">Claim your unique name on Wire. _Learn more._</string>
-  <string name="usernames__take_over__choose">CHOOSE YOUR OWN</string>
-  <string name="usernames__take_over__keep">KEEP THIS ONE</string>
-  <string name="pref_account_username_empty_title">Lägg till användarnamn</string>
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d dag</item>
     <item quantity="other">%1$d dagar</item>
