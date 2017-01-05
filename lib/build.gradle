@@ -3,17 +3,13 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7'
-        classpath "io.codearte.gradle.nexus:gradle-nexus-staging-plugin:0.5.3"
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.4.12"
     }
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
 apply plugin: 'maven-publish'
-apply plugin: 'signing'
-apply plugin: 'com.jfrog.bintray'
-apply plugin: 'io.codearte.nexus-staging'
+apply plugin: 'com.jfrog.artifactory'
 
 android {
     compileSdkVersion 23
@@ -34,106 +30,41 @@ android {
 
 ext {
     mavenVersion = "1." + System.getenv("BUILD_NUMBER")
-    sonatypeUsername = System.getenv("SONATYPE_USER")
-    sonatypePassword = System.getenv("SONATYPE_PASSWORD")
-    sonatypeRepo = "https://oss.sonatype.org/service/local/staging/deploy/maven2"
-    //sonatypeRepo = "http://192.168.10.18:8081/nexus/content/repositories/releases/"
-
-    allprojects { ext."signing.keyId" = System.getenv("SIGN_ID") }
-    allprojects { ext."signing.secretKeyRingFile" = System.getenv("SIGN_FILE") }
-    allprojects { ext."signing.password" = System.getenv("SIGN_PASSWORD") }
 }
 
 dependencies {
 }
 
+
 publishing {
-    publications {
-
-        repositories.maven {
-            url 'http://192.168.10.18:8081/nexus/content/repositories/releases/'
-            credentials {
-                username "deployment"
-                password "deployment123"
-            }
-        }
-
-        maven(MavenPublication) {
-            artifacts {
-                groupId 'com.wire'
-                artifactId 'wiretranslations'
-                version mavenVersion
-                artifact 'build/outputs/aar/lib-release.aar'
-            }
+   publications {
+        aar(MavenPublication) {
+            groupId 'com.wire'
+            version mavenVersion
+            artifactId 'wiretranslations'
+            artifact 'build/outputs/aar/lib-release.aar'
+            artifact javadocJar
+            artifact sourcesJar
         }
     }
 }
 
-bintray {
-    user = System.getenv("BINTRAY_USER")
-    key = System.getenv("BINTRAY_KEY")
-    publications = ['maven']
-    publish = true
-    pkg {
-        userOrg = 'wire-android'
-        repo = 'releases'
-        name = 'wiretranslations'
-        licenses = ['GPL-3.0']
-        vcsUrl = 'https://github.com/wireapp'
-        version {
-            name = mavenVersion
-            vcsTag = mavenVersion
+artifactory {
+    contextUrl = 'https://wire.jfrog.io/wire'
+    publish {
+        repository {
+            // The Artifactory repository key to publish to
+            repoKey = 'libs-release-local'
+
+            username = System.getenv("ARTIFACTORY_USER")
+            password = System.getenv("ARTIFACTORY_PASSWORD")
+        }
+        defaults {
+            publications('aar')
+            publishArtifacts = true
+            publishPom = true
         }
     }
-}
-
-uploadArchives {
-    configuration = configurations.archives
-    repositories.mavenDeployer {
-        beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
-
-        repository(url: "$sonatypeRepo") {
-            authentication(userName: "$sonatypeUsername", password: "$sonatypePassword")
-        }
-        pom.version = mavenVersion
-        pom.artifactId = "wiretranslations"
-        pom.groupId = "com.wire"
-
-        pom.project {
-            name 'com.wire.wiretranslations'
-            packaging 'aar'
-            version = "${android.defaultConfig.versionName}"
-            description 'This lib contains translations resources for Wire for Android.'
-            url 'https://github.com/wireapp/wire-android-translations'
-
-            licenses {
-                license {
-                    name 'GNU General Public License, Version 3'
-                    url 'https://www.gnu.org/licenses/gpl-3.0.en.html'
-                }
-            }
-
-            developers {
-                developer {
-                    name 'Björn "The Herbinator" Herbig'
-                    email 'bjoern@wire.com'
-                    organization 'Wire Swiss GmbH'
-                    organizationUrl 'https://wire.com/'
-                }
-            }
-
-            scm {
-                connection 'scm:git:git://github.com/wireapp/wire-android-translations.git'
-                developerConnection 'scm:git:ssh://github.com:wireapp/wire-android-translations.git'
-                url 'http://github.com/wireapp/wire-android-translations/tree/master'
-            }
-        }
-    }
-}
-
-nexusStaging {
-    packageGroup = "com.wire"
-    stagingProfileId = "33d607a20b8d47" //optional, but reduce number of calls to Nexus
 }
 
 task sourcesJar(type: Jar) {
@@ -149,14 +80,4 @@ task javadoc(type: Javadoc) {
 task javadocJar(type: Jar, dependsOn: javadoc) {
     classifier = 'javadoc'
     from javadoc.destinationDir
-}
-
-artifacts {
-    archives javadocJar
-    archives sourcesJar
-}
-
-signing {
-    required { has("release") && gradle.taskGraph.hasTask("uploadArchives") }
-    sign configurations.archives
 }
