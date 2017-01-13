@@ -148,7 +148,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Condividi Wire con i tuoi amici.</string>
   <string name="people_picker__invite__share_text__header">%1$s vuole connettersi su Wire</string>
-  <string name="people_picker__invite__share_text__body">Sono su Wire, cerca %1$s o visita wire.com/download</string>
+  <string name="people_picker__invite__share_text__body">Sono su Wire, cerca %1$s o visita get.wire.com</string>
   <string name="people_picker__invite__message">Ciao,\n grazie per l\'invito. Connettiamoci.\n%1$s</string>
   <string name="people_picker__invite__sent_feedback">Invito spedito</string>
   <string name="people_picker__contact_list__user_selection_button__label">APRI</string>
@@ -161,8 +161,8 @@
     <item quantity="one">%1$d persona in comune</item>
     <item quantity="other">%1$d persone in comune</item>
   </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s nella rubrica</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">in Rubrica</string>
+  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s in Contatti</string>
+  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">in Contatti</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">APRI</string>
   <string name="conversation_quick_menu__conversation_button__group_label">CREA GRUPPO</string>
@@ -297,7 +297,7 @@
   <string name="connect_request__ignore_button__text">Ignora</string>
   <string name="content__message__connect_request__footer">CONNESSO</string>
   <string name="content__message__connect_request__auto_connect__footer">CONNESSO AUTOMATICAMENTE. _SCOPRI DI PIÙ_</string>
-  <string name="content__message__connect_request__user_info">%1$s nella rubrica</string>
+  <string name="content__message__connect_request__user_info">%1$s in Contatti</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">Ha condiviso una foto</string>
   <string name="in_app_notification__footer__file">Ha condiviso un file</string>
@@ -405,8 +405,8 @@
   <string name="pref_account_personal_category_title">Personale</string>
   <string name="pref_account_appearance_category_title">Aspetto</string>
   <string name="pref_account_details_category_summary">Le persone ti possono trovare con questi dettagli.</string>
-  <string name="pref_account_personal_category_summary">The information is not visible to anyone else</string>
-  <string name="pref_account_username_title">Nome utente</string>
+  <string name="pref_account_personal_category_summary">L\'informazione non è visibile a nessun altro</string>
+  <string name="pref_account_username_title">Username</string>
   <string name="pref_account_phone_title">Telefono</string>
   <string name="pref_account_add_phone_title">Aggiungi un numero di telefono</string>
   <string name="pref_account_email_title">Email</string>
@@ -529,10 +529,10 @@
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Inserisci un\'email valida</string>
   <string name="pref__account_action__dialog__change_email__title">Modifica indirizzo email</string>
   <string name="pref__account_action__dialog__change_username__summary">Con questo username, le persone saranno in grado di trovarti su Wire senza conoscere il tuo indirizzo email o numero di telefono.</string>
-  <string name="pref__account_action__dialog__change_username__rules">At least 2 characters. a–z, 0–9, and _ only</string>
-  <string name="pref__account_action__dialog__change_username__title">Nome utente</string>
+  <string name="pref__account_action__dialog__change_username__rules">Almeno 2 caratteri. a-z, 0-9, e solo _</string>
+  <string name="pref__account_action__dialog__change_username__title">Username</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">E\' già stato scelto</string>
-  <string name="pref__account_action__dialog__change_username__error_unknown">Connection error, please try again</string>
+  <string name="pref__account_action__dialog__change_username__error_unknown">Connessione non riuscita. Riprova</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
   <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
@@ -756,7 +756,7 @@
   <string name="hello">Ciao, &lt;b&gt;%s&lt;/b&gt;</string>
   <string name="sign_in">Log in</string>
   <string name="new_reg__password_length">ALMENO %1$s CARATTERI</string>
-  <string name="username__set__toast_error">Error updating username</string>
+  <string name="username__set__toast_error">Errore nell\'aggiornamento dell\'username</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Ricerca Giphy</string>
   <string name="giphy_preview__title_search">#%s</string>
@@ -831,13 +831,13 @@
   <string name="otr__remove_device__no_internet__button">OK</string>
   <string name="otr__device_inbox__header">Il tuo account è stato utilizzato su:</string>
   <string name="otr__device_inbox__name">Da: [[%s]]</string>
-  <string name="advanced_image_download_wifi_info">L\'immagine verrà visualizzata quando sarai \n di nuovo su Wi-Fi</string>
+  <string name="advanced_image_download_wifi_info">The picture will appear when you are on WI-FI again</string>
   <string name="change_settings">Cambia impostazioni</string>
   <string name="single_image__save_to_disk__error">Impossibile salvare l\'immagine, nessun accesso per l\'archiviazione esterna</string>
-  <string name="conversation_list__label_action__contacts">CONTATTI</string>
+  <string name="conversation_list__label_action__contacts">PERSONE</string>
   <string name="conversation_list__hint_header">Le conversazioni iniziano qui</string>
   <string name="conversation_list__hint_text">Inizia una conversazione o invita altre persone a partecipare. Chiama, manda messaggi e condividi contenuti in privato o in gruppo.</string>
-  <string name="conversation_list__action_join_call">JOIN</string>
+  <string name="conversation_list__action_join_call">UNISCITI</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__call_video">Videochiama</string>
   <string name="conversation_toolbar__call_audio">Chiama</string>
@@ -927,7 +927,7 @@
   <string name="message_bottom_menu_action_save_fail">Errore nel salvataggio immagine</string>
   <string name="message_footer__tap_to_like">Tocca per mettere mi piace</string>
   <plurals name="message_footer__number_of_likes">
-    <item quantity="one">%1$d persone</item>
+    <item quantity="one">%1$d persona</item>
     <item quantity="other">%1$d persone</item>
   </plurals>
   <string name="message_footer__status__sending">Invio in corso&#8230;</string>
@@ -946,10 +946,10 @@
   <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s rimanenti_</string>
   <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
   <string name="usernames__take_over__title">Usernames sono qui.</string>
-  <string name="usernames__take_over__summary">Claim your unique name on Wire. _Learn more._</string>
+  <string name="usernames__take_over__summary">Rivendica il tuo username su Wire. _Scopri di più. _</string>
   <string name="usernames__take_over__choose">SCEGLI IL TUO</string>
   <string name="usernames__take_over__keep">TIENI QUESTO</string>
-  <string name="pref_account_username_empty_title">Aggiungi nome utente</string>
+  <string name="pref_account_username_empty_title">Aggiungi username</string>
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d giorno</item>
     <item quantity="other">%1$d giorni</item>

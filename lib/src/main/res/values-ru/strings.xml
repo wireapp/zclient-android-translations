@@ -22,8 +22,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
   <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Настройки</string>
-  <string name="camera_not_available">КАМЕРА НЕ ДОСТУПНА</string>
-  <string name="camera_permissions_denied_title">Камера не доступна</string>
+  <string name="camera_not_available">КАМЕРА НЕДОСТУПНА</string>
+  <string name="camera_permissions_denied_title">Камера недоступна</string>
   <string name="camera_permissions_denied_message">Для отправки фотографий разрешите доступ к камере</string>
   <!-- Registration and Sign in -->
   <string name="welcome__slogan">Современное приватное общение.</string>
@@ -152,7 +152,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Расскажите своим друзьям о Wire.</string>
   <string name="people_picker__invite__share_text__header">%1$s хочет добавиться в Wire</string>
-  <string name="people_picker__invite__share_text__body">Я использую Wire, введи в поиске %1$s или перейди на wire.com/download</string>
+  <string name="people_picker__invite__share_text__body">Я использую Wire. Ищите меня там по имени %1$s или посетите сайт get.wire.com.</string>
   <string name="people_picker__invite__message">Привет,\nспасибо за приглашение. Давай общаться!\n%1$s</string>
   <string name="people_picker__invite__sent_feedback">Приглашение отправлено</string>
   <string name="people_picker__contact_list__user_selection_button__label">ОТКРЫТЬ</string>
@@ -166,8 +166,8 @@
     <item quantity="few">%1$d общих знакомых</item>
     <item quantity="other">%1$d общих знакомых</item>
   </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s в адресной книге</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">В адресной книге</string>
+  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s в контактах</string>
+  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">в контактах</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ОТКРЫТЬ</string>
   <string name="conversation_quick_menu__conversation_button__group_label">Создать группу</string>
@@ -303,7 +303,7 @@
   <string name="connect_request__ignore_button__text">Игнорировать</string>
   <string name="content__message__connect_request__footer">КОНТАКТ ДОБАВЛЕН</string>
   <string name="content__message__connect_request__auto_connect__footer">ДОБАВЛЕНЫ АВТОМАТИЧЕСКИ. _УЗНАТЬ БОЛЬШЕ_</string>
-  <string name="content__message__connect_request__user_info">%1$s в адресной книге</string>
+  <string name="content__message__connect_request__user_info">%1$s в контактах</string>
   <!-- In-App Notifications -->
   <string name="in_app_notification__footer__photo">Поделился(-лась) фотографией</string>
   <string name="in_app_notification__footer__file">Поделился(-лась) файлом</string>
@@ -858,10 +858,10 @@ Plural:
   <string name="otr__remove_device__no_internet__button">OK</string>
   <string name="otr__device_inbox__header">Ваша учетная запись использовалась на:</string>
   <string name="otr__device_inbox__name">От: [[%s]]</string>
-  <string name="advanced_image_download_wifi_info">Изображение появится, когда вы \n снова подключитесь к Wi-Fi</string>
+  <string name="advanced_image_download_wifi_info">Изображение появится, когда вы снова подключитесь к Wi-Fi</string>
   <string name="change_settings">Изменить настройки</string>
   <string name="single_image__save_to_disk__error">Не удается сохранить изображение, нет доступа к внешнему хранилищу</string>
-  <string name="conversation_list__label_action__contacts">КОНТАКТЫ</string>
+  <string name="conversation_list__label_action__contacts">УЧАСТНИКИ</string>
   <string name="conversation_list__hint_header">Разговоры начинаются здесь</string>
   <string name="conversation_list__hint_text">Начни разговор или пригласи друзей. Звонки, сообщения и многое другое - приватно или в группе.</string>
   <string name="conversation_list__action_join_call">ПРИСОЕДИНИТЬСЯ</string>
@@ -955,8 +955,8 @@ Plural:
   <string name="message_footer__tap_to_like">Нажмите, чтобы лайкнуть</string>
   <plurals name="message_footer__number_of_likes">
     <item quantity="one">%1$d человек</item>
-    <item quantity="few">%1$d человек</item>
-    <item quantity="other">%1$d людей</item>
+    <item quantity="few">%1$d человека</item>
+    <item quantity="other">%1$d человек</item>
   </plurals>
   <string name="message_footer__status__sending">Отправка...</string>
   <string name="message_footer__status__sent">%1$s \u30FB Отправлено</string>
