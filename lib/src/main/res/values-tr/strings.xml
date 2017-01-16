@@ -713,6 +713,10 @@
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year">EEE, MMM d, YYYY, %1$s</string>
   <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
+  <string name="timestamp_pattern__date_and_time__no_year_no_weekday">MMM d, %1$s</string>
+  <!-- Example: FRIDAY, MAR 9, 11:29 -->
+  <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
+  <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
   <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
@@ -831,7 +835,7 @@
   <string name="otr__remove_device__no_internet__button">TAMAM</string>
   <string name="otr__device_inbox__header">Hesabınızın kullanıldığı cihazlar:</string>
   <string name="otr__device_inbox__name">Gönderen: [[%s]]</string>
-  <string name="advanced_image_download_wifi_info">The picture will appear when you are on WI-FI again</string>
+  <string name="advanced_image_download_wifi_info">Bu resim, siz Wi-Fi\'dayken tekrar görünecek</string>
   <string name="change_settings">Ayarları Değiştir</string>
   <string name="single_image__save_to_disk__error">Resim kaydedilemedi, harici depolamaya erişim yok</string>
   <string name="conversation_list__label_action__contacts">KİŞİLER</string>
@@ -839,6 +843,7 @@
   <string name="conversation_list__hint_text">Bir sohbet başlatın veya arkadaşlarınızı katılmaları için davet edin. Bire birde veya grup halidne arama yapın, mesajlaşın, paylaşın.</string>
   <string name="conversation_list__action_join_call">KATIL</string>
   <!-- Conversation Toolbar -->
+  <string name="conversation_toolbar__collection">Koleksiyon</string>
   <string name="conversation_toolbar__call_video">Görüntülü arama</string>
   <string name="conversation_toolbar__call_audio">Sesli arama</string>
   <string name="conversation_toolbar__delete">Sil</string>
@@ -922,6 +927,7 @@
   <string name="message_bottom_menu_action_open">Aç</string>
   <string name="message_bottom_menu_action_delete_local">Benim için sil</string>
   <string name="message_bottom_menu_action_delete_global">Herkesten sil</string>
+  <string name="message_bottom_menu_action_forward_multiple">Çoklu ilet</string>
   <string name="likes_list__header">Beğenen</string>
   <string name="message_bottom_menu_action_save_ok">Resim kaydedildi</string>
   <string name="message_bottom_menu_action_save_fail">Resim kaydedilirken hata oluştu</string>
@@ -966,4 +972,13 @@
     <item quantity="one">%1$d saniye</item>
     <item quantity="other">%1$d saniye</item>
   </plurals>
+  <string name="collection_header_all">KOLEKSİYON</string>
+  <string name="collection_header_pictures">RESİMLER</string>
+  <string name="collection_header_files">DOSYALAR</string>
+  <string name="collection_header_links">BAĞLANTILAR</string>
+  <string name="collection_header_today">BUGÜN</string>
+  <string name="collection_header_yesterday">DÜN</string>
+  <string name="collection_empty">KOLEKSİYONDA HİÇBİR ŞEY YOK</string>
+  <string name="collection_send_to">GÖNDER&#8230;</string>
+  <string name="collection_all">%1$s tümünü göster</string>
 </resources>
