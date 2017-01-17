@@ -713,6 +713,10 @@
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year">EEE, MMM d, YYYY, %1$s</string>
   <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
+  <string name="timestamp_pattern__date_and_time__no_year_no_weekday">MMM d, %1$s</string>
+  <!-- Example: FRIDAY, MAR 9, 11:29 -->
+  <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
+  <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
   <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
@@ -839,6 +843,7 @@
   <string name="conversation_list__hint_text">Inicia una conversación o invita más personas a unirse. Realiza llamadas, envía mensajes y comparte en privado o con grupos.</string>
   <string name="conversation_list__action_join_call">ÚNETE</string>
   <!-- Conversation Toolbar -->
+  <string name="conversation_toolbar__collection">Collection</string>
   <string name="conversation_toolbar__call_video">Videollamada</string>
   <string name="conversation_toolbar__call_audio">Llamada</string>
   <string name="conversation_toolbar__delete">Eliminar</string>
@@ -922,6 +927,7 @@
   <string name="message_bottom_menu_action_open">Abrir</string>
   <string name="message_bottom_menu_action_delete_local">Eliminar para mi</string>
   <string name="message_bottom_menu_action_delete_global">Eliminar para todos</string>
+  <string name="message_bottom_menu_action_forward_multiple">Forward to multiple</string>
   <string name="likes_list__header">Le ha gustado a</string>
   <string name="message_bottom_menu_action_save_ok">Foto guardada</string>
   <string name="message_bottom_menu_action_save_fail">Error guardando imagen</string>
@@ -966,4 +972,13 @@
     <item quantity="one">%1$d segundo</item>
     <item quantity="other">%1$d segundos</item>
   </plurals>
+  <string name="collection_header_all">COLLECTION</string>
+  <string name="collection_header_pictures">PICTURES</string>
+  <string name="collection_header_files">FILES</string>
+  <string name="collection_header_links">LINKS</string>
+  <string name="collection_header_today">TODAY</string>
+  <string name="collection_header_yesterday">YESTERDAY</string>
+  <string name="collection_empty">NO ITEMS IN COLLECTION</string>
+  <string name="collection_send_to">SEND TO&#8230;</string>
+  <string name="collection_all">Show all %1$s</string>
 </resources>

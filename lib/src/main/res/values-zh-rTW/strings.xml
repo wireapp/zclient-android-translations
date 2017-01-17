@@ -694,6 +694,10 @@
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year">EEE，MMM d，YYYY，%1$s</string>
   <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
+  <string name="timestamp_pattern__date_and_time__no_year_no_weekday">MMM d, %1$s</string>
+  <!-- Example: FRIDAY, MAR 9, 11:29 -->
+  <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
+  <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
   <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
@@ -819,6 +823,7 @@
   <string name="conversation_list__hint_text">開啟新的聊天室或邀請朋友加入。盡情在個人或群組聊天室中傳達訊息、通話和分享事物。</string>
   <string name="conversation_list__action_join_call">JOIN</string>
   <!-- Conversation Toolbar -->
+  <string name="conversation_toolbar__collection">Collection</string>
   <string name="conversation_toolbar__call_video">視訊通話</string>
   <string name="conversation_toolbar__call_audio">語音通話</string>
   <string name="conversation_toolbar__delete">刪除</string>
@@ -902,6 +907,7 @@
   <string name="message_bottom_menu_action_open">開啟</string>
   <string name="message_bottom_menu_action_delete_local">為自己刪除</string>
   <string name="message_bottom_menu_action_delete_global">為每個人刪除</string>
+  <string name="message_bottom_menu_action_forward_multiple">Forward to multiple</string>
   <string name="likes_list__header">被喜歡</string>
   <string name="message_bottom_menu_action_save_ok">相片已儲存</string>
   <string name="message_bottom_menu_action_save_fail">保存图像出错</string>
@@ -941,4 +947,13 @@
   <plurals name="message_footer__expire__seconds">
     <item quantity="other">%1$d 秒</item>
   </plurals>
+  <string name="collection_header_all">COLLECTION</string>
+  <string name="collection_header_pictures">PICTURES</string>
+  <string name="collection_header_files">FILES</string>
+  <string name="collection_header_links">LINKS</string>
+  <string name="collection_header_today">TODAY</string>
+  <string name="collection_header_yesterday">YESTERDAY</string>
+  <string name="collection_empty">NO ITEMS IN COLLECTION</string>
+  <string name="collection_send_to">SEND TO&#8230;</string>
+  <string name="collection_all">Show all %1$s</string>
 </resources>
