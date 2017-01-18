@@ -694,6 +694,10 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year">YYYY/MM/dd E, %1$s</string>
   <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
+  <string name="timestamp_pattern__date_and_time__no_year_no_weekday">MMM d, %1$s</string>
+  <!-- Example: FRIDAY, MAR 9, 11:29 -->
+  <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
+  <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__single_message">YYYY/MM/dd E \u30FB %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
   <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
@@ -819,6 +823,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="conversation_list__hint_text">会話を始めるか、参加する人をさらに招待します。プライベートに、またはグループで通話、メッセージ、シェアをします。</string>
   <string name="conversation_list__action_join_call">参加する</string>
   <!-- Conversation Toolbar -->
+  <string name="conversation_toolbar__collection">コレクション</string>
   <string name="conversation_toolbar__call_video">ビデオ通話</string>
   <string name="conversation_toolbar__call_audio">音声通話</string>
   <string name="conversation_toolbar__delete">削除</string>
@@ -902,6 +907,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="message_bottom_menu_action_open">開く</string>
   <string name="message_bottom_menu_action_delete_local">自分宛を削除</string>
   <string name="message_bottom_menu_action_delete_global">すべての人宛を削除</string>
+  <string name="message_bottom_menu_action_forward_multiple">多数に転送</string>
   <string name="likes_list__header">いいね！しました</string>
   <string name="message_bottom_menu_action_save_ok">写真を保存しました</string>
   <string name="message_bottom_menu_action_save_fail">画像の保存時にエラー</string>
@@ -941,4 +947,13 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <plurals name="message_footer__expire__seconds">
     <item quantity="other">%1$d秒前</item>
   </plurals>
+  <string name="collection_header_all">コレクション</string>
+  <string name="collection_header_pictures">写真</string>
+  <string name="collection_header_files">ファイル</string>
+  <string name="collection_header_links">リンク</string>
+  <string name="collection_header_today">今日</string>
+  <string name="collection_header_yesterday">昨日</string>
+  <string name="collection_empty">コレクションにアイテムはありません</string>
+  <string name="collection_send_to">送信...</string>
+  <string name="collection_all">全てを表示 %1$s</string>
 </resources>
