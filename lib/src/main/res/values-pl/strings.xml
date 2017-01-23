@@ -187,7 +187,7 @@
   <string name="content_system_message_timestamp_pending">Wysyłanie\u2026</string>
   <string name="content_system_message_timestamp_deleted">Usunięto %1$s</string>
   <!-- Conversation: missed call -->
-  <string name="content__missed_call__you_called">[[YOU]] dzwoniłeś</string>
+  <string name="content__missed_call__you_called">[[TY]] dzwoniłeś</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] dzwonił</string>
   <string name="content__you_pinged">[[YOU]] Zaczepiłeś</string>
   <string name="content__you_pinged_again">[[TY]] Zaczepiłeś ponownie</string>
@@ -223,7 +223,7 @@
   <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · POBIERANIE&#8230;</string>
   <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s _Błąd pobierania_</string>
   <string name="content__file__status__upload_failed__size_and_extension">%1$s %2$s _Błąd przesyłania_</string>
-  <string name="content__file__action__open">Otwarte</string>
+  <string name="content__file__action__open">Otwórz</string>
   <string name="content__file__action__save">Zapisz</string>
   <string name="content__file__action__share">Udostępnij</string>
   <string name="content__file__action__open__no_app_found">Nie znaleziono aplikacji, która otworzy ten plik</string>
@@ -266,8 +266,8 @@
   <string name="calling__cannot_start__ongoing_voice__button_negative">Anuluj</string>
   <string name="calling__video_call__slow_connection__message">Możesz doświadczać problemy podczas połączenia</string>
   <string name="calling__header__joining">dołączenie</string>
-  <string name="calling__header__outgoing_subtitle">nawiązywanie połączenia</string>
-  <string name="calling__header__outgoing_video_subtitle">dzwoni</string>
+  <string name="calling__header__outgoing_subtitle">dzwoni</string>
+  <string name="calling__header__outgoing_video_subtitle">nawiązywanie połączenia</string>
   <string name="calling__header__incoming_subtitle">połaczenie</string>
   <string name="calling__header__incoming_subtitle__video">połączenie video</string>
   <string name="incoming__controls__incoming__decline">SPADEK</string>
@@ -311,9 +311,9 @@
   <string name="in_app_notification__footer__pinged_again">Zaczepiony ponownie</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
-    <item quantity="one">%1$s rozpoczął korzystanie z nowego urządzenia.</item>
+    <item quantity="one">%1$s rozpoczął korzystać z nowego urządzenia.</item>
     <item quantity="few">%1$s rozpoczął korzystanie z nowego urządzenia.</item>
-    <item quantity="other">%1$s rozpoczęcie używania nowego urządzenia.</item>
+    <item quantity="other">%1$s started using new devices.</item>
   </plurals>
   <string name="conversation__degraded_confirmation__header__someone">Kto zaczął używać nowego urządzenia.</string>
   <string name="conversation__degraded_confirmation__header__multiple_user">%1$s i %2$s zaczęli używać nowe urządzenia.</string>
@@ -364,7 +364,7 @@
   <string name="connect_request__footer__blocked_label">Zablokowano</string>
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Usunąć zawartość?</string>
-  <string name="confirmation_menu__meta_delete_text">To usunie historię rozmów i usunie kontakt z twojej listy.</string>
+  <string name="confirmation_menu__meta_delete_text">To usunie historię konwersacji i usunie kontakt z twojej listy.</string>
   <string name="confirmation_menu__confirm_delete">Usuń</string>
   <string name="confirmation_menu__delete_conversation__checkbox__label">Również opuść rozmowę</string>
   <!-- Rich media -->
@@ -411,7 +411,7 @@
   <string name="pref_account_actions_category_title">Akcje</string>
   <string name="pref_account_personal_category_title">Prywatnie</string>
   <string name="pref_account_appearance_category_title">Zachowanie</string>
-  <string name="pref_account_details_category_summary">Ludzie mogą znaleźć Cię z tymi szczegółami.</string>
+  <string name="pref_account_details_category_summary">Dzięki tych informacjom inni mogą cię znaleźć.</string>
   <string name="pref_account_personal_category_summary">Informacje nie są widoczne dla innych osób</string>
   <string name="pref_account_username_title">Login</string>
   <string name="pref_account_phone_title">Numer telefonu</string>
@@ -535,7 +535,7 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">Wyślemy kod powiadomienia do: \n%s</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Wprowadź email</string>
   <string name="pref__account_action__dialog__change_email__title">Dodaj adres email</string>
-  <string name="pref__account_action__dialog__change_username__summary">Z tą nazwą użytkownika ludzie będą mogli znaleźć Ciebie w Wire, nie znając Twojego numeru telefonu lub adresu e-mail.</string>
+  <string name="pref__account_action__dialog__change_username__summary">Korzystając z nazwy użytkownika inne osoby będą mogły znaleźć Ciebie w Wire, nie znając Twojego numeru telefonu lub adresu e-mail.</string>
   <string name="pref__account_action__dialog__change_username__rules">Co najmniej 2 znaki. Tylko a-z, 0-9 i _</string>
   <string name="pref__account_action__dialog__change_username__title">Login</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">Już wzięty</string>
@@ -896,7 +896,7 @@
   <string name="audio_message_error__generic">Nie można odtwarzać audio</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Brak aktywnych konwersacji</string>
-  <string name="no_conversation_in_list__message">Dotknij kontakty, aby rozpocząć rozmowę</string>
+  <string name="no_conversation_in_list__message">Dotknij kontakty, aby rozpocząć konwersację</string>
   <string name="cursor__type_a_message">NAPISZ WIADOMOŚĆ</string>
   <string name="cursor__ephemeral_message">Wiadomości czasowe</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
