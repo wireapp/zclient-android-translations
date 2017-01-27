@@ -24,7 +24,7 @@
   <string name="permissions_denied_dialog_settings">Ustawienia</string>
   <string name="camera_not_available">APARAT NIEDOSTĘPNY</string>
   <string name="camera_permissions_denied_title">Aparat niedostępny</string>
-  <string name="camera_permissions_denied_message">Aby wykonać zdjęcie i je wysłać, przyznaj uprawnienia do aparatu</string>
+  <string name="camera_permissions_denied_message">Aby wykonać zdjęcie i je wysłać, zezwól na dostęp do aparatu</string>
   <!-- Registration and Sign in -->
   <string name="welcome__slogan">Nowoczesna i prywatna komunikacja.</string>
   <string name="welcome__terms_of_service">Kontynuując zgadzasz się na _Warunki Korzystania_ z aplikacji.</string>
@@ -59,8 +59,8 @@
   <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
   <string name="new_reg_email_invalid_header">Nieprawidłowy adres e-mail</string>
   <string name="new_reg_email_invalid_message">Podaj poprawny adres e-mail.</string>
-  <string name="new_reg_email_generic_error_header">Nieprawidłowy adres e-mail</string>
-  <string name="new_reg_email_generic_error_message">Podaj poprawny adres e-mail.</string>
+  <string name="new_reg_email_generic_error_header">Coś poszło nie tak</string>
+  <string name="new_reg_email_generic_error_message">Spróbuj ponownie, by zarejestrować się</string>
   <string name="new_reg_email_register_generic_error_header">Niepoprawna informacja</string>
   <string name="new_reg_email_register_generic_error_message">Proszę podaj swoje pełne imię, nazwisko, adres e-mail i hasło.</string>
   <string name="new_reg_email_invalid_login_credentials_header">Niepoprawna informacja</string>
@@ -190,9 +190,7 @@
   <string name="content__missed_call__you_called">[[TY]] dzwoniłeś</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] dzwonił</string>
   <string name="content__you_pinged">[[YOU]] Zaczepiłeś</string>
-  <string name="content__you_pinged_again">[[TY]] Zaczepiłeś ponownie</string>
   <string name="content__xxx_pinged">[[%1$s]] zaczepił</string>
-  <string name="content__xxx_pinged_again">[[%1$s]] Zaczepił ponownie</string>
   <!-- Conversation: E2EE system messages -->
   <string name="content__otr__conversation_verified">Konwersacja zweryfikowana</string>
   <string name="content__otr__conversation_unverified">Konwersacja nie zweryfikowana</string>
@@ -200,7 +198,7 @@
   <string name="content__otr__identity_changed_error">[[%1$s]] zmienił tożsamość na urządzeniu. Niedostarczone wiadomości. _Dowiedz się więcej_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] zaczął ozywać _NOWE URZĄDZENIE_</string>
   <string name="content__otr__start_this_device__message">[[YOU]] zaczął używać _TE URZĄDZENIE_</string>
-  <string name="content__otr__all_fingerprints_verified">Wszystkie odciski palców są zweryfikowane</string>
+  <string name="content__otr__all_fingerprints_verified">WSZYSTKIE UNIKALNE KLUCZE SĄ ZWERYFIKOWANE</string>
   <string name="content__otr__lost_history">Nie mogłeś uzyć the urządzenia przez chwilę. Niektóre wiadomości mogą nie pojawić się tutaj.</string>
   <string name="content__otr__unverified_device__message">Nie jesteś zweryfikowany z _%1$s urządzeń_</string>
   <string name="content__otr__your_unverified_device__message">Nie jesteś zweryfikowany z _%1$s urządzeń_</string>
@@ -474,21 +472,21 @@
   <string name="pref_devices_device_not_verified">Nie zweryfikowane</string>
   <string name="pref_devices_warning_summary">Jeśli nie rozpoznajesz urządzeń, usuń i zresetuj hasło.</string>
   <string name="pref_devices_device_screen_title">Szczegóły urządzenia</string>
-  <string name="pref_devices_device_fingerprint_category_title">Klucz odciska palca</string>
-  <string name="pref_devices_device_fingerprint_summary">Wire daje każdemu urządzeniowi unikalny odcisk palca. Porównaj i sprawdź swoje urządzenia i konwersacje.</string>
+  <string name="pref_devices_device_fingerprint_category_title">Unikalny klucz</string>
+  <string name="pref_devices_device_fingerprint_summary">Wire daje każdemu urządzeniowi unikalny klucz. Porównaj i sprawdź swoje urządzenia oraz konwersacje.</string>
   <string name="pref_devices_device_actions_category_title">Akcje</string>
   <string name="pref_devices_device_trust_title">Zweryfikowano</string>
   <string name="pref_devices_device_reset_session_title">Resetowanie sesji</string>
-  <string name="pref_devices_device_reset_session_summary">Jeśli odcisk palca nie pasują, zresetuj sesję, aby wygenerować nowy klucz po obu stronach.</string>
+  <string name="pref_devices_device_reset_session_summary">Jeśli unikalne kody nie pasują, zresetuj sesję, aby wygenerować nowy klucz po obu stronach.</string>
   <string name="pref_devices_device_remove_title">Usuń urządzenie</string>
   <string name="pref_devices_device_remove_summary">Usuń urządzenie, jeśli przestałeś używać je. Będziesz natychmiast wylogowany z tego urządzenia.</string>
-  <string name="pref_devices_device_fingerprint_copy_description">Odcisk palca</string>
-  <string name="pref_devices_device_fingerprint_copy_toast">Klucz odciska palca skopiowano</string>
+  <string name="pref_devices_device_fingerprint_copy_description">Unikalny klucz</string>
+  <string name="pref_devices_device_fingerprint_copy_toast">Unikalny klucz skopiowano</string>
   <!-- Advanced -->
   <string name="pref_advanced_screen_title">Zaawansowane</string>
   <string name="pref_advanced_debug_report_title">Prześlij raport debugowania</string>
   <string name="pref_advanced_debug_report_summary">To pomoże Wire zdiagnozować problemy.</string>
-  <string name="pref_advanced_analytics_title">Użycie danych i raporty o awariach</string>
+  <string name="pref_advanced_analytics_title">Raportowanie statystyk i błędów</string>
   <string name="pref_advanced_analytics_summary">Ulepsz Wire przesyłając anonimowe informacje.</string>
   <string name="debug_report__title">Wire raport debugowania - %1$s</string>
   <string name="debug_report__body">Proszę opisać czynności wymagane do odtworzenia problemu, zapewnić zrzuty ekranu, jeśli to możliwe i wysłać ten email.\n\n</string>
@@ -565,8 +563,8 @@
   <string name="sign_up__take_picture_dialog__camera">Aparat</string>
   <string name="sign_up__take_picture_dialog__message">Zrób nowe zdjęcie, lub wybierz jedną z istniejących z galerii.</string>
   <string name="sign_up__take_picture_dialog__title">Zrób zdjęcie</string>
-  <string name="sign_up__set_picture__choose">Wybierz swój własny</string>
-  <string name="sign_up__set_picture__keep">Zachowaj wybrany</string>
+  <string name="sign_up__set_picture__choose">Wybierz swoje własne</string>
+  <string name="sign_up__set_picture__keep">Zachowaj wybrane</string>
   <string name="sign_up__set_picture__guidance">Wire jest o wiele ładniejszy ze zdjęciem.</string>
   <string name="sign_up__set_picture__loading">Ładowanie zdjęcia</string>
   <string name="rename_conversation__no_network__message">Musisz być zalogowany, aby zmienić nazwę konwersacji. Sprawdź połączenie i spróbuj ponownie.</string>
@@ -616,7 +614,7 @@
   <string name="notification__message__one_to_one__shared_video">Udostępnij video</string>
   <string name="notification__message__one_to_one__shared_audio">Udostępnij wiadomość audio</string>
   <string name="notification__message__one_to_one__shared_location">Udostępnij lokalizację</string>
-  <string name="notification__message__one_to_one__liked">\u2764 lubi twoja wiadomość</string>
+  <string name="notification__message__one_to_one__liked">\u2764 lubi twoją wiadomość</string>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s w %2$s: \u0020</string>
@@ -631,8 +629,8 @@
   <string name="notification__message__group__remove">usunięte osoby z konwersacji</string>
   <string name="notification__message__multiple__accept_request">zaakceptowane żądania połączenia</string>
   <string name="notification__message__single__accept_request">Zaakceptowane żądania połączenia</string>
-  <string name="notification__message__group__default_conversation_name">konwersacja grupowa</string>
-  <string name="notification__message__group__liked">\u2764 lubi twoja wiadomość</string>
+  <string name="notification__message__group__default_conversation_name">rozmowa grupowa</string>
+  <string name="notification__message__group__liked">\u2764 lubi twoją wiadomość</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_details">Naciśnij przycisk więcej</string>
   <plurals name="notification__message__ephemeral">
@@ -791,8 +789,8 @@
   <string name="giphy_preview__message_via_search">%s · przez giphy.com</string>
   <string name="service_giphy_name">Giphy</string>
   <!--Sketch-->
-  <string name="drawing__tip__picture__message">STUKNIJ KILKUKROTNIE W KOLOR ABY ZMIENIĆ ROZMIAR PĘDZLA.\n\nWSTRZĄŚNIJ ABY USUNĄĆ ZDJĘCIE.</string>
-  <string name="drawing__tip__message">STUKNIJ KILKUKROTNIE W KOLOR ABY ZMIENIĆ ROZMIAR PĘDZLA.\n\nPRZYTRZYMAJ ABY WYPEŁNIĆ POLE JEDNOLITYM KOLOREM.</string>
+  <string name="drawing__tip__picture__message">NACIŚNIJ KOLOR ABY ZMIENIĆ ROZMIAR PĘDZLA.\n\nWSTRZĄŚNIJ ABY USUNĄĆ ZDJĘCIE.</string>
+  <string name="drawing__tip__message">NACIŚNIJ KOLOR ABY ZMIENIĆ ROZMIAR PĘDZLA.\n\nPRZYTRZYMAJ ABY WYPEŁNIĆ OBSZAR.</string>
   <string name="add_a_sketch">Dodaj szkic</string>
   <string name="sketch__emoji_keyboard__size_label__small">MAŁE</string>
   <string name="sketch__emoji_keyboard__size_label__medium">ŚREDNI</string>
@@ -809,7 +807,7 @@
   <string name="location_sharing__enable_system_location__cancel">Anuluj</string>
   <string name="location_sharing__missing_play_services">Usługi Google Play są potrzebne do udostępniania lokalizacji</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">Pusta konwersacja</string>
+  <string name="zms_empty_conversation_name">Pusta rozmowa</string>
   <string name="new_reg__phone_signup__create_account">Utwórz konto</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">Usuń %1$s</string>
@@ -824,9 +822,9 @@
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Zarządzaj urządzeniami</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Wyloguj</string>
   <!-- OTR Participants -->
-  <string name="otr__participant__device_header">Wire nadaje każdemu urządzeniowi unikatowy odcisk palca. Porównaj je z %1$s aby zweryfikować urządzenie z którego korzysta Twój rozmówca.</string>
+  <string name="otr__participant__device_header">Wire daje każdemu urządzeniu unikatowy klucz. Porównaj je z %1$s i sprawdź swoje rozmowy.</string>
   <string name="otr__participant__device_header__no_devices">%1$s używa starszej wersji Wire. Brak urządzeń do wyświetlenia.</string>
-  <string name="otr__participant__device_header__link_text">_Dlaczego warto porównywać odciski palca? _</string>
+  <string name="otr__participant__device_header__link_text">_Sprawdź, dlaczego trzeba porównać unikalny klucz?_</string>
   <string name="otr__participant__device_class__unknown">Nieznane</string>
   <string name="otr__participant__device_class__phone">Numer telefonu</string>
   <string name="otr__participant__device_class__tablet">Tablet</string>
@@ -834,11 +832,11 @@
   <string name="otr__participant__tab_details">Szczegóły</string>
   <string name="otr__participant__tab_devices">Urządzenia</string>
   <string name="otr__device_activated_info">Aktywowano %s</string>
-  <string name="otr__participant__single_device__my_fingerprint_link">Pokaż kody zabezpieczeń moich urządzeń</string>
+  <string name="otr__participant__single_device__my_fingerprint_link">Pokaż unikalny klucz moich urządzeń</string>
   <string name="otr__participant__single_device__reset_session_link">Resetowanie sesji</string>
-  <string name="otr__participant__my_device__description">Twój kod zabezpieczeń</string>
+  <string name="otr__participant__my_device__description">Twój unikalny klucz</string>
   <string name="otr__participant__my_device__show_all_devices_link">Pokaż wszystkie moje urządzenia</string>
-  <string name="otr__participant__single_device__description">Sprawdź, czy ten kod zabezpieczeń odpowiada temu urządzeniowi.%1$s.</string>
+  <string name="otr__participant__single_device__description">Sprawdź, czy ten unikalny klucz odpowiada urządzeniowi %1$s.</string>
   <string name="otr__participant__single_device__how_to_link">_jak mogę to zrobić?_</string>
   <string name="otr__device_id">ID: %s</string>
   <string name="otr__first_launch__header">To jest po raz pierwszy używasz Wire na tym urządzeniu.</string>
@@ -856,7 +854,7 @@
   <string name="otr__remove_device__no_internet__button">OK</string>
   <string name="otr__device_inbox__header">Twoje konto było ostatnio użyte:</string>
   <string name="otr__device_inbox__name">Od: [[%s]]</string>
-  <string name="advanced_image_download_wifi_info">Obraz pojawi się, gdy będziesz na WI-FI ponownie</string>
+  <string name="advanced_image_download_wifi_info">The picture will appear when you are on Wi-Fi again</string>
   <string name="change_settings">Zmień ustawienia</string>
   <string name="single_image__save_to_disk__error">Nie można zapisać obrazu, nie ma dostępu do zewnętrznej pamięci masowej</string>
   <string name="conversation_list__label_action__contacts">OSOBY</string>
