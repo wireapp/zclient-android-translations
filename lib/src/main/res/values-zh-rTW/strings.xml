@@ -199,6 +199,7 @@
   <string name="content__otr__lost_history">您有一段時間沒有使用此設備，可能有部分訊息不會顯示出來。</string>
   <string name="content__otr__unverified_device__message">[[您]] 取消了_%1$s 的某個設備_ 驗證</string>
   <string name="content__otr__your_unverified_device__message">[[您]] 取消了_您的某個設備_ 驗證</string>
+  <string name="content__otr__new_member__message">NEW PEOPLE JOINED. _VERIFY DEVICES_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">正在上傳...</string>
@@ -315,6 +316,8 @@
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="other">顯示設備</item>
   </plurals>
+  <string name="conversation__degraded_confirmation__negative_action_self">Show your devices</string>
+  <string name="conversation_degraded_confirmation__header__you">您</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
     <item quantity="other">%1$d位參與者</item>
@@ -903,9 +906,11 @@
   <string name="message_bottom_menu_action_unlike">象</string>
   <string name="message_bottom_menu_action_save">儲存</string>
   <string name="message_bottom_menu_action_open">開啟</string>
+  <string name="message_bottom_menu_action_delete">刪除</string>
   <string name="message_bottom_menu_action_delete_local">為自己刪除</string>
   <string name="message_bottom_menu_action_delete_global">為每個人刪除</string>
   <string name="message_bottom_menu_action_forward_multiple">Share with multiple</string>
+  <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
   <string name="likes_list__header">被喜歡</string>
   <string name="message_bottom_menu_action_save_ok">相片已儲存</string>
   <string name="message_bottom_menu_action_save_fail">保存图像出错</string>
@@ -952,6 +957,9 @@
   <string name="collection_header_today">TODAY</string>
   <string name="collection_header_yesterday">YESTERDAY</string>
   <string name="collection_empty">NO ITEMS IN COLLECTION</string>
-  <string name="collection_send_to">SEND TO&#8230;</string>
+  <string name="collection_send_to">Send to&#8230;</string>
   <string name="collection_all">Show all %1$s</string>
+  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+  <string name="multi_share_toast_failed">Sending failed</string>
+  <string name="multi_share_search_hint">SEARCH BY CONVERSATION NAME</string>
 </resources>

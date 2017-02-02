@@ -200,6 +200,7 @@
   <string name="content__otr__lost_history">EZT A KÉSZÜLÉKET MÁR EGY IDEJE NEM HASZNÁLTA. NÉHÁNY ÜZENET LEHET NEM JELENIK MEG ITT.</string>
   <string name="content__otr__unverified_device__message">[[YOU]] VISSZAVONTA _%1$s EGYIK DEVICES_ ELLENŐRZÖTTÉSÉGÉT</string>
   <string name="content__otr__your_unverified_device__message">[[YOU]] VISSZAVONTA _YOUR DEVICES_ ELLENŐRZÖTTÉSÉGÉT</string>
+  <string name="content__otr__new_member__message">NEW PEOPLE JOINED. _VERIFY DEVICES_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">FELTÖLTÉS&#8230;</string>
@@ -320,6 +321,8 @@
     <item quantity="one">Eszköz megjelenítése</item>
     <item quantity="other">Eszköz megjelenítése</item>
   </plurals>
+  <string name="conversation__degraded_confirmation__negative_action_self">Show your devices</string>
+  <string name="conversation_degraded_confirmation__header__you">You</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
     <item quantity="one">%1$d EMBEREK</item>
@@ -349,7 +352,7 @@
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Tiltja?</string>
-  <string name="confirmation_menu__block_text_with_name">%1$s won\'t be able to contact you or add you to group conversations.</string>
+  <string name="confirmation_menu__block_text_with_name">%1$s nem lesz képes önnel kapcsolatba lépni vagy meghívni önt csoportos beszélgetésbe.</string>
   <string name="confirmation_menu__confirm_block">TILTÁS</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Letiltva</string>
@@ -833,7 +836,7 @@
   <string name="otr__remove_device__no_internet__button">OK</string>
   <string name="otr__device_inbox__header">Fiókját használja:</string>
   <string name="otr__device_inbox__name">Tőle: [[%s]]</string>
-  <string name="advanced_image_download_wifi_info">The picture will appear when you are on Wi-Fi again</string>
+  <string name="advanced_image_download_wifi_info">A kép meg fog jelenni mikor ön újra a Wi-Fi-n van</string>
   <string name="change_settings">Beállítások megváltoztatása</string>
   <string name="single_image__save_to_disk__error">Kép mentése sikertelen, nincs hozzáférés a külső tárolóhoz</string>
   <string name="conversation_list__label_action__contacts">EMBEREK</string>
@@ -902,7 +905,7 @@
   <string name="conversation__action_mode__copy__toast">Másolva</string>
   <string name="conversation__action_mode__fwd__dialog__title">Tartalom előkészítése</string>
   <string name="conversation__action_mode__fwd__dialog__message">Kérem várjon&#8230;</string>
-  <string name="conversation__action_mode__fwd__chooser__title">Share with</string>
+  <string name="conversation__action_mode__fwd__chooser__title">Megosztás vele</string>
   <!-- video message preview -->
   <string name="video_message__preview__header">Küldés %1$s részére</string>
   <string name="video_message__quick_menu__send_label">Küldés</string>
@@ -923,9 +926,11 @@
   <string name="message_bottom_menu_action_unlike">Nem tetszik</string>
   <string name="message_bottom_menu_action_save">Mentés</string>
   <string name="message_bottom_menu_action_open">Megnyit</string>
+  <string name="message_bottom_menu_action_delete">Törlés</string>
   <string name="message_bottom_menu_action_delete_local">Törlés nekem</string>
   <string name="message_bottom_menu_action_delete_global">Törlés mindenkinél</string>
-  <string name="message_bottom_menu_action_forward_multiple">Share with multiple</string>
+  <string name="message_bottom_menu_action_forward_multiple">Megosztás többel</string>
+  <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
   <string name="likes_list__header">Tetszett neki(k)</string>
   <string name="message_bottom_menu_action_save_ok">Kép elmentve</string>
   <string name="message_bottom_menu_action_save_fail">Hiba a kép mentése közben</string>
@@ -970,13 +975,16 @@
     <item quantity="one">%1$d másodperc</item>
     <item quantity="other">%1$d másodperc</item>
   </plurals>
-  <string name="collection_header_all">COLLECTION</string>
+  <string name="collection_header_all">GYŰJTEMÉNY</string>
   <string name="collection_header_pictures">KÉPEK</string>
   <string name="collection_header_files">FÁJLOK</string>
   <string name="collection_header_links">LINKEK</string>
   <string name="collection_header_today">MA</string>
   <string name="collection_header_yesterday">TEGNAP</string>
-  <string name="collection_empty">NO ITEMS IN COLLECTION</string>
-  <string name="collection_send_to">KÜLDÉS&#8230;</string>
+  <string name="collection_empty">NINCS SEMMI A GYŰJTEMÉNYBEN</string>
+  <string name="collection_send_to">Küldés neki&#8230;</string>
   <string name="collection_all">Összes megjeleítése %1$s</string>
+  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+  <string name="multi_share_toast_failed">Küldés sikertelen</string>
+  <string name="multi_share_search_hint">KERESÉS A BESZÉLGETÉS NEVE ALAPJÁN</string>
 </resources>

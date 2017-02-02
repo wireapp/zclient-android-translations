@@ -200,6 +200,7 @@
   <string name="content__otr__lost_history">NON HAI USATO QUESTO DISPOSITIVO PER UN PO\'. ALCUNI MESSAGGI POTREBBERO NON APPARIRE QUI.</string>
   <string name="content__otr__unverified_device__message">[[TU]] HAI TOLTO LA VERIFICA DI _%1$s DISPOSITIVI_</string>
   <string name="content__otr__your_unverified_device__message">[[TU]] HAI TOLTO LA VERIFICA DI UNO DEI _TUOI DISPOSITIVI_</string>
+  <string name="content__otr__new_member__message">NEW PEOPLE JOINED. _VERIFY DEVICES_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">CARICAMENTO&#8230;</string>
@@ -320,6 +321,8 @@
     <item quantity="one">Visualizza dispositivo</item>
     <item quantity="other">Visualizza persone</item>
   </plurals>
+  <string name="conversation__degraded_confirmation__negative_action_self">Show your devices</string>
+  <string name="conversation_degraded_confirmation__header__you">Tu</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
     <item quantity="one">%1$d PERSONE</item>
@@ -349,7 +352,7 @@
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Bloccare?</string>
-  <string name="confirmation_menu__block_text_with_name">%1$s won\'t be able to contact you or add you to group conversations.</string>
+  <string name="confirmation_menu__block_text_with_name">%1$s non sarà in grado di contattarti o aggiungerti alle conversazioni di gruppo.</string>
   <string name="confirmation_menu__confirm_block">BLOCCA</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Bloccato</string>
@@ -923,9 +926,11 @@
   <string name="message_bottom_menu_action_unlike">Non mi piace più</string>
   <string name="message_bottom_menu_action_save">Salva</string>
   <string name="message_bottom_menu_action_open">Apri</string>
+  <string name="message_bottom_menu_action_delete">Elimina</string>
   <string name="message_bottom_menu_action_delete_local">Elimina per me</string>
   <string name="message_bottom_menu_action_delete_global">Elimina per tutti</string>
   <string name="message_bottom_menu_action_forward_multiple">Share with multiple</string>
+  <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
   <string name="likes_list__header">Piace a</string>
   <string name="message_bottom_menu_action_save_ok">Immagine salvata</string>
   <string name="message_bottom_menu_action_save_fail">Errore nel salvataggio immagine</string>
@@ -977,6 +982,9 @@
   <string name="collection_header_today">TODAY</string>
   <string name="collection_header_yesterday">YESTERDAY</string>
   <string name="collection_empty">NO ITEMS IN COLLECTION</string>
-  <string name="collection_send_to">SEND TO&#8230;</string>
+  <string name="collection_send_to">Send to&#8230;</string>
   <string name="collection_all">Show all %1$s</string>
+  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+  <string name="multi_share_toast_failed">Sending failed</string>
+  <string name="multi_share_search_hint">SEARCH BY CONVERSATION NAME</string>
 </resources>

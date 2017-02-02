@@ -198,6 +198,7 @@
   <string name="content__otr__lost_history">しばらくの間このデバイスを使用していません。一部のメッセージは表示されません。</string>
   <string name="content__otr__unverified_device__message">[[あなた]] _%1$s のデバイス_ の 1 つを確認していません</string>
   <string name="content__otr__your_unverified_device__message">[[あなた]] _あなたのデバイス_ の 1 つを確認していません</string>
+  <string name="content__otr__new_member__message">NEW PEOPLE JOINED. _VERIFY DEVICES_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">アップロード中&#8230;</string>
@@ -314,6 +315,8 @@
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="other">人を表示</item>
   </plurals>
+  <string name="conversation__degraded_confirmation__negative_action_self">デバイスを表示する</string>
+  <string name="conversation_degraded_confirmation__header__you">あなた</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
     <item quantity="other">%1$d 人</item>
@@ -813,7 +816,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="otr__remove_device__no_internet__button">OK</string>
   <string name="otr__device_inbox__header">あなたのアカウントの使用:</string>
   <string name="otr__device_inbox__name">差出人: [[%s]]</string>
-  <string name="advanced_image_download_wifi_info">The picture will appear when you are on Wi-Fi again</string>
+  <string name="advanced_image_download_wifi_info">この写真は、Wi-Fiに再接続したときに表示されます</string>
   <string name="change_settings">設定を変更</string>
   <string name="single_image__save_to_disk__error">画像を保存できません。外部ストレージへのアクセス許可がありません</string>
   <string name="conversation_list__label_action__contacts">友人</string>
@@ -903,9 +906,11 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="message_bottom_menu_action_unlike">いいね！取消</string>
   <string name="message_bottom_menu_action_save">保存</string>
   <string name="message_bottom_menu_action_open">開く</string>
+  <string name="message_bottom_menu_action_delete">削除</string>
   <string name="message_bottom_menu_action_delete_local">自分宛を削除</string>
   <string name="message_bottom_menu_action_delete_global">すべての人宛を削除</string>
   <string name="message_bottom_menu_action_forward_multiple">複数に共有する</string>
+  <string name="message_bottom_menu_action_reveal">会話で表示する</string>
   <string name="likes_list__header">いいね！しました</string>
   <string name="message_bottom_menu_action_save_ok">写真を保存しました</string>
   <string name="message_bottom_menu_action_save_fail">画像の保存時にエラー</string>
@@ -952,6 +957,9 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="collection_header_today">今日</string>
   <string name="collection_header_yesterday">昨日</string>
   <string name="collection_empty">コレクションにアイテムはありません</string>
-  <string name="collection_send_to">送信...</string>
+  <string name="collection_send_to">&#8230;に送信</string>
   <string name="collection_all">全てを表示 %1$s</string>
+  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+  <string name="multi_share_toast_failed">送信できませんでした</string>
+  <string name="multi_share_search_hint">会話の名前で検索</string>
 </resources>

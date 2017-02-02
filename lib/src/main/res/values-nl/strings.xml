@@ -200,6 +200,7 @@
   <string name="content__otr__lost_history">JIJ HEBT DIT APPARAAT ENIGE TIJD NIET GEBRUIKT. SOMMIGE BERICHTEN ZULLEN HIER NIET VERSCHIJNEN.</string>
   <string name="content__otr__unverified_device__message">[[JIJ]] HEBT ÉÉN VAN _%1$s ZIJN APPARATEN_ NIET GECONTROLEERD</string>
   <string name="content__otr__your_unverified_device__message">[[JIJ]] HEBT ÉÉN VAN _JOUW APPARATEN_ NIET GECONTROLEERD</string>
+  <string name="content__otr__new_member__message">NEW PEOPLE JOINED. _VERIFY DEVICES_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">UPLOADING&#8230;</string>
@@ -320,6 +321,8 @@
     <item quantity="one">Toon apparaat</item>
     <item quantity="other">Toon personen</item>
   </plurals>
+  <string name="conversation__degraded_confirmation__negative_action_self">Show your devices</string>
+  <string name="conversation_degraded_confirmation__header__you">Jij</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
     <item quantity="one">%1$d MENSEN</item>
@@ -833,7 +836,7 @@
   <string name="otr__remove_device__no_internet__button">OK</string>
   <string name="otr__device_inbox__header">Je account werd gebruikt op:</string>
   <string name="otr__device_inbox__name">Van: [[%s]]</string>
-  <string name="advanced_image_download_wifi_info">The picture will appear when you are on Wi-Fi again</string>
+  <string name="advanced_image_download_wifi_info">De afbeelding wordt weergegeven als u \n weer op Wi-Fi bent</string>
   <string name="change_settings">Instellingen wijzigen</string>
   <string name="single_image__save_to_disk__error">Kan afbeelding niet opslaan: geen toegang tot externe opslag</string>
   <string name="conversation_list__label_action__contacts">Personen</string>
@@ -923,9 +926,11 @@
   <string name="message_bottom_menu_action_unlike">Vind ik niet leuk</string>
   <string name="message_bottom_menu_action_save">Opslaan</string>
   <string name="message_bottom_menu_action_open">Openen</string>
+  <string name="message_bottom_menu_action_delete">Verwijderen</string>
   <string name="message_bottom_menu_action_delete_local">Verwijder voor mij</string>
   <string name="message_bottom_menu_action_delete_global">Verwijder voor iedereen</string>
   <string name="message_bottom_menu_action_forward_multiple">Deel met meerdere personen</string>
+  <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
   <string name="likes_list__header">Leuk gevonden door</string>
   <string name="message_bottom_menu_action_save_ok">Afbeelding opgeslagen</string>
   <string name="message_bottom_menu_action_save_fail">Fout bij het opslaan van de afbeelding</string>
@@ -977,6 +982,9 @@
   <string name="collection_header_today">VANDAAG</string>
   <string name="collection_header_yesterday">GISTEREN</string>
   <string name="collection_empty">GEEN ITEMS IN COLLECTIE</string>
-  <string name="collection_send_to">STUUR NAAR&#8230;</string>
+  <string name="collection_send_to">Send to&#8230;</string>
   <string name="collection_all">Toon alle %1$s</string>
+  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+  <string name="multi_share_toast_failed">Sending failed</string>
+  <string name="multi_share_search_hint">SEARCH BY CONVERSATION NAME</string>
 </resources>

@@ -36,7 +36,7 @@
   <string name="profile__email__verify__instructions">Wysłaliśmy e-mail na \n[[%1$s]]. \nSprawdź e-mail, by zweryfikować adres.</string>
   <string name="profile__email__verify__didnt_get">Nie dostałeś/aś wiadomości?</string>
   <string name="profile__email__verify__resend">Wyślij ponownie</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Adres e-mail został już użyty.</string>
+  <string name="sign_up__account_creation_error__duplicate_email_header">Ten adres e-mail jest już w użyciu.</string>
   <string name="sign_up__account_creation_error__duplicate_email_message">Adres mailowy, który podałeś został już zarejestrowany. Użyj innego adresu email.</string>
   <string name="profile__guidance__invalid_email">Wprowadzono niepoprawny e-mail. Sprawdź i spróbuj ponownie.</string>
   <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_Sprawdź_ Swój numer</string>
@@ -65,7 +65,7 @@
   <string name="new_reg_email_register_generic_error_message">Proszę podaj swoje pełne imię, nazwisko, adres e-mail i hasło.</string>
   <string name="new_reg_email_invalid_login_credentials_header">Niepoprawna informacja</string>
   <string name="new_reg_email_invalid_login_credentials_message">Sprawdź swoje dane i spróbuj ponownie.</string>
-  <string name="new_reg_phone_exists_header">Numer telefonu został już użyty</string>
+  <string name="new_reg_phone_exists_header">Ten numer telefonu jest już w użyciu</string>
   <string name="new_reg_phone_exists_message">Podany numer telefonu został już zarejestrowany. Spróbuj ponownie.</string>
   <string name="new_reg_phone_invalid_format_header">Nieprawidłowy numer telefonu</string>
   <string name="new_reg_phone_invalid_format_message">Wprowadź poprawny numer telefonu</string>
@@ -202,6 +202,7 @@
   <string name="content__otr__lost_history">Nie mogłeś uzyć the urządzenia przez chwilę. Niektóre wiadomości mogą nie pojawić się tutaj.</string>
   <string name="content__otr__unverified_device__message">Nie jesteś zweryfikowany z _%1$s urządzeń_</string>
   <string name="content__otr__your_unverified_device__message">Nie jesteś zweryfikowany z _%1$s urządzeń_</string>
+  <string name="content__otr__new_member__message">Dołączono nowe osoby. _Zweryfikuj urządzenia_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">PRZESYŁANIE&#8230;</string>
@@ -326,6 +327,8 @@
     <item quantity="few">Pokaż ludzi</item>
     <item quantity="other">Pokaż ludzi</item>
   </plurals>
+  <string name="conversation__degraded_confirmation__negative_action_self">Sprawdź swoje urządzenia</string>
+  <string name="conversation_degraded_confirmation__header__you">Ty</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
     <item quantity="one">%1$d osób</item>
@@ -486,7 +489,7 @@
   <string name="pref_advanced_screen_title">Zaawansowane</string>
   <string name="pref_advanced_debug_report_title">Prześlij raport debugowania</string>
   <string name="pref_advanced_debug_report_summary">To pomoże Wire zdiagnozować problemy.</string>
-  <string name="pref_advanced_analytics_title">Raportowanie statystyk i błędów</string>
+  <string name="pref_advanced_analytics_title">Statystyki i raporty o awariach</string>
   <string name="pref_advanced_analytics_summary">Ulepsz Wire przesyłając anonimowe informacje.</string>
   <string name="debug_report__title">Wire raport debugowania - %1$s</string>
   <string name="debug_report__body">Proszę opisać czynności wymagane do odtworzenia problemu, zapewnić zrzuty ekranu, jeśli to możliwe i wysłać ten email.\n\n</string>
@@ -536,7 +539,7 @@
   <string name="pref__account_action__dialog__change_username__summary">Korzystając z nazwy użytkownika inne osoby będą mogły znaleźć Ciebie w Wire, nie znając Twojego numeru telefonu lub adresu e-mail.</string>
   <string name="pref__account_action__dialog__change_username__rules">Co najmniej 2 znaki. Tylko a-z, 0-9 i _</string>
   <string name="pref__account_action__dialog__change_username__title">Login</string>
-  <string name="pref__account_action__dialog__change_username__error_already_taken">Już wzięty</string>
+  <string name="pref__account_action__dialog__change_username__error_already_taken">Jest już w użyciu</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Błąd połączenia, spróbuj ponownie</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
@@ -854,7 +857,7 @@
   <string name="otr__remove_device__no_internet__button">OK</string>
   <string name="otr__device_inbox__header">Twoje konto było ostatnio użyte:</string>
   <string name="otr__device_inbox__name">Od: [[%s]]</string>
-  <string name="advanced_image_download_wifi_info">The picture will appear when you are on Wi-Fi again</string>
+  <string name="advanced_image_download_wifi_info">Obrazek pojawi się, gdy ponownie będziesz na Wi-Fi</string>
   <string name="change_settings">Zmień ustawienia</string>
   <string name="single_image__save_to_disk__error">Nie można zapisać obrazu, nie ma dostępu do zewnętrznej pamięci masowej</string>
   <string name="conversation_list__label_action__contacts">OSOBY</string>
@@ -944,9 +947,11 @@
   <string name="message_bottom_menu_action_unlike">Przestań lubić</string>
   <string name="message_bottom_menu_action_save">Zapisz</string>
   <string name="message_bottom_menu_action_open">Otwórz</string>
+  <string name="message_bottom_menu_action_delete">Usuń</string>
   <string name="message_bottom_menu_action_delete_local">Usuń dla mnie</string>
   <string name="message_bottom_menu_action_delete_global">Usuń dla wszystkich</string>
   <string name="message_bottom_menu_action_forward_multiple">Udostępnij wielu osobom</string>
+  <string name="message_bottom_menu_action_reveal">Wyjaw w rozmowie</string>
   <string name="likes_list__header">Lubiany przez</string>
   <string name="message_bottom_menu_action_save_ok">Obraz zapisany</string>
   <string name="message_bottom_menu_action_save_fail">Wystąpił błąd podczas zapisywania obrazu</string>
@@ -1003,6 +1008,9 @@
   <string name="collection_header_today">DZISIAJ</string>
   <string name="collection_header_yesterday">WCZORAJ</string>
   <string name="collection_empty">BRAK ELEMENTÓW W KOLEKCJI</string>
-  <string name="collection_send_to">WYŚLIJ DO&#8230;</string>
+  <string name="collection_send_to">Wyślij do&#8230;</string>
   <string name="collection_all">Pokaż wszystkie %1$s</string>
+  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+  <string name="multi_share_toast_failed">Wysyłanie nie powiodło się</string>
+  <string name="multi_share_search_hint">Szukaj po nazwie rozmowy</string>
 </resources>

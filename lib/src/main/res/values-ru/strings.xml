@@ -205,6 +205,7 @@
   <string name="content__otr__lost_history">ВЫ НЕ ИСПОЛЬЗОВАЛИ ЭТО УСТРОЙСТВО НЕКОТОРОЕ ВРЕМЯ. НЕКОТОРЫЕ СООБЩЕНИЯ МОГУТ БЫТЬ НЕ ПОКАЗАНЫ.</string>
   <string name="content__otr__unverified_device__message">[[ВЫ]] ОТМЕТИЛИ ОДНО ИЗ УСТРОЙСТВ _%1$s_ КАК НЕПРОВЕРЕННОЕ</string>
   <string name="content__otr__your_unverified_device__message">[[ВЫ]] ОТМЕТИЛИ ОДНО ИЗ _YOUR DEVICES_ КАК НЕПРОВЕРЕННОЕ</string>
+  <string name="content__otr__new_member__message">ПРИСОЕДИНИЛИСЬ НОВЫЕ ЛЮДИ. _ВЕРИФИЦИРУЙТЕ УСТРОЙСТВА_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">ЗАГРУЗКА&#8230;</string>
@@ -329,6 +330,8 @@
     <item quantity="few">Показать список контактов</item>
     <item quantity="other">Показать список контактов</item>
   </plurals>
+  <string name="conversation__degraded_confirmation__negative_action_self">Показать ваши устройства</string>
+  <string name="conversation_degraded_confirmation__header__you">Вы</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
     <item quantity="one">%1$d  участник</item>
@@ -860,7 +863,7 @@ Plural:
   <string name="otr__remove_device__no_internet__button">OK</string>
   <string name="otr__device_inbox__header">Ваша учетная запись использовалась на:</string>
   <string name="otr__device_inbox__name">От: [[%s]]</string>
-  <string name="advanced_image_download_wifi_info">The picture will appear when you are on Wi-Fi again</string>
+  <string name="advanced_image_download_wifi_info">Изображение появится, когда вы снова подключитесь к Wi-Fi</string>
   <string name="change_settings">Изменить настройки</string>
   <string name="single_image__save_to_disk__error">Не удается сохранить изображение, нет доступа к внешнему хранилищу</string>
   <string name="conversation_list__label_action__contacts">УЧАСТНИКИ</string>
@@ -950,9 +953,11 @@ Plural:
   <string name="message_bottom_menu_action_unlike">Не нравится</string>
   <string name="message_bottom_menu_action_save">Сохранить</string>
   <string name="message_bottom_menu_action_open">Открыть</string>
+  <string name="message_bottom_menu_action_delete">Удалить</string>
   <string name="message_bottom_menu_action_delete_local">Удалить для меня</string>
   <string name="message_bottom_menu_action_delete_global">Удалить для всех</string>
   <string name="message_bottom_menu_action_forward_multiple">Поделиться с несколькими</string>
+  <string name="message_bottom_menu_action_reveal">Показать в разговоре</string>
   <string name="likes_list__header">Понравилось</string>
   <string name="message_bottom_menu_action_save_ok">Изображение сохранено</string>
   <string name="message_bottom_menu_action_save_fail">Ошибка при сохранении изображения</string>
@@ -1009,6 +1014,9 @@ Plural:
   <string name="collection_header_today">СЕГОДНЯ</string>
   <string name="collection_header_yesterday">ВЧЕРА</string>
   <string name="collection_empty">НЕТ ЭЛЕМЕНТОВ В КОЛЛЕКЦИИ</string>
-  <string name="collection_send_to">ОТПРАВИТЬ...</string>
+  <string name="collection_send_to">Отправить&#8230;</string>
   <string name="collection_all">Показать все %1$s</string>
+  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+  <string name="multi_share_toast_failed">Отправка не удалась</string>
+  <string name="multi_share_search_hint">ПОИСК ПО НАЗВАНИЮ РАЗГОВОРА</string>
 </resources>

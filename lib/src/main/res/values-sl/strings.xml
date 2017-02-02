@@ -204,6 +204,7 @@
   <string name="content__otr__lost_history">TE NAPRAVE NEKAJ ČASA NISTE UPORABLJALI. NEKATERA SPOROČILA SE MORDA TUKAJ NE BODO POJAVILA.</string>
   <string name="content__otr__unverified_device__message">[[TI]] SI ODSTRANIL(-A) PREVERITEV NA ENI IZMED NAPRAV OD _%1$s_</string>
   <string name="content__otr__your_unverified_device__message">[[TI]] SI ODSTRANIL(-A) PREVERITEV NA ENI IZMED _TVOJIH NAPRAV_</string>
+  <string name="content__otr__new_member__message">NOVE OSEBE SO SE PRIDRUŽILE. _PREVERITE NAPRAVE_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">NALAGANJE&#8230;</string>
@@ -332,6 +333,8 @@
     <item quantity="few">Pokaži osebe</item>
     <item quantity="other">Pokaži osebe</item>
   </plurals>
+  <string name="conversation__degraded_confirmation__negative_action_self">Prikaži vaše naprave</string>
+  <string name="conversation_degraded_confirmation__header__you">Ti</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
     <item quantity="one">%1$d OSEBA</item>
@@ -875,7 +878,7 @@
   <string name="otr__remove_device__no_internet__button">V redu</string>
   <string name="otr__device_inbox__header">Vaš račun je bil uporabljen na:</string>
   <string name="otr__device_inbox__name">Od: [[%s]]</string>
-  <string name="advanced_image_download_wifi_info">The picture will appear when you are on Wi-Fi again</string>
+  <string name="advanced_image_download_wifi_info">Slika se bo pojavila, ko boste spet na Wi-Fi</string>
   <string name="change_settings">Spremeni Nastavitve</string>
   <string name="single_image__save_to_disk__error">Ni mogoče shraniti slike, ni dostopa do zunanjega pomnilniškega mesta</string>
   <string name="conversation_list__label_action__contacts">OSEBE</string>
@@ -965,9 +968,11 @@
   <string name="message_bottom_menu_action_unlike">Ni mi všeč</string>
   <string name="message_bottom_menu_action_save">Shrani</string>
   <string name="message_bottom_menu_action_open">Odpri</string>
+  <string name="message_bottom_menu_action_delete">Izbriši</string>
   <string name="message_bottom_menu_action_delete_local">Izbriši zame</string>
   <string name="message_bottom_menu_action_delete_global">Izbriši za vse</string>
   <string name="message_bottom_menu_action_forward_multiple">Deli z večimi</string>
+  <string name="message_bottom_menu_action_reveal">Razkrij v pogovoru</string>
   <string name="likes_list__header">Všečkali so</string>
   <string name="message_bottom_menu_action_save_ok">Slika shranjena</string>
   <string name="message_bottom_menu_action_save_fail">Napaka pri shranjevanju slike</string>
@@ -1029,6 +1034,9 @@
   <string name="collection_header_today">DANES</string>
   <string name="collection_header_yesterday">VČERAJ</string>
   <string name="collection_empty">NI ELEMENTOV V ZBIRKI</string>
-  <string name="collection_send_to">POŠLJI&#8230;</string>
+  <string name="collection_send_to">Pošlji&#8230;</string>
   <string name="collection_all">Prikaži vse %1$s</string>
+  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+  <string name="multi_share_toast_failed">Pošiljanje ni uspelo</string>
+  <string name="multi_share_search_hint">IŠČI PO IMENU POGOVORA</string>
 </resources>
