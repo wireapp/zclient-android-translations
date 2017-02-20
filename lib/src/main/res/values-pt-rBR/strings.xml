@@ -200,7 +200,7 @@
   <string name="content__otr__lost_history">VOCÊ NÃO USOU ESTE DISPOSITIVO POR UM TEMPO. ALGUMAS MENSAGENS PODEM NÃO APARECER AQUI.</string>
   <string name="content__otr__unverified_device__message">[[YOU]] DESAUTORIZOU UM DOS _%1$s\'s DEVICES_</string>
   <string name="content__otr__your_unverified_device__message">[[YOU]] DESAUTORIZOU UM DOS _YOUR DEVICES_</string>
-  <string name="content__otr__new_member__message">NEW PEOPLE JOINED. _VERIFY DEVICES_</string>
+  <string name="content__otr__new_member__message">NOVAS PESSOAS ENTRARAM. _VERIFIQUE DISPOSITIVOS_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">ENVIANDO&#8230;</string>
@@ -279,6 +279,11 @@
   <string name="ongoing__connecting">CONECTANDO&#8230;</string>
   <string name="calling__self_preview_unavailable">VÍDEO DESLIGADO</string>
   <string name="calling__self_preview_unavailable_long">CÂMERA NÃO DISPONÍVEL</string>
+  <!-- Calling in group conversation -->
+  <string name="group_calling_title">Iniciar uma chamada</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Isso irá chamar %1$d pessoas</string>
+  <string name="group_calling_confirm">Chamada</string>
+  <string name="group_calling_cancel">Cancelar</string>
   <!-- Connect request -->
   <string name="connect__message">Olá %1$s,\nVamos nos conectar no Wire.\n%2$s</string>
   <string name="connect_request__common_users__label">Vocês conhecem</string>
@@ -407,14 +412,14 @@
   <string name="pref_account_appearance_category_title">Aparência</string>
   <string name="pref_account_details_category_summary">Pessoas podem te encontrar com esses detalhes.</string>
   <string name="pref_account_personal_category_summary">A informação não é visível para qualquer outra pessoa</string>
-  <string name="pref_account_username_title">Nome do Usuário</string>
+  <string name="pref_account_username_title">Nome de usuário</string>
   <string name="pref_account_phone_title">Telefone</string>
   <string name="pref_account_add_phone_title">Adicionar número de telefone</string>
   <string name="pref_account_email_title">E-mail</string>
   <string name="pref_account_add_email_title">Adicionar e-mail</string>
   <string name="pref_account_sign_out_title">Sair</string>
   <string name="pref_account_color_title">Cor</string>
-  <string name="pref_account_picture_title">Imagem</string>
+  <string name="pref_account_picture_title">Foto</string>
   <string name="pref_account_delete_title">Excluir Conta</string>
   <string name="pref_account_delete_warning_title">Excluir conta</string>
   <string name="pref_account_delete_warning_message_email">Nós enviaremos um email para:\n[[%1$s]]\n Siga o link para apagar permanentemente a sua conta.</string>
@@ -504,6 +509,8 @@
   <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
   <string name="pref_about_version_title">Versão %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
+  <!-- Pref invite -->
+  <string name="pref_invite_title">Convidar amigos</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Verificar número de telefone</string>
   <string name="pref__account_action__phone_verification__description">Digite o código de verificação que nós enviamos para %s</string>
@@ -531,7 +538,7 @@
   <string name="pref__account_action__dialog__change_email__title">Editar o endereço de e-mail</string>
   <string name="pref__account_action__dialog__change_username__summary">Com este nome de usuário, as pessoas poderão encontrá-lo no Wire sem saber seu número de telefone ou endereço de e-mail.</string>
   <string name="pref__account_action__dialog__change_username__rules">Ao menos 2 caracteres. a–z, 0–9 e _ apenas</string>
-  <string name="pref__account_action__dialog__change_username__title">Nome do Usuário</string>
+  <string name="pref__account_action__dialog__change_username__title">Nome de usuário</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">Já está sendo usado</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Erro de Conexão, por favor tente novamente</string>
   <!-- URLs -->
@@ -557,9 +564,9 @@
   <string name="sign_up__take_picture__back">Editar Nome</string>
   <string name="sign_up__take_picture_dialog__gallery">Galeria</string>
   <string name="sign_up__take_picture_dialog__camera">Câmera</string>
-  <string name="sign_up__take_picture_dialog__message">Tirar uma nova imagem ou selecione uma existente de sua galeria.</string>
+  <string name="sign_up__take_picture_dialog__message">Tirar uma nova foto ou selecione uma já existente de sua galeria.</string>
   <string name="sign_up__take_picture_dialog__title">Tirar foto</string>
-  <string name="sign_up__set_picture__choose">Escolha sua imagem</string>
+  <string name="sign_up__set_picture__choose">Escolha sua foto</string>
   <string name="sign_up__set_picture__keep">Manter essa</string>
   <string name="sign_up__set_picture__guidance">O Wire é muito mais legal com uma foto.</string>
   <string name="sign_up__set_picture__loading">Carregando foto</string>
@@ -838,7 +845,7 @@
   <string name="otr__device_inbox__name">De: [[%s]]</string>
   <string name="advanced_image_download_wifi_info">A imagem irá aparecer quando você estiver no Wi-Fi novamente</string>
   <string name="change_settings">Alterar configurações</string>
-  <string name="single_image__save_to_disk__error">Não é possível salvar a imagem, sem acesso a armazenamento externo</string>
+  <string name="single_image__save_to_disk__error">Não é possível salvar a imagem, sem acesso ao armazenamento externo</string>
   <string name="conversation_list__label_action__contacts">PESSOAS</string>
   <string name="conversation_list__hint_header">As conversas começam aqui</string>
   <string name="conversation_list__hint_text">Inicie uma conversa ou convide mais pessoas para participar. Faça chamadas, envie mensagens privadas ou em grupos.</string>
@@ -930,7 +937,7 @@
   <string name="message_bottom_menu_action_delete_local">Apagar para mim</string>
   <string name="message_bottom_menu_action_delete_global">Excluir para todos</string>
   <string name="message_bottom_menu_action_forward_multiple">Compartilhar com muitos</string>
-  <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
+  <string name="message_bottom_menu_action_reveal">Mostrar na conversa</string>
   <string name="likes_list__header">Curtido por</string>
   <string name="message_bottom_menu_action_save_ok">Foto salva</string>
   <string name="message_bottom_menu_action_save_fail">Erro ao salvar imagem</string>
@@ -987,4 +994,6 @@
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
   <string name="multi_share_toast_failed">Envio falhou</string>
   <string name="multi_share_search_hint">PESQUISAR POR NOME DA CONVERSA</string>
+  <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
+  <string name="search__no_results">Sem resultados.</string>
 </resources>

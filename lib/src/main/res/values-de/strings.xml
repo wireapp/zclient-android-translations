@@ -200,7 +200,7 @@
   <string name="content__otr__lost_history">DIESES GERÄT WURDE FÜR EINE WEILE NICHT BENUTZT. EINIGE MELDUNGEN WERDEN HIER VIELLEICHT NICHT ANGEZEIGT.</string>
   <string name="content__otr__unverified_device__message">[[DU]] HAST DIE ÜBERPRÜFUNG VON _%1$s\'s GERÄTEN_ WIDERRUFEN</string>
   <string name="content__otr__your_unverified_device__message">[[DU]] HAST DIE ÜBERPRÜFUNG EINES _DEINER GERÄTE_ WIDERRUFEN</string>
-  <string name="content__otr__new_member__message">NEW PEOPLE JOINED. _VERIFY DEVICES_</string>
+  <string name="content__otr__new_member__message">NEUE PERSONEN HINZUGEFÜGT. _VERIFIZIERE GERÄTE_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">HOCHLADEN&#8230;</string>
@@ -279,6 +279,11 @@
   <string name="ongoing__connecting">VERBINDUNG WIRD HERGESTELLT&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO AUS</string>
   <string name="calling__self_preview_unavailable_long">KAMERA NICHT VERFÜGBAR</string>
+  <!-- Calling in group conversation -->
+  <string name="group_calling_title">Anruf bestätigen</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Du wirst %1$d Personen anrufen</string>
+  <string name="group_calling_confirm">Anruf</string>
+  <string name="group_calling_cancel">ABBRECHEN</string>
   <!-- Connect request -->
   <string name="connect__message">Hallo %1$s, \nbitte füge mich als Kontakt hinzu. \n%2$s</string>
   <string name="connect_request__common_users__label">Ihr beide kennt</string>
@@ -321,7 +326,7 @@
     <item quantity="one">Gerät anzeigen</item>
     <item quantity="other">Personen anzeigen</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__negative_action_self">Show your devices</string>
+  <string name="conversation__degraded_confirmation__negative_action_self">Geräte anzeigen</string>
   <string name="conversation_degraded_confirmation__header__you">Du</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
@@ -504,6 +509,8 @@
   <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
   <string name="pref_about_version_title">Version %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
+  <!-- Pref invite -->
+  <string name="pref_invite_title">Freunde einladen</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Telefonnummer bestätigen</string>
   <string name="pref__account_action__phone_verification__description">Bitte gib den PIN-Code ein, den wir an %s gesendet haben</string>
@@ -931,7 +938,7 @@
   <string name="message_bottom_menu_action_delete_local">Nur für mich löschen</string>
   <string name="message_bottom_menu_action_delete_global">Für alle löschen</string>
   <string name="message_bottom_menu_action_forward_multiple">Mit mehreren Teilen</string>
-  <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
+  <string name="message_bottom_menu_action_reveal">In Unterhaltung anzeigen</string>
   <string name="likes_list__header">Gefällt</string>
   <string name="message_bottom_menu_action_save_ok">Bild gespeichert</string>
   <string name="message_bottom_menu_action_save_fail">Fehler beim Speichern des Bildes</string>
@@ -987,5 +994,7 @@
   <string name="collection_all">Zeige alle %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
   <string name="multi_share_toast_failed">Senden fehlgeschlagen</string>
-  <string name="multi_share_search_hint">SUCHE NACH KONVERSATION</string>
+  <string name="multi_share_search_hint">NACH UNTERHALTUNG SUCHEN</string>
+  <string name="search__box__hint_text">NACHRICHTEN DURCHSUCHEN</string>
+  <string name="search__no_results">Keine Ergebnisse</string>
 </resources>

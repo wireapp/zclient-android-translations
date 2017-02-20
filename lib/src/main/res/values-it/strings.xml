@@ -279,6 +279,11 @@
   <string name="ongoing__connecting">COLLEGAMENTO&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO OFF</string>
   <string name="calling__self_preview_unavailable_long">FOTOCAMERA NON DISPONIBILE</string>
+  <!-- Calling in group conversation -->
+  <string name="group_calling_title">Inizia una chiamata</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$d people</string>
+  <string name="group_calling_confirm">Chiama</string>
+  <string name="group_calling_cancel">Annulla</string>
   <!-- Connect request -->
   <string name="connect__message">Ciao %1$s, \nConnettiamoci su Wire. \n%2$s</string>
   <string name="connect_request__common_users__label">Conoscete entrambi</string>
@@ -504,6 +509,8 @@
   <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
   <string name="pref_about_version_title">Versione %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
+  <!-- Pref invite -->
+  <string name="pref_invite_title">Invita amici</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Verifica numero di telefono</string>
   <string name="pref__account_action__phone_verification__description">Inserisci il codice di verifica che abbiamo inviato a %s</string>
@@ -714,9 +721,9 @@
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year">EEE d MMM YYYY, %1$s</string>
   <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__no_year_no_weekday">MMM d, %1$s</string>
+  <string name="timestamp_pattern__date_and_time__no_year_no_weekday">d MMM, %1$s</string>
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
+  <string name="timestamp_pattern__date_and_time__with_year_no_weekday">d MMM, YYYY, %1$s</string>
   <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
@@ -930,7 +937,7 @@
   <string name="message_bottom_menu_action_delete_local">Elimina per me</string>
   <string name="message_bottom_menu_action_delete_global">Elimina per tutti</string>
   <string name="message_bottom_menu_action_forward_multiple">Condividere con più persone</string>
-  <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
+  <string name="message_bottom_menu_action_reveal">Mostra nella conversazione</string>
   <string name="likes_list__header">Piace a</string>
   <string name="message_bottom_menu_action_save_ok">Immagine salvata</string>
   <string name="message_bottom_menu_action_save_fail">Errore nel salvataggio immagine</string>
@@ -983,8 +990,10 @@
   <string name="collection_header_yesterday">IERI</string>
   <string name="collection_empty">NESSUN ELEMENTO IN COLLEZIONE</string>
   <string name="collection_send_to">Invia a&#8230;</string>
-  <string name="collection_all">Show all %1$s</string>
+  <string name="collection_all">Mostra tutto %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">Sending failed</string>
+  <string name="multi_share_toast_failed">Invio non riuscito</string>
   <string name="multi_share_search_hint">RICERCA PER NOME DI CONVERSAZIONE</string>
+  <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
+  <string name="search__no_results">Nessun risultato.</string>
 </resources>

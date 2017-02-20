@@ -202,7 +202,7 @@
   <string name="content__otr__lost_history">ВИ НЕ ВИКОРИСТОВУВАЛИ ЦЕЙ ПРИСТРІЙ ДЕЯКИЙ ЧАС. ДЕЯКІ ПОВІДОМЛЕННЯ МОЖУТЬ ТУТ НЕ ВІДОБРАЖАТИСЯ.</string>
   <string name="content__otr__unverified_device__message">[[ВИ]] ПОЗНАЧИЛИ ОДИН З _ПРИСТРОЇВ КОНТАКТУ %1$s_ ЯК НЕВЕРИФІКОВАНИЙ</string>
   <string name="content__otr__your_unverified_device__message">[[ВИ]] ПОЗНАЧИЛИ ОДИН З _ВАШИХ ПРИСТРОЇВ_ ЯК НЕВЕРИФІКОВАНИЙ</string>
-  <string name="content__otr__new_member__message">NEW PEOPLE JOINED. _VERIFY DEVICES_</string>
+  <string name="content__otr__new_member__message">ПРИЄДНАЛИСЯ НОВІ УЧАСНИКИ. _ВЕРИФІКУВАТИ ПРИСТРОЇ_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">ЗАВАНТАЖЕННЯ&#8230;</string>
@@ -281,6 +281,11 @@
   <string name="ongoing__connecting">ПІДКЛЮЧЕННЯ&#8230;</string>
   <string name="calling__self_preview_unavailable">ВІДЕО ВІДКЛЮЧЕНО</string>
   <string name="calling__self_preview_unavailable_long">КАМЕРА НЕДОСТУПНА</string>
+  <!-- Calling in group conversation -->
+  <string name="group_calling_title">Розпочати дзвінок</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Ви подзвоните %1$d людям</string>
+  <string name="group_calling_confirm">Аудіодзвінок</string>
+  <string name="group_calling_cancel">Скасувати</string>
   <!-- Connect request -->
   <string name="connect__message">Ппивіт %1$s,\nДавай спікуватися в Wire.\n%2$s</string>
   <string name="connect_request__common_users__label">Ви обидва знайомі з</string>
@@ -327,7 +332,7 @@
     <item quantity="few">Показати учасників</item>
     <item quantity="other">Показати учасників</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__negative_action_self">Show your devices</string>
+  <string name="conversation__degraded_confirmation__negative_action_self">Показати мої пристрої</string>
   <string name="conversation_degraded_confirmation__header__you">Ви</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
@@ -511,6 +516,8 @@
   <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
   <string name="pref_about_version_title">Версія %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
+  <!-- Pref invite -->
+  <string name="pref_invite_title">Запросити друзів</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Підтвердити номер телефону</string>
   <string name="pref__account_action__phone_verification__description">Введіть код, який ми вислали на %s</string>
@@ -951,7 +958,7 @@
   <string name="message_bottom_menu_action_delete_local">Видалити для мене</string>
   <string name="message_bottom_menu_action_delete_global">Видалити для всіх</string>
   <string name="message_bottom_menu_action_forward_multiple">Поділитися з декількома</string>
-  <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
+  <string name="message_bottom_menu_action_reveal">Показати в розмові</string>
   <string name="likes_list__header">Сподобалося</string>
   <string name="message_bottom_menu_action_save_ok">Картинка збережена</string>
   <string name="message_bottom_menu_action_save_fail">Не вдалося зберегти картинку</string>
@@ -1013,4 +1020,6 @@
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
   <string name="multi_share_toast_failed">Помилка надсилання</string>
   <string name="multi_share_search_hint">ПОШУК ЗА ІМЕНЕМ РОЗМОВИ</string>
+  <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
+  <string name="search__no_results">Нікого не знайдено.</string>
 </resources>

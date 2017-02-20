@@ -279,6 +279,11 @@
   <string name="ongoing__connecting">ANSLUTER&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO AV</string>
   <string name="calling__self_preview_unavailable_long">KAMERA EJ TILLGÄNGLIG</string>
+  <!-- Calling in group conversation -->
+  <string name="group_calling_title">Starta ett samtal</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Detta kommer ringa %1$d personer</string>
+  <string name="group_calling_confirm">Ring</string>
+  <string name="group_calling_cancel">Avbryt</string>
   <!-- Connect request -->
   <string name="connect__message">Hej %1$s, \nLåt oss ansluta på Wire.\n%2$s</string>
   <string name="connect_request__common_users__label">Ni båda känner</string>
@@ -504,6 +509,8 @@
   <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
   <string name="pref_about_version_title">Version %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Schweiziska GmbH</string>
+  <!-- Pref invite -->
+  <string name="pref_invite_title">Bjud in vänner</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Verifiera telefonnummer</string>
   <string name="pref__account_action__phone_verification__description">Ange verifieringskoden vi skickat till %s</string>
@@ -930,13 +937,13 @@
   <string name="message_bottom_menu_action_delete_local">Ta bort för mig</string>
   <string name="message_bottom_menu_action_delete_global">Ta bort för alla</string>
   <string name="message_bottom_menu_action_forward_multiple">Dela med flera</string>
-  <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
+  <string name="message_bottom_menu_action_reveal">Visa i konversation</string>
   <string name="likes_list__header">Gillad av</string>
   <string name="message_bottom_menu_action_save_ok">Bild sparad</string>
   <string name="message_bottom_menu_action_save_fail">Gick inte att spara bild</string>
   <string name="message_footer__tap_to_like">Tryck för att gilla</string>
   <plurals name="message_footer__number_of_likes">
-    <item quantity="one">%1$d personer</item>
+    <item quantity="one">%1$d person</item>
     <item quantity="other">%1$d personer</item>
   </plurals>
   <string name="message_footer__status__sending">Skickar&#8230;</string>
@@ -987,4 +994,6 @@
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
   <string name="multi_share_toast_failed">Skickning misslyckades</string>
   <string name="multi_share_search_hint">SÖK EFTER EN KONVERSATION</string>
+  <string name="search__box__hint_text">SÖK TEXTMEDDELANDEN</string>
+  <string name="search__no_results">Inga resultat.</string>
 </resources>

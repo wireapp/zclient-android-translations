@@ -281,6 +281,11 @@
   <string name="ongoing__connecting">Łączenie&#8230;</string>
   <string name="calling__self_preview_unavailable">Wyłączone video</string>
   <string name="calling__self_preview_unavailable_long">APARAT NIEDOSTĘPNY</string>
+  <!-- Calling in group conversation -->
+  <string name="group_calling_title">Rozpocznij połączenie</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Zadzwonisz do %d osób</string>
+  <string name="group_calling_confirm">Połączenie</string>
+  <string name="group_calling_cancel">Anuluj</string>
   <!-- Connect request -->
   <string name="connect__message">Cześć! %1$s,\nPołączmy się na Wira.\n%2$s</string>
   <string name="connect_request__common_users__label">Oboje wiecie</string>
@@ -312,7 +317,7 @@
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s rozpoczął korzystać z nowego urządzenia.</item>
     <item quantity="few">%1$s rozpoczął korzystanie z nowego urządzenia.</item>
-    <item quantity="other">%1$s started using new devices.</item>
+    <item quantity="other">%1$s rozpoczął korzystać z nowych urządzeń.</item>
   </plurals>
   <string name="conversation__degraded_confirmation__header__someone">Kto zaczął używać nowego urządzenia.</string>
   <string name="conversation__degraded_confirmation__header__multiple_user">%1$s i %2$s zaczęli używać nowe urządzenia.</string>
@@ -511,6 +516,8 @@
   <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
   <string name="pref_about_version_title">Wersja %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
+  <!-- Pref invite -->
+  <string name="pref_invite_title">Zaproś znajomych</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Zweryfikuj numer telefonu</string>
   <string name="pref__account_action__phone_verification__description">Wpisz kod weryfikacyjny, który wysłaliśmy do %@</string>
@@ -1013,4 +1020,6 @@
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
   <string name="multi_share_toast_failed">Wysyłanie nie powiodło się</string>
   <string name="multi_share_search_hint">Szukaj po nazwie rozmowy</string>
+  <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
+  <string name="search__no_results">Brak wyników.</string>
 </resources>
