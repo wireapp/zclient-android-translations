@@ -112,13 +112,13 @@
   <string name="invitation__phone__failed">متاسفانه قادر به ثبت‌نام از طریق این دعوت‌نامه نیستید.</string>
   <string name="invitation__email__failed">متاسفانه قادر به ثبت‌نام از طریق این دعوت‌نامه نیستید.</string>
   <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 SEARCH BY NAME OR USERNAME</string>
+  <string name="pick_user_search_focus">\u0020 جستجو بر اساس نام یا نام‌کاربری</string>
   <string name="pick_user_search__add_to_conversation">\u0020 جستجو از طریق نام</string>
   <string name="people_picker__top_users_header_title">کاربران محبوب</string>
   <string name="people_picker__address_book_matches_title">درخواست دوستی</string>
   <string name="people_picker__search_result_conversations_header_title">گروه‌ها</string>
-  <string name="people_picker__search_result_connections_header_title">دوستان مشترک</string>
-  <string name="people_picker__search_result_others_header_title">پیشنهادات</string>
+  <string name="people_picker__search_result_connections_header_title">دفترچه تلفن</string>
+  <string name="people_picker__search_result_others_header_title">اتصال</string>
   <string name="people_picker__search_result_recommended_header_title">کاربرانی که توصیه داده شدند</string>
   <string name="people_picker__search_result_contacts_header_title">دفترچه تلفن</string>
   <string name="people_picker__invite_header_title">دعوت</string>
@@ -135,6 +135,7 @@
   <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">متاسفانه ما نتوانستیم هیچ‌کدام از دوستان شما را در Wire پیدا کنیم. لطفا نام آنها یا ایمیل آدرسشان را اینجا بنویسید.</string>
   <string name="people_picker__toolbar_header__group">اضافه کردن کاربر جدید</string>
   <string name="people_picker__toolbar_header__one_to_one">ایجاد گروه</string>
+  <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">%1$s رو میشناسه</string>
   <string name="people_picker__recommended__common_connections__two">%1$s و %2$s رو میشناسه</string>
@@ -286,8 +287,6 @@
   <string name="group_calling_cancel">انصراف</string>
   <!-- Connect request -->
   <string name="connect__message">سلام %1$s, \nبیا باهم تو Wire گپ بزنیم.\n%2$s</string>
-  <string name="connect_request__common_users__label">هر دو میشناسید</string>
-  <string name="connect_request__common_users__connection_counter">+%1$s</string>
   <plurals name="connect_request__common_users__summary">
     <item quantity="one">%1$d person in common</item>
     <item quantity="other">%1$d people in common</item>
@@ -302,14 +301,6 @@
   <string name="content__message__connect_request__footer">ارتباط برقرار شد</string>
   <string name="content__message__connect_request__auto_connect__footer">بصورت خودکار ارتباط برقرار شد. _در مورد این امکان بیشتر بدانید_</string>
   <string name="content__message__connect_request__user_info">%1$s in Contacts</string>
-  <!-- In-App Notifications -->
-  <string name="in_app_notification__footer__photo">تصویری به اشتراک گذاشت</string>
-  <string name="in_app_notification__footer__file">فایلی به اشتراک گذاشت</string>
-  <string name="in_app_notification__footer__video">ویدیویی به اشتراک گذاشت</string>
-  <string name="in_app_notification__footer__audio">پیام صوتی را به اشتراک گذاشت</string>
-  <string name="in_app_notification__footer__location">موقعیت جغرافیایی خود را به اشتراک گذاشت</string>
-  <string name="in_app_notification__footer__ping">صدا زد</string>
-  <string name="in_app_notification__footer__pinged_again">دوباره صدا زد</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s شروع به استفاده از Wire روی یک دستگاه جدید کرد.</item>
@@ -327,7 +318,7 @@
     <item quantity="other">نمایش دستگاه‌‌ها</item>
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Show your devices</string>
-  <string name="conversation_degraded_confirmation__header__you">You</string>
+  <string name="conversation_degraded_confirmation__header__you">شما</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
     <item quantity="one">%1$d نفر</item>
@@ -983,13 +974,13 @@
     <item quantity="other">%1$d ثانیه</item>
   </plurals>
   <string name="collection_header_all">COLLECTION</string>
-  <string name="collection_header_pictures">PICTURES</string>
-  <string name="collection_header_files">FILES</string>
-  <string name="collection_header_links">LINKS</string>
-  <string name="collection_header_today">TODAY</string>
-  <string name="collection_header_yesterday">YESTERDAY</string>
+  <string name="collection_header_pictures">تصاویر</string>
+  <string name="collection_header_files">فایل‌ها</string>
+  <string name="collection_header_links">لینک‌ها</string>
+  <string name="collection_header_today">امروز</string>
+  <string name="collection_header_yesterday">دیروز</string>
   <string name="collection_empty">NO ITEMS IN COLLECTION</string>
-  <string name="collection_send_to">Send to&#8230;</string>
+  <string name="collection_send_to">ارسال به&#8230;</string>
   <string name="collection_all">Show all %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
   <string name="multi_share_toast_failed">Sending failed</string>

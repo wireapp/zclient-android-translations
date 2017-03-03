@@ -117,8 +117,8 @@
   <string name="people_picker__top_users_header_title">Top people</string>
   <string name="people_picker__address_book_matches_title">接続</string>
   <string name="people_picker__search_result_conversations_header_title">グループ</string>
-  <string name="people_picker__search_result_connections_header_title">接続</string>
-  <string name="people_picker__search_result_others_header_title">提案</string>
+  <string name="people_picker__search_result_connections_header_title">連絡先</string>
+  <string name="people_picker__search_result_others_header_title">つながる</string>
   <string name="people_picker__search_result_recommended_header_title">おすすめ</string>
   <string name="people_picker__search_result_contacts_header_title">連絡先</string>
   <string name="people_picker__invite_header_title">招待</string>
@@ -135,6 +135,7 @@
   <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Wire で連絡先が何も見つかりませんでした。正式な名前またはメール アドレスを入力してください。</string>
   <string name="people_picker__toolbar_header__group">人を追加します</string>
   <string name="people_picker__toolbar_header__one_to_one">グループを作成します</string>
+  <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">%1$s を知っています</string>
   <string name="people_picker__recommended__common_connections__two">%1$s と %2$s を知っています</string>
@@ -147,7 +148,7 @@
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Wireを友達と共有する</string>
   <string name="people_picker__invite__share_text__header">%1$s は、Wire に接続しようとしています</string>
-  <string name="people_picker__invite__share_text__body">I\'m on Wire, search for %1$s or visit get.wire.com</string>
+  <string name="people_picker__invite__share_text__body">私はWireにいます。%1$s で検索するか、get.wire.com. にアクセスしてください</string>
   <string name="people_picker__invite__message">こんにちは。\nご招待ありがとう。つながりましょう \n%1$s</string>
   <string name="people_picker__invite__sent_feedback">招待状を送信しました</string>
   <string name="people_picker__contact_list__user_selection_button__label">開く</string>
@@ -284,8 +285,6 @@
   <string name="group_calling_cancel">キャンセル</string>
   <!-- Connect request -->
   <string name="connect__message">%1$s さん、こんにちは。\nWire でつながりましょう。\n%2$s</string>
-  <string name="connect_request__common_users__label">共通の知人</string>
-  <string name="connect_request__common_users__connection_counter">+%1$s</string>
   <plurals name="connect_request__common_users__summary">
     <item quantity="other">%1$d 人の共通の知り合い</item>
   </plurals>
@@ -299,14 +298,6 @@
   <string name="content__message__connect_request__footer">接続しています</string>
   <string name="content__message__connect_request__auto_connect__footer">自動接続されています。_詳細_</string>
   <string name="content__message__connect_request__user_info">連絡先に %1$s がいます</string>
-  <!-- In-App Notifications -->
-  <string name="in_app_notification__footer__photo">写真を共有します</string>
-  <string name="in_app_notification__footer__file">ファイルを共有します</string>
-  <string name="in_app_notification__footer__video">ビデオを共有します</string>
-  <string name="in_app_notification__footer__audio">音声メッセージを共有します</string>
-  <string name="in_app_notification__footer__location">場所を共有します</string>
-  <string name="in_app_notification__footer__ping">Ping しました</string>
-  <string name="in_app_notification__footer__pinged_again">もう一度 ping しました</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="other">%1$s は、新しいデバイスを使い始めました。</item>
@@ -969,6 +960,6 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
   <string name="multi_share_toast_failed">送信できませんでした</string>
   <string name="multi_share_search_hint">会話の名前で検索</string>
-  <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
+  <string name="search__box__hint_text">テキストメッセージを検索する</string>
   <string name="search__no_results">結果はありません</string>
 </resources>

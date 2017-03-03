@@ -117,8 +117,8 @@
   <string name="people_picker__top_users_header_title">Osoby</string>
   <string name="people_picker__address_book_matches_title">Połącz</string>
   <string name="people_picker__search_result_conversations_header_title">Grupy</string>
-  <string name="people_picker__search_result_connections_header_title">Połączenia</string>
-  <string name="people_picker__search_result_others_header_title">Sugestie</string>
+  <string name="people_picker__search_result_connections_header_title">Kontakty</string>
+  <string name="people_picker__search_result_others_header_title">Połącz</string>
   <string name="people_picker__search_result_recommended_header_title">Polecane</string>
   <string name="people_picker__search_result_contacts_header_title">Kontakty</string>
   <string name="people_picker__invite_header_title">Zaproś</string>
@@ -135,6 +135,7 @@
   <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Nie znaleźliśmy żadnych Twoich kontaktów na Wire. Wprowadź pełną nazwę lub adres e-mail.</string>
   <string name="people_picker__toolbar_header__group">Dodaj osoby</string>
   <string name="people_picker__toolbar_header__one_to_one">Załóż grupę</string>
+  <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">Znasz %1$s</string>
   <string name="people_picker__recommended__common_connections__two">Znasz %1$s i %2$s</string>
@@ -170,7 +171,7 @@
   <string name="conversation_quick_menu__conversation_button__group_label">Utwórz grupę</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_added_participant">[[%1$s]] dodał %2$s</string>
-  <string name="content__system__other_started_participant">[[%1$s]] rozpoczął konwersację z %2$s</string>
+  <string name="content__system__other_started_participant">[[%1$s]] rozpoczął rozmowę z %2$s</string>
   <string name="content__system__other_added_you">[[%1$s]] dodał Cię do kontaktów</string>
   <string name="content__system__other_started_you">[[%1$s]] rozpoczął konwersację z Tobą</string>
   <string name="content__system__you_added_participant">[[You]] dodałeś/aś %2$s</string>
@@ -288,10 +289,8 @@
   <string name="group_calling_cancel">Anuluj</string>
   <!-- Connect request -->
   <string name="connect__message">Cześć! %1$s,\nPołączmy się na Wira.\n%2$s</string>
-  <string name="connect_request__common_users__label">Oboje wiecie</string>
-  <string name="connect_request__common_users__connection_counter">+%1$s</string>
   <plurals name="connect_request__common_users__summary">
-    <item quantity="one">%1$d wspólna osoba</item>
+    <item quantity="one">%1$d wspólny znajomy</item>
     <item quantity="few">%1$d wspólna osoba</item>
     <item quantity="other">%1$d wspólne osoby</item>
   </plurals>
@@ -305,14 +304,6 @@
   <string name="content__message__connect_request__footer">Połączony</string>
   <string name="content__message__connect_request__auto_connect__footer">Auto połączenie. _Dowiedz się więcej_</string>
   <string name="content__message__connect_request__user_info">%1$s w kontaktach</string>
-  <!-- In-App Notifications -->
-  <string name="in_app_notification__footer__photo">Udostępnij fotografie</string>
-  <string name="in_app_notification__footer__file">Udostępnij plik</string>
-  <string name="in_app_notification__footer__video">Udostępnij video</string>
-  <string name="in_app_notification__footer__audio">Udostępnij wiadomość audio</string>
-  <string name="in_app_notification__footer__location">Udostępnij lokalizację</string>
-  <string name="in_app_notification__footer__ping">Zaczepka</string>
-  <string name="in_app_notification__footer__pinged_again">Zaczepiony ponownie</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s rozpoczął korzystać z nowego urządzenia.</item>
@@ -478,7 +469,7 @@
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Zweryfikowano</string>
   <string name="pref_devices_device_not_verified">Nie zweryfikowane</string>
-  <string name="pref_devices_warning_summary">Jeśli nie rozpoznajesz urządzeń, usuń i zresetuj hasło.</string>
+  <string name="pref_devices_warning_summary">Jeśli nie rozpoznajesz któregoś z powyższych urządzeń, usuń je i zresetuj hasło.</string>
   <string name="pref_devices_device_screen_title">Szczegóły urządzenia</string>
   <string name="pref_devices_device_fingerprint_category_title">Unikalny klucz</string>
   <string name="pref_devices_device_fingerprint_summary">Wire daje każdemu urządzeniowi unikalny klucz. Porównaj i sprawdź swoje urządzenia oraz konwersacje.</string>
@@ -497,7 +488,7 @@
   <string name="pref_advanced_analytics_title">Statystyki i raporty o awariach</string>
   <string name="pref_advanced_analytics_summary">Ulepsz Wire przesyłając anonimowe informacje.</string>
   <string name="debug_report__title">Wire raport debugowania - %1$s</string>
-  <string name="debug_report__body">Proszę opisać czynności wymagane do odtworzenia problemu, zapewnić zrzuty ekranu, jeśli to możliwe i wysłać ten email.\n\n</string>
+  <string name="debug_report__body">Prosimy, opisz czynności wymagane do odtworzenia problemu, jeśli to możliwe załącz zrzuty ekranu, i wyślij ten email.\n\n</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Wsparcie</string>
   <string name="pref_support_website_title">Witryna pomocy technicznej Wire</string>
@@ -587,13 +578,13 @@
   <plurals name="calling__voice_channel_full__message">
     <!-- should not happen though -->
     <item quantity="one">Jest tylko miejsce na %1$d ludzi tutaj.</item>
-    <item quantity="few">Jest miejsce tylko dla %1$d osób.</item>
+    <item quantity="few">W rozmowie mogą wziąć udział tylko %1$d osoby.</item>
     <item quantity="other">Jest tylko miejsce na %1$d ludzi tutaj.</item>
   </plurals>
   <string name="calling__conversation_full__title">Zbyt dużo osób do połączenia</string>
   <plurals name="calling__conversation_full__message">
     <!-- should not happen though -->
-    <item quantity="one">Połączenia są możliwe z maksymalnie %1$d osobami.</item>
+    <item quantity="one">W rozmowie może brać udział maksymalnie %1$d osób.</item>
     <item quantity="few">Połączenia są możliwe z maksymalnie %1$d osobami.</item>
     <item quantity="other">Połączenia są możliwe z maksymalnie %1$d osobami.</item>
   </plurals>
@@ -610,9 +601,9 @@
     <item quantity="other">Wiadomości w %2$s</item>
   </plurals>
   <plurals name="notification__new_messages__multiple">
-    <item quantity="one">Wiadomości w konwersacji %2$s</item>
-    <item quantity="few">Wiadomości w konwersacji %2$s</item>
-    <item quantity="other">Wiadomości w konwersacji %2$s</item>
+    <item quantity="one">Wiadomość w %2$s rozmowach</item>
+    <item quantity="few">%1$d wiadomości w %2$s rozmowach</item>
+    <item quantity="other">%1$d wiadomości w %2$s rozmowach</item>
   </plurals>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
@@ -700,7 +691,7 @@
   <string name="in_app_notification__sync_error__create_group_convo__title">Nie można utworzyć</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">Nie można utworzyć konwersacji z %1$s</string>
   <string name="in_app_notification__sync_error__add_user__body">%1$s nie może być dodany do rozmowy.</string>
-  <string name="in_app_notification__sync_error__add_multiple_user__body">Jedną z osób, które wybrano nie ma być dodana do rozmowy.</string>
+  <string name="in_app_notification__sync_error__add_multiple_user__body">Jedna z osób, którą wybrałeś, nie chce być dodana do rozmowy.</string>
   <string name="in_app_notification__sync_error__unknown__body">Coś poszło nie tak, spróbuj ponownie.</string>
   <string name="in_app_notification__sync_error__create_convo__button">Kontynuuj</string>
   <!--Timestamp formatting -->
