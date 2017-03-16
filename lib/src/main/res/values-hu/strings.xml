@@ -96,8 +96,8 @@
   <string name="new_reg__invalid_code__auto_verification__manual">Valami hiba történt. \nKérem ellenőrizze a telefonszáma és a kódja helyességét.</string>
   <string name="new_reg__default_country">de</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Too many requests</string>
-  <string name="new_reg_phone_budget_exhausted_message">Please try again later.</string>
+  <string name="new_reg_phone_budget_exhausted_title">Túl sok kérelem</string>
+  <string name="new_reg_phone_budget_exhausted_message">Kérjük, próbálkozzon később.</string>
   <string name="new_reg_phone__title__variant_1">Hívás, üzenetküldés, megosztás. \nmagánjelleggel vagy csoportokkal.</string>
   <string name="new_reg_phone__title__variant_2">Privát és biztonságos hívások, \nüzenetküldés és megosztás.</string>
   <!-- Receive email/sms invitation -->
@@ -137,7 +137,7 @@
   <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Nem tudtuk megtalálni kapcsolatait a Wire-ön. Adja meg teljes nevét vagy email címét.</string>
   <string name="people_picker__toolbar_header__group">Partner hozzáadása</string>
   <string name="people_picker__toolbar_header__one_to_one">Csoport létrehozása</string>
-  <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
+  <string name="people_picker__search_result__expander_title">Összes megjelenítése %1$s ↓</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">Tudja, %1$s</string>
   <string name="people_picker__recommended__common_connections__two">Tudja, %1$s és %2$s</string>
@@ -209,20 +209,20 @@
   <string name="content__file__status__uploading__minimized">FELTÖLTÉS&#8230;</string>
   <string name="content__file__status__cancelled__minimized">MEGSZAKÍTOTT&#8230;</string>
   <string name="content__file__status__downloading__minimized">LETÖLTÉS&#8230;</string>
-  <string name="content__file__status__download_failed__minimized">_DOWNLOAD FAILED_</string>
-  <string name="content__file__status__upload_failed__minimized">_UPLOAD FAILED_</string>
+  <string name="content__file__status__download_failed__minimized">DOWNLOAD FAILED</string>
+  <string name="content__file__status__upload_failed__minimized">UPLOAD FAILED</string>
   <string name="content__file__status__uploading">%1$s · FELTÖLTÉSE&#8230;</string>
   <string name="content__file__status__cancelled">%1$s · MEGSZAKÍTVA&#8230;</string>
   <string name="content__file__status__downloading">%1$s · LETÖLTÉS&#8230;</string>
-  <string name="content__file__status__download_failed">%1$s · _DOWNLOAD FAILED_</string>
-  <string name="content__file__status__upload_failed">%1$s · _UPLOAD FAILED_</string>
+  <string name="content__file__status__download_failed">%1$s · DOWNLOAD FAILED</string>
+  <string name="content__file__status__upload_failed">%1$s · UPLOAD FAILED</string>
   <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
   <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
   <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · FELTÖLT&#8230;</string>
   <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · MEGSZAKÍTOTT&#8230;</string>
   <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · LETÖLTÉS&#8230;</string>
-  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · _LETÖLTÉS MEGHIÚSULT_</string>
-  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · _FELTÖLTÉS MEGHIÚSULT_</string>
+  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · DOWNLOAD FAILED</string>
+  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · UPLOAD FAILED</string>
   <string name="content__file__action__open">MEGNYIT</string>
   <string name="content__file__action__save">MENTÉS</string>
   <string name="content__file__action__share">MEGOSZTÁS</string>
@@ -314,8 +314,8 @@
     <item quantity="one">Még mindig elszeretné küldeni üzenetét?</item>
     <item quantity="other">Még mindig elszeretnéd küldeni az üzeneteidet?</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Do you want to accept the call?</string>
-  <string name="conversation__degraded_confirmation__place_call">Do you still want to place the call?</string>
+  <string name="conversation__degraded_confirmation__accept_call">El akarja fogadni a hívást?</string>
+  <string name="conversation__degraded_confirmation__place_call">Még mindig kezdeményezni szeretné a hívást ebbe az irányba?</string>
   <string name="conversation__degraded_confirmation__positive_action">Küldés mindenképpen</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Eszköz megjelenítése</item>
@@ -620,8 +620,8 @@
   <string name="notification__message__group__renamed_conversation">átnevezte a beszélgetést erre: %1$s</string>
   <string name="notification__message__group__add">hozzá adott embereket a beszélgetéshez</string>
   <string name="notification__message__group__remove">eltávolított embereket a beszélgetésből</string>
-  <string name="notification__message__multiple__accept_request">elfogadta a csatlakozási kérelmedet</string>
-  <string name="notification__message__single__accept_request">Csatlakozási kérelmet elfogadta</string>
+  <string name="notification__message__generic__accept_request">You have a new connection</string>
+  <string name="notification__message__single__accept_request">You and %1$s are now connected</string>
   <string name="notification__message__group__default_conversation_name">csoportos beszélgetés</string>
   <string name="notification__message__group__liked">\u2764 az üzenetedet</string>
   <!-- ephemeral -->
@@ -938,7 +938,7 @@
   <string name="message_bottom_menu_action_save_fail">Hiba a kép mentése közben</string>
   <string name="message_footer__tap_to_like">Koppintson a lájkoláshoz</string>
   <plurals name="message_footer__number_of_likes">
-    <item quantity="one">%1$d partner</item>
+    <item quantity="one">%1$d személy</item>
     <item quantity="other">%1$d személy</item>
   </plurals>
   <string name="message_footer__status__sending">Küldés&#8230;</string>

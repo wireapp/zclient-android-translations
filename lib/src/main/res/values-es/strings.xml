@@ -96,8 +96,8 @@
   <string name="new_reg__invalid_code__auto_verification__manual">Algo salió mal.\nPor favor confirme que el número de teléfono y código son correctos.</string>
   <string name="new_reg__default_country">es</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Too many requests</string>
-  <string name="new_reg_phone_budget_exhausted_message">Please try again later.</string>
+  <string name="new_reg_phone_budget_exhausted_title">Demasiadas solicitudes</string>
+  <string name="new_reg_phone_budget_exhausted_message">Por favor, intántelo de nuevo más tarde.</string>
   <string name="new_reg_phone__title__variant_1">Llamadas, mensajes, compartir. \nIn privado o con grupos.</string>
   <string name="new_reg_phone__title__variant_2">Llamadas privadas y seguras, \nmessaging y compartir.</string>
   <!-- Receive email/sms invitation -->
@@ -209,20 +209,20 @@
   <string name="content__file__status__uploading__minimized">SUBIENDO&#8230;</string>
   <string name="content__file__status__cancelled__minimized">CANCELADO&#8230;</string>
   <string name="content__file__status__downloading__minimized">DESCARGANDO&#8230;</string>
-  <string name="content__file__status__download_failed__minimized">_LA DESCARGA FALLÓ_</string>
-  <string name="content__file__status__upload_failed__minimized">_FALLO EN LA SUBIDA_</string>
+  <string name="content__file__status__download_failed__minimized">DOWNLOAD FAILED</string>
+  <string name="content__file__status__upload_failed__minimized">UPLOAD FAILED</string>
   <string name="content__file__status__uploading">%1$s · SUBIENDO&#8230;</string>
   <string name="content__file__status__cancelled">%1$s · CANCELADO&#8230;</string>
   <string name="content__file__status__downloading">%1$s · DESCARGANDO&#8230;</string>
-  <string name="content__file__status__download_failed">%1$s · _FALLO LA DESCARGA_</string>
-  <string name="content__file__status__upload_failed">%1$s · _FALLO LA SUBIDA_</string>
+  <string name="content__file__status__download_failed">%1$s · DOWNLOAD FAILED</string>
+  <string name="content__file__status__upload_failed">%1$s · UPLOAD FAILED</string>
   <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
   <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
   <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · SUBIENDO&#8230;</string>
   <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · CANCELADO&#8230;</string>
   <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · DESCARGANDO&#8230;</string>
-  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · _FALLÓ LA DESCARGA_</string>
-  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · _FALLÓ LA SUBIDA_</string>
+  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · DOWNLOAD FAILED</string>
+  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · UPLOAD FAILED</string>
   <string name="content__file__action__open">ABRIR</string>
   <string name="content__file__action__save">GUARDAR</string>
   <string name="content__file__action__share">COMPARTIR</string>
@@ -314,8 +314,8 @@
     <item quantity="one">Todavia quiere enviar su mensaje?</item>
     <item quantity="other">Todavia quiere enviar su mensaje?</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Do you want to accept the call?</string>
-  <string name="conversation__degraded_confirmation__place_call">Do you still want to place the call?</string>
+  <string name="conversation__degraded_confirmation__accept_call">¿Desea aceptar la llamada?</string>
+  <string name="conversation__degraded_confirmation__place_call">¿Desea realizar la llamada?</string>
   <string name="conversation__degraded_confirmation__positive_action">Enviar de todos modos</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Mostrar dispositivo</item>
@@ -620,8 +620,8 @@
   <string name="notification__message__group__renamed_conversation">cambió el nombre de la conversación a %1$s</string>
   <string name="notification__message__group__add">agregó personas a la conversación</string>
   <string name="notification__message__group__remove">sacó personas de la conversación</string>
-  <string name="notification__message__multiple__accept_request">aceptó tu solicitud de conexión</string>
-  <string name="notification__message__single__accept_request">Su solicitud de conexion ha sido aceptada</string>
+  <string name="notification__message__generic__accept_request">Tienes un nuevo contacto</string>
+  <string name="notification__message__single__accept_request">You and %1$s are now connected</string>
   <string name="notification__message__group__default_conversation_name">conversación de grupo</string>
   <string name="notification__message__group__liked">\u2764 su mensaje</string>
   <!-- ephemeral -->
@@ -907,7 +907,7 @@
   <string name="conversation__action_mode__copy__toast">Copiado</string>
   <string name="conversation__action_mode__fwd__dialog__title">Preparando contenido</string>
   <string name="conversation__action_mode__fwd__dialog__message">Por favor espera&#8230;</string>
-  <string name="conversation__action_mode__fwd__chooser__title">Share with</string>
+  <string name="conversation__action_mode__fwd__chooser__title">Compartir con</string>
   <!-- video message preview -->
   <string name="video_message__preview__header">Enviar a %1$s</string>
   <string name="video_message__quick_menu__send_label">Enviar</string>
@@ -978,17 +978,17 @@
     <item quantity="other">%1$d segundos</item>
   </plurals>
   <string name="collection_header_all">COLLECTION</string>
-  <string name="collection_header_pictures">PICTURES</string>
-  <string name="collection_header_files">FILES</string>
+  <string name="collection_header_pictures">FOTOS</string>
+  <string name="collection_header_files">ARCHIVOS</string>
   <string name="collection_header_links">LINKS</string>
-  <string name="collection_header_today">TODAY</string>
-  <string name="collection_header_yesterday">YESTERDAY</string>
+  <string name="collection_header_today">HOY</string>
+  <string name="collection_header_yesterday">AYER</string>
   <string name="collection_empty">NO ITEMS IN COLLECTION</string>
-  <string name="collection_send_to">Send to&#8230;</string>
+  <string name="collection_send_to">Enviar a&#8230;</string>
   <string name="collection_all">Show all %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
   <string name="multi_share_toast_failed">Sending failed</string>
   <string name="multi_share_search_hint">SEND TO&#8230;</string>
   <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
-  <string name="search__no_results">No hay resultados.</string>
+  <string name="search__no_results">Ningún resultado.</string>
 </resources>
