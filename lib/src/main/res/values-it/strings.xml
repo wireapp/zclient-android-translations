@@ -209,20 +209,20 @@
   <string name="content__file__status__uploading__minimized">CARICAMENTO&#8230;</string>
   <string name="content__file__status__cancelled__minimized">ANNULLATO&#8230;</string>
   <string name="content__file__status__downloading__minimized">DOWNLOAD IN CORSO&#8230;</string>
-  <string name="content__file__status__download_failed__minimized">DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed__minimized">UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed__minimized">DOWNLOAD NON RIUSCITO</string>
+  <string name="content__file__status__upload_failed__minimized">CARICAMENTO NON RIUSCITO</string>
   <string name="content__file__status__uploading">%1$s · CARICAMENTO&#8230;</string>
   <string name="content__file__status__cancelled">%1$s · ANNULLATO&#8230;</string>
   <string name="content__file__status__downloading">%1$s · DOWNLOAD IN CORSO&#8230;</string>
-  <string name="content__file__status__download_failed">%1$s · DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed">%1$s · UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed">%1$s · DOWNLOAD NON RIUSCITO</string>
+  <string name="content__file__status__upload_failed">%1$s · CARICAMENTO NON RIUSCITO</string>
   <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
   <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
   <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · UPLOAD IN CORSO&#8230;</string>
   <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · ANNULLATO&#8230;</string>
   <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · DOWNLOAD IN CORSO&#8230;</string>
-  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · DOWNLOAD NON RIUSCITO</string>
+  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · CARICAMENTO NON RIUSCITO</string>
   <string name="content__file__action__open">APRI</string>
   <string name="content__file__action__save">SALVA</string>
   <string name="content__file__action__share">CONDIVIDI</string>
@@ -365,6 +365,8 @@
   <string name="content__youtube__error__text">video non trovato</string>
   <string name="mediaplayer__artist__placeholder">Traccia</string>
   <string name="mediaplayer__artist__error">La traccia non è disponibile</string>
+  <string name="mediaplayer__message__onsoundcloud">on SoundCloud</string>
+  <string name="mediaplayer__message__onspotify">on Spotify</string>
   <string name="mediaplayer__spotify__hint">Connetti a Spotify</string>
   <string name="mediaplayer__open_external">Apri nel browser</string>
   <!-- Invite banner -->
@@ -432,7 +434,10 @@
   <string name="pref_options_screen_title">Opzioni</string>
   <string name="pref_options_contacts_title">Condividi contatti</string>
   <string name="pref_options_contacts_summary">Questo ti aiuta a connetterti con gli altri. Rendiamo anonime tutte le informazioni e i dati non sono trasmessi a nessun altro.</string>
+  <string name="pref_options_vbr_title">Variable Bit Rate Encoding</string>
+  <string name="pref_options_vbr_summary">This makes audio calls use less data and work better on networks with lower bandwidth. Turn off to use Constant Bitrate Encoding.</string>
   <string name="pref_options_alerts_category_title">Notifiche</string>
+  <string name="pref_options_calls_category_title">Chiamate</string>
   <string name="pref_options_sounds_title">Suoni</string>
   <string name="pref_options_sounds_all">Tutto</string>
   <string name="pref_options_sounds_new_conversations_and_talks_only">Primo messaggio, trilli, chiamate</string>
@@ -621,7 +626,7 @@
   <string name="notification__message__group__add">ha aggiunto delle persone alla conversazione</string>
   <string name="notification__message__group__remove">ha rimosso delle persone dalla conversazione</string>
   <string name="notification__message__generic__accept_request">Hai una nuova connessione</string>
-  <string name="notification__message__single__accept_request">You and %1$s are now connected</string>
+  <string name="notification__message__single__accept_request">Tu e %1$s siete ora connessi</string>
   <string name="notification__message__group__default_conversation_name">conversazione di gruppo</string>
   <string name="notification__message__group__liked">\u2764 il tuo messaggio</string>
   <!-- ephemeral -->
@@ -876,6 +881,8 @@
   <string name="video_message_error__missing_camera_permissions">Per inviare video messaggi, consenti l\'accesso alla fotocamera e ai file multimediali.</string>
   <string name="audio_message_error__missing_audio_permissions">Per inviare messaggi audio, consenti l\'accesso per registrare l\'audio.</string>
   <string name="audio_message_error__generic">Impossibile riprodurre audio</string>
+  <!-- Audio bit rate mode -->
+  <string name="audio_message__constant_bit_rate">CONSTANT BIT RATE</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Nessuna conversazione attiva</string>
   <string name="no_conversation_in_list__message">Tocca contatti per iniziare una conversazione</string>
