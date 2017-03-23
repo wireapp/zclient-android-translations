@@ -99,7 +99,7 @@
   <string name="new_reg__invalid_code__auto_verification__manual">Что-то пошло не так.\nПожалуйста, убедитесь, что номер телефона и код верны.</string>
   <string name="new_reg__default_country">ru</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Было сделано слишком много запросов</string>
+  <string name="new_reg_phone_budget_exhausted_title">Слишком много запросов</string>
   <string name="new_reg_phone_budget_exhausted_message">Пожалуйста, повторите попытку позже.</string>
   <string name="new_reg_phone__title__variant_1">Аудио и видеозвонки, сообщения.\nПриватно и в группах.</string>
   <string name="new_reg_phone__title__variant_2">Конфиденциально и надежно.\nЗвонки и сообщения.</string>
@@ -214,20 +214,20 @@
   <string name="content__file__status__uploading__minimized">ЗАГРУЗКА&#8230;</string>
   <string name="content__file__status__cancelled__minimized">ОТМЕНЕНО&#8230;</string>
   <string name="content__file__status__downloading__minimized">СКАЧИВАНИЕ&#8230;</string>
-  <string name="content__file__status__download_failed__minimized">DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed__minimized">UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed__minimized">ОШИБКА СКАЧИВАНИЯ</string>
+  <string name="content__file__status__upload_failed__minimized">ОШИБКА ЗАГРУЗКИ</string>
   <string name="content__file__status__uploading">%1$s · ЗАГРУЗКА&#8230;</string>
   <string name="content__file__status__cancelled">%1$s · ОТМЕНЕНО&#8230;</string>
   <string name="content__file__status__downloading">%1$s · СКАЧИВАНИЕ&#8230;</string>
-  <string name="content__file__status__download_failed">%1$s · DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed">%1$s · UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed">%1$s · ОШИБКА СКАЧИВАНИЯ</string>
+  <string name="content__file__status__upload_failed">%1$s · ОШИБКА ЗАГРУЗКИ</string>
   <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
   <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
   <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · ЗАГРУЗКА&#8230;</string>
   <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · ОТМЕНЕНО&#8230;</string>
   <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · СКАЧИВАНИЕ&#8230;</string>
-  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · ОШИБКА СКАЧИВАНИЯ</string>
+  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · ОШИБКА ЗАГРУЗКИ</string>
   <string name="content__file__action__open">ОТКРЫТЬ</string>
   <string name="content__file__action__save">СОХРАНИТЬ</string>
   <string name="content__file__action__share">ПОДЕЛИТЬСЯ</string>
@@ -322,7 +322,7 @@
     <item quantity="few">Вы все еще хотите отправить ваше сообщение?</item>
     <item quantity="other">Вы все еще хотите отправить ваши сообщения?</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Хотите принять звонок?</string>
+  <string name="conversation__degraded_confirmation__accept_call">Вы хотите принять звонок?</string>
   <string name="conversation__degraded_confirmation__place_call">Вы действительно хотите позвонить?</string>
   <string name="conversation__degraded_confirmation__positive_action">Отправить</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
@@ -444,8 +444,8 @@
   <string name="pref_options_screen_title">Настройки</string>
   <string name="pref_options_contacts_title">Поделиться контактами</string>
   <string name="pref_options_contacts_summary">Это поможет Вам связаться с другими людьми. Вся информация анонимна, мы не предоставляем её третьим лицам.</string>
-  <string name="pref_options_vbr_title">Variable Bit Rate Encoding</string>
-  <string name="pref_options_vbr_summary">This makes audio calls use less data and work better on networks with lower bandwidth. Turn off to use Constant Bitrate Encoding.</string>
+  <string name="pref_options_vbr_title">Кодирование с переменным битрейтом</string>
+  <string name="pref_options_vbr_summary">Это позволяет аудиозвонкам использовать меньше трафика и работать лучше при медленном соединении. Выключите, чтобы использовать кодирование с постоянным битрейтом.</string>
   <string name="pref_options_alerts_category_title">Оповещения</string>
   <string name="pref_options_calls_category_title">Звонки</string>
   <string name="pref_options_sounds_title">Звуки</string>
@@ -467,7 +467,7 @@
   <string name="pref_options_cursor_send_button_title">Кнопка \"отправить\"</string>
   <string name="pref_options_cursor_send_button_summary">Отключить отправку по нажатию клавиши Enter.</string>
   <string name="pref_options_spotify_title">Подключить Spotify</string>
-  <string name="pref_options_spotify_logout_title">Отключить Spotify</string>
+  <string name="pref_options_spotify_logout_title">Disconnect from Spotify</string>
   <string name="pref_options_spotify_summary">Вам нужен премиум-аккаунт Spotify.</string>
   <string name="pref_options_spotify_login_failed">Ошибка входа. Пожалуйста, попробуйте еще раз!</string>
   <!-- Devices -->
@@ -909,7 +909,7 @@ Plural:
   <string name="audio_message_error__missing_audio_permissions">Для отправки аудиосообщений разрешите запись аудио.</string>
   <string name="audio_message_error__generic">Не удается воспроизвести аудио</string>
   <!-- Audio bit rate mode -->
-  <string name="audio_message__constant_bit_rate">CONSTANT BIT RATE</string>
+  <string name="audio_message__constant_bit_rate">ПОСТОЯННЫЙ БИТРЕЙТ</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Нет активных разговоров</string>
   <string name="no_conversation_in_list__message">Нажмите на контакты, чтобы начать новый разговор</string>
