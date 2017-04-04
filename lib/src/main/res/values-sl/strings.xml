@@ -213,20 +213,20 @@
   <string name="content__file__status__uploading__minimized">NALAGANJE&#8230;</string>
   <string name="content__file__status__cancelled__minimized">PREKLICAN&#8230;</string>
   <string name="content__file__status__downloading__minimized">PRENAŠANJE&#8230;</string>
-  <string name="content__file__status__download_failed__minimized">DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed__minimized">UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed__minimized">PRENOS NI USPEL</string>
+  <string name="content__file__status__upload_failed__minimized">NALAGANJE NI USPELO</string>
   <string name="content__file__status__uploading">%1$s · NALAGANJE&#8230;</string>
   <string name="content__file__status__cancelled">%1$s · PREKLICAN&#8230;</string>
   <string name="content__file__status__downloading">%1$s · PRENAŠANJE&#8230;</string>
-  <string name="content__file__status__download_failed">%1$s · DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed">%1$s · UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed">%1$s · PRENOS NI USPEL</string>
+  <string name="content__file__status__upload_failed">%1$s · NALAGANJE NI USPELO</string>
   <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
   <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
   <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · NALAGANJE&#8230;</string>
   <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · PREKLICAN&#8230;</string>
   <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · PRENAŠANJE&#8230;</string>
-  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · PRENOS NI USPEL</string>
+  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · NALAGANJE NI USPELO</string>
   <string name="content__file__action__open">ODPRI</string>
   <string name="content__file__action__save">SHRANI</string>
   <string name="content__file__action__share">DELI</string>
@@ -379,8 +379,8 @@
   <string name="content__youtube__error__text">video ni bil najden</string>
   <string name="mediaplayer__artist__placeholder">Zvočna sled</string>
   <string name="mediaplayer__artist__error">Zvočna sled ni na voljo</string>
-  <string name="mediaplayer__message__onsoundcloud">on SoundCloud</string>
-  <string name="mediaplayer__message__onspotify">on Spotify</string>
+  <string name="mediaplayer__message__onsoundcloud">na SoundCloud</string>
+  <string name="mediaplayer__message__onspotify">na Spotify</string>
   <string name="mediaplayer__spotify__hint">Poveži s Spotify</string>
   <string name="mediaplayer__open_external">Odpri v brskalniku</string>
   <!-- Invite banner -->
@@ -448,8 +448,8 @@
   <string name="pref_options_screen_title">Možnosti</string>
   <string name="pref_options_contacts_title">Deli stike</string>
   <string name="pref_options_contacts_summary">To vam pomaga pri povezovanju z drugimi. Vse informacije anonimiziramo in ne delimo z drugimi.</string>
-  <string name="pref_options_vbr_title">Variable Bit Rate Encoding</string>
-  <string name="pref_options_vbr_summary">This makes audio calls use less data and work better on slower networks. Turn off to use Constant Bitrate Encoding.</string>
+  <string name="pref_options_vbr_title">Spremenljiva bitna hitrost kodiranja</string>
+  <string name="pref_options_vbr_summary">Omogoča manjšo porabo podatkov v avdio klicih in bolje delovanje na počasnejših omrežjih. Izklopite za uporabo Stalne bitne hitrosti kodiranja.</string>
   <string name="pref_options_alerts_category_title">Opozorila</string>
   <string name="pref_options_calls_category_title">Klici</string>
   <string name="pref_options_sounds_title">Zvoki</string>
@@ -471,7 +471,7 @@
   <string name="pref_options_cursor_send_button_title">Gumb za pošiljanje</string>
   <string name="pref_options_cursor_send_button_summary">Onemogoči za pošiljanje preko tipkovnice.</string>
   <string name="pref_options_spotify_title">Poveži s Spotify</string>
-  <string name="pref_options_spotify_logout_title">Disconnect from Spotify</string>
+  <string name="pref_options_spotify_logout_title">Prekini povezavo s Spotify</string>
   <string name="pref_options_spotify_summary">Potrebujete Spotify Premium račun.</string>
   <string name="pref_options_spotify_login_failed">Prijava ni uspela. Prosimo poizkusite znova!</string>
   <!-- Devices -->
@@ -650,7 +650,7 @@
   <string name="notification__message__group__add">je dodal(-a) osebe v pogovor</string>
   <string name="notification__message__group__remove">je odstranil(-a) osebe iz pogovora</string>
   <string name="notification__message__generic__accept_request">Imaš novo povezavo</string>
-  <string name="notification__message__single__accept_request">You and %1$s are now connected</string>
+  <string name="notification__message__single__accept_request">%1$s in ti sta zdaj povezana</string>
   <string name="notification__message__group__default_conversation_name">skupinski pogovor</string>
   <string name="notification__message__group__liked">\u2764 tvoje sporočilo</string>
   <!-- ephemeral -->
@@ -924,7 +924,7 @@
   <string name="audio_message_error__missing_audio_permissions">Za pošiljanje zvočnih sporočil, dovolite dostop za snemanje zvoka.</string>
   <string name="audio_message_error__generic">Ni mogoče predvajati zvoka</string>
   <!-- Audio bit rate mode -->
-  <string name="audio_message__constant_bit_rate">CONSTANT BIT RATE</string>
+  <string name="audio_message__constant_bit_rate">STALNA BITNA HITROST</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Ni aktivnih pogovorov</string>
   <string name="no_conversation_in_list__message">Tapnite stike za začetek pogovora</string>
