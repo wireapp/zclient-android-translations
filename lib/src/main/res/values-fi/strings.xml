@@ -299,8 +299,10 @@
   <string name="connect_request__cancel_request__label">Peruuta yhteyspyyntö</string>
   <string name="connect_request__unblock__button__text">Poista esto</string>
   <string name="send_connect_request__connect_button__text">Yhdistä</string>
-  <string name="connect_inbox__one_person__link__name">1 ihminen odottaa</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s ihmistä odottaa</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="one">1 ihminen odottaa</item>
+    <item quantity="other">%1$s ihmistä odottaa</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">Hylkää</string>
   <string name="content__message__connect_request__footer">YHDISTETTY</string>
   <string name="content__message__connect_request__auto_connect__footer">YHDISTETTY AUTOMAATTISESTI. _LUE LISÄÄ_</string>
@@ -458,10 +460,6 @@
   <string name="pref_options_requested_category_title">Yleisön pyynnöstä</string>
   <string name="pref_options_cursor_send_button_title">Lähetä painike</string>
   <string name="pref_options_cursor_send_button_summary">Poista käytöstä lähetys näppäimistön välityksellä.</string>
-  <string name="pref_options_spotify_title">Yhdistä Spotifyhin</string>
-  <string name="pref_options_spotify_logout_title">Disconnect from Spotify</string>
-  <string name="pref_options_spotify_summary">Tarvitset Spotify Premium tilin.</string>
-  <string name="pref_options_spotify_login_failed">Kirjautuminen epäonnistui. Yritä uudelleen!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Laitteet</string>
   <string name="pref_current_device_category_title">Tämänhetkinen laite</string>
@@ -798,7 +796,6 @@
   <string name="location_sharing__enable_system_location__cancel">Peruuta</string>
   <string name="location_sharing__missing_play_services">Google Play-palvelut tarvitaan sijainnin jakamiseen</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">Tyhjä keskustelu</string>
   <string name="new_reg__phone_signup__create_account">Luo käyttäjätili</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">Poista %1$s</string>
@@ -859,7 +856,6 @@
   <string name="conversation_toolbar__delete">Poista</string>
   <string name="conversation_toolbar__copy">Kopioi</string>
   <string name="conversation_toolbar__fwd">Jaa</string>
-  <string name="conversation_toolbar__mediabar__close">Pysäytä</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Tiedostoa ei löydy</string>
   <string name="asset_upload_error__not_found__message">Ei pystytä löytämään määriteltyä tiedostoa</string>
@@ -1000,4 +996,41 @@
   <string name="multi_share_search_hint">LÄHETÄ&#8230;</string>
   <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
   <string name="search__no_results">Ei tuloksia.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="one">%1$s new message</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="one">%1$s ping</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">Jakoi kuvan</string>
+  <string name="conversation_list__shared__file">Jakoi tiedoston</string>
+  <string name="conversation_list__shared__video">Jakoi videon</string>
+  <string name="conversation_list__shared__audio">Jakoi ääniviestin</string>
+  <string name="conversation_list__shared__location">Jakoi sijainnin</string>
+  <string name="conversation_list__missed_call">Missed call</string>
+  <string name="conversation_list__pinged">Pinggasi</string>
+  <string name="conversation_list__ephemeral">Ajoitettu viesti</string>
+  <string name="conversation_list__typing">Typing a message&#8230;</string>
+  <string name="conversation_list__someone">Joku</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] lisäsi sinut</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">Sinä poistuit</string>
+  <string name="conversation_list__removed_you">[[%1$s]] poisti sinut</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

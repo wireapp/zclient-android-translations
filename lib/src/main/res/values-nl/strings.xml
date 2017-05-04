@@ -118,11 +118,11 @@
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 ZOEK OP NAAM OF GEBRUIKERSNAAM</string>
   <string name="pick_user_search__add_to_conversation">\u0020 ZOEK OP NAAM</string>
-  <string name="people_picker__top_users_header_title">Frequente personen</string>
-  <string name="people_picker__address_book_matches_title">Verbind</string>
+  <string name="people_picker__top_users_header_title">Favoriete contacten</string>
+  <string name="people_picker__address_book_matches_title">Accepteer</string>
   <string name="people_picker__search_result_conversations_header_title">Groepen</string>
   <string name="people_picker__search_result_connections_header_title">Contacten</string>
-  <string name="people_picker__search_result_others_header_title">Verbind</string>
+  <string name="people_picker__search_result_others_header_title">Accepteer</string>
   <string name="people_picker__search_result_recommended_header_title">Aanbevolen</string>
   <string name="people_picker__search_result_contacts_header_title">Contacten</string>
   <string name="people_picker__invite_header_title">Uitnodigen</string>
@@ -298,9 +298,11 @@
   <string name="connect_request__sub_header__pending_label">In behandeling</string>
   <string name="connect_request__cancel_request__label">Stop verzoek tot connectie</string>
   <string name="connect_request__unblock__button__text">Deblokkeer</string>
-  <string name="send_connect_request__connect_button__text">Verbind</string>
-  <string name="connect_inbox__one_person__link__name">1 persoon wacht</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s mensen die wachten</string>
+  <string name="send_connect_request__connect_button__text">Accepteer</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="one">1 persoon wacht</item>
+    <item quantity="other">%1$s mensen die wachten</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">Negeer</string>
   <string name="content__message__connect_request__footer">VERBONDEN</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTOMATISCH VERBONDEN. _KOM MEER TE WETEN_</string>
@@ -392,7 +394,7 @@
   <string name="menu_help">HULP</string>
   <string name="menu_logout">UITLOGGEN</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">Privacy Beleid</string>
+  <string name="about_privacy_policy">Privacybeleid</string>
   <string name="about_third_party_licences">Licenties</string>
   <string name="about_website">wire.com</string>
   <string name="about_terms_of_service">Gebruikersvoorwaarden</string>
@@ -458,10 +460,6 @@
   <string name="pref_options_requested_category_title">Op veler verzoek</string>
   <string name="pref_options_cursor_send_button_title">Verstuur knop</string>
   <string name="pref_options_cursor_send_button_summary">Het versturen via het toetsenbord uitschakelen.</string>
-  <string name="pref_options_spotify_title">Verbinden met Spotify</string>
-  <string name="pref_options_spotify_logout_title">Spotify ontkoppelen</string>
-  <string name="pref_options_spotify_summary">Je hebt een Spotify Premium account nodig.</string>
-  <string name="pref_options_spotify_login_failed">Inloggen is mislukt. Probeer opnieuw!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Apparaten</string>
   <string name="pref_current_device_category_title">Huidig apparaat</string>
@@ -505,7 +503,7 @@
   <string name="pref_about_website_url">https://wire.com</string>
   <string name="pref_about_tos_title">Gebruikersvoorwaarden</string>
   <string name="pref_about_tos_url">@string/url_terms_of_service</string>
-  <string name="pref_about_privacy_policy_title">Privacy Beleid</string>
+  <string name="pref_about_privacy_policy_title">Privacybeleid</string>
   <string name="pref_about_privacy_policy_url">@string/url_privacy_policy</string>
   <string name="pref_about_licenses_title">Licentie-informatie</string>
   <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
@@ -798,7 +796,6 @@
   <string name="location_sharing__enable_system_location__cancel">Annuleer</string>
   <string name="location_sharing__missing_play_services">Google Play Services is nodig voor het delen van locatie</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">Leeg gesprek</string>
   <string name="new_reg__phone_signup__create_account">Een account aanmaken</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">%1$s Verwijderen</string>
@@ -823,7 +820,7 @@
   <string name="otr__participant__tab_details">Beschrijving</string>
   <string name="otr__participant__tab_devices">Apparaten</string>
   <string name="otr__device_activated_info">Geactiveerd in %s</string>
-  <string name="otr__participant__single_device__my_fingerprint_link">Toon de digitale vingerafdruk van mijn apparaat</string>
+  <string name="otr__participant__single_device__my_fingerprint_link">Toon mijn apparaat vingerafdruk</string>
   <string name="otr__participant__single_device__reset_session_link">Reset session</string>
   <string name="otr__participant__my_device__description">Digitale vingerafdruk van dit apparaat</string>
   <string name="otr__participant__my_device__show_all_devices_link">Toon al mijn apparaten</string>
@@ -859,7 +856,6 @@
   <string name="conversation_toolbar__delete">Verwijderen</string>
   <string name="conversation_toolbar__copy">Kopiëren</string>
   <string name="conversation_toolbar__fwd">Delen</string>
-  <string name="conversation_toolbar__mediabar__close">Annuleren</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Bestand niet gevonden</string>
   <string name="asset_upload_error__not_found__message">Het opgegeven bestand kan niet worden opgehaald</string>
@@ -1000,4 +996,41 @@
   <string name="multi_share_search_hint">STUUR NAAR&#8230;</string>
   <string name="search__box__hint_text">ZOEK TEKST BERICHTEN</string>
   <string name="search__no_results">Geen resultaten.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="one">%1$s new message</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="one">%1$s ping</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">Deelde een foto</string>
+  <string name="conversation_list__shared__file">Deelde een bestand</string>
+  <string name="conversation_list__shared__video">Deelde een video</string>
+  <string name="conversation_list__shared__audio">Deelde een audio bericht</string>
+  <string name="conversation_list__shared__location">Deelde een locatie</string>
+  <string name="conversation_list__missed_call">Gemiste oproep</string>
+  <string name="conversation_list__pinged">Gepinged</string>
+  <string name="conversation_list__ephemeral">Tijdelijk bericht</string>
+  <string name="conversation_list__typing">Typt een bericht&#8230;</string>
+  <string name="conversation_list__someone">Iemand</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] heeft jou toegevoegd</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">Jij verliet</string>
+  <string name="conversation_list__removed_you">[[%1$s]] heeft jou verwijderd</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

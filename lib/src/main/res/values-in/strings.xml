@@ -296,8 +296,9 @@
   <string name="connect_request__cancel_request__label">Batalkan permintaan koneksi</string>
   <string name="connect_request__unblock__button__text">Buka blokir</string>
   <string name="send_connect_request__connect_button__text">Hubungkan</string>
-  <string name="connect_inbox__one_person__link__name">1 orang menunggu</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s orang mengunggu</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="other">%1$s orang mengunggu</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">Abaikan</string>
   <string name="content__message__connect_request__footer">TERHUBUNG</string>
   <string name="content__message__connect_request__auto_connect__footer">TERHUBUNG OTOMATIS. _PELAJARI LEBIH LANJUT_</string>
@@ -451,10 +452,6 @@
   <string name="pref_options_requested_category_title">Dengan permintaan populer</string>
   <string name="pref_options_cursor_send_button_title">Tombol kirim</string>
   <string name="pref_options_cursor_send_button_summary">Tidak dapat mengirim melalui papan teks.</string>
-  <string name="pref_options_spotify_title">Terhubung dengan Spotify</string>
-  <string name="pref_options_spotify_logout_title">Disconnect from Spotify</string>
-  <string name="pref_options_spotify_summary">Anda membutuhkan akun Premium Spotify.</string>
-  <string name="pref_options_spotify_login_failed">Gagal masuk. Silakan coba lagi!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Perangkat</string>
   <string name="pref_current_device_category_title">Perangkat saat ini</string>
@@ -777,7 +774,6 @@
   <string name="location_sharing__enable_system_location__cancel">Batal</string>
   <string name="location_sharing__missing_play_services">Layanan Google Play dibutuhkan untuk berbagi lokasi</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">Kosongkan percakapan</string>
   <string name="new_reg__phone_signup__create_account">Buat akun</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">Hapus %1$s</string>
@@ -838,7 +834,6 @@
   <string name="conversation_toolbar__delete">Hapus</string>
   <string name="conversation_toolbar__copy">Salin</string>
   <string name="conversation_toolbar__fwd">Bagikan</string>
-  <string name="conversation_toolbar__mediabar__close">Hentikan</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Berkas tidak ditemukan</string>
   <string name="asset_upload_error__not_found__message">Tidak dapat menerima berkas yang ditentukan</string>
@@ -974,4 +969,37 @@
   <string name="multi_share_search_hint">SEND TO&#8230;</string>
   <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
   <string name="search__no_results">No results.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">Membagikan gambar</string>
+  <string name="conversation_list__shared__file">Membagikan berkas</string>
+  <string name="conversation_list__shared__video">Membagikan video</string>
+  <string name="conversation_list__shared__audio">Membagikan pesan suara</string>
+  <string name="conversation_list__shared__location">Membagikan lokasi</string>
+  <string name="conversation_list__missed_call">Missed call</string>
+  <string name="conversation_list__pinged">Ping</string>
+  <string name="conversation_list__ephemeral">Pesan berjangka waktu</string>
+  <string name="conversation_list__typing">Typing a message&#8230;</string>
+  <string name="conversation_list__someone">Seseorang</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] menambahkan Anda</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">You left</string>
+  <string name="conversation_list__removed_you">[[%1$s]] menghapus Anda</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

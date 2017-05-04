@@ -78,11 +78,11 @@
   <string name="new_reg_phone_pending_login_header">Kod został wysłany</string>
   <string name="new_reg_phone_pending_login_message">Wysłaliśmy już kod SMS. Wyślij ponownie po 10 minutach, aby uzyskać nowy kod.</string>
   <string name="new_reg_phone_add_password_header">Nieprawidłowe hasło</string>
-  <string name="new_reg_phone_add_password_message">Sprawdź swoje dane i spróbuj ponownie.</string>
+  <string name="new_reg_phone_add_password_message">Proszę sprawdzić swoje dane i spróbować ponownie.</string>
   <string name="new_reg_phone_generic_error_header">Coś poszło nie tak</string>
   <string name="new_reg_phone_generic_error_message">Spróbuj ponownie, by zarejestrować się</string>
   <string name="new_sign_in_generic_error_header">Coś poszło nie tak</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again.</string>
+  <string name="new_sign_in_generic_error_message">Proszę spróbować zalogować się ponownie.</string>
   <string name="profile_generic_error_header">Coś poszło nie tak</string>
   <string name="profile_generic_error_message">Proszę spróbować ponownie.</string>
   <string name="profile_phone_generic_error_header">Nieprawidłowy numer telefonu</string>
@@ -280,7 +280,7 @@
   <string name="incoming__controls__ongoing__speaker">Głośnik</string>
   <string name="incoming__controls__ongoing__mute">Wyciszenie</string>
   <string name="incoming__controls__ongoing__video">Video</string>
-  <string name="ongoing__other_turned_off_video">%1$s wyłączył video</string>
+  <string name="ongoing__other_turned_off_video">%1$s wyłączył(a) wideo</string>
   <string name="ongoing__other_unable_to_send_video">%1$s nie jest w stanie wysłać video</string>
   <string name="ongoing__poor_connection_message">Video zatrzymane za zbyt słabe połączenie internetowe</string>
   <string name="ongoing__connecting">Łączenie&#8230;</string>
@@ -302,8 +302,11 @@
   <string name="connect_request__cancel_request__label">Anuluj żądanie połączenia</string>
   <string name="connect_request__unblock__button__text">Odblokuj</string>
   <string name="send_connect_request__connect_button__text">Połącz</string>
-  <string name="connect_inbox__one_person__link__name">1 osoba czeka</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s ludzi oczekujących</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="one">1 osoba czeka</item>
+    <item quantity="few">%1$s ludzi oczekujących</item>
+    <item quantity="other">%1$s ludzi oczekujących</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">Ignoruj</string>
   <string name="content__message__connect_request__footer">Połączony</string>
   <string name="content__message__connect_request__auto_connect__footer">Auto połączenie. _Dowiedz się więcej_</string>
@@ -333,7 +336,7 @@
   <string name="conversation_degraded_confirmation__header__you">Ty</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
-    <item quantity="one">%1$d osób</item>
+    <item quantity="one">%1$d osoba</item>
     <item quantity="few">%1$d osób</item>
     <item quantity="other">%1$d osób</item>
   </plurals>
@@ -443,8 +446,8 @@
   <string name="pref_options_screen_title">Opcje</string>
   <string name="pref_options_contacts_title">Udostępnij kontakty</string>
   <string name="pref_options_contacts_summary">Pozwól Wire na dostęp do kontaktów, aby połączyć się z innymi. Wszystkie informacje które podasz będą anonimowe i nie będziemy ich udostępniać nikomu innemu.</string>
-  <string name="pref_options_vbr_title">Variable Bit Rate Encoding</string>
-  <string name="pref_options_vbr_summary">This makes audio calls use less data and work better on slower networks. Turn off to use Constant Bitrate Encoding.</string>
+  <string name="pref_options_vbr_title">Kodowanie w zmiennej przepływności (VBR)</string>
+  <string name="pref_options_vbr_summary">Zmniejsza ilość danych używanych przez połączenia głosowe, dzięki czemu działają one lepiej w powolnych sieciach. Wyłącz, aby używać kodowania w stałej przepływności (CBR).</string>
   <string name="pref_options_alerts_category_title">Powiadomienia</string>
   <string name="pref_options_calls_category_title">Połączenia</string>
   <string name="pref_options_sounds_title">Dźwięki</string>
@@ -465,10 +468,6 @@
   <string name="pref_options_requested_category_title">Różne</string>
   <string name="pref_options_cursor_send_button_title">Przycisk \"Wyślij\"</string>
   <string name="pref_options_cursor_send_button_summary">Wyłączenie wysyłania poprzez klawiaturę.</string>
-  <string name="pref_options_spotify_title">Połącz ze Spotify</string>
-  <string name="pref_options_spotify_logout_title">Odłącz od Spotify</string>
-  <string name="pref_options_spotify_summary">Potrzebujesz konto Spotify Premium.</string>
-  <string name="pref_options_spotify_login_failed">Błąd logowania. Spróbuj ponownie!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Urządzenia</string>
   <string name="pref_current_device_category_title">Bieżące urządzenie</string>
@@ -483,7 +482,7 @@
   <string name="pref_devices_warning_summary">Jeśli nie rozpoznajesz któregoś z powyższych urządzeń, usuń je i zresetuj hasło.</string>
   <string name="pref_devices_device_screen_title">Szczegóły urządzenia</string>
   <string name="pref_devices_device_fingerprint_category_title">Unikalny klucz</string>
-  <string name="pref_devices_device_fingerprint_summary">Wire daje każdemu urządzeniowi unikalny klucz. Porównaj i sprawdź swoje urządzenia oraz konwersacje.</string>
+  <string name="pref_devices_device_fingerprint_summary">Wire nadaje każdemu urządzeniu unikalny odcisk palca. Porównaj je i sprawdź swoje urządzenia oraz konwersacje.</string>
   <string name="pref_devices_device_actions_category_title">Akcje</string>
   <string name="pref_devices_device_trust_title">Zweryfikowano</string>
   <string name="pref_devices_device_reset_session_title">Resetowanie sesji</string>
@@ -588,7 +587,7 @@
   <string name="calling__voice_channel_full__title">Maksymalna liczba uczestników</string>
   <plurals name="calling__voice_channel_full__message">
     <!-- should not happen though -->
-    <item quantity="one">Jest tylko miejsce na %1$d ludzi tutaj.</item>
+    <item quantity="one">W rozmowie może wziąć udział tylko %1$d osoba.</item>
     <item quantity="few">W rozmowie mogą wziąć udział tylko %1$d osoby.</item>
     <item quantity="other">Jest tylko miejsce na %1$d ludzi tutaj.</item>
   </plurals>
@@ -646,9 +645,9 @@
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_details">Naciśnij przycisk więcej</string>
   <plurals name="notification__message__ephemeral">
-    <item quantity="one">Wysłano do Ciebie wiadomość</item>
-    <item quantity="few">Wysłano do Ciebie wiadomość</item>
-    <item quantity="other">Wysłano do Ciebie wiadomość</item>
+    <item quantity="one">Ktoś wysłał do Ciebie wiadomość</item>
+    <item quantity="few">Ktoś wysłał do Ciebie wiadomość</item>
+    <item quantity="other">Ktoś wysłał do Ciebie wiadomość</item>
   </plurals>
   <!-- Others -->
   <string name="app_name">Wire</string>
@@ -662,7 +661,7 @@
   <string name="system_notification__leave_call">Zakończ połączenie</string>
   <string name="system_notification__outgoing">Dzwonię</string>
   <string name="system_notification__outgoing_video">Połączenie wideo</string>
-  <string name="system_notification__incoming">Połaczenie</string>
+  <string name="system_notification__incoming">Dzwoni</string>
   <string name="system_notification__incoming_video">Jest połączenie video</string>
   <string name="system_notification__ongoing">Na połączeniu</string>
   <string name="number_of_conversations_string">ARCHIWUM</string>
@@ -819,7 +818,6 @@
   <string name="location_sharing__enable_system_location__cancel">Anuluj</string>
   <string name="location_sharing__missing_play_services">Usługi Google Play są potrzebne do udostępniania lokalizacji</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">Rozmowa bez uczestników</string>
   <string name="new_reg__phone_signup__create_account">Utwórz konto</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">Usuń %1$s</string>
@@ -834,7 +832,7 @@
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Zarządzaj urządzeniami</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Wyloguj</string>
   <!-- OTR Participants -->
-  <string name="otr__participant__device_header">Wire daje każdemu urządzeniu unikatowy klucz. Porównaj je z %1$s i sprawdź swoje rozmowy.</string>
+  <string name="otr__participant__device_header">Wire nadaje każdemu urządzeniu unikatowy odcisk palca. Porównaj je z %1$s i sprawdź swoje konwersacje.</string>
   <string name="otr__participant__device_header__no_devices">%1$s używa starszej wersji Wire. Brak urządzeń do wyświetlenia.</string>
   <string name="otr__participant__device_header__link_text">_Sprawdź, dlaczego trzeba porównać unikalny klucz?_</string>
   <string name="otr__participant__device_class__unknown">Nieznane</string>
@@ -845,10 +843,10 @@
   <string name="otr__participant__tab_devices">Urządzenia</string>
   <string name="otr__device_activated_info">Aktywowano %s</string>
   <string name="otr__participant__single_device__my_fingerprint_link">Pokaż unikalny klucz moich urządzeń</string>
-  <string name="otr__participant__single_device__reset_session_link">Resetowanie sesji</string>
+  <string name="otr__participant__single_device__reset_session_link">Resetuj sesję</string>
   <string name="otr__participant__my_device__description">Twój unikalny klucz</string>
   <string name="otr__participant__my_device__show_all_devices_link">Pokaż wszystkie moje urządzenia</string>
-  <string name="otr__participant__single_device__description">Sprawdź, czy ten unikalny klucz odpowiada urządzeniowi %1$s.</string>
+  <string name="otr__participant__single_device__description">Sprawdź, czy to odpowiada odciskowi palca na urządzeniu %1$s.</string>
   <string name="otr__participant__single_device__how_to_link">_jak mogę to zrobić?_</string>
   <string name="otr__device_id">ID: %s</string>
   <string name="otr__first_launch__header">To jest po raz pierwszy używasz Wire na tym urządzeniu.</string>
@@ -880,7 +878,6 @@
   <string name="conversation_toolbar__delete">Usuń</string>
   <string name="conversation_toolbar__copy">Skopiuj</string>
   <string name="conversation_toolbar__fwd">Udostepnij</string>
-  <string name="conversation_toolbar__mediabar__close">Zatrzymaj</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Nie znaleziono pliku</string>
   <string name="asset_upload_error__not_found__message">Nie można pobrać określonego pliku</string>
@@ -905,7 +902,7 @@
   <string name="audio_message_error__missing_audio_permissions">Wysyłanie wiadomości audio, należy udzielić uprawnień do nagrywania dźwięku.</string>
   <string name="audio_message_error__generic">Nie można odtwarzać audio</string>
   <!-- Audio bit rate mode -->
-  <string name="audio_message__constant_bit_rate">CONSTANT BIT RATE</string>
+  <string name="audio_message__constant_bit_rate">STAŁA PRZEPŁYWNOŚĆ (CBR)</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Brak aktywnych konwersacji</string>
   <string name="no_conversation_in_list__message">Dotknij kontakty, aby rozpocząć konwersację</string>
@@ -944,7 +941,7 @@
   <string name="video_message__preview__compressing">KOMPRESJA&#8230;</string>
   <string name="audio_message__recording__slide_control__slide_hint">PRZESUŃ PALCEM DO WYSYŁANIA</string>
   <string name="audio_message__recording__slide_control__tap_hint">DOTKNIJ, ABY WYSŁAĆ</string>
-  <string name="audio_message__recording__tap_to_record">Dotknij, aby nagrać wiadomość \n Możesz _GLYPH_ póżniej</string>
+  <string name="audio_message__recording__tap_to_record">Dotknij, aby nagrać wiadomość\nmożesz ją po tym _GLYPH_</string>
   <string name="audio_message__recording__failure__title">Nie można nagrywać dźwięku</string>
   <string name="audio_message__recording__failure__message">Proszę spróbować ponownie.</string>
   <string name="audio_message__recording__limit_reached__title">Zatrzymano nagrywanie</string>
@@ -1026,4 +1023,45 @@
   <string name="multi_share_search_hint">WYŚLIJ DO&#8230;</string>
   <string name="search__box__hint_text">SZUKAJ WIADOMOŚCI TEKSTOWYCH</string>
   <string name="search__no_results">Brak wyników.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="one">%1$s new message</item>
+    <item quantity="few">%1$s new messages</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="few">%1$s missed calls</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="one">%1$s ping</item>
+    <item quantity="few">%1$s pings</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="few">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">Udostępnił obrazek</string>
+  <string name="conversation_list__shared__file">Udostępnij plik</string>
+  <string name="conversation_list__shared__video">Udostępnij video</string>
+  <string name="conversation_list__shared__audio">Udostępnij wiadomość audio</string>
+  <string name="conversation_list__shared__location">Udostępnij lokalizację</string>
+  <string name="conversation_list__missed_call">Missed call</string>
+  <string name="conversation_list__pinged">Zaczepiony</string>
+  <string name="conversation_list__ephemeral">Wiadomość tymczasowa</string>
+  <string name="conversation_list__typing">Typing a message&#8230;</string>
+  <string name="conversation_list__someone">Ktoś</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] dodał Cię do kontaktów</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">Wyszedłeś</string>
+  <string name="conversation_list__removed_you">[[%1$s]] usunął Cię</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

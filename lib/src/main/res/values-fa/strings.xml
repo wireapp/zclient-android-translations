@@ -122,7 +122,7 @@
   <string name="people_picker__address_book_matches_title">درخواست دوستی</string>
   <string name="people_picker__search_result_conversations_header_title">گروه‌ها</string>
   <string name="people_picker__search_result_connections_header_title">دفترچه تلفن</string>
-  <string name="people_picker__search_result_others_header_title">اتصال</string>
+  <string name="people_picker__search_result_others_header_title">درخواست دوستی</string>
   <string name="people_picker__search_result_recommended_header_title">کاربرانی که توصیه داده شدند</string>
   <string name="people_picker__search_result_contacts_header_title">دفترچه تلفن</string>
   <string name="people_picker__invite_header_title">دعوت</string>
@@ -299,8 +299,10 @@
   <string name="connect_request__cancel_request__label">لغو درخواست دوستی</string>
   <string name="connect_request__unblock__button__text">خارج کردن از مسدود بودن</string>
   <string name="send_connect_request__connect_button__text">درخواست دوستی</string>
-  <string name="connect_inbox__one_person__link__name">1 نفر در انتظار است</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s در انتظار هستند</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="one">1 نفر در انتظار است</item>
+    <item quantity="other">%1$s در انتظار هستند</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">نادیده گرفتن</string>
   <string name="content__message__connect_request__footer">ارتباط برقرار شد</string>
   <string name="content__message__connect_request__auto_connect__footer">بصورت خودکار ارتباط برقرار شد. _در مورد این امکان بیشتر بدانید_</string>
@@ -458,10 +460,6 @@
   <string name="pref_options_requested_category_title">بر اساس تقاضاهای محبوب</string>
   <string name="pref_options_cursor_send_button_title">دکمه ارسال</string>
   <string name="pref_options_cursor_send_button_summary">غیرفعال کردن دکمه ارسال روی صفحه کلید.</string>
-  <string name="pref_options_spotify_title">Spotify را به اپ وصل کنید</string>
-  <string name="pref_options_spotify_logout_title">Disconnect from Spotify</string>
-  <string name="pref_options_spotify_summary">شما نیاز به Spotify Premium دارید.</string>
-  <string name="pref_options_spotify_login_failed">خطا در ورود. لطفا امتحان کنید!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">دستگاه‌ها</string>
   <string name="pref_current_device_category_title">همین دستگاه</string>
@@ -798,7 +796,6 @@
   <string name="location_sharing__enable_system_location__cancel">انصراف</string>
   <string name="location_sharing__missing_play_services">سرویس گوگل برای به‌اشتراک گذاشتن موقعیت مکانی شما لازم است</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">گفتگوی خالی</string>
   <string name="new_reg__phone_signup__create_account">ایجاد یک حساب کاربری جدید</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">حذف %1$s</string>
@@ -859,7 +856,6 @@
   <string name="conversation_toolbar__delete">حذف</string>
   <string name="conversation_toolbar__copy">کپی</string>
   <string name="conversation_toolbar__fwd">به‌اشتراک بگذارید</string>
-  <string name="conversation_toolbar__mediabar__close">متوقف کردن</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">فایلی پیدا نشد</string>
   <string name="asset_upload_error__not_found__message">فایل ارسال شده قابل بازیابی نیست</string>
@@ -1000,4 +996,41 @@
   <string name="multi_share_search_hint">ارسال به&#8230;</string>
   <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
   <string name="search__no_results">نتیجه‌ای یافت نشد.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="one">%1$s new message</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="one">%1$s ping</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">یک عکس به‌اشتراک گذاشت</string>
+  <string name="conversation_list__shared__file">فایلی به اشتراک گذاشت</string>
+  <string name="conversation_list__shared__video">ویدیویی به اشتراک گذاشت</string>
+  <string name="conversation_list__shared__audio">پیام صوتی را به اشتراک گذاشت</string>
+  <string name="conversation_list__shared__location">موقعیت جغرافیایی خود را به اشتراک گذاشت</string>
+  <string name="conversation_list__missed_call">Missed call</string>
+  <string name="conversation_list__pinged">صدا زد</string>
+  <string name="conversation_list__ephemeral">پیام موقت</string>
+  <string name="conversation_list__typing">Typing a message&#8230;</string>
+  <string name="conversation_list__someone">شخصی</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] شما را اضافه کرد</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">You left</string>
+  <string name="conversation_list__removed_you">[[%1$s]] شما را حذف کرد</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

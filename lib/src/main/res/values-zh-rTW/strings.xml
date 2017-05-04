@@ -297,8 +297,9 @@
   <string name="connect_request__cancel_request__label">Cancel connection request</string>
   <string name="connect_request__unblock__button__text">解除封鎖</string>
   <string name="send_connect_request__connect_button__text">加為連絡人</string>
-  <string name="connect_inbox__one_person__link__name">1個連絡人邀請</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s 個連絡人邀請</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="other">%1$s 個連絡人邀請</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">忽略</string>
   <string name="content__message__connect_request__footer">已成為連絡人</string>
   <string name="content__message__connect_request__auto_connect__footer">自動加為連絡人。_瞭解更多_</string>
@@ -452,10 +453,6 @@
   <string name="pref_options_requested_category_title">推薦選項</string>
   <string name="pref_options_cursor_send_button_title">發送按鍵</string>
   <string name="pref_options_cursor_send_button_summary">關閉發送按鍵</string>
-  <string name="pref_options_spotify_title">連結到Spotify</string>
-  <string name="pref_options_spotify_logout_title">Disconnect from Spotify</string>
-  <string name="pref_options_spotify_summary">您需要Spotify Premium帳戶。</string>
-  <string name="pref_options_spotify_login_failed">登入失敗。請再試一次 ！</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">設備</string>
   <string name="pref_current_device_category_title">目前的設備</string>
@@ -778,7 +775,6 @@
   <string name="location_sharing__enable_system_location__cancel">取消</string>
   <string name="location_sharing__missing_play_services">使用位置分享需要Google Play服務</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">無人的聊天室</string>
   <string name="new_reg__phone_signup__create_account">新增帳號</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">移除%1$s</string>
@@ -839,7 +835,6 @@
   <string name="conversation_toolbar__delete">刪除</string>
   <string name="conversation_toolbar__copy">複製</string>
   <string name="conversation_toolbar__fwd">分享</string>
-  <string name="conversation_toolbar__mediabar__close">停止</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">找不到該檔案</string>
   <string name="asset_upload_error__not_found__message">找不到指定的檔案</string>
@@ -975,4 +970,37 @@
   <string name="multi_share_search_hint">SEND TO&#8230;</string>
   <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
   <string name="search__no_results">沒有結果。</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">分享了一張圖片</string>
+  <string name="conversation_list__shared__file">分享了檔案</string>
+  <string name="conversation_list__shared__video">分享了影片</string>
+  <string name="conversation_list__shared__audio">分享了語音訊息</string>
+  <string name="conversation_list__shared__location">分享了位置</string>
+  <string name="conversation_list__missed_call">Missed call</string>
+  <string name="conversation_list__pinged">打了聲招呼</string>
+  <string name="conversation_list__ephemeral">限時訊息</string>
+  <string name="conversation_list__typing">Typing a message&#8230;</string>
+  <string name="conversation_list__someone">Someone</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] 新增了您</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">您 離開了</string>
+  <string name="conversation_list__removed_you">[[%1$s]] 移除了 您</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

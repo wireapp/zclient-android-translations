@@ -85,7 +85,7 @@
   <string name="new_reg_phone_generic_error_header">Что-то пошло не так</string>
   <string name="new_reg_phone_generic_error_message">Пожалуйста, попробуйте зарегистрироваться снова.</string>
   <string name="new_sign_in_generic_error_header">Что-то пошло не так</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again.</string>
+  <string name="new_sign_in_generic_error_message">Пожалуйста, попробуйте войти снова.</string>
   <string name="profile_generic_error_header">Что-то пошло не так</string>
   <string name="profile_generic_error_message">Пожалуйста, попробуйте еще раз.</string>
   <string name="profile_phone_generic_error_header">Неправильный номер телефона</string>
@@ -305,8 +305,11 @@
   <string name="connect_request__cancel_request__label">Отменить запрос</string>
   <string name="connect_request__unblock__button__text">Разблокировать</string>
   <string name="send_connect_request__connect_button__text">Добавить в контакты</string>
-  <string name="connect_inbox__one_person__link__name">1 человек ожидает</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s людей ожидают</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="one">1 человек ожидает</item>
+    <item quantity="few">%1$s людей ожидают</item>
+    <item quantity="other">%1$s людей ожидают</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">Игнорировать</string>
   <string name="content__message__connect_request__footer">КОНТАКТ ДОБАВЛЕН</string>
   <string name="content__message__connect_request__auto_connect__footer">ДОБАВЛЕНЫ АВТОМАТИЧЕСКИ. _УЗНАТЬ БОЛЬШЕ_</string>
@@ -468,10 +471,6 @@
   <string name="pref_options_requested_category_title">По многочисленным просьбам</string>
   <string name="pref_options_cursor_send_button_title">Кнопка \"отправить\"</string>
   <string name="pref_options_cursor_send_button_summary">Отключить отправку по нажатию клавиши Enter.</string>
-  <string name="pref_options_spotify_title">Подключить Spotify</string>
-  <string name="pref_options_spotify_logout_title">Отключить Spotify</string>
-  <string name="pref_options_spotify_summary">Вам нужен премиум-аккаунт Spotify.</string>
-  <string name="pref_options_spotify_login_failed">Ошибка входа. Пожалуйста, попробуйте еще раз!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Устройства</string>
   <string name="pref_current_device_category_title">Текущее устройство</string>
@@ -825,7 +824,6 @@ Plural:
   <string name="location_sharing__enable_system_location__cancel">Отменить</string>
   <string name="location_sharing__missing_play_services">Для геолокации необходимы Google Play Services</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">Разговор без участников</string>
   <string name="new_reg__phone_signup__create_account">Создать аккаунт</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">Удалить %1$s</string>
@@ -886,7 +884,6 @@ Plural:
   <string name="conversation_toolbar__delete">Удалить</string>
   <string name="conversation_toolbar__copy">Копировать</string>
   <string name="conversation_toolbar__fwd">Поделиться</string>
-  <string name="conversation_toolbar__mediabar__close">Стоп</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Файл не найден</string>
   <string name="asset_upload_error__not_found__message">Не удается найти указанный файл</string>
@@ -1032,4 +1029,45 @@ Plural:
   <string name="multi_share_search_hint">ОТПРАВИТЬ...</string>
   <string name="search__box__hint_text">ПОИСК В ТЕКСТОВЫХ СООБЩЕНИЯХ</string>
   <string name="search__no_results">Ничего не найдено.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="one">%1$s new message</item>
+    <item quantity="few">%1$s new messages</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="few">%1$s missed calls</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="one">%1$s ping</item>
+    <item quantity="few">%1$s pings</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="few">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">Поделился(-лась) картинкой</string>
+  <string name="conversation_list__shared__file">Поделился(-лась) файлом</string>
+  <string name="conversation_list__shared__video">Поделился(-лась) видео</string>
+  <string name="conversation_list__shared__audio">Поделился(-лась) аудио сообщением</string>
+  <string name="conversation_list__shared__location">Поделился местоположением</string>
+  <string name="conversation_list__missed_call">Пропущенный звонок</string>
+  <string name="conversation_list__pinged">Отправил(-а) пинг</string>
+  <string name="conversation_list__ephemeral">Временное сообщение</string>
+  <string name="conversation_list__typing">Набирает сообщение&#8230;</string>
+  <string name="conversation_list__someone">Кто-то</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] добавил(-а) вас</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">Вы покинули разговор</string>
+  <string name="conversation_list__removed_you">[[%1$s]] удалил(-а) вас</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

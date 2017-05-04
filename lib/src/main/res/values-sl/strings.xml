@@ -82,7 +82,7 @@
   <string name="new_reg_phone_generic_error_header">Nekaj je šlo narobe</string>
   <string name="new_reg_phone_generic_error_message">Prosimo poizkusite ponovno z registracijo.</string>
   <string name="new_sign_in_generic_error_header">Nekaj je šlo narobe</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again.</string>
+  <string name="new_sign_in_generic_error_message">Prosimo ponovno poizkusite s prijavo.</string>
   <string name="profile_generic_error_header">Nekaj je šlo narobe</string>
   <string name="profile_generic_error_message">Prosimo poskusite ponovno.</string>
   <string name="profile_phone_generic_error_header">Neveljavna telefonska številka</string>
@@ -291,7 +291,7 @@
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Začni klic</string>
   <string name="group_calling_message" tools:ignore="PluralsCandidate">To bo poklicalo %1$d oseb</string>
-  <string name="group_calling_confirm">Klic</string>
+  <string name="group_calling_confirm">Kliči</string>
   <string name="group_calling_cancel">Prekliči</string>
   <!-- Connect request -->
   <string name="connect__message">Hej %1$s,\npoveživa se na Wire.\n%2$s</string>
@@ -305,8 +305,12 @@
   <string name="connect_request__cancel_request__label">Prekliči zahtevo za povezavo</string>
   <string name="connect_request__unblock__button__text">Odblokiraj</string>
   <string name="send_connect_request__connect_button__text">Poveži</string>
-  <string name="connect_inbox__one_person__link__name">1 oseba čaka</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s oseb čaka</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="one">1 oseba čaka</item>
+    <item quantity="two">%1$s oseb čaka</item>
+    <item quantity="few">%1$s oseb čaka</item>
+    <item quantity="other">%1$s oseb čaka</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">Ignoriraj</string>
   <string name="content__message__connect_request__footer">POVEZAN</string>
   <string name="content__message__connect_request__auto_connect__footer">SAMODEJNO POVEZAN. _NAUČI SE VEČ_</string>
@@ -472,10 +476,6 @@
   <string name="pref_options_requested_category_title">Po priljubljenih zahtevah</string>
   <string name="pref_options_cursor_send_button_title">Gumb za pošiljanje</string>
   <string name="pref_options_cursor_send_button_summary">Onemogoči za pošiljanje preko tipkovnice.</string>
-  <string name="pref_options_spotify_title">Poveži s Spotify</string>
-  <string name="pref_options_spotify_logout_title">Prekini povezavo s Spotify</string>
-  <string name="pref_options_spotify_summary">Potrebujete Spotify Premium račun.</string>
-  <string name="pref_options_spotify_login_failed">Prijava ni uspela. Prosimo poizkusite znova!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Naprave</string>
   <string name="pref_current_device_category_title">Trenutna naprava</string>
@@ -840,7 +840,6 @@
   <string name="location_sharing__enable_system_location__cancel">Prekliči</string>
   <string name="location_sharing__missing_play_services">Google Play Storitve so potrebne za deljenje lokacije</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">Prazen pogovor</string>
   <string name="new_reg__phone_signup__create_account">Ustvari račun</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">Odstrani %1$s</string>
@@ -901,7 +900,6 @@
   <string name="conversation_toolbar__delete">Izbriši</string>
   <string name="conversation_toolbar__copy">Kopiraj</string>
   <string name="conversation_toolbar__fwd">Deli</string>
-  <string name="conversation_toolbar__mediabar__close">Ustavi</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Zbirke ni mogoče najti</string>
   <string name="asset_upload_error__not_found__message">Ni mogoče pridobiti izbrane zbirke</string>
@@ -1052,4 +1050,49 @@
   <string name="multi_share_search_hint">POŠLJI&#8230;</string>
   <string name="search__box__hint_text">IŠČI PO SPOROČILIH</string>
   <string name="search__no_results">Ni rezultatov.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="one">%1$s new message</item>
+    <item quantity="two">%1$s new messages</item>
+    <item quantity="few">%1$s new messages</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="two">%1$s missed calls</item>
+    <item quantity="few">%1$s missed calls</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="one">%1$s ping</item>
+    <item quantity="two">%1$s pings</item>
+    <item quantity="few">%1$s pings</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="two">%1$s ♥</item>
+    <item quantity="few">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">Je delil(-a) sliko</string>
+  <string name="conversation_list__shared__file">Je delil(-a) zbirko</string>
+  <string name="conversation_list__shared__video">Je delil(-a) video</string>
+  <string name="conversation_list__shared__audio">Je delil(-a) zvočno sporočilo</string>
+  <string name="conversation_list__shared__location">Je delil(-a) lokacijo</string>
+  <string name="conversation_list__missed_call">Zgrešen klic</string>
+  <string name="conversation_list__pinged">Je pingal(-a)</string>
+  <string name="conversation_list__ephemeral">Časovno sporočilo</string>
+  <string name="conversation_list__typing">Tipka sporočilo&#8230;</string>
+  <string name="conversation_list__someone">Nekdo</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] te je dodal</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">Si zapustil(-a)</string>
+  <string name="conversation_list__removed_you">[[%1$s]] te je odstranil(-a)</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

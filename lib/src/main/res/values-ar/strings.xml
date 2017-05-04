@@ -122,7 +122,7 @@
   <string name="people_picker__address_book_matches_title">الاتصال</string>
   <string name="people_picker__search_result_conversations_header_title">المجموعات</string>
   <string name="people_picker__search_result_connections_header_title">جهات الاتصال</string>
-  <string name="people_picker__search_result_others_header_title">تواصل</string>
+  <string name="people_picker__search_result_others_header_title">الاتصال</string>
   <string name="people_picker__search_result_recommended_header_title">توصيات</string>
   <string name="people_picker__search_result_contacts_header_title">جهات الاتصال</string>
   <string name="people_picker__invite_header_title">قم بدعوة</string>
@@ -313,8 +313,14 @@
   <string name="connect_request__cancel_request__label">إلغاء طلب الاتصال</string>
   <string name="connect_request__unblock__button__text">إلغاء حظر</string>
   <string name="send_connect_request__connect_button__text">الاتصال</string>
-  <string name="connect_inbox__one_person__link__name">1 شخص في الانتظار</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s أشخاص في الانتظار</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="zero">%1$s أشخاص في الانتظار</item>
+    <item quantity="one">1 شخص في الانتظار</item>
+    <item quantity="two">%1$s أشخاص في الانتظار</item>
+    <item quantity="few">%1$s أشخاص في الانتظار</item>
+    <item quantity="many">%1$s أشخاص في الانتظار</item>
+    <item quantity="other">%1$s أشخاص في الانتظار</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">تجاهل</string>
   <string name="content__message__connect_request__footer">متصل</string>
   <string name="content__message__connect_request__auto_connect__footer">ربط تلقائي. _اعرف المزيد_</string>
@@ -489,10 +495,6 @@
   <string name="pref_options_requested_category_title">الأكثر شعبية</string>
   <string name="pref_options_cursor_send_button_title">زر الإرسال</string>
   <string name="pref_options_cursor_send_button_summary">تعطي الإرسال عن طريق لوحة المفاتيح.</string>
-  <string name="pref_options_spotify_title">اربط مع سبوتيفاي (Spotify)</string>
-  <string name="pref_options_spotify_logout_title">Disconnect from Spotify</string>
-  <string name="pref_options_spotify_summary">تحتاج إلى حساب سبوتيفاي بريميوم (Spotify Premium).</string>
-  <string name="pref_options_spotify_login_failed">لم ينجح تسجيل الدخول. الرجاء المحاولة مرة أخرى!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">الأجهزة</string>
   <string name="pref_current_device_category_title">الجهاز الحالي</string>
@@ -891,7 +893,6 @@
   <string name="location_sharing__enable_system_location__cancel">إلغاء</string>
   <string name="location_sharing__missing_play_services">خدمات غوغل بلاي مطلوبة لتتمكن من مشاركة الموقع</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">محادثة فارغة</string>
   <string name="new_reg__phone_signup__create_account">إنشاء حساب</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">إزالة %1$s</string>
@@ -952,7 +953,6 @@
   <string name="conversation_toolbar__delete">حذف</string>
   <string name="conversation_toolbar__copy">نسخ</string>
   <string name="conversation_toolbar__fwd">شارك</string>
-  <string name="conversation_toolbar__mediabar__close">توقف</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">لم يتم العثور على الملف</string>
   <string name="asset_upload_error__not_found__message">غير قادر على استرجاع الملف المحدد</string>
@@ -1113,4 +1113,57 @@
   <string name="multi_share_search_hint">SEND TO&#8230;</string>
   <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
   <string name="search__no_results">لا توجد نتائج.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="zero">%1$s new messages</item>
+    <item quantity="one">%1$s new message</item>
+    <item quantity="two">%1$s new messages</item>
+    <item quantity="few">%1$s new messages</item>
+    <item quantity="many">%1$s new messages</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="zero">%1$s missed calls</item>
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="two">%1$s missed calls</item>
+    <item quantity="few">%1$s missed calls</item>
+    <item quantity="many">%1$s missed calls</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="zero">%1$s pings</item>
+    <item quantity="one">%1$s ping</item>
+    <item quantity="two">%1$s pings</item>
+    <item quantity="few">%1$s pings</item>
+    <item quantity="many">%1$s pings</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="zero">%1$s ♥</item>
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="two">%1$s ♥</item>
+    <item quantity="few">%1$s ♥</item>
+    <item quantity="many">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">شارك صورة</string>
+  <string name="conversation_list__shared__file">شارك ملف</string>
+  <string name="conversation_list__shared__video">شارك فيديو</string>
+  <string name="conversation_list__shared__audio">شارك رسالة صوتية</string>
+  <string name="conversation_list__shared__location">شارك موقع</string>
+  <string name="conversation_list__missed_call">مكالمة فائتة</string>
+  <string name="conversation_list__pinged">بينغ</string>
+  <string name="conversation_list__ephemeral">رسالة مؤقّتة</string>
+  <string name="conversation_list__typing">يكتب رسالة&#8230;</string>
+  <string name="conversation_list__someone">Someone</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] قام بإضافتك</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">أنت غادرت</string>
+  <string name="conversation_list__removed_you">[[%1$s]] قام بإزالتك</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

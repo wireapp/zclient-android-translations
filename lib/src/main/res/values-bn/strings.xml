@@ -299,8 +299,10 @@
   <string name="connect_request__cancel_request__label">Cancel connection request</string>
   <string name="connect_request__unblock__button__text">আনব্লক করুন</string>
   <string name="send_connect_request__connect_button__text">সংযোগ করুন</string>
-  <string name="connect_inbox__one_person__link__name">1 জন অপেক্ষা করছে</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s জন অপেক্ষা করছে</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="one">1 জন অপেক্ষা করছে</item>
+    <item quantity="other">%1$s জন অপেক্ষা করছে</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">উপেক্ষা করুন</string>
   <string name="content__message__connect_request__footer">সংযুক্ত হয়েছে</string>
   <string name="content__message__connect_request__auto_connect__footer">স্বয়ংক্রিয় ভাবে সংযুক্ত হয়েছে। _বিস্তারিত জানুন_</string>
@@ -458,10 +460,6 @@
   <string name="pref_options_requested_category_title">জনপ্রিয় চাহিদা অনুযায়ী</string>
   <string name="pref_options_cursor_send_button_title">প্রেরণ বাটন</string>
   <string name="pref_options_cursor_send_button_summary">কী-বোর্ডের মাধ্যমে প্রেরণ বন্ধ করুন।</string>
-  <string name="pref_options_spotify_title">Spotify এর সাথে সংযুক্ত করুন</string>
-  <string name="pref_options_spotify_logout_title">Disconnect from Spotify</string>
-  <string name="pref_options_spotify_summary">Spotify প্রিমিয়াম একাউন্ট দরকার।</string>
-  <string name="pref_options_spotify_login_failed">লগিন ফেইলড। অনুগ্রহ করে আবার চেষ্টা করুন!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">ডিভাইসগুলি</string>
   <string name="pref_current_device_category_title">বর্তমান ডিভাইস</string>
@@ -799,7 +797,6 @@
   <string name="location_sharing__enable_system_location__cancel">বাতিল করুন</string>
   <string name="location_sharing__missing_play_services">লোকেশন শেয়ার করার জন্য গুগল প্লে সার্ভিস দরকার</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">খালি কথোপকথন</string>
   <string name="new_reg__phone_signup__create_account">একাউন্ট তৈরি করুন</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">%1$s অপসারণ করুন</string>
@@ -860,7 +857,6 @@
   <string name="conversation_toolbar__delete">মুছে ফেলুন</string>
   <string name="conversation_toolbar__copy">কপি</string>
   <string name="conversation_toolbar__fwd">শেয়ার</string>
-  <string name="conversation_toolbar__mediabar__close">থামুন</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">ফাইল পাওয়া যাচ্ছে না</string>
   <string name="asset_upload_error__not_found__message">নির্দিষ্ট ফাইল পুনরুদ্ধার করা যাচ্ছে না</string>
@@ -1001,4 +997,41 @@
   <string name="multi_share_search_hint">SEND TO&#8230;</string>
   <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
   <string name="search__no_results">No results.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="one">%1$s new message</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="one">%1$s ping</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">ছবি শেয়ার করেছেন</string>
+  <string name="conversation_list__shared__file">একটি ফাইল শেয়ার করেছেন</string>
+  <string name="conversation_list__shared__video">একটি ভিডিও শেয়ার করেছেন</string>
+  <string name="conversation_list__shared__audio">একটি অডিও বার্তা শেয়ার করেছেন</string>
+  <string name="conversation_list__shared__location">লোকেশন শেয়ার করেছেন</string>
+  <string name="conversation_list__missed_call">Missed call</string>
+  <string name="conversation_list__pinged">পিং করেছেন</string>
+  <string name="conversation_list__ephemeral">Timed message</string>
+  <string name="conversation_list__typing">Typing a message&#8230;</string>
+  <string name="conversation_list__someone">Someone</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] আপনাকে যুক্ত করেছে</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">You left</string>
+  <string name="conversation_list__removed_you">[[%1$s]] আপনাকে অপসারণ করেছেন</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

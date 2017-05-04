@@ -299,8 +299,10 @@
   <string name="connect_request__cancel_request__label">Annullér anmodning om forbindelse</string>
   <string name="connect_request__unblock__button__text">Fjern blokering</string>
   <string name="send_connect_request__connect_button__text">Forbind</string>
-  <string name="connect_inbox__one_person__link__name">1 person venter</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s personer venter</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="one">1 person venter</item>
+    <item quantity="other">%1$s personer venter</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">Ignorer</string>
   <string name="content__message__connect_request__footer">TILSLUTTET</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTO-FORBUNDET. _LÆR MERE_</string>
@@ -458,10 +460,6 @@
   <string name="pref_options_requested_category_title">Ved populær efterspørgsel</string>
   <string name="pref_options_cursor_send_button_title">Send knap</string>
   <string name="pref_options_cursor_send_button_summary">Slå fra for at sende via returtasten.</string>
-  <string name="pref_options_spotify_title">Forbind med Spotify</string>
-  <string name="pref_options_spotify_logout_title">Afbryd forbindelsen til Spotify</string>
-  <string name="pref_options_spotify_summary">Du skal bruge en Spotify Premium konto.</string>
-  <string name="pref_options_spotify_login_failed">Log ind mislykkedes. Prøv igen!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Enheder</string>
   <string name="pref_current_device_category_title">Aktuelle enhed</string>
@@ -800,7 +798,6 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="location_sharing__enable_system_location__cancel">Annuller</string>
   <string name="location_sharing__missing_play_services">Google Play tjenester er nødvendige for pæaceringsdeling</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">Tom samtale</string>
   <string name="new_reg__phone_signup__create_account">Opret en konto</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">Fjern %1$s</string>
@@ -861,7 +858,6 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="conversation_toolbar__delete">Slet</string>
   <string name="conversation_toolbar__copy">Kopiér</string>
   <string name="conversation_toolbar__fwd">Del</string>
-  <string name="conversation_toolbar__mediabar__close">Stop</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Filen blev ikke fundet</string>
   <string name="asset_upload_error__not_found__message">Kunne ikke læse den ønskede fil</string>
@@ -1002,4 +998,41 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="multi_share_search_hint">SEND TIL&#8230;</string>
   <string name="search__box__hint_text">SØG EFTER TEKSTBESKEDER</string>
   <string name="search__no_results">Ingen resultater.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="one">%1$s new message</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="one">%1$s ping</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">Delte et billede</string>
+  <string name="conversation_list__shared__file">Delte en fil</string>
+  <string name="conversation_list__shared__video">Delte en video</string>
+  <string name="conversation_list__shared__audio">Delte en lydbesked</string>
+  <string name="conversation_list__shared__location">Delte en placering</string>
+  <string name="conversation_list__missed_call">Missed call</string>
+  <string name="conversation_list__pinged">Pinged</string>
+  <string name="conversation_list__ephemeral">Tidsbestemt besked</string>
+  <string name="conversation_list__typing">Typing a message&#8230;</string>
+  <string name="conversation_list__someone">Nogen</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] tilføjede dig</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">Du forlod</string>
+  <string name="conversation_list__removed_you">[[%1$s]] fjernede dig</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

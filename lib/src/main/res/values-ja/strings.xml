@@ -296,8 +296,9 @@
   <string name="connect_request__cancel_request__label">つながりリクエストをキャンセルする</string>
   <string name="connect_request__unblock__button__text">ブロック解除</string>
   <string name="send_connect_request__connect_button__text">つながる</string>
-  <string name="connect_inbox__one_person__link__name">1 人待機中</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s 人が待機中</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="other">%1$s 人が待機中</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">無視する</string>
   <string name="content__message__connect_request__footer">接続しています</string>
   <string name="content__message__connect_request__auto_connect__footer">自動接続されています。_詳細_</string>
@@ -451,10 +452,6 @@
   <string name="pref_options_requested_category_title">人気の高い順</string>
   <string name="pref_options_cursor_send_button_title">送信ボタン</string>
   <string name="pref_options_cursor_send_button_summary">キーボードからの送信を無効にします。</string>
-  <string name="pref_options_spotify_title">Spotify と接続します</string>
-  <string name="pref_options_spotify_logout_title">Spotifyを切断する</string>
-  <string name="pref_options_spotify_summary">Spotify プレミアム アカウントが必要です。</string>
-  <string name="pref_options_spotify_login_failed">ログインに失敗しました。もう一度やり直してください。</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">デバイス</string>
   <string name="pref_current_device_category_title">現在のデバイス</string>
@@ -778,7 +775,6 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="location_sharing__enable_system_location__cancel">キャンセル</string>
   <string name="location_sharing__missing_play_services">場所を共有するため Google Play サービスが必要です</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">空の会話</string>
   <string name="new_reg__phone_signup__create_account">アカウントを作成</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">%1$s を削除</string>
@@ -839,7 +835,6 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="conversation_toolbar__delete">削除</string>
   <string name="conversation_toolbar__copy">コピー</string>
   <string name="conversation_toolbar__fwd">共有</string>
-  <string name="conversation_toolbar__mediabar__close">中止</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">ファイルが見つかりません</string>
   <string name="asset_upload_error__not_found__message">指定したファイルを取得できません</string>
@@ -975,4 +970,37 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="multi_share_search_hint">送信...</string>
   <string name="search__box__hint_text">テキストメッセージを検索する</string>
   <string name="search__no_results">結果はありません</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">写真を共有しました</string>
+  <string name="conversation_list__shared__file">ファイルを共有しました</string>
+  <string name="conversation_list__shared__video">ビデオを共有します</string>
+  <string name="conversation_list__shared__audio">音声メッセージを共有しました</string>
+  <string name="conversation_list__shared__location">場所を共有しました</string>
+  <string name="conversation_list__missed_call">不在着信</string>
+  <string name="conversation_list__pinged">Ping しました</string>
+  <string name="conversation_list__ephemeral">タイマーメッセージ</string>
+  <string name="conversation_list__typing">メッセージを入力中</string>
+  <string name="conversation_list__someone">誰か</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] あなたを追加しました</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">あなたは退出しました</string>
+  <string name="conversation_list__removed_you">[[%1$s]] あなたを削除しました</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

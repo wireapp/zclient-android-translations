@@ -299,8 +299,10 @@
   <string name="connect_request__cancel_request__label">Kontaktanfrage abbrechen</string>
   <string name="connect_request__unblock__button__text">Freigeben</string>
   <string name="send_connect_request__connect_button__text">Hinzufügen</string>
-  <string name="connect_inbox__one_person__link__name">Eine Kontaktanfrage</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s Kontaktanfragen</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="one">Eine Kontaktanfrage</item>
+    <item quantity="other">%1$s Kontaktanfragen</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">Ignorieren</string>
   <string name="content__message__connect_request__footer">VERBUNDEN</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTOMATISCH-VERBUNDEN. _ERFAHRE MEHR_</string>
@@ -458,10 +460,6 @@
   <string name="pref_options_requested_category_title">Auf allgemeinen Wunsch</string>
   <string name="pref_options_cursor_send_button_title">Send-Button</string>
   <string name="pref_options_cursor_send_button_summary">Deaktivieren, um mit Enter Nachrichten zu senden.</string>
-  <string name="pref_options_spotify_title">Mit Spotify verbinden</string>
-  <string name="pref_options_spotify_logout_title">Von Spotify trennen</string>
-  <string name="pref_options_spotify_summary">Du benötigst ein Spotify Premium-Konto.</string>
-  <string name="pref_options_spotify_login_failed">Login fehlgeschlagen. Bitte versuche es erneut!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Geräte</string>
   <string name="pref_current_device_category_title">Aktuelles Gerät</string>
@@ -492,7 +490,7 @@
   <string name="pref_advanced_analytics_title">Datenbenutzung und Absturzberichte</string>
   <string name="pref_advanced_analytics_summary">Durch das Senden anonymisierter Informationen hilfst du uns, Wire zu verbessern.</string>
   <string name="debug_report__title">Wire-Debug-Bericht - %1$s</string>
-  <string name="debug_report__body">Bitte beschreibe die Schritte, die zu dem Problem geführt haben. Du kannst auch Screenshots anhängen und diese per E-Mail sendenl.\n\n</string>
+  <string name="debug_report__body">Bitte beschreibe die Schritte, die zu dem Problem geführt haben. Du kannst auch Screenshots anhängen und diese per E-Mail senden.\n\n</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Hilfe</string>
   <string name="pref_support_website_title">Wire-Support-Webseite</string>
@@ -798,7 +796,6 @@
   <string name="location_sharing__enable_system_location__cancel">ABBRECHEN</string>
   <string name="location_sharing__missing_play_services">Um den Standort zu teilen, werden Google Play-Dienste benötigt.</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">Leere Unterhaltung</string>
   <string name="new_reg__phone_signup__create_account">Erstelle ein Benutzerkonto</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">%1$s entfernen</string>
@@ -859,7 +856,6 @@
   <string name="conversation_toolbar__delete">Löschen</string>
   <string name="conversation_toolbar__copy">Kopieren</string>
   <string name="conversation_toolbar__fwd">Teilen</string>
-  <string name="conversation_toolbar__mediabar__close">Stop</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Datei nicht gefunden</string>
   <string name="asset_upload_error__not_found__message">Angegebene Datei kann nicht abgerufen werden</string>
@@ -1001,4 +997,41 @@
   <string name="multi_share_search_hint">SENDEN AN&#8230;</string>
   <string name="search__box__hint_text">NACHRICHTEN DURCHSUCHEN</string>
   <string name="search__no_results">Keine Ergebnisse</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="one">%1$s new message</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="one">%1$s ping</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">hat ein Bild geteilt</string>
+  <string name="conversation_list__shared__file">Hat eine Datei geteilt</string>
+  <string name="conversation_list__shared__video">Hat ein Video geteilt</string>
+  <string name="conversation_list__shared__audio">Hat eine Audio-Nachricht geteilt</string>
+  <string name="conversation_list__shared__location">Hat einen Standort geteilt</string>
+  <string name="conversation_list__missed_call">Verpasster Anruf</string>
+  <string name="conversation_list__pinged">hat gepinged</string>
+  <string name="conversation_list__ephemeral">Temporäre Nachricht</string>
+  <string name="conversation_list__typing">Schreibt eine Nachricht&#8230;</string>
+  <string name="conversation_list__someone">Jemand</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] hat dich hinzugefügt</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">Du hast die Unterhaltung verlassen</string>
+  <string name="conversation_list__removed_you">[[%1$s]] hat dich entfernt</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Leere Unterhaltung</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

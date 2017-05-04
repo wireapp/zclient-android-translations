@@ -299,8 +299,10 @@
   <string name="connect_request__cancel_request__label">Cancelar a solicitação de conexão</string>
   <string name="connect_request__unblock__button__text">Desbloquear</string>
   <string name="send_connect_request__connect_button__text">Conectar</string>
-  <string name="connect_inbox__one_person__link__name">1 pessoa esperando</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s pessoas esperando</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="one">1 pessoa esperando</item>
+    <item quantity="other">%1$s pessoas esperando</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">Ignorar</string>
   <string name="content__message__connect_request__footer">CONECTADO</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTO-CONECTADO. _LEARN MORE_</string>
@@ -458,10 +460,6 @@
   <string name="pref_options_requested_category_title">Por demanda popular</string>
   <string name="pref_options_cursor_send_button_title">Botão Enviar</string>
   <string name="pref_options_cursor_send_button_summary">Desabilite para enviar através do teclado.</string>
-  <string name="pref_options_spotify_title">Conectar-se com o Spotify</string>
-  <string name="pref_options_spotify_logout_title">Desconecte do Spotify</string>
-  <string name="pref_options_spotify_summary">Você precisa de uma conta Premium do Spotify.</string>
-  <string name="pref_options_spotify_login_failed">Falha no login. Por favor, tente novamente!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Dispositivos</string>
   <string name="pref_current_device_category_title">Dispositivo atual</string>
@@ -798,7 +796,6 @@
   <string name="location_sharing__enable_system_location__cancel">Cancelar</string>
   <string name="location_sharing__missing_play_services">Google Play Services é necessário para o compartilhamento de localização</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">Conversa vazia</string>
   <string name="new_reg__phone_signup__create_account">Criar uma conta</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">Remover %1$s</string>
@@ -859,7 +856,6 @@
   <string name="conversation_toolbar__delete">Apagar</string>
   <string name="conversation_toolbar__copy">Copiar</string>
   <string name="conversation_toolbar__fwd">Compartilhar</string>
-  <string name="conversation_toolbar__mediabar__close">Parar</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Arquivo não encontrado</string>
   <string name="asset_upload_error__not_found__message">Não é possível recuperar o arquivo especificado</string>
@@ -1000,4 +996,41 @@
   <string name="multi_share_search_hint">ENVIE PARA&#8230;</string>
   <string name="search__box__hint_text">PROCURAR MENSAGENS DE TEXTO</string>
   <string name="search__no_results">Sem resultados.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="one">%1$s new message</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="one">%1$s ping</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">Compartilhou uma imagem</string>
+  <string name="conversation_list__shared__file">Compartilhou um arquivo</string>
+  <string name="conversation_list__shared__video">Compartilhou um vídeo</string>
+  <string name="conversation_list__shared__audio">Compartilhou uma mensagem de áudio</string>
+  <string name="conversation_list__shared__location">Compartilhou uma localização</string>
+  <string name="conversation_list__missed_call">Chamada não atendida</string>
+  <string name="conversation_list__pinged">Pingou</string>
+  <string name="conversation_list__ephemeral">Mensagem temporizada</string>
+  <string name="conversation_list__typing">Digitando uma mensagem&#8230;</string>
+  <string name="conversation_list__someone">Alguém</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] adicionou você</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">Você saiu</string>
+  <string name="conversation_list__removed_you">[[%1$s]] removeu você</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>

@@ -30,7 +30,7 @@
   <string name="welcome__terms_of_service">NASTAVKOM PRISTAJETE NA _TERMS USE_.</string>
   <string name="profile__photo__guidance">BOK %1$s, \n\n WIRE JE PUNO BOLJI SA SLIKOM.</string>
   <string name="profile__name__guidance__tooshort__title">NAJMANJE 2 ZNAKA</string>
-  <string name="profile__email__placeholder">Email</string>
+  <string name="profile__email__placeholder">E-mail</string>
   <string name="profile__password__placeholder">Lozinka</string>
   <string name="profile__password__guidance__tooshort__title">BAREM 8 ZNAKOVA</string>
   <string name="profile__email__verify__instructions">Poslali smo e-mail na \n[[%1$s]]. \nPratite link da bi potvrdili svoju adresu.</string>
@@ -119,10 +119,10 @@
   <string name="pick_user_search_focus">\u0020 PRETRAŽI PO IMENU ILI KORISNIČKOM IMENU</string>
   <string name="pick_user_search__add_to_conversation">\u0020 PRETRAŽIVANJE PO IMENU</string>
   <string name="people_picker__top_users_header_title">Top veze</string>
-  <string name="people_picker__address_book_matches_title">Poveži se</string>
+  <string name="people_picker__address_book_matches_title">Povežite se</string>
   <string name="people_picker__search_result_conversations_header_title">Grupe</string>
   <string name="people_picker__search_result_connections_header_title">Kontakti</string>
-  <string name="people_picker__search_result_others_header_title">Poveži se</string>
+  <string name="people_picker__search_result_others_header_title">Povežite se</string>
   <string name="people_picker__search_result_recommended_header_title">Preporučeno</string>
   <string name="people_picker__search_result_contacts_header_title">Kontakti</string>
   <string name="people_picker__invite_header_title">Pozovite</string>
@@ -137,8 +137,8 @@
   <string name="people_picker__error_message__no_results__send_invite">pošaljite \n pozivnicu</string>
   <string name="people_picker__error_message__no_users_to_add_to_conversation">Svi ljudi s kojima ste povezani su već u ovom razgovoru.</string>
   <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Nismo mogli pronaći nikoga od tvojih kontakata na Wire. Unesite puno ime ili e-mail adresu.</string>
-  <string name="people_picker__toolbar_header__group">Dodaj osobe</string>
-  <string name="people_picker__toolbar_header__one_to_one">Napravi grupu</string>
+  <string name="people_picker__toolbar_header__group">Dodajte osobe</string>
+  <string name="people_picker__toolbar_header__one_to_one">Kreirajte grupu</string>
   <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">Zna %1$s</string>
@@ -301,9 +301,12 @@
   <string name="connect_request__sub_header__pending_label">Na čekanju</string>
   <string name="connect_request__cancel_request__label">Odjavi zahtjev za vezu</string>
   <string name="connect_request__unblock__button__text">Odblokiraj</string>
-  <string name="send_connect_request__connect_button__text">Poveži se</string>
-  <string name="connect_inbox__one_person__link__name">1 osoba čeka</string>
-  <string name="connect_inbox__multiple_people__link__name">%1$s ljudi čeka</string>
+  <string name="send_connect_request__connect_button__text">Povežite se</string>
+  <plurals name="connect_inbox__link__name">
+    <item quantity="one">1 osoba čeka</item>
+    <item quantity="few">%1$s ljudi čeka</item>
+    <item quantity="other">%1$s ljudi čeka</item>
+  </plurals>
   <string name="connect_request__ignore_button__text">Ignoriraj</string>
   <string name="content__message__connect_request__footer">VEZA USPOSTAVLJENA</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTOPOVEZIVANJE._NAUČI VIŠE_</string>
@@ -421,7 +424,7 @@
   <string name="pref_account_username_title">Korisničko Ime</string>
   <string name="pref_account_phone_title">Telefon</string>
   <string name="pref_account_add_phone_title">Dodavanje telefonskog broja</string>
-  <string name="pref_account_email_title">Email</string>
+  <string name="pref_account_email_title">E-mail</string>
   <string name="pref_account_add_email_title">Dodaj email adresu</string>
   <string name="pref_account_sign_out_title">Odjava</string>
   <string name="pref_account_color_title">Boja</string>
@@ -465,10 +468,6 @@
   <string name="pref_options_requested_category_title">Zbog velike potražnje</string>
   <string name="pref_options_cursor_send_button_title">Gumb za slanje</string>
   <string name="pref_options_cursor_send_button_summary">Onemogući za slanje preko tipkovnice.</string>
-  <string name="pref_options_spotify_title">Poveži sa Spotify</string>
-  <string name="pref_options_spotify_logout_title">Disconnect from Spotify</string>
-  <string name="pref_options_spotify_summary">Potreban Vam je Spotify Premium račun.</string>
-  <string name="pref_options_spotify_login_failed">Prijava nije uspjela. Molimo pokušajte ponovo!</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Uređaji</string>
   <string name="pref_current_device_category_title">Trenutni uređaj</string>
@@ -533,7 +532,7 @@
   <string name="pref__account_action__email_verification__resend">&lt;u&gt;Ponovno pošalji %s&lt;/u&gt;</string>
   <string name="pref__account_action__email_verification__change"><u>Promjena e-pošte</u></string>
   <string name="pref__account_action__dialog__add_email_password__password">Lozinka</string>
-  <string name="pref__account_action__dialog__add_email_password__email">Email</string>
+  <string name="pref__account_action__dialog__add_email_password__email">E-mail</string>
   <string name="pref__account_action__dialog__add_email_password__title">Dodaj e-mail adresu</string>
   <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Nevažeća e-mail adresa</string>
   <string name="pref__account_action__dialog__add_email_password__error__invalid_password">Najmanje 8 znakova</string>
@@ -764,7 +763,7 @@
   <string name="country">Država</string>
   <string name="register">Registrirajte se</string>
   <string name="password_placeholder">Lozinka</string>
-  <string name="email_placeholder">Email</string>
+  <string name="email_placeholder">E-mail</string>
   <string name="name_placeholder">Ime</string>
   <string name="registration_back">Natrag</string>
   <!-- Strings -->
@@ -786,7 +785,7 @@
   <string name="phone_sign_in">Telefon</string>
   <string name="go_to_register">Napravi račun</string>
   <string name="not_now">Ne sada</string>
-  <string name="email_sign_in">Email</string>
+  <string name="email_sign_in">E-mail</string>
   <string name="edit_email">Uredi e-poštu</string>
   <string name="hello">Pozdrav, &lt; b &gt;%s &lt; /b &gt;</string>
   <string name="sign_in">Prijavi se</string>
@@ -819,7 +818,6 @@
   <string name="location_sharing__enable_system_location__cancel">Odustani</string>
   <string name="location_sharing__missing_play_services">Google Play Usluge su potrebne za dijeljenje lokacije</string>
   <!-- From SyncEngine -->
-  <string name="zms_empty_conversation_name">Prazan razgovor</string>
   <string name="new_reg__phone_signup__create_account">Stvaranje računa</string>
   <!-- OTR -->
   <string name="otr__remove_device__title">Ukloniti %1$s</string>
@@ -880,7 +878,6 @@
   <string name="conversation_toolbar__delete">Izbriši</string>
   <string name="conversation_toolbar__copy">Kopiraj</string>
   <string name="conversation_toolbar__fwd">Podijeli</string>
-  <string name="conversation_toolbar__mediabar__close">Zaustavi</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Datoteka nije pronađena</string>
   <string name="asset_upload_error__not_found__message">Nije moguće dohvatiti navedenu datoteku</string>
@@ -1026,4 +1023,45 @@
   <string name="multi_share_search_hint">SEND TO&#8230;</string>
   <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
   <string name="search__no_results">0 rezultata.</string>
+  <!-- Conversation List -->
+  <plurals name="conversation_list__new_message_count">
+    <item quantity="one">%1$s new message</item>
+    <item quantity="few">%1$s new messages</item>
+    <item quantity="other">%1$s new messages</item>
+  </plurals>
+  <plurals name="conversation_list__missed_calls_count">
+    <item quantity="one">%1$s missed call</item>
+    <item quantity="few">%1$s missed calls</item>
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
+  <plurals name="conversation_list__pings_count">
+    <item quantity="one">%1$s ping</item>
+    <item quantity="few">%1$s pings</item>
+    <item quantity="other">%1$s pings</item>
+  </plurals>
+  <plurals name="conversation_list__new_likes_count">
+    <item quantity="one">%1$s ♥</item>
+    <item quantity="few">%1$s ♥</item>
+    <item quantity="other">%1$s ♥</item>
+  </plurals>
+  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_short">⚠</string>
+  <string name="conversation_list__shared__image">Podijelila/o sliku</string>
+  <string name="conversation_list__shared__file">Podijelila/o datoteku</string>
+  <string name="conversation_list__shared__video">Podijelila/o video</string>
+  <string name="conversation_list__shared__audio">Podijelila/o audio poruku</string>
+  <string name="conversation_list__shared__location">Podijelila/o lokaciju</string>
+  <string name="conversation_list__missed_call">Missed call</string>
+  <string name="conversation_list__pinged">Pingala/o</string>
+  <string name="conversation_list__ephemeral">Odgođeno slanje</string>
+  <string name="conversation_list__typing">Typing a message&#8230;</string>
+  <string name="conversation_list__someone">Netko</string>
+  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added_you">[[%1$s]] te dodao/la</string>
+  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left_you">Vi ste otišli</string>
+  <string name="conversation_list__removed_you">[[%1$s]] te uklonio/la</string>
+  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__header__title">CONVERSATIONS</string>
 </resources>
