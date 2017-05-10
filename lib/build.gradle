@@ -3,13 +3,14 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.4.12"
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7'
     }
 }
 
 apply plugin: 'com.android.library'
+apply plugin: 'maven'
 apply plugin: 'maven-publish'
-apply plugin: 'com.jfrog.artifactory'
+apply plugin: 'com.jfrog.bintray'
 
 android {
     compileSdkVersion 23
@@ -35,49 +36,44 @@ ext {
 dependencies {
 }
 
-
 publishing {
-   publications {
-        aar(MavenPublication) {
-            groupId 'com.wire'
-            version mavenVersion
-            artifactId 'wiretranslations'
-            artifact 'build/outputs/aar/lib-release.aar'
-            artifact javadocJar
-            artifact sourcesJar
+    publications {
+
+        repositories.maven {
+            url 'http://192.168.10.18:8081/nexus/content/repositories/releases/'
+            credentials {
+                username "deployment"
+                password "deployment123"
+            }
+        }
+
+        maven(MavenPublication) {
+            artifacts {
+                groupId 'com.wire'
+                artifactId 'wiretranslations'
+                version mavenVersion
+                artifact 'build/outputs/aar/lib-release.aar'
+            }
+        }
+    }
+
+}
+
+bintray {
+    user = System.getenv('BINTRAY_USER')
+    key = System.getenv('BINTRAY_KEY')
+    publications = ['maven']
+    publish = true
+    pkg {
+        userOrg = 'wire-android'
+        repo = 'releases'
+        name = 'wiretranslations'
+        licenses = ['GPL-3.0']
+        vcsUrl = 'https://github.com/wireapp'
+        version {
+            name = mavenVersion
+            vcsTag = mavenVersion
         }
     }
 }
 
-artifactory {
-    contextUrl = 'https://wire.jfrog.io/wire'
-    publish {
-        repository {
-            // The Artifactory repository key to publish to
-            repoKey = 'libs-release-local'
-
-            username = System.getenv("ARTIFACTORY_USER")
-            password = System.getenv("ARTIFACTORY_PASSWORD")
-        }
-        defaults {
-            publications('aar')
-            publishArtifacts = true
-            publishPom = true
-        }
-    }
-}
-
-task sourcesJar(type: Jar) {
-    from android.sourceSets.main.java.srcDirs
-    classifier = 'sources'
-}
-
-task javadoc(type: Javadoc) {
-    source = android.sourceSets.main.java.srcDirs
-    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-}
-
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
-    from javadoc.destinationDir
-}
