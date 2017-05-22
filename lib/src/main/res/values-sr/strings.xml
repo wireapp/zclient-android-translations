@@ -413,8 +413,8 @@
   <!-- Account -->
   <string name="pref_account_screen_title">Налог</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
-  <string name="pref_account_name_title">Назив</string>
-  <string name="pref_account_edit_name_title">Уреди назив</string>
+  <string name="pref_account_name_title">Име</string>
+  <string name="pref_account_edit_name_title">Уреди име</string>
   <string name="pref_account_details_category_title">Инфо</string>
   <string name="pref_account_actions_category_title">Радње</string>
   <string name="pref_account_personal_category_title">Лично</string>
@@ -426,6 +426,7 @@
   <string name="pref_account_add_phone_title">Додајте број телефона</string>
   <string name="pref_account_email_title">E-пошта</string>
   <string name="pref_account_add_email_title">Додајте е-пошту</string>
+  <string name="pref_account_delete">Обриши</string>
   <string name="pref_account_sign_out_title">Одјави се</string>
   <string name="pref_account_color_title">Боја</string>
   <string name="pref_account_picture_title">Слика</string>
@@ -542,6 +543,12 @@
   <string name="pref__account_action__dialog__add_phone__error__number">Неисправан број телефона</string>
   <string name="pref__account_action__dialog__add_phone__confirm__title">Потврди број</string>
   <string name="pref__account_action__dialog__add_phone__confirm__message">Послаћемо код обавештења на:\n%s</string>
+  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Уклони</string>
+  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Заиста желите да уклоните %s из вашег Вајер налога?</string>
+  <string name="pref__account_action__dialog__delete_phone__error">Не могу да избришем број телефона</string>
+  <string name="pref__account_action__dialog__delete_email__error">Не могу да обришем е-пошту</string>
+  <string name="pref__account_action__dialog__delete_email__no_internet_error">Да бисте обрисали е-пошту, морате бити повезани</string>
+  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Да бисте обрисали број, морате бити повезани</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Унесите исправану е-адресу</string>
   <string name="pref__account_action__dialog__change_email__title">Уреди адресу е-поште</string>
   <string name="pref__account_action__dialog__change_username__summary">Ако знају ваше корисничко име, људи вас могу наћи на Вајеру иако немају ваш број или адресу е-поште.</string>
@@ -664,7 +671,7 @@
   <string name="system_notification__incoming">позива</string>
   <string name="system_notification__incoming_video">позива с видеом</string>
   <string name="system_notification__ongoing">у позиву</string>
-  <string name="number_of_conversations_string">АРХИВИРАЈ</string>
+  <string name="number_of_conversations_string">АРХИВА</string>
   <!-- Notification actions -->
   <string name="notification__action__call">Позив</string>
   <string name="notification__action__reply">Одговори</string>
@@ -874,7 +881,7 @@
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Збирка</string>
   <string name="conversation_toolbar__call_video">Видео позив</string>
-  <string name="conversation_toolbar__call_audio">Звучни позив</string>
+  <string name="conversation_toolbar__call_audio">Гласовни позив</string>
   <string name="conversation_toolbar__delete">Обриши</string>
   <string name="conversation_toolbar__copy">Копирај</string>
   <string name="conversation_toolbar__fwd">Подели</string>
@@ -906,7 +913,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Нема активних разговора</string>
   <string name="no_conversation_in_list__message">Тапните на контакте да започнете разговор</string>
-  <string name="cursor__type_a_message">КУЦА ПОРУКУ</string>
+  <string name="cursor__type_a_message">УКУЦАЈТЕ ПОРУКУ</string>
   <string name="cursor__ephemeral_message">ТЕМПИРАНА ПОРУКА</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
   <string name="cursor__ephemeral_message__timer_seconds">%1$sсек.</string>
@@ -918,7 +925,7 @@
   <string name="tooltip_ping">Пинг</string>
   <string name="tooltip_emoji">Емоџи</string>
   <string name="tooltip_location">Локација</string>
-  <string name="tooltip_more">Више радњи</string>
+  <string name="tooltip_more">још радњи</string>
   <string name="tooltip_audio_message">Тапните и задржите за слање звучне поруке</string>
   <string name="tooltip_file">Пошаљи фајл</string>
   <string name="tooltip_gif">Гиф</string>
@@ -939,13 +946,13 @@
   <string name="video_message__preview__header">Шаљи кориснику %1$s</string>
   <string name="video_message__quick_menu__send_label">Пошаљи</string>
   <string name="video_message__preview__compressing">КОМПРЕСУЈЕМ&#8230;</string>
-  <string name="audio_message__recording__slide_control__slide_hint">ПРЕВУЦИТЕ ЗА СЛАЊЕ</string>
+  <string name="audio_message__recording__slide_control__slide_hint">ПРЕВУЦИТЕ ГОРЕ ЗА СЛАЊЕ</string>
   <string name="audio_message__recording__slide_control__tap_hint">ТАПНИТЕ ЗА СЛАЊЕ</string>
   <string name="audio_message__recording__tap_to_record">Тапните да снимите поруку\nможете је _GLYPH_ након тога</string>
   <string name="audio_message__recording__failure__title">Не могу да снимим звук</string>
   <string name="audio_message__recording__failure__message">Покушајте поново.</string>
   <string name="audio_message__recording__limit_reached__title">Снимање заустављено</string>
-  <string name="audio_message__recording__limit_reached__message">Звучне поруке су ограничене на 25MB. Да шаљем ову поруку?</string>
+  <string name="audio_message__recording__limit_reached__message">Звучне поруке су ограничене на 25Mb. Да шаљем ову поруку?</string>
   <string name="audio_message__recording__limit_reached__confirmation">ШАЉИ</string>
   <string name="hint_change_filter">Изаберите филтер изнад</string>
   <string name="message_bottom_menu_action_forward">Подели</string>
@@ -1064,5 +1071,5 @@
   <string name="conversation_list__removed">[[%1$s]] је уклоњен</string>
   <string name="conversation_list__empty_conv__subtitle">Сви изађоше</string>
   <string name="conversation_list__header__title">РАЗГОВОРИ</string>
-  <string name="conversation_list__header__archive_title">АРХИВИРАЈ</string>
+  <string name="conversation_list__header__archive_title">АРХИВЕ</string>
 </resources>

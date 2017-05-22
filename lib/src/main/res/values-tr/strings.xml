@@ -418,6 +418,7 @@
   <string name="pref_account_add_phone_title">Telefon numarası ekleyin</string>
   <string name="pref_account_email_title">E-posta</string>
   <string name="pref_account_add_email_title">E-posta ekle</string>
+  <string name="pref_account_delete">Sil</string>
   <string name="pref_account_sign_out_title">Çıkış yap</string>
   <string name="pref_account_color_title">Renk</string>
   <string name="pref_account_picture_title">Resim</string>
@@ -534,6 +535,12 @@
   <string name="pref__account_action__dialog__add_phone__error__number">Geçersiz telefon numarası</string>
   <string name="pref__account_action__dialog__add_phone__confirm__title">Numarayı onayla</string>
   <string name="pref__account_action__dialog__add_phone__confirm__message">%s\n numarasına bildirim kodu göndereceğiz</string>
+  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Kaldır</string>
+  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">%s tel hesabınızdan kaldırmak istediğinizden emin misiniz?</string>
+  <string name="pref__account_action__dialog__delete_phone__error">Telefon numarası silinemiyor</string>
+  <string name="pref__account_action__dialog__delete_email__error">E-posta silinemiyor</string>
+  <string name="pref__account_action__dialog__delete_email__no_internet_error">E-posta silmek için çevrimiçi olmanız gerekir</string>
+  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Telefonu silmek için çevrimiçi olmanız gerekir</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Geçerli e-posta girin</string>
   <string name="pref__account_action__dialog__change_email__title">E-posta adresini düzenle</string>
   <string name="pref__account_action__dialog__change_username__summary">Bu kullanıcı adı ile insanlar sizi Wire\'da e-posta adresinizi veya telefon numaranızı bilmeye ihtiyaç duymadan bulabilecekler.</string>
@@ -998,22 +1005,22 @@
   <string name="search__no_results">Sonuç yok.</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s new message</item>
-    <item quantity="other">%1$s new messages</item>
+    <item quantity="one">%1$s yeni mesaj</item>
+    <item quantity="other">%1$s yeni mesaj</item>
   </plurals>
   <plurals name="conversation_list__missed_calls_count">
-    <item quantity="one">%1$s missed call</item>
-    <item quantity="other">%1$s missed calls</item>
+    <item quantity="one">%1$s cevapsız çağrı</item>
+    <item quantity="other">%1$s cevapsız çağrı</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s ping</item>
-    <item quantity="other">%1$s pings</item>
+    <item quantity="other">%1$s ping</item>
   </plurals>
   <plurals name="conversation_list__new_likes_count">
     <item quantity="one">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_long">⚠ Mesaj gönderilemedi</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">Bir resim paylaştı</string>
   <string name="conversation_list__shared__file">Bir dosya paylaştı</string>
@@ -1021,17 +1028,17 @@
   <string name="conversation_list__shared__audio">Bir sesli mesaj paylaştı</string>
   <string name="conversation_list__shared__location">Bir konum paylaştı</string>
   <string name="conversation_list__missed_call">Cevapsız arama</string>
-  <string name="conversation_list__pinged">Seslendi</string>
+  <string name="conversation_list__pinged">Pingledi</string>
   <string name="conversation_list__ephemeral">Süreli Mesaj</string>
   <string name="conversation_list__typing">Bir mesaj yazıyor&#8230;</string>
   <string name="conversation_list__someone">Birisi</string>
-  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added">[[%1$s]] eklendi</string>
   <string name="conversation_list__added_you">[[%1$s]] sizi ekledi</string>
-  <string name="conversation_list__left">[[%1$s]] has left</string>
+  <string name="conversation_list__left">[[%1$s]] ayrıldı</string>
   <string name="conversation_list__left_you">Ayrıldın</string>
   <string name="conversation_list__removed_you">[[%1$s]] seni gruptan çıkardı</string>
-  <string name="conversation_list__removed">[[%1$s]] was removed</string>
-  <string name="conversation_list__empty_conv__subtitle">Herkes çıktı</string>
-  <string name="conversation_list__header__title">CONVERSATIONS</string>
+  <string name="conversation_list__removed">[[%1$s]] çıkartıldı</string>
+  <string name="conversation_list__empty_conv__subtitle">Herkes ayrıldı</string>
+  <string name="conversation_list__header__title">KONUŞMALAR</string>
   <string name="conversation_list__header__archive_title">ARŞİV</string>
 </resources>

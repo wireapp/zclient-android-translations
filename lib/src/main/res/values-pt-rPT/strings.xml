@@ -26,7 +26,7 @@
   <string name="camera_permissions_denied_title">Câmara não disponível</string>
   <string name="camera_permissions_denied_message">Para tirar e enviar fotos, conceder permissão de acesso a câmera</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Comunicação moderna e privada.</string>
+  <string name="welcome__slogan">Comunicações modernas e privadas.</string>
   <string name="welcome__terms_of_service">AO CONTINUAR CONCORDA COM _CONDIÇÕES DE USO_.</string>
   <string name="profile__photo__guidance">Olá %1$s, O Wire \n\n é melhor\n com uma fotografia.</string>
   <string name="profile__name__guidance__tooshort__title">PELO MENOS 2 CARACTERES</string>
@@ -82,7 +82,7 @@
   <string name="new_reg_phone_generic_error_header">Algo correu mal</string>
   <string name="new_reg_phone_generic_error_message">Por favor, tente fazer o registo de novo.</string>
   <string name="new_sign_in_generic_error_header">Algo correu mal</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again.</string>
+  <string name="new_sign_in_generic_error_message">Por favor, tente iniciar sessão de novo.</string>
   <string name="profile_generic_error_header">Algo correu mal</string>
   <string name="profile_generic_error_message">Por favor, tente novamente.</string>
   <string name="profile_phone_generic_error_header">Número de telefone inválido</string>
@@ -418,6 +418,7 @@
   <string name="pref_account_add_phone_title">Adicionar um número de telefone</string>
   <string name="pref_account_email_title">Correio Eletrónico</string>
   <string name="pref_account_add_email_title">Adicionar endereço de correio electrónico</string>
+  <string name="pref_account_delete">Eliminar</string>
   <string name="pref_account_sign_out_title">Terminar sessão</string>
   <string name="pref_account_color_title">Cor</string>
   <string name="pref_account_picture_title">Foto</string>
@@ -534,6 +535,12 @@
   <string name="pref__account_action__dialog__add_phone__error__number">Número de telefone inválido</string>
   <string name="pref__account_action__dialog__add_phone__confirm__title">Confirmar o número</string>
   <string name="pref__account_action__dialog__add_phone__confirm__message">Enviaremos um código de notificação para: \n%s</string>
+  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Remover</string>
+  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Tem certeza que deseja remover %s da sua conta Wire?</string>
+  <string name="pref__account_action__dialog__delete_phone__error">Não é possível excluir o número de telefone</string>
+  <string name="pref__account_action__dialog__delete_email__error">Não é possível excluir o e-mail</string>
+  <string name="pref__account_action__dialog__delete_email__no_internet_error">Precisa estar online para apagar o e-mail</string>
+  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Precisa de estar online para excluir o telefone</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Inserir endereço de e-mail válido</string>
   <string name="pref__account_action__dialog__change_email__title">Editar o endereço de e-mail</string>
   <string name="pref__account_action__dialog__change_username__summary">Com este nome de utilizador, as pessoas poderão encontrá-lo no Wire sem saber o seu número de telefone ou endereço de e-mail.</string>
@@ -998,40 +1005,40 @@
   <string name="search__no_results">Sem resultados.</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s new message</item>
-    <item quantity="other">%1$s new messages</item>
+    <item quantity="one">%1$s mensagem nova</item>
+    <item quantity="other">%1$s mensagens novas</item>
   </plurals>
   <plurals name="conversation_list__missed_calls_count">
-    <item quantity="one">%1$s missed call</item>
-    <item quantity="other">%1$s missed calls</item>
+    <item quantity="one">%1$s chamada perdida</item>
+    <item quantity="other">%1$s chamadas perdidas</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s ping</item>
-    <item quantity="other">%1$s pings</item>
+    <item quantity="other">%1$s ping</item>
   </plurals>
   <plurals name="conversation_list__new_likes_count">
     <item quantity="one">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_long">⚠ Mensagem não enviada</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">Partilhou uma foto</string>
   <string name="conversation_list__shared__file">Partilhou um ficheiro</string>
   <string name="conversation_list__shared__video">Partilhou um vídeo</string>
   <string name="conversation_list__shared__audio">Partilhou uma mensagem áudio</string>
   <string name="conversation_list__shared__location">Partilhou a localização</string>
-  <string name="conversation_list__missed_call">Missed call</string>
+  <string name="conversation_list__missed_call">Chamada perdida</string>
   <string name="conversation_list__pinged">Pingado</string>
-  <string name="conversation_list__ephemeral">Timed message</string>
-  <string name="conversation_list__typing">Typing a message&#8230;</string>
-  <string name="conversation_list__someone">Someone</string>
-  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__ephemeral">Mensagem agendada</string>
+  <string name="conversation_list__typing">A escrever uma mensagem&#8230;</string>
+  <string name="conversation_list__someone">Alguém</string>
+  <string name="conversation_list__added">[[%1$s]] foi adicionado</string>
   <string name="conversation_list__added_you">[[%1$s]] adicionou-o</string>
-  <string name="conversation_list__left">[[%1$s]] has left</string>
-  <string name="conversation_list__left_you">You left</string>
+  <string name="conversation_list__left">[[%1$s]] saiu</string>
+  <string name="conversation_list__left_you">Você deixou</string>
   <string name="conversation_list__removed_you">[[%1$s]] removeu-o</string>
-  <string name="conversation_list__removed">[[%1$s]] was removed</string>
-  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
-  <string name="conversation_list__header__title">CONVERSATIONS</string>
+  <string name="conversation_list__removed">[[%1$s]] foi removido</string>
+  <string name="conversation_list__empty_conv__subtitle">Saíram todos</string>
+  <string name="conversation_list__header__title">CONVERSAS</string>
   <string name="conversation_list__header__archive_title">ARQUIVO</string>
 </resources>
