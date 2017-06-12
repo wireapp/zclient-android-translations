@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
   <string name="permissions_denied_dialog_acknowledge">Tamam</string>
   <string name="permissions_denied_dialog_settings">Ayarlar</string>
-  <string name="camera_not_available">KAMERA MEVCUT DEĞİL</string>
+  <string name="camera_not_available">KAMERA KULLANILAMIYOR</string>
   <string name="camera_permissions_denied_title">Kamera mevcut değil</string>
   <string name="camera_permissions_denied_message">Fotoğraf çekip göndermek için kamera erişimine izin verin</string>
   <!-- Registration and Sign in -->
@@ -117,17 +117,17 @@
   <string name="invitation__email__failed">Bu davetiyeyle kayıt yapılamıyor.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 İSİM VEYA KULLANICI ADINA GÖRE ARA</string>
-  <string name="pick_user_search_hint">SEARCH BY NAME OR USERNAME</string>
+  <string name="pick_user_search_hint">İSİM VEYA KULLANICI ADINA GÖRE ARA</string>
   <string name="pick_user_search__add_to_conversation">\u0020 İSİMLE ARA</string>
   <string name="people_picker__top_users_header_title">Sık görüşülenler</string>
   <string name="people_picker__address_book_matches_title">Bağlan</string>
   <string name="people_picker__search_result_conversations_header_title">Gruplar</string>
-  <string name="people_picker__search_result_team_conversations_header_title">%1$s Groups</string>
+  <string name="people_picker__search_result_team_conversations_header_title">%1$s Grup</string>
   <string name="people_picker__search_result_connections_header_title">Kişiler</string>
   <string name="people_picker__search_result_others_header_title">Bağlan</string>
   <string name="people_picker__search_result_recommended_header_title">Önerilenler</string>
   <string name="people_picker__search_result_contacts_header_title">Kişiler</string>
-  <string name="people_picker__search_result_team_members_header_title">Team Members</string>
+  <string name="people_picker__search_result_team_members_header_title">Takım Üyeleri</string>
   <string name="people_picker__invite_header_title">Davet et</string>
   <string name="people_picker__confirm_button_title">Sohbet başlat</string>
   <string name="people_picker__confirm_button_title__add_to_conversation">EKLE</string>
@@ -145,10 +145,10 @@
   <string name="people_picker__search_result__expander_title">%1$s\'nun tümünü göster →</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Kişileri Paylaş</string>
-  <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
-  <string name="people_picker__share_contacts__yay">Allow</string>
-  <string name="people_picker__share_contacts__nah">Deny</string>
-  <string name="people_picker__share_contacts__nevvah">Never ask again</string>
+  <string name="people_picker__share_contacts__message">Eğer kişilerinizi paylaşırsanız Wire arkadaşlarınızı bulmanıza yardım eder.</string>
+  <string name="people_picker__share_contacts__yay">İzin ver</string>
+  <string name="people_picker__share_contacts__nah">Reddet</string>
+  <string name="people_picker__share_contacts__nevvah">Bir daha sorma</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">%1$s kişisini tanıyor</string>
   <string name="people_picker__recommended__common_connections__two">%1$s ve %2$s kişilerini tanıyor</string>
@@ -271,10 +271,6 @@
   <string name="calling__cannot_start__no_video_permission__message">Görüntülü arama yapabilmek için mikrofon ve kameraya erişim izni verin.</string>
   <string name="calling__cannot_start__button">TAMAM</string>
   <string name="calling__cannot_start__button_settings">Ayarlar</string>
-  <string name="calling__cannot_start__ongoing_voice__title">Aramaya cevap ver?</string>
-  <string name="calling__cannot_start__ongoing_voice__message">Aktif aramanız sonlanacak.</string>
-  <string name="calling__cannot_start__ongoing_voice__button_positive">Cevap Ver</string>
-  <string name="calling__cannot_start__ongoing_voice__button_negative">İptal Et</string>
   <string name="calling__video_call__slow_connection__message">Arama sırasında sorunlarla karşılaşabilirsiniz</string>
   <string name="calling__header__joining">katılınıyor</string>
   <string name="calling__header__outgoing_subtitle">çalıyor</string>
@@ -545,11 +541,11 @@
   <string name="pref__account_action__dialog__add_phone__confirm__title">Numarayı onayla</string>
   <string name="pref__account_action__dialog__add_phone__confirm__message">%s\n numarasına bildirim kodu göndereceğiz</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Kaldır</string>
-  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">%s tel hesabınızdan kaldırmak istediğinizden emin misiniz?</string>
+  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">%s\'ı Wire hesabınızdan kaldırmak istediğinize emin misiniz?</string>
   <string name="pref__account_action__dialog__delete_phone__error">Telefon numarası silinemiyor</string>
   <string name="pref__account_action__dialog__delete_email__error">E-posta silinemiyor</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">E-posta silmek için çevrimiçi olmanız gerekir</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Telefonu silmek için çevrimiçi olmanız gerekir</string>
+  <string name="pref__account_action__dialog__delete_email__no_internet_error">E-postanızı kaldırmak için çevrimiçi olmanız gerekir</string>
+  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Telefonunuzu kaldırmak için çevrimiçi olmanız gerekir</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Geçerli e-posta girin</string>
   <string name="pref__account_action__dialog__change_email__title">E-posta adresini düzenle</string>
   <string name="pref__account_action__dialog__change_username__summary">Bu kullanıcı adı ile insanlar sizi Wire\'da e-posta adresinizi veya telefon numaranızı bilmeye ihtiyaç duymadan bulabilecekler.</string>
@@ -898,9 +894,9 @@
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">SABİT BİT HIZI</string>
   <!-- no contacts -->
-  <string name="no_conversation_in_list__header">No conversations yet</string>
+  <string name="no_conversation_in_list__header">Hiç konuşma yok</string>
   <string name="all_archived__header">Her şey arşivlendi</string>
-  <string name="no_conversation_in_list__message">Start a conversation, create a group or invite people to join.</string>
+  <string name="no_conversation_in_list__message">Bir konuşma başlatın, bir grup oluşturun veya katılmak için insanları davet edin.</string>
   <string name="cursor__type_a_message">BİR MESAJ YAZIN</string>
   <string name="cursor__ephemeral_message">SÜRELİ MESAJ</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1051,5 +1047,6 @@
   <string name="conversation_list__empty_conv__subtitle">Herkes ayrıldı</string>
   <string name="conversation_list__header__title">KONUŞMALAR</string>
   <string name="conversation_list__header__archive_title">ARŞİV</string>
-  <string name="guest_indicator">GUEST</string>
+  <string name="guest_indicator">KONUK</string>
+  <string name="participant_tab_guest_indicator">Guest in %1$s</string>
 </resources>

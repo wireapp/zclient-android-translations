@@ -122,7 +122,7 @@
   <string name="people_picker__top_users_header_title">Најчешће контактирани</string>
   <string name="people_picker__address_book_matches_title">Повежи се</string>
   <string name="people_picker__search_result_conversations_header_title">Групе</string>
-  <string name="people_picker__search_result_team_conversations_header_title">Група: %1$s</string>
+  <string name="people_picker__search_result_team_conversations_header_title">Групе %1$s</string>
   <string name="people_picker__search_result_connections_header_title">Контакти</string>
   <string name="people_picker__search_result_others_header_title">Повежи се</string>
   <string name="people_picker__search_result_recommended_header_title">Препоручено</string>
@@ -273,10 +273,6 @@
   <string name="calling__cannot_start__no_video_permission__message">За видео позив, одобрите приступ микрофону и камери.</string>
   <string name="calling__cannot_start__button">У реду</string>
   <string name="calling__cannot_start__button_settings">Поставке</string>
-  <string name="calling__cannot_start__ongoing_voice__title">Да одговорим на позив?</string>
-  <string name="calling__cannot_start__ongoing_voice__message">Ваш текући позив биће завршен.</string>
-  <string name="calling__cannot_start__ongoing_voice__button_positive">Одговори</string>
-  <string name="calling__cannot_start__ongoing_voice__button_negative">Откажи</string>
   <string name="calling__video_call__slow_connection__message">Можда ћете имати сметње током позива</string>
   <string name="calling__header__joining">придружује се</string>
   <string name="calling__header__outgoing_subtitle">звони</string>
@@ -460,14 +456,14 @@
   <string name="pref_options_vbr_summary">Ово чини да гласовни позиви троше мање података и раде боље на споријим везама. Искључите да користите кодирање сталним протоком.</string>
   <string name="pref_options_alerts_category_title">Упозорења</string>
   <string name="pref_options_calls_category_title">Позиви</string>
-  <string name="pref_options_sounds_title">Звукови</string>
+  <string name="pref_options_sounds_title">Звуци</string>
   <string name="pref_options_sounds_all">сви</string>
   <string name="pref_options_sounds_new_conversations_and_talks_only">прва порука, пинг, позиви</string>
   <string name="pref_options_sounds_none">без</string>
   <string name="pref_options_vibration_title">Вибрација</string>
   <string name="pref_options_sounds_category_title">Упозорења</string>
-  <string name="pref_options_ringtones_category_title">Звукови</string>
-  <string name="pref_options_ringtones_ringtone_title">Мелодија звона</string>
+  <string name="pref_options_ringtones_category_title">Звуци</string>
+  <string name="pref_options_ringtones_ringtone_title">Тон звона</string>
   <string name="pref_options_ringtones_text_title">Тон поруке</string>
   <string name="pref_options_ringtones_ping_title">Пинг</string>
   <string name="pref_options_ringtones_default_summary">Вајеров подразумевани</string>
@@ -505,7 +501,7 @@
   <string name="pref_advanced_screen_title">Напредно</string>
   <string name="pref_advanced_debug_report_title">Пошаљите извештај о грешци</string>
   <string name="pref_advanced_debug_report_summary">Ово помаже Вајер подршци да открије проблем.</string>
-  <string name="pref_advanced_analytics_title">Искоришћење података и извештаји</string>
+  <string name="pref_advanced_analytics_title">Подаци о коришћењу и падовима</string>
   <string name="pref_advanced_analytics_summary">Учините Вајер бољим шаљући анонимне информације.</string>
   <string name="debug_report__title">Вајеров извештај о грешци — %1$s</string>
   <string name="debug_report__body">Опишите кораке који доводе до овог проблема, дајте снимке екрана ако је могуће и пошаљите ову поруку.\n\n</string>
@@ -617,9 +613,9 @@
   <!-- Lockscreen and notifications -->
   <string name="lockscreen__talk">ПОЗИВА</string>
   <plurals name="notification__new_messages">
-    <item quantity="one">%1$d порука од %2$s</item>
-    <item quantity="few">%1$d поруке од %2$s</item>
-    <item quantity="other">%1$d порука од %2$s</item>
+    <item quantity="one">%2$s: %1$d порука</item>
+    <item quantity="few">%2$s: %1$d порукe</item>
+    <item quantity="other">%2$s: %1$d порука</item>
   </plurals>
   <plurals name="notification__new_messages_groups">
     <item quantity="one">%1$d порука у %2$s</item>
@@ -627,7 +623,7 @@
     <item quantity="other">%1$d порука у %2$s</item>
   </plurals>
   <plurals name="notification__new_messages__multiple">
-    <item quantity="one">Порука у %2$s разговора</item>
+    <item quantity="one">%1$d порука у %2$s разговора</item>
     <item quantity="few">%1$d поруке у %2$s разговора</item>
     <item quantity="other">%1$d порука у %2$s разговора</item>
   </plurals>
@@ -866,7 +862,7 @@
   <string name="otr__participant__single_device__how_to_link">_Како ово радим?_</string>
   <string name="otr__device_id">ИД: %s</string>
   <string name="otr__first_launch__header">Ово је први пут да Вајер користите на овом уређају.</string>
-  <string name="otr__first_launch__sub_header">Ради приватности, историјат разговора неће се приказивати овде.</string>
+  <string name="otr__first_launch__sub_header">Ради приватности, ранији разговори неће се приказивати овде.</string>
   <string name="otr__first_launch__button">У реду</string>
   <string name="otr__device_approve__header">Повезали сте уређај са вашим Вајер налогом.</string>
   <string name="otr__device_approve__note">Ако нисте ви ово урадили, уклоните уређај и ресетујте лозинку.</string>
@@ -942,7 +938,7 @@
   <string name="new_feature">Ново</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Обрисати само за мене?</string>
-  <string name="conversation__message_action__delete_for_everyone">Избриши за свакога?</string>
+  <string name="conversation__message_action__delete_for_everyone">Избрисати за све?</string>
   <string name="conversation__message_action__delete_details">Ово се не може опозвати.</string>
   <string name="conversation__message_action__delete__dialog__cancel">Откажи</string>
   <string name="conversation__message_action__delete__dialog__ok">Обриши</string>
@@ -1083,4 +1079,5 @@
   <string name="conversation_list__header__title">РАЗГОВОРИ</string>
   <string name="conversation_list__header__archive_title">АРХИВЕ</string>
   <string name="guest_indicator">ГОСТ</string>
+  <string name="participant_tab_guest_indicator">Гостију у %1$s</string>
 </resources>

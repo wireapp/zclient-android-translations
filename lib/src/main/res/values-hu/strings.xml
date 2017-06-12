@@ -117,17 +117,17 @@
   <string name="invitation__email__failed">Nem lehetséges regisztrálni ezzel a meghívóval.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 KERESÉS NÉV VAGY FELHASZNÁLÓNÉV SEGÍTSÉGÉVEL</string>
-  <string name="pick_user_search_hint">SEARCH BY NAME OR USERNAME</string>
+  <string name="pick_user_search_hint">KERESÉS NÉV VAGY FELHASZNÁLÓNÉV SEGÍTSÉGÉVEL</string>
   <string name="pick_user_search__add_to_conversation">\u0020 KERESÉS NÉV SZERINT</string>
   <string name="people_picker__top_users_header_title">Top Partnerek</string>
   <string name="people_picker__address_book_matches_title">Csatlakozás</string>
   <string name="people_picker__search_result_conversations_header_title">Csoportok</string>
-  <string name="people_picker__search_result_team_conversations_header_title">%1$s Groups</string>
+  <string name="people_picker__search_result_team_conversations_header_title">%1$s Csoportok</string>
   <string name="people_picker__search_result_connections_header_title">Névjegyek</string>
   <string name="people_picker__search_result_others_header_title">Csatlakozás</string>
   <string name="people_picker__search_result_recommended_header_title">Ajánlott</string>
   <string name="people_picker__search_result_contacts_header_title">Névjegyek</string>
-  <string name="people_picker__search_result_team_members_header_title">Team Members</string>
+  <string name="people_picker__search_result_team_members_header_title">Csapattagok</string>
   <string name="people_picker__invite_header_title">Meghív</string>
   <string name="people_picker__confirm_button_title">Beszélgetés létrehozása</string>
   <string name="people_picker__confirm_button_title__add_to_conversation">HOZZÁADÁS</string>
@@ -271,10 +271,6 @@
   <string name="calling__cannot_start__no_video_permission__message">Videó híváshoz, adjon engedélyt a mikrofon és a kamera eléréséhez.</string>
   <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Beállítások</string>
-  <string name="calling__cannot_start__ongoing_voice__title">Fogadja a hívást?</string>
-  <string name="calling__cannot_start__ongoing_voice__message">Az aktuális hívás véget ért.</string>
-  <string name="calling__cannot_start__ongoing_voice__button_positive">Fogadás</string>
-  <string name="calling__cannot_start__ongoing_voice__button_negative">Mégse</string>
   <string name="calling__video_call__slow_connection__message">Előfordulhat, hogy problémákba ütközik hívás közben</string>
   <string name="calling__header__joining">csatlakozás</string>
   <string name="calling__header__outgoing_subtitle">csörgés</string>
@@ -449,7 +445,7 @@
   <string name="pref_options_contacts_title">Névjegyek megosztása</string>
   <string name="pref_options_contacts_summary">Ez segít Önnek kapcsolatba lépni másokkal. Mi anonimizáljuk az összes információját és nem osztjuk meg senki mással.</string>
   <string name="pref_options_vbr_title">Változó bitsebességű kódolás</string>
-  <string name="pref_options_vbr_summary">Ez teszi lehetővé, hogy a hanghívás kevesebb adatot használjon, és jobban működhessen kisebb sávszélességű hálózatokon. Kapcsolja ki a változó bitsebességű kódolást.</string>
+  <string name="pref_options_vbr_summary">Ez teszi lehetővé, hogy a hanghívás kevesebb adatot használjon, és jobban működhessen kisebb sávszélességű hálózatokon. Kapcsolja ki, ha állandó bitsebességű kódolást szeretne használni.</string>
   <string name="pref_options_alerts_category_title">Riasztások</string>
   <string name="pref_options_calls_category_title">Hívások</string>
   <string name="pref_options_sounds_title">Hangok</string>
@@ -487,7 +483,7 @@
   <string name="pref_devices_device_fingerprint_summary">A Wire minden eszköznek egyedi ujjlenyomatot ad. Hasonlítsa össze és ellenőrizze az eszközöket és a beszélgetéseket.</string>
   <string name="pref_devices_device_actions_category_title">Műveletek</string>
   <string name="pref_devices_device_trust_title">Megerősítve</string>
-  <string name="pref_devices_device_reset_session_title">Munkamenet visszaállítása</string>
+  <string name="pref_devices_device_reset_session_title">Visszaállítás</string>
   <string name="pref_devices_device_reset_session_summary">Ha az ujjlenyomatok nem egyeznek, állítsa vissza a munkamenet és hozzon létre egy új titkosítási kulcsok mindkét oldalon.</string>
   <string name="pref_devices_device_remove_title">Eszköz eltávolítása</string>
   <string name="pref_devices_device_remove_summary">Távolítsa el a készüléket, ha már nem használja. Ezen a készüléken teljes körűen kijelentkezel.</string>
@@ -795,7 +791,7 @@
   <string name="service_giphy_name">Giphy</string>
   <!--Sketch-->
   <string name="drawing__tip__picture__message">KOPPINTSON A SZÍNRE HOGY MEGVÁLTOZTASSA AZ ECSET MÉRETÉT.\n\nRÁZZA MEG HOGY ELTÁVOLÍTSA A KÉPEKET.</string>
-  <string name="drawing__tip__message">KOPPINTSON A SZÍNRE HOGY MEGVÁLTOZTASSA AZ ECSET MÉRETÉT.\n\nTARTSA LENYOMVA HOGY KITÖLTSE EGY TERÜLETET.</string>
+  <string name="drawing__tip__message">KOPPINTSON A SZÍNRE HOGY MEGVÁLTOZTASSA AZ ECSET MÉRETÉT.\n\nTARTSA LENYOMVA HOGY KITÖLTSE A TERÜLETET.</string>
   <string name="add_a_sketch">Vázlat hozzáadása</string>
   <string name="sketch__emoji_keyboard__size_label__small">KICSI</string>
   <string name="sketch__emoji_keyboard__size_label__medium">KÖZEPES</string>
@@ -826,7 +822,7 @@
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Eszközök kezelése</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Kijelentkezés</string>
   <!-- OTR Participants -->
-  <string name="otr__participant__device_header">A Wire minden eszköznek egyedi ujjlenyomatot ad. Hasonlítsa össze ezzel %1$s, és erősítse meg a beszélgetést.</string>
+  <string name="otr__participant__device_header">A Wire minden eszköznek egyedi ujjlenyomatot ad. Hasonlítsa össze vele: %1$s, és erősítse meg a beszélgetést.</string>
   <string name="otr__participant__device_header__no_devices">%1$s a Wire régi verzióját használja. Eszközei itt nem jeleníthetőek meg.</string>
   <string name="otr__participant__device_header__link_text">_Mért erősítse meg a beszélgetést?_</string>
   <string name="otr__participant__device_class__unknown">Ismeretlen</string>
@@ -837,10 +833,10 @@
   <string name="otr__participant__tab_devices">Eszközök</string>
   <string name="otr__device_activated_info">Aktiválva itt: %s</string>
   <string name="otr__participant__single_device__my_fingerprint_link">Eszköz ujjlenyomatának megjelenítése</string>
-  <string name="otr__participant__single_device__reset_session_link">Munkamenet visszaállítása</string>
+  <string name="otr__participant__single_device__reset_session_link">Visszaállítás</string>
   <string name="otr__participant__my_device__description">Eszköz ujjlenyomata</string>
   <string name="otr__participant__my_device__show_all_devices_link">Eszköz megjelenítése</string>
-  <string name="otr__participant__single_device__description">Ellenőrizze, hogy ez az ujjlenyomat megegyezik azzal amit ezen a készüléken talál %1$s.</string>
+  <string name="otr__participant__single_device__description">Ellenőrizze, hogy egyezik-e az ujjlenyomata a megjelenített: %1$s eszközével.</string>
   <string name="otr__participant__single_device__how_to_link">_Hogyan csináljam?_</string>
   <string name="otr__device_id">AZONOSÍTÓ: %s</string>
   <string name="otr__first_launch__header">Első alkalommal használja a Wire-t ezen az eszközön.</string>
@@ -898,9 +894,9 @@
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">ÁLLANDÓ BITSEBESSÉG</string>
   <!-- no contacts -->
-  <string name="no_conversation_in_list__header">No conversations yet</string>
+  <string name="no_conversation_in_list__header">Még nincsenek beszélgetések</string>
   <string name="all_archived__header">Minden archiválva</string>
-  <string name="no_conversation_in_list__message">Start a conversation, create a group or invite people to join.</string>
+  <string name="no_conversation_in_list__message">Indítson el egy beszélgetést, hozzon létre egy csoportot vagy hívjon meg partnereket, hogy csatlakozzanak.</string>
   <string name="cursor__type_a_message">ÍRJON BE EGY ÜZENETET</string>
   <string name="cursor__ephemeral_message">IDŐZÍTETT ÜZENET</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1051,5 +1047,6 @@
   <string name="conversation_list__empty_conv__subtitle">Mindenki elhagyta a beszélgetést</string>
   <string name="conversation_list__header__title">BESZÉLGETÉSEK</string>
   <string name="conversation_list__header__archive_title">ARCHÍVÁLÁS</string>
-  <string name="guest_indicator">GUEST</string>
+  <string name="guest_indicator">VENDÉG</string>
+  <string name="participant_tab_guest_indicator">Vendég %1$s</string>
 </resources>

@@ -22,8 +22,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
   <string name="permissions_denied_dialog_acknowledge">Ok</string>
   <string name="permissions_denied_dialog_settings">Definições</string>
-  <string name="camera_not_available">CÂMERA NÃO DISPONÍVEL</string>
-  <string name="camera_permissions_denied_title">Câmara não disponível</string>
+  <string name="camera_not_available">CÂMERA NÃO ESTÁ DISPONÍVEL</string>
+  <string name="camera_permissions_denied_title">Câmara não está disponível</string>
   <string name="camera_permissions_denied_message">Para tirar e enviar fotos, conceder permissão de acesso a câmera</string>
   <!-- Registration and Sign in -->
   <string name="welcome__slogan">Comunicações modernas e privadas.</string>
@@ -52,13 +52,13 @@
   <string name="new_reg__add_phone_number">Adicionar um número de telefone</string>
   <string name="new_reg_phone__change_country">_ALTERAR PAÍS_</string>
   <string name="new_reg__add_email">Adicionar o endereço de e-mail e palavra-passe</string>
-  <string name="new_reg__add_email_info">Ajuda a autenticar-se, se estiver bloqueado ou perder o seu telefone.</string>
-  <string name="new_reg__otr__add_email_info">Adicionar o seu endereço de e-mail e palavra-passe.</string>
+  <string name="new_reg__add_email_info">Ajuda a autenticar-se se estiver bloqueado ou perder o seu telefone.</string>
+  <string name="new_reg__otr__add_email_info">Adicione o seu endereço de e-mail e palavra-passe.</string>
   <string name="new_reg__otr__add_email_sub_info">Permite que use o Wire em vários dispositivos.</string>
   <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
   <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
   <string name="new_reg_email_invalid_header">Endereço de e-mail inválido</string>
-  <string name="new_reg_email_invalid_message">Por favor introduza um endereço de e-mail válido.</string>
+  <string name="new_reg_email_invalid_message">Por favor, introduza um endereço de e-mail válido.</string>
   <string name="new_reg_email_generic_error_header">Algo correu mal</string>
   <string name="new_reg_email_generic_error_message">Por favor, tente fazer o registo de novo.</string>
   <string name="new_reg_email_register_generic_error_header">Informação inválida</string>
@@ -75,10 +75,10 @@
   <string name="new_reg_phone_invalid_add_code_message">Por favor, introduza um código válido.</string>
   <string name="new_reg_phone_invalid_login_code_header">Código incorreto</string>
   <string name="new_reg_phone_invalid_login_code_message">Por favor, introduza um código válido.</string>
-  <string name="new_reg_phone_pending_login_header">Código já foi enviado</string>
-  <string name="new_reg_phone_pending_login_message">Já enviamos um código via SMS. Toque Reenviar após 10 minutos para receber um novo código.</string>
+  <string name="new_reg_phone_pending_login_header">O código já foi enviado</string>
+  <string name="new_reg_phone_pending_login_message">Já enviamos um código via SMS. Toque, após 10 minutos, para receber um novo código.</string>
   <string name="new_reg_phone_add_password_header">Palavra-passe Inválida</string>
-  <string name="new_reg_phone_add_password_message">Por favor verifique os seus dados e tente novamente.</string>
+  <string name="new_reg_phone_add_password_message">Por favor verifique os seus dados e tente de novo.</string>
   <string name="new_reg_phone_generic_error_header">Algo correu mal</string>
   <string name="new_reg_phone_generic_error_message">Por favor, tente fazer o registo de novo.</string>
   <string name="new_sign_in_generic_error_header">Algo correu mal</string>
@@ -88,7 +88,7 @@
   <string name="profile_phone_generic_error_header">Número de telefone inválido</string>
   <string name="profile_phone_generic_error_message">Por favor, introduza um número de telefone válido.</string>
   <string name="new_reg_phone_too_man_attempts_header">Demasiadas tentativas</string>
-  <string name="new_reg_phone_too_man_attempts_message">Por favor, tente novamente mais tarde.</string>
+  <string name="new_reg_phone_too_man_attempts_message">Por favor, tente iniciar sessão mais tarde.</string>
   <string name="new_reg_server_connectivity_error_header">Algo correu mal</string>
   <string name="new_reg_server_connectivity_error_message">Por favor, verifique a sua ligação à internet e tente de novo.</string>
   <string name="new_reg_internet_connectivity_error_header">Sem ligação à Internet</string>
@@ -105,29 +105,29 @@
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Registe-se com o número de telefone</string>
   <string name="invitation_email__normal_email_signup_button">Registe-se com outro endereço de e-mail</string>
-  <string name="invitation_email__password_placeholder">Palavra-passe (min %1$s car.)</string>
+  <string name="invitation_email__password_placeholder">Palavra-passe (min %1$s caract.)</string>
   <string name="invitation_email__welcome_header">Olá, %1$s.</string>
   <string name="invitation_email__welcome_message">Escolha uma palavra-passe para criar sua conta.</string>
   <string name="invitation__continue_button">Continuar</string>
   <string name="invitation_phone__normal_phone_signup_button">Usar um número de telefone diferente</string>
-  <string name="invitation_phone__normal_email_signup_button">Registe-se com o seu endereço de correio electrónico</string>
+  <string name="invitation_phone__normal_email_signup_button">Registe-se com o seu endereço de email</string>
   <string name="invitation_phone__welcome_header">Olá, %1$s.</string>
   <string name="invitation_phone__welcome_message">Está a um passo de criar sua conta.</string>
   <string name="invitation__phone__failed">Não é possível fazer o registo com este convite.</string>
   <string name="invitation__email__failed">Não é possível fazer o registo com este convite.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 PESQUISAR POR NOME OU NOME DE UTILIZADOR</string>
-  <string name="pick_user_search_hint">SEARCH BY NAME OR USERNAME</string>
+  <string name="pick_user_search_hint">PESQUISAR POR NOME OU NOME DE UTILIZADOR</string>
   <string name="pick_user_search__add_to_conversation">\u0020 PESQUISAR POR NOME</string>
   <string name="people_picker__top_users_header_title">Pessoas mais contactadas</string>
   <string name="people_picker__address_book_matches_title">Ligar</string>
-  <string name="people_picker__search_result_conversations_header_title">Groupos</string>
+  <string name="people_picker__search_result_conversations_header_title">Grupos</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Groups</string>
   <string name="people_picker__search_result_connections_header_title">Contactos</string>
   <string name="people_picker__search_result_others_header_title">Ligar</string>
   <string name="people_picker__search_result_recommended_header_title">Recomendado</string>
   <string name="people_picker__search_result_contacts_header_title">Contactos</string>
-  <string name="people_picker__search_result_team_members_header_title">Team Members</string>
+  <string name="people_picker__search_result_team_members_header_title">Membros da Equipa</string>
   <string name="people_picker__invite_header_title">Convidar</string>
   <string name="people_picker__confirm_button_title">Criar nova conversa</string>
   <string name="people_picker__confirm_button_title__add_to_conversation">ADICIONAR</string>
@@ -145,10 +145,10 @@
   <string name="people_picker__search_result__expander_title">Mostrar todas %1$s ↓</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Partilhar contactos</string>
-  <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
-  <string name="people_picker__share_contacts__yay">Allow</string>
-  <string name="people_picker__share_contacts__nah">Deny</string>
-  <string name="people_picker__share_contacts__nevvah">Never ask again</string>
+  <string name="people_picker__share_contacts__message">O Wire ajuda-o a encontrar os seus amigos se partilhar os seus contactos.</string>
+  <string name="people_picker__share_contacts__yay">Permitir</string>
+  <string name="people_picker__share_contacts__nah">Recusar</string>
+  <string name="people_picker__share_contacts__nevvah">Não perguntar de novo</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">Conhece %1$s</string>
   <string name="people_picker__recommended__common_connections__two">Conhece %1$s e %2$s</string>
@@ -271,10 +271,6 @@
   <string name="calling__cannot_start__no_video_permission__message">Para chamada de video, conceda permissão para acesso ao microfone e câmera.</string>
   <string name="calling__cannot_start__button">Ok</string>
   <string name="calling__cannot_start__button_settings">Definições</string>
-  <string name="calling__cannot_start__ongoing_voice__title">Atender a chamada?</string>
-  <string name="calling__cannot_start__ongoing_voice__message">Sua ligação atual vai acabar.</string>
-  <string name="calling__cannot_start__ongoing_voice__button_positive">Atender</string>
-  <string name="calling__cannot_start__ongoing_voice__button_negative">Cancelar</string>
   <string name="calling__video_call__slow_connection__message">Pode haver problemas durante a chamada</string>
   <string name="calling__header__joining">juntar-se</string>
   <string name="calling__header__outgoing_subtitle">a tocar</string>
@@ -898,9 +894,9 @@
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">TAXA DE BITS CONSTANTE</string>
   <!-- no contacts -->
-  <string name="no_conversation_in_list__header">No conversations yet</string>
-  <string name="all_archived__header">Everything archived</string>
-  <string name="no_conversation_in_list__message">Start a conversation, create a group or invite people to join.</string>
+  <string name="no_conversation_in_list__header">Ainda não existem conversas</string>
+  <string name="all_archived__header">Foi tudo arquivado</string>
+  <string name="no_conversation_in_list__message">Inicie uma conversa, crie um grupo ou convide pessoas para participar.</string>
   <string name="cursor__type_a_message">DIGITE UMA MENSAGEM</string>
   <string name="cursor__ephemeral_message">MENSAGEM COM ENVIO PROGRAMADO</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1051,5 +1047,6 @@
   <string name="conversation_list__empty_conv__subtitle">Saíram todos</string>
   <string name="conversation_list__header__title">CONVERSAS</string>
   <string name="conversation_list__header__archive_title">ARQUIVO</string>
-  <string name="guest_indicator">GUEST</string>
+  <string name="guest_indicator">CONVIDADO</string>
+  <string name="participant_tab_guest_indicator">Covidados em %1$s</string>
 </resources>
