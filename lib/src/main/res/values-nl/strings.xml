@@ -117,7 +117,7 @@
   <string name="invitation__email__failed">Niet in staat om met deze uitnodiging te registreren.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 ZOEK OP NAAM OF GEBRUIKERSNAAM</string>
-  <string name="pick_user_search_hint">SEARCH BY NAME OR USERNAME</string>
+  <string name="pick_user_search_hint">ZOEK OP NAAM OF GEBRUIKERSNAAM</string>
   <string name="pick_user_search__add_to_conversation">\u0020 ZOEK OP NAAM</string>
   <string name="people_picker__top_users_header_title">Favoriete contacten</string>
   <string name="people_picker__address_book_matches_title">Accepteer</string>
@@ -127,11 +127,11 @@
   <string name="people_picker__search_result_others_header_title">Accepteer</string>
   <string name="people_picker__search_result_recommended_header_title">Aanbevolen</string>
   <string name="people_picker__search_result_contacts_header_title">Contacten</string>
-  <string name="people_picker__search_result_team_members_header_title">Team Members</string>
+  <string name="people_picker__search_result_team_members_header_title">Team leden</string>
   <string name="people_picker__invite_header_title">Uitnodigen</string>
   <string name="people_picker__confirm_button_title">Creëer een gesprek</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">TOEVOEGEN</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Maak</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Voeg Personen aan Groep toe</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Groep aanmaken</string>
   <string name="people_picker__error_message__no_results">Geen overeenkomende resultaten.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Zoek personen op naam of op e-mailadres</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Voer alsjeblieft een geldig e-mailadres in of</string>
@@ -143,12 +143,13 @@
   <string name="people_picker__toolbar_header__group">Contacten toevoegen</string>
   <string name="people_picker__toolbar_header__one_to_one">Maak groep</string>
   <string name="people_picker__search_result__expander_title">Toon alle %1$s ↓</string>
+  <string name="people_picker__guest_label">Gast</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Contacten delen</string>
   <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
-  <string name="people_picker__share_contacts__yay">Allow</string>
-  <string name="people_picker__share_contacts__nah">Deny</string>
-  <string name="people_picker__share_contacts__nevvah">Never ask again</string>
+  <string name="people_picker__share_contacts__yay">Toestaan</string>
+  <string name="people_picker__share_contacts__nah">Weigeren</string>
+  <string name="people_picker__share_contacts__nevvah">Nooit meer vragen</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">Weetjes %1$s</string>
   <string name="people_picker__recommended__common_connections__two">Weetjes %1$s en %2$s</string>
@@ -170,7 +171,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">UITNODIGEN</string>
   <string name="people_picker__contact_list__invite_dialog__title">Uitnodiging verzenden</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 ZOEK OP NAAM</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">NODIG MEER MENSEN UIT</string>
+  <string name="people_picker__generic_invite_button_text">Nodig andere mensen uit voor Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d persoon gemeenschappelijk</item>
     <item quantity="other">%1$d personen gemeenschappelijk</item>
@@ -407,6 +408,7 @@
   <string name="pref_category_title">Instellingen</string>
   <string name="pref_developer_screen_title">Ontwikkelaar Instellingen</string>
   <string name="pref_dev_avs_screen_title">AVS Instellingen</string>
+  <string name="pref_profile_screen_title">Profiel</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Profiel</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -459,6 +461,7 @@
   <string name="pref_options_ringtones_text_title">Tekst kleur</string>
   <string name="pref_options_ringtones_ping_title">Ping</string>
   <string name="pref_options_ringtones_default_summary">Wire standaard</string>
+  <string name="pref_options_ringtones_silent">Silent</string>
   <string name="pref_options_image_download_title">Download Afbeeldingen</string>
   <string name="pref_options_image_download_always">Altijd</string>
   <string name="pref_options_image_download_wifi">Alleen WiFi</string>
@@ -516,7 +519,7 @@
   <string name="pref_about_version_title">Versie %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Nodig anderen uit</string>
+  <string name="pref_invite_title">Invite people to join Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Verifieer telefoonnummer</string>
   <string name="pref__account_action__phone_verification__description">Voer de verificatiecode in die we naar %s gestuurd hebben</string>
@@ -542,7 +545,7 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">We sturen een bevestigingscode naar: \n%s</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Verwijderen</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Are you sure you want to remove %s from your Wire account?</string>
-  <string name="pref__account_action__dialog__delete_phone__error">Unable to delete phone number</string>
+  <string name="pref__account_action__dialog__delete_phone__error">Niet mogenlijk om telefoon nummer te verwijderen</string>
   <string name="pref__account_action__dialog__delete_email__error">Unable to delete email</string>
   <string name="pref__account_action__dialog__delete_email__no_internet_error">You need to be online to delete email</string>
   <string name="pref__account_action__dialog__delete_phone__no_internet_error">You need to be online to delete phone</string>
@@ -859,7 +862,7 @@
   <string name="single_image__save_to_disk__error">Kan afbeelding niet opslaan: geen toegang tot externe opslag</string>
   <string name="conversation_list__label_action__contacts">Personen</string>
   <string name="conversation_list__hint_header">Gesprekken beginnen hier</string>
-  <string name="conversation_list__hint_text">Begin een nieuw gesprek of nodig meer contacten uit. Bel, chat en deel in privé- of groepsgesprekken.</string>
+  <string name="conversation_list__hint_text">Begin een nieuw gesprek. Bel, chat en deel in privé- of groepsgesprekken.</string>
   <string name="conversation_list__action_join_call">DOE MEE</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Verzameling</string>
@@ -896,7 +899,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Nog geen gesprekken</string>
   <string name="all_archived__header">Alles gearchiveerd</string>
-  <string name="no_conversation_in_list__message">Begin een gesprek, mak een groep of nodig mensen uit tot Wire.</string>
+  <string name="no_conversation_in_list__message">Start een gesprek of een groep maken.</string>
   <string name="cursor__type_a_message">TYP EEN BERICHT</string>
   <string name="cursor__ephemeral_message">GETIMED BERICHT</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1011,12 +1014,12 @@
   <string name="search__no_results">Geen resultaten.</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s new message</item>
-    <item quantity="other">%1$s new messages</item>
+    <item quantity="one">%1$s nieuw bericht</item>
+    <item quantity="other">%1$s nieuw berichten</item>
   </plurals>
   <plurals name="conversation_list__missed_calls_count">
-    <item quantity="one">%1$s missed call</item>
-    <item quantity="other">%1$s missed calls</item>
+    <item quantity="one">%1$s gemiste oproep</item>
+    <item quantity="other">%1$s gemiste oproepen</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s ping</item>
@@ -1026,7 +1029,7 @@
     <item quantity="one">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_long">⚠️ On verstuurt bericht</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">Deelde een foto</string>
   <string name="conversation_list__shared__file">Deelde een bestand</string>
@@ -1038,15 +1041,15 @@
   <string name="conversation_list__ephemeral">Tijdelijk bericht</string>
   <string name="conversation_list__typing">Typt een bericht&#8230;</string>
   <string name="conversation_list__someone">Iemand</string>
-  <string name="conversation_list__added">[[%1$s]] was added</string>
+  <string name="conversation_list__added">[[%1$s]] was toegevoegd</string>
   <string name="conversation_list__added_you">[[%1$s]] heeft jou toegevoegd</string>
   <string name="conversation_list__left">[[%1$s]] has left</string>
   <string name="conversation_list__left_you">Jij verliet</string>
   <string name="conversation_list__removed_you">[[%1$s]] heeft jou verwijderd</string>
-  <string name="conversation_list__removed">[[%1$s]] was removed</string>
+  <string name="conversation_list__removed">[[%1$s]] was verwijderd</string>
   <string name="conversation_list__empty_conv__subtitle">Verlaten door iedereen</string>
-  <string name="conversation_list__header__title">CONVERSATIONS</string>
+  <string name="conversation_list__header__title">CONVERSATIES</string>
   <string name="conversation_list__header__archive_title">ARCHIEF</string>
-  <string name="guest_indicator">GUEST</string>
-  <string name="participant_tab_guest_indicator">Guest in %1$s</string>
+  <string name="guest_indicator">GAST</string>
+  <string name="participant_tab_guest_indicator_label">Gast</string>
 </resources>

@@ -130,8 +130,8 @@
   <string name="people_picker__search_result_team_members_header_title">Учасники команди</string>
   <string name="people_picker__invite_header_title">Запросити</string>
   <string name="people_picker__confirm_button_title">Почати розмову</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">ДОДАТИ</string>
-  <string name="people_picker__confirm_button_title__create_conversation">СТВОРИТИ</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Додати учасників до групи</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Створити групу</string>
   <string name="people_picker__error_message__no_results">Співпадінь не знайдено.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Знайти людей за іменем або email</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Будь ласка, введіть дійсний email або</string>
@@ -143,6 +143,7 @@
   <string name="people_picker__toolbar_header__group">Додати учасників</string>
   <string name="people_picker__toolbar_header__one_to_one">Створити групу</string>
   <string name="people_picker__search_result__expander_title">Показати всі %1$s ↓</string>
+  <string name="people_picker__guest_label">Гість</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Поділитись контактами</string>
   <string name="people_picker__share_contacts__message">Wire допоможе вам знайти ваших друзів, якщо ви поділитесь контактами.</string>
@@ -171,7 +172,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">ЗАПРОСИТИ</string>
   <string name="people_picker__contact_list__invite_dialog__title">Надіслати запрошення</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 ПОШУК ЗА ІМЕНЕМ</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">ЗАПРОСИТИ БІЛЬШЕ ЛЮДЕЙ</string>
+  <string name="people_picker__generic_invite_button_text">Запросіть людей в Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d спільний знайомий</item>
     <item quantity="few">%1$d спільних знайомих</item>
@@ -415,6 +416,7 @@
   <string name="pref_category_title">Налаштування</string>
   <string name="pref_developer_screen_title">Налаштування розробника</string>
   <string name="pref_dev_avs_screen_title">Налаштування AVS</string>
+  <string name="pref_profile_screen_title">Профіль</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Акаунт</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -467,6 +469,7 @@
   <string name="pref_options_ringtones_text_title">Звук текстового повідомлення</string>
   <string name="pref_options_ringtones_ping_title">Надіслати пінг</string>
   <string name="pref_options_ringtones_default_summary">Стандартний рінгтон Wire</string>
+  <string name="pref_options_ringtones_silent">Silent</string>
   <string name="pref_options_image_download_title">Скачувати картинки</string>
   <string name="pref_options_image_download_always">Завжди</string>
   <string name="pref_options_image_download_wifi">Тільки в мережі Wi-Fi</string>
@@ -524,7 +527,7 @@
   <string name="pref_about_version_title">Версія %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Запросити людей</string>
+  <string name="pref_invite_title">Запросіть людей в Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Підтвердити номер телефону</string>
   <string name="pref__account_action__phone_verification__description">Введіть код, який ми вислали на %s</string>
@@ -881,7 +884,7 @@
   <string name="single_image__save_to_disk__error">Не вдається зберегти картинку. Відсутній доступ до зовнішнього накопичувача</string>
   <string name="conversation_list__label_action__contacts">УЧАСНИКИ</string>
   <string name="conversation_list__hint_header">Розмови починаються тут</string>
-  <string name="conversation_list__hint_text">Почніть розмову або запросіть більше людей. Дзвінки, повідомлення та багато іншого — приватно або в групі.</string>
+  <string name="conversation_list__hint_text">Розпочніть розмову. Дзвінки, повідомлення та обмін даними приватно або в групах.</string>
   <string name="conversation_list__action_join_call">ПРИЄДНАТИСЯ</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Колекція</string>
@@ -918,7 +921,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Поки що розмови відсутні</string>
   <string name="all_archived__header">Усі розмови заархівовано</string>
-  <string name="no_conversation_in_list__message">Розпочніть розмову, створіть групу або запросіть людей.</string>
+  <string name="no_conversation_in_list__message">Розпочніть розмову або створіть групу.</string>
   <string name="cursor__type_a_message">НАПИШІТЬ ЩОСЬ</string>
   <string name="cursor__ephemeral_message">ТИМЧАСОВЕ ПОВІДОМЛЕННЯ</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1079,5 +1082,5 @@
   <string name="conversation_list__header__title">РОЗМОВИ</string>
   <string name="conversation_list__header__archive_title">АРХІВ</string>
   <string name="guest_indicator">ГІСТЬ</string>
-  <string name="participant_tab_guest_indicator">Гість в %1$s</string>
+  <string name="participant_tab_guest_indicator_label">Гість</string>
 </resources>

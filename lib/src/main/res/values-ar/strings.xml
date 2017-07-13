@@ -130,8 +130,8 @@
   <string name="people_picker__search_result_team_members_header_title">أعضاء الفريق</string>
   <string name="people_picker__invite_header_title">قم بدعوة</string>
   <string name="people_picker__confirm_button_title">إنشاء محادثة</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">إضافة</string>
-  <string name="people_picker__confirm_button_title__create_conversation">إنشاء</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">إضافة أشخاص للمجموعة</string>
+  <string name="people_picker__confirm_button_title__create_conversation">إنشاء مجموعة</string>
   <string name="people_picker__error_message__no_results">لا توجد نتائج مطابقة.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">البحث عن أشخاص باستخدام الاسم أو عنوان البريد الإلكتروني</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">الرجاء إدخال عنوان بريد إلكتروني صحيح أو</string>
@@ -143,6 +143,7 @@
   <string name="people_picker__toolbar_header__group">إضافة أشخاص</string>
   <string name="people_picker__toolbar_header__one_to_one">إنشاء مجموعة</string>
   <string name="people_picker__search_result__expander_title">إظهار جميع %1$s ↓</string>
+  <string name="people_picker__guest_label">ضيف</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">مشاركة جهات الاتصال</string>
   <string name="people_picker__share_contacts__message">يساعدك Wire في العثور على أصدقائك عند مشاركة جهات اتصالك.</string>
@@ -176,14 +177,14 @@
   <string name="people_picker__contact_list__contact_selection_button__label">قم بدعوة</string>
   <string name="people_picker__contact_list__invite_dialog__title">إرسال دعوة</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 البحث حسب الاسم</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">ادعُ المزيد من الأشخاص</string>
+  <string name="people_picker__generic_invite_button_text">ادعو أشخاص لاستعمال واير</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="zero">لا أشخاص مشتركين</item>
     <item quantity="one">%1$d شخص مشترك</item>
-    <item quantity="two">%1$d أشخاص مشتركين</item>
-    <item quantity="few">%1$d أشخاص مشتركين</item>
-    <item quantity="many">%1$d أشخاص مشتركين</item>
-    <item quantity="other">%1$d أشخاص مشتركين</item>
+    <item quantity="two">لا أشخاص مشتركين</item>
+    <item quantity="few">لا أشخاص مشتركين</item>
+    <item quantity="many">لا أشخاص مشتركين</item>
+    <item quantity="other">لا أشخاص مشتركين</item>
   </plurals>
   <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s في جهات الاتصال</string>
   <string name="people_picker__contact_list_contact_sub_label_address_book_identical">في جهات الاتصال</string>
@@ -224,7 +225,7 @@
   <string name="content__otr__lost_history">لم تستخدم هذا الجهاز لفترة من الوقت. قد لا تظهر بعض الرسائل هنا.</string>
   <string name="content__otr__unverified_device__message">[[أنت]] لم تتحقق من أحد _ الأجهزة الخاصة ب %1$s  _</string>
   <string name="content__otr__your_unverified_device__message">[[أنت]] لم تتحقق من أحد _ الأجهزة الخاصة بك _</string>
-  <string name="content__otr__new_member__message">انضم أشخاص جدد. _VERIFY DEVICES_</string>
+  <string name="content__otr__new_member__message">انضم أشخاص جدد. _تحقق من الأجهزة_</string>
   <!-- File transfer -->
   <string name="content__file__status__default">%1$s</string>
   <string name="content__file__status__uploading__minimized">تحميل...</string>
@@ -307,7 +308,7 @@
   <!-- Connect request -->
   <string name="connect__message">مرحبا %1$s ، هيا لنتصل عبر واير. %2$s</string>
   <plurals name="connect_request__common_users__summary">
-    <item quantity="zero">لا أشخاص مشتركين</item>
+    <item quantity="zero">%1$d أشخاص مشتركين</item>
     <item quantity="one">%1$d شخص مشترك</item>
     <item quantity="two">%1$d أشخاص مشتركين</item>
     <item quantity="few">%1$d أشخاص مشتركين</item>
@@ -442,6 +443,7 @@
   <string name="pref_category_title">الإعدادات</string>
   <string name="pref_developer_screen_title">إعدادات المطور</string>
   <string name="pref_dev_avs_screen_title">إعدادات AVS</string>
+  <string name="pref_profile_screen_title">الملف الشخصي</string>
   <!-- Account -->
   <string name="pref_account_screen_title">الحساب</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -494,6 +496,7 @@
   <string name="pref_options_ringtones_text_title">نغمة النص</string>
   <string name="pref_options_ringtones_ping_title">بينغ</string>
   <string name="pref_options_ringtones_default_summary">نغمة واير الافتراضية</string>
+  <string name="pref_options_ringtones_silent">Silent</string>
   <string name="pref_options_image_download_title">تنزيل الصور</string>
   <string name="pref_options_image_download_always">دائماً</string>
   <string name="pref_options_image_download_wifi">واي فاي فقط</string>
@@ -552,7 +555,7 @@
   <string name="pref_about_version_title">الإصدار %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">دعوة أُناس</string>
+  <string name="pref_invite_title">ادعو أشخاص لاستعمال واير</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">تأكيد رقم الهاتف</string>
   <string name="pref__account_action__phone_verification__description">أدخل رمز التحقق الذي  أرسلناه إلى %s</string>
@@ -956,7 +959,7 @@
   <string name="single_image__save_to_disk__error">غير قادر على حفظ الصورة، لم نتمكن من الوصول إلى وحدات التخزين الخارجية</string>
   <string name="conversation_list__label_action__contacts">الأشخاص</string>
   <string name="conversation_list__hint_header">المحادثات تبدأ هنا</string>
-  <string name="conversation_list__hint_text">ابدأ محادثة أو قم بدعوة المزيد من الأشخاص للانضمام. اتصل ، أرسل رسائل و شارك في محادثات خاصة أوجماعية.</string>
+  <string name="conversation_list__hint_text">Start a conversation. Call, message and share in private or with groups.</string>
   <string name="conversation_list__action_join_call">الانضمام</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">المختارات</string>
@@ -993,7 +996,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">لا محادثات بعد</string>
   <string name="all_archived__header">أُرشف كل شيء</string>
-  <string name="no_conversation_in_list__message">ابدأ محادثة، أنشىء مجموعة أو ادعُ أشخاصًا للإِنْضِمام.</string>
+  <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
   <string name="cursor__type_a_message">اكتب رسالة</string>
   <string name="cursor__ephemeral_message">رسالة مؤقتة</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1128,8 +1131,8 @@
   <string name="search__no_results">لا توجد نتائج.</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="zero">%1$s new messages</item>
-    <item quantity="one">%1$s رسالة جديدة</item>
+    <item quantity="zero">لا رسائل جديدة</item>
+    <item quantity="one">%1$s - رسائل جديدة</item>
     <item quantity="two">%1$s رسالة جديدة</item>
     <item quantity="few">%1$s رسائل جديدة</item>
     <item quantity="many">%1$s رسائل جديدة</item>
@@ -1181,5 +1184,5 @@
   <string name="conversation_list__header__title">المحادثات</string>
   <string name="conversation_list__header__archive_title">حفظ في الأرشيف</string>
   <string name="guest_indicator">ضيف</string>
-  <string name="participant_tab_guest_indicator">ضيف في %1$s</string>
+  <string name="participant_tab_guest_indicator_label">ضيف</string>
 </resources>

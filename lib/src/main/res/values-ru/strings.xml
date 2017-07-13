@@ -133,8 +133,8 @@
   <string name="people_picker__search_result_team_members_header_title">Члены команды</string>
   <string name="people_picker__invite_header_title">Пригласить</string>
   <string name="people_picker__confirm_button_title">Создать разговор</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">ДОБАВИТЬ</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Создать</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Добавить пользователей в группу</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Создать группу</string>
   <string name="people_picker__error_message__no_results">Совпадений не найдено.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Найти людей по имени или email</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Пожалуйста, введите правильный email или</string>
@@ -146,6 +146,7 @@
   <string name="people_picker__toolbar_header__group">Добавить людей</string>
   <string name="people_picker__toolbar_header__one_to_one">Создание группы</string>
   <string name="people_picker__search_result__expander_title">Показать все %1$s ↓</string>
+  <string name="people_picker__guest_label">Гость</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Поделиться контактами</string>
   <string name="people_picker__share_contacts__message">Wire поможет вам найти друзей, если поделитесь вашими контактами.</string>
@@ -174,7 +175,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">Пригласить</string>
   <string name="people_picker__contact_list__invite_dialog__title">Отправить приглашение</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 ПОИСК ПО ИМЕНИ</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">ПРИГЛАСИТЬ БОЛЬШЕ ЛЮДЕЙ</string>
+  <string name="people_picker__generic_invite_button_text">Пригласите людей в Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d общий знакомый</item>
     <item quantity="few">%1$d общих знакомых</item>
@@ -278,7 +279,7 @@
   <string name="calling__cannot_start__button_settings">Настройки</string>
   <string name="calling__video_call__slow_connection__message">Могут возникнуть проблемы во время звонка</string>
   <string name="calling__header__joining">соединение</string>
-  <string name="calling__header__outgoing_subtitle">набирает</string>
+  <string name="calling__header__outgoing_subtitle">звоним</string>
   <string name="calling__header__outgoing_video_subtitle">вызов</string>
   <string name="calling__header__incoming_subtitle">звонит</string>
   <string name="calling__header__incoming_subtitle__video">видеозвонок</string>
@@ -418,6 +419,7 @@
   <string name="pref_category_title">Настройки</string>
   <string name="pref_developer_screen_title">Настройки разработчика</string>
   <string name="pref_dev_avs_screen_title">Настройки AVS</string>
+  <string name="pref_profile_screen_title">Профиль</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Аккаунт</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -470,6 +472,7 @@
   <string name="pref_options_ringtones_text_title">Звук текстового сообщения</string>
   <string name="pref_options_ringtones_ping_title">Пинг</string>
   <string name="pref_options_ringtones_default_summary">Стандартный рингтон Wire</string>
+  <string name="pref_options_ringtones_silent">Бесшумный режим</string>
   <string name="pref_options_image_download_title">Скачать картинки</string>
   <string name="pref_options_image_download_always">Всегда</string>
   <string name="pref_options_image_download_wifi">Только когда подключен к Wi-Fi</string>
@@ -527,7 +530,7 @@
   <string name="pref_about_version_title">Версия %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Пригласить людей</string>
+  <string name="pref_invite_title">Пригласите людей в Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Подтвердить номер телефона</string>
   <string name="pref__account_action__phone_verification__description">Введите код подтверждения, который мы отправили на %s</string>
@@ -887,7 +890,7 @@ Plural:
   <string name="single_image__save_to_disk__error">Не удается сохранить изображение, нет доступа к внешнему хранилищу</string>
   <string name="conversation_list__label_action__contacts">УЧАСТНИКИ</string>
   <string name="conversation_list__hint_header">Разговоры начинаются здесь</string>
-  <string name="conversation_list__hint_text">Начни разговор или пригласи друзей. Звонки, сообщения и многое другое - приватно или в группе.</string>
+  <string name="conversation_list__hint_text">Start a conversation. Call, message and share in private or with groups.</string>
   <string name="conversation_list__action_join_call">ПРИСОЕДИНИТЬСЯ</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Коллекция</string>
@@ -924,7 +927,7 @@ Plural:
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Разговоров пока нет</string>
   <string name="all_archived__header">Все разговоры отправлены в архив</string>
-  <string name="no_conversation_in_list__message">Начните разговор, создайте группу или пригласите людей присоединиться.</string>
+  <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
   <string name="cursor__type_a_message">ВВЕДИТЕ СООБЩЕНИЕ</string>
   <string name="cursor__ephemeral_message">ВРЕМЕННОЕ СООБЩЕНИЕ</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1085,5 +1088,5 @@ Plural:
   <string name="conversation_list__header__title">РАЗГОВОРЫ</string>
   <string name="conversation_list__header__archive_title">АРХИВ</string>
   <string name="guest_indicator">ГОСТЬ</string>
-  <string name="participant_tab_guest_indicator">Гость в %1$s</string>
+  <string name="participant_tab_guest_indicator_label">Гость</string>
 </resources>

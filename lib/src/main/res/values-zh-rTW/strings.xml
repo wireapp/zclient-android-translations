@@ -131,8 +131,8 @@
   <string name="people_picker__search_result_team_members_header_title">Team Members</string>
   <string name="people_picker__invite_header_title">邀請</string>
   <string name="people_picker__confirm_button_title">開始對話</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">新增</string>
-  <string name="people_picker__confirm_button_title__create_conversation">建立</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Add People to Group</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Create Group</string>
   <string name="people_picker__error_message__no_results">沒有搜尋結果</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">透過名稱或電子郵件搜尋連絡人</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">請輸入有效的電子郵件信箱或</string>
@@ -144,6 +144,7 @@
   <string name="people_picker__toolbar_header__group">新增連絡人</string>
   <string name="people_picker__toolbar_header__one_to_one">建立群組</string>
   <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
+  <string name="people_picker__guest_label">Guest</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">分享通訊錄</string>
   <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
@@ -170,7 +171,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">邀請</string>
   <string name="people_picker__contact_list__invite_dialog__title">發送邀請</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020透過名稱來搜尋</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">邀請更多人</string>
+  <string name="people_picker__generic_invite_button_text">Invite People to Join Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="other">%1$d people in common</item>
   </plurals>
@@ -400,6 +401,7 @@
   <string name="pref_category_title">設定</string>
   <string name="pref_developer_screen_title">開發人員設定</string>
   <string name="pref_dev_avs_screen_title">AVS設定</string>
+  <string name="pref_profile_screen_title">Profile</string>
   <!-- Account -->
   <string name="pref_account_screen_title">帳號</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -452,6 +454,7 @@
   <string name="pref_options_ringtones_text_title">訊息音效</string>
   <string name="pref_options_ringtones_ping_title">打招呼</string>
   <string name="pref_options_ringtones_default_summary">Wire預設值</string>
+  <string name="pref_options_ringtones_silent">Silent</string>
   <string name="pref_options_image_download_title">下載圖片</string>
   <string name="pref_options_image_download_always">總是</string>
   <string name="pref_options_image_download_wifi">無線網路連線時</string>
@@ -509,7 +512,7 @@
   <string name="pref_about_version_title">版本 %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">邀請朋友加入</string>
+  <string name="pref_invite_title">Invite people to join Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">驗證手機號碼</string>
   <string name="pref__account_action__phone_verification__description">輸入我們發送到 %s的驗證碼</string>
@@ -838,7 +841,7 @@
   <string name="single_image__save_to_disk__error">沒有儲存空間的使用權限，無法儲存圖像</string>
   <string name="conversation_list__label_action__contacts">PEOPLE</string>
   <string name="conversation_list__hint_header">對話從這裡開始</string>
-  <string name="conversation_list__hint_text">開啟新的聊天室或邀請朋友加入。盡情在個人或群組聊天室中傳達訊息、通話和分享事物。</string>
+  <string name="conversation_list__hint_text">Start a conversation. Call, message and share in private or with groups.</string>
   <string name="conversation_list__action_join_call">JOIN</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Collection</string>
@@ -875,7 +878,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">No conversations yet</string>
   <string name="all_archived__header">Everything archived</string>
-  <string name="no_conversation_in_list__message">Start a conversation, create a group or invite people to join.</string>
+  <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
   <string name="cursor__type_a_message">請輸入訊息</string>
   <string name="cursor__ephemeral_message">限時訊息</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1018,5 +1021,5 @@
   <string name="conversation_list__header__title">CONVERSATIONS</string>
   <string name="conversation_list__header__archive_title">封存</string>
   <string name="guest_indicator">GUEST</string>
-  <string name="participant_tab_guest_indicator">Guest in %1$s</string>
+  <string name="participant_tab_guest_indicator_label">Guest</string>
 </resources>

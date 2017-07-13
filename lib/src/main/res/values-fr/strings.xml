@@ -130,8 +130,8 @@
   <string name="people_picker__search_result_team_members_header_title">Membres du groupe</string>
   <string name="people_picker__invite_header_title">Invitez</string>
   <string name="people_picker__confirm_button_title">Démarrer une conversation</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">AJOUTEZ</string>
-  <string name="people_picker__confirm_button_title__create_conversation">CRÉER</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Ajouter des personnes au groupe</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Créer un groupe</string>
   <string name="people_picker__error_message__no_results">Aucun résultat correspondant.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Trouvez des personnes par leur nom ou leur adresse email</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Veuillez entrer une adresse email valide ou</string>
@@ -143,6 +143,7 @@
   <string name="people_picker__toolbar_header__group">Ajouter une personne</string>
   <string name="people_picker__toolbar_header__one_to_one">Créer un groupe</string>
   <string name="people_picker__search_result__expander_title">Afficher tout (%1$s) ↓</string>
+  <string name="people_picker__guest_label">Invité</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Partagez mes contacts</string>
   <string name="people_picker__share_contacts__message">Si vous partagez vos contacts, Wire pourra vous aider à retrouver vos amis.</string>
@@ -170,7 +171,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">INVITEZ</string>
   <string name="people_picker__contact_list__invite_dialog__title">Envoyez une invitation</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 CHERCHEZ PAR NOM</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITER PLUS DE PERSONNES</string>
+  <string name="people_picker__generic_invite_button_text">Inviter des gens à rejoindre Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d contact en commun</item>
     <item quantity="other">%1$d contacts en commun</item>
@@ -407,6 +408,7 @@
   <string name="pref_category_title">Paramètres</string>
   <string name="pref_developer_screen_title">Paramètres de développeur</string>
   <string name="pref_dev_avs_screen_title">Paramètres Audio Vidéo</string>
+  <string name="pref_profile_screen_title">Profil</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Compte</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -459,6 +461,7 @@
   <string name="pref_options_ringtones_text_title">Ton de l\'alerte</string>
   <string name="pref_options_ringtones_ping_title">Ping</string>
   <string name="pref_options_ringtones_default_summary">Sons par défaut</string>
+  <string name="pref_options_ringtones_silent">Silent</string>
   <string name="pref_options_image_download_title">Télécharger les images</string>
   <string name="pref_options_image_download_always">Toujours</string>
   <string name="pref_options_image_download_wifi">Wi-Fi seulement</string>
@@ -516,7 +519,7 @@
   <string name="pref_about_version_title">Version %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Inviter des personnes</string>
+  <string name="pref_invite_title">Invitez des gens à rejoindre Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Vérifier le numéro de téléphone</string>
   <string name="pref__account_action__phone_verification__description">Entrez le code de vérification que nous avons envoyé au %s</string>
@@ -859,7 +862,7 @@
   <string name="single_image__save_to_disk__error">Impossible d\'enregistrer l\'image, pas d\'accès au stockage externe</string>
   <string name="conversation_list__label_action__contacts">PERSONNES</string>
   <string name="conversation_list__hint_header">Les conversations commencent ici</string>
-  <string name="conversation_list__hint_text">Démarrez une conversation ou invitez plus de personnes à se joindre. Appelez, envoyez des messages et partagez en privé ou en groupe.</string>
+  <string name="conversation_list__hint_text">Démarrez une conversation. Appelez, envoyez des messages et partagez en privé ou en groupe.</string>
   <string name="conversation_list__action_join_call">REJOINDRE</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Bibliothèque</string>
@@ -896,7 +899,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Pas encore de conversation</string>
   <string name="all_archived__header">Tout a été archivé</string>
-  <string name="no_conversation_in_list__message">Démarrez une conversation, créez un group ou invitez des personnes à vous rejoindre.</string>
+  <string name="no_conversation_in_list__message">Démarrez une conversation ou créez un groupe.</string>
   <string name="cursor__type_a_message">TAPEZ UN MESSAGE</string>
   <string name="cursor__ephemeral_message">MESSAGES TEMPORAIRES</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1048,5 +1051,5 @@
   <string name="conversation_list__header__title">CONVERSATIONS</string>
   <string name="conversation_list__header__archive_title">ARCHIVER</string>
   <string name="guest_indicator">INVITE</string>
-  <string name="participant_tab_guest_indicator">Guest in %1$s</string>
+  <string name="participant_tab_guest_indicator_label">Invité</string>
 </resources>

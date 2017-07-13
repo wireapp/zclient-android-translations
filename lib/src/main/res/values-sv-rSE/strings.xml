@@ -117,21 +117,21 @@
   <string name="invitation__email__failed">Det gick inte att registrera med denna inbjudan.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 SÖK PÅ NAMN ELLER ANVÄNDARNAMN</string>
-  <string name="pick_user_search_hint">SEARCH BY NAME OR USERNAME</string>
+  <string name="pick_user_search_hint">SÖK EFTER NAMN ELLER ANVÄNDARNAMN</string>
   <string name="pick_user_search__add_to_conversation">\u0020 SÖK EFTER NAMN</string>
   <string name="people_picker__top_users_header_title">Topp användarna</string>
   <string name="people_picker__address_book_matches_title">Anslut</string>
   <string name="people_picker__search_result_conversations_header_title">Grupper</string>
-  <string name="people_picker__search_result_team_conversations_header_title">%1$s Groups</string>
+  <string name="people_picker__search_result_team_conversations_header_title">%1$s grupper</string>
   <string name="people_picker__search_result_connections_header_title">Kontakter</string>
   <string name="people_picker__search_result_others_header_title">Anslut</string>
   <string name="people_picker__search_result_recommended_header_title">Förslag</string>
   <string name="people_picker__search_result_contacts_header_title">Kontakter</string>
-  <string name="people_picker__search_result_team_members_header_title">Team Members</string>
+  <string name="people_picker__search_result_team_members_header_title">Teammedlemmar</string>
   <string name="people_picker__invite_header_title">Bjud in</string>
   <string name="people_picker__confirm_button_title">Skapa en konversation</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">LÄGG TILL</string>
-  <string name="people_picker__confirm_button_title__create_conversation">SKAPA</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Add People to Group</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Skapa grupp</string>
   <string name="people_picker__error_message__no_results">Inga matchande resultat.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Hitta andra med hjälp av namn eller e-postadress</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Ange en giltig e-postadress eller</string>
@@ -143,12 +143,13 @@
   <string name="people_picker__toolbar_header__group">Lägg till personer</string>
   <string name="people_picker__toolbar_header__one_to_one">Skapa en grupp</string>
   <string name="people_picker__search_result__expander_title">Visa alla %1$s ↓</string>
+  <string name="people_picker__guest_label">Gäst</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Dela kontakter</string>
   <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
-  <string name="people_picker__share_contacts__yay">Allow</string>
-  <string name="people_picker__share_contacts__nah">Deny</string>
-  <string name="people_picker__share_contacts__nevvah">Never ask again</string>
+  <string name="people_picker__share_contacts__yay">Tillåt</string>
+  <string name="people_picker__share_contacts__nah">Neka</string>
+  <string name="people_picker__share_contacts__nevvah">Fråga mig inte igen</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">Vet %1$s</string>
   <string name="people_picker__recommended__common_connections__two">Vet %1$s och %2$s</string>
@@ -170,7 +171,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">BJUD IN</string>
   <string name="people_picker__contact_list__invite_dialog__title">Skicka inbjudan</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 SÖK EFTER NAMN</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">BJUDA IN FLER PERSONER</string>
+  <string name="people_picker__generic_invite_button_text">Invite People to Join Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d gemensam kontakt</item>
     <item quantity="other">%1$d gemensamma kontakter</item>
@@ -407,6 +408,7 @@
   <string name="pref_category_title">Inställningar</string>
   <string name="pref_developer_screen_title">Utvecklarinställnigar</string>
   <string name="pref_dev_avs_screen_title">AVS inställningar</string>
+  <string name="pref_profile_screen_title">Profil</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Konto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -459,6 +461,7 @@
   <string name="pref_options_ringtones_text_title">Meddelandeljud</string>
   <string name="pref_options_ringtones_ping_title">Ping-ljud</string>
   <string name="pref_options_ringtones_default_summary">Wire Standard</string>
+  <string name="pref_options_ringtones_silent">Silent</string>
   <string name="pref_options_image_download_title">Ladda ner bilder</string>
   <string name="pref_options_image_download_always">Alltid</string>
   <string name="pref_options_image_download_wifi">Bara på Wi-Fi</string>
@@ -516,7 +519,7 @@
   <string name="pref_about_version_title">Version %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Schweiziska GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Bjud in personer</string>
+  <string name="pref_invite_title">Invite people to join Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Verifiera telefonnummer</string>
   <string name="pref__account_action__phone_verification__description">Ange verifieringskoden vi skickat till %s</string>
@@ -859,7 +862,7 @@
   <string name="single_image__save_to_disk__error">Det gick inte att spara bilden, ingen tillgång till extern lagring</string>
   <string name="conversation_list__label_action__contacts">ANVÄNDARE</string>
   <string name="conversation_list__hint_header">Konversationerna börjar här</string>
-  <string name="conversation_list__hint_text">Starta en konversation eller bjud in flera. Ring, skicka meddelande och dela i privat eller i grupp.</string>
+  <string name="conversation_list__hint_text">Start a conversation. Call, message and share in private or with groups.</string>
   <string name="conversation_list__action_join_call">GÅ MED</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Samling</string>
@@ -896,7 +899,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">No conversations yet</string>
   <string name="all_archived__header">Allt arkiverat</string>
-  <string name="no_conversation_in_list__message">Start a conversation, create a group or invite people to join.</string>
+  <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
   <string name="cursor__type_a_message">SKRIV ETT MEDDELANDE</string>
   <string name="cursor__ephemeral_message">TIDSMEDDELANDE</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1047,6 +1050,6 @@
   <string name="conversation_list__empty_conv__subtitle">Alla har lämnat</string>
   <string name="conversation_list__header__title">KONVERSATIONER</string>
   <string name="conversation_list__header__archive_title">ARKIV</string>
-  <string name="guest_indicator">GUEST</string>
-  <string name="participant_tab_guest_indicator">Guest in %1$s</string>
+  <string name="guest_indicator">GÄST</string>
+  <string name="participant_tab_guest_indicator_label">Gäst</string>
 </resources>

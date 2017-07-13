@@ -130,8 +130,8 @@
   <string name="people_picker__search_result_team_members_header_title">Team Members</string>
   <string name="people_picker__invite_header_title">招待</string>
   <string name="people_picker__confirm_button_title">会話を作成</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">追加</string>
-  <string name="people_picker__confirm_button_title__create_conversation">作成</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">グループに友人を追加する</string>
+  <string name="people_picker__confirm_button_title__create_conversation">グループを作成する</string>
   <string name="people_picker__error_message__no_results">一致する結果はありません。</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">名前またはメールアドレスて見つけます</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">有効なメールアドレスを入力するか</string>
@@ -143,6 +143,7 @@
   <string name="people_picker__toolbar_header__group">人を追加します</string>
   <string name="people_picker__toolbar_header__one_to_one">グループを作成します</string>
   <string name="people_picker__search_result__expander_title">全てを表示 %1$s ↓</string>
+  <string name="people_picker__guest_label">ゲスト</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">連絡先を共有</string>
   <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
@@ -169,7 +170,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">招待</string>
   <string name="people_picker__contact_list__invite_dialog__title">招待状を送信</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 名前で検索</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">さらに招待する</string>
+  <string name="people_picker__generic_invite_button_text">Invite People to Join Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="other">%1$d 人の共通の知り合い</item>
   </plurals>
@@ -399,6 +400,7 @@
   <string name="pref_category_title">設定</string>
   <string name="pref_developer_screen_title">開発者向けの設定</string>
   <string name="pref_dev_avs_screen_title">AVS の設定</string>
+  <string name="pref_profile_screen_title">プロフィール</string>
   <!-- Account -->
   <string name="pref_account_screen_title">アカウント</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -451,6 +453,7 @@
   <string name="pref_options_ringtones_text_title">メッセージ着信音</string>
   <string name="pref_options_ringtones_ping_title">Ping</string>
   <string name="pref_options_ringtones_default_summary">Wire デフォルト</string>
+  <string name="pref_options_ringtones_silent">Silent</string>
   <string name="pref_options_image_download_title">写真をダウンロード</string>
   <string name="pref_options_image_download_always">常に</string>
   <string name="pref_options_image_download_wifi">Wi-Fi のみ</string>
@@ -508,7 +511,7 @@
   <string name="pref_about_version_title">バージョン %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">招待する</string>
+  <string name="pref_invite_title">Invite people to join Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">電話番号を確認</string>
   <string name="pref__account_action__phone_verification__description">%s に送信された確認コードを入力してください。</string>
@@ -838,7 +841,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="single_image__save_to_disk__error">画像を保存できません。外部ストレージへのアクセス許可がありません</string>
   <string name="conversation_list__label_action__contacts">友人</string>
   <string name="conversation_list__hint_header">ここから会話を始めます</string>
-  <string name="conversation_list__hint_text">会話を始めるか、参加する人をさらに招待します。プライベートに、またはグループで通話、メッセージ、シェアをします。</string>
+  <string name="conversation_list__hint_text">Start a conversation. Call, message and share in private or with groups.</string>
   <string name="conversation_list__action_join_call">参加する</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">コレクション</string>
@@ -875,7 +878,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">No conversations yet</string>
   <string name="all_archived__header">全てアーカイブ済み</string>
-  <string name="no_conversation_in_list__message">会話を始める、グループを作るまたは友人を招待する</string>
+  <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
   <string name="cursor__type_a_message">メッセージを入力します</string>
   <string name="cursor__ephemeral_message">タイマーメッセージ</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1018,5 +1021,5 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="conversation_list__header__title">CONVERSATIONS</string>
   <string name="conversation_list__header__archive_title">アーカイブ</string>
   <string name="guest_indicator">GUEST</string>
-  <string name="participant_tab_guest_indicator">Guest in %1$s</string>
+  <string name="participant_tab_guest_indicator_label">ゲスト</string>
 </resources>

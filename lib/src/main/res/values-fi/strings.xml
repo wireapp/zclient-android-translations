@@ -130,8 +130,8 @@
   <string name="people_picker__search_result_team_members_header_title">Team Members</string>
   <string name="people_picker__invite_header_title">Kutsu</string>
   <string name="people_picker__confirm_button_title">Luo keskustelu</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">LISÄÄ</string>
-  <string name="people_picker__confirm_button_title__create_conversation">LUO</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Add People to Group</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Luo Ryhmä</string>
   <string name="people_picker__error_message__no_results">Ei vastaavia tuloksia.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Etsi ihmisiä nimellä tai sähköpostiosoitteella</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Syötä voimassa oleva sähköpostiosoite tai</string>
@@ -143,6 +143,7 @@
   <string name="people_picker__toolbar_header__group">Lisää ihmisiä</string>
   <string name="people_picker__toolbar_header__one_to_one">Luo ryhmä</string>
   <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
+  <string name="people_picker__guest_label">Guest</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Jaa yhteystietoja</string>
   <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
@@ -170,7 +171,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">KUTSU</string>
   <string name="people_picker__contact_list__invite_dialog__title">Lähetä kutsu</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 ETSI NIMELLÄ</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">KUTSU LISÄÄ IHMISIÄ</string>
+  <string name="people_picker__generic_invite_button_text">Invite People to Join Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d yhteinen käyttäjä molemmilla</item>
     <item quantity="other">%1$d yhteistä käyttäjää molemmilla</item>
@@ -407,6 +408,7 @@
   <string name="pref_category_title">Asetukset</string>
   <string name="pref_developer_screen_title">Kehittäjän Asetukset</string>
   <string name="pref_dev_avs_screen_title">AVS Asetukset</string>
+  <string name="pref_profile_screen_title">Profiili</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Tili</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -459,6 +461,7 @@
   <string name="pref_options_ringtones_text_title">Tekstin merkkiääni</string>
   <string name="pref_options_ringtones_ping_title">Pinggaa</string>
   <string name="pref_options_ringtones_default_summary">Wiren oletus</string>
+  <string name="pref_options_ringtones_silent">Silent</string>
   <string name="pref_options_image_download_title">Lataa kuvat</string>
   <string name="pref_options_image_download_always">Aina</string>
   <string name="pref_options_image_download_wifi">Vain wi-fi: ssä</string>
@@ -516,7 +519,7 @@
   <string name="pref_about_version_title">Versio %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Kutsu ihmisiä</string>
+  <string name="pref_invite_title">Invite people to join Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Vahvista puhelinnumero</string>
   <string name="pref__account_action__phone_verification__description">Syötä vahvistuskoodi jonka lähetimme numeroon %s</string>
@@ -859,7 +862,7 @@
   <string name="single_image__save_to_disk__error">Ei voi tallentaa kuvaa, ei pääsyä ulkonaiseen muistiin</string>
   <string name="conversation_list__label_action__contacts">KÄYTTÄJÄT</string>
   <string name="conversation_list__hint_header">Keskustelut alkavat tästä</string>
-  <string name="conversation_list__hint_text">Aloita keskustelu tai kutsu lisää käyttäjiä liittymään. Soita, pikaviestitä ja jaa yksityisesti tai ryhmissä.</string>
+  <string name="conversation_list__hint_text">Start a conversation. Call, message and share in private or with groups.</string>
   <string name="conversation_list__action_join_call">LIITY</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Kokoelma</string>
@@ -896,7 +899,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">No conversations yet</string>
   <string name="all_archived__header">Kaikki arkistoitu</string>
-  <string name="no_conversation_in_list__message">Start a conversation, create a group or invite people to join.</string>
+  <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
   <string name="cursor__type_a_message">KIRJOITA VIESTI</string>
   <string name="cursor__ephemeral_message">AJOITETTU VIESTI</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1048,5 +1051,5 @@
   <string name="conversation_list__header__title">CONVERSATIONS</string>
   <string name="conversation_list__header__archive_title">ARKISTOI</string>
   <string name="guest_indicator">GUEST</string>
-  <string name="participant_tab_guest_indicator">Guest in %1$s</string>
+  <string name="participant_tab_guest_indicator_label">Guest</string>
 </resources>

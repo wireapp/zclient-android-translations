@@ -122,7 +122,7 @@
   <string name="people_picker__top_users_header_title">Pessoas mais contactadas</string>
   <string name="people_picker__address_book_matches_title">Ligar</string>
   <string name="people_picker__search_result_conversations_header_title">Grupos</string>
-  <string name="people_picker__search_result_team_conversations_header_title">%1$s Groups</string>
+  <string name="people_picker__search_result_team_conversations_header_title">Grupos de %1$s</string>
   <string name="people_picker__search_result_connections_header_title">Contactos</string>
   <string name="people_picker__search_result_others_header_title">Ligar</string>
   <string name="people_picker__search_result_recommended_header_title">Recomendado</string>
@@ -130,8 +130,8 @@
   <string name="people_picker__search_result_team_members_header_title">Membros da Equipa</string>
   <string name="people_picker__invite_header_title">Convidar</string>
   <string name="people_picker__confirm_button_title">Criar nova conversa</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">ADICIONAR</string>
-  <string name="people_picker__confirm_button_title__create_conversation">CRIAR</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Adicionar pessoas ao grupo</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Criar grupo</string>
   <string name="people_picker__error_message__no_results">Não foram encontrados resultados correspondentes.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Encontrar pessoas pelo nome ou endereço de e-mail</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Por favor, introduza um endereço de e-mail válido</string>
@@ -143,6 +143,7 @@
   <string name="people_picker__toolbar_header__group">Adicionar pessoas</string>
   <string name="people_picker__toolbar_header__one_to_one">Criar grupo</string>
   <string name="people_picker__search_result__expander_title">Mostrar todas %1$s ↓</string>
+  <string name="people_picker__guest_label">Convidado</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Partilhar contactos</string>
   <string name="people_picker__share_contacts__message">O Wire ajuda-o a encontrar os seus amigos se partilhar os seus contactos.</string>
@@ -170,7 +171,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">CONVIDAR</string>
   <string name="people_picker__contact_list__invite_dialog__title">Enviar convite</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 PESQUISAR POR NOME</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">CONVIDAR MAIS PESSOAS</string>
+  <string name="people_picker__generic_invite_button_text">Convidar pessoas para aderir ao Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d pessoa em comum</item>
     <item quantity="other">%1$d pessoas em comum</item>
@@ -407,6 +408,7 @@
   <string name="pref_category_title">Definições</string>
   <string name="pref_developer_screen_title">Definições de programador</string>
   <string name="pref_dev_avs_screen_title">Definições de AVS</string>
+  <string name="pref_profile_screen_title">Perfil</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Conta</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -459,6 +461,7 @@
   <string name="pref_options_ringtones_text_title">Tom de texto</string>
   <string name="pref_options_ringtones_ping_title">Ping</string>
   <string name="pref_options_ringtones_default_summary">Predefinição Wire</string>
+  <string name="pref_options_ringtones_silent">Silêncio</string>
   <string name="pref_options_image_download_title">Descarregar fotos</string>
   <string name="pref_options_image_download_always">Sempre</string>
   <string name="pref_options_image_download_wifi">Apenas Wi-Fi</string>
@@ -516,7 +519,7 @@
   <string name="pref_about_version_title">Versão %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Convidar pessoas</string>
+  <string name="pref_invite_title">Convidar pessoas para aderir ao Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Verifique o número de telefone</string>
   <string name="pref__account_action__phone_verification__description">Digite o código de verificação que enviamos para %s</string>
@@ -859,7 +862,7 @@
   <string name="single_image__save_to_disk__error">Não é possível guardar a imagem, sem acesso ao armazenamento externo</string>
   <string name="conversation_list__label_action__contacts">PESSOAS</string>
   <string name="conversation_list__hint_header">As conversas começam aqui</string>
-  <string name="conversation_list__hint_text">Iniciar uma conversa ou convide mais pessoas para participar. Ligue, envie uma mensagem e partilhe em privado ou com grupos.</string>
+  <string name="conversation_list__hint_text">Iniciar uma conversa. Ligue, envie uma mensagem e partilhe em privado ou com grupos.</string>
   <string name="conversation_list__action_join_call">JUNTE-SE</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Colecção</string>
@@ -896,7 +899,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Ainda não existem conversas</string>
   <string name="all_archived__header">Foi tudo arquivado</string>
-  <string name="no_conversation_in_list__message">Inicie uma conversa, crie um grupo ou convide pessoas para participar.</string>
+  <string name="no_conversation_in_list__message">Iniciar uma conversa ou criar um grupo.</string>
   <string name="cursor__type_a_message">DIGITE UMA MENSAGEM</string>
   <string name="cursor__ephemeral_message">MENSAGEM COM ENVIO PROGRAMADO</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1048,5 +1051,5 @@
   <string name="conversation_list__header__title">CONVERSAS</string>
   <string name="conversation_list__header__archive_title">ARQUIVO</string>
   <string name="guest_indicator">CONVIDADO</string>
-  <string name="participant_tab_guest_indicator">Covidados em %1$s</string>
+  <string name="participant_tab_guest_indicator_label">Convidado</string>
 </resources>

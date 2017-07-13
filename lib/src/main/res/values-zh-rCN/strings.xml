@@ -130,8 +130,8 @@
   <string name="people_picker__search_result_team_members_header_title">团队成员</string>
   <string name="people_picker__invite_header_title">邀请</string>
   <string name="people_picker__confirm_button_title">开始聊天</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">新增</string>
-  <string name="people_picker__confirm_button_title__create_conversation">建立</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">向群组中添加联系人</string>
+  <string name="people_picker__confirm_button_title__create_conversation">创建群聊</string>
   <string name="people_picker__error_message__no_results">没有搜寻结果</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">按名称或电邮箱地址搜索</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">请输入有效的邮箱地址或</string>
@@ -143,6 +143,7 @@
   <string name="people_picker__toolbar_header__group">新增好友</string>
   <string name="people_picker__toolbar_header__one_to_one">创建群聊</string>
   <string name="people_picker__search_result__expander_title">显示全部 %1$s ↓</string>
+  <string name="people_picker__guest_label">游客</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">共享联络人</string>
   <string name="people_picker__share_contacts__message">在您分享通讯录后，Wire将帮助您找到其他的好友。</string>
@@ -169,7 +170,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">邀请</string>
   <string name="people_picker__contact_list__invite_dialog__title">发送邀请</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020通过用户名查询</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">邀请更多人</string>
+  <string name="people_picker__generic_invite_button_text">邀请好友使用Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="other">%1$d个共同好友</item>
   </plurals>
@@ -399,6 +400,7 @@
   <string name="pref_category_title">设置</string>
   <string name="pref_developer_screen_title">开发人员设置</string>
   <string name="pref_dev_avs_screen_title">AVS设置</string>
+  <string name="pref_profile_screen_title">用户信息</string>
   <!-- Account -->
   <string name="pref_account_screen_title">帐户</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -451,6 +453,7 @@
   <string name="pref_options_ringtones_text_title">信息铃声</string>
   <string name="pref_options_ringtones_ping_title">打招呼</string>
   <string name="pref_options_ringtones_default_summary">Wire预设值</string>
+  <string name="pref_options_ringtones_silent">Silent</string>
   <string name="pref_options_image_download_title">下载图片</string>
   <string name="pref_options_image_download_always">总是</string>
   <string name="pref_options_image_download_wifi">仅无线网络</string>
@@ -508,7 +511,7 @@
   <string name="pref_about_version_title">版本 %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">邀请联系人</string>
+  <string name="pref_invite_title">邀请好友使用Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">驗證電話號碼</string>
   <string name="pref__account_action__phone_verification__description">输入我们发送到 %s的验证码</string>
@@ -837,7 +840,7 @@
   <string name="single_image__save_to_disk__error">没有储存空间使用的权限，无法储存图片</string>
   <string name="conversation_list__label_action__contacts">联系人</string>
   <string name="conversation_list__hint_header">从这里开始对话</string>
-  <string name="conversation_list__hint_text">开始一段对话，或邀请更多的人加入。与单个联系人或在群聊中进行文字聊天或语音聊天。</string>
+  <string name="conversation_list__hint_text">开始一段对话。电话、 邮件和份额在私营或与团体。</string>
   <string name="conversation_list__action_join_call">加入</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">资源库</string>
@@ -874,7 +877,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">暂无对话</string>
   <string name="all_archived__header">所以内容均已存档</string>
-  <string name="no_conversation_in_list__message">开始聊天或者邀请好友加入。</string>
+  <string name="no_conversation_in_list__message">开始一段对话或创建一个组。</string>
   <string name="cursor__type_a_message">请输入信息</string>
   <string name="cursor__ephemeral_message">阅后即焚</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1017,5 +1020,5 @@
   <string name="conversation_list__header__title">对话</string>
   <string name="conversation_list__header__archive_title">归档</string>
   <string name="guest_indicator">客人</string>
-  <string name="participant_tab_guest_indicator">客人在 %1$s</string>
+  <string name="participant_tab_guest_indicator_label">游客</string>
 </resources>

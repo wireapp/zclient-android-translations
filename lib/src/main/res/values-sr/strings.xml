@@ -130,8 +130,8 @@
   <string name="people_picker__search_result_team_members_header_title">Чланови тима</string>
   <string name="people_picker__invite_header_title">Позивница</string>
   <string name="people_picker__confirm_button_title">Почни разговор</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">ДОДАЈ</string>
-  <string name="people_picker__confirm_button_title__create_conversation">НАПРАВИ</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Додај људе у групу</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Направи групу</string>
   <string name="people_picker__error_message__no_results">Нема поклапања.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Пронађи људе по имену или адреси е-поште</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Унесите важећу адресу е-поште или</string>
@@ -143,6 +143,7 @@
   <string name="people_picker__toolbar_header__group">Додај људе</string>
   <string name="people_picker__toolbar_header__one_to_one">Направи групу</string>
   <string name="people_picker__search_result__expander_title">Прикажи свих %1$s ↓</string>
+  <string name="people_picker__guest_label">Гост</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Дели контакте</string>
   <string name="people_picker__share_contacts__message">Вајер може да пронађе ваше пријатеље ако поделите контакте.</string>
@@ -171,7 +172,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">ПОЗИВНИЦА</string>
   <string name="people_picker__contact_list__invite_dialog__title">Пошаљи позивницу</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 ТРАЖИ ПО ИМЕНУ</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">ПОЗОВИТЕ ЈОШ ЉУДИ</string>
+  <string name="people_picker__generic_invite_button_text">Позовите људе у Вајер</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d заједничка особа</item>
     <item quantity="few">%1$d заједничке особе</item>
@@ -415,6 +416,7 @@
   <string name="pref_category_title">Поставке</string>
   <string name="pref_developer_screen_title">Поставке за програмере</string>
   <string name="pref_dev_avs_screen_title">АВС поставке</string>
+  <string name="pref_profile_screen_title">Профил</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Налог</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -467,6 +469,7 @@
   <string name="pref_options_ringtones_text_title">Тон поруке</string>
   <string name="pref_options_ringtones_ping_title">Пинг</string>
   <string name="pref_options_ringtones_default_summary">Вајеров подразумевани</string>
+  <string name="pref_options_ringtones_silent">Тихо</string>
   <string name="pref_options_image_download_title">Преузми слике</string>
   <string name="pref_options_image_download_always">увек</string>
   <string name="pref_options_image_download_wifi">само бежична веза</string>
@@ -524,7 +527,7 @@
   <string name="pref_about_version_title">Верзија %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Позови људе</string>
+  <string name="pref_invite_title">Позовите људе у Вајер</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Оверите број телефона</string>
   <string name="pref__account_action__phone_verification__description">Унесите верификациони код који смо послали на %s</string>
@@ -881,7 +884,7 @@
   <string name="single_image__save_to_disk__error">Не могу да сачувам слику. Немам приступ спољном складишту</string>
   <string name="conversation_list__label_action__contacts">КОНТАКТИ</string>
   <string name="conversation_list__hint_header">Разговор почиње овде</string>
-  <string name="conversation_list__hint_text">Започните разговор или позовите људе да се прикључе. Причајте, дописујте се и делите, појединачно или у групама.</string>
+  <string name="conversation_list__hint_text">Започните разговор. Позивом, поруком или делећи, лично или у групама.</string>
   <string name="conversation_list__action_join_call">ПРИДРУЖИ СЕ</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Збирка</string>
@@ -918,7 +921,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Још нема разговора</string>
   <string name="all_archived__header">Све је архивирано</string>
-  <string name="no_conversation_in_list__message">Започните разговор, направите групу, позовите људе да се придруже.</string>
+  <string name="no_conversation_in_list__message">Започните разговор или направите групу.</string>
   <string name="cursor__type_a_message">УКУЦАЈТЕ ПОРУКУ</string>
   <string name="cursor__ephemeral_message">ТЕМПИРАНА ПОРУКА</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1079,5 +1082,5 @@
   <string name="conversation_list__header__title">РАЗГОВОРИ</string>
   <string name="conversation_list__header__archive_title">АРХИВЕ</string>
   <string name="guest_indicator">ГОСТ</string>
-  <string name="participant_tab_guest_indicator">Гостију у %1$s</string>
+  <string name="participant_tab_guest_indicator_label">Гост</string>
 </resources>

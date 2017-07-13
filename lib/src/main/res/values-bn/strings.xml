@@ -130,8 +130,8 @@
   <string name="people_picker__search_result_team_members_header_title">দলের সদস্যরা</string>
   <string name="people_picker__invite_header_title">আমন্ত্রণ</string>
   <string name="people_picker__confirm_button_title">কথোপকথন শুরু করুন</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">যুক্ত করুন</string>
-  <string name="people_picker__confirm_button_title__create_conversation">তৈরি করুন</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Add People to Group</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Create Group</string>
   <string name="people_picker__error_message__no_results">কোনো অনুরূপ ফলাফল পাওয়া যায় নি।</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">লোকজন খুঁজুন-নাম বা ইমেইল ঠিকানা দিয়ে</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">অনুগ্রহ করে একটি বৈধ ই-মেইল ঠিকানা প্রবেশ করান অথবা</string>
@@ -143,6 +143,7 @@
   <string name="people_picker__toolbar_header__group">মানুষ যুক্ত করুন</string>
   <string name="people_picker__toolbar_header__one_to_one">গ্রুপ তৈরী করুন</string>
   <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
+  <string name="people_picker__guest_label">Guest</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">কন্টাক্ট সমূহ শেয়ার করুন</string>
   <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
@@ -170,7 +171,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">আমন্ত্রণ</string>
   <string name="people_picker__contact_list__invite_dialog__title">আমন্ত্রণ পাঠান</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 নাম দিয়ে খুঁজুন</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">আরো মানুষকে আমন্ত্রণ করুন</string>
+  <string name="people_picker__generic_invite_button_text">Invite People to Join Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d person in common</item>
     <item quantity="other">%1$d people in common</item>
@@ -407,6 +408,7 @@
   <string name="pref_category_title">সেটিং সমূহ </string>
   <string name="pref_developer_screen_title">ডেভেলপারের সেটিং সমূহ</string>
   <string name="pref_dev_avs_screen_title">AVS সেটিং সমূহ</string>
+  <string name="pref_profile_screen_title">Profile</string>
   <!-- Account -->
   <string name="pref_account_screen_title">একাউন্ট</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -459,6 +461,7 @@
   <string name="pref_options_ringtones_text_title">ম্যাসেজ টোন</string>
   <string name="pref_options_ringtones_ping_title">পিং</string>
   <string name="pref_options_ringtones_default_summary">ওয়্যার ডিফল্ট</string>
+  <string name="pref_options_ringtones_silent">Silent</string>
   <string name="pref_options_image_download_title">ছবিগুলো ডাউনলোড করুন</string>
   <string name="pref_options_image_download_always">সবসময়</string>
   <string name="pref_options_image_download_wifi">শুধু Wi-Fi</string>
@@ -517,7 +520,7 @@
   <string name="pref_about_version_title">সংস্করণ %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Invite people</string>
+  <string name="pref_invite_title">Invite people to join Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">ফোন নম্বরটি যাচাই করুন</string>
   <string name="pref__account_action__phone_verification__description">%s কাছে প্রেরিত যাচাইকরণ কোড লিখুন</string>
@@ -860,7 +863,7 @@
   <string name="single_image__save_to_disk__error">ছবি সংরক্ষণ করা যাচ্ছে না, বাহ্যিক স্টোরেজ এ প্রবেশ করা যাচ্ছে না</string>
   <string name="conversation_list__label_action__contacts">PEOPLE</string>
   <string name="conversation_list__hint_header">এখানে কথোকথন শুরু করুন</string>
-  <string name="conversation_list__hint_text">কথোকথন শুরু করুন অথবা আমন্ত্রণ জানান আরো মানুষদেরকে যোগ দিতে।কল, বার্তা এবং ব্যক্তিগত অথবা গ্রুপে শেয়ার করুন.</string>
+  <string name="conversation_list__hint_text">Start a conversation. Call, message and share in private or with groups.</string>
   <string name="conversation_list__action_join_call">JOIN</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Collection</string>
@@ -897,7 +900,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">No conversations yet</string>
   <string name="all_archived__header">Everything archived</string>
-  <string name="no_conversation_in_list__message">Start a conversation, create a group or invite people to join.</string>
+  <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
   <string name="cursor__type_a_message">বার্তা লিখুন</string>
   <string name="cursor__ephemeral_message">সময়যুক্ত বার্তা</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1049,5 +1052,5 @@
   <string name="conversation_list__header__title">CONVERSATIONS</string>
   <string name="conversation_list__header__archive_title">সংগ্রহশালা</string>
   <string name="guest_indicator">GUEST</string>
-  <string name="participant_tab_guest_indicator">Guest in %1$s</string>
+  <string name="participant_tab_guest_indicator_label">Guest</string>
 </resources>

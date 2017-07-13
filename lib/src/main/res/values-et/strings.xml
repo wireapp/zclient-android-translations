@@ -130,8 +130,8 @@
   <string name="people_picker__search_result_team_members_header_title">Meeskonnaliikmed</string>
   <string name="people_picker__invite_header_title">Kutsu</string>
   <string name="people_picker__confirm_button_title">Alusta vestlust</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">LISA</string>
-  <string name="people_picker__confirm_button_title__create_conversation">LOO</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Lisa inimesi gruppi</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Loo grupp</string>
   <string name="people_picker__error_message__no_results">Tulemusi ei leitud.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Otsi inimesi nime või meiliaadressi järgi</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Sisesta korrektne meiliaadress või</string>
@@ -143,6 +143,7 @@
   <string name="people_picker__toolbar_header__group">Lisa inimesi</string>
   <string name="people_picker__toolbar_header__one_to_one">Loo grupivestlus</string>
   <string name="people_picker__search_result__expander_title">Näita kõiki %1$s ↓</string>
+  <string name="people_picker__guest_label">Külaline</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Jaga kontakte</string>
   <string name="people_picker__share_contacts__message">Wire aitab su sõpru leida, kui jagad oma kontakte.</string>
@@ -170,7 +171,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">KUTSU</string>
   <string name="people_picker__contact_list__invite_dialog__title">Saada kutse</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 OTSI NIME JÄRGI</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">KUTSU SÕPRU JUURDE</string>
+  <string name="people_picker__generic_invite_button_text">Kutsu inimesi Wire\'iga liituma</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d ühine tuttav</item>
     <item quantity="other">%1$d ühist tuttavat</item>
@@ -343,7 +344,7 @@
   <string name="confirmation_menu__cancel">LOOBU</string>
   <!-- ADD TO CONVERSATION offline -->
   <string name="conversation__add_user__no_network__title">Ühendus puudub</string>
-  <string name="conversation__add_user__no_network__message">Inimeste lisamiseks pead online olema. Kontrolli ühendust ja proovi uuesti.</string>
+  <string name="conversation__add_user__no_network__message">Inimeste lisamiseks pead olema võrgus. Kontrolli ühendust ja proovi uuesti.</string>
   <string name="conversation__add_user__no_network__button">OK</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
   <string name="conversation__create_group_conversation__no_network__title">Ühendus puudub</string>
@@ -407,6 +408,7 @@
   <string name="pref_category_title">Seaded</string>
   <string name="pref_developer_screen_title">Arendajate seaded</string>
   <string name="pref_dev_avs_screen_title">AVS seaded</string>
+  <string name="pref_profile_screen_title">Profiil</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Konto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -459,6 +461,7 @@
   <string name="pref_options_ringtones_text_title">Sõnumi heli</string>
   <string name="pref_options_ringtones_ping_title">Ping</string>
   <string name="pref_options_ringtones_default_summary">Wire helin</string>
+  <string name="pref_options_ringtones_silent">Hääletu</string>
   <string name="pref_options_image_download_title">Laadi pildid alla</string>
   <string name="pref_options_image_download_always">Alati</string>
   <string name="pref_options_image_download_wifi">Ainult üle Wi-Fi</string>
@@ -516,7 +519,7 @@
   <string name="pref_about_version_title">Versioon %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Jaga teistega</string>
+  <string name="pref_invite_title">Kutsu inimesi Wire\'iga liituma</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Kinnita telefoninumber</string>
   <string name="pref__account_action__phone_verification__description">Sisesta kinnituskood, mille saatsime numbrile %s</string>
@@ -859,7 +862,7 @@
   <string name="single_image__save_to_disk__error">Pildi salvestamine ebaõnnestus, puudub juuurdepääs mälukaardile</string>
   <string name="conversation_list__label_action__contacts">INIMESED</string>
   <string name="conversation_list__hint_header">Vestlused algavat siit</string>
-  <string name="conversation_list__hint_text">Alusta vestlust või kutsu rohkem inimesi liituma. Helista, saada sõnumeid ja jaga üksikisikule või grupile.</string>
+  <string name="conversation_list__hint_text">Alusta vestlust. Helista, saada sõnumeid ja jaga üksikisikule või grupile.</string>
   <string name="conversation_list__action_join_call">LIITU</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Kogumik</string>
@@ -896,7 +899,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Pole veel vestlusi</string>
   <string name="all_archived__header">Kõik on arhiveeritud</string>
-  <string name="no_conversation_in_list__message">Alusta vestlust, loo grupp või kutsu inimesi liituma.</string>
+  <string name="no_conversation_in_list__message">Alustage vestlust või rühma loomine.</string>
   <string name="cursor__type_a_message">KIRJUTA SÕNUM</string>
   <string name="cursor__ephemeral_message">TAIMERIGA SÕNUMID</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1048,5 +1051,5 @@
   <string name="conversation_list__header__title">VESTLUSED</string>
   <string name="conversation_list__header__archive_title">ARHIIV</string>
   <string name="guest_indicator">KÜLALINE</string>
-  <string name="participant_tab_guest_indicator">Külaline kohas %1$s</string>
+  <string name="participant_tab_guest_indicator_label">Külaline</string>
 </resources>

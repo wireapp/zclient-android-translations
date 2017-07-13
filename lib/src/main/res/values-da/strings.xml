@@ -117,21 +117,21 @@
   <string name="invitation__email__failed">Du kan ikke registrere dig med denne invitation.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 SØG PÅ NAVN ELLER BRUGERNAVN</string>
-  <string name="pick_user_search_hint">SEARCH BY NAME OR USERNAME</string>
+  <string name="pick_user_search_hint">SØG VIA NAVN ELLER BRUGERNAVN</string>
   <string name="pick_user_search__add_to_conversation">\u0020 SØG PÅ NAVN</string>
   <string name="people_picker__top_users_header_title">Top personer</string>
   <string name="people_picker__address_book_matches_title">Forbind</string>
   <string name="people_picker__search_result_conversations_header_title">Grupper</string>
-  <string name="people_picker__search_result_team_conversations_header_title">%1$s Groups</string>
+  <string name="people_picker__search_result_team_conversations_header_title">%1$s Grupper</string>
   <string name="people_picker__search_result_connections_header_title">Kontakter</string>
   <string name="people_picker__search_result_others_header_title">Forbind</string>
   <string name="people_picker__search_result_recommended_header_title">Anbefalet</string>
   <string name="people_picker__search_result_contacts_header_title">Kontakter</string>
-  <string name="people_picker__search_result_team_members_header_title">Team Members</string>
+  <string name="people_picker__search_result_team_members_header_title">Gruppemedlemmer</string>
   <string name="people_picker__invite_header_title">Invitér</string>
   <string name="people_picker__confirm_button_title">Opret samtale</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">TILFØJ</string>
-  <string name="people_picker__confirm_button_title__create_conversation">OPRET</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Tilføj personer til gruppe</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Opret Gruppe</string>
   <string name="people_picker__error_message__no_results">Ingen matchende resultater.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Find personer via navn eller e-mailadresse</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Angiv en gyldig e-mail adresse eller</string>
@@ -143,12 +143,13 @@
   <string name="people_picker__toolbar_header__group">Tilføj personer</string>
   <string name="people_picker__toolbar_header__one_to_one">Opret gruppe</string>
   <string name="people_picker__search_result__expander_title">Vis alle %1$s ↓</string>
+  <string name="people_picker__guest_label">Gæst</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Del Kontaktpersoner</string>
-  <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
-  <string name="people_picker__share_contacts__yay">Allow</string>
-  <string name="people_picker__share_contacts__nah">Deny</string>
-  <string name="people_picker__share_contacts__nevvah">Never ask again</string>
+  <string name="people_picker__share_contacts__message">Wire hjælper dig med at finde dine venner, hvis du deler dine kontaktpersoner.</string>
+  <string name="people_picker__share_contacts__yay">Tillad</string>
+  <string name="people_picker__share_contacts__nah">Afvis</string>
+  <string name="people_picker__share_contacts__nevvah">Spørg ikke igen</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">Kender %1$s</string>
   <string name="people_picker__recommended__common_connections__two">Kender %1$s samt %2$s</string>
@@ -170,7 +171,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">INVITÉR</string>
   <string name="people_picker__contact_list__invite_dialog__title">Send invitation</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 SØG PÅ NAVN</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">INVITÉR FLERE PERSONER</string>
+  <string name="people_picker__generic_invite_button_text">Invite People to Join Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d person tilfælles</item>
     <item quantity="other">%1$d personer tilfælles</item>
@@ -220,13 +221,13 @@
   <string name="content__file__status__uploading__minimized">SENDER&#8230;</string>
   <string name="content__file__status__cancelled__minimized">AFBRUDT&#8230;</string>
   <string name="content__file__status__downloading__minimized">DOWNLOADER&#8230;</string>
-  <string name="content__file__status__download_failed__minimized">DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed__minimized">UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed__minimized">DOWNLOAD MISLYKKEDES</string>
+  <string name="content__file__status__upload_failed__minimized">UPLOAD MISLYKKEDES</string>
   <string name="content__file__status__uploading">%1$s · UPLOADER&#8230;</string>
   <string name="content__file__status__cancelled">%1$s · AFBRUDT&#8230;</string>
   <string name="content__file__status__downloading">%1$s · DOWNLOADER&#8230;</string>
-  <string name="content__file__status__download_failed">%1$s · DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed">%1$s · UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed">%1$s · DOWNLOAD MISLYKKEDES</string>
+  <string name="content__file__status__upload_failed">%1$s · UPLOAD MISLYKKEDES</string>
   <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
   <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
   <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · UPLOADER&#8230;</string>
@@ -407,6 +408,7 @@
   <string name="pref_category_title">Indstillinger</string>
   <string name="pref_developer_screen_title">Udviklerindstillinger</string>
   <string name="pref_dev_avs_screen_title">AVS Indstillinger</string>
+  <string name="pref_profile_screen_title">Profil</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Konto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -459,6 +461,7 @@
   <string name="pref_options_ringtones_text_title">Ringetone for beskeder</string>
   <string name="pref_options_ringtones_ping_title">Ping</string>
   <string name="pref_options_ringtones_default_summary">Wire standard</string>
+  <string name="pref_options_ringtones_silent">Silent</string>
   <string name="pref_options_image_download_title">Download billeder</string>
   <string name="pref_options_image_download_always">Altid</string>
   <string name="pref_options_image_download_wifi">Kun Wi-Fi</string>
@@ -516,7 +519,7 @@
   <string name="pref_about_version_title">Version %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Invitér personer</string>
+  <string name="pref_invite_title">Invite people to join Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Verificer telefonnummer</string>
   <string name="pref__account_action__phone_verification__description">Angiv bekræftelseskoden vi har sendt til %s</string>
@@ -861,7 +864,7 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="single_image__save_to_disk__error">Kunne ikke gemme billedet, ingen adgang til ekstern lagerplads</string>
   <string name="conversation_list__label_action__contacts">PERSONER</string>
   <string name="conversation_list__hint_header">Chatsamtaler starter her</string>
-  <string name="conversation_list__hint_text">Start en chatsamtale eller invitér flere personer til at deltage. Ring, skriv og del privat, eller med grupper.</string>
+  <string name="conversation_list__hint_text">Start a conversation. Call, message and share in private or with groups.</string>
   <string name="conversation_list__action_join_call">DELTAG</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Samling</string>
@@ -898,7 +901,7 @@ Tjek din forbindelse og prøv igen.</string>
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">No conversations yet</string>
   <string name="all_archived__header">Alt arkiveret</string>
-  <string name="no_conversation_in_list__message">Start a conversation, create a group or invite people to join.</string>
+  <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
   <string name="cursor__type_a_message">SKRIV EN BESKED</string>
   <string name="cursor__ephemeral_message">TIDSINDSTILLET BESKED</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1050,5 +1053,5 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="conversation_list__header__title">CONVERSATIONS</string>
   <string name="conversation_list__header__archive_title">ARKIV</string>
   <string name="guest_indicator">GUEST</string>
-  <string name="participant_tab_guest_indicator">Guest in %1$s</string>
+  <string name="participant_tab_guest_indicator_label">Gæst</string>
 </resources>

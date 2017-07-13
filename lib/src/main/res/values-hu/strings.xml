@@ -130,8 +130,8 @@
   <string name="people_picker__search_result_team_members_header_title">Csapattagok</string>
   <string name="people_picker__invite_header_title">Meghív</string>
   <string name="people_picker__confirm_button_title">Beszélgetés létrehozása</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">HOZZÁADÁS</string>
-  <string name="people_picker__confirm_button_title__create_conversation">LÉTREHOZÁSA</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Partner hozzáadása a csoporthoz</string>
+  <string name="people_picker__confirm_button_title__create_conversation">Csoport létrehozása</string>
   <string name="people_picker__error_message__no_results">Nincsenek megfelelő eredmények.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Partnerek keresése név vagy e-mail cím alapján</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Kérjük, adjon meg egy érvényes email címet, vagy</string>
@@ -143,6 +143,7 @@
   <string name="people_picker__toolbar_header__group">Partner hozzáadása</string>
   <string name="people_picker__toolbar_header__one_to_one">Csoport létrehozása</string>
   <string name="people_picker__search_result__expander_title">Összes megjelenítése %1$s ↓</string>
+  <string name="people_picker__guest_label">Vendég</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Névjegyek megosztása</string>
   <string name="people_picker__share_contacts__message">A Wire segít megtalálni barátait, ha megosztja névjegyeit.</string>
@@ -170,7 +171,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">MEGHÍV</string>
   <string name="people_picker__contact_list__invite_dialog__title">Küldjön egy meghívót</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 KERESÉS NÉV SEGÍTSÉGÉVEL</string>
-  <string name="people_picker__contact_list__generic_invite__button__label">TÖBB PARTNER MEGHÍVÁSA</string>
+  <string name="people_picker__generic_invite_button_text">Hívjon meg partnereket, hogy csatlakozzanak a Wire-höz</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d közös ismerős</item>
     <item quantity="other">%1$d közös ismerős</item>
@@ -279,7 +280,7 @@
   <string name="calling__header__incoming_subtitle__video">videó hívás</string>
   <string name="incoming__controls__incoming__decline">ELUTASÍT</string>
   <string name="incoming__controls__incoming__accept">ELFOGADÁS</string>
-  <string name="incoming__controls__ongoing__hangup">RAKJA LE</string>
+  <string name="incoming__controls__ongoing__hangup">Hívás vége</string>
   <string name="incoming__controls__ongoing__speaker">HANGSZÓRÓ</string>
   <string name="incoming__controls__ongoing__mute">NÉMÍTÁS</string>
   <string name="incoming__controls__ongoing__video">VIDEÓ</string>
@@ -407,6 +408,7 @@
   <string name="pref_category_title">Beállítások</string>
   <string name="pref_developer_screen_title">Fejlesztői beállítások</string>
   <string name="pref_dev_avs_screen_title">AVS beállítások</string>
+  <string name="pref_profile_screen_title">Profil</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Fiók</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -456,9 +458,10 @@
   <string name="pref_options_sounds_category_title">Riasztások</string>
   <string name="pref_options_ringtones_category_title">Hangok</string>
   <string name="pref_options_ringtones_ringtone_title">Csengőhang</string>
-  <string name="pref_options_ringtones_text_title">Szöveg hangzás</string>
+  <string name="pref_options_ringtones_text_title">Értesítő hang</string>
   <string name="pref_options_ringtones_ping_title">Kopogás</string>
   <string name="pref_options_ringtones_default_summary">Wire alapértelmezett</string>
+  <string name="pref_options_ringtones_silent">Néma</string>
   <string name="pref_options_image_download_title">Képek letöltése</string>
   <string name="pref_options_image_download_always">Mindig</string>
   <string name="pref_options_image_download_wifi">Csak Wi-Fi</string>
@@ -473,7 +476,7 @@
   <string name="pref_devices_summary">Koppintson a törléshez</string>
   <string name="pref_devices_current_device_category_title">Aktuális eszköz</string>
   <string name="pref_devices_other_devices_category_title">Egyéb eszközök</string>
-  <string name="pref_devices_device_activation_summary">Aktiválva lett ekkor [[%1$s]]\ninnen [[%2$s]]</string>
+  <string name="pref_devices_device_activation_summary">Aktiválva lett [[%1$s]]\ninnen [[%2$s]]</string>
   <string name="pref_devices_device_id">AZONOSÍTÓ: %1$s</string>
   <string name="pref_devices_device_verified">Megerősítve</string>
   <string name="pref_devices_device_not_verified">Nincs megerősítve</string>
@@ -499,7 +502,7 @@
   <string name="debug_report__body">Kérjük, adja meg a szükséges lépéseket, a probléma reprodukálásához, csatolj képernyőképet ha lehetséges és küld el ezt az emailt. \n\n</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Ügyfélszolgálat</string>
-  <string name="pref_support_website_title">Wire Ügyfélszolgálat weboldala</string>
+  <string name="pref_support_website_title">Wire ügyfélszolgálat weboldala</string>
   <string name="pref_support_website_url">https://support.wire.com</string>
   <string name="pref_support_contact_title">Kapcsolatfelvétel az ügyfélszolgálattal</string>
   <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
@@ -516,7 +519,7 @@
   <string name="pref_about_version_title">Verzió: %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Partner meghívása</string>
+  <string name="pref_invite_title">Hívjon meg partnereket, hogy csatlakozzanak a Wire-höz</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Erősítse meg telefonszámát</string>
   <string name="pref__account_action__phone_verification__description">Írja be az ellenőrző kódot amit elküldtünk ide: %s</string>
@@ -859,7 +862,7 @@
   <string name="single_image__save_to_disk__error">Kép mentése sikertelen, nincs hozzáférés a külső tárolóhoz</string>
   <string name="conversation_list__label_action__contacts">PARTNEREK</string>
   <string name="conversation_list__hint_header">A beszélgetések itt kezdődnek</string>
-  <string name="conversation_list__hint_text">Indítson egy beszélgetést vagy hívjon meg másokat, hogy csatlakozzanak. Kezdeményezzen hívást, küldjön üzenetet vagy kezdje el a megosztást, privátba, vagy csoportban.</string>
+  <string name="conversation_list__hint_text">Indítson egy beszélgetést. Hívjon, üzenjen és osszon meg dolgokat privát vagy csoportokkal.</string>
   <string name="conversation_list__action_join_call">CSATLAKOZZON</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Gyűjtő</string>
@@ -896,7 +899,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Még nincsenek beszélgetések</string>
   <string name="all_archived__header">Minden archiválva</string>
-  <string name="no_conversation_in_list__message">Indítson el egy beszélgetést, hozzon létre egy csoportot vagy hívjon meg partnereket, hogy csatlakozzanak.</string>
+  <string name="no_conversation_in_list__message">Indítson egy beszélgetés vagy hozzon létre egy csoportot.</string>
   <string name="cursor__type_a_message">ÍRJON BE EGY ÜZENETET</string>
   <string name="cursor__ephemeral_message">IDŐZÍTETT ÜZENET</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -975,7 +978,7 @@
   <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s van hátra_</string>
   <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
   <string name="usernames__take_over__title">Felhasználónevek itt vannak.</string>
-  <string name="usernames__take_over__summary">Szerezd be saját egyedi nevedet a Wire-ön. _Tudj meg többet._</string>
+  <string name="usernames__take_over__summary">Szerezze be saját egyedi nevét a Wire-ön. _Tudjon meg többet._</string>
   <string name="usernames__take_over__choose">VÁLASSZA KI A SAJÁTJÁT</string>
   <string name="usernames__take_over__keep">ENNEK MEGTARTÁSA</string>
   <string name="pref_account_username_empty_title">Felhasználónév hozzáadása</string>
@@ -1048,5 +1051,5 @@
   <string name="conversation_list__header__title">BESZÉLGETÉSEK</string>
   <string name="conversation_list__header__archive_title">ARCHÍVÁLÁS</string>
   <string name="guest_indicator">VENDÉG</string>
-  <string name="participant_tab_guest_indicator">Vendég %1$s</string>
+  <string name="participant_tab_guest_indicator_label">Vendég</string>
 </resources>
