@@ -24,7 +24,7 @@
   <string name="permissions_denied_dialog_settings">Indstillinger</string>
   <string name="camera_not_available">KAMERA IKKE TILGÆNGELIGT</string>
   <string name="camera_permissions_denied_title">Kamera ikke tilgængeligt</string>
-  <string name="camera_permissions_denied_message">To take and send photos, grant permission to access the camera</string>
+  <string name="camera_permissions_denied_message">For at tage og sende billeder, giv tilladelse til brug af kameraet</string>
   <!-- Registration and Sign in -->
   <string name="welcome__slogan">Moderne, privat kommunikation.</string>
   <string name="welcome__terms_of_service">VED AT FORTSÆTTE ACCEPTERER DU _VILKÅR FOR ANVENDELSE_.</string>
@@ -80,7 +80,7 @@
   <string name="new_reg_phone_generic_error_header">Noget gik galt</string>
   <string name="new_reg_phone_generic_error_message">Prøv at registrere dig igen.</string>
   <string name="new_sign_in_generic_error_header">Noget gik galt</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again.</string>
+  <string name="new_sign_in_generic_error_message">Log ind igen.</string>
   <string name="profile_generic_error_header">Noget gik galt</string>
   <string name="profile_generic_error_message">Prøv venligst igen.</string>
   <string name="profile_phone_generic_error_header">Ugyldigt telefonnummer</string>
@@ -169,7 +169,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">INVITÉR</string>
   <string name="people_picker__contact_list__invite_dialog__title">Send invitation</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 SØG PÅ NAVN</string>
-  <string name="people_picker__generic_invite_button_text">Invite People to Join Wire</string>
+  <string name="people_picker__generic_invite_button_text">Inviter personer til Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d person tilfælles</item>
     <item quantity="other">%1$d personer tilfælles</item>
@@ -231,8 +231,8 @@
   <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · UPLOADER&#8230;</string>
   <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · AFBRUDT&#8230;</string>
   <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · HENTER&#8230;</string>
-  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · DOWNLOAD FAILED</string>
-  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · UPLOAD FAILED</string>
+  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · _OWNLOAD MISLYKKEDES</string>
+  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · UPLOAD MISLYKKEDES</string>
   <string name="content__file__action__open">ÅBEN</string>
   <string name="content__file__action__save">GEM</string>
   <string name="content__file__action__share">DEL</string>
@@ -373,8 +373,8 @@
   <string name="content__youtube__error__text">video blev ikke fundet</string>
   <string name="mediaplayer__artist__placeholder">Spor</string>
   <string name="mediaplayer__artist__error">Spor er ikke tilgængeligt</string>
-  <string name="mediaplayer__message__onsoundcloud">on SoundCloud</string>
-  <string name="mediaplayer__message__onspotify">on Spotify</string>
+  <string name="mediaplayer__message__onsoundcloud">på SoundCloud</string>
+  <string name="mediaplayer__message__onspotify">på Spotify</string>
   <string name="mediaplayer__spotify__hint">Forbind med Spotify</string>
   <string name="mediaplayer__open_external">Åbn i browser</string>
   <!-- Invite banner -->
@@ -459,7 +459,7 @@
   <string name="pref_options_ringtones_text_title">Ringetone for beskeder</string>
   <string name="pref_options_ringtones_ping_title">Ping</string>
   <string name="pref_options_ringtones_default_summary">Wire standard</string>
-  <string name="pref_options_ringtones_silent">Silent</string>
+  <string name="pref_options_ringtones_silent">Lydløs</string>
   <string name="pref_options_image_download_title">Download billeder</string>
   <string name="pref_options_image_download_always">Altid</string>
   <string name="pref_options_image_download_wifi">Kun Wi-Fi</string>
@@ -475,7 +475,7 @@
   <string name="pref_devices_current_device_category_title">Aktuelle enhed</string>
   <string name="pref_devices_other_devices_category_title">Andre enheder</string>
   <string name="pref_devices_device_activation_summary">Aktiveret [[%1$s]]\ni [[%2$s]]</string>
-  <string name="pref_devices_device_activation_subtitle">Activated on [[%1$s]] in [[%2$s]]</string>
+  <string name="pref_devices_device_activation_subtitle">Aktiveret [[%1$s]] in [[%2$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Verificeret</string>
   <string name="pref_devices_device_not_verified">Ikke verificeret</string>
@@ -518,7 +518,7 @@
   <string name="pref_about_version_title">Version %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Invite people to join Wire</string>
+  <string name="pref_invite_title">Inviter personer til Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Verificer telefonnummer</string>
   <string name="pref__account_action__phone_verification__description">Angiv bekræftelseskoden vi har sendt til %s</string>
@@ -545,7 +545,7 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Fjern</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Are you sure you want to remove %s from your Wire account?</string>
   <string name="pref__account_action__dialog__delete_phone__error">Unable to delete phone number</string>
-  <string name="pref__account_action__dialog__delete_email__error">Unable to delete email</string>
+  <string name="pref__account_action__dialog__delete_email__error">Kan ikke slette e-mail</string>
   <string name="pref__account_action__dialog__delete_email__no_internet_error">You need to be online to delete email</string>
   <string name="pref__account_action__dialog__delete_phone__no_internet_error">You need to be online to delete phone</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">Indtast en gyldig e-mail</string>
@@ -896,7 +896,7 @@ Tjek din forbindelse og prøv igen.</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">KONSTANT BITHASTIGHED</string>
   <!-- no contacts -->
-  <string name="no_conversation_in_list__header">No conversations yet</string>
+  <string name="no_conversation_in_list__header">Ingen samtaler</string>
   <string name="all_archived__header">Alt arkiveret</string>
   <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
   <string name="cursor__type_a_message">SKRIV EN BESKED</string>
@@ -1013,12 +1013,12 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="search__no_results">Ingen resultater.</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s new message</item>
-    <item quantity="other">%1$s new messages</item>
+    <item quantity="one">%1$s ny besked</item>
+    <item quantity="other">%1$s ny beskeder</item>
   </plurals>
   <plurals name="conversation_list__missed_calls_count">
-    <item quantity="one">%1$s missed call</item>
-    <item quantity="other">%1$s missed calls</item>
+    <item quantity="one">%1$s ubesvarede opkald</item>
+    <item quantity="other">%1$s ubesvarede opkald</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s ping</item>
@@ -1035,7 +1035,7 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="conversation_list__shared__video">Delte en video</string>
   <string name="conversation_list__shared__audio">Delte en lydbesked</string>
   <string name="conversation_list__shared__location">Delte en placering</string>
-  <string name="conversation_list__missed_call">Missed call</string>
+  <string name="conversation_list__missed_call">Ubesvarede opkald</string>
   <string name="conversation_list__pinged">Pinged</string>
   <string name="conversation_list__ephemeral">Tidsbestemt besked</string>
   <string name="conversation_list__typing">Skriver en besked&#8230;</string>
@@ -1047,14 +1047,14 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="conversation_list__removed_you">[[%1$s]] fjernede dig</string>
   <string name="conversation_list__removed">[[%1$s]] was removed</string>
   <string name="conversation_list__empty_conv__subtitle">Alle forlod gruppen</string>
-  <string name="conversation_list__header__title">CONVERSATIONS</string>
+  <string name="conversation_list__header__title">SAMTALER</string>
   <string name="conversation_list__header__archive_title">ARKIV</string>
-  <string name="guest_indicator">GUEST</string>
+  <string name="guest_indicator">GÆST</string>
   <string name="participant_tab_guest_indicator_label">Gæst</string>
-  <string name="preferences_profile_add_account">Add an account</string>
-  <string name="preferences_profile_create_team">Create a team</string>
+  <string name="preferences_profile_add_account">Tilføj en konto</string>
+  <string name="preferences_profile_create_team">Opret team</string>
   <string name="preferences_profile_in_team">in %1$s</string>
-  <string name="new_devices_dialog_title">You have connected a device to your Wire account</string>
+  <string name="new_devices_dialog_title">Du har forbundet en enhed til din Wire konto.</string>
   <string name="new_devices_dialog_info">Hvis du ikke har gjort det, så fjern enheden og nulstil din adgangskode.</string>
   <string name="new_devices_dialog_manage_devices">Administrer enheder</string>
 </resources>

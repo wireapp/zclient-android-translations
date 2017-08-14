@@ -24,7 +24,7 @@
   <string name="permissions_denied_dialog_settings">設定</string>
   <string name="camera_not_available">カメラは利用できません</string>
   <string name="camera_permissions_denied_title">カメラは利用できません</string>
-  <string name="camera_permissions_denied_message">To take and send photos, grant permission to access the camera</string>
+  <string name="camera_permissions_denied_message">撮影した写真を送信するために、カメラのアクセス許可を与えてください</string>
   <!-- Registration and Sign in -->
   <string name="welcome__slogan">モダンでプライベートなコミュニケーション</string>
   <string name="welcome__terms_of_service">継続することにより、_利用規約_に同意します。</string>
@@ -115,17 +115,17 @@
   <string name="invitation__email__failed">この招待状では登録できません。</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">名前かユーザーネームで検索</string>
-  <string name="pick_user_search_hint">SEARCH BY NAME OR USERNAME</string>
+  <string name="pick_user_search_hint">名前かユーザーネームで検索</string>
   <string name="pick_user_search__add_to_conversation">\u0020 名前で検索</string>
   <string name="people_picker__top_users_header_title">Top people</string>
   <string name="people_picker__address_book_matches_title">接続</string>
   <string name="people_picker__search_result_conversations_header_title">グループ</string>
-  <string name="people_picker__search_result_team_conversations_header_title">%1$s Groups</string>
+  <string name="people_picker__search_result_team_conversations_header_title">%1$s グループ</string>
   <string name="people_picker__search_result_connections_header_title">連絡先</string>
   <string name="people_picker__search_result_others_header_title">つながる</string>
   <string name="people_picker__search_result_recommended_header_title">おすすめ</string>
   <string name="people_picker__search_result_contacts_header_title">連絡先</string>
-  <string name="people_picker__search_result_team_members_header_title">Team Members</string>
+  <string name="people_picker__search_result_team_members_header_title">部隊メンバー</string>
   <string name="people_picker__invite_header_title">招待</string>
   <string name="people_picker__confirm_button_title">会話を作成</string>
   <string name="people_picker__confirm_button_title__add_to_conversation">グループに友人を追加する</string>
@@ -144,10 +144,10 @@
   <string name="people_picker__guest_label">ゲスト</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">連絡先を共有</string>
-  <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
-  <string name="people_picker__share_contacts__yay">Allow</string>
-  <string name="people_picker__share_contacts__nah">Deny</string>
-  <string name="people_picker__share_contacts__nevvah">Never ask again</string>
+  <string name="people_picker__share_contacts__message">連絡先をシェアした場合、Wireで友人を探すことが容易になります。</string>
+  <string name="people_picker__share_contacts__yay">許可する</string>
+  <string name="people_picker__share_contacts__nah">拒否</string>
+  <string name="people_picker__share_contacts__nevvah">今後は確認しない</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">%1$s を知っています</string>
   <string name="people_picker__recommended__common_connections__two">%1$s と %2$s を知っています</string>
@@ -168,7 +168,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">招待</string>
   <string name="people_picker__contact_list__invite_dialog__title">招待状を送信</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 名前で検索</string>
-  <string name="people_picker__generic_invite_button_text">Invite People to Join Wire</string>
+  <string name="people_picker__generic_invite_button_text">Wireに招待する</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="other">%1$d 人の共通の知り合い</item>
   </plurals>
@@ -451,7 +451,7 @@
   <string name="pref_options_ringtones_text_title">メッセージ着信音</string>
   <string name="pref_options_ringtones_ping_title">Ping</string>
   <string name="pref_options_ringtones_default_summary">Wire デフォルト</string>
-  <string name="pref_options_ringtones_silent">Silent</string>
+  <string name="pref_options_ringtones_silent">サイレント</string>
   <string name="pref_options_image_download_title">写真をダウンロード</string>
   <string name="pref_options_image_download_always">常に</string>
   <string name="pref_options_image_download_wifi">Wi-Fi のみ</string>
@@ -467,7 +467,7 @@
   <string name="pref_devices_current_device_category_title">現在のデバイス</string>
   <string name="pref_devices_other_devices_category_title">その他のデバイス</string>
   <string name="pref_devices_device_activation_summary">[[%1$s]] に\n[[%2$s]] でアクティベート済</string>
-  <string name="pref_devices_device_activation_subtitle">Activated on [[%1$s]] in [[%2$s]]</string>
+  <string name="pref_devices_device_activation_subtitle">[[%1$s]] に[[%2$s]] でアクティベート済</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">確認済</string>
   <string name="pref_devices_device_not_verified">未確認</string>
@@ -510,7 +510,7 @@
   <string name="pref_about_version_title">バージョン %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Invite people to join Wire</string>
+  <string name="pref_invite_title">Wireに招待する</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">電話番号を確認</string>
   <string name="pref__account_action__phone_verification__description">%s に送信された確認コードを入力してください。</string>
@@ -536,8 +536,8 @@
   <string name="pref__account_action__dialog__add_phone__confirm__message">通知コードを送ります:\n%s</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">削除</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Are you sure you want to remove %s from your Wire account?</string>
-  <string name="pref__account_action__dialog__delete_phone__error">Unable to delete phone number</string>
-  <string name="pref__account_action__dialog__delete_email__error">Unable to delete email</string>
+  <string name="pref__account_action__dialog__delete_phone__error">電話番号を削除できません。</string>
+  <string name="pref__account_action__dialog__delete_email__error">メールを削除できません。</string>
   <string name="pref__account_action__dialog__delete_email__no_internet_error">You need to be online to delete email</string>
   <string name="pref__account_action__dialog__delete_phone__no_internet_error">You need to be online to delete phone</string>
   <string name="pref__account_action__dialog__change_email__error__invalid_email">有効なメールアドレスを入力してください</string>
@@ -873,7 +873,8 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">固定ビットレート</string>
   <!-- no contacts -->
-  <string name="no_conversation_in_list__header">No conversations yet</string>
+  <string name="no_conversation_in_list__header">まだ会話が存在しません。
+</string>
   <string name="all_archived__header">全てアーカイブ済み</string>
   <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
   <string name="cursor__type_a_message">メッセージを入力します</string>
@@ -985,18 +986,18 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="search__no_results">結果はありません</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="other">%1$s new messages</item>
+    <item quantity="other">%1$s - 新しいメッセージ</item>
   </plurals>
   <plurals name="conversation_list__missed_calls_count">
-    <item quantity="other">%1$s missed calls</item>
+    <item quantity="other">%1$s件の不在着信</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
-    <item quantity="other">%1$s pings</item>
+    <item quantity="other">%1$s がPingしました</item>
   </plurals>
   <plurals name="conversation_list__new_likes_count">
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
+  <string name="conversation_list__unsent_message_long">⚠️ 未送信メッセージ</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">写真を共有しました</string>
   <string name="conversation_list__shared__file">ファイルを共有しました</string>
@@ -1019,10 +1020,10 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="conversation_list__header__archive_title">アーカイブ</string>
   <string name="guest_indicator">GUEST</string>
   <string name="participant_tab_guest_indicator_label">ゲスト</string>
-  <string name="preferences_profile_add_account">Add an account</string>
-  <string name="preferences_profile_create_team">Create a team</string>
-  <string name="preferences_profile_in_team">in %1$s</string>
-  <string name="new_devices_dialog_title">You have connected a device to your Wire account</string>
+  <string name="preferences_profile_add_account">アカウントを追加</string>
+  <string name="preferences_profile_create_team">新しいチームを作成</string>
+  <string name="preferences_profile_in_team">%1$s 中</string>
+  <string name="new_devices_dialog_title">あなたの Wire アカウントにデバイスを接続しました。</string>
   <string name="new_devices_dialog_info">これを行わなかった場合は、デバイスを削除し、あなたのパスワードをリセットします。</string>
   <string name="new_devices_dialog_manage_devices">デバイスを管理</string>
 </resources>
