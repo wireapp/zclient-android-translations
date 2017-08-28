@@ -130,7 +130,7 @@
   <string name="people_picker__invite_header_title">邀請</string>
   <string name="people_picker__confirm_button_title">開始對話</string>
   <string name="people_picker__confirm_button_title__add_to_conversation">Add People to Group</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Create Group</string>
+  <string name="people_picker__confirm_button_title__create_conversation">建立群組</string>
   <string name="people_picker__error_message__no_results">沒有搜尋結果</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">透過名稱或電子郵件搜尋連絡人</string>
   <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">請輸入有效的電子郵件信箱或</string>
@@ -142,7 +142,7 @@
   <string name="people_picker__toolbar_header__group">新增連絡人</string>
   <string name="people_picker__toolbar_header__one_to_one">建立群組</string>
   <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
-  <string name="people_picker__guest_label">Guest</string>
+  <string name="people_picker__guest_label">訪客</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">分享通訊錄</string>
   <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
@@ -298,7 +298,7 @@
     <item quantity="other">%1$d people in common</item>
   </plurals>
   <string name="connect_request__sub_header__pending_label">等待對方接受</string>
-  <string name="connect_request__cancel_request__label">Cancel connection request</string>
+  <string name="connect_request__cancel_request__label">取消連接請求</string>
   <string name="connect_request__unblock__button__text">解除封鎖</string>
   <string name="send_connect_request__connect_button__text">加為連絡人</string>
   <plurals name="connect_inbox__link__name">
@@ -318,7 +318,7 @@
     <item quantity="other">您仍然要發送您的訊息嗎？</item>
   </plurals>
   <string name="conversation__degraded_confirmation__accept_call">Do you want to accept the call?</string>
-  <string name="conversation__degraded_confirmation__place_call">Do you still want to place the call?</string>
+  <string name="conversation__degraded_confirmation__place_call">您仍然要接受此對話邀請嗎？</string>
   <string name="conversation__degraded_confirmation__positive_action">確定發送</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="other">顯示設備</item>
@@ -399,7 +399,7 @@
   <string name="pref_category_title">設定</string>
   <string name="pref_developer_screen_title">開發人員設定</string>
   <string name="pref_dev_avs_screen_title">AVS設定</string>
-  <string name="pref_profile_screen_title">Profile</string>
+  <string name="pref_profile_screen_title">個人資料</string>
   <!-- Account -->
   <string name="pref_account_screen_title">帳號</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -481,7 +481,7 @@
   <string name="pref_devices_device_reset_session_title">重設session</string>
   <string name="pref_devices_device_reset_session_summary">如果設備指紋比對結果不吻合，請重設session以產生兩方新的加密金鎖。</string>
   <string name="pref_devices_device_remove_title">移除設備</string>
-  <string name="pref_devices_device_remove_summary">Remove this device if you have stopped using it. You will be logged out of this device immediately.</string>
+  <string name="pref_devices_device_remove_summary">如果您已經不再使用此設備的話，請把它移除，此設備將會被立即登出您的帳號。</string>
   <string name="pref_devices_device_fingerprint_copy_description">指紋識別</string>
   <string name="pref_devices_device_fingerprint_copy_toast">已複製指紋識別</string>
   <!-- Advanced -->
@@ -511,7 +511,7 @@
   <string name="pref_about_version_title">版本 %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Invite people to join Wire</string>
+  <string name="pref_invite_title">邀請好友加入 Wire 的行列</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">驗證手機號碼</string>
   <string name="pref__account_action__phone_verification__description">輸入我們發送到 %s的驗證碼</string>
@@ -546,7 +546,7 @@
   <string name="pref__account_action__dialog__change_username__summary">With this username, people will be able to find you on Wire without knowing your email address or phone number.</string>
   <string name="pref__account_action__dialog__change_username__rules">At least 2 characters. a–z, 0–9, and _ only</string>
   <string name="pref__account_action__dialog__change_username__title">Username</string>
-  <string name="pref__account_action__dialog__change_username__error_already_taken">Already taken</string>
+  <string name="pref__account_action__dialog__change_username__error_already_taken">已經被用了</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Connection error, please try again</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
@@ -873,9 +873,9 @@
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">CONSTANT BIT RATE</string>
   <!-- no contacts -->
-  <string name="no_conversation_in_list__header">No conversations yet</string>
-  <string name="all_archived__header">Everything archived</string>
-  <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
+  <string name="no_conversation_in_list__header">尚無對話</string>
+  <string name="all_archived__header">全部都存檔了</string>
+  <string name="no_conversation_in_list__message">開啟一場對話或創建一個群組。</string>
   <string name="cursor__type_a_message">請輸入訊息</string>
   <string name="cursor__ephemeral_message">限時訊息</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -952,7 +952,7 @@
   <string name="ephemeral_message__timeout__1_day">1 天</string>
   <string name="message_footer__status__ephemeral_summary">倒數 %1$s \u30FB _%2$s</string>
   <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
-  <string name="usernames__take_over__title">Usernames are here.</string>
+  <string name="usernames__take_over__title">已被使用的使用者名稱。</string>
   <string name="usernames__take_over__summary">Claim your unique name on Wire. _Learn more._</string>
   <string name="usernames__take_over__choose">CHOOSE YOUR OWN</string>
   <string name="usernames__take_over__keep">KEEP THIS ONE</string>
@@ -1007,18 +1007,18 @@
   <string name="conversation_list__pinged">打了聲招呼</string>
   <string name="conversation_list__ephemeral">限時訊息</string>
   <string name="conversation_list__typing">Typing a message&#8230;</string>
-  <string name="conversation_list__someone">Someone</string>
+  <string name="conversation_list__someone">有人</string>
   <string name="conversation_list__added">[[%1$s]] was added</string>
   <string name="conversation_list__added_you">[[%1$s]] 新增了您</string>
   <string name="conversation_list__left">[[%1$s]] has left</string>
   <string name="conversation_list__left_you">您 離開了</string>
   <string name="conversation_list__removed_you">[[%1$s]] 移除了 您</string>
   <string name="conversation_list__removed">[[%1$s]] was removed</string>
-  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
+  <string name="conversation_list__empty_conv__subtitle">所有人都已經離開了</string>
   <string name="conversation_list__header__title">CONVERSATIONS</string>
   <string name="conversation_list__header__archive_title">封存</string>
   <string name="guest_indicator">GUEST</string>
-  <string name="participant_tab_guest_indicator_label">Guest</string>
+  <string name="participant_tab_guest_indicator_label">訪客</string>
   <string name="preferences_profile_add_account">Add an account</string>
   <string name="preferences_profile_create_team">Create a team</string>
   <string name="preferences_profile_in_team">in %1$s</string>

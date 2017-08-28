@@ -125,10 +125,10 @@
   <string name="people_picker__search_result_others_header_title">Pripojiť</string>
   <string name="people_picker__search_result_recommended_header_title">Odporúčané</string>
   <string name="people_picker__search_result_contacts_header_title">Kontakty</string>
-  <string name="people_picker__search_result_team_members_header_title">Team Members</string>
+  <string name="people_picker__search_result_team_members_header_title">Členovia tímu</string>
   <string name="people_picker__invite_header_title">Pozvať</string>
   <string name="people_picker__confirm_button_title">Vytvoriť konverzáciu</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">Add People to Group</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">Pridať ľudí do skupiny</string>
   <string name="people_picker__confirm_button_title__create_conversation">Vytvoriť skupinu</string>
   <string name="people_picker__error_message__no_results">Hľadanie skončilo bez výsledku.</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">Vyhľadajte ľudí podľa mena alebo e-mailovej adresy</string>
@@ -141,13 +141,13 @@
   <string name="people_picker__toolbar_header__group">Pridať ľudí</string>
   <string name="people_picker__toolbar_header__one_to_one">Vytvoriť skupinu</string>
   <string name="people_picker__search_result__expander_title">Zobraziť všetky %1$s ↓</string>
-  <string name="people_picker__guest_label">Guest</string>
+  <string name="people_picker__guest_label">Hosť</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Zdieľať kontakty</string>
   <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
-  <string name="people_picker__share_contacts__yay">Allow</string>
-  <string name="people_picker__share_contacts__nah">Deny</string>
-  <string name="people_picker__share_contacts__nevvah">Never ask again</string>
+  <string name="people_picker__share_contacts__yay">Povoliť</string>
+  <string name="people_picker__share_contacts__nah">Odmietnuť</string>
+  <string name="people_picker__share_contacts__nevvah">Nepýtať sa znova</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">Pozná %1$s</string>
   <string name="people_picker__recommended__common_connections__two">Pozná %1$s a %2$s</string>
@@ -170,7 +170,7 @@
   <string name="people_picker__contact_list__contact_selection_button__label">POZVAŤ</string>
   <string name="people_picker__contact_list__invite_dialog__title">Poslať pozvánku</string>
   <string name="people_picker__contact_list__searchbox__hint">\u0020 VYHĽADÁVANIE PODĽA NÁZVU</string>
-  <string name="people_picker__generic_invite_button_text">Invite People to Join Wire</string>
+  <string name="people_picker__generic_invite_button_text">Pozvať ľudí do Wire</string>
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d spoločná osoba</item>
     <item quantity="few">%1$d people in common</item>
@@ -467,7 +467,7 @@
   <string name="pref_options_ringtones_text_title">Tón textovej správy</string>
   <string name="pref_options_ringtones_ping_title">Ping</string>
   <string name="pref_options_ringtones_default_summary">Predvolené Wire</string>
-  <string name="pref_options_ringtones_silent">Silent</string>
+  <string name="pref_options_ringtones_silent">Ticho</string>
   <string name="pref_options_image_download_title">Stiahnuť obrázky</string>
   <string name="pref_options_image_download_always">Vždy</string>
   <string name="pref_options_image_download_wifi">Len Wi-Fi</string>
@@ -483,7 +483,7 @@
   <string name="pref_devices_current_device_category_title">Aktuálne zariadenie</string>
   <string name="pref_devices_other_devices_category_title">Ďalšie zariadenia</string>
   <string name="pref_devices_device_activation_summary">Aktivované [[%1$s]]\v [[%2$s]]</string>
-  <string name="pref_devices_device_activation_subtitle">Activated on [[%1$s]] in [[%2$s]]</string>
+  <string name="pref_devices_device_activation_subtitle">Aktivované [[%1$s]] v [[%2$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Overený</string>
   <string name="pref_devices_device_not_verified">Neoverené</string>
@@ -918,7 +918,7 @@
   <!-- no contacts -->
   <string name="no_conversation_in_list__header">Zatiaľ žiadne konverzácie</string>
   <string name="all_archived__header">Všetko archivované</string>
-  <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
+  <string name="no_conversation_in_list__message">Začať konverzáciu alebo vytvoriť skupinu.</string>
   <string name="cursor__type_a_message">NAPÍŠTE SPRÁVU</string>
   <string name="cursor__ephemeral_message">ČASOVANÁ SPRÁVA</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
@@ -1038,14 +1038,14 @@
   <string name="search__no_results">Žiadne výsledky.</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s new message</item>
-    <item quantity="few">%1$s new messages</item>
-    <item quantity="other">%1$s new messages</item>
+    <item quantity="one">%1$s nová správa</item>
+    <item quantity="few">%1$s nových správ</item>
+    <item quantity="other">%1$s nových správ</item>
   </plurals>
   <plurals name="conversation_list__missed_calls_count">
-    <item quantity="one">%1$s missed call</item>
-    <item quantity="few">%1$s missed calls</item>
-    <item quantity="other">%1$s missed calls</item>
+    <item quantity="one">%1$s zmeškaný hovor</item>
+    <item quantity="few">%1$s zmeškaných hovorov</item>
+    <item quantity="other">%1$s zmeškaných hovorov</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s ping</item>
@@ -1079,7 +1079,7 @@
   <string name="conversation_list__header__title">CONVERSATIONS</string>
   <string name="conversation_list__header__archive_title">ARCHIVOVAŤ</string>
   <string name="guest_indicator">GUEST</string>
-  <string name="participant_tab_guest_indicator_label">Guest</string>
+  <string name="participant_tab_guest_indicator_label">Hosť</string>
   <string name="preferences_profile_add_account">Add an account</string>
   <string name="preferences_profile_create_team">Create a team</string>
   <string name="preferences_profile_in_team">in %1$s</string>
