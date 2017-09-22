@@ -200,10 +200,10 @@
   <string name="content_system_message_timestamp_pending">Odesílání\u2026</string>
   <string name="content_system_message_timestamp_deleted">Smazáno %1$s</string>
   <!-- Conversation: missed call -->
-  <string name="content__missed_call__you_called">[[YOU]] VOLAL</string>
-  <string name="content__missed_call__xxx_called">[[%1$s]] VOLAL</string>
-  <string name="content__you_pinged">[[YOU]] PINGNUL</string>
-  <string name="content__xxx_pinged">[[%1$s]] PINGNUL</string>
+  <string name="content__missed_call__you_called">VOLAL(A) [[JSTE]]</string>
+  <string name="content__missed_call__xxx_called">[[%1$s]] VOLAL(A)</string>
+  <string name="content__you_pinged">PINGNUL(A) [[JSTE]]</string>
+  <string name="content__xxx_pinged">[[%1$s]] PINGNUL(A)</string>
   <!-- Conversation: E2EE system messages -->
   <string name="content__otr__conversation_verified">Konverzace ověřena</string>
   <string name="content__otr__conversation_unverified">Konverzace neověřena</string>
@@ -487,7 +487,7 @@
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Ověreno</string>
   <string name="pref_devices_device_not_verified">Neověřeno</string>
-  <string name="pref_devices_warning_summary">Pokud nepoznáváte přístroj výše, odstraňte ho a změňte své heslo.</string>
+  <string name="pref_devices_warning_summary">Pokud nepoznáváte některé ze zařízení výše, odstraňte jej a změňte si heslo.</string>
   <string name="pref_devices_device_screen_title">Podrobnosti o zařízení</string>
   <string name="pref_devices_device_fingerprint_category_title">Otisk prstu</string>
   <string name="pref_devices_device_fingerprint_summary">Aplikace Wire přiděluje každému přístroji unikátní identifikátor. Jejich porovnáním ověříte své přístroje a konverzace.</string>
@@ -495,7 +495,7 @@
   <string name="pref_devices_device_trust_title">Ověreno</string>
   <string name="pref_devices_device_reset_session_title">Resetovat sezení</string>
   <string name="pref_devices_device_reset_session_summary">Pokud se identifikátory neshodují, začněte novou relaci pro vygenerování nových klíčů na obou stranách.</string>
-  <string name="pref_devices_device_remove_title">Odstranit přístroj</string>
+  <string name="pref_devices_device_remove_title">Odstranit zařízení</string>
   <string name="pref_devices_device_remove_summary">Jestliže jste přestali používat toto zařízení, odeberte jej. Poté z něj budete okamžitě odhlášeni.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Otisk prstu</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Otisk prstu zkopírován</string>
@@ -840,12 +840,12 @@
   <string name="otr__remove_device__error">Špatné heslo</string>
   <string name="otr__remove_device__button_approve">OK</string>
   <string name="otr__remove_device__button_remove">Odstranit</string>
-  <string name="otr__error_dialog__cannot_register__message">Odeberte jeden ze svých přístrojů abyste mohli začít používat Wire na tomto zařízení.</string>
-  <string name="otr__error_dialog__cannot_register__manage_devices_button">Spravovat přístroje</string>
+  <string name="otr__error_dialog__cannot_register__message">Odeberte jedno ze svých zařízení abyste mohli začít používat Wire i zde.</string>
+  <string name="otr__error_dialog__cannot_register__manage_devices_button">Spravovat zařízení</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Odhlásit se</string>
   <!-- OTR Participants -->
-  <string name="otr__participant__device_header">Wire přiřazuje každému přístroji jedinečný identifikátor. Porovnejte je s %1$s a ověřte svou konverzaci.</string>
-  <string name="otr__participant__device_header__no_devices">%1$s používá starší verzi aplikace Wire. Nejsou zde zobrazeny žádné přístroje.</string>
+  <string name="otr__participant__device_header">Wire přiřazuje každému zařízení jedinečný identifikátor. Porovnejte je s %1$s a ověřte svou konverzaci.</string>
+  <string name="otr__participant__device_header__no_devices">%1$s používá starší verzi aplikace Wire. Nejsou zde zobrazena žádná zařízení.</string>
   <string name="otr__participant__device_header__link_text">_Proč ověřovat konverzace?_</string>
   <string name="otr__participant__device_class__unknown">Neznámé</string>
   <string name="otr__participant__device_class__phone">Telefon</string>
@@ -854,14 +854,14 @@
   <string name="otr__participant__tab_details">Podrobnosti</string>
   <string name="otr__participant__tab_devices">Přístroje</string>
   <string name="otr__device_activated_info">Aktivováno v %s</string>
-  <string name="otr__participant__single_device__my_fingerprint_link">Zorazit identifikátor mého přístroje</string>
+  <string name="otr__participant__single_device__my_fingerprint_link">Zorazit identifikátor mého zařízení</string>
   <string name="otr__participant__single_device__reset_session_link">Resetovat sezení</string>
   <string name="otr__participant__my_device__description">Identifikátor vašeho zařízení</string>
-  <string name="otr__participant__my_device__show_all_devices_link">Zobrazit všechny mé přístroje</string>
+  <string name="otr__participant__my_device__show_all_devices_link">Zobrazit všechna zařízení</string>
   <string name="otr__participant__single_device__description">Ověřte, zda to odpovídá identifikátoru zobrazenému na si %1$s zařízení.</string>
   <string name="otr__participant__single_device__how_to_link">_Jak to mám udělat?_</string>
   <string name="otr__device_id">ID: %s</string>
-  <string name="otr__first_launch__header">Toto je poprvé co používáte Wire na tomto přístroji.</string>
+  <string name="otr__first_launch__header">Toto je poprvé, co používáte Wire na tomto zařízení.</string>
   <string name="otr__first_launch__sub_header">Z důvodů ochrany soukromí se zde nezobrazí historie vaší konverzace.</string>
   <string name="otr__first_launch__button">OK</string>
   <string name="otr__device_approve__header">Připojil(a) jste zařízení ke svému Wire účtu.</string>
@@ -987,7 +987,7 @@
   <string name="message_footer__status__delivered">%1$s \u30FB Doručeno</string>
   <string name="message_footer__status__failed">Odesílání selhalo. _Opakovat_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Smazáno</string>
-  <string name="ephemeral_message__timeout_selection_info">NASTAVTE ČAS ZMIZENÍ ZPRÁVY</string>
+  <string name="ephemeral_message__timeout_selection_info">NASTAVIT ČAS DO ZMIZENÍ ZPRÁVY</string>
   <string name="ephemeral_message__timeout__off">VYPNUTO</string>
   <string name="ephemeral_message__timeout__5_sec">5 sekund</string>
   <string name="ephemeral_message__timeout__15_sec">15 sekund</string>
