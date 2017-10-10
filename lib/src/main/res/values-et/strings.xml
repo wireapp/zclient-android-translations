@@ -98,9 +98,9 @@
   <!-- consider updating this for every new language -->
   <string name="new_reg_phone_budget_exhausted_title">Liiga palju päringuid</string>
   <string name="new_reg_phone_budget_exhausted_message">Palun proovi hiljem uuesti.</string>
-  <string name="your_phone_number">Your phone number</string>
-  <string name="new_reg_phone_password_exists_header">Password exists</string>
-  <string name="new_reg_phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
+  <string name="your_phone_number">Sinu telefoninumber</string>
+  <string name="new_reg_phone_password_exists_header">Parool juba olemas</string>
+  <string name="new_reg_phone_password_exists_message">Kontol on parool ja meiliaadress juba olemas. Palun logi meiliaadressiga sisse.</string>
   <string name="new_reg_phone__title__variant_1">Helista, saada sõnum või jaga pilte.\nNii era- kui grupivestlustes.</string>
   <string name="new_reg_phone__title__variant_2">Turvaline ja privaatne –\nsõnumid, kõned, fotod ja videod.</string>
   <!-- Receive email/sms invitation -->
@@ -449,6 +449,8 @@
   <string name="pref_options_contacts_summary">See aitab sul teistega ühenduda. Me muudame kogu info anonüümseks ja ei jaga seda kellegi teisega.</string>
   <string name="pref_options_vbr_title">Muutuv bitisageduse kodeering</string>
   <string name="pref_options_vbr_summary">Kõnede andmeside maht on väiksem ja kõnekvaliteet kehva ühenduse korral parem. Ühtlase bitisagedusega kodeeringu kasutamiseks lülita see valik välja.</string>
+  <!--TODO use old vbr summary string when avs is fixed-->
+  <string name="pref_options_vbr_summary_temp_disabled">Püsiva bitikiirusega kõned on ajutistelt välja lülitatud.</string>
   <string name="pref_options_alerts_category_title">Teated</string>
   <string name="pref_options_calls_category_title">Kõned</string>
   <string name="pref_options_sounds_title">Helid</string>
@@ -500,7 +502,7 @@
   <string name="pref_advanced_debug_report_summary">See aitab Wire kasutajatoel probleemi lahendada.</string>
   <string name="pref_advanced_analytics_title">Kasutusandmed ja vearaportid</string>
   <string name="pref_advanced_analytics_summary">Tee Wire paremaks, saates anonüümset infot.</string>
-  <string name="pref_advanced_reset_push_title">Reset push token</string>
+  <string name="pref_advanced_reset_push_title">Lähtesta push sõnumite võti</string>
   <string name="pref_advanced_reset_push_summary">Reset and re-register the FCM push token in case of problems receiving notifications</string>
   <string name="pref_advanced_reset_push_completed">FCM token has been reset</string>
   <string name="debug_report__title">Wire debug report - %1$s</string>
@@ -683,6 +685,7 @@
   <string name="notification__image_saving__content__subtitle">Toksa vaatamiseks.</string>
   <string name="notification__image_saving__action__share">Jaga</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
+  <dimen name="notification__image_saving__image_width">512dp</dimen>
   <string name="notification__file_saving__content__title">Fail salvestatud.</string>
   <!-- forced update -->
   <string name="forced_update__header">Oluline uuendus</string>

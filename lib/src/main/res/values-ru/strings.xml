@@ -101,9 +101,9 @@
   <!-- consider updating this for every new language -->
   <string name="new_reg_phone_budget_exhausted_title">Слишком много запросов</string>
   <string name="new_reg_phone_budget_exhausted_message">Пожалуйста, повторите попытку позже.</string>
-  <string name="your_phone_number">Your phone number</string>
-  <string name="new_reg_phone_password_exists_header">Password exists</string>
-  <string name="new_reg_phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
+  <string name="your_phone_number">Ваш номер телефона</string>
+  <string name="new_reg_phone_password_exists_header">Пароль существует</string>
+  <string name="new_reg_phone_password_exists_message">Эта учетная запись уже имеет пароль и связанную с ней электронную почту. Для входа используйте email.</string>
   <string name="new_reg_phone__title__variant_1">Аудио и видеозвонки, сообщения.\nПриватно и в группах.</string>
   <string name="new_reg_phone__title__variant_2">Конфиденциально и надежно.\nЗвонки и сообщения.</string>
   <!-- Receive email/sms invitation -->
@@ -460,6 +460,8 @@
   <string name="pref_options_contacts_summary">Это поможет Вам связаться с другими людьми. Вся информация анонимна, мы не предоставляем её третьим лицам.</string>
   <string name="pref_options_vbr_title">Кодирование с переменным битрейтом</string>
   <string name="pref_options_vbr_summary">Это позволяет аудиозвонкам использовать меньше трафика и работать лучше при медленном соединении. Выключите, чтобы использовать кодирование с постоянным битрейтом.</string>
+  <!--TODO use old vbr summary string when avs is fixed-->
+  <string name="pref_options_vbr_summary_temp_disabled">Кодирование с постоянным битрейтом отключено до введения поддержки нескольких учетных записей. Следите за обновлениями.</string>
   <string name="pref_options_alerts_category_title">Оповещения</string>
   <string name="pref_options_calls_category_title">Звонки</string>
   <string name="pref_options_sounds_title">Звуки</string>
@@ -511,9 +513,9 @@
   <string name="pref_advanced_debug_report_summary">Это поможет службе поддержки Wire диагностировать проблемы.</string>
   <string name="pref_advanced_analytics_title">Статистика использования и сбои</string>
   <string name="pref_advanced_analytics_summary">Сделайте Wire лучше, отправляя анонимную информацию.</string>
-  <string name="pref_advanced_reset_push_title">Reset push token</string>
-  <string name="pref_advanced_reset_push_summary">Reset and re-register the FCM push token in case of problems receiving notifications</string>
-  <string name="pref_advanced_reset_push_completed">FCM token has been reset</string>
+  <string name="pref_advanced_reset_push_title">Сбросить токен push-уведомлений</string>
+  <string name="pref_advanced_reset_push_summary">Сброс и повторная регистрация FCM-токена в случае проблем с получением уведомлений</string>
+  <string name="pref_advanced_reset_push_completed">FCM-токен сброшен</string>
   <string name="debug_report__title">Debug отчет Wire - %1$s</string>
   <string name="debug_report__body">Пожалуйста, опишите шаги для воспроизведения проблемы, если возможно, приложите скриншоты и отправьте на этот email.\n\n</string>
   <!-- Support -->
@@ -703,6 +705,7 @@ Plural:
   <string name="notification__image_saving__content__subtitle">Коснитесь для просмотра.</string>
   <string name="notification__image_saving__action__share">Поделиться</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
+  <dimen name="notification__image_saving__image_width">512dp</dimen>
   <string name="notification__file_saving__content__title">Файл Wire сохранен.</string>
   <!-- forced update -->
   <string name="forced_update__header">Важное обновление</string>
