@@ -98,9 +98,9 @@
   <!-- consider updating this for every new language -->
   <string name="new_reg_phone_budget_exhausted_title">请求过多</string>
   <string name="new_reg_phone_budget_exhausted_message">请稍后重试。</string>
-  <string name="your_phone_number">Your phone number</string>
+  <string name="your_phone_number">您的手机号码</string>
   <string name="new_reg_phone_password_exists_header">Password exists</string>
-  <string name="new_reg_phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
+  <string name="new_reg_phone_password_exists_message">此帐户已经具有密码和电子邮件相关联。通过电子邮件，请登录。</string>
   <string name="new_reg_phone__title__variant_1">您可以通过1对1或群组聊天\n来尽情分享内容，进行通话。</string>
   <string name="new_reg_phone__title__variant_2">所有的文字、通话，\n都已被安全加密。</string>
   <!-- Receive email/sms invitation -->
@@ -442,7 +442,7 @@
   <string name="pref_options_vbr_title">可变码率编码</string>
   <string name="pref_options_vbr_summary">使用较少的数据和更好地工作在较慢的网络上的音频呼叫。请关闭使用固定编码。</string>
   <!--TODO use old vbr summary string when avs is fixed-->
-  <string name="pref_options_vbr_summary_temp_disabled">Constant bit rate calls have been temporarily disabled with the introduction of multiple account support. CBR calls will be back soon.</string>
+  <string name="pref_options_vbr_summary_temp_disabled">因为多帐户支持，固定比特率呼叫已被暂时禁用。 固定比特率呼叫不久将回归。</string>
   <string name="pref_options_alerts_category_title">注意</string>
   <string name="pref_options_calls_category_title">通话</string>
   <string name="pref_options_sounds_title">音效</string>
@@ -494,9 +494,9 @@
   <string name="pref_advanced_debug_report_summary">这将协助Wire诊断问题。</string>
   <string name="pref_advanced_analytics_title">数据和崩溃报告</string>
   <string name="pref_advanced_analytics_summary">通过发送匿名信息让Wire变的更好。</string>
-  <string name="pref_advanced_reset_push_title">Reset push token</string>
-  <string name="pref_advanced_reset_push_summary">Reset and re-register the FCM push token in case of problems receiving notifications</string>
-  <string name="pref_advanced_reset_push_completed">FCM token has been reset</string>
+  <string name="pref_advanced_reset_push_title">重置信息推送通知的Token</string>
+  <string name="pref_advanced_reset_push_summary">当您遇到信息推送相关问题，Wire 建议您重置该Token。</string>
+  <string name="pref_advanced_reset_push_completed">信息推送Token已被重置</string>
   <string name="debug_report__title">Wire 错误报告 - %1$s</string>
   <string name="debug_report__body">请告诉我们重新错误的步骤，如有屏幕截图请一起发送至此邮箱。\n\n</string>
   <!-- Support -->
@@ -671,6 +671,7 @@
   <string name="notification__image_saving__content__subtitle">点击查看。</string>
   <string name="notification__image_saving__action__share">共享</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
+  <dimen name="notification__image_saving__image_width">512dp</dimen>
   <string name="notification__file_saving__content__title">Wire文件已保存。</string>
   <!-- forced update -->
   <string name="forced_update__header">重要更新</string>
