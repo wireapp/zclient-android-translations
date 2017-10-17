@@ -24,7 +24,7 @@
   <string name="permissions_denied_dialog_settings">設定</string>
   <string name="camera_not_available">相機無法使用</string>
   <string name="camera_permissions_denied_title">相機無法使用</string>
-  <string name="camera_permissions_denied_message">To take and send photos, grant permission to access the camera</string>
+  <string name="camera_permissions_denied_message">照相並傳送相片前，請開啟相機存取權限。</string>
   <!-- Registration and Sign in -->
   <string name="welcome__slogan">現代、私密的溝通方式。</string>
   <string name="welcome__terms_of_service">繼續使用前請先同意 _使用條款_。</string>
@@ -80,7 +80,7 @@
   <string name="new_reg_phone_generic_error_header">出了點問題...</string>
   <string name="new_reg_phone_generic_error_message">請重新註冊。</string>
   <string name="new_sign_in_generic_error_header">出了點問題</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again.</string>
+  <string name="new_sign_in_generic_error_message">請重新登入</string>
   <string name="profile_generic_error_header">出了點問題。。。</string>
   <string name="profile_generic_error_message">請再試一次。</string>
   <string name="profile_phone_generic_error_header">不正確的手機號碼</string>
@@ -96,10 +96,10 @@
   <string name="new_reg__invalid_code__auto_verification__manual">出了點問題 \n請確認手機號碼和代碼是否正確。</string>
   <string name="new_reg__default_country">德國</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Too many requests</string>
-  <string name="new_reg_phone_budget_exhausted_message">Please try again later.</string>
-  <string name="your_phone_number">Your phone number</string>
-  <string name="new_reg_phone_password_exists_header">Password exists</string>
+  <string name="new_reg_phone_budget_exhausted_title">請求次數過多</string>
+  <string name="new_reg_phone_budget_exhausted_message">請以後重試。</string>
+  <string name="your_phone_number">你的電話號碼</string>
+  <string name="new_reg_phone_password_exists_header">密碼已存在</string>
   <string name="new_reg_phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
   <string name="new_reg_phone__title__variant_1">無論對象是一個或多個用戶, \n
 您都可以自由的通話、傳訊或是分享各種內容。</string>
@@ -129,10 +129,10 @@
   <string name="people_picker__search_result_others_header_title">加為連絡人</string>
   <string name="people_picker__search_result_recommended_header_title">推薦的連絡人</string>
   <string name="people_picker__search_result_contacts_header_title">連絡人</string>
-  <string name="people_picker__search_result_team_members_header_title">Team Members</string>
+  <string name="people_picker__search_result_team_members_header_title">團隊成員</string>
   <string name="people_picker__invite_header_title">邀請</string>
   <string name="people_picker__confirm_button_title">開始對話</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">Add People to Group</string>
+  <string name="people_picker__confirm_button_title__add_to_conversation">邀請聯繫人加入群組</string>
   <string name="people_picker__confirm_button_title__create_conversation">建立群組</string>
   <string name="people_picker__error_message__no_results">沒有搜尋結果</string>
   <string name="people_picker__error_message__no_results__no_shared_contacts">透過名稱或電子郵件搜尋連絡人</string>
@@ -149,9 +149,9 @@
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">分享通訊錄</string>
   <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
-  <string name="people_picker__share_contacts__yay">Allow</string>
-  <string name="people_picker__share_contacts__nah">Deny</string>
-  <string name="people_picker__share_contacts__nevvah">Never ask again</string>
+  <string name="people_picker__share_contacts__yay">允許</string>
+  <string name="people_picker__share_contacts__nah">拒絕</string>
+  <string name="people_picker__share_contacts__nevvah">不要再詢問我</string>
   <!-- People you may know -->
   <string name="people_picker__recommended__common_connections__one">認識%1$s</string>
   <string name="people_picker__recommended__common_connections__two">認識 %1$s 和 %2$s</string>
@@ -162,7 +162,7 @@
   <!-- Invite -->
   <string name="people_picker__invite__share_details_label">發送邀請</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Share Wire with your friends.</string>
+  <string name="people_picker__invite__share_details_dialog">邀請朋友使用Wire</string>
   <string name="people_picker__invite__share_text__header">%1$s 想和您在Wire上聯繫</string>
   <string name="people_picker__invite__share_text__body">I\'m on Wire, search for %1$s or visit get.wire.com</string>
   <string name="people_picker__invite__message">嗨，\n謝謝您的邀請。讓我們成為連絡人吧。 \n%1$s</string>
@@ -315,13 +315,13 @@
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="other">%1$s 開始使用新的設備。</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__header__someone">有人開始使用新的設備。</string>
+  <string name="conversation__degraded_confirmation__header__someone">有人開始使用了新的設備。</string>
   <string name="conversation__degraded_confirmation__header__multiple_user">%1$s 和 %2$s 開始使用新的設備。</string>
   <plurals name="conversation__degraded_confirmation__message">
     <item quantity="other">您仍然要發送您的訊息嗎？</item>
   </plurals>
   <string name="conversation__degraded_confirmation__accept_call">Do you want to accept the call?</string>
-  <string name="conversation__degraded_confirmation__place_call">您仍然要接受此對話邀請嗎？</string>
+  <string name="conversation__degraded_confirmation__place_call">你要撥打電話嗎？</string>
   <string name="conversation__degraded_confirmation__positive_action">確定發送</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="other">顯示設備</item>
@@ -445,7 +445,7 @@
   <!--TODO use old vbr summary string when avs is fixed-->
   <string name="pref_options_vbr_summary_temp_disabled">Constant bit rate calls have been temporarily disabled with the introduction of multiple account support. CBR calls will be back soon.</string>
   <string name="pref_options_alerts_category_title">訊息通知</string>
-  <string name="pref_options_calls_category_title">Calls</string>
+  <string name="pref_options_calls_category_title">通話</string>
   <string name="pref_options_sounds_title">音效</string>
   <string name="pref_options_sounds_all">全部</string>
   <string name="pref_options_sounds_new_conversations_and_talks_only">首則訊息，招呼，通話</string>
@@ -457,7 +457,7 @@
   <string name="pref_options_ringtones_text_title">訊息音效</string>
   <string name="pref_options_ringtones_ping_title">打招呼</string>
   <string name="pref_options_ringtones_default_summary">Wire預設值</string>
-  <string name="pref_options_ringtones_silent">Silent</string>
+  <string name="pref_options_ringtones_silent">静音</string>
   <string name="pref_options_image_download_title">下載圖片</string>
   <string name="pref_options_image_download_always">總是</string>
   <string name="pref_options_image_download_wifi">無線網路連線時</string>
@@ -553,9 +553,9 @@
   <string name="pref__account_action__dialog__change_email__title">編輯電子郵件地址</string>
   <string name="pref__account_action__dialog__change_username__summary">With this username, people will be able to find you on Wire without knowing your email address or phone number.</string>
   <string name="pref__account_action__dialog__change_username__rules">At least 2 characters. a–z, 0–9, and _ only</string>
-  <string name="pref__account_action__dialog__change_username__title">Username</string>
+  <string name="pref__account_action__dialog__change_username__title">使用者名稱</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">已經被用了</string>
-  <string name="pref__account_action__dialog__change_username__error_unknown">Connection error, please try again</string>
+  <string name="pref__account_action__dialog__change_username__error_unknown">連接錯誤，請重試。</string>
   <!-- URLs -->
   <string name="url_home">https://wire.com</string>
   <string name="url_terms_of_service">https://wire.com/legal/terms/embed/</string>
@@ -635,8 +635,8 @@
   <string name="notification__message__group__renamed_conversation">聊天室被新命名為%1$s</string>
   <string name="notification__message__group__add">新增了參與者到聊天室</string>
   <string name="notification__message__group__remove">從到聊天室移除了參與者</string>
-  <string name="notification__message__generic__accept_request">You have a new connection</string>
-  <string name="notification__message__single__accept_request">You and %1$s are now connected</string>
+  <string name="notification__message__generic__accept_request">您有一個新的連絡人</string>
+  <string name="notification__message__single__accept_request">您和%1$s 已成為連絡人</string>
   <string name="notification__message__group__default_conversation_name">群組聊天室</string>
   <string name="notification__message__group__liked">\u2764 您的訊息</string>
   <!-- ephemeral -->
@@ -888,9 +888,9 @@
   <string name="cursor__type_a_message">請輸入訊息</string>
   <string name="cursor__ephemeral_message">限時訊息</string>
   <!-- ephemeral duration e.g. "30s" or "1h"-->
-  <string name="cursor__ephemeral_message__timer_seconds">%1$ss</string>
-  <string name="cursor__ephemeral_message__timer_min">%1$sm</string>
-  <string name="cursor__ephemeral_message__timer_days">%1$sd</string>
+  <string name="cursor__ephemeral_message__timer_seconds">%1$s秒</string>
+  <string name="cursor__ephemeral_message__timer_min">%1$s分</string>
+  <string name="cursor__ephemeral_message__timer_days">%1$s天</string>
   <string name="tooltip_record">錄製影像</string>
   <string name="tooltip_camera">新增相片</string>
   <string name="tooltip_sketch">繪製圖片</string>
@@ -913,7 +913,7 @@
   <string name="conversation__action_mode__copy__toast">已複製</string>
   <string name="conversation__action_mode__fwd__dialog__title">準備內容中</string>
   <string name="conversation__action_mode__fwd__dialog__message">請稍候&#8230;</string>
-  <string name="conversation__action_mode__fwd__chooser__title">Share with</string>
+  <string name="conversation__action_mode__fwd__chooser__title">分享：</string>
   <!-- video message preview -->
   <string name="video_message__preview__header">發送到%1$s</string>
   <string name="video_message__quick_menu__send_label">發送</string>
@@ -937,8 +937,8 @@
   <string name="message_bottom_menu_action_delete">刪除</string>
   <string name="message_bottom_menu_action_delete_local">為自己刪除</string>
   <string name="message_bottom_menu_action_delete_global">為每個人刪除</string>
-  <string name="message_bottom_menu_action_forward_multiple">Share with multiple</string>
-  <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
+  <string name="message_bottom_menu_action_forward_multiple">更多分享</string>
+  <string name="message_bottom_menu_action_reveal">在對話中顯示</string>
   <string name="likes_list__header">被喜歡</string>
   <string name="message_bottom_menu_action_save_ok">相片已儲存</string>
   <string name="message_bottom_menu_action_save_fail">保存图像出错</string>
@@ -951,7 +951,7 @@
   <string name="message_footer__status__delivered">%1$s \u30FB 已送達</string>
   <string name="message_footer__status__failed">發送失敗。請_重試_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB 已刪除</string>
-  <string name="ephemeral_message__timeout_selection_info">SET A TIME FOR THE MESSAGE TO DISAPPEAR</string>
+  <string name="ephemeral_message__timeout_selection_info">設置訊息銷毀時間</string>
   <string name="ephemeral_message__timeout__off">關閉</string>
   <string name="ephemeral_message__timeout__5_sec">5 秒</string>
   <string name="ephemeral_message__timeout__15_sec">15 秒</string>
@@ -961,9 +961,9 @@
   <string name="ephemeral_message__timeout__1_day">1 天</string>
   <string name="message_footer__status__ephemeral_summary">倒數 %1$s \u30FB _%2$s</string>
   <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
-  <string name="usernames__take_over__title">已被使用的使用者名稱。</string>
+  <string name="usernames__take_over__title">您的用戶名稱在這裡。</string>
   <string name="usernames__take_over__summary">Claim your unique name on Wire. _Learn more._</string>
-  <string name="usernames__take_over__choose">CHOOSE YOUR OWN</string>
+  <string name="usernames__take_over__choose">自選</string>
   <string name="usernames__take_over__keep">KEEP THIS ONE</string>
   <string name="pref_account_username_empty_title">Add username</string>
   <plurals name="message_footer__expire__days">
@@ -978,26 +978,26 @@
   <plurals name="message_footer__expire__seconds">
     <item quantity="other">%1$d 秒</item>
   </plurals>
-  <string name="collection_header_all">COLLECTION</string>
-  <string name="collection_header_pictures">PICTURES</string>
-  <string name="collection_header_files">FILES</string>
-  <string name="collection_header_links">LINKS</string>
-  <string name="collection_header_today">TODAY</string>
-  <string name="collection_header_yesterday">YESTERDAY</string>
-  <string name="collection_empty">NO ITEMS IN COLLECTION</string>
-  <string name="collection_send_to">Send to&#8230;</string>
-  <string name="collection_all">Show all %1$s</string>
+  <string name="collection_header_all">收藏</string>
+  <string name="collection_header_pictures">圖片</string>
+  <string name="collection_header_files">檔案</string>
+  <string name="collection_header_links">連結</string>
+  <string name="collection_header_today">今天</string>
+  <string name="collection_header_yesterday">昨天</string>
+  <string name="collection_empty">空空如也...</string>
+  <string name="collection_send_to">發送給...</string>
+  <string name="collection_all">顯示%1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">Sending failed</string>
-  <string name="multi_share_search_hint">SEND TO&#8230;</string>
-  <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
+  <string name="multi_share_toast_failed">發送失敗。</string>
+  <string name="multi_share_search_hint">發送給...</string>
+  <string name="search__box__hint_text">搜索文字訊息</string>
   <string name="search__no_results">沒有結果。</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="other">%1$s new messages</item>
+    <item quantity="other">%1$s則新訊息</item>
   </plurals>
   <plurals name="conversation_list__missed_calls_count">
-    <item quantity="other">%1$s missed calls</item>
+    <item quantity="other">%1$s通未接來電</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="other">%1$s pings</item>
@@ -1016,7 +1016,7 @@
   <string name="conversation_list__pinged">打了聲招呼</string>
   <string name="conversation_list__ephemeral">限時訊息</string>
   <string name="conversation_list__typing">Typing a message&#8230;</string>
-  <string name="conversation_list__someone">有人</string>
+  <string name="conversation_list__someone">某人</string>
   <string name="conversation_list__added">[[%1$s]] was added</string>
   <string name="conversation_list__added_you">[[%1$s]] 新增了您</string>
   <string name="conversation_list__left">[[%1$s]] has left</string>
