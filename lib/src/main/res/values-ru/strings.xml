@@ -36,9 +36,9 @@
   <string name="profile__email__verify__instructions">Мы отправили email на \n[[%1$s]]. \nПерейдите по ссылке в письме для подтверждения вашего адреса.</string>
   <string name="profile__email__verify__didnt_get">Не получили уведомление?</string>
   <string name="profile__email__verify__resend">Отправить повторно</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Такой email уже занят</string>
+  <string name="sign_up__account_creation_error__duplicate_email_header">Такой email уже используется</string>
   <string name="sign_up__account_creation_error__duplicate_email_message">Данный адрес email уже зарегистрирован</string>
-  <string name="profile__guidance__invalid_email">Введен неправильный адрес email. Проверьте введённый email и повторите попытку</string>
+  <string name="profile__guidance__invalid_email">Введен неправильный адрес email. Проверьте и повторите попытку</string>
   <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_ПОДТВЕРДИТЕ_ СВОЙ НОМЕР</string>
   <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">ДОБАВЛЕНИЕ ВАШЕГО НОМЕРА НЕ ЯВЛЯЕТСЯ ОБЯЗАТЕЛЬНЫМ, ПО НЕМУ ЛЕГЧЕ НАЙТИ ЛЮДЕЙ, КОТОРЫХ ВЫ ЗНАЕТЕ. 
 ЧТОБЫ УБЕДИТЬСЯ, ЧТО ЭТО ВЫ, МЫ ОТПРАВИМ КОД ПОДТВЕРЖДЕНИЯ ПО SMS.</string>
@@ -57,29 +57,27 @@
   <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
   <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
   <string name="new_reg_email_invalid_header">Неправильный email</string>
-  <string name="new_reg_email_invalid_message">Пожалуйста, введите корректный email</string>
+  <string name="new_reg_email_invalid_message">Пожалуйста, введите правильный email</string>
   <string name="new_reg_email_generic_error_header">Что-то пошло не так</string>
   <string name="new_reg_email_generic_error_message">Попробуйте зарегистрироваться еще раз</string>
   <string name="new_reg_email_register_generic_error_header">Неверная информация</string>
   <string name="new_reg_email_register_generic_error_message">Пожалуйста, введите свое полное имя, действующий email и пароль.</string>
   <string name="new_reg_email_invalid_login_credentials_header">Неверная информация</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Пожалуйста, проверьте ваши данные
-и попробуйте еще раз</string>
+  <string name="new_reg_email_invalid_login_credentials_message">Проверьте введенные данные и повторите попытку</string>
   <string name="new_reg_phone_exists_header">Такой номер телефона уже использован</string>
   <string name="new_reg_phone_exists_message">Введенный вами номер телефона уже зарегистрирован. Повторите попытку</string>
   <string name="new_reg_phone_invalid_format_header">Неправильный номер телефона</string>
   <string name="new_reg_phone_invalid_format_message">Пожалуйста, введите правильный номер телефона</string>
   <string name="new_reg_phone_invalid_registration_code_header">Неправильный код</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Пожалуйста, введите корректный код</string>
+  <string name="new_reg_phone_invalid_registration_code_message">Пожалуйста, введите правильный код</string>
   <string name="new_reg_phone_invalid_add_code_header">Неправильный код</string>
-  <string name="new_reg_phone_invalid_add_code_message">Пожалуйста, введите корректный код</string>
+  <string name="new_reg_phone_invalid_add_code_message">Пожалуйста, введите правильный код</string>
   <string name="new_reg_phone_invalid_login_code_header">Неправильный код</string>
-  <string name="new_reg_phone_invalid_login_code_message">Пожалуйста, введите корректный код</string>
+  <string name="new_reg_phone_invalid_login_code_message">Пожалуйста, введите правильный код</string>
   <string name="new_reg_phone_pending_login_header">Код уже отправлен</string>
   <string name="new_reg_phone_pending_login_message">Мы уже отправили вам код в SMS. Для получения нового кода нажмите \"Отправить повторно\" через 10 минут.</string>
   <string name="new_reg_phone_add_password_header">Неверный пароль</string>
-  <string name="new_reg_phone_add_password_message">Пожалуйста, проверьте ваши данные
-и попробуйте еще раз</string>
+  <string name="new_reg_phone_add_password_message">Проверьте введенные данные и повторите попытку</string>
   <string name="new_reg_phone_generic_error_header">Что-то пошло не так</string>
   <string name="new_reg_phone_generic_error_message">Попробуйте зарегистрироваться еще раз</string>
   <string name="new_sign_in_generic_error_header">Что-то пошло не так</string>
@@ -87,7 +85,7 @@
   <string name="profile_generic_error_header">Что-то пошло не так</string>
   <string name="profile_generic_error_message">Повторите попытку</string>
   <string name="profile_phone_generic_error_header">Неправильный номер телефона</string>
-  <string name="profile_phone_generic_error_message">Пожалуйста, введите корректный номер телефона</string>
+  <string name="profile_phone_generic_error_message">Пожалуйста, введите правильный номер телефона</string>
   <string name="new_reg_phone_too_man_attempts_header">Слишком много попыток</string>
   <string name="new_reg_phone_too_man_attempts_message">Попробуйте войти позже</string>
   <string name="new_reg_server_connectivity_error_header">Что-то пошло не так</string>
@@ -516,7 +514,7 @@
   <string name="pref_advanced_analytics_title">Статистика использования и сбои</string>
   <string name="pref_advanced_analytics_summary">Сделайте Wire лучше, отправляя анонимную информацию.</string>
   <string name="pref_advanced_reset_push_title">Обновить токен push-уведомлений</string>
-  <string name="pref_advanced_reset_push_summary">В случае возникновения проблем с push-уведомлениями, служба поддержки Wire может попросить вас обновить токен.</string>
+  <string name="pref_advanced_reset_push_summary">При возникновении проблем с push-уведомлениями, служба поддержки Wire может попросить вас обновить токен.</string>
   <string name="pref_advanced_reset_push_completed">Токен Push-уведомлений был обновлен</string>
   <string name="debug_report__title">Debug отчет Wire - %1$s</string>
   <string name="debug_report__body">Пожалуйста, опишите шаги для воспроизведения проблемы, если возможно, приложите скриншоты и отправьте на этот email.\n\n</string>
@@ -674,7 +672,7 @@ Plural:
   <string name="notification__message__group__default_conversation_name">группа</string>
   <string name="notification__message__send_failed">Не удалось отправить сообщение</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
-  <string name="notification__message__liked_message">\u2764 твое сообщение</string>
+  <string name="notification__message__liked_message">\u2764 ваше сообщение</string>
   <string name="notification__message__liked_picture">\u2764 ваше изображение</string>
   <string name="notification__message__liked_file">\u2764 ваш файл</string>
   <!-- ephemeral -->
@@ -1104,10 +1102,10 @@ Plural:
   <string name="availability_available">Доступен</string>
   <string name="availability_away">Отошел</string>
   <string name="availability_busy">Занят</string>
-  <string name="availability_text_available">%1$s IS AVAILABLE</string>
-  <string name="availability_text_away">%1$s IS AWAY</string>
-  <string name="availability_text_busy">%1$s IS BUSY</string>
-  <string name="availability_setstatus">SET A STATUS</string>
+  <string name="availability_text_available">%1$s ДОСТУПЕН</string>
+  <string name="availability_text_away">%1$s ОТОШЕЛ</string>
+  <string name="availability_text_busy">%1$s ЗАНЯТ</string>
+  <string name="availability_setstatus">УСТАНОВИТЬ СТАТУС</string>
   <string name="preferences_profile_new">Новая команда или аккаунт</string>
   <string name="preferences_profile_add_account">Добавить аккаунт</string>
   <string name="preferences_profile_create_team">Создать команду</string>
@@ -1128,7 +1126,7 @@ Plural:
   <string name="teams_set_team_name_subtitle">Вы всегда можете изменить название позже.</string>
   <string name="teams_set_team_name_hint">НАЗВАНИЕ КОМАНДЫ</string>
   <string name="teams_set_team_name_about">ЧТО ТАКОЕ WIRE ДЛЯ КОМАНД?</string>
-  <string name="teams_verify_email_title">Вы получили письмо</string>
+  <string name="teams_verify_email_title">Вам письмо</string>
   <string name="teams_verify_email_subtitle">Введите код подтверждения, который мы отправили на %1$s.</string>
   <string name="teams_verify_email_resend">ОТПРАВИТЬ КОД ЕЩЕ РАЗ</string>
   <string name="teams_verify_email_change">ИЗМЕНИТЬ EMAIL</string>
