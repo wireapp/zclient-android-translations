@@ -37,8 +37,8 @@
   <string name="profile__email__verify__didnt_get">Nie dostałeś/aś wiadomości?</string>
   <string name="profile__email__verify__resend">Wyślij ponownie</string>
   <string name="sign_up__account_creation_error__duplicate_email_header">Adres e-mail już istnieje</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">This email address has already been registered</string>
-  <string name="profile__guidance__invalid_email">The email address you entered is not valid. Please verify and try again</string>
+  <string name="sign_up__account_creation_error__duplicate_email_message">Ten e-mail jest już zarejestrowany i przypisany do innego konta</string>
+  <string name="profile__guidance__invalid_email">Wprowadzono niepoprawny e-mail. Sprawdź i spróbuj ponownie</string>
   <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_Sprawdź_ Swój numer</string>
   <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">Numer telefonu jest opcjonalny, ale podanie go sprawi, że łatwiej będzie nam znaleźć osoby które znasz. Aby upewnić się, że to Ty, wyślemy SMS z kodem potwierdzającym.</string>
   <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">Dodaj numer kierunkowy kraju</string>
@@ -1096,12 +1096,12 @@
   <string name="participant_tab_guest_indicator_label">Gość</string>
   <string name="availability_none">Żaden</string>
   <string name="availability_available">&amp;Dostępny(a)</string>
-  <string name="availability_away">Away</string>
-  <string name="availability_busy">Busy</string>
-  <string name="availability_text_available">%1$s IS AVAILABLE</string>
-  <string name="availability_text_away">%1$s IS AWAY</string>
-  <string name="availability_text_busy">%1$s IS BUSY</string>
-  <string name="availability_setstatus">SET A STATUS</string>
+  <string name="availability_away">Nieobecny(a)</string>
+  <string name="availability_busy">Zajęty(a)</string>
+  <string name="availability_text_available">%1$s JEST DOSTĘPNY(A)</string>
+  <string name="availability_text_away">%1$s JEST NIEOBECNY(A)</string>
+  <string name="availability_text_busy">%1$s JEST ZAJĘTY(A)</string>
+  <string name="availability_setstatus">USTAW STATUS</string>
   <string name="preferences_profile_new">Nowy zespół lub konto</string>
   <string name="preferences_profile_add_account">Dodaj konto</string>
   <string name="preferences_profile_create_team">Utwórz nowy zespół</string>
@@ -1121,13 +1121,13 @@
   <string name="teams_set_team_name_title">Nazwij twoją drużynę</string>
   <string name="teams_set_team_name_subtitle">Możesz zawsze zmienić go później.</string>
   <string name="teams_set_team_name_hint">NAZWA ZESPOŁU</string>
-  <string name="teams_set_team_name_about">WHAT IS WIRE FOR TEAMS?</string>
+  <string name="teams_set_team_name_about">CZYM JEST WIRE DLA ZESPOŁÓW?</string>
   <string name="teams_verify_email_title">Masz wiadomość</string>
   <string name="teams_verify_email_subtitle">Wpisz kod weryfikacyjny wysłany do %1$s.</string>
   <string name="teams_verify_email_resend">WYŚLIJ PONOWNIE KOD</string>
   <string name="teams_verify_email_change">ZMIEŃ ADRES E-MAIL</string>
   <string name="teams_set_name_title">Twoja nazwa</string>
-  <string name="teams_set_name_hint">FULL NAME</string>
+  <string name="teams_set_name_hint">PEŁNE IMIĘ I NAZWISKO</string>
   <string name="app_entry_slogan">Bezpieczny komunikator dla każdego.</string>
   <string name="app_entry_create_account">Utwórz konto</string>
   <string name="app_entry_create_account_sub">do użytku osobistego</string>
@@ -1138,7 +1138,7 @@
   <string name="app_entry_tc_dialog_title">Zasady użytkowania</string>
   <string name="app_entry_tc_dialog_message">Aby kontynuować, musisz zaakceptować</string>
   <string name="app_entry_notifications_dialog_title">Powiadomienia</string>
-  <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
+  <string name="app_entry_notifications_dialog_message">Powiadomienia mogą zawierać alerty, dźwięki i ikony. Można je skonfigurować w ustawieniach.</string>
   <string name="app_entry_dialog_accept">ZAAKCEPTUJ</string>
   <string name="app_entry_dialog_cancel">Anuluj</string>
   <string name="app_entry_dialog_view">WIDOK</string>

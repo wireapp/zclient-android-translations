@@ -38,7 +38,7 @@
   <string name="profile__email__verify__resend">重新发送</string>
   <string name="sign_up__account_creation_error__duplicate_email_header">邮箱地址已被使用。</string>
   <string name="sign_up__account_creation_error__duplicate_email_message">此邮箱已被注冊.</string>
-  <string name="profile__guidance__invalid_email">The email address you entered is not valid. Please verify and try again</string>
+  <string name="profile__guidance__invalid_email">您输入的邮箱地址无效，请重试。</string>
   <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_验证_您的手机号码</string>
   <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">手机号码是选填的，但填写手机号码可以帮您更快的发现好友。为了确认是您本人的号码，我们会发送一条确认短信息给您。</string>
   <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">请输入国际区号</string>
@@ -64,7 +64,7 @@
   <string name="new_reg_email_invalid_login_credentials_header">无效信息</string>
   <string name="new_reg_email_invalid_login_credentials_message">请检查您提供的资料然后重试。</string>
   <string name="new_reg_phone_exists_header">手机号码已被使用</string>
-  <string name="new_reg_phone_exists_message">The phone number you provided has already been registered. Please try again</string>
+  <string name="new_reg_phone_exists_message">该手机号码已被注册，请尝试其他号码。</string>
   <string name="new_reg_phone_invalid_format_header">无效的手机号码</string>
   <string name="new_reg_phone_invalid_format_message">请输入有效的手机号码</string>
   <string name="new_reg_phone_invalid_registration_code_header">验证码无效</string>
@@ -88,9 +88,9 @@
   <string name="new_reg_phone_too_man_attempts_header">您尝试太多次了</string>
   <string name="new_reg_phone_too_man_attempts_message">请稍后尝试登录</string>
   <string name="new_reg_server_connectivity_error_header">出了点问题啊...</string>
-  <string name="new_reg_server_connectivity_error_message">Please check your Internet connection and try again</string>
+  <string name="new_reg_server_connectivity_error_message">请检查您的网络连接，然后重试</string>
   <string name="new_reg_internet_connectivity_error_header">没有互联网讯号</string>
-  <string name="new_reg_internet_connectivity_error_message">Please check your Internet connection and try again</string>
+  <string name="new_reg_internet_connectivity_error_message">请检查您的网络连接，然后重试</string>
   <string name="new_reg__code_resent">新验证码已经通过短信发送给您</string>
   <string name="new_reg__code_resent__call">等待电话连通</string>
   <string name="new_reg__invalid_code__auto_verification__manual">出了点问题 \n请确认手机号码和验证码无误。</string>
@@ -1036,10 +1036,10 @@
   <string name="availability_available">在线</string>
   <string name="availability_away">离开</string>
   <string name="availability_busy">忙碌</string>
-  <string name="availability_text_available">%1$s IS AVAILABLE</string>
-  <string name="availability_text_away">%1$s IS AWAY</string>
-  <string name="availability_text_busy">%1$s IS BUSY</string>
-  <string name="availability_setstatus">SET A STATUS</string>
+  <string name="availability_text_available">%1$s 当前在线</string>
+  <string name="availability_text_away">%1$s 暂时离开</string>
+  <string name="availability_text_busy">%1$s 当前正忙</string>
+  <string name="availability_setstatus">设置状态</string>
   <string name="preferences_profile_new">新团队或帐户</string>
   <string name="preferences_profile_add_account">添加帐户</string>
   <string name="preferences_profile_create_team">创建团队</string>
@@ -1050,7 +1050,7 @@
   <string name="teams_set_email_title">你的账户</string>
   <string name="teams_set_email_subtitle">请输入您的工作电子邮件地址。</string>
   <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
-  <string name="teams_set_email_about">LEARN MORE</string>
+  <string name="teams_set_email_about">了解更多</string>
   <string name="teams_set_email_about_url">https://support.wire.com/hc/en-us/articles/115004082129</string>
   <string name="teams_set_password_title">设置密码</string>
   <string name="teams_set_password_hint">至少需要8个字符</string>
@@ -1058,12 +1058,12 @@
   <string name="teams_set_username_hint">用户名</string>
   <string name="teams_set_team_name_title">为你的团队命名</string>
   <string name="teams_set_team_name_subtitle">您之后可以在变更。</string>
-  <string name="teams_set_team_name_hint">TEAM NAME</string>
-  <string name="teams_set_team_name_about">WHAT IS WIRE FOR TEAMS?</string>
+  <string name="teams_set_team_name_hint">团队名称</string>
+  <string name="teams_set_team_name_about">我可以用 Wire 团队做什么？</string>
   <string name="teams_verify_email_title">您有新邮件</string>
-  <string name="teams_verify_email_subtitle">Enter the verification code we sent to %1$s.</string>
+  <string name="teams_verify_email_subtitle">输入我们发送到 %1$s 的验证码。</string>
   <string name="teams_verify_email_resend">重新发送代码</string>
-  <string name="teams_verify_email_change">CHANGE EMAIL</string>
+  <string name="teams_verify_email_change">更改邮件地址</string>
   <string name="teams_set_name_title">您的名字</string>
   <string name="teams_set_name_hint">全名</string>
   <string name="app_entry_slogan">保密每个人之通讯。</string>
@@ -1073,13 +1073,13 @@
   <string name="app_entry_create_team_sub">在工作中使用</string>
   <string name="app_entry_login_sub">已有帐户？</string>
   <string name="app_entry_login">登录</string>
-  <string name="app_entry_tc_dialog_title">Terms of Service</string>
-  <string name="app_entry_tc_dialog_message">You must accept to continue</string>
+  <string name="app_entry_tc_dialog_title">服务条款</string>
+  <string name="app_entry_tc_dialog_message">您必须接受服务条款才能继续</string>
   <string name="app_entry_notifications_dialog_title">通知</string>
-  <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
+  <string name="app_entry_notifications_dialog_message">通知可能包括警报、声音和图标提示。您可以在设置面板中调整他们。</string>
   <string name="app_entry_dialog_accept">接听</string>
   <string name="app_entry_dialog_cancel">取消</string>
-  <string name="app_entry_dialog_view">VIEW</string>
-  <string name="app_entry_email_sent">Email sent</string>
-  <string name="teams_set_username_subtitle">Usernames help people find you.</string>
+  <string name="app_entry_dialog_view">查看</string>
+  <string name="app_entry_email_sent">邮件已发送</string>
+  <string name="teams_set_username_subtitle">设置用户名以便其他人能找到您。</string>
 </resources>
