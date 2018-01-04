@@ -3,7 +3,7 @@
 <!--
 
     Wire
-    Copyright (C) 2016 Wire Swiss GmbH
+    Copyright (C) 2018 Wire Swiss GmbH
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -37,7 +37,7 @@
   <string name="profile__email__verify__didnt_get">Tidak mendapat pesan?</string>
   <string name="profile__email__verify__resend">Kirim ulang</string>
   <string name="sign_up__account_creation_error__duplicate_email_header">Alamat email sudah diambil</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">This email address has already been registered</string>
+  <string name="sign_up__account_creation_error__duplicate_email_message">Alamat email ini sudah terdaftar</string>
   <string name="profile__guidance__invalid_email">The email address you entered is not valid. Please verify and try again</string>
   <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_VERIFIKASI_ NOMOR ANDA</string>
   <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">PENGGUNAAN NOMOR BERSIFAT OPSIONAL, TETAPI MEMUDAHKAN KAMI UNTUK MENEMUKAN KENALAN ANDA. UNTUK MEMVERIFIKASI, KAMI AKAN MENGIRIM KODE KONFIRMASI MELALUI SMS.</string>
@@ -97,7 +97,7 @@
   <string name="new_reg__default_country">id</string>
   <!-- consider updating this for every new language -->
   <string name="new_reg_phone_budget_exhausted_title">Too many requests</string>
-  <string name="new_reg_phone_budget_exhausted_message">Please try again later.</string>
+  <string name="new_reg_phone_budget_exhausted_message">Silakan coba lagi nanti.</string>
   <string name="your_phone_number">Your phone number</string>
   <string name="new_reg_phone_password_exists_header">Password exists</string>
   <string name="new_reg_phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
@@ -144,7 +144,7 @@
   <string name="people_picker__toolbar_header__group">Tambah orang</string>
   <string name="people_picker__toolbar_header__one_to_one">Buat grup</string>
   <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
-  <string name="people_picker__guest_label">Guest</string>
+  <string name="people_picker__guest_label">Tamu</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Bagikan Kontak</string>
   <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
@@ -320,7 +320,7 @@
     <item quantity="other">Apakah Anda tetap ingin mengirim pesan Anda?</item>
   </plurals>
   <string name="conversation__degraded_confirmation__accept_call">Do you want to accept the call?</string>
-  <string name="conversation__degraded_confirmation__place_call">Do you still want to place the call?</string>
+  <string name="conversation__degraded_confirmation__place_call">Apakah Anda masih ingin menelepon?</string>
   <string name="conversation__degraded_confirmation__positive_action">Kirim saja</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="other">Tunjukkan orang-orang</item>
@@ -497,8 +497,8 @@
   <string name="pref_advanced_analytics_title">Laporan penggunaan data dan kerusakan</string>
   <string name="pref_advanced_analytics_summary">Buat Wire lebih baik dengan mengirim informasi anonim.</string>
   <string name="pref_advanced_reset_push_title">Reset Push Notifications Token</string>
-  <string name="pref_advanced_reset_push_summary">If you experience problems with push notifications, Wire Support may ask you to reset this token.</string>
-  <string name="pref_advanced_reset_push_completed">Push token has been reset</string>
+  <string name="pref_advanced_reset_push_summary">Jika Anda mengalami masalah dengan notifikasi push, Dukungan Kawat mungkin meminta Anda menyetel ulang token ini.</string>
+  <string name="pref_advanced_reset_push_completed">Push token telah diatur ulang</string>
   <string name="debug_report__title">Laporan debug Wire - %1$s</string>
   <string name="debug_report__body">Silakan deskripaikan lamgkah-langkah yang dibutuhkan untuk menghasilkan masalah, berikan tangkapan layar jika memungkinkan dan kirim surel ini.\n\n</string>
   <!-- Support -->
@@ -520,7 +520,7 @@
   <string name="pref_about_version_title">Versi %s</string>
   <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
   <!-- Pref invite -->
-  <string name="pref_invite_title">Invite people to join Wire</string>
+  <string name="pref_invite_title">Undang orang untuk bergabung dengan Wire</string>
   <!-- Preference Account Actions -->
   <string name="pref__account_action__phone_verification__title">Verifikasi nomor telepon</string>
   <string name="pref__account_action__phone_verification__description">Masukkan kode verifikasi yang kami kirimkan ke %s</string>
@@ -637,7 +637,7 @@
   <string name="notification__message__group__renamed_conversation">mengubah nama percakapan menjadi %1$s</string>
   <string name="notification__message__group__add">menambah orang ke percakapan</string>
   <string name="notification__message__group__remove">menghapus orang dari percakapan</string>
-  <string name="notification__message__generic__accept_request">You have a new connection</string>
+  <string name="notification__message__generic__accept_request">Anda memiliki koneksi baru</string>
   <string name="notification__message__single__accept_request">You and %1$s are now connected</string>
   <string name="notification__message__group__default_conversation_name">percakapan grup</string>
   <string name="notification__message__send_failed">Message failed to send</string>
@@ -888,7 +888,7 @@
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">CONSTANT BIT RATE</string>
   <!-- no contacts -->
-  <string name="no_conversation_in_list__header">No conversations yet</string>
+  <string name="no_conversation_in_list__header">Belum ada percakapan</string>
   <string name="all_archived__header">Semua terarsipkan</string>
   <string name="no_conversation_in_list__message">Mulai percakapan atau buat grup.</string>
   <string name="cursor__type_a_message">KETIK PESAN</string>
@@ -1031,11 +1031,11 @@
   <string name="conversation_list__header__title">CONVERSATIONS</string>
   <string name="conversation_list__header__archive_title">ARSIPKAN</string>
   <string name="guest_indicator">GUEST</string>
-  <string name="participant_tab_guest_indicator_label">Guest</string>
+  <string name="participant_tab_guest_indicator_label">Tamu</string>
   <string name="availability_none">Tidak ada</string>
-  <string name="availability_available">Available</string>
-  <string name="availability_away">Away</string>
-  <string name="availability_busy">Busy</string>
+  <string name="availability_available">Tersedia</string>
+  <string name="availability_away">Jauh</string>
+  <string name="availability_busy">Sibuk</string>
   <string name="availability_text_available">%1$s IS AVAILABLE</string>
   <string name="availability_text_away">%1$s IS AWAY</string>
   <string name="availability_text_busy">%1$s IS BUSY</string>
@@ -1047,12 +1047,12 @@
   <string name="new_devices_dialog_title">You have connected a device to your Wire account</string>
   <string name="new_devices_dialog_info">Jika Anda tidak melakukan ini, hapus perangkat dan buat ulang sandi Anda.</string>
   <string name="new_devices_dialog_manage_devices">Kelola perangkat</string>
-  <string name="teams_set_email_title">Your account</string>
-  <string name="teams_set_email_subtitle">Enter your work email address.</string>
+  <string name="teams_set_email_title">Akun Anda</string>
+  <string name="teams_set_email_subtitle">Masukkan alamat email kantor Anda.</string>
   <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
   <string name="teams_set_email_about">LEARN MORE</string>
   <string name="teams_set_email_about_url">https://support.wire.com/hc/en-us/articles/115004082129</string>
-  <string name="teams_set_password_title">Set password</string>
+  <string name="teams_set_password_title">Setel kata sandi</string>
   <string name="teams_set_password_hint">MINIMAL 8 KARAKTER</string>
   <string name="teams_set_username_title">Set username</string>
   <string name="teams_set_username_hint">USERNAME</string>
@@ -1060,18 +1060,18 @@
   <string name="teams_set_team_name_subtitle">Anda selalu bisa mengubahnya nanti.</string>
   <string name="teams_set_team_name_hint">TEAM NAME</string>
   <string name="teams_set_team_name_about">WHAT IS WIRE FOR TEAMS?</string>
-  <string name="teams_verify_email_title">You\'ve got mail</string>
+  <string name="teams_verify_email_title">Anda punya surat</string>
   <string name="teams_verify_email_subtitle">Enter the verification code we sent to %1$s.</string>
   <string name="teams_verify_email_resend">RESEND CODE</string>
   <string name="teams_verify_email_change">CHANGE EMAIL</string>
-  <string name="teams_set_name_title">Your name</string>
+  <string name="teams_set_name_title">Namamu</string>
   <string name="teams_set_name_hint">FULL NAME</string>
   <string name="app_entry_slogan">Pesan aman untuk semua orang.</string>
   <string name="app_entry_create_account">Buat akun</string>
   <string name="app_entry_create_account_sub">untuk penggunaan pribadi</string>
   <string name="app_entry_create_team">Buat tim</string>
   <string name="app_entry_create_team_sub">untuk bekerja</string>
-  <string name="app_entry_login_sub">Sudah punya akun ?</string>
+  <string name="app_entry_login_sub">Sudah memiliki akun?</string>
   <string name="app_entry_login">Masuk</string>
   <string name="app_entry_tc_dialog_title">Terms of Service</string>
   <string name="app_entry_tc_dialog_message">You must accept to continue</string>
