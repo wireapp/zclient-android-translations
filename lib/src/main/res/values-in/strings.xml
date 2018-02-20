@@ -117,9 +117,10 @@
   <string name="invitation__phone__failed">Tidak dapat mendaftar dengan undangan ini.</string>
   <string name="invitation__email__failed">Tidak dapat mendaftar dengan undangan ini.</string>
   <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 CARI DENGAN NAMA ATAU USERNAME</string>
-  <string name="pick_user_search_hint">SEARCH BY NAME OR USERNAME</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 CARI DENGAN NAMA</string>
+  <string name="pick_user_search_focus">\u0020 SEARCH</string>
+  <string name="pick_user_search_hint">SEARCH</string>
+  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
+  <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Orang Top</string>
   <string name="people_picker__address_book_matches_title">Hubungkan</string>
   <string name="people_picker__search_result_conversations_header_title">Grup</string>
@@ -145,6 +146,16 @@
   <string name="people_picker__toolbar_header__one_to_one">Buat grup</string>
   <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
   <string name="people_picker__guest_label">Tamu</string>
+  <string name="people_picker__search_people">PEOPLE</string>
+  <string name="people_picker__search_services">SERVICES</string>
+  <!-- Bots / Integrations / Services -->
+  <string name="integrations_picker__section_title">Layanan</string>
+  <string name="integrations_picker__add">Add Service</string>
+  <string name="integrations_conv_bot">Bot</string>
+  <string name="integrations_chathead__section_title">Layanan</string>
+  <string name="integrations_errors_add_service">Adding service not possible</string>
+  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
+  <string name="conversation_errors_full">The conversation is full</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Bagikan Kontak</string>
   <string name="people_picker__share_contacts__message">Wire helps you find your friends if you share your contacts.</string>
@@ -181,19 +192,22 @@
   <string name="conversation_quick_menu__conversation_button__single_label">BUKA</string>
   <string name="conversation_quick_menu__conversation_button__group_label">BUAT GRUP</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__other_added_participant">[[%1$s]] menambahkan %2$s</string>
-  <string name="content__system__other_started_participant">[[%1$s]] memulai percakapan dengan %2$s</string>
-  <string name="content__system__other_added_you">[[%1$s]] menambahkan Anda</string>
-  <string name="content__system__other_started_you">[[%1$s]] memulai percakapan dengan Anda</string>
-  <string name="content__system__you_added_participant">[[Anda]] menambahkan %2$s</string>
+  <string name="content__system__you_started_conversation">You started the conversation</string>
+  <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+  <string name="content__system__with_participant">with %1$s</string>
   <string name="content__system__you_started_participant">[[Anda]] memulai percakapan dengan %2$s</string>
+  <string name="content__system__other_started_you">[[%1$s]] memulai percakapan dengan Anda</string>
+  <string name="content__system__other_started_participant">[[%1$s]] memulai percakapan dengan %2$s</string>
+  <string name="content__system__other_added_participant">[[%1$s]] menambahkan %2$s</string>
+  <string name="content__system__other_added_you">[[%1$s]] menambahkan Anda</string>
+  <string name="content__system__you_added_participant">[[Anda]] menambahkan %2$s</string>
   <string name="content__system__other_left">[[%1$s]] keluar</string>
   <string name="content__system__you_left">[[Anda]] keluar</string>
   <string name="content__system__other_removed_other">[[%1$s]] menghapus %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] menghapus Anda</string>
   <string name="content__system__you_removed_other">[[Anda]] menghapus %2$s</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] MENGUBAH NAMA PERCAKAPAN</string>
-  <string name="content__system__you_renamed_conv">[[ANDA]] MENGUBAH NAMA PERCAKAPAN</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
+  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
   <string name="content__system__message_deleted">Pesan ini telah dihapus</string>
   <string name="content_system_message_timestamp_failure">Pesan yang belum terkirim.</string>
   <string name="content_system_message_timestamp_pending">Mengirim\u2026</string>
@@ -1083,4 +1097,18 @@
   <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">Bangun tim Anda</string>
   <string name="invitation_screen_subtitle">Mintalah rekan kerja Anda untuk bergabung.</string>
+  <string name="add_service_button_text">Add Service</string>
+  <string name="remove_service_button_text">Remove Service</string>
+  <string name="integrations_create_conversation">Create a new conversation</string>
+  <string name="no_matches_found">No matches found</string>
+  <string name="create_group_conversation">Buat grup</string>
+  <string name="next_button">NEXT</string>
+  <string name="skip_button">SKIP</string>
+  <string name="done_button">DONE</string>
+  <string name="new_group_header">NEW GROUP</string>
+  <string name="add_people_empty_header">TAMBAH ORANG</string>
+  <string name="add_people_count_header">ADD PEOPLE (%1$s)</string>
+  <string name="new_conv_no_results">NO RESULTS</string>
+  <string name="new_conv_no_contacts">NO CONTACTS</string>
+  <string name="create_group_search">SEARCH FOR NAMES</string>
 </resources>

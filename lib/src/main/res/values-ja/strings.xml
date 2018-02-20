@@ -117,9 +117,10 @@
   <string name="invitation__phone__failed">この招待状では登録できません。</string>
   <string name="invitation__email__failed">この招待状では登録できません。</string>
   <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">名前かユーザーネームで検索</string>
-  <string name="pick_user_search_hint">名前かユーザーネームで検索</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 名前で検索</string>
+  <string name="pick_user_search_focus">\u0020 SEARCH</string>
+  <string name="pick_user_search_hint">SEARCH</string>
+  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
+  <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Top people</string>
   <string name="people_picker__address_book_matches_title">接続</string>
   <string name="people_picker__search_result_conversations_header_title">グループ</string>
@@ -145,6 +146,16 @@
   <string name="people_picker__toolbar_header__one_to_one">グループを作成します</string>
   <string name="people_picker__search_result__expander_title">全てを表示 %1$s ↓</string>
   <string name="people_picker__guest_label">ゲスト</string>
+  <string name="people_picker__search_people">友人</string>
+  <string name="people_picker__search_services">SERVICES</string>
+  <!-- Bots / Integrations / Services -->
+  <string name="integrations_picker__section_title">サービス</string>
+  <string name="integrations_picker__add">サービスを追加</string>
+  <string name="integrations_conv_bot">ボット</string>
+  <string name="integrations_chathead__section_title">サービス</string>
+  <string name="integrations_errors_add_service">Adding service not possible</string>
+  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
+  <string name="conversation_errors_full">The conversation is full</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">連絡先を共有</string>
   <string name="people_picker__share_contacts__message">連絡先をシェアした場合、Wireで友人を探すことが容易になります。</string>
@@ -181,19 +192,22 @@
   <string name="conversation_quick_menu__conversation_button__single_label">開く</string>
   <string name="conversation_quick_menu__conversation_button__group_label">グループを作成</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__other_added_participant">[[%1$s]] %2$s を追加しました</string>
-  <string name="content__system__other_started_participant">[[%1$s]] %2$s と会話を始めました</string>
-  <string name="content__system__other_added_you">[[%1$s]] あなたを追加しました</string>
-  <string name="content__system__other_started_you">[[%1$s]] あなたと会話を始めました</string>
-  <string name="content__system__you_added_participant">[[あなた]] %2$s を追加しました</string>
+  <string name="content__system__you_started_conversation">You started the conversation</string>
+  <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+  <string name="content__system__with_participant">with %1$s</string>
   <string name="content__system__you_started_participant">[[あなた]] %2$s と会話を始めました</string>
+  <string name="content__system__other_started_you">[[%1$s]] あなたと会話を始めました</string>
+  <string name="content__system__other_started_participant">[[%1$s]] %2$s と会話を始めました</string>
+  <string name="content__system__other_added_participant">[[%1$s]] %2$s を追加しました</string>
+  <string name="content__system__other_added_you">[[%1$s]] あなたを追加しました</string>
+  <string name="content__system__you_added_participant">[[あなた]] %2$s を追加しました</string>
   <string name="content__system__other_left">[[%1$s]] 退室しました</string>
   <string name="content__system__you_left">[[あなた]] 退室しました</string>
   <string name="content__system__other_removed_other">[[%1$s]] %2$s を削除しました</string>
   <string name="content__system__other_removed_you">[[%1$s]] あなたを削除しました</string>
   <string name="content__system__you_removed_other">[[あなた]] %2$s を削除しました</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] 会話の名前を変更しました</string>
-  <string name="content__system__you_renamed_conv">[[あなた]] 会話の名前を変更しました</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
+  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
   <string name="content__system__message_deleted">このメッセージは削除されました</string>
   <string name="content_system_message_timestamp_failure">未送信のメッセージ。</string>
   <string name="content_system_message_timestamp_pending">送信中\u2026</string>
@@ -393,7 +407,7 @@
   <string name="menu_help">ヘルプ</string>
   <string name="menu_logout">ログアウト</string>
   <!-- Manage Team -->
-  <string name="pref_manage_team_title">Manage Team</string>
+  <string name="pref_manage_team_title">チームを管理する</string>
   <!-- About screen -->
   <string name="about_privacy_policy">プライバシーポリシー</string>
   <string name="about_third_party_licences">ライセンス</string>
@@ -1020,8 +1034,8 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="participant_tab_guest_indicator_label">ゲスト</string>
   <string name="availability_none">なし</string>
   <string name="availability_available">利用できます</string>
-  <string name="availability_away">Away</string>
-  <string name="availability_busy">Busy</string>
+  <string name="availability_away">不在</string>
+  <string name="availability_busy">取り込み中</string>
   <string name="availability_text_available">%1$s IS AVAILABLE</string>
   <string name="availability_text_away">%1$s IS AWAY</string>
   <string name="availability_text_busy">%1$s IS BUSY</string>
@@ -1085,4 +1099,18 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">Build your team</string>
   <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
+  <string name="add_service_button_text">サービスを追加</string>
+  <string name="remove_service_button_text">Remove Service</string>
+  <string name="integrations_create_conversation">会話を作成</string>
+  <string name="no_matches_found">No matches found</string>
+  <string name="create_group_conversation">グループを作成します</string>
+  <string name="next_button">NEXT</string>
+  <string name="skip_button">SKIP</string>
+  <string name="done_button">DONE</string>
+  <string name="new_group_header">NEW GROUP</string>
+  <string name="add_people_empty_header">人を追加</string>
+  <string name="add_people_count_header">ADD PEOPLE (%1$s)</string>
+  <string name="new_conv_no_results">NO RESULTS</string>
+  <string name="new_conv_no_contacts">NO CONTACTS</string>
+  <string name="create_group_search">SEARCH FOR NAMES</string>
 </resources>

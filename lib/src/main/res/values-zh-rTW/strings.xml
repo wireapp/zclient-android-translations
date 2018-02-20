@@ -118,9 +118,10 @@
   <string name="invitation__phone__failed">無法透過這邀請進行註冊。</string>
   <string name="invitation__email__failed">無法透過這邀請進行註冊。</string>
   <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 按暱稱或用戶名稱搜索</string>
-  <string name="pick_user_search_hint">按暱稱或用戶名稱搜索</string>
-  <string name="pick_user_search__add_to_conversation">\u0020透過名稱來搜尋</string>
+  <string name="pick_user_search_focus">\u0020 SEARCH</string>
+  <string name="pick_user_search_hint">SEARCH</string>
+  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
+  <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">常用連絡人</string>
   <string name="people_picker__address_book_matches_title">加為連絡人</string>
   <string name="people_picker__search_result_conversations_header_title">群組</string>
@@ -146,6 +147,16 @@
   <string name="people_picker__toolbar_header__one_to_one">建立群組</string>
   <string name="people_picker__search_result__expander_title">顯示所有%1$s ↓</string>
   <string name="people_picker__guest_label">訪客</string>
+  <string name="people_picker__search_people">聯絡人</string>
+  <string name="people_picker__search_services">SERVICES</string>
+  <!-- Bots / Integrations / Services -->
+  <string name="integrations_picker__section_title">服務</string>
+  <string name="integrations_picker__add">Add Service</string>
+  <string name="integrations_conv_bot">Bot</string>
+  <string name="integrations_chathead__section_title">服務</string>
+  <string name="integrations_errors_add_service">Adding service not possible</string>
+  <string name="integrations_errors_service_unavailable">服務暫時無法使用</string>
+  <string name="conversation_errors_full">對話人數已達上限</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">分享通訊錄</string>
   <string name="people_picker__share_contacts__message">如果您分享通訊錄，我們將幫助您找到其他的連絡人。</string>
@@ -182,19 +193,22 @@
   <string name="conversation_quick_menu__conversation_button__single_label">開啟</string>
   <string name="conversation_quick_menu__conversation_button__group_label">建立群組</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__other_added_participant">[[%1$s]] 新增了 %2$s</string>
-  <string name="content__system__other_started_participant">[[%1$s]] 和 %2$s 開啓了聊天室</string>
-  <string name="content__system__other_added_you">[[%1$s]] 新增了您</string>
-  <string name="content__system__other_started_you">[[%1$s]] 開啟了和您的聊天室</string>
-  <string name="content__system__you_added_participant">[[您]] 新增了 %2$s</string>
+  <string name="content__system__you_started_conversation">You started the conversation</string>
+  <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+  <string name="content__system__with_participant">with %1$s</string>
   <string name="content__system__you_started_participant">[[您]] 開啟了和%2$s的聊天室</string>
+  <string name="content__system__other_started_you">[[%1$s]] 開啟了和您的聊天室</string>
+  <string name="content__system__other_started_participant">[[%1$s]] 和 %2$s 開啓了聊天室</string>
+  <string name="content__system__other_added_participant">[[%1$s]] 新增了 %2$s</string>
+  <string name="content__system__other_added_you">[[%1$s]] 新增了您</string>
+  <string name="content__system__you_added_participant">[[您]] 新增了 %2$s</string>
   <string name="content__system__other_left">[[%1$s]] 離開了</string>
   <string name="content__system__you_left">[[You]] 離開了</string>
   <string name="content__system__other_removed_other">[[%1$s]] 移除了 %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] 移除了 您</string>
   <string name="content__system__you_removed_other">[[您]] 移除了 %2$s</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] 重新命名了聊天室</string>
-  <string name="content__system__you_renamed_conv">[[您]] 重新命名了聊天室</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
+  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
   <string name="content__system__message_deleted">該訊息已被刪除</string>
   <string name="content_system_message_timestamp_failure">未發送的訊息。</string>
   <string name="content_system_message_timestamp_pending">發送\u2026</string>
@@ -1084,4 +1098,18 @@
   <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">建立您的團隊</string>
   <string name="invitation_screen_subtitle">邀請你的同事加入。</string>
+  <string name="add_service_button_text">Add Service</string>
+  <string name="remove_service_button_text">Remove Service</string>
+  <string name="integrations_create_conversation">開始新對話</string>
+  <string name="no_matches_found">No matches found</string>
+  <string name="create_group_conversation">建立群組</string>
+  <string name="next_button">NEXT</string>
+  <string name="skip_button">SKIP</string>
+  <string name="done_button">DONE</string>
+  <string name="new_group_header">NEW GROUP</string>
+  <string name="add_people_empty_header">新增參與者</string>
+  <string name="add_people_count_header">ADD PEOPLE (%1$s)</string>
+  <string name="new_conv_no_results">NO RESULTS</string>
+  <string name="new_conv_no_contacts">NO CONTACTS</string>
+  <string name="create_group_search">SEARCH FOR NAMES</string>
 </resources>

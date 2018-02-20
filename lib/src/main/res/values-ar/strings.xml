@@ -117,9 +117,10 @@
   <string name="invitation__phone__failed">غير قادر على التسجيل باستخدام هذه الدعوة.</string>
   <string name="invitation__email__failed">غير قادر على التسجيل باستخدام هذه الدعوة.</string>
   <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 البحث عن طريق الاسم أو اسم المستخدم</string>
-  <string name="pick_user_search_hint">البحث حسب الاسم أو اسم المستخدم</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 البحث حسب الاسم</string>
+  <string name="pick_user_search_focus">\u0020 SEARCH</string>
+  <string name="pick_user_search_hint">SEARCH</string>
+  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
+  <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">الأشخاص المفضلين</string>
   <string name="people_picker__address_book_matches_title">الاتصال</string>
   <string name="people_picker__search_result_conversations_header_title">المجموعات</string>
@@ -145,6 +146,16 @@
   <string name="people_picker__toolbar_header__one_to_one">إنشاء مجموعة</string>
   <string name="people_picker__search_result__expander_title">إظهار جميع %1$s ↓</string>
   <string name="people_picker__guest_label">ضيف</string>
+  <string name="people_picker__search_people">الأشخاص</string>
+  <string name="people_picker__search_services">SERVICES</string>
+  <!-- Bots / Integrations / Services -->
+  <string name="integrations_picker__section_title">الخدمات</string>
+  <string name="integrations_picker__add">Add Service</string>
+  <string name="integrations_conv_bot">Bot</string>
+  <string name="integrations_chathead__section_title">الخدمات</string>
+  <string name="integrations_errors_add_service">Adding service not possible</string>
+  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
+  <string name="conversation_errors_full">The conversation is full</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">مشاركة جهات الاتصال</string>
   <string name="people_picker__share_contacts__message">يساعدك Wire في العثور على أصدقائك عند مشاركة جهات اتصالك.</string>
@@ -193,19 +204,22 @@
   <string name="conversation_quick_menu__conversation_button__single_label">فتح</string>
   <string name="conversation_quick_menu__conversation_button__group_label">إنشاء مجموعة</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__other_added_participant">[[%1$s]] أضاف %2$s</string>
-  <string name="content__system__other_started_participant">[[%1$s]] بدأ محادثة مع %2$s</string>
-  <string name="content__system__other_added_you">[[%1$s]] قام بإضافتك</string>
-  <string name="content__system__other_started_you">[[%1$s]] بدأ محادثة معك</string>
-  <string name="content__system__you_added_participant">[[أنت]] قمت بإضافة %2$s</string>
+  <string name="content__system__you_started_conversation">You started the conversation</string>
+  <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+  <string name="content__system__with_participant">with %1$s</string>
   <string name="content__system__you_started_participant">[[أنت]] بدأت محادثة مع %2$s</string>
+  <string name="content__system__other_started_you">[[%1$s]] بدأ محادثة معك</string>
+  <string name="content__system__other_started_participant">[[%1$s]] بدأ محادثة مع %2$s</string>
+  <string name="content__system__other_added_participant">[[%1$s]] أضاف %2$s</string>
+  <string name="content__system__other_added_you">[[%1$s]] قام بإضافتك</string>
+  <string name="content__system__you_added_participant">[[أنت]] قمت بإضافة %2$s</string>
   <string name="content__system__other_left">[[%1$s]] غادر</string>
   <string name="content__system__you_left">[[أنت]] غادرت</string>
   <string name="content__system__other_removed_other">[[%1$s]] أزال %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] قام بإزالتك</string>
   <string name="content__system__you_removed_other">[[أنت]] قمت بإزالة %2$s</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] أعاد تسمية المحادثة</string>
-  <string name="content__system__you_renamed_conv">[أنت]] أعدت تسمية المحادثة</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
+  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
   <string name="content__system__message_deleted">تم إزالة هذه الرسالة</string>
   <string name="content_system_message_timestamp_failure">رسالة غير مرسلة.</string>
   <string name="content_system_message_timestamp_pending">إرسال u2026\</string>
@@ -1247,4 +1261,18 @@
   <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">أنشئ فريقك</string>
   <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
+  <string name="add_service_button_text">Add Service</string>
+  <string name="remove_service_button_text">Remove Service</string>
+  <string name="integrations_create_conversation">Create a new conversation</string>
+  <string name="no_matches_found">No matches found</string>
+  <string name="create_group_conversation">إنشاء مجموعة</string>
+  <string name="next_button">NEXT</string>
+  <string name="skip_button">SKIP</string>
+  <string name="done_button">DONE</string>
+  <string name="new_group_header">NEW GROUP</string>
+  <string name="add_people_empty_header">إضافة أشخاص</string>
+  <string name="add_people_count_header">ADD PEOPLE (%1$s)</string>
+  <string name="new_conv_no_results">NO RESULTS</string>
+  <string name="new_conv_no_contacts">NO CONTACTS</string>
+  <string name="create_group_search">SEARCH FOR NAMES</string>
 </resources>

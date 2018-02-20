@@ -117,9 +117,10 @@
   <string name="invitation__phone__failed">S touto pozvánkou nelze zaregistrovat.</string>
   <string name="invitation__email__failed">S touto pozvánkou nelze zaregistrovat.</string>
   <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 HLEDAT PODLE JMÉNA NEBO UŽIVATELSKÉHO JMÉNA</string>
-  <string name="pick_user_search_hint">HLEDAT PODLE JMÉNA NEBO UŽIVATELSKÉHO JMÉNA</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 hledání podle jména</string>
+  <string name="pick_user_search_focus">\u0020 SEARCH</string>
+  <string name="pick_user_search_hint">SEARCH</string>
+  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
+  <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Nejaktivnější kontakty</string>
   <string name="people_picker__address_book_matches_title">Připojit</string>
   <string name="people_picker__search_result_conversations_header_title">Skupiny</string>
@@ -145,6 +146,16 @@
   <string name="people_picker__toolbar_header__one_to_one">Vytvořit skupinu</string>
   <string name="people_picker__search_result__expander_title">Zobrazit všechny %1$s ↓</string>
   <string name="people_picker__guest_label">Host</string>
+  <string name="people_picker__search_people">LIDÉ</string>
+  <string name="people_picker__search_services">SERVICES</string>
+  <!-- Bots / Integrations / Services -->
+  <string name="integrations_picker__section_title">Služby</string>
+  <string name="integrations_picker__add">Add Service</string>
+  <string name="integrations_conv_bot">Bot</string>
+  <string name="integrations_chathead__section_title">Služby</string>
+  <string name="integrations_errors_add_service">Adding service not possible</string>
+  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
+  <string name="conversation_errors_full">The conversation is full</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Sdílet kontakty</string>
   <string name="people_picker__share_contacts__message">Pokud nasdílíte své kontakty, Wire vám pomůže najít přátele.</string>
@@ -185,19 +196,22 @@
   <string name="conversation_quick_menu__conversation_button__single_label">OTEVŘÍT</string>
   <string name="conversation_quick_menu__conversation_button__group_label">VYTVOŘIT SKUPINU</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__other_added_participant">[[%1$s]] přidal(a) %2$s</string>
-  <string name="content__system__other_started_participant">[[%1$s]] zahájil(a) konverzaci s %2$s</string>
-  <string name="content__system__other_added_you">[[%1$s]] vás přidal(a)</string>
-  <string name="content__system__other_started_you">[[%1$s]] s vámi zahájil konverzaci</string>
-  <string name="content__system__you_added_participant">[[Vy]] jste přidal(a) %2$s</string>
+  <string name="content__system__you_started_conversation">You started the conversation</string>
+  <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+  <string name="content__system__with_participant">with %1$s</string>
   <string name="content__system__you_started_participant">[[Vy]] jste zahájil(a) konverzaci s %2$s</string>
+  <string name="content__system__other_started_you">[[%1$s]] s vámi zahájil konverzaci</string>
+  <string name="content__system__other_started_participant">[[%1$s]] zahájil(a) konverzaci s %2$s</string>
+  <string name="content__system__other_added_participant">[[%1$s]] přidal(a) %2$s</string>
+  <string name="content__system__other_added_you">[[%1$s]] vás přidal(a)</string>
+  <string name="content__system__you_added_participant">[[Vy]] jste přidal(a) %2$s</string>
   <string name="content__system__other_left">[[%1$s]] opustil(a) skupinu</string>
   <string name="content__system__you_left">[[Vy]] jste opustil(a) skupinu</string>
   <string name="content__system__other_removed_other">[[%1$s]] odebral %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] vás odebral(a)</string>
   <string name="content__system__you_removed_other">[[You]] odebral(a) %2$s</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] PŘEJMENOVAL KONVERZACI</string>
-  <string name="content__system__you_renamed_conv">[[YOU]] PŘEJMENOVAL KONVERZACI</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
+  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
   <string name="content__system__message_deleted">Tato zpráva byla odstraněna</string>
   <string name="content_system_message_timestamp_failure">Neodeslaná zpráva.</string>
   <string name="content_system_message_timestamp_pending">Odesílání\u2026</string>
@@ -1145,4 +1159,18 @@
   <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">Build your team</string>
   <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
+  <string name="add_service_button_text">Add Service</string>
+  <string name="remove_service_button_text">Remove Service</string>
+  <string name="integrations_create_conversation">Create a new conversation</string>
+  <string name="no_matches_found">No matches found</string>
+  <string name="create_group_conversation">Vytvořit skupinu</string>
+  <string name="next_button">NEXT</string>
+  <string name="skip_button">SKIP</string>
+  <string name="done_button">DONE</string>
+  <string name="new_group_header">NEW GROUP</string>
+  <string name="add_people_empty_header">PŘIDÁNÍ LIDÍ</string>
+  <string name="add_people_count_header">ADD PEOPLE (%1$s)</string>
+  <string name="new_conv_no_results">NO RESULTS</string>
+  <string name="new_conv_no_contacts">NO CONTACTS</string>
+  <string name="create_group_search">SEARCH FOR NAMES</string>
 </resources>

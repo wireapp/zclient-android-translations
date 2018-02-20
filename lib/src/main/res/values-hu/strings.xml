@@ -117,9 +117,10 @@
   <string name="invitation__phone__failed">Nem sikerült ezzel a meghívóval regisztrálni.</string>
   <string name="invitation__email__failed">Nem sikerült ezzel a meghívóval regisztrálni.</string>
   <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 KERESÉS NÉV VAGY FELHASZNÁLÓNÉV ALAPJÁN</string>
-  <string name="pick_user_search_hint">KERESÉS NÉV VAGY FELHASZNÁLÓNÉV ALAPJÁN</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 KERESÉS NÉV ALAPJÁN</string>
+  <string name="pick_user_search_focus">\u0020 KERESÉS</string>
+  <string name="pick_user_search_hint">KERESÉS</string>
+  <string name="pick_user_search__add_to_conversation">\u0020 KERESÉS</string>
+  <string name="choose_conversation">KERESÉS</string>
   <string name="people_picker__top_users_header_title">Top Partnerek</string>
   <string name="people_picker__address_book_matches_title">Csatlakozás</string>
   <string name="people_picker__search_result_conversations_header_title">Csoportok</string>
@@ -145,6 +146,16 @@
   <string name="people_picker__toolbar_header__one_to_one">Csoport létrehozása</string>
   <string name="people_picker__search_result__expander_title">Mind a(z) %1$s mutatása ↓</string>
   <string name="people_picker__guest_label">Vendég</string>
+  <string name="people_picker__search_people">PARTNEREK</string>
+  <string name="people_picker__search_services">SZOLGÁLTATÁSOK</string>
+  <!-- Bots / Integrations / Services -->
+  <string name="integrations_picker__section_title">Szolgáltatások</string>
+  <string name="integrations_picker__add">Új szolgáltatás</string>
+  <string name="integrations_conv_bot">Bot</string>
+  <string name="integrations_chathead__section_title">Szolgáltatások</string>
+  <string name="integrations_errors_add_service">Új szolgáltatás hozzáadása nem lehetséges</string>
+  <string name="integrations_errors_service_unavailable">A szolgáltatás jelenleg nem elérhető</string>
+  <string name="conversation_errors_full">A beszélgetés megtelt</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Telefon névjegyeinek megosztása</string>
   <string name="people_picker__share_contacts__message">Segítünk megtalálni ismerőseidet, ha megosztod névjegyeidet a Wire-rel.</string>
@@ -183,19 +194,22 @@
   <string name="conversation_quick_menu__conversation_button__single_label">MEGNYITÁS</string>
   <string name="conversation_quick_menu__conversation_button__group_label">CSOPORT LÉTREHOZÁSA</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__other_added_participant">[[%1$s]] új résztvevőket adott a beszélgetéshez: %2$s</string>
-  <string name="content__system__other_started_participant">[[%1$s]] beszélgetést indított vele: %2$s</string>
-  <string name="content__system__other_added_you">[[%1$s]] hozzáadott téged</string>
-  <string name="content__system__other_started_you">[[%1$s]] beszélgetést indított veled</string>
-  <string name="content__system__you_added_participant">[[Te]] új résztvevőt adtál hozzá: %2$s</string>
+  <string name="content__system__you_started_conversation">Te indítottad a beszélgetést</string>
+  <string name="content__system__other_started_conversation">%1$s beszélgetést indított</string>
+  <string name="content__system__with_participant">résztvevő: %1$s</string>
   <string name="content__system__you_started_participant">[[Te]] beszélgetést kezdeményeztél %2$s nevű partnereddel</string>
+  <string name="content__system__other_started_you">[[%1$s]] beszélgetést indított veled</string>
+  <string name="content__system__other_started_participant">[[%1$s]] beszélgetést indított vele: %2$s</string>
+  <string name="content__system__other_added_participant">[[%1$s]] új résztvevőket adott a beszélgetéshez: %2$s</string>
+  <string name="content__system__other_added_you">[[%1$s]] hozzáadott téged</string>
+  <string name="content__system__you_added_participant">[[Te]] új résztvevőt adtál hozzá: %2$s</string>
   <string name="content__system__other_left">[[%1$s]] kilépett a beszélgetésből</string>
   <string name="content__system__you_left">[[Te]] kiléptél a beszélgetésből</string>
   <string name="content__system__other_removed_other">[[%1$s]] eltávolította %2$s-t a beszélgetésből</string>
   <string name="content__system__other_removed_you">[[%1$s]] eltávolított a beszélgetésből</string>
   <string name="content__system__you_removed_other">[[Te]] eltávolítottad %2$s-t a beszélgetésből</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] ÁTNEVEZTE A BESZÉLGETÉST</string>
-  <string name="content__system__you_renamed_conv">[[TE]] ÁTNEVEZTED A BESZÉLGETÉST</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] átnevezte a beszélgetést</string>
+  <string name="content__system__you_renamed_conv">[[Te]] átnevezted a beszélgetést</string>
   <string name="content__system__message_deleted">Ezt az üzenetet törölték</string>
   <string name="content_system_message_timestamp_failure">Elküldetlen üzenet.</string>
   <string name="content_system_message_timestamp_pending">Küldés\u2026</string>
@@ -1115,4 +1129,18 @@
   <string name="team_invitation_add_from_address_book">HOZZÁADÁS A NÉVJEGYZÉKBŐL</string>
   <string name="invitation_screen_title">Alakítsd ki a csapatod</string>
   <string name="invitation_screen_subtitle">Hívd meg a kollégáidat, hogy csatlakozzanak.</string>
+  <string name="add_service_button_text">Új szolgáltatás</string>
+  <string name="remove_service_button_text">Szolgáltatás Eltávolítása</string>
+  <string name="integrations_create_conversation">Új beszélgetés létrehozása</string>
+  <string name="no_matches_found">Nincs találat</string>
+  <string name="create_group_conversation">Csoport létrehozása</string>
+  <string name="next_button">KÖVETKEZŐ</string>
+  <string name="skip_button">KIHAGY</string>
+  <string name="done_button">Kész</string>
+  <string name="new_group_header">ÚJ CSOPORT</string>
+  <string name="add_people_empty_header">PARTNEREK FELVÉTELE</string>
+  <string name="add_people_count_header">PARTNEREK HOZZÁADÁSA (%1$s)</string>
+  <string name="new_conv_no_results">NINCS TALÁLAT</string>
+  <string name="new_conv_no_contacts">NINCSENEK NÉVJEGYEK</string>
+  <string name="create_group_search">KERESÉS NÉV SZERINT</string>
 </resources>

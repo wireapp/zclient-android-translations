@@ -117,9 +117,10 @@
   <string name="invitation__phone__failed">Tällä kutsulla rekisteröityminen ei onnistu.</string>
   <string name="invitation__email__failed">Tällä kutsulla rekisteröityminen ei onnistu.</string>
   <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 ETSI NIMELLÄ TAI KÄYTTÄJÄNIMELLÄ</string>
-  <string name="pick_user_search_hint">ETSI NIMELLÄ TAI KÄYTTÄJÄNIMELLÄ</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 ETSI NIMELLÄ</string>
+  <string name="pick_user_search_focus">\u0020 SEARCH</string>
+  <string name="pick_user_search_hint">SEARCH</string>
+  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
+  <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Eniten käytetyt kontaktit</string>
   <string name="people_picker__address_book_matches_title">Yhdistä</string>
   <string name="people_picker__search_result_conversations_header_title">Ryhmät</string>
@@ -145,6 +146,16 @@
   <string name="people_picker__toolbar_header__one_to_one">Luo ryhmä</string>
   <string name="people_picker__search_result__expander_title">Näytä kaikki %1$s ↓</string>
   <string name="people_picker__guest_label">Vieras</string>
+  <string name="people_picker__search_people">KÄYTTÄJÄT</string>
+  <string name="people_picker__search_services">SERVICES</string>
+  <!-- Bots / Integrations / Services -->
+  <string name="integrations_picker__section_title">Palvelut</string>
+  <string name="integrations_picker__add">Add Service</string>
+  <string name="integrations_conv_bot">Bot</string>
+  <string name="integrations_chathead__section_title">Palvelut</string>
+  <string name="integrations_errors_add_service">Adding service not possible</string>
+  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
+  <string name="conversation_errors_full">The conversation is full</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Jaa yhteystietoja</string>
   <string name="people_picker__share_contacts__message">Wire auttaa löytämään ystäviäsi jos jaat yhteystietosi.</string>
@@ -183,19 +194,22 @@
   <string name="conversation_quick_menu__conversation_button__single_label">AVAA</string>
   <string name="conversation_quick_menu__conversation_button__group_label">LUO RYHMÄ</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__other_added_participant">[[%1$s]] lisäsi %2$s</string>
-  <string name="content__system__other_started_participant">[[%1$s]] aloitti keskustelun %2$s kanssa</string>
-  <string name="content__system__other_added_you">[[%1$s]] lisäsi sinut</string>
-  <string name="content__system__other_started_you">[[%1$s]] aloitti keskustelun kanssasi</string>
-  <string name="content__system__you_added_participant">[[Sinä]] lisäsit %2$s</string>
+  <string name="content__system__you_started_conversation">You started the conversation</string>
+  <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+  <string name="content__system__with_participant">with %1$s</string>
   <string name="content__system__you_started_participant">[[Sinä]] aloitit keskustelun %2$s kanssa</string>
+  <string name="content__system__other_started_you">[[%1$s]] aloitti keskustelun kanssasi</string>
+  <string name="content__system__other_started_participant">[[%1$s]] aloitti keskustelun %2$s kanssa</string>
+  <string name="content__system__other_added_participant">[[%1$s]] lisäsi %2$s</string>
+  <string name="content__system__other_added_you">[[%1$s]] lisäsi sinut</string>
+  <string name="content__system__you_added_participant">[[Sinä]] lisäsit %2$s</string>
   <string name="content__system__other_left">[[%1$s]] poistui</string>
   <string name="content__system__you_left">[[Sinä]] poistuit</string>
   <string name="content__system__other_removed_other">[[%1$s]] poisti %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] poisti sinut</string>
   <string name="content__system__you_removed_other">[[Sinä]] poistit %2$s</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] NIMESI KESKUSTELUN UUDELLEEN</string>
-  <string name="content__system__you_renamed_conv">[[SINÄ]] NIMESIT KESKUSTELUN UUDELLEEN</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
+  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
   <string name="content__system__message_deleted">Tämä viesti on poistettu</string>
   <string name="content_system_message_timestamp_failure">Lähettämätön viesti.</string>
   <string name="content_system_message_timestamp_pending">Lähetetään\u2026</string>
@@ -1114,4 +1128,18 @@
   <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">Rakenna tiimisi</string>
   <string name="invitation_screen_subtitle">Kutsu kollegat liittymään.</string>
+  <string name="add_service_button_text">Add Service</string>
+  <string name="remove_service_button_text">Remove Service</string>
+  <string name="integrations_create_conversation">Create a new conversation</string>
+  <string name="no_matches_found">No matches found</string>
+  <string name="create_group_conversation">Luo ryhmä</string>
+  <string name="next_button">NEXT</string>
+  <string name="skip_button">SKIP</string>
+  <string name="done_button">DONE</string>
+  <string name="new_group_header">NEW GROUP</string>
+  <string name="add_people_empty_header">LISÄÄ KÄYTTÄJIÄ</string>
+  <string name="add_people_count_header">ADD PEOPLE (%1$s)</string>
+  <string name="new_conv_no_results">NO RESULTS</string>
+  <string name="new_conv_no_contacts">NO CONTACTS</string>
+  <string name="create_group_search">SEARCH FOR NAMES</string>
 </resources>

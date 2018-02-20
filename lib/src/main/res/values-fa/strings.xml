@@ -117,9 +117,10 @@
   <string name="invitation__phone__failed">متاسفانه قادر به ثبت‌نام از طریق این دعوت‌نامه نیستید.</string>
   <string name="invitation__email__failed">متاسفانه قادر به ثبت‌نام از طریق این دعوت‌نامه نیستید.</string>
   <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 جستجو بر اساس نام یا نام‌کاربری</string>
-  <string name="pick_user_search_hint">جستجو بر اساس نام یا نام کاربری</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 جستجو از طریق نام</string>
+  <string name="pick_user_search_focus">\u0020 SEARCH</string>
+  <string name="pick_user_search_hint">SEARCH</string>
+  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
+  <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">کاربران محبوب</string>
   <string name="people_picker__address_book_matches_title">درخواست دوستی</string>
   <string name="people_picker__search_result_conversations_header_title">گروه‌ها</string>
@@ -145,6 +146,16 @@
   <string name="people_picker__toolbar_header__one_to_one">ایجاد گروه</string>
   <string name="people_picker__search_result__expander_title">نمایش همه %1$s ↓</string>
   <string name="people_picker__guest_label">مهمان</string>
+  <string name="people_picker__search_people">افراد</string>
+  <string name="people_picker__search_services">SERVICES</string>
+  <!-- Bots / Integrations / Services -->
+  <string name="integrations_picker__section_title">سرویس‌ها</string>
+  <string name="integrations_picker__add">Add Service</string>
+  <string name="integrations_conv_bot">Bot</string>
+  <string name="integrations_chathead__section_title">سرویس‌ها</string>
+  <string name="integrations_errors_add_service">Adding service not possible</string>
+  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
+  <string name="conversation_errors_full">The conversation is full</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">به‌اشتراک گذاشتن دوستان</string>
   <string name="people_picker__share_contacts__message">اگر شما مخاطبین خود را به اشتراک بگذارید، وایر در یافتن دوستانتان به شما کمک میکند.</string>
@@ -183,19 +194,22 @@
   <string name="conversation_quick_menu__conversation_button__single_label">انتخاب فایل</string>
   <string name="conversation_quick_menu__conversation_button__group_label">ایجاد گروه</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__other_added_participant">[[%1$s]] اضافه شد به %2$s</string>
-  <string name="content__system__other_started_participant">[[%1$s]] یک گفتگو با %2$s را شروع کرد</string>
-  <string name="content__system__other_added_you">[[%1$s]] شما را اضافه کرد</string>
-  <string name="content__system__other_started_you">[[%1$s]] یک گفتگو را با شما شروع کرد</string>
-  <string name="content__system__you_added_participant">%2$s از سوی شما اضافه شد</string>
+  <string name="content__system__you_started_conversation">You started the conversation</string>
+  <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+  <string name="content__system__with_participant">with %1$s</string>
   <string name="content__system__you_started_participant">شما یک گفتگو را با %2$s شروع کرده‌اید</string>
+  <string name="content__system__other_started_you">[[%1$s]] یک گفتگو را با شما شروع کرد</string>
+  <string name="content__system__other_started_participant">[[%1$s]] یک گفتگو با %2$s را شروع کرد</string>
+  <string name="content__system__other_added_participant">[[%1$s]] اضافه شد به %2$s</string>
+  <string name="content__system__other_added_you">[[%1$s]] شما را اضافه کرد</string>
+  <string name="content__system__you_added_participant">%2$s از سوی شما اضافه شد</string>
   <string name="content__system__other_left">[[%1$s]] رفت</string>
   <string name="content__system__you_left">شما از گروه خارج شدید.</string>
   <string name="content__system__other_removed_other">[[%1$s]] کاربر %2$s را حذف کرد</string>
   <string name="content__system__other_removed_you">[[%1$s]] شما را حذف کرد</string>
   <string name="content__system__you_removed_other">شما کاربر %2$s را حذف کردید.</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] نام این گفتگو را تغییر داد</string>
-  <string name="content__system__you_renamed_conv">شما نام این گفتگو را تغییر داده‌اید.</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
+  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
   <string name="content__system__message_deleted">این پیام با موفقیت حذف شد</string>
   <string name="content_system_message_timestamp_failure">پیام ارسال نشد.</string>
   <string name="content_system_message_timestamp_pending">درحال ارسال \u2026</string>
@@ -1114,4 +1128,18 @@
   <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">تیم خود را بسازید</string>
   <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
+  <string name="add_service_button_text">Add Service</string>
+  <string name="remove_service_button_text">Remove Service</string>
+  <string name="integrations_create_conversation">Create a new conversation</string>
+  <string name="no_matches_found">No matches found</string>
+  <string name="create_group_conversation">ایجاد گروه</string>
+  <string name="next_button">NEXT</string>
+  <string name="skip_button">SKIP</string>
+  <string name="done_button">DONE</string>
+  <string name="new_group_header">NEW GROUP</string>
+  <string name="add_people_empty_header">اضافه کردن دوست</string>
+  <string name="add_people_count_header">ADD PEOPLE (%1$s)</string>
+  <string name="new_conv_no_results">NO RESULTS</string>
+  <string name="new_conv_no_contacts">NO CONTACTS</string>
+  <string name="create_group_search">SEARCH FOR NAMES</string>
 </resources>

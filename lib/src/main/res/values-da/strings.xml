@@ -117,9 +117,10 @@
   <string name="invitation__phone__failed">Du kan ikke registrere dig med denne invitation.</string>
   <string name="invitation__email__failed">Du kan ikke registrere dig med denne invitation.</string>
   <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 SØG PÅ NAVN ELLER BRUGERNAVN</string>
-  <string name="pick_user_search_hint">SØG VIA NAVN ELLER BRUGERNAVN</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 SØG PÅ NAVN</string>
+  <string name="pick_user_search_focus">\u0020 SEARCH</string>
+  <string name="pick_user_search_hint">SEARCH</string>
+  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
+  <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Top personer</string>
   <string name="people_picker__address_book_matches_title">Forbind</string>
   <string name="people_picker__search_result_conversations_header_title">Grupper</string>
@@ -145,6 +146,16 @@
   <string name="people_picker__toolbar_header__one_to_one">Opret gruppe</string>
   <string name="people_picker__search_result__expander_title">Vis alle %1$s ↓</string>
   <string name="people_picker__guest_label">Gæst</string>
+  <string name="people_picker__search_people">PERSONER</string>
+  <string name="people_picker__search_services">SERVICES</string>
+  <!-- Bots / Integrations / Services -->
+  <string name="integrations_picker__section_title">Tjenester</string>
+  <string name="integrations_picker__add">Add Service</string>
+  <string name="integrations_conv_bot">Bot</string>
+  <string name="integrations_chathead__section_title">Tjenester</string>
+  <string name="integrations_errors_add_service">Adding service not possible</string>
+  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
+  <string name="conversation_errors_full">The conversation is full</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Del Kontaktpersoner</string>
   <string name="people_picker__share_contacts__message">Wire hjælper dig med at finde dine venner, hvis du deler dine kontaktpersoner.</string>
@@ -183,19 +194,22 @@
   <string name="conversation_quick_menu__conversation_button__single_label">ÅBN</string>
   <string name="conversation_quick_menu__conversation_button__group_label">OPRET GRUPPE</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__other_added_participant">[[%1$s]] tilføjede %2$s</string>
-  <string name="content__system__other_started_participant">[[%1$s]] startede en samtale med %2$s</string>
-  <string name="content__system__other_added_you">[[%1$s]] tilføjede dig</string>
-  <string name="content__system__other_started_you">[[%1$s]] startede en samtale med dig</string>
-  <string name="content__system__you_added_participant">[[Du]] tilføjede %2$s</string>
+  <string name="content__system__you_started_conversation">You started the conversation</string>
+  <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+  <string name="content__system__with_participant">with %1$s</string>
   <string name="content__system__you_started_participant">[[Du]] startede en samtale med %2$s</string>
+  <string name="content__system__other_started_you">[[%1$s]] startede en samtale med dig</string>
+  <string name="content__system__other_started_participant">[[%1$s]] startede en samtale med %2$s</string>
+  <string name="content__system__other_added_participant">[[%1$s]] tilføjede %2$s</string>
+  <string name="content__system__other_added_you">[[%1$s]] tilføjede dig</string>
+  <string name="content__system__you_added_participant">[[Du]] tilføjede %2$s</string>
   <string name="content__system__other_left">[[%1$s]] har forladt</string>
   <string name="content__system__you_left">[[Du]] har forladt</string>
   <string name="content__system__other_removed_other">[[%1$s]] fjernede %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] fjernede dig</string>
   <string name="content__system__you_removed_other">[[Du]] fjernede %2$s</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] OMDØBTE SAMTALEN</string>
-  <string name="content__system__you_renamed_conv">[[YOU]] OMDØBTE SAMTALEN</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
+  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
   <string name="content__system__message_deleted">Denne besked er blevet fjernet</string>
   <string name="content_system_message_timestamp_failure">Beskeden er ikke sendt.</string>
   <string name="content_system_message_timestamp_pending">Sender\u2026</string>
@@ -1116,4 +1130,18 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">Build your team</string>
   <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
+  <string name="add_service_button_text">Add Service</string>
+  <string name="remove_service_button_text">Remove Service</string>
+  <string name="integrations_create_conversation">Create a new conversation</string>
+  <string name="no_matches_found">No matches found</string>
+  <string name="create_group_conversation">Opret gruppe</string>
+  <string name="next_button">NEXT</string>
+  <string name="skip_button">SKIP</string>
+  <string name="done_button">DONE</string>
+  <string name="new_group_header">NEW GROUP</string>
+  <string name="add_people_empty_header">TILFØJ PERSONER</string>
+  <string name="add_people_count_header">ADD PEOPLE (%1$s)</string>
+  <string name="new_conv_no_results">NO RESULTS</string>
+  <string name="new_conv_no_contacts">NO CONTACTS</string>
+  <string name="create_group_search">SEARCH FOR NAMES</string>
 </resources>

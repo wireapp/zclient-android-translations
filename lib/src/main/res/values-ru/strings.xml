@@ -118,9 +118,10 @@
   <string name="invitation__phone__failed">Не удалось зарегистрироваться по этому приглашению.</string>
   <string name="invitation__email__failed">Не удалось зарегистрироваться по этому приглашению.</string>
   <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 ПОИСК ПО ИМЕНИ ИЛИ ИМЕНИ ПОЛЬЗОВАТЕЛЯ</string>
-  <string name="pick_user_search_hint">ПОИСК ПО ИМЕНИ ИЛИ ИМЕНИ ПОЛЬЗОВАТЕЛЯ</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 ПОИСК ПО ИМЕНИ</string>
+  <string name="pick_user_search_focus">\u0020 ПОИСК</string>
+  <string name="pick_user_search_hint">ПОИСК</string>
+  <string name="pick_user_search__add_to_conversation">\u0020 ПОИСК</string>
+  <string name="choose_conversation">ПОИСК</string>
   <string name="people_picker__top_users_header_title">Топ-контакты</string>
   <string name="people_picker__address_book_matches_title">Добавить в контакты</string>
   <string name="people_picker__search_result_conversations_header_title">Группы</string>
@@ -146,6 +147,16 @@
   <string name="people_picker__toolbar_header__one_to_one">Создание группы</string>
   <string name="people_picker__search_result__expander_title">Показать все %1$s ↓</string>
   <string name="people_picker__guest_label">Гость</string>
+  <string name="people_picker__search_people">УЧАСТНИКИ</string>
+  <string name="people_picker__search_services">СЕРВИСЫ</string>
+  <!-- Bots / Integrations / Services -->
+  <string name="integrations_picker__section_title">Службы</string>
+  <string name="integrations_picker__add">Добавить службу</string>
+  <string name="integrations_conv_bot">Бот</string>
+  <string name="integrations_chathead__section_title">Службы</string>
+  <string name="integrations_errors_add_service">Добавление службы невозможно</string>
+  <string name="integrations_errors_service_unavailable">В данный момент служба недоступна</string>
+  <string name="conversation_errors_full">The conversation is full</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Поделиться контактами</string>
   <string name="people_picker__share_contacts__message">Wire поможет вам найти друзей, если поделитесь вашими контактами.</string>
@@ -186,19 +197,22 @@
   <string name="conversation_quick_menu__conversation_button__single_label">ОТКРЫТЬ</string>
   <string name="conversation_quick_menu__conversation_button__group_label">Создать группу</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__other_added_participant">[[%1$s]] добавил(-а) %2$s</string>
-  <string name="content__system__other_started_participant">[[%1$s]] начал(-а) разговор с %2$s</string>
-  <string name="content__system__other_added_you">[[%1$s]] добавил(-а) вас</string>
-  <string name="content__system__other_started_you">[[%1$s]] начал(-а) разговор с вами</string>
-  <string name="content__system__you_added_participant">[[Вы]] добавили %2$s</string>
+  <string name="content__system__you_started_conversation">Вы начали разговор</string>
+  <string name="content__system__other_started_conversation">%1$s начал разговор</string>
+  <string name="content__system__with_participant">с %1$s</string>
   <string name="content__system__you_started_participant">[[Вы]] начали разговор с %2$s</string>
+  <string name="content__system__other_started_you">[[%1$s]] начал(-а) разговор с вами</string>
+  <string name="content__system__other_started_participant">[[%1$s]] начал(-а) разговор с %2$s</string>
+  <string name="content__system__other_added_participant">[[%1$s]] добавил(-а) %2$s</string>
+  <string name="content__system__other_added_you">[[%1$s]] добавил(-а) вас</string>
+  <string name="content__system__you_added_participant">[[Вы]] добавили %2$s</string>
   <string name="content__system__other_left">[[%1$s]] вышел(-ла)</string>
   <string name="content__system__you_left">[[Вы]] вышли</string>
   <string name="content__system__other_removed_other">[[%1$s]] удалил(-а) %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] удалил(-а) вас</string>
   <string name="content__system__you_removed_other">[[Вы]] удалили %2$s</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] ПЕРЕИМЕНОВАЛ(-А) РАЗГОВОР</string>
-  <string name="content__system__you_renamed_conv">[[ВЫ]] ПЕРЕИМЕНОВАЛИ РАЗГОВОР</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] переименовал разговор</string>
+  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
   <string name="content__system__message_deleted">Это сообщение было удалено</string>
   <string name="content_system_message_timestamp_failure">Неотправленное сообщение.</string>
   <string name="content_system_message_timestamp_pending">Отправка\u2026</string>
@@ -1149,4 +1163,18 @@ Plural:
   <string name="team_invitation_add_from_address_book">ДОБАВИТЬ ИЗ АДРЕСНОЙ КНИГИ</string>
   <string name="invitation_screen_title">Создание команды</string>
   <string name="invitation_screen_subtitle">Пригласите своих коллег присоединиться.</string>
+  <string name="add_service_button_text">Добавить службу</string>
+  <string name="remove_service_button_text">Удалить службу</string>
+  <string name="integrations_create_conversation">Создать новую беседу</string>
+  <string name="no_matches_found">Совпадений не найдено</string>
+  <string name="create_group_conversation">Создание группы</string>
+  <string name="next_button">ДАЛЕЕ</string>
+  <string name="skip_button">ПРОПУСТИТЬ</string>
+  <string name="done_button">ГОТОВО</string>
+  <string name="new_group_header">НОВАЯ ГРУППА</string>
+  <string name="add_people_empty_header">ДОБАВИТЬ УЧАСТНИКОВ</string>
+  <string name="add_people_count_header">ДОБАВИТЬ УЧАСТНИКОВ (%1$s)</string>
+  <string name="new_conv_no_results">НЕТ РЕЗУЛЬТАТОВ</string>
+  <string name="new_conv_no_contacts">НЕТ КОНТАКТОВ</string>
+  <string name="create_group_search">ПОИСК ИМЕН</string>
 </resources>
