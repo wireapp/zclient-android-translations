@@ -168,6 +168,7 @@
   <plurals name="people_picker__recommended__common_connections__more">
     <item quantity="one">Pažįsta %1$s ir %2$d kitus</item>
     <item quantity="few">Pažįsta %1$s ir %2$d kitus</item>
+    <item quantity="many">Knows %1$s and %2$d others</item>
     <item quantity="other">Pažįsta %1$s ir %2$d kitų</item>
   </plurals>
   <string name="people_picker__recommended__common_connections__hide">SLĖPTI</string>
@@ -188,6 +189,7 @@
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d bendras draugas</item>
     <item quantity="few">%1$d bendri draugai</item>
+    <item quantity="many">%1$d people in common</item>
     <item quantity="other">%1$d bendrų draugų</item>
   </plurals>
   <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s kontaktų sąraše</string>
@@ -317,6 +319,7 @@
   <plurals name="connect_request__common_users__summary">
     <item quantity="one">%1$d bendras draugas</item>
     <item quantity="few">%1$d bendri draugai</item>
+    <item quantity="many">%1$d people in common</item>
     <item quantity="other">%1$d bendrų draugų</item>
   </plurals>
   <string name="connect_request__sub_header__pending_label">Laukia</string>
@@ -326,6 +329,7 @@
   <plurals name="connect_inbox__link__name">
     <item quantity="one">Laukia 1 asmuo</item>
     <item quantity="few">Laukia %1$s asmenys</item>
+    <item quantity="many">%1$s people waiting</item>
     <item quantity="other">Laukia %1$s asmenų</item>
   </plurals>
   <string name="connect_request__ignore_button__text">Nepaisyti</string>
@@ -336,6 +340,7 @@
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s pradėjo naudotis nauju įrenginiu.</item>
     <item quantity="few">%1$s pradėjo naudotis naujais įrenginiais.</item>
+    <item quantity="many">%1$s started using new devices.</item>
     <item quantity="other">%1$s pradėjo naudotis naujais įrenginiais.</item>
   </plurals>
   <string name="conversation__degraded_confirmation__header__someone">Kažkas pradėjo naudotis nauju įrenginiu.</string>
@@ -343,6 +348,7 @@
   <plurals name="conversation__degraded_confirmation__message">
     <item quantity="one">Ar vis dar norite išsiųsti savo žinutę?</item>
     <item quantity="few">Ar vis dar norite išsiųsti savo žinutes?</item>
+    <item quantity="many">Do you still want to send your messages?</item>
     <item quantity="other">Ar vis dar norite išsiųsti savo žinutes?</item>
   </plurals>
   <string name="conversation__degraded_confirmation__accept_call">Ar norite atsiliepti į skambutį?</string>
@@ -351,6 +357,7 @@
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Rodyti įrenginį</item>
     <item quantity="few">Rodyti įrenginius</item>
+    <item quantity="many">Show people</item>
     <item quantity="other">Rodyti žmones</item>
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Rodyti savo įrenginius</string>
@@ -359,6 +366,7 @@
   <plurals name="participants__sub_header_xx_people">
     <item quantity="one">%1$d ŽMOGUS</item>
     <item quantity="few">%1$d ŽMONĖS</item>
+    <item quantity="many">%1$d PEOPLE</item>
     <item quantity="other">%1$d ŽMONIŲ</item>
   </plurals>
   <string name="group_name">Grupės pavadinimas</string>
@@ -612,6 +620,7 @@
     <!-- should not happen though -->
     <item quantity="one">Yra vietos tik %1$d žmogui.</item>
     <item quantity="few">Yra vietos tik %1$d žmonėms.</item>
+    <item quantity="many">There\'s only room for %1$d people in here.</item>
     <item quantity="other">Yra vietos tik %1$d žmonių.</item>
   </plurals>
   <string name="calling__conversation_full__title">Per daug žmonių, norint skambinti</string>
@@ -619,6 +628,7 @@
     <!-- should not happen though -->
     <item quantity="one">Skambinti galima pokalbiuose tik iki %1$d žmogaus.</item>
     <item quantity="few">Skambinti galima pokalbiuose tik iki %1$d žmonių.</item>
+    <item quantity="many">Calls work in conversations with up to %1$d people.</item>
     <item quantity="other">Skambinti galima pokalbiuose tik iki %1$d žmonių.</item>
   </plurals>
   <!-- Lockscreen and notifications -->
@@ -626,16 +636,19 @@
   <plurals name="notification__new_messages">
     <item quantity="one">Pranešimas iš %2$s</item>
     <item quantity="few">%1$d pranešimai iš %2$s</item>
+    <item quantity="many">%1$d messages from %2$s</item>
     <item quantity="other">%1$d pranešimų iš %2$s</item>
   </plurals>
   <plurals name="notification__new_messages_groups">
     <item quantity="one">Pranešimas grupėje %2$s</item>
     <item quantity="few">%1$d pranešimai grupėje %2$s</item>
+    <item quantity="many">%1$d messages in %2$s</item>
     <item quantity="other">%1$d pranešimų grupėje %2$s</item>
   </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="one">%2$s susirašinėjimuose yra pranešimas</item>
     <item quantity="few">%2$s susirašinėjimuose yra %1$d pranešimai</item>
+    <item quantity="many">%1$d messages in %2$s conversations</item>
     <item quantity="other">%2$s susirašinėjimuose yra %1$d pranešimų</item>
   </plurals>
   <!-- %1$s == username, %2$s == conversation -->
@@ -674,6 +687,7 @@
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Kažkas atsiuntė jums žinutę</item>
     <item quantity="few">Kažkas atsiuntė jums %1$d žinutes</item>
+    <item quantity="many">Someone sent you %1$d messages</item>
     <item quantity="other">Kažkas atsiuntė jums %1$d žinučių</item>
   </plurals>
   <!-- Others -->
@@ -723,6 +737,7 @@
   <plurals name="sharing__files__message">
     <item quantity="one">Pasidalinsite %1$d failu su %2$s.</item>
     <item quantity="few">Pasidalinsite %1$d failais su %2$s.</item>
+    <item quantity="many">You are about to share %1$d files with %2$s.</item>
     <item quantity="other">Pasidalinsite %1$d failų su %2$s.</item>
   </plurals>
   <!-- Sync errors -->
@@ -738,31 +753,37 @@
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="one">Prieš %1$d minutę</item>
     <item quantity="few">Prieš %1$d minutes</item>
+    <item quantity="many">%1$d minutes ago</item>
     <item quantity="other">Prieš %1$d minučių</item>
   </plurals>
   <plurals name="timestamp__x_hours_ago">
     <item quantity="one">Prieš %1$d valandą</item>
     <item quantity="few">Prieš %1$d valandas</item>
+    <item quantity="many">%1$d hours ago</item>
     <item quantity="other">Prieš %1$d valandų</item>
   </plurals>
   <plurals name="timestamp__x_days_ago">
     <item quantity="one">Prieš %1$d dieną</item>
     <item quantity="few">Prieš %1$d dienas</item>
+    <item quantity="many">%1$d days ago</item>
     <item quantity="other">Prieš %1$d dienų</item>
   </plurals>
   <plurals name="timestamp__x_weeks_ago">
     <item quantity="one">Prieš %1$d savaitę</item>
     <item quantity="few">Prieš %1$d savaites</item>
+    <item quantity="many">%1$d weeks ago</item>
     <item quantity="other">Prieš %1$d savaičių</item>
   </plurals>
   <plurals name="timestamp__x_months_ago">
     <item quantity="one">Prieš %1$d mėnesį</item>
     <item quantity="few">Prieš %1$d mėnesius</item>
+    <item quantity="many">%1$d months ago</item>
     <item quantity="other">Prieš %1$d mėnesių</item>
   </plurals>
   <plurals name="timestamp__x_years_ago">
     <item quantity="one">Prieš metus</item>
     <item quantity="few">Prieš %1$d metus</item>
+    <item quantity="many">%1$d years ago</item>
     <item quantity="other">Prieš %1$d metų</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
@@ -800,6 +821,7 @@
   <plurals name="welcome__resend__timer_label">
     <item quantity="one">NAUJO KODO GALITE PRAŠYTI PO %1$d SEKUNDĖS</item>
     <item quantity="few">NAUJO KODO GALITE PRAŠYTI PO %1$d SEKUNDŽIŲ</item>
+    <item quantity="many">YOU CAN REQUEST A NEW CODE IN %1$d SECONDS</item>
     <item quantity="other">NAUJO KODO GALITE PRAŠYTI PO %1$d SEKUNDŽIŲ</item>
   </plurals>
   <string name="welcome__resend__manual">SIŲSTI DAR KARTĄ</string>
@@ -993,6 +1015,7 @@
   <plurals name="message_footer__number_of_likes">
     <item quantity="one">%1$d žmogus</item>
     <item quantity="few">%1$d žmonės</item>
+    <item quantity="many">%1$d people</item>
     <item quantity="other">%1$d žmonių</item>
   </plurals>
   <string name="message_footer__status__sending">Siunčiama&#8230;</string>
@@ -1017,21 +1040,25 @@
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d diena</item>
     <item quantity="few">%1$d dienos</item>
+    <item quantity="many">%1$d days</item>
     <item quantity="other">%1$d dienų</item>
   </plurals>
   <plurals name="message_footer__expire__hours">
     <item quantity="one">%1$d valanda</item>
     <item quantity="few">%1$d valandos</item>
+    <item quantity="many">%1$d hours</item>
     <item quantity="other">%1$d valandų</item>
   </plurals>
   <plurals name="message_footer__expire__minutes">
     <item quantity="one">%1$d minutė</item>
     <item quantity="few">%1$d minutės</item>
+    <item quantity="many">%1$d minutes</item>
     <item quantity="other">%1$d minučių</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
     <item quantity="one">%1$d sekundė</item>
     <item quantity="few">%1$d sekundės</item>
+    <item quantity="many">%1$d seconds</item>
     <item quantity="other">%1$d sekundžių</item>
   </plurals>
   <string name="collection_header_all">RINKINYS</string>
@@ -1052,21 +1079,25 @@
   <plurals name="conversation_list__new_message_count">
     <item quantity="one">%1$s nauja žinutė</item>
     <item quantity="few">%1$s naujos žinutės</item>
+    <item quantity="many">%1$s new messages</item>
     <item quantity="other">%1$s naujų žinučių</item>
   </plurals>
   <plurals name="conversation_list__missed_calls_count">
     <item quantity="one">%1$s praleistas skambutis</item>
     <item quantity="few">%1$s praleisti skambučiai</item>
+    <item quantity="many">%1$s missed calls</item>
     <item quantity="other">%1$s praleistų skambučių</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s skambtelėjimas</item>
     <item quantity="few">%1$s skambtelėjimai</item>
+    <item quantity="many">%1$s pings</item>
     <item quantity="other">%1$s skambtelėjimų</item>
   </plurals>
   <plurals name="conversation_list__new_likes_count">
     <item quantity="one">%1$s ♥</item>
     <item quantity="few">%1$s ♥</item>
+    <item quantity="many">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
   <string name="conversation_list__unsent_message_long">⚠ Neišsiųsta žinutė</string>
@@ -1162,12 +1193,12 @@
   <string name="add_service_button_text">Pridėti paslaugą</string>
   <string name="remove_service_button_text">Remove Service</string>
   <string name="integrations_create_conversation">Kurti naują susirašinėjimą</string>
-  <string name="no_matches_found">No matches found</string>
+  <string name="no_matches_found">Atitikmenų nerasta</string>
   <string name="create_group_conversation">Sukurti grupę</string>
-  <string name="next_button">NEXT</string>
+  <string name="next_button">KITAS</string>
   <string name="skip_button">PRALEISTI</string>
   <string name="done_button">BAIGTA</string>
-  <string name="new_group_header">NEW GROUP</string>
+  <string name="new_group_header">NAUJA GRUPĖ</string>
   <string name="add_people_empty_header">PRIDĖTI ŽMONES</string>
   <string name="add_people_count_header">ADD PEOPLE (%1$s)</string>
   <string name="new_conv_no_results">NO RESULTS</string>
