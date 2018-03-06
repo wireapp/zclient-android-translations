@@ -168,6 +168,7 @@
   <plurals name="people_picker__recommended__common_connections__more">
     <item quantity="one">Znasz %1$s i %2$d innych</item>
     <item quantity="few">Znasz %1$s i %2$d innych</item>
+    <item quantity="many">Knows %1$s and %2$d others</item>
     <item quantity="other">Znasz %1$s i %2$d innych</item>
   </plurals>
   <string name="people_picker__recommended__common_connections__hide">UKRYJ</string>
@@ -188,6 +189,7 @@
   <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
     <item quantity="one">%1$d wspólna osoba</item>
     <item quantity="few">%1$d wspólne osoby</item>
+    <item quantity="many">%1$d wspólnych znajomych</item>
     <item quantity="other">%1$d wspólne osoby</item>
   </plurals>
   <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s w kontaktach</string>
@@ -317,6 +319,7 @@
   <plurals name="connect_request__common_users__summary">
     <item quantity="one">%1$d wspólny/a znajomy/a</item>
     <item quantity="few">%1$d wspólnych znajomych</item>
+    <item quantity="many">%1$d wspólne osoby</item>
     <item quantity="other">%1$d wspólnych znajomych</item>
   </plurals>
   <string name="connect_request__sub_header__pending_label">W toku</string>
@@ -326,6 +329,7 @@
   <plurals name="connect_inbox__link__name">
     <item quantity="one">1 osoba czeka</item>
     <item quantity="few">%1$s ludzi oczekujących</item>
+    <item quantity="many">%1$s ludzi oczekujących</item>
     <item quantity="other">%1$s ludzi oczekujących</item>
   </plurals>
   <string name="connect_request__ignore_button__text">Ignoruj</string>
@@ -336,6 +340,7 @@
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s rozpoczął korzystać z nowego urządzenia.</item>
     <item quantity="few">%1$s rozpoczął korzystanie z nowego urządzenia.</item>
+    <item quantity="many">%1$s started using new devices.</item>
     <item quantity="other">%1$s rozpoczął korzystać z nowych urządzeń.</item>
   </plurals>
   <string name="conversation__degraded_confirmation__header__someone">Kto zaczął używać nowego urządzenia.</string>
@@ -343,6 +348,7 @@
   <plurals name="conversation__degraded_confirmation__message">
     <item quantity="one">Czy nadal chcesz wysłać wiadomość?</item>
     <item quantity="few">Czy nadal chcesz wysłać wiadomości?</item>
+    <item quantity="many">Czy nadal chcesz wysłać wiadomości?</item>
     <item quantity="other">Czy nadal chcesz wysłać wiadomości?</item>
   </plurals>
   <string name="conversation__degraded_confirmation__accept_call">Czy chcesz odebrać połączenie?</string>
@@ -351,6 +357,7 @@
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Pokaż urządzenie</item>
     <item quantity="few">Pokaż ludzi</item>
+    <item quantity="many">Show people</item>
     <item quantity="other">Pokaż ludzi</item>
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Sprawdź swoje urządzenia</string>
@@ -359,6 +366,7 @@
   <plurals name="participants__sub_header_xx_people">
     <item quantity="one">%1$d osoba</item>
     <item quantity="few">%1$d osób</item>
+    <item quantity="many">%1$d PEOPLE</item>
     <item quantity="other">%1$d osób</item>
   </plurals>
   <string name="group_name">Nazwa grupy</string>
@@ -391,7 +399,7 @@
   <string name="connect_request__footer__blocked_label">Zablokowano</string>
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Usunąć zawartość?</string>
-  <string name="confirmation_menu__meta_delete_text">To usunie historię konwersacji i usunie kontakt z twojej listy.</string>
+  <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
   <string name="confirmation_menu__confirm_delete">USUŃ</string>
   <string name="confirmation_menu__delete_conversation__checkbox__label">Również opuść rozmowę</string>
   <!-- Rich media -->
@@ -612,6 +620,7 @@
     <!-- should not happen though -->
     <item quantity="one">W rozmowie może wziąć udział tylko %1$d osoba.</item>
     <item quantity="few">W rozmowie mogą wziąć udział tylko %1$d osoby.</item>
+    <item quantity="many">There\'s only room for %1$d people in here.</item>
     <item quantity="other">Jest tylko miejsce na %1$d ludzi tutaj.</item>
   </plurals>
   <string name="calling__conversation_full__title">Zbyt dużo osób do połączenia</string>
@@ -619,6 +628,7 @@
     <!-- should not happen though -->
     <item quantity="one">W rozmowie może brać udział maksymalnie %1$d osób.</item>
     <item quantity="few">Połączenia są możliwe z maksymalnie %1$d osobami.</item>
+    <item quantity="many">Calls work in conversations with up to %1$d people.</item>
     <item quantity="other">Połączenia są możliwe z maksymalnie %1$d osobami.</item>
   </plurals>
   <!-- Lockscreen and notifications -->
@@ -626,16 +636,19 @@
   <plurals name="notification__new_messages">
     <item quantity="one">Wiadomość od %2$s</item>
     <item quantity="few">%1$d wiadomości z %2$s</item>
+    <item quantity="many">%1$d messages from %2$s</item>
     <item quantity="other">%1$d wiadomości z %2$s</item>
   </plurals>
   <plurals name="notification__new_messages_groups">
     <item quantity="one">Wiadomości w %2$s</item>
     <item quantity="few">Wiadomości w %2$s</item>
+    <item quantity="many">%1$d messages in %2$s</item>
     <item quantity="other">Wiadomości w %2$s</item>
   </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="one">Wiadomość w %2$s rozmowach</item>
     <item quantity="few">%1$d wiadomości w %2$s rozmowach</item>
+    <item quantity="many">%1$d messages in %2$s conversations</item>
     <item quantity="other">%1$d wiadomości w %2$s rozmowach</item>
   </plurals>
   <!-- %1$s == username, %2$s == conversation -->
@@ -674,6 +687,7 @@
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Ktoś wysłał do Ciebie wiadomość</item>
     <item quantity="few">Ktoś wysłał do Ciebie wiadomość</item>
+    <item quantity="many">Someone sent you %1$d messages</item>
     <item quantity="other">Ktoś wysłał do Ciebie wiadomość</item>
   </plurals>
   <!-- Others -->
@@ -723,6 +737,7 @@
   <plurals name="sharing__files__message">
     <item quantity="one">Zamierzasz udostępnić plik %1$d z %2$s.</item>
     <item quantity="few">Zamierzasz udostępnić plik %1$d z %2$s.</item>
+    <item quantity="many">You are about to share %1$d files with %2$s.</item>
     <item quantity="other">Zamierzasz udostępnić plik %1$d z %2$s.</item>
   </plurals>
   <!-- Sync errors -->
@@ -738,31 +753,37 @@
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="one">%1$d minutę temu</item>
     <item quantity="few">%1$d minut temu</item>
+    <item quantity="many">%1$d minutes ago</item>
     <item quantity="other">%1$d minut temu</item>
   </plurals>
   <plurals name="timestamp__x_hours_ago">
     <item quantity="one">%1$d godzinę temu</item>
     <item quantity="few">%1$d godzinę temu</item>
+    <item quantity="many">%1$d hours ago</item>
     <item quantity="other">%1$d godzin temu</item>
   </plurals>
   <plurals name="timestamp__x_days_ago">
     <item quantity="one">%1$d dzień temu</item>
     <item quantity="few">%1$s dni temu</item>
+    <item quantity="many">%1$d days ago</item>
     <item quantity="other">%1$s dni temu</item>
   </plurals>
   <plurals name="timestamp__x_weeks_ago">
     <item quantity="one">%1$d tydzień temu</item>
     <item quantity="few">%1$d tydzień temu</item>
+    <item quantity="many">%1$d weeks ago</item>
     <item quantity="other">%1$d tygodni temu</item>
   </plurals>
   <plurals name="timestamp__x_months_ago">
     <item quantity="one">%1$d miesiąc temu</item>
     <item quantity="few">%1$d miesiąc temu</item>
+    <item quantity="many">%1$d months ago</item>
     <item quantity="other">%1$s miesięcy temu</item>
   </plurals>
   <plurals name="timestamp__x_years_ago">
     <item quantity="one">%1$d rok temu</item>
     <item quantity="few">%1$d lat temu</item>
+    <item quantity="many">%1$d years ago</item>
     <item quantity="other">%1$d lat temu</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
@@ -800,6 +821,7 @@
   <plurals name="welcome__resend__timer_label">
     <item quantity="one">MOŻESZ POPROSIĆ O NOWY KOD W %1$d SEKUND</item>
     <item quantity="few">MOŻESZ POPROSIĆ O NOWY KOD W %1$d SEKUND</item>
+    <item quantity="many">YOU CAN REQUEST A NEW CODE IN %1$d SECONDS</item>
     <item quantity="other">MOŻESZ POPROSIĆ O NOWY KOD W %1$d SEKUND</item>
   </plurals>
   <string name="welcome__resend__manual">WYŚLIJ PONOWNIE</string>
@@ -993,6 +1015,7 @@
   <plurals name="message_footer__number_of_likes">
     <item quantity="one">%1$d osób</item>
     <item quantity="few">%1$d osób</item>
+    <item quantity="many">%1$d people</item>
     <item quantity="other">%1$d osób</item>
   </plurals>
   <string name="message_footer__status__sending">Wysyłanie&#8230;</string>
@@ -1017,21 +1040,25 @@
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d dzień</item>
     <item quantity="few">%1$d dni</item>
+    <item quantity="many">%1$d days</item>
     <item quantity="other">%1$d dni</item>
   </plurals>
   <plurals name="message_footer__expire__hours">
     <item quantity="one">%1$d godzina</item>
     <item quantity="few">%1$d godzin</item>
+    <item quantity="many">%1$d hours</item>
     <item quantity="other">%1$d godzin</item>
   </plurals>
   <plurals name="message_footer__expire__minutes">
     <item quantity="one">%1$d minuta</item>
     <item quantity="few">%1$d minut</item>
+    <item quantity="many">%1$d minutes</item>
     <item quantity="other">%1$d minut</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
     <item quantity="one">%1$d sekundy</item>
     <item quantity="few">%1$d sekund</item>
+    <item quantity="many">%1$d seconds</item>
     <item quantity="other">%1$d sekund</item>
   </plurals>
   <string name="collection_header_all">KOLEKCJA</string>
@@ -1052,21 +1079,25 @@
   <plurals name="conversation_list__new_message_count">
     <item quantity="one">%1$s nowa wiadomość</item>
     <item quantity="few">%1$s nowe wiadomości</item>
+    <item quantity="many">%1$s new messages</item>
     <item quantity="other">%1$s nowych wiadomości</item>
   </plurals>
   <plurals name="conversation_list__missed_calls_count">
     <item quantity="one">%1$s nieodebrane połączenie</item>
     <item quantity="few">%1$s nieodebrane połączenia</item>
+    <item quantity="many">%1$s missed calls</item>
     <item quantity="other">%1$s nieodebranych połączeń</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s zaczepienie</item>
     <item quantity="few">%1$s zaczepienia</item>
+    <item quantity="many">%1$s pings</item>
     <item quantity="other">%1$s zaczepień</item>
   </plurals>
   <plurals name="conversation_list__new_likes_count">
     <item quantity="one">%1$s ♥</item>
     <item quantity="few">%1$s ♥</item>
+    <item quantity="many">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
   <string name="conversation_list__unsent_message_long">⚠ Wiadomość niewysłana</string>
