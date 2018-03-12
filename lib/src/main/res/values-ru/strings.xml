@@ -169,7 +169,7 @@
   <plurals name="people_picker__recommended__common_connections__more">
     <item quantity="one">Знаком с %1$s и еще с %2$d-им</item>
     <item quantity="few">Знаком с %1$s и еще с %2$d-мя другими</item>
-    <item quantity="many">Knows %1$s and %2$d others</item>
+    <item quantity="many">Знаком с %1$s и еще с %2$d-ю другими</item>
     <item quantity="other">Знаком с %1$s и еще с %2$d-ю другими</item>
   </plurals>
   <string name="people_picker__recommended__common_connections__hide">СКРЫТЬ</string>
@@ -208,9 +208,9 @@
   <string name="content__system__other_added_participant">[[%1$s]] добавил(-а) %2$s</string>
   <string name="content__system__other_added_you">[[%1$s]] добавил(-а) вас</string>
   <string name="content__system__you_added_participant">[[Вы]] добавили %2$s</string>
-  <string name="content__system__other_joined">[[%1$s]] joined</string>
+  <string name="content__system__other_joined">[[%1$s]] присоединился</string>
   <string name="content__system__other_left">[[%1$s]] вышел(-ла)</string>
-  <string name="content__system__you_joined">[[You]] joined</string>
+  <string name="content__system__you_joined">[[You]] вошли</string>
   <string name="content__system__you_left">[[Вы]] вышли</string>
   <string name="content__system__other_removed_other">[[%1$s]] удалил(-а) %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] удалил(-а) вас</string>
@@ -343,7 +343,7 @@
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s начал(-а) использовать новое устройство.</item>
     <item quantity="few">%1$s начал(-а) использовать новые устройства.</item>
-    <item quantity="many">%1$s started using new devices.</item>
+    <item quantity="many">%1$s начал(-и) использовать новые устройства.</item>
     <item quantity="other">%1$s начал(-а) использовать новые устройства.</item>
   </plurals>
   <string name="conversation__degraded_confirmation__header__someone">Используется новое устройство.</string>
@@ -369,7 +369,7 @@
   <plurals name="participants__sub_header_xx_people">
     <item quantity="one">%1$d  участник</item>
     <item quantity="few">%1$d  УЧАСТНИКА</item>
-    <item quantity="many">%1$d PEOPLE</item>
+    <item quantity="many">%1$d УЧАСТНИКОВ</item>
     <item quantity="other">%1$d  УЧАСТНИКОВ</item>
   </plurals>
   <string name="group_name">Имя группы</string>
@@ -623,7 +623,7 @@
     <!-- should not happen though -->
     <item quantity="one">Здесь осталось место только для %1$d участника.</item>
     <item quantity="few">Здесь осталось место только для %1$d людей.</item>
-    <item quantity="many">There\'s only room for %1$d people in here.</item>
+    <item quantity="many">Здесь осталось место только для %1$d участников.</item>
     <item quantity="other">Здесь осталось место только для %1$d участников.</item>
   </plurals>
   <string name="calling__conversation_full__title">Слишком много людей для группового звонка</string>
@@ -631,7 +631,7 @@
     <!-- should not happen though -->
     <item quantity="one">Звонки возможны в разговорах до %1$d человек.</item>
     <item quantity="few">Звонки работают в разговорах до %1$d участников.</item>
-    <item quantity="many">Calls work in conversations with up to %1$d people.</item>
+    <item quantity="many">Звонки возможны в разговорах до %1$d участников.</item>
     <item quantity="other">Звонки работают в разговорах до %1$d человек.</item>
   </plurals>
   <!-- Lockscreen and notifications -->
@@ -639,13 +639,13 @@
   <plurals name="notification__new_messages">
     <item quantity="one">Сообщение от %2$s</item>
     <item quantity="few">Сообщение от %2$s</item>
-    <item quantity="many">%1$d messages from %2$s</item>
+    <item quantity="many">%1$d сообщений от %2$s</item>
     <item quantity="other">%1$d сообщений от %2$s</item>
   </plurals>
   <plurals name="notification__new_messages_groups">
     <item quantity="one">Сообщение в %2$s</item>
     <item quantity="few">Сообщение в %2$s</item>
-    <item quantity="many">%1$d messages in %2$s</item>
+    <item quantity="many">%1$d сообщений в %2$s</item>
     <item quantity="other">%1$d сообщений в %2$s</item>
   </plurals>
   <plurals name="notification__new_messages__multiple">
@@ -654,7 +654,7 @@ Plural:
 %1$d сообщений в %2$s разговорах
 </item>
     <item quantity="few">Сообщение в %2$s разговорах</item>
-    <item quantity="many">%1$d messages in %2$s conversations</item>
+    <item quantity="many">%1$d сообщений в %2$s разговорах</item>
     <item quantity="other">%1$d сообщений в %2$s разговорах</item>
   </plurals>
   <!-- %1$s == username, %2$s == conversation -->
@@ -693,7 +693,7 @@ Plural:
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Вам отправлено сообщение</item>
     <item quantity="few">Вам отправлено %1$d сообщения</item>
-    <item quantity="many">Someone sent you %1$d messages</item>
+    <item quantity="many">Вам отправлено %1$d сообщений</item>
     <item quantity="other">Вам отправлено %1$d сообщений</item>
   </plurals>
   <!-- Others -->
@@ -743,7 +743,7 @@ Plural:
   <plurals name="sharing__files__message">
     <item quantity="one">Вы собираетесь поделиться файлом %1$d с %2$s.</item>
     <item quantity="few">Вы собираетесь поделиться файлом %1$d с %2$s.</item>
-    <item quantity="many">You are about to share %1$d files with %2$s.</item>
+    <item quantity="many">Вы собираетесь поделиться файлами %1$d с %2$s.</item>
     <item quantity="other">Вы собираетесь поделиться файлами %1$d с %2$s.</item>
   </plurals>
   <!-- Sync errors -->
@@ -759,37 +759,37 @@ Plural:
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="one">%1$d минуту назад</item>
     <item quantity="few">%1$d минуты назад</item>
-    <item quantity="many">%1$d minutes ago</item>
+    <item quantity="many">%1$d минут назад</item>
     <item quantity="other">%1$d минут назад</item>
   </plurals>
   <plurals name="timestamp__x_hours_ago">
     <item quantity="one">%1$d час назад</item>
     <item quantity="few">%1$d часа назад</item>
-    <item quantity="many">%1$d hours ago</item>
+    <item quantity="many">%1$d часов назад</item>
     <item quantity="other">%1$d часов назад</item>
   </plurals>
   <plurals name="timestamp__x_days_ago">
     <item quantity="one">%1$d день назад</item>
     <item quantity="few">%1$d дня назад</item>
-    <item quantity="many">%1$d days ago</item>
+    <item quantity="many">%1$d дней назад</item>
     <item quantity="other">%1$d дней назад</item>
   </plurals>
   <plurals name="timestamp__x_weeks_ago">
     <item quantity="one">%1$d неделю назад</item>
     <item quantity="few">%1$d недели назад</item>
-    <item quantity="many">%1$d weeks ago</item>
+    <item quantity="many">%1$d недель назад</item>
     <item quantity="other">%1$d недель назад</item>
   </plurals>
   <plurals name="timestamp__x_months_ago">
     <item quantity="one">%1$d месяц назад</item>
     <item quantity="few">%1$d месяца назад</item>
-    <item quantity="many">%1$d months ago</item>
+    <item quantity="many">%1$d месяцев назад</item>
     <item quantity="other">%1$d месяцев назад</item>
   </plurals>
   <plurals name="timestamp__x_years_ago">
     <item quantity="one">%1$d год назад</item>
     <item quantity="few">%1$d года назад</item>
-    <item quantity="many">%1$d years ago</item>
+    <item quantity="many">%1$d лет назад</item>
     <item quantity="other">%1$d лет назад</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
@@ -827,7 +827,7 @@ Plural:
   <plurals name="welcome__resend__timer_label">
     <item quantity="one">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНДУ</item>
     <item quantity="few">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНДУ</item>
-    <item quantity="many">YOU CAN REQUEST A NEW CODE IN %1$d SECONDS</item>
+    <item quantity="many">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНД</item>
     <item quantity="other">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНД</item>
   </plurals>
   <string name="welcome__resend__manual">ОТПРАВИТЬ ПОВТОРНО</string>
@@ -1021,7 +1021,7 @@ Plural:
   <plurals name="message_footer__number_of_likes">
     <item quantity="one">%1$d человек</item>
     <item quantity="few">%1$d человека</item>
-    <item quantity="many">%1$d people</item>
+    <item quantity="many">%1$d участников</item>
     <item quantity="other">%1$d человек</item>
   </plurals>
   <string name="message_footer__status__sending">Отправка...</string>
@@ -1046,25 +1046,25 @@ Plural:
   <plurals name="message_footer__expire__days">
     <item quantity="one">%1$d день</item>
     <item quantity="few">%1$d дня</item>
-    <item quantity="many">%1$d days</item>
+    <item quantity="many">%1$d дней</item>
     <item quantity="other">%1$d дней</item>
   </plurals>
   <plurals name="message_footer__expire__hours">
     <item quantity="one">%1$d час</item>
     <item quantity="few">%1$d часа</item>
-    <item quantity="many">%1$d hours</item>
+    <item quantity="many">%1$d часов</item>
     <item quantity="other">%1$d часов</item>
   </plurals>
   <plurals name="message_footer__expire__minutes">
     <item quantity="one">%1$d минута</item>
     <item quantity="few">%1$d минуты</item>
-    <item quantity="many">%1$d minutes</item>
+    <item quantity="many">%1$d минут</item>
     <item quantity="other">%1$d минут</item>
   </plurals>
   <plurals name="message_footer__expire__seconds">
     <item quantity="one">%1$d секунда</item>
     <item quantity="few">%1$d секунды</item>
-    <item quantity="many">%1$d seconds</item>
+    <item quantity="many">%1$d секунд</item>
     <item quantity="other">%1$d секунд</item>
   </plurals>
   <string name="collection_header_all">КОЛЛЕКЦИЯ</string>
@@ -1085,19 +1085,19 @@ Plural:
   <plurals name="conversation_list__new_message_count">
     <item quantity="one">%1$s новое сообщение</item>
     <item quantity="few">%1$s новых сообщения</item>
-    <item quantity="many">%1$s new messages</item>
+    <item quantity="many">%1$s новых сообщений</item>
     <item quantity="other">%1$s новых сообщений</item>
   </plurals>
   <plurals name="conversation_list__missed_calls_count">
     <item quantity="one">%1$s пропущенный звонок</item>
     <item quantity="few">%1$s пропущенных звонка</item>
-    <item quantity="many">%1$s missed calls</item>
+    <item quantity="many">%1$s пропущенных звонков</item>
     <item quantity="other">%1$s пропущенных звонков</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s пинг</item>
     <item quantity="few">%1$s пинга</item>
-    <item quantity="many">%1$s pings</item>
+    <item quantity="many">%1$s пингов</item>
     <item quantity="other">%1$s пингов</item>
   </plurals>
   <plurals name="conversation_list__new_likes_count">
@@ -1210,18 +1210,18 @@ Plural:
   <string name="new_conv_no_results">НЕТ РЕЗУЛЬТАТОВ</string>
   <string name="new_conv_no_contacts">НЕТ КОНТАКТОВ</string>
   <string name="create_group_search">ПОИСК ИМЕН</string>
-  <string name="participants_divider_services">SERVICES (%1$s)</string>
-  <string name="participants_divider_people">PEOPLE (%1$s)</string>
-  <string name="group_name_hint">GROUP NAME</string>
+  <string name="participants_divider_services">СЕРВИСЫ (%1$s)</string>
+  <string name="participants_divider_people">УЧАСТНИКИ (%1$s)</string>
+  <string name="group_name_hint">ИМЯ ГРУППЫ</string>
   <string name="allow_guests_toggle_text">Разрешить гостям</string>
   <string name="allow_guests_toggle_info_text">Открыть этот разговор для людей не из вашей команды. Вы всегда сможете изменить это позже.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to people outside your team</string>
-  <string name="allow_guests">Allow Guests</string>
+  <string name="open_this_conversation_to_people_outside_your_team">Открыть этот разговор для людей не из вашей команды</string>
+  <string name="allow_guests">Разрешить гостям</string>
   <string name="guest_options_title">Опции гостей</string>
   <string name="allow_guests_error_title">Что-то пошло не так</string>
   <string name="allow_guests_error_body">Could not allow guests. Please try again.</string>
   <string name="allow_guests_warning_body">Текущие гости будут удалены из разговора. Новые гости допущены не будут.</string>
   <string name="allow_guests_warning_confirm">Удалить гостей</string>
-  <string name="guests_are_present">GUESTS ARE PRESENT</string>
-  <string name="participants_details_header_title">DETAILS</string>
+  <string name="guests_are_present">ПРИСУТСТВУЮТ ГОСТИ</string>
+  <string name="participants_details_header_title">ДЕТАЛИ</string>
 </resources>
