@@ -207,9 +207,9 @@
   <string name="content__system__other_added_participant">[[%1$s]] pridėjo %2$s</string>
   <string name="content__system__other_added_you">[[%1$s]] jus pridėjo</string>
   <string name="content__system__you_added_participant">[[Jūs]] pridėjote %2$s</string>
-  <string name="content__system__other_joined">[[%1$s]] joined</string>
+  <string name="content__system__other_joined">[[%1$s]] prisijungė</string>
   <string name="content__system__other_left">[[%1$s]] išėjo</string>
-  <string name="content__system__you_joined">[[You]] joined</string>
+  <string name="content__system__you_joined">[[You]] prisijungėte</string>
   <string name="content__system__you_left">[[Jūs]] išėjote</string>
   <string name="content__system__other_removed_other">[[%1$s]] pašalino %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] jus pašalino</string>
@@ -264,18 +264,18 @@
   <string name="content__file__action__save_error">Nepavyko įrašyti failo</string>
   <string name="content__location__no_map_placeholder">VIETA PASIRODYS ŽEMĖLAPYJE KAI ATSIRAS RYŠYS.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">PERVADINTI</string>
-  <string name="conversation__action__delete">IŠTRINTI</string>
-  <string name="conversation__action__archive">ARCHYVUOTI</string>
-  <string name="conversation__action__unarchive">IŠARCHYVUOTI</string>
+  <string name="conversation__action__rename">Pervadinti</string>
+  <string name="conversation__action__delete">Ištrinti</string>
+  <string name="conversation__action__archive">Archyvas</string>
+  <string name="conversation__action__unarchive">Išarchyvuoti</string>
   <string name="conversation__action__add_people">PRIDĖTI ŽMONES</string>
   <string name="conversation__action__create_group">SUKURTI GRUPĘ</string>
-  <string name="conversation__action__silence">NUTILDYTI</string>
-  <string name="conversation__action__unsilence">ĮJUNGTI GARSĄ</string>
-  <string name="conversation__action__leave">IŠEITI</string>
-  <string name="conversation__action__remove">ŠALINTI</string>
-  <string name="conversation__action__call">SKAMBINTI</string>
-  <string name="conversation__action__picture">PAVEIKSLAS</string>
+  <string name="conversation__action__silence">Išjungti pranešimus</string>
+  <string name="conversation__action__unsilence">Įjungti pranešimus</string>
+  <string name="conversation__action__leave">Išeiti</string>
+  <string name="conversation__action__remove">Šalinti</string>
+  <string name="conversation__action__call">Skambutis</string>
+  <string name="conversation__action__picture">Paveikslas</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ATVERTI</string>
   <string name="popover__action__remove">ŠALINTI</string>
@@ -396,7 +396,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Užblokuoti?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s negalės su jumis susisiekti ar pridėti jus į grupės susirašinėjimą.</string>
-  <string name="confirmation_menu__confirm_block">BLOKUOTI</string>
+  <string name="confirmation_menu__confirm_block">Užblokuoti</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Užblokuotas(-a)</string>
   <!-- Delete conversation -->
@@ -1197,6 +1197,7 @@
   <string name="integrations_create_conversation">Kurti naują susirašinėjimą</string>
   <string name="no_matches_found">Atitikmenų nerasta</string>
   <string name="create_group_conversation">Sukurti grupę</string>
+  <string name="create_guest_room_conversation">Kurti svečio kambarį</string>
   <string name="next_button">KITAS</string>
   <string name="skip_button">PRALEISTI</string>
   <string name="done_button">BAIGTA</string>
@@ -1206,20 +1207,30 @@
   <string name="new_conv_no_results">REZULTATŲ NĖRA</string>
   <string name="new_conv_no_contacts">KONTAKTŲ NĖRA</string>
   <string name="create_group_search">IEŠKOTI VARDŲ</string>
-  <string name="participants_divider_services">SERVICES (%1$s)</string>
-  <string name="participants_divider_people">PEOPLE (%1$s)</string>
-  <string name="group_name_hint">GROUP NAME</string>
+  <string name="participants_divider_services">PASLAUGOS (%1$s)</string>
+  <string name="participants_divider_people">ŽMONĖS (%1$s)</string>
+  <string name="group_name_hint">GRUPĖS PAVADINIMAS</string>
   <string name="allow_guests_toggle_text">Leisti svečius</string>
   <string name="allow_guests_toggle_info_text">Atverti šį pokalbį žmonėms ne iš jūsų komandos. Vėliau, visada galite tai pakeisti.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to people outside your team</string>
-  <string name="allow_guests">Allow Guests</string>
+  <string name="open_this_conversation_to_people_outside_your_team">Leiskite matyti šį susirašinėjimą žmonėms nesantiems komandoje.</string>
+  <string name="allow_guests">Leisti svečius</string>
   <string name="guest_options_title">Svečių nustatymai</string>
   <string name="allow_guests_error_title">Kažkas nutiko</string>
-  <string name="allow_guests_error_body">Could not allow guests. Please try again.</string>
+  <string name="allow_guests_error_body">Nepavyko leisti svečių. Pabandykite dar kartą.</string>
   <string name="allow_guests_warning_body">Dabartiniai svečiai bus pašalinti iš susirašinėjimo. Nauji svečiai prisijungi negalės.</string>
   <string name="allow_guests_warning_confirm">Pašalinti svečius</string>
-  <string name="guests_are_present">GUESTS ARE PRESENT</string>
+  <string name="guests_are_present">YRA SVEČIŲ</string>
   <string name="participants_details_header_title">IŠSAMIAU</string>
-  <string name="invite_button_description">People outside your team can join this conversation.</string>
+  <string name="invitation_link_description">Bet kas turintis nuorodą gali prisijungti prie susirašinėjimo 24 valandoms, net jei neturi „Wire“.</string>
+  <string name="create_link_button">Kurti nuorodą</string>
+  <string name="copy_link_button">Kopijuoti nuorodą</string>
+  <string name="share_link_button">Bendrinti nuorodą</string>
+  <string name="revoke_link_button">Atšaukti nuorodą</string>
+  <string name="invitation_link_title">KVIESTI KITUS SU NUORODA</string>
+  <string name="link_copied_toast">Nuoroda nukopijuota!</string>
+  <string name="revoke_link_message">Nauji svečiai negalės prisijungti spustelėję nuorodą. Dabartiniai svečiai liks prisijungę.</string>
+  <string name="revoke_link_confirm">Atšaukti nuorodą</string>
+  <string name="invite_button_description">Žmonės nesantys jūsų komandoje gali prisijungti prie susirašinėjimo.</string>
   <string name="invite_people">Pakviesti žmones</string>
+  <string name="guest_room_name">Svečių kambarys</string>
 </resources>

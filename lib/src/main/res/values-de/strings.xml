@@ -148,7 +148,7 @@ E-Mail-Adresse ein</string>
   <string name="people_picker__search_result__expander_title">Zeige alle %1$s ↓</string>
   <string name="people_picker__guest_label">Gast</string>
   <string name="people_picker__search_people">PERSONEN</string>
-  <string name="people_picker__search_services">SERVICES</string>
+  <string name="people_picker__search_services">DIENSTLEISTUNGEN</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Services</string>
   <string name="integrations_picker__add">Dienst hinzufügen</string>
@@ -195,7 +195,7 @@ E-Mail-Adresse ein</string>
   <string name="conversation_quick_menu__conversation_button__single_label">ÖFFNEN</string>
   <string name="conversation_quick_menu__conversation_button__group_label">GRUPPE ERSTELLEN</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__you_started_conversation">You started the conversation</string>
+  <string name="content__system__you_started_conversation">Du hast die Unterhaltung begonnen</string>
   <string name="content__system__other_started_conversation">%1$s started the conversation</string>
   <string name="content__system__with_participant">with %1$s</string>
   <string name="content__system__you_started_participant">[[Du]] hast eine Unterhaltung mit %2$s begonnen</string>
@@ -261,18 +261,18 @@ E-Mail-Adresse ein</string>
   <string name="content__file__action__save_error">Datei konnte nicht gespeichert werden</string>
   <string name="content__location__no_map_placeholder">DER STANDORT WIRD AUF DER KARTE ANGEZEIGT, SOBALD DU WIEDER ONLINE BIST.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">UMBENENNEN</string>
-  <string name="conversation__action__delete">LÖSCHEN</string>
-  <string name="conversation__action__archive">ARCHIVIEREN</string>
-  <string name="conversation__action__unarchive">DEARCHIVIEREN</string>
+  <string name="conversation__action__rename">Umbenennen</string>
+  <string name="conversation__action__delete">Löschen</string>
+  <string name="conversation__action__archive">Archivieren</string>
+  <string name="conversation__action__unarchive">Dearchivieren</string>
   <string name="conversation__action__add_people">KONTAKTE HINZUFÜGEN</string>
   <string name="conversation__action__create_group">GRUPPE ERSTELLEN</string>
-  <string name="conversation__action__silence">STUMM</string>
-  <string name="conversation__action__unsilence">LAUT</string>
-  <string name="conversation__action__leave">VERLASSEN</string>
-  <string name="conversation__action__remove">ENTFERNEN</string>
-  <string name="conversation__action__call">ANRUF</string>
-  <string name="conversation__action__picture">BILD SENDEN</string>
+  <string name="conversation__action__silence">Stumm</string>
+  <string name="conversation__action__unsilence">Benachrichtigen</string>
+  <string name="conversation__action__leave">Verlassen</string>
+  <string name="conversation__action__remove">Entfernen</string>
+  <string name="conversation__action__call">Anruf</string>
+  <string name="conversation__action__picture">Bild</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ÖFFNEN</string>
   <string name="popover__action__remove">ENTFERNEN</string>
@@ -381,7 +381,7 @@ E-Mail-Adresse ein</string>
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blockieren?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s wird dich nicht länger kontaktieren oder zu Gruppen hinzufügen können.</string>
-  <string name="confirmation_menu__confirm_block">BLOCKIEREN</string>
+  <string name="confirmation_menu__confirm_block">Blockieren</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Blockiert</string>
   <!-- Delete conversation -->
@@ -1137,6 +1137,7 @@ E-Mail-Adresse ein</string>
   <string name="integrations_create_conversation">Neue Unterhaltung beginnen</string>
   <string name="no_matches_found">No matches found</string>
   <string name="create_group_conversation">Gruppe erstellen</string>
+  <string name="create_guest_room_conversation">Gästezimmer erstellen</string>
   <string name="next_button">WEITER</string>
   <string name="skip_button">ÜBERSPRINGEN</string>
   <string name="done_button">FERTIG</string>
@@ -1151,7 +1152,7 @@ E-Mail-Adresse ein</string>
   <string name="group_name_hint">GROUP NAME</string>
   <string name="allow_guests_toggle_text">Gäste erlauben</string>
   <string name="allow_guests_toggle_info_text">Öffne diese Unterhaltung für Personen außerhalb deines Teams. Diese Einstellung kann später jederzeit geändert werden.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to people outside your team</string>
+  <string name="open_this_conversation_to_people_outside_your_team">Öffne diese Unterhaltung für Personen außerhalb deines Teams.</string>
   <string name="allow_guests">Allow Guests</string>
   <string name="guest_options_title">Gast-Optionen</string>
   <string name="allow_guests_error_title">Ein Fehler ist aufgetreten</string>
@@ -1160,6 +1161,16 @@ E-Mail-Adresse ein</string>
   <string name="allow_guests_warning_confirm">Gäste entfernen</string>
   <string name="guests_are_present">GUESTS ARE PRESENT</string>
   <string name="participants_details_header_title">DETAILS</string>
+  <string name="invitation_link_description">Jeder kann der Gruppe mit diesem Link für 24 Stunden beitreten - auch ohne eine Wire-Benutzerkonto.</string>
+  <string name="create_link_button">Create Link</string>
+  <string name="copy_link_button">Copy Link</string>
+  <string name="share_link_button">Share Link</string>
+  <string name="revoke_link_button">Link widerrufen</string>
+  <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
+  <string name="link_copied_toast">Link Copied!</string>
+  <string name="revoke_link_message">Neue Gäste werden sich nicht mehr mit diesem Link anmelden können. Aktuelle Gäste haben weiterhin Zugang zur Unterhaltung.</string>
+  <string name="revoke_link_confirm">Link widerrufen</string>
   <string name="invite_button_description">People outside your team can join this conversation.</string>
   <string name="invite_people">Freunde einladen</string>
+  <string name="guest_room_name">Guest Room</string>
 </resources>

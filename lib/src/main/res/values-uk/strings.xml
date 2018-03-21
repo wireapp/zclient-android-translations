@@ -207,9 +207,9 @@
   <string name="content__system__other_added_participant">[[%1$s]] додав(-ла) %2$s</string>
   <string name="content__system__other_added_you">[[%1$s]] додав вас</string>
   <string name="content__system__you_added_participant">[[Ви]] додали %2$s</string>
-  <string name="content__system__other_joined">[[%1$s]] joined</string>
+  <string name="content__system__other_joined">[[%1$s]] приєднався(-лася)</string>
   <string name="content__system__other_left">[[%1$s]] вийшов(-ла)</string>
-  <string name="content__system__you_joined">[[You]] joined</string>
+  <string name="content__system__you_joined">[[Ви]] приєдналися</string>
   <string name="content__system__you_left">[[Ви]] вийшли</string>
   <string name="content__system__other_removed_other">[[%1$s]] видалив(-ла) %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] видалив(-ла) вас</string>
@@ -264,18 +264,18 @@
   <string name="content__file__action__save_error">Не вдалося зберегти файл</string>
   <string name="content__location__no_map_placeholder">ВАШЕ РОЗТАШУВАННЯ БУДЕ ВІДОБРАЖЕНЕ НА КАРТІ ЯК ТІЛЬКИ ДОДАТОК ПОВЕРНЕТЬСЯ В ОНЛАЙН-РЕЖИМ.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">ПЕРЕЙМЕНУВАТИ</string>
-  <string name="conversation__action__delete">ВИДАЛИТИ</string>
-  <string name="conversation__action__archive">АРХІВУВАТИ</string>
-  <string name="conversation__action__unarchive">РОЗАРХІВУВАТИ</string>
+  <string name="conversation__action__rename">Перейменувати</string>
+  <string name="conversation__action__delete">Видалити</string>
+  <string name="conversation__action__archive">Архівувати</string>
+  <string name="conversation__action__unarchive">Розархівувати</string>
   <string name="conversation__action__add_people">ДОДАТИ УЧАСНИКІВ</string>
   <string name="conversation__action__create_group">СТВОРИТИ ГРУПУ</string>
-  <string name="conversation__action__silence">ВИМК. ЗВУК</string>
-  <string name="conversation__action__unsilence">ВКЛ. ЗВУК</string>
-  <string name="conversation__action__leave">ЗАЛИШИТИ</string>
-  <string name="conversation__action__remove">ВИДАЛИТИ</string>
-  <string name="conversation__action__call">ДЗВІНОК</string>
-  <string name="conversation__action__picture">КАРТИНКА</string>
+  <string name="conversation__action__silence">Вимкнути звук</string>
+  <string name="conversation__action__unsilence">Увімкнути звук</string>
+  <string name="conversation__action__leave">Вийти</string>
+  <string name="conversation__action__remove">Видалити</string>
+  <string name="conversation__action__call">Зателефонувати</string>
+  <string name="conversation__action__picture">Картинка</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ВІДКРИТИ</string>
   <string name="popover__action__remove">ВИДАЛИТИ</string>
@@ -396,7 +396,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Заблокувати?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s не буде мати можливості зв\'язатися з вами або додати вас до групових розмов.</string>
-  <string name="confirmation_menu__confirm_block">ЗАБЛОКУВАТИ</string>
+  <string name="confirmation_menu__confirm_block">Заблокувати</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Заблокований(-на)</string>
   <!-- Delete conversation -->
@@ -709,7 +709,7 @@
   <string name="system_notification__ongoing">Дзвонить</string>
   <string name="number_of_conversations_string">АРХІВ</string>
   <!-- Notification actions -->
-  <string name="notification__action__call">Аудіодзвінок</string>
+  <string name="notification__action__call">Зателефонувати</string>
   <string name="notification__action__reply">Відповісти</string>
   <!-- Quick reply -->
   <string name="quick_reply__counter">%1$d з %2$d</string>
@@ -1197,6 +1197,7 @@
   <string name="integrations_create_conversation">Розпочати нову розмову</string>
   <string name="no_matches_found">Співпадіння відсутні</string>
   <string name="create_group_conversation">Створити групу</string>
+  <string name="create_guest_room_conversation">Створити гостьову кімнату</string>
   <string name="next_button">ДАЛІ</string>
   <string name="skip_button">ПРОПУСТИТИ</string>
   <string name="done_button">ГОТОВО</string>
@@ -1206,20 +1207,30 @@
   <string name="new_conv_no_results">СПІВПАДІННЯ ВІДСУТНІ</string>
   <string name="new_conv_no_contacts">КОНТАКТИ ВІДСУТНІ</string>
   <string name="create_group_search">ПОШУК ЗА ІМЕНЕМ</string>
-  <string name="participants_divider_services">SERVICES (%1$s)</string>
-  <string name="participants_divider_people">PEOPLE (%1$s)</string>
-  <string name="group_name_hint">GROUP NAME</string>
+  <string name="participants_divider_services">СЕРВІСИ (%1$s)</string>
+  <string name="participants_divider_people">УЧАСНИКИ (%1$s)</string>
+  <string name="group_name_hint">ІМ\'Я ГРУПОВОЇ РОЗМОВИ</string>
   <string name="allow_guests_toggle_text">Дозволити присутність гостей</string>
   <string name="allow_guests_toggle_info_text">Зробити розмову доступною для людей поза межами вашої команди. Це налаштування завжди можна змінити пізніше.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to people outside your team</string>
-  <string name="allow_guests">Allow Guests</string>
+  <string name="open_this_conversation_to_people_outside_your_team">Зробити цю розмову доступною для людей поза межами вашої команди.</string>
+  <string name="allow_guests">Дозволити присутність гостей</string>
   <string name="guest_options_title">Гостьові налаштування</string>
   <string name="allow_guests_error_title">Щось пішло не так</string>
   <string name="allow_guests_error_body">Не вдалося активувати гостьовий доступ. Будь ласка, спробуйте пізніше.</string>
   <string name="allow_guests_warning_body">Поточні гості будуть вилучені з розмови. Нові гості не матимуть доступу до неї.</string>
   <string name="allow_guests_warning_confirm">Видалити гостей</string>
-  <string name="guests_are_present">GUESTS ARE PRESENT</string>
-  <string name="participants_details_header_title">DETAILS</string>
+  <string name="guests_are_present">ПРИСУТНІ ГОСТІ</string>
+  <string name="participants_details_header_title">ПОДРОБИЦІ</string>
+  <string name="invitation_link_description">З цим лінком кожен може приєднатися до розмови протягом 24 годин, навіть якщо він або вона не зареєстровані в Wire.</string>
+  <string name="create_link_button">Створити лінк</string>
+  <string name="copy_link_button">Скопіювати лінк</string>
+  <string name="share_link_button">Поділитись лінком</string>
+  <string name="revoke_link_button">Відкликати лінк</string>
+  <string name="invitation_link_title">ЗАПРОСИТИ ІНШИХ ЛЮДЕЙ З ДОПОМОГОЮ ЛІНКА</string>
+  <string name="link_copied_toast">Лінк скопійовано!</string>
+  <string name="revoke_link_message">Нові гості не зможуть приєднатися з цим лінком. Поточні гості все ще матимуть доступ.</string>
+  <string name="revoke_link_confirm">Відкликати лінк</string>
   <string name="invite_button_description">Люди за межами вашої команди можуть приєднатися до цієї розмови.</string>
   <string name="invite_people">Запросити людей</string>
+  <string name="guest_room_name">Гостьова кімната</string>
 </resources>
