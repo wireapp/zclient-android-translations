@@ -156,7 +156,7 @@
   <string name="integrations_chathead__section_title">Службы</string>
   <string name="integrations_errors_add_service">Добавление службы невозможно</string>
   <string name="integrations_errors_service_unavailable">В данный момент служба недоступна</string>
-  <string name="conversation_errors_full">The conversation is full</string>
+  <string name="conversation_errors_full">Беседа переполнена</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Поделиться контактами</string>
   <string name="people_picker__share_contacts__message">Wire поможет вам найти друзей, если поделитесь вашими контактами.</string>
@@ -199,8 +199,8 @@
   <string name="conversation_quick_menu__conversation_button__single_label">ОТКРЫТЬ</string>
   <string name="conversation_quick_menu__conversation_button__group_label">Создать группу</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__you_started_conversation">Вы начали разговор</string>
-  <string name="content__system__other_started_conversation">%1$s начал разговор</string>
+  <string name="content__system__you_started_conversation">Вы начали беседу</string>
+  <string name="content__system__other_started_conversation">%1$s начал беседу</string>
   <string name="content__system__with_participant">с %1$s</string>
   <string name="content__system__you_started_participant">[[Вы]] начали разговор с %2$s</string>
   <string name="content__system__other_started_you">[[%1$s]] начал(-а) разговор с вами</string>
@@ -215,8 +215,8 @@
   <string name="content__system__other_removed_other">[[%1$s]] удалил(-а) %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] удалил(-а) вас</string>
   <string name="content__system__you_removed_other">[[Вы]] удалили %2$s</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] переименовал разговор</string>
-  <string name="content__system__you_renamed_conv">[[You]] переименовал разговор</string>
+  <string name="content__system__other_renamed_conv">[[%1$s]] переименовал беседу</string>
+  <string name="content__system__you_renamed_conv">[[You]] переименовал беседу</string>
   <string name="content__system__message_deleted">Это сообщение было удалено</string>
   <string name="content_system_message_timestamp_failure">Неотправленное сообщение.</string>
   <string name="content_system_message_timestamp_pending">Отправка\u2026</string>
@@ -326,9 +326,9 @@
     <item quantity="other">%1$d общих знакомых</item>
   </plurals>
   <string name="connect_request__sub_header__pending_label">Ожидает подтверждения</string>
-  <string name="connect_request__cancel_request__label">Отменить запрос</string>
+  <string name="connect_request__cancel_request__label">ОТМЕНИТЬ ЗАПРОС НА ПОДКЛЮЧЕНИЕ</string>
   <string name="connect_request__unblock__button__text">Разблокировать</string>
-  <string name="send_connect_request__connect_button__text">Добавить в контакты</string>
+  <string name="send_connect_request__connect_button__text">ПОДКЛЮЧИТЬСЯ</string>
   <plurals name="connect_inbox__link__name">
     <item quantity="one">%1$s человек ожидает</item>
     <item quantity="few">%1$s человека ожидает</item>
@@ -402,7 +402,7 @@
   <string name="connect_request__footer__blocked_label">Заблокирован</string>
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Удалить содержимое?</string>
-  <string name="confirmation_menu__meta_delete_text">Это очистит историю разговоров на всех ваших устройствах.</string>
+  <string name="confirmation_menu__meta_delete_text">Это очистит историю бесед на всех ваших устройствах.</string>
   <string name="confirmation_menu__confirm_delete">УДАЛИТЬ</string>
   <string name="confirmation_menu__delete_conversation__checkbox__label">Также покинуть разговор</string>
   <!-- Rich media -->
@@ -1129,7 +1129,7 @@ Plural:
   <string name="conversation_list__header__archive_title">АРХИВ</string>
   <string name="guest_indicator">ГОСТЬ</string>
   <string name="participant_tab_guest_indicator_label">Гость</string>
-  <string name="availability_none">Отключены</string>
+  <string name="availability_none">Нет доступных</string>
   <string name="availability_available">Доступен</string>
   <string name="availability_away">Отошел</string>
   <string name="availability_busy">Занят</string>
@@ -1205,7 +1205,7 @@ Plural:
   <string name="next_button">ДАЛЕЕ</string>
   <string name="skip_button">ПРОПУСТИТЬ</string>
   <string name="done_button">ГОТОВО</string>
-  <string name="new_group_header">НОВАЯ ГРУППА</string>
+  <string name="new_group_header">СОЗДАТЬ ГРУППУ</string>
   <string name="add_people_empty_header">ДОБАВИТЬ УЧАСТНИКОВ</string>
   <string name="add_people_count_header">ДОБАВИТЬ УЧАСТНИКОВ (%1$s)</string>
   <string name="new_conv_no_results">НЕТ РЕЗУЛЬТАТОВ</string>
@@ -1220,12 +1220,12 @@ Plural:
   <string name="allow_guests">Разрешить гостям</string>
   <string name="guest_options_title">Опции гостей</string>
   <string name="allow_guests_error_title">Что-то пошло не так</string>
-  <string name="allow_guests_error_body">Could not allow guests. Please try again.</string>
+  <string name="allow_guests_error_body">Не удалось активировать гостевой доступ. Попробуйте снова.</string>
   <string name="allow_guests_warning_body">Текущие гости будут удалены из разговора. Новые гости допущены не будут.</string>
   <string name="allow_guests_warning_confirm">Удалить гостей</string>
   <string name="guests_are_present">ПРИСУТСТВУЮТ ГОСТИ</string>
   <string name="participants_details_header_title">ДЕТАЛИ</string>
-  <string name="invitation_link_description">Любой, у кого есть ссылка, может присоединиться к разговору в течение 24 часов, даже если у них нет Wire.</string>
+  <string name="invitation_link_description">Любой, у кого есть ссылка, может присоединиться к разговору, даже если у них нет Wire</string>
   <string name="create_link_button">Создать ссылку</string>
   <string name="copy_link_button">Скопировать ссылку</string>
   <string name="share_link_button">Поделиться ссылкой</string>
@@ -1237,4 +1237,7 @@ Plural:
   <string name="invite_button_description">Участники не из вашей команды смогут присоединиться к этому разговору.</string>
   <string name="invite_people">Пригласить людей</string>
   <string name="guest_room_name">Гостевая комната</string>
+  <string name="guest_time_left_hours">Осталось %1$s час.</string>
+  <string name="guest_time_left_hours_minutes">Осталось %1$s.%2$s час.</string>
+  <string name="guest_time_left_minutes">Осталось менее %1$s мин.</string>
 </resources>

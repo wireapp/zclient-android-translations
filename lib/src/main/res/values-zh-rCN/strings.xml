@@ -154,8 +154,8 @@
   <string name="integrations_conv_bot">Bot</string>
   <string name="integrations_chathead__section_title">服务</string>
   <string name="integrations_errors_add_service">Adding service not possible</string>
-  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
-  <string name="conversation_errors_full">The conversation is full</string>
+  <string name="integrations_errors_service_unavailable">服务暂时无法使用</string>
+  <string name="conversation_errors_full">对话人数已达上限</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">共享联络人</string>
   <string name="people_picker__share_contacts__message">在您分享通讯录后，Wire将帮助您找到其他的好友。</string>
@@ -316,9 +316,9 @@
     <item quantity="other">%1$d个共同好友</item>
   </plurals>
   <string name="connect_request__sub_header__pending_label">尚未处理</string>
-  <string name="connect_request__cancel_request__label">取消好友请求</string>
+  <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
   <string name="connect_request__unblock__button__text">取消黑名单</string>
-  <string name="send_connect_request__connect_button__text">新增好友</string>
+  <string name="send_connect_request__connect_button__text">CONNECT</string>
   <plurals name="connect_inbox__link__name">
     <item quantity="other">%1$s 个好友邀请</item>
   </plurals>
@@ -377,7 +377,7 @@
   <string name="connect_request__footer__blocked_label">已拉黑</string>
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">删除内容？</string>
-  <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
+  <string name="confirmation_menu__meta_delete_text">这将清除你所有设备上的会话历史。</string>
   <string name="confirmation_menu__confirm_delete">删除</string>
   <string name="confirmation_menu__delete_conversation__checkbox__label">并且离开聊天室</string>
   <!-- Rich media -->
@@ -1085,7 +1085,7 @@
   <string name="pick_user_teams_invite">邀请好友使用Wire</string>
   <string name="teams_invitations_skip">SKIP</string>
   <string name="teams_invitations_done">DONE</string>
-  <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
+  <string name="teams_invitations_error_too_many">已达到发送邀请的最大数量</string>
   <string name="teams_invitations_error_blacklisted_email">The given e-mail address has been blacklisted due to a permanent bounce or a complaint.</string>
   <string name="teams_invitations_error_no_identity">The user has no verified identity (email or phone number).</string>
   <string name="teams_invitations_error_no_email">This operation requires the user to have a verified email address.</string>
@@ -1101,14 +1101,14 @@
   <string name="invitation_screen_subtitle">邀请你的同事加入。</string>
   <string name="add_service_button_text">Add Service</string>
   <string name="remove_service_button_text">Remove Service</string>
-  <string name="integrations_create_conversation">Create a new conversation</string>
+  <string name="integrations_create_conversation">开始新对话</string>
   <string name="no_matches_found">No matches found</string>
   <string name="create_group_conversation">创建群聊</string>
-  <string name="create_guest_room_conversation">Create guest room</string>
+  <string name="create_guest_room_conversation">创建访客聊天室</string>
   <string name="next_button">NEXT</string>
   <string name="skip_button">SKIP</string>
   <string name="done_button">DONE</string>
-  <string name="new_group_header">NEW GROUP</string>
+  <string name="new_group_header">建立群组</string>
   <string name="add_people_empty_header">新增参与者</string>
   <string name="add_people_count_header">ADD PEOPLE (%1$s)</string>
   <string name="new_conv_no_results">NO RESULTS</string>
@@ -1117,27 +1117,30 @@
   <string name="participants_divider_services">SERVICES (%1$s)</string>
   <string name="participants_divider_people">PEOPLE (%1$s)</string>
   <string name="group_name_hint">GROUP NAME</string>
-  <string name="allow_guests_toggle_text">Allow guests</string>
-  <string name="allow_guests_toggle_info_text">Open this conversation to people outside your team. You can always change it later.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to people outside your team.</string>
+  <string name="allow_guests_toggle_text">允许访客</string>
+  <string name="allow_guests_toggle_info_text">对团队以外的人公开此对话。您以后可随时更改。</string>
+  <string name="open_this_conversation_to_people_outside_your_team">开放这个对话与团队以外的访客。</string>
   <string name="allow_guests">Allow Guests</string>
-  <string name="guest_options_title">Guest Options</string>
+  <string name="guest_options_title">访客选项</string>
   <string name="allow_guests_error_title">好像出了点问题。</string>
   <string name="allow_guests_error_body">Could not allow guests. Please try again.</string>
-  <string name="allow_guests_warning_body">Current guests will be removed from the conversation. New guests will not be allowed.</string>
-  <string name="allow_guests_warning_confirm">Remove Guests</string>
+  <string name="allow_guests_warning_body">将移除对话中的访客。 将不能加入新访客。</string>
+  <string name="allow_guests_warning_confirm">移除访客</string>
   <string name="guests_are_present">GUESTS ARE PRESENT</string>
   <string name="participants_details_header_title">DETAILS</string>
-  <string name="invitation_link_description">Anyone with the link can join the conversation for 24 hours, even if they don’t have Wire.</string>
-  <string name="create_link_button">Create Link</string>
-  <string name="copy_link_button">Copy Link</string>
-  <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link</string>
+  <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
+  <string name="create_link_button">创建链接</string>
+  <string name="copy_link_button">复制链接</string>
+  <string name="share_link_button">分享链接</string>
+  <string name="revoke_link_button">撤销连结</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
-  <string name="link_copied_toast">Link Copied!</string>
-  <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
-  <string name="revoke_link_confirm">Revoke Link</string>
-  <string name="invite_button_description">People outside your team can join this conversation.</string>
+  <string name="link_copied_toast">链接已复制！</string>
+  <string name="revoke_link_message">新访客将无法加入此连结。 目前访客仍可使用。</string>
+  <string name="revoke_link_confirm">撤销连结</string>
+  <string name="invite_button_description">你的团队以外的访客可以参加这个对话。</string>
   <string name="invite_people">邀请联系人</string>
-  <string name="guest_room_name">Guest Room</string>
+  <string name="guest_room_name">访客聊天室</string>
+  <string name="guest_time_left_hours">%1$sh left</string>
+  <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
+  <string name="guest_time_left_minutes">Less than %1$sm left</string>
 </resources>
