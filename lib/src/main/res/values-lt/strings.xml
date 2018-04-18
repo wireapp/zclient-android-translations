@@ -92,6 +92,7 @@
   <string name="new_reg_internet_connectivity_error_header">Nėra interneto ryšio</string>
   <string name="new_reg_internet_connectivity_error_message">Patikrinkite savo interneto ryšį ir bandykite dar kartą</string>
   <string name="new_reg__code_resent">Naujas kodas jums buvo išsiųstas SMS žinute</string>
+  <string name="new_reg__email_code_resent">Naujas kodas jums buvo išsiųstas el. paštu</string>
   <string name="new_reg__code_resent__call">Palaukite skambučio</string>
   <string name="new_reg__invalid_code__auto_verification__manual">Kažkas nutiko.\nĮsitikinkite, kad telefono numeris ir kodas yra teisingi.</string>
   <string name="new_reg__default_country">de</string>
@@ -444,6 +445,7 @@
   <string name="pref_developer_screen_title">Kūrėjo nustatymai</string>
   <string name="pref_dev_avs_screen_title">AVS nustatymai</string>
   <string name="pref_profile_screen_title">Profilis</string>
+  <string name="pref_backup_screen_title">Kurti susirašinėjimų atsarginę kopiją</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Paskyra</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -453,6 +455,7 @@
   <string name="pref_account_actions_category_title">Veiksmai</string>
   <string name="pref_account_personal_category_title">Asmeninis</string>
   <string name="pref_account_appearance_category_title">Išvaizda</string>
+  <string name="pref_account_conversations_category_title">Praeitis</string>
   <string name="pref_account_details_category_summary">Žmonės gali jus rasti pagal šią informaciją.</string>
   <string name="pref_account_personal_category_summary">Informacija niekam kitam nėra matoma</string>
   <string name="pref_account_username_title">Naudotojo vardas</string>
@@ -1160,10 +1163,10 @@
   <string name="teams_set_name_title">Jūsų vardas</string>
   <string name="teams_set_name_hint">VARDAS PAVARDĖ</string>
   <string name="app_entry_slogan">Saugus bendravimas visiems.</string>
-  <string name="app_entry_create_account">Sukurti paskyrą</string>
-  <string name="app_entry_create_account_sub">asmeniniam naudojimui</string>
-  <string name="app_entry_create_team">Sukurti komandą</string>
-  <string name="app_entry_create_team_sub">darbo tikslais</string>
+  <string name="app_entry_create_account">Asmeniniam naudojimui</string>
+  <string name="app_entry_create_account_sub">kurti paskyrą</string>
+  <string name="app_entry_create_team">Organizacijoms</string>
+  <string name="app_entry_create_team_sub">kurti komandą</string>
   <string name="app_entry_login_sub">Jau turite paskyrą?</string>
   <string name="app_entry_login">Prisijungti</string>
   <string name="app_entry_tc_dialog_title">Paslaugos teikimo sąlygos</string>
@@ -1225,7 +1228,7 @@
   <string name="create_link_button">Kurti nuorodą</string>
   <string name="copy_link_button">Kopijuoti nuorodą</string>
   <string name="share_link_button">Bendrinti nuorodą</string>
-  <string name="revoke_link_button">Atšaukti nuorodą</string>
+  <string name="revoke_link_button">Atšaukti nuorodą&#8230;</string>
   <string name="invitation_link_title">KVIESTI KITUS SU NUORODA</string>
   <string name="link_copied_toast">Nuoroda nukopijuota!</string>
   <string name="revoke_link_message">Nauji svečiai negalės prisijungti spustelėję nuorodą. Dabartiniai svečiai liks prisijungę.</string>
@@ -1236,4 +1239,30 @@
   <string name="guest_time_left_hours">Liko %1$s val.</string>
   <string name="guest_time_left_hours_minutes">Liko %1$s val. %2$s min.</string>
   <string name="guest_time_left_minutes">Liko mažiau nei %1$s min.</string>
+  <string name="backup_description">Kurkite atsarginę kopiją, kad išsaugotumėte susirašinėjimo praeitį. Jei prarasite savo įrenginį arba pasikeisite nauju, tai galėsite panaudoti praeitis atstatymui.
+        Atsarginės kopijos failas nėra apsaugotas „Wire“ kodavimo, dėl to jūs turite parinkti jam saugią vietą.</string>
+  <string name="pref_account_backup_title">Kurti susirašinėjimų atsarginę kopiją</string>
+  <string name="add_email_address">Pridėkite savo el. pašto adresą</string>
+  <string name="set_a_password">Nustatykite slaptažodį</string>
+  <string name="email_and_password_explanation">Norėdami naudotis „Wire“ keliuose įrenginiuose, privalote pridėti el. pašto adresą ir slaptažodį.</string>
+  <string name="set_password_failed_message">Kažkas atsitiko.\nPabandykite prisijungti dar kartą.</string>
+  <string name="new_device_password">Naujas įrenginys</string>
+  <string name="new_device_password_explanation">Patvirtinsite įrašę savo slaptažodį.</string>
+  <string name="restore_from_backup_button">ATSTATYTI IŠ ATSARGINĖS KOPIJOS</string>
+  <string name="second_launch__header">Naudojote „Wire“ šiame įrenginyje.</string>
+  <string name="second_launch__sub_header">Jei praėjo daug laiko, kai kurios žinutės čia gali neatsirasti.</string>
+  <string name="restore_override_alert_title">Atkurti praeitį</string>
+  <string name="restore_override_alert_text">Atsarginės kopijos turinys pakeis susirašinėjimo praeitį šiame įrenginyje. Atkurti atsarginėje kopijoje esančią praeitį galite tik toje pačioje platformoje, kur jis ir buvo sukurtas.</string>
+  <string name="restore_override_alert_ok">Pasirinkite atsarginės kopijos failą</string>
+  <string name="back_up_progress">KURIAMA ATSARGINĖ KOPIJA&#8230;</string>
+  <string name="back_up_progress_complete">Baigta</string>
+  <string name="pref_account_backup_warning_title">Nustatykite el. pašto adresą ir slaptažodį.</string>
+  <string name="pref_account_backup_warning_message">Norėdami sukurti susirašinėjimo praeitis atsarginę kopiją, jums būtina naudoti el. pašto adresą ir slaptažodį. Sukurti galite paskyros puslapyje Nustatymuose.</string>
+  <string name="pref_account_backup_warning_ok">GERAI</string>
+  <string name="export_generic_error_title">Failo išsaugoti nepavyko</string>
+  <string name="export_generic_error_text">Neturite pakankamai vietos arba teisių failą išsaugoti ten.</string>
+  <string name="backup_button">Bandyti dar kartą</string>
+  <string name="backup_import_error_unknown">Kažkas nutiko</string>
+  <string name="backup_import_error_unsupported_version">Neįmanoma perskaityti atsarginės kopijos, nes ji kurta nepalaikomos versijos</string>
+  <string name="backup_import_error_wrong_account">Neįmanoma perskaityti atsarginės kopijos, nes ji priklauso kitai paskyrai</string>
 </resources>

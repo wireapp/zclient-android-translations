@@ -92,6 +92,7 @@
   <string name="new_reg_internet_connectivity_error_header">কোন ইন্টারনেট কানেকশন নেই। </string>
   <string name="new_reg_internet_connectivity_error_message">Please check your Internet connection and try again</string>
   <string name="new_reg__code_resent">নতুন কোড এসএমএস-এর মাধ্যমে আপনার কাছে পাঠানো হয়েছে</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">কলের জন্য অপেক্ষা করুন</string>
   <string name="new_reg__invalid_code__auto_verification__manual">কিছু ভুল হয়েছে। \nঅনুগ্রহ করে ফোন নম্বর এবং কোড সঠিক কিনা নিশ্চিত করুন।</string>
   <string name="new_reg__default_country">বিডি</string>
@@ -428,6 +429,7 @@
   <string name="pref_developer_screen_title">ডেভেলপারের সেটিং সমূহ</string>
   <string name="pref_dev_avs_screen_title">AVS সেটিং সমূহ</string>
   <string name="pref_profile_screen_title">Profile</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">একাউন্ট</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -437,6 +439,7 @@
   <string name="pref_account_actions_category_title">অ্যাকশন</string>
   <string name="pref_account_personal_category_title">Personal</string>
   <string name="pref_account_appearance_category_title">উপস্থিতি</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">মানুষজন আপনাকে এই তথ্যগুলি দিয়ে খুঁজে পাবে।</string>
   <string name="pref_account_personal_category_summary">The information is not visible to anyone else</string>
   <string name="pref_account_username_title">Username</string>
@@ -1099,10 +1102,10 @@
   <string name="teams_set_name_title">Your name</string>
   <string name="teams_set_name_hint">FULL NAME</string>
   <string name="app_entry_slogan">Secure messaging for everyone.</string>
-  <string name="app_entry_create_account">একাউন্ট তৈরি করুন</string>
-  <string name="app_entry_create_account_sub">for personal use</string>
-  <string name="app_entry_create_team">Create a team</string>
-  <string name="app_entry_create_team_sub">for work</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Already have an account?</string>
   <string name="app_entry_login">লগ ইন</string>
   <string name="app_entry_tc_dialog_title">Terms of Service</string>
@@ -1164,7 +1167,7 @@
   <string name="create_link_button">Create Link</string>
   <string name="copy_link_button">Copy Link</string>
   <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link Copied!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1175,4 +1178,30 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        The backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="set_password_failed_message">Something went wrong.\nPlease try to log in again.</string>
+  <string name="new_device_password">New device</string>
+  <string name="new_device_password_explanation">Confirm by entering your password.</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">You\'ve used Wire on this device before.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">Complete</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">ওকে</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">পুনরায় চেষ্টা করুন</string>
+  <string name="backup_import_error_unknown">কিছু একটা ভুল হয়েছে</string>
+  <string name="backup_import_error_unsupported_version">Cannot read backup because it\'s from an unsupported version</string>
+  <string name="backup_import_error_wrong_account">Cannot read backup because it\'s from a different account</string>
 </resources>

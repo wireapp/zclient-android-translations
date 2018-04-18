@@ -93,6 +93,7 @@ E-Mail-Adresse ein</string>
   <string name="new_reg_internet_connectivity_error_header">Keine Internetverbindung</string>
   <string name="new_reg_internet_connectivity_error_message">Bitte überprüfe deine Internetverbindung und versuche es erneut</string>
   <string name="new_reg__code_resent">Ein neuer Code wurde per SMS gesendet</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Auf Anruf warten</string>
   <string name="new_reg__invalid_code__auto_verification__manual">Es ist ein Fehler aufgetreten.\nBitte bestätige das Telefonnummer und Code richtig sind.</string>
   <string name="new_reg__default_country">de</string>
@@ -429,6 +430,7 @@ E-Mail-Adresse ein</string>
   <string name="pref_developer_screen_title">Developer-Einstellungen</string>
   <string name="pref_dev_avs_screen_title">AVS-Einstellungen</string>
   <string name="pref_profile_screen_title">Profil</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Benutzerkonto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -438,6 +440,7 @@ E-Mail-Adresse ein</string>
   <string name="pref_account_actions_category_title">Aktionen</string>
   <string name="pref_account_personal_category_title">Nutzerangaben</string>
   <string name="pref_account_appearance_category_title">Erscheinungsbild</string>
+  <string name="pref_account_conversations_category_title">Verlauf</string>
   <string name="pref_account_details_category_summary">Du kannst über diese Informationen von anderen gefunden werden.</string>
   <string name="pref_account_personal_category_summary">Diese Informationen werden anderen nicht angezeigt</string>
   <string name="pref_account_username_title">Benutzername</string>
@@ -1100,10 +1103,10 @@ E-Mail-Adresse ein</string>
   <string name="teams_set_name_title">Dein Name</string>
   <string name="teams_set_name_hint">VOLLSTÄNDIGER NAME</string>
   <string name="app_entry_slogan">Sicherer Messenger für alle.</string>
-  <string name="app_entry_create_account">Konto erstellen</string>
-  <string name="app_entry_create_account_sub">für den persönlichen Gebrauch</string>
-  <string name="app_entry_create_team">Team erstellen</string>
-  <string name="app_entry_create_team_sub">für die Arbeit</string>
+  <string name="app_entry_create_account">Für die private Nutzung</string>
+  <string name="app_entry_create_account_sub">Konto erstellen</string>
+  <string name="app_entry_create_team">Für Organisationen</string>
+  <string name="app_entry_create_team_sub">Team erstellen</string>
   <string name="app_entry_login_sub">Hast du bereits ein Benutzerkonto?</string>
   <string name="app_entry_login">Einloggen</string>
   <string name="app_entry_tc_dialog_title">Nutzungsbedingungen</string>
@@ -1165,10 +1168,10 @@ E-Mail-Adresse ein</string>
   <string name="create_link_button">Link erstellen</string>
   <string name="copy_link_button">Link kopieren</string>
   <string name="share_link_button">Link teilen</string>
-  <string name="revoke_link_button">Link widerrufen</string>
+  <string name="revoke_link_button">Link widerrufen&#8230;</string>
   <string name="invitation_link_title">LADEN SIE ANDERE MIT EINEM LINK EIN</string>
   <string name="link_copied_toast">Link kopiert!</string>
-  <string name="revoke_link_message">Neue Gäste werden sich nicht mehr mit diesem Link anmelden können. Aktuelle Gäste haben weiterhin Zugang zur Unterhaltung.</string>
+  <string name="revoke_link_message">Neue Gäste werden sich nicht mehr mit diesem Link anmelden können. Aktuelle Gäste haben weiterhin Zugang zum Gästebereich.</string>
   <string name="revoke_link_confirm">Link widerrufen</string>
   <string name="invite_button_description">Personen außerhalb deines Teams können an dieser Unterhaltung teilnehmen.</string>
   <string name="invite_people">Freunde einladen</string>
@@ -1176,4 +1179,30 @@ E-Mail-Adresse ein</string>
   <string name="guest_time_left_hours">%1$s h verbleiben</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh verbleiben</string>
   <string name="guest_time_left_minutes">Weniger als %1$sm verbleiben</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        The backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="set_password_failed_message">Something went wrong.\nPlease try to log in again.</string>
+  <string name="new_device_password">Neues Gerät</string>
+  <string name="new_device_password_explanation">Confirm by entering your password.</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">Du hast Wire auf diesem Gerät bereits genutzt.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Verlauf wiederherstellen</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Sicherungsdatei wählen</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">Complete</string>
+  <string name="pref_account_backup_warning_title">Legen Sie eine E-Mail-Adresse und ein Passwort fest.</string>
+  <string name="pref_account_backup_warning_message">Sie benötigen eine E-Mailadresse und ein Passwort, um Ihren Gesprächsverlauf zu sichern. Sie können dies von der Kontoseite unter Einstellungen aus tun.</string>
+  <string name="pref_account_backup_warning_ok">Verstanden</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Erneut versuchen</string>
+  <string name="backup_import_error_unknown">Ein Fehler ist aufgetreten</string>
+  <string name="backup_import_error_unsupported_version">Cannot read backup because it\'s from an unsupported version</string>
+  <string name="backup_import_error_wrong_account">Cannot read backup because it\'s from a different account</string>
 </resources>

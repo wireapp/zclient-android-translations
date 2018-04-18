@@ -92,6 +92,7 @@
   <string name="new_reg_internet_connectivity_error_header">Pas de connexion internet</string>
   <string name="new_reg_internet_connectivity_error_message">Veuillez vérifier votre connexion internet et réessayer</string>
   <string name="new_reg__code_resent">Un nouveau code vous a été envoyé par SMS</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Nous allons vous appeler</string>
   <string name="new_reg__invalid_code__auto_verification__manual">Une erreur est survenue.\nVeuillez vérifier que votre numéro de téléphone et votre indicatif sont corrects.</string>
   <string name="new_reg__default_country">fr</string>
@@ -428,6 +429,7 @@
   <string name="pref_developer_screen_title">Paramètres de développeur</string>
   <string name="pref_dev_avs_screen_title">Paramètres Audio Vidéo</string>
   <string name="pref_profile_screen_title">Profil</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Compte</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -437,6 +439,7 @@
   <string name="pref_account_actions_category_title">Actions</string>
   <string name="pref_account_personal_category_title">Personnel</string>
   <string name="pref_account_appearance_category_title">Apparence</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Des personnes peuvent vous trouver avec ces informations.</string>
   <string name="pref_account_personal_category_summary">Cette information n\'est visible que par vous</string>
   <string name="pref_account_username_title">Nom d\'utilisateur</string>
@@ -1098,10 +1101,10 @@
   <string name="teams_set_name_title">Votre nom</string>
   <string name="teams_set_name_hint">NOM COMPLET</string>
   <string name="app_entry_slogan">Messagerie sécurisée pour tous.</string>
-  <string name="app_entry_create_account">Créer un compte</string>
-  <string name="app_entry_create_account_sub">pour un usage personnel</string>
-  <string name="app_entry_create_team">Créer une équipe</string>
-  <string name="app_entry_create_team_sub">pour un usage professionnel</string>
+  <string name="app_entry_create_account">Pour un usage personnel</string>
+  <string name="app_entry_create_account_sub">créer un compte</string>
+  <string name="app_entry_create_team">Pour les entreprises</string>
+  <string name="app_entry_create_team_sub">créer une équipe</string>
   <string name="app_entry_login_sub">Vous avez déjà un compte ?</string>
   <string name="app_entry_login">Se connecter</string>
   <string name="app_entry_tc_dialog_title">Conditions de service</string>
@@ -1163,7 +1166,7 @@
   <string name="create_link_button">Créer le lien</string>
   <string name="copy_link_button">Copier le lien</string>
   <string name="share_link_button">Partager le lien</string>
-  <string name="revoke_link_button">Révoquer le lien</string>
+  <string name="revoke_link_button">Révoquer le lien&#8230;</string>
   <string name="invitation_link_title">INVITER DES CONTACTS PAR LIEN</string>
   <string name="link_copied_toast">Lien copié !</string>
   <string name="revoke_link_message">Les invités ne pourront plus rejoindre la conversation avec ce lien. Les invités ayant déjà rejoint la conversation conserveront leurs accès.</string>
@@ -1174,4 +1177,30 @@
   <string name="guest_time_left_hours">Plus que %1$s h</string>
   <string name="guest_time_left_hours_minutes">Plus que %1$s:%2$s h</string>
   <string name="guest_time_left_minutes">Plus que %1$s m</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        The backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="set_password_failed_message">Something went wrong.\nPlease try to log in again.</string>
+  <string name="new_device_password">Nouvel appareil</string>
+  <string name="new_device_password_explanation">Confirm by entering your password.</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">Vous avez déjà utilisé Wire sur cet appareil.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">Complete</string>
+  <string name="pref_account_backup_warning_title">Définir une adresse email et un mot de passe.</string>
+  <string name="pref_account_backup_warning_message">Vous devez définir une adresse email et un mot de passe pour pouvoir faire une sauvegarde de vos conversations. Vous pouvez les définir dans la section compte des paramètres.</string>
+  <string name="pref_account_backup_warning_ok">OK</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Réessayer</string>
+  <string name="backup_import_error_unknown">Une erreur est survenue</string>
+  <string name="backup_import_error_unsupported_version">Cannot read backup because it\'s from an unsupported version</string>
+  <string name="backup_import_error_wrong_account">Cannot read backup because it\'s from a different account</string>
 </resources>
