@@ -93,7 +93,6 @@
   <string name="new_reg_internet_connectivity_error_header">Отсутствует подключение к интернету</string>
   <string name="new_reg_internet_connectivity_error_message">Проверьте подключение к интернету и повторите попытку</string>
   <string name="new_reg__code_resent">Новый код был отправлен Вам по SMS</string>
-  <string name="new_reg__email_code_resent">Новый код был отправлен вам по email</string>
   <string name="new_reg__code_resent__call">Ожидать звонок</string>
   <string name="new_reg__invalid_code__auto_verification__manual">Что-то пошло не так.\nПожалуйста, убедитесь, что номер телефона и код верны.</string>
   <string name="new_reg__default_country">ru</string>
@@ -446,7 +445,6 @@
   <string name="pref_developer_screen_title">Настройки разработчика</string>
   <string name="pref_dev_avs_screen_title">Настройки AVS</string>
   <string name="pref_profile_screen_title">Профиль</string>
-  <string name="pref_backup_screen_title">Резервная копия разговоров</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Аккаунт</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -456,7 +454,6 @@
   <string name="pref_account_actions_category_title">Действия</string>
   <string name="pref_account_personal_category_title">Личные</string>
   <string name="pref_account_appearance_category_title">Внешний вид</string>
-  <string name="pref_account_conversations_category_title">История</string>
   <string name="pref_account_details_category_summary">Люди могут найти вас с этими данными.</string>
   <string name="pref_account_personal_category_summary">Информация недоступна другим</string>
   <string name="pref_account_username_title">Имя пользователя</string>
@@ -1167,10 +1164,10 @@ Plural:
   <string name="teams_set_name_title">Ваше имя</string>
   <string name="teams_set_name_hint">ПОЛНОЕ ИМЯ</string>
   <string name="app_entry_slogan">Безопасный обмен сообщениями для всех.</string>
-  <string name="app_entry_create_account">Для личного пользования</string>
-  <string name="app_entry_create_account_sub">создать учётную запись</string>
-  <string name="app_entry_create_team">Для организаций</string>
-  <string name="app_entry_create_team_sub">создать команду</string>
+  <string name="app_entry_create_account">Создать аккаунт</string>
+  <string name="app_entry_create_account_sub">для личного пользования</string>
+  <string name="app_entry_create_team">Создать команду</string>
+  <string name="app_entry_create_team_sub">для работы</string>
   <string name="app_entry_login_sub">Уже зарегистрированы?</string>
   <string name="app_entry_login">Войти</string>
   <string name="app_entry_tc_dialog_title">Условия использования</string>
@@ -1232,7 +1229,7 @@ Plural:
   <string name="create_link_button">Создать ссылку</string>
   <string name="copy_link_button">Скопировать ссылку</string>
   <string name="share_link_button">Поделиться ссылкой</string>
-  <string name="revoke_link_button">Отозвать ссылку&#8230;</string>
+  <string name="revoke_link_button">Отменить ссылку</string>
   <string name="invitation_link_title">ПРИГЛАСИТЬ ДРУГИХ ПОЛЬЗОВАТЕЛЕЙ ССЫЛКОЙ</string>
   <string name="link_copied_toast">Ссылка скопирована!</string>
   <string name="revoke_link_message">Новые гости не смогут присоединиться по этой ссылке. На доступ текущих гостей это не повлияет.</string>
@@ -1243,31 +1240,4 @@ Plural:
   <string name="guest_time_left_hours">Осталось %1$s час</string>
   <string name="guest_time_left_hours_minutes">Осталось %1$s.%2$s час</string>
   <string name="guest_time_left_minutes">Осталось менее %1$s мин</string>
-  <string name="backup_description">Создайте резервную копию, чтобы сохранить историю разговоров. Это пригодится для восстановления истории в случае потери или замены устройства.
-        Резервная копия не шифруется, поэтому храните ее в надежном месте.</string>
-  <string name="pref_account_backup_title">Резервная копия разговоров</string>
-  <string name="add_email_address">Добавить свой адрес электронной почты</string>
-  <string name="set_a_password">Установить пароль</string>
-  <string name="email_and_password_explanation">Вам нужен email и пароль для использования Wire на нескольких устройствах.</string>
-  <string name="set_password_failed_message">Что-то пошло не так.\nПожалуйста, попробуйте войти еще раз.</string>
-  <string name="new_device_password">Новое устройство</string>
-  <string name="new_device_password_explanation">Подтвердите ввод пароля.</string>
-  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
-  <string name="second_launch__header">Вы уже использовали Wire на этом устройстве.</string>
-  <string name="second_launch__sub_header">Если это было давно, некоторые сообщения могут не отображаться.</string>
-  <string name="restore_override_alert_title">Восстановить историю</string>
-  <string name="restore_override_alert_text">Содержимое резервной копии заменит историю разговоров на этом устройстве.
-Восстановить историю можно только из резервной копии для одной и той же платформы.</string>
-  <string name="restore_override_alert_ok">Выберите резервную копию</string>
-  <string name="back_up_progress">BACKING UP&#8230;</string>
-  <string name="back_up_progress_complete">Выполнено</string>
-  <string name="pref_account_backup_warning_title">Настройте email и пароль.</string>
-  <string name="pref_account_backup_warning_message">Для создания резервной копии истории разговоров вам потребуется email и пароль. Вы можете сделать это в настройках учетной записи.</string>
-  <string name="pref_account_backup_warning_ok">OK</string>
-  <string name="export_generic_error_title">Не удалось сохранить файл</string>
-  <string name="export_generic_error_text">У вас может не хватить места или отсутствовать разрешение на его сохранение.</string>
-  <string name="backup_button">Повторить</string>
-  <string name="backup_import_error_unknown">Что-то пошло не так</string>
-  <string name="backup_import_error_unsupported_version">Не удается прочитать резервную копию из-за неподдерживаемой версии</string>
-  <string name="backup_import_error_wrong_account">Невозможно прочитать резервную копию, так как она от другой учетной записи</string>
 </resources>

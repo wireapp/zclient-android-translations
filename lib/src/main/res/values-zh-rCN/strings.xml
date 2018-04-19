@@ -92,7 +92,6 @@
   <string name="new_reg_internet_connectivity_error_header">没有互联网讯号</string>
   <string name="new_reg_internet_connectivity_error_message">请检查您的网络连接，然后重试</string>
   <string name="new_reg__code_resent">新验证码已经通过短信发送给您</string>
-  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">等待电话连通</string>
   <string name="new_reg__invalid_code__auto_verification__manual">出了点问题 \n请确认手机号码和验证码无误。</string>
   <string name="new_reg__default_country">德国</string>
@@ -151,10 +150,10 @@
   <string name="people_picker__search_services">SERVICES</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">服务</string>
-  <string name="integrations_picker__add">Add Service</string>
-  <string name="integrations_conv_bot">Bot</string>
+  <string name="integrations_picker__add">添加服务</string>
+  <string name="integrations_conv_bot">机器人</string>
   <string name="integrations_chathead__section_title">服务</string>
-  <string name="integrations_errors_add_service">Adding service not possible</string>
+  <string name="integrations_errors_add_service">无法添加服务</string>
   <string name="integrations_errors_service_unavailable">服务暂时无法使用</string>
   <string name="conversation_errors_full">对话人数已达上限</string>
   <!-- start ui / people picker, contacts sharing -->
@@ -421,7 +420,6 @@
   <string name="pref_developer_screen_title">开发人员设置</string>
   <string name="pref_dev_avs_screen_title">AVS设置</string>
   <string name="pref_profile_screen_title">用户信息</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">帐户</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -431,7 +429,6 @@
   <string name="pref_account_actions_category_title">操作</string>
   <string name="pref_account_personal_category_title">个人信息</string>
   <string name="pref_account_appearance_category_title">外观</string>
-  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">其他使用者能通过这些信息搜寻到您。</string>
   <string name="pref_account_personal_category_summary">该信息对他人不可见</string>
   <string name="pref_account_username_title">用户名</string>
@@ -1070,10 +1067,10 @@
   <string name="teams_set_name_title">您的名字</string>
   <string name="teams_set_name_hint">全名</string>
   <string name="app_entry_slogan">保密每个人之通讯。</string>
-  <string name="app_entry_create_account">For personal use</string>
-  <string name="app_entry_create_account_sub">create an account</string>
-  <string name="app_entry_create_team">For organizations</string>
-  <string name="app_entry_create_team_sub">create a team</string>
+  <string name="app_entry_create_account">新增帐户</string>
+  <string name="app_entry_create_account_sub">供个人使用</string>
+  <string name="app_entry_create_team">创建团队</string>
+  <string name="app_entry_create_team_sub">在工作中使用</string>
   <string name="app_entry_login_sub">已有帐户？</string>
   <string name="app_entry_login">登录</string>
   <string name="app_entry_tc_dialog_title">服务条款</string>
@@ -1102,7 +1099,7 @@
   <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">创建您的团队</string>
   <string name="invitation_screen_subtitle">邀请你的同事加入。</string>
-  <string name="add_service_button_text">Add Service</string>
+  <string name="add_service_button_text">添加服务</string>
   <string name="remove_service_button_text">Remove Service</string>
   <string name="integrations_create_conversation">开始新对话</string>
   <string name="no_matches_found">No matches found</string>
@@ -1126,7 +1123,7 @@
   <string name="allow_guests">Allow Guests</string>
   <string name="guest_options_title">访客选项</string>
   <string name="allow_guests_error_title">好像出了点问题。</string>
-  <string name="allow_guests_error_body">Could not allow guests. Please try again.</string>
+  <string name="allow_guests_error_body">无法允许客人。请再试一次。</string>
   <string name="allow_guests_warning_body">将移除对话中的访客。 将不能加入新访客。</string>
   <string name="allow_guests_warning_confirm">移除访客</string>
   <string name="guests_are_present">GUESTS ARE PRESENT</string>
@@ -1135,7 +1132,7 @@
   <string name="create_link_button">创建链接</string>
   <string name="copy_link_button">复制链接</string>
   <string name="share_link_button">分享链接</string>
-  <string name="revoke_link_button">Revoke Link&#8230;</string>
+  <string name="revoke_link_button">撤销连结</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">链接已复制！</string>
   <string name="revoke_link_message">新访客将无法加入此连结。 目前访客仍可使用。</string>
@@ -1146,30 +1143,4 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
-  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        The backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-  <string name="pref_account_backup_title">Back up conversations</string>
-  <string name="add_email_address">Add your email address</string>
-  <string name="set_a_password">Set a password</string>
-  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
-  <string name="set_password_failed_message">Something went wrong.\nPlease try to log in again.</string>
-  <string name="new_device_password">新设备</string>
-  <string name="new_device_password_explanation">Confirm by entering your password.</string>
-  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
-  <string name="second_launch__header">您曾在此设备使用过Wire。</string>
-  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
-  <string name="restore_override_alert_title">Restore history</string>
-  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
-  <string name="restore_override_alert_ok">Choose Backup File</string>
-  <string name="back_up_progress">BACKING UP&#8230;</string>
-  <string name="back_up_progress_complete">Complete</string>
-  <string name="pref_account_backup_warning_title">Set an email and password.</string>
-  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
-  <string name="pref_account_backup_warning_ok">好</string>
-  <string name="export_generic_error_title">The file could not be saved</string>
-  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
-  <string name="backup_button">再试一次</string>
-  <string name="backup_import_error_unknown">好像出了点问题。</string>
-  <string name="backup_import_error_unsupported_version">Cannot read backup because it\'s from an unsupported version</string>
-  <string name="backup_import_error_wrong_account">Cannot read backup because it\'s from a different account</string>
 </resources>
