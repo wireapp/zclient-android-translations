@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Что-то пошло не так</string>
+  <string name="generic_error_message">Повторите попытку</string>
+  <string name="internet_connectivity_error_header">Отсутствует подключение к интернету</string>
+  <string name="internet_connectivity_error_message">Проверьте подключение к интернету и повторите попытку</string>
+  <string name="too_many_attempts_header">Слишком много попыток</string>
+  <string name="login_later_message">Попробуйте войти позже</string>
+  <string name="register_again_message">Попробуйте зарегистрироваться еще раз</string>
+  <string name="email_exists_header">Такой email уже используется</string>
+  <string name="email_exists_message">Данный адрес email уже зарегистрирован</string>
+  <string name="email_invalid_header">Неправильный email</string>
+  <string name="email_invalid_message">Пожалуйста, введите правильный email</string>
+  <string name="invalid_credentials_header">Неверная информация</string>
+  <string name="invalid_credentials_message">Проверьте введенные данные и повторите попытку</string>
+  <string name="phone_exists_header">Такой номер телефона уже использован</string>
+  <string name="phone_exists_message">Введенный вами номер телефона уже зарегистрирован. Повторите попытку</string>
+  <string name="phone_invalid_format_header">Неправильный номер телефона</string>
+  <string name="phone_invalid_format_message">Пожалуйста, введите правильный номер телефона</string>
+  <string name="phone_password_exists_header">Пароль существует</string>
+  <string name="phone_password_exists_message">Эта учетная запись уже имеет пароль и связанную с ней электронную почту. Для входа используйте email.</string>
+  <string name="invalid_code_header">Неверный код</string>
+  <string name="incorrect_code_header">Неправильный код</string>
+  <string name="wrong_code_message">Пожалуйста, введите правильный код</string>
+  <string name="phone_pending_login_header">Код уже отправлен</string>
+  <string name="phone_pending_login_message">Мы уже отправили вам код в SMS. Для получения нового кода нажмите \"Отправить повторно\" через 10 минут.</string>
+  <string name="password_invalid_header">Неверный пароль</string>
+  <string name="password_invalid_message">Проверьте введенные данные и повторите попытку</string>
+  <string name="phone_budget_exhausted_header">Слишком много запросов</string>
+  <string name="phone_budget_exhausted_message">Пожалуйста, повторите попытку позже.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Настройки</string>
   <string name="camera_not_available">КАМЕРА НЕДОСТУПНА</string>
   <string name="camera_permissions_denied_title">Камера недоступна</string>
   <string name="camera_permissions_denied_message">Для съемки и отправки фотографий разрешите доступ к камере</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Современное приватное общение.</string>
   <string name="welcome__terms_of_service">ПРОДОЛЖАЯ, ВЫ СОГЛАШАЕТЕСЬ С _ПРАВИЛАМИ_.</string>
-  <string name="profile__photo__guidance">ПРИВЕТ %1$s,\n\nWIRE ВЫГЛЯДИТ НАМНОГО ЛУЧШЕ\nС ВАШИМ ФОТО.</string>
   <string name="profile__name__guidance__tooshort__title">НЕ МЕНЕЕ 2 СИМВОЛОВ</string>
   <string name="profile__email__placeholder">Email</string>
   <string name="profile__password__placeholder">Пароль</string>
@@ -36,74 +64,13 @@
   <string name="profile__email__verify__instructions">Мы отправили email на \n[[%1$s]]. \nПерейдите по ссылке в письме для подтверждения вашего адреса.</string>
   <string name="profile__email__verify__didnt_get">Не получили уведомление?</string>
   <string name="profile__email__verify__resend">Отправить повторно</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Такой email уже используется</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">Данный адрес email уже зарегистрирован</string>
   <string name="profile__guidance__invalid_email">Введен неправильный адрес email. Проверьте и повторите попытку</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_ПОДТВЕРДИТЕ_ СВОЙ НОМЕР</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">ДОБАВЛЕНИЕ ВАШЕГО НОМЕРА НЕ ЯВЛЯЕТСЯ ОБЯЗАТЕЛЬНЫМ, ПО НЕМУ ЛЕГЧЕ НАЙТИ ЛЮДЕЙ, КОТОРЫХ ВЫ ЗНАЕТЕ. 
-ЧТОБЫ УБЕДИТЬСЯ, ЧТО ЭТО ВЫ, МЫ ОТПРАВИМ КОД ПОДТВЕРЖДЕНИЯ ПО SMS.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">ДОБАВИТЬ КОД СТРАНЫ</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">ВВЕДИТЕ ТРЕХЗНАЧНЫЙ КОД ПОДТВЕРЖДЕНИЯ, ПРИСЛАННЫЙ В SMS.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">НЕ ПОЛУЧИЛИ СООБЩЕНИЕ? </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">ОТПРАВИТЬ ПОВТОРНО</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">ПОДТВЕРДИТЬ</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Создать аккаунт</string>
-  <string name="new_reg_phone__change_country">_ПОМЕНЯТЬ СТРАНУ_</string>
-  <string name="new_reg__add_email">Добавить email и пароль</string>
-  <string name="new_reg__add_email_info">Это поможет вам войти, если вы будете заблокированы или потеряете свой телефон.</string>
-  <string name="new_reg__otr__add_email_info">Добавить email и пароль.</string>
-  <string name="new_reg__otr__add_email_sub_info">Это позволяет использовать Wire на нескольких устройствах.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Неправильный email</string>
-  <string name="new_reg_email_invalid_message">Пожалуйста, введите правильный email</string>
-  <string name="new_reg_email_generic_error_header">Что-то пошло не так</string>
-  <string name="new_reg_email_generic_error_message">Попробуйте зарегистрироваться еще раз</string>
-  <string name="new_reg_email_register_generic_error_header">Неверная информация</string>
-  <string name="new_reg_email_register_generic_error_message">Пожалуйста, введите свое полное имя, действующий email и пароль.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Неверная информация</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Проверьте введенные данные и повторите попытку</string>
-  <string name="new_reg_phone_exists_header">Такой номер телефона уже использован</string>
-  <string name="new_reg_phone_exists_message">Введенный вами номер телефона уже зарегистрирован. Повторите попытку</string>
-  <string name="new_reg_phone_invalid_format_header">Неправильный номер телефона</string>
-  <string name="new_reg_phone_invalid_format_message">Пожалуйста, введите правильный номер телефона</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Неправильный код</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Пожалуйста, введите правильный код</string>
-  <string name="new_reg_phone_invalid_add_code_header">Неправильный код</string>
-  <string name="new_reg_phone_invalid_add_code_message">Пожалуйста, введите правильный код</string>
-  <string name="new_reg_phone_invalid_login_code_header">Неправильный код</string>
-  <string name="new_reg_phone_invalid_login_code_message">Пожалуйста, введите правильный код</string>
-  <string name="new_reg_phone_pending_login_header">Код уже отправлен</string>
-  <string name="new_reg_phone_pending_login_message">Мы уже отправили вам код в SMS. Для получения нового кода нажмите \"Отправить повторно\" через 10 минут.</string>
-  <string name="new_reg_phone_add_password_header">Неверный пароль</string>
-  <string name="new_reg_phone_add_password_message">Проверьте введенные данные и повторите попытку</string>
-  <string name="new_reg_phone_generic_error_header">Что-то пошло не так</string>
-  <string name="new_reg_phone_generic_error_message">Попробуйте зарегистрироваться еще раз</string>
-  <string name="new_sign_in_generic_error_header">Что-то пошло не так</string>
-  <string name="new_sign_in_generic_error_message">Попробуйте войти еще раз</string>
-  <string name="profile_generic_error_header">Что-то пошло не так</string>
-  <string name="profile_generic_error_message">Повторите попытку</string>
-  <string name="profile_phone_generic_error_header">Неправильный номер телефона</string>
-  <string name="profile_phone_generic_error_message">Пожалуйста, введите правильный номер телефона</string>
-  <string name="new_reg_phone_too_man_attempts_header">Слишком много попыток</string>
-  <string name="new_reg_phone_too_man_attempts_message">Попробуйте войти позже</string>
-  <string name="new_reg_server_connectivity_error_header">Что-то пошло не так</string>
-  <string name="new_reg_server_connectivity_error_message">Проверьте подключение к интернету и повторите попытку</string>
-  <string name="new_reg_internet_connectivity_error_header">Отсутствует подключение к интернету</string>
-  <string name="new_reg_internet_connectivity_error_message">Проверьте подключение к интернету и повторите попытку</string>
   <string name="new_reg__code_resent">Новый код был отправлен Вам по SMS</string>
+  <string name="new_reg__email_code_resent">Новый код был отправлен вам по email</string>
   <string name="new_reg__code_resent__call">Ожидать звонок</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Что-то пошло не так.\nПожалуйста, убедитесь, что номер телефона и код верны.</string>
   <string name="new_reg__default_country">ru</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Слишком много запросов</string>
-  <string name="new_reg_phone_budget_exhausted_message">Пожалуйста, повторите попытку позже.</string>
   <string name="your_phone_number">Ваш номер телефона</string>
-  <string name="new_reg_phone_password_exists_header">Пароль существует</string>
-  <string name="new_reg_phone_password_exists_message">Эта учетная запись уже имеет пароль и связанную с ней электронную почту. Для входа используйте email.</string>
-  <string name="new_reg_phone__title__variant_1">Аудио и видеозвонки, сообщения.\nПриватно и в группах.</string>
-  <string name="new_reg_phone__title__variant_2">Конфиденциально и надежно.\nЗвонки и сообщения.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Зарегистрироваться по номеру телефона</string>
   <string name="invitation_email__normal_email_signup_button">Зарегистрироваться, используя другой email</string>
@@ -124,7 +91,7 @@
   <string name="choose_conversation">ПОИСК</string>
   <string name="people_picker__top_users_header_title">Топ-контакты</string>
   <string name="people_picker__address_book_matches_title">Добавить в контакты</string>
-  <string name="people_picker__search_result_conversations_header_title">Группы</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s групп</string>
   <string name="people_picker__search_result_connections_header_title">Контакты</string>
   <string name="people_picker__search_result_others_header_title">Добавить в контакты</string>
@@ -266,14 +233,14 @@
   <string name="content__location__no_map_placeholder">МЕСТОПОЛОЖЕНИЕ БУДЕТ ОТОБРАЖЕНО НА КАРТЕ, КОГДА ВЫ ВНОВЬ БУДЕТЕ ОНЛАЙН.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Переименовать</string>
-  <string name="conversation__action__delete">Удалить</string>
+  <string name="conversation__action__delete">Удалить содержимое&#8230;</string>
   <string name="conversation__action__archive">Архивировать</string>
   <string name="conversation__action__unarchive">Разархивировать</string>
   <string name="conversation__action__add_people">ДОБАВИТЬ ЛЮДЕЙ</string>
   <string name="conversation__action__create_group">СОЗДАТЬ ГРУППУ</string>
   <string name="conversation__action__silence">Выкл. звук</string>
   <string name="conversation__action__unsilence">Вкл.звук</string>
-  <string name="conversation__action__leave">Покинуть</string>
+  <string name="conversation__action__leave">Покинуть группу&#8230;</string>
   <string name="conversation__action__remove">Удалить</string>
   <string name="conversation__action__call">Позвонить</string>
   <string name="conversation__action__picture">Изображение</string>
@@ -350,7 +317,7 @@
   <string name="conversation__degraded_confirmation__header__multiple_user">%1$s и %2$s начали использовать новые устройства.</string>
   <plurals name="conversation__degraded_confirmation__message">
     <item quantity="one">Вы все еще хотите отправить ваше сообщение?</item>
-    <item quantity="few">Вы все еще хотите отправить ваше сообщение?</item>
+    <item quantity="few">Вы все еще хотите отправить ваши сообщения?</item>
     <item quantity="many">Вы все еще хотите отправить ваши сообщения?</item>
     <item quantity="other">Вы все еще хотите отправить ваши сообщения?</item>
   </plurals>
@@ -397,7 +364,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Заблокировать?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s больше не сможет связаться с вами или добавить вас в групповые разговоры.</string>
-  <string name="confirmation_menu__confirm_block">Заблокировать</string>
+  <string name="confirmation_menu__confirm_block">Блокировка&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Заблокирован</string>
   <!-- Delete conversation -->
@@ -445,6 +412,7 @@
   <string name="pref_developer_screen_title">Настройки разработчика</string>
   <string name="pref_dev_avs_screen_title">Настройки AVS</string>
   <string name="pref_profile_screen_title">Профиль</string>
+  <string name="pref_backup_screen_title">Резервная копия разговоров</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Аккаунт</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -454,6 +422,7 @@
   <string name="pref_account_actions_category_title">Действия</string>
   <string name="pref_account_personal_category_title">Личные</string>
   <string name="pref_account_appearance_category_title">Внешний вид</string>
+  <string name="pref_account_conversations_category_title">История</string>
   <string name="pref_account_details_category_summary">Люди могут найти вас с этими данными.</string>
   <string name="pref_account_personal_category_summary">Информация недоступна другим</string>
   <string name="pref_account_username_title">Имя пользователя</string>
@@ -478,10 +447,10 @@
   <string name="pref_account_edit_name_empty_warning">Имя должно состоять из 2 и более символов</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
   <!-- Options -->
-  <string name="pref_options_dark_theme_title">Тёмная тема</string>
+  <string name="pref_options_dark_theme_title">Темная тема</string>
   <string name="pref_options_screen_title">Настройки</string>
   <string name="pref_options_contacts_title">Поделиться контактами</string>
-  <string name="pref_options_contacts_summary">Это поможет Вам связаться с другими людьми. Вся информация анонимна, мы не предоставляем её третьим лицам.</string>
+  <string name="pref_options_contacts_summary">Это поможет вам найти людей, которых вы знаете. Мы анонимизируем всю информацию и не делимся ею с кем-либо еще.</string>
   <string name="pref_options_vbr_title">Кодирование с переменным битрейтом</string>
   <string name="pref_options_vbr_summary">Это позволяет аудиозвонкам использовать меньше трафика и работать лучше при медленном соединении. Выключите, чтобы использовать кодирование с постоянным битрейтом.</string>
   <string name="pref_options_alerts_category_title">Оповещения</string>
@@ -526,7 +495,7 @@
   <string name="pref_devices_device_reset_session_title">Сбросить сессию</string>
   <string name="pref_devices_device_reset_session_summary">Если отпечатки не совпадают, сбросьте сессию для создания новых ключей шифрования на обеих сторонах.</string>
   <string name="pref_devices_device_remove_title">Удалить устройство</string>
-  <string name="pref_devices_device_remove_summary">Удалите это устройство, если вы перестали им пользоваться. На этом устройстве сразу же будет осуществлён выход из аккаунта.</string>
+  <string name="pref_devices_device_remove_summary">Удалите это устройство, если вы перестали им пользоваться. На этом устройстве сразу же будет осуществлен выход из аккаунта.</string>
   <string name="pref_devices_device_fingerprint_copy_description">Отпечаток</string>
   <string name="pref_devices_device_fingerprint_copy_toast">Отпечаток скопирован</string>
   <!-- Advanced -->
@@ -1039,8 +1008,8 @@ Plural:
   <string name="ephemeral_message__timeout__1_day">1 день</string>
   <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _Осталось %2$s_</string>
   <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
-  <string name="usernames__take_over__summary">Зарегистрируйте своё уникальное имя в Wire. _Подробнее._</string>
-  <string name="usernames__take_over__choose">ВЫБРАТЬ СВОЁ</string>
+  <string name="usernames__take_over__summary">Зарегистрируйте свое уникальное имя в Wire. _Подробнее._</string>
+  <string name="usernames__take_over__choose">ВЫБЕРИТЕ ФОТОГРАФИЮ</string>
   <string name="usernames__take_over__keep">ОСТАВИТЬ ЭТО</string>
   <string name="pref_account_username_empty_title">Добавить имя пользователя</string>
   <plurals name="message_footer__expire__days">
@@ -1164,10 +1133,10 @@ Plural:
   <string name="teams_set_name_title">Ваше имя</string>
   <string name="teams_set_name_hint">ПОЛНОЕ ИМЯ</string>
   <string name="app_entry_slogan">Безопасный обмен сообщениями для всех.</string>
-  <string name="app_entry_create_account">Создать аккаунт</string>
-  <string name="app_entry_create_account_sub">для личного пользования</string>
-  <string name="app_entry_create_team">Создать команду</string>
-  <string name="app_entry_create_team_sub">для работы</string>
+  <string name="app_entry_create_account">Для личного пользования</string>
+  <string name="app_entry_create_account_sub">создать учётную запись</string>
+  <string name="app_entry_create_team">Для организаций</string>
+  <string name="app_entry_create_team_sub">создать команду</string>
   <string name="app_entry_login_sub">Уже зарегистрированы?</string>
   <string name="app_entry_login">Войти</string>
   <string name="app_entry_tc_dialog_title">Условия использования</string>
@@ -1229,7 +1198,7 @@ Plural:
   <string name="create_link_button">Создать ссылку</string>
   <string name="copy_link_button">Скопировать ссылку</string>
   <string name="share_link_button">Поделиться ссылкой</string>
-  <string name="revoke_link_button">Отменить ссылку</string>
+  <string name="revoke_link_button">Отозвать ссылку&#8230;</string>
   <string name="invitation_link_title">ПРИГЛАСИТЬ ДРУГИХ ПОЛЬЗОВАТЕЛЕЙ ССЫЛКОЙ</string>
   <string name="link_copied_toast">Ссылка скопирована!</string>
   <string name="revoke_link_message">Новые гости не смогут присоединиться по этой ссылке. На доступ текущих гостей это не повлияет.</string>
@@ -1240,4 +1209,34 @@ Plural:
   <string name="guest_time_left_hours">Осталось %1$s час</string>
   <string name="guest_time_left_hours_minutes">Осталось %1$s.%2$s час</string>
   <string name="guest_time_left_minutes">Осталось менее %1$s мин</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Резервная копия разговоров</string>
+  <string name="add_email_address">Добавить свой адрес электронной почты</string>
+  <string name="set_a_password">Установить пароль</string>
+  <string name="email_and_password_explanation">Вам нужен email и пароль для использования Wire на нескольких устройствах.</string>
+  <string name="new_device_password">Новое устройство</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">Вы уже использовали Wire на этом устройстве.</string>
+  <string name="second_launch__sub_header">Если это было давно, некоторые сообщения могут не отображаться.</string>
+  <string name="restore_override_alert_title">Восстановить историю</string>
+  <string name="restore_override_alert_text">Содержимое резервной копии заменит историю разговоров на этом устройстве.
+Восстановить историю можно только из резервной копии для одной и той же платформы.</string>
+  <string name="restore_override_alert_ok">Выберите резервную копию</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Настройте email и пароль.</string>
+  <string name="pref_account_backup_warning_message">Для создания резервной копии истории разговоров вам потребуется email и пароль. Вы можете сделать это в настройках учетной записи.</string>
+  <string name="pref_account_backup_warning_ok">OK</string>
+  <string name="export_generic_error_title">Не удалось сохранить файл</string>
+  <string name="export_generic_error_text">У вас может не хватить места или отсутствовать разрешение на его сохранение.</string>
+  <string name="backup_button">Создать резервную копию сейчас</string>
+  <string name="backup_import_error_unknown_title">Что-то пошло не так</string>
+  <string name="backup_import_error_unknown">Ваша история не может быть восстановлена.</string>
+  <string name="backup_import_error_unsupported_version_title">Несовместимая резервная копия</string>
+  <string name="backup_import_error_unsupported_version">Эта резервная копия была создана в более новой или устаревшей версии Wire и не может быть восстановлена.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">Вы не можете восстановить историю из другой учетной записи.</string>
 </resources>

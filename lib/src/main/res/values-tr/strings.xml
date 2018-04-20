@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Bir şeyler yanlış gitti</string>
+  <string name="generic_error_message">Lütfen tekrar deneyin</string>
+  <string name="internet_connectivity_error_header">Internet bağlantısı yok</string>
+  <string name="internet_connectivity_error_message">Lütfen internet bağlantınızı kontrol edin ve yeniden deneyin</string>
+  <string name="too_many_attempts_header">Çok fazla deneme</string>
+  <string name="login_later_message">Lütfen giriş yapmayı daha sonra tekrar deneyin</string>
+  <string name="register_again_message">Lütfen kaydolmayı tekrar deneyin</string>
+  <string name="email_exists_header">E-posta adresi zaten kullanımda</string>
+  <string name="email_exists_message">Bu e-posta adresi zaten kaydedildi</string>
+  <string name="email_invalid_header">Geçersiz e-posta adresi</string>
+  <string name="email_invalid_message">Lütfen geçerli bir e-posta adresi girin</string>
+  <string name="invalid_credentials_header">Geçersiz bilgi</string>
+  <string name="invalid_credentials_message">Lütfen bilgilerinizi doğrulayıp öyle tekrar deneyiniz</string>
+  <string name="phone_exists_header">Telefon numarası zaten kayıtlı</string>
+  <string name="phone_exists_message">Bu telefon numarası zaten kaydedilmiş. Lütfen tekrar deneyin</string>
+  <string name="phone_invalid_format_header">Geçersiz telefon numarası</string>
+  <string name="phone_invalid_format_message">Lütfen geçerli bir telefon numarası girin</string>
+  <string name="phone_password_exists_header">Şifre mevcut</string>
+  <string name="phone_password_exists_message">Bu hesap bir e-posta ve şifre ile ilişkilendirilmiş. Lütfen e-postanız ile giriş yapın.</string>
+  <string name="invalid_code_header">Geçersiz kod</string>
+  <string name="incorrect_code_header">Yanlış Kod</string>
+  <string name="wrong_code_message">Lütfen geçerli bir kod girin</string>
+  <string name="phone_pending_login_header">Kod Zaten Gönderildi</string>
+  <string name="phone_pending_login_message">Size SMS ile bir kod zaten gönderdik. Yenisini almak için 10 dakika sonra Yeniden Gönder\'e basın.</string>
+  <string name="password_invalid_header">Geçersiz parola</string>
+  <string name="password_invalid_message">Lütfen bilgilerinizi doğrulayıp öyle tekrar deneyiniz</string>
+  <string name="phone_budget_exhausted_header">Çok fazla istek</string>
+  <string name="phone_budget_exhausted_message">Lütfen daha sonra tekrar dene.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">Tamam</string>
   <string name="permissions_denied_dialog_settings">Ayarlar</string>
   <string name="camera_not_available">KAMERA KULLANILAMIYOR</string>
   <string name="camera_permissions_denied_title">Kamera mevcut değil</string>
   <string name="camera_permissions_denied_message">Fotoğraf çekip göndermek için kamera erişimine izin verin</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Modern, mahremiyet duyarlı iletişim.</string>
   <string name="welcome__terms_of_service">DEVAM EDEREK _KULLANIM ŞARTLARI\'NI_ KABUL EDİYORSUNUZ.</string>
-  <string name="profile__photo__guidance">SELAM %1$s, \n\n WIRE BİR RESİM İLE ÇOK DAHA\n GÜZEL GÖRÜNÜR.</string>
   <string name="profile__name__guidance__tooshort__title">EN AZ 2 KARAKTER</string>
   <string name="profile__email__placeholder">E-posta</string>
   <string name="profile__password__placeholder">Parola</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">[[%1$s]] \nadresine bir e-posta gönderdik. \nAdresinizi doğrulamak için bağlantıya tıklayın.</string>
   <string name="profile__email__verify__didnt_get">E-posta gelmedi mi?</string>
   <string name="profile__email__verify__resend">Yeniden gönder</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">E-posta adresi zaten kullanımda</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">Bu e-posta adresi zaten kaydedildi</string>
   <string name="profile__guidance__invalid_email">Girdiğiniz e-posta adresi kullanılabilir değil. Lütfen doğru girin ve tekrar deneyin</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">NUMARANIZI _DOĞRULAYIN_</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">NUMARANIZ İSTEĞE BAĞLIDIR ANCAK TANIDIĞINIZ KİŞİLERİ BULMAMIZI KOLAYLAŞTIRIR. NUMARANIN SİZE AİT OLDUĞUNDAN EMİN OLMAK İÇİN SMS İLE DOĞRULAMA KODU GÖNDERECEĞİZ.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">BİR ÜLKE KODU EKLEYİN</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">SMS İLE GELEN 3 BASAMAKLI ONAY KODUNU GİRİN.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">MESAJ GELMEDİ Mİ? </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">YENİDEN GÖNDER</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">DOĞRULA</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Hesap oluşturun</string>
-  <string name="new_reg_phone__change_country">_ÜLKE DEĞİŞTİRİN_</string>
-  <string name="new_reg__add_email">E-posta adresi ve parola ekleyin</string>
-  <string name="new_reg__add_email_info">Telefonunuzu kaybetmeniz veya giriş yapamamanız halinde yardımcı olur.</string>
-  <string name="new_reg__otr__add_email_info">E-posta adresiniz ve bir parola ekleyin.</string>
-  <string name="new_reg__otr__add_email_sub_info">Birden çok cihazda Wire kullanmanıza imkan tanır.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Geçersiz e-posta adresi</string>
-  <string name="new_reg_email_invalid_message">Lütfen geçerli bir e-posta adresi girin</string>
-  <string name="new_reg_email_generic_error_header">Bir şeyler yanlış gitti</string>
-  <string name="new_reg_email_generic_error_message">Lütfen kaydolmayı tekrar deneyin</string>
-  <string name="new_reg_email_register_generic_error_header">Geçersiz bilgi</string>
-  <string name="new_reg_email_register_generic_error_message">Lütfen tam adınız ile geçerli bir e-posta adresi ve parola giriniz.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Geçersiz bilgi</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Lütfen bilgilerinizi doğrulayıp öyle tekrar deneyiniz</string>
-  <string name="new_reg_phone_exists_header">Telefon numarası zaten kayıtlı</string>
-  <string name="new_reg_phone_exists_message">Bu telefon numarası zaten kaydedilmiş. Lütfen tekrar deneyin</string>
-  <string name="new_reg_phone_invalid_format_header">Geçersiz telefon numarası</string>
-  <string name="new_reg_phone_invalid_format_message">Lütfen geçerli bir telefon numarası girin</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Geçersiz kod</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Lütfen geçerli bir kod girin</string>
-  <string name="new_reg_phone_invalid_add_code_header">Geçersiz kod</string>
-  <string name="new_reg_phone_invalid_add_code_message">Lütfen geçerli bir kod girin</string>
-  <string name="new_reg_phone_invalid_login_code_header">Yanlış Kod</string>
-  <string name="new_reg_phone_invalid_login_code_message">Lütfen geçerli bir kod girin</string>
-  <string name="new_reg_phone_pending_login_header">Kod Zaten Gönderildi</string>
-  <string name="new_reg_phone_pending_login_message">Size SMS ile bir kod zaten gönderdik. Yenisini almak için 10 dakika sonra Yeniden Gönder\'e basın.</string>
-  <string name="new_reg_phone_add_password_header">Geçersiz parola</string>
-  <string name="new_reg_phone_add_password_message">Lütfen bilgilerinizi doğrulayıp öyle tekrar deneyiniz</string>
-  <string name="new_reg_phone_generic_error_header">Bir şeyler ters gitti</string>
-  <string name="new_reg_phone_generic_error_message">Lütfen kaydolmayı tekrar deneyin</string>
-  <string name="new_sign_in_generic_error_header">Bir şeyler yanlış gitti</string>
-  <string name="new_sign_in_generic_error_message">Lütfen giriş yapmayı tekrar deneyin</string>
-  <string name="profile_generic_error_header">Bir şeyler ters gitti</string>
-  <string name="profile_generic_error_message">Lütfen tekrar deneyin</string>
-  <string name="profile_phone_generic_error_header">Geçersiz telefon numarası</string>
-  <string name="profile_phone_generic_error_message">Lütfen geçerli bir telefon numarası girin</string>
-  <string name="new_reg_phone_too_man_attempts_header">Çok fazla deneme</string>
-  <string name="new_reg_phone_too_man_attempts_message">Lütfen giriş yapmayı daha sonra tekrar deneyin</string>
-  <string name="new_reg_server_connectivity_error_header">Bir şeyler ters gitti</string>
-  <string name="new_reg_server_connectivity_error_message">Lütfen internet bağlantınızı kontrol edin ve yeniden deneyin</string>
-  <string name="new_reg_internet_connectivity_error_header">İnternet Bağlantısı Yok</string>
-  <string name="new_reg_internet_connectivity_error_message">Lütfen internet bağlantınızı kontrol edin ve yeniden deneyin</string>
   <string name="new_reg__code_resent">Yeni kod SMS ile size gönderildi</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Aranmak için bekleyin</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Bir şeyler yanlış görünüyor.\nLütfen telefon numarası ve kodun doğru olduğundan emin olun.</string>
   <string name="new_reg__default_country">tr</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Çok fazla istek</string>
-  <string name="new_reg_phone_budget_exhausted_message">Lütfen daha sonra tekrar dene.</string>
   <string name="your_phone_number">Telefon numaranız</string>
-  <string name="new_reg_phone_password_exists_header">Şifre mevcut</string>
-  <string name="new_reg_phone_password_exists_message">Bu hesap bir e-posta ve şifre ile ilişkilendirilmiş. Lütfen e-postanız ile giriş yapın.</string>
-  <string name="new_reg_phone__title__variant_1">Arama, mesajlaşma, paylaşım.\nÖzel olarak veya gruplar ile.</string>
-  <string name="new_reg_phone__title__variant_2">Gizli ve güvenli aramalar,\nmesajlaşma ve paylaşım.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Telefon numarası ile kaydolun</string>
   <string name="invitation_email__normal_email_signup_button">Başka bir e-posta ile kaydolun</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Sık görüşülenler</string>
   <string name="people_picker__address_book_matches_title">Bağlan</string>
-  <string name="people_picker__search_result_conversations_header_title">Gruplar</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Grup</string>
   <string name="people_picker__search_result_connections_header_title">Kişiler</string>
   <string name="people_picker__search_result_others_header_title">Bağlan</string>
@@ -261,14 +229,14 @@
   <string name="content__location__no_map_placeholder">YENİDEN ÇEVRİMİÇİ OLDUĞUNDA KONUM HARİTADA GÖRÜNECEK.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Yeniden adlandır</string>
-  <string name="conversation__action__delete">Sil</string>
+  <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Arşivle</string>
   <string name="conversation__action__unarchive">Arşivden kaldır</string>
   <string name="conversation__action__add_people">KİŞİ EKLE</string>
   <string name="conversation__action__create_group">GRUP OLUŞTUR</string>
   <string name="conversation__action__silence">Sustur</string>
   <string name="conversation__action__unsilence">Sesi aç</string>
-  <string name="conversation__action__leave">Ayrıl</string>
+  <string name="conversation__action__leave">Leave group&#8230;</string>
   <string name="conversation__action__remove">Kaldır</string>
   <string name="conversation__action__call">Ara</string>
   <string name="conversation__action__picture">Resim</string>
@@ -380,7 +348,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Engelle?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s sizinle iletişim kuramayacak ve sizi grup konuşmalarına ekleyemeyecek.</string>
-  <string name="confirmation_menu__confirm_block">Engelle</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Engellendi</string>
   <!-- Delete conversation -->
@@ -428,6 +396,7 @@
   <string name="pref_developer_screen_title">Geliştirici Ayarları</string>
   <string name="pref_dev_avs_screen_title">AVS Ayarları</string>
   <string name="pref_profile_screen_title">Profil</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Hesap</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -437,6 +406,7 @@
   <string name="pref_account_actions_category_title">Eylemler</string>
   <string name="pref_account_personal_category_title">Kişisel</string>
   <string name="pref_account_appearance_category_title">Görünüm</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">İnsanlar sizi bu bilgiler ile bulabilirler.</string>
   <string name="pref_account_personal_category_summary">Bu bilgi başka kimseye görünür değil</string>
   <string name="pref_account_username_title">Kullanıcı Adı</string>
@@ -1098,10 +1068,10 @@
   <string name="teams_set_name_title">Adınız</string>
   <string name="teams_set_name_hint">TAM AD</string>
   <string name="app_entry_slogan">Herkes için güvenli mesajlaşma.</string>
-  <string name="app_entry_create_account">Hesap oluşturun</string>
-  <string name="app_entry_create_account_sub">kişisel kullanım için</string>
-  <string name="app_entry_create_team">Bir takım oluştur</string>
-  <string name="app_entry_create_team_sub">iş için</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Zaten bir hesabınız var mı?</string>
   <string name="app_entry_login">Giriş yapın</string>
   <string name="app_entry_tc_dialog_title">Hizmet Koşulları</string>
@@ -1163,7 +1133,7 @@
   <string name="create_link_button">Create Link</string>
   <string name="copy_link_button">Copy Link</string>
   <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link Copied!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1174,4 +1144,33 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">Yeni cihaz</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">Daha önce bu aygıtta Wire kullanmışsınız.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">TAMAM</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Back Up Now</string>
+  <string name="backup_import_error_unknown_title">Bir şeyler yanlış gitti</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

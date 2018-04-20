@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Něco se pokazilo</string>
+  <string name="generic_error_message">Please try again</string>
+  <string name="internet_connectivity_error_header">Nejste připojeni k Internetu</string>
+  <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
+  <string name="too_many_attempts_header">Příliš mnoho pokusů</string>
+  <string name="login_later_message">Please try to log in later</string>
+  <string name="register_again_message">Please try to register again</string>
+  <string name="email_exists_header">Emailová adresa je již používána</string>
+  <string name="email_exists_message">This email address has already been registered</string>
+  <string name="email_invalid_header">Neplatná emailová adresa</string>
+  <string name="email_invalid_message">Zadejte prosím platnou emailovou adresu</string>
+  <string name="invalid_credentials_header">Neplatná informace</string>
+  <string name="invalid_credentials_message">Zkontrolujte své údaje a zkuste znovu</string>
+  <string name="phone_exists_header">Telefonní číslo je již obsazeno</string>
+  <string name="phone_exists_message">The phone number you provided has already been registered. Please try again</string>
+  <string name="phone_invalid_format_header">Neplatné telefonní číslo</string>
+  <string name="phone_invalid_format_message">Uveďte prosím platné telefonní číslo</string>
+  <string name="phone_password_exists_header">Heslo existuje</string>
+  <string name="phone_password_exists_message">Tento účet již má heslo k e-mailu přiřazeno. Přihlaste se prosím e-mailem.</string>
+  <string name="invalid_code_header">Neplatný kód</string>
+  <string name="incorrect_code_header">Neplatný kód</string>
+  <string name="wrong_code_message">Zadejte prosím platný kód</string>
+  <string name="phone_pending_login_header">Kód byl již odeslán</string>
+  <string name="phone_pending_login_message">Již jsme vám poslali kód prostřednictvím SMS. Pro získání nového klepněte po 10 minutách na tlačítko znovu odeslat.</string>
+  <string name="password_invalid_header">Neplatné heslo</string>
+  <string name="password_invalid_message">Zkontrolujte své údaje a zkuste znovu</string>
+  <string name="phone_budget_exhausted_header">Příliš mnoho požadavků</string>
+  <string name="phone_budget_exhausted_message">Zkuste to prosím později.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Nastavení</string>
   <string name="camera_not_available">KAMERA NENÍ K DISPOZICI</string>
   <string name="camera_permissions_denied_title">Kamera není dostupná</string>
   <string name="camera_permissions_denied_message">Pro focení a odesílání fotografií je třeba povolit přístup ke kameře</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Moderní, soukromá komunikace.</string>
   <string name="welcome__terms_of_service">POKRAČOVÁNÍM SOUHLASÍTE S _TERMS USE_.</string>
-  <string name="profile__photo__guidance">Ahoj %1$s, \n\n Wire je o tolik hezčí\n s obrázkem.</string>
   <string name="profile__name__guidance__tooshort__title">ALESPOŇ 2 ZNAKY</string>
   <string name="profile__email__placeholder">Email</string>
   <string name="profile__password__placeholder">Heslo</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">Poslali jsme e-mail na \n[[%1$s]]. \nPro ověření svojí adresy klikněte na odkaz.</string>
   <string name="profile__email__verify__didnt_get">Nedostal(a) jste zprávu?</string>
   <string name="profile__email__verify__resend">Znovu odeslat</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Emailová adresa je již používána</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">This email address has already been registered</string>
   <string name="profile__guidance__invalid_email">The email address you entered is not valid. Please verify and try again</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_ZKONTROLUJTE_ ČÍSLO</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">VAŠE ČÍSLO JE NEPOVINNÉ, ALE USNADŇUJE NÁM NAJÍT LIDI KTERÉ ZNÁTE. UJISTĚTE SE, ŽE ČÍSLO JE SPRÁVNÉ A MY VÁM POŠLEME POTVRZOVACÍ KÓD POMOCÍ SMS.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">PŘIDEJTE KÓD ZEMĚ</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">ZADEJTE 3MÍSTNÝ POTVRZOVACÍ KÓD Z SMS.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">NEDOSTAL(A) JSTE ZPRÁVU? </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">ZNOVU ODESLAT</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">POTVRDIT</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Vytvořit účet</string>
-  <string name="new_reg_phone__change_country">_ZMĚNIT ZEMI_</string>
-  <string name="new_reg__add_email">Přidat emailovou adresu a heslo</string>
-  <string name="new_reg__add_email_info">Pomáhá vám se přihlásit v případě uzamčení účtu nebo ztratíty telefonu.</string>
-  <string name="new_reg__otr__add_email_info">Přidat emailovou adresu a heslo.</string>
-  <string name="new_reg__otr__add_email_sub_info">To umožňuje používat Wire na více zařízeních.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Neplatná emailová adresa</string>
-  <string name="new_reg_email_invalid_message">Zadejte prosím platnou emailovou adresu</string>
-  <string name="new_reg_email_generic_error_header">Něco se pokazilo</string>
-  <string name="new_reg_email_generic_error_message">Please try to register again</string>
-  <string name="new_reg_email_register_generic_error_header">Neplatná informace</string>
-  <string name="new_reg_email_register_generic_error_message">Zadejte prosím své plné jméno, platný email a heslo.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Neplatná informace</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Zkontrolujte své údaje a zkuste znovu</string>
-  <string name="new_reg_phone_exists_header">Telefonní číslo je již obsazeno</string>
-  <string name="new_reg_phone_exists_message">The phone number you provided has already been registered. Please try again</string>
-  <string name="new_reg_phone_invalid_format_header">Neplatné telefonní číslo</string>
-  <string name="new_reg_phone_invalid_format_message">Uveďte prosím platné telefonní číslo</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Neplatný kód</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Zadejte prosím platný kód</string>
-  <string name="new_reg_phone_invalid_add_code_header">Neplatný kód</string>
-  <string name="new_reg_phone_invalid_add_code_message">Zadejte prosím platný kód</string>
-  <string name="new_reg_phone_invalid_login_code_header">Neplatný kód</string>
-  <string name="new_reg_phone_invalid_login_code_message">Zadejte prosím platný kód</string>
-  <string name="new_reg_phone_pending_login_header">Kód byl již odeslán</string>
-  <string name="new_reg_phone_pending_login_message">Již jsme vám poslali kód prostřednictvím SMS. Pro získání nového klepněte po 10 minutách na tlačítko znovu odeslat.</string>
-  <string name="new_reg_phone_add_password_header">Neplatné heslo</string>
-  <string name="new_reg_phone_add_password_message">Zkontrolujte své údaje a zkuste znovu</string>
-  <string name="new_reg_phone_generic_error_header">Něco se pokazilo</string>
-  <string name="new_reg_phone_generic_error_message">Please try to register again</string>
-  <string name="new_sign_in_generic_error_header">Něco se pokazilo</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again</string>
-  <string name="profile_generic_error_header">Něco se pokazilo</string>
-  <string name="profile_generic_error_message">Please try again</string>
-  <string name="profile_phone_generic_error_header">Neplatné telefonní číslo</string>
-  <string name="profile_phone_generic_error_message">Uveďte prosím platné telefonní číslo</string>
-  <string name="new_reg_phone_too_man_attempts_header">Příliš mnoho pokusů</string>
-  <string name="new_reg_phone_too_man_attempts_message">Please try to log in later</string>
-  <string name="new_reg_server_connectivity_error_header">Něco se pokazilo</string>
-  <string name="new_reg_server_connectivity_error_message">Please check your Internet connection and try again</string>
-  <string name="new_reg_internet_connectivity_error_header">Nejste připojeni k Internetu</string>
-  <string name="new_reg_internet_connectivity_error_message">Please check your Internet connection and try again</string>
   <string name="new_reg__code_resent">Nový kód byl zaslán prostřednictvím SMS</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Čekejte na hovor</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Něco se pokazilo. \nProsím potvrďte správnost telefonního čísla a kódu.</string>
   <string name="new_reg__default_country">de</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Příliš mnoho požadavků</string>
-  <string name="new_reg_phone_budget_exhausted_message">Zkuste to prosím později.</string>
   <string name="your_phone_number">Vaše telefonní číslo</string>
-  <string name="new_reg_phone_password_exists_header">Heslo existuje</string>
-  <string name="new_reg_phone_password_exists_message">Tento účet již má heslo k e-mailu přiřazeno. Přihlaste se prosím e-mailem.</string>
-  <string name="new_reg_phone__title__variant_1">Volání, zprávy, sdílení. \nIn soukromě nebo ve skupině.</string>
-  <string name="new_reg_phone__title__variant_2">Soukromé a bezpečné hovory, \nzprávy a sdílení.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Zaregistrovat se pomocí telefonního čísla</string>
   <string name="invitation_email__normal_email_signup_button">Zaregistrovat se pomocí jiné e-mailové adresy</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Nejaktivnější kontakty</string>
   <string name="people_picker__address_book_matches_title">Připojit</string>
-  <string name="people_picker__search_result_conversations_header_title">Skupiny</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s skupiny</string>
   <string name="people_picker__search_result_connections_header_title">Kontakty</string>
   <string name="people_picker__search_result_others_header_title">Připojit</string>
@@ -265,14 +233,14 @@
   <string name="content__location__no_map_placeholder">POLOHA SE ZOBRAZÍ NA MAPĚ AŽ BUDETE ONLINE.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Přejmenovat</string>
-  <string name="conversation__action__delete">Smazat</string>
+  <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Archivovat</string>
   <string name="conversation__action__unarchive">Obnovit</string>
   <string name="conversation__action__add_people">PŘIDÁNÍ LIDÍ</string>
   <string name="conversation__action__create_group">VYTVOŘIT SKUPINU</string>
   <string name="conversation__action__silence">Ztlumit</string>
   <string name="conversation__action__unsilence">Zapnout zvuk</string>
-  <string name="conversation__action__leave">Odejít</string>
+  <string name="conversation__action__leave">Leave group&#8230;</string>
   <string name="conversation__action__remove">Odstranit</string>
   <string name="conversation__action__call">Hovor</string>
   <string name="conversation__action__picture">Obrázek</string>
@@ -396,7 +364,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blokovat?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s vás nebude moci kontaktovat nebo přizvat ke skupinové konverzaci.</string>
-  <string name="confirmation_menu__confirm_block">Blokovat</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Blokováno</string>
   <!-- Delete conversation -->
@@ -444,6 +412,7 @@
   <string name="pref_developer_screen_title">Nastavení pro vývojáře</string>
   <string name="pref_dev_avs_screen_title">Nastavení AVS</string>
   <string name="pref_profile_screen_title">Profil</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Účet</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -453,6 +422,7 @@
   <string name="pref_account_actions_category_title">Akce</string>
   <string name="pref_account_personal_category_title">Osobní</string>
   <string name="pref_account_appearance_category_title">Vzhled</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Lidé vás mohou najít pod těmito detaily.</string>
   <string name="pref_account_personal_category_summary">Informace není viditelná nikomu jinému</string>
   <string name="pref_account_username_title">Uživatelské jméno</string>
@@ -1160,10 +1130,10 @@
   <string name="teams_set_name_title">Your name</string>
   <string name="teams_set_name_hint">FULL NAME</string>
   <string name="app_entry_slogan">Secure messaging for everyone.</string>
-  <string name="app_entry_create_account">Vytvořit účet</string>
-  <string name="app_entry_create_account_sub">for personal use</string>
-  <string name="app_entry_create_team">Vytvořit tým</string>
-  <string name="app_entry_create_team_sub">for work</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Already have an account?</string>
   <string name="app_entry_login">Přihlásit se</string>
   <string name="app_entry_tc_dialog_title">Terms of Service</string>
@@ -1225,7 +1195,7 @@
   <string name="create_link_button">Create Link</string>
   <string name="copy_link_button">Copy Link</string>
   <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link Copied!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1236,4 +1206,33 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">Nové zařízení</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">You\'ve used Wire on this device before.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">OK</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Back Up Now</string>
+  <string name="backup_import_error_unknown_title">Něco se pokazilo</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

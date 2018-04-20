@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Valami nem stimmel</string>
+  <string name="generic_error_message">Kérjük, próbáld meg újra</string>
+  <string name="internet_connectivity_error_header">Nincs internet kapcsolat</string>
+  <string name="internet_connectivity_error_message">Ellenőrizd az internetkapcsolatod és próbáld újra</string>
+  <string name="too_many_attempts_header">Túl sok sikertelen próbálkozás</string>
+  <string name="login_later_message">Kérjük, próbáld meg később</string>
+  <string name="register_again_message">Kérjük, próbálj meg újraregisztrálni</string>
+  <string name="email_exists_header">Ez az e-mail cím már foglalt</string>
+  <string name="email_exists_message">Ez az email cím már használatban van</string>
+  <string name="email_invalid_header">Érvénytelen e-mail cím</string>
+  <string name="email_invalid_message">Kérjük, add meg a valós e-mail címedet</string>
+  <string name="invalid_credentials_header">Érvénytelen információ</string>
+  <string name="invalid_credentials_message">Kérjük, ellenőrizd az adataid, majd próbáld meg újra</string>
+  <string name="phone_exists_header">Ez a telefonszám már regisztrálva van</string>
+  <string name="phone_exists_message">A megadott telefonszám már regisztrált. Kérjük, próbáld meg újra</string>
+  <string name="phone_invalid_format_header">Érvénytelen telefonszám</string>
+  <string name="phone_invalid_format_message">Kérjük, valós telefonszámot adj meg</string>
+  <string name="phone_password_exists_header">A jelszó létezik</string>
+  <string name="phone_password_exists_message">Ehhez a fiókhoz már tartozik e-mail cím és jelszó. Kérjük, jelentkezz be az e-mail címeddel.</string>
+  <string name="invalid_code_header">Érvénytelen kód</string>
+  <string name="incorrect_code_header">Helytelen kód</string>
+  <string name="wrong_code_message">Kérjük, adj meg egy érvényes kódot</string>
+  <string name="phone_pending_login_header">A kódot már elküldtük</string>
+  <string name="phone_pending_login_message">Már elküldtük neked a kódot SMS-ben. Ha új kódot szeretnél kérni, koppints az Újraküldés gombra 10 perc elteltével.</string>
+  <string name="password_invalid_header">Érvénytelen jelszó</string>
+  <string name="password_invalid_message">Kérjük, ellenőrizd az adataid, majd próbáld meg újra</string>
+  <string name="phone_budget_exhausted_header">Túl sok kérelem</string>
+  <string name="phone_budget_exhausted_message">Kérjük, próbáld meg később.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Beállítások</string>
   <string name="camera_not_available">A KAMERA NEM ELÉRHETŐ</string>
   <string name="camera_permissions_denied_title">A kamera nem elérhető</string>
   <string name="camera_permissions_denied_message">Fotók készítéséhez és küldéséhez először engedélyezd a kamera-hozzáférést</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Modern, privát kommunikáció.</string>
   <string name="welcome__terms_of_service">A FOLYTATÁSSAL ELFOGADOD A _FELHASZNÁLÁSI FELTÉTELEKET_.</string>
-  <string name="profile__photo__guidance">ÜDV %1$s! \n\n A WIRE ANNYIVAL SZEBB\n EGY KÉPPEL.</string>
   <string name="profile__name__guidance__tooshort__title">LEGALÁBB 2 KARAKTER</string>
   <string name="profile__email__placeholder">E-mail</string>
   <string name="profile__password__placeholder">Jelszó</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">Küldtünk egy e-mailt a \n[[%1$s]] címre. \nE-mail címed megerősítéséhez kövesd a levélben lévő linket.</string>
   <string name="profile__email__verify__didnt_get">Nem kaptad meg az üzenetet?</string>
   <string name="profile__email__verify__resend">Újraküldés</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Ez az e-mail cím már foglalt</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">Ez az email cím már használatban van</string>
   <string name="profile__guidance__invalid_email">A megadott e-mail cím érvénytelen. Kérjük, ellenőrizd és próbáld újra</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_ELLENŐRIZD_ TELEFONSZÁMOD</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">TELEFONSZÁMOD MEGADÁSA NEM KÖTELEZŐ, DE MEGKÖNNYÍTI, ISMERŐSEID MEGTALÁLÁSÁT. ELLENŐRZŐKÓDOT KÜLDÜNK SMS-BEN, HOGY MEGGYŐZŐDJÜNK RÓLA, HOGY EZ VALÓBAN AZ TE SZÁMOD.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">ADD MEG AZ ORSZÁGHÍVÓ-KÓDOT</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">ADD MEG AZ SMS-BEN KAPOTT 3 SZÁMJEGYŰ MEGERŐSÍTŐ KÓDOT.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">NEM KAPTAD MEG AZ ÜZENETET? </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">ÚJRAKÜLDÉS</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">MEGERŐSÍTÉS</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Fiók létrehozása</string>
-  <string name="new_reg_phone__change_country">_ORSZÁG MÓDOSÍTÁSA_</string>
-  <string name="new_reg__add_email">E-mail cím és jelszó hozzáadása</string>
-  <string name="new_reg__add_email_info">Segít bejelentkezni, ha nem férsz hozzá telefonodhoz/telefonszámodhoz vagy elvesztetted a mobilod.</string>
-  <string name="new_reg__otr__add_email_info">Add hozzá e-mail címed és jelszavad.</string>
-  <string name="new_reg__otr__add_email_sub_info">Lehetővé teszi, hogy egyszerre több eszközön is használhasd a Wire-t.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Hibás e-mail cím</string>
-  <string name="new_reg_email_invalid_message">Kérjük, add meg a valós e-mail címedet</string>
-  <string name="new_reg_email_generic_error_header">Valami nem stimmel</string>
-  <string name="new_reg_email_generic_error_message">Kérjük, próbálj meg újraregisztrálni</string>
-  <string name="new_reg_email_register_generic_error_header">Érvénytelen információ</string>
-  <string name="new_reg_email_register_generic_error_message">Kérjük, add meg teljes neved, a valós e-mail címedet és jelszavadat.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Érvénytelen információ</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Kérjük, ellenőrizd az adataid, majd próbáld meg újra</string>
-  <string name="new_reg_phone_exists_header">Ez a telefonszám már regisztrálva van</string>
-  <string name="new_reg_phone_exists_message">A megadott telefonszám már regisztrált. Kérjük, próbáld meg újra</string>
-  <string name="new_reg_phone_invalid_format_header">Érvénytelen telefonszám</string>
-  <string name="new_reg_phone_invalid_format_message">Kérjük, valós telefonszámot adj meg</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Érvénytelen kód</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Kérjük, adj meg egy érvényes kódot</string>
-  <string name="new_reg_phone_invalid_add_code_header">Érvénytelen kód</string>
-  <string name="new_reg_phone_invalid_add_code_message">Kérjük, adj meg egy érvényes kódot</string>
-  <string name="new_reg_phone_invalid_login_code_header">Helytelen kód</string>
-  <string name="new_reg_phone_invalid_login_code_message">Kérjük, adj meg egy érvényes kódot</string>
-  <string name="new_reg_phone_pending_login_header">A kódot már elküldtük</string>
-  <string name="new_reg_phone_pending_login_message">Már elküldtük neked a kódot SMS-ben. Ha új kódot szeretnél kérni, koppints az Újraküldés gombra 10 perc elteltével.</string>
-  <string name="new_reg_phone_add_password_header">Érvénytelen jelszó</string>
-  <string name="new_reg_phone_add_password_message">Kérjük, ellenőrizd az adataid, majd próbáld meg újra</string>
-  <string name="new_reg_phone_generic_error_header">Valami nem stimmel</string>
-  <string name="new_reg_phone_generic_error_message">Kérjük, próbálj meg újraregisztrálni</string>
-  <string name="new_sign_in_generic_error_header">Valami nem stimmel</string>
-  <string name="new_sign_in_generic_error_message">Kérjük, próbálj meg bejelentkezni újra</string>
-  <string name="profile_generic_error_header">Valami nem stimmel</string>
-  <string name="profile_generic_error_message">Kérjük, próbáld meg újra</string>
-  <string name="profile_phone_generic_error_header">Érvénytelen telefonszám</string>
-  <string name="profile_phone_generic_error_message">Kérjük, valós telefonszámot adj meg</string>
-  <string name="new_reg_phone_too_man_attempts_header">Túl sok sikertelen próbálkozás</string>
-  <string name="new_reg_phone_too_man_attempts_message">Kérjük, próbáld meg később</string>
-  <string name="new_reg_server_connectivity_error_header">Valami nem stimmel</string>
-  <string name="new_reg_server_connectivity_error_message">Ellenőrizd az internetkapcsolatod és próbáld újra</string>
-  <string name="new_reg_internet_connectivity_error_header">Nincs internetkapcsolat</string>
-  <string name="new_reg_internet_connectivity_error_message">Ellenőrizd az internetkapcsolatod és próbáld újra</string>
   <string name="new_reg__code_resent">Elküldtük az új kódot SMS-ben</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Mindjárt felhívunk</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Valami nem stimmel. \nKérjük, ellenőrizd, hogy a telefonszám és a kód helyes.</string>
   <string name="new_reg__default_country">hu</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Túl sok kérelem</string>
-  <string name="new_reg_phone_budget_exhausted_message">Kérjük, próbáld meg később.</string>
   <string name="your_phone_number">Telefonszámod</string>
-  <string name="new_reg_phone_password_exists_header">A jelszó létezik</string>
-  <string name="new_reg_phone_password_exists_message">Ehhez a fiókhoz már tartozik e-mail cím és jelszó. Kérjük, jelentkezz be az e-mail címeddel.</string>
-  <string name="new_reg_phone__title__variant_1">Hívás, üzenetküldés, megosztás. \nPrivátban vagy csoportosan.</string>
-  <string name="new_reg_phone__title__variant_2">Privát és biztonságos hívások, \nüzenetküldés és megosztás.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Feliratkozás telefonszámmal</string>
   <string name="invitation_email__normal_email_signup_button">Feliratkozás másik e-mail címmel</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">KERESÉS</string>
   <string name="people_picker__top_users_header_title">Top Partnerek</string>
   <string name="people_picker__address_book_matches_title">Csatlakozás</string>
-  <string name="people_picker__search_result_conversations_header_title">Csoportok</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Csoportjai</string>
   <string name="people_picker__search_result_connections_header_title">Névjegyek</string>
   <string name="people_picker__search_result_others_header_title">Csatlakozás</string>
@@ -261,14 +229,14 @@
   <string name="content__location__no_map_placeholder">A HELY MEGJELENIK A TÉRKÉPEN, HA ÚJRA LESZ INTERNETKAPCSOLAT.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Átnevezés</string>
-  <string name="conversation__action__delete">Törlés</string>
+  <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Archiválás</string>
   <string name="conversation__action__unarchive">Archiválás visszavonása</string>
   <string name="conversation__action__add_people">PARTNEREK FELVÉTELE</string>
   <string name="conversation__action__create_group">CSOPORT LÉTREHOZÁSA</string>
   <string name="conversation__action__silence">Némítás</string>
   <string name="conversation__action__unsilence">Némítás feloldása</string>
-  <string name="conversation__action__leave">Kilépés</string>
+  <string name="conversation__action__leave">Leave group&#8230;</string>
   <string name="conversation__action__remove">Eltávolítás</string>
   <string name="conversation__action__call">Hívás</string>
   <string name="conversation__action__picture">Kép</string>
@@ -380,7 +348,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Letiltod?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s nem tud majd kapcsolatba lépni veled, sem meghívni téged csoportos beszélgetésekbe.</string>
-  <string name="confirmation_menu__confirm_block">Tiltás</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Letiltva</string>
   <!-- Delete conversation -->
@@ -428,6 +396,7 @@
   <string name="pref_developer_screen_title">Fejlesztői beállítások</string>
   <string name="pref_dev_avs_screen_title">AVS beállítások</string>
   <string name="pref_profile_screen_title">Profil</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Fiók</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -437,6 +406,7 @@
   <string name="pref_account_actions_category_title">Műveletek</string>
   <string name="pref_account_personal_category_title">Személyes</string>
   <string name="pref_account_appearance_category_title">Megjelenés</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Más emberek ezek alapján tudnak megtalálni.</string>
   <string name="pref_account_personal_category_summary">A személyes adatokat senki más nem látja</string>
   <string name="pref_account_username_title">Felhasználónév</string>
@@ -1099,10 +1069,10 @@
   <string name="teams_set_name_title">Neved</string>
   <string name="teams_set_name_hint">TELJES NÉV</string>
   <string name="app_entry_slogan">Biztonságos üzenetküldés, mindenkinek.</string>
-  <string name="app_entry_create_account">Fiók létrehozása</string>
-  <string name="app_entry_create_account_sub">személyes használatra</string>
-  <string name="app_entry_create_team">Csapat létrehozása</string>
-  <string name="app_entry_create_team_sub">munkára</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Már van fiókod?</string>
   <string name="app_entry_login">Bejelentkezés</string>
   <string name="app_entry_tc_dialog_title">Felhasználási feltételek</string>
@@ -1164,7 +1134,7 @@
   <string name="create_link_button">Hivatkozás Létrehozása</string>
   <string name="copy_link_button">Hivatkozás Másolása</string>
   <string name="share_link_button">Hivatkozás Megosztása</string>
-  <string name="revoke_link_button">Hivatkozás Eltávolítása</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">MÁSOK MEGHÍVÁSA EGY HIVATKOZÁSSAL</string>
   <string name="link_copied_toast">Hivatkozás Másolva!</string>
   <string name="revoke_link_message">Új vendégek nem tudnak ezzel a hivatkozással csatlakozni. A már meglévő vendégeknek továbbra is megmarad a hozzáférése.</string>
@@ -1175,4 +1145,33 @@
   <string name="guest_time_left_hours">%1$s ó maradt</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$s ó maradt</string>
   <string name="guest_time_left_minutes">Kevesebb, mint %1$s p maradt</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">Új eszköz</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">You\'ve used Wire on this device before.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">OK</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Back Up Now</string>
+  <string name="backup_import_error_unknown_title">Valami nem stimmel</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

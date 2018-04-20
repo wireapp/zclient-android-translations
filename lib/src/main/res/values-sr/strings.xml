@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Нешто је пошло наопако</string>
+  <string name="generic_error_message">Покушајте поново</string>
+  <string name="internet_connectivity_error_header">Нема везе са интернетом</string>
+  <string name="internet_connectivity_error_message">Проверите везу са интернетом и покушајте поново</string>
+  <string name="too_many_attempts_header">Превише покушаја</string>
+  <string name="login_later_message">Покушајте пријаву касније</string>
+  <string name="register_again_message">Покушајте поново да се региструјете</string>
+  <string name="email_exists_header">Адреса е-поште се већ користи</string>
+  <string name="email_exists_message">This email address has already been registered</string>
+  <string name="email_invalid_header">Неисправна адреса е-поште</string>
+  <string name="email_invalid_message">Унесите важећу адресу е-поште</string>
+  <string name="invalid_credentials_header">Неисправни подаци</string>
+  <string name="invalid_credentials_message">Проверите детаље и покушајте поново</string>
+  <string name="phone_exists_header">Број телефона је употребљен</string>
+  <string name="phone_exists_message">Број телефона који сте навели је већ регистрован. Покушајте поново</string>
+  <string name="phone_invalid_format_header">Неисправан број телефона</string>
+  <string name="phone_invalid_format_message">Унесите исправан број телефона</string>
+  <string name="phone_password_exists_header">Лозинка постоји</string>
+  <string name="phone_password_exists_message">Овај налог већ има лозинку и е-адресу придружену. Пријавите се е-поштом.</string>
+  <string name="invalid_code_header">Погрешан код</string>
+  <string name="incorrect_code_header">Неисправан код</string>
+  <string name="wrong_code_message">Унесите исправан код</string>
+  <string name="phone_pending_login_header">Код је већ послат</string>
+  <string name="phone_pending_login_message">Већ смо вам послали код путем СМС-а. Тапните на „Понови“ након 10 минута да добијете нови.</string>
+  <string name="password_invalid_header">Неисправна лозинка</string>
+  <string name="password_invalid_message">Проверите детаље и покушајте поново</string>
+  <string name="phone_budget_exhausted_header">Превише захтева</string>
+  <string name="phone_budget_exhausted_message">Покушајте поново касније.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">У реду</string>
   <string name="permissions_denied_dialog_settings">Поставке</string>
   <string name="camera_not_available">КАМЕРА НИЈЕ ДОСТУПНА</string>
   <string name="camera_permissions_denied_title">Камера није доступна</string>
   <string name="camera_permissions_denied_message">Да бисте сликали и слали фотографије, дајте дозволу за приступ камери</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Модерна, лична комуникација.</string>
   <string name="welcome__terms_of_service">НАСТАВЉАЈУЋИ, СЛАЖЕТЕ СЕ СА _УСЛОВИМА КОРИШЋЕЊА_</string>
-  <string name="profile__photo__guidance">ЗДРАВО %1$s, \n\n ВАЈЕР ЈЕ МНОГО ЛЕПШИ\n СА СЛИКОМ.</string>
   <string name="profile__name__guidance__tooshort__title">БАР 2 ЗНАКА</string>
   <string name="profile__email__placeholder">E-пошта</string>
   <string name="profile__password__placeholder">Лозинка</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">Послали смо поруку на \n[[%1$s]]. \nИспратите везу за оверу ваше адресе.</string>
   <string name="profile__email__verify__didnt_get">Нисте добили поруку?</string>
   <string name="profile__email__verify__resend">Понови</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Адреса е-поште се већ користи</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">This email address has already been registered</string>
   <string name="profile__guidance__invalid_email">Адреса е-поште коју сте унели није исправна. Проверите и покушајте поново</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_ОВЕРИТЕ_ ВАШ БРОЈ</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">ВАШ БРОЈ НИЈЕ ОБАВЕЗАН АЛИ ОЛАКШАВА НАЛАЖЕЊЕ ЉУДИ КОЈЕ ЗНАТЕ. ДА БИСМО БИЛИ СИГУРНИ ДА СТЕ ТО ВИ, ПОСЛАЋЕМО ВАМ КОД ПУТЕМ СМС-а.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">ДОДАЈ КОД ЗЕМЉЕ</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">УНЕСИТЕ ТРОЦИФРЕНИ ПОТВРДНИ КОД ИЗ СМС-а.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">НИСТЕ ДОБИЛИ ПОРУКУ? </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">ПОНОВИ</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">ПОТВРДИ</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Направи налог</string>
-  <string name="new_reg_phone__change_country">_ПРОМЕНИ ЗЕМЉУ_</string>
-  <string name="new_reg__add_email">Додај адресу е-поште и лозинку</string>
-  <string name="new_reg__add_email_info">Помаже да се пријавите ако промените број или изгубите телефон.</string>
-  <string name="new_reg__otr__add_email_info">Додајте адресу е-поште и лозинку.</string>
-  <string name="new_reg__otr__add_email_sub_info">Ово омогућава коришћење Вајера на више уређаја.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Неисправна адреса е-поште</string>
-  <string name="new_reg_email_invalid_message">Унесите важећу адресу е-поште</string>
-  <string name="new_reg_email_generic_error_header">Нешто је пошло наопако</string>
-  <string name="new_reg_email_generic_error_message">Покушајте поново да се региструјете</string>
-  <string name="new_reg_email_register_generic_error_header">Неисправни подаци</string>
-  <string name="new_reg_email_register_generic_error_message">Унесите ваше пуно име и важећу е-адресу и лозинку.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Неисправни подаци</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Проверите детаље и покушајте поново</string>
-  <string name="new_reg_phone_exists_header">Број телефона је употребљен</string>
-  <string name="new_reg_phone_exists_message">Број телефона који сте навели је већ регистрован. Покушајте поново</string>
-  <string name="new_reg_phone_invalid_format_header">Неисправан број телефона</string>
-  <string name="new_reg_phone_invalid_format_message">Унесите исправан број телефона</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Погрешан код</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Унесите исправан код</string>
-  <string name="new_reg_phone_invalid_add_code_header">Погрешан код</string>
-  <string name="new_reg_phone_invalid_add_code_message">Унесите исправан код</string>
-  <string name="new_reg_phone_invalid_login_code_header">Неисправан код</string>
-  <string name="new_reg_phone_invalid_login_code_message">Унесите исправан код</string>
-  <string name="new_reg_phone_pending_login_header">Код је већ послат</string>
-  <string name="new_reg_phone_pending_login_message">Већ смо вам послали код путем СМС-а. Тапните на „Понови“ након 10 минута да добијете нови.</string>
-  <string name="new_reg_phone_add_password_header">Неисправна лозинка</string>
-  <string name="new_reg_phone_add_password_message">Проверите детаље и покушајте поново</string>
-  <string name="new_reg_phone_generic_error_header">Нешто је пошло наопако</string>
-  <string name="new_reg_phone_generic_error_message">Покушајте поново да се региструјете</string>
-  <string name="new_sign_in_generic_error_header">Нешто је пошло наопако</string>
-  <string name="new_sign_in_generic_error_message">Покушајте поново да се пријавите</string>
-  <string name="profile_generic_error_header">Нешто је пошло наопако</string>
-  <string name="profile_generic_error_message">Покушајте поново</string>
-  <string name="profile_phone_generic_error_header">Неисправан број телефона</string>
-  <string name="profile_phone_generic_error_message">Унесите исправан број телефона</string>
-  <string name="new_reg_phone_too_man_attempts_header">Превише покушаја</string>
-  <string name="new_reg_phone_too_man_attempts_message">Покушајте пријаву касније</string>
-  <string name="new_reg_server_connectivity_error_header">Нешто је пошло наопако</string>
-  <string name="new_reg_server_connectivity_error_message">Проверите везу са интернетом и покушајте поново</string>
-  <string name="new_reg_internet_connectivity_error_header">Не постоји веза са интернетом</string>
-  <string name="new_reg_internet_connectivity_error_message">Проверите везу са интернетом и покушајте поново</string>
   <string name="new_reg__code_resent">Нови код вам је послат путем СМС-а</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Сачекајте позив</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Нешто је пошло наопако.\nПроверите да ли су број телефона и код исправни.</string>
   <string name="new_reg__default_country">rs</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Превише захтева</string>
-  <string name="new_reg_phone_budget_exhausted_message">Покушајте поново касније.</string>
   <string name="your_phone_number">Ваш број телефона</string>
-  <string name="new_reg_phone_password_exists_header">Лозинка постоји</string>
-  <string name="new_reg_phone_password_exists_message">Овај налог већ има лозинку и е-адресу придружену. Пријавите се е-поштом.</string>
-  <string name="new_reg_phone__title__variant_1">Позивајте, пишите, делите.\nПриватно или у групама.</string>
-  <string name="new_reg_phone__title__variant_2">Приватни и безбедни позиви\nдописивање и дељење.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Пријавите се помоћу броја телефона</string>
   <string name="invitation_email__normal_email_signup_button">Пријавите се помоћу друге е-адресе</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Најчешће контактирани</string>
   <string name="people_picker__address_book_matches_title">Повежи се</string>
-  <string name="people_picker__search_result_conversations_header_title">Групе</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">Групе %1$s</string>
   <string name="people_picker__search_result_connections_header_title">Контакти</string>
   <string name="people_picker__search_result_others_header_title">Повежи се</string>
@@ -263,14 +231,14 @@
   <string name="content__location__no_map_placeholder">ЛОКАЦИЈА ЋЕ СЕ ПОЈАВИТИ НА МАПИ КАДА СЕ ВРАТИТЕ НА ВЕЗУ.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Преименуј</string>
-  <string name="conversation__action__delete">Обриши</string>
+  <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Архивирај</string>
   <string name="conversation__action__unarchive">Деархивирај</string>
   <string name="conversation__action__add_people">ДОДАЈ ЉУДЕ</string>
   <string name="conversation__action__create_group">НАПРАВИ ГРУПУ</string>
   <string name="conversation__action__silence">Ућуткај</string>
   <string name="conversation__action__unsilence">Укључи звук</string>
-  <string name="conversation__action__leave">Изађи</string>
+  <string name="conversation__action__leave">Leave group&#8230;</string>
   <string name="conversation__action__remove">Уклони</string>
   <string name="conversation__action__call">Позив</string>
   <string name="conversation__action__picture">Слика</string>
@@ -388,7 +356,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Блокирати?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s неће моћи да вас контактира или позове на групне разговоре.</string>
-  <string name="confirmation_menu__confirm_block">Блокирај</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Блокирано</string>
   <!-- Delete conversation -->
@@ -436,6 +404,7 @@
   <string name="pref_developer_screen_title">Поставке за програмере</string>
   <string name="pref_dev_avs_screen_title">АВС поставке</string>
   <string name="pref_profile_screen_title">Профил</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Налог</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -445,6 +414,7 @@
   <string name="pref_account_actions_category_title">Радње</string>
   <string name="pref_account_personal_category_title">Лично</string>
   <string name="pref_account_appearance_category_title">Изглед</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Људи вас могу наћи по овим подацима.</string>
   <string name="pref_account_personal_category_summary">Подаци нису видљиви никоме другоме</string>
   <string name="pref_account_username_title">Корисничко име</string>
@@ -1129,10 +1099,10 @@
   <string name="teams_set_name_title">Your name</string>
   <string name="teams_set_name_hint">FULL NAME</string>
   <string name="app_entry_slogan">Secure messaging for everyone.</string>
-  <string name="app_entry_create_account">Направи налог</string>
-  <string name="app_entry_create_account_sub">for personal use</string>
-  <string name="app_entry_create_team">Направи тим</string>
-  <string name="app_entry_create_team_sub">for work</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Already have an account?</string>
   <string name="app_entry_login">Пријави се</string>
   <string name="app_entry_tc_dialog_title">Terms of Service</string>
@@ -1194,7 +1164,7 @@
   <string name="create_link_button">Create Link</string>
   <string name="copy_link_button">Copy Link</string>
   <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link Copied!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1205,4 +1175,33 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">Нови уређај</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">You\'ve used Wire on this device before.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">У реду</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Back Up Now</string>
+  <string name="backup_import_error_unknown_title">Нешто је пошло наопако</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

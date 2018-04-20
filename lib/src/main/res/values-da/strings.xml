@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Noget gik galt</string>
+  <string name="generic_error_message">Please try again</string>
+  <string name="internet_connectivity_error_header">Ingen internetforbindelse</string>
+  <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
+  <string name="too_many_attempts_header">For mange forsøg</string>
+  <string name="login_later_message">Please try to log in later</string>
+  <string name="register_again_message">Please try to register again</string>
+  <string name="email_exists_header">Email adresse allerede brugt</string>
+  <string name="email_exists_message">This email address has already been registered</string>
+  <string name="email_invalid_header">Ugyldig e-mailadresse</string>
+  <string name="email_invalid_message">Angiv venligst en gyldig e-mail adresse</string>
+  <string name="invalid_credentials_header">Ugyldige oplysninger</string>
+  <string name="invalid_credentials_message">Bekræft venligst dine detaljer og prøv igen</string>
+  <string name="phone_exists_header">Telefonnummeret er allerede i brug</string>
+  <string name="phone_exists_message">The phone number you provided has already been registered. Please try again</string>
+  <string name="phone_invalid_format_header">Ugyldigt telefonnummer</string>
+  <string name="phone_invalid_format_message">Indtast et gyldigt telefonnummer</string>
+  <string name="phone_password_exists_header">Password exists</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
+  <string name="invalid_code_header">Ugyldig kode</string>
+  <string name="incorrect_code_header">Forkert kode</string>
+  <string name="wrong_code_message">Indtast en gyldig kode</string>
+  <string name="phone_pending_login_header">Koden er allerede sendt</string>
+  <string name="phone_pending_login_message">Vi har allerede sendt dig en kode via SMS. Tryk på Gensend efter 10 minutter for at få en ny.</string>
+  <string name="password_invalid_header">Ugyldig adgangskode</string>
+  <string name="password_invalid_message">Bekræft venligst dine detaljer og prøv igen</string>
+  <string name="phone_budget_exhausted_header">For mange anmodninger</string>
+  <string name="phone_budget_exhausted_message">Prøv venligst igen senere.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Indstillinger</string>
   <string name="camera_not_available">KAMERA IKKE TILGÆNGELIGT</string>
   <string name="camera_permissions_denied_title">Kamera ikke tilgængeligt</string>
   <string name="camera_permissions_denied_message">For at tage og sende billeder, giv tilladelse til brug af kameraet</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Moderne, privat kommunikation.</string>
   <string name="welcome__terms_of_service">VED AT FORTSÆTTE ACCEPTERER DU _VILKÅR FOR ANVENDELSE_.</string>
-  <string name="profile__photo__guidance">HEJ %1$s \n\nWIRE ER SÅ MEGET BEDRE\nMED ET BILLEDE.</string>
   <string name="profile__name__guidance__tooshort__title">MINDST 2 TEGN</string>
   <string name="profile__email__placeholder">E-mail</string>
   <string name="profile__password__placeholder">Adgangskode</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">Vi har sendt en e-mail til \n[[%1$s]]. \nFølg linket for at bekræfte din adresse.</string>
   <string name="profile__email__verify__didnt_get">Fik du ikke beskeden?</string>
   <string name="profile__email__verify__resend">Gensend</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Email adresse allerede brugt</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">This email address has already been registered</string>
   <string name="profile__guidance__invalid_email">The email address you entered is not valid. Please verify and try again</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_VERIFICER_ DIT NUMMER</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">DIT NUMMER ER VALGFRIT, MEN DET GØR DET LETTERE FOR OS, AT FINDE FOLK DU KENDER. FOR AT SIKRE OS, AT DET ER DIG, SENDER VI EN BEKRÆFTELSESKODE VIA SMS.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">TILFØJ EN LANDEKODE</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">INDTAST DEN 3-CIFREDE BEKRÆFTELSESKODE FRA SMS\'EN.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">MODTOG DU IKKE BESKEDEN? </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">GENSEND</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">BEKRÆFT</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Opret en konto</string>
-  <string name="new_reg_phone__change_country">_SKIFT LAND_</string>
-  <string name="new_reg__add_email">Tilføj e-mailadresse og adgangskode</string>
-  <string name="new_reg__add_email_info">Det hjælper dig med at logge ind, hvis du er låst ude eller mister din telefon.</string>
-  <string name="new_reg__otr__add_email_info">Tilføj din e-mailadresse og en adgangskode.</string>
-  <string name="new_reg__otr__add_email_sub_info">Dette gør, at du kan bruge Wire på flere enheder.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Ugyldig e-mailadresse</string>
-  <string name="new_reg_email_invalid_message">Angiv venligst en gyldig e-mail adresse</string>
-  <string name="new_reg_email_generic_error_header">Noget gik galt</string>
-  <string name="new_reg_email_generic_error_message">Please try to register again</string>
-  <string name="new_reg_email_register_generic_error_header">Ugyldige oplysninger</string>
-  <string name="new_reg_email_register_generic_error_message">Indtast dit fulde navn, en gyldig e-mailadresse og adgangskode.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Ugyldige oplysninger</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Bekræft venligst dine detaljer og prøv igen</string>
-  <string name="new_reg_phone_exists_header">Telefonnummeret er allerede i brug</string>
-  <string name="new_reg_phone_exists_message">The phone number you provided has already been registered. Please try again</string>
-  <string name="new_reg_phone_invalid_format_header">Ugyldigt telefonnummer</string>
-  <string name="new_reg_phone_invalid_format_message">Indtast et gyldigt telefonnummer</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Ugyldig kode</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Indtast en gyldig kode</string>
-  <string name="new_reg_phone_invalid_add_code_header">Ugyldig kode</string>
-  <string name="new_reg_phone_invalid_add_code_message">Indtast en gyldig kode</string>
-  <string name="new_reg_phone_invalid_login_code_header">Forkert kode</string>
-  <string name="new_reg_phone_invalid_login_code_message">Indtast en gyldig kode</string>
-  <string name="new_reg_phone_pending_login_header">Koden er allerede sendt</string>
-  <string name="new_reg_phone_pending_login_message">Vi har allerede sendt dig en kode via SMS. Tryk på Gensend efter 10 minutter for at få en ny.</string>
-  <string name="new_reg_phone_add_password_header">Ugyldig adgangskode</string>
-  <string name="new_reg_phone_add_password_message">Bekræft venligst dine detaljer og prøv igen</string>
-  <string name="new_reg_phone_generic_error_header">Noget gik galt</string>
-  <string name="new_reg_phone_generic_error_message">Please try to register again</string>
-  <string name="new_sign_in_generic_error_header">Noget gik galt</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again</string>
-  <string name="profile_generic_error_header">Noget gik galt</string>
-  <string name="profile_generic_error_message">Please try again</string>
-  <string name="profile_phone_generic_error_header">Ugyldigt telefonnummer</string>
-  <string name="profile_phone_generic_error_message">Indtast et gyldigt telefonnummer</string>
-  <string name="new_reg_phone_too_man_attempts_header">For mange forsøg</string>
-  <string name="new_reg_phone_too_man_attempts_message">Please try to log in later</string>
-  <string name="new_reg_server_connectivity_error_header">Noget gik galt</string>
-  <string name="new_reg_server_connectivity_error_message">Please check your Internet connection and try again</string>
-  <string name="new_reg_internet_connectivity_error_header">Ingen internetforbindelse</string>
-  <string name="new_reg_internet_connectivity_error_message">Please check your Internet connection and try again</string>
   <string name="new_reg__code_resent">En ny kode blev sendt til dig via SMS</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Vent på et opkald</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Noget gik galt.\nBekræft at telefonnummer og kode er korrekt.</string>
   <string name="new_reg__default_country">dk</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">For mange anmodninger</string>
-  <string name="new_reg_phone_budget_exhausted_message">Prøv venligst igen senere.</string>
   <string name="your_phone_number">Your phone number</string>
-  <string name="new_reg_phone_password_exists_header">Password exists</string>
-  <string name="new_reg_phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
-  <string name="new_reg_phone__title__variant_1">Foretag opkald, send beskeder, deling.\nPrivat eller med grupper.</string>
-  <string name="new_reg_phone__title__variant_2">Private og sikre opkald,\nbeskeder og deling.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Tilmeld dig ved hjælp af telefonnummer</string>
   <string name="invitation_email__normal_email_signup_button">Tilmeld dig ved hjælp af en anden e-mail</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Top personer</string>
   <string name="people_picker__address_book_matches_title">Forbind</string>
-  <string name="people_picker__search_result_conversations_header_title">Grupper</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Grupper</string>
   <string name="people_picker__search_result_connections_header_title">Kontakter</string>
   <string name="people_picker__search_result_others_header_title">Forbind</string>
@@ -261,14 +229,14 @@
   <string name="content__location__no_map_placeholder">PLACERINGEN VISES PÅ KORTET, NÅR DU ER ONLINE IGEN.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Omdøb</string>
-  <string name="conversation__action__delete">Slet</string>
+  <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Arkiv</string>
   <string name="conversation__action__unarchive">Fjern fra arkiv</string>
   <string name="conversation__action__add_people">TILFØJ PERSONER</string>
   <string name="conversation__action__create_group">OPRET GRUPPE</string>
   <string name="conversation__action__silence">Lyd fra</string>
   <string name="conversation__action__unsilence">Lyd til</string>
-  <string name="conversation__action__leave">Forlad</string>
+  <string name="conversation__action__leave">Leave group&#8230;</string>
   <string name="conversation__action__remove">Fjern</string>
   <string name="conversation__action__call">Ring op</string>
   <string name="conversation__action__picture">Billede</string>
@@ -380,7 +348,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blokér?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s vil ikke kunne kontakte dig eller tilføje dig til gruppesamtaler.</string>
-  <string name="confirmation_menu__confirm_block">Blokér</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Blokkeret</string>
   <!-- Delete conversation -->
@@ -428,6 +396,7 @@
   <string name="pref_developer_screen_title">Udviklerindstillinger</string>
   <string name="pref_dev_avs_screen_title">AVS Indstillinger</string>
   <string name="pref_profile_screen_title">Profil</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Konto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -437,6 +406,7 @@
   <string name="pref_account_actions_category_title">Handlinger</string>
   <string name="pref_account_personal_category_title">Personligt</string>
   <string name="pref_account_appearance_category_title">Udseende</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Folk kan finde dig med disse oplysninger.</string>
   <string name="pref_account_personal_category_summary">Oplysningerne er ikke synlige for andre</string>
   <string name="pref_account_username_title">Brugernavn</string>
@@ -1100,10 +1070,10 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="teams_set_name_title">Your name</string>
   <string name="teams_set_name_hint">FULL NAME</string>
   <string name="app_entry_slogan">Secure messaging for everyone.</string>
-  <string name="app_entry_create_account">Opret en konto</string>
-  <string name="app_entry_create_account_sub">for personal use</string>
-  <string name="app_entry_create_team">Opret team</string>
-  <string name="app_entry_create_team_sub">for work</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Already have an account?</string>
   <string name="app_entry_login">Log ind</string>
   <string name="app_entry_tc_dialog_title">Terms of Service</string>
@@ -1165,7 +1135,7 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="create_link_button">Create Link</string>
   <string name="copy_link_button">Copy Link</string>
   <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link Copied!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1176,4 +1146,33 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">New device</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">Du har brugt Wire på denne enhed før.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">OK</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Back Up Now</string>
+  <string name="backup_import_error_unknown_title">Noget gik galt</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

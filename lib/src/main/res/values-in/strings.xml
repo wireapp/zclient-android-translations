@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Terjadi kesalahan</string>
+  <string name="generic_error_message">Please try again</string>
+  <string name="internet_connectivity_error_header">Tidak Ada Koneksi Internet</string>
+  <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
+  <string name="too_many_attempts_header">Terlalu banyak upaya</string>
+  <string name="login_later_message">Please try to log in later</string>
+  <string name="register_again_message">Please try to register again</string>
+  <string name="email_exists_header">Alamat email sudah diambil</string>
+  <string name="email_exists_message">Alamat email ini sudah terdaftar</string>
+  <string name="email_invalid_header">Alamat email tidak valid</string>
+  <string name="email_invalid_message">silakan isi alamat email</string>
+  <string name="invalid_credentials_header">Informasi tidak valid</string>
+  <string name="invalid_credentials_message">Harap verifikasi data Anda dan coba lagi</string>
+  <string name="phone_exists_header">Nomor telepon sudah diambil</string>
+  <string name="phone_exists_message">The phone number you provided has already been registered. Please try again</string>
+  <string name="phone_invalid_format_header">Nomor telepon tidak valid</string>
+  <string name="phone_invalid_format_message">Silakan masukkan nomor telepon yang valid</string>
+  <string name="phone_password_exists_header">Password exists</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
+  <string name="invalid_code_header">Kode tidak valid</string>
+  <string name="incorrect_code_header">Kode salah</string>
+  <string name="wrong_code_message">Harap masukkan kode yang valid</string>
+  <string name="phone_pending_login_header">Kode Telah Dikirim</string>
+  <string name="phone_pending_login_message">Kami telah mengirimi Anda kode melalui SMS. Ketuk Kirim Ulang setelah 10 menit untuk mendapatkan yang baru.</string>
+  <string name="password_invalid_header">Sandi tidak valid</string>
+  <string name="password_invalid_message">Harap verifikasi data Anda dan coba lagi</string>
+  <string name="phone_budget_exhausted_header">Too many requests</string>
+  <string name="phone_budget_exhausted_message">Silakan coba lagi nanti.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Pengaturan</string>
   <string name="camera_not_available">KAMERA TIDAK TERSEDIA</string>
   <string name="camera_permissions_denied_title">Kamera tidak tersedia</string>
   <string name="camera_permissions_denied_message">To take and send photos, grant permission to access the camera</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Komunikasi modern, pribadi.</string>
   <string name="welcome__terms_of_service">DENGAN MELANJUTKAN, ANDA MENYETUJUI _ATURAN PENGGUNAAN_.</string>
-  <string name="profile__photo__guidance">Hai %1$s, \n\n WIRE lebih baik\n dengan gambar.</string>
   <string name="profile__name__guidance__tooshort__title">MINIMAL 2 KARAKTER</string>
   <string name="profile__email__placeholder">Email</string>
   <string name="profile__password__placeholder">Kata sandi</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">Kami telah mengirim email ke \n[[%1$s]]. \nIkuti tautan untuk memverifikasi alamat Anda.</string>
   <string name="profile__email__verify__didnt_get">Tidak mendapat pesan?</string>
   <string name="profile__email__verify__resend">Kirim ulang</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Alamat email sudah diambil</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">Alamat email ini sudah terdaftar</string>
   <string name="profile__guidance__invalid_email">The email address you entered is not valid. Please verify and try again</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_VERIFIKASI_ NOMOR ANDA</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">PENGGUNAAN NOMOR BERSIFAT OPSIONAL, TETAPI MEMUDAHKAN KAMI UNTUK MENEMUKAN KENALAN ANDA. UNTUK MEMVERIFIKASI, KAMI AKAN MENGIRIM KODE KONFIRMASI MELALUI SMS.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">TAMBAHKAN KODE NEGARA</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">MASUKKAN 3 DIGIT KODE KONFIRMASI DARI SMS.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">TIDAK MENDAPAT PESAN? </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">KIRIM ULANG</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">KONFIRMASI</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Buat akun</string>
-  <string name="new_reg_phone__change_country">_UBAH NEGARA_</string>
-  <string name="new_reg__add_email">Tambahkan alamat email dan sandi</string>
-  <string name="new_reg__add_email_info">Ini membantu Anda masuk jika ponsel Anda terkunci atau hilang.</string>
-  <string name="new_reg__otr__add_email_info">Tambahkan alamat email dan sandi Anda.</string>
-  <string name="new_reg__otr__add_email_sub_info">Ini memungkinkan Anda menggunakan Wire di beberapa perangkat.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Alamat email tidak valid</string>
-  <string name="new_reg_email_invalid_message">silakan isi alamat email</string>
-  <string name="new_reg_email_generic_error_header">Terjadi kesalahan</string>
-  <string name="new_reg_email_generic_error_message">Please try to register again</string>
-  <string name="new_reg_email_register_generic_error_header">Informasi tidak valid</string>
-  <string name="new_reg_email_register_generic_error_message">Silakan masukkan nama lengkap, alamat email, dan sandi Anda.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Informasi tidak valid</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Harap verifikasi data Anda dan coba lagi</string>
-  <string name="new_reg_phone_exists_header">Nomor telepon sudah diambil</string>
-  <string name="new_reg_phone_exists_message">The phone number you provided has already been registered. Please try again</string>
-  <string name="new_reg_phone_invalid_format_header">Nomor telepon tidak valid</string>
-  <string name="new_reg_phone_invalid_format_message">Silakan masukkan nomor telepon yang valid</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Kode tidak valid</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Harap masukkan kode yang valid</string>
-  <string name="new_reg_phone_invalid_add_code_header">Kode tidak valid</string>
-  <string name="new_reg_phone_invalid_add_code_message">Harap masukkan kode yang valid</string>
-  <string name="new_reg_phone_invalid_login_code_header">Kode salah</string>
-  <string name="new_reg_phone_invalid_login_code_message">Harap masukkan kode yang valid</string>
-  <string name="new_reg_phone_pending_login_header">Kode Telah Dikirim</string>
-  <string name="new_reg_phone_pending_login_message">Kami telah mengirimi Anda kode melalui SMS. Ketuk Kirim Ulang setelah 10 menit untuk mendapatkan yang baru.</string>
-  <string name="new_reg_phone_add_password_header">Sandi tidak valid</string>
-  <string name="new_reg_phone_add_password_message">Harap verifikasi data Anda dan coba lagi</string>
-  <string name="new_reg_phone_generic_error_header">Ada sesuatu yang salah</string>
-  <string name="new_reg_phone_generic_error_message">Please try to register again</string>
-  <string name="new_sign_in_generic_error_header">Terjadi kesalahan</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again</string>
-  <string name="profile_generic_error_header">Ada sesuatu yang salah</string>
-  <string name="profile_generic_error_message">Please try again</string>
-  <string name="profile_phone_generic_error_header">Nomor telepon tidak valid</string>
-  <string name="profile_phone_generic_error_message">Silakan masukkan nomor telepon yang valid</string>
-  <string name="new_reg_phone_too_man_attempts_header">Terlalu banyak upaya</string>
-  <string name="new_reg_phone_too_man_attempts_message">Please try to log in later</string>
-  <string name="new_reg_server_connectivity_error_header">Ada sesuatu yang salah</string>
-  <string name="new_reg_server_connectivity_error_message">Please check your Internet connection and try again</string>
-  <string name="new_reg_internet_connectivity_error_header">Tidak Ada Koneksi Internet</string>
-  <string name="new_reg_internet_connectivity_error_message">Please check your Internet connection and try again</string>
   <string name="new_reg__code_resent">Kode baru telah dikirim kepada Anda melalui SMS</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Bersiap untuk panggilan</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Ada sesuatu yang salah.\nSilakan konfirmasi nomor telepon dan kode yang dimasukkan benar.</string>
   <string name="new_reg__default_country">id</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Too many requests</string>
-  <string name="new_reg_phone_budget_exhausted_message">Silakan coba lagi nanti.</string>
   <string name="your_phone_number">Your phone number</string>
-  <string name="new_reg_phone_password_exists_header">Password exists</string>
-  <string name="new_reg_phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
-  <string name="new_reg_phone__title__variant_1">Panggil, pesan, bagi.\nPribadi atau dengan kelompok.</string>
-  <string name="new_reg_phone__title__variant_2">Panggilan pribadi dan aman,\nkirim dan bagi.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Daftar dengan nomor telepon</string>
   <string name="invitation_email__normal_email_signup_button">Daftar dengan email lain</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Orang Top</string>
   <string name="people_picker__address_book_matches_title">Hubungkan</string>
-  <string name="people_picker__search_result_conversations_header_title">Grup</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Groups</string>
   <string name="people_picker__search_result_connections_header_title">Kontak</string>
   <string name="people_picker__search_result_others_header_title">Hubungkan</string>
@@ -259,14 +227,14 @@
   <string name="content__location__no_map_placeholder">LOKASI AKAN MUNCUL DI PETA KETIKA ANDA KEMBALI ONLINE.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Ganti nama</string>
-  <string name="conversation__action__delete">Hapus</string>
+  <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Arsip</string>
   <string name="conversation__action__unarchive">Batalkan arsip</string>
   <string name="conversation__action__add_people">TAMBAH ORANG</string>
   <string name="conversation__action__create_group">BUAT GRUP</string>
   <string name="conversation__action__silence">Diamkan</string>
   <string name="conversation__action__unsilence">Bersuara</string>
-  <string name="conversation__action__leave">Keluar</string>
+  <string name="conversation__action__leave">Leave group&#8230;</string>
   <string name="conversation__action__remove">Hapus</string>
   <string name="conversation__action__call">Panggil</string>
   <string name="conversation__action__picture">Gambar</string>
@@ -372,7 +340,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blokir?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s won\'t be able to contact you or add you to group conversations.</string>
-  <string name="confirmation_menu__confirm_block">Blokir</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Diblokir</string>
   <!-- Delete conversation -->
@@ -420,6 +388,7 @@
   <string name="pref_developer_screen_title">Pengaturan Pengembang</string>
   <string name="pref_dev_avs_screen_title">Pengaturan AVS</string>
   <string name="pref_profile_screen_title">Profil</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Akun</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -429,6 +398,7 @@
   <string name="pref_account_actions_category_title">Tindakan</string>
   <string name="pref_account_personal_category_title">Pribadi</string>
   <string name="pref_account_appearance_category_title">Tampilan</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Orang-orang dapat menemukan Anda dengan detil ini.</string>
   <string name="pref_account_personal_category_summary">Informasi ini tidak dapat dilihat oleh orang lain</string>
   <string name="pref_account_username_title">Username</string>
@@ -1067,10 +1037,10 @@
   <string name="teams_set_name_title">Namamu</string>
   <string name="teams_set_name_hint">FULL NAME</string>
   <string name="app_entry_slogan">Pesan aman untuk semua orang.</string>
-  <string name="app_entry_create_account">Buat akun</string>
-  <string name="app_entry_create_account_sub">untuk penggunaan pribadi</string>
-  <string name="app_entry_create_team">Buat tim</string>
-  <string name="app_entry_create_team_sub">untuk bekerja</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Sudah memiliki akun?</string>
   <string name="app_entry_login">Masuk</string>
   <string name="app_entry_tc_dialog_title">Terms of Service</string>
@@ -1132,7 +1102,7 @@
   <string name="create_link_button">Create Link</string>
   <string name="copy_link_button">Copy Link</string>
   <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link Copied!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1143,4 +1113,33 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">New device</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">You\'ve used Wire on this device before.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">OK</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Back Up Now</string>
+  <string name="backup_import_error_unknown_title">Terjadi kesalahan</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

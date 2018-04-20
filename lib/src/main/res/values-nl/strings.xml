@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Er is iets mis gegaan</string>
+  <string name="generic_error_message">Probeer nog eens</string>
+  <string name="internet_connectivity_error_header">Geen verbinding met internet</string>
+  <string name="internet_connectivity_error_message">Controleer uw internetverbinding en probeer het opnieuw</string>
+  <string name="too_many_attempts_header">Te veel pogingen</string>
+  <string name="login_later_message">Probeer later nog eens in te loggen</string>
+  <string name="register_again_message">Probeer opnieuw te registreren</string>
+  <string name="email_exists_header">Dit e-mailadres wordt al gebruikt</string>
+  <string name="email_exists_message">Dit e-mailadres is al geregistreerd</string>
+  <string name="email_invalid_header">Ongeldig e-mailadres</string>
+  <string name="email_invalid_message">Voer alsjeblieft een geldig e-mailadres in</string>
+  <string name="invalid_credentials_header">Ongeldige informatie</string>
+  <string name="invalid_credentials_message">Controleer je gegevens en probeer het nog eens</string>
+  <string name="phone_exists_header">Telefoonnummer is al in gebruik</string>
+  <string name="phone_exists_message">Dit telefoonnummer is al geregistreerd. Controleer de invoer en probeer het nogmaals</string>
+  <string name="phone_invalid_format_header">Ongeldig telefoonnummer</string>
+  <string name="phone_invalid_format_message">Voer een geldig telefoonnummer in</string>
+  <string name="phone_password_exists_header">Wachtwoord bestaat al</string>
+  <string name="phone_password_exists_message">Dit account heeft al een wachtwoord en een e-mailadres. Log alsjeblieft in via email.</string>
+  <string name="invalid_code_header">Ongeldige code</string>
+  <string name="incorrect_code_header">Onjuiste Code</string>
+  <string name="wrong_code_message">Voer een geldige code in</string>
+  <string name="phone_pending_login_header">Code is reeds verzonden</string>
+  <string name="phone_pending_login_message">We hebben je al een code via SMS verstuurd. Klik op Opnieuw sturen na 10 minuten om een nieuwe code te krijgen.</string>
+  <string name="password_invalid_header">Ongeldig Wachtwoord</string>
+  <string name="password_invalid_message">Controleer je gegevens en probeer het nog eens</string>
+  <string name="phone_budget_exhausted_header">Te veel verzoeken</string>
+  <string name="phone_budget_exhausted_message">Probeer het later alsjeblieft opnieuw.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Instellingen</string>
   <string name="camera_not_available">CAMERA NIET BESCHIKBAAR</string>
   <string name="camera_permissions_denied_title">Camera niet beschikbaar</string>
   <string name="camera_permissions_denied_message">Voor het maken en versturen van foto\'s, geef toestemming om de camera te benaderen</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Moderne, private communicatie.</string>
   <string name="welcome__terms_of_service">ALS U DOORGAAT, GAAT U AKKOORD MET DE GEBRUIKSVOORWAARDEN.</string>
-  <string name="profile__photo__guidance">HALLO %1$s, \n\n WIRE IS ZO VEEL MOOIER\n MET EEN AFBEELDING.</string>
   <string name="profile__name__guidance__tooshort__title">OP Z\'N MINST 2 TEKENS</string>
   <string name="profile__email__placeholder">E-mail</string>
   <string name="profile__password__placeholder">Wachtwoord</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">We sturen een e-mail naar \n[[%1$s]]. \nVolg de link om uw adres te controleren.</string>
   <string name="profile__email__verify__didnt_get">Bericht niet ontvangen?</string>
   <string name="profile__email__verify__resend">Verstuur opniew</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Dit e-mailadres wordt al gebruikt</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">Dit e-mailadres is al geregistreerd</string>
   <string name="profile__guidance__invalid_email">Het e-mailadres dat je hebt opgegeven is niet geldig. Controleer en probeer het opnieuw</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_CONTROLEER_ JE NUMMER</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">UW NUMMER IS OPTIONEEL, MAAR HET MAAKT HET VOOR ONS MAKKELIJKER OM MENSEN DIE JE KENT TE VINDEN. OM TE CONTROLEREN OF U HET BENT, STUREN WE EEN BEVESTIGINGSCODE VIA SMS.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">VOEG EEN LANDCODE TOE</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">VOER DE 3-CIJFERIGE BEVESTIGINGSCODE UIT DE SMS IN.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">KREEG HET BERICHT NIET? </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">OPNIEUW VERZENDEN</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">BEVESTIG</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Een account aanmaken</string>
-  <string name="new_reg_phone__change_country">_WIJZIG LAND_</string>
-  <string name="new_reg__add_email">Voeg e-mailadres en wachtwoord toe</string>
-  <string name="new_reg__add_email_info">Het helpt u om in te loggen als u geblokkeerd bent of uw telefoon bent verloren.</string>
-  <string name="new_reg__otr__add_email_info">Voeg uw e-mailadres en een wachtwoord toe.</string>
-  <string name="new_reg__otr__add_email_sub_info">Dit zorgt ervoor dat je Wire op meerdere apparaten kunt gebruiken.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Ongeldig e-mailadres</string>
-  <string name="new_reg_email_invalid_message">Voer alsjeblieft een geldig e-mailadres in</string>
-  <string name="new_reg_email_generic_error_header">Er is iets mis gegaan</string>
-  <string name="new_reg_email_generic_error_message">Probeer opnieuw te registreren</string>
-  <string name="new_reg_email_register_generic_error_header">Ongeldige informatie</string>
-  <string name="new_reg_email_register_generic_error_message">Vul uw volledige naam en een geldig e-mailadres en wachtwoord in.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Ongeldige informatie</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Controleer je gegevens en probeer het nog eens</string>
-  <string name="new_reg_phone_exists_header">Telefoonnummer is al in gebruik</string>
-  <string name="new_reg_phone_exists_message">Dit telefoonnummer is al geregistreerd. Controleer de invoer en probeer het nogmaals</string>
-  <string name="new_reg_phone_invalid_format_header">Ongeldig telefoonnummer</string>
-  <string name="new_reg_phone_invalid_format_message">Voer een geldig telefoonnummer in</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Ongeldige code</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Voer een geldige code in</string>
-  <string name="new_reg_phone_invalid_add_code_header">Ongeldige code</string>
-  <string name="new_reg_phone_invalid_add_code_message">Voer een geldige code in</string>
-  <string name="new_reg_phone_invalid_login_code_header">Onjuiste Code</string>
-  <string name="new_reg_phone_invalid_login_code_message">Voer een geldige code in</string>
-  <string name="new_reg_phone_pending_login_header">Code is reeds verzonden</string>
-  <string name="new_reg_phone_pending_login_message">We hebben je al een code via SMS verstuurd. Klik op Opnieuw sturen na 10 minuten om een nieuwe code te krijgen.</string>
-  <string name="new_reg_phone_add_password_header">Ongeldig Wachtwoord</string>
-  <string name="new_reg_phone_add_password_message">Controleer je gegevens en probeer het nog eens</string>
-  <string name="new_reg_phone_generic_error_header">Er is iets mis gegaan</string>
-  <string name="new_reg_phone_generic_error_message">Probeer opnieuw te registreren</string>
-  <string name="new_sign_in_generic_error_header">Er is iets mis gegaan</string>
-  <string name="new_sign_in_generic_error_message">Probeer opnieuw in te loggen</string>
-  <string name="profile_generic_error_header">Er is iets mis gegaan</string>
-  <string name="profile_generic_error_message">Probeer nog eens</string>
-  <string name="profile_phone_generic_error_header">Ongeldig telefoonnummer</string>
-  <string name="profile_phone_generic_error_message">Voer een geldig telefoonnummer in</string>
-  <string name="new_reg_phone_too_man_attempts_header">Te veel pogingen</string>
-  <string name="new_reg_phone_too_man_attempts_message">Probeer later nog eens in te loggen</string>
-  <string name="new_reg_server_connectivity_error_header">Er is iets mis gegaan</string>
-  <string name="new_reg_server_connectivity_error_message">Controleer uw internetverbinding en probeer het opnieuw</string>
-  <string name="new_reg_internet_connectivity_error_header">Geen verbinding met internet</string>
-  <string name="new_reg_internet_connectivity_error_message">Controleer uw internetverbinding en probeer het opnieuw</string>
   <string name="new_reg__code_resent">Een nieuwe code werd aan u verstuurd via SMS</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Wacht op een oproep</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Er is iets misgegaan.\nControleer alstublieft of het telefoonnummer en de code correct zijn.</string>
   <string name="new_reg__default_country">nl</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Te veel verzoeken</string>
-  <string name="new_reg_phone_budget_exhausted_message">Probeer het later alsjeblieft opnieuw.</string>
   <string name="your_phone_number">Je telefoonnummer</string>
-  <string name="new_reg_phone_password_exists_header">Wachtwoord bestaat al</string>
-  <string name="new_reg_phone_password_exists_message">Dit account heeft al een wachtwoord en een e-mailadres. Log alsjeblieft in via email.</string>
-  <string name="new_reg_phone__title__variant_1">Oproep, berichten, delen.\n Privé of binnen groepen.</string>
-  <string name="new_reg_phone__title__variant_2">Privé en beveiligde gesprekken,\nberichten en delen.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Registreer met behulp van het telefoonnummer</string>
   <string name="invitation_email__normal_email_signup_button">Registreer met een ander e-mail</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">ZOEK</string>
   <string name="people_picker__top_users_header_title">Favoriete contacten</string>
   <string name="people_picker__address_book_matches_title">Accepteer</string>
-  <string name="people_picker__search_result_conversations_header_title">Groepen</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Groepen</string>
   <string name="people_picker__search_result_connections_header_title">Contacten</string>
   <string name="people_picker__search_result_others_header_title">Accepteer</string>
@@ -261,14 +229,14 @@
   <string name="content__location__no_map_placeholder">DE LOCATIE WORDT OP DE KAART WEERGEGEVEN WANNEER U WEER ONLINE BENT.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Wijzig naam</string>
-  <string name="conversation__action__delete">Verwijderen</string>
+  <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Archiveren</string>
   <string name="conversation__action__unarchive">Terugzetten</string>
   <string name="conversation__action__add_people">MENSEN TOEVOEGEN</string>
   <string name="conversation__action__create_group">CREËER GROEP</string>
   <string name="conversation__action__silence">Dempen</string>
   <string name="conversation__action__unsilence">Dempen opheffen</string>
-  <string name="conversation__action__leave">Verlaten</string>
+  <string name="conversation__action__leave">Leave group&#8230;</string>
   <string name="conversation__action__remove">Verwijderen</string>
   <string name="conversation__action__call">Oproep</string>
   <string name="conversation__action__picture">Foto</string>
@@ -380,7 +348,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blokkeren?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s zal niet in staat zijn u te contacten of je toe te voegen aan een groepsgesprek.</string>
-  <string name="confirmation_menu__confirm_block">Blokkeer</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Geblokkeerd</string>
   <!-- Delete conversation -->
@@ -428,6 +396,7 @@
   <string name="pref_developer_screen_title">Ontwikkelaar Instellingen</string>
   <string name="pref_dev_avs_screen_title">AVS Instellingen</string>
   <string name="pref_profile_screen_title">Profiel</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Profiel</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -437,6 +406,7 @@
   <string name="pref_account_actions_category_title">Acties</string>
   <string name="pref_account_personal_category_title">Persoonlijk</string>
   <string name="pref_account_appearance_category_title">Vormgeving</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Mensen kunnen mij vinden met deze gegevens.</string>
   <string name="pref_account_personal_category_summary">De informatie is voor niemand zichtbaar</string>
   <string name="pref_account_username_title">Gebruikersnaam</string>
@@ -1098,10 +1068,10 @@
   <string name="teams_set_name_title">Jouw naam</string>
   <string name="teams_set_name_hint">Voor- en achternaam</string>
   <string name="app_entry_slogan">Veilig communiceren voor iedereen.</string>
-  <string name="app_entry_create_account">Een account aanmaken</string>
-  <string name="app_entry_create_account_sub">voor persoonlijk gebruik</string>
-  <string name="app_entry_create_team">Creëer Team</string>
-  <string name="app_entry_create_team_sub">voor werk</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Heeft u al een account?</string>
   <string name="app_entry_login">Inloggen</string>
   <string name="app_entry_tc_dialog_title">Algemene gebruiksvoorwaarden</string>
@@ -1163,7 +1133,7 @@
   <string name="create_link_button">Maak link aan</string>
   <string name="copy_link_button">Kopieer link</string>
   <string name="share_link_button">Deel link</string>
-  <string name="revoke_link_button">Link intrekken</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link gekopieerd!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1174,4 +1144,33 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">Nieuw apparaat</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">Je hebt Wire eerder op dit apparaat gebruikt.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Stel een e-mailadres en een wachtwoord in.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">OK</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Nu Backuppen</string>
+  <string name="backup_import_error_unknown_title">Er is iets mis gegaan</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

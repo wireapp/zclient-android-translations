@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Midagi läks valesti</string>
+  <string name="generic_error_message">Palun proovi uuesti</string>
+  <string name="internet_connectivity_error_header">Ühendus puudub</string>
+  <string name="internet_connectivity_error_message">Palun kontrolli oma internetiühendust ja proovi uuesti</string>
+  <string name="too_many_attempts_header">Liiga palju proovimisi</string>
+  <string name="login_later_message">Palun proovi hiljem sisse logida</string>
+  <string name="register_again_message">Palun proovi uuesti registreerida</string>
+  <string name="email_exists_header">E-posti aadress on juba kasutusel</string>
+  <string name="email_exists_message">See e-posti aadress on juba registreeritud</string>
+  <string name="email_invalid_header">Vale meiliaadress</string>
+  <string name="email_invalid_message">Palun sisesta korrektne e-posti aadress</string>
+  <string name="invalid_credentials_header">Vale info</string>
+  <string name="invalid_credentials_message">Palun kinnita oma andmeid ja proovi uuesti</string>
+  <string name="phone_exists_header">Number on juba kasutusel</string>
+  <string name="phone_exists_message">Sisestatud telefoninumber on juba registreeritud. Palun proovi uuesti</string>
+  <string name="phone_invalid_format_header">Sobimatu telefoninumber</string>
+  <string name="phone_invalid_format_message">Sisesta kehtiv telefoninumber</string>
+  <string name="phone_password_exists_header">Parool juba olemas</string>
+  <string name="phone_password_exists_message">Kontol on parool ja meiliaadress juba olemas. Palun logi meiliaadressiga sisse.</string>
+  <string name="invalid_code_header">Vigane kood</string>
+  <string name="incorrect_code_header">Vigane kood</string>
+  <string name="wrong_code_message">Sisesta kehtiv kood</string>
+  <string name="phone_pending_login_header">Kood juba saadetud</string>
+  <string name="phone_pending_login_message">Saatsime koodi juba SMS-iga. Toksi 10 minuti pärast \"Saada uuesti\", kui kood ei laeku.</string>
+  <string name="password_invalid_header">Vigane parool</string>
+  <string name="password_invalid_message">Palun kinnita oma andmeid ja proovi uuesti</string>
+  <string name="phone_budget_exhausted_header">Liiga palju päringuid</string>
+  <string name="phone_budget_exhausted_message">Palun proovi hiljem uuesti.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Seaded</string>
   <string name="camera_not_available">KAAMERALE PUUDUB JUURDEPÄÄS</string>
   <string name="camera_permissions_denied_title">Kaamerale puudub juurdepääs</string>
   <string name="camera_permissions_denied_message">Piltide tegemiseks ja saatmiseks pead kaamerale juurdepääsu lubama.</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Turvaline suhtlus - tekst, kõned, failid</string>
   <string name="welcome__terms_of_service">JÄTKATES NÕUSTUD _KASUTUSTINGIMUSTEGA_.</string>
-  <string name="profile__photo__guidance">HEI %1$s, \n\n LISA FOTO, ET\n SÕBRAD SIND ÄRA TUNNEKSID.</string>
   <string name="profile__name__guidance__tooshort__title">VÄHEMALT 2 TÄHTE</string>
   <string name="profile__email__placeholder">Epost</string>
   <string name="profile__password__placeholder">Parool</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">Saatsime aadressile \n[[%1$s]] kirja. \nKliki seal oleval lingil, et aadress kinnitada.</string>
   <string name="profile__email__verify__didnt_get">Ei saanud kinnituskirja?</string>
   <string name="profile__email__verify__resend">Saada uuesti</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">E-posti aadress on juba kasutusel</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">See e-posti aadress on juba registreeritud</string>
   <string name="profile__guidance__invalid_email">Valesti sisestatud e-posti aadress. Kontrolli ja proovi uuesti</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_KINNITA_ OMA NUMBER</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">NUMBRI LISAMINE ON VABA VALIK, KUID SEE LIHTSUSTAB TUTTAVATE INIMESTE LEIDMIST. VEENDUMAKS, ET NUMBER ON TEIE OMA, SAADAME TEILE SMS-IGA KINNITUSKOODI.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">LISA MAA SUUNAKOOD</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">SISESTAGE KOLMEKOHALINE KINNITUSKOOD</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">SMS EI TULNUD KOHALE?</string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">SAADA UUESTI</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">KINNITA</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Loo konto</string>
-  <string name="new_reg_phone__change_country">_MUUDA MAA_</string>
-  <string name="new_reg__add_email">Lisa meiliaadress ja parool</string>
-  <string name="new_reg__add_email_info">Nii saad sisse logida ka siis, kui su telefoniga midagi juhtub.</string>
-  <string name="new_reg__otr__add_email_info">Lisa meiliaadress ja parool.</string>
-  <string name="new_reg__otr__add_email_sub_info">See võimaldab kasutada Wire\'i mitmes seadmes.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Vale meiliaadress</string>
-  <string name="new_reg_email_invalid_message">Palun sisesta korrektne e-posti aadress</string>
-  <string name="new_reg_email_generic_error_header">Midagi läks valesti</string>
-  <string name="new_reg_email_generic_error_message">Palun proovi uuesti registreerida</string>
-  <string name="new_reg_email_register_generic_error_header">Vale info</string>
-  <string name="new_reg_email_register_generic_error_message">Sisesta oma nimi, korrektne meiliaadress ja parool.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Vale info</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Palun kinnita oma andmeid ja proovi uuesti</string>
-  <string name="new_reg_phone_exists_header">Number on juba kasutusel</string>
-  <string name="new_reg_phone_exists_message">Sisestatud telefoninumber on juba registreeritud. Palun proovi uuesti</string>
-  <string name="new_reg_phone_invalid_format_header">Sobimatu telefoninumber</string>
-  <string name="new_reg_phone_invalid_format_message">Sisesta kehtiv telefoninumber</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Vigane kood</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Sisesta kehtiv kood</string>
-  <string name="new_reg_phone_invalid_add_code_header">Vigane kood</string>
-  <string name="new_reg_phone_invalid_add_code_message">Sisesta kehtiv kood</string>
-  <string name="new_reg_phone_invalid_login_code_header">Vigane kood</string>
-  <string name="new_reg_phone_invalid_login_code_message">Sisesta kehtiv kood</string>
-  <string name="new_reg_phone_pending_login_header">Kood juba saadetud</string>
-  <string name="new_reg_phone_pending_login_message">Saatsime koodi juba SMS-iga. Toksi 10 minuti pärast \"Saada uuesti\", kui kood ei laeku.</string>
-  <string name="new_reg_phone_add_password_header">Vigane parool</string>
-  <string name="new_reg_phone_add_password_message">Palun kinnita oma andmeid ja proovi uuesti</string>
-  <string name="new_reg_phone_generic_error_header">Midagi läks valesti</string>
-  <string name="new_reg_phone_generic_error_message">Palun proovi uuesti registreerida</string>
-  <string name="new_sign_in_generic_error_header">Midagi läks valesti</string>
-  <string name="new_sign_in_generic_error_message">Palun proovi uuesti sisse logida</string>
-  <string name="profile_generic_error_header">Midagi läks valesti</string>
-  <string name="profile_generic_error_message">Palun proovi uuesti</string>
-  <string name="profile_phone_generic_error_header">Sobimatu telefoninumber</string>
-  <string name="profile_phone_generic_error_message">Sisesta kehtiv telefoninumber</string>
-  <string name="new_reg_phone_too_man_attempts_header">Liiga palju proovimisi</string>
-  <string name="new_reg_phone_too_man_attempts_message">Palun proovi hiljem sisse logida</string>
-  <string name="new_reg_server_connectivity_error_header">Midagi läks valesti</string>
-  <string name="new_reg_server_connectivity_error_message">Palun kontrolli oma internetiühendust ja proovi uuesti</string>
-  <string name="new_reg_internet_connectivity_error_header">Ühendus puudub</string>
-  <string name="new_reg_internet_connectivity_error_message">Palun kontrolli oma internetiühendust ja proovi uuesti</string>
   <string name="new_reg__code_resent">Saatsime SMS-iga uue koodi</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Kohe teeme sulle kõne</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Midagi läks valesti. \nKinnitada, et telefoninumber ja kood on õiged.</string>
   <string name="new_reg__default_country">ee</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Liiga palju päringuid</string>
-  <string name="new_reg_phone_budget_exhausted_message">Palun proovi hiljem uuesti.</string>
   <string name="your_phone_number">Sinu telefoninumber</string>
-  <string name="new_reg_phone_password_exists_header">Parool juba olemas</string>
-  <string name="new_reg_phone_password_exists_message">Kontol on parool ja meiliaadress juba olemas. Palun logi meiliaadressiga sisse.</string>
-  <string name="new_reg_phone__title__variant_1">Helista, saada sõnum või jaga pilte.\nNii era- kui grupivestlustes.</string>
-  <string name="new_reg_phone__title__variant_2">Turvaline ja privaatne –\nsõnumid, kõned, fotod ja videod.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Loo konto telefoninumbriga</string>
   <string name="invitation_email__normal_email_signup_button">Loo konto teise meiliaadressiga</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">OTSING</string>
   <string name="people_picker__top_users_header_title">Lemmikinimesed</string>
   <string name="people_picker__address_book_matches_title">Ühendu</string>
-  <string name="people_picker__search_result_conversations_header_title">Grupid</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s gruppi</string>
   <string name="people_picker__search_result_connections_header_title">Kontaktid</string>
   <string name="people_picker__search_result_others_header_title">Ühendu</string>
@@ -261,14 +229,14 @@
   <string name="content__location__no_map_placeholder">ASUKOHT ILMUB KAARDILE KUI INTERNETIÜHENDUS TAASTUB.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Nimeta ümber</string>
-  <string name="conversation__action__delete">Kustuta</string>
+  <string name="conversation__action__delete">Kustuta sisu&#8230;</string>
   <string name="conversation__action__archive">Arhiveeri</string>
   <string name="conversation__action__unarchive">Arhiivist tagasi</string>
   <string name="conversation__action__add_people">INIMESTE LISAMINE</string>
   <string name="conversation__action__create_group">LOO GRUPP</string>
   <string name="conversation__action__silence">Hääletu</string>
   <string name="conversation__action__unsilence">Heli sisse</string>
-  <string name="conversation__action__leave">Lahku</string>
+  <string name="conversation__action__leave">Lahku grupist&#8230;</string>
   <string name="conversation__action__remove">Eemalda</string>
   <string name="conversation__action__call">Kõne</string>
   <string name="conversation__action__picture">Profiilipilt</string>
@@ -380,7 +348,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blokeeri?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s ei saa sulle sõnumeid saata ega sind grupivestlustesse lisada.</string>
-  <string name="confirmation_menu__confirm_block">Blokeeri</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">BLOKEERITUD</string>
   <!-- Delete conversation -->
@@ -428,6 +396,7 @@
   <string name="pref_developer_screen_title">Arendajate seaded</string>
   <string name="pref_dev_avs_screen_title">AVS seaded</string>
   <string name="pref_profile_screen_title">Profiil</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Konto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -437,6 +406,7 @@
   <string name="pref_account_actions_category_title">Tegevused</string>
   <string name="pref_account_personal_category_title">Isiklik</string>
   <string name="pref_account_appearance_category_title">Välimus</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Inimesed leiavad sind nende andmete põhjal.</string>
   <string name="pref_account_personal_category_summary">See info pole teistele näha</string>
   <string name="pref_account_username_title">Kasutajanimi</string>
@@ -1098,10 +1068,10 @@
   <string name="teams_set_name_title">Sinu nimi</string>
   <string name="teams_set_name_hint">TÄISNIMI</string>
   <string name="app_entry_slogan">Turvaline sõnumside kõigile.</string>
-  <string name="app_entry_create_account">Loo konto</string>
-  <string name="app_entry_create_account_sub">isiklikuks kasutuseks</string>
-  <string name="app_entry_create_team">Loo meeskond</string>
-  <string name="app_entry_create_team_sub">töö jaoks</string>
+  <string name="app_entry_create_account">Isiklikuks kasutuseks</string>
+  <string name="app_entry_create_account_sub">loo konto</string>
+  <string name="app_entry_create_team">Organisatsioonidele</string>
+  <string name="app_entry_create_team_sub">loo meeskond</string>
   <string name="app_entry_login_sub">Konto juba olemas?</string>
   <string name="app_entry_login">Logi sisse</string>
   <string name="app_entry_tc_dialog_title">Kasutustingimused</string>
@@ -1163,7 +1133,7 @@
   <string name="create_link_button">Loo link</string>
   <string name="copy_link_button">Kopeeri link</string>
   <string name="share_link_button">Jaga linki</string>
-  <string name="revoke_link_button">Tühista link</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">KUTSU TEISI LINGI ABIL</string>
   <string name="link_copied_toast">Link kopeeritud!</string>
   <string name="revoke_link_message">Uued külalised ei saa selle lingi abil liituda. Praegustel külalistel on jätkuvalt ligipääs.</string>
@@ -1174,4 +1144,33 @@
   <string name="guest_time_left_hours">%1$sh jäänud</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh jäänud</string>
   <string name="guest_time_left_minutes">Vähem kui %1$sm jäänud</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">Wire uuel seadmel</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">Sa oled sellel seadmel enne Wire’t kasutanud.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Määra e-posti aadress ja parool.</string>
+  <string name="pref_account_backup_warning_message">Vajad e-posti aadressi ja parooli, et oma vestluste ajalugu varundada. Saad seda teha konto seadete lehel.</string>
+  <string name="pref_account_backup_warning_ok">OK</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Varunda kohe</string>
+  <string name="backup_import_error_unknown_title">Midagi läks valesti</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

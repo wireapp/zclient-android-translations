@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">好像出了点问题。</string>
+  <string name="generic_error_message">请重试</string>
+  <string name="internet_connectivity_error_header">没有互联网讯号</string>
+  <string name="internet_connectivity_error_message">请检查您的网络连接，然后重试</string>
+  <string name="too_many_attempts_header">您尝试太多次了</string>
+  <string name="login_later_message">请稍后尝试登录</string>
+  <string name="register_again_message">请尝试再次注册</string>
+  <string name="email_exists_header">邮箱地址已被使用。</string>
+  <string name="email_exists_message">此邮箱已被注冊.</string>
+  <string name="email_invalid_header">无效的邮箱地址</string>
+  <string name="email_invalid_message">请输入有效的电邮箱地址</string>
+  <string name="invalid_credentials_header">无效信息</string>
+  <string name="invalid_credentials_message">请检查您提供的资料然后重试。</string>
+  <string name="phone_exists_header">手机号码已被使用</string>
+  <string name="phone_exists_message">该手机号码已被注册，请尝试其他号码。</string>
+  <string name="phone_invalid_format_header">无效的手机号码</string>
+  <string name="phone_invalid_format_message">请输入有效的手机号码</string>
+  <string name="phone_password_exists_header">密码已存在</string>
+  <string name="phone_password_exists_message">此帐户已经具有密码和电子邮件相关联。通过电子邮件，请登录。</string>
+  <string name="invalid_code_header">验证码无效</string>
+  <string name="incorrect_code_header">验证码不正确</string>
+  <string name="wrong_code_message">请输入有效的验证码</string>
+  <string name="phone_pending_login_header">验证码已发送</string>
+  <string name="phone_pending_login_message">我们已经将验证码通过短信发送给您。如需重新获取验证码，请等候10分钟后点击重新发送。</string>
+  <string name="password_invalid_header">无效的密码</string>
+  <string name="password_invalid_message">请检查您提供的资料然后重试。</string>
+  <string name="phone_budget_exhausted_header">请求过多</string>
+  <string name="phone_budget_exhausted_message">请稍后重试。</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">好</string>
   <string name="permissions_denied_dialog_settings">设置</string>
   <string name="camera_not_available">相机无法使用</string>
   <string name="camera_permissions_denied_title">相机无法使用</string>
   <string name="camera_permissions_denied_message">拍照并传送照片前，请开启相机访问权限</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">现代、私密的沟通方式。</string>
   <string name="welcome__terms_of_service">继续使用前请先同意 _使用条款_。</string>
-  <string name="profile__photo__guidance">HI %1$s\n\n 新增一张照片WIRE会更酷炫喔！</string>
   <string name="profile__name__guidance__tooshort__title">至少需要两个字母</string>
   <string name="profile__email__placeholder">邮箱</string>
   <string name="profile__password__placeholder">密码</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">我们已经发送一封邮件给\n[[%1$s]]。\n点击一下链接验证您的邮箱地址。</string>
   <string name="profile__email__verify__didnt_get">没有收到验证邮件？</string>
   <string name="profile__email__verify__resend">重新发送</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">邮箱地址已被使用。</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">此邮箱已被注冊.</string>
   <string name="profile__guidance__invalid_email">您输入的邮箱地址无效，请重试。</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_验证_您的手机号码</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">手机号码是选填的，但填写手机号码可以帮您更快的发现好友。为了确认是您本人的号码，我们会发送一条确认短信息给您。</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">请输入国际区号</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">请输入短信中的3位数字验证码。</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">没有收到验证短信？</string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">重新发送</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">确认</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">创建账号</string>
-  <string name="new_reg_phone__change_country">更换国家</string>
-  <string name="new_reg__add_email">新增邮箱地址和密码</string>
-  <string name="new_reg__add_email_info">当在账号锁定或手机遗失时，这可以帮助您登录。</string>
-  <string name="new_reg__otr__add_email_info">新增邮箱地址和密码</string>
-  <string name="new_reg__otr__add_email_sub_info">这可以让您在多个设备上使用Wire。</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">无效的邮箱地址</string>
-  <string name="new_reg_email_invalid_message">请输入有效的电邮箱地址</string>
-  <string name="new_reg_email_generic_error_header">好像出了点问题。</string>
-  <string name="new_reg_email_generic_error_message">请尝试再次注册</string>
-  <string name="new_reg_email_register_generic_error_header">无效信息</string>
-  <string name="new_reg_email_register_generic_error_message">请输入您的全名和有效的邮箱地址及密码。</string>
-  <string name="new_reg_email_invalid_login_credentials_header">无效信息</string>
-  <string name="new_reg_email_invalid_login_credentials_message">请检查您提供的资料然后重试。</string>
-  <string name="new_reg_phone_exists_header">手机号码已被使用</string>
-  <string name="new_reg_phone_exists_message">该手机号码已被注册，请尝试其他号码。</string>
-  <string name="new_reg_phone_invalid_format_header">无效的手机号码</string>
-  <string name="new_reg_phone_invalid_format_message">请输入有效的手机号码</string>
-  <string name="new_reg_phone_invalid_registration_code_header">验证码无效</string>
-  <string name="new_reg_phone_invalid_registration_code_message">请输入有效的验证码</string>
-  <string name="new_reg_phone_invalid_add_code_header">验证码无效</string>
-  <string name="new_reg_phone_invalid_add_code_message">请输入有效的验证码</string>
-  <string name="new_reg_phone_invalid_login_code_header">验证码不正确</string>
-  <string name="new_reg_phone_invalid_login_code_message">请输入有效的验证码</string>
-  <string name="new_reg_phone_pending_login_header">验证码已发送</string>
-  <string name="new_reg_phone_pending_login_message">我们已经将验证码通过短信发送给您。如需重新获取验证码，请等候10分钟后点击重新发送。</string>
-  <string name="new_reg_phone_add_password_header">无效的密码</string>
-  <string name="new_reg_phone_add_password_message">请检查您提供的资料然后重试</string>
-  <string name="new_reg_phone_generic_error_header">出了点问题啊...</string>
-  <string name="new_reg_phone_generic_error_message">请尝试再次注册</string>
-  <string name="new_sign_in_generic_error_header">好像出了点问题。</string>
-  <string name="new_sign_in_generic_error_message">请尝试再次登录</string>
-  <string name="profile_generic_error_header">出了点问题啊...</string>
-  <string name="profile_generic_error_message">请重试</string>
-  <string name="profile_phone_generic_error_header">无效的手机号码</string>
-  <string name="profile_phone_generic_error_message">请输入有效的手机号码</string>
-  <string name="new_reg_phone_too_man_attempts_header">您尝试太多次了</string>
-  <string name="new_reg_phone_too_man_attempts_message">请稍后尝试登录</string>
-  <string name="new_reg_server_connectivity_error_header">出了点问题啊...</string>
-  <string name="new_reg_server_connectivity_error_message">请检查您的网络连接，然后重试</string>
-  <string name="new_reg_internet_connectivity_error_header">没有互联网讯号</string>
-  <string name="new_reg_internet_connectivity_error_message">请检查您的网络连接，然后重试</string>
   <string name="new_reg__code_resent">新验证码已经通过短信发送给您</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">等待电话连通</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">出了点问题 \n请确认手机号码和验证码无误。</string>
   <string name="new_reg__default_country">德国</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">请求过多</string>
-  <string name="new_reg_phone_budget_exhausted_message">请稍后重试。</string>
   <string name="your_phone_number">您的手机号码</string>
-  <string name="new_reg_phone_password_exists_header">密码已存在</string>
-  <string name="new_reg_phone_password_exists_message">此帐户已经具有密码和电子邮件相关联。通过电子邮件，请登录。</string>
-  <string name="new_reg_phone__title__variant_1">您可以通过1对1或群组聊天\n来尽情分享内容，进行通话。</string>
-  <string name="new_reg_phone__title__variant_2">所有的文字、通话，\n都已被安全加密。</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">使用手机号码注册</string>
   <string name="invitation_email__normal_email_signup_button">使用其他邮箱地址注册</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">常联系的人</string>
   <string name="people_picker__address_book_matches_title">新增好友</string>
-  <string name="people_picker__search_result_conversations_header_title">群组</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s 组</string>
   <string name="people_picker__search_result_connections_header_title">联系人</string>
   <string name="people_picker__search_result_others_header_title">添加好友</string>
@@ -259,14 +227,14 @@
   <string name="content__location__no_map_placeholder">您的位置将在您重新在线时显示在地图上。</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">重新命名</string>
-  <string name="conversation__action__delete">删除</string>
+  <string name="conversation__action__delete">删除内容吗？</string>
   <string name="conversation__action__archive">归档</string>
   <string name="conversation__action__unarchive">取消归档</string>
   <string name="conversation__action__add_people">新增参与者</string>
   <string name="conversation__action__create_group">建立群组</string>
   <string name="conversation__action__silence">静音</string>
   <string name="conversation__action__unsilence">关闭静音</string>
-  <string name="conversation__action__leave">退出</string>
+  <string name="conversation__action__leave">退出群组</string>
   <string name="conversation__action__remove">移除</string>
   <string name="conversation__action__call">呼叫</string>
   <string name="conversation__action__picture">头像</string>
@@ -372,7 +340,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">拉黑？</string>
   <string name="confirmation_menu__block_text_with_name">%1$s 将无法与您联系或将您添加到群聊中。</string>
-  <string name="confirmation_menu__confirm_block">加入黑名单</string>
+  <string name="confirmation_menu__confirm_block">封锁...</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">已拉黑</string>
   <!-- Delete conversation -->
@@ -420,6 +388,7 @@
   <string name="pref_developer_screen_title">开发人员设置</string>
   <string name="pref_dev_avs_screen_title">AVS设置</string>
   <string name="pref_profile_screen_title">用户信息</string>
+  <string name="pref_backup_screen_title">备份对话</string>
   <!-- Account -->
   <string name="pref_account_screen_title">帐户</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -429,6 +398,7 @@
   <string name="pref_account_actions_category_title">操作</string>
   <string name="pref_account_personal_category_title">个人信息</string>
   <string name="pref_account_appearance_category_title">外观</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">其他使用者能通过这些信息搜寻到您。</string>
   <string name="pref_account_personal_category_summary">该信息对他人不可见</string>
   <string name="pref_account_username_title">用户名</string>
@@ -1067,10 +1037,10 @@
   <string name="teams_set_name_title">您的名字</string>
   <string name="teams_set_name_hint">全名</string>
   <string name="app_entry_slogan">保密每个人之通讯。</string>
-  <string name="app_entry_create_account">新增帐户</string>
-  <string name="app_entry_create_account_sub">供个人使用</string>
-  <string name="app_entry_create_team">创建团队</string>
-  <string name="app_entry_create_team_sub">在工作中使用</string>
+  <string name="app_entry_create_account">供个人使用</string>
+  <string name="app_entry_create_account_sub">新增帐户</string>
+  <string name="app_entry_create_team">给单位</string>
+  <string name="app_entry_create_team_sub">创建团队</string>
   <string name="app_entry_login_sub">已有帐户？</string>
   <string name="app_entry_login">登录</string>
   <string name="app_entry_tc_dialog_title">服务条款</string>
@@ -1132,7 +1102,7 @@
   <string name="create_link_button">创建链接</string>
   <string name="copy_link_button">复制链接</string>
   <string name="share_link_button">分享链接</string>
-  <string name="revoke_link_button">撤销连结</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">链接已复制！</string>
   <string name="revoke_link_message">新访客将无法加入此连结。 目前访客仍可使用。</string>
@@ -1143,4 +1113,33 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">新设备</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">您曾在此设备使用过Wire。</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">好</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Back Up Now</string>
+  <string name="backup_import_error_unknown_title">好像出了点问题。</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">কিছু একটা ভুল হয়েছে</string>
+  <string name="generic_error_message">Please try again</string>
+  <string name="internet_connectivity_error_header">কোন ইন্টারনেট সংযোগ নেই।</string>
+  <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
+  <string name="too_many_attempts_header">অনেক বেশিবার চেষ্টা করা হয়েছে</string>
+  <string name="login_later_message">Please try to log in later</string>
+  <string name="register_again_message">Please try to register again</string>
+  <string name="email_exists_header">Email address already taken</string>
+  <string name="email_exists_message">This email address has already been registered</string>
+  <string name="email_invalid_header">অবৈধ ই-মেইল ঠিকানা</string>
+  <string name="email_invalid_message">Please enter a valid email address</string>
+  <string name="invalid_credentials_header">অবৈধ তথ্য</string>
+  <string name="invalid_credentials_message">Please verify your details and try again</string>
+  <string name="phone_exists_header">ফোন নম্বরটি ইতোমধ্যেই ব্যবহার করা হয়ে গেছে।</string>
+  <string name="phone_exists_message">The phone number you provided has already been registered. Please try again</string>
+  <string name="phone_invalid_format_header">অকার্যকর ফোন নম্বর</string>
+  <string name="phone_invalid_format_message">অনুগ্রহ করে একটি বৈধ ফোন নম্বর প্রবেশ করান।</string>
+  <string name="phone_password_exists_header">Password exists</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
+  <string name="invalid_code_header">অবৈধ কোড</string>
+  <string name="incorrect_code_header">ভুল কোড</string>
+  <string name="wrong_code_message">Please enter a valid code</string>
+  <string name="phone_pending_login_header">কোড ইতোমধ্যে পাঠানো হয়েছে।</string>
+  <string name="phone_pending_login_message">আমরা আপনাকে ইতিমধ্যেই মেসেজের মাধ্যমে কোড পাঠিয়েছি। রিসেন্ড বাটনে চাপ দিন ১০ মিনিট পরে নতুন একটি কোড পেতে।</string>
+  <string name="password_invalid_header">অবৈধ পাসওয়ার্ড</string>
+  <string name="password_invalid_message">Please verify your details and try again</string>
+  <string name="phone_budget_exhausted_header">অত্যধিক অনুরোধ</string>
+  <string name="phone_budget_exhausted_message">অনুগ্রহ করে পরে আবার চেষ্টা করুন।.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">ঠিক আছে</string>
   <string name="permissions_denied_dialog_settings">সেটিংস</string>
   <string name="camera_not_available">ক্যামেরা অ্যাভেইলেবল না</string>
   <string name="camera_permissions_denied_title">ক্যামেরা অ্যাভেইলেবল না</string>
   <string name="camera_permissions_denied_message">To take and send photos, grant permission to access the camera</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">আধুনিক ও সুরক্ষিত যোগাযোগ।</string>
   <string name="welcome__terms_of_service">এগিয়ে যাবার মাধ্যমে আপনি ব্যবহারের শর্তাবলী মেনে নিচ্ছেন।</string>
-  <string name="profile__photo__guidance">হাই %1$s, \n\n ওয়্যার এ একটা ছবি সেট করলে অনেক ভালো\n হবে।</string>
   <string name="profile__name__guidance__tooshort__title">অন্তত ২টি বর্ণ</string>
   <string name="profile__email__placeholder">ই-মেইল</string>
   <string name="profile__password__placeholder">পাসওয়ার্ড</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">একটা ইমেইল পাঠানো হয়েছে \n[[%1$s]। \nইমেইলটিতে পাঠানো লিঙ্কে ক্লিক করে নিজের পরিচয় নিশ্চিত করুন।</string>
   <string name="profile__email__verify__didnt_get">মেসেজ পান নি?</string>
   <string name="profile__email__verify__resend">পুনরায় পাঠান</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Email address already taken</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">This email address has already been registered</string>
   <string name="profile__guidance__invalid_email">The email address you entered is not valid. Please verify and try again</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">আপনার নাম্বার _ভেরিফাই_ করুন</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">আপনার নম্বর ঐচ্ছিক, কিন্তু আপনার নাম্বার আমরা জানলে আমাদের জন্য সহজ হবে আপনার পরিচিতজনদের খুঁজে বের করা। নাম্বারটা আপনার সেইটা নিশ্চিত করতে আপনাকে মেসেজের মাধ্যমে একটি কোড পাঠানো হবে।</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">কান্ট্রি কোড যুক্ত করুন</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">এসএমএস থেকে ৩ ডিজিটের কনফার্মেশন কোড প্রবেশ করান।</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">বার্তা পান নাই? </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">পুনরায় প্রেরণ করুন</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">নিশ্চিত করুন</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">একাউন্ট তৈরি করুন</string>
-  <string name="new_reg_phone__change_country">_দেশ বদল করুন_</string>
-  <string name="new_reg__add_email">ই-মেইল ঠিকানা এবং পাসওয়ার্ড যুক্ত করুন</string>
-  <string name="new_reg__add_email_info">এইটা আমাদের সাহায্য করে যদি আপনি পরে আর আপনার একাউন্টে লগ ইন না করতে পারেন অথবা ফোন হারিয়ে ফেলেন।</string>
-  <string name="new_reg__otr__add_email_info">আপনার ই-মেইল ঠিকানা এবং পাসওয়ার্ড যুক্ত করুন।</string>
-  <string name="new_reg__otr__add_email_sub_info">এটা আপনাকে ওয়্যার একাধিক ডিভাইসে ব্যবহার করতে দেয়। </string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">অবৈধ ই-মেইল ঠিকানা</string>
-  <string name="new_reg_email_invalid_message">Please enter a valid email address</string>
-  <string name="new_reg_email_generic_error_header">কিছু একটা ভুল হয়েছে</string>
-  <string name="new_reg_email_generic_error_message">Please try to register again</string>
-  <string name="new_reg_email_register_generic_error_header">অবৈধ তথ্য</string>
-  <string name="new_reg_email_register_generic_error_message">অনুগ্রহ করে আপনার পূর্ণ নাম ও বৈধ ই-মেইল ঠিকানা এবং পাসওয়ার্ড প্রবেশ করান।</string>
-  <string name="new_reg_email_invalid_login_credentials_header">অবৈধ তথ্য</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Please verify your details and try again</string>
-  <string name="new_reg_phone_exists_header">ফোন নম্বরটি ইতোমধ্যেই ব্যবহার করা হয়ে গেছে।</string>
-  <string name="new_reg_phone_exists_message">The phone number you provided has already been registered. Please try again</string>
-  <string name="new_reg_phone_invalid_format_header">অকার্যকর ফোন নম্বর।</string>
-  <string name="new_reg_phone_invalid_format_message">অনুগ্রহ করে একটি বৈধ ফোন নম্বর প্রবেশ করান।</string>
-  <string name="new_reg_phone_invalid_registration_code_header">অবৈধ কোড</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Please enter a valid code</string>
-  <string name="new_reg_phone_invalid_add_code_header">অবৈধ কোড</string>
-  <string name="new_reg_phone_invalid_add_code_message">Please enter a valid code</string>
-  <string name="new_reg_phone_invalid_login_code_header">ভুল কোড</string>
-  <string name="new_reg_phone_invalid_login_code_message">Please enter a valid code</string>
-  <string name="new_reg_phone_pending_login_header">কোড ইতোমধ্যে পাঠানো হয়েছে।</string>
-  <string name="new_reg_phone_pending_login_message">আমরা আপনাকে ইতিমধ্যেই মেসেজের মাধ্যমে কোড পাঠিয়েছি। রিসেন্ড বাটনে চাপ দিন ১০ মিনিট পরে নতুন একটি কোড পেতে।</string>
-  <string name="new_reg_phone_add_password_header">অবৈধ পাসওয়ার্ড</string>
-  <string name="new_reg_phone_add_password_message">Please verify your details and try again</string>
-  <string name="new_reg_phone_generic_error_header">কিছু একটা ভুল হয়েছে</string>
-  <string name="new_reg_phone_generic_error_message">Please try to register again</string>
-  <string name="new_sign_in_generic_error_header">কিছু একটা ভুল হয়েছে</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again</string>
-  <string name="profile_generic_error_header">কিছু একটা ভুল হয়েছে</string>
-  <string name="profile_generic_error_message">Please try again</string>
-  <string name="profile_phone_generic_error_header">অকার্যকর ফোন নম্বর</string>
-  <string name="profile_phone_generic_error_message">অনুগ্রহ করে একটি বৈধ ফোন নম্বর প্রবেশ করান।</string>
-  <string name="new_reg_phone_too_man_attempts_header">অনেক বেশিবার চেষ্টা করা হয়েছে</string>
-  <string name="new_reg_phone_too_man_attempts_message">Please try to log in later</string>
-  <string name="new_reg_server_connectivity_error_header">কিছু একটা ভুল হয়েছে</string>
-  <string name="new_reg_server_connectivity_error_message">Please check your Internet connection and try again</string>
-  <string name="new_reg_internet_connectivity_error_header">কোন ইন্টারনেট কানেকশন নেই। </string>
-  <string name="new_reg_internet_connectivity_error_message">Please check your Internet connection and try again</string>
   <string name="new_reg__code_resent">নতুন কোড এসএমএস-এর মাধ্যমে আপনার কাছে পাঠানো হয়েছে</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">কলের জন্য অপেক্ষা করুন</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">কিছু ভুল হয়েছে। \nঅনুগ্রহ করে ফোন নম্বর এবং কোড সঠিক কিনা নিশ্চিত করুন।</string>
   <string name="new_reg__default_country">বিডি</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">অত্যধিক অনুরোধ</string>
-  <string name="new_reg_phone_budget_exhausted_message">অনুগ্রহ করে পরে আবার চেষ্টা করুন।.</string>
   <string name="your_phone_number">Your phone number</string>
-  <string name="new_reg_phone_password_exists_header">Password exists</string>
-  <string name="new_reg_phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
-  <string name="new_reg_phone__title__variant_1">কল, বার্তা, শেয়ার। \nব্যক্তিগতভাবে বা দলের সাথে।</string>
-  <string name="new_reg_phone__title__variant_2">ব্যক্তিগত এবং নিরাপদ কল, \nমেসেজিং এবং শেয়ার।</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">ফোন নম্বর ব্যবহার করে সাইন আপ করুন</string>
   <string name="invitation_email__normal_email_signup_button">অন্য ই-মেইল ব্যবহার করে সাইন আপ করুন</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">বিশেষ ব্যক্তিগণ</string>
   <string name="people_picker__address_book_matches_title">সংযোগ করুন</string>
-  <string name="people_picker__search_result_conversations_header_title">দল</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Groups</string>
   <string name="people_picker__search_result_connections_header_title">কনট্যাক্টস</string>
   <string name="people_picker__search_result_others_header_title">সংযোগ করুন</string>
@@ -261,14 +229,14 @@
   <string name="content__location__no_map_placeholder">অবস্থান ম্যাপ এ উপস্থিত হবে যখন আপনি আবার অনলাইন হবেন।</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Rename</string>
-  <string name="conversation__action__delete">মুছে ফেলুন</string>
+  <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Archive</string>
   <string name="conversation__action__unarchive">Unarchive</string>
   <string name="conversation__action__add_people">মানুষ যুক্ত করুন</string>
   <string name="conversation__action__create_group">গ্রুপ তৈরী করুন</string>
   <string name="conversation__action__silence">Mute</string>
   <string name="conversation__action__unsilence">Unmute</string>
-  <string name="conversation__action__leave">Leave</string>
+  <string name="conversation__action__leave">Leave group&#8230;</string>
   <string name="conversation__action__remove">সরিয়ে ফেলুন</string>
   <string name="conversation__action__call">কল করুন</string>
   <string name="conversation__action__picture">ছবি</string>
@@ -380,7 +348,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">ব্লক করতে চান?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s won\'t be able to contact you or add you to group conversations.</string>
-  <string name="confirmation_menu__confirm_block">Block</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">ব্লক করা হয়েছে</string>
   <!-- Delete conversation -->
@@ -428,6 +396,7 @@
   <string name="pref_developer_screen_title">ডেভেলপারের সেটিং সমূহ</string>
   <string name="pref_dev_avs_screen_title">AVS সেটিং সমূহ</string>
   <string name="pref_profile_screen_title">Profile</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">একাউন্ট</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -437,6 +406,7 @@
   <string name="pref_account_actions_category_title">অ্যাকশন</string>
   <string name="pref_account_personal_category_title">Personal</string>
   <string name="pref_account_appearance_category_title">উপস্থিতি</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">মানুষজন আপনাকে এই তথ্যগুলি দিয়ে খুঁজে পাবে।</string>
   <string name="pref_account_personal_category_summary">The information is not visible to anyone else</string>
   <string name="pref_account_username_title">Username</string>
@@ -1099,10 +1069,10 @@
   <string name="teams_set_name_title">Your name</string>
   <string name="teams_set_name_hint">FULL NAME</string>
   <string name="app_entry_slogan">Secure messaging for everyone.</string>
-  <string name="app_entry_create_account">একাউন্ট তৈরি করুন</string>
-  <string name="app_entry_create_account_sub">for personal use</string>
-  <string name="app_entry_create_team">Create a team</string>
-  <string name="app_entry_create_team_sub">for work</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Already have an account?</string>
   <string name="app_entry_login">লগ ইন</string>
   <string name="app_entry_tc_dialog_title">Terms of Service</string>
@@ -1164,7 +1134,7 @@
   <string name="create_link_button">Create Link</string>
   <string name="copy_link_button">Copy Link</string>
   <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link Copied!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1175,4 +1145,33 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">New device</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">You\'ve used Wire on this device before.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">ওকে</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Back Up Now</string>
+  <string name="backup_import_error_unknown_title">কিছু একটা ভুল হয়েছে</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

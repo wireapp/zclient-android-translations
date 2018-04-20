@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Coś poszło nie tak</string>
+  <string name="generic_error_message">Spróbuj ponownie</string>
+  <string name="internet_connectivity_error_header">Brak połączenia z Internetem</string>
+  <string name="internet_connectivity_error_message">Sprawdź swoje połączenie z internetem i spróbuj ponownie</string>
+  <string name="too_many_attempts_header">Zbyt dużo prób</string>
+  <string name="login_later_message">Spróbuj zalogować się później</string>
+  <string name="register_again_message">Spróbuj zarejestrować się jeszcze raz</string>
+  <string name="email_exists_header">Adres e-mail już istnieje</string>
+  <string name="email_exists_message">Ten e-mail jest już zarejestrowany i przypisany do innego konta</string>
+  <string name="email_invalid_header">Nieprawidłowy adres e-mail</string>
+  <string name="email_invalid_message">Proszę wprowadź poprawny adres e-mail</string>
+  <string name="invalid_credentials_header">Niepoprawna informacja</string>
+  <string name="invalid_credentials_message">Sprawdź swoje dane i spróbuj ponownie</string>
+  <string name="phone_exists_header">Ten numer telefonu jest już w użyciu</string>
+  <string name="phone_exists_message">Podany numer telefonu został już zarejestrowany. Spróbuj ponownie</string>
+  <string name="phone_invalid_format_header">Nieprawidłowy numer telefonu</string>
+  <string name="phone_invalid_format_message">Wprowadź poprawny numer telefonu</string>
+  <string name="phone_password_exists_header">Hasło istnieje</string>
+  <string name="phone_password_exists_message">To konto ma już skojarzone hasło i e-mail. Zaloguj się przez e-mail.</string>
+  <string name="invalid_code_header">Nieprawidłowy kod</string>
+  <string name="incorrect_code_header">Niepoprawny kod</string>
+  <string name="wrong_code_message">Wprowadź kod</string>
+  <string name="phone_pending_login_header">Kod został wysłany</string>
+  <string name="phone_pending_login_message">Wysłaliśmy już kod SMS. Wyślij ponownie po 10 minutach, aby uzyskać nowy kod.</string>
+  <string name="password_invalid_header">Nieprawidłowe hasło</string>
+  <string name="password_invalid_message">Sprawdź swoje dane i spróbuj ponownie</string>
+  <string name="phone_budget_exhausted_header">Zbyt wiele żądań</string>
+  <string name="phone_budget_exhausted_message">Proszę spróbować ponownie później.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Ustawienia</string>
   <string name="camera_not_available">APARAT NIEDOSTĘPNY</string>
   <string name="camera_permissions_denied_title">Aparat niedostępny</string>
   <string name="camera_permissions_denied_message">Aby wykonać zdjęcie i je wysłać, zezwól na dostęp do aparatu</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Nowoczesna i prywatna komunikacja.</string>
   <string name="welcome__terms_of_service">KONTYNUUJĄC, ZGADZASZ SIĘ NA _WARUNKI UŻYTKOWANIA_.</string>
-  <string name="profile__photo__guidance">Witaj, %1$s, \n\n Wire jest ładniejszy\n ze zdjęciem.</string>
   <string name="profile__name__guidance__tooshort__title">CO NAJMNIEJ 2 ZNAKI</string>
   <string name="profile__email__placeholder">Adres e-mail</string>
   <string name="profile__password__placeholder">Hasło</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">Wysłaliśmy e-mail na \n[[%1$s]]. \nSprawdź e-mail, by zweryfikować adres.</string>
   <string name="profile__email__verify__didnt_get">Nie dostałeś/aś wiadomości?</string>
   <string name="profile__email__verify__resend">Wyślij ponownie</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Adres e-mail już istnieje</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">Ten e-mail jest już zarejestrowany i przypisany do innego konta</string>
   <string name="profile__guidance__invalid_email">Wprowadzono niepoprawny e-mail. Sprawdź i spróbuj ponownie</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_Sprawdź_ Swój numer</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">Numer telefonu jest opcjonalny, ale podanie go sprawi, że łatwiej będzie nam znaleźć osoby które znasz. Aby upewnić się, że to Ty, wyślemy SMS z kodem potwierdzającym.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">Dodaj numer kierunkowy kraju</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">Wprowadź 3-cyfrowy kod potwierdzenia z SMS.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">Wiadomość nie dotarła? </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">Wyślij ponownie</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">Potwierdź</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Utwórz konto</string>
-  <string name="new_reg_phone__change_country">_ZMIEŃ KRAJ_</string>
-  <string name="new_reg__add_email">Dodaj adres e-mail i hasło</string>
-  <string name="new_reg__add_email_info">Pomaga zalogować się jeśli masz zablokowane konto lub straciłeś/aś telefon.</string>
-  <string name="new_reg__otr__add_email_info">Dodaj adres e-mail i hasło.</string>
-  <string name="new_reg__otr__add_email_sub_info">Pozwala używać Wire na kilku urządzeniach.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Nieprawidłowy adres e-mail</string>
-  <string name="new_reg_email_invalid_message">Proszę wprowadź poprawny adres e-mail</string>
-  <string name="new_reg_email_generic_error_header">Coś poszło nie tak</string>
-  <string name="new_reg_email_generic_error_message">Spróbuj zarejestrować się jeszcze raz</string>
-  <string name="new_reg_email_register_generic_error_header">Niepoprawna informacja</string>
-  <string name="new_reg_email_register_generic_error_message">Proszę podać swoje imię i nazwisko, adres e-mail oraz hasło.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Niepoprawna informacja</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Sprawdź swoje dane i spróbuj ponownie</string>
-  <string name="new_reg_phone_exists_header">Ten numer telefonu jest już w użyciu</string>
-  <string name="new_reg_phone_exists_message">Podany numer telefonu został już zarejestrowany. Spróbuj ponownie</string>
-  <string name="new_reg_phone_invalid_format_header">Nieprawidłowy numer telefonu</string>
-  <string name="new_reg_phone_invalid_format_message">Wprowadź poprawny numer telefonu</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Nieprawidłowy kod</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Wprowadź kod</string>
-  <string name="new_reg_phone_invalid_add_code_header">Nieprawidłowy kod</string>
-  <string name="new_reg_phone_invalid_add_code_message">Wprowadź kod</string>
-  <string name="new_reg_phone_invalid_login_code_header">Niepoprawny kod</string>
-  <string name="new_reg_phone_invalid_login_code_message">Wprowadź kod</string>
-  <string name="new_reg_phone_pending_login_header">Kod został wysłany</string>
-  <string name="new_reg_phone_pending_login_message">Wysłaliśmy już kod SMS. Wyślij ponownie po 10 minutach, aby uzyskać nowy kod.</string>
-  <string name="new_reg_phone_add_password_header">Nieprawidłowe hasło</string>
-  <string name="new_reg_phone_add_password_message">Sprawdź swoje dane i spróbuj ponownie</string>
-  <string name="new_reg_phone_generic_error_header">Coś poszło nie tak</string>
-  <string name="new_reg_phone_generic_error_message">Spróbuj zarejestrować się jeszcze raz</string>
-  <string name="new_sign_in_generic_error_header">Coś poszło nie tak</string>
-  <string name="new_sign_in_generic_error_message">Proszę spróbować zalogować się ponownie</string>
-  <string name="profile_generic_error_header">Coś poszło nie tak</string>
-  <string name="profile_generic_error_message">Spróbuj ponownie</string>
-  <string name="profile_phone_generic_error_header">Nieprawidłowy numer telefonu</string>
-  <string name="profile_phone_generic_error_message">Wprowadź poprawny numer telefonu</string>
-  <string name="new_reg_phone_too_man_attempts_header">Zbyt dużo prób</string>
-  <string name="new_reg_phone_too_man_attempts_message">Spróbuj zalogować się później</string>
-  <string name="new_reg_server_connectivity_error_header">Coś poszło nie tak</string>
-  <string name="new_reg_server_connectivity_error_message">Sprawdź swoje połączenie z internetem i spróbuj ponownie</string>
-  <string name="new_reg_internet_connectivity_error_header">Brak połączenia z Internetem</string>
-  <string name="new_reg_internet_connectivity_error_message">Sprawdź swoje połączenie z internetem i spróbuj ponownie</string>
   <string name="new_reg__code_resent">Nowy kod został wysłany poprzez SMS</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Oczekiwanie na połączenie</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Coś poszło nie tak. \nProszę, potwierdź numer telefonu i kod.</string>
   <string name="new_reg__default_country">de</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Zbyt wiele żądań</string>
-  <string name="new_reg_phone_budget_exhausted_message">Proszę spróbować ponownie później.</string>
   <string name="your_phone_number">Twój numer telefonu</string>
-  <string name="new_reg_phone_password_exists_header">Hasło istnieje</string>
-  <string name="new_reg_phone_password_exists_message">To konto ma już skojarzone hasło i e-mail. Zaloguj się przez e-mail.</string>
-  <string name="new_reg_phone__title__variant_1">Połączenia, wiadomości, udostępnianie. \nPrywatnie i w grupach.</string>
-  <string name="new_reg_phone__title__variant_2">Prywatne i bezpieczne rozmowy, \nWiadomości i udostępnianie.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Zarejestruj się przy użyciu numeru telefonu</string>
   <string name="invitation_email__normal_email_signup_button">Zarejestruj się używając innego adresu e-mail</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Osoby</string>
   <string name="people_picker__address_book_matches_title">Połącz</string>
-  <string name="people_picker__search_result_conversations_header_title">Grupy</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Grupy</string>
   <string name="people_picker__search_result_connections_header_title">Kontakty</string>
   <string name="people_picker__search_result_others_header_title">Połącz</string>
@@ -265,14 +233,14 @@
   <string name="content__location__no_map_placeholder">LOKALIZACJA BĘDZIE WIDOCZNA NA MAPIE PO ODZYSKANIU DOSTĘPU DO INTERNETU.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Zmień nazwę</string>
-  <string name="conversation__action__delete">Usuń</string>
+  <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Archiwum</string>
   <string name="conversation__action__unarchive">Przywróć z archiwum</string>
   <string name="conversation__action__add_people">DODAJ OSOBY</string>
   <string name="conversation__action__create_group">UTWÓRZ GRUPĘ</string>
   <string name="conversation__action__silence">Wycisz</string>
   <string name="conversation__action__unsilence">Wyłącz wyciszenie</string>
-  <string name="conversation__action__leave">Opuść</string>
+  <string name="conversation__action__leave">Leave group&#8230;</string>
   <string name="conversation__action__remove">Usuń</string>
   <string name="conversation__action__call">Połączenie</string>
   <string name="conversation__action__picture">Zdjęcie profilowe</string>
@@ -396,7 +364,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Zablokować?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s nie będzie mógł się z Tobą kontaktować ani wysyłać zaproszenia do konwersacji grupowych.</string>
-  <string name="confirmation_menu__confirm_block">Zablokuj</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Zablokowano</string>
   <!-- Delete conversation -->
@@ -444,6 +412,7 @@
   <string name="pref_developer_screen_title">Ustawienia programisty</string>
   <string name="pref_dev_avs_screen_title">Ustawienia AVS</string>
   <string name="pref_profile_screen_title">Profil</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Konto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -453,6 +422,7 @@
   <string name="pref_account_actions_category_title">Akcje</string>
   <string name="pref_account_personal_category_title">Prywatnie</string>
   <string name="pref_account_appearance_category_title">Zachowanie</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Dzięki tych informacjom inni mogą cię znaleźć.</string>
   <string name="pref_account_personal_category_summary">Informacje nie są widoczne dla innych osób</string>
   <string name="pref_account_username_title">Login</string>
@@ -1160,10 +1130,10 @@
   <string name="teams_set_name_title">Twoja nazwa</string>
   <string name="teams_set_name_hint">PEŁNE IMIĘ I NAZWISKO</string>
   <string name="app_entry_slogan">Bezpieczny komunikator dla każdego.</string>
-  <string name="app_entry_create_account">Utwórz konto</string>
-  <string name="app_entry_create_account_sub">do użytku osobistego</string>
-  <string name="app_entry_create_team">Utwórz nowy zespół</string>
-  <string name="app_entry_create_team_sub">do pracy</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Masz już konto?</string>
   <string name="app_entry_login">Logowanie</string>
   <string name="app_entry_tc_dialog_title">Zasady użytkowania</string>
@@ -1225,7 +1195,7 @@
   <string name="create_link_button">Create Link</string>
   <string name="copy_link_button">Copy Link</string>
   <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link Copied!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1236,4 +1206,33 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">Nowe urządzenie</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">Używałeś wcześniej Wire na tym urządzeniu</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">OK</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Back Up Now</string>
+  <string name="backup_import_error_unknown_title">Coś poszło nie tak</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

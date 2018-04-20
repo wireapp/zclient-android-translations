@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Kažkas nutiko</string>
+  <string name="generic_error_message">Bandykite dar kartą</string>
+  <string name="internet_connectivity_error_header">Nėra interneto ryšio</string>
+  <string name="internet_connectivity_error_message">Patikrinkite savo interneto ryšį ir bandykite dar kartą</string>
+  <string name="too_many_attempts_header">Per daug bandymų</string>
+  <string name="login_later_message">Bandykite prisijungti vėliau</string>
+  <string name="register_again_message">Bandykite registruotis dar kartą</string>
+  <string name="email_exists_header">El. pašto adresas jau užimtas</string>
+  <string name="email_exists_message">Šis el. pašto adresas jau užregistruotas</string>
+  <string name="email_invalid_header">Neteisingas el. pašto adresas</string>
+  <string name="email_invalid_message">Iveskite teisingą el. pašto adresą</string>
+  <string name="invalid_credentials_header">Neteisinga informacija</string>
+  <string name="invalid_credentials_message">Patikrinkite duomenis ir bandykite dar kartą</string>
+  <string name="phone_exists_header">Telefono numeris jau naudojamas</string>
+  <string name="phone_exists_message">Nurodytas telefono numeris jau yra užregistruotas. Bandykite dar kartą</string>
+  <string name="phone_invalid_format_header">Neteisingas telefono numeris</string>
+  <string name="phone_invalid_format_message">Įrašykite teisingą telefono numerį</string>
+  <string name="phone_password_exists_header">Slaptažodis naudojamas</string>
+  <string name="phone_password_exists_message">Paskyra jau turi slaptažodį ir priskirtą el. pašto adresą. Prisijunkite el. paštu.</string>
+  <string name="invalid_code_header">Netaisyklingas kodas</string>
+  <string name="incorrect_code_header">Neteisingas kodas</string>
+  <string name="wrong_code_message">Įrašykite teisingą kodą</string>
+  <string name="phone_pending_login_header">Kodas jau išsiųstas</string>
+  <string name="phone_pending_login_message">Kodą jau išsiuntėme jums SMS žinute. Spustelėkite „Siųsti dar kartą“ po 10 minučių ir gausite naują kodą.</string>
+  <string name="password_invalid_header">Neteisingas slaptažodis</string>
+  <string name="password_invalid_message">Patikrinkite duomenis ir bandykite dar kartą</string>
+  <string name="phone_budget_exhausted_header">Per daug bandymų</string>
+  <string name="phone_budget_exhausted_message">Bandykite dar kartą vėliau.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">GERAI</string>
   <string name="permissions_denied_dialog_settings">Nustatymai</string>
   <string name="camera_not_available">KAMERA NEPRIEINAMA</string>
   <string name="camera_permissions_denied_title">Kamera neprieinama</string>
   <string name="camera_permissions_denied_message">Norėdami nufotografuoti ir siųsti nuotraukas, suteikite teisę naudotis fotoaparatu</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Šiuolaikiškas, privatus bendravimas.</string>
   <string name="welcome__terms_of_service">TĘSDAMI, JŪS SUTINKATE SU _NAUDOJIMOSI SĄLYGOMIS_.</string>
-  <string name="profile__photo__guidance">LABAS %1$s,\n\n„WIRE“ YRA SMAGESNIS\nKAI NAUDOJATE NUOTRAUKĄ.</string>
   <string name="profile__name__guidance__tooshort__title">BENT 2 SIMBOLIAI</string>
   <string name="profile__email__placeholder">El. paštas</string>
   <string name="profile__password__placeholder">Slaptažodis</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">Išsiuntėme el. laišką į \n[[%1$s]].\nSpustelėkite ten esančią nuorodą adreso patvirtinimui.</string>
   <string name="profile__email__verify__didnt_get">Negavote el. laiško?</string>
   <string name="profile__email__verify__resend">Siųsti iš naujo</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">El. pašto adresas jau užimtas</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">Šis el. pašto adresas jau užregistruotas</string>
   <string name="profile__guidance__invalid_email">Įrašytas el. pašto adresas yra netinkamas. Pasitikslinkite ir bandykite dar kartą</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_PATVIRTINKITE_ SAVO NUMERĮ</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">NUMERIS YRA NEPRIVALOMAS, BET JIS PADEDA MUMS RASTI JŪSŲ PAŽĮSTAMUS. KAD ĮSITIKINTUME, KAD TAI TIKRAI JŪS, ATSIŲSIME PATVIRTINIMO KODĄ SMS ŽINUTE.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">PRIDĖKITE ŠALIES KODĄ</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">ĮVESKITE 3 SKAITMENŲ PATVIRTINIMO KODĄ IŠ SMS.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">NEGAVOTE ŽINUTĖS? </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">SIŲSTI IŠ NAUJO</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">PATVIRTINTI</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Sukurti paskyrą</string>
-  <string name="new_reg_phone__change_country">_KEISTI ŠALĮ_</string>
-  <string name="new_reg__add_email">Pridėkite el. pašto adresą ir slaptažodį</string>
-  <string name="new_reg__add_email_info">Padeda prisijungti jei esate užblokuotas arba pametėte telefoną.</string>
-  <string name="new_reg__otr__add_email_info">Pridėkite el. pašto adresą ir slaptažodį.</string>
-  <string name="new_reg__otr__add_email_sub_info">Tai leidžia jums naudoti „Wire“ keliuose įrenginiuose.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Neteisingas el. pašto adresas</string>
-  <string name="new_reg_email_invalid_message">Iveskite teisingą el. pašto adresą</string>
-  <string name="new_reg_email_generic_error_header">Kažkas nutiko</string>
-  <string name="new_reg_email_generic_error_message">Bandykite registruotis dar kartą</string>
-  <string name="new_reg_email_register_generic_error_header">Neteisinga informacija</string>
-  <string name="new_reg_email_register_generic_error_message">Įrašykite savo vardą ir pavardę, teisingą el. pašto adresą ir slaptažodį.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Neteisinga informacija</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Patikrinkite duomenis ir bandykite dar kartą</string>
-  <string name="new_reg_phone_exists_header">Telefono numeris jau naudojamas</string>
-  <string name="new_reg_phone_exists_message">Nurodytas telefono numeris jau yra užregistruotas. Bandykite dar kartą</string>
-  <string name="new_reg_phone_invalid_format_header">Neteisingas telefono numeris</string>
-  <string name="new_reg_phone_invalid_format_message">Įrašykite teisingą telefono numerį</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Netaisyklingas kodas</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Įrašykite teisingą kodą</string>
-  <string name="new_reg_phone_invalid_add_code_header">Netaisyklingas kodas</string>
-  <string name="new_reg_phone_invalid_add_code_message">Įrašykite teisingą kodą</string>
-  <string name="new_reg_phone_invalid_login_code_header">Neteisingas kodas</string>
-  <string name="new_reg_phone_invalid_login_code_message">Įrašykite teisingą kodą</string>
-  <string name="new_reg_phone_pending_login_header">Kodas jau išsiųstas</string>
-  <string name="new_reg_phone_pending_login_message">Kodą jau išsiuntėme jums SMS žinute. Spustelėkite „Siųsti dar kartą“ po 10 minučių ir gausite naują kodą.</string>
-  <string name="new_reg_phone_add_password_header">Neteisingas slaptažodis</string>
-  <string name="new_reg_phone_add_password_message">Patikrinkite duomenis ir bandykite dar kartą</string>
-  <string name="new_reg_phone_generic_error_header">Kažkas nutiko</string>
-  <string name="new_reg_phone_generic_error_message">Bandykite registruotis dar kartą</string>
-  <string name="new_sign_in_generic_error_header">Kažkas nutiko</string>
-  <string name="new_sign_in_generic_error_message">Bandykite prisijungti dar kartą</string>
-  <string name="profile_generic_error_header">Kažkas nutiko</string>
-  <string name="profile_generic_error_message">Bandykite dar kartą</string>
-  <string name="profile_phone_generic_error_header">Neteisingas telefono numeris</string>
-  <string name="profile_phone_generic_error_message">Įrašykite teisingą telefono numerį</string>
-  <string name="new_reg_phone_too_man_attempts_header">Per daug bandymų</string>
-  <string name="new_reg_phone_too_man_attempts_message">Bandykite prisijungti vėliau</string>
-  <string name="new_reg_server_connectivity_error_header">Kažkas nutiko</string>
-  <string name="new_reg_server_connectivity_error_message">Patikrinkite savo interneto ryšį ir bandykite dar kartą</string>
-  <string name="new_reg_internet_connectivity_error_header">Nėra interneto ryšio</string>
-  <string name="new_reg_internet_connectivity_error_message">Patikrinkite savo interneto ryšį ir bandykite dar kartą</string>
   <string name="new_reg__code_resent">Naujas kodas jums buvo išsiųstas SMS žinute</string>
+  <string name="new_reg__email_code_resent">Naujas kodas jums buvo išsiųstas el. paštu</string>
   <string name="new_reg__code_resent__call">Palaukite skambučio</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Kažkas nutiko.\nĮsitikinkite, kad telefono numeris ir kodas yra teisingi.</string>
   <string name="new_reg__default_country">de</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Per daug bandymų</string>
-  <string name="new_reg_phone_budget_exhausted_message">Bandykite dar kartą vėliau.</string>
   <string name="your_phone_number">Jūsų telefono numeris</string>
-  <string name="new_reg_phone_password_exists_header">Slaptažodis naudojamas</string>
-  <string name="new_reg_phone_password_exists_message">Paskyra jau turi slaptažodį ir priskirtą el. pašto adresą. Prisijunkite el. paštu.</string>
-  <string name="new_reg_phone__title__variant_1">Skambučiai, susirašinėjimai, bendrinimas.\nAsmeniškai arba grupėje.</string>
-  <string name="new_reg_phone__title__variant_2">Privatūs ir saugūs skambučiai,\nsusirašinėjimai ir bendrinimas.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Registruokitės naudodami telefono numerį</string>
   <string name="invitation_email__normal_email_signup_button">Registruokitės naudodami kitą el. pašto adresą</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">IEŠKOTI</string>
   <string name="people_picker__top_users_header_title">Svarbiausi žmonės</string>
   <string name="people_picker__address_book_matches_title">Užmegzti kontaktą</string>
-  <string name="people_picker__search_result_conversations_header_title">Grupės</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s grupės</string>
   <string name="people_picker__search_result_connections_header_title">Kontaktai</string>
   <string name="people_picker__search_result_others_header_title">Užmegzti kontaktą</string>
@@ -265,14 +233,14 @@
   <string name="content__location__no_map_placeholder">VIETA PASIRODYS ŽEMĖLAPYJE KAI ATSIRAS RYŠYS.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Pervadinti</string>
-  <string name="conversation__action__delete">Ištrinti</string>
+  <string name="conversation__action__delete">Trinti turinį&#8230;</string>
   <string name="conversation__action__archive">Archyvas</string>
   <string name="conversation__action__unarchive">Išarchyvuoti</string>
   <string name="conversation__action__add_people">PRIDĖTI ŽMONES</string>
   <string name="conversation__action__create_group">SUKURTI GRUPĘ</string>
   <string name="conversation__action__silence">Išjungti pranešimus</string>
   <string name="conversation__action__unsilence">Įjungti pranešimus</string>
-  <string name="conversation__action__leave">Išeiti</string>
+  <string name="conversation__action__leave">Išeiti iš grupės&#8230;</string>
   <string name="conversation__action__remove">Šalinti</string>
   <string name="conversation__action__call">Skambutis</string>
   <string name="conversation__action__picture">Paveikslas</string>
@@ -396,7 +364,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Užblokuoti?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s negalės su jumis susisiekti ar pridėti jus į grupės susirašinėjimą.</string>
-  <string name="confirmation_menu__confirm_block">Užblokuoti</string>
+  <string name="confirmation_menu__confirm_block">Blokuoti&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Užblokuotas(-a)</string>
   <!-- Delete conversation -->
@@ -444,6 +412,7 @@
   <string name="pref_developer_screen_title">Kūrėjo nustatymai</string>
   <string name="pref_dev_avs_screen_title">AVS nustatymai</string>
   <string name="pref_profile_screen_title">Profilis</string>
+  <string name="pref_backup_screen_title">Kurti susirašinėjimų atsarginę kopiją</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Paskyra</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -453,6 +422,7 @@
   <string name="pref_account_actions_category_title">Veiksmai</string>
   <string name="pref_account_personal_category_title">Asmeninis</string>
   <string name="pref_account_appearance_category_title">Išvaizda</string>
+  <string name="pref_account_conversations_category_title">Praeitis</string>
   <string name="pref_account_details_category_summary">Žmonės gali jus rasti pagal šią informaciją.</string>
   <string name="pref_account_personal_category_summary">Informacija niekam kitam nėra matoma</string>
   <string name="pref_account_username_title">Naudotojo vardas</string>
@@ -1160,10 +1130,10 @@
   <string name="teams_set_name_title">Jūsų vardas</string>
   <string name="teams_set_name_hint">VARDAS PAVARDĖ</string>
   <string name="app_entry_slogan">Saugus bendravimas visiems.</string>
-  <string name="app_entry_create_account">Sukurti paskyrą</string>
-  <string name="app_entry_create_account_sub">asmeniniam naudojimui</string>
-  <string name="app_entry_create_team">Sukurti komandą</string>
-  <string name="app_entry_create_team_sub">darbo tikslais</string>
+  <string name="app_entry_create_account">Asmeniniam naudojimui</string>
+  <string name="app_entry_create_account_sub">kurti paskyrą</string>
+  <string name="app_entry_create_team">Organizacijoms</string>
+  <string name="app_entry_create_team_sub">kurti komandą</string>
   <string name="app_entry_login_sub">Jau turite paskyrą?</string>
   <string name="app_entry_login">Prisijungti</string>
   <string name="app_entry_tc_dialog_title">Paslaugos teikimo sąlygos</string>
@@ -1225,7 +1195,7 @@
   <string name="create_link_button">Kurti nuorodą</string>
   <string name="copy_link_button">Kopijuoti nuorodą</string>
   <string name="share_link_button">Bendrinti nuorodą</string>
-  <string name="revoke_link_button">Atšaukti nuorodą</string>
+  <string name="revoke_link_button">Atšaukti nuorodą&#8230;</string>
   <string name="invitation_link_title">KVIESTI KITUS SU NUORODA</string>
   <string name="link_copied_toast">Nuoroda nukopijuota!</string>
   <string name="revoke_link_message">Nauji svečiai negalės prisijungti spustelėję nuorodą. Dabartiniai svečiai liks prisijungę.</string>
@@ -1236,4 +1206,33 @@
   <string name="guest_time_left_hours">Liko %1$s val.</string>
   <string name="guest_time_left_hours_minutes">Liko %1$s val. %2$s min.</string>
   <string name="guest_time_left_minutes">Liko mažiau nei %1$s min.</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Kurti susirašinėjimų atsarginę kopiją</string>
+  <string name="add_email_address">Pridėkite savo el. pašto adresą</string>
+  <string name="set_a_password">Nustatykite slaptažodį</string>
+  <string name="email_and_password_explanation">Norėdami naudotis „Wire“ keliuose įrenginiuose, privalote pridėti el. pašto adresą ir slaptažodį.</string>
+  <string name="new_device_password">Naujas įrenginys</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">ATSTATYTI IŠ ATSARGINĖS KOPIJOS</string>
+  <string name="second_launch__header">Naudojote „Wire“ šiame įrenginyje.</string>
+  <string name="second_launch__sub_header">Jei praėjo daug laiko, kai kurios žinutės čia gali neatsirasti.</string>
+  <string name="restore_override_alert_title">Atkurti praeitį</string>
+  <string name="restore_override_alert_text">Atsarginės kopijos turinys pakeis susirašinėjimo praeitį šiame įrenginyje. Atkurti atsarginėje kopijoje esančią praeitį galite tik toje pačioje platformoje, kur jis ir buvo sukurtas.</string>
+  <string name="restore_override_alert_ok">Pasirinkite atsarginės kopijos failą</string>
+  <string name="back_up_progress">KURIAMA ATSARGINĖ KOPIJA&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Nustatykite el. pašto adresą ir slaptažodį.</string>
+  <string name="pref_account_backup_warning_message">Norėdami sukurti susirašinėjimo praeitis atsarginę kopiją, jums būtina naudoti el. pašto adresą ir slaptažodį. Sukurti galite paskyros puslapyje Nustatymuose.</string>
+  <string name="pref_account_backup_warning_ok">GERAI</string>
+  <string name="export_generic_error_title">Failo išsaugoti nepavyko</string>
+  <string name="export_generic_error_text">Neturite pakankamai vietos arba teisių failą išsaugoti ten.</string>
+  <string name="backup_button">Kurti atsarginę kopiją dabar</string>
+  <string name="backup_import_error_unknown_title">Kažkas nutiko</string>
+  <string name="backup_import_error_unknown">Praeities atkurti nepavyko.</string>
+  <string name="backup_import_error_unsupported_version_title">Nesuderinama atsarginė kopija</string>
+  <string name="backup_import_error_unsupported_version">Ši atsarginė kopija buvo sukurta naudojant arba naujesnę arba senesnę „Wire“ versiją, ir negali būti naudojama atkūrimui.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">Atkurti kitos paskyros atsarginės kopijos nepavyks.</string>
 </resources>

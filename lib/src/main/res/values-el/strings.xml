@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">Κάτι πήγε στραβά</string>
+  <string name="generic_error_message">Please try again</string>
+  <string name="internet_connectivity_error_header">Δεν υπάρχει σύνδεση στο διαδίκτυο</string>
+  <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
+  <string name="too_many_attempts_header">Πάρα πολλές προσπάθειες</string>
+  <string name="login_later_message">Please try to log in later</string>
+  <string name="register_again_message">Please try to register again</string>
+  <string name="email_exists_header">Η Διεύθυνση Ηλ. Ταχυδρομείου χρησιμοποιείται ήδη</string>
+  <string name="email_exists_message">This email address has already been registered</string>
+  <string name="email_invalid_header">Μη έγκυρο email</string>
+  <string name="email_invalid_message">Please enter a valid email address</string>
+  <string name="invalid_credentials_header">Μη Έγκυρες Πληροφορίες</string>
+  <string name="invalid_credentials_message">Παρακαλούμε επιβεβαιώστε τα στοιχεία σας και προσπαθήστε ξανά</string>
+  <string name="phone_exists_header">Ο αριθμός τηλεφώνου είναι ήδη καταχωρημένος στο σύστημα μας</string>
+  <string name="phone_exists_message">The phone number you provided has already been registered. Please try again</string>
+  <string name="phone_invalid_format_header">Μη έγκυρος αριθμός τηλεφώνου</string>
+  <string name="phone_invalid_format_message">Παρακαλούμε εισάγετε έναν έγκυρο αριθμό τηλεφώνου</string>
+  <string name="phone_password_exists_header">Αυτός ο κωδικός υπάρχει ήδη</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
+  <string name="invalid_code_header">Μη έγκυρος κωδικός</string>
+  <string name="incorrect_code_header">Λάθος κωδικός</string>
+  <string name="wrong_code_message">Αυτός ο κωδικός δεν είναι έγκυρος</string>
+  <string name="phone_pending_login_header">Ο κωδικός εστάλη ήδη</string>
+  <string name="phone_pending_login_message">Σας στείλαμε ήδη έναν κωδικό επιβεβαίωσης μέσω SMS. Πατήστε \"Επαναποστολή\" μετά από 10 λεπτά για να λάβετε έναν καινούριο κωδικό επιβεβαίωσης.</string>
+  <string name="password_invalid_header">Λανθασμένος Κωδικός</string>
+  <string name="password_invalid_message">Παρακαλούμε επιβεβαιώστε τα στοιχεία σας και προσπαθήστε ξανά</string>
+  <string name="phone_budget_exhausted_header">Πάρα πολλά αιτήματα</string>
+  <string name="phone_budget_exhausted_message">Παρακαλούμε δοκιμάστε ξανά αργότερα.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">Εντάξει</string>
   <string name="permissions_denied_dialog_settings">Ρυθμίσεις</string>
   <string name="camera_not_available">Η ΚΑΜΕΡΑ ΔΕΝ ΕΙΝΑΙ ΔΙΑΘΕΣΙΜΗ</string>
   <string name="camera_permissions_denied_title">Η κάμερα δεν είναι διαθέσιμη</string>
   <string name="camera_permissions_denied_message">Για να λάβετε και να στείλετε φωτογραφίες, παραχωρήστε άδεια πρόσβασης στην κάμερα</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">Σύγχρονη, ιδιωτική επικοινωνία.</string>
   <string name="welcome__terms_of_service">Συνεχίζοντας στην εφαρμογή, συμφωνείτε με τους ακόλουθους όρους χρήσης.</string>
-  <string name="profile__photo__guidance">Γειά σου %1$s, \n\n το Wire είναι πολύ πιο ωραίο\n με μία φωτογραφία.</string>
   <string name="profile__name__guidance__tooshort__title">ΤΟΥΛΑΧΙΣΤΟΝ 2 ΧΑΡΑΚΤΗΡΕΣ</string>
   <string name="profile__email__placeholder">Email</string>
   <string name="profile__password__placeholder">Κωδικός Πρόσβασης</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">Στείλαμε email στην διεύθυνση \n[[%1$s]]. \nΑκολούθησε τις οδηγίες που έλαβες για να επαληθεύσεις το email σου.</string>
   <string name="profile__email__verify__didnt_get">Δεν έλαβες ακόμα το μήνυμα;</string>
   <string name="profile__email__verify__resend">Επαναποστολή</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">Η Διεύθυνση Ηλ. Ταχυδρομείου χρησιμοποιείται ήδη</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">This email address has already been registered</string>
   <string name="profile__guidance__invalid_email">The email address you entered is not valid. Please verify and try again</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_ΕΠΙΒΕΒΑΙΩΣΤΕ_ ΤΟΝ ΑΡΙΘΜΟ ΣΑΣ</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">Ο ΑΡΙΘΜΟΣ ΣΑΣ ΕΙΝΑΙ ΠΡΟΑΙΡΕΤΙΚΟΣ, ΑΛΛΑ ΜΑΣ ΒΟΗΘΑΕΙ ΝΑ ΒΡΟΥΜΕ ΑΤΟΜΑ ΤΑ ΟΠΟΙΑ ΓΝΩΡΙΖΕΤΑΙ ΠΙΟ ΕΥΚΟΛΑ. ΓΙΑ ΝΑ ΕΙΜΑΣΤΕ ΣΙΓΟΥΡΟΙ ΟΤΙ ΕΙΣΤΕ ΕΣΕΙΣ ΘΑ ΣΤΕΙΛΟΥΜΕ ΕΝΑ ΚΩΔΙΚΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΜΕΣΩ SMS.</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">ΠΡΟΣΘΕΣΤΕ ΚΩΔΙΚΟ ΧΩΡΑΣ</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">ΕΙΣΑΓΕΤΕ ΤΟΝ 3-ΨΗΦΙΟ ΚΩΔΙΚΟ ΕΠΙΒΕΒΑΙΩΣΗΣ ΠΟΥ ΛΑΒΑΤΕ ΜΕ SMS.</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">ΔΕΝ ΛΑΒΑΤΕ ΑΚΟΜΗ ΤΟ ΜΗΝΥΜΑ; </string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">ΕΠΑΝΑΠΟΣΤΟΛΗ</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">ΕΠΙΒΕΒΑΙΩΣΗ</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">Δημιουργία λογαριασμού</string>
-  <string name="new_reg_phone__change_country">_ΑΛΛΑΓΗ ΧΩΡΑΣ_</string>
-  <string name="new_reg__add_email">Προσθέστε email και κωδικό πρόσβασης</string>
-  <string name="new_reg__add_email_info">Σας βοηθάει να συνδεθείτε αν κλειδώσετε ή χάσετε το τηλέφωνό σας.</string>
-  <string name="new_reg__otr__add_email_info">Προσθέστε το email σας και έναν κωδικό πρόσβασης.</string>
-  <string name="new_reg__otr__add_email_sub_info">Αυτό σας επιτρέπει να χρησιμοποιήσετε το Wire σε πολλαπλές συσκευές.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">Μη έγκυρο email</string>
-  <string name="new_reg_email_invalid_message">Please enter a valid email address</string>
-  <string name="new_reg_email_generic_error_header">Κάτι πήγε στραβά</string>
-  <string name="new_reg_email_generic_error_message">Please try to register again</string>
-  <string name="new_reg_email_register_generic_error_header">Μη Έγκυρες Πληροφορίες</string>
-  <string name="new_reg_email_register_generic_error_message">Παρακαλώ εισάγετε το ονοματεπώνυμό σας και ένα έγκυρο email και κωδικό πρόσβασης.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">Μη Έγκυρες Πληροφορίες</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Παρακαλούμε επιβεβαιώστε τα στοιχεία σας και προσπαθήστε ξανά</string>
-  <string name="new_reg_phone_exists_header">Ο αριθμός τηλεφώνου είναι ήδη καταχωρημένος στο σύστημα μας</string>
-  <string name="new_reg_phone_exists_message">The phone number you provided has already been registered. Please try again</string>
-  <string name="new_reg_phone_invalid_format_header">Μη έγκυρος αριθμός τηλεφώνου</string>
-  <string name="new_reg_phone_invalid_format_message">Παρακαλούμε εισάγετε έναν έγκυρο αριθμό τηλεφώνου</string>
-  <string name="new_reg_phone_invalid_registration_code_header">Μη έγκυρος κωδικός</string>
-  <string name="new_reg_phone_invalid_registration_code_message">Αυτός ο κωδικός δεν είναι έγκυρος</string>
-  <string name="new_reg_phone_invalid_add_code_header">Μη έγκυρος κωδικός</string>
-  <string name="new_reg_phone_invalid_add_code_message">Αυτός ο κωδικός δεν είναι έγκυρος</string>
-  <string name="new_reg_phone_invalid_login_code_header">Λάθος κωδικός</string>
-  <string name="new_reg_phone_invalid_login_code_message">Αυτός ο κωδικός δεν είναι έγκυρος</string>
-  <string name="new_reg_phone_pending_login_header">Ο κωδικός εστάλη ήδη</string>
-  <string name="new_reg_phone_pending_login_message">Σας στείλαμε ήδη έναν κωδικό επιβεβαίωσης μέσω SMS. Πατήστε \"Επαναποστολή\" μετά από 10 λεπτά για να λάβετε έναν καινούριο κωδικό επιβεβαίωσης.</string>
-  <string name="new_reg_phone_add_password_header">Λανθασμένος Κωδικός</string>
-  <string name="new_reg_phone_add_password_message">Παρακαλούμε επιβεβαιώστε τα στοιχεία σας και προσπαθήστε ξανά</string>
-  <string name="new_reg_phone_generic_error_header">Κάτι πήγε στραβά</string>
-  <string name="new_reg_phone_generic_error_message">Please try to register again</string>
-  <string name="new_sign_in_generic_error_header">Κάτι πήγε στραβά</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again</string>
-  <string name="profile_generic_error_header">Κάτι πήγε στραβά</string>
-  <string name="profile_generic_error_message">Please try again</string>
-  <string name="profile_phone_generic_error_header">Μη έγκυρος αριθμός τηλεφώνου</string>
-  <string name="profile_phone_generic_error_message">Παρακαλούμε εισάγετε έναν έγκυρο αριθμό τηλεφώνου</string>
-  <string name="new_reg_phone_too_man_attempts_header">Πάρα πολλές προσπάθειες</string>
-  <string name="new_reg_phone_too_man_attempts_message">Please try to log in later</string>
-  <string name="new_reg_server_connectivity_error_header">Κάτι πήγε στραβά</string>
-  <string name="new_reg_server_connectivity_error_message">Please check your Internet connection and try again</string>
-  <string name="new_reg_internet_connectivity_error_header">Δεν υπάρχει σύνδεση στο διαδίκτυο</string>
-  <string name="new_reg_internet_connectivity_error_message">Please check your Internet connection and try again</string>
   <string name="new_reg__code_resent">Ένας νέος κωδικός επιβεβαίωσης εστάλη σε εσάς μέσω SMS</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">Περιμένετε για την κλήση</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">Κάτι πήγε στραβά. \nΠαρακαλούμε επιβεβαιώστε ότι ο αριθμός τηλεφώνου και ο κωδικός είναι σωστά.</string>
   <string name="new_reg__default_country">de</string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">Πάρα πολλά αιτήματα</string>
-  <string name="new_reg_phone_budget_exhausted_message">Παρακαλούμε δοκιμάστε ξανά αργότερα.</string>
   <string name="your_phone_number">Ο αριθμός κινητού σας</string>
-  <string name="new_reg_phone_password_exists_header">Αυτός ο κωδικός υπάρχει ήδη</string>
-  <string name="new_reg_phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
-  <string name="new_reg_phone__title__variant_1">Κλήση, μηνύματα, κοινοποίηση.\nIn ιδιωτική ή με ομάδες.</string>
-  <string name="new_reg_phone__title__variant_2">Ιδιωτικές και ασφαλείς κλήσεις, \nμηνύματα και κοινή χρήση αρχείων.</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">Εγγραφή με χρήση αριθμού τηλεφώνου</string>
   <string name="invitation_email__normal_email_signup_button">Εγγραφή με χρήση άλλου email</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Αγαπημένα άτομα</string>
   <string name="people_picker__address_book_matches_title">Σύνδεση</string>
-  <string name="people_picker__search_result_conversations_header_title">Ομάδες</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Ομάδες</string>
   <string name="people_picker__search_result_connections_header_title">Επαφές</string>
   <string name="people_picker__search_result_others_header_title">Σύνδεση</string>
@@ -261,14 +229,14 @@
   <string name="content__location__no_map_placeholder">Η τοποθεσία σας θα εμφανιστεί στον χάρτη όταν επιστρέψετε σε σύνδεση.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Rename</string>
-  <string name="conversation__action__delete">Διαγραφή</string>
+  <string name="conversation__action__delete">Διαγραφή περιεχομένου&#8230;</string>
   <string name="conversation__action__archive">Αρχείο</string>
   <string name="conversation__action__unarchive">Αναίρεση αρχειοθέτησης</string>
   <string name="conversation__action__add_people">Προσθήκη Ατόμων</string>
   <string name="conversation__action__create_group">Δημιουργία Ομάδος</string>
   <string name="conversation__action__silence">Σίγαση</string>
   <string name="conversation__action__unsilence">Αύξηση έντασης</string>
-  <string name="conversation__action__leave">Αποχώρηση</string>
+  <string name="conversation__action__leave">Leave group&#8230;</string>
   <string name="conversation__action__remove">Αφαίρεση</string>
   <string name="conversation__action__call">Κλήση</string>
   <string name="conversation__action__picture">Εικόνα</string>
@@ -380,7 +348,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Αποκλεισμός;</string>
   <string name="confirmation_menu__block_text_with_name">%1$s δεν θα μπορεί να συνομιλήσει ή να σας προσθέσει σε ομαδικές συζητήσεις.</string>
-  <string name="confirmation_menu__confirm_block">Αποκλεισμός</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Αποκλεισμένοι</string>
   <!-- Delete conversation -->
@@ -428,6 +396,7 @@
   <string name="pref_developer_screen_title">Ρυθμίσεις για Προγραμματιστές</string>
   <string name="pref_dev_avs_screen_title">AVS Ρυθμίσεις</string>
   <string name="pref_profile_screen_title">Ταυτότητα</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Λογαριασμός</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -437,6 +406,7 @@
   <string name="pref_account_actions_category_title">Ενέργειες</string>
   <string name="pref_account_personal_category_title">Προσωπικά</string>
   <string name="pref_account_appearance_category_title">Εμφάνιση</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Τα άτομα μπορούν να σας βρουν με αυτές τις λεπτομέρειες.</string>
   <string name="pref_account_personal_category_summary">Οι πληροφορίες δεν είναι ορατές σε κανέναν άλλον</string>
   <string name="pref_account_username_title">Όνομα Χρήστη</string>
@@ -1098,10 +1068,10 @@
   <string name="teams_set_name_title">Your name</string>
   <string name="teams_set_name_hint">FULL NAME</string>
   <string name="app_entry_slogan">Secure messaging for everyone.</string>
-  <string name="app_entry_create_account">Δημιουργία λογαριασμού</string>
-  <string name="app_entry_create_account_sub">for personal use</string>
-  <string name="app_entry_create_team">Δημιουργία ομάδος</string>
-  <string name="app_entry_create_team_sub">for work</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Already have an account?</string>
   <string name="app_entry_login">Σύνδεση</string>
   <string name="app_entry_tc_dialog_title">Terms of Service</string>
@@ -1163,7 +1133,7 @@
   <string name="create_link_button">Create Link</string>
   <string name="copy_link_button">Copy Link</string>
   <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link Copied!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1174,4 +1144,33 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">Νέα συσκευή</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">You\'ve used Wire on this device before.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">Εντάξει</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Back Up Now</string>
+  <string name="backup_import_error_unknown_title">Κάτι πήγε στραβά</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>

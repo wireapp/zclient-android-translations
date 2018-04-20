@@ -20,15 +20,43 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--*********************************************** ERRORS ***********************************************-->
+  <string name="generic_error_header">حدث خطأ</string>
+  <string name="generic_error_message">Please try again</string>
+  <string name="internet_connectivity_error_header">لا يوجد اتصال بالإنترنت</string>
+  <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
+  <string name="too_many_attempts_header">محاولات كثيرة جداً</string>
+  <string name="login_later_message">Please try to log in later</string>
+  <string name="register_again_message">Please try to register again</string>
+  <string name="email_exists_header">البريد الإلكتروني مستخدم قبلا</string>
+  <string name="email_exists_message">This email address has already been registered</string>
+  <string name="email_invalid_header">عنوان البريد إلكتروني غير فعال</string>
+  <string name="email_invalid_message">الرجاء إدخال عنوان بريد إلكتروني صالح.</string>
+  <string name="invalid_credentials_header">معلومات غير صحيحة</string>
+  <string name="invalid_credentials_message">Please verify your details and try again</string>
+  <string name="phone_exists_header">رقم الهاتف مستعمل من قبل</string>
+  <string name="phone_exists_message">The phone number you provided has already been registered. Please try again</string>
+  <string name="phone_invalid_format_header">رقم الهاتف غير صحيح</string>
+  <string name="phone_invalid_format_message">الرجاء إدخال رقم هاتف صحيح</string>
+  <string name="phone_password_exists_header">Password exists</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
+  <string name="invalid_code_header">رمز غيرفعال</string>
+  <string name="incorrect_code_header">رمز غير صحيح.</string>
+  <string name="wrong_code_message">الرجاء ادخال رمز صحيح</string>
+  <string name="phone_pending_login_header">تم إرسال الرمز .</string>
+  <string name="phone_pending_login_message">لقد قمنا بإرسال رمز إليك عبر رسالة قصيرة . انقر فوق إعادة إرسال بعد 10 دقائق للحصول على رمز جديد.</string>
+  <string name="password_invalid_header">كلمة المرور غير صالحة</string>
+  <string name="password_invalid_message">Please verify your details and try again</string>
+  <string name="phone_budget_exhausted_header">طلبات كثيرة جداً</string>
+  <string name="phone_budget_exhausted_message">الرجاء المحاولة مرة أخرى لاحقا.</string>
+  <!--*********************************************** ERRORS ***********************************************-->
   <string name="permissions_denied_dialog_acknowledge">موافق</string>
   <string name="permissions_denied_dialog_settings">الإعدادات</string>
   <string name="camera_not_available">الكاميرا غير متاحة</string>
   <string name="camera_permissions_denied_title">الكاميرا غير متاحة</string>
   <string name="camera_permissions_denied_message">لالتقاط و إرسال الصور ، امنح الإذن بالوصول للكاميرا</string>
   <!-- Registration and Sign in -->
-  <string name="welcome__slogan">اتصالات حديثة تتسم بالخصوصية.</string>
   <string name="welcome__terms_of_service">عند المتابعة انت توافق على _شروط الاستخدام_.</string>
-  <string name="profile__photo__guidance">مرحبا %1$s  ، واير يبدو أفضل مع صورة.</string>
   <string name="profile__name__guidance__tooshort__title">حرفين على الأقل</string>
   <string name="profile__email__placeholder">البريد الإلكتروني</string>
   <string name="profile__password__placeholder">كلمة المرور</string>
@@ -36,73 +64,13 @@
   <string name="profile__email__verify__instructions">قمنا بإرسال بريد إلكتروني إلى [[%1$s]] .  اتبع الرابط لتأكيد عنوانك الإلكتروني.</string>
   <string name="profile__email__verify__didnt_get">لم تستلم الرسالة؟</string>
   <string name="profile__email__verify__resend">إعادة إرسال</string>
-  <string name="sign_up__account_creation_error__duplicate_email_header">البريد الإلكتروني مستخدم قبلا</string>
-  <string name="sign_up__account_creation_error__duplicate_email_message">This email address has already been registered</string>
   <string name="profile__guidance__invalid_email">The email address you entered is not valid. Please verify and try again</string>
-  <string name="profile__phone__guidance__first_time__title" tools:ignore="UnusedResources">_ قم بتأكيد_  رقمك</string>
-  <string name="profile__phone__guidance__first_time__explanation" tools:ignore="UnusedResources">إضافة الرقم اختياري ، لكنه يجعل من الأسهل إيجاد أشخاص تعرفهم. للتأكد  من الرقم سنقوم بإرسال رمز التأكيد عبر رسالة قصيرة SMS</string>
-  <string name="profile__phone__guidance__nocountrycode__title" tools:ignore="UnusedResources">أضف رمز الدولة</string>
-  <string name="profile__sms__guidance__title" tools:ignore="UnusedResources">أدخل رمز التأكيد المكون من 3 خانات و الذي تلقيته عبر رسالة قصيرة SMS</string>
-  <string name="profile__sms__guidance__resend__explanation" tools:ignore="UnusedResources">لم تصلك الرسالة؟</string>
-  <string name="profile__sms__guidance__resend__link" tools:ignore="UnusedResources">إعادة إرسال</string>
-  <string name="profile__sms__validate__button" tools:ignore="UnusedResources">تأكيد</string>
-  <!-- New Reg-->
-  <string name="new_reg__phone_signup__info">إنشاء حساب</string>
-  <string name="new_reg_phone__change_country">_تغيير الدولة _</string>
-  <string name="new_reg__add_email">إضافة عنوان البريد الإلكتروني وكلمة المرور</string>
-  <string name="new_reg__add_email_info">أنها تساعدك على تسجيل الدخول إذا  لم تتمكن من دخول هاتفك أو فقدت الهاتف الخاص بك.</string>
-  <string name="new_reg__otr__add_email_info">قم بإضافة عنوان البريد الإلكتروني الخاص بك وكلمة مرور.</string>
-  <string name="new_reg__otr__add_email_sub_info">هذا يمكنك من استخدام واير على أجهزة متعددة.</string>
-  <string name="new_reg_email_exists_header">@string/sign_up__account_creation_error__duplicate_email_header</string>
-  <string name="new_reg_email_exists_message">@string/sign_up__account_creation_error__duplicate_email_message</string>
-  <string name="new_reg_email_invalid_header">عنوان البريد إلكتروني غير فعال</string>
-  <string name="new_reg_email_invalid_message">الرجاء إدخال عنوان بريد إلكتروني صالح.</string>
-  <string name="new_reg_email_generic_error_header">حدث خطأ</string>
-  <string name="new_reg_email_generic_error_message">Please try to register again</string>
-  <string name="new_reg_email_register_generic_error_header">معلومات غير صحيحة</string>
-  <string name="new_reg_email_register_generic_error_message">الرجاء إدخال اسمك الكامل وعنوان بريد إلكتروني صالح وكلمة مرور.</string>
-  <string name="new_reg_email_invalid_login_credentials_header">معلومات غير صحيحة</string>
-  <string name="new_reg_email_invalid_login_credentials_message">Please verify your details and try again</string>
-  <string name="new_reg_phone_exists_header">رقم الهاتف مستعمل من قبل</string>
-  <string name="new_reg_phone_exists_message">The phone number you provided has already been registered. Please try again</string>
-  <string name="new_reg_phone_invalid_format_header">رقم الهاتف غير صحيح</string>
-  <string name="new_reg_phone_invalid_format_message">الرجاء إدخال رقم هاتف صحيح</string>
-  <string name="new_reg_phone_invalid_registration_code_header">رمز غيرفعال</string>
-  <string name="new_reg_phone_invalid_registration_code_message">الرجاء ادخال رمز صحيح</string>
-  <string name="new_reg_phone_invalid_add_code_header">رمز غيرفعال</string>
-  <string name="new_reg_phone_invalid_add_code_message">الرجاء ادخال رمز صحيح</string>
-  <string name="new_reg_phone_invalid_login_code_header">رمز غير صحيح.</string>
-  <string name="new_reg_phone_invalid_login_code_message">الرجاء ادخال رمز صحيح</string>
-  <string name="new_reg_phone_pending_login_header">تم إرسال الرمز .</string>
-  <string name="new_reg_phone_pending_login_message">لقد قمنا بإرسال رمز إليك عبر رسالة قصيرة . انقر فوق إعادة إرسال بعد 10 دقائق للحصول على رمز جديد.</string>
-  <string name="new_reg_phone_add_password_header">كلمة المرور غير صالحة</string>
-  <string name="new_reg_phone_add_password_message">Please verify your details and try again</string>
-  <string name="new_reg_phone_generic_error_header">حدث خطأ</string>
-  <string name="new_reg_phone_generic_error_message">Please try to register again</string>
-  <string name="new_sign_in_generic_error_header">حدث خطأ</string>
-  <string name="new_sign_in_generic_error_message">Please try to login again</string>
-  <string name="profile_generic_error_header">حدث خطأ</string>
-  <string name="profile_generic_error_message">Please try again</string>
-  <string name="profile_phone_generic_error_header">رقم الهاتف غير صحيح</string>
-  <string name="profile_phone_generic_error_message">الرجاء إدخال رقم هاتف صحيح</string>
-  <string name="new_reg_phone_too_man_attempts_header">محاولات كثيرة جداً</string>
-  <string name="new_reg_phone_too_man_attempts_message">Please try to log in later</string>
-  <string name="new_reg_server_connectivity_error_header">حدث خطأ</string>
-  <string name="new_reg_server_connectivity_error_message">Please check your Internet connection and try again</string>
-  <string name="new_reg_internet_connectivity_error_header">لا يوجد اتصال بالإنترنت</string>
-  <string name="new_reg_internet_connectivity_error_message">Please check your Internet connection and try again</string>
   <string name="new_reg__code_resent">تم إرسال رمز جديد إليك عبر رسالة قصيرة SMS</string>
+  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
   <string name="new_reg__code_resent__call">تأهب للمكالمة</string>
-  <string name="new_reg__invalid_code__auto_verification__manual">حدث خطأ . n\ الرجاء التأكد من أن رقم الهاتف والرمز صحيحان.</string>
   <string name="new_reg__default_country"> </string>
   <!-- consider updating this for every new language -->
-  <string name="new_reg_phone_budget_exhausted_title">طلبات كثيرة جداً</string>
-  <string name="new_reg_phone_budget_exhausted_message">الرجاء المحاولة مرة أخرى لاحقا.</string>
   <string name="your_phone_number">Your phone number</string>
-  <string name="new_reg_phone_password_exists_header">Password exists</string>
-  <string name="new_reg_phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
-  <string name="new_reg_phone__title__variant_1">اتصل، أرسل رسائل، شارك. بشكل فردي أو مع مجموعة.</string>
-  <string name="new_reg_phone__title__variant_2">مكالمات خاصة وآمنة، رسائل و مشاركة .</string>
   <!-- Receive email/sms invitation -->
   <string name="invitation_email__normal_phone_signup_button">قم بالتسجيل باستخدام رقم الهاتف</string>
   <string name="invitation_email__normal_email_signup_button">قم بالتسجيل باستخدام بريد إلكتروني آخر</string>
@@ -123,7 +91,7 @@
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">الأشخاص المفضلين</string>
   <string name="people_picker__address_book_matches_title">الاتصال</string>
-  <string name="people_picker__search_result_conversations_header_title">المجموعات</string>
+  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
   <string name="people_picker__search_result_team_conversations_header_title">مجموعات %1$s</string>
   <string name="people_picker__search_result_connections_header_title">جهات الاتصال</string>
   <string name="people_picker__search_result_others_header_title">الاتصال</string>
@@ -271,14 +239,14 @@
   <string name="content__location__no_map_placeholder">الموقع سوف يظهر على الخريطة عندما تتصل بالإنترنت مرة أخرى</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">إعادة التّسمية</string>
-  <string name="conversation__action__delete">حذف</string>
+  <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">حفظ في الأرشيف</string>
   <string name="conversation__action__unarchive">إلغاء الأرشفة</string>
   <string name="conversation__action__add_people">إضافة أشخاص</string>
   <string name="conversation__action__create_group">إنشاء مجموعة</string>
   <string name="conversation__action__silence">كتم الصوت</string>
   <string name="conversation__action__unsilence">إلغاء كتم الصوت</string>
-  <string name="conversation__action__leave">غادر</string>
+  <string name="conversation__action__leave">Leave group&#8230;</string>
   <string name="conversation__action__remove">إزالة</string>
   <string name="conversation__action__call">اتصال</string>
   <string name="conversation__action__picture">الصورة</string>
@@ -415,8 +383,7 @@
   <string name="confirmation_menu__block_header">حظر 
 </string>
   <string name="confirmation_menu__block_text_with_name">%1$s لن يتمكن من التواصل معك أو إضافتك إلى محادثات جماعية.</string>
-  <string name="confirmation_menu__confirm_block">حظر 
-</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">تم حظر</string>
   <!-- Delete conversation -->
@@ -464,6 +431,7 @@
   <string name="pref_developer_screen_title">إعدادات المطور</string>
   <string name="pref_dev_avs_screen_title">إعدادات AVS</string>
   <string name="pref_profile_screen_title">الملف الشخصي</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">الحساب</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -473,6 +441,7 @@
   <string name="pref_account_actions_category_title">الإجراءات</string>
   <string name="pref_account_personal_category_title">شخصي</string>
   <string name="pref_account_appearance_category_title">المظهر</string>
+  <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">سيتمكن الناس من ايجادك من خلال هذه التفاصيل.</string>
   <string name="pref_account_personal_category_summary">المعلومات غير مرئية لأي شخص آخر</string>
   <string name="pref_account_username_title">مُعرّف</string>
@@ -1232,10 +1201,10 @@
   <string name="teams_set_name_title">اسمُك</string>
   <string name="teams_set_name_hint">FULL NAME</string>
   <string name="app_entry_slogan">Secure messaging for everyone.</string>
-  <string name="app_entry_create_account">إنشاء حساب</string>
-  <string name="app_entry_create_account_sub">للاستخدام الشخصي</string>
-  <string name="app_entry_create_team">إنشاء فريق</string>
-  <string name="app_entry_create_team_sub">للعمل</string>
+  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account_sub">create an account</string>
+  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">لديك حساب بالفعل ؟</string>
   <string name="app_entry_login">تسجيل الدخول</string>
   <string name="app_entry_tc_dialog_title">Terms of Service</string>
@@ -1297,7 +1266,7 @@
   <string name="create_link_button">Create Link</string>
   <string name="copy_link_button">Copy Link</string>
   <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link</string>
+  <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link Copied!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1308,4 +1277,33 @@
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
+  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="add_email_address">Add your email address</string>
+  <string name="set_a_password">Set a password</string>
+  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="new_device_password">جهاز جديد</string>
+  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="second_launch__header">قمت بإستخدام Wire على هذا الجهاز من قبل.</string>
+  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="back_up_progress">BACKING UP&#8230;</string>
+  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="pref_account_backup_warning_title">Set an email and password.</string>
+  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="pref_account_backup_warning_ok">موافق</string>
+  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="backup_button">Back Up Now</string>
+  <string name="backup_import_error_unknown_title">حدث خطأ</string>
+  <string name="backup_import_error_unknown">Your history could not be restored.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
 </resources>
