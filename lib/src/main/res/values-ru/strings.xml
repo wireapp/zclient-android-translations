@@ -91,7 +91,7 @@
   <string name="choose_conversation">ПОИСК</string>
   <string name="people_picker__top_users_header_title">Топ-контакты</string>
   <string name="people_picker__address_book_matches_title">Добавить в контакты</string>
-  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
+  <string name="people_picker__search_result_conversations_header_title">Группы</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s групп</string>
   <string name="people_picker__search_result_connections_header_title">Контакты</string>
   <string name="people_picker__search_result_others_header_title">Добавить в контакты</string>
@@ -244,6 +244,12 @@
   <string name="conversation__action__remove">Удалить</string>
   <string name="conversation__action__call">Позвонить</string>
   <string name="conversation__action__picture">Изображение</string>
+  <string name="conversation__action__block">Блокировка&#8230;</string>
+  <string name="conversation__action__unblock">Разблокировать</string>
+  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
+  <string name="conversation__action__leave_only">\tLeave group</string>
+  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
+  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ОТКРЫТЬ</string>
   <string name="popover__action__remove">УДАЛИТЬ</string>
@@ -334,7 +340,7 @@
   <string name="conversation_degraded_confirmation__header__you">Вы</string>
   <!-- Profile and Participants -->
   <plurals name="participants__sub_header_xx_people">
-    <item quantity="one">%1$d  участник</item>
+    <item quantity="one">%1$d  УЧАСТНИК</item>
     <item quantity="few">%1$d  УЧАСТНИКА</item>
     <item quantity="many">%1$d УЧАСТНИКОВ</item>
     <item quantity="other">%1$d  УЧАСТНИКОВ</item>
@@ -364,7 +370,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Заблокировать?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s больше не сможет связаться с вами или добавить вас в групповые разговоры.</string>
-  <string name="confirmation_menu__confirm_block">Блокировка&#8230;</string>
+  <string name="confirmation_menu__confirm_block">Заблокировать</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Заблокирован</string>
   <!-- Delete conversation -->
@@ -467,7 +473,7 @@
   <string name="pref_options_ringtones_ping_title">Пинг</string>
   <string name="pref_options_ringtones_default_summary">Стандартный рингтон Wire</string>
   <string name="pref_options_ringtones_silent">Бесшумный режим</string>
-  <string name="pref_options_image_download_title">Скачать картинки</string>
+  <string name="pref_options_image_download_title">Загрузка изображений</string>
   <string name="pref_options_image_download_always">Всегда</string>
   <string name="pref_options_image_download_wifi">Только когда подключен к Wi-Fi</string>
   <string name="pref_options_media_category_title">Медиа</string>
@@ -591,7 +597,7 @@
   <plurals name="calling__voice_channel_full__message">
     <!-- should not happen though -->
     <item quantity="one">Здесь осталось место только для %1$d участника.</item>
-    <item quantity="few">Здесь осталось место только для %1$d людей.</item>
+    <item quantity="few">Здесь осталось место только для %1$d участников.</item>
     <item quantity="many">Здесь осталось место только для %1$d участников.</item>
     <item quantity="other">Здесь осталось место только для %1$d участников.</item>
   </plurals>
@@ -599,30 +605,27 @@
   <plurals name="calling__conversation_full__message">
     <!-- should not happen though -->
     <item quantity="one">Звонки возможны в разговорах до %1$d человек.</item>
-    <item quantity="few">Звонки работают в разговорах до %1$d участников.</item>
+    <item quantity="few">Звонки возможны разговорах до %1$d участников.</item>
     <item quantity="many">Звонки возможны в разговорах до %1$d участников.</item>
-    <item quantity="other">Звонки работают в разговорах до %1$d человек.</item>
+    <item quantity="other">Звонки возможны в разговорах до %1$d участников.</item>
   </plurals>
   <!-- Lockscreen and notifications -->
   <string name="lockscreen__talk">ЗВОНИТ</string>
   <plurals name="notification__new_messages">
     <item quantity="one">Сообщение от %2$s</item>
-    <item quantity="few">Сообщение от %2$s</item>
+    <item quantity="few">%1$d сообщений от %2$s</item>
     <item quantity="many">%1$d сообщений от %2$s</item>
     <item quantity="other">%1$d сообщений от %2$s</item>
   </plurals>
   <plurals name="notification__new_messages_groups">
     <item quantity="one">Сообщение в %2$s</item>
-    <item quantity="few">Сообщение в %2$s</item>
+    <item quantity="few">%1$d сообщений в %2$s</item>
     <item quantity="many">%1$d сообщений в %2$s</item>
     <item quantity="other">%1$d сообщений в %2$s</item>
   </plurals>
   <plurals name="notification__new_messages__multiple">
-    <item quantity="one">Сообщение в %2$s разговорах
-Plural:
-%1$d сообщений в %2$s разговорах
-</item>
-    <item quantity="few">Сообщение в %2$s разговорах</item>
+    <item quantity="one">Сообщение в %2$s разговорах</item>
+    <item quantity="few">%1$d сообщений в %2$s разговорах</item>
     <item quantity="many">%1$d сообщений в %2$s разговорах</item>
     <item quantity="other">%1$d сообщений в %2$s разговорах</item>
   </plurals>
@@ -711,7 +714,7 @@ Plural:
   <string name="sharing__files__cancel">Отменить</string>
   <plurals name="sharing__files__message">
     <item quantity="one">Вы собираетесь поделиться файлом %1$d с %2$s.</item>
-    <item quantity="few">Вы собираетесь поделиться файлом %1$d с %2$s.</item>
+    <item quantity="few">Вы собираетесь поделиться файлами %1$d с %2$s.</item>
     <item quantity="many">Вы собираетесь поделиться файлами %1$d с %2$s.</item>
     <item quantity="other">Вы собираетесь поделиться файлами %1$d с %2$s.</item>
   </plurals>
@@ -795,7 +798,7 @@ Plural:
   <string name="i_have_an_account">ВОЙТИ</string>
   <plurals name="welcome__resend__timer_label">
     <item quantity="one">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНДУ</item>
-    <item quantity="few">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНДУ</item>
+    <item quantity="few">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНДЫ</item>
     <item quantity="many">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНД</item>
     <item quantity="other">ВЫ МОЖЕТЕ ЗАПРОСИТЬ НОВЫЙ КОД ЧЕРЕЗ %1$d СЕКУНД</item>
   </plurals>
@@ -988,10 +991,10 @@ Plural:
   <string name="message_bottom_menu_action_save_ok">Изображение сохранено</string>
   <string name="message_footer__tap_to_like">Нажмите, чтобы лайкнуть</string>
   <plurals name="message_footer__number_of_likes">
-    <item quantity="one">%1$d человек</item>
-    <item quantity="few">%1$d человека</item>
-    <item quantity="many">%1$d людей</item>
-    <item quantity="other">%1$d человек</item>
+    <item quantity="one">%1$d участник</item>
+    <item quantity="few">%1$d участника</item>
+    <item quantity="many">%1$d участников</item>
+    <item quantity="other">%1$d участников</item>
   </plurals>
   <string name="message_footer__status__sending">Отправка...</string>
   <string name="message_footer__status__sent">%1$s \u30FB Отправлено</string>
@@ -1147,7 +1150,7 @@ Plural:
   <string name="app_entry_dialog_cancel">ОТМЕНА</string>
   <string name="app_entry_dialog_view">ПРОСМОТР</string>
   <string name="app_entry_email_sent">Email отправлен</string>
-  <string name="teams_set_username_subtitle">Имя пользователя помогает другим пользователям найти вас.</string>
+  <string name="teams_set_username_subtitle">Имена пользователей помогают другим пользователям найти вас.</string>
   <string name="pick_user_teams_invite">Пригласите людей в команду</string>
   <string name="teams_invitations_skip">ПРОПУСТИТЬ</string>
   <string name="teams_invitations_done">ГОТОВО</string>
@@ -1209,24 +1212,24 @@ Plural:
   <string name="guest_time_left_hours">Осталось %1$s час</string>
   <string name="guest_time_left_hours_minutes">Осталось %1$s.%2$s час</string>
   <string name="guest_time_left_minutes">Осталось менее %1$s мин</string>
-  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="backup_description">Создайте резервную копию, чтобы сохранить историю разговоров. Это пригодится для восстановления истории в случае потери или замены устройства.
+        \nРезервная копия не шифруется, поэтому храните ее в надежном месте.</string>
   <string name="pref_account_backup_title">Резервная копия разговоров</string>
   <string name="add_email_address">Добавить свой адрес электронной почты</string>
   <string name="set_a_password">Установить пароль</string>
   <string name="email_and_password_explanation">Вам нужен email и пароль для использования Wire на нескольких устройствах.</string>
   <string name="new_device_password">Новое устройство</string>
-  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
-  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="new_device_password_explanation">Введите пароль от вашей учетной записи Wire.\n%1$s</string>
+  <string name="restore_from_backup_button">ВОССТАНОВИТЬ ИЗ РЕЗЕРВНОЙ КОПИИ</string>
   <string name="second_launch__header">Вы уже использовали Wire на этом устройстве.</string>
   <string name="second_launch__sub_header">Если это было давно, некоторые сообщения могут не отображаться.</string>
   <string name="restore_override_alert_title">Восстановить историю</string>
   <string name="restore_override_alert_text">Содержимое резервной копии заменит историю разговоров на этом устройстве.
 Восстановить историю можно только из резервной копии для одной и той же платформы.</string>
   <string name="restore_override_alert_ok">Выберите резервную копию</string>
-  <string name="back_up_progress">BACKING UP&#8230;</string>
-  <string name="back_up_progress_complete">COMPLETE</string>
-  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="back_up_progress">РЕЗЕРВНОЕ КОПИРОВАНИЕ&#8230;</string>
+  <string name="back_up_progress_complete">ЗАВЕРШЕНО</string>
+  <string name="restore_progress">ВОССТАНОВЛЕНИЕ&#8230;</string>
   <string name="pref_account_backup_warning_title">Настройте email и пароль.</string>
   <string name="pref_account_backup_warning_message">Для создания резервной копии истории разговоров вам потребуется email и пароль. Вы можете сделать это в настройках учетной записи.</string>
   <string name="pref_account_backup_warning_ok">OK</string>

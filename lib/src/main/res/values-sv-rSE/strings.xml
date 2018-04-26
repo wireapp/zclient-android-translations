@@ -27,7 +27,7 @@
   <string name="internet_connectivity_error_message">Kontrollera din internetanslutning och försök igen</string>
   <string name="too_many_attempts_header">För många försök</string>
   <string name="login_later_message">Försök att logga in senare</string>
-  <string name="register_again_message">Försök att registrera igen</string>
+  <string name="register_again_message">Försök att registrera dig igen</string>
   <string name="email_exists_header">E-postadress redan tagen</string>
   <string name="email_exists_message">Denna e-postadress har redan registrerats</string>
   <string name="email_invalid_header">Ogiltig e-postadress</string>
@@ -44,7 +44,7 @@
   <string name="incorrect_code_header">Fel kod</string>
   <string name="wrong_code_message">Ange en giltig kod</string>
   <string name="phone_pending_login_header">Koden redan skickad</string>
-  <string name="phone_pending_login_message">Vi har redan skickat dig en kod via SMS. Tryck på Skicka igen efter 10 minuter för och få en ny.</string>
+  <string name="phone_pending_login_message">Vi har redan skickat en kod till dig via SMS. Tryck på Skicka igen efter 10 minuter för att få en ny.</string>
   <string name="password_invalid_header">Felaktigt lösenord</string>
   <string name="password_invalid_message">Kontrollera dina detaljer och försök igen</string>
   <string name="phone_budget_exhausted_header">För många förfrågningar</string>
@@ -66,7 +66,7 @@
   <string name="profile__email__verify__resend">Skicka igen</string>
   <string name="profile__guidance__invalid_email">Den e-postadress du angav är inte giltigt. Verifiera och försök igen</string>
   <string name="new_reg__code_resent">En ny kod har skickats till dig via SMS</string>
-  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
+  <string name="new_reg__email_code_resent">En ny kod har skickats till dig via e-post</string>
   <string name="new_reg__code_resent__call">Vänta på ett samtal</string>
   <string name="new_reg__default_country">se</string>
   <!-- consider updating this for every new language -->
@@ -91,7 +91,7 @@
   <string name="choose_conversation">SÖK</string>
   <string name="people_picker__top_users_header_title">Topp användarna</string>
   <string name="people_picker__address_book_matches_title">Anslut</string>
-  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
+  <string name="people_picker__search_result_conversations_header_title">Grupper</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s grupper</string>
   <string name="people_picker__search_result_connections_header_title">Kontakter</string>
   <string name="people_picker__search_result_others_header_title">Anslut</string>
@@ -119,7 +119,7 @@
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Tjänster</string>
   <string name="integrations_picker__add">Lägg till tjänst</string>
-  <string name="integrations_conv_bot">Chatt-robot</string>
+  <string name="integrations_conv_bot">Bot</string>
   <string name="integrations_chathead__section_title">Tjänster</string>
   <string name="integrations_errors_add_service">Att lägga till en tjänst är inte möjligt</string>
   <string name="integrations_errors_service_unavailable">Tjänsten är inte tillgänglig för tillfället</string>
@@ -171,9 +171,9 @@
   <string name="content__system__other_added_participant">[[%1$s]] la till %2$s</string>
   <string name="content__system__other_added_you">[[%1$s]] har lagt till dig</string>
   <string name="content__system__you_added_participant">[[Du]] la till %2$s</string>
-  <string name="content__system__other_joined">[[%1$s]] joined</string>
+  <string name="content__system__other_joined">[[%1$s]] gick med</string>
   <string name="content__system__other_left">[[%1$s]] lämna</string>
-  <string name="content__system__you_joined">[[You]] joined</string>
+  <string name="content__system__you_joined">[[You]] gick med</string>
   <string name="content__system__you_left">[[Du]] lämna</string>
   <string name="content__system__other_removed_other">[[%1$s]] tog bort %2$s</string>
   <string name="content__system__other_removed_you">[[%1$s]] tog bort dig</string>
@@ -229,17 +229,23 @@
   <string name="content__location__no_map_placeholder">PLATSEN VISAS PÅ KARTAN NÄR DU ÄR ONLINE IGEN.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Byt namn</string>
-  <string name="conversation__action__delete">Delete content&#8230;</string>
+  <string name="conversation__action__delete">Ta bort innehåll&#8230;</string>
   <string name="conversation__action__archive">Arkiv</string>
   <string name="conversation__action__unarchive">Hämta från Arkiv</string>
   <string name="conversation__action__add_people">LÄGG TILL PERSONER</string>
   <string name="conversation__action__create_group">SKAPA GRUPP</string>
   <string name="conversation__action__silence">Tysta</string>
   <string name="conversation__action__unsilence">Slå på ljud</string>
-  <string name="conversation__action__leave">Leave group&#8230;</string>
+  <string name="conversation__action__leave">Lämna gruppen&#8230;</string>
   <string name="conversation__action__remove">Ta bort</string>
   <string name="conversation__action__call">Ring</string>
-  <string name="conversation__action__picture">Bild</string>
+  <string name="conversation__action__picture">Foto</string>
+  <string name="conversation__action__block">Blockera&#8230;</string>
+  <string name="conversation__action__unblock">Avblockera</string>
+  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
+  <string name="conversation__action__leave_only">\tLeave group</string>
+  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
+  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ÖPPNA</string>
   <string name="popover__action__remove">RADERA</string>
@@ -287,9 +293,9 @@
     <item quantity="other">%1$d gemensamma kontakter</item>
   </plurals>
   <string name="connect_request__sub_header__pending_label">Väntande</string>
-  <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
+  <string name="connect_request__cancel_request__label">AVBRYT BEGÄRAN OM ANSLUTNING</string>
   <string name="connect_request__unblock__button__text">Avblockera</string>
-  <string name="send_connect_request__connect_button__text">CONNECT</string>
+  <string name="send_connect_request__connect_button__text">ANSLUT</string>
   <plurals name="connect_inbox__link__name">
     <item quantity="one">1 person väntar</item>
     <item quantity="other">%1$s flera personer väntar</item>
@@ -348,7 +354,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blockera?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s kommer inte att kunna kontakta dig eller lägga till dig i gruppkonversationer.</string>
-  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
+  <string name="confirmation_menu__confirm_block">Blockera</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Blockerad</string>
   <!-- Delete conversation -->
@@ -396,7 +402,7 @@
   <string name="pref_developer_screen_title">Utvecklarinställnigar</string>
   <string name="pref_dev_avs_screen_title">AVS inställningar</string>
   <string name="pref_profile_screen_title">Profil</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
+  <string name="pref_backup_screen_title">Säkerhetskopiera konversationer</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Konto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -406,7 +412,7 @@
   <string name="pref_account_actions_category_title">Åtgärder</string>
   <string name="pref_account_personal_category_title">Personligt</string>
   <string name="pref_account_appearance_category_title">Utseende</string>
-  <string name="pref_account_conversations_category_title">History</string>
+  <string name="pref_account_conversations_category_title">Historik</string>
   <string name="pref_account_details_category_summary">Andra kan hitta dig med dessa uppgifter.</string>
   <string name="pref_account_personal_category_summary">Informationen är inte synlig för någon</string>
   <string name="pref_account_username_title">Användarnanm</string>
@@ -1068,16 +1074,16 @@
   <string name="teams_set_name_title">Ditt namn</string>
   <string name="teams_set_name_hint">FULLSTÄNDIGT NAMN</string>
   <string name="app_entry_slogan">Säker meddelandehantering för alla.</string>
-  <string name="app_entry_create_account">For personal use</string>
-  <string name="app_entry_create_account_sub">create an account</string>
-  <string name="app_entry_create_team">For organizations</string>
-  <string name="app_entry_create_team_sub">create a team</string>
+  <string name="app_entry_create_account">För personligt bruk</string>
+  <string name="app_entry_create_account_sub">skapa ett konto</string>
+  <string name="app_entry_create_team">För organisationer</string>
+  <string name="app_entry_create_team_sub">skapa ett team</string>
   <string name="app_entry_login_sub">Har du redan ett konto?</string>
   <string name="app_entry_login">Logga in</string>
   <string name="app_entry_tc_dialog_title">Användarvillkor</string>
   <string name="app_entry_tc_dialog_message">Du måste acceptera för att fortsätta</string>
   <string name="app_entry_notifications_dialog_title">Notiser</string>
-  <string name="app_entry_notifications_dialog_message">Meddelanden kan innehålla varningar, ljud och ikon emblem. Dessa kan konfigureras i inställningarmenyn.</string>
+  <string name="app_entry_notifications_dialog_message">Meddelanden kan innehålla varningar, ljud och ikon emblem. Dessa kan konfigureras i Inställningar.</string>
   <string name="app_entry_dialog_accept">ACCEPTERA</string>
   <string name="app_entry_dialog_cancel">AVBRYT</string>
   <string name="app_entry_dialog_view">VISA</string>
@@ -1115,62 +1121,62 @@
   <string name="new_conv_no_results">INGA RESULTAT</string>
   <string name="new_conv_no_contacts">INGA KONTAKTER</string>
   <string name="create_group_search">SÖK EFTER NAMN</string>
-  <string name="participants_divider_services">SERVICES (%1$s)</string>
-  <string name="participants_divider_people">PEOPLE (%1$s)</string>
-  <string name="group_name_hint">GROUP NAME</string>
+  <string name="participants_divider_services">TJÄNSTER (%1$s)</string>
+  <string name="participants_divider_people">PERSONER (%1$s)</string>
+  <string name="group_name_hint">GRUPPENS NAMN</string>
   <string name="allow_guests_toggle_text">Tillåt gäster</string>
   <string name="allow_guests_toggle_info_text">Öppna den här konversationen till personer utanför ditt team. Du kan alltid ändra det senare.</string>
   <string name="open_this_conversation_to_people_outside_your_team">Öppna den här konversationen till personer utanför ditt team.</string>
-  <string name="allow_guests">Allow Guests</string>
-  <string name="guest_options_title">Guest Options</string>
+  <string name="allow_guests">Tillåt Gäster</string>
+  <string name="guest_options_title">Gästalternativ</string>
   <string name="allow_guests_error_title">Något gick fel</string>
   <string name="allow_guests_error_body">Kunde inte tillåta gäster. Vänligen försök igen.</string>
-  <string name="allow_guests_warning_body">Current guests will be removed from the conversation. New guests will not be allowed.</string>
-  <string name="allow_guests_warning_confirm">Remove Guests</string>
-  <string name="guests_are_present">GUESTS ARE PRESENT</string>
-  <string name="participants_details_header_title">DETAILS</string>
-  <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
-  <string name="create_link_button">Create Link</string>
-  <string name="copy_link_button">Copy Link</string>
-  <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link&#8230;</string>
-  <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
-  <string name="link_copied_toast">Link Copied!</string>
+  <string name="allow_guests_warning_body">Nuvarande gäster kommer tas bort från konversationen. Nya gäster kommer inte att tillåtas.</string>
+  <string name="allow_guests_warning_confirm">Ta bort Gäster</string>
+  <string name="guests_are_present">GÄSTER ÄR NÄRVARANDE</string>
+  <string name="participants_details_header_title">DETALJER</string>
+  <string name="invitation_link_description">Alla med länken kan delta i konversationen, även om de inte har Wire</string>
+  <string name="create_link_button">Skapa länk</string>
+  <string name="copy_link_button">Kopiera Länk</string>
+  <string name="share_link_button">Dela länk</string>
+  <string name="revoke_link_button">Återkalla länk&#8230;</string>
+  <string name="invitation_link_title">BJUDA IN ANDRA MED EN LÄNK</string>
+  <string name="link_copied_toast">Länken Kopierades!</string>
   <string name="revoke_link_message">Nya gäster kommer inte ha möjlighet att ansluta med den här länken. Nuvarande gäster kommer fortsättningsvis ha åtkomst.</string>
-  <string name="revoke_link_confirm">Revoke Link</string>
+  <string name="revoke_link_confirm">Återkalla Länk</string>
   <string name="invite_button_description">Personer utanför ditt team kan ansluta till den här konversationen.</string>
   <string name="invite_people">Bjud in personer</string>
   <string name="guest_room_name">Gästrum</string>
-  <string name="guest_time_left_hours">%1$sh left</string>
-  <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
-  <string name="guest_time_left_minutes">Less than %1$sm left</string>
-  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-  <string name="pref_account_backup_title">Back up conversations</string>
-  <string name="add_email_address">Add your email address</string>
-  <string name="set_a_password">Set a password</string>
-  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="guest_time_left_hours">%1$sh kvar</string>
+  <string name="guest_time_left_hours_minutes">%1$s.%2$sh kvar</string>
+  <string name="guest_time_left_minutes">Mindre än %1$sm kvar</string>
+  <string name="backup_description">Skapa en säkerhetskopia för att bevara din konversationshistorik. Du kan använda detta för att återställa historiken om du tappar bort enheten eller byter till en ny.
+         \nBackup-filen är inte skyddad av Wires end-to-end-kryptering, så förvara det på en säker plats.</string>
+  <string name="pref_account_backup_title">Säkerhetskopiera konversationer</string>
+  <string name="add_email_address">Lägg till din e-postadress</string>
+  <string name="set_a_password">Ange ett lösenord</string>
+  <string name="email_and_password_explanation">Du behöver en e-postadress och ett lösenord för att använda Wire på flera enheter.</string>
   <string name="new_device_password">Ny enhet</string>
-  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
-  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
-  <string name="second_launch__header">Du har använtWire på den här enheten innan.</string>
-  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
-  <string name="restore_override_alert_title">Restore history</string>
-  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
-  <string name="restore_override_alert_ok">Choose Backup File</string>
-  <string name="back_up_progress">BACKING UP&#8230;</string>
-  <string name="back_up_progress_complete">COMPLETE</string>
-  <string name="restore_progress">RESTORING&#8230;</string>
-  <string name="pref_account_backup_warning_title">Set an email and password.</string>
-  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+  <string name="new_device_password_explanation">Ange lösenordet för ditt Wire konto.\n%1$s</string>
+  <string name="restore_from_backup_button">ÅTERSTÄLL FRÅN SÄKERHETSKOPIA</string>
+  <string name="second_launch__header">Du har använt Wire på den här enheten innan.</string>
+  <string name="second_launch__sub_header">Om det var länge sedan, visas kanske inte en del meddelanden här.</string>
+  <string name="restore_override_alert_title">Återställ historik</string>
+  <string name="restore_override_alert_text">Det säkerhetskopierade innehållet kommer att ersätta konversationerna på den här enheten. Du kan bara återställa historik från en säkerhetskopia skapad på samma plattform.</string>
+  <string name="restore_override_alert_ok">Välj säkerhetskopian</string>
+  <string name="back_up_progress">SÄKERHETSKOPIERAR&#8230;</string>
+  <string name="back_up_progress_complete">FÄRDIG</string>
+  <string name="restore_progress">ÅTERSTÄLLER&#8230;</string>
+  <string name="pref_account_backup_warning_title">Ange en e-postadress och ett lösenord.</string>
+  <string name="pref_account_backup_warning_message">Du behöver en e-postadress och ett lösenord för att kunna säkerhetskopiera din konversationshistorik. Du kan göra det på kontosidan i Inställningar.</string>
   <string name="pref_account_backup_warning_ok">OK</string>
-  <string name="export_generic_error_title">The file could not be saved</string>
-  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
-  <string name="backup_button">Back Up Now</string>
+  <string name="export_generic_error_title">Filen kunde inte sparas</string>
+  <string name="export_generic_error_text">Du kanske inte har tillräckligt utrymme eller behörighet att spara den där.</string>
+  <string name="backup_button">Säkerhetskopiera nu</string>
   <string name="backup_import_error_unknown_title">Något gick fel</string>
-  <string name="backup_import_error_unknown">Your history could not be restored.</string>
-  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
-  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
-  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
-  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
+  <string name="backup_import_error_unknown">Din historik kunde inte återställas.</string>
+  <string name="backup_import_error_unsupported_version_title">Inkompatibel säkerhetskopia</string>
+  <string name="backup_import_error_unsupported_version">Den här säkerhetskopian skapades av en nyare eller inaktuell version av Wire och kan inte återställas här.</string>
+  <string name="backup_import_error_wrong_account_title">Fel säkerhetskopia</string>
+  <string name="backup_import_error_wrong_account">Du kan inte återställa historik från ett annorlunda konto.</string>
 </resources>

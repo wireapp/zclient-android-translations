@@ -66,7 +66,7 @@
   <string name="profile__email__verify__resend">Saada uuesti</string>
   <string name="profile__guidance__invalid_email">Valesti sisestatud e-posti aadress. Kontrolli ja proovi uuesti</string>
   <string name="new_reg__code_resent">Saatsime SMS-iga uue koodi</string>
-  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
+  <string name="new_reg__email_code_resent">Saatsime sulle e-kirja teel uue koodi</string>
   <string name="new_reg__code_resent__call">Kohe teeme sulle kõne</string>
   <string name="new_reg__default_country">ee</string>
   <!-- consider updating this for every new language -->
@@ -91,7 +91,7 @@
   <string name="choose_conversation">OTSING</string>
   <string name="people_picker__top_users_header_title">Lemmikinimesed</string>
   <string name="people_picker__address_book_matches_title">Ühendu</string>
-  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
+  <string name="people_picker__search_result_conversations_header_title">Grupid</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s gruppi</string>
   <string name="people_picker__search_result_connections_header_title">Kontaktid</string>
   <string name="people_picker__search_result_others_header_title">Ühendu</string>
@@ -240,6 +240,12 @@
   <string name="conversation__action__remove">Eemalda</string>
   <string name="conversation__action__call">Kõne</string>
   <string name="conversation__action__picture">Profiilipilt</string>
+  <string name="conversation__action__block">Blokeeri&#8230;</string>
+  <string name="conversation__action__unblock">Tühista blokeering</string>
+  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
+  <string name="conversation__action__leave_only">\tLeave group</string>
+  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
+  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">AVA</string>
   <string name="popover__action__remove">EEMALDA</string>
@@ -348,7 +354,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blokeeri?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s ei saa sulle sõnumeid saata ega sind grupivestlustesse lisada.</string>
-  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
+  <string name="confirmation_menu__confirm_block">Blokeeri</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">BLOKEERITUD</string>
   <!-- Delete conversation -->
@@ -396,7 +402,7 @@
   <string name="pref_developer_screen_title">Arendajate seaded</string>
   <string name="pref_dev_avs_screen_title">AVS seaded</string>
   <string name="pref_profile_screen_title">Profiil</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
+  <string name="pref_backup_screen_title">Varunda vestlused</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Konto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -406,7 +412,7 @@
   <string name="pref_account_actions_category_title">Tegevused</string>
   <string name="pref_account_personal_category_title">Isiklik</string>
   <string name="pref_account_appearance_category_title">Välimus</string>
-  <string name="pref_account_conversations_category_title">History</string>
+  <string name="pref_account_conversations_category_title">Ajalugu</string>
   <string name="pref_account_details_category_summary">Inimesed leiavad sind nende andmete põhjal.</string>
   <string name="pref_account_personal_category_summary">See info pole teistele näha</string>
   <string name="pref_account_username_title">Kasutajanimi</string>
@@ -1133,7 +1139,7 @@
   <string name="create_link_button">Loo link</string>
   <string name="copy_link_button">Kopeeri link</string>
   <string name="share_link_button">Jaga linki</string>
-  <string name="revoke_link_button">Revoke Link&#8230;</string>
+  <string name="revoke_link_button">Tühista link&#8230;</string>
   <string name="invitation_link_title">KUTSU TEISI LINGI ABIL</string>
   <string name="link_copied_toast">Link kopeeritud!</string>
   <string name="revoke_link_message">Uued külalised ei saa selle lingi abil liituda. Praegustel külalistel on jätkuvalt ligipääs.</string>
@@ -1144,33 +1150,33 @@
   <string name="guest_time_left_hours">%1$sh jäänud</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh jäänud</string>
   <string name="guest_time_left_minutes">Vähem kui %1$sm jäänud</string>
-  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-  <string name="pref_account_backup_title">Back up conversations</string>
-  <string name="add_email_address">Add your email address</string>
-  <string name="set_a_password">Set a password</string>
-  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="backup_description">Loo varundus, et säilitada oma vestlusajalugu. Sa saad seda kasutada, et taastada ajalugu, kui kaotad oma seadme või hakkad kasutama uut.
+        \nVarundusfail ei ole kaitstud Wire\'i otsast-otsani krüpteeringuga, seega hoia seda turvalises kohas.</string>
+  <string name="pref_account_backup_title">Varunda vestlused</string>
+  <string name="add_email_address">Lisa oma e-posti aadress</string>
+  <string name="set_a_password">Määra parool</string>
+  <string name="email_and_password_explanation">Sa vajad e-posti aadressit ja parooli, et kasutada Wire\'i mitmes seadmes.</string>
   <string name="new_device_password">Wire uuel seadmel</string>
-  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
-  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="new_device_password_explanation">Sisesta oma Wire\'i konto parool.\n%1$s</string>
+  <string name="restore_from_backup_button">TAASTA VARUNDUSEST</string>
   <string name="second_launch__header">Sa oled sellel seadmel enne Wire’t kasutanud.</string>
-  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
-  <string name="restore_override_alert_title">Restore history</string>
-  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
-  <string name="restore_override_alert_ok">Choose Backup File</string>
-  <string name="back_up_progress">BACKING UP&#8230;</string>
-  <string name="back_up_progress_complete">COMPLETE</string>
-  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="second_launch__sub_header">Kui see oli kaua aega tagasi, ei pruugi mõned sõnumid siia ilmuda.</string>
+  <string name="restore_override_alert_title">Taasta ajalugu</string>
+  <string name="restore_override_alert_text">Varunduse sisu asendab selles seadmes vestlusajaloo. Sa saad taastada ajalugu ainult sama platvormi varundusest.</string>
+  <string name="restore_override_alert_ok">Vali varundusfail</string>
+  <string name="back_up_progress">VARUNDAMINE&#8230;</string>
+  <string name="back_up_progress_complete">VALMIS</string>
+  <string name="restore_progress">TAASTAMINE&#8230;</string>
   <string name="pref_account_backup_warning_title">Määra e-posti aadress ja parool.</string>
   <string name="pref_account_backup_warning_message">Vajad e-posti aadressi ja parooli, et oma vestluste ajalugu varundada. Saad seda teha konto seadete lehel.</string>
   <string name="pref_account_backup_warning_ok">OK</string>
-  <string name="export_generic_error_title">The file could not be saved</string>
-  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="export_generic_error_title">Faili ei saanud salvestada</string>
+  <string name="export_generic_error_text">Sul ei pruugi olla piisavalt ruumi või õigust seda sinna salvestada.</string>
   <string name="backup_button">Varunda kohe</string>
   <string name="backup_import_error_unknown_title">Midagi läks valesti</string>
-  <string name="backup_import_error_unknown">Your history could not be restored.</string>
-  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
-  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
-  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
-  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
+  <string name="backup_import_error_unknown">Sinu ajalugu ei saanud taastada.</string>
+  <string name="backup_import_error_unsupported_version_title">Ühildumatu varundus</string>
+  <string name="backup_import_error_unsupported_version">See varundus loodi uuema või aegunud Wire\'i versiooni kaudu ja seda ei saa siin taastada.</string>
+  <string name="backup_import_error_wrong_account_title">Vale varundus</string>
+  <string name="backup_import_error_wrong_account">Sa ei saa taastada teise konto ajalugu.</string>
 </resources>

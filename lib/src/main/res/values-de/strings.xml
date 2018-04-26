@@ -92,7 +92,7 @@ E-Mail-Adresse ein</string>
   <string name="choose_conversation">SUCHE</string>
   <string name="people_picker__top_users_header_title">Top Kontakte</string>
   <string name="people_picker__address_book_matches_title">Vorschläge</string>
-  <string name="people_picker__search_result_conversations_header_title">Gryour_phone_numberoups</string>
+  <string name="people_picker__search_result_conversations_header_title">Gruppen</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Gruppen</string>
   <string name="people_picker__search_result_connections_header_title">Kontakte</string>
   <string name="people_picker__search_result_others_header_title">Kontakt hinzufügen</string>
@@ -241,6 +241,12 @@ E-Mail-Adresse ein</string>
   <string name="conversation__action__remove">Entfernen</string>
   <string name="conversation__action__call">Anruf</string>
   <string name="conversation__action__picture">Bild</string>
+  <string name="conversation__action__block">Sperren&#8230;</string>
+  <string name="conversation__action__unblock">Freigeben</string>
+  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
+  <string name="conversation__action__leave_only">\tLeave group</string>
+  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
+  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ÖFFNEN</string>
   <string name="popover__action__remove">ENTFERNEN</string>
@@ -349,7 +355,7 @@ E-Mail-Adresse ein</string>
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blockieren?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s wird dich nicht länger kontaktieren oder zu Gruppen hinzufügen können.</string>
-  <string name="confirmation_menu__confirm_block">Sperren &#8230;</string>
+  <string name="confirmation_menu__confirm_block">Blockieren</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Blockiert</string>
   <!-- Delete conversation -->
@@ -1146,28 +1152,29 @@ E-Mail-Adresse ein</string>
   <string name="guest_time_left_hours">%1$s h verbleiben</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh verbleiben</string>
   <string name="guest_time_left_minutes">Weniger als %1$sm verbleiben</string>
-  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+  <string name="backup_description">Erstelle ein Backup, um den Gesprächsverlauf zu sichern. Damit können Unterhaltungen wiederhergestellt werden, falls du dein Gerät verlierst oder ein neues Gerät nutzen möchtest.
+
+Die Backup-Datei wird nicht mit Wire Ende-zu-Ende-Verschlüsselung geschützt. Achte bitte darauf, sie an einem sicheren Ort zu speichern.</string>
   <string name="pref_account_backup_title">Unterhaltungen sichern</string>
   <string name="add_email_address">Add your email address</string>
-  <string name="set_a_password">Set a password</string>
+  <string name="set_a_password">Passwort festlegen</string>
   <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
   <string name="new_device_password">Neues Gerät</string>
   <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
-  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="restore_from_backup_button">BACKUP WIEDERHERSTELLEN</string>
   <string name="second_launch__header">Du hast Wire auf diesem Gerät bereits genutzt.</string>
   <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
   <string name="restore_override_alert_title">Gesprächsverlauf wiederherstellen</string>
-  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_text">Der Inhalt der Backup-Datei ersetzt den Gesprächsverlauf auf diesem Gerät. Es können nur Backup-Dateien derselben Plattform wiederhergestellt werden.</string>
   <string name="restore_override_alert_ok">Backup-Datei auswählen</string>
-  <string name="back_up_progress">BACKING UP&#8230;</string>
-  <string name="back_up_progress_complete">COMPLETE</string>
-  <string name="restore_progress">RESTORING&#8230;</string>
-  <string name="pref_account_backup_warning_title">Legen Sie eine E-Mail-Adresse und ein Passwort fest.</string>
-  <string name="pref_account_backup_warning_message">Sie benötigen eine E-Mailadresse und ein Passwort, um Ihren Gesprächsverlauf zu sichern. Sie können dies von der Kontoseite unter Einstellungen aus tun.</string>
+  <string name="back_up_progress">SICHERN&#8230;</string>
+  <string name="back_up_progress_complete">GESICHERT</string>
+  <string name="restore_progress">WIEDERHERSTELLEN&#8230;</string>
+  <string name="pref_account_backup_warning_title">E-Mail und Passwort hinzufügen.</string>
+  <string name="pref_account_backup_warning_message">Füge in den Kontoeinstellungen eine E-Mailadresse und Passwort hinzu, um den Gesprächsverlauf zu sichern.</string>
   <string name="pref_account_backup_warning_ok">Verstanden</string>
   <string name="export_generic_error_title">Datei nicht gespeichert</string>
-  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="export_generic_error_text">Nicht genug Platz oder es fehlt die Berechtigung, dort zu speichern.</string>
   <string name="backup_button">Jetzt sichern</string>
   <string name="backup_import_error_unknown_title">Ein Fehler ist aufgetreten</string>
   <string name="backup_import_error_unknown">Der Gesprächsverlauf konnte nicht wiederhergestellt werden.</string>
