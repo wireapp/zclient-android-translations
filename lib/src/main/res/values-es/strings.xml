@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Demasiadas solicitudes</string>
   <string name="phone_budget_exhausted_message">Por favor, inténtalo de nuevo más tarde.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Configuración</string>
   <string name="camera_not_available">CÁMARA NO DISPONIBLE</string>
   <string name="camera_permissions_denied_title">Cámara no disponible</string>
@@ -254,21 +253,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Conexión lenta</string>
   <string name="calling__slow_connection__message">Tu conexión a Internet es muy lenta para efectuar una llamada en este momento. Por favor, inténtalo de nuevo más tarde.</string>
-  <string name="calling__slow_connection__button">Vale</string>
   <string name="calling__cannot_start__title">No es posible realizar una llamada</string>
   <string name="calling__cannot_start__message">Para llamar, cuelga la llamada actual.</string>
   <string name="calling__cannot_start__no_permission__message">Para llamar, permita el acceso a su micrófono.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s está ocupado(a)</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Inténtalo más tarde</string>
   <string name="calling__cannot_start__no_video_permission__message">Para realizar una videollamada, permite el acceso al micrófono y cámara.</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Configuración</string>
   <string name="calling__video_call__slow_connection__message">Es posible que experimentes problemas durante la llamada</string>
-  <string name="calling__header__joining">uniéndose</string>
-  <string name="calling__header__outgoing_subtitle">timbrando</string>
-  <string name="calling__header__outgoing_video_subtitle">timbrando</string>
-  <string name="calling__header__incoming_subtitle">llamando</string>
-  <string name="calling__header__incoming_subtitle__video">videollamada</string>
   <string name="incoming__controls__incoming__decline">RECHAZAR</string>
   <string name="incoming__controls__incoming__accept">ACEPTAR</string>
   <string name="incoming__controls__ongoing__hangup">COLGAR</string>
@@ -281,11 +273,27 @@
   <string name="ongoing__connecting">CONECTANDO&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO APAGADO</string>
   <string name="calling__self_preview_unavailable_long">CÁMARA NO DISPONIBLE</string>
+  <string name="calling__header__joining">uniéndose</string>
+  <string name="calling__header__outgoing_subtitle">timbrando</string>
+  <string name="calling__header__outgoing_video_subtitle">timbrando</string>
+  <string name="calling__header__incoming_subtitle">llamando</string>
+  <string name="calling__header__incoming_subtitle__video">videollamada</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Llamada activa</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Iniciar una llamada</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Llamarás a %1$d contactos</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">Llamar</string>
-  <string name="group_calling_cancel">Cancelar</string>
   <!-- Connect request -->
   <string name="connect__message">Hola %1$s,\n Agrégame en Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">

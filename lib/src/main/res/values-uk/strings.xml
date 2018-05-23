@@ -23,7 +23,7 @@
   <!--*********************************************** ERRORS ***********************************************-->
   <string name="generic_error_header">Щось пішло не так</string>
   <string name="generic_error_message">Будь ласка, спробуйте ще раз</string>
-  <string name="internet_connectivity_error_header">Немає з\'єднання з Інтернетом</string>
+  <string name="internet_connectivity_error_header">Відсутнє з\'єднання з Інтернетом</string>
   <string name="internet_connectivity_error_message">Перевірте підключення до Інтернету та спробуйте ще раз</string>
   <string name="too_many_attempts_header">Зроблено забагато спроб</string>
   <string name="login_later_message">Будь ласка, спробуйте увійти пізніше</string>
@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Було здійснено забагато запитів</string>
   <string name="phone_budget_exhausted_message">Будь ласка, спробуйте ще раз пізніше.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Налаштування</string>
   <string name="camera_not_available">КАМЕРА НЕДОСТУПНА</string>
   <string name="camera_permissions_denied_title">Камера недоступна</string>
@@ -246,10 +245,10 @@
   <string name="conversation__action__picture">Картинка</string>
   <string name="conversation__action__block">Заблокувати&#8230;</string>
   <string name="conversation__action__unblock">Розблокувати</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
+  <string name="conversation__action__leave_and_delete">\tВийти та видалити вміст</string>
+  <string name="conversation__action__leave_only">\tВийти з групової розмови</string>
+  <string name="conversation__action__delete_and_leave">\tВийти та видалити вміст</string>
+  <string name="conversation__action__delete_only">\tВидалити вміст</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ВІДКРИТИ</string>
   <string name="popover__action__remove">ВИДАЛИТИ</string>
@@ -258,21 +257,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Повільний інтернет</string>
   <string name="calling__slow_connection__message">Дуже повільне з\'єднання для здійснення дзвінка. Спробуйте ще раз, пізніше.</string>
-  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Дзвінок недоступний</string>
   <string name="calling__cannot_start__message">Щоб зателефонувати, завершіть ваш поточний дзвінок.</string>
   <string name="calling__cannot_start__no_permission__message">Дозвольте доступ до мікрофону, щоб зателефонувати .</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s зайнятий(-а)</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Спробуйте пізніше</string>
   <string name="calling__cannot_start__no_video_permission__message">Дозвольте доступ до мікрофону та камери, щоб зателефонувати з відео.</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Налаштування</string>
   <string name="calling__video_call__slow_connection__message">Можуть виникнути проблеми під час дзвінка</string>
-  <string name="calling__header__joining">з\'єднання</string>
-  <string name="calling__header__outgoing_subtitle">дзвонить</string>
-  <string name="calling__header__outgoing_video_subtitle">дзвонить</string>
-  <string name="calling__header__incoming_subtitle">дзвонить</string>
-  <string name="calling__header__incoming_subtitle__video">відеодзвінок</string>
   <string name="incoming__controls__incoming__decline">СКАСУВАТИ</string>
   <string name="incoming__controls__incoming__accept">ПРИЙНЯТИ</string>
   <string name="incoming__controls__ongoing__hangup">СКАСУВАТИ</string>
@@ -285,11 +277,27 @@
   <string name="ongoing__connecting">ПІДКЛЮЧЕННЯ&#8230;</string>
   <string name="calling__self_preview_unavailable">ВІДЕО ВІДКЛЮЧЕНО</string>
   <string name="calling__self_preview_unavailable_long">КАМЕРА НЕДОСТУПНА</string>
+  <string name="calling__header__joining">з\'єднання</string>
+  <string name="calling__header__outgoing_subtitle">дзвонить</string>
+  <string name="calling__header__outgoing_video_subtitle">дзвонить</string>
+  <string name="calling__header__incoming_subtitle">дзвонить</string>
+  <string name="calling__header__incoming_subtitle__video">відеодзвінок</string>
+  <string name="call_banner_joining">ПІДКЛЮЧЕННЯ</string>
+  <string name="call_banner_outgoing">ДЗВІНОК</string>
+  <string name="call_banner_incoming">ДЗВІНОК</string>
+  <string name="call_banner_incoming_video">ВІДЕОДЗВІНОК</string>
+  <string name="call_banner_tap_to_return_to_call">ТОРКНІТЬСЯ, ЩОБ ПОВЕРНУТИСЬ ДО ДЗВІНКА</string>
+  <string name="calling_ongoing_call_title">Активний дзвінок</string>
+  <string name="calling_ongoing_call_start_message">Інша розмова має активний дзвінок.\nДзвінок у цій розмові припиить його.</string>
+  <string name="calling_ongoing_call_start_anyway">ПОДЗВОНИТИ ВСЕ-ОДНО</string>
+  <string name="calling_ongoing_call_join_message">Інша розмова має активний дзвінок.\nПідключення до дзвінка у цій розмові припиить його.</string>
+  <string name="calling_ongoing_call_join_anyway">ПРИЄДНАТИСЯ ВСЕ-ОДНО</string>
+  <string name="calling_ongoing_call_audio_message">Ви не можете записувати аудіоповідомлення, маючи активний дзвінок</string>
+  <string name="calling_ongoing_call_video_message">Ви не можете записувати відеоповідомлення, маючи активний дзвінок</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Розпочати дзвінок</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Ви подзвоните %1$d людям</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Ви подзвоните %1$s учасникам</string>
   <string name="group_calling_confirm">Аудіодзвінок</string>
-  <string name="group_calling_cancel">Скасувати</string>
   <!-- Connect request -->
   <string name="connect__message">Ппивіт %1$s,\nДавай спікуватися в Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -1233,7 +1241,7 @@
   <string name="pref_account_backup_warning_message">Ви повинні мати адресу електронної пошти та пароль для того, щоб створити резервну копію історії розмов. Ви можете додати їх на сторінці Акаунт в налаштуваннях.</string>
   <string name="pref_account_backup_warning_ok">OK</string>
   <string name="export_generic_error_title">Не вдалося зберегти файл</string>
-  <string name="export_generic_error_text">У вас недостатньо вільного місця або відстуні необхідні права доступу, щоб зберегти файл в даному місці.</string>
+  <string name="export_generic_error_text">У вас недостатньо вільного місця або відстуні необхідні права доступу, щоб зберегти файлі.</string>
   <string name="backup_button">Створити резервну копію</string>
   <string name="backup_import_error_unknown_title">Щось пішло не так</string>
   <string name="backup_import_error_unknown">Ваша історія не може бути відновлена.</string>

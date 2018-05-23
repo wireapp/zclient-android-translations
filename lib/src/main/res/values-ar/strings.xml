@@ -33,7 +33,7 @@
   <string name="email_invalid_header">عنوان البريد إلكتروني غير فعال</string>
   <string name="email_invalid_message">الرجاء إدخال عنوان بريد إلكتروني صالح.</string>
   <string name="invalid_credentials_header">معلومات غير صحيحة</string>
-  <string name="invalid_credentials_message">Please verify your details and try again</string>
+  <string name="invalid_credentials_message">من فضلك تأكد من بيانات وحاول مرة أخرى</string>
   <string name="phone_exists_header">رقم الهاتف مستعمل من قبل</string>
   <string name="phone_exists_message">The phone number you provided has already been registered. Please try again</string>
   <string name="phone_invalid_format_header">رقم الهاتف غير صحيح</string>
@@ -46,11 +46,10 @@
   <string name="phone_pending_login_header">تم إرسال الرمز .</string>
   <string name="phone_pending_login_message">لقد قمنا بإرسال رمز إليك عبر رسالة قصيرة . انقر فوق إعادة إرسال بعد 10 دقائق للحصول على رمز جديد.</string>
   <string name="password_invalid_header">كلمة المرور غير صالحة</string>
-  <string name="password_invalid_message">Please verify your details and try again</string>
+  <string name="password_invalid_message">من فضلك تأكد من بيانات وحاول مرة أخرى</string>
   <string name="phone_budget_exhausted_header">طلبات كثيرة جداً</string>
   <string name="phone_budget_exhausted_message">الرجاء المحاولة مرة أخرى لاحقا.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">موافق</string>
   <string name="permissions_denied_dialog_settings">الإعدادات</string>
   <string name="camera_not_available">الكاميرا غير متاحة</string>
   <string name="camera_permissions_denied_title">الكاميرا غير متاحة</string>
@@ -118,12 +117,12 @@
   <string name="people_picker__search_services">SERVICES</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">الخدمات</string>
-  <string name="integrations_picker__add">Add Service</string>
+  <string name="integrations_picker__add">أضف خدمة</string>
   <string name="integrations_conv_bot">Bot</string>
   <string name="integrations_chathead__section_title">الخدمات</string>
-  <string name="integrations_errors_add_service">Adding service not possible</string>
-  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
-  <string name="conversation_errors_full">The conversation is full</string>
+  <string name="integrations_errors_add_service">إضافة الخدمة غير ممكن</string>
+  <string name="integrations_errors_service_unavailable">هذه الخدمة غير متاحة بهذه اللحظة</string>
+  <string name="conversation_errors_full">المحادثة مكتملة العدد</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">مشاركة جهات الاتصال</string>
   <string name="people_picker__share_contacts__message">يساعدك Wire في العثور على أصدقائك عند مشاركة جهات اتصالك.</string>
@@ -239,18 +238,18 @@
   <string name="content__location__no_map_placeholder">الموقع سوف يظهر على الخريطة عندما تتصل بالإنترنت مرة أخرى</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">إعادة التّسمية</string>
-  <string name="conversation__action__delete">Delete content&#8230;</string>
+  <string name="conversation__action__delete">احذف المحتوى&#8230;</string>
   <string name="conversation__action__archive">حفظ في الأرشيف</string>
   <string name="conversation__action__unarchive">إلغاء الأرشفة</string>
   <string name="conversation__action__add_people">إضافة أشخاص</string>
   <string name="conversation__action__create_group">إنشاء مجموعة</string>
   <string name="conversation__action__silence">كتم الصوت</string>
   <string name="conversation__action__unsilence">إلغاء كتم الصوت</string>
-  <string name="conversation__action__leave">Leave group&#8230;</string>
+  <string name="conversation__action__leave">غادر المجموعة&#8230;</string>
   <string name="conversation__action__remove">إزالة</string>
   <string name="conversation__action__call">اتصال</string>
   <string name="conversation__action__picture">الصورة</string>
-  <string name="conversation__action__block">Block&#8230;</string>
+  <string name="conversation__action__block">حظر&#8230;</string>
   <string name="conversation__action__unblock">إلغاء حظر</string>
   <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
   <string name="conversation__action__leave_only">\tLeave group</string>
@@ -264,21 +263,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">الإنترنت بطيء</string>
   <string name="calling__slow_connection__message">الإنترنت بطيء جداً لإجراء مكالمة الآن. الرجاء المحاولة مرة أخرى لاحقاً.</string>
-  <string name="calling__slow_connection__button">موافق</string>
   <string name="calling__cannot_start__title">الاتصال غير متاح </string>
   <string name="calling__cannot_start__message">لإجراء مكالمة، قم بإنهاء مكالمتك الحالية.</string>
   <string name="calling__cannot_start__no_permission__message">لإجراء مكالمة، امنح الإذن لتشغيل الميكروفون.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s مشغول</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">حاول مرة أخرى لاحقاً</string>
   <string name="calling__cannot_start__no_video_permission__message">لإجراء مكالمة فيديو، امنح إذن لتشغيل الميكروفون والكاميرا.</string>
-  <string name="calling__cannot_start__button">موافق</string>
   <string name="calling__cannot_start__button_settings">الإعدادات</string>
   <string name="calling__video_call__slow_connection__message">قد تواجه مشكلات أثناء المكالمة</string>
-  <string name="calling__header__joining">انضمام</string>
-  <string name="calling__header__outgoing_subtitle">جاري الاتصال</string>
-  <string name="calling__header__outgoing_video_subtitle">جاري الاتصال</string>
-  <string name="calling__header__incoming_subtitle">جاري الاتصال</string>
-  <string name="calling__header__incoming_subtitle__video">مكالمة فيديو</string>
   <string name="incoming__controls__incoming__decline">رفض</string>
   <string name="incoming__controls__incoming__accept">قبول</string>
   <string name="incoming__controls__ongoing__hangup">إنهاء الاتصال</string>
@@ -291,11 +283,27 @@
   <string name="ongoing__connecting">جاري الربط</string>
   <string name="calling__self_preview_unavailable">تم إيقاف الفيديو</string>
   <string name="calling__self_preview_unavailable_long">الكاميرا غير متاحة</string>
+  <string name="calling__header__joining">انضمام</string>
+  <string name="calling__header__outgoing_subtitle">جاري الاتصال</string>
+  <string name="calling__header__outgoing_video_subtitle">جاري الاتصال</string>
+  <string name="calling__header__incoming_subtitle">جاري الاتصال</string>
+  <string name="calling__header__incoming_subtitle__video">مكالمة فيديو</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">جاري الاتصال</string>
+  <string name="call_banner_incoming">يتصل بك</string>
+  <string name="call_banner_incoming_video">يتصل بمكالمة فيديو</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">المكالمة الجارية</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">بدء مكالمة</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">هذا سوف يجري مكالمة مع الأشخاص %1$d</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">اتصال</string>
-  <string name="group_calling_cancel">إلغاء</string>
   <!-- Connect request -->
   <string name="connect__message">مرحبا %1$s ، هيا لنتصل عبر واير. %2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -395,7 +403,7 @@
   <string name="connect_request__footer__blocked_label">تم حظر</string>
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">حذف المحتوى؟</string>
-  <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
+  <string name="confirmation_menu__meta_delete_text">سوف يؤدي إلى مسح تاريخ المحادثة على كل أجهزتك.</string>
   <string name="confirmation_menu__confirm_delete">حذف</string>
   <string name="confirmation_menu__delete_conversation__checkbox__label">غادر المحادثة أيضا</string>
   <!-- Rich media -->
@@ -438,7 +446,7 @@
   <string name="pref_developer_screen_title">إعدادات المطور</string>
   <string name="pref_dev_avs_screen_title">إعدادات AVS</string>
   <string name="pref_profile_screen_title">الملف الشخصي</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
+  <string name="pref_backup_screen_title">نسخ المحادثات احتياطيًّا</string>
   <!-- Account -->
   <string name="pref_account_screen_title">الحساب</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -448,7 +456,7 @@
   <string name="pref_account_actions_category_title">الإجراءات</string>
   <string name="pref_account_personal_category_title">شخصي</string>
   <string name="pref_account_appearance_category_title">المظهر</string>
-  <string name="pref_account_conversations_category_title">History</string>
+  <string name="pref_account_conversations_category_title">التاريخ</string>
   <string name="pref_account_details_category_summary">سيتمكن الناس من ايجادك من خلال هذه التفاصيل.</string>
   <string name="pref_account_personal_category_summary">المعلومات غير مرئية لأي شخص آخر</string>
   <string name="pref_account_username_title">مُعرّف</string>
@@ -1207,11 +1215,11 @@
   <string name="teams_verify_email_change">CHANGE EMAIL</string>
   <string name="teams_set_name_title">اسمُك</string>
   <string name="teams_set_name_hint">FULL NAME</string>
-  <string name="app_entry_slogan">Secure messaging for everyone.</string>
-  <string name="app_entry_create_account">For personal use</string>
-  <string name="app_entry_create_account_sub">create an account</string>
-  <string name="app_entry_create_team">For organizations</string>
-  <string name="app_entry_create_team_sub">create a team</string>
+  <string name="app_entry_slogan">تراسل آمن للجميع.</string>
+  <string name="app_entry_create_account">للاستخدام الشخصي</string>
+  <string name="app_entry_create_account_sub">إنشاء حساب</string>
+  <string name="app_entry_create_team">للمنظمات</string>
+  <string name="app_entry_create_team_sub">إنشاء فريق</string>
   <string name="app_entry_login_sub">لديك حساب بالفعل ؟</string>
   <string name="app_entry_login">تسجيل الدخول</string>
   <string name="app_entry_tc_dialog_title">Terms of Service</string>
@@ -1223,7 +1231,7 @@
   <string name="app_entry_dialog_view">VIEW</string>
   <string name="app_entry_email_sent">Email sent</string>
   <string name="teams_set_username_subtitle">Usernames help people find you.</string>
-  <string name="pick_user_teams_invite">Invite people to join the team</string>
+  <string name="pick_user_teams_invite">دعوة أشخاص للانضمام للفريق</string>
   <string name="teams_invitations_skip">SKIP</string>
   <string name="teams_invitations_done">DONE</string>
   <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
@@ -1239,13 +1247,13 @@
   <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
   <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">أنشئ فريقك</string>
-  <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
-  <string name="add_service_button_text">Add Service</string>
+  <string name="invitation_screen_subtitle">ادعُ زملاءك إلى الانضمام.</string>
+  <string name="add_service_button_text">أضف خدمة</string>
   <string name="remove_service_button_text">Remove Service</string>
-  <string name="integrations_create_conversation">Create a new conversation</string>
+  <string name="integrations_create_conversation">إنشاء محادثة جديدة</string>
   <string name="no_matches_found">No matches found</string>
   <string name="create_group_conversation">إنشاء مجموعة</string>
-  <string name="create_guest_room_conversation">Create guest room</string>
+  <string name="create_guest_room_conversation">إنشاء غرفة للزوار</string>
   <string name="next_button">NEXT</string>
   <string name="skip_button">SKIP</string>
   <string name="done_button">DONE</string>
@@ -1258,35 +1266,35 @@
   <string name="participants_divider_services">SERVICES (%1$s)</string>
   <string name="participants_divider_people">PEOPLE (%1$s)</string>
   <string name="group_name_hint">GROUP NAME</string>
-  <string name="allow_guests_toggle_text">Allow guests</string>
+  <string name="allow_guests_toggle_text">السماح بالضيوف</string>
   <string name="allow_guests_toggle_info_text">Open this conversation to people outside your team. You can always change it later.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to people outside your team.</string>
+  <string name="open_this_conversation_to_people_outside_your_team">إتاحة هذه المحادثة لأشخاص خارج فريقك.</string>
   <string name="allow_guests">Allow Guests</string>
-  <string name="guest_options_title">Guest Options</string>
+  <string name="guest_options_title">خيارات الزوار</string>
   <string name="allow_guests_error_title">حدث خطأ</string>
   <string name="allow_guests_error_body">Could not allow guests. Please try again.</string>
   <string name="allow_guests_warning_body">Current guests will be removed from the conversation. New guests will not be allowed.</string>
-  <string name="allow_guests_warning_confirm">Remove Guests</string>
+  <string name="allow_guests_warning_confirm">إزالة الزوار</string>
   <string name="guests_are_present">GUESTS ARE PRESENT</string>
   <string name="participants_details_header_title">DETAILS</string>
   <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
-  <string name="create_link_button">Create Link</string>
-  <string name="copy_link_button">Copy Link</string>
-  <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link&#8230;</string>
+  <string name="create_link_button">إنشاء رابط</string>
+  <string name="copy_link_button">نسخ الرابط</string>
+  <string name="share_link_button">مشاركة الرابط</string>
+  <string name="revoke_link_button">إلغاء الرابط&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
-  <string name="link_copied_toast">Link Copied!</string>
+  <string name="link_copied_toast">نُسِخَ الرابط!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
   <string name="revoke_link_confirm">Revoke Link</string>
   <string name="invite_button_description">People outside your team can join this conversation.</string>
   <string name="invite_people">دعوة أُناس</string>
-  <string name="guest_room_name">Guest room</string>
+  <string name="guest_room_name">غرفة زوار</string>
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
   <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
         \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="pref_account_backup_title">أجرِ نَسخًا احتياطيًا للمحادثات</string>
   <string name="add_email_address">Add your email address</string>
   <string name="set_a_password">Set a password</string>
   <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
@@ -1295,22 +1303,22 @@
   <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
   <string name="second_launch__header">قمت بإستخدام Wire على هذا الجهاز من قبل.</string>
   <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
-  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_title">استعادة التاريخ</string>
   <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
-  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="restore_override_alert_ok">اختيار ملف النسخة الاحتياطية</string>
   <string name="back_up_progress">BACKING UP&#8230;</string>
   <string name="back_up_progress_complete">COMPLETE</string>
   <string name="restore_progress">RESTORING&#8230;</string>
   <string name="pref_account_backup_warning_title">Set an email and password.</string>
   <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
   <string name="pref_account_backup_warning_ok">موافق</string>
-  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_title">لا يمكن حفظ الملف</string>
   <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
   <string name="backup_button">Back Up Now</string>
   <string name="backup_import_error_unknown_title">حدث خطأ</string>
-  <string name="backup_import_error_unknown">Your history could not be restored.</string>
-  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unknown">لا يمكن استعادة تاريخك.</string>
+  <string name="backup_import_error_unsupported_version_title">نسخة احتياطية غير متوافقة</string>
   <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
-  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
-  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
+  <string name="backup_import_error_wrong_account_title">نسخة احتياطية خاطئة</string>
+  <string name="backup_import_error_wrong_account">لا يمكنك استعادة تاريخ من حساب مختلف.</string>
 </resources>

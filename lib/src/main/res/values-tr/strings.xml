@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Çok fazla istek</string>
   <string name="phone_budget_exhausted_message">Lütfen daha sonra tekrar dene.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">Tamam</string>
   <string name="permissions_denied_dialog_settings">Ayarlar</string>
   <string name="camera_not_available">KAMERA KULLANILAMIYOR</string>
   <string name="camera_permissions_denied_title">Kamera mevcut değil</string>
@@ -254,21 +253,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Yavaş İnternet</string>
   <string name="calling__slow_connection__message">İnternet bağlantınız arama yapmak için çok yavaş. Lütfen daha sonra yeniden deneyin.</string>
-  <string name="calling__slow_connection__button">TAMAM</string>
   <string name="calling__cannot_start__title">Arama yapılamıyor</string>
   <string name="calling__cannot_start__message">Yeni arama yapabilmek için aktif aramanızı kapatın.</string>
   <string name="calling__cannot_start__no_permission__message">Arama yapabilmek için mikrofona erişim izin verin.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s meşgul</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Daha sonra yeniden deneyin</string>
   <string name="calling__cannot_start__no_video_permission__message">Görüntülü arama yapabilmek için mikrofon ve kameraya erişim izni verin.</string>
-  <string name="calling__cannot_start__button">TAMAM</string>
   <string name="calling__cannot_start__button_settings">Ayarlar</string>
   <string name="calling__video_call__slow_connection__message">Arama sırasında sorunlarla karşılaşabilirsiniz</string>
-  <string name="calling__header__joining">katılınıyor</string>
-  <string name="calling__header__outgoing_subtitle">çalıyor</string>
-  <string name="calling__header__outgoing_video_subtitle">çalıyor</string>
-  <string name="calling__header__incoming_subtitle">arıyor</string>
-  <string name="calling__header__incoming_subtitle__video">görüntülü arıyor</string>
   <string name="incoming__controls__incoming__decline">REDDET</string>
   <string name="incoming__controls__incoming__accept">KABUL ET</string>
   <string name="incoming__controls__ongoing__hangup">KAPAT</string>
@@ -281,11 +273,27 @@
   <string name="ongoing__connecting">BAĞLANIYOR&#8230;</string>
   <string name="calling__self_preview_unavailable">KAMERA KAPALI</string>
   <string name="calling__self_preview_unavailable_long">KAMERA KULLANILAMIYOR</string>
+  <string name="calling__header__joining">katılınıyor</string>
+  <string name="calling__header__outgoing_subtitle">çalıyor</string>
+  <string name="calling__header__outgoing_video_subtitle">çalıyor</string>
+  <string name="calling__header__incoming_subtitle">arıyor</string>
+  <string name="calling__header__incoming_subtitle__video">görüntülü arıyor</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Devam eden arama</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Bir arama başlat</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Bu %1$d kişiyi arayacaktır</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">Ara</string>
-  <string name="group_calling_cancel">İptal</string>
   <!-- Connect request -->
   <string name="connect__message">Selam %1$s,\nHadi Wire üzerinden bağlanalım.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">

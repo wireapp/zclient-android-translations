@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Liiga palju päringuid</string>
   <string name="phone_budget_exhausted_message">Palun proovi hiljem uuesti.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Seaded</string>
   <string name="camera_not_available">KAAMERALE PUUDUB JUURDEPÄÄS</string>
   <string name="camera_permissions_denied_title">Kaamerale puudub juurdepääs</string>
@@ -242,10 +241,10 @@
   <string name="conversation__action__picture">Profiilipilt</string>
   <string name="conversation__action__block">Blokeeri&#8230;</string>
   <string name="conversation__action__unblock">Tühista blokeering</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
+  <string name="conversation__action__leave_and_delete">\tLahku ja kustuta sisu</string>
+  <string name="conversation__action__leave_only">\tLahku grupist</string>
+  <string name="conversation__action__delete_and_leave">\tKustuta sisu ja lahku</string>
+  <string name="conversation__action__delete_only">\tKustuta sisu</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">AVA</string>
   <string name="popover__action__remove">EEMALDA</string>
@@ -254,21 +253,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Aeglane ühendus</string>
   <string name="calling__slow_connection__message">Ühendus on kõne tegemiseks hetkel liiga aeglane. Palun proovi hiljem uuesti.</string>
-  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Helistamine pole võimalik</string>
   <string name="calling__cannot_start__message">Helistamiseks lõpeta käimas olev kõne.</string>
   <string name="calling__cannot_start__no_permission__message">Helistamiseks anna mikrofoni juurdepääsu luba.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s on hõivatud</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Proovi hiljem uuesti</string>
   <string name="calling__cannot_start__no_video_permission__message">Videokõne tegemiseks pead lubama Wire\'l telefoni kaamerat kasutada.</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Seaded</string>
   <string name="calling__video_call__slow_connection__message">Kõne ajal võib esineda probleeme</string>
-  <string name="calling__header__joining">liitub</string>
-  <string name="calling__header__outgoing_subtitle">kutsub</string>
-  <string name="calling__header__outgoing_video_subtitle">kutsub</string>
-  <string name="calling__header__incoming_subtitle">helistab</string>
-  <string name="calling__header__incoming_subtitle__video">videokõne</string>
   <string name="incoming__controls__incoming__decline">KEELDU</string>
   <string name="incoming__controls__incoming__accept">VASTA</string>
   <string name="incoming__controls__ongoing__hangup">LÕPETA KÕNE</string>
@@ -281,11 +273,27 @@
   <string name="ongoing__connecting">ÜHENDUSE LOOMINE&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO VÄLJA</string>
   <string name="calling__self_preview_unavailable_long">KAAMERALE JUURDEPÄÄS PUUDUB</string>
+  <string name="calling__header__joining">liitub</string>
+  <string name="calling__header__outgoing_subtitle">kutsub</string>
+  <string name="calling__header__outgoing_video_subtitle">kutsub</string>
+  <string name="calling__header__incoming_subtitle">helistab</string>
+  <string name="calling__header__incoming_subtitle__video">videokõne</string>
+  <string name="call_banner_joining">LIITUMINE</string>
+  <string name="call_banner_outgoing">HELISEB</string>
+  <string name="call_banner_incoming">HELISTAN</string>
+  <string name="call_banner_incoming_video">TOIMUB VIDEOKÕNE</string>
+  <string name="call_banner_tap_to_return_to_call">KOPUTA KÕNESSE NAASMISEKS</string>
+  <string name="calling_ongoing_call_title">Aktiivne kõne</string>
+  <string name="calling_ongoing_call_start_message">Teises vestluses toimub juba kõne.\nSiin helistades lõpetad teise kõne.</string>
+  <string name="calling_ongoing_call_start_anyway">HELISTA SIISKI</string>
+  <string name="calling_ongoing_call_join_message">Teises vestluses toimub juba kõne.\nSelle kõnega liitumine lõpetab teise kõne.</string>
+  <string name="calling_ongoing_call_join_anyway">LIITU SIISKI</string>
+  <string name="calling_ongoing_call_audio_message">Sa ei saa kõne ajal häälsõnumit salvestada</string>
+  <string name="calling_ongoing_call_video_message">Sa ei saa kõne ajal videosõnumit salvestada</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Alusta kõnet</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Helistad %1$d-le inimesele</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">See helistab %1$s inimesele</string>
   <string name="group_calling_confirm">Kõne</string>
-  <string name="group_calling_cancel">Tühista</string>
   <!-- Connect request -->
   <string name="connect__message">Hei %1$s,\nLisa mind Wire\'is.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">

@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">请求过多</string>
   <string name="phone_budget_exhausted_message">请稍后重试。</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">好</string>
   <string name="permissions_denied_dialog_settings">设置</string>
   <string name="camera_not_available">相机无法使用</string>
   <string name="camera_permissions_denied_title">相机无法使用</string>
@@ -252,21 +251,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">网络速度缓慢</string>
   <string name="calling__slow_connection__message">您的网速太慢无法通话。请稍候再试。</string>
-  <string name="calling__slow_connection__button">好</string>
   <string name="calling__cannot_start__title">通话功能无法使用</string>
   <string name="calling__cannot_start__message">开始新的通话前，请先结束当前通话。</string>
   <string name="calling__cannot_start__no_permission__message">如需使用通话功能，请开启麦克风使用权限。</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s忙线中</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">请稍候再试</string>
   <string name="calling__cannot_start__no_video_permission__message">如需使用视屏聊天功能，请开启麦克风和摄像头使用权限。</string>
-  <string name="calling__cannot_start__button">好</string>
   <string name="calling__cannot_start__button_settings">设置</string>
   <string name="calling__video_call__slow_connection__message">您可能会在通话期间遇到问题</string>
-  <string name="calling__header__joining">正加入通话</string>
-  <string name="calling__header__outgoing_subtitle">拨号中</string>
-  <string name="calling__header__outgoing_video_subtitle">拨号中</string>
-  <string name="calling__header__incoming_subtitle">来电</string>
-  <string name="calling__header__incoming_subtitle__video">视频来电</string>
   <string name="incoming__controls__incoming__decline">拒绝</string>
   <string name="incoming__controls__incoming__accept">接听</string>
   <string name="incoming__controls__ongoing__hangup">结束通话</string>
@@ -279,11 +271,27 @@
   <string name="ongoing__connecting">正在连接&#8230;</string>
   <string name="calling__self_preview_unavailable">关闭视频</string>
   <string name="calling__self_preview_unavailable_long">相机无法使用</string>
+  <string name="calling__header__joining">正加入通话</string>
+  <string name="calling__header__outgoing_subtitle">拨号中</string>
+  <string name="calling__header__outgoing_video_subtitle">拨号中</string>
+  <string name="calling__header__incoming_subtitle">来电</string>
+  <string name="calling__header__incoming_subtitle__video">视频来电</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">正在呼叫</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">开始呼叫</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">将会呼叫%1$d位联系人</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">呼叫</string>
-  <string name="group_calling_cancel">取消</string>
   <!-- Connect request -->
   <string name="connect__message">Hi %1$s，\n请加我为好友。\n%2$s</string>
   <plurals name="connect_request__common_users__summary">

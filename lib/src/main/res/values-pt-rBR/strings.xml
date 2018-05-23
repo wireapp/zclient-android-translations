@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Muitos pedidos!</string>
   <string name="phone_budget_exhausted_message">Por favor, tente novamente mais tarde.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Configurações</string>
   <string name="camera_not_available">CÂMERA NÃO DISPONÍVEL</string>
   <string name="camera_permissions_denied_title">Câmera não disponível</string>
@@ -66,7 +65,7 @@
   <string name="profile__email__verify__resend">Re-enviar</string>
   <string name="profile__guidance__invalid_email">O endereço de email que inseriu não é válido. Por favor, verifique e tente de novo</string>
   <string name="new_reg__code_resent">Um novo código foi enviado via SMS</string>
-  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
+  <string name="new_reg__email_code_resent">Um novo código foi enviado via e-mail</string>
   <string name="new_reg__code_resent__call">Aguarde para a chamada</string>
   <string name="new_reg__default_country">br</string>
   <!-- consider updating this for every new language -->
@@ -242,10 +241,10 @@
   <string name="conversation__action__picture">Foto</string>
   <string name="conversation__action__block">Bloquear&#8230;</string>
   <string name="conversation__action__unblock">Desbloquear</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
+  <string name="conversation__action__leave_and_delete">\tSair e excluir conteúdo</string>
+  <string name="conversation__action__leave_only">\tSair do grupo</string>
+  <string name="conversation__action__delete_and_leave">\tExcluir conteúdo e sair</string>
+  <string name="conversation__action__delete_only">\tExcluir conteúdo</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ABRIR</string>
   <string name="popover__action__remove">REMOVER</string>
@@ -254,21 +253,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Internet lenta</string>
   <string name="calling__slow_connection__message">Sua conexão de Internet é muito lento para ligar agora. Por favor, tente novamente mais tarde.</string>
-  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Chamada não disponível</string>
   <string name="calling__cannot_start__message">Para ligar, desliga sua chamada atual.</string>
   <string name="calling__cannot_start__no_permission__message">Para chamar, permita o acesso ao microfone.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s está ocupado</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Tente novamente mais tarde</string>
   <string name="calling__cannot_start__no_video_permission__message">Para vídeo-chamadas, permita o acesso ao microfone e a câmera.</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Configurações</string>
   <string name="calling__video_call__slow_connection__message">Pode haver alguns problemas durante a chamada</string>
-  <string name="calling__header__joining">entrando</string>
-  <string name="calling__header__outgoing_subtitle">tocando</string>
-  <string name="calling__header__outgoing_video_subtitle">tocando</string>
-  <string name="calling__header__incoming_subtitle">chamando</string>
-  <string name="calling__header__incoming_subtitle__video">vídeo chamada</string>
   <string name="incoming__controls__incoming__decline">RECUSAR</string>
   <string name="incoming__controls__incoming__accept">ACEITAR</string>
   <string name="incoming__controls__ongoing__hangup">DESLIGAR</string>
@@ -281,11 +273,27 @@
   <string name="ongoing__connecting">CONECTANDO&#8230;</string>
   <string name="calling__self_preview_unavailable">VÍDEO DESLIGADO</string>
   <string name="calling__self_preview_unavailable_long">CÂMERA NÃO DISPONÍVEL</string>
+  <string name="calling__header__joining">entrando</string>
+  <string name="calling__header__outgoing_subtitle">tocando</string>
+  <string name="calling__header__outgoing_video_subtitle">tocando</string>
+  <string name="calling__header__incoming_subtitle">chamando</string>
+  <string name="calling__header__incoming_subtitle__video">vídeo chamada</string>
+  <string name="call_banner_joining">JUNTANDO-SE</string>
+  <string name="call_banner_outgoing">TOCANDO</string>
+  <string name="call_banner_incoming">CHAMANDO</string>
+  <string name="call_banner_incoming_video">VÍDEO-CHAMADAS</string>
+  <string name="call_banner_tap_to_return_to_call">TOQUE PARA RETORNAR À CHAMADA</string>
+  <string name="calling_ongoing_call_title">Chamada em curso</string>
+  <string name="calling_ongoing_call_start_message">Uma chamada está ativa em outra conversa. \nChamar aqui vai desligar a outra ligação.</string>
+  <string name="calling_ongoing_call_start_anyway">CHAME DE QUALQUER MANEIRA</string>
+  <string name="calling_ongoing_call_join_message">Uma chamada está ativa em outra conversa. \nJuntando-se aqui vai desligar a outra ligação.</string>
+  <string name="calling_ongoing_call_join_anyway">JUNTE-SE DE QUALQUER MANEIRA</string>
+  <string name="calling_ongoing_call_audio_message">Você não pode gravar uma mensagem de áudio em uma chamada</string>
+  <string name="calling_ongoing_call_video_message">Você não pode gravar uma mensagem de vídeo quando está em uma chamada</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Iniciar uma chamada</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Isso irá chamar %1$d pessoas</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Isso irá chamar %1$s pessoas</string>
   <string name="group_calling_confirm">Chamada</string>
-  <string name="group_calling_cancel">Cancelar</string>
   <!-- Connect request -->
   <string name="connect__message">Olá %1$s,\nVamos nos conectar no Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -1150,33 +1158,33 @@
   <string name="guest_time_left_hours">%1$sh restando</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh restanto</string>
   <string name="guest_time_left_minutes">Menos de %1$sm restando</string>
-  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-  <string name="pref_account_backup_title">Back up conversations</string>
-  <string name="add_email_address">Add your email address</string>
-  <string name="set_a_password">Set a password</string>
-  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="backup_description">Crie um backup para preservar seu histórico de conversas. Você pode usar isso para restaurar o histórico se perder o dispositivo ou mudar para um novo.
+        \nO arquivo de backup não é protegido pela criptografia de ponta a ponta do Wire, portanto, armazene-o em um local seguro.</string>
+  <string name="pref_account_backup_title">Fazer backup das conversas</string>
+  <string name="add_email_address">Adicione seu endereço de e-mail</string>
+  <string name="set_a_password">Definir uma senha</string>
+  <string name="email_and_password_explanation">Você precisa de um endereço de e-mail e uma senha para usar o Wire em múltiplos dispositivos.</string>
   <string name="new_device_password">Novo dispositivo</string>
-  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
-  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+  <string name="new_device_password_explanation">Digite a senha de sua conta Wire.\n%1$s</string>
+  <string name="restore_from_backup_button">RESTAURAR DO BACKUP</string>
   <string name="second_launch__header">Você usou o Wire neste dispositivo antes.</string>
-  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+  <string name="second_launch__sub_header">Se isso foi há muito tempo, algumas mensagens podem não aparecer aqui.</string>
   <string name="restore_override_alert_title">Restaurar histórico</string>
-  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+  <string name="restore_override_alert_text">O conteúdo do backup substituirá o histórico de conversas nesse dispositivo. Você só pode restaurar o histórico de um backup da mesma plataforma.</string>
   <string name="restore_override_alert_ok">Escolha o Arquivo de Backup</string>
-  <string name="back_up_progress">BACKING UP&#8230;</string>
-  <string name="back_up_progress_complete">COMPLETE</string>
-  <string name="restore_progress">RESTORING&#8230;</string>
+  <string name="back_up_progress">FAZENDO BACKUP&#8230;</string>
+  <string name="back_up_progress_complete">CONCLUÍDO</string>
+  <string name="restore_progress">RESTAURANDO&#8230;</string>
   <string name="pref_account_backup_warning_title">Defina um e-mail e senha.</string>
   <string name="pref_account_backup_warning_message">Você precisa de um e-mail e uma senha para fazer backup de seu histórico de conversas. Você pode fazer isso na página da conta em Configurações.</string>
   <string name="pref_account_backup_warning_ok">OK</string>
-  <string name="export_generic_error_title">The file could not be saved</string>
-  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+  <string name="export_generic_error_title">O arquivo não pôde ser salvo</string>
+  <string name="export_generic_error_text">Você pode não ter espaço ou permissão suficientes para salvá-lo lá.</string>
   <string name="backup_button">Fazer Backup Agora</string>
   <string name="backup_import_error_unknown_title">Algo deu errado</string>
   <string name="backup_import_error_unknown">Seu histórico não pode ser restaurado.</string>
   <string name="backup_import_error_unsupported_version_title">Backup Incompatível</string>
   <string name="backup_import_error_unsupported_version">Este backup foi criado por uma versão mais recente ou desatualizada do Wire e não pode ser restaurado aqui.</string>
-  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account_title">Backup errado</string>
   <string name="backup_import_error_wrong_account">Você não pode restaurar o histórico de uma conta diferente.</string>
 </resources>

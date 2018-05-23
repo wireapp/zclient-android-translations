@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">For mange anmodninger</string>
   <string name="phone_budget_exhausted_message">Prøv venligst igen senere.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Indstillinger</string>
   <string name="camera_not_available">KAMERA IKKE TILGÆNGELIGT</string>
   <string name="camera_permissions_denied_title">Kamera ikke tilgængeligt</string>
@@ -118,10 +117,10 @@
   <string name="people_picker__search_services">SERVICES</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Tjenester</string>
-  <string name="integrations_picker__add">Add Service</string>
+  <string name="integrations_picker__add">Tilføj tjeneste</string>
   <string name="integrations_conv_bot">Bot</string>
   <string name="integrations_chathead__section_title">Tjenester</string>
-  <string name="integrations_errors_add_service">Adding service not possible</string>
+  <string name="integrations_errors_add_service">Tilføje tjeneste ikke muligt</string>
   <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
   <string name="conversation_errors_full">The conversation is full</string>
   <!-- start ui / people picker, contacts sharing -->
@@ -229,14 +228,14 @@
   <string name="content__location__no_map_placeholder">PLACERINGEN VISES PÅ KORTET, NÅR DU ER ONLINE IGEN.</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">Omdøb</string>
-  <string name="conversation__action__delete">Delete content&#8230;</string>
+  <string name="conversation__action__delete">Slet indhold&#8230;</string>
   <string name="conversation__action__archive">Arkiv</string>
   <string name="conversation__action__unarchive">Fjern fra arkiv</string>
   <string name="conversation__action__add_people">TILFØJ PERSONER</string>
   <string name="conversation__action__create_group">OPRET GRUPPE</string>
   <string name="conversation__action__silence">Lyd fra</string>
   <string name="conversation__action__unsilence">Lyd til</string>
-  <string name="conversation__action__leave">Leave group&#8230;</string>
+  <string name="conversation__action__leave">Forlad gruppen&#8230;</string>
   <string name="conversation__action__remove">Fjern</string>
   <string name="conversation__action__call">Ring op</string>
   <string name="conversation__action__picture">Billede</string>
@@ -254,21 +253,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Langsomt internet</string>
   <string name="calling__slow_connection__message">Din internetforbindelse er for langsom til at foretage et opkald. Prøv igen senere.</string>
-  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Opkald ikke tilgængeligt</string>
   <string name="calling__cannot_start__message">For at ringe op, skal du afslutte dit igangværende opkald.</string>
   <string name="calling__cannot_start__no_permission__message">For at ringe op, skal du give tilladelse til at få adgang til mikrofonen.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s er optaget</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Prøv igen senere</string>
   <string name="calling__cannot_start__no_video_permission__message">For at foretage video opkald, skal du give tilladelse til at få adgang til mikrofon samt kamera.</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Indstillinger</string>
   <string name="calling__video_call__slow_connection__message">Du kan opleve problemer under opkaldet</string>
-  <string name="calling__header__joining">deltager</string>
-  <string name="calling__header__outgoing_subtitle">ringer</string>
-  <string name="calling__header__outgoing_video_subtitle">ringer</string>
-  <string name="calling__header__incoming_subtitle">ringer op</string>
-  <string name="calling__header__incoming_subtitle__video">videoopkald</string>
   <string name="incoming__controls__incoming__decline">AFSLÅ</string>
   <string name="incoming__controls__incoming__accept">ACCEPTER</string>
   <string name="incoming__controls__ongoing__hangup">LÆG PÅ</string>
@@ -281,11 +273,27 @@
   <string name="ongoing__connecting">TILSLUTTER&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO FRA</string>
   <string name="calling__self_preview_unavailable_long">KAMERA IKKE TILGÆNGELIGT</string>
+  <string name="calling__header__joining">deltager</string>
+  <string name="calling__header__outgoing_subtitle">ringer</string>
+  <string name="calling__header__outgoing_video_subtitle">ringer</string>
+  <string name="calling__header__incoming_subtitle">ringer op</string>
+  <string name="calling__header__incoming_subtitle__video">videoopkald</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Ongoing call</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Starte et opkald</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Dette vil medføre et opkald til %1$d personer</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">Ring op</string>
-  <string name="group_calling_cancel">Annuller</string>
   <!-- Connect request -->
   <string name="connect__message">Hej %1$s,\nLad os forbinde os på Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -359,7 +367,7 @@
   <string name="connect_request__footer__blocked_label">Blokkeret</string>
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Slet indhold?</string>
-  <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
+  <string name="confirmation_menu__meta_delete_text">Dette vil fjerne samtaleoversigten på alle dine enheder.</string>
   <string name="confirmation_menu__confirm_delete">SLET</string>
   <string name="confirmation_menu__delete_conversation__checkbox__label">Forlad også samtalen</string>
   <!-- Rich media -->
@@ -391,7 +399,7 @@
   <string name="menu_help">HJÆLP</string>
   <string name="menu_logout">LOG UD</string>
   <!-- Manage Team -->
-  <string name="pref_manage_team_title">Manage Team</string>
+  <string name="pref_manage_team_title">Administrer Team</string>
   <!-- About screen -->
   <string name="about_privacy_policy">Fortrolighedspolitik</string>
   <string name="about_third_party_licences">Licenser</string>
@@ -412,7 +420,7 @@
   <string name="pref_account_actions_category_title">Handlinger</string>
   <string name="pref_account_personal_category_title">Personligt</string>
   <string name="pref_account_appearance_category_title">Udseende</string>
-  <string name="pref_account_conversations_category_title">History</string>
+  <string name="pref_account_conversations_category_title">Historik</string>
   <string name="pref_account_details_category_summary">Folk kan finde dig med disse oplysninger.</string>
   <string name="pref_account_personal_category_summary">Oplysningerne er ikke synlige for andre</string>
   <string name="pref_account_username_title">Brugernavn</string>
@@ -1043,8 +1051,8 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="participant_tab_guest_indicator_label">Gæst</string>
   <string name="availability_none">Ingen</string>
   <string name="availability_available">Ledig</string>
-  <string name="availability_away">Away</string>
-  <string name="availability_busy">Busy</string>
+  <string name="availability_away">Ikke til stede</string>
+  <string name="availability_busy">Optaget</string>
   <string name="availability_text_available">%1$s IS AVAILABLE</string>
   <string name="availability_text_away">%1$s IS AWAY</string>
   <string name="availability_text_busy">%1$s IS BUSY</string>
@@ -1091,7 +1099,7 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="app_entry_dialog_view">VIEW</string>
   <string name="app_entry_email_sent">Email sent</string>
   <string name="teams_set_username_subtitle">Usernames help people find you.</string>
-  <string name="pick_user_teams_invite">Invite people to join the team</string>
+  <string name="pick_user_teams_invite">Inviter personer til holdet</string>
   <string name="teams_invitations_skip">SKIP</string>
   <string name="teams_invitations_done">DONE</string>
   <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
@@ -1108,12 +1116,12 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">Build your team</string>
   <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
-  <string name="add_service_button_text">Add Service</string>
+  <string name="add_service_button_text">Tilføj tjeneste</string>
   <string name="remove_service_button_text">Remove Service</string>
-  <string name="integrations_create_conversation">Create a new conversation</string>
+  <string name="integrations_create_conversation">Opret en ny samtale</string>
   <string name="no_matches_found">No matches found</string>
   <string name="create_group_conversation">Opret gruppe</string>
-  <string name="create_guest_room_conversation">Create guest room</string>
+  <string name="create_guest_room_conversation">Opret gæsterum</string>
   <string name="next_button">NEXT</string>
   <string name="skip_button">SKIP</string>
   <string name="done_button">DONE</string>
@@ -1126,13 +1134,13 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="participants_divider_services">SERVICES (%1$s)</string>
   <string name="participants_divider_people">PEOPLE (%1$s)</string>
   <string name="group_name_hint">GROUP NAME</string>
-  <string name="allow_guests_toggle_text">Allow guests</string>
-  <string name="allow_guests_toggle_info_text">Open this conversation to people outside your team. You can always change it later.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to people outside your team.</string>
+  <string name="allow_guests_toggle_text">Tillad gæster</string>
+  <string name="allow_guests_toggle_info_text">Åbn denne samtale for personer uden for dit team. Du kan altid ændre det senere.</string>
+  <string name="open_this_conversation_to_people_outside_your_team">Åbn denne samtale for personer uden for dit team.</string>
   <string name="allow_guests">Allow Guests</string>
   <string name="guest_options_title">Guest Options</string>
   <string name="allow_guests_error_title">Noget gik galt</string>
-  <string name="allow_guests_error_body">Could not allow guests. Please try again.</string>
+  <string name="allow_guests_error_body">Kunne ikke tillade gæster. Prøv venligst igen.</string>
   <string name="allow_guests_warning_body">Current guests will be removed from the conversation. New guests will not be allowed.</string>
   <string name="allow_guests_warning_confirm">Remove Guests</string>
   <string name="guests_are_present">GUESTS ARE PRESENT</string>
@@ -1144,17 +1152,17 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="revoke_link_button">Revoke Link&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link Copied!</string>
-  <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
+  <string name="revoke_link_message">Nye gæster vil ikke kunne tilslutte med dette link. Aktuelle gæster vil stadig have adgang.</string>
   <string name="revoke_link_confirm">Revoke Link</string>
-  <string name="invite_button_description">People outside your team can join this conversation.</string>
+  <string name="invite_button_description">Folk uden for dit team kan deltage i denne samtale.</string>
   <string name="invite_people">Invitér personer</string>
-  <string name="guest_room_name">Guest room</string>
+  <string name="guest_room_name">Gæsterum</string>
   <string name="guest_time_left_hours">%1$sh left</string>
   <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
   <string name="guest_time_left_minutes">Less than %1$sm left</string>
   <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
         \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="pref_account_backup_title">Sikkerhedskopier samtaler</string>
   <string name="add_email_address">Add your email address</string>
   <string name="set_a_password">Set a password</string>
   <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
@@ -1172,13 +1180,13 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="pref_account_backup_warning_title">Set an email and password.</string>
   <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
   <string name="pref_account_backup_warning_ok">OK</string>
-  <string name="export_generic_error_title">The file could not be saved</string>
+  <string name="export_generic_error_title">Filen kunne ikke gemmes</string>
   <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
   <string name="backup_button">Back Up Now</string>
   <string name="backup_import_error_unknown_title">Noget gik galt</string>
-  <string name="backup_import_error_unknown">Your history could not be restored.</string>
-  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
-  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
-  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
-  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
+  <string name="backup_import_error_unknown">Din historik kunne ikke gendannes.</string>
+  <string name="backup_import_error_unsupported_version_title">Ukompatibel sikkerhedskopi</string>
+  <string name="backup_import_error_unsupported_version">Denne sikkerhedskopi er lavet på en nyere eller uddateret version af Wire og kan ikke blive gendannet her.</string>
+  <string name="backup_import_error_wrong_account_title">Forkert sikkerhedskopi</string>
+  <string name="backup_import_error_wrong_account">Du kan ikke gendanne historik fra en anden konto.</string>
 </resources>

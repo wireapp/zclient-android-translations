@@ -51,7 +51,6 @@ E-Mail-Adresse ein</string>
   <string name="phone_budget_exhausted_header">Zu viele Anfragen</string>
   <string name="phone_budget_exhausted_message">Bitte später erneut versuchen.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">Verstanden</string>
   <string name="permissions_denied_dialog_settings">Einstellungen</string>
   <string name="camera_not_available">KAMERA NICHT VERFÜGBAR</string>
   <string name="camera_permissions_denied_title">Kamera nicht verfügbar</string>
@@ -255,21 +254,14 @@ E-Mail-Adresse ein</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Schlechte Internetverbindung</string>
   <string name="calling__slow_connection__message">Deine Internetverbindung ist gerade zu langsam um anzurufen. Bitte versuche es später erneut.</string>
-  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Anrufen nicht möglich</string>
   <string name="calling__cannot_start__message">Beende bitte den aktuellen Anruf um einen neuen zu beginnen.</string>
   <string name="calling__cannot_start__no_permission__message">Um anzurufen, erteile die Berechtigung auf das Mikrofon zuzugreifen.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s ist besetzt</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Versuche es später nochmal</string>
   <string name="calling__cannot_start__no_video_permission__message">Für Videoanfrufe benötigen wir die Zugriffsberechtigung auf Kamera und Mikrofon.</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Einstellungen</string>
   <string name="calling__video_call__slow_connection__message">Eventuell kommt es zu Problemen während des Anrufs</string>
-  <string name="calling__header__joining">tritt bei</string>
-  <string name="calling__header__outgoing_subtitle">klingelt</string>
-  <string name="calling__header__outgoing_video_subtitle">klingelt</string>
-  <string name="calling__header__incoming_subtitle">ruft an</string>
-  <string name="calling__header__incoming_subtitle__video">ruft mit Video an</string>
   <string name="incoming__controls__incoming__decline">ABLEHNEN</string>
   <string name="incoming__controls__incoming__accept">ANNEHMEN</string>
   <string name="incoming__controls__ongoing__hangup">AUFLEGEN</string>
@@ -282,11 +274,27 @@ E-Mail-Adresse ein</string>
   <string name="ongoing__connecting">VERBINDUNG WIRD HERGESTELLT&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO AUS</string>
   <string name="calling__self_preview_unavailable_long">KAMERA NICHT VERFÜGBAR</string>
+  <string name="calling__header__joining">tritt bei</string>
+  <string name="calling__header__outgoing_subtitle">klingelt</string>
+  <string name="calling__header__outgoing_video_subtitle">klingelt</string>
+  <string name="calling__header__incoming_subtitle">ruft an</string>
+  <string name="calling__header__incoming_subtitle__video">ruft mit Video an</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">KLINGELT</string>
+  <string name="call_banner_incoming">ANRUF</string>
+  <string name="call_banner_incoming_video">VIDEOANRUF</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Aktiver Anruf</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Anruf bestätigen</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Du wirst %1$d Personen anrufen</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">Anruf</string>
-  <string name="group_calling_cancel">ABBRECHEN</string>
   <!-- Connect request -->
   <string name="connect__message">Hallo %1$s, \nbitte füge mich als Kontakt hinzu. \n%2$s</string>
   <plurals name="connect_request__common_users__summary">

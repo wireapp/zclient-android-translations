@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">অত্যধিক অনুরোধ</string>
   <string name="phone_budget_exhausted_message">অনুগ্রহ করে পরে আবার চেষ্টা করুন।.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">ঠিক আছে</string>
   <string name="permissions_denied_dialog_settings">সেটিংস</string>
   <string name="camera_not_available">ক্যামেরা অ্যাভেইলেবল না</string>
   <string name="camera_permissions_denied_title">ক্যামেরা অ্যাভেইলেবল না</string>
@@ -254,21 +253,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">ধীর গতির ইন্টারনেট</string>
   <string name="calling__slow_connection__message">আপনার ইন্টারনেট কানেকশান কল করার জন্য বেশি স্লো। অনুগ্রহ করে পরে আবার চেষ্টা করুন।</string>
-  <string name="calling__slow_connection__button">ঠিক আছে</string>
   <string name="calling__cannot_start__title">কল অ্যাভেইলেবল না</string>
   <string name="calling__cannot_start__message">পরবর্তী কল করার জন্য, আপনার বর্তমান কল কেটে দিন।</string>
   <string name="calling__cannot_start__no_permission__message">কল করার জন্য মাইক্রোফোন ব্যবহারের অনুমতি দিন।</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s ব্যস্ত।</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">কিছুক্ষণ পর আবার চেষ্টা করুন</string>
   <string name="calling__cannot_start__no_video_permission__message">ভিডিও কল করার জন্য মাইক্রোফোন ও ক্যামেরায় প্রবেশের অনুমতি দিন।</string>
-  <string name="calling__cannot_start__button">ওকে</string>
   <string name="calling__cannot_start__button_settings">সেটিংস</string>
   <string name="calling__video_call__slow_connection__message">আপনি কল করার সময় সমস্যার সম্মুখীন হতে পারেন</string>
-  <string name="calling__header__joining">সংযোগ স্থাপিত হচ্ছে</string>
-  <string name="calling__header__outgoing_subtitle">রিং বাজছে</string>
-  <string name="calling__header__outgoing_video_subtitle">রিং বাজছে</string>
-  <string name="calling__header__incoming_subtitle">কলিং</string>
-  <string name="calling__header__incoming_subtitle__video">ভিডিও কলিং</string>
   <string name="incoming__controls__incoming__decline">কেটে দিন</string>
   <string name="incoming__controls__incoming__accept">গ্রহণ করুন</string>
   <string name="incoming__controls__ongoing__hangup">কেটে দিন</string>
@@ -281,11 +273,27 @@
   <string name="ongoing__connecting">সংযুক্ত হচ্ছে...</string>
   <string name="calling__self_preview_unavailable">ভিডিও বন্ধ করুন</string>
   <string name="calling__self_preview_unavailable_long">ক্যামেরা অ্যাভেইলেবল না</string>
+  <string name="calling__header__joining">সংযোগ স্থাপিত হচ্ছে</string>
+  <string name="calling__header__outgoing_subtitle">রিং বাজছে</string>
+  <string name="calling__header__outgoing_video_subtitle">রিং বাজছে</string>
+  <string name="calling__header__incoming_subtitle">কলিং</string>
+  <string name="calling__header__incoming_subtitle__video">ভিডিও কলিং</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Ongoing call</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Start a call</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$d people</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">কল করুন</string>
-  <string name="group_calling_cancel">বাতিল করুন</string>
   <!-- Connect request -->
   <string name="connect__message">হাই %1$s, \nচল ওয়্যার এ কানেক্ট করি \n%2$s</string>
   <plurals name="connect_request__common_users__summary">

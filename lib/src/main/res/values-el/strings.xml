@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Πάρα πολλά αιτήματα</string>
   <string name="phone_budget_exhausted_message">Παρακαλούμε δοκιμάστε ξανά αργότερα.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">Εντάξει</string>
   <string name="permissions_denied_dialog_settings">Ρυθμίσεις</string>
   <string name="camera_not_available">Η ΚΑΜΕΡΑ ΔΕΝ ΕΙΝΑΙ ΔΙΑΘΕΣΙΜΗ</string>
   <string name="camera_permissions_denied_title">Η κάμερα δεν είναι διαθέσιμη</string>
@@ -254,21 +253,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Αργή σύνδεση</string>
   <string name="calling__slow_connection__message">Η σύνδεση δικτύου σας είναι πολύ αργή για να καλέσετε μόλις τώρα. Παρακαλούμε δοκιμάστε ξανά αργότερα.</string>
-  <string name="calling__slow_connection__button">Εντάξει</string>
   <string name="calling__cannot_start__title">Κλήση μη διαθέσιμη</string>
   <string name="calling__cannot_start__message">Για να καλέσετε, τερματίστε την τρέχουσα κλήση σας.</string>
   <string name="calling__cannot_start__no_permission__message">Για να καλέσετε, χρειάζεται η άδεια πρόσβασης στο μικρόφωνο.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s είναι απασχολημένος</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Δοκιμάστε ξανά αργότερα</string>
   <string name="calling__cannot_start__no_video_permission__message">Για βιντεοκλήση, χρειάζεται η άδεια πρόσβασης στο μικρόφωνο και την κάμερα σας.</string>
-  <string name="calling__cannot_start__button">Εντάξει</string>
   <string name="calling__cannot_start__button_settings">Ρυθμίσεις</string>
   <string name="calling__video_call__slow_connection__message">Ενδεχομένως να αντιμετωπίσετε κάποια προβλήματα κατά την κλήση</string>
-  <string name="calling__header__joining">συμμετοχή</string>
-  <string name="calling__header__outgoing_subtitle">κουδουνίζει</string>
-  <string name="calling__header__outgoing_video_subtitle">κουδουνίζει</string>
-  <string name="calling__header__incoming_subtitle">καλεί</string>
-  <string name="calling__header__incoming_subtitle__video">κλήση βίντεο</string>
   <string name="incoming__controls__incoming__decline">Απόρριψη</string>
   <string name="incoming__controls__incoming__accept">Αποδοχή</string>
   <string name="incoming__controls__ongoing__hangup">ΚΛΕΙΣΙΜΟ</string>
@@ -281,11 +273,27 @@
   <string name="ongoing__connecting">Συνδέεται&#8230;</string>
   <string name="calling__self_preview_unavailable">Βίντεο κλειστό</string>
   <string name="calling__self_preview_unavailable_long">Η ΚΑΜΕΡΑ ΔΕΝ ΕΙΝΑΙ ΔΙΑΘΕΣΙΜΗ</string>
+  <string name="calling__header__joining">συμμετοχή</string>
+  <string name="calling__header__outgoing_subtitle">κουδουνίζει</string>
+  <string name="calling__header__outgoing_video_subtitle">κουδουνίζει</string>
+  <string name="calling__header__incoming_subtitle">καλεί</string>
+  <string name="calling__header__incoming_subtitle__video">κλήση βίντεο</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Ongoing call</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Έναρξη κλήσεως</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Αυτό θα καλέσει %1$d άτομα</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">Κλήση</string>
-  <string name="group_calling_cancel">Aκύρωση</string>
   <!-- Connect request -->
   <string name="connect__message">Γεια %1$s,\nΑς συνδεθούμε στο Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">

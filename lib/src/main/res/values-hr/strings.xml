@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Too many requests</string>
   <string name="phone_budget_exhausted_message">Please try again later.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">U redu</string>
   <string name="permissions_denied_dialog_settings">Postavke</string>
   <string name="camera_not_available">KAMERA NIJE DOSTUPNA</string>
   <string name="camera_permissions_denied_title">Kamera nije dostupna</string>
@@ -256,21 +255,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Spora internetska veza</string>
   <string name="calling__slow_connection__message">Vaša internetska veza je prespora da bi zvali sada. Molimo pokušajte kasnije.</string>
-  <string name="calling__slow_connection__button">U redu</string>
   <string name="calling__cannot_start__title">Poziv nedostupan</string>
   <string name="calling__cannot_start__message">Prekinite trenutni poziv da biste uspostavili novi.</string>
   <string name="calling__cannot_start__no_permission__message">Omogućite pristup mikrofonu da biste uspostavili poziv.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s je zauzet</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Pokušajte ponovno kasnije</string>
   <string name="calling__cannot_start__no_video_permission__message">Omogućite pristup mikrofonu i kameri da biste uspostavili video poziv.</string>
-  <string name="calling__cannot_start__button">U redu</string>
   <string name="calling__cannot_start__button_settings">Postavke</string>
   <string name="calling__video_call__slow_connection__message">U ovom pozivu biste mogli iskusiti manje poteškoće</string>
-  <string name="calling__header__joining">spajam</string>
-  <string name="calling__header__outgoing_subtitle">zvoni</string>
-  <string name="calling__header__outgoing_video_subtitle">zvoni</string>
-  <string name="calling__header__incoming_subtitle">poziv</string>
-  <string name="calling__header__incoming_subtitle__video">video poziv</string>
   <string name="incoming__controls__incoming__decline">ODBIJ POZIV</string>
   <string name="incoming__controls__incoming__accept">PRIHVATI POZIV</string>
   <string name="incoming__controls__ongoing__hangup">PREKINI POZIV</string>
@@ -283,11 +275,27 @@
   <string name="ongoing__connecting">SPAJAM&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO ISKLJUČEN</string>
   <string name="calling__self_preview_unavailable_long">KAMERA NIJE DOSTUPNA</string>
+  <string name="calling__header__joining">spajam</string>
+  <string name="calling__header__outgoing_subtitle">zvoni</string>
+  <string name="calling__header__outgoing_video_subtitle">zvoni</string>
+  <string name="calling__header__incoming_subtitle">poziv</string>
+  <string name="calling__header__incoming_subtitle__video">video poziv</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Ongoing call</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Pokreni poziv</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$d people</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">Poziv</string>
-  <string name="group_calling_cancel">Odustani</string>
   <!-- Connect request -->
   <string name="connect__message">Bok %1$s,\nPovežimo se na Wireu.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">

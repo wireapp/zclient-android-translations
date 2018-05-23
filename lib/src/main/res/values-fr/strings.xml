@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Trop de demandes</string>
   <string name="phone_budget_exhausted_message">Veuillez réessayer plus tard.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Paramètres</string>
   <string name="camera_not_available">APPAREIL PHOTO INDISPONIBLE</string>
   <string name="camera_permissions_denied_title">Appareil photo indisponible</string>
@@ -236,16 +235,16 @@
   <string name="conversation__action__create_group">CRÉER UN GROUPE</string>
   <string name="conversation__action__silence">Mettre en sourdine</string>
   <string name="conversation__action__unsilence">Désactiver la sourdine</string>
-  <string name="conversation__action__leave">Leave group&#8230;</string>
+  <string name="conversation__action__leave">Quitter le groupe&#8230;</string>
   <string name="conversation__action__remove">Supprimer</string>
   <string name="conversation__action__call">Appeler</string>
   <string name="conversation__action__picture">Image</string>
   <string name="conversation__action__block">Bloquer&#8230;</string>
   <string name="conversation__action__unblock">Débloquer</string>
   <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
+  <string name="conversation__action__leave_only">\tQuitter le groupe</string>
+  <string name="conversation__action__delete_and_leave">\tSupprimer le contenu et quitter</string>
+  <string name="conversation__action__delete_only">\tSupprimer le contenu</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">OUVRIR</string>
   <string name="popover__action__remove">SUPPRIMER</string>
@@ -254,21 +253,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Connexion lente</string>
   <string name="calling__slow_connection__message">Votre connexion Internet est trop lente pour effectuer un appel. Veuillez réessayer ultérieurement.</string>
-  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Appel non disponible</string>
   <string name="calling__cannot_start__message">Pour appeler, terminez votre appel en cours.</string>
   <string name="calling__cannot_start__no_permission__message">Pour appeler, autorisez l\'accès au microphone.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s est occupé(e)</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Réessayez ultérieurement</string>
   <string name="calling__cannot_start__no_video_permission__message">Pour passer un appel vidéo, autorisez l\'accès au microphone et à l\'appareil photo.</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Paramètres</string>
   <string name="calling__video_call__slow_connection__message">Vous pourriez avoir des problèmes pendant l\'appel</string>
-  <string name="calling__header__joining">connexion</string>
-  <string name="calling__header__outgoing_subtitle">sonnerie</string>
-  <string name="calling__header__outgoing_video_subtitle">sonnerie</string>
-  <string name="calling__header__incoming_subtitle">appel entrant</string>
-  <string name="calling__header__incoming_subtitle__video">appel vidéo entrant</string>
   <string name="incoming__controls__incoming__decline">REJETER</string>
   <string name="incoming__controls__incoming__accept">ACCEPTER</string>
   <string name="incoming__controls__ongoing__hangup">RACCROCHER</string>
@@ -281,11 +273,27 @@
   <string name="ongoing__connecting">CONNEXION&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDÉO DÉSACTIVÉE</string>
   <string name="calling__self_preview_unavailable_long">APPAREIL PHOTO INDISPONIBLE</string>
+  <string name="calling__header__joining">connexion</string>
+  <string name="calling__header__outgoing_subtitle">sonnerie</string>
+  <string name="calling__header__outgoing_video_subtitle">sonnerie</string>
+  <string name="calling__header__incoming_subtitle">appel entrant</string>
+  <string name="calling__header__incoming_subtitle__video">appel vidéo entrant</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">APPEL EN COURS</string>
+  <string name="call_banner_incoming">EN COURS D\'APPEL</string>
+  <string name="call_banner_incoming_video">EN COURS D\'APPEL VIDÉO</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Appel en cours</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Démarrer un appel</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Cela appellera %1$d personnes</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">Appeler</string>
-  <string name="group_calling_cancel">Annuler</string>
   <!-- Connect request -->
   <string name="connect__message">Bonjour %1$s,\nConnectons-nous sur Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -412,7 +420,7 @@
   <string name="pref_account_actions_category_title">Actions</string>
   <string name="pref_account_personal_category_title">Personnel</string>
   <string name="pref_account_appearance_category_title">Apparence</string>
-  <string name="pref_account_conversations_category_title">History</string>
+  <string name="pref_account_conversations_category_title">Historique</string>
   <string name="pref_account_details_category_summary">Des personnes peuvent vous trouver avec ces informations.</string>
   <string name="pref_account_personal_category_summary">Cette information n\'est visible que par vous</string>
   <string name="pref_account_username_title">Nom d\'utilisateur</string>
@@ -1150,9 +1158,8 @@
   <string name="guest_time_left_hours">Plus que %1$s h</string>
   <string name="guest_time_left_hours_minutes">Plus que %1$s:%2$s h</string>
   <string name="guest_time_left_minutes">Plus que %1$s m</string>
-  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-  <string name="pref_account_backup_title">Back up conversations</string>
+  <string name="backup_description">Créer une sauvegarde afin de préserver l\'historique de vos conversations.\nVous pourrez utiliser celle-ci si vous perdez votre périphérique ou si vous basculer vers un nouveau.</string>
+  <string name="pref_account_backup_title">Sauvegarder les conversations</string>
   <string name="add_email_address">Add your email address</string>
   <string name="set_a_password">Set a password</string>
   <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
