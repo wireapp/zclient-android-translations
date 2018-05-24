@@ -51,6 +51,7 @@ E-Mail-Adresse ein</string>
   <string name="phone_budget_exhausted_header">Zu viele Anfragen</string>
   <string name="phone_budget_exhausted_message">Bitte später erneut versuchen.</string>
   <!--*********************************************** ERRORS ***********************************************-->
+  <string name="permissions_denied_dialog_acknowledge">Verstanden</string>
   <string name="permissions_denied_dialog_settings">Einstellungen</string>
   <string name="camera_not_available">KAMERA NICHT VERFÜGBAR</string>
   <string name="camera_permissions_denied_title">Kamera nicht verfügbar</string>
@@ -116,6 +117,10 @@ E-Mail-Adresse ein</string>
   <string name="people_picker__guest_label">Gast</string>
   <string name="people_picker__search_people">PERSONEN</string>
   <string name="people_picker__search_services">DIENSTLEISTUNGEN</string>
+  <string name="receive_news_and_offers_request_title">Newsletter</string>
+  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+  <string name="crashes_and_analytics_request_title">Helfen Sie uns, Wire besser zu machen</string>
+  <string name="crashes_and_analytics_request_body">Anonymisierte Nutzungs- und Absturzberichte helfen uns, unsere Produkte und Dienstleistungen zu verbessern. Wir verwenden diese Informationen nicht für andere Zwecke.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Services</string>
   <string name="integrations_picker__add">Dienst hinzufügen</string>
@@ -240,12 +245,6 @@ E-Mail-Adresse ein</string>
   <string name="conversation__action__remove">Entfernen</string>
   <string name="conversation__action__call">Anruf</string>
   <string name="conversation__action__picture">Bild</string>
-  <string name="conversation__action__block">Sperren&#8230;</string>
-  <string name="conversation__action__unblock">Freigeben</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ÖFFNEN</string>
   <string name="popover__action__remove">ENTFERNEN</string>
@@ -254,14 +253,21 @@ E-Mail-Adresse ein</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Schlechte Internetverbindung</string>
   <string name="calling__slow_connection__message">Deine Internetverbindung ist gerade zu langsam um anzurufen. Bitte versuche es später erneut.</string>
+  <string name="calling__slow_connection__button">Verstanden</string>
   <string name="calling__cannot_start__title">Anrufen nicht möglich</string>
   <string name="calling__cannot_start__message">Beende bitte den aktuellen Anruf um einen neuen zu beginnen.</string>
   <string name="calling__cannot_start__no_permission__message">Um anzurufen, erteile die Berechtigung auf das Mikrofon zuzugreifen.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s ist besetzt</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Versuche es später nochmal</string>
   <string name="calling__cannot_start__no_video_permission__message">Für Videoanfrufe benötigen wir die Zugriffsberechtigung auf Kamera und Mikrofon.</string>
+  <string name="calling__cannot_start__button">Verstanden</string>
   <string name="calling__cannot_start__button_settings">Einstellungen</string>
   <string name="calling__video_call__slow_connection__message">Eventuell kommt es zu Problemen während des Anrufs</string>
+  <string name="calling__header__joining">tritt bei</string>
+  <string name="calling__header__outgoing_subtitle">klingelt</string>
+  <string name="calling__header__outgoing_video_subtitle">klingelt</string>
+  <string name="calling__header__incoming_subtitle">ruft an</string>
+  <string name="calling__header__incoming_subtitle__video">ruft mit Video an</string>
   <string name="incoming__controls__incoming__decline">ABLEHNEN</string>
   <string name="incoming__controls__incoming__accept">ANNEHMEN</string>
   <string name="incoming__controls__ongoing__hangup">AUFLEGEN</string>
@@ -274,27 +280,11 @@ E-Mail-Adresse ein</string>
   <string name="ongoing__connecting">VERBINDUNG WIRD HERGESTELLT&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO AUS</string>
   <string name="calling__self_preview_unavailable_long">KAMERA NICHT VERFÜGBAR</string>
-  <string name="calling__header__joining">tritt bei</string>
-  <string name="calling__header__outgoing_subtitle">klingelt</string>
-  <string name="calling__header__outgoing_video_subtitle">klingelt</string>
-  <string name="calling__header__incoming_subtitle">ruft an</string>
-  <string name="calling__header__incoming_subtitle__video">ruft mit Video an</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">KLINGELT</string>
-  <string name="call_banner_incoming">ANRUF</string>
-  <string name="call_banner_incoming_video">VIDEOANRUF</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
-  <string name="calling_ongoing_call_title">Aktiver Anruf</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Anruf bestätigen</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Du wirst %1$d Personen anrufen</string>
   <string name="group_calling_confirm">Anruf</string>
+  <string name="group_calling_cancel">Abbrechen</string>
   <!-- Connect request -->
   <string name="connect__message">Hallo %1$s, \nbitte füge mich als Kontakt hinzu. \n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -363,7 +353,7 @@ E-Mail-Adresse ein</string>
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blockieren?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s wird dich nicht länger kontaktieren oder zu Gruppen hinzufügen können.</string>
-  <string name="confirmation_menu__confirm_block">Blockieren</string>
+  <string name="confirmation_menu__confirm_block">Sperren&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Blockiert</string>
   <!-- Delete conversation -->
@@ -411,7 +401,6 @@ E-Mail-Adresse ein</string>
   <string name="pref_developer_screen_title">Developer-Einstellungen</string>
   <string name="pref_dev_avs_screen_title">AVS-Einstellungen</string>
   <string name="pref_profile_screen_title">Profil</string>
-  <string name="pref_backup_screen_title">Unterhaltungen sichern</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Benutzerkonto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -421,6 +410,7 @@ E-Mail-Adresse ein</string>
   <string name="pref_account_actions_category_title">Aktionen</string>
   <string name="pref_account_personal_category_title">Nutzerangaben</string>
   <string name="pref_account_appearance_category_title">Erscheinungsbild</string>
+  <string name="pref_account_personal_information_category_title">Persönliche Informationen</string>
   <string name="pref_account_conversations_category_title">Gesprächsverlauf</string>
   <string name="pref_account_details_category_summary">Du kannst über diese Informationen von anderen gefunden werden.</string>
   <string name="pref_account_personal_category_summary">Diese Informationen werden anderen nicht angezeigt</string>
@@ -445,6 +435,13 @@ E-Mail-Adresse ein</string>
   <string name="pref_account_password_title">Passwort zurücksetzen</string>
   <string name="pref_account_edit_name_empty_warning">Name muss mindestens 2 Zeichen lang sein</string>
   <string name="pref_account_edit_name_empty_verify">Verstanden</string>
+  <string name="pref_account_data_usage_permissions">Datennutzungsrechte</string>
+  <string name="pref_backup_screen_title">Unterhaltungen sichern</string>
+  <!-- Data Usage Permissions -->
+  <string name="pref_advanced_send_anonymous_data_title">Anonyme Nutzungsdaten senden</string>
+  <string name="pref_advanced_send_anonymous_data_summary">Hilf mit, Wire durch die Übermittlung anonymisierter Nutzungs- und Absturzberichte zu verbessern.</string>
+  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Erhalte News und Informationen zu Produktupdates von Wire per E-Mail.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Dunkler Hintergrund</string>
   <string name="pref_options_screen_title">Optionen</string>
@@ -1096,7 +1093,9 @@ E-Mail-Adresse ein</string>
   <string name="app_entry_notifications_dialog_message">Benachrichtigungen können Anzeigen, Töne und App Badges enthalten. Diese können in den Einstellungen konfiguriert werden.</string>
   <string name="app_entry_dialog_accept">ANNEHMEN</string>
   <string name="app_entry_dialog_cancel">ABBRECHEN</string>
+  <string name="app_entry_dialog_not_now">NOT NOW</string>
   <string name="app_entry_dialog_view">ANSICHT</string>
+  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
   <string name="app_entry_email_sent">E-Mail verschickt</string>
   <string name="teams_set_username_subtitle">Dein Benutzername hilft anderen dich zu finden.</string>
   <string name="pick_user_teams_invite">Lade weitere Mitglieder ein</string>

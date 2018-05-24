@@ -50,6 +50,7 @@
   <string name="phone_budget_exhausted_header">Per daug bandymų</string>
   <string name="phone_budget_exhausted_message">Bandykite dar kartą vėliau.</string>
   <!--*********************************************** ERRORS ***********************************************-->
+  <string name="permissions_denied_dialog_acknowledge">GERAI</string>
   <string name="permissions_denied_dialog_settings">Nustatymai</string>
   <string name="camera_not_available">KAMERA NEPRIEINAMA</string>
   <string name="camera_permissions_denied_title">Kamera neprieinama</string>
@@ -115,6 +116,10 @@
   <string name="people_picker__guest_label">Svečias</string>
   <string name="people_picker__search_people">ŽMONĖS</string>
   <string name="people_picker__search_services">PASLAUGOS</string>
+  <string name="receive_news_and_offers_request_title">Newsletter</string>
+  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+  <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Paslaugos</string>
   <string name="integrations_picker__add">Pridėti paslaugą</string>
@@ -243,12 +248,6 @@
   <string name="conversation__action__remove">Šalinti</string>
   <string name="conversation__action__call">Skambutis</string>
   <string name="conversation__action__picture">Paveikslas</string>
-  <string name="conversation__action__block">Blokuoti&#8230;</string>
-  <string name="conversation__action__unblock">Atblokuoti</string>
-  <string name="conversation__action__leave_and_delete">\tIšeiti ir ištrinti turinį</string>
-  <string name="conversation__action__leave_only">\tIšeiti iš grupės</string>
-  <string name="conversation__action__delete_and_leave">\tIštrinti turinį ir išeiti</string>
-  <string name="conversation__action__delete_only">\tIštrinti turinį</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ATVERTI</string>
   <string name="popover__action__remove">ŠALINTI</string>
@@ -257,14 +256,21 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Lėtas internetas</string>
   <string name="calling__slow_connection__message">Jūsų interneto ryšys šiuo metu yra pernelyg lėtas. Bandykite dar kartą.</string>
+  <string name="calling__slow_connection__button">GERAI</string>
   <string name="calling__cannot_start__title">Skambinimas negalimas</string>
   <string name="calling__cannot_start__message">Norėdami skambinti užbaikite dabartinį skambutį.</string>
   <string name="calling__cannot_start__no_permission__message">Norėdami skambinti, suteikite teisę naudoti mikrofoną.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s užimtas(-a)</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Bandykite dar kartą vėliau</string>
   <string name="calling__cannot_start__no_video_permission__message">Norėdami skambinti su vaizdu, suteikite teisę naudoti mikrofoną ir kamerą.</string>
+  <string name="calling__cannot_start__button">GERAI</string>
   <string name="calling__cannot_start__button_settings">Nustatymai</string>
   <string name="calling__video_call__slow_connection__message">Skambučio metu gali kilti nesklandumų</string>
+  <string name="calling__header__joining">jungiasi</string>
+  <string name="calling__header__outgoing_subtitle">skambina</string>
+  <string name="calling__header__outgoing_video_subtitle">skambina</string>
+  <string name="calling__header__incoming_subtitle">skambina</string>
+  <string name="calling__header__incoming_subtitle__video">skambina su vaizdu</string>
   <string name="incoming__controls__incoming__decline">ATMESTI</string>
   <string name="incoming__controls__incoming__accept">PRIIMTI</string>
   <string name="incoming__controls__ongoing__hangup">BAIGTI</string>
@@ -277,27 +283,11 @@
   <string name="ongoing__connecting">JUNGIAMASI&#8230;</string>
   <string name="calling__self_preview_unavailable">BE VAIZDO</string>
   <string name="calling__self_preview_unavailable_long">KAMERA NEPRIEINAMA</string>
-  <string name="calling__header__joining">jungiasi</string>
-  <string name="calling__header__outgoing_subtitle">skambina</string>
-  <string name="calling__header__outgoing_video_subtitle">skambina</string>
-  <string name="calling__header__incoming_subtitle">skambina</string>
-  <string name="calling__header__incoming_subtitle__video">skambina su vaizdu</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
-  <string name="calling_ongoing_call_title">Vykstantis skambutis</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Pradėti pokalbį</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Skambinsite %1$d žmonėms</string>
   <string name="group_calling_confirm">Skambutis</string>
+  <string name="group_calling_cancel">Atsisakyti</string>
   <!-- Connect request -->
   <string name="connect__message">Sveiki, %1$s,\nSusijunkime per „Wire“.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -378,7 +368,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Užblokuoti?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s negalės su jumis susisiekti ar pridėti jus į grupės susirašinėjimą.</string>
-  <string name="confirmation_menu__confirm_block">Užblokuoti</string>
+  <string name="confirmation_menu__confirm_block">Blokuoti&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Užblokuotas(-a)</string>
   <!-- Delete conversation -->
@@ -426,7 +416,6 @@
   <string name="pref_developer_screen_title">Kūrėjo nustatymai</string>
   <string name="pref_dev_avs_screen_title">AVS nustatymai</string>
   <string name="pref_profile_screen_title">Profilis</string>
-  <string name="pref_backup_screen_title">Kurti susirašinėjimų atsarginę kopiją</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Paskyra</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -436,6 +425,7 @@
   <string name="pref_account_actions_category_title">Veiksmai</string>
   <string name="pref_account_personal_category_title">Asmeninis</string>
   <string name="pref_account_appearance_category_title">Išvaizda</string>
+  <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">Praeitis</string>
   <string name="pref_account_details_category_summary">Žmonės gali jus rasti pagal šią informaciją.</string>
   <string name="pref_account_personal_category_summary">Informacija niekam kitam nėra matoma</string>
@@ -460,6 +450,13 @@
   <string name="pref_account_password_title">Atstatyti slaptažodį</string>
   <string name="pref_account_edit_name_empty_warning">Vardas turi būti iš 2 arba daugiau simbolių</string>
   <string name="pref_account_edit_name_empty_verify">GERAI</string>
+  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+  <string name="pref_backup_screen_title">Kurti susirašinėjimų atsarginę kopiją</string>
+  <!-- Data Usage Permissions -->
+  <string name="pref_advanced_send_anonymous_data_title">Siųsti nuasmenintą informaciją</string>
+  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
+  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product update from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Tamsi tema</string>
   <string name="pref_options_screen_title">Parinktys</string>
@@ -1156,7 +1153,9 @@
   <string name="app_entry_notifications_dialog_message">Pranešimuose gali būti įspėjimai, garsai ir ženkliukai. Tai galima konfigūruoti nustatymuose.</string>
   <string name="app_entry_dialog_accept">PRIIMTI</string>
   <string name="app_entry_dialog_cancel">ATŠAUKTI</string>
+  <string name="app_entry_dialog_not_now">NOT NOW</string>
   <string name="app_entry_dialog_view">RODYTI</string>
+  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
   <string name="app_entry_email_sent">El. laiškas išsiųstas</string>
   <string name="teams_set_username_subtitle">Naudotojo vardas padeda žmonėms jus rasti.</string>
   <string name="pick_user_teams_invite">Kvieskite žmonių prisijungti prie komandos</string>

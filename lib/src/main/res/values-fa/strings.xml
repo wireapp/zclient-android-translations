@@ -50,6 +50,7 @@
   <string name="phone_budget_exhausted_header">درخواست‌ها بیش از حد</string>
   <string name="phone_budget_exhausted_message">لطفا بعدا دوباره تلاش کنید.</string>
   <!--*********************************************** ERRORS ***********************************************-->
+  <string name="permissions_denied_dialog_acknowledge">تایید</string>
   <string name="permissions_denied_dialog_settings">تنظیمات</string>
   <string name="camera_not_available">دوربین در دسترس نیست</string>
   <string name="camera_permissions_denied_title">دوربین در دسترس نیست</string>
@@ -115,6 +116,10 @@
   <string name="people_picker__guest_label">مهمان</string>
   <string name="people_picker__search_people">افراد</string>
   <string name="people_picker__search_services">SERVICES</string>
+  <string name="receive_news_and_offers_request_title">Newsletter</string>
+  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+  <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">سرویس‌ها</string>
   <string name="integrations_picker__add">Add Service</string>
@@ -239,12 +244,6 @@
   <string name="conversation__action__remove">حذف</string>
   <string name="conversation__action__call">تماس</string>
   <string name="conversation__action__picture">نمایه</string>
-  <string name="conversation__action__block">Block&#8230;</string>
-  <string name="conversation__action__unblock">خارج کردن از مسدود بودن</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">شروع مکالمه</string>
   <string name="popover__action__remove">حذف</string>
@@ -253,14 +252,21 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">سرعت اینترنت کم است</string>
   <string name="calling__slow_connection__message">سرعت اینترنت شما برای تماس برقرار کردن کافی نیست. لطفا در فرصت دیگری دوباره امتحان کنید.</string>
+  <string name="calling__slow_connection__button">تایید</string>
   <string name="calling__cannot_start__title">برقراری تماس هم‌اکنون امکان پذیر نیست</string>
   <string name="calling__cannot_start__message">برای تماس گرفتن، نیاز است تا تماس فعلی را قطع کنید.</string>
   <string name="calling__cannot_start__no_permission__message">برای برقرار کردن تماس صوتی، دسترسی داشتن به میکروفن دستگاه شما الزامی است.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s اِشغاله</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">بعداً دوباره سعی کنید</string>
   <string name="calling__cannot_start__no_video_permission__message">برای برقرار کردن تماس ویدیویی، دسترسی داشتن به دوربین دستگاه شما الزامی است.</string>
+  <string name="calling__cannot_start__button">تایید</string>
   <string name="calling__cannot_start__button_settings">تنظیمات</string>
   <string name="calling__video_call__slow_connection__message">شما ممکن است به دلیل سرعت کم اینترنت، تجربه خوبی در حین مکالمه نداشته باشید</string>
+  <string name="calling__header__joining">درحال وارد شدن</string>
+  <string name="calling__header__outgoing_subtitle">درحال زنگ خوردن</string>
+  <string name="calling__header__outgoing_video_subtitle">درحال زنگ خوردن</string>
+  <string name="calling__header__incoming_subtitle">درحال برقراری تماس</string>
+  <string name="calling__header__incoming_subtitle__video">درحال برقراری تماس ویدیویی</string>
   <string name="incoming__controls__incoming__decline">رد کردن تماس</string>
   <string name="incoming__controls__incoming__accept">قبول کردن تماس</string>
   <string name="incoming__controls__ongoing__hangup">قطع کردن مکالمه</string>
@@ -273,27 +279,11 @@
   <string name="ongoing__connecting">درحال برقراری تماس...</string>
   <string name="calling__self_preview_unavailable">غیرفعال شدن ویدیو</string>
   <string name="calling__self_preview_unavailable_long">دوربین در دسترس نیست</string>
-  <string name="calling__header__joining">درحال وارد شدن</string>
-  <string name="calling__header__outgoing_subtitle">درحال زنگ خوردن</string>
-  <string name="calling__header__outgoing_video_subtitle">درحال زنگ خوردن</string>
-  <string name="calling__header__incoming_subtitle">درحال برقراری تماس</string>
-  <string name="calling__header__incoming_subtitle__video">درحال برقراری تماس ویدیویی</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
-  <string name="calling_ongoing_call_title">Ongoing call</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">شروع یک تماس</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">با فرد %1$d تماس میگیرد</string>
   <string name="group_calling_confirm">تماس</string>
+  <string name="group_calling_cancel">انصراف</string>
   <!-- Connect request -->
   <string name="connect__message">سلام %1$s, \nبیا باهم تو Wire گپ بزنیم.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -362,7 +352,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">مسدود شود؟</string>
   <string name="confirmation_menu__block_text_with_name">%1$s قادر به تماس با شما یا اضافه کردن شما به مکالمات گروهی نخواهد بود.</string>
-  <string name="confirmation_menu__confirm_block">مسدود کردن</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">مسدود شد</string>
   <!-- Delete conversation -->
@@ -410,7 +400,6 @@
   <string name="pref_developer_screen_title">تنظیمات بخش توسعه دهندگان</string>
   <string name="pref_dev_avs_screen_title">تنظیمات AVS</string>
   <string name="pref_profile_screen_title">پروفایل</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">حساب کاربری</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -420,6 +409,7 @@
   <string name="pref_account_actions_category_title">اقدامات</string>
   <string name="pref_account_personal_category_title">شخصی</string>
   <string name="pref_account_appearance_category_title">ظاهر</string>
+  <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">مردم شما را با این جزئیات پیدا خواهند کرد.</string>
   <string name="pref_account_personal_category_summary">اطلاعات قابل مشاهده برای کس دیگری نیست</string>
@@ -444,6 +434,13 @@
   <string name="pref_account_password_title">راه اندازی مجدد رمز عبور</string>
   <string name="pref_account_edit_name_empty_warning">نام باید بیشتر از 2 کارکتر داشته باشد</string>
   <string name="pref_account_edit_name_empty_verify">تایید</string>
+  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
+  <!-- Data Usage Permissions -->
+  <string name="pref_advanced_send_anonymous_data_title">Send Anonymous Data</string>
+  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
+  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product update from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">ظاهر تیره</string>
   <string name="pref_options_screen_title">گزینه‌ها</string>
@@ -1094,7 +1091,9 @@
   <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
   <string name="app_entry_dialog_accept">قبول کردن تماس</string>
   <string name="app_entry_dialog_cancel">لغو</string>
+  <string name="app_entry_dialog_not_now">NOT NOW</string>
   <string name="app_entry_dialog_view">VIEW</string>
+  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
   <string name="app_entry_email_sent">ایمیل فرستاده شد</string>
   <string name="teams_set_username_subtitle">نام‌های کاربری به افراد دیگر کمک می‌کند تا شما را پیدا کنند.</string>
   <string name="pick_user_teams_invite">Invite people to join the team</string>

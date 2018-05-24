@@ -50,6 +50,7 @@
   <string name="phone_budget_exhausted_header">Too many requests</string>
   <string name="phone_budget_exhausted_message">Silakan coba lagi nanti.</string>
   <!--*********************************************** ERRORS ***********************************************-->
+  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Pengaturan</string>
   <string name="camera_not_available">KAMERA TIDAK TERSEDIA</string>
   <string name="camera_permissions_denied_title">Kamera tidak tersedia</string>
@@ -115,6 +116,10 @@
   <string name="people_picker__guest_label">Tamu</string>
   <string name="people_picker__search_people">PEOPLE</string>
   <string name="people_picker__search_services">SERVICES</string>
+  <string name="receive_news_and_offers_request_title">Newsletter</string>
+  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+  <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Layanan</string>
   <string name="integrations_picker__add">Add Service</string>
@@ -237,12 +242,6 @@
   <string name="conversation__action__remove">Hapus</string>
   <string name="conversation__action__call">Panggil</string>
   <string name="conversation__action__picture">Gambar</string>
-  <string name="conversation__action__block">Block&#8230;</string>
-  <string name="conversation__action__unblock">Buka blokir</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">BUKA</string>
   <string name="popover__action__remove">HAPUS</string>
@@ -251,14 +250,21 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Internet lambat</string>
   <string name="calling__slow_connection__message">Koneksi Internet Anda terlalu lambat untuk memanggil sekarang. Silakan coba lagi nanti.</string>
+  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Panggilan tidak tersedia</string>
   <string name="calling__cannot_start__message">Untuk memanggil, akhiri panggilan yang aktif.</string>
   <string name="calling__cannot_start__no_permission__message">Untuk memanggil, berikan izin untuk mengakses mikrofon.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s sedang sibuk</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Coba lagi nanti</string>
   <string name="calling__cannot_start__no_video_permission__message">Untuk melakukan pemanggilan video, berikan izin untuk mengakses kamera dan mikrofon.</string>
+  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Pengaturan</string>
   <string name="calling__video_call__slow_connection__message">Anda mungkin mengalami masalah selama panggilan</string>
+  <string name="calling__header__joining">bergabung</string>
+  <string name="calling__header__outgoing_subtitle">Berdering</string>
+  <string name="calling__header__outgoing_video_subtitle">Berdering</string>
+  <string name="calling__header__incoming_subtitle">Memanggil</string>
+  <string name="calling__header__incoming_subtitle__video">Panggilan video</string>
   <string name="incoming__controls__incoming__decline">TOLAK</string>
   <string name="incoming__controls__incoming__accept">TERIMA</string>
   <string name="incoming__controls__ongoing__hangup">TUTUP</string>
@@ -271,27 +277,11 @@
   <string name="ongoing__connecting">MENGHUBUNGKAN&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO MATI</string>
   <string name="calling__self_preview_unavailable_long">KAMERA TIDAK TERSEDIA</string>
-  <string name="calling__header__joining">bergabung</string>
-  <string name="calling__header__outgoing_subtitle">Berdering</string>
-  <string name="calling__header__outgoing_video_subtitle">Berdering</string>
-  <string name="calling__header__incoming_subtitle">Memanggil</string>
-  <string name="calling__header__incoming_subtitle__video">Panggilan video</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
-  <string name="calling_ongoing_call_title">Panggilan berlangsung</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Mulai telepon</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$d people</string>
   <string name="group_calling_confirm">Panggil</string>
+  <string name="group_calling_cancel">Batal</string>
   <!-- Connect request -->
   <string name="connect__message">Hai %1$s, \nMari terhubung pada Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -354,7 +344,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blokir?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s won\'t be able to contact you or add you to group conversations.</string>
-  <string name="confirmation_menu__confirm_block">Blokir</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Diblokir</string>
   <!-- Delete conversation -->
@@ -402,7 +392,6 @@
   <string name="pref_developer_screen_title">Pengaturan Pengembang</string>
   <string name="pref_dev_avs_screen_title">Pengaturan AVS</string>
   <string name="pref_profile_screen_title">Profil</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Akun</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -412,6 +401,7 @@
   <string name="pref_account_actions_category_title">Tindakan</string>
   <string name="pref_account_personal_category_title">Pribadi</string>
   <string name="pref_account_appearance_category_title">Tampilan</string>
+  <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Orang-orang dapat menemukan Anda dengan detil ini.</string>
   <string name="pref_account_personal_category_summary">Informasi ini tidak dapat dilihat oleh orang lain</string>
@@ -436,6 +426,13 @@
   <string name="pref_account_password_title">Buat ulang sandi</string>
   <string name="pref_account_edit_name_empty_warning">Nama harus memiliki 2 atau lebih dari dua karakter</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
+  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
+  <!-- Data Usage Permissions -->
+  <string name="pref_advanced_send_anonymous_data_title">Kirim Data Anonim</string>
+  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
+  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product update from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Tema gelap</string>
   <string name="pref_options_screen_title">Pilihan</string>
@@ -1063,7 +1060,9 @@
   <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
   <string name="app_entry_dialog_accept">TERIMA</string>
   <string name="app_entry_dialog_cancel">BATAL</string>
+  <string name="app_entry_dialog_not_now">NOT NOW</string>
   <string name="app_entry_dialog_view">VIEW</string>
+  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
   <string name="app_entry_email_sent">Email sent</string>
   <string name="teams_set_username_subtitle">Usernames help people find you.</string>
   <string name="pick_user_teams_invite">Invite people to join the team</string>

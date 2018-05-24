@@ -50,6 +50,7 @@
   <string name="phone_budget_exhausted_header">For mange anmodninger</string>
   <string name="phone_budget_exhausted_message">Prøv venligst igen senere.</string>
   <!--*********************************************** ERRORS ***********************************************-->
+  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Indstillinger</string>
   <string name="camera_not_available">KAMERA IKKE TILGÆNGELIGT</string>
   <string name="camera_permissions_denied_title">Kamera ikke tilgængeligt</string>
@@ -115,6 +116,10 @@
   <string name="people_picker__guest_label">Gæst</string>
   <string name="people_picker__search_people">PERSONER</string>
   <string name="people_picker__search_services">SERVICES</string>
+  <string name="receive_news_and_offers_request_title">Newsletter</string>
+  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+  <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Tjenester</string>
   <string name="integrations_picker__add">Tilføj tjeneste</string>
@@ -239,12 +244,6 @@
   <string name="conversation__action__remove">Fjern</string>
   <string name="conversation__action__call">Ring op</string>
   <string name="conversation__action__picture">Billede</string>
-  <string name="conversation__action__block">Block&#8230;</string>
-  <string name="conversation__action__unblock">Fjern blokering</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ÅBN</string>
   <string name="popover__action__remove">FJERN</string>
@@ -253,14 +252,21 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Langsomt internet</string>
   <string name="calling__slow_connection__message">Din internetforbindelse er for langsom til at foretage et opkald. Prøv igen senere.</string>
+  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Opkald ikke tilgængeligt</string>
   <string name="calling__cannot_start__message">For at ringe op, skal du afslutte dit igangværende opkald.</string>
   <string name="calling__cannot_start__no_permission__message">For at ringe op, skal du give tilladelse til at få adgang til mikrofonen.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s er optaget</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Prøv igen senere</string>
   <string name="calling__cannot_start__no_video_permission__message">For at foretage video opkald, skal du give tilladelse til at få adgang til mikrofon samt kamera.</string>
+  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Indstillinger</string>
   <string name="calling__video_call__slow_connection__message">Du kan opleve problemer under opkaldet</string>
+  <string name="calling__header__joining">deltager</string>
+  <string name="calling__header__outgoing_subtitle">ringer</string>
+  <string name="calling__header__outgoing_video_subtitle">ringer</string>
+  <string name="calling__header__incoming_subtitle">ringer op</string>
+  <string name="calling__header__incoming_subtitle__video">videoopkald</string>
   <string name="incoming__controls__incoming__decline">AFSLÅ</string>
   <string name="incoming__controls__incoming__accept">ACCEPTER</string>
   <string name="incoming__controls__ongoing__hangup">LÆG PÅ</string>
@@ -273,27 +279,11 @@
   <string name="ongoing__connecting">TILSLUTTER&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO FRA</string>
   <string name="calling__self_preview_unavailable_long">KAMERA IKKE TILGÆNGELIGT</string>
-  <string name="calling__header__joining">deltager</string>
-  <string name="calling__header__outgoing_subtitle">ringer</string>
-  <string name="calling__header__outgoing_video_subtitle">ringer</string>
-  <string name="calling__header__incoming_subtitle">ringer op</string>
-  <string name="calling__header__incoming_subtitle__video">videoopkald</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
-  <string name="calling_ongoing_call_title">Ongoing call</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Starte et opkald</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Dette vil medføre et opkald til %1$d personer</string>
   <string name="group_calling_confirm">Ring op</string>
+  <string name="group_calling_cancel">Annuller</string>
   <!-- Connect request -->
   <string name="connect__message">Hej %1$s,\nLad os forbinde os på Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -362,7 +352,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blokér?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s vil ikke kunne kontakte dig eller tilføje dig til gruppesamtaler.</string>
-  <string name="confirmation_menu__confirm_block">Blokér</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Blokkeret</string>
   <!-- Delete conversation -->
@@ -410,7 +400,6 @@
   <string name="pref_developer_screen_title">Udviklerindstillinger</string>
   <string name="pref_dev_avs_screen_title">AVS Indstillinger</string>
   <string name="pref_profile_screen_title">Profil</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Konto</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -420,6 +409,7 @@
   <string name="pref_account_actions_category_title">Handlinger</string>
   <string name="pref_account_personal_category_title">Personligt</string>
   <string name="pref_account_appearance_category_title">Udseende</string>
+  <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">Historik</string>
   <string name="pref_account_details_category_summary">Folk kan finde dig med disse oplysninger.</string>
   <string name="pref_account_personal_category_summary">Oplysningerne er ikke synlige for andre</string>
@@ -444,6 +434,13 @@
   <string name="pref_account_password_title">Nulstil adgangskode</string>
   <string name="pref_account_edit_name_empty_warning">Navnet skal have 2 eller flere tegn</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
+  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
+  <!-- Data Usage Permissions -->
+  <string name="pref_advanced_send_anonymous_data_title">Send Anonymous Data</string>
+  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
+  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product update from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Mørkt tema</string>
   <string name="pref_options_screen_title">Egenskaber</string>
@@ -1096,7 +1093,9 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
   <string name="app_entry_dialog_accept">ACCEPTER</string>
   <string name="app_entry_dialog_cancel">ANNULLER</string>
+  <string name="app_entry_dialog_not_now">NOT NOW</string>
   <string name="app_entry_dialog_view">VIEW</string>
+  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
   <string name="app_entry_email_sent">Email sent</string>
   <string name="teams_set_username_subtitle">Usernames help people find you.</string>
   <string name="pick_user_teams_invite">Inviter personer til holdet</string>

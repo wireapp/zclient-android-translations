@@ -50,6 +50,7 @@
   <string name="phone_budget_exhausted_header">طلبات كثيرة جداً</string>
   <string name="phone_budget_exhausted_message">الرجاء المحاولة مرة أخرى لاحقا.</string>
   <!--*********************************************** ERRORS ***********************************************-->
+  <string name="permissions_denied_dialog_acknowledge">موافق</string>
   <string name="permissions_denied_dialog_settings">الإعدادات</string>
   <string name="camera_not_available">الكاميرا غير متاحة</string>
   <string name="camera_permissions_denied_title">الكاميرا غير متاحة</string>
@@ -115,6 +116,10 @@
   <string name="people_picker__guest_label">ضيف</string>
   <string name="people_picker__search_people">الأشخاص</string>
   <string name="people_picker__search_services">SERVICES</string>
+  <string name="receive_news_and_offers_request_title">Newsletter</string>
+  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+  <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">الخدمات</string>
   <string name="integrations_picker__add">أضف خدمة</string>
@@ -249,12 +254,6 @@
   <string name="conversation__action__remove">إزالة</string>
   <string name="conversation__action__call">اتصال</string>
   <string name="conversation__action__picture">الصورة</string>
-  <string name="conversation__action__block">حظر&#8230;</string>
-  <string name="conversation__action__unblock">إلغاء حظر</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">فتح</string>
   <string name="popover__action__remove">إزالة</string>
@@ -263,14 +262,21 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">الإنترنت بطيء</string>
   <string name="calling__slow_connection__message">الإنترنت بطيء جداً لإجراء مكالمة الآن. الرجاء المحاولة مرة أخرى لاحقاً.</string>
+  <string name="calling__slow_connection__button">موافق</string>
   <string name="calling__cannot_start__title">الاتصال غير متاح </string>
   <string name="calling__cannot_start__message">لإجراء مكالمة، قم بإنهاء مكالمتك الحالية.</string>
   <string name="calling__cannot_start__no_permission__message">لإجراء مكالمة، امنح الإذن لتشغيل الميكروفون.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s مشغول</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">حاول مرة أخرى لاحقاً</string>
   <string name="calling__cannot_start__no_video_permission__message">لإجراء مكالمة فيديو، امنح إذن لتشغيل الميكروفون والكاميرا.</string>
+  <string name="calling__cannot_start__button">موافق</string>
   <string name="calling__cannot_start__button_settings">الإعدادات</string>
   <string name="calling__video_call__slow_connection__message">قد تواجه مشكلات أثناء المكالمة</string>
+  <string name="calling__header__joining">انضمام</string>
+  <string name="calling__header__outgoing_subtitle">جاري الاتصال</string>
+  <string name="calling__header__outgoing_video_subtitle">جاري الاتصال</string>
+  <string name="calling__header__incoming_subtitle">جاري الاتصال</string>
+  <string name="calling__header__incoming_subtitle__video">مكالمة فيديو</string>
   <string name="incoming__controls__incoming__decline">رفض</string>
   <string name="incoming__controls__incoming__accept">قبول</string>
   <string name="incoming__controls__ongoing__hangup">إنهاء الاتصال</string>
@@ -283,27 +289,11 @@
   <string name="ongoing__connecting">جاري الربط</string>
   <string name="calling__self_preview_unavailable">تم إيقاف الفيديو</string>
   <string name="calling__self_preview_unavailable_long">الكاميرا غير متاحة</string>
-  <string name="calling__header__joining">انضمام</string>
-  <string name="calling__header__outgoing_subtitle">جاري الاتصال</string>
-  <string name="calling__header__outgoing_video_subtitle">جاري الاتصال</string>
-  <string name="calling__header__incoming_subtitle">جاري الاتصال</string>
-  <string name="calling__header__incoming_subtitle__video">مكالمة فيديو</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">جاري الاتصال</string>
-  <string name="call_banner_incoming">يتصل بك</string>
-  <string name="call_banner_incoming_video">يتصل بمكالمة فيديو</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
-  <string name="calling_ongoing_call_title">المكالمة الجارية</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">بدء مكالمة</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">هذا سوف يجري مكالمة مع الأشخاص %1$d</string>
   <string name="group_calling_confirm">اتصال</string>
+  <string name="group_calling_cancel">إلغاء</string>
   <!-- Connect request -->
   <string name="connect__message">مرحبا %1$s ، هيا لنتصل عبر واير. %2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -397,8 +387,7 @@
   <string name="confirmation_menu__block_header">حظر 
 </string>
   <string name="confirmation_menu__block_text_with_name">%1$s لن يتمكن من التواصل معك أو إضافتك إلى محادثات جماعية.</string>
-  <string name="confirmation_menu__confirm_block">حظر 
-</string>
+  <string name="confirmation_menu__confirm_block">حظر&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">تم حظر</string>
   <!-- Delete conversation -->
@@ -446,7 +435,6 @@
   <string name="pref_developer_screen_title">إعدادات المطور</string>
   <string name="pref_dev_avs_screen_title">إعدادات AVS</string>
   <string name="pref_profile_screen_title">الملف الشخصي</string>
-  <string name="pref_backup_screen_title">نسخ المحادثات احتياطيًّا</string>
   <!-- Account -->
   <string name="pref_account_screen_title">الحساب</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -456,6 +444,7 @@
   <string name="pref_account_actions_category_title">الإجراءات</string>
   <string name="pref_account_personal_category_title">شخصي</string>
   <string name="pref_account_appearance_category_title">المظهر</string>
+  <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">التاريخ</string>
   <string name="pref_account_details_category_summary">سيتمكن الناس من ايجادك من خلال هذه التفاصيل.</string>
   <string name="pref_account_personal_category_summary">المعلومات غير مرئية لأي شخص آخر</string>
@@ -480,6 +469,13 @@
   <string name="pref_account_password_title">إعادة تعيين كلمة المرور</string>
   <string name="pref_account_edit_name_empty_warning">يجب أن يتكون الاسم من حرفين أو أكثر</string>
   <string name="pref_account_edit_name_empty_verify">موافق</string>
+  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+  <string name="pref_backup_screen_title">نسخ المحادثات احتياطيًّا</string>
+  <!-- Data Usage Permissions -->
+  <string name="pref_advanced_send_anonymous_data_title">أرسل بيانات كمجهول</string>
+  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
+  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product update from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">ثيم غامق</string>
   <string name="pref_options_screen_title">الخيارات</string>
@@ -1228,7 +1224,9 @@
   <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
   <string name="app_entry_dialog_accept">قبول</string>
   <string name="app_entry_dialog_cancel">إلغاء</string>
+  <string name="app_entry_dialog_not_now">NOT NOW</string>
   <string name="app_entry_dialog_view">VIEW</string>
+  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
   <string name="app_entry_email_sent">Email sent</string>
   <string name="teams_set_username_subtitle">Usernames help people find you.</string>
   <string name="pick_user_teams_invite">دعوة أشخاص للانضمام للفريق</string>

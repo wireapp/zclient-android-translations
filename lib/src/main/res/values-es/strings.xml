@@ -50,6 +50,7 @@
   <string name="phone_budget_exhausted_header">Demasiadas solicitudes</string>
   <string name="phone_budget_exhausted_message">Por favor, inténtalo de nuevo más tarde.</string>
   <!--*********************************************** ERRORS ***********************************************-->
+  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Configuración</string>
   <string name="camera_not_available">CÁMARA NO DISPONIBLE</string>
   <string name="camera_permissions_denied_title">Cámara no disponible</string>
@@ -115,6 +116,10 @@
   <string name="people_picker__guest_label">Invitado</string>
   <string name="people_picker__search_people">Personas</string>
   <string name="people_picker__search_services">SERVICIO</string>
+  <string name="receive_news_and_offers_request_title">Newsletter</string>
+  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+  <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Servicios</string>
   <string name="integrations_picker__add">Añadir Servicio</string>
@@ -239,12 +244,6 @@
   <string name="conversation__action__remove">Quitar</string>
   <string name="conversation__action__call">Llamar</string>
   <string name="conversation__action__picture">Imagen</string>
-  <string name="conversation__action__block">Block&#8230;</string>
-  <string name="conversation__action__unblock">Desbloquear</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ABRIR</string>
   <string name="popover__action__remove">QUITAR</string>
@@ -253,14 +252,21 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Conexión lenta</string>
   <string name="calling__slow_connection__message">Tu conexión a Internet es muy lenta para efectuar una llamada en este momento. Por favor, inténtalo de nuevo más tarde.</string>
+  <string name="calling__slow_connection__button">Vale</string>
   <string name="calling__cannot_start__title">No es posible realizar una llamada</string>
   <string name="calling__cannot_start__message">Para llamar, cuelga la llamada actual.</string>
   <string name="calling__cannot_start__no_permission__message">Para llamar, permita el acceso a su micrófono.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s está ocupado(a)</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Inténtalo más tarde</string>
   <string name="calling__cannot_start__no_video_permission__message">Para realizar una videollamada, permite el acceso al micrófono y cámara.</string>
+  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Configuración</string>
   <string name="calling__video_call__slow_connection__message">Es posible que experimentes problemas durante la llamada</string>
+  <string name="calling__header__joining">uniéndose</string>
+  <string name="calling__header__outgoing_subtitle">timbrando</string>
+  <string name="calling__header__outgoing_video_subtitle">timbrando</string>
+  <string name="calling__header__incoming_subtitle">llamando</string>
+  <string name="calling__header__incoming_subtitle__video">videollamada</string>
   <string name="incoming__controls__incoming__decline">RECHAZAR</string>
   <string name="incoming__controls__incoming__accept">ACEPTAR</string>
   <string name="incoming__controls__ongoing__hangup">COLGAR</string>
@@ -273,27 +279,11 @@
   <string name="ongoing__connecting">CONECTANDO&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO APAGADO</string>
   <string name="calling__self_preview_unavailable_long">CÁMARA NO DISPONIBLE</string>
-  <string name="calling__header__joining">uniéndose</string>
-  <string name="calling__header__outgoing_subtitle">timbrando</string>
-  <string name="calling__header__outgoing_video_subtitle">timbrando</string>
-  <string name="calling__header__incoming_subtitle">llamando</string>
-  <string name="calling__header__incoming_subtitle__video">videollamada</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
-  <string name="calling_ongoing_call_title">Llamada activa</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Iniciar una llamada</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Llamarás a %1$d contactos</string>
   <string name="group_calling_confirm">Llamar</string>
+  <string name="group_calling_cancel">Cancelar</string>
   <!-- Connect request -->
   <string name="connect__message">Hola %1$s,\n Agrégame en Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -362,7 +352,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">¿Bloquear?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s no podrá contactarte o agregarte a conversaciones de grupo.</string>
-  <string name="confirmation_menu__confirm_block">Bloquear</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Bloqueado</string>
   <!-- Delete conversation -->
@@ -410,7 +400,6 @@
   <string name="pref_developer_screen_title">Configuración de desarrollador</string>
   <string name="pref_dev_avs_screen_title">Configuración de AVS</string>
   <string name="pref_profile_screen_title">Perfil</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Cuenta</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -420,6 +409,7 @@
   <string name="pref_account_actions_category_title">Acciones</string>
   <string name="pref_account_personal_category_title">Personal</string>
   <string name="pref_account_appearance_category_title">Aspecto</string>
+  <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Las personas pueden encontrarse con estos detalles.</string>
   <string name="pref_account_personal_category_summary">La información no es visible para nadie</string>
@@ -444,6 +434,13 @@
   <string name="pref_account_password_title">Restablecer Contraseña</string>
   <string name="pref_account_edit_name_empty_warning">El nombre debe tener al menos 2 caracteres</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
+  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
+  <!-- Data Usage Permissions -->
+  <string name="pref_advanced_send_anonymous_data_title">Enviar datos anónimos</string>
+  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
+  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product update from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Tema oscuro</string>
   <string name="pref_options_screen_title">Opciones</string>
@@ -1094,7 +1091,9 @@
   <string name="app_entry_notifications_dialog_message">Las notificaciones pueden incluir alertas, sonidos e iconos. Éstos se pueden configurar en Ajustes.</string>
   <string name="app_entry_dialog_accept">ACEPTAR</string>
   <string name="app_entry_dialog_cancel">CANCELAR</string>
+  <string name="app_entry_dialog_not_now">NOT NOW</string>
   <string name="app_entry_dialog_view">VER</string>
+  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
   <string name="app_entry_email_sent">Correo electrónico enviado</string>
   <string name="teams_set_username_subtitle">Los nombres de usuario ayudan a la gente a encontrarte.</string>
   <string name="pick_user_teams_invite">Invitar personas para unirse al equipo</string>

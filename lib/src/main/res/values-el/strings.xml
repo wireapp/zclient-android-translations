@@ -50,6 +50,7 @@
   <string name="phone_budget_exhausted_header">Πάρα πολλά αιτήματα</string>
   <string name="phone_budget_exhausted_message">Παρακαλούμε δοκιμάστε ξανά αργότερα.</string>
   <!--*********************************************** ERRORS ***********************************************-->
+  <string name="permissions_denied_dialog_acknowledge">Εντάξει</string>
   <string name="permissions_denied_dialog_settings">Ρυθμίσεις</string>
   <string name="camera_not_available">Η ΚΑΜΕΡΑ ΔΕΝ ΕΙΝΑΙ ΔΙΑΘΕΣΙΜΗ</string>
   <string name="camera_permissions_denied_title">Η κάμερα δεν είναι διαθέσιμη</string>
@@ -115,6 +116,10 @@
   <string name="people_picker__guest_label">Επισκέπτης</string>
   <string name="people_picker__search_people">ΑΤΟΜΑ</string>
   <string name="people_picker__search_services">SERVICES</string>
+  <string name="receive_news_and_offers_request_title">Newsletter</string>
+  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+  <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Υπηρεσίες</string>
   <string name="integrations_picker__add">Προσθήκη υπηρεσίας</string>
@@ -239,12 +244,6 @@
   <string name="conversation__action__remove">Αφαίρεση</string>
   <string name="conversation__action__call">Κλήση</string>
   <string name="conversation__action__picture">Εικόνα</string>
-  <string name="conversation__action__block">Block&#8230;</string>
-  <string name="conversation__action__unblock">Άρση αποκλεισμού</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">Άνοιγμα</string>
   <string name="popover__action__remove">Αφαίρεση</string>
@@ -253,14 +252,21 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Αργή σύνδεση</string>
   <string name="calling__slow_connection__message">Η σύνδεση δικτύου σας είναι πολύ αργή για να καλέσετε μόλις τώρα. Παρακαλούμε δοκιμάστε ξανά αργότερα.</string>
+  <string name="calling__slow_connection__button">Εντάξει</string>
   <string name="calling__cannot_start__title">Κλήση μη διαθέσιμη</string>
   <string name="calling__cannot_start__message">Για να καλέσετε, τερματίστε την τρέχουσα κλήση σας.</string>
   <string name="calling__cannot_start__no_permission__message">Για να καλέσετε, χρειάζεται η άδεια πρόσβασης στο μικρόφωνο.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s είναι απασχολημένος</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Δοκιμάστε ξανά αργότερα</string>
   <string name="calling__cannot_start__no_video_permission__message">Για βιντεοκλήση, χρειάζεται η άδεια πρόσβασης στο μικρόφωνο και την κάμερα σας.</string>
+  <string name="calling__cannot_start__button">Εντάξει</string>
   <string name="calling__cannot_start__button_settings">Ρυθμίσεις</string>
   <string name="calling__video_call__slow_connection__message">Ενδεχομένως να αντιμετωπίσετε κάποια προβλήματα κατά την κλήση</string>
+  <string name="calling__header__joining">συμμετοχή</string>
+  <string name="calling__header__outgoing_subtitle">κουδουνίζει</string>
+  <string name="calling__header__outgoing_video_subtitle">κουδουνίζει</string>
+  <string name="calling__header__incoming_subtitle">καλεί</string>
+  <string name="calling__header__incoming_subtitle__video">κλήση βίντεο</string>
   <string name="incoming__controls__incoming__decline">Απόρριψη</string>
   <string name="incoming__controls__incoming__accept">Αποδοχή</string>
   <string name="incoming__controls__ongoing__hangup">ΚΛΕΙΣΙΜΟ</string>
@@ -273,27 +279,11 @@
   <string name="ongoing__connecting">Συνδέεται&#8230;</string>
   <string name="calling__self_preview_unavailable">Βίντεο κλειστό</string>
   <string name="calling__self_preview_unavailable_long">Η ΚΑΜΕΡΑ ΔΕΝ ΕΙΝΑΙ ΔΙΑΘΕΣΙΜΗ</string>
-  <string name="calling__header__joining">συμμετοχή</string>
-  <string name="calling__header__outgoing_subtitle">κουδουνίζει</string>
-  <string name="calling__header__outgoing_video_subtitle">κουδουνίζει</string>
-  <string name="calling__header__incoming_subtitle">καλεί</string>
-  <string name="calling__header__incoming_subtitle__video">κλήση βίντεο</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
-  <string name="calling_ongoing_call_title">Ongoing call</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Έναρξη κλήσεως</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Αυτό θα καλέσει %1$d άτομα</string>
   <string name="group_calling_confirm">Κλήση</string>
+  <string name="group_calling_cancel">Aκύρωση</string>
   <!-- Connect request -->
   <string name="connect__message">Γεια %1$s,\nΑς συνδεθούμε στο Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -362,7 +352,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Αποκλεισμός;</string>
   <string name="confirmation_menu__block_text_with_name">%1$s δεν θα μπορεί να συνομιλήσει ή να σας προσθέσει σε ομαδικές συζητήσεις.</string>
-  <string name="confirmation_menu__confirm_block">Αποκλεισμός</string>
+  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Αποκλεισμένοι</string>
   <!-- Delete conversation -->
@@ -410,7 +400,6 @@
   <string name="pref_developer_screen_title">Ρυθμίσεις για Προγραμματιστές</string>
   <string name="pref_dev_avs_screen_title">AVS Ρυθμίσεις</string>
   <string name="pref_profile_screen_title">Ταυτότητα</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Λογαριασμός</string>
   <string name="pref_account_category_title">@string/pref_account_screen_title</string>
@@ -420,6 +409,7 @@
   <string name="pref_account_actions_category_title">Ενέργειες</string>
   <string name="pref_account_personal_category_title">Προσωπικά</string>
   <string name="pref_account_appearance_category_title">Εμφάνιση</string>
+  <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">History</string>
   <string name="pref_account_details_category_summary">Τα άτομα μπορούν να σας βρουν με αυτές τις λεπτομέρειες.</string>
   <string name="pref_account_personal_category_summary">Οι πληροφορίες δεν είναι ορατές σε κανέναν άλλον</string>
@@ -444,6 +434,13 @@
   <string name="pref_account_password_title">Επαναφορά Κωδικού Πρόσβασης</string>
   <string name="pref_account_edit_name_empty_warning">Το όνομα πρέπει να περιέχει τουλάχιστον 2 η περισσότερους χαρακτήρες</string>
   <string name="pref_account_edit_name_empty_verify">Εντάξει</string>
+  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+  <string name="pref_backup_screen_title">Back Up Conversations</string>
+  <!-- Data Usage Permissions -->
+  <string name="pref_advanced_send_anonymous_data_title">Send Anonymous Data</string>
+  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
+  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product update from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Σκούρο Θέμα</string>
   <string name="pref_options_screen_title">Επιλογές</string>
@@ -1094,7 +1091,9 @@
   <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
   <string name="app_entry_dialog_accept">Αποδοχή</string>
   <string name="app_entry_dialog_cancel">Ακύρωση</string>
+  <string name="app_entry_dialog_not_now">NOT NOW</string>
   <string name="app_entry_dialog_view">VIEW</string>
+  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
   <string name="app_entry_email_sent">Email sent</string>
   <string name="teams_set_username_subtitle">Usernames help people find you.</string>
   <string name="pick_user_teams_invite">Invite people to join the team</string>
