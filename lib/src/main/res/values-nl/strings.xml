@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">Ongeldig telefoonnummer</string>
   <string name="phone_invalid_format_message">Voer een geldig telefoonnummer in</string>
   <string name="phone_password_exists_header">Wachtwoord bestaat al</string>
-  <string name="phone_password_exists_message">Dit account heeft al een wachtwoord en een e-mailadres. Log alsjeblieft in via email.</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
   <string name="invalid_code_header">Ongeldige code</string>
   <string name="incorrect_code_header">Onjuiste Code</string>
   <string name="wrong_code_message">Voer een geldige code in</string>
@@ -117,8 +117,8 @@
   <string name="people_picker__search_services">INTEGRATIES</string>
   <string name="receive_news_and_offers_request_title">Newsletter</string>
   <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
-  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
-  <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
+  <string name="crashes_and_analytics_request_title">Help ons Wire te verbeteren</string>
+  <string name="crashes_and_analytics_request_body">Het anoniem versturen van gebruikers data van de app help ons om onze producten en services te verbeteren. We gebruiken deze informatie voor niks anders.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Diensten</string>
   <string name="integrations_picker__add">Service toevoegen</string>
@@ -196,7 +196,9 @@
   <string name="content__otr__conversation_verified">Gesprek geverifieerd</string>
   <string name="content__otr__conversation_unverified">Gesprek niet geverifieerd</string>
   <string name="content__otr__message_error">EEN BERICHT VAN [[%1$s]] IS NIET ONTVANGEN. _WAAROM?_</string>
+  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">DE IDENTITEIT VAN [[%1$s]] ZIJN APPARAAT IS GEWIJZIGD. NIET AFGELEVERD BERICHT. _KOM MEER TE WETEN_</string>
+  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] HEEFT EEN _NIEUW APPARAAT_ IN GEBRUIK GENOMEN</string>
   <string name="content__otr__start_this_device__message">[[JIJ]] HEBT _DIT APPARAAT_ IN GEBRUIK GENOMEN</string>
   <string name="content__otr__all_fingerprints_verified">ALLE VINGERAFDRUKKEN ZIJN GECONTROLEERD</string>
@@ -243,7 +245,7 @@
   <string name="conversation__action__remove">Verwijderen</string>
   <string name="conversation__action__call">Oproep</string>
   <string name="conversation__action__picture">Foto</string>
-  <string name="conversation__action__block">Block&#8230;</string>
+  <string name="conversation__action__block">Blokeer&#8230;</string>
   <string name="conversation__action__unblock">Deblokkeer</string>
   <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
   <string name="conversation__action__leave_only">\tLeave group</string>
@@ -257,13 +259,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Traag Internet</string>
   <string name="calling__slow_connection__message">Uw internetverbinding is op dit moment te traag om te bellen. Probeer het later opnieuw.</string>
-  <string name="calling__cannot_start__title">Bellen niet beschikbaar</string>
+  <string name="calling__cannot_start__title">Microphone required</string>
   <string name="calling__cannot_start__message">Om te bellen, hang uw huidige gesprek op.</string>
-  <string name="calling__cannot_start__no_permission__message">Om te bellen, geef toestemming om toegang te krijgen tot de microfoon.</string>
+  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__cancel__message">ANNULEER</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s is bezig</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Probeer later opnieuw</string>
-  <string name="calling__cannot_start__no_video_permission__message">Voor video-oproep, geef toestemming om toegang te krijgen tot de microfoon en camera.</string>
-  <string name="calling__cannot_start__button_settings">Instellingen</string>
+  <string name="calling__cannot_start__button_settings">INSTELLINGEN</string>
   <string name="calling__video_call__slow_connection__message">Er kunnen misschien problemen optreden tijdens je gesprek</string>
   <string name="incoming__controls__incoming__decline">AFWIJZEN</string>
   <string name="incoming__controls__incoming__accept">ACCEPTEREN</string>
@@ -271,27 +274,26 @@
   <string name="incoming__controls__ongoing__speaker">LUIDSPREKER</string>
   <string name="incoming__controls__ongoing__mute">DEMPEN</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
-  <string name="ongoing__other_turned_off_video">%1$s HEEFT DE VIDEO UITGESCHAKELD</string>
-  <string name="ongoing__other_unable_to_send_video">%1$s KAN GEEN VIDEO VERSTUREN</string>
+  <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">VIDEO IS GESTOPT VANWEGE DE SLECHTE VERBINDING</string>
-  <string name="ongoing__connecting">BEZIG MET VERBINDEN&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO UIT</string>
   <string name="calling__self_preview_unavailable_long">CAMERA NIET BESCHIKBAAR</string>
-  <string name="calling__header__joining">aansluiting</string>
-  <string name="calling__header__outgoing_subtitle">aan het bellen</string>
-  <string name="calling__header__outgoing_video_subtitle">aan het bellen</string>
-  <string name="calling__header__incoming_subtitle">bellen</string>
-  <string name="calling__header__incoming_subtitle__video">videobellen</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="calling__header__joining">Verbinden&#8230;</string>
+  <string name="calling__header__outgoing_subtitle">Bellen&#8230;</string>
+  <string name="calling__header__outgoing_video_subtitle">Bellen&#8230;</string>
+  <string name="calling__header__incoming_subtitle">Bellen&#8230;</string>
+  <string name="calling__header__incoming_subtitle__video">Bellen&#8230;</string>
+  <string name="call_banner_joining">BEZIG MET VERBINDEN&#8230;</string>
+  <string name="call_banner_outgoing">RINGING&#8230;</string>
+  <string name="call_banner_incoming">CALLING&#8230;</string>
+  <string name="call_banner_incoming_video">CALLING&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
   <string name="calling_ongoing_call_title">Uitgaand gesprek</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
   <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
   <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
   <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
   <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
   <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
@@ -315,7 +317,6 @@
   <string name="connect_request__ignore_button__text">Negeer</string>
   <string name="content__message__connect_request__footer">VERBONDEN</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTOMATISCH VERBONDEN. _KOM MEER TE WETEN_</string>
-  <string name="content__message__connect_request__user_info">%1$s in contactpersonen</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s begon met een nieuw apparaat.</item>
@@ -423,8 +424,8 @@
   <string name="pref_account_actions_category_title">Acties</string>
   <string name="pref_account_personal_category_title">Persoonlijk</string>
   <string name="pref_account_appearance_category_title">Vormgeving</string>
-  <string name="pref_account_personal_information_category_title">Personal Information</string>
-  <string name="pref_account_conversations_category_title">History</string>
+  <string name="pref_account_personal_information_category_title">Persoonlijke informatie</string>
+  <string name="pref_account_conversations_category_title">Geschiedenis</string>
   <string name="pref_account_details_category_summary">Mensen kunnen mij vinden met deze gegevens.</string>
   <string name="pref_account_personal_category_summary">De informatie is voor niemand zichtbaar</string>
   <string name="pref_account_username_title">Gebruikersnaam</string>
@@ -448,13 +449,13 @@
   <string name="pref_account_password_title">Herstel wachtwoord</string>
   <string name="pref_account_edit_name_empty_warning">Naam moet 2 of meer tekens hebben</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
-  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
+  <string name="pref_account_data_usage_permissions">Data gebruik toestemmingen</string>
+  <string name="pref_backup_screen_title">Gesprekken backupen</string>
   <!-- Data Usage Permissions -->
   <string name="pref_advanced_send_anonymous_data_title">Anoniem gegevens delen</string>
   <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
-  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
+  <string name="pref_advanced_receive_news_and_offers_title">Ontvang nieuwsbrief</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Ontvang nieuws en product updates van Wire via de mail.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Donker thema</string>
   <string name="pref_options_screen_title">Opties</string>
@@ -1093,10 +1094,10 @@
   <string name="teams_set_name_title">Jouw naam</string>
   <string name="teams_set_name_hint">Voor- en achternaam</string>
   <string name="app_entry_slogan">Veilig communiceren voor iedereen.</string>
-  <string name="app_entry_create_account">For personal use</string>
-  <string name="app_entry_create_account_sub">create an account</string>
-  <string name="app_entry_create_team">For organizations</string>
-  <string name="app_entry_create_team_sub">create a team</string>
+  <string name="app_entry_create_account">Voor persoonlijk gebruik</string>
+  <string name="app_entry_create_account_sub">account aanmaken</string>
+  <string name="app_entry_create_team">Voor organisaties</string>
+  <string name="app_entry_create_team_sub">creëer Team</string>
   <string name="app_entry_login_sub">Heeft u al een account?</string>
   <string name="app_entry_login">Inloggen</string>
   <string name="app_entry_tc_dialog_title">Algemene gebruiksvoorwaarden</string>
@@ -1150,6 +1151,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">Open dit gesprek voor mensen buiten jouw team.</string>
   <string name="allow_guests">Sta gasten toe</string>
   <string name="guest_options_title">Gast opties</string>
+  <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">Er is iets mis gegaan</string>
   <string name="allow_guests_error_body">Could not allow guests. Please try again.</string>
   <string name="allow_guests_warning_body">Bestaande gasten zullen worden verwijdert uit het gesprek. Nieuwe gasten worden niet toegestaan.</string>
@@ -1160,7 +1162,7 @@
   <string name="create_link_button">Maak link aan</string>
   <string name="copy_link_button">Kopieer link</string>
   <string name="share_link_button">Deel link</string>
-  <string name="revoke_link_button">Revoke Link&#8230;</string>
+  <string name="revoke_link_button">Link intrekken&#8230;</string>
   <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
   <string name="link_copied_toast">Link gekopieerd!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
@@ -1182,9 +1184,9 @@
   <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
   <string name="second_launch__header">Je hebt Wire eerder op dit apparaat gebruikt.</string>
   <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
-  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_title">Geschiedenis terug zetten</string>
   <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
-  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="restore_override_alert_ok">Kies back-up bestand</string>
   <string name="back_up_progress">BACKING UP&#8230;</string>
   <string name="back_up_progress_complete">COMPLETE</string>
   <string name="restore_progress">RESTORING&#8230;</string>
@@ -1195,9 +1197,13 @@
   <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
   <string name="backup_button">Nu Backuppen</string>
   <string name="backup_import_error_unknown_title">Er is iets mis gegaan</string>
-  <string name="backup_import_error_unknown">Your history could not be restored.</string>
-  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+  <string name="backup_import_error_unknown">Je geschiedenis kan niet worden hersteld.</string>
+  <string name="backup_import_error_unsupported_version_title">Incompatibele backup</string>
   <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
   <string name="backup_import_error_wrong_account_title">Wrong backup</string>
-  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
+  <string name="backup_import_error_wrong_account">Je kan geen geschiedenis terug zetten van een ander account.</string>
+  <string name="video_paused">Video is gepauzeerd</string>
+  <string name="calling_degraded_title">Nieuw apparaat</string>
+  <string name="call_info_text">Up to 128 people can join a group conversation. Video calls work in groups of 4 or less.</string>
+  <string name="too_many_people_video_toast">Video gesprekken werken in groepen van 4 personen of minder.</string>
 </resources>

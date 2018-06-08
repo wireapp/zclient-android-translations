@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">Número de telefone inválido</string>
   <string name="phone_invalid_format_message">Introduza um número de telefone válido</string>
   <string name="phone_password_exists_header">Existe senha</string>
-  <string name="phone_password_exists_message">Esta conta já tem uma senha e e-mail associado. Por Favor, faça login por e-mail.</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
   <string name="invalid_code_header">Código inválido</string>
   <string name="incorrect_code_header">Código incorreto</string>
   <string name="wrong_code_message">Por favor, introduza um código válido</string>
@@ -196,7 +196,9 @@
   <string name="content__otr__conversation_verified">Conversa verificada</string>
   <string name="content__otr__conversation_unverified">Conversa não verificada</string>
   <string name="content__otr__message_error">NÃO FOI RECEBIDA UMA MENSAGEM DE [[%1$s]]. _WHY? _</string>
+  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">IDENTIDADE DO DISPOSIIVO DE [[%1$s]] MUDADA. MENSAGEM NÃO ENTREGUE. _SAIBA MAIS_</string>
+  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] COMEÇOU A USAR UM DEVICE_ NEW</string>
   <string name="content__otr__start_this_device__message">[[VOCÊ]] COMEÇOU A USAR _ESTE DISPOSITIVO_</string>
   <string name="content__otr__all_fingerprints_verified">TODAS AS IMPRESSÕES DIGITAIS SÃO VERIFICADAS</string>
@@ -257,13 +259,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Internet lenta</string>
   <string name="calling__slow_connection__message">Sua conexão de Internet é muito lento para ligar agora. Por favor, tente novamente mais tarde.</string>
-  <string name="calling__cannot_start__title">Chamada não disponível</string>
+  <string name="calling__cannot_start__title">Microphone required</string>
   <string name="calling__cannot_start__message">Para ligar, desliga sua chamada atual.</string>
-  <string name="calling__cannot_start__no_permission__message">Para chamar, permita o acesso ao microfone.</string>
+  <string name="calling__cannot_start__no_permission__message">Vá para Ajustes e permita que o Wire acesse seu microfone.</string>
+  <string name="calling__cannot_start__cancel__message">Cancelar</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s está ocupado</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Tente novamente mais tarde</string>
-  <string name="calling__cannot_start__no_video_permission__message">Para vídeo-chamadas, permita o acesso ao microfone e a câmera.</string>
-  <string name="calling__cannot_start__button_settings">Configurações</string>
+  <string name="calling__cannot_start__button_settings">CONFIGURAÇÕES</string>
   <string name="calling__video_call__slow_connection__message">Pode haver alguns problemas durante a chamada</string>
   <string name="incoming__controls__incoming__decline">RECUSAR</string>
   <string name="incoming__controls__incoming__accept">ACEITAR</string>
@@ -271,27 +274,26 @@
   <string name="incoming__controls__ongoing__speaker">ALTO-FALANTE</string>
   <string name="incoming__controls__ongoing__mute">SEM SOM</string>
   <string name="incoming__controls__ongoing__video">VÍDEO</string>
-  <string name="ongoing__other_turned_off_video">%1$s DESLIGOU O VÍDEO</string>
-  <string name="ongoing__other_unable_to_send_video">%1$s NÃO PODE ENVIAR VÍDEO</string>
+  <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">VÍDEO PAROU DEVIDO A CONEXÃO LENTA</string>
-  <string name="ongoing__connecting">CONECTANDO&#8230;</string>
   <string name="calling__self_preview_unavailable">VÍDEO DESLIGADO</string>
   <string name="calling__self_preview_unavailable_long">CÂMERA NÃO DISPONÍVEL</string>
-  <string name="calling__header__joining">entrando</string>
-  <string name="calling__header__outgoing_subtitle">tocando</string>
-  <string name="calling__header__outgoing_video_subtitle">tocando</string>
-  <string name="calling__header__incoming_subtitle">chamando</string>
-  <string name="calling__header__incoming_subtitle__video">vídeo chamada</string>
-  <string name="call_banner_joining">JUNTANDO-SE</string>
-  <string name="call_banner_outgoing">TOCANDO</string>
-  <string name="call_banner_incoming">CHAMANDO</string>
-  <string name="call_banner_incoming_video">VÍDEO-CHAMADAS</string>
+  <string name="calling__header__joining">Conectando&#8230;</string>
+  <string name="calling__header__outgoing_subtitle">Tocando&#8230;</string>
+  <string name="calling__header__outgoing_video_subtitle">Tocando&#8230;</string>
+  <string name="calling__header__incoming_subtitle">Chamando&#8230;</string>
+  <string name="calling__header__incoming_subtitle__video">Chamando&#8230;</string>
+  <string name="call_banner_joining">CONECTANDO&#8230;</string>
+  <string name="call_banner_outgoing">RINGING&#8230;</string>
+  <string name="call_banner_incoming">CALLING&#8230;</string>
+  <string name="call_banner_incoming_video">CALLING&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">TOQUE PARA RETORNAR À CHAMADA</string>
   <string name="calling_ongoing_call_title">Chamada em curso</string>
   <string name="calling_ongoing_call_start_message">Uma chamada está ativa em outra conversa. \nChamar aqui vai desligar a outra ligação.</string>
   <string name="calling_ongoing_call_start_anyway">CHAME DE QUALQUER MANEIRA</string>
   <string name="calling_ongoing_call_join_message">Uma chamada está ativa em outra conversa. \nJuntando-se aqui vai desligar a outra ligação.</string>
   <string name="calling_ongoing_call_join_anyway">JUNTE-SE DE QUALQUER MANEIRA</string>
+  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
   <string name="calling_ongoing_call_audio_message">Você não pode gravar uma mensagem de áudio em uma chamada</string>
   <string name="calling_ongoing_call_video_message">Você não pode gravar uma mensagem de vídeo quando está em uma chamada</string>
   <!-- Calling in group conversation -->
@@ -315,7 +317,6 @@
   <string name="connect_request__ignore_button__text">Ignorar</string>
   <string name="content__message__connect_request__footer">CONECTADO</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTO-CONECTADO. _LEARN MORE_</string>
-  <string name="content__message__connect_request__user_info">%1$s em Contatos</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s começou a usar um novo dispositivo.</item>
@@ -1150,6 +1151,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">Abrir esta conversa à pessoas fora da sua equipe.</string>
   <string name="allow_guests">Permitir Convidados</string>
   <string name="guest_options_title">Opções de Convidados</string>
+  <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">Algo deu errado</string>
   <string name="allow_guests_error_body">Não foi possível permitir convidados. Por favor, tente novamente.</string>
   <string name="allow_guests_warning_body">Os convidados atuais serão removidos da conversa. Não serão permitidos novos convidados.</string>
@@ -1200,4 +1202,8 @@
   <string name="backup_import_error_unsupported_version">Este backup foi criado por uma versão mais recente ou desatualizada do Wire e não pode ser restaurado aqui.</string>
   <string name="backup_import_error_wrong_account_title">Backup errado</string>
   <string name="backup_import_error_wrong_account">Você não pode restaurar o histórico de uma conta diferente.</string>
+  <string name="video_paused">Vídeo pausado</string>
+  <string name="calling_degraded_title">Novo dispositivo</string>
+  <string name="call_info_text">Até 128 pessoas podem participar de uma conversa de grupo. Chamadas de vídeo trabalham em grupos de 4 ou menos.</string>
+  <string name="too_many_people_video_toast">Vídeo chamadas só funcionam em grupos de 4 ou menos.</string>
 </resources>

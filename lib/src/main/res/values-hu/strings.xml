@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">Érvénytelen telefonszám</string>
   <string name="phone_invalid_format_message">Kérjük, valós telefonszámot adj meg</string>
   <string name="phone_password_exists_header">A jelszó létezik</string>
-  <string name="phone_password_exists_message">Ehhez a fiókhoz már tartozik e-mail cím és jelszó. Kérjük, jelentkezz be az e-mail címeddel.</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
   <string name="invalid_code_header">Érvénytelen kód</string>
   <string name="incorrect_code_header">Helytelen kód</string>
   <string name="wrong_code_message">Kérjük, adj meg egy érvényes kódot</string>
@@ -196,7 +196,9 @@
   <string name="content__otr__conversation_verified">Beszélgetés ellenőrizve</string>
   <string name="content__otr__conversation_unverified">A beszélgetés nem ellenőrzött</string>
   <string name="content__otr__message_error">[[%1$s]] ÜZENETE NEM ÉRKEZETT MEG. _MIÉRT? _</string>
+  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] ESZKÖZ AZONOSÍTÓJA MEGVÁLTOZOTT. KÉZBESÍTETLEN ÜZENET. _TOVÁBBI INFORMÁCIÓ_</string>
+  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] ELKEZDETT HASZNÁLNI EGY _ÚJ ESZKÖZT_</string>
   <string name="content__otr__start_this_device__message">[[TE]] ELKEZDTED HASZNÁLNI _EZT AZ ESZKÖZT_</string>
   <string name="content__otr__all_fingerprints_verified">MINDEN UJJLENYOMAT ELLENŐRIZVE</string>
@@ -257,13 +259,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Lassú az internet</string>
   <string name="calling__slow_connection__message">Az internetkapcsolat most túl lassú hívás indításához. Kérjük, próbáld meg később.</string>
-  <string name="calling__cannot_start__title">Hívás nem elérhető</string>
+  <string name="calling__cannot_start__title">Microphone required</string>
   <string name="calling__cannot_start__message">Új hívás indítása előtt tedd le a folyamatban lévőt.</string>
-  <string name="calling__cannot_start__no_permission__message">Híváshoz először engedélyezd a mikrofon hozzáférést.</string>
+  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__cancel__message">MÉGSEM</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s foglalt</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Próbáld meg később</string>
-  <string name="calling__cannot_start__no_video_permission__message">Videóhíváshoz először engedélyezd a mikrofon- és kamera-hozzáférést.</string>
-  <string name="calling__cannot_start__button_settings">Beállítások</string>
+  <string name="calling__cannot_start__button_settings">BEÁLLÍTÁSOK</string>
   <string name="calling__video_call__slow_connection__message">Előfordulhat, hogy problémákat tapasztalsz a hívás közben</string>
   <string name="incoming__controls__incoming__decline">ELUTASÍTÁS</string>
   <string name="incoming__controls__incoming__accept">ELFOGADÁS</string>
@@ -271,27 +274,26 @@
   <string name="incoming__controls__ongoing__speaker">HANGSZÓRÓ</string>
   <string name="incoming__controls__ongoing__mute">NÉMÍTÁS</string>
   <string name="incoming__controls__ongoing__video">VIDEÓ</string>
-  <string name="ongoing__other_turned_off_video">%1$s KIKAPCSOLTA A VIDEÓT</string>
-  <string name="ongoing__other_unable_to_send_video">%1$s NEM TUD VIDEÓT KÜLDENI</string>
+  <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">A VIDEÓ MEGSZAKADT, MERT LASSÚ AZ INTERNETKAPCSOLAT</string>
-  <string name="ongoing__connecting">CSATLAKOZÁS&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEÓ KIKAPCSOLVA</string>
   <string name="calling__self_preview_unavailable_long">A KAMERA NEM ELÉRHETŐ</string>
-  <string name="calling__header__joining">csatlakozás</string>
-  <string name="calling__header__outgoing_subtitle">kicsengés</string>
-  <string name="calling__header__outgoing_video_subtitle">kicsengés</string>
-  <string name="calling__header__incoming_subtitle">hívás</string>
-  <string name="calling__header__incoming_subtitle__video">videóhívás</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="calling__header__joining">Csatlakozás&#8230;</string>
+  <string name="calling__header__outgoing_subtitle">Kicsengés&#8230;</string>
+  <string name="calling__header__outgoing_video_subtitle">Kicsengés&#8230;</string>
+  <string name="calling__header__incoming_subtitle">Hívás&#8230;</string>
+  <string name="calling__header__incoming_subtitle__video">Hívás&#8230;</string>
+  <string name="call_banner_joining">CSATLAKOZÁS&#8230;</string>
+  <string name="call_banner_outgoing">RINGING&#8230;</string>
+  <string name="call_banner_incoming">CALLING&#8230;</string>
+  <string name="call_banner_incoming_video">CALLING&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
   <string name="calling_ongoing_call_title">Folyamatban lévő hívás</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
   <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
   <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
   <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
   <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
   <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
@@ -315,7 +317,6 @@
   <string name="connect_request__ignore_button__text">Figyelmen kívül hagyás</string>
   <string name="content__message__connect_request__footer">CSATLAKOZOTT</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTOMATIKUSAN CSATLAKOZTATVA. _TOVÁBBI INFORMÁCIÓ_</string>
-  <string name="content__message__connect_request__user_info">A Névjegyzékedben: %1$s</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s elkezdett használni egy új eszközt.</item>
@@ -1151,6 +1152,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">Megnyitja a beszélgetést a csapatodon kívüli partnerek számára is.</string>
   <string name="allow_guests">Vendégek Engedélyezése</string>
   <string name="guest_options_title">Vendég Opciók</string>
+  <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">Valami nem stimmel</string>
   <string name="allow_guests_error_body">Nem sikerült engedélyezni a vendégeket. Kérjük, próbáld újra.</string>
   <string name="allow_guests_warning_body">A jelenlegi vendégek el lesznek távolítva a beszélgetésből. Új vendégek sem csatlakozhatnak.</string>
@@ -1201,4 +1203,8 @@
   <string name="backup_import_error_unsupported_version">Ez a mentés egy újabb vagy elavultabb Wire verzióval készült és nem lehet itt visszaállítani.</string>
   <string name="backup_import_error_wrong_account_title">Rossz mentés</string>
   <string name="backup_import_error_wrong_account">Az előzményeket nem lehet másik felhasználói fiókból visszaállítani.</string>
+  <string name="video_paused">Video paused</string>
+  <string name="calling_degraded_title">Új eszköz</string>
+  <string name="call_info_text">Up to 128 people can join a group conversation. Video calls work in groups of 4 or less.</string>
+  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
 </resources>

@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">Nevažeći broj</string>
   <string name="phone_invalid_format_message">Molimo unesite valjani broj telefona</string>
   <string name="phone_password_exists_header">Password exists</string>
-  <string name="phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
   <string name="invalid_code_header">Nevažeći kod</string>
   <string name="incorrect_code_header">Netočan kod</string>
   <string name="wrong_code_message">Molimo, unesite važeći kod</string>
@@ -198,7 +198,9 @@
   <string name="content__otr__conversation_verified">Razgovor verificiran</string>
   <string name="content__otr__conversation_unverified">Razgovor nije verificiran</string>
   <string name="content__otr__message_error">PORUKA OD [[%1$s]] NIJE DOSTAVLJENA. _ZAŠTO?. _</string>
+  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] IDENTITET URĐAJA SE PROMIJENIO. NEISPORUČENA PORUKA. _SAZNAJ VIŠE_</string>
+  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] POČEO KORISTITI _NOVI UREĐAJ_</string>
   <string name="content__otr__start_this_device__message">[[VI]] STE KRENULI KORISTITI _OVAJ UREĐAJ_</string>
   <string name="content__otr__all_fingerprints_verified">SVI OTISCI SU VERIFICIRANI</string>
@@ -259,13 +261,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Spora internetska veza</string>
   <string name="calling__slow_connection__message">Vaša internetska veza je prespora da bi zvali sada. Molimo pokušajte kasnije.</string>
-  <string name="calling__cannot_start__title">Poziv nedostupan</string>
+  <string name="calling__cannot_start__title">Microphone required</string>
   <string name="calling__cannot_start__message">Prekinite trenutni poziv da biste uspostavili novi.</string>
-  <string name="calling__cannot_start__no_permission__message">Omogućite pristup mikrofonu da biste uspostavili poziv.</string>
+  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__cancel__message">ODUSTANI</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s je zauzet</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Pokušajte ponovno kasnije</string>
-  <string name="calling__cannot_start__no_video_permission__message">Omogućite pristup mikrofonu i kameri da biste uspostavili video poziv.</string>
-  <string name="calling__cannot_start__button_settings">Postavke</string>
+  <string name="calling__cannot_start__button_settings">POSTAVKE</string>
   <string name="calling__video_call__slow_connection__message">U ovom pozivu biste mogli iskusiti manje poteškoće</string>
   <string name="incoming__controls__incoming__decline">ODBIJ POZIV</string>
   <string name="incoming__controls__incoming__accept">PRIHVATI POZIV</string>
@@ -273,27 +276,26 @@
   <string name="incoming__controls__ongoing__speaker">ZVUČNIK</string>
   <string name="incoming__controls__ongoing__mute">UTIŠAJ</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
-  <string name="ongoing__other_turned_off_video">%1$s JE UGASIO / UGASILA VIDEO</string>
-  <string name="ongoing__other_unable_to_send_video">%1$s NE MOŽE POSLATI VIDEO</string>
+  <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">VIDEO JE PREKINUT ZBOG LOŠE VEZE</string>
-  <string name="ongoing__connecting">SPAJAM&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO ISKLJUČEN</string>
   <string name="calling__self_preview_unavailable_long">KAMERA NIJE DOSTUPNA</string>
-  <string name="calling__header__joining">spajam</string>
-  <string name="calling__header__outgoing_subtitle">zvoni</string>
-  <string name="calling__header__outgoing_video_subtitle">zvoni</string>
-  <string name="calling__header__incoming_subtitle">poziv</string>
-  <string name="calling__header__incoming_subtitle__video">video poziv</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="calling__header__joining">Povezivanje&#8230;</string>
+  <string name="calling__header__outgoing_subtitle">Zvoni...</string>
+  <string name="calling__header__outgoing_video_subtitle">Zvoni...</string>
+  <string name="calling__header__incoming_subtitle">Pozivanje&#8230;</string>
+  <string name="calling__header__incoming_subtitle__video">Pozivanje&#8230;</string>
+  <string name="call_banner_joining">SPAJAM&#8230;</string>
+  <string name="call_banner_outgoing">RINGING&#8230;</string>
+  <string name="call_banner_incoming">CALLING&#8230;</string>
+  <string name="call_banner_incoming_video">CALLING&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
   <string name="calling_ongoing_call_title">Ongoing call</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
   <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
   <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
   <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
   <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
   <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
@@ -319,7 +321,6 @@
   <string name="connect_request__ignore_button__text">Ignoriraj</string>
   <string name="content__message__connect_request__footer">VEZA USPOSTAVLJENA</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTOPOVEZIVANJE._NAUČI VIŠE_</string>
-  <string name="content__message__connect_request__user_info">%1$s u kontaktima</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s počeo koristiti novi uređaj.</item>
@@ -1181,6 +1182,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to people outside your team.</string>
   <string name="allow_guests">Allow Guests</string>
   <string name="guest_options_title">Guest Options</string>
+  <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">Nešto je pošlo po zlu</string>
   <string name="allow_guests_error_body">Could not allow guests. Please try again.</string>
   <string name="allow_guests_warning_body">Current guests will be removed from the conversation. New guests will not be allowed.</string>
@@ -1231,4 +1233,8 @@
   <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
   <string name="backup_import_error_wrong_account_title">Wrong backup</string>
   <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
+  <string name="video_paused">Video paused</string>
+  <string name="calling_degraded_title">New device</string>
+  <string name="call_info_text">Up to 128 people can join a group conversation. Video calls work in groups of 4 or less.</string>
+  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
 </resources>

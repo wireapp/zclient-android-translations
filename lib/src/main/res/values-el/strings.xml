@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">Μη έγκυρος αριθμός τηλεφώνου</string>
   <string name="phone_invalid_format_message">Παρακαλούμε εισάγετε έναν έγκυρο αριθμό τηλεφώνου</string>
   <string name="phone_password_exists_header">Αυτός ο κωδικός υπάρχει ήδη</string>
-  <string name="phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
   <string name="invalid_code_header">Μη έγκυρος κωδικός</string>
   <string name="incorrect_code_header">Λάθος κωδικός</string>
   <string name="wrong_code_message">Αυτός ο κωδικός δεν είναι έγκυρος</string>
@@ -196,7 +196,9 @@
   <string name="content__otr__conversation_verified">Η συνομιλία επαληθεύτηκε</string>
   <string name="content__otr__conversation_unverified">Η Συνομιλία δεν επαληθεύτηκε</string>
   <string name="content__otr__message_error">Ένα μήνυμα από [[%1$s]] Δεν ελήφθη. Γιατί?_</string>
+  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]]\'S Η ΤΑΥΤΟΤΗΤΑ ΤΗΣ ΣΥΣΚΕΥΗΣ ΆΛΛΑΞΕ. ΤΟ ΜΗΝΥΜΑ ΔΕΝ ΠΑΡΕΔΟΘΗ. _ΜΑΘΕΤΕ ΠΕΡΙΣΣΟΤΕΡΑ_</string>
+  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] ΞΕΚΙΝΗΣΕ ΝΑ ΧΡΗΣΙΜΟΠΟΙΕΙ ΜΙΑ _ΝΕΑ ΣΥΣΚΕΥΗ_</string>
   <string name="content__otr__start_this_device__message">[[YOU]] ΞΕΚΙΝΗΣΕ ΝΑ ΧΡΗΣΙΜΟΠΟΙΕΙ _ΑΥΤΗ ΤΗΝ ΣΥΣΚΕΥΗ_</string>
   <string name="content__otr__all_fingerprints_verified">Όλα τα αποτυπώματα επαληθεύθηκαν</string>
@@ -257,12 +259,13 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Αργή σύνδεση</string>
   <string name="calling__slow_connection__message">Η σύνδεση δικτύου σας είναι πολύ αργή για να καλέσετε μόλις τώρα. Παρακαλούμε δοκιμάστε ξανά αργότερα.</string>
-  <string name="calling__cannot_start__title">Κλήση μη διαθέσιμη</string>
+  <string name="calling__cannot_start__title">Microphone required</string>
   <string name="calling__cannot_start__message">Για να καλέσετε, τερματίστε την τρέχουσα κλήση σας.</string>
-  <string name="calling__cannot_start__no_permission__message">Για να καλέσετε, χρειάζεται η άδεια πρόσβασης στο μικρόφωνο.</string>
+  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__cancel__message">Ακύρωση</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s είναι απασχολημένος</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Δοκιμάστε ξανά αργότερα</string>
-  <string name="calling__cannot_start__no_video_permission__message">Για βιντεοκλήση, χρειάζεται η άδεια πρόσβασης στο μικρόφωνο και την κάμερα σας.</string>
   <string name="calling__cannot_start__button_settings">Ρυθμίσεις</string>
   <string name="calling__video_call__slow_connection__message">Ενδεχομένως να αντιμετωπίσετε κάποια προβλήματα κατά την κλήση</string>
   <string name="incoming__controls__incoming__decline">Απόρριψη</string>
@@ -271,27 +274,26 @@
   <string name="incoming__controls__ongoing__speaker">ΗΧΕΙΟ</string>
   <string name="incoming__controls__ongoing__mute">Σίγαση</string>
   <string name="incoming__controls__ongoing__video">Βίντεο</string>
-  <string name="ongoing__other_turned_off_video">%1$s Απενεργοποίηση βίντεο</string>
-  <string name="ongoing__other_unable_to_send_video">%1$s Αδύνατο να σταλθεί το βίντεο</string>
+  <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">Το βίντεο διακόπηκε λόγω κακής σύνδεσης</string>
-  <string name="ongoing__connecting">Συνδέεται&#8230;</string>
   <string name="calling__self_preview_unavailable">Βίντεο κλειστό</string>
   <string name="calling__self_preview_unavailable_long">Η ΚΑΜΕΡΑ ΔΕΝ ΕΙΝΑΙ ΔΙΑΘΕΣΙΜΗ</string>
-  <string name="calling__header__joining">συμμετοχή</string>
-  <string name="calling__header__outgoing_subtitle">κουδουνίζει</string>
-  <string name="calling__header__outgoing_video_subtitle">κουδουνίζει</string>
-  <string name="calling__header__incoming_subtitle">καλεί</string>
-  <string name="calling__header__incoming_subtitle__video">κλήση βίντεο</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="calling__header__joining">Συνδέεται&#8230;</string>
+  <string name="calling__header__outgoing_subtitle">Καλεί&#8230;</string>
+  <string name="calling__header__outgoing_video_subtitle">Καλεί&#8230;</string>
+  <string name="calling__header__incoming_subtitle">Καλεί&#8230;</string>
+  <string name="calling__header__incoming_subtitle__video">Καλεί&#8230;</string>
+  <string name="call_banner_joining">Συνδέεται&#8230;</string>
+  <string name="call_banner_outgoing">RINGING&#8230;</string>
+  <string name="call_banner_incoming">CALLING&#8230;</string>
+  <string name="call_banner_incoming_video">CALLING&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
   <string name="calling_ongoing_call_title">Ongoing call</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
   <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
   <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
   <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
   <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
   <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
@@ -315,7 +317,6 @@
   <string name="connect_request__ignore_button__text">Αγνόηση</string>
   <string name="content__message__connect_request__footer">Συνδεμένος</string>
   <string name="content__message__connect_request__auto_connect__footer">Αυτόματη-Σύνδεση. _Μάθετε Περισσότερα_</string>
-  <string name="content__message__connect_request__user_info">%1$s στις επαφές</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s άρχισε να χρησιμοποιεί μία νέα συσκευή.</item>
@@ -1150,6 +1151,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to people outside your team.</string>
   <string name="allow_guests">Allow Guests</string>
   <string name="guest_options_title">Guest Options</string>
+  <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">Κάτι πήγε στραβά</string>
   <string name="allow_guests_error_body">Could not allow guests. Please try again.</string>
   <string name="allow_guests_warning_body">Current guests will be removed from the conversation. New guests will not be allowed.</string>
@@ -1200,4 +1202,8 @@
   <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
   <string name="backup_import_error_wrong_account_title">Wrong backup</string>
   <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
+  <string name="video_paused">Video paused</string>
+  <string name="calling_degraded_title">Νέα συσκευή</string>
+  <string name="call_info_text">Up to 128 people can join a group conversation. Video calls work in groups of 4 or less.</string>
+  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
 </resources>

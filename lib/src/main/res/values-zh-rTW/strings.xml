@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">不正確的手機號碼</string>
   <string name="phone_invalid_format_message">請輸入有效的手機號碼</string>
   <string name="phone_password_exists_header">密碼已存在</string>
-  <string name="phone_password_exists_message">此帳號已有密碼和電子郵件連結了。請使用電子郵件登錄。</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
   <string name="invalid_code_header">不正確的代碼</string>
   <string name="incorrect_code_header">不正確的代碼</string>
   <string name="wrong_code_message">請輸入一個有效的代碼</string>
@@ -194,7 +194,9 @@
   <string name="content__otr__conversation_verified">聊天室已驗證</string>
   <string name="content__otr__conversation_unverified">聊天室未驗證</string>
   <string name="content__otr__message_error">從 [[%1$s]] 的訊息未被接收。_為什麼？_</string>
+  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] 的設備識別已更改。信息無法送達。_瞭解更多_</string>
+  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]]開始使用 _新的設備_</string>
   <string name="content__otr__start_this_device__message">[[您]]開始使用 _此設備_</string>
   <string name="content__otr__all_fingerprints_verified">所有的指紋已完成驗證</string>
@@ -255,12 +257,13 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">網路速度緩慢</string>
   <string name="calling__slow_connection__message">您的連線速度太慢無法通話。請稍後再試。</string>
-  <string name="calling__cannot_start__title">通話功能無法使用</string>
+  <string name="calling__cannot_start__title">Microphone required</string>
   <string name="calling__cannot_start__message">開始新的通話前，請先結束目前通話。</string>
-  <string name="calling__cannot_start__no_permission__message">如要使用通話功能，請允許使用麥克風權限。</string>
+  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__cancel__message">取消</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s忙線中</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">請稍後再試</string>
-  <string name="calling__cannot_start__no_video_permission__message">如要使用視訊通話功能，請允許使用麥克風和相機權限。</string>
   <string name="calling__cannot_start__button_settings">設定</string>
   <string name="calling__video_call__slow_connection__message">您可能會在通話期間遇到問題</string>
   <string name="incoming__controls__incoming__decline">不接聽</string>
@@ -269,27 +272,26 @@
   <string name="incoming__controls__ongoing__speaker">擴音</string>
   <string name="incoming__controls__ongoing__mute">關閉麥克風</string>
   <string name="incoming__controls__ongoing__video">視訊</string>
-  <string name="ongoing__other_turned_off_video">%1$s關閉了視訊</string>
-  <string name="ongoing__other_unable_to_send_video">%1$s無法發送視訊</string>
+  <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">連線品質不佳，視訊停止</string>
-  <string name="ongoing__connecting">正在連接...</string>
   <string name="calling__self_preview_unavailable">視訊關閉</string>
   <string name="calling__self_preview_unavailable_long">相機無法使用</string>
-  <string name="calling__header__joining">正加入通話</string>
-  <string name="calling__header__outgoing_subtitle">撥號中</string>
-  <string name="calling__header__outgoing_video_subtitle">撥號中</string>
-  <string name="calling__header__incoming_subtitle">來電</string>
-  <string name="calling__header__incoming_subtitle__video">視訊來電</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="calling__header__joining">連接中&#8230;</string>
+  <string name="calling__header__outgoing_subtitle">響鈴中...</string>
+  <string name="calling__header__outgoing_video_subtitle">響鈴中...</string>
+  <string name="calling__header__incoming_subtitle">呼叫中...</string>
+  <string name="calling__header__incoming_subtitle__video">呼叫中...</string>
+  <string name="call_banner_joining">正在連接...</string>
+  <string name="call_banner_outgoing">RINGING&#8230;</string>
+  <string name="call_banner_incoming">CALLING&#8230;</string>
+  <string name="call_banner_incoming_video">CALLING&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
   <string name="calling_ongoing_call_title">通話中</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
   <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
   <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
   <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
   <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
   <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
@@ -311,7 +313,6 @@
   <string name="connect_request__ignore_button__text">忽略</string>
   <string name="content__message__connect_request__footer">已成為連絡人</string>
   <string name="content__message__connect_request__auto_connect__footer">自動加為連絡人。_瞭解更多_</string>
-  <string name="content__message__connect_request__user_info">%1$s已聯繫</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="other">%1$s 開始使用新的設備。</item>
@@ -444,9 +445,9 @@
   <string name="pref_backup_screen_title">備份對話</string>
   <!-- Data Usage Permissions -->
   <string name="pref_advanced_send_anonymous_data_title">寄送匿名資料</string>
-  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
-  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
+  <string name="pref_advanced_send_anonymous_data_summary">發送匿名使用紀錄和崩潰報告以改善Wire。</string>
+  <string name="pref_advanced_receive_news_and_offers_title">接收新聞</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">接收Wire的新聞和產品更新電子郵件。</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">黑色系主題</string>
   <string name="pref_options_screen_title">選項</string>
@@ -1119,6 +1120,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">開放這個對話與團隊以外的訪客。</string>
   <string name="allow_guests">允許訪客</string>
   <string name="guest_options_title">訪客選項</string>
+  <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">出了點問題</string>
   <string name="allow_guests_error_body">不能允許客人。請重試。</string>
   <string name="allow_guests_warning_body">將移除對話中的訪客。 將不能加入新訪客。</string>
@@ -1169,4 +1171,8 @@
   <string name="backup_import_error_unsupported_version">此備份是由較新的或過時版本的Wire創建的，無法在此版本還原。</string>
   <string name="backup_import_error_wrong_account_title">Wrong backup</string>
   <string name="backup_import_error_wrong_account">無法還原其他帳戶歷史記錄到你的帳戶。</string>
+  <string name="video_paused">影像已暫停</string>
+  <string name="calling_degraded_title">新裝置</string>
+  <string name="call_info_text">最多128人可以加入群組對話。視像通話僅能在4個人以下的群組中使用。</string>
+  <string name="too_many_people_video_toast">視像通話僅能在4個人以下的群組中使用。</string>
 </resources>

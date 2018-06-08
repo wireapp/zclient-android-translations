@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">Ugyldigt telefonnummer</string>
   <string name="phone_invalid_format_message">Indtast et gyldigt telefonnummer</string>
   <string name="phone_password_exists_header">Password exists</string>
-  <string name="phone_password_exists_message">This account already has a password and email associated. Please login by email.</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
   <string name="invalid_code_header">Ugyldig kode</string>
   <string name="incorrect_code_header">Forkert kode</string>
   <string name="wrong_code_message">Indtast en gyldig kode</string>
@@ -196,7 +196,9 @@
   <string name="content__otr__conversation_verified">Samtale verificeret</string>
   <string name="content__otr__conversation_unverified">Samtale ikke verificeret</string>
   <string name="content__otr__message_error">EN BESKED FRA [[%1$s]] BLEV IKKE MODTAGET. _HVORFOR?_</string>
+  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]]S ENHEDSIDENTITET ÆNDRET. BESKED IKKE LEVERET. _VIS MERE_</string>
+  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] BEGYNDTE AT BRUGE EN _NY ENHED_</string>
   <string name="content__otr__start_this_device__message">[[DU]] BEGYNDTE AT BRUGE _DENNE ENHED_</string>
   <string name="content__otr__all_fingerprints_verified">ALLE FINGERAFTRYK ER VERIFICERET</string>
@@ -257,13 +259,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Langsomt internet</string>
   <string name="calling__slow_connection__message">Din internetforbindelse er for langsom til at foretage et opkald. Prøv igen senere.</string>
-  <string name="calling__cannot_start__title">Opkald ikke tilgængeligt</string>
+  <string name="calling__cannot_start__title">Microphone required</string>
   <string name="calling__cannot_start__message">For at ringe op, skal du afslutte dit igangværende opkald.</string>
-  <string name="calling__cannot_start__no_permission__message">For at ringe op, skal du give tilladelse til at få adgang til mikrofonen.</string>
+  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__cancel__message">ANNULLER</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s er optaget</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Prøv igen senere</string>
-  <string name="calling__cannot_start__no_video_permission__message">For at foretage video opkald, skal du give tilladelse til at få adgang til mikrofon samt kamera.</string>
-  <string name="calling__cannot_start__button_settings">Indstillinger</string>
+  <string name="calling__cannot_start__button_settings">INDSTILLINGER</string>
   <string name="calling__video_call__slow_connection__message">Du kan opleve problemer under opkaldet</string>
   <string name="incoming__controls__incoming__decline">AFSLÅ</string>
   <string name="incoming__controls__incoming__accept">ACCEPTER</string>
@@ -271,27 +274,26 @@
   <string name="incoming__controls__ongoing__speaker">HØJTALER</string>
   <string name="incoming__controls__ongoing__mute">LYD FRA</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
-  <string name="ongoing__other_turned_off_video">%1$s HAR SLÅET VIDEO FRA</string>
-  <string name="ongoing__other_unable_to_send_video">%1$s KAN IKKE SENDE VIDEO</string>
+  <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">VIDEO STOPPET GRUNDET DÅRLIGT FORBINDELSE</string>
-  <string name="ongoing__connecting">TILSLUTTER&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO FRA</string>
   <string name="calling__self_preview_unavailable_long">KAMERA IKKE TILGÆNGELIGT</string>
-  <string name="calling__header__joining">deltager</string>
-  <string name="calling__header__outgoing_subtitle">ringer</string>
-  <string name="calling__header__outgoing_video_subtitle">ringer</string>
-  <string name="calling__header__incoming_subtitle">ringer op</string>
-  <string name="calling__header__incoming_subtitle__video">videoopkald</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="calling__header__joining">Forbinder&#8230;</string>
+  <string name="calling__header__outgoing_subtitle">Ringer op&#8230;</string>
+  <string name="calling__header__outgoing_video_subtitle">Ringer op&#8230;</string>
+  <string name="calling__header__incoming_subtitle">Ringer op&#8230;</string>
+  <string name="calling__header__incoming_subtitle__video">Ringer op&#8230;</string>
+  <string name="call_banner_joining">TILSLUTTER&#8230;</string>
+  <string name="call_banner_outgoing">RINGING&#8230;</string>
+  <string name="call_banner_incoming">CALLING&#8230;</string>
+  <string name="call_banner_incoming_video">CALLING&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
   <string name="calling_ongoing_call_title">Ongoing call</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
   <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
   <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
   <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
   <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
   <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
@@ -315,7 +317,6 @@
   <string name="connect_request__ignore_button__text">Ignorer</string>
   <string name="content__message__connect_request__footer">TILSLUTTET</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTO-FORBUNDET. _LÆR MERE_</string>
-  <string name="content__message__connect_request__user_info">%1$s i Kontaktpersoner</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s er begyndt at bruge en ny enhed.</item>
@@ -1152,6 +1153,7 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="open_this_conversation_to_people_outside_your_team">Åbn denne samtale for personer uden for dit team.</string>
   <string name="allow_guests">Allow Guests</string>
   <string name="guest_options_title">Guest Options</string>
+  <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">Noget gik galt</string>
   <string name="allow_guests_error_body">Kunne ikke tillade gæster. Prøv venligst igen.</string>
   <string name="allow_guests_warning_body">Current guests will be removed from the conversation. New guests will not be allowed.</string>
@@ -1202,4 +1204,8 @@ Tjek din forbindelse og prøv igen.</string>
   <string name="backup_import_error_unsupported_version">Denne sikkerhedskopi er lavet på en nyere eller uddateret version af Wire og kan ikke blive gendannet her.</string>
   <string name="backup_import_error_wrong_account_title">Forkert sikkerhedskopi</string>
   <string name="backup_import_error_wrong_account">Du kan ikke gendanne historik fra en anden konto.</string>
+  <string name="video_paused">Video paused</string>
+  <string name="calling_degraded_title">New device</string>
+  <string name="call_info_text">Up to 128 people can join a group conversation. Video calls work in groups of 4 or less.</string>
+  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
 </resources>

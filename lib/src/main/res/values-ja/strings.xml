@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">無効な電話番号</string>
   <string name="phone_invalid_format_message">有効な電話番号を入力してください</string>
   <string name="phone_password_exists_header">パスワードが存在します。</string>
-  <string name="phone_password_exists_message">このアカウントはすでにパスワードとメールアドレスで関連付けられています。メールアドレスでログインしてください。</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
   <string name="invalid_code_header">無効なコード</string>
   <string name="incorrect_code_header">間違ったコード</string>
   <string name="wrong_code_message">有効なコードを入力してください。</string>
@@ -194,7 +194,9 @@
   <string name="content__otr__conversation_verified">会話を確認しました</string>
   <string name="content__otr__conversation_unverified">会話を確認していません</string>
   <string name="content__otr__message_error">[[%1$s]] からのメッセージは受信されませんでした。 _なぜ?_</string>
+  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] のデバイス ID を変更しました。配信不能なメッセージ。 _詳細_</string>
+  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] _新しいデバイス_ を使い始めました</string>
   <string name="content__otr__start_this_device__message">[[あなた]] _新しいデバイス_ を使い始めました</string>
   <string name="content__otr__all_fingerprints_verified">すべてのフィンガープリントは確認されています</string>
@@ -255,12 +257,13 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">遅いインターネット</string>
   <string name="calling__slow_connection__message">インターネット接続が遅すぎるため、今すぐ電話できません。後でもう一度試してください。</string>
-  <string name="calling__cannot_start__title">通話は利用できません</string>
+  <string name="calling__cannot_start__title">Microphone required</string>
   <string name="calling__cannot_start__message">通話するには、現在の電話を切ってください。</string>
-  <string name="calling__cannot_start__no_permission__message">通話するには、マイクへのアクセス許可を付与してください。</string>
+  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__cancel__message">キャンセル</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s は話し中です</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">後でもう一度やり直してください</string>
-  <string name="calling__cannot_start__no_video_permission__message">ビデオ通話するには、マイクとカメラへのアクセス許可を付与してください。</string>
   <string name="calling__cannot_start__button_settings">設定</string>
   <string name="calling__video_call__slow_connection__message">通話中に問題が発生する可能性があります</string>
   <string name="incoming__controls__incoming__decline">辞退</string>
@@ -269,27 +272,26 @@
   <string name="incoming__controls__ongoing__speaker">スピーカー</string>
   <string name="incoming__controls__ongoing__mute">ミュート</string>
   <string name="incoming__controls__ongoing__video">ビデオ</string>
-  <string name="ongoing__other_turned_off_video">%1$s はビデオをオフにしました</string>
-  <string name="ongoing__other_unable_to_send_video">%1$s はビデオを送信できません</string>
+  <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">接続不良のためビデオが停止しました</string>
-  <string name="ongoing__connecting">接続中&#8230;</string>
   <string name="calling__self_preview_unavailable">ビデオオフ</string>
   <string name="calling__self_preview_unavailable_long">カメラは利用できません</string>
-  <string name="calling__header__joining">参加中</string>
-  <string name="calling__header__outgoing_subtitle">呼び出し中</string>
-  <string name="calling__header__outgoing_video_subtitle">呼び出し中</string>
-  <string name="calling__header__incoming_subtitle">呼び出し中</string>
-  <string name="calling__header__incoming_subtitle__video">ビデオ通話呼び出し中</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="calling__header__joining">接続中...</string>
+  <string name="calling__header__outgoing_subtitle">呼び出し中...</string>
+  <string name="calling__header__outgoing_video_subtitle">呼び出し中...</string>
+  <string name="calling__header__incoming_subtitle">発信中...</string>
+  <string name="calling__header__incoming_subtitle__video">発信中...</string>
+  <string name="call_banner_joining">接続中&#8230;</string>
+  <string name="call_banner_outgoing">RINGING&#8230;</string>
+  <string name="call_banner_incoming">CALLING&#8230;</string>
+  <string name="call_banner_incoming_video">CALLING&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
   <string name="calling_ongoing_call_title">通話中</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
   <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
   <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
   <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
   <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
   <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
@@ -311,7 +313,6 @@
   <string name="connect_request__ignore_button__text">無視する</string>
   <string name="content__message__connect_request__footer">接続しています</string>
   <string name="content__message__connect_request__auto_connect__footer">自動接続されています。_詳細_</string>
-  <string name="content__message__connect_request__user_info">連絡先に %1$s がいます</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="other">%1$s は、新しいデバイスを使い始めました。</item>
@@ -1121,6 +1122,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="open_this_conversation_to_people_outside_your_team">チーム外の人々にこの会話を公開します。</string>
   <string name="allow_guests">ゲストアクセスを許可</string>
   <string name="guest_options_title">ゲスト オプション</string>
+  <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">何か問題があります</string>
   <string name="allow_guests_error_body">ゲストを許可できませんでした。もう一度お試しください。</string>
   <string name="allow_guests_warning_body">現在のゲストは、会話から削除されます。新しいゲストは許可されません。</string>
@@ -1170,4 +1172,8 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="backup_import_error_unsupported_version">このバックアップデータは、新しいまたは古すぎる Wire で作成されたため、リストアできません。</string>
   <string name="backup_import_error_wrong_account_title">バックアップに不備があります</string>
   <string name="backup_import_error_wrong_account">別のアカウントからの履歴はリストアできません。</string>
+  <string name="video_paused">Video paused</string>
+  <string name="calling_degraded_title">新しいデバイス</string>
+  <string name="call_info_text">Up to 128 people can join a group conversation. Video calls work in groups of 4 or less.</string>
+  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
 </resources>

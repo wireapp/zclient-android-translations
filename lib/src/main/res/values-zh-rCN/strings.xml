@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">无效的手机号码</string>
   <string name="phone_invalid_format_message">请输入有效的手机号码</string>
   <string name="phone_password_exists_header">密码已存在</string>
-  <string name="phone_password_exists_message">此帐户已经具有密码和电子邮件相关联。通过电子邮件，请登录。</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
   <string name="invalid_code_header">验证码无效</string>
   <string name="incorrect_code_header">验证码不正确</string>
   <string name="wrong_code_message">请输入有效的验证码</string>
@@ -117,7 +117,7 @@
   <string name="people_picker__search_services">SERVICES</string>
   <string name="receive_news_and_offers_request_title">Newsletter</string>
   <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
-  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+  <string name="crashes_and_analytics_request_title">帮助我们改善Wire</string>
   <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">服务</string>
@@ -194,7 +194,9 @@
   <string name="content__otr__conversation_verified">聊天室已验证</string>
   <string name="content__otr__conversation_unverified">聊天室未验证</string>
   <string name="content__otr__message_error">从 [[%1$s]] 的信息未被接收。_为什么？_</string>
+  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] 的设备识别码已更改。信息无法送达。_了解更多_</string>
+  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]]开始使用 _新的设备_</string>
   <string name="content__otr__start_this_device__message">[[您]]开始使用 _此设备_</string>
   <string name="content__otr__all_fingerprints_verified">所有的指纹已完成验证</string>
@@ -255,12 +257,13 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">网络速度缓慢</string>
   <string name="calling__slow_connection__message">您的网速太慢无法通话。请稍候再试。</string>
-  <string name="calling__cannot_start__title">通话功能无法使用</string>
+  <string name="calling__cannot_start__title">Microphone required</string>
   <string name="calling__cannot_start__message">开始新的通话前，请先结束当前通话。</string>
-  <string name="calling__cannot_start__no_permission__message">如需使用通话功能，请开启麦克风使用权限。</string>
+  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__cancel__message">取消</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s忙线中</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">请稍候再试</string>
-  <string name="calling__cannot_start__no_video_permission__message">如需使用视屏聊天功能，请开启麦克风和摄像头使用权限。</string>
   <string name="calling__cannot_start__button_settings">设置</string>
   <string name="calling__video_call__slow_connection__message">您可能会在通话期间遇到问题</string>
   <string name="incoming__controls__incoming__decline">拒绝</string>
@@ -269,27 +272,26 @@
   <string name="incoming__controls__ongoing__speaker">免提</string>
   <string name="incoming__controls__ongoing__mute">静音</string>
   <string name="incoming__controls__ongoing__video">视频</string>
-  <string name="ongoing__other_turned_off_video">%1$s关闭了视频</string>
-  <string name="ongoing__other_unable_to_send_video">%1$s无法发送视频</string>
+  <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">网络连接差，视频停止</string>
-  <string name="ongoing__connecting">正在连接&#8230;</string>
   <string name="calling__self_preview_unavailable">关闭视频</string>
   <string name="calling__self_preview_unavailable_long">相机无法使用</string>
-  <string name="calling__header__joining">正加入通话</string>
-  <string name="calling__header__outgoing_subtitle">拨号中</string>
-  <string name="calling__header__outgoing_video_subtitle">拨号中</string>
-  <string name="calling__header__incoming_subtitle">来电</string>
-  <string name="calling__header__incoming_subtitle__video">视频来电</string>
-  <string name="call_banner_joining">JOINING</string>
-  <string name="call_banner_outgoing">RINGING</string>
-  <string name="call_banner_incoming">CALLING</string>
-  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="calling__header__joining">正在连接...</string>
+  <string name="calling__header__outgoing_subtitle">响铃中...</string>
+  <string name="calling__header__outgoing_video_subtitle">响铃中...</string>
+  <string name="calling__header__incoming_subtitle">正在呼叫...</string>
+  <string name="calling__header__incoming_subtitle__video">正在呼叫...</string>
+  <string name="call_banner_joining">正在连接&#8230;</string>
+  <string name="call_banner_outgoing">RINGING&#8230;</string>
+  <string name="call_banner_incoming">CALLING&#8230;</string>
+  <string name="call_banner_incoming_video">CALLING&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
   <string name="calling_ongoing_call_title">正在呼叫</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
   <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
   <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
   <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
   <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
   <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
@@ -311,7 +313,6 @@
   <string name="connect_request__ignore_button__text">取消</string>
   <string name="content__message__connect_request__footer">已成为好友</string>
   <string name="content__message__connect_request__auto_connect__footer">自动加为好友。_了解更多_</string>
-  <string name="content__message__connect_request__user_info">%1$s 已是联系人</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="other">%1$s 开始使用新的设备。</item>
@@ -1064,7 +1065,7 @@
   <string name="app_entry_slogan">保密每个人之通讯。</string>
   <string name="app_entry_create_account">供个人使用</string>
   <string name="app_entry_create_account_sub">新增帐户</string>
-  <string name="app_entry_create_team">给单位</string>
+  <string name="app_entry_create_team">供单位使用</string>
   <string name="app_entry_create_team_sub">创建团队</string>
   <string name="app_entry_login_sub">已有帐户？</string>
   <string name="app_entry_login">登录</string>
@@ -1119,6 +1120,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">开放这个对话与团队以外的访客。</string>
   <string name="allow_guests">Allow Guests</string>
   <string name="guest_options_title">访客选项</string>
+  <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">好像出了点问题。</string>
   <string name="allow_guests_error_body">无法允许客人。请再试一次。</string>
   <string name="allow_guests_warning_body">将移除对话中的访客。 将不能加入新访客。</string>
@@ -1169,4 +1171,8 @@
   <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
   <string name="backup_import_error_wrong_account_title">Wrong backup</string>
   <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
+  <string name="video_paused">Video paused</string>
+  <string name="calling_degraded_title">新设备</string>
+  <string name="call_info_text">Up to 128 people can join a group conversation. Video calls work in groups of 4 or less.</string>
+  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
 </resources>

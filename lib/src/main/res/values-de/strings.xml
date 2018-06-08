@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">Ungültige Telefonnummer</string>
   <string name="phone_invalid_format_message">Bitte eine gültige Telefonnummer eingeben</string>
   <string name="phone_password_exists_header">Passwort ist vorhanden</string>
-  <string name="phone_password_exists_message">Dieses Benutzerkonto hat bereits ein Passwort und verfügt über eine E-Mail-Adresse. Bitte per E-Mail einloggen.</string>
+  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
   <string name="invalid_code_header">Ungültiger Code</string>
   <string name="incorrect_code_header">Falscher Code</string>
   <string name="wrong_code_message">Bitte einen gültigen Code eingeben</string>
@@ -196,7 +196,9 @@
   <string name="content__otr__conversation_verified">Unterhaltung überprüft</string>
   <string name="content__otr__conversation_unverified">Nicht überprüfte Unterhaltung</string>
   <string name="content__otr__message_error">EINE NACHRICHT VON [[%1$s]] WURDE NICHT EMPFANGEN. _WARUM? _</string>
+  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]]S GERÄTEIDENTITÄT WURDE GEÄNDERT. EINE NACHRICHT KONNTE NICHT ZUGESTELLT WERDEN. _ERFAHRE MEHR_</string>
+  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] BENUTZT EIN _NEUES GERÄT_</string>
   <string name="content__otr__start_this_device__message">[[DU]] BENUTZT JETZT _DIESES GERÄT_</string>
   <string name="content__otr__all_fingerprints_verified">ALLE FINGERABDRÜCKE SIND ÜBERPRÜFT</string>
@@ -257,13 +259,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Schlechte Internetverbindung</string>
   <string name="calling__slow_connection__message">Deine Internetverbindung ist gerade zu langsam um anzurufen. Bitte versuche es später erneut.</string>
-  <string name="calling__cannot_start__title">Anrufen nicht möglich</string>
+  <string name="calling__cannot_start__title">Microphone required</string>
   <string name="calling__cannot_start__message">Beende bitte den aktuellen Anruf um einen neuen zu beginnen.</string>
-  <string name="calling__cannot_start__no_permission__message">Um anzurufen, erteile die Berechtigung auf das Mikrofon zuzugreifen.</string>
+  <string name="calling__cannot_start__no_permission__message">Gehe zu den Einstellungen und erlaube Wire Zugriff auf das Mikrofon.</string>
+  <string name="calling__cannot_start__cancel__message">Abbrechen</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s ist besetzt</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Versuche es später nochmal</string>
-  <string name="calling__cannot_start__no_video_permission__message">Für Videoanfrufe benötigen wir die Zugriffsberechtigung auf Kamera und Mikrofon.</string>
-  <string name="calling__cannot_start__button_settings">Einstellungen</string>
+  <string name="calling__cannot_start__button_settings">EINSTELLUNGEN</string>
   <string name="calling__video_call__slow_connection__message">Eventuell kommt es zu Problemen während des Anrufs</string>
   <string name="incoming__controls__incoming__decline">ABLEHNEN</string>
   <string name="incoming__controls__incoming__accept">ANNEHMEN</string>
@@ -271,27 +274,26 @@
   <string name="incoming__controls__ongoing__speaker">LAUTSPRECHER</string>
   <string name="incoming__controls__ongoing__mute">STUMM</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
-  <string name="ongoing__other_turned_off_video">%1$s HAT VIDEO DEAKTIVIERT</string>
-  <string name="ongoing__other_unable_to_send_video">%1$s KANN KEIN VIDEO SENDEN</string>
+  <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">VIDEO WEGEN SCHLECHTER VERBINDUNG GESTOPPT</string>
-  <string name="ongoing__connecting">VERBINDUNG WIRD HERGESTELLT&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO AUS</string>
   <string name="calling__self_preview_unavailable_long">KAMERA NICHT VERFÜGBAR</string>
-  <string name="calling__header__joining">tritt bei</string>
-  <string name="calling__header__outgoing_subtitle">klingelt</string>
-  <string name="calling__header__outgoing_video_subtitle">klingelt</string>
-  <string name="calling__header__incoming_subtitle">ruft an</string>
-  <string name="calling__header__incoming_subtitle__video">ruft mit Video an</string>
-  <string name="call_banner_joining">VERBINDEN</string>
-  <string name="call_banner_outgoing">KLINGELT</string>
-  <string name="call_banner_incoming">ANRUF</string>
-  <string name="call_banner_incoming_video">VIDEOANRUF</string>
+  <string name="calling__header__joining">Verbinden&#8230;</string>
+  <string name="calling__header__outgoing_subtitle">Klingeln&#8230;</string>
+  <string name="calling__header__outgoing_video_subtitle">Klingeln&#8230;</string>
+  <string name="calling__header__incoming_subtitle">Anruf wird aufgebaut&#8230;</string>
+  <string name="calling__header__incoming_subtitle__video">Anruf wird aufgebaut&#8230;</string>
+  <string name="call_banner_joining">VERBINDUNG WIRD HERGESTELLT&#8230;</string>
+  <string name="call_banner_outgoing">RINGING&#8230;</string>
+  <string name="call_banner_incoming">CALLING&#8230;</string>
+  <string name="call_banner_incoming_video">CALLING&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">ZUM ANRUF ZURÜCKKEHREN</string>
   <string name="calling_ongoing_call_title">Aktiver Anruf</string>
   <string name="calling_ongoing_call_start_message">In einer anderen Unterhaltung ist ein Anruf aktiv.\nEin Anruf hier beendet den anderen.</string>
   <string name="calling_ongoing_call_start_anyway">TROTZDEM ANRUFEN</string>
   <string name="calling_ongoing_call_join_message">In einer anderen Unterhaltung ist ein Anruf aktiv.\nDiesen Anruf anzunehmen, beendet den anderen.</string>
   <string name="calling_ongoing_call_join_anyway">TROTZDEM BEITRETEN</string>
+  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
   <string name="calling_ongoing_call_audio_message">Audionachrichten können während eines Anrufs nicht aufgenommen werden</string>
   <string name="calling_ongoing_call_video_message">Videonachrichten können während eines Anrufs nicht aufgenommen werden</string>
   <!-- Calling in group conversation -->
@@ -315,7 +317,6 @@
   <string name="connect_request__ignore_button__text">Ignorieren</string>
   <string name="content__message__connect_request__footer">VERBUNDEN</string>
   <string name="content__message__connect_request__auto_connect__footer">AUTOMATISCH-VERBUNDEN. _ERFAHRE MEHR_</string>
-  <string name="content__message__connect_request__user_info">%1$s in Kontakte</string>
   <!-- Otr-->
   <plurals name="conversation__degraded_confirmation__header__single_user">
     <item quantity="one">%1$s hat ein neues Gerät hinzugefügt.</item>
@@ -1151,6 +1152,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">Öffne diese Unterhaltung für Personen außerhalb deines Teams.</string>
   <string name="allow_guests">Gäste zulassen</string>
   <string name="guest_options_title">Gast-Optionen</string>
+  <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">Ein Fehler ist aufgetreten</string>
   <string name="allow_guests_error_body">Gäste konnten nicht zugelassen werden. Bitte nochmal versuchen.</string>
   <string name="allow_guests_warning_body">Aktuelle Gäste werden aus der Unterhaltung entfernt. Neue Gäste können nicht hinzugefügt werden.</string>
@@ -1202,4 +1204,8 @@ Die Backup-Datei wird nicht mit Wire Ende-zu-Ende-Verschlüsselung geschützt. A
   <string name="backup_import_error_unsupported_version">Diese Backup-Datei wurde von einer anderen Version von Wire erstellt und kann deshalb nicht wiederhergestellt werden.</string>
   <string name="backup_import_error_wrong_account_title">Falsches Backup</string>
   <string name="backup_import_error_wrong_account">Der Gesprächsverlauf eines anderen Kontos kann nicht wiederhergestellt werden.</string>
+  <string name="video_paused">Video wurde angehalten</string>
+  <string name="calling_degraded_title">Neues Gerät</string>
+  <string name="call_info_text">Bis zu 128 Personen können an einer Unterhaltung teilnehmen. Videoanrufe funktionieren in Gruppen mit 4 oder weniger Personen.</string>
+  <string name="too_many_people_video_toast">Videoanrufe funktionieren nur in Gruppen von 4 oder weniger Personen.</string>
 </resources>
