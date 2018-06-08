@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">請求次數過多</string>
   <string name="phone_budget_exhausted_message">請稍後再重試。</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">確認</string>
   <string name="permissions_denied_dialog_settings">設定</string>
   <string name="camera_not_available">相機無法使用</string>
   <string name="camera_permissions_denied_title">相機無法使用</string>
@@ -242,6 +241,12 @@
   <string name="conversation__action__remove">移除</string>
   <string name="conversation__action__call">通話</string>
   <string name="conversation__action__picture">大頭照</string>
+  <string name="conversation__action__block">封鎖...</string>
+  <string name="conversation__action__unblock">解除封鎖</string>
+  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
+  <string name="conversation__action__leave_only">\tLeave group</string>
+  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
+  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">開啟</string>
   <string name="popover__action__remove">移除</string>
@@ -250,21 +255,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">網路速度緩慢</string>
   <string name="calling__slow_connection__message">您的連線速度太慢無法通話。請稍後再試。</string>
-  <string name="calling__slow_connection__button">確認</string>
   <string name="calling__cannot_start__title">通話功能無法使用</string>
   <string name="calling__cannot_start__message">開始新的通話前，請先結束目前通話。</string>
   <string name="calling__cannot_start__no_permission__message">如要使用通話功能，請允許使用麥克風權限。</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s忙線中</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">請稍後再試</string>
   <string name="calling__cannot_start__no_video_permission__message">如要使用視訊通話功能，請允許使用麥克風和相機權限。</string>
-  <string name="calling__cannot_start__button">確認</string>
   <string name="calling__cannot_start__button_settings">設定</string>
   <string name="calling__video_call__slow_connection__message">您可能會在通話期間遇到問題</string>
-  <string name="calling__header__joining">正加入通話</string>
-  <string name="calling__header__outgoing_subtitle">撥號中</string>
-  <string name="calling__header__outgoing_video_subtitle">撥號中</string>
-  <string name="calling__header__incoming_subtitle">來電</string>
-  <string name="calling__header__incoming_subtitle__video">視訊來電</string>
   <string name="incoming__controls__incoming__decline">不接聽</string>
   <string name="incoming__controls__incoming__accept">接聽</string>
   <string name="incoming__controls__ongoing__hangup">結束通話</string>
@@ -277,11 +275,27 @@
   <string name="ongoing__connecting">正在連接...</string>
   <string name="calling__self_preview_unavailable">視訊關閉</string>
   <string name="calling__self_preview_unavailable_long">相機無法使用</string>
+  <string name="calling__header__joining">正加入通話</string>
+  <string name="calling__header__outgoing_subtitle">撥號中</string>
+  <string name="calling__header__outgoing_video_subtitle">撥號中</string>
+  <string name="calling__header__incoming_subtitle">來電</string>
+  <string name="calling__header__incoming_subtitle__video">視訊來電</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">通話中</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">開始通話</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">這將會呼叫%1$d位聯絡人</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">通話</string>
-  <string name="group_calling_cancel">取消</string>
   <!-- Connect request -->
   <string name="connect__message">Hi %1$s，\n請加我為連絡人。\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -344,7 +358,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">確定封鎖？</string>
   <string name="confirmation_menu__block_text_with_name">%1$s將不能聯絡您或將您加入到任何群組中。</string>
-  <string name="confirmation_menu__confirm_block">封鎖...</string>
+  <string name="confirmation_menu__confirm_block">封鎖</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">已封鎖</string>
   <!-- Delete conversation -->
@@ -432,7 +446,7 @@
   <string name="pref_advanced_send_anonymous_data_title">寄送匿名資料</string>
   <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
   <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">接收Wire的新聞和產品更新電子郵件。</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">黑色系主題</string>
   <string name="pref_options_screen_title">選項</string>

@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">リクエストが多すぎます</string>
   <string name="phone_budget_exhausted_message">あとで再び試してください</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">設定</string>
   <string name="camera_not_available">カメラは利用できません</string>
   <string name="camera_permissions_denied_title">カメラは利用できません</string>
@@ -242,6 +241,12 @@
   <string name="conversation__action__remove">削除</string>
   <string name="conversation__action__call">通話</string>
   <string name="conversation__action__picture">写真</string>
+  <string name="conversation__action__block">ブロック...</string>
+  <string name="conversation__action__unblock">ブロック解除</string>
+  <string name="conversation__action__leave_and_delete">\t退出してアカウントを削除する</string>
+  <string name="conversation__action__leave_only">\tグループを離れる</string>
+  <string name="conversation__action__delete_and_leave">\tコンテンツを削除して退出する</string>
+  <string name="conversation__action__delete_only">\tコンテンツを削除</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">開く</string>
   <string name="popover__action__remove">削除</string>
@@ -250,21 +255,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">遅いインターネット</string>
   <string name="calling__slow_connection__message">インターネット接続が遅すぎるため、今すぐ電話できません。後でもう一度試してください。</string>
-  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">通話は利用できません</string>
   <string name="calling__cannot_start__message">通話するには、現在の電話を切ってください。</string>
   <string name="calling__cannot_start__no_permission__message">通話するには、マイクへのアクセス許可を付与してください。</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s は話し中です</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">後でもう一度やり直してください</string>
   <string name="calling__cannot_start__no_video_permission__message">ビデオ通話するには、マイクとカメラへのアクセス許可を付与してください。</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">設定</string>
   <string name="calling__video_call__slow_connection__message">通話中に問題が発生する可能性があります</string>
-  <string name="calling__header__joining">参加中</string>
-  <string name="calling__header__outgoing_subtitle">呼び出し中</string>
-  <string name="calling__header__outgoing_video_subtitle">呼び出し中</string>
-  <string name="calling__header__incoming_subtitle">呼び出し中</string>
-  <string name="calling__header__incoming_subtitle__video">ビデオ通話呼び出し中</string>
   <string name="incoming__controls__incoming__decline">辞退</string>
   <string name="incoming__controls__incoming__accept">応答</string>
   <string name="incoming__controls__ongoing__hangup">電話を切る</string>
@@ -277,11 +275,27 @@
   <string name="ongoing__connecting">接続中&#8230;</string>
   <string name="calling__self_preview_unavailable">ビデオオフ</string>
   <string name="calling__self_preview_unavailable_long">カメラは利用できません</string>
+  <string name="calling__header__joining">参加中</string>
+  <string name="calling__header__outgoing_subtitle">呼び出し中</string>
+  <string name="calling__header__outgoing_video_subtitle">呼び出し中</string>
+  <string name="calling__header__incoming_subtitle">呼び出し中</string>
+  <string name="calling__header__incoming_subtitle__video">ビデオ通話呼び出し中</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">通話中</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">通話を始める</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">%1$d 人に電話をします</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">通話</string>
-  <string name="group_calling_cancel">キャンセル</string>
   <!-- Connect request -->
   <string name="connect__message">%1$s さん、こんにちは。\nWire でつながりましょう。\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -344,7 +358,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">ブロックしますか?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s は、あなたにコンタクトをすることやグループ会話にあなたを追加することができません。</string>
-  <string name="confirmation_menu__confirm_block">ブロック...</string>
+  <string name="confirmation_menu__confirm_block">ブロック</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">ブロックしました</string>
   <!-- Delete conversation -->
@@ -432,7 +446,7 @@
   <string name="pref_advanced_send_anonymous_data_title">匿名データを共有</string>
   <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
   <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product update from Wire via email.</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">ダークテーマ</string>
   <string name="pref_options_screen_title">オプション</string>

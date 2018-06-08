@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Liiga palju päringuid</string>
   <string name="phone_budget_exhausted_message">Palun proovi hiljem uuesti.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Seaded</string>
   <string name="camera_not_available">KAAMERALE PUUDUB JUURDEPÄÄS</string>
   <string name="camera_permissions_denied_title">Kaamerale puudub juurdepääs</string>
@@ -116,8 +115,8 @@
   <string name="people_picker__guest_label">Külaline</string>
   <string name="people_picker__search_people">INIMESED</string>
   <string name="people_picker__search_services">TEENUSED</string>
-  <string name="receive_news_and_offers_request_title">Newsletter</string>
-  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+  <string name="receive_news_and_offers_request_title">Uudiskiri</string>
+  <string name="receive_news_and_offers_request_body">Kas soovid saada Wire\'ilt uudiseid ja tooteuuendusi e-posti teel? Sa võid igal ajal tellimuse lõpetada.</string>
   <string name="crashes_and_analytics_request_title">Aita meil muuta Wire\'i paremaks</string>
   <string name="crashes_and_analytics_request_body">Anonüümsete kasutus- ja krahhiaruannete saatmine aitab meil oma tooteid ja teenuseid parandada. Me ei kasuta seda infot mitte millegi muu jaoks.</string>
   <!-- Bots / Integrations / Services -->
@@ -244,6 +243,12 @@
   <string name="conversation__action__remove">Eemalda</string>
   <string name="conversation__action__call">Kõne</string>
   <string name="conversation__action__picture">Profiilipilt</string>
+  <string name="conversation__action__block">Blokeeri&#8230;</string>
+  <string name="conversation__action__unblock">Tühista blokeering</string>
+  <string name="conversation__action__leave_and_delete">\tLahku ja kustuta sisu</string>
+  <string name="conversation__action__leave_only">\tLahku grupist</string>
+  <string name="conversation__action__delete_and_leave">\tKustuta sisu ja lahku</string>
+  <string name="conversation__action__delete_only">\tKustuta sisu</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">AVA</string>
   <string name="popover__action__remove">EEMALDA</string>
@@ -252,21 +257,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Aeglane ühendus</string>
   <string name="calling__slow_connection__message">Ühendus on kõne tegemiseks hetkel liiga aeglane. Palun proovi hiljem uuesti.</string>
-  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Helistamine pole võimalik</string>
   <string name="calling__cannot_start__message">Helistamiseks lõpeta käimas olev kõne.</string>
   <string name="calling__cannot_start__no_permission__message">Helistamiseks anna mikrofoni juurdepääsu luba.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s on hõivatud</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Proovi hiljem uuesti</string>
   <string name="calling__cannot_start__no_video_permission__message">Videokõne tegemiseks pead lubama Wire\'l telefoni kaamerat kasutada.</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Seaded</string>
   <string name="calling__video_call__slow_connection__message">Kõne ajal võib esineda probleeme</string>
-  <string name="calling__header__joining">liitub</string>
-  <string name="calling__header__outgoing_subtitle">kutsub</string>
-  <string name="calling__header__outgoing_video_subtitle">kutsub</string>
-  <string name="calling__header__incoming_subtitle">helistab</string>
-  <string name="calling__header__incoming_subtitle__video">videokõne</string>
   <string name="incoming__controls__incoming__decline">KEELDU</string>
   <string name="incoming__controls__incoming__accept">VASTA</string>
   <string name="incoming__controls__ongoing__hangup">LÕPETA KÕNE</string>
@@ -279,11 +277,27 @@
   <string name="ongoing__connecting">ÜHENDUSE LOOMINE&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO VÄLJA</string>
   <string name="calling__self_preview_unavailable_long">KAAMERALE JUURDEPÄÄS PUUDUB</string>
+  <string name="calling__header__joining">liitub</string>
+  <string name="calling__header__outgoing_subtitle">kutsub</string>
+  <string name="calling__header__outgoing_video_subtitle">kutsub</string>
+  <string name="calling__header__incoming_subtitle">helistab</string>
+  <string name="calling__header__incoming_subtitle__video">videokõne</string>
+  <string name="call_banner_joining">LIITUMINE</string>
+  <string name="call_banner_outgoing">HELISEB</string>
+  <string name="call_banner_incoming">HELISTAN</string>
+  <string name="call_banner_incoming_video">TOIMUB VIDEOKÕNE</string>
+  <string name="call_banner_tap_to_return_to_call">KOPUTA KÕNESSE NAASMISEKS</string>
+  <string name="calling_ongoing_call_title">Aktiivne kõne</string>
+  <string name="calling_ongoing_call_start_message">Teises vestluses toimub juba kõne.\nSiin helistades lõpetad teise kõne.</string>
+  <string name="calling_ongoing_call_start_anyway">HELISTA SIISKI</string>
+  <string name="calling_ongoing_call_join_message">Teises vestluses toimub juba kõne.\nSelle kõnega liitumine lõpetab teise kõne.</string>
+  <string name="calling_ongoing_call_join_anyway">LIITU SIISKI</string>
+  <string name="calling_ongoing_call_audio_message">Sa ei saa kõne ajal häälsõnumit salvestada</string>
+  <string name="calling_ongoing_call_video_message">Sa ei saa kõne ajal videosõnumit salvestada</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Alusta kõnet</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Helistad %1$d-le inimesele</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">See helistab %1$s inimesele</string>
   <string name="group_calling_confirm">Kõne</string>
-  <string name="group_calling_cancel">Tühista</string>
   <!-- Connect request -->
   <string name="connect__message">Hei %1$s,\nLisa mind Wire\'is.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -352,7 +366,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blokeeri?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s ei saa sulle sõnumeid saata ega sind grupivestlustesse lisada.</string>
-  <string name="confirmation_menu__confirm_block">Blokeeri&#8230;</string>
+  <string name="confirmation_menu__confirm_block">Blokeeri</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">BLOKEERITUD</string>
   <!-- Delete conversation -->
@@ -409,7 +423,7 @@
   <string name="pref_account_actions_category_title">Tegevused</string>
   <string name="pref_account_personal_category_title">Isiklik</string>
   <string name="pref_account_appearance_category_title">Välimus</string>
-  <string name="pref_account_personal_information_category_title">Personal Information</string>
+  <string name="pref_account_personal_information_category_title">Isikuandmed</string>
   <string name="pref_account_conversations_category_title">Ajalugu</string>
   <string name="pref_account_details_category_summary">Inimesed leiavad sind nende andmete põhjal.</string>
   <string name="pref_account_personal_category_summary">See info pole teistele näha</string>
@@ -434,12 +448,12 @@
   <string name="pref_account_password_title">Lähtesta salasõna</string>
   <string name="pref_account_edit_name_empty_warning">Nimes peab olema vähemalt 2 tähte</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
-  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+  <string name="pref_account_data_usage_permissions">Andmekasutuse õigused</string>
   <string name="pref_backup_screen_title">Varunda vestlused</string>
   <!-- Data Usage Permissions -->
   <string name="pref_advanced_send_anonymous_data_title">Saada anonüümseid andmeid</string>
   <string name="pref_advanced_send_anonymous_data_summary">Aita Wire\'i paremaks muuta, saates anonüümseid kasutus- ja krahhiaruandeid.</string>
-  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+  <string name="pref_advanced_receive_news_and_offers_title">Uudiskirja tellimine</string>
   <string name="pref_advanced_receive_news_and_offers_summary">Saa Wire\'ilt uudiseid ja tooteuuendusi e-posti teel.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Tume teema</string>
@@ -1091,9 +1105,9 @@
   <string name="app_entry_notifications_dialog_message">Teatud võivad sisaldada sõnumeid, helisid ja ikooninumbreid. Neid saab konfigureerida seadetes.</string>
   <string name="app_entry_dialog_accept">VASTA</string>
   <string name="app_entry_dialog_cancel">LOOBU</string>
-  <string name="app_entry_dialog_not_now">NOT NOW</string>
+  <string name="app_entry_dialog_not_now">MITTE PRAEGU</string>
   <string name="app_entry_dialog_view">VAATA</string>
-  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
+  <string name="app_entry_dialog_privacy_policy">PRIVAATSUSPOLIITIKA</string>
   <string name="app_entry_email_sent">E-kiri saadetud</string>
   <string name="teams_set_username_subtitle">Kasutajanimed aitavad inimestel sind leida.</string>
   <string name="pick_user_teams_invite">Kutsu inimesi meeskonnaga liituma</string>

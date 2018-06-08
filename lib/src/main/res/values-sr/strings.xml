@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Превише захтева</string>
   <string name="phone_budget_exhausted_message">Покушајте поново касније.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">У реду</string>
   <string name="permissions_denied_dialog_settings">Поставке</string>
   <string name="camera_not_available">КАМЕРА НИЈЕ ДОСТУПНА</string>
   <string name="camera_permissions_denied_title">Камера није доступна</string>
@@ -246,6 +245,12 @@
   <string name="conversation__action__remove">Уклони</string>
   <string name="conversation__action__call">Позив</string>
   <string name="conversation__action__picture">Слика</string>
+  <string name="conversation__action__block">Block&#8230;</string>
+  <string name="conversation__action__unblock">Одблокирај</string>
+  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
+  <string name="conversation__action__leave_only">\tLeave group</string>
+  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
+  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ОТВОРИ</string>
   <string name="popover__action__remove">УКЛОНИ</string>
@@ -254,21 +259,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Спор интернет</string>
   <string name="calling__slow_connection__message">Ваша интернет веза је преспора да бисте сад позвали. Покушајте касније.</string>
-  <string name="calling__slow_connection__button">У реду</string>
   <string name="calling__cannot_start__title">Позивање није доступно</string>
   <string name="calling__cannot_start__message">Да позовете, прекините текући позив.</string>
   <string name="calling__cannot_start__no_permission__message">Да позовете, одобрите приступ микрофону.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s - заузето</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Покушајте поново касније</string>
   <string name="calling__cannot_start__no_video_permission__message">За видео позив, одобрите приступ микрофону и камери.</string>
-  <string name="calling__cannot_start__button">У реду</string>
   <string name="calling__cannot_start__button_settings">Поставке</string>
   <string name="calling__video_call__slow_connection__message">Можда ћете имати сметње током позива</string>
-  <string name="calling__header__joining">придружује се</string>
-  <string name="calling__header__outgoing_subtitle">звони</string>
-  <string name="calling__header__outgoing_video_subtitle">звони</string>
-  <string name="calling__header__incoming_subtitle">позива</string>
-  <string name="calling__header__incoming_subtitle__video">позива с видеом</string>
   <string name="incoming__controls__incoming__decline">ОДБИЈ</string>
   <string name="incoming__controls__incoming__accept">ПРИХВАТИ</string>
   <string name="incoming__controls__ongoing__hangup">ПРЕКИНИ</string>
@@ -281,11 +279,27 @@
   <string name="ongoing__connecting">ПОВЕЗУЈЕМ СЕ&#8230;</string>
   <string name="calling__self_preview_unavailable">ВИДЕО ИСКЉУЧЕН</string>
   <string name="calling__self_preview_unavailable_long">КАМЕРА НИЈЕ ДОСТУПНА</string>
+  <string name="calling__header__joining">придружује се</string>
+  <string name="calling__header__outgoing_subtitle">звони</string>
+  <string name="calling__header__outgoing_video_subtitle">звони</string>
+  <string name="calling__header__incoming_subtitle">позива</string>
+  <string name="calling__header__incoming_subtitle__video">позива с видеом</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Актуелни позив</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Позовите</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Овим ћете позвати %1$d особе</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">Позив</string>
-  <string name="group_calling_cancel">Откажи</string>
   <!-- Connect request -->
   <string name="connect__message">Здраво%1$s\nПовежимо се на Вајеру\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -360,7 +374,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Блокирати?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s неће моћи да вас контактира или позове на групне разговоре.</string>
-  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
+  <string name="confirmation_menu__confirm_block">Блокирај</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Блокирано</string>
   <!-- Delete conversation -->
@@ -448,7 +462,7 @@
   <string name="pref_advanced_send_anonymous_data_title">Send Anonymous Data</string>
   <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
   <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product update from Wire via email.</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Тамна тема</string>
   <string name="pref_options_screen_title">Опције</string>

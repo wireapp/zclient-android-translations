@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Liian monta pyyntöä</string>
   <string name="phone_budget_exhausted_message">Yritä myöhemmin uudelleen.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Asetukset</string>
   <string name="camera_not_available">KAMERA EI OLE KÄYTETTÄVISSÄ</string>
   <string name="camera_permissions_denied_title">Kamera ei ole käytettävissä</string>
@@ -244,6 +243,12 @@
   <string name="conversation__action__remove">Poista</string>
   <string name="conversation__action__call">Puhelu</string>
   <string name="conversation__action__picture">Kuva</string>
+  <string name="conversation__action__block">Block&#8230;</string>
+  <string name="conversation__action__unblock">Poista esto</string>
+  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
+  <string name="conversation__action__leave_only">\tLeave group</string>
+  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
+  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">AVAA</string>
   <string name="popover__action__remove">POISTA</string>
@@ -252,21 +257,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Hidas Internet</string>
   <string name="calling__slow_connection__message">Internet-yhteytesi on liian hidas puheluun juuri nyt. Yritä myöhemmin uudelleen.</string>
-  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Puhelun soittaminen ei saatavilla</string>
   <string name="calling__cannot_start__message">Soittaaksesi puhelun, katkaise tämänhetkinen puhelusi.</string>
   <string name="calling__cannot_start__no_permission__message">Voidaksesi soittaa puheluja, anna käyttölupa mikrofoniin.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s on varattu</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Kokeile myöhemmin uudelleen</string>
   <string name="calling__cannot_start__no_video_permission__message">Voidaksesi soittaa videopuheluja, anna käyttölupa mikrofoniin ja kameraan.</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Asetukset</string>
   <string name="calling__video_call__slow_connection__message">Voit kohdata ongelmia puhelun aikana</string>
-  <string name="calling__header__joining">liitytään</string>
-  <string name="calling__header__outgoing_subtitle">soitetaan</string>
-  <string name="calling__header__outgoing_video_subtitle">soitetaan</string>
-  <string name="calling__header__incoming_subtitle">soitetaan</string>
-  <string name="calling__header__incoming_subtitle__video">soitetaan videopuhelu</string>
   <string name="incoming__controls__incoming__decline">KIELTÄYDY</string>
   <string name="incoming__controls__incoming__accept">VASTAA</string>
   <string name="incoming__controls__ongoing__hangup">LOPETA PUHELU</string>
@@ -279,11 +277,27 @@
   <string name="ongoing__connecting">YHDISTETÄÄN&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO POIS PÄÄLTÄ</string>
   <string name="calling__self_preview_unavailable_long">KAMERA EI OLE KÄYTETTÄVISSÄ</string>
+  <string name="calling__header__joining">liitytään</string>
+  <string name="calling__header__outgoing_subtitle">soitetaan</string>
+  <string name="calling__header__outgoing_video_subtitle">soitetaan</string>
+  <string name="calling__header__incoming_subtitle">soitetaan</string>
+  <string name="calling__header__incoming_subtitle__video">soitetaan videopuhelu</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Käynnissä oleva puhelu</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Aloita puhelu</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Tämä soittaa %1$d käyttäjälle</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">Puhelu</string>
-  <string name="group_calling_cancel">Peruuta</string>
   <!-- Connect request -->
   <string name="connect__message">Hei %1$s,\nKeskustellaan Wiressä.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -352,7 +366,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Estä?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s ei pysty ottamaan sinuun yhteyttä tai lisäämään sinua ryhmäkeskusteluihin.</string>
-  <string name="confirmation_menu__confirm_block">Block&#8230;</string>
+  <string name="confirmation_menu__confirm_block">Estä</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Estetty</string>
   <!-- Delete conversation -->
@@ -440,7 +454,7 @@
   <string name="pref_advanced_send_anonymous_data_title">Lähetä tunnistamatonta tietoa</string>
   <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
   <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product update from Wire via email.</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Tumma teema</string>
   <string name="pref_options_screen_title">Valinnat</string>

@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">Слишком много запросов</string>
   <string name="phone_budget_exhausted_message">Пожалуйста, повторите попытку позже.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Настройки</string>
   <string name="camera_not_available">КАМЕРА НЕДОСТУПНА</string>
   <string name="camera_permissions_denied_title">Камера недоступна</string>
@@ -248,6 +247,12 @@
   <string name="conversation__action__remove">Удалить</string>
   <string name="conversation__action__call">Позвонить</string>
   <string name="conversation__action__picture">Изображение</string>
+  <string name="conversation__action__block">Блокировка&#8230;</string>
+  <string name="conversation__action__unblock">Разблокировать</string>
+  <string name="conversation__action__leave_and_delete">\tПокинуть и удалить контент</string>
+  <string name="conversation__action__leave_only">\tПокинуть группу</string>
+  <string name="conversation__action__delete_and_leave">\tУдалить контент и покинуть</string>
+  <string name="conversation__action__delete_only">\tУдалить контент</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ОТКРЫТЬ</string>
   <string name="popover__action__remove">УДАЛИТЬ</string>
@@ -256,21 +261,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Медленный интернет</string>
   <string name="calling__slow_connection__message">Ваше Интернет-соединение слишком медленное, чтобы позвонить прямо сейчас. Пожалуйста, попробуйте немного позже.</string>
-  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Звонок не доступен</string>
   <string name="calling__cannot_start__message">Чтобы позвонить, завершите ваш текущий вызов.</string>
   <string name="calling__cannot_start__no_permission__message">Для совершения звонка, разрешите доступ к микрофону.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s занят</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Попробуйте позже</string>
   <string name="calling__cannot_start__no_video_permission__message">Для видео звонка разрешите доступ к микрофону и камере.</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Настройки</string>
   <string name="calling__video_call__slow_connection__message">Могут возникнуть проблемы во время звонка</string>
-  <string name="calling__header__joining">соединение</string>
-  <string name="calling__header__outgoing_subtitle">звоним</string>
-  <string name="calling__header__outgoing_video_subtitle">вызов</string>
-  <string name="calling__header__incoming_subtitle">звонит</string>
-  <string name="calling__header__incoming_subtitle__video">видеозвонок</string>
   <string name="incoming__controls__incoming__decline">Отклонить</string>
   <string name="incoming__controls__incoming__accept">Принять</string>
   <string name="incoming__controls__ongoing__hangup">ПОВЕСИТЬ ТРУБКУ</string>
@@ -283,11 +281,27 @@
   <string name="ongoing__connecting">ПОДКЛЮЧЕНИЕ&#8230;</string>
   <string name="calling__self_preview_unavailable">ВИДЕО ВЫКЛЮЧЕНО</string>
   <string name="calling__self_preview_unavailable_long">КАМЕРА НЕ ДОСТУПНА</string>
+  <string name="calling__header__joining">соединение</string>
+  <string name="calling__header__outgoing_subtitle">звоним</string>
+  <string name="calling__header__outgoing_video_subtitle">вызов</string>
+  <string name="calling__header__incoming_subtitle">звонит</string>
+  <string name="calling__header__incoming_subtitle__video">видеозвонок</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">ЗВОНИТ</string>
+  <string name="call_banner_incoming">ЗВОНИТ</string>
+  <string name="call_banner_incoming_video">Видеозвонок</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Исходящий звонок</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">ПОЗВОНИТЬ В ЛЮБОМ СЛУЧАЕ</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">Вы не можете записывать аудиосообщение во время разговора</string>
+  <string name="calling_ongoing_call_video_message">Вы не можете записывать видеосообщение во время разговора</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Начать звонок</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Вы собираетесь позвонить %1$d людям</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">Вы собираетесь позвонить %1$s людям</string>
   <string name="group_calling_confirm">Позвонить</string>
-  <string name="group_calling_cancel">Отмена</string>
   <!-- Connect request -->
   <string name="connect__message">Привет %1$s,\nДавай общаться в Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -368,7 +382,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Заблокировать?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s больше не сможет связаться с вами или добавить вас в групповые разговоры.</string>
-  <string name="confirmation_menu__confirm_block">Блокировка&#8230;</string>
+  <string name="confirmation_menu__confirm_block">Заблокировать</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Заблокирован</string>
   <!-- Delete conversation -->

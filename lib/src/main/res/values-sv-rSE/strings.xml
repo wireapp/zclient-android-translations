@@ -50,7 +50,6 @@
   <string name="phone_budget_exhausted_header">För många förfrågningar</string>
   <string name="phone_budget_exhausted_message">Försök igen senare.</string>
   <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_acknowledge">OK</string>
   <string name="permissions_denied_dialog_settings">Inställningar</string>
   <string name="camera_not_available">KAMERA EJ TILLGÄNGLIG</string>
   <string name="camera_permissions_denied_title">Kamera inte tillgänglig</string>
@@ -244,6 +243,12 @@
   <string name="conversation__action__remove">Ta bort</string>
   <string name="conversation__action__call">Ring</string>
   <string name="conversation__action__picture">Foto</string>
+  <string name="conversation__action__block">Blockera&#8230;</string>
+  <string name="conversation__action__unblock">Avblockera</string>
+  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
+  <string name="conversation__action__leave_only">\tLeave group</string>
+  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
+  <string name="conversation__action__delete_only">\tDelete content</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ÖPPNA</string>
   <string name="popover__action__remove">RADERA</string>
@@ -252,21 +257,14 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Långsamt Internet</string>
   <string name="calling__slow_connection__message">Din Internet anslutning är för långsam för att ringa just nu. Försök igen senare.</string>
-  <string name="calling__slow_connection__button">OK</string>
   <string name="calling__cannot_start__title">Ringa inte tillgängligt</string>
   <string name="calling__cannot_start__message">För att ringa, lägg på ditt nuvarande samtal.</string>
   <string name="calling__cannot_start__no_permission__message">För att ringa, ge behörighet till mikrofonen.</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s är upptagen</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Försök igen senare</string>
   <string name="calling__cannot_start__no_video_permission__message">För att videosamtala, ge behörighet till mikrofon och kamera.</string>
-  <string name="calling__cannot_start__button">OK</string>
   <string name="calling__cannot_start__button_settings">Inställningar</string>
   <string name="calling__video_call__slow_connection__message">Du kan känna av problem under samtalet</string>
-  <string name="calling__header__joining">går med</string>
-  <string name="calling__header__outgoing_subtitle">ringer</string>
-  <string name="calling__header__outgoing_video_subtitle">ringer</string>
-  <string name="calling__header__incoming_subtitle">ringer</string>
-  <string name="calling__header__incoming_subtitle__video">videosamtalar</string>
   <string name="incoming__controls__incoming__decline">NEKA</string>
   <string name="incoming__controls__incoming__accept">ACCEPTERA</string>
   <string name="incoming__controls__ongoing__hangup">LÄGG PÅ</string>
@@ -279,11 +277,27 @@
   <string name="ongoing__connecting">ANSLUTER&#8230;</string>
   <string name="calling__self_preview_unavailable">VIDEO AV</string>
   <string name="calling__self_preview_unavailable_long">KAMERA EJ TILLGÄNGLIG</string>
+  <string name="calling__header__joining">går med</string>
+  <string name="calling__header__outgoing_subtitle">ringer</string>
+  <string name="calling__header__outgoing_video_subtitle">ringer</string>
+  <string name="calling__header__incoming_subtitle">ringer</string>
+  <string name="calling__header__incoming_subtitle__video">videosamtalar</string>
+  <string name="call_banner_joining">JOINING</string>
+  <string name="call_banner_outgoing">RINGING</string>
+  <string name="call_banner_incoming">CALLING</string>
+  <string name="call_banner_incoming_video">VIDEO CALLING</string>
+  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="calling_ongoing_call_title">Pågående samtal</string>
+  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">Starta ett samtal</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Detta kommer ringa %1$d personer</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
   <string name="group_calling_confirm">Ring</string>
-  <string name="group_calling_cancel">Avbryt</string>
   <!-- Connect request -->
   <string name="connect__message">Hej %1$s, \nLåt oss ansluta på Wire.\n%2$s</string>
   <plurals name="connect_request__common_users__summary">
@@ -352,7 +366,7 @@
   <!-- Block someone dialogue -->
   <string name="confirmation_menu__block_header">Blockera?</string>
   <string name="confirmation_menu__block_text_with_name">%1$s kommer inte att kunna kontakta dig eller lägga till dig i gruppkonversationer.</string>
-  <string name="confirmation_menu__confirm_block">Blockera&#8230;</string>
+  <string name="confirmation_menu__confirm_block">Blockera</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <string name="connect_request__footer__blocked_label">Blockerad</string>
   <!-- Delete conversation -->
@@ -440,7 +454,7 @@
   <string name="pref_advanced_send_anonymous_data_title">Skicka anonyma uppgifter</string>
   <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
   <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product update from Wire via email.</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Mörkt tema</string>
   <string name="pref_options_screen_title">Alternativ</string>
