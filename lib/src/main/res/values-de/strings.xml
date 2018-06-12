@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">Ungültige Telefonnummer</string>
   <string name="phone_invalid_format_message">Bitte eine gültige Telefonnummer eingeben</string>
   <string name="phone_password_exists_header">Passwort ist vorhanden</string>
-  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
+  <string name="phone_password_exists_message">Dieses Konto verfügt bereits über ein Passwort und eine E-Mail-Adresse. Bitte per E-Mail-Adresse einloggen.</string>
   <string name="invalid_code_header">Ungültiger Code</string>
   <string name="incorrect_code_header">Falscher Code</string>
   <string name="wrong_code_message">Bitte einen gültigen Code eingeben</string>
@@ -196,9 +196,9 @@
   <string name="content__otr__conversation_verified">Unterhaltung überprüft</string>
   <string name="content__otr__conversation_unverified">Nicht überprüfte Unterhaltung</string>
   <string name="content__otr__message_error">EINE NACHRICHT VON [[%1$s]] WURDE NICHT EMPFANGEN. _WARUM? _</string>
-  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
+  <string name="content__otr__message_error_you">EINE NACHRICHT VON DIR WURDE NICHT EMPFANGEN. _WARUM? _</string>
   <string name="content__otr__identity_changed_error">[[%1$s]]S GERÄTEIDENTITÄT WURDE GEÄNDERT. EINE NACHRICHT KONNTE NICHT ZUGESTELLT WERDEN. _ERFAHRE MEHR_</string>
-  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
+  <string name="content__otr__identity_changed_error_you">DEINE GERÄTEIDENTITÄT HAT SICH GEÄNDERT. NICHT ZUGESTELLTE NACHRICHT. _ERFAHRE MEHR_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] BENUTZT EIN _NEUES GERÄT_</string>
   <string name="content__otr__start_this_device__message">[[DU]] BENUTZT JETZT _DIESES GERÄT_</string>
   <string name="content__otr__all_fingerprints_verified">ALLE FINGERABDRÜCKE SIND ÜBERPRÜFT</string>
@@ -259,11 +259,11 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Schlechte Internetverbindung</string>
   <string name="calling__slow_connection__message">Deine Internetverbindung ist gerade zu langsam um anzurufen. Bitte versuche es später erneut.</string>
-  <string name="calling__cannot_start__title">Microphone required</string>
+  <string name="calling__cannot_start__title">Mikrofon erforderlich</string>
   <string name="calling__cannot_start__message">Beende bitte den aktuellen Anruf um einen neuen zu beginnen.</string>
   <string name="calling__cannot_start__no_permission__message">Gehe zu den Einstellungen und erlaube Wire Zugriff auf das Mikrofon.</string>
   <string name="calling__cannot_start__cancel__message">Abbrechen</string>
-  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire hat keinen Zugriff auf die Kamera</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s ist besetzt</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Versuche es später nochmal</string>
   <string name="calling__cannot_start__button_settings">EINSTELLUNGEN</string>
@@ -274,7 +274,7 @@
   <string name="incoming__controls__ongoing__speaker">LAUTSPRECHER</string>
   <string name="incoming__controls__ongoing__mute">STUMM</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
-  <string name="incoming__controls__ongoing__flip">FLIP</string>
+  <string name="incoming__controls__ongoing__flip">TAUSCHEN</string>
   <string name="ongoing__poor_connection_message">VIDEO WEGEN SCHLECHTER VERBINDUNG GESTOPPT</string>
   <string name="calling__self_preview_unavailable">VIDEO AUS</string>
   <string name="calling__self_preview_unavailable_long">KAMERA NICHT VERFÜGBAR</string>
@@ -284,16 +284,16 @@
   <string name="calling__header__incoming_subtitle">Anruf wird aufgebaut&#8230;</string>
   <string name="calling__header__incoming_subtitle__video">Anruf wird aufgebaut&#8230;</string>
   <string name="call_banner_joining">VERBINDUNG WIRD HERGESTELLT&#8230;</string>
-  <string name="call_banner_outgoing">RINGING&#8230;</string>
-  <string name="call_banner_incoming">CALLING&#8230;</string>
-  <string name="call_banner_incoming_video">CALLING&#8230;</string>
+  <string name="call_banner_outgoing">KLINGELN&#8230;</string>
+  <string name="call_banner_incoming">ANRUFEN&#8230;</string>
+  <string name="call_banner_incoming_video">ANRUFEN&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">ZUM ANRUF ZURÜCKKEHREN</string>
   <string name="calling_ongoing_call_title">Aktiver Anruf</string>
   <string name="calling_ongoing_call_start_message">In einer anderen Unterhaltung ist ein Anruf aktiv.\nEin Anruf hier beendet den anderen.</string>
   <string name="calling_ongoing_call_start_anyway">TROTZDEM ANRUFEN</string>
   <string name="calling_ongoing_call_join_message">In einer anderen Unterhaltung ist ein Anruf aktiv.\nDiesen Anruf anzunehmen, beendet den anderen.</string>
   <string name="calling_ongoing_call_join_anyway">TROTZDEM BEITRETEN</string>
-  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
+  <string name="calling_ongoing_call_participants_header">TEILNEHMER</string>
   <string name="calling_ongoing_call_audio_message">Audionachrichten können während eines Anrufs nicht aufgenommen werden</string>
   <string name="calling_ongoing_call_video_message">Videonachrichten können während eines Anrufs nicht aufgenommen werden</string>
   <!-- Calling in group conversation -->
@@ -1152,7 +1152,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">Öffne diese Unterhaltung für Personen außerhalb deines Teams.</string>
   <string name="allow_guests">Gäste zulassen</string>
   <string name="guest_options_title">Gast-Optionen</string>
-  <string name="show_all_participants">Show all (%1$s)</string>
+  <string name="show_all_participants">Zeige alle (%1$s)</string>
   <string name="allow_guests_error_title">Ein Fehler ist aufgetreten</string>
   <string name="allow_guests_error_body">Gäste konnten nicht zugelassen werden. Bitte nochmal versuchen.</string>
   <string name="allow_guests_warning_body">Aktuelle Gäste werden aus der Unterhaltung entfernt. Neue Gäste können nicht hinzugefügt werden.</string>

@@ -35,12 +35,12 @@
   <string name="invalid_credentials_header">Información inválida</string>
   <string name="invalid_credentials_message">Por favor, verifica tus datos y vuelve a intentarlo</string>
   <string name="phone_exists_header">Número de teléfono ya registrado</string>
-  <string name="phone_exists_message">El número de teléfono que nos proporcionó ya está registrado. Por favor, inténtlo de nuevo</string>
-  <string name="phone_invalid_format_header">Número de teléfono no válido</string>
+  <string name="phone_exists_message">El número de teléfono que nos proporcionó ya está registrado. Por favor, inténtelo de nuevo</string>
+  <string name="phone_invalid_format_header">Número de teléfono inválido</string>
   <string name="phone_invalid_format_message">Por favor, introduce un número de teléfono válido</string>
   <string name="phone_password_exists_header">Contraseña existente</string>
-  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
-  <string name="invalid_code_header">Código no válido</string>
+  <string name="phone_password_exists_message">Esta cuenta ya tiene una contraseña y un correo electrónico asociado. Por favor, ingresa por correo electrónico.</string>
+  <string name="invalid_code_header">Código inválido</string>
   <string name="incorrect_code_header">Código incorrecto</string>
   <string name="wrong_code_message">Por favor, introduce un código válido</string>
   <string name="phone_pending_login_header">El código ya ha sido enviado</string>
@@ -65,8 +65,8 @@
   <string name="profile__email__verify__resend">Reenviar</string>
   <string name="profile__guidance__invalid_email">La dirección de correo electrónico introducida no es válida. Por favor verifique e intente de nuevo</string>
   <string name="new_reg__code_resent">Se te ha enviado un nuevo código por mensaje de texto</string>
-  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
-  <string name="new_reg__code_resent__call">Espera a recibir una llamada</string>
+  <string name="new_reg__email_code_resent">Se te ha enviado un nuevo código por mensaje de texto</string>
+  <string name="new_reg__code_resent__call">Espere a recibir una llamada</string>
   <string name="new_reg__default_country">es</string>
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">Tu número de teléfono</string>
@@ -114,17 +114,17 @@
   <string name="people_picker__search_result__expander_title">Mostrar todos los %1$s ↓</string>
   <string name="people_picker__guest_label">Invitado</string>
   <string name="people_picker__search_people">Personas</string>
-  <string name="people_picker__search_services">SERVICIO</string>
-  <string name="receive_news_and_offers_request_title">Newsletter</string>
-  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
-  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+  <string name="people_picker__search_services">SERVICIOS</string>
+  <string name="receive_news_and_offers_request_title">Boletín informativo</string>
+  <string name="receive_news_and_offers_request_body">¿Desea recibir noticias y actualizaciones de Wire por correo electrónico? Puede darse de baja en cualquier momento.</string>
+  <string name="crashes_and_analytics_request_title">¡Ayúdanos a mejorar!</string>
   <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Servicios</string>
   <string name="integrations_picker__add">Añadir Servicio</string>
   <string name="integrations_conv_bot">Robot</string>
   <string name="integrations_chathead__section_title">Servicios</string>
-  <string name="integrations_errors_add_service">No es posible agregar servicio</string>
+  <string name="integrations_errors_add_service">No es posible agregar este servicio</string>
   <string name="integrations_errors_service_unavailable">El servicio no está disponible en este momento</string>
   <string name="conversation_errors_full">La conversación está llena</string>
   <!-- start ui / people picker, contacts sharing -->
@@ -242,7 +242,7 @@
   <string name="conversation__action__silence">Silenciar</string>
   <string name="conversation__action__unsilence">No silenciar</string>
   <string name="conversation__action__leave">Leave group&#8230;</string>
-  <string name="conversation__action__remove">Quitar</string>
+  <string name="conversation__action__remove">Eliminar</string>
   <string name="conversation__action__call">Llamar</string>
   <string name="conversation__action__picture">Imagen</string>
   <string name="conversation__action__block">Block&#8230;</string>
@@ -279,7 +279,7 @@
   <string name="calling__self_preview_unavailable">VIDEO APAGADO</string>
   <string name="calling__self_preview_unavailable_long">CÁMARA NO DISPONIBLE</string>
   <string name="calling__header__joining">Conectando&#8230;</string>
-  <string name="calling__header__outgoing_subtitle">Sonando&#8230;</string>
+  <string name="calling__header__outgoing_subtitle">Llamando&#8230;</string>
   <string name="calling__header__outgoing_video_subtitle">Sonando&#8230;</string>
   <string name="calling__header__incoming_subtitle">Llamando&#8230;</string>
   <string name="calling__header__incoming_subtitle__video">Llamando&#8230;</string>
@@ -513,7 +513,7 @@
   <string name="pref_advanced_debug_report_title">Enviar informe de depuración</string>
   <string name="pref_advanced_debug_report_summary">Esto ayuda al equipo de soporte de Wire a diagnosticar problemas.</string>
   <string name="pref_advanced_analytics_title">Reportes de uso de datos y fallos</string>
-  <string name="pref_advanced_analytics_summary">Ayudar a mejorar Wire enviando información anónima.</string>
+  <string name="pref_advanced_analytics_summary">Ayuda a mejorar Wire enviando información anónima.</string>
   <string name="pref_advanced_reset_push_title">Renovar token de notificaciones</string>
   <string name="pref_advanced_reset_push_summary">Si tienes problemas con las notificaciones \'push\', el soporte de Wire puede pedirte de renueves este token.</string>
   <string name="pref_advanced_reset_push_completed">Se ha renovado el token de notificaciones</string>
@@ -557,7 +557,7 @@
   <string name="pref__account_action__dialog__edit_phone__title">Editar número de teléfono</string>
   <string name="pref__account_action__dialog__add_phone__title">Agregar número de teléfono</string>
   <string name="pref__account_action__dialog__add_phone__error__country">Código de país no válido</string>
-  <string name="pref__account_action__dialog__add_phone__error__number">Número de teléfono no válido</string>
+  <string name="pref__account_action__dialog__add_phone__error__number">Número de teléfono inválido</string>
   <string name="pref__account_action__dialog__add_phone__confirm__title">Confirmar número</string>
   <string name="pref__account_action__dialog__add_phone__confirm__message">Le enviaremos un código de notificación para: \n%s</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Quitar</string>
@@ -834,7 +834,7 @@
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Administrar dispositivos</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Cerrar sesión</string>
   <!-- OTR Participants -->
-  <string name="otr__participant__device_header">Cable proporciona a cada dispositivo una huella digital única. Comparar con %1$s y verificar su conversación.</string>
+  <string name="otr__participant__device_header">Wire le da a cada dispositivo una huella digital única. Compáralos con %1$s y verifica tu conversación.</string>
   <string name="otr__participant__device_header__no_devices">%1$s está utilizando una versión antigua de Wire. No se muestran dispositivos aquí.</string>
   <string name="otr__participant__device_header__link_text">_¿Por qué verificar las conversaciones?_</string>
   <string name="otr__participant__device_class__unknown">Desconocido</string>
@@ -1123,7 +1123,7 @@
   <string name="teams_invite_email_hint">COLEGA@TUEMPRESA.COM</string>
   <string name="teams_invitations_error_invalid_email">INTRODUZCA UNA DIRECCIÓN DE CORREO ELECTRÓNICO VÁLIDA</string>
   <string name="teams_invitations_error_email_exists">ESTA DIRECCIÓN DE CORREO ELECTRÓNICO YA ESTÁ EN USO</string>
-  <string name="teams_invitations_error_email_exists_more">APRENDA MÁS</string>
+  <string name="teams_invitations_error_email_exists_more">MÁS INFORMACIÓN</string>
   <string name="teams_invitations_error_no_internet">SIN CONEXIÓN A INTERNET</string>
   <string name="team_invitation_add_from_address_book">AÑADIR DE LA LIBRETA DE DIRECCIONES</string>
   <string name="invitation_screen_title">Crear tu equipo</string>
@@ -1136,7 +1136,7 @@
   <string name="create_guest_room_conversation">Create guest room</string>
   <string name="next_button">SIGUIENTE</string>
   <string name="skip_button">OMITIR</string>
-  <string name="done_button">HECHO</string>
+  <string name="done_button">Terminar</string>
   <string name="new_group_header">CREAR GRUPO</string>
   <string name="add_people_empty_header">AGREGAR PERSONAS</string>
   <string name="add_people_count_header">AÑADIR PERSONAS (%1$s)</string>
@@ -1159,11 +1159,11 @@
   <string name="guests_are_present">LOS INVITADOS ESTÁN PRESENTES</string>
   <string name="participants_details_header_title">DETALLES</string>
   <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
-  <string name="create_link_button">Create Link</string>
-  <string name="copy_link_button">Copy Link</string>
-  <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link&#8230;</string>
-  <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
+  <string name="create_link_button">Crear Enlace</string>
+  <string name="copy_link_button">Copiar enlace</string>
+  <string name="share_link_button">Compartir enlace</string>
+  <string name="revoke_link_button">Revocar enlace</string>
+  <string name="invitation_link_title">Invitar a otros con un enlace</string>
   <string name="link_copied_toast">Link Copied!</string>
   <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
   <string name="revoke_link_confirm">Revoke Link</string>

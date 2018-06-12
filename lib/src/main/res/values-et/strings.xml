@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">Sobimatu telefoninumber</string>
   <string name="phone_invalid_format_message">Sisesta kehtiv telefoninumber</string>
   <string name="phone_password_exists_header">Parool juba olemas</string>
-  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
+  <string name="phone_password_exists_message">Kontol on parool ja meiliaadress juba olemas. Palun logi meiliaadressiga sisse.</string>
   <string name="invalid_code_header">Vigane kood</string>
   <string name="incorrect_code_header">Vigane kood</string>
   <string name="wrong_code_message">Sisesta kehtiv kood</string>
@@ -196,9 +196,9 @@
   <string name="content__otr__conversation_verified">Vestlus kinnitatud</string>
   <string name="content__otr__conversation_unverified">Vestlus audentimata</string>
   <string name="content__otr__message_error">[[%1$s]] SÕNUM EI TULNUD KOHALE. _MIKS?_</string>
-  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
+  <string name="content__otr__message_error_you">SINU SÕNUM EI TULNUD KOHALE. _MIKS?_</string>
   <string name="content__otr__identity_changed_error">KASUTAJA [[%1$s]] SEADME ID MUUTUS. SÕNUMI SAATMINE EBAÕNNESTUS. _LISAINFO_</string>
-  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
+  <string name="content__otr__identity_changed_error_you">SINU SEADME IDENTITEET MUUTUS. EDASTAMATA SÕNUM. _LISAINFO_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] HAKKAS _UUT SEADET_ KASUTAMA</string>
   <string name="content__otr__start_this_device__message">HAKKASID _SEDA SEADET_ KASUTAMA</string>
   <string name="content__otr__all_fingerprints_verified">KÕIK SÕRMEJÄLJED AUDENDITUD</string>
@@ -259,11 +259,11 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Aeglane ühendus</string>
   <string name="calling__slow_connection__message">Ühendus on kõne tegemiseks hetkel liiga aeglane. Palun proovi hiljem uuesti.</string>
-  <string name="calling__cannot_start__title">Microphone required</string>
+  <string name="calling__cannot_start__title">Mikrofon nõutud</string>
   <string name="calling__cannot_start__message">Helistamiseks lõpeta käimas olev kõne.</string>
-  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__no_permission__message">Ava Seaded ja luba Wire’le ligipääs mikrofonile.</string>
   <string name="calling__cannot_start__cancel__message">LOOBU</string>
-  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire’il puudub ligipääs kaamerale</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s on hõivatud</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Proovi hiljem uuesti</string>
   <string name="calling__cannot_start__button_settings">SEADED</string>
@@ -274,7 +274,7 @@
   <string name="incoming__controls__ongoing__speaker">KÕLAR</string>
   <string name="incoming__controls__ongoing__mute">VAIGISTA</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
-  <string name="incoming__controls__ongoing__flip">FLIP</string>
+  <string name="incoming__controls__ongoing__flip">PÖÖRA</string>
   <string name="ongoing__poor_connection_message">VIDEO KEHVA ÜHENDUSE TÕTTU PEATATUD</string>
   <string name="calling__self_preview_unavailable">VIDEO VÄLJA</string>
   <string name="calling__self_preview_unavailable_long">KAAMERALE JUURDEPÄÄS PUUDUB</string>
@@ -284,16 +284,16 @@
   <string name="calling__header__incoming_subtitle">Helistab&#8230;</string>
   <string name="calling__header__incoming_subtitle__video">Helistab&#8230;</string>
   <string name="call_banner_joining">ÜHENDUSE LOOMINE&#8230;</string>
-  <string name="call_banner_outgoing">RINGING&#8230;</string>
-  <string name="call_banner_incoming">CALLING&#8230;</string>
-  <string name="call_banner_incoming_video">CALLING&#8230;</string>
+  <string name="call_banner_outgoing">HELISEB&#8230;</string>
+  <string name="call_banner_incoming">HELISTAN&#8230;</string>
+  <string name="call_banner_incoming_video">HELISTAN&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">KOPUTA KÕNESSE NAASMISEKS</string>
   <string name="calling_ongoing_call_title">Aktiivne kõne</string>
   <string name="calling_ongoing_call_start_message">Teises vestluses toimub juba kõne.\nSiin helistades lõpetad teise kõne.</string>
   <string name="calling_ongoing_call_start_anyway">HELISTA SIISKI</string>
   <string name="calling_ongoing_call_join_message">Teises vestluses toimub juba kõne.\nSelle kõnega liitumine lõpetab teise kõne.</string>
   <string name="calling_ongoing_call_join_anyway">LIITU SIISKI</string>
-  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
+  <string name="calling_ongoing_call_participants_header">OSALEJAD</string>
   <string name="calling_ongoing_call_audio_message">Sa ei saa kõne ajal häälsõnumit salvestada</string>
   <string name="calling_ongoing_call_video_message">Sa ei saa kõne ajal videosõnumit salvestada</string>
   <!-- Calling in group conversation -->
@@ -1151,7 +1151,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">Ava see vestlus meeskonnast väljas olevatele inimestele.</string>
   <string name="allow_guests">Luba külalisi</string>
   <string name="guest_options_title">Külaliste valikud</string>
-  <string name="show_all_participants">Show all (%1$s)</string>
+  <string name="show_all_participants">Kuva kõik (%1$s)</string>
   <string name="allow_guests_error_title">Midagi läks valesti</string>
   <string name="allow_guests_error_body">Külalisi ei saanud lubada. Palun proovi uuesti.</string>
   <string name="allow_guests_warning_body">Praegused külalised eemaldatakse vestlusest. Uusi külalisi ei lubata.</string>
