@@ -34,13 +34,13 @@
   <string name="email_invalid_message">請輸入有效的電子郵件信箱</string>
   <string name="invalid_credentials_header">不正確的資訊</string>
   <string name="invalid_credentials_message">請檢查您的資訊後再重試</string>
-  <string name="phone_exists_header">手機號已被使用。</string>
-  <string name="phone_exists_message">該手機號碼已被註冊，請嘗試其他號碼。</string>
-  <string name="phone_invalid_format_header">不正確的手機號碼</string>
-  <string name="phone_invalid_format_message">請輸入有效的手機號碼</string>
+  <string name="phone_exists_header">電話號碼已被使用</string>
+  <string name="phone_exists_message">這電話號碼已被註冊，請嘗試其他號碼。</string>
+  <string name="phone_invalid_format_header">不正確的電話號碼</string>
+  <string name="phone_invalid_format_message">請輸入有效的電話號碼</string>
   <string name="phone_password_exists_header">密碼已存在</string>
   <string name="phone_password_exists_message">此帳號已有密碼和電子郵件連結了。請使用電子郵件登錄。</string>
-  <string name="invalid_code_header">不正確的代碼</string>
+  <string name="invalid_code_header">驗證碼無效</string>
   <string name="incorrect_code_header">不正確的代碼</string>
   <string name="wrong_code_message">請輸入一個有效的代碼</string>
   <string name="phone_pending_login_header">已發送代碼</string>
@@ -115,8 +115,8 @@
   <string name="people_picker__guest_label">訪客</string>
   <string name="people_picker__search_people">聯絡人</string>
   <string name="people_picker__search_services">服務</string>
-  <string name="receive_news_and_offers_request_title">Newsletter</string>
-  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+  <string name="receive_news_and_offers_request_title">電子報</string>
+  <string name="receive_news_and_offers_request_body">您想接收來自Wire的新聞和產品更新電子郵件嗎？您可以在任何時候取消訂閱。</string>
   <string name="crashes_and_analytics_request_title">幫助我們改善Wire</string>
   <string name="crashes_and_analytics_request_body">發送匿名使用狀況和崩潰報告有助改善我們的產品和服務。我們不會將這些資訊用於其他地方。</string>
   <!-- Bots / Integrations / Services -->
@@ -194,9 +194,9 @@
   <string name="content__otr__conversation_verified">聊天室已驗證</string>
   <string name="content__otr__conversation_unverified">聊天室未驗證</string>
   <string name="content__otr__message_error">從 [[%1$s]] 的訊息未被接收。_為什麼？_</string>
-  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
+  <string name="content__otr__message_error_you">您發出的訊息未被接收。_為什麼？_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] 的設備識別已更改。信息無法送達。_瞭解更多_</string>
-  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
+  <string name="content__otr__identity_changed_error_you">您的設備識別已更改。信息無法送達。_瞭解更多_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]]開始使用 _新的設備_</string>
   <string name="content__otr__start_this_device__message">[[您]]開始使用 _此設備_</string>
   <string name="content__otr__all_fingerprints_verified">所有的指紋已完成驗證</string>
@@ -232,23 +232,23 @@
   <string name="content__location__no_map_placeholder">您的位置將在您重新連線時顯示在地圖上。</string>
   <!-- Conversation actions -->
   <string name="conversation__action__rename">重新命名</string>
-  <string name="conversation__action__delete">Delete content&#8230;</string>
+  <string name="conversation__action__delete">刪除內容...</string>
   <string name="conversation__action__archive">封存</string>
   <string name="conversation__action__unarchive">解除封存</string>
   <string name="conversation__action__add_people">新增參與者</string>
   <string name="conversation__action__create_group">建立群組</string>
   <string name="conversation__action__silence">靜音</string>
   <string name="conversation__action__unsilence">開啟訊息通知</string>
-  <string name="conversation__action__leave">Leave group&#8230;</string>
+  <string name="conversation__action__leave">離開群組&#8230;</string>
   <string name="conversation__action__remove">移除</string>
   <string name="conversation__action__call">通話</string>
   <string name="conversation__action__picture">大頭照</string>
   <string name="conversation__action__block">封鎖...</string>
   <string name="conversation__action__unblock">解除封鎖</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
+  <string name="conversation__action__leave_and_delete">\t離開並刪除內容</string>
+  <string name="conversation__action__leave_only">\t離開群組</string>
+  <string name="conversation__action__delete_and_leave">\t刪除內容並離開</string>
+  <string name="conversation__action__delete_only">\t刪除內容</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">開啟</string>
   <string name="popover__action__remove">移除</string>
@@ -257,11 +257,11 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">網路速度緩慢</string>
   <string name="calling__slow_connection__message">您的連線速度太慢無法通話。請稍後再試。</string>
-  <string name="calling__cannot_start__title">Microphone required</string>
+  <string name="calling__cannot_start__title">需要麥克風</string>
   <string name="calling__cannot_start__message">開始新的通話前，請先結束目前通話。</string>
-  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__no_permission__message">請前往手機「設定」並允許Wire使用麥克風權限。</string>
   <string name="calling__cannot_start__cancel__message">取消</string>
-  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire無法使用相機</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s忙線中</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">請稍後再試</string>
   <string name="calling__cannot_start__button_settings">設定</string>
@@ -272,7 +272,7 @@
   <string name="incoming__controls__ongoing__speaker">擴音</string>
   <string name="incoming__controls__ongoing__mute">關閉麥克風</string>
   <string name="incoming__controls__ongoing__video">視訊</string>
-  <string name="incoming__controls__ongoing__flip">FLIP</string>
+  <string name="incoming__controls__ongoing__flip">切換鏡頭</string>
   <string name="ongoing__poor_connection_message">連線品質不佳，視訊停止</string>
   <string name="calling__self_preview_unavailable">視訊關閉</string>
   <string name="calling__self_preview_unavailable_long">相機無法使用</string>
@@ -281,23 +281,23 @@
   <string name="calling__header__outgoing_video_subtitle">響鈴中...</string>
   <string name="calling__header__incoming_subtitle">呼叫中...</string>
   <string name="calling__header__incoming_subtitle__video">呼叫中...</string>
-  <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
+  <string name="calling__header__incoming_subtitle__group">%1$s來電&#8230;</string>
   <string name="call_banner_joining">正在連接...</string>
-  <string name="call_banner_outgoing">RINGING&#8230;</string>
-  <string name="call_banner_incoming">CALLING&#8230;</string>
-  <string name="call_banner_incoming_video">CALLING&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="call_banner_outgoing">響鈴中...</string>
+  <string name="call_banner_incoming">呼叫中...</string>
+  <string name="call_banner_incoming_video">呼叫中...</string>
+  <string name="call_banner_tap_to_return_to_call">點擊返回通話</string>
   <string name="calling_ongoing_call_title">通話中</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
+  <string name="calling_ongoing_call_start_message">另一通話在其他對話進行中。\n現在打電話會掛斷該通話。</string>
+  <string name="calling_ongoing_call_start_anyway">仍然要通話</string>
+  <string name="calling_ongoing_call_join_message">另一通話在其他對話進行中。\n加入這個通話會掛斷該通話。</string>
+  <string name="calling_ongoing_call_join_anyway">仍要加入</string>
+  <string name="calling_ongoing_call_participants_header">參與者</string>
+  <string name="calling_ongoing_call_audio_message">在通話時不能錄製語音訊息。</string>
+  <string name="calling_ongoing_call_video_message">在通話時不能錄製視像訊息。</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">開始通話</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+  <string name="group_calling_message" tools:ignore="PluralsCandidate">這將會呼叫%1$s位聯絡人</string>
   <string name="group_calling_confirm">通話</string>
   <!-- Connect request -->
   <string name="connect__message">Hi %1$s，\n請加我為連絡人。\n%2$s</string>
@@ -1076,9 +1076,9 @@
   <string name="app_entry_notifications_dialog_message">通知可能包括提示、聲音和圖示徽章。這些可以在設定中配置。</string>
   <string name="app_entry_dialog_accept">接聽</string>
   <string name="app_entry_dialog_cancel">取消</string>
-  <string name="app_entry_dialog_not_now">NOT NOW</string>
+  <string name="app_entry_dialog_not_now">現在不要</string>
   <string name="app_entry_dialog_view">檢視</string>
-  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
+  <string name="app_entry_dialog_privacy_policy">隱私權政策</string>
   <string name="app_entry_email_sent">電子郵件已送出</string>
   <string name="teams_set_username_subtitle">其他人可用使用者名稱找到你。</string>
   <string name="pick_user_teams_invite">邀請其他人加入團隊</string>
@@ -1121,7 +1121,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">開放這個對話與團隊以外的訪客。</string>
   <string name="allow_guests">允許訪客</string>
   <string name="guest_options_title">訪客選項</string>
-  <string name="show_all_participants">Show all (%1$s)</string>
+  <string name="show_all_participants">全部顯示 (%1$s)</string>
   <string name="allow_guests_error_title">出了點問題</string>
   <string name="allow_guests_error_body">不能允許客人。請重試。</string>
   <string name="allow_guests_warning_body">將移除對話中的訪客。 將不能加入新訪客。</string>
@@ -1143,22 +1143,21 @@
   <string name="guest_time_left_hours">還餘%1$s小時</string>
   <string name="guest_time_left_hours_minutes">%1$s還餘%2$s小時</string>
   <string name="guest_time_left_minutes">餘下少於%1$s分鐘</string>
-  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-  <string name="pref_account_backup_title">Back up conversations</string>
-  <string name="add_email_address">Add your email address</string>
-  <string name="set_a_password">Set a password</string>
-  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+  <string name="backup_description">建立備份以保留對話歷史記錄。如果丟失了或切換到一個新的設備，則可以使用此還原歷史記錄。\n備份檔案不受Wire端到端加密的保護，因此請將備份檔案儲存於安全的地方。</string>
+  <string name="pref_account_backup_title">備份對話</string>
+  <string name="add_email_address">加入您的電子郵件</string>
+  <string name="set_a_password">設定密碼</string>
+  <string name="email_and_password_explanation">您需要一個電子郵件地址和密碼在以多個設備上使用Wire。</string>
   <string name="new_device_password">新裝置</string>
-  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
-  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
-  <string name="second_launch__header">您曾在此設備使用過Wire。</string>
+  <string name="new_device_password_explanation">請輸入您的密碼以使用Wire賬戶。\n%1$s</string>
+  <string name="restore_from_backup_button">Restore from backup</string>
+  <string name="second_launch__header">您曾在此設備使用Wire。</string>
   <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
   <string name="restore_override_alert_title">回復歷史紀錄</string>
   <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
   <string name="restore_override_alert_ok">選擇備份檔案</string>
   <string name="back_up_progress">BACKING UP&#8230;</string>
-  <string name="back_up_progress_complete">COMPLETE</string>
+  <string name="back_up_progress_complete">完成</string>
   <string name="restore_progress">RESTORING&#8230;</string>
   <string name="pref_account_backup_warning_title">設定電子郵件信箱和密碼。</string>
   <string name="pref_account_backup_warning_message">您需要電子郵件和密碼才能備份您的對話歷史記錄。您可以在「設置」的「帳戶」分頁中設定。</string>
@@ -1174,6 +1173,6 @@
   <string name="backup_import_error_wrong_account">無法還原其他帳戶歷史記錄到你的帳戶。</string>
   <string name="video_paused">影像已暫停</string>
   <string name="calling_degraded_title">新裝置</string>
-  <string name="call_info_text">最多128人可以加入群組對話。視像通話僅能在4個人以下的群組中使用。</string>
-  <string name="too_many_people_video_toast">視像通話僅能在4個人以下的群組中使用。</string>
+  <string name="call_info_text">最多128人可以加入群組對話。視像通話僅能在4個人或以下的群組中使用。</string>
+  <string name="too_many_people_video_toast">視像通話僅能在4個人或以下的群組中使用。</string>
 </resources>
