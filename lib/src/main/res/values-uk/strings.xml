@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">Невірний номер телефону</string>
   <string name="phone_invalid_format_message">Будь ласка, введіть правильний номер телефону</string>
   <string name="phone_password_exists_header">Пароль уже встановлено</string>
-  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
+  <string name="phone_password_exists_message">Для цього акаунту вже встановлено пароль та адресу електронної пошти. Будь ласка, увійдіть використовуючи адресу електронної пошти.</string>
   <string name="invalid_code_header">Невірний код</string>
   <string name="incorrect_code_header">Невірний код</string>
   <string name="wrong_code_message">Будь ласка, введіть правильний код</string>
@@ -139,7 +139,7 @@
   <plurals name="people_picker__recommended__common_connections__more">
     <item quantity="one">Знайомий(-а) з %1$s та з %2$d-им</item>
     <item quantity="few">Знайомий з %1$s та ще з %2$d-ма іншими</item>
-    <item quantity="many">Знайомий з %1$s та ще з %2$d-ма іншими</item>
+    <item quantity="many">Знайомий(-а) з %1$s та ще з %2$d-ма іншими</item>
     <item quantity="other">Знайомий з %1$s та ще з %2$d-ма іншими</item>
   </plurals>
   <string name="people_picker__recommended__common_connections__hide">СХОВАТИ</string>
@@ -200,9 +200,9 @@
   <string name="content__otr__conversation_verified">Розмова верифікована</string>
   <string name="content__otr__conversation_unverified">Розмова не верифікована</string>
   <string name="content__otr__message_error">ПОВІДОМЛЕННЯ ВІД [[%1$s]] НЕ БУЛО ОТРИМАНЕ. _ЧОМУ?_</string>
-  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
+  <string name="content__otr__message_error_you">ПОВІДОМЛЕННЯ ВІД ВАС НЕ БУЛО ОТРИМАНЕ. _ЧОМУ?_</string>
   <string name="content__otr__identity_changed_error">ЗМІНИВСЯ ИДЕНТИФІКАТОР ПРИСТРОЮ [[%1$s]]. ПОВІДОМЛЕННЯ НЕ БУЛО ДОСТАВЛЕНЕ. _ДІЗНАТИСЯ БІЛЬШЕ_</string>
-  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
+  <string name="content__otr__identity_changed_error_you">ІДЕНТИФІКАТОР ВАШОГО ПРИСТРОЮ ЗМІНИВСЯ. ПОВІДОМЛЕННЯ НЕ БУЛО ДОСТАВЛЕНЕ. _ДІЗНАТИСЯ БІЛЬШЕ_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] ПОЧАВ ВИКОРИСТОВУВАТИ _НОВИЙ ПРИСТРІЙ_</string>
   <string name="content__otr__start_this_device__message">[[ВИ]] ПОЧАЛИ ВИКОРИСТОВУВАТИ _ЦЕЙ ПРИСТРІЙ_</string>
   <string name="content__otr__all_fingerprints_verified">ВСІ ПРИСТРОЇ БУЛИ ВЕРИФІКОВАНІ</string>
@@ -263,11 +263,11 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Повільний інтернет</string>
   <string name="calling__slow_connection__message">Дуже повільне з\'єднання для здійснення дзвінка. Спробуйте ще раз, пізніше.</string>
-  <string name="calling__cannot_start__title">Microphone required</string>
+  <string name="calling__cannot_start__title">Необхідний доступ до мікрофону</string>
   <string name="calling__cannot_start__message">Щоб зателефонувати, завершіть ваш поточний дзвінок.</string>
-  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__no_permission__message">Відкрийте налаштування та дозвольте Wire доступ до мікрофону.</string>
   <string name="calling__cannot_start__cancel__message">СКАСУВАТИ</string>
-  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Доступ до камери відсутній</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s зайнятий(-а)</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">Спробуйте пізніше</string>
   <string name="calling__cannot_start__button_settings">НАЛАШТУВАННЯ</string>
@@ -278,7 +278,7 @@
   <string name="incoming__controls__ongoing__speaker">ДИНАМІК</string>
   <string name="incoming__controls__ongoing__mute">ВИМКН. ЗВУК</string>
   <string name="incoming__controls__ongoing__video">ВІДЕО</string>
-  <string name="incoming__controls__ongoing__flip">FLIP</string>
+  <string name="incoming__controls__ongoing__flip">ПЕРЕКЛ. КАМЕРУ</string>
   <string name="ongoing__poor_connection_message">ВІДЕО ЗУПИНЕНО ЧЕРЕЗ ПОГАНИЙ ЗВ\'ЯЗОК</string>
   <string name="calling__self_preview_unavailable">ВІДЕО ВІДКЛЮЧЕНО</string>
   <string name="calling__self_preview_unavailable_long">КАМЕРА НЕДОСТУПНА</string>
@@ -287,18 +287,18 @@
   <string name="calling__header__outgoing_video_subtitle">Дзвінок&#8230;</string>
   <string name="calling__header__incoming_subtitle">Дзвінок&#8230;</string>
   <string name="calling__header__incoming_subtitle__video">Дзвінок&#8230;</string>
-  <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
+  <string name="calling__header__incoming_subtitle__group">%1$s дзвонить&#8230;</string>
   <string name="call_banner_joining">ПІДКЛЮЧЕННЯ&#8230;</string>
-  <string name="call_banner_outgoing">RINGING&#8230;</string>
-  <string name="call_banner_incoming">CALLING&#8230;</string>
-  <string name="call_banner_incoming_video">CALLING&#8230;</string>
+  <string name="call_banner_outgoing">ДЗВОНИТЬ&#8230;</string>
+  <string name="call_banner_incoming">ДЗВОНИТЬ&#8230;</string>
+  <string name="call_banner_incoming_video">ДЗВОНИТЬ&#8230;</string>
   <string name="call_banner_tap_to_return_to_call">ТОРКНІТЬСЯ, ЩОБ ПОВЕРНУТИСЬ ДО ДЗВІНКА</string>
   <string name="calling_ongoing_call_title">Активний дзвінок</string>
   <string name="calling_ongoing_call_start_message">Інша розмова має активний дзвінок.\nДзвінок у цій розмові припиить його.</string>
   <string name="calling_ongoing_call_start_anyway">ПОДЗВОНИТИ ВСЕ-ОДНО</string>
   <string name="calling_ongoing_call_join_message">Інша розмова має активний дзвінок.\nПідключення до дзвінка у цій розмові припиить його.</string>
   <string name="calling_ongoing_call_join_anyway">ПРИЄДНАТИСЯ ВСЕ-ОДНО</string>
-  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
+  <string name="calling_ongoing_call_participants_header">УЧАСНИКИ</string>
   <string name="calling_ongoing_call_audio_message">Ви не можете записувати аудіоповідомлення, маючи активний дзвінок</string>
   <string name="calling_ongoing_call_video_message">Ви не можете записувати відеоповідомлення, маючи активний дзвінок</string>
   <!-- Calling in group conversation -->
@@ -697,7 +697,7 @@
   <!-- System notifications -->
   <string name="system_notification__group_call_title">%1$s в %2$s</string>
   <string name="system_notification__silence_call">Скасувати</string>
-  <string name="system_notification__join_call">Приєднатися до дзвінка</string>
+  <string name="system_notification__join_call">Прийняти</string>
   <string name="system_notification__leave_call">Завершити дзвінок</string>
   <string name="system_notification__outgoing">Дзвонить</string>
   <string name="system_notification__outgoing_video">Відеодзвінок</string>
@@ -705,6 +705,10 @@
   <string name="system_notification__incoming_video">Дзвонить з відео</string>
   <string name="system_notification__ongoing">Дзвонить</string>
   <string name="number_of_conversations_string">АРХІВ</string>
+  <string name="system_notification__calling_one">Дзвінок&#8230;</string>
+  <string name="system_notification__calling_group">%1$s дзвонить&#8230;</string>
+  <string name="system_notification__video_calling_one">Дзвонить з відео&#8230;</string>
+  <string name="system_notification__video_calling_group">%1$s дзвонить з відео&#8230;</string>
   <!-- Notification actions -->
   <string name="notification__action__call">Зателефонувати</string>
   <string name="notification__action__reply">Відповісти</string>
@@ -1214,7 +1218,7 @@
   <string name="open_this_conversation_to_people_outside_your_team">Зробити цю розмову доступною для людей поза межами вашої команди.</string>
   <string name="allow_guests">Дозволити присутність гостей</string>
   <string name="guest_options_title">Гостьові налаштування</string>
-  <string name="show_all_participants">Show all (%1$s)</string>
+  <string name="show_all_participants">Показати всіх (%1$s)</string>
   <string name="allow_guests_error_title">Щось пішло не так</string>
   <string name="allow_guests_error_body">Не вдалося активувати гостьовий доступ. Будь ласка, спробуйте пізніше.</string>
   <string name="allow_guests_warning_body">Поточні гості будуть вилучені з розмови. Нові гості не матимуть доступу до неї.</string>
@@ -1265,7 +1269,7 @@
   <string name="backup_import_error_unsupported_version">Цю резервну копію було створено новішою або застарілою версією Wire, тому її неможливо відновити.</string>
   <string name="backup_import_error_wrong_account_title">Несумісна резервна копія</string>
   <string name="backup_import_error_wrong_account">Ви не можете відновити історію з іншого акаунту.</string>
-  <string name="video_paused">Відео призупинено</string>
+  <string name="video_paused">Відео призупинене</string>
   <string name="calling_degraded_title">Новий пристрій</string>
   <string name="call_info_text">Групова розмова може містити до 128 учасників. Відеодзвінки працюють тільки в групах з 4-ма або менше учасниками.</string>
   <string name="too_many_people_video_toast">Відеодзвінки працюють тільки в групах з 4-ма або менше учасниками.</string>

@@ -30,21 +30,21 @@
   <string name="register_again_message">Попробуйте зарегистрироваться еще раз</string>
   <string name="email_exists_header">Такой email уже используется</string>
   <string name="email_exists_message">Данный адрес email уже зарегистрирован</string>
-  <string name="email_invalid_header">Неправильный email</string>
-  <string name="email_invalid_message">Пожалуйста, введите правильный email</string>
+  <string name="email_invalid_header">Недопустимый адрес email</string>
+  <string name="email_invalid_message">Пожалуйста, введите корректный email</string>
   <string name="invalid_credentials_header">Неверная информация</string>
   <string name="invalid_credentials_message">Проверьте введенные данные и повторите попытку</string>
-  <string name="phone_exists_header">Такой номер телефона уже использован</string>
+  <string name="phone_exists_header">Номер телефона уже используется</string>
   <string name="phone_exists_message">Введенный вами номер телефона уже зарегистрирован. Повторите попытку</string>
-  <string name="phone_invalid_format_header">Неправильный номер телефона</string>
-  <string name="phone_invalid_format_message">Пожалуйста, введите правильный номер телефона</string>
+  <string name="phone_invalid_format_header">Недопустимый номер телефона</string>
+  <string name="phone_invalid_format_message">Пожалуйста, введите корректный номер телефона</string>
   <string name="phone_password_exists_header">Пароль существует</string>
-  <string name="phone_password_exists_message">Эта учетная запись уже имеет пароль и связанную с ней электронную почту. Для входа используйте email.</string>
+  <string name="phone_password_exists_message">Эта учетная запись уже имеет пароль и связанный с ней email. Для входа используйте email.</string>
   <string name="invalid_code_header">Неверный код</string>
   <string name="incorrect_code_header">Неправильный код</string>
   <string name="wrong_code_message">Пожалуйста, введите правильный код</string>
   <string name="phone_pending_login_header">Код уже отправлен</string>
-  <string name="phone_pending_login_message">Мы уже отправили вам код в SMS. Для получения нового кода нажмите \"Отправить повторно\" через 10 минут.</string>
+  <string name="phone_pending_login_message">Мы уже отправили вам код в SMS. Для получения нового кода нажмите \'Отправить повторно\' через 10 минут.</string>
   <string name="password_invalid_header">Неверный пароль</string>
   <string name="password_invalid_message">Проверьте введенные данные и повторите попытку</string>
   <string name="phone_budget_exhausted_header">Слишком много запросов</string>
@@ -202,7 +202,7 @@
   <string name="content__otr__message_error">СООБЩЕНИЕ ОТ [[%1$s]] НЕ БЫЛО ПОЛУЧЕНО. _ПОЧЕМУ? _</string>
   <string name="content__otr__message_error_you">СООБЩЕНИЕ ОТ ВАС НЕ БЫЛО ПОЛУЧЕНО. _ПОЧЕМУ? _</string>
   <string name="content__otr__identity_changed_error">ИДЕНТИЧНОСТЬ УСТРОЙСТВА [[%1$s]] ИЗМЕНЕНА. НЕДОСТАВЛЕННОЕ СООБЩЕНИЕ. _УЗНАТЬ БОЛЬШЕ_</string>
-  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
+  <string name="content__otr__identity_changed_error_you">ИДЕНТИФИКАТОР ВАШЕГО УСТРОЙСТВА ИЗМЕНИЛСЯ. СООБЩЕНИЕ НЕ ДОСТАВЛЕНО. _УЗНАТЬ БОЛЬШЕ_</string>
   <string name="content__otr__added_new_device__message">[[%1$s]] НАЧАЛ(-А) ИСПОЛЬЗОВАТЬ _НОВОЕ УСТРОЙСТВО_</string>
   <string name="content__otr__start_this_device__message">[[ВЫ]] НАЧАЛИ ИСПОЛЬЗОВАТЬ _ДАННОЕ УСТРОЙСТВО_</string>
   <string name="content__otr__all_fingerprints_verified">ВСЕ УСТРОЙСТВА ВЕРИФИЦИРОВАНЫ</string>
@@ -278,7 +278,7 @@
   <string name="incoming__controls__ongoing__speaker">ДИНАМИК</string>
   <string name="incoming__controls__ongoing__mute">ВЫКЛ. ЗВУК</string>
   <string name="incoming__controls__ongoing__video">Видео</string>
-  <string name="incoming__controls__ongoing__flip">FLIP</string>
+  <string name="incoming__controls__ongoing__flip">ПЕРЕКЛЮЧИТЬ</string>
   <string name="ongoing__poor_connection_message">ВИДЕО ОСТАНОВЛЕНО ИЗ-ЗА ПЛОХОГО СОЕДИНЕНИЯ</string>
   <string name="calling__self_preview_unavailable">ВИДЕО ВЫКЛЮЧЕНО</string>
   <string name="calling__self_preview_unavailable_long">КАМЕРА НЕ ДОСТУПНА</string>
@@ -292,12 +292,12 @@
   <string name="call_banner_outgoing">ЗВОНИТ&#8230;</string>
   <string name="call_banner_incoming">ЗВОНИТ&#8230;</string>
   <string name="call_banner_incoming_video">ЗВОНИТ&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="call_banner_tap_to_return_to_call">НАЖМИТЕ ДЛЯ ВОЗВРАТА К ЗВОНКУ</string>
   <string name="calling_ongoing_call_title">Исходящий звонок</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+  <string name="calling_ongoing_call_start_message">Уже есть активный вызов в другой беседе. \nВызов в этой беседе прервет его.</string>
   <string name="calling_ongoing_call_start_anyway">ПОЗВОНИТЬ В ЛЮБОМ СЛУЧАЕ</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+  <string name="calling_ongoing_call_join_message">Уже есть активный вызов в другой беседе. \nОн будет прерван в случае начала нового вызова.</string>
+  <string name="calling_ongoing_call_join_anyway">ПРИСОЕДИНИТЬСЯ В ЛЮБОМ СЛУЧАЕ</string>
   <string name="calling_ongoing_call_participants_header">УЧАСТНИКИ</string>
   <string name="calling_ongoing_call_audio_message">Вы не можете записывать аудиосообщение во время разговора</string>
   <string name="calling_ongoing_call_video_message">Вы не можете записывать видеосообщение во время разговора</string>
@@ -499,8 +499,8 @@
   <string name="pref_options_image_download_wifi">Только когда подключен к Wi-Fi</string>
   <string name="pref_options_media_category_title">Медиа</string>
   <string name="pref_options_requested_category_title">По многочисленным просьбам</string>
-  <string name="pref_options_cursor_send_button_title">Кнопка \"отправить\"</string>
-  <string name="pref_options_cursor_send_button_summary">Отключить отправку по нажатию клавиши Enter.</string>
+  <string name="pref_options_cursor_send_button_title">Кнопка \'Отправить\'</string>
+  <string name="pref_options_cursor_send_button_summary">Отключает отправку с помощью Enter.</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Устройства</string>
   <string name="pref_current_device_category_title">Текущее устройство</string>
@@ -697,7 +697,7 @@
   <!-- System notifications -->
   <string name="system_notification__group_call_title">%1$s в %2$s</string>
   <string name="system_notification__silence_call">Отклонить</string>
-  <string name="system_notification__join_call">Присоединиться к звонку</string>
+  <string name="system_notification__join_call">Принять</string>
   <string name="system_notification__leave_call">Завершить звонок</string>
   <string name="system_notification__outgoing">Звонок</string>
   <string name="system_notification__outgoing_video">Видео звонок</string>
@@ -705,6 +705,10 @@
   <string name="system_notification__incoming_video">Видео звонок</string>
   <string name="system_notification__ongoing">Звонит</string>
   <string name="number_of_conversations_string">АРХИВ</string>
+  <string name="system_notification__calling_one">Звонит&#8230;</string>
+  <string name="system_notification__calling_group">%1$s звонит&#8230;</string>
+  <string name="system_notification__video_calling_one">Видеозвонок&#8230;</string>
+  <string name="system_notification__video_calling_group">%1$s звонит с видео&#8230;</string>
   <!-- Notification actions -->
   <string name="notification__action__call">Звонок</string>
   <string name="notification__action__reply">Ответить</string>
@@ -1264,7 +1268,7 @@
   <string name="backup_import_error_unknown">Ваша история не может быть восстановлена.</string>
   <string name="backup_import_error_unsupported_version_title">Несовместимая резервная копия</string>
   <string name="backup_import_error_unsupported_version">Эта резервная копия была создана в более новой или устаревшей версии Wire и не может быть восстановлена.</string>
-  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+  <string name="backup_import_error_wrong_account_title">Несовместимая резервная копия</string>
   <string name="backup_import_error_wrong_account">Вы не можете восстановить историю из другой учетной записи.</string>
   <string name="video_paused">Видео приостановлено</string>
   <string name="calling_degraded_title">Новое устройство</string>
