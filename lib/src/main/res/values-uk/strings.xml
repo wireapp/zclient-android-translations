@@ -689,6 +689,10 @@
     <item quantity="many">Хтось надіслав вам %1$d повідомлень</item>
     <item quantity="other">Хтось надіслав вам %1$d повідомлень</item>
   </plurals>
+  <string name="other_set_message_timer">[[%1$s]] встановив(-ла) системний таймер на [[%2$s]]</string>
+  <string name="you_set_message_timer">[[Ви]] встановили таймер повідомлень на [[%1$s]]</string>
+  <string name="other_turned_off_message_timer">[[%1$s]] вимкнув(-ла) таймер повідомлень</string>
+  <string name="you_turned_off_message_timer">[[Ви]] вимкнули таймер повідомлень</string>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -960,10 +964,6 @@
   <string name="no_conversation_in_list__message">Розпочніть розмову або створіть групу.</string>
   <string name="cursor__type_a_message">НАПИШІТЬ ЩОСЬ</string>
   <string name="cursor__ephemeral_message">ТИМЧАСОВЕ ПОВІДОМЛЕННЯ</string>
-  <!-- ephemeral duration e.g. "30s" or "1h"-->
-  <string name="cursor__ephemeral_message__timer_seconds">%1$s с</string>
-  <string name="cursor__ephemeral_message__timer_min">%1$s хв</string>
-  <string name="cursor__ephemeral_message__timer_days">%1$s дн.</string>
   <string name="tooltip_record">Записати відео</string>
   <string name="tooltip_camera">Додати фото</string>
   <string name="tooltip_sketch">Намалювати картинку</string>
@@ -1027,43 +1027,52 @@
   <string name="message_footer__status__failed">Помилка надсилання. _Повторити_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB видалено</string>
   <string name="ephemeral_message__timeout_selection_info">ВСТАНОВІТЬ ПЕРІОД, ПІСЛЯ ЯКОГО ПОВІДОМЛЕННЯ ЗНИКНЕ</string>
-  <string name="ephemeral_message__timeout__off">Вимкнено</string>
-  <string name="ephemeral_message__timeout__5_sec">5 секунд</string>
-  <string name="ephemeral_message__timeout__15_sec">15 секунд</string>
-  <string name="ephemeral_message__timeout__30_sec">30 секунд</string>
-  <string name="ephemeral_message__timeout__1_min">1 хвилина</string>
-  <string name="ephemeral_message__timeout__5_min">5 хвилин</string>
-  <string name="ephemeral_message__timeout__1_day">1 день</string>
-  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _Залишилось %2$s_</string>
   <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
   <string name="usernames__take_over__summary">Виберіть собі Wire-нік. _Дізнатися більше._</string>
   <string name="usernames__take_over__choose">ВИБРАТИ ВЛАСНИЙ</string>
   <string name="usernames__take_over__keep">ВИКОРИСТОВУВАТИ ЦЕЙ</string>
   <string name="pref_account_username_empty_title">Додати нік</string>
-  <plurals name="message_footer__expire__days">
-    <item quantity="one">%1$d день</item>
-    <item quantity="few">%1$d дні</item>
-    <item quantity="many">%1$d днів</item>
-    <item quantity="other">%1$d днів</item>
+  <string name="ephemeral_message__timeout__off">Вимк.</string>
+  <string name="ephemeral_message__options_header">ТИМЧАСОВІ ПОВІДОМЛЕННЯ</string>
+  <string name="guests_option_on">Увімк.</string>
+  <plurals name="unit_years">
+    <item quantity="one">%1$s рік</item>
+    <item quantity="few">%1$s роки</item>
+    <item quantity="many">%1$s років</item>
+    <item quantity="other">%1$s років</item>
   </plurals>
-  <plurals name="message_footer__expire__hours">
-    <item quantity="one">%1$d година</item>
-    <item quantity="few">%1$d години</item>
-    <item quantity="many">%1$d годин</item>
-    <item quantity="other">%1$d годин</item>
+  <plurals name="unit_weeks">
+    <item quantity="one">%1$s тиждень</item>
+    <item quantity="few">%1$s тижні</item>
+    <item quantity="many">%1$s тижнів</item>
+    <item quantity="other">%1$s тижнів</item>
   </plurals>
-  <plurals name="message_footer__expire__minutes">
-    <item quantity="one">%1$d хвилина</item>
-    <item quantity="few">%1$d хвилини</item>
-    <item quantity="many">%1$d хвилин</item>
-    <item quantity="other">%1$d хвилин</item>
+  <plurals name="unit_days">
+    <item quantity="one">%1$s день</item>
+    <item quantity="few">%1$s дні</item>
+    <item quantity="many">%1$s днів</item>
+    <item quantity="other">%1$s днів</item>
   </plurals>
-  <plurals name="message_footer__expire__seconds">
-    <item quantity="one">%1$d секунда</item>
-    <item quantity="few">%1$d секунди</item>
-    <item quantity="many">%1$d секунд</item>
-    <item quantity="other">%1$d секунд</item>
+  <plurals name="unit_hours">
+    <item quantity="one">%1$s година</item>
+    <item quantity="few">%1$s години</item>
+    <item quantity="many">%1$s годин</item>
+    <item quantity="other">%1$s годин</item>
   </plurals>
+  <plurals name="unit_minutes">
+    <item quantity="one">%1$s хвилина</item>
+    <item quantity="few">%1$s хвилини</item>
+    <item quantity="many">%1$s хвилин</item>
+    <item quantity="other">%1$s хвилин</item>
+  </plurals>
+  <plurals name="unit_seconds">
+    <item quantity="one">%1$s секунда</item>
+    <item quantity="few">%1$s секунди</item>
+    <item quantity="many">%1$s секунд</item>
+    <item quantity="other">%1$s секунд</item>
+  </plurals>
+  <string name="ephemeral_message_footer_multiple_units">Залишилось %1$s та %2$s</string>
+  <string name="ephemeral_message_footer_single_unit">Залишилось %1$s</string>
   <string name="collection_header_all">КОЛЕКЦІЯ</string>
   <string name="collection_header_pictures">КАРТИНКИ</string>
   <string name="collection_header_files">ФАЙЛИ</string>
@@ -1217,7 +1226,9 @@
   <string name="allow_guests_toggle_info_text">Зробити розмову доступною для людей поза межами вашої команди. Це налаштування завжди можна змінити пізніше.</string>
   <string name="open_this_conversation_to_people_outside_your_team">Зробити цю розмову доступною для людей поза межами вашої команди.</string>
   <string name="allow_guests">Дозволити присутність гостей</string>
-  <string name="guest_options_title">Гостьові налаштування</string>
+  <string name="guest_options_title">Гості</string>
+  <string name="ephemeral_options_title">Тимчасові повідомлення</string>
+  <string name="ephemeral_explanation_text">Тимчасові повідомлення будуть увімкнені для всіх учасників цієї розмови</string>
   <string name="show_all_participants">Показати всіх (%1$s)</string>
   <string name="allow_guests_error_title">Щось пішло не так</string>
   <string name="allow_guests_error_body">Не вдалося активувати гостьовий доступ. Будь ласка, спробуйте пізніше.</string>
@@ -1271,6 +1282,6 @@
   <string name="backup_import_error_wrong_account">Ви не можете відновити історію з іншого акаунту.</string>
   <string name="video_paused">Відео призупинене</string>
   <string name="calling_degraded_title">Новий пристрій</string>
-  <string name="call_info_text">Групова розмова може містити до 128 учасників. Відеодзвінки працюють тільки в групах з 4-ма або менше учасниками.</string>
+  <string name="call_info_text">До цієї розмови може прєднатись не більше 256 учасників. Відеодзвінки будуть працювати тільки в розмовах. що містять до чотирьох учасників.</string>
   <string name="too_many_people_video_toast">Відеодзвінки працюють тільки в групах з 4-ма або менше учасниками.</string>
 </resources>

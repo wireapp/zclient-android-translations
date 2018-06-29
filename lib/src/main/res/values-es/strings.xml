@@ -661,6 +661,10 @@
     <item quantity="one">Alguien te envió un mensaje</item>
     <item quantity="other">Alguien te envió %1$d mensajes</item>
   </plurals>
+  <string name="other_set_message_timer">[[%1$s]] set the message timer to [[%2$s]]</string>
+  <string name="you_set_message_timer">[[You]] set the message timer to [[%1$s]]</string>
+  <string name="other_turned_off_message_timer">[[%1$s]] turned off the message timer</string>
+  <string name="you_turned_off_message_timer">[[You]] turned off the message timer</string>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -916,10 +920,6 @@
   <string name="no_conversation_in_list__message">Iniciar una conversación o crear un grupo.</string>
   <string name="cursor__type_a_message">ESCRIBIR UN MENSAJE</string>
   <string name="cursor__ephemeral_message">MENSAJE TEMPORIZADO</string>
-  <!-- ephemeral duration e.g. "30s" or "1h"-->
-  <string name="cursor__ephemeral_message__timer_seconds">%1$s</string>
-  <string name="cursor__ephemeral_message__timer_min">%1$sm</string>
-  <string name="cursor__ephemeral_message__timer_days">%1$sd</string>
   <string name="tooltip_record">Grabar Video</string>
   <string name="tooltip_camera">Agregar Foto</string>
   <string name="tooltip_sketch">Dibujar</string>
@@ -981,35 +981,40 @@
   <string name="message_footer__status__failed">Envío fallido. _Reenviar_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB eliminado</string>
   <string name="ephemeral_message__timeout_selection_info">CONFIGURAR TIEMPO PARA QUE EL MENSAJE DESAPAREZCA</string>
-  <string name="ephemeral_message__timeout__off">DESACTIVADO</string>
-  <string name="ephemeral_message__timeout__5_sec">5 segundos</string>
-  <string name="ephemeral_message__timeout__15_sec">15 seconds</string>
-  <string name="ephemeral_message__timeout__30_sec">30 segundos</string>
-  <string name="ephemeral_message__timeout__1_min">Un minuto</string>
-  <string name="ephemeral_message__timeout__5_min">5 minutos</string>
-  <string name="ephemeral_message__timeout__1_day">1 día</string>
-  <string name="message_footer__status__ephemeral_summary">_queda_ %1$s \u30FB _%2$s_</string>
   <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
   <string name="usernames__take_over__summary">Reclamar tu nombre de usuario único en Wire. _Saber más. _</string>
   <string name="usernames__take_over__choose">ELIGE TU PROPIO</string>
   <string name="usernames__take_over__keep">USAR ESTE NOMBRE</string>
   <string name="pref_account_username_empty_title">Añadir nombre de usuario</string>
-  <plurals name="message_footer__expire__days">
-    <item quantity="one">%1$d día</item>
-    <item quantity="other">%1$d días</item>
+  <string name="ephemeral_message__timeout__off">Desactivar</string>
+  <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
+  <string name="guests_option_on">On</string>
+  <plurals name="unit_years">
+    <item quantity="one">%1$s year</item>
+    <item quantity="other">%1$s years</item>
   </plurals>
-  <plurals name="message_footer__expire__hours">
-    <item quantity="one">%1$d hora</item>
-    <item quantity="other">%1$d horas</item>
+  <plurals name="unit_weeks">
+    <item quantity="one">%1$s week</item>
+    <item quantity="other">%1$s weeks</item>
   </plurals>
-  <plurals name="message_footer__expire__minutes">
-    <item quantity="one">%1$d minuto</item>
-    <item quantity="other">%1$d minutos</item>
+  <plurals name="unit_days">
+    <item quantity="one">%1$s day</item>
+    <item quantity="other">%1$s days</item>
   </plurals>
-  <plurals name="message_footer__expire__seconds">
-    <item quantity="one">%1$d segundo</item>
-    <item quantity="other">%1$d segundos</item>
+  <plurals name="unit_hours">
+    <item quantity="one">%1$s hour</item>
+    <item quantity="other">%1$s hours</item>
   </plurals>
+  <plurals name="unit_minutes">
+    <item quantity="one">%1$s minute</item>
+    <item quantity="other">%1$s minutes</item>
+  </plurals>
+  <plurals name="unit_seconds">
+    <item quantity="one">%1$s second</item>
+    <item quantity="other">%1$s seconds</item>
+  </plurals>
+  <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
+  <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
   <string name="collection_header_all">COLECCIÓN</string>
   <string name="collection_header_pictures">FOTOS</string>
   <string name="collection_header_files">ARCHIVOS</string>
@@ -1099,7 +1104,7 @@
   <string name="teams_set_name_title">Tu nombre</string>
   <string name="teams_set_name_hint">NOMBRE</string>
   <string name="app_entry_slogan">Mensajería segura para todos.</string>
-  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account">Para uso personal</string>
   <string name="app_entry_create_account_sub">create an account</string>
   <string name="app_entry_create_team">For organizations</string>
   <string name="app_entry_create_team_sub">create a team</string>
@@ -1155,7 +1160,9 @@
   <string name="allow_guests_toggle_info_text">Abrir esta conversación a personas fuera de su equipo. Siempre puedes cambiarlo más tarde.</string>
   <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to people outside your team.</string>
   <string name="allow_guests">Permitir invitados</string>
-  <string name="guest_options_title">Opciones de invitados</string>
+  <string name="guest_options_title">Guests</string>
+  <string name="ephemeral_options_title">Timed messages</string>
+  <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
   <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">Algo salió mal</string>
   <string name="allow_guests_error_body">No se pudo permitir invitados. Por favor, inténtalo de nuevo.</string>
@@ -1207,8 +1214,8 @@
   <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
   <string name="backup_import_error_wrong_account_title">Wrong backup</string>
   <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
-  <string name="video_paused">Video paused</string>
+  <string name="video_paused">Video en Pausa</string>
   <string name="calling_degraded_title">Nuevo dispositivo</string>
-  <string name="call_info_text">Up to 128 people can join a group conversation. Video calls work in groups of 4 or less.</string>
+  <string name="call_info_text">Up to 256 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
   <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
 </resources>

@@ -647,6 +647,10 @@
   <plurals name="notification__message__ephemeral">
     <item quantity="other">您有 %1$d 則新訊息</item>
   </plurals>
+  <string name="other_set_message_timer">[[%1$s]] set the message timer to [[%2$s]]</string>
+  <string name="you_set_message_timer">[[You]] set the message timer to [[%1$s]]</string>
+  <string name="other_turned_off_message_timer">[[%1$s]] turned off the message timer</string>
+  <string name="you_turned_off_message_timer">[[You]] turned off the message timer</string>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -894,10 +898,6 @@
   <string name="no_conversation_in_list__message">開啟一場對話或創建一個群組。</string>
   <string name="cursor__type_a_message">請輸入訊息</string>
   <string name="cursor__ephemeral_message">限時訊息</string>
-  <!-- ephemeral duration e.g. "30s" or "1h"-->
-  <string name="cursor__ephemeral_message__timer_seconds">%1$s秒</string>
-  <string name="cursor__ephemeral_message__timer_min">%1$s分</string>
-  <string name="cursor__ephemeral_message__timer_days">%1$s天</string>
   <string name="tooltip_record">錄製影像</string>
   <string name="tooltip_camera">新增相片</string>
   <string name="tooltip_sketch">繪製圖片</string>
@@ -958,31 +958,34 @@
   <string name="message_footer__status__failed">發送失敗。請_重試_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB 已刪除</string>
   <string name="ephemeral_message__timeout_selection_info">設置訊息銷毀時間</string>
-  <string name="ephemeral_message__timeout__off">關閉</string>
-  <string name="ephemeral_message__timeout__5_sec">5 秒</string>
-  <string name="ephemeral_message__timeout__15_sec">15 秒</string>
-  <string name="ephemeral_message__timeout__30_sec">30 秒</string>
-  <string name="ephemeral_message__timeout__1_min">1 分鐘</string>
-  <string name="ephemeral_message__timeout__5_min">5 分鐘</string>
-  <string name="ephemeral_message__timeout__1_day">1 天</string>
-  <string name="message_footer__status__ephemeral_summary">倒數 %1$s \u30FB _%2$s</string>
   <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
   <string name="usernames__take_over__summary">認領你在Wire的名稱ID._瞭解更多_</string>
   <string name="usernames__take_over__choose">自選</string>
   <string name="usernames__take_over__keep">使用這個</string>
   <string name="pref_account_username_empty_title">添加使用者名稱</string>
-  <plurals name="message_footer__expire__days">
-    <item quantity="other">%1$d 天</item>
+  <string name="ephemeral_message__timeout__off">關閉</string>
+  <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
+  <string name="guests_option_on">開啟</string>
+  <plurals name="unit_years">
+    <item quantity="other">%1$s years</item>
   </plurals>
-  <plurals name="message_footer__expire__hours">
-    <item quantity="other">%1$d 小時</item>
+  <plurals name="unit_weeks">
+    <item quantity="other">%1$s weeks</item>
   </plurals>
-  <plurals name="message_footer__expire__minutes">
-    <item quantity="other">%1$d 分鐘</item>
+  <plurals name="unit_days">
+    <item quantity="other">%1$s days</item>
   </plurals>
-  <plurals name="message_footer__expire__seconds">
-    <item quantity="other">%1$d 秒</item>
+  <plurals name="unit_hours">
+    <item quantity="other">%1$s hours</item>
   </plurals>
+  <plurals name="unit_minutes">
+    <item quantity="other">%1$s minutes</item>
+  </plurals>
+  <plurals name="unit_seconds">
+    <item quantity="other">%1$s seconds</item>
+  </plurals>
+  <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
+  <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
   <string name="collection_header_all">收藏</string>
   <string name="collection_header_pictures">圖片</string>
   <string name="collection_header_files">檔案</string>
@@ -1124,7 +1127,9 @@
   <string name="allow_guests_toggle_info_text">對團隊以外的人公開此對話。您以後可隨時更改。</string>
   <string name="open_this_conversation_to_people_outside_your_team">開放這個對話與團隊以外的訪客。</string>
   <string name="allow_guests">允許訪客</string>
-  <string name="guest_options_title">訪客選項</string>
+  <string name="guest_options_title">訪客</string>
+  <string name="ephemeral_options_title">限時訊息</string>
+  <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
   <string name="show_all_participants">全部顯示 (%1$s)</string>
   <string name="allow_guests_error_title">出了點問題</string>
   <string name="allow_guests_error_body">不能允許客人。請重試。</string>
@@ -1177,6 +1182,6 @@
   <string name="backup_import_error_wrong_account">無法還原其他帳戶歷史記錄到你的帳戶。</string>
   <string name="video_paused">影像已暫停</string>
   <string name="calling_degraded_title">新裝置</string>
-  <string name="call_info_text">最多128人可以加入群組對話。視像通話僅能在4個人或以下的群組中使用。</string>
+  <string name="call_info_text">Up to 256 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
   <string name="too_many_people_video_toast">視像通話僅能在4個人或以下的群組中使用。</string>
 </resources>

@@ -456,7 +456,7 @@
   <string name="pref_advanced_send_anonymous_data_title">Saada anonüümseid andmeid</string>
   <string name="pref_advanced_send_anonymous_data_summary">Aita Wire\'i paremaks muuta, saates anonüümseid kasutus- ja vearaporteid.</string>
   <string name="pref_advanced_receive_news_and_offers_title">Uudiskirja tellimine</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Aeg-ajalt saadab Wire sulle infot tooteuuenduste kohta.</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Soovin Wire\'ilt uudiseid ja tooteuuendusi e-posti teel.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Tume teema</string>
   <string name="pref_options_screen_title">Valikud</string>
@@ -661,6 +661,10 @@
     <item quantity="one">Keegi saatis sulle sõnumi</item>
     <item quantity="other">Keegi saatis sulle %1$d sõnumit</item>
   </plurals>
+  <string name="other_set_message_timer">[[%1$s]] määras sõnumi taimeriks [[%2$s]]</string>
+  <string name="you_set_message_timer">[[Sina]] määrasid sõnumi taimeriks [[%2$s]]</string>
+  <string name="other_turned_off_message_timer">[[%1$s]] lülitas sõnumi taimeri välja</string>
+  <string name="you_turned_off_message_timer">[[Sina]] lülitasid sõnumi taimeri välja</string>
   <!-- Others -->
   <string name="app_name">Wire</string>
   <string name="content__system__item_separator">,</string>
@@ -916,10 +920,6 @@
   <string name="no_conversation_in_list__message">Alustage vestlust või rühma loomine.</string>
   <string name="cursor__type_a_message">KIRJUTA SÕNUM</string>
   <string name="cursor__ephemeral_message">TAIMERIGA SÕNUMID</string>
-  <!-- ephemeral duration e.g. "30s" or "1h"-->
-  <string name="cursor__ephemeral_message__timer_seconds">%1$ss</string>
-  <string name="cursor__ephemeral_message__timer_min">%1$sm</string>
-  <string name="cursor__ephemeral_message__timer_days">%1$sd</string>
   <string name="tooltip_record">Salvesta video</string>
   <string name="tooltip_camera">Lisa foto</string>
   <string name="tooltip_sketch">Joonista pilt</string>
@@ -981,35 +981,40 @@
   <string name="message_footer__status__failed">Saatmine ebaõnnestus. _Saada uuesti_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Kustutatud</string>
   <string name="ephemeral_message__timeout_selection_info">SEADISTA TAIMER</string>
-  <string name="ephemeral_message__timeout__off">VÄLJA</string>
-  <string name="ephemeral_message__timeout__5_sec">5 sekundit</string>
-  <string name="ephemeral_message__timeout__15_sec">15 sekundit</string>
-  <string name="ephemeral_message__timeout__30_sec">30 sekundit</string>
-  <string name="ephemeral_message__timeout__1_min">1 minut</string>
-  <string name="ephemeral_message__timeout__5_min">5 minutit</string>
-  <string name="ephemeral_message__timeout__1_day">1 päev</string>
-  <string name="message_footer__status__ephemeral_summary">%1$s \u30FB _%2$s järgi jäänud_</string>
   <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
   <string name="usernames__take_over__summary">Vali unikaalne kasutajanimi. _Täpsem info._</string>
   <string name="usernames__take_over__choose">MUUDA</string>
   <string name="usernames__take_over__keep">VALI SEE</string>
   <string name="pref_account_username_empty_title">Lisa kasutajanimi</string>
-  <plurals name="message_footer__expire__days">
-    <item quantity="one">%1$d päev</item>
-    <item quantity="other">%1$d päeva</item>
+  <string name="ephemeral_message__timeout__off">Väljas</string>
+  <string name="ephemeral_message__options_header">KUSTUVAD SÕNUMID</string>
+  <string name="guests_option_on">Sees</string>
+  <plurals name="unit_years">
+    <item quantity="one">%1$s aasta</item>
+    <item quantity="other">%1$s aastat</item>
   </plurals>
-  <plurals name="message_footer__expire__hours">
-    <item quantity="one">%1$d tund</item>
-    <item quantity="other">%1$d tundi</item>
+  <plurals name="unit_weeks">
+    <item quantity="one">%1$s nädal</item>
+    <item quantity="other">%1$s nädalat</item>
   </plurals>
-  <plurals name="message_footer__expire__minutes">
-    <item quantity="one">%1$d minut</item>
-    <item quantity="other">%1$d minutit</item>
+  <plurals name="unit_days">
+    <item quantity="one">%1$s päev</item>
+    <item quantity="other">%1$s päeva</item>
   </plurals>
-  <plurals name="message_footer__expire__seconds">
-    <item quantity="one">%1$d sekund</item>
-    <item quantity="other">%1$d sekundit</item>
+  <plurals name="unit_hours">
+    <item quantity="one">%1$s tund</item>
+    <item quantity="other">%1$s tundi</item>
   </plurals>
+  <plurals name="unit_minutes">
+    <item quantity="one">%1$s minut</item>
+    <item quantity="other">%1$s minutit</item>
+  </plurals>
+  <plurals name="unit_seconds">
+    <item quantity="one">%1$s sekund</item>
+    <item quantity="other">%1$s sekundit</item>
+  </plurals>
+  <string name="ephemeral_message_footer_multiple_units">jäänud %1$s ja %2$s</string>
+  <string name="ephemeral_message_footer_single_unit">jäänud %1$s</string>
   <string name="collection_header_all">KOGUMIK</string>
   <string name="collection_header_pictures">PILDID</string>
   <string name="collection_header_files">FAILID</string>
@@ -1155,11 +1160,13 @@
   <string name="allow_guests_toggle_info_text">Ava see vestlus meeskonnast väljas olevatele inimestele. Sa saad seda alati hiljem muuta.</string>
   <string name="open_this_conversation_to_people_outside_your_team">Ava see vestlus meeskonnast väljas olevatele inimestele.</string>
   <string name="allow_guests">Luba külalisi</string>
-  <string name="guest_options_title">Külaliste valikud</string>
+  <string name="guest_options_title">Külalised</string>
+  <string name="ephemeral_options_title">Kustuvad sõnumid</string>
+  <string name="ephemeral_explanation_text">Kustuvad sõnumid lülitatatakse sisse kõikide osalejate jaoks selles vestluses</string>
   <string name="show_all_participants">Kuva kõik (%1$s)</string>
   <string name="allow_guests_error_title">Midagi läks valesti</string>
   <string name="allow_guests_error_body">Külalisi ei saanud lubada. Palun proovi uuesti.</string>
-  <string name="allow_guests_warning_body">Praegused külalised eemaldatakse vestlusest. Uusi külalisi ei lubata.</string>
+  <string name="allow_guests_warning_body">Praegused külalised eemaldatakse vestlusest. Uutel külalistel ei lubata siseneda.</string>
   <string name="allow_guests_warning_confirm">Eemalda Külalised</string>
   <string name="guests_are_present">KOHAL ON KÜLALISI</string>
   <string name="participants_details_header_title">ÜKSIKASJAD</string>
@@ -1207,8 +1214,8 @@
   <string name="backup_import_error_unsupported_version">See varundus loodi uuema või aegunud Wire\'i versiooni kaudu ja seda ei saa siin taastada.</string>
   <string name="backup_import_error_wrong_account_title">Vale varundus</string>
   <string name="backup_import_error_wrong_account">Sa ei saa taastada teise konto ajalugu.</string>
-  <string name="video_paused">Videokõne peatatud</string>
+  <string name="video_paused">Video pausil</string>
   <string name="calling_degraded_title">Wire uuel seadmel</string>
-  <string name="call_info_text">Grupivestlusega saab liituda kuni 128 inimest. Videkõne töötab kuni 4 osalejaga vestluses.</string>
+  <string name="call_info_text">Grupivestlusega saavad liituda kuni 256 inimest. Videokõned töötavad kuni 3 inimesega, pluss sina.</string>
   <string name="too_many_people_video_toast">Videokõned töötavad kuni 4 osalejaga vestluses.</string>
 </resources>
