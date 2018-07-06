@@ -39,7 +39,7 @@
   <string name="phone_invalid_format_header">無効な電話番号</string>
   <string name="phone_invalid_format_message">有効な電話番号を入力してください</string>
   <string name="phone_password_exists_header">パスワードが存在します。</string>
-  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
+  <string name="phone_password_exists_message">このアカウントはすでにパスワードとメールアドレスで関連付けられています。メールアドレスでログインしてください。</string>
   <string name="invalid_code_header">無効なコード</string>
   <string name="incorrect_code_header">間違ったコード</string>
   <string name="wrong_code_message">有効なコードを入力してください。</string>
@@ -115,9 +115,9 @@
   <string name="people_picker__guest_label">ゲスト</string>
   <string name="people_picker__search_people">友人</string>
   <string name="people_picker__search_services">サービス</string>
-  <string name="receive_news_and_offers_request_title">Newsletter</string>
-  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
-  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+  <string name="receive_news_and_offers_request_title">ニュースレター</string>
+  <string name="receive_news_and_offers_request_body">電子メールで Wire からニュースや製品アップデートを受信しますか？購読はいつでもでも解除することができます。</string>
+  <string name="crashes_and_analytics_request_title">Wire の改善にご協力を</string>
   <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">サービス</string>
@@ -257,11 +257,11 @@
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">遅いインターネット</string>
   <string name="calling__slow_connection__message">インターネット接続が遅すぎるため、今すぐ電話できません。後でもう一度試してください。</string>
-  <string name="calling__cannot_start__title">Microphone required</string>
+  <string name="calling__cannot_start__title">マイクが必要です</string>
   <string name="calling__cannot_start__message">通話するには、現在の電話を切ってください。</string>
-  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+  <string name="calling__cannot_start__no_permission__message">設定に移動して、Wireがマイクにアクセスすることを許可して下さい。</string>
   <string name="calling__cannot_start__cancel__message">キャンセル</string>
-  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
+  <string name="calling__cannot_start__no_camera_permission__message">Wire はカメラへのアクセス権を持っていません。</string>
   <string name="calling__cannot_start__ongoing_different_kind__title">%1$s は話し中です</string>
   <string name="calling__cannot_start__ongoing_different_kind__message">後でもう一度やり直してください</string>
   <string name="calling__cannot_start__button_settings">設定</string>
@@ -272,7 +272,7 @@
   <string name="incoming__controls__ongoing__speaker">スピーカー</string>
   <string name="incoming__controls__ongoing__mute">ミュート</string>
   <string name="incoming__controls__ongoing__video">ビデオ</string>
-  <string name="incoming__controls__ongoing__flip">FLIP</string>
+  <string name="incoming__controls__ongoing__flip">カメラ切替</string>
   <string name="ongoing__poor_connection_message">接続不良のためビデオが停止しました</string>
   <string name="calling__self_preview_unavailable">ビデオオフ</string>
   <string name="calling__self_preview_unavailable_long">カメラは利用できません</string>
@@ -281,20 +281,20 @@
   <string name="calling__header__outgoing_video_subtitle">呼び出し中...</string>
   <string name="calling__header__incoming_subtitle">発信中...</string>
   <string name="calling__header__incoming_subtitle__video">発信中...</string>
-  <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
+  <string name="calling__header__incoming_subtitle__group">%1$s からの着信中...</string>
   <string name="call_banner_joining">接続中&#8230;</string>
   <string name="call_banner_outgoing">RINGING&#8230;</string>
-  <string name="call_banner_incoming">CALLING&#8230;</string>
-  <string name="call_banner_incoming_video">CALLING&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="call_banner_incoming">呼び出し中...</string>
+  <string name="call_banner_incoming_video">呼び出し中...</string>
+  <string name="call_banner_tap_to_return_to_call">タップすると通話に戻ります</string>
   <string name="calling_ongoing_call_title">通話中</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+  <string name="calling_ongoing_call_start_anyway">いつでも通話する</string>
   <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
+  <string name="calling_ongoing_call_join_anyway">いつでも参加する</string>
+  <string name="calling_ongoing_call_participants_header">参加者</string>
   <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
+  <string name="calling_ongoing_call_video_message">ビデオメッセージは通話中に記録できません</string>
   <!-- Calling in group conversation -->
   <string name="group_calling_title">通話を始める</string>
   <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
@@ -417,7 +417,7 @@
   <string name="pref_account_actions_category_title">アクション</string>
   <string name="pref_account_personal_category_title">人</string>
   <string name="pref_account_appearance_category_title">外観</string>
-  <string name="pref_account_personal_information_category_title">Personal Information</string>
+  <string name="pref_account_personal_information_category_title">個人情報</string>
   <string name="pref_account_conversations_category_title">履歴</string>
   <string name="pref_account_details_category_summary">この情報で他の人があなたを見つけることができます。</string>
   <string name="pref_account_personal_category_summary">この情報は他の誰も見ることができません</string>
@@ -442,13 +442,13 @@
   <string name="pref_account_password_title">パスワードをリセット</string>
   <string name="pref_account_edit_name_empty_warning">名前は２文字以上にしてください</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
-  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+  <string name="pref_account_data_usage_permissions">データ利用許可</string>
   <string name="pref_backup_screen_title">会話をバックアップする</string>
   <!-- Data Usage Permissions -->
   <string name="pref_advanced_send_anonymous_data_title">匿名データを共有</string>
-  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
-  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
+  <string name="pref_advanced_send_anonymous_data_summary">Wire を改善するため、匿名の利用状況のデータとクラッシュレポートを送信します。</string>
+  <string name="pref_advanced_receive_news_and_offers_title">ニュースレターを受け取る</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">電子メールで Wireからニュースや製品アップデート情報を受け取る。</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">ダークテーマ</string>
   <string name="pref_options_screen_title">オプション</string>
@@ -669,7 +669,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="system_notification__ongoing">通話中</string>
   <string name="number_of_conversations_string">アーカイブ</string>
   <string name="system_notification__calling_one">発信中...</string>
-  <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
+  <string name="system_notification__calling_group">%1$s からの着信中...</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
   <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
   <!-- Notification actions -->
@@ -987,7 +987,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <item quantity="other">%1$s seconds</item>
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
-  <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
+  <string name="ephemeral_message_footer_single_unit">残り %1$s</string>
   <string name="collection_header_all">コレクション</string>
   <string name="collection_header_pictures">写真</string>
   <string name="collection_header_files">ファイル</string>
@@ -1085,9 +1085,10 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="app_entry_notifications_dialog_message">通知には、通知、音、アイコン バッジなどがあります。これらは、[設定]で変更できます。</string>
   <string name="app_entry_dialog_accept">応答</string>
   <string name="app_entry_dialog_cancel">キャンセル</string>
-  <string name="app_entry_dialog_not_now">NOT NOW</string>
+  <string name="app_entry_dialog_no_thanks">不要です</string>
+  <string name="app_entry_dialog_not_now">後で</string>
   <string name="app_entry_dialog_view">見る</string>
-  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
+  <string name="app_entry_dialog_privacy_policy">プライバシー ポリシー</string>
   <string name="app_entry_email_sent">メール送信済</string>
   <string name="teams_set_username_subtitle">ユーザー名は他のユーザがあなたを見つけるのに役立ちます。</string>
   <string name="pick_user_teams_invite">チームに招待する</string>
@@ -1129,8 +1130,8 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="allow_guests_toggle_info_text">チーム外の人々 にこの会話を公開します。公開設定はいつでも変更することができます。</string>
   <string name="open_this_conversation_to_people_outside_your_team">チーム外の人々にこの会話を公開します。</string>
   <string name="allow_guests">ゲストアクセスを許可</string>
-  <string name="guest_options_title">Guests</string>
-  <string name="ephemeral_options_title">Timed messages</string>
+  <string name="guest_options_title">ゲスト</string>
+  <string name="ephemeral_options_title">タイマーメッセージ</string>
   <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
   <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">何か問題があります</string>
@@ -1182,8 +1183,12 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="backup_import_error_unsupported_version">このバックアップデータは、新しいまたは古すぎる Wire で作成されたため、リストアできません。</string>
   <string name="backup_import_error_wrong_account_title">バックアップに不備があります</string>
   <string name="backup_import_error_wrong_account">別のアカウントからの履歴はリストアできません。</string>
-  <string name="video_paused">Video paused</string>
+  <string name="video_paused">一時停止中</string>
   <string name="calling_degraded_title">新しいデバイス</string>
   <string name="call_info_text">Up to 256 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
+  <string name="too_many_people_video_toast">ビデオ通話は４人以下のグループで利用できます。</string>
+  <string name="markdown_link_dialog_title">リンクを開く</string>
+  <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
+  <string name="markdown_link_dialog_confirmation">OK</string>
+  <string name="markdown_link_dialog_cancel">キャンセル</string>
 </resources>
