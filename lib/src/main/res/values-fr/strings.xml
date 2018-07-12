@@ -117,8 +117,8 @@
   <string name="people_picker__search_services">SERVICES</string>
   <string name="receive_news_and_offers_request_title">Newsletter</string>
   <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
-  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
-  <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
+  <string name="crashes_and_analytics_request_title">Aidez-nous à améliorer Wire</string>
+  <string name="crashes_and_analytics_request_body">L\'envoi de données anonymes sur l\'utilisation et les rapports d\'erreur nous aide à améliorer nos produits et services. Ces informations ne seront pas utilisées à d\'autres fins.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Services</string>
   <string name="integrations_picker__add">Ajouter un service</string>
@@ -425,7 +425,7 @@
   <string name="pref_account_actions_category_title">Actions</string>
   <string name="pref_account_personal_category_title">Personnel</string>
   <string name="pref_account_appearance_category_title">Apparence</string>
-  <string name="pref_account_personal_information_category_title">Personal Information</string>
+  <string name="pref_account_personal_information_category_title">Données Personnelles</string>
   <string name="pref_account_conversations_category_title">Historique</string>
   <string name="pref_account_details_category_summary">Des personnes peuvent vous trouver avec ces informations.</string>
   <string name="pref_account_personal_category_summary">Cette information n\'est visible que par vous</string>
@@ -450,13 +450,13 @@
   <string name="pref_account_password_title">Réinitialiser votre mot de passe</string>
   <string name="pref_account_edit_name_empty_warning">Le nom doit contenir au moins 2 caractères</string>
   <string name="pref_account_edit_name_empty_verify">OK</string>
-  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
+  <string name="pref_account_data_usage_permissions">Utilisation des Données Personnelles</string>
+  <string name="pref_backup_screen_title">Sauvegarder les conversations</string>
   <!-- Data Usage Permissions -->
   <string name="pref_advanced_send_anonymous_data_title">Envoyer des données anonymement</string>
-  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
-  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
+  <string name="pref_advanced_send_anonymous_data_summary">Vous pouvez aider à améliorer Wire en envoyant des données anonymes sur votre utilisation et des rapports d\'erreur.</string>
+  <string name="pref_advanced_receive_news_and_offers_title">Recevoir notre Newsletter</string>
+  <string name="pref_advanced_receive_news_and_offers_summary">Recevoir des e-mails sur les nouveautés de Wire.</string>
   <!-- Options -->
   <string name="pref_options_dark_theme_title">Thème sombre</string>
   <string name="pref_options_screen_title">Options</string>
@@ -1161,13 +1161,13 @@
   <string name="allow_guests_toggle_info_text">Rend accessible cette conversation à des personnes étrangères à votre équipe. Vous pouvez toujours changer cette option plus tard.</string>
   <string name="open_this_conversation_to_people_outside_your_team">Rendre cette conversation accessible à des personnes étrangères à votre équipe.</string>
   <string name="allow_guests">Allow Guests</string>
-  <string name="guest_options_title">Guests</string>
-  <string name="ephemeral_options_title">Timed messages</string>
+  <string name="guest_options_title">Invités</string>
+  <string name="ephemeral_options_title">Minuterie</string>
   <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
   <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">Une erreur est survenue</string>
   <string name="allow_guests_error_body">Could not allow guests. Please try again.</string>
-  <string name="allow_guests_warning_body">Current guests will be removed from the conversation. New guests will not be allowed.</string>
+  <string name="allow_guests_warning_body">Tous les invités seront retirés de la conversation. Il ne sera plus possible d\'ajouter de nouveaux invités.</string>
   <string name="allow_guests_warning_confirm">Supprimer les invités</string>
   <string name="guests_are_present">GUESTS ARE PRESENT</string>
   <string name="participants_details_header_title">DETAILS</string>
@@ -1196,9 +1196,9 @@
   <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
   <string name="second_launch__header">Vous avez déjà utilisé Wire sur cet appareil.</string>
   <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
-  <string name="restore_override_alert_title">Restore history</string>
+  <string name="restore_override_alert_title">Restaurer l\'historique</string>
   <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
-  <string name="restore_override_alert_ok">Choose Backup File</string>
+  <string name="restore_override_alert_ok">Choisir un fichier de sauvegarde</string>
   <string name="back_up_progress">BACKING UP&#8230;</string>
   <string name="back_up_progress_complete">COMPLETE</string>
   <string name="restore_progress">RESTORING&#8230;</string>
@@ -1209,17 +1209,13 @@
   <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
   <string name="backup_button">Sauvergader</string>
   <string name="backup_import_error_unknown_title">Une erreur est survenue</string>
-  <string name="backup_import_error_unknown">Your history could not be restored.</string>
-  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
-  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+  <string name="backup_import_error_unknown">Votre historique n’a pas pu être restauré.</string>
+  <string name="backup_import_error_unsupported_version_title">Sauvegarde incompatible</string>
+  <string name="backup_import_error_unsupported_version">Cette sauvegarde a été créée par une version plus récente ou expirée de Wire et ne peut pas être restaurée ici.</string>
   <string name="backup_import_error_wrong_account_title">Wrong backup</string>
-  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
-  <string name="video_paused">Video paused</string>
+  <string name="backup_import_error_wrong_account">Vous ne pouvez pas restaurer l’histoire d’un autre compte.</string>
+  <string name="video_paused">Vidéo en pause</string>
   <string name="calling_degraded_title">Nouvel appareil</string>
-  <string name="call_info_text">Up to 256 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
-  <string name="markdown_link_dialog_title">Ouvrir le lien</string>
-  <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
-  <string name="markdown_link_dialog_confirmation">OK</string>
-  <string name="markdown_link_dialog_cancel">ANNULER</string>
+  <string name="call_info_text">Les conversations de groupe peuvent contenir jusqu\'à 256 personnes. Les appels vidéos fonctionnent avec jusqu\'à trois destinataires.</string>
+  <string name="too_many_people_video_toast">Les appels vidéo fonctionnent dans les groupes de 4 personnes maximum.</string>
 </resources>
