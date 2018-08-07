@@ -163,28 +163,48 @@
   <string name="conversation_quick_menu__conversation_button__single_label">開啟</string>
   <string name="conversation_quick_menu__conversation_button__group_label">建立群組</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__you_started_conversation">你開啓了聊天室</string>
-  <string name="content__system__other_started_conversation">%1$s開啓了聊天室</string>
-  <string name="content__system__with_participant">與%1$s</string>
-  <string name="content__system__you_started_participant">[[您]] 開啟了和%2$s的聊天室</string>
-  <string name="content__system__other_started_you">[[%1$s]] 開啟了和您的聊天室</string>
-  <string name="content__system__other_started_participant">[[%1$s]] 和 %2$s 開啓了聊天室</string>
-  <string name="content__system__other_added_participant">[[%1$s]] 新增了 %2$s</string>
-  <string name="content__system__other_added_you">[[%1$s]] 新增了您</string>
-  <string name="content__system__you_added_participant">[[您]] 新增了 %2$s</string>
   <string name="content__system__other_joined">[[%1$s]] 已加入</string>
-  <string name="content__system__other_left">[[%1$s]] 離開了</string>
   <string name="content__system__you_joined">[[你]]已加入</string>
-  <string name="content__system__you_left">[[You]] 離開了</string>
-  <string name="content__system__other_removed_other">[[%1$s]] 移除了 %2$s</string>
-  <string name="content__system__other_removed_you">[[%1$s]] 移除了 您</string>
-  <string name="content__system__you_removed_other">[[您]] 移除了 %2$s</string>
   <string name="content__system__other_renamed_conv">[[%1$s]]重新命名了聊天室</string>
   <string name="content__system__you_renamed_conv">[[你]]重新命名了聊天室</string>
   <string name="content__system__message_deleted">該訊息已被刪除</string>
   <string name="content_system_message_timestamp_failure">未發送的訊息。</string>
   <string name="content_system_message_timestamp_pending">發送\u2026</string>
   <string name="content_system_message_timestamp_deleted">於%1$s刪除</string>
+  <!-- Add people -->
+  <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
+  <plurals name="content__system__someone_added_people_with_others">
+    <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+  </plurals>
+  <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
+  <string name="content__system__someone_added_people_and_you">[[%1$s]] added %2$s and you to the conversation</string>
+  <plurals name="content__system__someone_added_people_and_you_with_others">
+    <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+  </plurals>
+  <string name="content__system__you_added_people">You added %1$s to the conversation</string>
+  <plurals name="content__system__you_added_people_with_others">
+    <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
+  </plurals>
+  <!-- Remove people -->
+  <string name="content__system__other_removed_other">[[%1$s]] 移除了 %2$s</string>
+  <string name="content__system__other_removed_you">[[%1$s]] 移除了 您</string>
+  <string name="content__system__you_removed_other">You removed %1$s</string>
+  <string name="content__system__you_left">[[You]] 離開了</string>
+  <string name="content__system__other_left">[[%1$s]] 離開了</string>
+  <!-- Create conversation -->
+  <string name="content__system__you_started_conversation">你開啓了聊天室</string>
+  <string name="content__system__other_started_conversation">%1$s開啓了聊天室</string>
+  <string name="content__system__you_started_one">[[您]] 開啟了和%2$s的聊天室</string>
+  <string name="content__system__other_started_one">[[%1$s]] 開啟了和您的聊天室</string>
+  <string name="content__system__with_you_only">with you</string>
+  <string name="content__system__with_list_only">與%1$s</string>
+  <plurals name="content__system__with_others_only">
+    <item quantity="other">with %1$s and _%2$s others_</item>
+  </plurals>
+  <string name="content__system__with_list_and_you">with %1$s and you</string>
+  <plurals name="content__system__with_others_and_you">
+    <item quantity="other">with %1$s, you and _%2$s others_</item>
+  </plurals>
   <!-- Conversation: missed call -->
   <string name="content__missed_call__you_called">[[您]] 播出通話</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] 曾來電</string>
@@ -197,7 +217,10 @@
   <string name="content__otr__message_error_you">您發出的訊息未被接收。_為什麼？_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] 的設備識別已更改。信息無法送達。_瞭解更多_</string>
   <string name="content__otr__identity_changed_error_you">您的設備識別已更改。信息無法送達。_瞭解更多_</string>
-  <string name="content__otr__added_new_device__message">[[%1$s]]開始使用 _新的設備_</string>
+  <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
+  <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
+  <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
+  <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
   <string name="content__otr__start_this_device__message">[[您]]開始使用 _此設備_</string>
   <string name="content__otr__all_fingerprints_verified">所有的指紋已完成驗證</string>
   <string name="content__otr__lost_history">您有一段時間沒有使用此設備，可能有部分訊息不會顯示出來。</string>
@@ -656,6 +679,9 @@
   <string name="content__system__item_separator">,</string>
   <string name="content__system__last_item_separator">和</string>
   <string name="content__system__you">您</string>
+  <plurals name="content__system__other_members">
+    <item quantity="other">%1$s others</item>
+  </plurals>
   <!-- System notifications -->
   <string name="system_notification__group_call_title">%1$s於%2$s</string>
   <string name="system_notification__silence_call">拒絕通話</string>
@@ -1187,16 +1213,23 @@
   <string name="backup_import_error_wrong_account">無法還原其他帳戶歷史記錄到你的帳戶。</string>
   <string name="video_paused">影像已暫停</string>
   <string name="calling_degraded_title">新裝置</string>
-  <string name="call_info_text">最多256人可以加入群組對話。視像通話可用以你與另外三人。</string>
+  <string name="call_info_text">最多300人可以加入群組對話。視像通話可用以你與另外三人。</string>
   <string name="too_many_people_video_toast">視像通話僅能在4個人或以下的群組中使用。</string>
   <string name="markdown_link_dialog_title">瀏覽連結</string>
   <string name="markdown_link_dialog_message">這會帶你去\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">確認</string>
   <string name="markdown_link_dialog_cancel">取消</string>
+  <string name="max_participants_alert_title">全滿</string>
+  <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
+  <plurals name="max_participants_add_alert_message">
+    <item quantity="other">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
+  </plurals>
   <string name="sso_signin_button">Company log in</string>
   <string name="sso_signin_error_title">出了點問題</string>
   <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
   <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
   <string name="sso_signin_wrong_code_title">不正確的代碼</string>
-  <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
+  <string name="sso_signin_wrong_code_message">請核對您的公司單一登錄(SSO)存取碼，然後重試。</string>
+  <string name="participant_search_hint">搜索名稱</string>
+  <string name="participant_search_title">聯絡人</string>
 </resources>

@@ -163,28 +163,48 @@
   <string name="conversation_quick_menu__conversation_button__single_label">開く</string>
   <string name="conversation_quick_menu__conversation_button__group_label">グループを作成</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__you_started_conversation">あなたが会話を開始しました。</string>
-  <string name="content__system__other_started_conversation">%1$s が会話を開始しました。</string>
-  <string name="content__system__with_participant">%1$s と</string>
-  <string name="content__system__you_started_participant">[[あなた]] %2$s と会話を始めました</string>
-  <string name="content__system__other_started_you">[[%1$s]] あなたと会話を始めました</string>
-  <string name="content__system__other_started_participant">[[%1$s]] %2$s と会話を始めました</string>
-  <string name="content__system__other_added_participant">[[%1$s]] %2$s を追加しました</string>
-  <string name="content__system__other_added_you">[[%1$s]] あなたを追加しました</string>
-  <string name="content__system__you_added_participant">[[あなた]] %2$s を追加しました</string>
   <string name="content__system__other_joined">[[%1$s]] 参加済</string>
-  <string name="content__system__other_left">[[%1$s]] 退室しました</string>
   <string name="content__system__you_joined">[[You]] 参加済</string>
-  <string name="content__system__you_left">[[あなた]] 退室しました</string>
-  <string name="content__system__other_removed_other">[[%1$s]] %2$s を削除しました</string>
-  <string name="content__system__other_removed_you">[[%1$s]] あなたを削除しました</string>
-  <string name="content__system__you_removed_other">[[あなた]] %2$s を削除しました</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] が会話名を変更しました</string>
   <string name="content__system__you_renamed_conv">[[You]] が会話名を変更しました。</string>
   <string name="content__system__message_deleted">このメッセージは削除されました</string>
   <string name="content_system_message_timestamp_failure">未送信のメッセージ。</string>
   <string name="content_system_message_timestamp_pending">送信中\u2026</string>
   <string name="content_system_message_timestamp_deleted">%1$s に削除しました</string>
+  <!-- Add people -->
+  <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
+  <plurals name="content__system__someone_added_people_with_others">
+    <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+  </plurals>
+  <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
+  <string name="content__system__someone_added_people_and_you">[[%1$s]] added %2$s and you to the conversation</string>
+  <plurals name="content__system__someone_added_people_and_you_with_others">
+    <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+  </plurals>
+  <string name="content__system__you_added_people">You added %1$s to the conversation</string>
+  <plurals name="content__system__you_added_people_with_others">
+    <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
+  </plurals>
+  <!-- Remove people -->
+  <string name="content__system__other_removed_other">[[%1$s]] %2$s を削除しました</string>
+  <string name="content__system__other_removed_you">[[%1$s]] あなたを削除しました</string>
+  <string name="content__system__you_removed_other">You removed %1$s</string>
+  <string name="content__system__you_left">[[あなた]] 退室しました</string>
+  <string name="content__system__other_left">[[%1$s]] 退室しました</string>
+  <!-- Create conversation -->
+  <string name="content__system__you_started_conversation">あなたが会話を開始しました。</string>
+  <string name="content__system__other_started_conversation">%1$s が会話を開始しました。</string>
+  <string name="content__system__you_started_one">[[あなた]] %2$s と会話を始めました</string>
+  <string name="content__system__other_started_one">[[%1$s]] あなたと会話を始めました</string>
+  <string name="content__system__with_you_only">with you</string>
+  <string name="content__system__with_list_only">%1$s と</string>
+  <plurals name="content__system__with_others_only">
+    <item quantity="other">with %1$s and _%2$s others_</item>
+  </plurals>
+  <string name="content__system__with_list_and_you">with %1$s and you</string>
+  <plurals name="content__system__with_others_and_you">
+    <item quantity="other">with %1$s, you and _%2$s others_</item>
+  </plurals>
   <!-- Conversation: missed call -->
   <string name="content__missed_call__you_called">[[あなた]] 呼び出しました</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] 呼び出しました</string>
@@ -197,7 +217,10 @@
   <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] のデバイス ID を変更しました。配信不能なメッセージ。 _詳細_</string>
   <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
-  <string name="content__otr__added_new_device__message">[[%1$s]] _新しいデバイス_ を使い始めました</string>
+  <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
+  <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
+  <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
+  <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
   <string name="content__otr__start_this_device__message">[[あなた]] _新しいデバイス_ を使い始めました</string>
   <string name="content__otr__all_fingerprints_verified">すべてのフィンガープリントは確認されています</string>
   <string name="content__otr__lost_history">しばらくの間このデバイスを使用していません。一部のメッセージは表示されません。</string>
@@ -657,6 +680,9 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="content__system__item_separator">,</string>
   <string name="content__system__last_item_separator">と</string>
   <string name="content__system__you">あなた</string>
+  <plurals name="content__system__other_members">
+    <item quantity="other">%1$s others</item>
+  </plurals>
   <!-- System notifications -->
   <string name="system_notification__group_call_title">%2$s で %1$s</string>
   <string name="system_notification__silence_call">辞退</string>
@@ -1189,16 +1215,23 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="backup_import_error_wrong_account">別のアカウントからの履歴はリストアできません。</string>
   <string name="video_paused">ビデオ停止中</string>
   <string name="calling_degraded_title">新しいデバイス</string>
-  <string name="call_info_text">Up to 256 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
+  <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
   <string name="too_many_people_video_toast">ビデオ通話は４人以下のグループで利用できます。</string>
   <string name="markdown_link_dialog_title">リンクを開く</string>
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>
   <string name="markdown_link_dialog_cancel">キャンセル</string>
+  <string name="max_participants_alert_title">満員です</string>
+  <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
+  <plurals name="max_participants_add_alert_message">
+    <item quantity="other">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
+  </plurals>
   <string name="sso_signin_button">Company log in</string>
   <string name="sso_signin_error_title">何か問題があります</string>
   <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
   <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
   <string name="sso_signin_wrong_code_title">無効なコード</string>
   <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
+  <string name="participant_search_hint">名前で検索</string>
+  <string name="participant_search_title">友人</string>
 </resources>

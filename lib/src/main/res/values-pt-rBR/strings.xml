@@ -165,28 +165,53 @@
   <string name="conversation_quick_menu__conversation_button__single_label">ABRIR</string>
   <string name="conversation_quick_menu__conversation_button__group_label">CRIAR GRUPO</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__you_started_conversation">Você iniciou uma conversa</string>
-  <string name="content__system__other_started_conversation">%1$s iniciou uma conversa</string>
-  <string name="content__system__with_participant">com %1$s</string>
-  <string name="content__system__you_started_participant">[[Você]] começou uma conversa com %2$s</string>
-  <string name="content__system__other_started_you">[[%1$s]] começou uma conversa com você</string>
-  <string name="content__system__other_started_participant">[[%1$s]] começou uma conversa com %2$s</string>
-  <string name="content__system__other_added_participant">[[%1$s]] adicionou %2$s</string>
-  <string name="content__system__other_added_you">[[%1$s]] adicionou você</string>
-  <string name="content__system__you_added_participant">[[Você]] adicionou %2$s</string>
   <string name="content__system__other_joined">[[%1$s]] juntou-se</string>
-  <string name="content__system__other_left">[[%1$s]] saiu</string>
   <string name="content__system__you_joined">[[You]] juntou-se</string>
-  <string name="content__system__you_left">[[Você]] saiu</string>
-  <string name="content__system__other_removed_other">[[%1$s]] removeu %2$s</string>
-  <string name="content__system__other_removed_you">[[%1$s]] removeu você</string>
-  <string name="content__system__you_removed_other">[[Você]] removeu %2$s</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] renomeou a conversa</string>
   <string name="content__system__you_renamed_conv">[[Você]] renomeou a conversa</string>
   <string name="content__system__message_deleted">Esta mensagem foi removida</string>
   <string name="content_system_message_timestamp_failure">Mensagem não enviada.</string>
   <string name="content_system_message_timestamp_pending">Enviando\u2026</string>
   <string name="content_system_message_timestamp_deleted">Excluído em %1$s</string>
+  <!-- Add people -->
+  <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
+  <plurals name="content__system__someone_added_people_with_others">
+    <item quantity="one">[[%1$s]] added %2$s and _%3$s other to the conversation_</item>
+    <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+  </plurals>
+  <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
+  <string name="content__system__someone_added_people_and_you">[[%1$s]] added %2$s and you to the conversation</string>
+  <plurals name="content__system__someone_added_people_and_you_with_others">
+    <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
+    <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+  </plurals>
+  <string name="content__system__you_added_people">You added %1$s to the conversation</string>
+  <plurals name="content__system__you_added_people_with_others">
+    <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
+    <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
+  </plurals>
+  <!-- Remove people -->
+  <string name="content__system__other_removed_other">[[%1$s]] removeu %2$s</string>
+  <string name="content__system__other_removed_you">[[%1$s]] removeu você</string>
+  <string name="content__system__you_removed_other">You removed %1$s</string>
+  <string name="content__system__you_left">[[Você]] saiu</string>
+  <string name="content__system__other_left">[[%1$s]] saiu</string>
+  <!-- Create conversation -->
+  <string name="content__system__you_started_conversation">Você iniciou uma conversa</string>
+  <string name="content__system__other_started_conversation">%1$s iniciou uma conversa</string>
+  <string name="content__system__you_started_one">[[You]] começou uma conversa com %2$s</string>
+  <string name="content__system__other_started_one">[[%1$s]] começou uma conversa com você</string>
+  <string name="content__system__with_you_only">with you</string>
+  <string name="content__system__with_list_only">com %1$s</string>
+  <plurals name="content__system__with_others_only">
+    <item quantity="one">with %1$s and _%2$s other_</item>
+    <item quantity="other">with %1$s and _%2$s others_</item>
+  </plurals>
+  <string name="content__system__with_list_and_you">with %1$s and you</string>
+  <plurals name="content__system__with_others_and_you">
+    <item quantity="one">with %1$s, you and _%2$s other_</item>
+    <item quantity="other">with %1$s, you and _%2$s others_</item>
+  </plurals>
   <!-- Conversation: missed call -->
   <string name="content__missed_call__you_called">[[VOCÊ]] LIGOU</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] CHAMOU</string>
@@ -199,7 +224,10 @@
   <string name="content__otr__message_error_you">UMA MENSAGEM DE VOCÊ NÃO FOI RECEBIDA. _POR QUE?_</string>
   <string name="content__otr__identity_changed_error">IDENTIDADE DO DISPOSIIVO DE [[%1$s]] MUDADA. MENSAGEM NÃO ENTREGUE. _SAIBA MAIS_</string>
   <string name="content__otr__identity_changed_error_you">SUA IDENTIDADE DO DISPOSITIVO MUDOU. MENSAGEM NÃO RECEBIDA. _SAIBA MAIS_</string>
-  <string name="content__otr__added_new_device__message">[[%1$s]] COMEÇOU A USAR UM DEVICE_ NEW</string>
+  <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
+  <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
+  <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
+  <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
   <string name="content__otr__start_this_device__message">[[VOCÊ]] COMEÇOU A USAR _ESTE DISPOSITIVO_</string>
   <string name="content__otr__all_fingerprints_verified">TODAS AS IMPRESSÕES DIGITAIS SÃO VERIFICADAS</string>
   <string name="content__otr__lost_history">VOCÊ NÃO USOU ESTE DISPOSITIVO POR UM TEMPO. ALGUMAS MENSAGENS PODEM NÃO APARECER AQUI.</string>
@@ -670,6 +698,10 @@
   <string name="content__system__item_separator">,</string>
   <string name="content__system__last_item_separator">e</string>
   <string name="content__system__you">você</string>
+  <plurals name="content__system__other_members">
+    <item quantity="one">%1$s other</item>
+    <item quantity="other">%1$s others</item>
+  </plurals>
   <!-- System notifications -->
   <string name="system_notification__group_call_title">%1$s em %2$s</string>
   <string name="system_notification__silence_call">Rejeitar</string>
@@ -1221,16 +1253,24 @@
   <string name="backup_import_error_wrong_account">Você não pode restaurar o histórico de uma conta diferente.</string>
   <string name="video_paused">Vídeo pausado</string>
   <string name="calling_degraded_title">Novo dispositivo</string>
-  <string name="call_info_text">Até 256 pessoas podem participar de uma conversa de grupo. As vídeo chamadas funcionam com até 3 outras pessoas e você.</string>
+  <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
   <string name="too_many_people_video_toast">Vídeo chamadas só funcionam em grupos de 4 ou menos.</string>
   <string name="markdown_link_dialog_title">Visitar Link</string>
   <string name="markdown_link_dialog_message">Isso levará você para\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>
   <string name="markdown_link_dialog_cancel">Cancelar</string>
+  <string name="max_participants_alert_title">Chamada cheia</string>
+  <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
+  <plurals name="max_participants_add_alert_message">
+    <item quantity="one">Up to 300 people can join a conversation. Currently there is only room for %1$s more person.</item>
+    <item quantity="other">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
+  </plurals>
   <string name="sso_signin_button">Company log in</string>
   <string name="sso_signin_error_title">Algo deu errado</string>
   <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
   <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
   <string name="sso_signin_wrong_code_title">Código inválido</string>
   <string name="sso_signin_wrong_code_message">Por favor, verifique se o seu código de acesso SSO da empresa e tente novamente.</string>
+  <string name="participant_search_hint">PESQUISE POR NOMES</string>
+  <string name="participant_search_title">PESSOAS</string>
 </resources>

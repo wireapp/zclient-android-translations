@@ -165,28 +165,53 @@
   <string name="conversation_quick_menu__conversation_button__single_label">AVA</string>
   <string name="conversation_quick_menu__conversation_button__group_label">LOO GRUPP</string>
   <!-- Conversation: System messages -->
-  <string name="content__system__you_started_conversation">Sina alustasid vestlust</string>
-  <string name="content__system__other_started_conversation">%1$s alustas vestlust</string>
-  <string name="content__system__with_participant">koos kasutajaga %1$s</string>
-  <string name="content__system__you_started_participant">Alustasid %2$s-ga vestlust</string>
-  <string name="content__system__other_started_you">[[%1$s]] alustas sinuga vestlust</string>
-  <string name="content__system__other_started_participant">[[%1$s]] alustas vestlust %2$s-ga</string>
-  <string name="content__system__other_added_participant">[[%1$s]] lisas %2$s</string>
-  <string name="content__system__other_added_you">[[%1$s]] lisas sind</string>
-  <string name="content__system__you_added_participant">[[Sa]] lisasid %2$s</string>
   <string name="content__system__other_joined">[[%1$s]] liitus</string>
-  <string name="content__system__other_left">[[%1$s]] lahkus</string>
   <string name="content__system__you_joined">[[You]] liitusid</string>
-  <string name="content__system__you_left">Lahkusid vestlusest</string>
-  <string name="content__system__other_removed_other">[[%1$s]] eemaldas %2$s</string>
-  <string name="content__system__other_removed_you">[[%1$s]] eemaldas su vestlusest</string>
-  <string name="content__system__you_removed_other">Eemaldasid %2$s vestlusest</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] nimetas vestluse ümber</string>
   <string name="content__system__you_renamed_conv">[[Sina]] nimetasid vestluse ümber</string>
   <string name="content__system__message_deleted">Sõnum eemaldatud</string>
   <string name="content_system_message_timestamp_failure">Saatmata sõnum.</string>
   <string name="content_system_message_timestamp_pending">Saadan\u2026</string>
   <string name="content_system_message_timestamp_deleted">Kustutatud %1$s</string>
+  <!-- Add people -->
+  <string name="content__system__someone_added_people">[[%1$s]] lisas vestlusesse %2$s</string>
+  <plurals name="content__system__someone_added_people_with_others">
+    <item quantity="one">[[%1$s]] lisas vestlusesse %2$s ja veel _%3$s inimese_</item>
+    <item quantity="other">[[%1$s]] lisas vestlusesse %2$s ja veel _%3$s inimest_</item>
+  </plurals>
+  <string name="content__system__someone_added_you">[[%1$s]] lisas sind vestlusesse</string>
+  <string name="content__system__someone_added_people_and_you">[[%1$s]] lisas vestlusesse %2$s ja sinu</string>
+  <plurals name="content__system__someone_added_people_and_you_with_others">
+    <item quantity="one">[[%1$s]] lisas vestlusesse %2$s, sinu ja veel _%3$s inimese_</item>
+    <item quantity="other">[[%1$s]] lisas vestlusesse %2$s, sinu ja veel _%3$s inimest_</item>
+  </plurals>
+  <string name="content__system__you_added_people">Sina lisasid vestlusesse %1$s</string>
+  <plurals name="content__system__you_added_people_with_others">
+    <item quantity="one">Sina lisasid vestlusesse %1$s ja veel _%2$s inimese_</item>
+    <item quantity="other">Sina lisasid vestlusesse %1$s ja veel _%2$s inimest_</item>
+  </plurals>
+  <!-- Remove people -->
+  <string name="content__system__other_removed_other">[[%1$s]] eemaldas %2$s</string>
+  <string name="content__system__other_removed_you">[[%1$s]] eemaldas su vestlusest</string>
+  <string name="content__system__you_removed_other">Sina eemaldasid %1$s</string>
+  <string name="content__system__you_left">Lahkusid vestlusest</string>
+  <string name="content__system__other_left">[[%1$s]] lahkus</string>
+  <!-- Create conversation -->
+  <string name="content__system__you_started_conversation">Sina alustasid vestlust</string>
+  <string name="content__system__other_started_conversation">%1$s alustas vestlust</string>
+  <string name="content__system__you_started_one">[[Sina]] alustasid %2$s-ga vestlust</string>
+  <string name="content__system__other_started_one">[[%1$s]] alustas sinuga vestlust</string>
+  <string name="content__system__with_you_only">koos sinuga</string>
+  <string name="content__system__with_list_only">koos kasutajaga %1$s</string>
+  <plurals name="content__system__with_others_only">
+    <item quantity="one">koos %1$s ja _%2$s teise inimesega_</item>
+    <item quantity="other">koos %1$s ja _%2$s teise inimesega_</item>
+  </plurals>
+  <string name="content__system__with_list_and_you">koos %1$s ja sinuga</string>
+  <plurals name="content__system__with_others_and_you">
+    <item quantity="one">koos %1$s, sinu ja _%2$s teise inimesega_</item>
+    <item quantity="other">koos %1$s, sinu ja _%2$s teise inimesega_</item>
+  </plurals>
   <!-- Conversation: missed call -->
   <string name="content__missed_call__you_called">[[SINA]] HELISTASID</string>
   <string name="content__missed_call__xxx_called">[[%1$s]] HELISTAS</string>
@@ -199,7 +224,10 @@
   <string name="content__otr__message_error_you">SINU SÕNUM EI TULNUD KOHALE. _MIKS?_</string>
   <string name="content__otr__identity_changed_error">KASUTAJA [[%1$s]] SEADME ID MUUTUS. SÕNUMI SAATMINE EBAÕNNESTUS. _LISAINFO_</string>
   <string name="content__otr__identity_changed_error_you">SINU SEADME IDENTITEET MUUTUS. EDASTAMATA SÕNUM. _LISAINFO_</string>
-  <string name="content__otr__added_new_device__message">[[%1$s]] HAKKAS _UUT SEADET_ KASUTAMA</string>
+  <string name="content__otr__someone_added_new_device__message">%1$s hakkas _uut seadet_ kasutama</string>
+  <string name="content__otr__someone_and_you_added_new_device__message">%1$s ja sina hakkasid _uut seadet_ kasutama</string>
+  <string name="content__otr__someone_and_others_added_new_device__message">%1$s ja %2$s teist inimest hakkasid _uut seadet_ kasutama</string>
+  <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s teist inimest ja sina hakkasid _uut seadet_ kasutama</string>
   <string name="content__otr__start_this_device__message">HAKKASID _SEDA SEADET_ KASUTAMA</string>
   <string name="content__otr__all_fingerprints_verified">KÕIK SÕRMEJÄLJED AUDENDITUD</string>
   <string name="content__otr__lost_history">SA POLE SEDA SELLES SEADMES WIRE\'T TÜKK AEGA KASUTANUD. MÕNED SÕNUMID EI PRUUGI OLLA KOHALE JÕUDNUD.</string>
@@ -670,6 +698,10 @@
   <string name="content__system__item_separator">,</string>
   <string name="content__system__last_item_separator">ja</string>
   <string name="content__system__you">sina</string>
+  <plurals name="content__system__other_members">
+    <item quantity="one">%1$s teine</item>
+    <item quantity="other">%1$s teist</item>
+  </plurals>
   <!-- System notifications -->
   <string name="system_notification__group_call_title">%1$s vestluses %2$s</string>
   <string name="system_notification__silence_call">Keeldu</string>
@@ -1221,16 +1253,24 @@
   <string name="backup_import_error_wrong_account">Sa ei saa taastada teise konto ajalugu.</string>
   <string name="video_paused">Video pausil</string>
   <string name="calling_degraded_title">Wire uuel seadmel</string>
-  <string name="call_info_text">Grupivestlusega saavad liituda kuni 256 inimest. Videokõned töötavad kuni 3 inimesega, pluss sina.</string>
+  <string name="call_info_text">Grupivestlusega saavad liituda kuni 300 inimest. Videokõned töötavad kuni 3 inimesega, pluss sina.</string>
   <string name="too_many_people_video_toast">Videokõned töötavad kuni 4 osalejaga vestluses.</string>
   <string name="markdown_link_dialog_title">Külasta linki</string>
   <string name="markdown_link_dialog_message">See viib su aadressile\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>
   <string name="markdown_link_dialog_cancel">TÜHISTA</string>
+  <string name="max_participants_alert_title">Täismaja</string>
+  <string name="max_participants_create_alert_message">Vestlusega saavad liituda kuni 300 inimest.</string>
+  <plurals name="max_participants_add_alert_message">
+    <item quantity="one">Vestlusega saavad liituda kuni 300 inimest. Hetkel on siin ruumi veel %1$s inimesele.</item>
+    <item quantity="other">Vestlusega saavad liituda kuni 300 inimest. Hetkel on siin ruumi veel %1$s inimesele.</item>
+  </plurals>
   <string name="sso_signin_button">Ettevõtte sisselogimine</string>
   <string name="sso_signin_error_title">Midagi läks valesti</string>
   <string name="sso_signin_error_message">Palun kontakteeru oma meeskonna administraatoriga lisateabe saamiseks (viga %1$s).</string>
   <string name="sso_signin_error_try_again_message">Palun proovi hiljem uuesti (viga %1$s).</string>
   <string name="sso_signin_wrong_code_title">Vigane kood</string>
   <string name="sso_signin_wrong_code_message">Palun kinnita oma ettevõtte SSO ligipääsukoodi ja proovi uuesti.</string>
+  <string name="participant_search_hint">OTSI NIMESID</string>
+  <string name="participant_search_title">INIMESED</string>
 </resources>
