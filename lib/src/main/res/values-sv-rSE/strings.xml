@@ -115,7 +115,7 @@
   <string name="people_picker__guest_label">Gäst</string>
   <string name="people_picker__search_people">ANVÄNDARE</string>
   <string name="people_picker__search_services">TJÄNSTER</string>
-  <string name="receive_news_and_offers_request_title">Newsletter</string>
+  <string name="receive_news_and_offers_request_title">Nyhetsbrev</string>
   <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
   <string name="crashes_and_analytics_request_title">Hjälp oss att göra Wire bättre</string>
   <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
@@ -201,7 +201,7 @@
   <string name="content__system__other_started_conversation">%1$s startade konversationen</string>
   <string name="content__system__you_started_one">[[Du]] startade en konversation med %2$s</string>
   <string name="content__system__other_started_one">[[%1$s]] startade en konversation med dig</string>
-  <string name="content__system__with_you_only">with you</string>
+  <string name="content__system__with_you_only">med dig</string>
   <string name="content__system__with_list_only">med %1$s</string>
   <plurals name="content__system__with_others_only">
     <item quantity="one">with %1$s and _%2$s other_</item>
@@ -265,7 +265,7 @@
   <string name="conversation__action__delete">Ta bort innehåll&#8230;</string>
   <string name="conversation__action__archive">Arkiv</string>
   <string name="conversation__action__unarchive">Hämta från Arkiv</string>
-  <string name="conversation__action__add_people">LÄGG TILL PERSONER</string>
+  <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
   <string name="conversation__action__create_group">SKAPA GRUPP</string>
   <string name="conversation__action__silence">Tysta</string>
   <string name="conversation__action__unsilence">Slå på ljud</string>
@@ -684,6 +684,7 @@
   <string name="notification__message__liked_picture">\u2764 din bild</string>
   <string name="notification__message__liked_file">\u2764 din fil</string>
   <!-- ephemeral -->
+  <string name="notification__message__ephemeral_someone">Någon</string>
   <string name="notification__message__ephemeral_details">Tryck för mer</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Någon har skickat ett meddelande</item>
@@ -932,7 +933,6 @@
   <string name="asset_upload_warning__large_file__title">Du är inte ansluten till Wi-Fi</string>
   <string name="asset_upload_warning__large_file__message_default">Är du säker att du vill skicka en stor fil via mobildata?</string>
   <string name="asset_upload_warning__large_file__message">Är du säker att du vill skicka %1$s via mobildata?</string>
-  <string name="asset_upload_warning__large_file__message__video">Är du säker att du vill skicka en video via mobildata?</string>
   <string name="asset_upload_warning__large_file__button_accept">OK</string>
   <string name="asset_upload_warning__large_file__button_cancel">Avbryt</string>
   <!-- Video message errors -->
@@ -1149,7 +1149,7 @@
   <string name="app_entry_dialog_accept">ACCEPTERA</string>
   <string name="app_entry_dialog_cancel">AVBRYT</string>
   <string name="app_entry_dialog_log_in">LOGGA IN</string>
-  <string name="app_entry_dialog_no_thanks">NO, THANKS</string>
+  <string name="app_entry_dialog_no_thanks">Nej tack</string>
   <string name="app_entry_dialog_not_now">NOT NOW</string>
   <string name="app_entry_dialog_view">VISA</string>
   <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
@@ -1175,37 +1175,43 @@
   <string name="team_invitation_add_from_address_book">LÄGG TILL FRÅN ADRESSBOKEN</string>
   <string name="invitation_screen_title">Skapa ditt team</string>
   <string name="invitation_screen_subtitle">Bjud in dina kollegor att delta.</string>
-  <string name="add_service_button_text">Lägg till tjänst</string>
+  <string name="create_service_conversation_button_text">Create Conversation</string>
   <string name="remove_service_button_text">Ta bort tjänst</string>
   <string name="integrations_create_conversation">Skapa en ny konversation</string>
   <string name="no_matches_found">Inga träffar hittades</string>
+  <string name="loading_services">Loading services&#8230;</string>
+  <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
+  <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
   <string name="create_group_conversation">Skapa en grupp</string>
   <string name="create_guest_room_conversation">Skapa gästrum</string>
+  <string name="manage_services">Manage Services</string>
   <string name="next_button">NÄSTA</string>
   <string name="skip_button">HOPPA ÖVER</string>
   <string name="done_button">KLAR</string>
   <string name="new_group_header">SKAPA GRUPP</string>
-  <string name="add_people_empty_header">LÄGG TILL PERSONER</string>
-  <string name="add_people_count_header">LÄGG TILL PERSONER (%1$s)</string>
-  <string name="new_conv_no_results">INGA RESULTAT</string>
-  <string name="new_conv_no_contacts">INGA KONTAKTER</string>
+  <string name="add_participants_empty_header">ADD PARTICIPANTS</string>
+  <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
+  <string name="new_conv_no_results">Inga resultat</string>
+  <string name="new_conv_no_contacts">No contacts</string>
   <string name="create_group_search">SÖK EFTER NAMN</string>
   <string name="participants_divider_services">TJÄNSTER (%1$s)</string>
   <string name="participants_divider_people">PERSONER (%1$s)</string>
   <string name="group_name_hint">GRUPPENS NAMN</string>
-  <string name="allow_guests_toggle_text">Tillåt gäster</string>
-  <string name="allow_guests_toggle_info_text">Öppna den här konversationen till personer utanför ditt team. Du kan alltid ändra det senare.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Öppna den här konversationen till personer utanför ditt team.</string>
-  <string name="allow_guests">Tillåt Gäster</string>
-  <string name="guest_options_title">Guests</string>
+  <string name="allow_guests_toggle_text">Allow guests and services</string>
+  <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
+  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
+  <string name="allow_guests">Allow guests and services</string>
+  <string name="guest_options_title">Guests and services</string>
   <string name="ephemeral_options_title">Timed messages</string>
   <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
   <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">Något gick fel</string>
-  <string name="allow_guests_error_body">Kunde inte tillåta gäster. Vänligen försök igen.</string>
-  <string name="allow_guests_warning_body">Nuvarande gäster kommer tas bort från konversationen. Nya gäster kommer inte att tillåtas.</string>
-  <string name="allow_guests_warning_confirm">Ta bort Gäster</string>
+  <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
+  <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
+  <string name="allow_guests_warning_confirm">Ta bort</string>
   <string name="guests_are_present">GÄSTER ÄR NÄRVARANDE</string>
+  <string name="services_are_present">SERVICES ARE PRESENT</string>
+  <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
   <string name="participants_details_header_title">DETALJER</string>
   <string name="invitation_link_description">Alla med länken kan delta i konversationen, även om de inte har Wire</string>
   <string name="create_link_button">Skapa länk</string>
@@ -1255,7 +1261,7 @@
   <string name="calling_degraded_title">Ny enhet</string>
   <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
   <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
-  <string name="markdown_link_dialog_title">Visit Link</string>
+  <string name="markdown_link_dialog_title">Öppna länk</string>
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>
   <string name="markdown_link_dialog_cancel">AVBRYT</string>
@@ -1273,4 +1279,6 @@
   <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
   <string name="participant_search_hint">SÖK EFTER NAMN</string>
   <string name="participant_search_title">ANVÄNDARE</string>
+  <string name="generic_service_warning">Services have access to the content of the conversation</string>
+  <string name="add_services_button_text">Manage services</string>
 </resources>

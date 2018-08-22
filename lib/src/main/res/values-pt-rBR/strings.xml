@@ -265,7 +265,7 @@
   <string name="conversation__action__delete">Excluir conteúdo&#8230;</string>
   <string name="conversation__action__archive">Arquivar</string>
   <string name="conversation__action__unarchive">Desarquivar</string>
-  <string name="conversation__action__add_people">ADICIONAR PESSOAS</string>
+  <string name="conversation__action__add_participants">ADICIONAR PARTICIPANTES</string>
   <string name="conversation__action__create_group">CRIAR GRUPO</string>
   <string name="conversation__action__silence">Silenciar</string>
   <string name="conversation__action__unsilence">Notificar</string>
@@ -684,6 +684,7 @@
   <string name="notification__message__liked_picture">\u2764 sua foto</string>
   <string name="notification__message__liked_file">\u2764 seu arquivo</string>
   <!-- ephemeral -->
+  <string name="notification__message__ephemeral_someone">Alguém</string>
   <string name="notification__message__ephemeral_details">Pressione para mais</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Alguém te mandou uma mensagem</item>
@@ -932,7 +933,6 @@
   <string name="asset_upload_warning__large_file__title">Você não está no Wi-Fi</string>
   <string name="asset_upload_warning__large_file__message_default">Você tem certeza de que deseja enviar um arquivo grande através da rede móvel?</string>
   <string name="asset_upload_warning__large_file__message">Você tem certeza de que deseja enviar %1$s através da rede móvel?</string>
-  <string name="asset_upload_warning__large_file__message__video">Você tem certeza de que deseja enviar um vídeo através da rede móvel?</string>
   <string name="asset_upload_warning__large_file__button_accept">OK</string>
   <string name="asset_upload_warning__large_file__button_cancel">Cancelar</string>
   <!-- Video message errors -->
@@ -1175,37 +1175,43 @@
   <string name="team_invitation_add_from_address_book">ADICIONAR DO CATÁLOGO DE ENDEREÇOS</string>
   <string name="invitation_screen_title">Crie sua equipe</string>
   <string name="invitation_screen_subtitle">Convide seus colegas para participar.</string>
-  <string name="add_service_button_text">Adicionar Serviço</string>
+  <string name="create_service_conversation_button_text">Criar Conversa</string>
   <string name="remove_service_button_text">Remover serviço</string>
   <string name="integrations_create_conversation">Criar uma nova conversa</string>
   <string name="no_matches_found">Nenhum resultado encontrado</string>
+  <string name="loading_services">Carregando serviços&#8230;</string>
+  <string name="empty_services_list">Serviços são ajudantes que podem melhorar seu fluxo de trabalho. Para ativá-los, fale com seu administrador.</string>
+  <string name="empty_services_list_admin">Serviços são ajudantes que podem melhorar seu fluxo de trabalho.</string>
   <string name="create_group_conversation">Criar grupo</string>
   <string name="create_guest_room_conversation">Criar grupo de convidados</string>
+  <string name="manage_services">Gerenciar serviços</string>
   <string name="next_button">PRÓXIMO</string>
   <string name="skip_button">PULAR</string>
   <string name="done_button">CONCLUÍDO</string>
   <string name="new_group_header">CRIAR GRUPO</string>
-  <string name="add_people_empty_header">ADICIONAR PESSOAS</string>
-  <string name="add_people_count_header">ADICIONAR PESSOAS (%1$s)</string>
-  <string name="new_conv_no_results">NENHUM RESULTADO</string>
-  <string name="new_conv_no_contacts">SEM CONTATOS</string>
+  <string name="add_participants_empty_header">ADICIONAR PARTICIPANTES</string>
+  <string name="add_participants_count_header">ADICIONAR PARTICIPANTES (%1$s)</string>
+  <string name="new_conv_no_results">Não há resultados</string>
+  <string name="new_conv_no_contacts">Sem contatos</string>
   <string name="create_group_search">PESQUISE POR NOMES</string>
   <string name="participants_divider_services">SERVIÇOS (%1$s)</string>
   <string name="participants_divider_people">PESSOAS (%1$s)</string>
   <string name="group_name_hint">NOME DO GRUPO</string>
-  <string name="allow_guests_toggle_text">Permitir convidados</string>
-  <string name="allow_guests_toggle_info_text">Abra esta conversa à pessoas fora da sua equipe. Você sempre pode mudar isso mais tarde.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Abrir esta conversa à pessoas fora da sua equipe.</string>
-  <string name="allow_guests">Permitir Convidados</string>
-  <string name="guest_options_title">Visitantes</string>
+  <string name="allow_guests_toggle_text">Permitir que os hóspedes e serviços</string>
+  <string name="allow_guests_toggle_info_text">Abra esta conversa para serviços e pessoas de fora da sua equipe. Você sempre pode mudar depois.</string>
+  <string name="open_this_conversation_to_people_outside_your_team">Abra esta conversa para serviços e pessoas fora da sua equipe.</string>
+  <string name="allow_guests">Permitir que os hóspedes e serviços</string>
+  <string name="guest_options_title">Hóspedes e serviços</string>
   <string name="ephemeral_options_title">Mensagens com tempo</string>
   <string name="ephemeral_explanation_text">Mensagens com tempo serão ativadas para todos os participantes nesta conversa</string>
   <string name="show_all_participants">Mostrar todos (%1$s)</string>
   <string name="allow_guests_error_title">Algo deu errado</string>
-  <string name="allow_guests_error_body">Não foi possível permitir convidados. Por favor, tente novamente.</string>
-  <string name="allow_guests_warning_body">Os convidados atuais serão removidos da conversa. Não serão permitidos novos convidados.</string>
-  <string name="allow_guests_warning_confirm">Remover Convidados</string>
+  <string name="allow_guests_error_body">Não foi possível permitir convidados nem serviços. Por favor, tente novamente.</string>
+  <string name="allow_guests_warning_body">Os hóspedes e serviços atuais serão removidos da conversa. Novos hóspedes e serviços não serão permitidos.</string>
+  <string name="allow_guests_warning_confirm">Remover</string>
   <string name="guests_are_present">OS CONVIDADOS ESTÃO PRESENTES</string>
+  <string name="services_are_present">SERVIÇOS ESTÃO PRESENTES</string>
+  <string name="guests_and_services_are_present">OS HÓSPEDES E SERVIÇOS ESTÃO PRESENTES</string>
   <string name="participants_details_header_title">DETALHES</string>
   <string name="invitation_link_description">Qualquer um com o link pode junta-se a conversa, até quem não possui Wire</string>
   <string name="create_link_button">Criar Link</string>
@@ -1259,13 +1265,13 @@
   <string name="markdown_link_dialog_message">Isso levará você para\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>
   <string name="markdown_link_dialog_cancel">Cancelar</string>
-  <string name="max_participants_alert_title">Chamada cheia</string>
+  <string name="max_participants_alert_title">Sala cheia</string>
   <string name="max_participants_create_alert_message">Até 300 pessoas podem participar de uma conversa.</string>
   <plurals name="max_participants_add_alert_message">
     <item quantity="one">Até 300 pessoas podem participar de uma conversa. Atualmente, há apenas espaço para mais %1$s pessoa.</item>
     <item quantity="other">Até 300 pessoas podem participar de uma conversa. Atualmente, há apenas espaço para mais %1$s pessoas.</item>
   </plurals>
-  <string name="sso_signin_button">Inicio de sessão empresarial</string>
+  <string name="sso_signin_button">Inicio de Sessão Empresarial</string>
   <string name="sso_signin_error_title">Algo deu errado</string>
   <string name="sso_signin_error_message">Por favor, entre em contato com o administrador da sua equipe para obter detalhes (Erro %1$s).</string>
   <string name="sso_signin_error_try_again_message">Por favor, tente novamente mais tarde (Erro %1$s).</string>
@@ -1273,4 +1279,6 @@
   <string name="sso_signin_wrong_code_message">Por favor, verifique se o seu código de acesso SSO da empresa e tente novamente.</string>
   <string name="participant_search_hint">PESQUISE POR NOMES</string>
   <string name="participant_search_title">PESSOAS</string>
+  <string name="generic_service_warning">Serviços têm acesso ao conteúdo da conversa</string>
+  <string name="add_services_button_text">Gerenciar serviços</string>
 </resources>
