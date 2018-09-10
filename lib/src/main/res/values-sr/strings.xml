@@ -319,11 +319,11 @@
   <string name="calling__header__incoming_subtitle">Позивање&#8230;</string>
   <string name="calling__header__incoming_subtitle__video">Позивање&#8230;</string>
   <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
-  <string name="call_banner_joining">ПОВЕЗУЈЕМ СЕ&#8230;</string>
-  <string name="call_banner_outgoing">RINGING&#8230;</string>
-  <string name="call_banner_incoming">CALLING&#8230;</string>
-  <string name="call_banner_incoming_video">CALLING&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="call_banner_joining">Повезивање&#8230;</string>
+  <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
+  <string name="call_banner_incoming">%1$s is calling&#8230;</string>
+  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
+  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
   <string name="calling_ongoing_call_title">Актуелни позив</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
   <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
@@ -512,6 +512,7 @@
   <string name="pref_options_sounds_new_conversations_and_talks_only">прва порука, пинг, позиви</string>
   <string name="pref_options_sounds_none">без</string>
   <string name="pref_options_vibration_title">Вибрација</string>
+  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
   <string name="pref_options_sounds_category_title">Упозорења</string>
   <string name="pref_options_ringtones_category_title">Звуци</string>
   <string name="pref_options_ringtones_ringtone_title">Тон звона</string>
@@ -556,21 +557,21 @@
   <string name="pref_advanced_debug_report_summary">Ово помаже Вајер подршци да открије проблем.</string>
   <string name="pref_advanced_analytics_title">Подаци о коришћењу и падовима</string>
   <string name="pref_advanced_analytics_summary">Учините Вајер бољим шаљући анонимне информације.</string>
-  <string name="pref_advanced_reset_push_title">Reset Push Notifications Token</string>
+  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">If you experience problems with push notifications, Wire Support may ask you to reset this token.</string>
   <string name="pref_advanced_reset_push_completed">Push token has been reset</string>
   <string name="debug_report__title">Вајеров извештај о грешци — %1$s</string>
   <string name="debug_report__body">Опишите кораке који доводе до овог проблема, дајте снимке екрана ако је могуће и пошаљите ову поруку.\n\n</string>
+  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
+        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Подршка</string>
   <string name="pref_support_website_title">Веб сајт Вајер подршке</string>
-  <string name="pref_support_website_url">https://support.wire.com</string>
   <string name="pref_support_contact_title">Контактирај подршку</string>
-  <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
   <!-- About -->
   <string name="pref_about_screen_title">О програму</string>
   <string name="pref_about_website_title">Веб сајт Вајера</string>
-  <string name="pref_about_website_url">https://wire.com</string>
   <string name="pref_about_tos_title">Услови коришћења</string>
   <string name="pref_about_privacy_policy_title">Политика приватности</string>
   <string name="pref_about_licenses_title">Информације о лиценци</string>
@@ -654,6 +655,16 @@
     <item quantity="other">Позиви раде у разговорима до %1$d особа.</item>
   </plurals>
   <!-- Lockscreen and notifications -->
+  <string name="message_notifications_channel_name">Messages</string>
+  <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
+  <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+  <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
+  <string name="ping_notifications_channel_name">Pings</string>
+  <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
+  <string name="ongoing_channel_name">Background notifications</string>
+  <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
+  <string name="foreground_service_notification_name">Maintain connection to server</string>
+  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
   <string name="lockscreen__talk">ПОЗИВА</string>
   <plurals name="notification__new_messages">
     <item quantity="one">%2$s: %1$d порука</item>
@@ -738,6 +749,10 @@
   <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
   <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
+  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
+  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
+  <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+  <string name="ws_foreground_notification_summary">Tap here for more information.</string>
   <!-- Notification actions -->
   <string name="notification__action__call">Позив</string>
   <string name="notification__action__reply">Одговори</string>
@@ -1042,7 +1057,6 @@
   <string name="message_footer__status__failed">Слање неуспешно. _Понови_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB обрисано</string>
   <string name="ephemeral_message__timeout_selection_info">ПОДЕСИТЕ ВРЕМЕ НЕСТАНКА ПОРУКЕ</string>
-  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
   <string name="usernames__take_over__summary">Заузмите ваше име на Вајеру. _Погледајте још_</string>
   <string name="usernames__take_over__choose">ИЗАБЕРИТЕ СВОЈЕ</string>
   <string name="usernames__take_over__keep">ОСТАВИ ОВО</string>
@@ -1159,7 +1173,6 @@
   <string name="teams_set_email_subtitle">Enter your work email address.</string>
   <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
   <string name="teams_set_email_about">LEARN MORE</string>
-  <string name="teams_set_email_about_url">https://support.wire.com/hc/en-us/articles/115004082129</string>
   <string name="teams_set_password_title">Постави лозинку</string>
   <string name="teams_set_password_hint">БАР 8 ЗНАКОВА</string>
   <string name="teams_set_username_title">Set username</string>
@@ -1175,9 +1188,9 @@
   <string name="teams_set_name_title">Your name</string>
   <string name="teams_set_name_hint">FULL NAME</string>
   <string name="app_entry_slogan">Secure messaging for everyone.</string>
-  <string name="app_entry_create_account">For personal use</string>
+  <string name="app_entry_create_account">Лично</string>
   <string name="app_entry_create_account_sub">create an account</string>
-  <string name="app_entry_create_team">For organizations</string>
+  <string name="app_entry_create_team">Pro</string>
   <string name="app_entry_create_team_sub">create a team</string>
   <string name="app_entry_login_sub">Already have an account?</string>
   <string name="app_entry_login">Пријави се</string>
@@ -1304,13 +1317,9 @@
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">У реду</string>
   <string name="markdown_link_dialog_cancel">ОТКАЖИ</string>
-  <string name="max_participants_alert_title">Све попуњено</string>
+  <string name="max_participants_alert_title">The group is full</string>
   <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
-  <plurals name="max_participants_add_alert_message">
-    <item quantity="one">Up to 300 people can join a conversation. Currently there is only room for %1$s more person.</item>
-    <item quantity="few">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
-    <item quantity="other">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
-  </plurals>
+  <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
   <string name="sso_signin_button">Company log in</string>
   <string name="sso_signin_error_title">Нешто је пошло наопако</string>
   <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>

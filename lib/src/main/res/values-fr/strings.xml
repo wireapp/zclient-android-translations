@@ -312,11 +312,11 @@
   <string name="calling__header__incoming_subtitle">Appel&#8230;</string>
   <string name="calling__header__incoming_subtitle__video">Appel&#8230;</string>
   <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
-  <string name="call_banner_joining">CONNEXION&#8230;</string>
-  <string name="call_banner_outgoing">RINGING&#8230;</string>
-  <string name="call_banner_incoming">CALLING&#8230;</string>
-  <string name="call_banner_incoming_video">CALLING&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="call_banner_joining">Connexion&#8230;</string>
+  <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
+  <string name="call_banner_incoming">%1$s is calling&#8230;</string>
+  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
+  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
   <string name="calling_ongoing_call_title">Appel en cours</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
   <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
@@ -499,6 +499,7 @@
   <string name="pref_options_sounds_new_conversations_and_talks_only">Premier message, signes, appels</string>
   <string name="pref_options_sounds_none">Aucun</string>
   <string name="pref_options_vibration_title">Vibration</string>
+  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
   <string name="pref_options_sounds_category_title">Alertes</string>
   <string name="pref_options_ringtones_category_title">Sons</string>
   <string name="pref_options_ringtones_ringtone_title">Sonnerie</string>
@@ -543,21 +544,21 @@
   <string name="pref_advanced_debug_report_summary">Ces informations aident l\'assistance de Wire à diagnostiquer les problèmes.</string>
   <string name="pref_advanced_analytics_title">Rapports d’utilisation et de plantage</string>
   <string name="pref_advanced_analytics_summary">Améliorez Wire en envoyant des informations anonymes.</string>
-  <string name="pref_advanced_reset_push_title">Réinitialiser le jeton des notifications Push</string>
+  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">Si vous rencontrez des problèmes avec les notifications push, l\'assistance de Wire peut vous demander de réinitialiser ce jeton.</string>
   <string name="pref_advanced_reset_push_completed">Le jeton pour les notifications Push a été réinitialisé</string>
   <string name="debug_report__title">Rapport de débogage de Wire - %1$s</string>
   <string name="debug_report__body">Veuillez décrire les étapes nécessaires pour reproduire le problème, fournir des captures d’écran si possible et envoyer cet e-mail.\n\n</string>
+  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
+        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Assistance</string>
   <string name="pref_support_website_title">Site d\'assistance de Wire</string>
-  <string name="pref_support_website_url">https://support.wire.com</string>
   <string name="pref_support_contact_title">Contacter l\'assistance technique</string>
-  <string name="pref_support_contact_url">https://support.wire.com/hc/requests/new</string>
   <!-- About -->
   <string name="pref_about_screen_title">À propos</string>
   <string name="pref_about_website_title">Site de Wire</string>
-  <string name="pref_about_website_url">https://wire.com</string>
   <string name="pref_about_tos_title">Conditions d\'utilisation</string>
   <string name="pref_about_privacy_policy_title">Politique de confidentialité</string>
   <string name="pref_about_licenses_title">Informations sur la licence</string>
@@ -639,6 +640,16 @@
     <item quantity="other">Les appels fonctionnent dans des conversations avec %1$d participants ou moins.</item>
   </plurals>
   <!-- Lockscreen and notifications -->
+  <string name="message_notifications_channel_name">Messages</string>
+  <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
+  <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+  <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
+  <string name="ping_notifications_channel_name">Pings</string>
+  <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
+  <string name="ongoing_channel_name">Background notifications</string>
+  <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
+  <string name="foreground_service_notification_name">Maintain connection to server</string>
+  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
   <string name="lockscreen__talk">APPEL ENTRANT</string>
   <plurals name="notification__new_messages">
     <item quantity="one">Message de %2$s</item>
@@ -718,6 +729,10 @@
   <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
   <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
+  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
+  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
+  <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+  <string name="ws_foreground_notification_summary">Tap here for more information.</string>
   <!-- Notification actions -->
   <string name="notification__action__call">Appel</string>
   <string name="notification__action__reply">Répondre</string>
@@ -1013,7 +1028,6 @@
   <string name="message_footer__status__failed">L’envoi a échoué. _Renvoyer_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Supprimé</string>
   <string name="ephemeral_message__timeout_selection_info">DÉFINIR UNE DURÉE AVANT LA DISPARITION DU MESSAGE</string>
-  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
   <string name="usernames__take_over__summary">Choisissez votre nom d’utilisateur unique sur Wire. _En savoir plus._</string>
   <string name="usernames__take_over__choose">CHOISISSEZ LE VÔTRE</string>
   <string name="usernames__take_over__keep">GARDER CELUI-CI</string>
@@ -1120,7 +1134,6 @@
   <string name="teams_set_email_subtitle">Saisissez votre adresse e-mail professionnelle.</string>
   <string name="teams_set_email_hint">VOUS@VOTREENTREPRISE.COM</string>
   <string name="teams_set_email_about">EN SAVOIR PLUS</string>
-  <string name="teams_set_email_about_url">https://support.wire.com/hc/en-us/articles/115004082129</string>
   <string name="teams_set_password_title">Définir le mot de passe</string>
   <string name="teams_set_password_hint">AU MOINS 8 CARACTÈRES</string>
   <string name="teams_set_username_title">Définir le nom d\'utilisateur</string>
@@ -1136,9 +1149,9 @@
   <string name="teams_set_name_title">Votre nom</string>
   <string name="teams_set_name_hint">NOM COMPLET</string>
   <string name="app_entry_slogan">Messagerie sécurisée pour tous.</string>
-  <string name="app_entry_create_account">Pour un usage personnel</string>
+  <string name="app_entry_create_account">Personnel</string>
   <string name="app_entry_create_account_sub">créer un compte</string>
-  <string name="app_entry_create_team">Pour les entreprises</string>
+  <string name="app_entry_create_team">Pro</string>
   <string name="app_entry_create_team_sub">créer une équipe</string>
   <string name="app_entry_login_sub">Vous avez déjà un compte ?</string>
   <string name="app_entry_login">Se connecter</string>
@@ -1180,11 +1193,11 @@
   <string name="integrations_create_conversation">Créer une nouvelle conversation</string>
   <string name="no_matches_found">No matches found</string>
   <string name="loading_services">Loading services&#8230;</string>
-  <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
-  <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
+  <string name="empty_services_list">Les services sont des programmes qui peuvent améliorer votre flux de travail. Pour les activer, contactez votre administrateur.</string>
+  <string name="empty_services_list_admin">Les services sont des programmes qui peuvent améliorer votre flux de travail.</string>
   <string name="create_group_conversation">Créer un groupe</string>
   <string name="create_guest_room_conversation">Créer un espace pour invités</string>
-  <string name="manage_services">Manage Services</string>
+  <string name="manage_services">Gérer les Services</string>
   <string name="next_button">NEXT</string>
   <string name="skip_button">IGNORER</string>
   <string name="done_button">TERMINER</string>
@@ -1197,17 +1210,17 @@
   <string name="participants_divider_services">SERVICES (%1$s)</string>
   <string name="participants_divider_people">PEOPLE (%1$s)</string>
   <string name="group_name_hint">NOM DU GROUPE</string>
-  <string name="allow_guests_toggle_text">Allow guests and services</string>
+  <string name="allow_guests_toggle_text">Autoriser les invités et les services</string>
   <string name="allow_guests_toggle_info_text">Rend accessible cette conversation à des personnes et services étrangers à votre équipe. Vous pouvez toujours changer cette option plus tard.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
-  <string name="allow_guests">Allow guests and services</string>
+  <string name="open_this_conversation_to_people_outside_your_team">Rendre cette conversation accessible à des personnes et services étrangères à votre équipe.</string>
+  <string name="allow_guests">Autoriser les invités et les services</string>
   <string name="guest_options_title">Invités et services</string>
   <string name="ephemeral_options_title">Minuterie</string>
   <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
   <string name="show_all_participants">Show all (%1$s)</string>
   <string name="allow_guests_error_title">Une erreur est survenue</string>
   <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
-  <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
+  <string name="allow_guests_warning_body">Tous les invités et services seront retirés de la conversation. Il ne sera plus possible d\'ajouter de nouveaux invités ou services.</string>
   <string name="allow_guests_warning_confirm">Supprimer</string>
   <string name="guests_are_present">GUESTS ARE PRESENT</string>
   <string name="services_are_present">SERVICES ARE ACTIVE</string>
@@ -1264,12 +1277,9 @@
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>
   <string name="markdown_link_dialog_cancel">ANNULER</string>
-  <string name="max_participants_alert_title">Salle comble</string>
+  <string name="max_participants_alert_title">Le groupe est complet</string>
   <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
-  <plurals name="max_participants_add_alert_message">
-    <item quantity="one">Up to 300 people can join a conversation. Currently there is only room for %1$s more person.</item>
-    <item quantity="other">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
-  </plurals>
+  <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
   <string name="sso_signin_button">Company log in</string>
   <string name="sso_signin_error_title">Une erreur est survenue</string>
   <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
@@ -1278,6 +1288,6 @@
   <string name="sso_signin_wrong_code_message">Vérifiez le code d\'accès SSO de votre entreprise et réessayez.</string>
   <string name="participant_search_hint">SEARCH FOR NAMES</string>
   <string name="participant_search_title">PERSONNES</string>
-  <string name="generic_service_warning">Services have access to the content of this conversation</string>
+  <string name="generic_service_warning">Les services ont accès au contenu de la conversation</string>
   <string name="add_services_button_text">Manage services</string>
 </resources>

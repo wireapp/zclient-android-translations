@@ -342,11 +342,11 @@
   <string name="calling__header__incoming_subtitle">يتصل بك</string>
   <string name="calling__header__incoming_subtitle__video">يتصل بك</string>
   <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
-  <string name="call_banner_joining">جاري الربط</string>
-  <string name="call_banner_outgoing">RINGING&#8230;</string>
-  <string name="call_banner_incoming">CALLING&#8230;</string>
-  <string name="call_banner_incoming_video">CALLING&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">TAP TO RETURN TO CALL</string>
+  <string name="call_banner_joining">جارٍ الربط&#8230;</string>
+  <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
+  <string name="call_banner_incoming">%1$s is calling&#8230;</string>
+  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
+  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
   <string name="calling_ongoing_call_title">المكالمة الجارية</string>
   <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
   <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
@@ -555,6 +555,7 @@
   <string name="pref_options_sounds_new_conversations_and_talks_only">أول رسالة ، بنغ أو مكالمة</string>
   <string name="pref_options_sounds_none">لا شيء</string>
   <string name="pref_options_vibration_title">اهتزاز</string>
+  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
   <string name="pref_options_sounds_category_title">تنبيهات</string>
   <string name="pref_options_ringtones_category_title">الأصوات</string>
   <string name="pref_options_ringtones_ringtone_title">نغمة الرنين</string>
@@ -600,21 +601,21 @@
   <string name="pref_advanced_debug_report_summary">هذه المعلومات تساعد  Wire Support في تشخيص المشاكل.</string>
   <string name="pref_advanced_analytics_title">استخدام بيانات وتقارير الأعطال</string>
   <string name="pref_advanced_analytics_summary">اجعل  Wire  واير  أفضل عن طريق إرسال معلومات مجهولة المصدر.</string>
-  <string name="pref_advanced_reset_push_title">إعادة تعيين أذون تدفق الإشعارات</string>
+  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">في حال وجود مشكلة في تدفق الإشعارات، من المحتمل أن يخبرك Wire Support بإعادة تعيين هذه الأذون.</string>
   <string name="pref_advanced_reset_push_completed">تم إعادة تعيين أذون التدفق</string>
   <string name="debug_report__title">تقرير واير لتصحيح الأخطاء -%1$s</string>
   <string name="debug_report__body">يرجى وصف الخطوات المطلوبة لإعادة إنشاء المشكلة، وتزويدنا بصور (سكرين شوت) و إرسالها لهذا البريد الإلكتروني. \n\n</string>
+  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
+        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">الدعم</string>
   <string name="pref_support_website_title">الموقع الإلكتروني للدعم في واير </string>
-  <string name="pref_support_website_url">https://support.wire.com</string>
   <string name="pref_support_contact_title">اتصل بالدعم</string>
-  <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
   <!-- About -->
   <string name="pref_about_screen_title">عن</string>
   <string name="pref_about_website_title">الموقع الإلكتروني ل واير</string>
-  <string name="pref_about_website_url">https://wire.com</string>
   <string name="pref_about_tos_title">شروط الاستخدام</string>
   <string name="pref_about_privacy_policy_title">سياسة الخصوصية</string>
   <string name="pref_about_licenses_title">معلومات عن الترخيص</string>
@@ -704,6 +705,16 @@
     <item quantity="other">المكالمات تعمل في المحادثات التي تحتوي لغاية  %1$d أشخاص</item>
   </plurals>
   <!-- Lockscreen and notifications -->
+  <string name="message_notifications_channel_name">الرسائل</string>
+  <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
+  <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+  <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
+  <string name="ping_notifications_channel_name">Pings</string>
+  <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
+  <string name="ongoing_channel_name">Background notifications</string>
+  <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
+  <string name="foreground_service_notification_name">Maintain connection to server</string>
+  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
   <string name="lockscreen__talk">يتصل بك</string>
   <plurals name="notification__new_messages">
     <item quantity="zero">%1$d رسائل من  %2$s</item>
@@ -803,6 +814,10 @@
   <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
   <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
+  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
+  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
+  <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+  <string name="ws_foreground_notification_summary">Tap here for more information.</string>
   <!-- Notification actions -->
   <string name="notification__action__call">اتصال</string>
   <string name="notification__action__reply">رد</string>
@@ -1139,7 +1154,6 @@
   <string name="message_footer__status__failed">فشل الإرسال. _إعادة إرسال_</string>
   <string name="message_footer__status__deleted">\u30FB %1$s حذفت</string>
   <string name="ephemeral_message__timeout_selection_info">قم بتعيين وقت للرسالة لتختفي</string>
-  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
   <string name="usernames__take_over__summary">الحصول على اسم فريد خاص بك على واير. _تعلم أكثر. _</string>
   <string name="usernames__take_over__choose">اختر الخاص بك</string>
   <string name="usernames__take_over__keep">ابقي هذا</string>
@@ -1286,7 +1300,6 @@
   <string name="teams_set_email_subtitle">Enter your work email address.</string>
   <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
   <string name="teams_set_email_about">LEARN MORE</string>
-  <string name="teams_set_email_about_url">https://support.wire.com/hc/en-us/articles/115004082129</string>
   <string name="teams_set_password_title">تعيين كلمة السر</string>
   <string name="teams_set_password_hint">8 أحرف على الأقل</string>
   <string name="teams_set_username_title">Set username</string>
@@ -1302,9 +1315,9 @@
   <string name="teams_set_name_title">اسمك</string>
   <string name="teams_set_name_hint">FULL NAME</string>
   <string name="app_entry_slogan">تراسل آمن للجميع.</string>
-  <string name="app_entry_create_account">للاستخدام الشخصي</string>
+  <string name="app_entry_create_account">شخصي</string>
   <string name="app_entry_create_account_sub">أنشئ حسابًا</string>
-  <string name="app_entry_create_team">للمنظمات</string>
+  <string name="app_entry_create_team">Pro</string>
   <string name="app_entry_create_team_sub">أنشئ فريقًا</string>
   <string name="app_entry_login_sub">لديك حساب بالفعل؟</string>
   <string name="app_entry_login">تسجيل الدخول</string>
@@ -1431,16 +1444,9 @@
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">موافق</string>
   <string name="markdown_link_dialog_cancel">إلغاء</string>
-  <string name="max_participants_alert_title">المكالمة ممتلئة</string>
+  <string name="max_participants_alert_title">The group is full</string>
   <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
-  <plurals name="max_participants_add_alert_message">
-    <item quantity="zero">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
-    <item quantity="one">Up to 300 people can join a conversation. Currently there is only room for %1$s more person.</item>
-    <item quantity="two">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
-    <item quantity="few">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
-    <item quantity="many">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
-    <item quantity="other">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
-  </plurals>
+  <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
   <string name="sso_signin_button">Company log in</string>
   <string name="sso_signin_error_title">حدث خطأ</string>
   <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>

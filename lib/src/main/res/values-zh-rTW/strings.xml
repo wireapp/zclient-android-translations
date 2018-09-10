@@ -305,11 +305,11 @@
   <string name="calling__header__incoming_subtitle">呼叫中...</string>
   <string name="calling__header__incoming_subtitle__video">呼叫中...</string>
   <string name="calling__header__incoming_subtitle__group">%1$s來電&#8230;</string>
-  <string name="call_banner_joining">正在連接...</string>
-  <string name="call_banner_outgoing">響鈴中...</string>
-  <string name="call_banner_incoming">呼叫中...</string>
-  <string name="call_banner_incoming_video">呼叫中...</string>
-  <string name="call_banner_tap_to_return_to_call">點擊返回通話</string>
+  <string name="call_banner_joining">連接中&#8230;</string>
+  <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
+  <string name="call_banner_incoming">%1$s來電&#8230;</string>
+  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
+  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
   <string name="calling_ongoing_call_title">通話中</string>
   <string name="calling_ongoing_call_start_message">另一通話在其他對話進行中。\n現在打電話會掛斷該通話。</string>
   <string name="calling_ongoing_call_start_anyway">仍然要通話</string>
@@ -486,6 +486,7 @@
   <string name="pref_options_sounds_new_conversations_and_talks_only">首則訊息，招呼，通話</string>
   <string name="pref_options_sounds_none">無</string>
   <string name="pref_options_vibration_title">震動</string>
+  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
   <string name="pref_options_sounds_category_title">訊息通知</string>
   <string name="pref_options_ringtones_category_title">音效</string>
   <string name="pref_options_ringtones_ringtone_title">鈴聲</string>
@@ -530,21 +531,21 @@
   <string name="pref_advanced_debug_report_summary">這將協助Wire診斷問題。</string>
   <string name="pref_advanced_analytics_title">使用資料和崩潰報告</string>
   <string name="pref_advanced_analytics_summary">通過發送匿名資訊讓Wire變得更好。</string>
-  <string name="pref_advanced_reset_push_title">重置推送通知的 Token</string>
+  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">如果您有推送通知的問題，Wire客服可能會請您重設此token。</string>
   <string name="pref_advanced_reset_push_completed">推送token 已被重設</string>
   <string name="debug_report__title">Wire 錯誤報告 - %1$s</string>
   <string name="debug_report__body">請告訴我們重現錯誤的步驟，如有螢幕截圖請一起發送至此郵件。\n\n</string>
+  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
+        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">支援</string>
   <string name="pref_support_website_title">Wire支援網站</string>
-  <string name="pref_support_website_url">https://support.wire.com</string>
   <string name="pref_support_contact_title">與客服聯繫</string>
-  <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
   <!-- About -->
   <string name="pref_about_screen_title">關於</string>
   <string name="pref_about_website_title">Wire網站</string>
-  <string name="pref_about_website_url">https://wire.com</string>
   <string name="pref_about_tos_title">使用條款</string>
   <string name="pref_about_privacy_policy_title">隱私權原則</string>
   <string name="pref_about_licenses_title">授權申明</string>
@@ -624,6 +625,16 @@
     <item quantity="other">通話功能最多支援%1$d位參與職的聊天室。</item>
   </plurals>
   <!-- Lockscreen and notifications -->
+  <string name="message_notifications_channel_name">訊息</string>
+  <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
+  <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+  <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
+  <string name="ping_notifications_channel_name">Pings</string>
+  <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
+  <string name="ongoing_channel_name">Background notifications</string>
+  <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
+  <string name="foreground_service_notification_name">Maintain connection to server</string>
+  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
   <string name="lockscreen__talk">來電中</string>
   <plurals name="notification__new_messages">
     <item quantity="other">收到了%2$s的一則訊息</item>
@@ -698,6 +709,10 @@
   <string name="system_notification__calling_group">%1$s來電&#8230;</string>
   <string name="system_notification__video_calling_one">視訊通話中&#8230;</string>
   <string name="system_notification__video_calling_group">%1$s視訊通話中&#8230;</string>
+  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
+  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
+  <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+  <string name="ws_foreground_notification_summary">Tap here for more information.</string>
   <!-- Notification actions -->
   <string name="notification__action__call">通話</string>
   <string name="notification__action__reply">回覆</string>
@@ -984,7 +999,6 @@
   <string name="message_footer__status__failed">發送失敗。請_重試_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB 已刪除</string>
   <string name="ephemeral_message__timeout_selection_info">設置訊息銷毀時間</string>
-  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
   <string name="usernames__take_over__summary">認領你在Wire的名稱ID._瞭解更多_</string>
   <string name="usernames__take_over__choose">自選</string>
   <string name="usernames__take_over__keep">使用這個</string>
@@ -1081,7 +1095,6 @@
   <string name="teams_set_email_subtitle">請輸入您的工作電子郵件地址。</string>
   <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
   <string name="teams_set_email_about">瞭解更多</string>
-  <string name="teams_set_email_about_url">https://support.wire.com/hc/en-us/articles/115004082129</string>
   <string name="teams_set_password_title">設定密碼</string>
   <string name="teams_set_password_hint">至少八個字元</string>
   <string name="teams_set_username_title">設置使用者名稱</string>
@@ -1097,9 +1110,9 @@
   <string name="teams_set_name_title">您的名字</string>
   <string name="teams_set_name_hint">全名</string>
   <string name="app_entry_slogan">保密每個人之通訊。</string>
-  <string name="app_entry_create_account">供個人使用</string>
+  <string name="app_entry_create_account">個人信息</string>
   <string name="app_entry_create_account_sub">新增帳號</string>
-  <string name="app_entry_create_team">供機構使用</string>
+  <string name="app_entry_create_team">專業版</string>
   <string name="app_entry_create_team_sub">建立團隊</string>
   <string name="app_entry_login_sub">已有帳號？</string>
   <string name="app_entry_login">登入</string>
@@ -1160,7 +1173,7 @@
   <string name="group_name_hint">群組名</string>
   <string name="allow_guests_toggle_text">允許訪客和服務</string>
   <string name="allow_guests_toggle_info_text">對團隊以外的人和服務公開此對話。您以後可隨時更改。</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
+  <string name="open_this_conversation_to_people_outside_your_team">開放這個對話與團隊以外的訪客及服務。</string>
   <string name="allow_guests">允許訪客和服務</string>
   <string name="guest_options_title">訪客和服務</string>
   <string name="ephemeral_options_title">限時訊息</string>
@@ -1225,11 +1238,9 @@
   <string name="markdown_link_dialog_message">這會帶你去\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">確認</string>
   <string name="markdown_link_dialog_cancel">取消</string>
-  <string name="max_participants_alert_title">名額已滿</string>
+  <string name="max_participants_alert_title">此群組參與者已達上限</string>
   <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
-  <plurals name="max_participants_add_alert_message">
-    <item quantity="other">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
-  </plurals>
+  <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
   <string name="sso_signin_button">Company log in</string>
   <string name="sso_signin_error_title">出現錯誤</string>
   <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
@@ -1238,6 +1249,6 @@
   <string name="sso_signin_wrong_code_message">請核對您的公司單一登錄(SSO)存取碼，然後重試。</string>
   <string name="participant_search_hint">搜索名稱</string>
   <string name="participant_search_title">聯絡人</string>
-  <string name="generic_service_warning">Services have access to the content of this conversation</string>
+  <string name="generic_service_warning">服務可以存取這個對話內容</string>
   <string name="add_services_button_text">Manage services</string>
 </resources>

@@ -306,11 +306,11 @@
   <string name="calling__header__incoming_subtitle">発信中...</string>
   <string name="calling__header__incoming_subtitle__video">発信中...</string>
   <string name="calling__header__incoming_subtitle__group">%1$s からの着信中...</string>
-  <string name="call_banner_joining">接続中&#8230;</string>
-  <string name="call_banner_outgoing">呼出中...</string>
-  <string name="call_banner_incoming">呼び出し中...</string>
-  <string name="call_banner_incoming_video">呼び出し中...</string>
-  <string name="call_banner_tap_to_return_to_call">タップすると通話に戻ります</string>
+  <string name="call_banner_joining">接続中...</string>
+  <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
+  <string name="call_banner_incoming">%1$s からの着信中...</string>
+  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
+  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
   <string name="calling_ongoing_call_title">通話中</string>
   <string name="calling_ongoing_call_start_message">他の会話で通話中です。\nここで呼び出すと、その他の通話は終了します。</string>
   <string name="calling_ongoing_call_start_anyway">いつでも通話する</string>
@@ -487,6 +487,7 @@
   <string name="pref_options_sounds_new_conversations_and_talks_only">最初のメッセージ、ping、通話</string>
   <string name="pref_options_sounds_none">なし</string>
   <string name="pref_options_vibration_title">バイブレーション</string>
+  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
   <string name="pref_options_sounds_category_title">アラート</string>
   <string name="pref_options_ringtones_category_title">サウンド</string>
   <string name="pref_options_ringtones_ringtone_title">電話着信音</string>
@@ -531,21 +532,21 @@
   <string name="pref_advanced_debug_report_summary">これは Wire のサポートで問題の診断に役立ちます。</string>
   <string name="pref_advanced_analytics_title">使用状況データと障害報告</string>
   <string name="pref_advanced_analytics_summary">匿名の情報を送信することによって Wire を改善します。</string>
-  <string name="pref_advanced_reset_push_title">プッシュ通知のトークンをリセットする</string>
+  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">プッシュ通知に関して問題があった場合、Wireサポートチームはあなたにトークンのリセットを求めることがあります。</string>
   <string name="pref_advanced_reset_push_completed">プッシュトークンがリセットされました。</string>
   <string name="debug_report__title">Wire デバッグ報告 - %1$s</string>
   <string name="debug_report__body">問題を再現するための手順を教えてください。可能であればスクリーンショットを提供して、このメールを送信してください。\n\n</string>
+  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
+        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">サポート</string>
   <string name="pref_support_website_title">Wire サポート ウェブサイト</string>
-  <string name="pref_support_website_url">https://support.wire.com</string>
   <string name="pref_support_contact_title">サポートへの問い合わせ</string>
-  <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
   <!-- About -->
   <string name="pref_about_screen_title">概要</string>
   <string name="pref_about_website_title">Wire のウェブサイト</string>
-  <string name="pref_about_website_url">https://wire.com</string>
   <string name="pref_about_tos_title">利用規約</string>
   <string name="pref_about_privacy_policy_title">プライバシーポリシー</string>
   <string name="pref_about_licenses_title">ライセンス情報</string>
@@ -625,6 +626,16 @@
     <item quantity="other">通話は、最大 %1$d 人までとすることができます。</item>
   </plurals>
   <!-- Lockscreen and notifications -->
+  <string name="message_notifications_channel_name">メッセージ</string>
+  <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
+  <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+  <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
+  <string name="ping_notifications_channel_name">Pings</string>
+  <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
+  <string name="ongoing_channel_name">Background notifications</string>
+  <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
+  <string name="foreground_service_notification_name">Maintain connection to server</string>
+  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
   <string name="lockscreen__talk">呼び出し中</string>
   <plurals name="notification__new_messages">
     <item quantity="other">%2$s から %1$d メッセージ</item>
@@ -700,6 +711,10 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="system_notification__calling_group">%1$s からの着信中...</string>
   <string name="system_notification__video_calling_one">ビデオ通話で呼出中...</string>
   <string name="system_notification__video_calling_group">%1$s をビデオ通話で呼出中...</string>
+  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
+  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
+  <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+  <string name="ws_foreground_notification_summary">Tap here for more information.</string>
   <!-- Notification actions -->
   <string name="notification__action__call">呼び出し</string>
   <string name="notification__action__reply">返信</string>
@@ -987,7 +1002,6 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="message_footer__status__failed">送信に失敗しました。_再送信_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB 削除しました</string>
   <string name="ephemeral_message__timeout_selection_info">メッセージが消えるまでの時間を設定する</string>
-  <string name="usernames__learn_more__link">https://wire.com/support/username/</string>
   <string name="usernames__take_over__summary">Wireでのユーザーネームを選ぶ。もっと知る。</string>
   <string name="usernames__take_over__choose">自分のものを選ぶ</string>
   <string name="usernames__take_over__keep">これにする</string>
@@ -1084,7 +1098,6 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="teams_set_email_subtitle">業務用メールアドレスを入力してください。</string>
   <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
   <string name="teams_set_email_about">もっと詳しく知る</string>
-  <string name="teams_set_email_about_url">https://support.wire.com/hc/en-us/articles/115004082129</string>
   <string name="teams_set_password_title">パスワード設定</string>
   <string name="teams_set_password_hint">最低8 文字以上</string>
   <string name="teams_set_username_title">ユーザー名を設定</string>
@@ -1100,9 +1113,9 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="teams_set_name_title">あなたの名前</string>
   <string name="teams_set_name_hint">フルネーム</string>
   <string name="app_entry_slogan">全員にセキュアなメッセージングを提供します</string>
-  <string name="app_entry_create_account">個人用途</string>
+  <string name="app_entry_create_account">人</string>
   <string name="app_entry_create_account_sub">アカウントを作成</string>
-  <string name="app_entry_create_team">企業・その他組織の方向け</string>
+  <string name="app_entry_create_team">Pro</string>
   <string name="app_entry_create_team_sub">新しいチームを作成</string>
   <string name="app_entry_login_sub">既にアカウントをお持ちですか？</string>
   <string name="app_entry_login">ログイン</string>
@@ -1228,11 +1241,9 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>
   <string name="markdown_link_dialog_cancel">キャンセル</string>
-  <string name="max_participants_alert_title">満員です</string>
+  <string name="max_participants_alert_title">The group is full</string>
   <string name="max_participants_create_alert_message">グループ会話には 300 人まで参加することができます。</string>
-  <plurals name="max_participants_add_alert_message">
-    <item quantity="other">グループ会話には 300 人まで参加することができます。あと %1$s 人が参加できます。</item>
-  </plurals>
+  <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
   <string name="sso_signin_button">企業ログイン</string>
   <string name="sso_signin_error_title">何か問題があります</string>
   <string name="sso_signin_error_message">詳細については、チームの管理者にお問い合わせください (Error %1$s)</string>

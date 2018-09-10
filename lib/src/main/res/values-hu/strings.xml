@@ -312,11 +312,11 @@
   <string name="calling__header__incoming_subtitle">Hívás&#8230;</string>
   <string name="calling__header__incoming_subtitle__video">Hívás&#8230;</string>
   <string name="calling__header__incoming_subtitle__group">%1$s hív&#8230;</string>
-  <string name="call_banner_joining">CSATLAKOZÁS&#8230;</string>
-  <string name="call_banner_outgoing">KICSENG&#8230;</string>
-  <string name="call_banner_incoming">HÍVÁS&#8230;</string>
-  <string name="call_banner_incoming_video">HÍVÁS&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">A HÍVÁSHOZ FOLYTATÁSÁHOZ KOPPINTS</string>
+  <string name="call_banner_joining">Csatlakozás&#8230;</string>
+  <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
+  <string name="call_banner_incoming">%1$s hív&#8230;</string>
+  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
+  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
   <string name="calling_ongoing_call_title">Folyamatban lévő hívás</string>
   <string name="calling_ongoing_call_start_message">Már folyamatban van egy másik hívás.\nÚj hívás indítása megszakítja a másikat.</string>
   <string name="calling_ongoing_call_start_anyway">HÍVÁS MINDENKÉPP</string>
@@ -499,6 +499,7 @@
   <string name="pref_options_sounds_new_conversations_and_talks_only">Csak az első üzenet, kopogások és hívások</string>
   <string name="pref_options_sounds_none">Nincs hangjelzés</string>
   <string name="pref_options_vibration_title">Rezgés</string>
+  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
   <string name="pref_options_sounds_category_title">Értesítések</string>
   <string name="pref_options_ringtones_category_title">Hangok</string>
   <string name="pref_options_ringtones_ringtone_title">Hívás csengőhangja</string>
@@ -543,21 +544,21 @@
   <string name="pref_advanced_debug_report_summary">Elősegíti, hogy a Wire Ügyfélszolgálat diagnosztizálni tudja a problémákat.</string>
   <string name="pref_advanced_analytics_title">Használati adatok és hibajelentések</string>
   <string name="pref_advanced_analytics_summary">Segíts nekünk anonim információk küldésével, hogy a Wire még jobb legyen.</string>
-  <string name="pref_advanced_reset_push_title">Push Értesítési Tokenek visszaállítása</string>
+  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">Ha problémákat tapasztalsz a Push Értesítésekkel, akkor a Wire Ügyfélszolgálat megkérhet, hogy állítsd alaphelyzetbe ezt a tokent.</string>
   <string name="pref_advanced_reset_push_completed">Push Token visszaállítva alaphelyzetbe</string>
   <string name="debug_report__title">Wire hibakeresés jelentés - %1$s</string>
   <string name="debug_report__body">Kérjük, írd le a probléma előidézéséhez vezető lépéseket. Ha tudsz, csatolj képernyőképet, majd küldd el ezt az e-mailt. \n\n</string>
+  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
+        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Ügyfélszolgálat</string>
   <string name="pref_support_website_title">Wire ügyfélszolgálat weboldala</string>
-  <string name="pref_support_website_url">https://support.wire.com</string>
   <string name="pref_support_contact_title">Kapcsolatfelvétel az ügyfélszolgálattal</string>
-  <string name="pref_support_contact_url">https://support.wire.com/hc/de/requests/new</string>
   <!-- About -->
   <string name="pref_about_screen_title">Névjegy</string>
   <string name="pref_about_website_title">Wire weboldala</string>
-  <string name="pref_about_website_url">https://wire.com</string>
   <string name="pref_about_tos_title">Felhasználási feltételek</string>
   <string name="pref_about_privacy_policy_title">Adatvédelmi Nyilatkozat</string>
   <string name="pref_about_licenses_title">Licenc információ</string>
@@ -639,6 +640,16 @@
     <item quantity="other">Csoportos hívás maximum %1$d emberrel lehetséges.</item>
   </plurals>
   <!-- Lockscreen and notifications -->
+  <string name="message_notifications_channel_name">Üzenetek</string>
+  <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
+  <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+  <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
+  <string name="ping_notifications_channel_name">Pings</string>
+  <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
+  <string name="ongoing_channel_name">Background notifications</string>
+  <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
+  <string name="foreground_service_notification_name">Maintain connection to server</string>
+  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
   <string name="lockscreen__talk">HÍV</string>
   <plurals name="notification__new_messages">
     <item quantity="one">%2$s üzenetet küldött</item>
@@ -718,6 +729,10 @@
   <string name="system_notification__calling_group">%1$s hív&#8230;</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
   <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
+  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
+  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
+  <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+  <string name="ws_foreground_notification_summary">Tap here for more information.</string>
   <!-- Notification actions -->
   <string name="notification__action__call">Hívás</string>
   <string name="notification__action__reply">Válasz</string>
@@ -1014,7 +1029,6 @@
   <string name="message_footer__status__failed">A küldés sikertelen. _Újraküldés_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Törölve</string>
   <string name="ephemeral_message__timeout_selection_info">ÁLLÍTSD BE, HOGY MENNYI IDŐ UTÁN TŰNJÖN EL AZ ÜZENET</string>
-  <string name="usernames__learn_more__link">https://wire.com/support/username</string>
   <string name="usernames__take_over__summary">Foglald le egyedi Wire felhasználóneved. _További információ._</string>
   <string name="usernames__take_over__choose">VÁLASZD KI A SAJÁTOD</string>
   <string name="usernames__take_over__keep">TARTSD MEG EZT</string>
@@ -1121,7 +1135,6 @@
   <string name="teams_set_email_subtitle">Add meg a munkahelyi e-mail címed.</string>
   <string name="teams_set_email_hint">TE@CÉGED.HU</string>
   <string name="teams_set_email_about">TOVÁBBI INFÓ</string>
-  <string name="teams_set_email_about_url">https://support.wire.com/hc/en-us/articles/115004082129</string>
   <string name="teams_set_password_title">Jelszó megadása</string>
   <string name="teams_set_password_hint">LEGALÁBB 8 KARAKTER</string>
   <string name="teams_set_username_title">Felhasználónév megadása</string>
@@ -1137,9 +1150,9 @@
   <string name="teams_set_name_title">Neved</string>
   <string name="teams_set_name_hint">TELJES NÉV</string>
   <string name="app_entry_slogan">Biztonságos üzenetküldés, mindenkinek.</string>
-  <string name="app_entry_create_account">Személyes használatra</string>
+  <string name="app_entry_create_account">Személyes</string>
   <string name="app_entry_create_account_sub">fiók létrehozása</string>
-  <string name="app_entry_create_team">Szervezeteknek</string>
+  <string name="app_entry_create_team">Pro</string>
   <string name="app_entry_create_team_sub">csapat létrehozása</string>
   <string name="app_entry_login_sub">Már van fiókod?</string>
   <string name="app_entry_login">Bejelentkezés</string>
@@ -1266,12 +1279,9 @@
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>
   <string name="markdown_link_dialog_cancel">MÉGSEM</string>
-  <string name="max_participants_alert_title">Telt ház</string>
+  <string name="max_participants_alert_title">The group is full</string>
   <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
-  <plurals name="max_participants_add_alert_message">
-    <item quantity="one">Up to 300 people can join a conversation. Currently there is only room for %1$s more person.</item>
-    <item quantity="other">Up to 300 people can join a conversation. Currently there is only room for %1$s more people.</item>
-  </plurals>
+  <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
   <string name="sso_signin_button">Company log in</string>
   <string name="sso_signin_error_title">Valami nem stimmel</string>
   <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
