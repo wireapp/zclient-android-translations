@@ -313,10 +313,10 @@
   <string name="calling__header__incoming_subtitle__video">Chamando&#8230;</string>
   <string name="calling__header__incoming_subtitle__group">%1$s está chamando&#8230;</string>
   <string name="call_banner_joining">Conectando&#8230;</string>
-  <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
+  <string name="call_banner_outgoing">Chamando %1$S&#8230;</string>
   <string name="call_banner_incoming">%1$s está chamando&#8230;</string>
-  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
+  <string name="call_banner_incoming_group">%1$s \u30FB %2$s está chamando&#8230;</string>
+  <string name="call_banner_tap_to_return_to_call">Toque para retornar a chamada \u30FB %1$s</string>
   <string name="calling_ongoing_call_title">Chamada em curso</string>
   <string name="calling_ongoing_call_start_message">Uma chamada está ativa em outra conversa. \nChamar aqui vai desligar a outra ligação.</string>
   <string name="calling_ongoing_call_start_anyway">CHAME DE QUALQUER MANEIRA</string>
@@ -499,7 +499,7 @@
   <string name="pref_options_sounds_new_conversations_and_talks_only">Primeira mensagem, chamadas e pings</string>
   <string name="pref_options_sounds_none">Nenhum</string>
   <string name="pref_options_vibration_title">Vibração</string>
-  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
+  <string name="pref_options_vibration_title_o">Vibrar ao chamar</string>
   <string name="pref_options_sounds_category_title">Alertas</string>
   <string name="pref_options_ringtones_category_title">Sons</string>
   <string name="pref_options_ringtones_ringtone_title">Toque</string>
@@ -544,14 +544,14 @@
   <string name="pref_advanced_debug_report_summary">Isso ajuda o suporte do Wire a diagnosticar problemas.</string>
   <string name="pref_advanced_analytics_title">Dados de uso e relatórios de erro</string>
   <string name="pref_advanced_analytics_summary">Faça o Wire melhorar mandando informações de uso anônimas.</string>
-  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
+  <string name="pref_advanced_reset_push_title">Redefinir token de notificações push</string>
   <string name="pref_advanced_reset_push_summary">Se você tiver problemas com notificações, o Suporte do Wire pode solicitar que você redefina esse token.</string>
   <string name="pref_advanced_reset_push_completed">Token de notificações foi redefinido</string>
   <string name="debug_report__title">Relatório de depuração do Wire - %1$s</string>
   <string name="debug_report__body">Por favor, descreva as etapas necessárias para reproduzir o problema, fornecer screenshots se possível e enviar este email.\n\n</string>
-  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
-        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
+  <string name="pref_advanced_ws_foreground_title">Manter conexão com o servidor</string>
+  <string name="pref_advanced_ws_foreground_summary">Detectamos que você não tem o Google Play Services instalado. O Wire para Android tentará manter uma conexão aberta com o servidor Wire para receber notificações enquanto o aplicativo não estiver em primeiro plano.
+        Desativar essa configuração pode melhorar o desempenho da bateria com o Wire, mas você não receberá mais notificações quando o Wire estiver em segundo plano. Isso se aplica a todas as contas conectadas neste dispositivo.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Suporte</string>
   <string name="pref_support_website_title">Site de suporte do Wire</string>
@@ -641,14 +641,14 @@
   </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Mensagens</string>
-  <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
-  <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
+  <string name="message_notifications_channel_description">Notificações sobre todos os tipos de mensagem do aplicativo: mensagens de texto, imagens, áudio e vídeo.</string>
+  <string name="incoming_call_notifications_channel_name">Chamadas Recebidas</string>
+  <string name="incoming_call_notifications_channel_description">Notificações sobre chamadas recebidas </string>
   <string name="ping_notifications_channel_name">Pings</string>
-  <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
-  <string name="ongoing_channel_name">Background notifications</string>
+  <string name="ping_notifications_channel_description">Configurações de notificação para quando os outros usuários pingarem em você.</string>
+  <string name="ongoing_channel_name">Notificações em segundo plano</string>
   <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
-  <string name="foreground_service_notification_name">Maintain connection to server</string>
+  <string name="foreground_service_notification_name">Manter conexão com o servidor</string>
   <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
   <string name="lockscreen__talk">ESTÁ CHAMANDO</string>
   <plurals name="notification__new_messages">

@@ -313,10 +313,10 @@
   <string name="calling__header__incoming_subtitle__video">Ruft an&#8230;</string>
   <string name="calling__header__incoming_subtitle__group">%1$s ruft an&#8230;</string>
   <string name="call_banner_joining">Verbinden&#8230;</string>
-  <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
+  <string name="call_banner_outgoing">%1$S anrufen&#8230;</string>
   <string name="call_banner_incoming">%1$s ruft an&#8230;</string>
-  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
+  <string name="call_banner_incoming_group">%1$s \u30FB %2$s ruft an&#8230;</string>
+  <string name="call_banner_tap_to_return_to_call">Zum Anruf zurückkehren \u30FB %1$s</string>
   <string name="calling_ongoing_call_title">Aktiver Anruf</string>
   <string name="calling_ongoing_call_start_message">In einer anderen Unterhaltung ist ein Anruf aktiv.\nEin Anruf hier beendet den anderen.</string>
   <string name="calling_ongoing_call_start_anyway">TROTZDEM ANRUFEN</string>
@@ -544,14 +544,14 @@
   <string name="pref_advanced_debug_report_summary">Debug Bericht an Wire senden.</string>
   <string name="pref_advanced_analytics_title">Nutzungsdaten und Absturzberichte</string>
   <string name="pref_advanced_analytics_summary">Durch das Senden anonymisierter Informationen hilfst du uns, Wire zu verbessern.</string>
-  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
+  <string name="pref_advanced_reset_push_title">Push-Token zurücksetzen</string>
   <string name="pref_advanced_reset_push_summary">Der Wire Kundenservice kann dich bitten, diesen Token zurückzusetzen, wenn du Probleme mit Push-Benachrichtigungen hast.</string>
   <string name="pref_advanced_reset_push_completed">Der Benachrichtigungs-Token wurde zurückgesetzt</string>
   <string name="debug_report__title">Wire-Debug-Bericht - %1$s</string>
   <string name="debug_report__body">Bitte beschreibe die Schritte, die zu dem Problem geführt haben. Du kannst auch Screenshots anhängen und diese per E-Mail senden.\n\n</string>
-  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
-        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
+  <string name="pref_advanced_ws_foreground_title">Verbindung zum Server aufrechterhalten</string>
+  <string name="pref_advanced_ws_foreground_summary">Wir haben festgestellt, dass keine Google Play Services installiert wurden. Wire für Android wird versuchen, eine offene Verbindung mit dem Wire Server aufrechtzuerhalten, um Benachrichtigungen zu erhalten, während die App nicht im Vordergrund ist.
+        Diese Einstellung auszuschalten, verbessert vielleicht Wires Akkuleistung, verhindert jedoch den Erhalt von Benachrichtigungen, wenn Wire im Hintergrund ist. Das betrifft alle eingeloggten Konten auf diesem Gerät.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Hilfe</string>
   <string name="pref_support_website_title">Wire-Support-Webseite</string>
@@ -641,15 +641,15 @@
   </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Nachrichten</string>
-  <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
+  <string name="message_notifications_channel_description">Benachrichtigungen über alle Nachrichtenarten in der App: Text, Bilder, Audio- und Videonachrichten.</string>
   <string name="incoming_call_notifications_channel_name">Eingehende Anrufe</string>
-  <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
+  <string name="incoming_call_notifications_channel_description">Benachrichtigungen über eingehende Anrufe </string>
   <string name="ping_notifications_channel_name">Pings</string>
-  <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
-  <string name="ongoing_channel_name">Background notifications</string>
-  <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
-  <string name="foreground_service_notification_name">Maintain connection to server</string>
-  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
+  <string name="ping_notifications_channel_description">Benachrichtigungseinstellungen für den Fall, dass andere dich anpingen.</string>
+  <string name="ongoing_channel_name">Hintergrundbenachrichtigungen</string>
+  <string name="ongoing_channel_description">Benachrichtigungen, die einen laufenden Vorgang oder eine zweitrangige Aktion anzeigen, wie Anrufe oder das erfolgreiche Speichern eines Bildes.</string>
+  <string name="foreground_service_notification_name">Verbindung zum Server aufrechterhalten</string>
+  <string name="foreground_service_notification_description">Diese Benachrichtigung ist notwendig, um die Verbindung zum Wire Server aufrechtzuerhalten, während Wire für Nutzer ohne installierte Google Play Services im Hintergrund läuft.</string>
   <string name="lockscreen__talk">RUFT AN</string>
   <plurals name="notification__new_messages">
     <item quantity="one">Nachricht von %2$s</item>
@@ -730,8 +730,8 @@
   <string name="system_notification__video_calling_one">Videoanruf wird aufgebaut&#8230;</string>
   <string name="system_notification__video_calling_group">%1$s beginnt einen Videoanruf&#8230;</string>
   <string name="ws_foreground_notification_connected_title">Mit Wire Server verbunden</string>
-  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
-  <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+  <string name="ws_foreground_notification_no_internet_title">Warten auf Internetverbindung&#8230;</string>
+  <string name="ws_foreground_notification_connecting_title">Verbindung aufbauen&#8230;</string>
   <string name="ws_foreground_notification_summary">Für mehr Informationen hier tippen.</string>
   <!-- Notification actions -->
   <string name="notification__action__call">Anruf</string>
