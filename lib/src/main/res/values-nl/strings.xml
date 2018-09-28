@@ -666,6 +666,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s in %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Heeft gebeld</string>
   <string name="notification__message__one_to_one__pinged">Gepinged</string>
   <string name="notification__message__one_to_one__shared_picture">Deelde een foto</string>
@@ -690,6 +692,8 @@
   <string name="notification__message__single__accept_request">Jij en %1$s zijn nu verbonden</string>
   <string name="notification__message__group__default_conversation_name">groepsgesprek</string>
   <string name="notification__message__send_failed">Bericht versturen mislukt</string>
+  <string name="notification__message__ephemeral">Sent a message</string>
+  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 je bericht</string>
   <string name="notification__message__liked_picture">\u2764 jouw foto</string>
@@ -977,6 +981,7 @@
   <string name="tooltip_audio_message">Houd deze knop ingedrukt om een audio bericht te versturen</string>
   <string name="tooltip_file">Bestand verzenden</string>
   <string name="tooltip_gif">Gif</string>
+  <string name="tooltip_mention">Add Mention</string>
   <string name="new_feature">Nieuw</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Alleen voor mij verwijderen?</string>
@@ -1092,6 +1097,10 @@
     <item quantity="one">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <plurals name="conversation_list__mentions_count">
+    <item quantity="one">%1$s mention</item>
+    <item quantity="other">%1$s mentions</item>
+  </plurals>
   <string name="conversation_list__unsent_message_long">⚠️ On verstuurt bericht</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">Deelde een foto</string>
@@ -1102,6 +1111,7 @@
   <string name="conversation_list__missed_call">Gemiste oproep</string>
   <string name="conversation_list__pinged">Gepinged</string>
   <string name="conversation_list__ephemeral">Tijdelijk bericht</string>
+  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">Typt een bericht&#8230;</string>
   <string name="conversation_list__someone">Iemand</string>
   <string name="conversation_list__added">[[%1$s]] was toegevoegd</string>

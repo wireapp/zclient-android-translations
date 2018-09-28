@@ -702,6 +702,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s v %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Volal</string>
   <string name="notification__message__one_to_one__pinged">Pingnuté</string>
   <string name="notification__message__one_to_one__shared_picture">Zdieľať obrázok</string>
@@ -726,6 +728,8 @@
   <string name="notification__message__single__accept_request">Vy a %1$s ste teraz spojení</string>
   <string name="notification__message__group__default_conversation_name">skupinová konverzácia</string>
   <string name="notification__message__send_failed">Message failed to send</string>
+  <string name="notification__message__ephemeral">Sent a message</string>
+  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 vašu správu</string>
   <string name="notification__message__liked_picture">\u2764 your picture</string>
@@ -1033,6 +1037,7 @@
   <string name="tooltip_audio_message">Ťuknutím a podržaním poslať zvukovú správu</string>
   <string name="tooltip_file">Odoslať súbor</string>
   <string name="tooltip_gif">Gif</string>
+  <string name="tooltip_mention">Add Mention</string>
   <string name="new_feature">Nová</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Zmazať iba pre mňa?</string>
@@ -1170,6 +1175,12 @@
     <item quantity="many">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <plurals name="conversation_list__mentions_count">
+    <item quantity="one">%1$s mention</item>
+    <item quantity="few">%1$s mentions</item>
+    <item quantity="many">%1$s mentions</item>
+    <item quantity="other">%1$s mentions</item>
+  </plurals>
   <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">Zdieľať obrázok</string>
@@ -1180,6 +1191,7 @@
   <string name="conversation_list__missed_call">Missed call</string>
   <string name="conversation_list__pinged">Pingnuté</string>
   <string name="conversation_list__ephemeral">Časovaná správa</string>
+  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">Typing a message&#8230;</string>
   <string name="conversation_list__someone">Niekto</string>
   <string name="conversation_list__added">[[%1$s]] was added</string>

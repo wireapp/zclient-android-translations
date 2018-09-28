@@ -684,6 +684,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s у %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Позваше</string>
   <string name="notification__message__one_to_one__pinged">Пинг</string>
   <string name="notification__message__one_to_one__shared_picture">подели слику</string>
@@ -708,6 +710,8 @@
   <string name="notification__message__single__accept_request">Ви и %1$s сте сада повезани</string>
   <string name="notification__message__group__default_conversation_name">групни разговор</string>
   <string name="notification__message__send_failed">Неуспешно слање поруке</string>
+  <string name="notification__message__ephemeral">Sent a message</string>
+  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 вашу поруку</string>
   <string name="notification__message__liked_picture">\u2764 вашу слику</string>
@@ -1005,6 +1009,7 @@
   <string name="tooltip_audio_message">Тапните и задржите за слање звучне поруке</string>
   <string name="tooltip_file">Пошаљи фајл</string>
   <string name="tooltip_gif">Гиф</string>
+  <string name="tooltip_mention">Add Mention</string>
   <string name="new_feature">Ново</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Обрисати само за мене?</string>
@@ -1131,6 +1136,11 @@
     <item quantity="few">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <plurals name="conversation_list__mentions_count">
+    <item quantity="one">%1$s mention</item>
+    <item quantity="few">%1$s mentions</item>
+    <item quantity="other">%1$s mentions</item>
+  </plurals>
   <string name="conversation_list__unsent_message_long">⚠ непослата порука</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">подели слику</string>
@@ -1141,6 +1151,7 @@
   <string name="conversation_list__missed_call">Пропуштен позив</string>
   <string name="conversation_list__pinged">пингова</string>
   <string name="conversation_list__ephemeral">Темпирана порука</string>
+  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">куца поруку&#8230;</string>
   <string name="conversation_list__someone">Неко</string>
   <string name="conversation_list__added">[[%1$s]] се придружи</string>

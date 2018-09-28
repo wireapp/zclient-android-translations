@@ -648,6 +648,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s在 %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">曾来电</string>
   <string name="notification__message__one_to_one__pinged">打了招呼</string>
   <string name="notification__message__one_to_one__shared_picture">分享了一张图片</string>
@@ -672,6 +674,8 @@
   <string name="notification__message__single__accept_request">您和%1$s已成为好友</string>
   <string name="notification__message__group__default_conversation_name">群组聊天室</string>
   <string name="notification__message__send_failed">消息发送失败</string>
+  <string name="notification__message__ephemeral">Sent a message</string>
+  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 您的信息</string>
   <string name="notification__message__liked_picture">\u2764 您的图片</string>
@@ -949,6 +953,7 @@
   <string name="tooltip_audio_message">请点击并按住要发送音频信息</string>
   <string name="tooltip_file">发送文件</string>
   <string name="tooltip_gif">动图</string>
+  <string name="tooltip_mention">Add Mention</string>
   <string name="new_feature">新增</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">确定仅为自己删除该信息？</string>
@@ -1053,6 +1058,9 @@
   <plurals name="conversation_list__new_likes_count">
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <plurals name="conversation_list__mentions_count">
+    <item quantity="other">%1$s mentions</item>
+  </plurals>
   <string name="conversation_list__unsent_message_long">⚠ 未发送信息</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">分享了一张图片</string>
@@ -1063,6 +1071,7 @@
   <string name="conversation_list__missed_call">未接电话</string>
   <string name="conversation_list__pinged">打了招呼</string>
   <string name="conversation_list__ephemeral">阅后即焚</string>
+  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">输入信息</string>
   <string name="conversation_list__someone">某人</string>
   <string name="conversation_list__added">[[%1$s]] 已加入</string>

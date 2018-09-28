@@ -258,7 +258,7 @@
   <string name="conversation__action__delete">刪除內容...</string>
   <string name="conversation__action__archive">封存</string>
   <string name="conversation__action__unarchive">解除封存</string>
-  <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
+  <string name="conversation__action__add_participants">加入參與者</string>
   <string name="conversation__action__create_group">建立群組</string>
   <string name="conversation__action__silence">靜音</string>
   <string name="conversation__action__unsilence">開啟訊息通知</string>
@@ -486,7 +486,7 @@
   <string name="pref_options_sounds_new_conversations_and_talks_only">首則訊息，招呼，通話</string>
   <string name="pref_options_sounds_none">無</string>
   <string name="pref_options_vibration_title">震動</string>
-  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
+  <string name="pref_options_vibration_title_o">鈴響時震動</string>
   <string name="pref_options_sounds_category_title">訊息通知</string>
   <string name="pref_options_ringtones_category_title">音效</string>
   <string name="pref_options_ringtones_ringtone_title">鈴聲</string>
@@ -629,9 +629,9 @@
   <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
   <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
-  <string name="ping_notifications_channel_name">Pings</string>
+  <string name="ping_notifications_channel_name">打招呼</string>
   <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
-  <string name="ongoing_channel_name">Background notifications</string>
+  <string name="ongoing_channel_name">背景通知</string>
   <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
   <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
@@ -648,6 +648,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s在 %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">曾來電</string>
   <string name="notification__message__one_to_one__pinged">打了聲招呼</string>
   <string name="notification__message__one_to_one__shared_picture">分享了一張圖片</string>
@@ -672,6 +674,8 @@
   <string name="notification__message__single__accept_request">您和%1$s 已成為連絡人</string>
   <string name="notification__message__group__default_conversation_name">群組聊天室</string>
   <string name="notification__message__send_failed">訊息發送失敗</string>
+  <string name="notification__message__ephemeral">Sent a message</string>
+  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 您的訊息</string>
   <string name="notification__message__liked_picture">\u2764你的圖片</string>
@@ -949,6 +953,7 @@
   <string name="tooltip_audio_message">請點擊並按住來發送語音訊息</string>
   <string name="tooltip_file">發送檔案</string>
   <string name="tooltip_gif">動態圖片</string>
+  <string name="tooltip_mention">Add Mention</string>
   <string name="new_feature">新</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">確定為自己刪除？</string>
@@ -1053,6 +1058,9 @@
   <plurals name="conversation_list__new_likes_count">
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <plurals name="conversation_list__mentions_count">
+    <item quantity="other">%1$s mentions</item>
+  </plurals>
   <string name="conversation_list__unsent_message_long">⚠️ 未發信息</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">分享了一張圖片</string>
@@ -1063,6 +1071,7 @@
   <string name="conversation_list__missed_call">未接來電</string>
   <string name="conversation_list__pinged">打了聲招呼</string>
   <string name="conversation_list__ephemeral">限時訊息</string>
+  <string name="conversation_list__eph_and_mention">某人提及你</string>
   <string name="conversation_list__typing">輸入訊息中...</string>
   <string name="conversation_list__someone">某人</string>
   <string name="conversation_list__added">[[%1$s]]已加入</string>
@@ -1163,7 +1172,7 @@
   <string name="skip_button">略過</string>
   <string name="done_button">完成</string>
   <string name="new_group_header">建立群組</string>
-  <string name="add_participants_empty_header">ADD PARTICIPANTS</string>
+  <string name="add_participants_empty_header">加入參與者</string>
   <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
   <string name="new_conv_no_results">沒有找到</string>
   <string name="new_conv_no_contacts">No contacts</string>

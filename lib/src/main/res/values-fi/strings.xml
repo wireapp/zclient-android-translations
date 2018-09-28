@@ -666,6 +666,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s %2$s: ssa \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Soitti</string>
   <string name="notification__message__one_to_one__pinged">Pinggasi</string>
   <string name="notification__message__one_to_one__shared_picture">Jakoi kuvan</string>
@@ -690,6 +692,8 @@
   <string name="notification__message__single__accept_request">Sinä ja %1$s olette nyt kontaktissa</string>
   <string name="notification__message__group__default_conversation_name">ryhmäkeskustelu</string>
   <string name="notification__message__send_failed">Viestin lähetys epäonnistui</string>
+  <string name="notification__message__ephemeral">Sent a message</string>
+  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 viestiäsi</string>
   <string name="notification__message__liked_picture">\u2764 kuvaasi</string>
@@ -977,6 +981,7 @@
   <string name="tooltip_audio_message">Napauta ja pidä alhaalla lähettääksesi ääniviestin</string>
   <string name="tooltip_file">Lähetä tiedosto</string>
   <string name="tooltip_gif">Gif</string>
+  <string name="tooltip_mention">Add Mention</string>
   <string name="new_feature">Uusi</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Poista ainoastaan minulta?</string>
@@ -1092,6 +1097,10 @@
     <item quantity="one">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <plurals name="conversation_list__mentions_count">
+    <item quantity="one">%1$s mention</item>
+    <item quantity="other">%1$s mentions</item>
+  </plurals>
   <string name="conversation_list__unsent_message_long">⚠ Lähettämätön viesti</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">Jakoi kuvan</string>
@@ -1102,6 +1111,7 @@
   <string name="conversation_list__missed_call">Vastaamaton puhelu</string>
   <string name="conversation_list__pinged">Pinggasi</string>
   <string name="conversation_list__ephemeral">Ajoitettu viesti</string>
+  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">Kirjoittaa viestiä&#8230;</string>
   <string name="conversation_list__someone">Joku</string>
   <string name="conversation_list__added">[[%1$s]] lisättiin</string>

@@ -118,7 +118,7 @@
   <string name="receive_news_and_offers_request_title">Newsletter</string>
   <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
   <string name="crashes_and_analytics_request_title">ساعدنا لجعل Wire أفضل</string>
-  <string name="crashes_and_analytics_request_body">Sending anonymous usage and crash reports helps us to improve our products and services. We do not use this information for anything else.</string>
+  <string name="crashes_and_analytics_request_body">يساعدنا إرسال تقارير الاستخدام و تقارير التعطيل للبرنامج المجهولة على تحسين منتجاتنا وخدماتنا. نحن لا نستخدم هذه المعلومات لأي شيء آخر.</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">الخدمات</string>
   <string name="integrations_picker__add">أضف خدمة</string>
@@ -743,6 +743,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s في %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">اتصل بك</string>
   <string name="notification__message__one_to_one__pinged">بينغ</string>
   <string name="notification__message__one_to_one__shared_picture">شارك صورة</string>
@@ -767,6 +769,8 @@
   <string name="notification__message__single__accept_request">الآن متصل أنت و %1$s</string>
   <string name="notification__message__group__default_conversation_name">محادثة جماعية</string>
   <string name="notification__message__send_failed">Message failed to send</string>
+  <string name="notification__message__ephemeral">Sent a message</string>
+  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 رسالتك</string>
   <string name="notification__message__liked_picture">\u2764 your picture</string>
@@ -1099,6 +1103,7 @@
   <string name="tooltip_audio_message">اضغط باستمرار لإرسال رسالة صوتية</string>
   <string name="tooltip_file">إرسال ملف</string>
   <string name="tooltip_gif">Gifs متحركة</string>
+  <string name="tooltip_mention">Add Mention</string>
   <string name="new_feature">جديد</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">حذف بالنسبة لي فقط؟</string>
@@ -1258,6 +1263,14 @@
     <item quantity="many">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <plurals name="conversation_list__mentions_count">
+    <item quantity="zero">%1$s mentions</item>
+    <item quantity="one">%1$s mention</item>
+    <item quantity="two">%1$s mentions</item>
+    <item quantity="few">%1$s mentions</item>
+    <item quantity="many">%1$s mentions</item>
+    <item quantity="other">%1$s mentions</item>
+  </plurals>
   <string name="conversation_list__unsent_message_long">⚠️ رسالة غير مرسلة</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">شارك صورة</string>
@@ -1268,6 +1281,7 @@
   <string name="conversation_list__missed_call">مكالمة فائتة</string>
   <string name="conversation_list__pinged">بينغ</string>
   <string name="conversation_list__ephemeral">رسالة مؤقّتة</string>
+  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">يكتب رسالة&#8230;</string>
   <string name="conversation_list__someone">شخص ما</string>
   <string name="conversation_list__added">تم إضافة [[%1$s]]</string>
@@ -1436,7 +1450,7 @@
   <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
   <string name="backup_import_error_wrong_account_title">نسخة احتياطية خاطئة</string>
   <string name="backup_import_error_wrong_account">لا يمكنك استعادة التاريخ من حساب مختلف.</string>
-  <string name="video_paused">Video paused</string>
+  <string name="video_paused">تم إيقاف الفيديو مؤقتاً</string>
   <string name="calling_degraded_title">جهاز جديد</string>
   <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
   <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>

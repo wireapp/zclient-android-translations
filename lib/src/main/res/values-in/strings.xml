@@ -648,6 +648,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s dalam %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Dipanggil</string>
   <string name="notification__message__one_to_one__pinged">Diping</string>
   <string name="notification__message__one_to_one__shared_picture">Membagikan gambar</string>
@@ -672,6 +674,8 @@
   <string name="notification__message__single__accept_request">You and %1$s are now connected</string>
   <string name="notification__message__group__default_conversation_name">percakapan grup</string>
   <string name="notification__message__send_failed">Message failed to send</string>
+  <string name="notification__message__ephemeral">Sent a message</string>
+  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 pesan Anda</string>
   <string name="notification__message__liked_picture">\u2764 your picture</string>
@@ -949,6 +953,7 @@
   <string name="tooltip_audio_message">Ketuk dan tahan untuk mengirim pesan suara</string>
   <string name="tooltip_file">Kirim berkas</string>
   <string name="tooltip_gif">Gif</string>
+  <string name="tooltip_mention">Add Mention</string>
   <string name="new_feature">Baru</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Hapus hanya untuk saya?</string>
@@ -1053,6 +1058,9 @@
   <plurals name="conversation_list__new_likes_count">
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <plurals name="conversation_list__mentions_count">
+    <item quantity="other">%1$s mentions</item>
+  </plurals>
   <string name="conversation_list__unsent_message_long">⚠ Unsent message</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">Membagikan gambar</string>
@@ -1063,6 +1071,7 @@
   <string name="conversation_list__missed_call">Panggilan tidak terjawab</string>
   <string name="conversation_list__pinged">Ping</string>
   <string name="conversation_list__ephemeral">Pesan berjangka waktu</string>
+  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">Mengetik pesan ...</string>
   <string name="conversation_list__someone">Seseorang</string>
   <string name="conversation_list__added">[[%1$s]] was added</string>

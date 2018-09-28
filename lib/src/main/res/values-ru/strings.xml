@@ -129,7 +129,7 @@
   <string name="conversation_errors_full">Разговор переполнен</string>
   <!-- start ui / people picker, contacts sharing -->
   <string name="people_picker__share_contacts__title">Поделиться контактами</string>
-  <string name="people_picker__share_contacts__message">Wire поможет вам найти друзей, если поделитесь вашими контактами.</string>
+  <string name="people_picker__share_contacts__message">Wire помогает найти друзей, если вы делитесь своими контактами.</string>
   <string name="people_picker__share_contacts__yay">Разрешить</string>
   <string name="people_picker__share_contacts__nah">Отказать</string>
   <string name="people_picker__share_contacts__nevvah">Больше не спрашивать</string>
@@ -477,7 +477,7 @@
   <string name="pref_account_edit_name_title">Изменить имя</string>
   <string name="pref_account_details_category_title">Информация</string>
   <string name="pref_account_actions_category_title">Действия</string>
-  <string name="pref_account_personal_category_title">Личные</string>
+  <string name="pref_account_personal_category_title">Personal</string>
   <string name="pref_account_appearance_category_title">Внешний вид</string>
   <string name="pref_account_personal_information_category_title">Личная информация</string>
   <string name="pref_account_conversations_category_title">История</string>
@@ -576,8 +576,8 @@
   <string name="debug_report__title">Debug отчет Wire - %1$s</string>
   <string name="debug_report__body">Пожалуйста, опишите шаги для воспроизведения проблемы, если возможно, приложите скриншоты и отправьте на этот email.\n\n</string>
   <string name="pref_advanced_ws_foreground_title">Поддерживать подключение к серверу</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
-        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
+  <string name="pref_advanced_ws_foreground_summary">Мы определили, что у вас не установлены сервисы Google Play. Для получения уведомлений в фоновом режиме Wire будет поддерживать соединение с сервером.
+        Отключение этой опции может несколько уменьшить влияние Wire на батарею устройства, однако вы не сможете получать уведомления при работе Wire в фоновом режиме. Опция применяется ко всем зарегистрированным аккаунтам на этом устройстве.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Служба поддержки</string>
   <string name="pref_support_website_title">Cайт техподдержки Wire</string>
@@ -702,6 +702,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s в %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">\@ Упоминание от %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">\@ Упоминание от %1$s в %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Звонил(а)</string>
   <string name="notification__message__one_to_one__pinged">Отправил(-а) пинг</string>
   <string name="notification__message__one_to_one__shared_picture">Поделился(-лась) картинкой</string>
@@ -726,6 +728,8 @@
   <string name="notification__message__single__accept_request">%1$s теперь добавлен(а) в ваш список контактов</string>
   <string name="notification__message__group__default_conversation_name">группа</string>
   <string name="notification__message__send_failed">Не удалось отправить сообщение</string>
+  <string name="notification__message__ephemeral">Прислал сообщение</string>
+  <string name="notification__message_with_mention__ephemeral">Вас упомянули</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 ваше сообщение</string>
   <string name="notification__message__liked_picture">\u2764 ваше изображение</string>
@@ -770,9 +774,9 @@
   <string name="system_notification__video_calling_one">Видеозвонок&#8230;</string>
   <string name="system_notification__video_calling_group">%1$s звонит с видео&#8230;</string>
   <string name="ws_foreground_notification_connected_title">Подключено к серверу Wire</string>
-  <string name="ws_foreground_notification_no_internet_title">Ожидание подключения к сети интернет&#8230;</string>
-  <string name="ws_foreground_notification_connecting_title">Установка соединения&#8230;</string>
-  <string name="ws_foreground_notification_summary">Нажмите здесь для получения дополнительной информации.</string>
+  <string name="ws_foreground_notification_no_internet_title">Ожидание подключения&#8230;</string>
+  <string name="ws_foreground_notification_connecting_title">Соединение&#8230;</string>
+  <string name="ws_foreground_notification_summary">Нажмите для получения дополнительной информации.</string>
   <!-- Notification actions -->
   <string name="notification__action__call">Звонок</string>
   <string name="notification__action__reply">Ответить</string>
@@ -965,7 +969,7 @@
   <string name="otr__participant__single_device__how_to_link">_Как это сделать? _</string>
   <string name="otr__device_id">ID: %s</string>
   <string name="otr__first_launch__header">Вы впервые используете Wire на этом устройстве.</string>
-  <string name="otr__first_launch__sub_header">Из соображений конфиденциальности история ваших разговоров не будет показана здесь.</string>
+  <string name="otr__first_launch__sub_header">История разговоров не отображается из соображений конфиденциальности.</string>
   <string name="otr__first_launch__button">OK</string>
   <string name="otr__device_approve__header">Вы подключили устройство к вашему аккаунту Wire.</string>
   <string name="otr__device_approve__note">Если вы не делали этого, удалите устройство и измените ваш пароль.</string>
@@ -1033,6 +1037,7 @@
   <string name="tooltip_audio_message">Нажмите и удерживайте, чтобы отправить аудио сообщение</string>
   <string name="tooltip_file">Отправить файл</string>
   <string name="tooltip_gif">GIF</string>
+  <string name="tooltip_mention">Добавил упоминание</string>
   <string name="new_feature">Новое</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Удалить только у меня?</string>
@@ -1085,12 +1090,12 @@
   <string name="message_footer__status__delivered">%1$s \u30FB Доставлено</string>
   <string name="message_footer__status__failed">Отправка не удалась. _Отправить заново_</string>
   <string name="message_footer__status__deleted">%1$s \u30FB Удалено</string>
-  <string name="ephemeral_message__timeout_selection_info">УСТАНОВИТЕ ВРЕМЯ, ЧЕРЕЗ КОТОРОЕ СООБЩЕНИЕ ИСЧЕЗНЕТ</string>
+  <string name="ephemeral_message__timeout_selection_info">УСТАНОВИТЕ ВРЕМЯ ДЕЙСТВИЯ СООБЩЕНИЯ</string>
   <string name="usernames__take_over__summary">Зарегистрируйте свое уникальное имя в Wire. _Подробнее._</string>
   <string name="usernames__take_over__choose">ВЫБЕРИТЕ ФОТОГРАФИЮ</string>
   <string name="usernames__take_over__keep">ОСТАВИТЬ ЭТО</string>
   <string name="pref_account_username_empty_title">Добавить имя пользователя</string>
-  <string name="ephemeral_message__timeout__off">Выключен</string>
+  <string name="ephemeral_message__timeout__off">Отключено</string>
   <string name="ephemeral_message__options_header">ВРЕМЕННЫЕ СООБЩЕНИЯ</string>
   <string name="guests_option_on">Вкл.</string>
   <plurals name="unit_years">
@@ -1170,6 +1175,12 @@
     <item quantity="many">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <plurals name="conversation_list__mentions_count">
+    <item quantity="one">%1$s упоминание</item>
+    <item quantity="few">%1$s упоминания</item>
+    <item quantity="many">%1$s упоминаний</item>
+    <item quantity="other">%1$s упоминаний</item>
+  </plurals>
   <string name="conversation_list__unsent_message_long">⚠ Неотправленное сообщение</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">Поделился(-лась) картинкой</string>
@@ -1180,6 +1191,7 @@
   <string name="conversation_list__missed_call">Пропущенный звонок</string>
   <string name="conversation_list__pinged">Отправил(-а) пинг</string>
   <string name="conversation_list__ephemeral">Временное сообщение</string>
+  <string name="conversation_list__eph_and_mention">Вас упомянули</string>
   <string name="conversation_list__typing">Набирает сообщение&#8230;</string>
   <string name="conversation_list__someone">Кто-то</string>
   <string name="conversation_list__added">[[%1$s]] был добавлен</string>
@@ -1302,7 +1314,7 @@
   <string name="allow_guests_warning_confirm">Удалить</string>
   <string name="guests_are_present">ПРИСУТСТВУЮТ ГОСТИ</string>
   <string name="services_are_present">СЕРВИСЫ АКТИВНЫ</string>
-  <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
+  <string name="guests_and_services_are_present">ПРИСУТСТВУЮТ ГОСТИ И СЕРВИСЫ</string>
   <string name="participants_details_header_title">ДЕТАЛИ</string>
   <string name="invitation_link_description">Любой, у кого есть ссылка, может присоединиться к разговору, даже если у них нет Wire</string>
   <string name="create_link_button">Создать ссылку</string>
