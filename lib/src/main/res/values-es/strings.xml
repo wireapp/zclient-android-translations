@@ -118,7 +118,9 @@
   <string name="receive_news_and_offers_request_title">Boletín informativo</string>
   <string name="receive_news_and_offers_request_body">¿Desea recibir noticias y actualizaciones de Wire por correo electrónico? Puede darse de baja en cualquier momento.</string>
   <string name="crashes_and_analytics_request_title">¡Ayúdanos a mejorar!</string>
-  <string name="crashes_and_analytics_request_body">El envío anónimo de informes de uso y fallos nos ayuda a mejorar nuestros productos y servicios. No usamos esta información para nada más.</string>
+  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+  <string name="crashes_and_analytics_request_no">No</string>
+  <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Servicios</string>
   <string name="integrations_picker__add">Añadir Servicio</string>
@@ -521,8 +523,8 @@
   <string name="pref_devices_summary">Toca para borrar</string>
   <string name="pref_devices_current_device_category_title">Dispositivo actual</string>
   <string name="pref_devices_other_devices_category_title">Otros Dispositivos</string>
-  <string name="pref_devices_device_activation_summary">Activado en</string>
-  <string name="pref_devices_device_activation_subtitle">Activado el [[%1$s]] in [[%2$s]]</string>
+  <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
+  <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Verificado</string>
   <string name="pref_devices_device_not_verified">No verificado</string>
@@ -550,8 +552,8 @@
   <string name="debug_report__title">Informe de depuración de Wire - %1$s</string>
   <string name="debug_report__body">Por favor, describa los pasos necesarios para reproducir el problema y proporcione imágenes si es posible envielos a este email.\n\n</string>
   <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
-        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
+  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Soporte</string>
   <string name="pref_support_website_title">Página de soporte de Wire</string>
@@ -641,15 +643,15 @@
   </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Mensajes</string>
-  <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
+  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
+  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Pings</string>
-  <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
+  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Background notifications</string>
-  <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
+  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
-  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
+  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
   <string name="lockscreen__talk">ESTÁ LLAMANDO</string>
   <plurals name="notification__new_messages">
     <item quantity="one">Mensaje de %2$s</item>
@@ -904,7 +906,6 @@
   <string name="otr__participant__device_class__desktop">Ordenador de sobremesa</string>
   <string name="otr__participant__tab_details">Detalles</string>
   <string name="otr__participant__tab_devices">Dispositivos</string>
-  <string name="otr__device_activated_info">Activado en %s</string>
   <string name="otr__participant__single_device__my_fingerprint_link">Mostrar la huella digital de mi dispositivo</string>
   <string name="otr__participant__single_device__reset_session_link">Restablecer sesión</string>
   <string name="otr__participant__my_device__description">Huella digital de tu dispositivo</string>
@@ -1082,12 +1083,8 @@
   <string name="search__no_results">Ningún resultado.</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s mensaje nuevo</item>
-    <item quantity="other">%1$s mensajes nuevos</item>
-  </plurals>
-  <plurals name="conversation_list__missed_calls_count">
-    <item quantity="one">%1$s llamada perdida</item>
-    <item quantity="other">%1$s llamadas perdidas</item>
+    <item quantity="one">%1$s message</item>
+    <item quantity="other">%1$s messages</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s ping</item>
@@ -1097,6 +1094,9 @@
     <item quantity="one">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <string name="conversation_list__missed_calls_plural">%1$s llamadas perdidas</string>
+  <string name="conversation_list__missed_calls_count">Llamada perdida</string>
+  <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
   <plurals name="conversation_list__mentions_count">
     <item quantity="one">%1$s mention</item>
     <item quantity="other">%1$s mentions</item>
@@ -1110,8 +1110,9 @@
   <string name="conversation_list__shared__location">Compartió una ubicación</string>
   <string name="conversation_list__missed_call">Llamada perdida</string>
   <string name="conversation_list__pinged">Hizo ping</string>
-  <string name="conversation_list__ephemeral">Mensaje temporizado</string>
-  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
+  <string name="conversation_list__ephemeral">Someone sent a message</string>
+  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
+  <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">Escribiendo ...</string>
   <string name="conversation_list__someone">Alguien</string>
   <string name="conversation_list__added">[[%1$s]] se agregó</string>

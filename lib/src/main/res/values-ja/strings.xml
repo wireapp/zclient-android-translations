@@ -118,8 +118,9 @@
   <string name="receive_news_and_offers_request_title">ニュースレター</string>
   <string name="receive_news_and_offers_request_body">電子メールで Wire からニュースや製品アップデートを受信しますか？購読はいつでもでも解除することができます。</string>
   <string name="crashes_and_analytics_request_title">Wire の改善にご協力を</string>
-  <string name="crashes_and_analytics_request_body">匿名の使用状況とクラッシュレポートを送信することにより、当社の製品およびサービスの改善に役立ちます。
-我々はそれ以外の目的のためにこれらの情報を使うことはありません。</string>
+  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+  <string name="crashes_and_analytics_request_no">いいえ</string>
+  <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">サービス</string>
   <string name="integrations_picker__add">サービスを追加</string>
@@ -509,8 +510,8 @@
   <string name="pref_devices_summary">タップして削除します</string>
   <string name="pref_devices_current_device_category_title">現在のデバイス</string>
   <string name="pref_devices_other_devices_category_title">その他のデバイス</string>
-  <string name="pref_devices_device_activation_summary">[[%1$s]] に\n[[%2$s]] でアクティベート済</string>
-  <string name="pref_devices_device_activation_subtitle">[[%1$s]] に[[%2$s]] でアクティベート済</string>
+  <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
+  <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">確認済</string>
   <string name="pref_devices_device_not_verified">未確認</string>
@@ -538,8 +539,8 @@
   <string name="debug_report__title">Wire デバッグ報告 - %1$s</string>
   <string name="debug_report__body">問題を再現するための手順を教えてください。可能であればスクリーンショットを提供して、このメールを送信してください。\n\n</string>
   <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
-        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
+  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">サポート</string>
   <string name="pref_support_website_title">Wire サポート ウェブサイト</string>
@@ -627,15 +628,15 @@
   </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">メッセージ</string>
-  <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
+  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
+  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Pings</string>
-  <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
+  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Background notifications</string>
-  <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
+  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
-  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
+  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
   <string name="lockscreen__talk">呼び出し中</string>
   <plurals name="notification__new_messages">
     <item quantity="other">%2$s から %1$d メッセージ</item>
@@ -878,7 +879,6 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="otr__participant__device_class__desktop">デスクトップ コンピューター</string>
   <string name="otr__participant__tab_details">詳細</string>
   <string name="otr__participant__tab_devices">デバイス</string>
-  <string name="otr__device_activated_info">%s でアクティベート済</string>
   <string name="otr__participant__single_device__my_fingerprint_link">自分のデバイスのフィンガープリントを表示</string>
   <string name="otr__participant__single_device__reset_session_link">セッションをリセット</string>
   <string name="otr__participant__my_device__description">お使いのデバイスのフィンガープリント</string>
@@ -1050,10 +1050,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="search__no_results">結果はありません</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="other">%1$s - 新しいメッセージ</item>
-  </plurals>
-  <plurals name="conversation_list__missed_calls_count">
-    <item quantity="other">%1$s件の不在着信</item>
+    <item quantity="other">%1$s messages</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="other">%1$s がPingしました</item>
@@ -1061,6 +1058,9 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <plurals name="conversation_list__new_likes_count">
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <string name="conversation_list__missed_calls_plural">%1$s件の不在着信</string>
+  <string name="conversation_list__missed_calls_count">不在着信</string>
+  <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
   <plurals name="conversation_list__mentions_count">
     <item quantity="other">%1$s mentions</item>
   </plurals>
@@ -1073,8 +1073,9 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
   <string name="conversation_list__shared__location">場所を共有しました</string>
   <string name="conversation_list__missed_call">不在着信</string>
   <string name="conversation_list__pinged">Ping しました</string>
-  <string name="conversation_list__ephemeral">タイマーメッセージ</string>
-  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
+  <string name="conversation_list__ephemeral">Someone sent a message</string>
+  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
+  <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">メッセージを入力中</string>
   <string name="conversation_list__someone">誰か</string>
   <string name="conversation_list__added">[[%1$s]] が追加されました</string>

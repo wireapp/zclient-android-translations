@@ -118,7 +118,9 @@
   <string name="receive_news_and_offers_request_title">Стрічка новин</string>
   <string name="receive_news_and_offers_request_body">Ви хочете отримувати новини про Wire по електронній пошті? Від цього можна відмовитися в будь-який час.</string>
   <string name="crashes_and_analytics_request_title">Допоможіть нам зробити Wire кращим</string>
-  <string name="crashes_and_analytics_request_body">Надсилання анонімних звітів про використання та збої в роботі допомагає нам вдосконалити наші продукти та послуги. Ми не використовуємо цю інформацію для будь-яких інших цілей.</string>
+  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+  <string name="crashes_and_analytics_request_no">Ні</string>
+  <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Сервіси</string>
   <string name="integrations_picker__add">Додати сервіс</string>
@@ -547,8 +549,8 @@
   <string name="pref_devices_summary">Торкніться, щоб видалити</string>
   <string name="pref_devices_current_device_category_title">Поточний пристрій</string>
   <string name="pref_devices_other_devices_category_title">Інші пристрої</string>
-  <string name="pref_devices_device_activation_summary">Активований: [[%1$s]]\n[[%2$s]]</string>
-  <string name="pref_devices_device_activation_subtitle">Активований: [[%1$s]] в [[%2$s]]</string>
+  <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
+  <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Верифікований</string>
   <string name="pref_devices_device_not_verified">Не верифікований</string>
@@ -576,8 +578,8 @@
   <string name="debug_report__title">Налагоджувальний звіт Wire - %1$s</string>
   <string name="debug_report__body">Будь ласка, опишіть кроки, необхідні для відтворення проблеми, та додайти знімки екрану, якщо це можливо, і відправте цей email.\n\n</string>
   <string name="pref_advanced_ws_foreground_title">Зберігати підключення до сервера</string>
-  <string name="pref_advanced_ws_foreground_summary">Ми визначили, що у вас не встановлені сервіси Google Play. Wire для Android спробує зберегти з\'єднання з сервером Wire активним, щоб отримувати нотифікації, якщо додаток знаходиться в фоновому режимі.
-       Вимкнення цього налаштування допоможе покращити енергоефективність Wire, проте ви більше не зможете отримувати нотифікації, якщо Wire буде знаходитись в фоновому режимі. Це стосується всіх акаунтів на даному пристрої.</string>
+  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Підтримка</string>
   <string name="pref_support_website_title">Сайт підтримки Wire</string>
@@ -671,15 +673,15 @@
   </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Повідомлення</string>
-  <string name="message_notifications_channel_description">Нотифікації про всі типи повідомлень в додатку: текст, зображення, аудіо- й відеоповідомлення.</string>
+  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Вхідні дзвінки</string>
-  <string name="incoming_call_notifications_channel_description">Нотифікації про вхідні дзвінки </string>
+  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Пінги</string>
-  <string name="ping_notifications_channel_description">Налаштування нотифікацій про те, коли інші користувачі пінгують вас.</string>
+  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Фонові нотифікації</string>
-  <string name="ongoing_channel_description">Нотифікації, які показують текучий процес або допоміжну дію з низьким пріорітетом, наприклад дзвінки або успішне збереження зображення.</string>
+  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Зберігати підключення до сервера</string>
-  <string name="foreground_service_notification_description">Дана нотифікація необхідна для того, щоб зберігати підключення до серверу Wire активним під час того як Wire знаходиться в фоновому режимі без наявності сервісів Google Play.</string>
+  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
   <string name="lockscreen__talk">ДЗВОНИТЬ</string>
   <plurals name="notification__new_messages">
     <item quantity="one">Повідомлення від %2$s</item>
@@ -960,7 +962,6 @@
   <string name="otr__participant__device_class__desktop">Настільний комп\'ютер</string>
   <string name="otr__participant__tab_details">Подробиці</string>
   <string name="otr__participant__tab_devices">Пристрої</string>
-  <string name="otr__device_activated_info">Активований: %s</string>
   <string name="otr__participant__single_device__my_fingerprint_link">Показати ідентиф. мого пристрою</string>
   <string name="otr__participant__single_device__reset_session_link">Скидання сесії</string>
   <string name="otr__participant__my_device__description">Ідентифікатор вашого пристрою</string>
@@ -1152,16 +1153,10 @@
   <string name="search__no_results">Нікого не знайдено.</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s нове повідомлення</item>
-    <item quantity="few">%1$s нові повідомлення</item>
-    <item quantity="many">%1$s нових повідомлень</item>
-    <item quantity="other">%1$s нових повідомлень</item>
-  </plurals>
-  <plurals name="conversation_list__missed_calls_count">
-    <item quantity="one">%1$s пропущений дзвінок</item>
-    <item quantity="few">%1$s пропущені дзвінки</item>
-    <item quantity="many">%1$s пропущених дзвінків</item>
-    <item quantity="other">%1$s пропущених дзвінків</item>
+    <item quantity="one">%1$s message</item>
+    <item quantity="few">%1$s messages</item>
+    <item quantity="many">%1$s messages</item>
+    <item quantity="other">%1$s messages</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s пінг</item>
@@ -1175,6 +1170,9 @@
     <item quantity="many">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <string name="conversation_list__missed_calls_plural">%1$s пропущених дзвінків</string>
+  <string name="conversation_list__missed_calls_count">Пропущений дзвінок</string>
+  <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
   <plurals name="conversation_list__mentions_count">
     <item quantity="one">%1$s mention</item>
     <item quantity="few">%1$s mentions</item>
@@ -1190,8 +1188,9 @@
   <string name="conversation_list__shared__location">Поділитись розташуванням</string>
   <string name="conversation_list__missed_call">Пропущений дзвінок</string>
   <string name="conversation_list__pinged">Відправлено пінг</string>
-  <string name="conversation_list__ephemeral">Тимчасове повідомлення</string>
-  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
+  <string name="conversation_list__ephemeral">Хтось надіслав повідомлення</string>
+  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
+  <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">Набирається повідомлення&#8230;</string>
   <string name="conversation_list__someone">Хтось</string>
   <string name="conversation_list__added">[[%1$s]] був(-ла) доданий(-а)</string>

@@ -118,7 +118,9 @@
   <string name="receive_news_and_offers_request_title">Naujienlaiškis</string>
   <string name="receive_news_and_offers_request_body">Norite gauti naujienas ir produktų informacija iš „Wire“ el. paštu? Atsisakyti galite bet kada.</string>
   <string name="crashes_and_analytics_request_title">Pagerinkite „Wire“</string>
-  <string name="crashes_and_analytics_request_body">Siųsdami anoniminę naudojimosi ir trikčių ataskaitą padedate mums pagerinti produktus ir paslaugas. Šios informacijos daugiau niekur nenaudojame.</string>
+  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+  <string name="crashes_and_analytics_request_no">Ne</string>
+  <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Paslaugos</string>
   <string name="integrations_picker__add">Pridėti paslaugą</string>
@@ -547,8 +549,8 @@
   <string name="pref_devices_summary">Bakstelėję ištrinsite</string>
   <string name="pref_devices_current_device_category_title">Šis įrenginys</string>
   <string name="pref_devices_other_devices_category_title">Kiti įrenginiai</string>
-  <string name="pref_devices_device_activation_summary">Aktyvuota [[%1$s]]\n[[%2$s]]</string>
-  <string name="pref_devices_device_activation_subtitle">Aktyvuota [[%1$s]] [[%2$s]]</string>
+  <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
+  <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Patvirtintas</string>
   <string name="pref_devices_device_not_verified">Nepatvirtintas</string>
@@ -576,8 +578,8 @@
   <string name="debug_report__title">„Wire“ klaidos ataskaita - %1$s</string>
   <string name="debug_report__body">Aprašykite žingsnius, kuriais galėtume atkurti nesklandumą, jei įmanoma pridėkite ekrano nuotraukų ir išsiųskite šį laišką.\n\n</string>
   <string name="pref_advanced_ws_foreground_title">Palaikyti ryšį su serveriu</string>
-  <string name="pref_advanced_ws_foreground_summary">Aptikome, kad neturite „Google Play Services“. „Wire“ „Android“ sistemai bandys išlaikyti ryšį su „Wire“ serveriu, kad gautumėte pranešimus, kol programa bus fone.
-Išjungus šį nustatymą, baterijos veikimas gali pagerėti, bet nebegausite pranešimų, kai „Wire“ veiks fone. Tai taikoma visoms paskyroms šiame įrenginyje.</string>
+  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Palaikymas</string>
   <string name="pref_support_website_title">„Wire“ pagalbos svetainė</string>
@@ -671,15 +673,15 @@ Išjungus šį nustatymą, baterijos veikimas gali pagerėti, bet nebegausite pr
   </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Žinutės</string>
-  <string name="message_notifications_channel_description">Pranešimai apie visus žinučių tipus programoje: teksto, paveikslėlių, garso ir vaizdo žinučių.</string>
+  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Gaunamas skambutis</string>
-  <string name="incoming_call_notifications_channel_description">Pranešimai apie gaunamus skambučius </string>
+  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Skambtelėjimai</string>
-  <string name="ping_notifications_channel_description">Pranešimų apie skambtelėjimą jums nustatymai.</string>
+  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Pranešimai fone</string>
-  <string name="ongoing_channel_description">Pranešimai apie vykstantį procesą ar antrinį žemesnės svarbos veiksmą, tokius kaip skambutį ar sėkmingas paveikslėlio išsaugojimas.</string>
+  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Palaikyti ryšį su serveriu</string>
-  <string name="foreground_service_notification_description">Šis pranešimas yra būtinas, kad vyktų bendravimas tarp „Wire“ serverio ir kliento, kol „Wire“ veikia fone vartotojams, nenaudojantiems „Google Play services“.</string>
+  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
   <string name="lockscreen__talk">SKAMBINA</string>
   <plurals name="notification__new_messages">
     <item quantity="one">Pranešimas iš %2$s</item>
@@ -960,7 +962,6 @@ Išjungus šį nustatymą, baterijos veikimas gali pagerėti, bet nebegausite pr
   <string name="otr__participant__device_class__desktop">Stalinis kompiuteris</string>
   <string name="otr__participant__tab_details">Išsamiau</string>
   <string name="otr__participant__tab_devices">Įrenginiai</string>
-  <string name="otr__device_activated_info">Aktyvuotas %s</string>
   <string name="otr__participant__single_device__my_fingerprint_link">Rodyti mano įrenginio kontrolinį kodą</string>
   <string name="otr__participant__single_device__reset_session_link">Atstatyti seansą</string>
   <string name="otr__participant__my_device__description">Jūsų įrenginio kontrolinis kodas</string>
@@ -1152,16 +1153,10 @@ Išjungus šį nustatymą, baterijos veikimas gali pagerėti, bet nebegausite pr
   <string name="search__no_results">Rezultatų nėra.</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s nauja žinutė</item>
-    <item quantity="few">%1$s naujos žinutės</item>
-    <item quantity="many">%1$s nauja žinutė</item>
-    <item quantity="other">%1$s naujų žinučių</item>
-  </plurals>
-  <plurals name="conversation_list__missed_calls_count">
-    <item quantity="one">%1$s praleistas skambutis</item>
-    <item quantity="few">%1$s praleisti skambučiai</item>
-    <item quantity="many">%1$s praleistas skambutis</item>
-    <item quantity="other">%1$s praleistų skambučių</item>
+    <item quantity="one">%1$s message</item>
+    <item quantity="few">%1$s messages</item>
+    <item quantity="many">%1$s messages</item>
+    <item quantity="other">%1$s messages</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s skambtelėjimas</item>
@@ -1175,6 +1170,9 @@ Išjungus šį nustatymą, baterijos veikimas gali pagerėti, bet nebegausite pr
     <item quantity="many">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <string name="conversation_list__missed_calls_plural">%1$s praleistas skambutis</string>
+  <string name="conversation_list__missed_calls_count">Praleistas skambutis</string>
+  <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
   <plurals name="conversation_list__mentions_count">
     <item quantity="one">%1$s mention</item>
     <item quantity="few">%1$s mentions</item>
@@ -1190,8 +1188,9 @@ Išjungus šį nustatymą, baterijos veikimas gali pagerėti, bet nebegausite pr
   <string name="conversation_list__shared__location">Pasidalino vieta</string>
   <string name="conversation_list__missed_call">Praleistas skambutis</string>
   <string name="conversation_list__pinged">Skambtelėjo</string>
-  <string name="conversation_list__ephemeral">Laikina žinutė</string>
-  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
+  <string name="conversation_list__ephemeral">Kažkas atsiuntė žinutę</string>
+  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
+  <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">Rašo žinutę&#8230;</string>
   <string name="conversation_list__someone">Kažkas</string>
   <string name="conversation_list__added">[[%1$s]] buvo pridėtas</string>

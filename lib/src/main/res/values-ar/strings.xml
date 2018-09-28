@@ -118,7 +118,9 @@
   <string name="receive_news_and_offers_request_title">Newsletter</string>
   <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
   <string name="crashes_and_analytics_request_title">ساعدنا لجعل Wire أفضل</string>
-  <string name="crashes_and_analytics_request_body">يساعدنا إرسال تقارير الاستخدام و تقارير التعطيل للبرنامج المجهولة على تحسين منتجاتنا وخدماتنا. نحن لا نستخدم هذه المعلومات لأي شيء آخر.</string>
+  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+  <string name="crashes_and_analytics_request_no">لا</string>
+  <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">الخدمات</string>
   <string name="integrations_picker__add">أضف خدمة</string>
@@ -577,8 +579,8 @@
   <string name="pref_devices_summary">انقر للحذف</string>
   <string name="pref_devices_current_device_category_title">الجهاز الحالي</string>
   <string name="pref_devices_other_devices_category_title">أجهزة أخرى</string>
-  <string name="pref_devices_device_activation_summary">تم التفعيل في  [[ %1$s]]  n\ في [[%2$s]]</string>
-  <string name="pref_devices_device_activation_subtitle">تم التفعيل في [[%1$s]] من [[%2$s]]</string>
+  <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
+  <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">تم التحقق</string>
   <string name="pref_devices_device_not_verified">لم يتم التحقق</string>
@@ -607,8 +609,8 @@
   <string name="debug_report__title">تقرير واير لتصحيح الأخطاء -%1$s</string>
   <string name="debug_report__body">يرجى وصف الخطوات المطلوبة لإعادة إنشاء المشكلة، وتزويدنا بصور (سكرين شوت) و إرسالها لهذا البريد الإلكتروني. \n\n</string>
   <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that you do not have Google Play Services installed. Wire for Android will attempt to keep an open connection with the Wire server in order to receive notifications while the application is not in the foreground.
-        Turning off this setting may improve Wire\'s battery performance, however you will no longer receive notifications when Wire is in the background. This applies to all logged-in accounts on this device.</string>
+  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">الدعم</string>
   <string name="pref_support_website_title">الموقع الإلكتروني للدعم في واير </string>
@@ -706,15 +708,15 @@
   </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">الرسائل</string>
-  <string name="message_notifications_channel_description">Notifications regarding all message types in the application: text, images, audio and video messages.</string>
+  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications regarding incoming calls </string>
+  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Pings</string>
-  <string name="ping_notifications_channel_description">Notification settings for when other users ping you.</string>
+  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Background notifications</string>
-  <string name="ongoing_channel_description">Notifications that display an ongoing process or secondary action of low importance, such as calls or successfully saving an image.</string>
+  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
-  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the Wire server alive while Wire is in the background for users without Google play services installed.</string>
+  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
   <string name="lockscreen__talk">يتصل بك</string>
   <plurals name="notification__new_messages">
     <item quantity="zero">%1$d رسائل من  %2$s</item>
@@ -1026,7 +1028,6 @@
   <string name="otr__participant__device_class__desktop">كمبيوتر</string>
   <string name="otr__participant__tab_details">التفاصيل</string>
   <string name="otr__participant__tab_devices">الأجهزة</string>
-  <string name="otr__device_activated_info">نشط في %s</string>
   <string name="otr__participant__single_device__my_fingerprint_link">اعرض بصمة جهازي</string>
   <string name="otr__participant__single_device__reset_session_link">إعادة تعيين الجلسة</string>
   <string name="otr__participant__my_device__description">بصمة جهازك</string>
@@ -1232,20 +1233,12 @@
   <string name="search__no_results">لا توجد نتائج.</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="zero">لا رسائل جديدة</item>
-    <item quantity="one">%1$s - رسائل جديدة</item>
-    <item quantity="two">%1$s رسالة جديدة</item>
-    <item quantity="few">%1$s رسائل جديدة</item>
-    <item quantity="many">%1$s رسائل جديدة</item>
-    <item quantity="other">%1$s رسائل جديدة</item>
-  </plurals>
-  <plurals name="conversation_list__missed_calls_count">
-    <item quantity="zero">لا مكالمات فائتة</item>
-    <item quantity="one">%1$s مكالمة فائتة</item>
-    <item quantity="two">%1$s مكالمة فائتة</item>
-    <item quantity="few">%1$s مكالمات فائتة</item>
-    <item quantity="many">%1$s مكالمات فائتة</item>
-    <item quantity="other">%1$s مكالمات فائتة</item>
+    <item quantity="zero">%1$s messages</item>
+    <item quantity="one">%1$s message</item>
+    <item quantity="two">%1$s messages</item>
+    <item quantity="few">%1$s messages</item>
+    <item quantity="many">%1$s messages</item>
+    <item quantity="other">%1$s messages</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="zero">لا رنَات</item>
@@ -1263,6 +1256,9 @@
     <item quantity="many">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
+  <string name="conversation_list__missed_calls_plural">%1$s مكالمات فائتة</string>
+  <string name="conversation_list__missed_calls_count">مكالمة فائتة</string>
+  <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
   <plurals name="conversation_list__mentions_count">
     <item quantity="zero">%1$s mentions</item>
     <item quantity="one">%1$s mention</item>
@@ -1280,8 +1276,9 @@
   <string name="conversation_list__shared__location">شارك موقع</string>
   <string name="conversation_list__missed_call">مكالمة فائتة</string>
   <string name="conversation_list__pinged">بينغ</string>
-  <string name="conversation_list__ephemeral">رسالة مؤقّتة</string>
-  <string name="conversation_list__eph_and_mention">Someone mentioned you</string>
+  <string name="conversation_list__ephemeral">Someone sent a message</string>
+  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
+  <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">يكتب رسالة&#8230;</string>
   <string name="conversation_list__someone">شخص ما</string>
   <string name="conversation_list__added">تم إضافة [[%1$s]]</string>
