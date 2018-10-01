@@ -578,8 +578,8 @@
   <string name="debug_report__title">Debug отчет Wire - %1$s</string>
   <string name="debug_report__body">Пожалуйста, опишите шаги для воспроизведения проблемы, если возможно, приложите скриншоты и отправьте на этот email.\n\n</string>
   <string name="pref_advanced_ws_foreground_title">Поддерживать подключение к серверу</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
-        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
+  <string name="pref_advanced_ws_foreground_summary">Мы определили, что у вас не установлены сервисы Google Play. Для получения уведомлений в фоновом режиме Wire будет поддерживать соединение с сервером.
+        Отключение этой опции может несколько уменьшить влияние Wire на батарею устройства, однако вы не сможете получать уведомления при работе Wire в фоновом режиме. Опция применяется ко всем зарегистрированным аккаунтам на этом устройстве.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Служба поддержки</string>
   <string name="pref_support_website_title">Cайт техподдержки Wire</string>
@@ -673,15 +673,15 @@
   </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Сообщения</string>
-  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
+  <string name="message_notifications_channel_description">Уведомления обо всех типах сообщений, включая текст, изображения, аудио- и видеосообщения.</string>
   <string name="incoming_call_notifications_channel_name">Входящие вызовы</string>
   <string name="incoming_call_notifications_channel_description">Уведомления о входящих звонках</string>
   <string name="ping_notifications_channel_name">Пинги</string>
-  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
+  <string name="ping_notifications_channel_description">Уведомления, когда вас пингуют другие пользователи</string>
   <string name="ongoing_channel_name">Фоновые уведомления</string>
-  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
+  <string name="ongoing_channel_description">Уведомления о текущих процессах или вторичных действиях, таких как вызовы или сохранение изображения</string>
   <string name="foreground_service_notification_name">Поддерживать подключение к серверу</string>
-  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
+  <string name="foreground_service_notification_description">Это уведомление необходимо для поддержания соединения с сервером Wire в фоновом режиме для пользователей у которых не установлены сервисы Google Play.</string>
   <string name="lockscreen__talk">ЗВОНИТ</string>
   <plurals name="notification__new_messages">
     <item quantity="one">Сообщение от %2$s</item>
@@ -928,7 +928,7 @@
   <string name="sketch__emoji_keyboard__size_label__medium">СРЕДНИЕ</string>
   <string name="sketch__emoji_keyboard__size_label__large">БОЛЬШИЕ</string>
   <string name="toolbar__sketch__action_close">Закрыть</string>
-  <string name="drawing__text_hint">НАПИШИТЕ СООБЩЕНИЕ</string>
+  <string name="drawing__text_hint">ВВЕДИТЕ СООБЩЕНИЕ</string>
   <!-- Location sharing -->
   <string name="location_sharing__tip">Перетащите карту, чтобы изменить местоположение</string>
   <string name="location_sharing__permission_error">Не удается получить текущее местоположение, отказано в доступе</string>

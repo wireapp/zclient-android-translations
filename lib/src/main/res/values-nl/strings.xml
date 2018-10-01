@@ -120,7 +120,7 @@
   <string name="crashes_and_analytics_request_title">Help ons Wire te verbeteren</string>
   <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
   <string name="crashes_and_analytics_request_no">Nee</string>
-  <string name="crashes_and_analytics_request_agree">I Agree</string>
+  <string name="crashes_and_analytics_request_agree">Ik ga akkoord</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Diensten</string>
   <string name="integrations_picker__add">Service toevoegen</string>
@@ -203,7 +203,7 @@
   <string name="content__system__other_started_conversation">%1$s is het gesprek begonnen</string>
   <string name="content__system__you_started_one">[[Jij]] begon een gesprek met %2$s</string>
   <string name="content__system__other_started_one">[[%1$s]] begon een gesprek met jou</string>
-  <string name="content__system__with_you_only">with you</string>
+  <string name="content__system__with_you_only">met jou</string>
   <string name="content__system__with_list_only">met %1$s</string>
   <plurals name="content__system__with_others_only">
     <item quantity="one">with %1$s and _%2$s other_</item>
@@ -267,7 +267,7 @@
   <string name="conversation__action__delete">Inhoud verwijderen&#8230;</string>
   <string name="conversation__action__archive">Archiveren</string>
   <string name="conversation__action__unarchive">Terugzetten</string>
-  <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
+  <string name="conversation__action__add_participants">VOEG DEELNEMERS TOE</string>
   <string name="conversation__action__create_group">CREËER GROEP</string>
   <string name="conversation__action__silence">Dempen</string>
   <string name="conversation__action__unsilence">Dempen opheffen</string>
@@ -546,12 +546,12 @@
   <string name="pref_advanced_debug_report_summary">Dit helpt de support voor Wire om problemen betere te kunnen onderzoeken.</string>
   <string name="pref_advanced_analytics_title">Rapportage inzake gebruik van Wire en fouten die zijn opgetreden</string>
   <string name="pref_advanced_analytics_summary">Maak Wire beter door anoniem data te versturen.</string>
-  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
+  <string name="pref_advanced_reset_push_title">Herstel de Push Notifications Token</string>
   <string name="pref_advanced_reset_push_summary">Als je problemen ondervindt met push-notificaties, kan Wire je vragen om deze token te herstellen.</string>
   <string name="pref_advanced_reset_push_completed">Push token is gereset</string>
   <string name="debug_report__title">Wire foutenverslag - %1$s</string>
   <string name="debug_report__body">Beschrijf de stappen voor het reproduceren van het probleem, liefst met screenshots. Stuur daarna deze email. Hartelijk dank!\n\n</string>
-  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+  <string name="pref_advanced_ws_foreground_title">Behoudt de connectie tot de server</string>
   <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
   <!-- Support -->
@@ -647,10 +647,10 @@
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
   <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Pings</string>
-  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
-  <string name="ongoing_channel_name">Background notifications</string>
+  <string name="ping_notifications_channel_description">Notificatie wanner andere gebruikers je pingen</string>
+  <string name="ongoing_channel_name">Notificaties wanneer op de achtergrond</string>
   <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
-  <string name="foreground_service_notification_name">Maintain connection to server</string>
+  <string name="foreground_service_notification_name">Behoudt de connectie tot de server</string>
   <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
   <string name="lockscreen__talk">BELT</string>
   <plurals name="notification__new_messages">
@@ -694,8 +694,8 @@
   <string name="notification__message__single__accept_request">Jij en %1$s zijn nu verbonden</string>
   <string name="notification__message__group__default_conversation_name">groepsgesprek</string>
   <string name="notification__message__send_failed">Bericht versturen mislukt</string>
-  <string name="notification__message__ephemeral">Sent a message</string>
-  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
+  <string name="notification__message__ephemeral">Stuur een bericht</string>
+  <string name="notification__message_with_mention__ephemeral">Vermeldde jou</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 je bericht</string>
   <string name="notification__message__liked_picture">\u2764 jouw foto</string>
@@ -735,8 +735,8 @@
   <string name="system_notification__calling_group">%1$s belt&#8230;</string>
   <string name="system_notification__video_calling_one">Bellen met video&#8230;</string>
   <string name="system_notification__video_calling_group">%1$s belt je met video&#8230;</string>
-  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
-  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
+  <string name="ws_foreground_notification_connected_title">Verbonden met Wire server</string>
+  <string name="ws_foreground_notification_no_internet_title">Wachten op verbinding&#8230;</string>
   <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
   <string name="ws_foreground_notification_summary">Tap here for more information.</string>
   <!-- Notification actions -->
@@ -1111,7 +1111,7 @@
   <string name="conversation_list__missed_call">Gemiste oproep</string>
   <string name="conversation_list__pinged">Gepinged</string>
   <string name="conversation_list__ephemeral">Iemand heeft een bericht gestuurd</string>
-  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
+  <string name="conversation_list__single_eph_and_mention">Vermeldde jou</string>
   <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">Typt een bericht&#8230;</string>
   <string name="conversation_list__someone">Iemand</string>
@@ -1213,19 +1213,19 @@
   <string name="skip_button">OVERSLAAN</string>
   <string name="done_button">KLAAR</string>
   <string name="new_group_header">CREËER GROEP</string>
-  <string name="add_participants_empty_header">ADD PARTICIPANTS</string>
+  <string name="add_participants_empty_header">VOEG DEELNEMERS TOE</string>
   <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
   <string name="new_conv_no_results">Geen resultaten</string>
-  <string name="new_conv_no_contacts">No contacts</string>
+  <string name="new_conv_no_contacts">Geen contacten</string>
   <string name="create_group_search">ZOEK VOOR NAMEN</string>
   <string name="participants_divider_services">INTEGRATIES(%1$s)</string>
   <string name="participants_divider_people">PERSONEN(%1$s)</string>
   <string name="group_name_hint">GROEP NAAM</string>
-  <string name="allow_guests_toggle_text">Allow guests and services</string>
+  <string name="allow_guests_toggle_text">Sta gasten en services toe</string>
   <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
   <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
-  <string name="allow_guests">Allow guests and services</string>
-  <string name="guest_options_title">Guests and services</string>
+  <string name="allow_guests">Sta gasten en services toe</string>
+  <string name="guest_options_title">Gasten en services</string>
   <string name="ephemeral_options_title">Tijdelijke berichten</string>
   <string name="ephemeral_explanation_text">Tijdelijke berichten zullen worden ingeschakeld voor alle deelnemers aan dit gesprek</string>
   <string name="show_all_participants">Alle deelnemers (%1$s)</string>
@@ -1289,10 +1289,10 @@
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>
   <string name="markdown_link_dialog_cancel">ANNULEER</string>
-  <string name="max_participants_alert_title">The group is full</string>
+  <string name="max_participants_alert_title">De groep is vol</string>
   <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
   <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
-  <string name="sso_signin_button">Company log in</string>
+  <string name="sso_signin_button">Bedrijfs login</string>
   <string name="sso_signin_error_title">Er is iets mis gegaan</string>
   <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
   <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
@@ -1301,5 +1301,5 @@
   <string name="participant_search_hint">ZOEK VOOR NAMEN</string>
   <string name="participant_search_title">Personen</string>
   <string name="generic_service_warning">Services have access to the content of this conversation</string>
-  <string name="add_services_button_text">Manage services</string>
+  <string name="add_services_button_text">Beheer services</string>
 </resources>
