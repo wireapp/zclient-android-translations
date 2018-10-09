@@ -118,9 +118,9 @@
   <string name="receive_news_and_offers_request_title">Newsletter</string>
   <string name="receive_news_and_offers_request_body">Voulez-vous recevoir les actualités, ainsi que les mises-à-jour de Wire par e-mail? Vous pouvez vous y désabonner à tout moment.</string>
   <string name="crashes_and_analytics_request_title">Aidez-nous à améliorer Wire</string>
-  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+  <string name="crashes_and_analytics_request_body">Wire peut créer et utiliser des rapports d\'utilisation et d\'erreurs anonymes afin d\'améliorer l\'application. Vous pouvez révoquer votre autorisation à tout moment.</string>
   <string name="crashes_and_analytics_request_no">Non</string>
-  <string name="crashes_and_analytics_request_agree">I Agree</string>
+  <string name="crashes_and_analytics_request_agree">J\'accepte</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Services</string>
   <string name="integrations_picker__add">Ajouter un service</string>
@@ -269,6 +269,7 @@
   <string name="conversation__action__unarchive">Restaurer</string>
   <string name="conversation__action__add_participants">AJOUTER DES PARTICIPANTS</string>
   <string name="conversation__action__create_group">CRÉER UN GROUPE</string>
+  <string name="conversation__action__notifications">Notifications&#8230;</string>
   <string name="conversation__action__silence">Mettre en sourdine</string>
   <string name="conversation__action__unsilence">Désactiver la sourdine</string>
   <string name="conversation__action__leave">Quitter le groupe&#8230;</string>
@@ -281,6 +282,10 @@
   <string name="conversation__action__leave_only">\tQuitter le groupe</string>
   <string name="conversation__action__delete_and_leave">\tSupprimer le contenu et quitter</string>
   <string name="conversation__action__delete_only">\tSupprimer le contenu</string>
+  <string name="conversation__action__notifications_everything">Toujours</string>
+  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
+  <string name="conversation__action__notifications_nothing">Jamais</string>
+  <string name="conversation__action__notifications_title">Recevoir une notification:</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">OUVRIR</string>
   <string name="popover__action__remove">SUPPRIMER</string>
@@ -668,8 +673,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s : \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s dans %2$s : \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">\@ Mention de %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">\@ Mention de %1$s dans %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">A appelé</string>
   <string name="notification__message__one_to_one__pinged">A fait un signe</string>
   <string name="notification__message__one_to_one__shared_picture">A partagé une image</string>
@@ -1094,7 +1099,10 @@
     <item quantity="one">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__missed_calls_plural">%1$s appels manqués</string>
+  <plurals name="conversation_list__missed_calls_plural">
+    <item quantity="one">%1$s appel manqué</item>
+    <item quantity="other">%1$s appels manqués</item>
+  </plurals>
   <string name="conversation_list__missed_calls_count">Appel manqué</string>
   <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
   <plurals name="conversation_list__mentions_count">

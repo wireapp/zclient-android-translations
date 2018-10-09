@@ -269,6 +269,7 @@
   <string name="conversation__action__unarchive">Reaktivieren</string>
   <string name="conversation__action__add_participants">PERSONEN HINZUFÜGEN</string>
   <string name="conversation__action__create_group">GRUPPE ERSTELLEN</string>
+  <string name="conversation__action__notifications">Benachrichtigungen&#8230;</string>
   <string name="conversation__action__silence">Stumm</string>
   <string name="conversation__action__unsilence">Benachrichtigen</string>
   <string name="conversation__action__leave">Gruppe verlassen&#8230;</string>
@@ -281,6 +282,10 @@
   <string name="conversation__action__leave_only">\tGruppe verlassen</string>
   <string name="conversation__action__delete_and_leave">\tInhalt löschen und verlassen</string>
   <string name="conversation__action__delete_only">\tInhalt löschen</string>
+  <string name="conversation__action__notifications_everything">Alles</string>
+  <string name="conversation__action__notifications_mentions_only">Nur Erwähnungen</string>
+  <string name="conversation__action__notifications_nothing">Nichts</string>
+  <string name="conversation__action__notifications_title">Benachrichtigungen über:</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ÖFFNEN</string>
   <string name="popover__action__remove">ENTFERNEN</string>
@@ -668,8 +673,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s in %2$s: \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">\@ Erwähnung von %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">\@ Erwähnung von %1$s in %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">Erwähnung von %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">Erwähnung von %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Hat versucht dich anzurufen</string>
   <string name="notification__message__one_to_one__pinged">hat gepingt</string>
   <string name="notification__message__one_to_one__shared_picture">hat ein Bild geteilt</string>
@@ -1095,7 +1100,10 @@
     <item quantity="one">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__missed_calls_plural">%1$s verpasste Anrufe</string>
+  <plurals name="conversation_list__missed_calls_plural">
+    <item quantity="one">%1$s verpasster Anruf</item>
+    <item quantity="other">%1$s verpasste Anrufe</item>
+  </plurals>
   <string name="conversation_list__missed_calls_count">Verpasster Anruf</string>
   <string name="conversation_list__missed_calls_count_group">Verpasster Anruf von %1$s</string>
   <plurals name="conversation_list__mentions_count">

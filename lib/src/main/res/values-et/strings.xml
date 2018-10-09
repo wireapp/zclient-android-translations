@@ -118,7 +118,7 @@
   <string name="receive_news_and_offers_request_title">Uudiskiri</string>
   <string name="receive_news_and_offers_request_body">Kas soovid saada Wire\'ilt uudiseid ja tooteuuendusi e-posti teel? Sa võid igal ajal tellimuse lõpetada.</string>
   <string name="crashes_and_analytics_request_title">Aita Wire paremaks muuta</string>
-  <string name="crashes_and_analytics_request_body">Ma nõustun, et Wire võib luua ja kasutada anonüümseid kasutus- ja veateateid, parandamaks Wire\'i rakendust. Ma saan selle nõusoleku igal ajal tühistada.</string>
+  <string name="crashes_and_analytics_request_body">Nõustun, et Wire võib luua ja kasutada anonüümseid kasutus- ja veateateid, parandamaks Wire\'i rakendust. Ma saan selle nõusoleku igal ajal tühistada.</string>
   <string name="crashes_and_analytics_request_no">Ei</string>
   <string name="crashes_and_analytics_request_agree">Nõustun</string>
   <!-- Bots / Integrations / Services -->
@@ -269,6 +269,7 @@
   <string name="conversation__action__unarchive">Arhiivist tagasi</string>
   <string name="conversation__action__add_participants">LISA OSALEJAID</string>
   <string name="conversation__action__create_group">LOO GRUPP</string>
+  <string name="conversation__action__notifications">Teavitused&#8230;</string>
   <string name="conversation__action__silence">Hääletu</string>
   <string name="conversation__action__unsilence">Heli sisse</string>
   <string name="conversation__action__leave">Lahku grupist&#8230;</string>
@@ -281,6 +282,10 @@
   <string name="conversation__action__leave_only">\tLahku grupist</string>
   <string name="conversation__action__delete_and_leave">\tKustuta sisu ja lahku</string>
   <string name="conversation__action__delete_only">\tKustuta sisu</string>
+  <string name="conversation__action__notifications_everything">Kõik</string>
+  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
+  <string name="conversation__action__notifications_nothing">Ei midagi</string>
+  <string name="conversation__action__notifications_title">Teavita mind:</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">AVA</string>
   <string name="popover__action__remove">EEMALDA</string>
@@ -668,8 +673,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s kohas %2$s: \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">\@ Mainimine kasutajalt %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">\@ Mainimine kasutajalt %1$s vestluses %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Helistas</string>
   <string name="notification__message__one_to_one__pinged">Pingis</string>
   <string name="notification__message__one_to_one__shared_picture">Jagas pildi</string>
@@ -1094,7 +1099,10 @@
     <item quantity="one">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__missed_calls_plural">%1$s vastamata kõnet</string>
+  <plurals name="conversation_list__missed_calls_plural">
+    <item quantity="one">%1$s vastamata kõne</item>
+    <item quantity="other">%1$s vastamata kõnet</item>
+  </plurals>
   <string name="conversation_list__missed_calls_count">Vastamata kõne</string>
   <string name="conversation_list__missed_calls_count_group">Vastamata kõne kasutajalt %1$s</string>
   <plurals name="conversation_list__mentions_count">

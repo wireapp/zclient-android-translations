@@ -262,6 +262,7 @@
   <string name="conversation__action__unarchive">Batalkan arsip</string>
   <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
   <string name="conversation__action__create_group">BUAT GRUP</string>
+  <string name="conversation__action__notifications">Notifications&#8230;</string>
   <string name="conversation__action__silence">Diamkan</string>
   <string name="conversation__action__unsilence">Bersuara</string>
   <string name="conversation__action__leave">Leave group&#8230;</string>
@@ -274,6 +275,10 @@
   <string name="conversation__action__leave_only">\tLeave group</string>
   <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
   <string name="conversation__action__delete_only">\tDelete content</string>
+  <string name="conversation__action__notifications_everything">Everything</string>
+  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
+  <string name="conversation__action__notifications_nothing">Nothing</string>
+  <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">BUKA</string>
   <string name="popover__action__remove">HAPUS</string>
@@ -650,8 +655,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s dalam %2$s: \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Dipanggil</string>
   <string name="notification__message__one_to_one__pinged">Diping</string>
   <string name="notification__message__one_to_one__shared_picture">Membagikan gambar</string>
@@ -1056,7 +1061,9 @@
   <plurals name="conversation_list__new_likes_count">
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__missed_calls_plural">%1$s missed calls</string>
+  <plurals name="conversation_list__missed_calls_plural">
+    <item quantity="other">%1$s missed calls</item>
+  </plurals>
   <string name="conversation_list__missed_calls_count">Panggilan tidak terjawab</string>
   <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
   <plurals name="conversation_list__mentions_count">

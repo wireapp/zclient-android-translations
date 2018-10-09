@@ -118,9 +118,9 @@
   <string name="receive_news_and_offers_request_title">電子報</string>
   <string name="receive_news_and_offers_request_body">您想接收來自Wire的新聞和產品更新電子郵件嗎？您可以在任何時候取消訂閱。</string>
   <string name="crashes_and_analytics_request_title">幫助我們改善Wire</string>
-  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+  <string name="crashes_and_analytics_request_body">我同意Wire可以創建並使用匿名用法和錯誤報告來改進Wire App。 我可以隨時撤銷此同意。</string>
   <string name="crashes_and_analytics_request_no">不好</string>
-  <string name="crashes_and_analytics_request_agree">I Agree</string>
+  <string name="crashes_and_analytics_request_agree">我同意</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">服務</string>
   <string name="integrations_picker__add">新增服務</string>
@@ -174,7 +174,7 @@
   <string name="content_system_message_timestamp_pending">發送\u2026</string>
   <string name="content_system_message_timestamp_deleted">於%1$s刪除</string>
   <!-- Add people -->
-  <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
+  <string name="content__system__someone_added_people">[[%1$s]] 已將 %2$s 添加到對話中</string>
   <plurals name="content__system__someone_added_people_with_others">
     <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
   </plurals>
@@ -262,6 +262,7 @@
   <string name="conversation__action__unarchive">解除封存</string>
   <string name="conversation__action__add_participants">加入參與者</string>
   <string name="conversation__action__create_group">建立群組</string>
+  <string name="conversation__action__notifications">Notifications&#8230;</string>
   <string name="conversation__action__silence">靜音</string>
   <string name="conversation__action__unsilence">開啟訊息通知</string>
   <string name="conversation__action__leave">離開群組&#8230;</string>
@@ -274,6 +275,10 @@
   <string name="conversation__action__leave_only">\t離開群組</string>
   <string name="conversation__action__delete_and_leave">\t刪除內容並離開</string>
   <string name="conversation__action__delete_only">\t刪除內容</string>
+  <string name="conversation__action__notifications_everything">Everything</string>
+  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
+  <string name="conversation__action__notifications_nothing">Nothing</string>
+  <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">開啟</string>
   <string name="popover__action__remove">移除</string>
@@ -650,8 +655,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s在 %2$s: \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">曾來電</string>
   <string name="notification__message__one_to_one__pinged">打了聲招呼</string>
   <string name="notification__message__one_to_one__shared_picture">分享了一張圖片</string>
@@ -1056,7 +1061,9 @@
   <plurals name="conversation_list__new_likes_count">
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__missed_calls_plural">%1$s通未接來電</string>
+  <plurals name="conversation_list__missed_calls_plural">
+    <item quantity="other">%1$s通未接來電</item>
+  </plurals>
   <string name="conversation_list__missed_calls_count">未接來電</string>
   <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
   <plurals name="conversation_list__mentions_count">

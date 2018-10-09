@@ -46,7 +46,7 @@
   <string name="phone_pending_login_header">Код уже отправлен</string>
   <string name="phone_pending_login_message">Мы уже отправили вам код в SMS. Для получения нового кода нажмите \'Отправить повторно\' через 10 минут.</string>
   <string name="password_invalid_header">Неверный пароль</string>
-  <string name="password_invalid_message">Проверьте введенные данные и повторите попытку</string>
+  <string name="password_invalid_message">Проверьте свои данные и повторите попытку</string>
   <string name="phone_budget_exhausted_header">Слишком много запросов</string>
   <string name="phone_budget_exhausted_message">Пожалуйста, повторите попытку позже.</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -236,9 +236,9 @@
   <!-- Conversation: E2EE system messages -->
   <string name="content__otr__conversation_verified">Проверенный разговор</string>
   <string name="content__otr__conversation_unverified">Непроверенный разговор</string>
-  <string name="content__otr__message_error">СООБЩЕНИЕ ОТ [[%1$s]] НЕ БЫЛО ПОЛУЧЕНО. _ПОЧЕМУ? _</string>
-  <string name="content__otr__message_error_you">СООБЩЕНИЕ ОТ ВАС НЕ БЫЛО ПОЛУЧЕНО. _ПОЧЕМУ? _</string>
-  <string name="content__otr__identity_changed_error">ИДЕНТИЧНОСТЬ УСТРОЙСТВА [[%1$s]] ИЗМЕНЕНА. НЕДОСТАВЛЕННОЕ СООБЩЕНИЕ. _УЗНАТЬ БОЛЬШЕ_</string>
+  <string name="content__otr__message_error">СООБЩЕНИЕ ОТ [[%1$s]] ПОЛУЧЕНО НЕ БЫЛО. _ПОЧЕМУ? _</string>
+  <string name="content__otr__message_error_you">СООБЩЕНИЕ ОТ ВАС ПОЛУЧЕНО НЕ БЫЛО. _ПОЧЕМУ? _</string>
+  <string name="content__otr__identity_changed_error">ИДЕНТИФИКАТОР УСТРОЙСТВА [[%1$s]] ИЗМЕНИЛСЯ. СООБЩЕНИЕ НЕ ДОСТАВЛЕНО. _УЗНАТЬ БОЛЬШЕ_</string>
   <string name="content__otr__identity_changed_error_you">ИДЕНТИФИКАТОР ВАШЕГО УСТРОЙСТВА ИЗМЕНИЛСЯ. СООБЩЕНИЕ НЕ ДОСТАВЛЕНО. _УЗНАТЬ БОЛЬШЕ_</string>
   <string name="content__otr__someone_added_new_device__message">%1$s начал использовать _new device_</string>
   <string name="content__otr__someone_and_you_added_new_device__message">%1$s и вы начали использовать _new device_</string>
@@ -283,8 +283,9 @@
   <string name="conversation__action__unarchive">Разархивировать</string>
   <string name="conversation__action__add_participants">ДОБАВИТЬ УЧАСТНИКОВ</string>
   <string name="conversation__action__create_group">СОЗДАТЬ ГРУППУ</string>
-  <string name="conversation__action__silence">Выкл. звук</string>
-  <string name="conversation__action__unsilence">Вкл.звук</string>
+  <string name="conversation__action__notifications">Уведомления&#8230;</string>
+  <string name="conversation__action__silence">Отключить уведомления</string>
+  <string name="conversation__action__unsilence">Включить уведомления</string>
   <string name="conversation__action__leave">Покинуть группу&#8230;</string>
   <string name="conversation__action__remove">Удалить</string>
   <string name="conversation__action__call">Позвонить</string>
@@ -295,6 +296,10 @@
   <string name="conversation__action__leave_only">\tПокинуть группу</string>
   <string name="conversation__action__delete_and_leave">\tУдалить контент и покинуть</string>
   <string name="conversation__action__delete_only">\tУдалить контент</string>
+  <string name="conversation__action__notifications_everything">Все</string>
+  <string name="conversation__action__notifications_mentions_only">Только упоминания</string>
+  <string name="conversation__action__notifications_nothing">Ничего</string>
+  <string name="conversation__action__notifications_title">Уведомлять меня о:</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ОТКРЫТЬ</string>
   <string name="popover__action__remove">УДАЛИТЬ</string>
@@ -316,7 +321,7 @@
   <string name="incoming__controls__incoming__accept">Принять</string>
   <string name="incoming__controls__ongoing__hangup">ПОВЕСИТЬ ТРУБКУ</string>
   <string name="incoming__controls__ongoing__speaker">ДИНАМИК</string>
-  <string name="incoming__controls__ongoing__mute">ВЫКЛ. ЗВУК</string>
+  <string name="incoming__controls__ongoing__mute">МИКРОФОН</string>
   <string name="incoming__controls__ongoing__video">Видео</string>
   <string name="incoming__controls__ongoing__flip">ПЕРЕКЛЮЧИТЬ</string>
   <string name="ongoing__poor_connection_message">ВИДЕО ОСТАНОВЛЕНО ИЗ-ЗА ПЛОХОГО СОЕДИНЕНИЯ</string>
@@ -568,15 +573,15 @@
   <string name="pref_devices_device_fingerprint_copy_toast">Отпечаток скопирован</string>
   <!-- Advanced -->
   <string name="pref_advanced_screen_title">Дополнительные настройки</string>
-  <string name="pref_advanced_debug_report_title">Отправить отчет Debug</string>
+  <string name="pref_advanced_debug_report_title">Отправить отладочный отчет</string>
   <string name="pref_advanced_debug_report_summary">Это поможет службе поддержки Wire диагностировать проблемы.</string>
   <string name="pref_advanced_analytics_title">Статистика использования и сбои</string>
   <string name="pref_advanced_analytics_summary">Сделайте Wire лучше, отправляя анонимную информацию.</string>
   <string name="pref_advanced_reset_push_title">Обновить токен push-уведомлений</string>
   <string name="pref_advanced_reset_push_summary">При возникновении проблем с push-уведомлениями, служба поддержки Wire может попросить вас обновить токен.</string>
   <string name="pref_advanced_reset_push_completed">Токен Push-уведомлений был обновлен</string>
-  <string name="debug_report__title">Debug отчет Wire - %1$s</string>
-  <string name="debug_report__body">Пожалуйста, опишите шаги для воспроизведения проблемы, если возможно, приложите скриншоты и отправьте на этот email.\n\n</string>
+  <string name="debug_report__title">Отладочный отчет Wire - %1$s</string>
+  <string name="debug_report__body">Пожалуйста, опишите шаги для воспроизведения проблемы, если возможно, приложите скриншоты.\n\n</string>
   <string name="pref_advanced_ws_foreground_title">Поддерживать подключение к серверу</string>
   <string name="pref_advanced_ws_foreground_summary">Мы определили, что у вас не установлены сервисы Google Play. Для получения уведомлений в фоновом режиме Wire будет поддерживать соединение с сервером.
         Отключение этой опции может несколько уменьшить влияние Wire на батарею устройства, однако вы не сможете получать уведомления при работе Wire в фоновом режиме. Опция применяется ко всем зарегистрированным аккаунтам на этом устройстве.</string>
@@ -650,7 +655,7 @@
   <string name="sign_up__set_picture__guidance">Wire выглядит лучше с вашей фотографией.</string>
   <string name="sign_up__set_picture__loading">Загрузка фото</string>
   <string name="rename_conversation__no_network__message">Вы должны быть онлайн, чтобы переименовать разговор. Проверьте подключение и повторите попытку.</string>
-  <string name="resend_message__no_network__message">Вы должны быть онлайн, чтобы заново отправить сообщение. Проверьте подключение и повторите попытку.</string>
+  <string name="resend_message__no_network__message">Чтобы повторно отправить сообщение вы должны быть онлайн. Проверьте подключение и повторите попытку.</string>
   <string name="leave_conversation_failed__message">Вы должны быть онлайн, чтобы покинуть разговор. Проверьте подключение и повторите попытку.</string>
   <string name="remove_from_conversation__no_network__message">Вы должны быть онлайн, чтобы удалять людей из разговора. Проверьте подключение и повторите попытку.</string>
   <string name="calling__call_drop__message">Вы должны быть онлайн, чтобы позвонить. Проверьте подключение и повторите попытку.</string>
@@ -685,27 +690,27 @@
   <string name="lockscreen__talk">ЗВОНИТ</string>
   <plurals name="notification__new_messages">
     <item quantity="one">Сообщение от %2$s</item>
-    <item quantity="few">%1$d сообщений от %2$s</item>
+    <item quantity="few">%1$d сообщения от %2$s</item>
     <item quantity="many">%1$d сообщений от %2$s</item>
     <item quantity="other">%1$d сообщений от %2$s</item>
   </plurals>
   <plurals name="notification__new_messages_groups">
     <item quantity="one">Сообщение в %2$s</item>
-    <item quantity="few">%1$d сообщений в %2$s</item>
+    <item quantity="few">%1$d сообщения в %2$s</item>
     <item quantity="many">%1$d сообщений в %2$s</item>
     <item quantity="other">%1$d сообщений в %2$s</item>
   </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="one">Сообщение в %2$s разговорах</item>
-    <item quantity="few">%1$d сообщений в %2$s разговорах</item>
+    <item quantity="few">%1$d сообщения в %2$s разговорах</item>
     <item quantity="many">%1$d сообщений в %2$s разговорах</item>
     <item quantity="other">%1$d сообщений в %2$s разговорах</item>
   </plurals>
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s в %2$s: \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">\@ Упоминание от %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">\@ Упоминание от %1$s в %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">Упоминание от %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">Упоминание от %1$s в %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Звонил(а)</string>
   <string name="notification__message__one_to_one__pinged">Отправил(-а) пинг</string>
   <string name="notification__message__one_to_one__shared_picture">Поделился(-лась) картинкой</string>
@@ -730,7 +735,7 @@
   <string name="notification__message__single__accept_request">%1$s теперь добавлен(а) в ваш список контактов</string>
   <string name="notification__message__group__default_conversation_name">группа</string>
   <string name="notification__message__send_failed">Не удалось отправить сообщение</string>
-  <string name="notification__message__ephemeral">Прислал сообщение</string>
+  <string name="notification__message__ephemeral">Отправил(а) вам сообщение</string>
   <string name="notification__message_with_mention__ephemeral">Упомянул вас</string>
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 ваше сообщение</string>
@@ -740,10 +745,10 @@
   <string name="notification__message__ephemeral_someone">Кто-то</string>
   <string name="notification__message__ephemeral_details">Нажмите, чтобы просмотреть детали</string>
   <plurals name="notification__message__ephemeral">
-    <item quantity="one">Вам отправлено сообщение</item>
-    <item quantity="few">Вам отправлено %1$d сообщения</item>
-    <item quantity="many">Вам отправлено %1$d сообщений</item>
-    <item quantity="other">Вам отправлено %1$d сообщений</item>
+    <item quantity="one">Кто-то прислал сообщение</item>
+    <item quantity="few">Кто-то прислал %1$d сообщения</item>
+    <item quantity="many">Кто-то прислал %1$d сообщений</item>
+    <item quantity="other">Кто-то прислал %1$d сообщений</item>
   </plurals>
   <string name="other_set_message_timer">[[%1$s]] установил таймер сообщения на [[%2$s]]</string>
   <string name="you_set_message_timer">[[You]] установили таймер сообщения на [[%1$s]]</string>
@@ -1170,7 +1175,12 @@
     <item quantity="many">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__missed_calls_plural">%1$s пропущенных вызовов</string>
+  <plurals name="conversation_list__missed_calls_plural">
+    <item quantity="one">%1$s пропущенный звонок</item>
+    <item quantity="few">%1$s пропущенных звонков</item>
+    <item quantity="many">%1$s пропущенных звонков</item>
+    <item quantity="other">%1$s пропущенных звонков</item>
+  </plurals>
   <string name="conversation_list__missed_calls_count">Пропущенный вызов</string>
   <string name="conversation_list__missed_calls_count_group">Пропущенный вызов от %1$s</string>
   <plurals name="conversation_list__mentions_count">
@@ -1179,7 +1189,7 @@
     <item quantity="many">%1$s упоминаний</item>
     <item quantity="other">%1$s упоминаний</item>
   </plurals>
-  <string name="conversation_list__unsent_message_long">⚠ Неотправленное сообщение</string>
+  <string name="conversation_list__unsent_message_long">⚠️ Неотправленное сообщение</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
   <string name="conversation_list__shared__image">Поделился(-лась) картинкой</string>
   <string name="conversation_list__shared__file">Поделился(-лась) файлом</string>

@@ -269,9 +269,10 @@
   <string name="conversation__action__unarchive">Desarchivar</string>
   <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
   <string name="conversation__action__create_group">CREAR GRUPO</string>
+  <string name="conversation__action__notifications">Notifications&#8230;</string>
   <string name="conversation__action__silence">Silenciar</string>
   <string name="conversation__action__unsilence">No silenciar</string>
-  <string name="conversation__action__leave">Abandonar grupo&#8230;</string>
+  <string name="conversation__action__leave">Abandonar el grupo&#8230;</string>
   <string name="conversation__action__remove">Eliminar</string>
   <string name="conversation__action__call">Llamar</string>
   <string name="conversation__action__picture">Imagen</string>
@@ -281,6 +282,10 @@
   <string name="conversation__action__leave_only">\tSalir del grupo</string>
   <string name="conversation__action__delete_and_leave">\tEliminar contenido y salir</string>
   <string name="conversation__action__delete_only">\tEliminar contenido</string>
+  <string name="conversation__action__notifications_everything">Everything</string>
+  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
+  <string name="conversation__action__notifications_nothing">Nothing</string>
+  <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ABRIR</string>
   <string name="popover__action__remove">QUITAR</string>
@@ -668,8 +673,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s en %2$s: \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Llamó</string>
   <string name="notification__message__one_to_one__pinged">Ping</string>
   <string name="notification__message__one_to_one__shared_picture">Compartió una foto</string>
@@ -735,7 +740,7 @@
   <string name="system_notification__calling_group">%1$s está llamando&#8230;</string>
   <string name="system_notification__video_calling_one">Llamadas con vídeo&#8230;</string>
   <string name="system_notification__video_calling_group">%1$s está llamando con video&#8230;</string>
-  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
+  <string name="ws_foreground_notification_connected_title">Conectado al servidor de Wire</string>
   <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
   <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
   <string name="ws_foreground_notification_summary">Tap here for more information.</string>
@@ -1094,7 +1099,10 @@
     <item quantity="one">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__missed_calls_plural">%1$s llamadas perdidas</string>
+  <plurals name="conversation_list__missed_calls_plural">
+    <item quantity="one">%1$s llamada perdida</item>
+    <item quantity="other">%1$s llamadas perdidas</item>
+  </plurals>
   <string name="conversation_list__missed_calls_count">Llamada perdida</string>
   <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
   <plurals name="conversation_list__mentions_count">
@@ -1110,7 +1118,7 @@
   <string name="conversation_list__shared__location">Compartió una ubicación</string>
   <string name="conversation_list__missed_call">Llamada perdida</string>
   <string name="conversation_list__pinged">Hizo ping</string>
-  <string name="conversation_list__ephemeral">Someone sent a message</string>
+  <string name="conversation_list__ephemeral">Alguien envió un mensaje</string>
   <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
   <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
   <string name="conversation_list__typing">Escribiendo ...</string>
@@ -1204,11 +1212,11 @@
   <string name="integrations_create_conversation">Crear una nueva conversación</string>
   <string name="no_matches_found">No se encontraron coincidencias</string>
   <string name="loading_services">Loading services&#8230;</string>
-  <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
-  <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
+  <string name="empty_services_list">Los servicios son auxiliares que pueden mejorar su flujo de trabajo. Para activarlos, póngase en contacto con el administrador.</string>
+  <string name="empty_services_list_admin">Los servicios son auxiliares que pueden mejorar su flujo de trabajo.</string>
   <string name="create_group_conversation">Crear grupo</string>
-  <string name="create_guest_room_conversation">Crear una habitación para invitados</string>
-  <string name="manage_services">Manage Services</string>
+  <string name="create_guest_room_conversation">Crear una sala de invitados</string>
+  <string name="manage_services">Gestionar los servicios</string>
   <string name="next_button">SIGUIENTE</string>
   <string name="skip_button">OMITIR</string>
   <string name="done_button">Terminar</string>
@@ -1221,11 +1229,11 @@
   <string name="participants_divider_services">SERVICIOS (%1$s)</string>
   <string name="participants_divider_people">PERSONAS (%1$s)</string>
   <string name="group_name_hint">NOMBRE DEL GRUPO</string>
-  <string name="allow_guests_toggle_text">Allow guests and services</string>
+  <string name="allow_guests_toggle_text">Permitir invitados y servicios</string>
   <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
   <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
-  <string name="allow_guests">Allow guests and services</string>
-  <string name="guest_options_title">Guests and services</string>
+  <string name="allow_guests">Permitir invitados y servicios</string>
+  <string name="guest_options_title">Invitados y servicios</string>
   <string name="ephemeral_options_title">Mensajes cronometrados</string>
   <string name="ephemeral_explanation_text">Los mensajes cronometrados se activarán para todos los participantes en esta conversación</string>
   <string name="show_all_participants">Mostrar todos (%1$s)</string>
@@ -1249,8 +1257,8 @@
   <string name="invite_button_description">Personas ajenas a su equipo pueden unirse a esta conversación.</string>
   <string name="invite_people">Invitar gente</string>
   <string name="guest_room_name">Habitación de invitados</string>
-  <string name="guest_time_left_hours">%1$sh restantes</string>
-  <string name="guest_time_left_hours_minutes">%1$s. %2$sh restantes</string>
+  <string name="guest_time_left_hours">%1$sh salió</string>
+  <string name="guest_time_left_hours_minutes">%1$s. %2$sh salió</string>
   <string name="guest_time_left_minutes">Menos de %1$sm restantes</string>
   <string name="backup_description">Cree una copia de seguridad para conservar el historial de conversaciones. Puede utilizarlo para restaurar el historial si pierde el dispositivo o cambia a uno nuevo.        \nEl archivo de copia de seguridad no está protegido por el cifrado de extremo a extremo de Wire, así que guárdelo en un archivo.</string>
   <string name="pref_account_backup_title">Realizar copias de seguridad de las conversaciones</string>
@@ -1299,6 +1307,6 @@
   <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
   <string name="participant_search_hint">BUSCAR POR NOMBRES</string>
   <string name="participant_search_title">Personas</string>
-  <string name="generic_service_warning">Services have access to the content of this conversation</string>
-  <string name="add_services_button_text">Manage services</string>
+  <string name="generic_service_warning">Hay servicios con acceso al contenido de esta conversación</string>
+  <string name="add_services_button_text">Gestionar los servicios</string>
 </resources>

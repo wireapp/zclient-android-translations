@@ -118,7 +118,7 @@
   <string name="receive_news_and_offers_request_title">Naujienlaiškis</string>
   <string name="receive_news_and_offers_request_body">Norite gauti naujienas ir produktų informacija iš „Wire“ el. paštu? Atsisakyti galite bet kada.</string>
   <string name="crashes_and_analytics_request_title">Pagerinkite „Wire“</string>
-  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+  <string name="crashes_and_analytics_request_body">Sutinku, kad \"Wire\" galėtų sukurti ir naudoti anoniminę vartojimo ir klaidų ataskaitą \"Wire\" aplikacijos tobulinimui. Aš galėsiu atšaukti sutikimą bet kada vėliau.</string>
   <string name="crashes_and_analytics_request_no">Ne</string>
   <string name="crashes_and_analytics_request_agree">Sutinku</string>
   <!-- Bots / Integrations / Services -->
@@ -283,6 +283,7 @@
   <string name="conversation__action__unarchive">Išarchyvuoti</string>
   <string name="conversation__action__add_participants">PRIDĖTI PAŠNEKOVŲ</string>
   <string name="conversation__action__create_group">SUKURTI GRUPĘ</string>
+  <string name="conversation__action__notifications">Pranešimai&#8230;</string>
   <string name="conversation__action__silence">Išjungti pranešimus</string>
   <string name="conversation__action__unsilence">Įjungti pranešimus</string>
   <string name="conversation__action__leave">Išeiti iš grupės&#8230;</string>
@@ -295,6 +296,10 @@
   <string name="conversation__action__leave_only">\tIšeiti iš grupės</string>
   <string name="conversation__action__delete_and_leave">\tIštrinti turinį ir išeiti</string>
   <string name="conversation__action__delete_only">\tIštrinti turinį</string>
+  <string name="conversation__action__notifications_everything">Viską</string>
+  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
+  <string name="conversation__action__notifications_nothing">Nieką</string>
+  <string name="conversation__action__notifications_title">Pranešti apie:</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ATVERTI</string>
   <string name="popover__action__remove">ŠALINTI</string>
@@ -704,8 +709,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s grupėje %2$s:\u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Skambino</string>
   <string name="notification__message__one_to_one__pinged">Skambtelėjo</string>
   <string name="notification__message__one_to_one__shared_picture">Pasidalino paveikslu</string>
@@ -730,8 +735,8 @@
   <string name="notification__message__single__accept_request">Jūs ir %1$s nuo šiol galite bendrauti</string>
   <string name="notification__message__group__default_conversation_name">grupės susirašinėjimas</string>
   <string name="notification__message__send_failed">Nepavyko išsiųsti žinutės</string>
-  <string name="notification__message__ephemeral">Sent a message</string>
-  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
+  <string name="notification__message__ephemeral">Atsiuntė jums žinutę</string>
+  <string name="notification__message_with_mention__ephemeral">Jus paminėjo</string>
   <string name="notification__message__liked">\u2764 „%1$s“</string>
   <string name="notification__message__liked_message">\u2764 jūsų žinutė</string>
   <string name="notification__message__liked_picture">\u2764 ant jūsų paveikslėlio</string>
@@ -1170,7 +1175,12 @@
     <item quantity="many">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__missed_calls_plural">%1$s praleistas skambutis</string>
+  <plurals name="conversation_list__missed_calls_plural">
+    <item quantity="one">%1$s praleistas skambutis</item>
+    <item quantity="few">%1$s praleistas skambutis</item>
+    <item quantity="many">%1$s praleistas skambutis</item>
+    <item quantity="other">%1$s praleistas skambutis</item>
+  </plurals>
   <string name="conversation_list__missed_calls_count">Praleistas skambutis</string>
   <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
   <plurals name="conversation_list__mentions_count">
@@ -1189,8 +1199,8 @@
   <string name="conversation_list__missed_call">Praleistas skambutis</string>
   <string name="conversation_list__pinged">Skambtelėjo</string>
   <string name="conversation_list__ephemeral">Kažkas atsiuntė žinutę</string>
-  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
-  <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
+  <string name="conversation_list__single_eph_and_mention">Jus paminėjo</string>
+  <string name="conversation_list__group_eph_and_mention">Kažkas jus paminėjo</string>
   <string name="conversation_list__typing">Rašo žinutę&#8230;</string>
   <string name="conversation_list__someone">Kažkas</string>
   <string name="conversation_list__added">[[%1$s]] buvo pridėtas</string>

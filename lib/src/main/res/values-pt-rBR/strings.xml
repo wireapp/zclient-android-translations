@@ -118,9 +118,9 @@
   <string name="receive_news_and_offers_request_title">Newsletter</string>
   <string name="receive_news_and_offers_request_body">Deseja receber notícias e atualizações de produtos do Wire por e-mail? Você pode cancelar sua inscrição a qualquer momento.</string>
   <string name="crashes_and_analytics_request_title">Nos ajude a melhorar o Wire</string>
-  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+  <string name="crashes_and_analytics_request_body">Concordo que o Wire pode criar e usar relatórios anônimos de uso e erro para aprimorar o aplicativo Wire. Eu posso revogar esse consentimento a qualquer momento.</string>
   <string name="crashes_and_analytics_request_no">Não</string>
-  <string name="crashes_and_analytics_request_agree">I Agree</string>
+  <string name="crashes_and_analytics_request_agree">Eu Concordo</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Serviços</string>
   <string name="integrations_picker__add">Adicionar Serviço</string>
@@ -269,6 +269,7 @@
   <string name="conversation__action__unarchive">Desarquivar</string>
   <string name="conversation__action__add_participants">ADICIONAR PARTICIPANTES</string>
   <string name="conversation__action__create_group">CRIAR GRUPO</string>
+  <string name="conversation__action__notifications">Notifications&#8230;</string>
   <string name="conversation__action__silence">Silenciar</string>
   <string name="conversation__action__unsilence">Notificar</string>
   <string name="conversation__action__leave">Deixar grupo&#8230;</string>
@@ -281,6 +282,10 @@
   <string name="conversation__action__leave_only">\tSair do grupo</string>
   <string name="conversation__action__delete_and_leave">\tExcluir conteúdo e sair</string>
   <string name="conversation__action__delete_only">\tExcluir conteúdo</string>
+  <string name="conversation__action__notifications_everything">Everything</string>
+  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
+  <string name="conversation__action__notifications_nothing">Nothing</string>
+  <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
   <string name="popover__action__open">ABRIR</string>
   <string name="popover__action__remove">REMOVER</string>
@@ -523,8 +528,8 @@
   <string name="pref_devices_summary">Toque para apagar</string>
   <string name="pref_devices_current_device_category_title">Dispositivo Atual</string>
   <string name="pref_devices_other_devices_category_title">Outros dispositivos</string>
-  <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
-  <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
+  <string name="pref_devices_device_activation_summary">Ativado [[%1$s]]\n</string>
+  <string name="pref_devices_device_activation_subtitle">Ativado [[%1$s]]</string>
   <string name="pref_devices_device_id">ID: %1$s</string>
   <string name="pref_devices_device_verified">Verificado</string>
   <string name="pref_devices_device_not_verified">Não verificado</string>
@@ -552,8 +557,8 @@
   <string name="debug_report__title">Relatório de depuração do Wire - %1$s</string>
   <string name="debug_report__body">Por favor, descreva as etapas necessárias para reproduzir o problema, fornecer screenshots se possível e enviar este email.\n\n</string>
   <string name="pref_advanced_ws_foreground_title">Manter conexão com o servidor</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
-        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
+  <string name="pref_advanced_ws_foreground_summary">Detectamos que o Google Play Services não está instalado. O Wire tentará manter uma conexão com o servidor aberta para receber notificações enquanto o aplicativo não estiver em primeiro plano.
+        Desativar essa configuração pode melhorar o desempenho da bateria, mas você não receberá mais notificações quando o Wire estiver em segundo plano. Isso se aplica a todas as contas neste dispositivo.</string>
   <!-- Support -->
   <string name="pref_support_screen_title">Suporte</string>
   <string name="pref_support_website_title">Site de suporte do Wire</string>
@@ -643,15 +648,15 @@
   </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Mensagens</string>
-  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
+  <string name="message_notifications_channel_description">Notificações para todos os tipos de mensagens, incluindo mensagens de texto, imagens, áudio e vídeo.</string>
   <string name="incoming_call_notifications_channel_name">Chamadas Recebidas</string>
-  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
+  <string name="incoming_call_notifications_channel_description">Notificações sobre chamadas recebidas</string>
   <string name="ping_notifications_channel_name">Pings</string>
-  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
+  <string name="ping_notifications_channel_description">Notificações quando outros usuários fazem ping em você</string>
   <string name="ongoing_channel_name">Notificações em segundo plano</string>
-  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
+  <string name="ongoing_channel_description">Notificações sobre processos em andamento ou ações secundárias, como chamadas ou salvamento de uma imagem</string>
   <string name="foreground_service_notification_name">Manter conexão com o servidor</string>
-  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
+  <string name="foreground_service_notification_description">Esta notificação é necessária para manter ativa a conexão com o servidor enquanto o Wire está em segundo plano e o Google Play Services não está instalado.</string>
   <string name="lockscreen__talk">ESTÁ CHAMANDO</string>
   <plurals name="notification__new_messages">
     <item quantity="one">Mensagem de %2$s</item>
@@ -668,8 +673,8 @@
   <!-- %1$s == username, %2$s == conversation -->
   <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
   <string name="notification__message__group__prefix__text">%1$s em %2$s: \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">\@ Mention from %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">\@ Mention from %1$s in %2$s: \u0020</string>
+  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
   <string name="notification__message__one_to_one__wanted_to_talk">Ligou</string>
   <string name="notification__message__one_to_one__pinged">Pingou</string>
   <string name="notification__message__one_to_one__shared_picture">Compartilhou uma imagem</string>
@@ -694,8 +699,8 @@
   <string name="notification__message__single__accept_request">Você e %1$s agora estão conectados</string>
   <string name="notification__message__group__default_conversation_name">conversa em grupo</string>
   <string name="notification__message__send_failed">Falha no envio da mensagem</string>
-  <string name="notification__message__ephemeral">Sent a message</string>
-  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
+  <string name="notification__message__ephemeral">Enviou uma mensagem</string>
+  <string name="notification__message_with_mention__ephemeral">Mencionou você</string>
   <string name="notification__message__liked">\u2764 \'%1$s\'</string>
   <string name="notification__message__liked_message">\u2764 sua mensagem</string>
   <string name="notification__message__liked_picture">\u2764 sua foto</string>
@@ -982,7 +987,7 @@
   <string name="tooltip_audio_message">Toque e segure para enviar um áudio</string>
   <string name="tooltip_file">Enviar arquivo</string>
   <string name="tooltip_gif">Gif</string>
-  <string name="tooltip_mention">Add Mention</string>
+  <string name="tooltip_mention">Adicionar Menção</string>
   <string name="new_feature">Novo</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Excluir apenas para mim?</string>
@@ -1083,8 +1088,8 @@
   <string name="search__no_results">Sem resultados.</string>
   <!-- Conversation List -->
   <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s message</item>
-    <item quantity="other">%1$s messages</item>
+    <item quantity="one">%1$s mensagem</item>
+    <item quantity="other">%1$s mensagens</item>
   </plurals>
   <plurals name="conversation_list__pings_count">
     <item quantity="one">%1$s ping</item>
@@ -1094,12 +1099,15 @@
     <item quantity="one">%1$s ♥</item>
     <item quantity="other">%1$s ♥</item>
   </plurals>
-  <string name="conversation_list__missed_calls_plural">%1$s chamadas perdidas</string>
+  <plurals name="conversation_list__missed_calls_plural">
+    <item quantity="one">%1$s chamada perdida</item>
+    <item quantity="other">%1$s chamadas perdidas</item>
+  </plurals>
   <string name="conversation_list__missed_calls_count">Chamada não atendida</string>
-  <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
+  <string name="conversation_list__missed_calls_count_group">Chamada perdida de %1$s</string>
   <plurals name="conversation_list__mentions_count">
-    <item quantity="one">%1$s mention</item>
-    <item quantity="other">%1$s mentions</item>
+    <item quantity="one">%1$s menção</item>
+    <item quantity="other">%1$s menções</item>
   </plurals>
   <string name="conversation_list__unsent_message_long">⚠ Mensagem não enviada</string>
   <string name="conversation_list__unsent_message_short">⚠</string>
@@ -1111,7 +1119,7 @@
   <string name="conversation_list__missed_call">Chamada não atendida</string>
   <string name="conversation_list__pinged">Pingou</string>
   <string name="conversation_list__ephemeral">Alguém mandou uma mensagem</string>
-  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
+  <string name="conversation_list__single_eph_and_mention">Mencionou você</string>
   <string name="conversation_list__group_eph_and_mention">Alguém mencionou você</string>
   <string name="conversation_list__typing">Digitando uma mensagem&#8230;</string>
   <string name="conversation_list__someone">Alguém</string>
