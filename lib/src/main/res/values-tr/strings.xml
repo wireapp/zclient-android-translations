@@ -27,7 +27,6 @@
   <string name="internet_connectivity_error_message">Lütfen internet bağlantınızı kontrol edin ve yeniden deneyin</string>
   <string name="too_many_attempts_header">Çok fazla deneme</string>
   <string name="login_later_message">Lütfen giriş yapmayı daha sonra tekrar deneyin</string>
-  <string name="register_again_message">Lütfen kaydolmayı tekrar deneyin</string>
   <string name="email_exists_header">E-posta adresi zaten kullanımda</string>
   <string name="email_exists_message">Bu e-posta adresi zaten kaydedildi</string>
   <string name="email_invalid_header">Geçersiz e-posta adresi</string>
@@ -45,8 +44,6 @@
   <string name="wrong_code_message">Lütfen geçerli bir kod girin</string>
   <string name="phone_pending_login_header">Kod Zaten Gönderildi</string>
   <string name="phone_pending_login_message">Size SMS ile bir kod zaten gönderdik. Yenisini almak için 10 dakika sonra Yeniden Gönder\'e basın.</string>
-  <string name="password_invalid_header">Geçersiz parola</string>
-  <string name="password_invalid_message">Lütfen bilgilerinizi doğrulayıp öyle tekrar deneyiniz</string>
   <string name="phone_budget_exhausted_header">Çok fazla istek</string>
   <string name="phone_budget_exhausted_message">Lütfen daha sonra tekrar dene.</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -71,48 +68,16 @@
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">Telefon numaranız</string>
   <!-- Receive email/sms invitation -->
-  <string name="invitation_email__normal_phone_signup_button">Telefon numarası ile kaydolun</string>
-  <string name="invitation_email__normal_email_signup_button">Başka bir e-posta ile kaydolun</string>
-  <string name="invitation_email__password_placeholder">Parola (en az %1$s karakter)</string>
-  <string name="invitation_email__welcome_header">Merhaba, %1$s.</string>
-  <string name="invitation_email__welcome_message">Hesabınızı oluşturmak için bir parola seçin.</string>
-  <string name="invitation__continue_button">Devam et</string>
-  <string name="invitation_phone__normal_phone_signup_button">Başka bir telefon numarası kullan</string>
-  <string name="invitation_phone__normal_email_signup_button">E-posta ile kaydolun</string>
-  <string name="invitation_phone__welcome_header">Merhaba, %1$s.</string>
-  <string name="invitation_phone__welcome_message">Hesabınızı oluşturmanıza bir adım kaldı.</string>
-  <string name="invitation__phone__failed">Bu davetiyeyle kayıt yapılamıyor.</string>
-  <string name="invitation__email__failed">Bu davetiyeyle kayıt yapılamıyor.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 SEARCH</string>
   <string name="pick_user_search_hint">SEARCH</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Sık görüşülenler</string>
-  <string name="people_picker__address_book_matches_title">Bağlan</string>
   <string name="people_picker__search_result_conversations_header_title">Gruplar</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Grup</string>
   <string name="people_picker__search_result_connections_header_title">Kişiler</string>
   <string name="people_picker__search_result_others_header_title">Bağlan</string>
-  <string name="people_picker__search_result_recommended_header_title">Önerilenler</string>
-  <string name="people_picker__search_result_contacts_header_title">Kişiler</string>
-  <string name="people_picker__search_result_team_members_header_title">Takım Üyeleri</string>
-  <string name="people_picker__invite_header_title">Davet et</string>
-  <string name="people_picker__confirm_button_title">Sohbet başlat</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">Gruba İnsanları Ekleyin</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Grup oluştur</string>
-  <string name="people_picker__error_message__no_results">Eşleşen sonuç yok.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts">Kişileri isimlerine veya e-posta adresine göre bul</string>
-  <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Lütfen geçerli bir e-posta adresi girin veya davetiye\ngönderin</string>
-  <string name="people_picker__error_message__no_results__shared_contacts__add_to_conversation">Farklı bir isim girin.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts__add_to_conversation">Farklı bir isim girin.</string>
-  <string name="people_picker__error_message__no_results__send_invite">davetiye\n gönder</string>
-  <string name="people_picker__error_message__no_users_to_add_to_conversation">Bağlı olduğunuz herkes zaten bu sohbette var.</string>
-  <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Kişilerinizden kimseyi Wire\'da bulamadık. Tam ad veya e-posta adresi girin.</string>
-  <string name="people_picker__toolbar_header__group">Kişi ekle</string>
-  <string name="people_picker__toolbar_header__one_to_one">Grup oluştur</string>
   <string name="people_picker__search_result__expander_title">%1$s\'nun tümünü göster →</string>
-  <string name="people_picker__guest_label">Misafir</string>
   <string name="people_picker__search_people">KİŞİLER</string>
   <string name="people_picker__search_services">SERVICES</string>
   <string name="receive_news_and_offers_request_title">Newsletter</string>
@@ -123,9 +88,6 @@
   <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Servisler</string>
-  <string name="integrations_picker__add">Add Service</string>
-  <string name="integrations_conv_bot">Bot</string>
-  <string name="integrations_chathead__section_title">Servisler</string>
   <string name="integrations_errors_add_service">Adding service not possible</string>
   <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
   <string name="conversation_errors_full">The conversation is full</string>
@@ -135,46 +97,18 @@
   <string name="people_picker__share_contacts__yay">İzin ver</string>
   <string name="people_picker__share_contacts__nah">Reddet</string>
   <string name="people_picker__share_contacts__nevvah">Bir daha sorma</string>
-  <!-- People you may know -->
-  <string name="people_picker__recommended__common_connections__one">%1$s kişisini tanıyor</string>
-  <string name="people_picker__recommended__common_connections__two">%1$s ve %2$s kişilerini tanıyor</string>
-  <plurals name="people_picker__recommended__common_connections__more">
-    <item quantity="one">%1$s ve %2$d kadar başkasını tanıyor</item>
-    <item quantity="other">%1$s ve %2$d kadar başkasını tanıyor</item>
-  </plurals>
-  <string name="people_picker__recommended__common_connections__hide">GİZLE</string>
   <!-- Invite -->
-  <string name="people_picker__invite__share_details_label">Davetiye gönder</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Wire\'ı arkadaşlarınızla paylaşın.</string>
   <string name="people_picker__invite__share_text__header">%1$s Wire üzerinde bağlanmak istiyor</string>
   <string name="people_picker__invite__share_text__body">Wire\'dayım, %1$s olarak arat ya da get.wire.com adresini ziyaret et</string>
-  <string name="people_picker__invite__message">Selam,\nDavetiye için teşekkürler. Hadi bağlanalım.\n%1$s</string>
-  <string name="people_picker__invite__sent_feedback">Davet gönderildi</string>
-  <string name="people_picker__contact_list__user_selection_button__label">AÇ</string>
-  <string name="people_picker__contact_list__user_adding_button__label">EKLE</string>
-  <string name="people_picker__contact_list__contact_selection_button__label">DAVET ET</string>
-  <string name="people_picker__contact_list__invite_dialog__title">Davetiye gönder</string>
-  <string name="people_picker__contact_list__searchbox__hint">\u0020 İSİMLE ARA</string>
-  <string name="people_picker__generic_invite_button_text">İnsanları Wire\'a katılmaya davet et</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="one">%1$d ortak kişi</item>
-    <item quantity="other">%1$d ortak kişi</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">Kişilerde %1$s</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">Kişilerde</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">AÇ</string>
-  <string name="conversation_quick_menu__conversation_button__group_label">GRUP OLUŞTUR</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_joined">[[%1$s]] joined</string>
   <string name="content__system__you_joined">[[You]] joined</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
   <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
-  <string name="content__system__message_deleted">Bu mesaj silindi</string>
-  <string name="content_system_message_timestamp_failure">Gönderilmemiş mesaj.</string>
-  <string name="content_system_message_timestamp_pending">Gönderiliyor\u2026</string>
-  <string name="content_system_message_timestamp_deleted">%1$s saatinde silindi</string>
   <!-- Add people -->
   <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
   <plurals name="content__system__someone_added_people_with_others">
@@ -182,7 +116,6 @@
     <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
   </plurals>
   <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
-  <string name="content__system__someone_added_people_and_you">[[%1$s]] added %2$s and you to the conversation</string>
   <plurals name="content__system__someone_added_people_and_you_with_others">
     <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
     <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
@@ -201,8 +134,6 @@
   <!-- Create conversation -->
   <string name="content__system__you_started_conversation">You started the conversation</string>
   <string name="content__system__other_started_conversation">%1$s started the conversation</string>
-  <string name="content__system__you_started_one">[[Sen]], %2$s ile bir sohbet başlattın</string>
-  <string name="content__system__other_started_one">[[%1$s]] sizinle bir sohbet başlattı</string>
   <string name="content__system__with_you_only">with you</string>
   <string name="content__system__with_list_only">with %1$s</string>
   <plurals name="content__system__with_others_only">
@@ -220,8 +151,6 @@
   <string name="content__you_pinged">[[SEN]] SESLENDİN</string>
   <string name="content__xxx_pinged">[[%1$s]] SESLENDİ</string>
   <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__conversation_verified">Sohbet doğrulandı</string>
-  <string name="content__otr__conversation_unverified">Sohbet doğrulanmadı</string>
   <string name="content__otr__message_error">[[%1$s]] KİŞİSİNİN GÖNDERDİĞİ BİR MESAJ ALINAMADI. _NEDEN?_</string>
   <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] KİŞİSİNİN CİHAZ KİMLİĞİ DEĞİŞTİ. TESLİM EDİLEMEYEN MESAJ. _DAHASINI ÖĞRENİN_</string>
@@ -257,13 +186,11 @@
   <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · YÜKLEME BAŞARISIZ</string>
   <string name="content__file__action__open">AÇ</string>
   <string name="content__file__action__save">KAYDET</string>
-  <string name="content__file__action__share">PAYLAŞ</string>
   <string name="content__file__action__open__no_app_found">Bu dosya türünü açacak uygulama bulunamadı</string>
   <string name="content__file__action__save_completed">Dosya başarıyla kaydedildi</string>
   <string name="content__file__action__save_error">Dosya kaydedilemiyor</string>
   <string name="content__location__no_map_placeholder">YENİDEN ÇEVRİMİÇİ OLDUĞUNDA KONUM HARİTADA GÖRÜNECEK.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">Yeniden adlandır</string>
   <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Arşivle</string>
   <string name="conversation__action__unarchive">Arşivden kaldır</string>
@@ -273,7 +200,6 @@
   <string name="conversation__action__silence">Sustur</string>
   <string name="conversation__action__unsilence">Sesi aç</string>
   <string name="conversation__action__leave">Leave group&#8230;</string>
-  <string name="conversation__action__remove">Kaldır</string>
   <string name="conversation__action__call">Ara</string>
   <string name="conversation__action__picture">Resim</string>
   <string name="conversation__action__block">Block&#8230;</string>
@@ -287,10 +213,6 @@
   <string name="conversation__action__notifications_nothing">Nothing</string>
   <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
-  <string name="popover__action__open">AÇ</string>
-  <string name="popover__action__remove">SİL</string>
-  <string name="popover__action__block">ENGELLE</string>
-  <string name="popover__action__profile">PROFİL</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Yavaş İnternet</string>
   <string name="calling__slow_connection__message">İnternet bağlantınız arama yapmak için çok yavaş. Lütfen daha sonra yeniden deneyin.</string>
@@ -299,19 +221,12 @@
   <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
   <string name="calling__cannot_start__cancel__message">İPTAL ET</string>
   <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
-  <string name="calling__cannot_start__ongoing_different_kind__title">%1$s meşgul</string>
-  <string name="calling__cannot_start__ongoing_different_kind__message">Daha sonra yeniden deneyin</string>
-  <string name="calling__cannot_start__button_settings">AYARLAR</string>
   <string name="calling__video_call__slow_connection__message">Arama sırasında sorunlarla karşılaşabilirsiniz</string>
-  <string name="incoming__controls__incoming__decline">REDDET</string>
-  <string name="incoming__controls__incoming__accept">KABUL ET</string>
-  <string name="incoming__controls__ongoing__hangup">KAPAT</string>
   <string name="incoming__controls__ongoing__speaker">HOPARLÖR</string>
   <string name="incoming__controls__ongoing__mute">SESSİZE AL</string>
   <string name="incoming__controls__ongoing__video">VİDEO</string>
   <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">KÖTÜ BAĞLANTI NEDENİYLE GÖRÜNTÜ DURDU</string>
-  <string name="calling__self_preview_unavailable">KAMERA KAPALI</string>
   <string name="calling__self_preview_unavailable_long">KAMERA KULLANILAMIYOR</string>
   <string name="calling__header__joining">Bağlanıyor&#8230;</string>
   <string name="calling__header__outgoing_subtitle">Çalıyor&#8230;</string>
@@ -338,10 +253,6 @@
   <string name="group_calling_confirm">Ara</string>
   <!-- Connect request -->
   <string name="connect__message">Selam %1$s,\nHadi Wire üzerinden bağlanalım.\n%2$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="one">%1$d ortak kişi</item>
-    <item quantity="other">%1$d ortak kişi</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">Beklemede</string>
   <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
   <string name="connect_request__unblock__button__text">Engeli kaldır</string>
@@ -364,8 +275,6 @@
     <item quantity="one">Hâlâ mesajınızı göndermek istiyor musunuz?</item>
     <item quantity="other">Hâlâ mesajlarınızı göndermek istiyor musunuz?</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Aramayı kabul etmek istiyor musunuz?</string>
-  <string name="conversation__degraded_confirmation__place_call">Hala aramayı istiyor musunuz?</string>
   <string name="conversation__degraded_confirmation__positive_action">Yine de gönder</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Cihazı göster</item>
@@ -373,27 +282,14 @@
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Cihazlarını göster</string>
   <string name="conversation_degraded_confirmation__header__you">Sen</string>
-  <!-- Profile and Participants -->
-  <plurals name="participants__sub_header_xx_people">
-    <item quantity="one">%1$d KİŞİ</item>
-    <item quantity="other">%1$d KİŞİ</item>
-  </plurals>
-  <string name="group_name">Grup adı</string>
   <!-- Picture selection confirmation -->
   <string name="confirmation_menu__confirm_done">TAMAM</string>
   <string name="confirmation_menu__cancel">İPTAL ET</string>
   <!-- ADD TO CONVERSATION offline -->
-  <string name="conversation__add_user__no_network__title">Internet bağlantısı yok</string>
-  <string name="conversation__add_user__no_network__message">Kişi ekleyebilmek için çevrimiçi olmanız gerekiyor. Çevrimiçi olduğunuzda yeniden deneyeceğiz.</string>
-  <string name="conversation__add_user__no_network__button">TAMAM</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <string name="conversation__create_group_conversation__no_network__title">Internet bağlantısı yok</string>
-  <string name="conversation__create_group_conversation__no_network__message">Bir sohbet oluşturabilmek için çevrimiçi olmanız gerekir. Diğer kişiler yeniden çevrimiçi olduğunuzda değişikliklerinizi görecektir.</string>
-  <string name="conversation__create_group_conversation__no_network__button">TAMAM</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">Sohbetten ayrıl?</string>
   <string name="confirmation_menu__meta_remove_text">Bu sohbetteki mesajları göremeyecek ve buraya artık mesaj gönderemeyeceksin.</string>
-  <string name="confirmation_menu__confirm_leave">AYRIL</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Remove from conversation dialogue -->
   <string name="confirmation_menu__header">Sil?</string>
@@ -409,61 +305,31 @@
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">İçerik silinsin?</string>
   <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
-  <string name="confirmation_menu__confirm_delete">SİL</string>
-  <string name="confirmation_menu__delete_conversation__checkbox__label">Sohbetten de ayrıl</string>
   <!-- Rich media -->
   <string name="content__youtube__error__text">video bulunamadı</string>
-  <string name="mediaplayer__artist__placeholder">Ses parçası</string>
-  <string name="mediaplayer__artist__error">Ses parçası kullanılamıyor</string>
   <string name="mediaplayer__message__onsoundcloud">SoundCloud\'da</string>
   <string name="mediaplayer__message__onspotify">Spotify\'da</string>
-  <string name="mediaplayer__spotify__hint">Spotify ile bağlan</string>
-  <string name="mediaplayer__open_external">Tarayıcıda aç</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">ÇEVRENDEKİLERE DUYUR!</string>
-  <string name="content__invite_banner__subtitle">Kişi ekle veya sohbetin bağlantısını paylaş.</string>
-  <string name="content__invite_banner__howto_link">Bu nasıl çalışır?</string>
-  <string name="content__invite_banner__button_label">Bu sohbete kişi ekle</string>
   <!-- Self profile -->
-  <string name="self_name">Tam adınız</string>
-  <string name="self_add_email">E-posta \u0026 parola</string>
-  <string name="self_verify_email">E-postayı doğrula</string>
-  <string name="self_add_phone">Telefon numarası ekleyin</string>
-  <string name="self_verify_phone">Telefon numarasını doğrula</string>
   <!-- Options and settings -->
   <string name="settings_title">Ayarlar</string>
   <!-- Options menu -->
-  <string name="menu_settings">AYARLAR</string>
-  <string name="menu_avs_settings">AVS AYARLARI</string>
-  <string name="menu_about">HAKKINDA</string>
-  <string name="menu_tutorial">EĞİTİM</string>
-  <string name="menu_help">YARDIM</string>
-  <string name="menu_logout">ÇIKIŞ YAP</string>
   <!-- Manage Team -->
   <string name="pref_manage_team_title">Takımı Yönet</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">Gizlilik Politikası</string>
-  <string name="about_third_party_licences">Lisanslar</string>
-  <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">Kullanım Şartları</string>
-  <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Ayarlar</string>
   <string name="pref_developer_screen_title">Geliştirici Ayarları</string>
   <string name="pref_dev_avs_screen_title">AVS Ayarları</string>
   <string name="pref_profile_screen_title">Profil</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Hesap</string>
-  <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Ad</string>
   <string name="pref_account_edit_name_title">Adı Düzenle</string>
   <string name="pref_account_details_category_title">Bilgi</string>
   <string name="pref_account_actions_category_title">Eylemler</string>
-  <string name="pref_account_personal_category_title">Kişisel</string>
   <string name="pref_account_appearance_category_title">Görünüm</string>
   <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">History</string>
-  <string name="pref_account_details_category_summary">İnsanlar sizi bu bilgiler ile bulabilirler.</string>
-  <string name="pref_account_personal_category_summary">Bu bilgi başka kimseye görünür değil</string>
   <string name="pref_account_username_title">Kullanıcı Adı</string>
   <string name="pref_account_phone_title">Telefon</string>
   <string name="pref_account_add_phone_title">Telefon numarası ekleyin</string>
@@ -507,7 +373,6 @@
   <string name="pref_options_sounds_none">Hiçbiri</string>
   <string name="pref_options_vibration_title">Titreşim</string>
   <string name="pref_options_vibration_title_o">Vibrate on ring</string>
-  <string name="pref_options_sounds_category_title">Uyarılar</string>
   <string name="pref_options_ringtones_category_title">Sesler</string>
   <string name="pref_options_ringtones_ringtone_title">Arama zil sesi</string>
   <string name="pref_options_ringtones_text_title">Mesaj sesi</string>
@@ -523,9 +388,6 @@
   <string name="pref_options_cursor_send_button_summary">Klavye ile göndermeyi devre dışı bırak.</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Cihazlar</string>
-  <string name="pref_current_device_category_title">Şu anki cihaz</string>
-  <string name="pref_other_devices_category_title">Aktif cihazlar</string>
-  <string name="pref_devices_summary">Silmek için dokunun</string>
   <string name="pref_devices_current_device_category_title">Şu anki cihaz</string>
   <string name="pref_devices_other_devices_category_title">Diğer Cihazlar</string>
   <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
@@ -538,7 +400,6 @@
   <string name="pref_devices_device_fingerprint_category_title">Anahtar Parmak İzi</string>
   <string name="pref_devices_device_fingerprint_summary">Wire her cihaza kendine has bir parmak izi verir. Cihazlarınızı ve konuşmalarınızı doğrulamak için parmak izlerinizi karşılaştırın.</string>
   <string name="pref_devices_device_actions_category_title">Eylemler</string>
-  <string name="pref_devices_device_trust_title">Doğrulandı</string>
   <string name="pref_devices_device_reset_session_title">Oturumu sıfırla</string>
   <string name="pref_devices_device_reset_session_summary">Parmak izleri eşleşmezse, her iki tarafta da yeni şifreleme anahtarları oluşturmak için oturumu sıfırlayın.</string>
   <string name="pref_devices_device_remove_title">Cihazı Kaldır</string>
@@ -549,8 +410,6 @@
   <string name="pref_advanced_screen_title">Gelişmiş</string>
   <string name="pref_advanced_debug_report_title">Hata raporu gönder</string>
   <string name="pref_advanced_debug_report_summary">Böylece Wire Destek Birimi, problemleri daha kolay tespit edebilir.</string>
-  <string name="pref_advanced_analytics_title">Kullanım ve kilitlenme raporları</string>
-  <string name="pref_advanced_analytics_summary">Anonim bilgiler göndererek Wire\'ın kendini geliştirmesine katkı sağlayabilirsiniz.</string>
   <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">Eğer anlık bildirimler ile sorun yaşıyorsanız, Wire Destek sizden jetonu sıfırlamanızı isteyebilir.</string>
   <string name="pref_advanced_reset_push_completed">Anlık Belirteş sıfırlandı</string>
@@ -600,72 +459,33 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Kaldır</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">%s\'ı Wire hesabınızdan kaldırmak istediğinize emin misiniz?</string>
   <string name="pref__account_action__dialog__delete_phone__error">Telefon numarası silinemiyor</string>
-  <string name="pref__account_action__dialog__delete_email__error">E-posta silinemiyor</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">E-postanızı kaldırmak için çevrimiçi olmanız gerekir</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Telefonunuzu kaldırmak için çevrimiçi olmanız gerekir</string>
-  <string name="pref__account_action__dialog__change_email__error__invalid_email">Geçerli e-posta girin</string>
   <string name="pref__account_action__dialog__change_email__title">E-posta adresini düzenle</string>
-  <string name="pref__account_action__dialog__change_username__summary">Bu kullanıcı adı ile insanlar sizi Wire\'da e-posta adresinizi veya telefon numaranızı bilmeye ihtiyaç duymadan bulabilecekler.</string>
   <string name="pref__account_action__dialog__change_username__rules">En az 2 karakter. a-z, 0-9, ve yalnızca _</string>
   <string name="pref__account_action__dialog__change_username__title">Kullanıcı Adı</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">Çoktan alınmış</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Bağlantı hatası, lütfen tekrar deneyiniz</string>
   <!-- No Internet connection -->
   <string name="system_status__no_internet">INTERNET YOK</string>
-  <string name="system_status__no_server_connection">BAĞLANIYOR&#8230;</string>
   <!-- SHARING -->
-  <string name="system_status__sharing">BİR KONUŞMA SEÇİN</string>
   <string name="alert_dialog__confirmation">TAMAM</string>
   <string name="alert_dialog__no_network__header">İnternet bağlantısı yok</string>
-  <string name="sign_up__no_internet__message">Katılmak için çevrimiçi olmanız gerekir. Bağlantınızı kontrol edin ve yeniden deneyin.</string>
-  <string name="sign_in__no_internet__message">Oturum açmak için çevrimiçi olmanız gerekir. Bağlantınızı kontrol edin ve yeniden deneyin.</string>
-  <string name="sign_up__take_picture__back">Adı Düzenle</string>
-  <string name="sign_up__take_picture_dialog__gallery">Galeri</string>
-  <string name="sign_up__take_picture_dialog__camera">Kamera</string>
-  <string name="sign_up__take_picture_dialog__message">Yeni bir fotoğraf çekin veya galeriden bir fotoğraf seçin.</string>
-  <string name="sign_up__take_picture_dialog__title">Fotoğraf çek</string>
   <string name="sign_up__set_picture__choose">Kendininkini seç</string>
   <string name="sign_up__set_picture__keep">Bunu sakla</string>
   <string name="sign_up__set_picture__guidance">Wire bir fotoğrafla çok daha iyi.</string>
   <string name="sign_up__set_picture__loading">Fotoğraf yükleniyor</string>
-  <string name="rename_conversation__no_network__message">Bir konuşmayı yeniden adlandırmak için çevrimiçi olmanız gerekir. Bağlantınızı kontrol edin ve yeniden deneyin.</string>
-  <string name="resend_message__no_network__message">İletiyi yeniden göndermek için çevrimiçi olmanız gerekir. Bağlantınızı kontrol edin ve yeniden deneyin.</string>
   <string name="leave_conversation_failed__message">Konuşmadan ayrılmak için çevrimiçi olmanız gerekir. Bağlantınızı kontrol edin ve yeniden deneyin.</string>
   <string name="remove_from_conversation__no_network__message">İnsanları konuşmalardan çıkarmak için çevrimiçi olmanız gerekir. Bağlantınızı kontrol edin ve yeniden deneyin.</string>
   <string name="calling__call_drop__message">Arama yapmak için çevrimiçi olmanız gerekir. Bağlantınızı kontrol edin ve yeniden deneyin.</string>
-  <string name="profile_pic__no_network__message">Resminizi değiştirmek için çevrimiçi olmanız gerekir. Bağlantınızı kontrol edin ve yeniden deneyin.</string>
-  <string name="calling__voice_channel_full__title">Çağrı dolu</string>
-  <plurals name="calling__voice_channel_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Burada sadece %1$d kişilik yer var.</item>
-    <item quantity="other">Burada sadece %1$d kişilik yer var.</item>
-  </plurals>
-  <string name="calling__conversation_full__title">Aramak için çok insan var</string>
-  <plurals name="calling__conversation_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Aramalar %1$d kişiye kadar yapılabilir.</item>
-    <item quantity="other">Aramalar %1$d kişiye kadar yapılabilir.</item>
-  </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Mesajlar</string>
   <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Pings</string>
   <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Background notifications</string>
   <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
   <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <string name="lockscreen__talk">ARIYOR</string>
-  <plurals name="notification__new_messages">
-    <item quantity="one">%2$s mesaj gönderdi</item>
-    <item quantity="other">%2$s, %1$d mesaj gönderdi</item>
-  </plurals>
-  <plurals name="notification__new_messages_groups">
-    <item quantity="one">%2$s grubunda mesaj</item>
-    <item quantity="other">%2$s grubunda %1$d mesaj</item>
-  </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="one">%2$s sohbette mesaj</item>
     <item quantity="other">%2$s sohbette %1$d mesaj</item>
@@ -682,20 +502,11 @@
   <string name="notification__message__one_to_one__shared_video">Bir video paylaştı</string>
   <string name="notification__message__one_to_one__shared_audio">Bir sesli mesaj paylaştı</string>
   <string name="notification__message__one_to_one__shared_location">Bir konum paylaştı</string>
-  <string name="notification__message__one_to_one__liked">Mesajınızı \u2764</string>
   <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%2$s %1$s: \u0020</string>
-  <string name="notification__message__group__pinged">seslendi</string>
-  <string name="notification__message__group__shared_picture">bir resim paylaştı</string>
-  <string name="notification__message__group__shared_file">bir dosya paylaştı</string>
-  <string name="notification__message__group__shared_video">bir video paylaştı</string>
-  <string name="notification__message__group__shared_audio">bir sesli mesaj paylaştı</string>
-  <string name="notification__message__group__shared_location">bir konum paylaştı</string>
   <string name="notification__message__group__renamed_conversation">sohbet %1$s olarak yeniden adlandırıldı</string>
   <string name="notification__message__group__add">sohbete kişi ekledi</string>
   <string name="notification__message__group__remove">kişileri sohbetten çıkardı</string>
-  <string name="notification__message__generic__accept_request">Yeni bir bağlantın var</string>
   <string name="notification__message__single__accept_request">Sen ve %1$s artık bağlısınız</string>
   <string name="notification__message__group__default_conversation_name">grup sohbeti</string>
   <string name="notification__message__send_failed">Mesaj gönderilemedi</string>
@@ -704,10 +515,8 @@
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">Mesajınızı \u2764</string>
   <string name="notification__message__liked_picture">Senin fotoğrafını \u2764</string>
-  <string name="notification__message__liked_file">Senin dosyanı \u2764</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_someone">Birisi</string>
-  <string name="notification__message__ephemeral_details">Dahası için tıklayın</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Birisi size mesaj gönderdi</item>
     <item quantity="other">Birisi size %1$d mesaj gönderdi</item>
@@ -726,16 +535,9 @@
     <item quantity="other">%1$s others</item>
   </plurals>
   <!-- System notifications -->
-  <string name="system_notification__group_call_title">%2$s içinden %1$s</string>
   <string name="system_notification__silence_call">Reddet</string>
   <string name="system_notification__join_call">Kabul et</string>
   <string name="system_notification__leave_call">Çağrıyı sonlandır</string>
-  <string name="system_notification__outgoing">Aranıyor</string>
-  <string name="system_notification__outgoing_video">Görüntülü aranıyor</string>
-  <string name="system_notification__incoming">arıyor</string>
-  <string name="system_notification__incoming_video">Is calling with video</string>
-  <string name="system_notification__ongoing">Meşgul</string>
-  <string name="number_of_conversations_string">ARŞİV</string>
   <string name="system_notification__calling_one">Arıyor&#8230;</string>
   <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
@@ -757,7 +559,6 @@
   <string name="notification__image_saving__action__share">Paylaş</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
   <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <string name="notification__file_saving__content__title">Wire dosyası kaydedildi.</string>
   <!-- forced update -->
   <string name="forced_update__header">Önemli güncelleme</string>
   <string name="forced_update__sub_header">Lütfen Wire\'ın son sürümünü yükleyin.</string>
@@ -765,17 +566,9 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Sharing -->
   <string name="sharing__image_preview__confirm_action">GÖNDER</string>
-  <string name="sharing__image_preview__title__single">_%1$s_\n KİŞİSİNE 1 RESİM GÖNERİLİYOR</string>
-  <string name="sharing__image_preview__title__multiple">_%2$s_\n KİŞİSİNE %1$s RESİM GÖNDERİLİYOR</string>
   <string name="sharing__user_not_logged_in__dialog__title">Lütfen giriş yapın</string>
   <string name="sharing__user_not_logged_in__dialog__message">Wire\'ı aç ve paylaşmak için giriş yap.</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">TAMAM</string>
-  <string name="sharing__files__ok">Paylaş</string>
-  <string name="sharing__files__cancel">İptal</string>
-  <plurals name="sharing__files__message">
-    <item quantity="one">%1$d adet dosyayı %2$s ile paylaşmak üzeresin.</item>
-    <item quantity="other">%1$d dosyalarını %2$s ile paylaşmak üzeresin.</item>
-  </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">Oluşturulamıyor</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">%1$s ile sohbet oluşturulamadı</string>
@@ -785,30 +578,9 @@
   <string name="in_app_notification__sync_error__create_convo__button">Devam et</string>
   <!--Timestamp formatting -->
   <string name="timestamp__just_now">Hemen şimdi</string>
-  <string name="timestamp__a_minute_ago">Bir dakika önce</string>
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="one">%1$d dakika önce</item>
     <item quantity="other">%1$d dakika önce</item>
-  </plurals>
-  <plurals name="timestamp__x_hours_ago">
-    <item quantity="one">%1$d saat önce</item>
-    <item quantity="other">%1$d saat önce</item>
-  </plurals>
-  <plurals name="timestamp__x_days_ago">
-    <item quantity="one">%1$d gün önce</item>
-    <item quantity="other">%1$d gün önce</item>
-  </plurals>
-  <plurals name="timestamp__x_weeks_ago">
-    <item quantity="one">%1$d hafta önce</item>
-    <item quantity="other">%1$d hafta önce</item>
-  </plurals>
-  <plurals name="timestamp__x_months_ago">
-    <item quantity="one">%1$d ay önce</item>
-    <item quantity="other">%1$d ay önce</item>
-  </plurals>
-  <plurals name="timestamp__x_years_ago">
-    <item quantity="one">%1$d yıl önce</item>
-    <item quantity="other">%1$d yıl önce</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -820,25 +592,17 @@
   <!-- Example: MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- MONDAY -->
-  <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MARCH 2 -->
-  <string name="timestamp_pattern__separator_header__this_year">MMMM d</string>
   <!-- MARCH 2, 2015 -->
-  <string name="timestamp_pattern__separator_header__last_year">MMMM d, YYYY</string>
-  <string name="timestamp_pattern__separator_header__today">Bugün</string>
-  <string name="timestamp_pattern__separator_header__yesterday">Dün</string>
   <!-- 23:15 -->
   <string name="timestamp_pattern__24h_format">HH:mm</string>
   <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="reg__phone_alert__button">TAMAM</string>
   <string name="country">Ülke</string>
   <string name="register">Üye ol</string>
   <string name="password_placeholder">Parola</string>
   <string name="email_placeholder">E-posta</string>
   <string name="name_placeholder">İsim</string>
-  <string name="registration_back">Geri</string>
   <!-- Strings -->
   <string name="edit_phone_number">TELEFON NUMARASINI DÜZENLE</string>
   <string name="i_have_an_account">OTURUM AÇ</string>
@@ -851,10 +615,8 @@
   <string name="activation_code_info_manual">\n&lt;b&gt;%s&lt;/b&gt; \'a gönderdiğimiz doğrulama kodunu gir;</string>
   <string name="enter_name">Size nasıl seslenmeliyiz?</string>
   <string name="enter_name_hint">Tam İsminizi Girin</string>
-  <string name="set_a_picture">Resmi Ayarla</string>
   <string name="new_reg__password__forgot">Şifrenizi mi Unuttunuz?</string>
   <string name="phone_sign_in">Telefon</string>
-  <string name="go_to_register">Hesap Oluştur</string>
   <string name="email_sign_in">E-posta</string>
   <string name="edit_email">E-posta Adresini Düzenle</string>
   <string name="hello">Merhaba, &lt; b &gt;%s &lt; /b &gt;</string>
@@ -863,8 +625,6 @@
   <string name="username__set__toast_error">Kullanıcı adı belirlenirken hata oluştu</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Giphy\'de ara</string>
-  <string name="giphy_preview__title_search">#%s</string>
-  <string name="giphy_preview__title_random">RASTGELE</string>
   <string name="giphy_preview__error">GIF BULUNAMADI.</string>
   <string name="giphy_preview__message_via_random_trending">Giphy.com aracılığıyla</string>
   <string name="giphy_preview__message_via_search">%s · giphy.com aracılığıyla</string>
@@ -872,7 +632,6 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">FIRÇA BOYUTUNU DEĞİŞTİRMEK İÇİN RENGE DOKUNUN.\n\nFOTOĞRAFLARI KALDIRMAK İÇİN TELEFONU SALLAYIN.</string>
   <string name="drawing__tip__message">FIRÇA BOYUTUNU DEĞİŞTİRMEK İÇİN RENGE DOKUNUN.\n\nALANI BOYA İLE DOLDURMAK İÇİN EKRANA BASILI TUTUN.</string>
-  <string name="add_a_sketch">Çizim ekle</string>
   <string name="sketch__emoji_keyboard__size_label__small">KÜÇÜK</string>
   <string name="sketch__emoji_keyboard__size_label__medium">ORTA</string>
   <string name="sketch__emoji_keyboard__size_label__large">BÜYÜK</string>
@@ -896,8 +655,6 @@
   <string name="otr__remove_device__button_delete">TAMAM</string>
   <string name="otr__remove_device__button_cancel">İptal</string>
   <string name="otr__remove_device__error">Yanlış parola</string>
-  <string name="otr__remove_device__button_approve">TAMAM</string>
-  <string name="otr__remove_device__button_remove">Kaldır</string>
   <string name="otr__error_dialog__cannot_register__message">Wire\'ı bu cihazda kullanmak için diğer cihazlarınızdan birini silin.</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Cihazları yönet</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Çıkış yap</string>
@@ -921,32 +678,18 @@
   <string name="otr__first_launch__header">Wire\'ı bu cihazda ilk defa kullanıyorsunuz.</string>
   <string name="otr__first_launch__sub_header">Gizlilik nedenleriyle, konuşma geçmişiniz burada görünmeyecek.</string>
   <string name="otr__first_launch__button">TAMAM</string>
-  <string name="otr__device_approve__header">Wire hesabınuza bir cihaz bağladınız.</string>
-  <string name="otr__device_approve__note">Eğer bunu yapan siz değilseniz, cihazı silin ve şifrenizi sıfırlayın.</string>
   <string name="otr__signin__info_text">Giriş yapın</string>
   <string name="otr__reset_session__message_ok">Oturum sıfırlandı</string>
   <string name="otr__reset_session__message_fail">Oturum sıfırlanamadı</string>
   <string name="otr__reset_session__button_ok">TAMAM</string>
   <string name="otr__reset_session__button_fail">Tekrar deneyin</string>
-  <string name="otr__remove_device__no_internet__title">İnternet Bağlantısı Yok</string>
-  <string name="otr__remove_device__no_internet__message">Cihazı silmeyi yeniden çevrimiçi olduğunuzda tekrar deneyin.</string>
-  <string name="otr__remove_device__no_internet__button">TAMAM</string>
-  <string name="otr__device_inbox__header">Hesabınızın kullanıldığı cihazlar:</string>
-  <string name="otr__device_inbox__name">Gönderen: [[%s]]</string>
   <string name="advanced_image_download_wifi_info">Tekrar Wi-Fi\'a bağlandığınızda resim gözükecektir</string>
   <string name="change_settings">Ayarları Değiştir</string>
-  <string name="single_image__save_to_disk__error">Resim kaydedilemedi, harici depolamaya erişim yok</string>
-  <string name="conversation_list__label_action__contacts">KİŞİLER</string>
-  <string name="conversation_list__hint_header">Sohbetler buradan başlar</string>
-  <string name="conversation_list__hint_text">Bir konuşma başlatın. Özel konuşmada veya gruplarda arama yapın, mesajlaşın ve paylaşın.</string>
   <string name="conversation_list__action_join_call">KATIL</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Koleksiyon</string>
   <string name="conversation_toolbar__call_video">Görüntülü arama</string>
   <string name="conversation_toolbar__call_audio">Sesli arama</string>
-  <string name="conversation_toolbar__delete">Sil</string>
-  <string name="conversation_toolbar__copy">Kopyala</string>
-  <string name="conversation_toolbar__fwd">Paylaş</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Dosya bulunamadı</string>
   <string name="asset_upload_error__not_found__message">Belirtilen dosya alınamıyor</string>
@@ -958,17 +701,8 @@
   <string name="asset_upload_warning__large_file__title">Wi-Fi\'ye bağlı değilsiniz</string>
   <string name="asset_upload_warning__large_file__message_default">Mobil ağ üzerinden büyük boyutlu bir dosya göndermek istediğinizden emin misiniz?</string>
   <string name="asset_upload_warning__large_file__message">Mobil ağ üzerinden %1$s göndermek istediğinize emin misiniz?</string>
-  <string name="asset_upload_warning__large_file__button_accept">TAMAM</string>
-  <string name="asset_upload_warning__large_file__button_cancel">İptal</string>
   <!-- Video message errors -->
-  <string name="video_message_error__too_big__title">Video boyutu çok büyük</string>
-  <string name="video_message_error__too_big__message">En fazla 25 MB büyüklüğünde video gönderebilirsin.</string>
-  <string name="video_message_error__title">Video hatası</string>
-  <string name="video_message_error__message">Video dosyası işlenemiyor</string>
-  <string name="video_message_error__button">TAMAM</string>
-  <string name="video_message_error__missing_camera_permissions">Video mesajları göndermek için kamera ve medya dosyalarına erişim izni ver.</string>
   <string name="audio_message_error__missing_audio_permissions">Sesli mesaj göndermek için ses kaydedilmesine izin ver.</string>
-  <string name="audio_message_error__generic">Ses oynatılamıyor</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">SABİT BİT HIZI</string>
   <!-- no contacts -->
@@ -988,7 +722,6 @@
   <string name="tooltip_file">Dosya Gönder</string>
   <string name="tooltip_gif">GIF</string>
   <string name="tooltip_mention">Add Mention</string>
-  <string name="new_feature">Yeni</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Sadece benim için sil?</string>
   <string name="conversation__message_action__delete_for_everyone">Herkesten sil?</string>
@@ -1002,9 +735,6 @@
   <string name="conversation__action_mode__fwd__dialog__message">Lütfen bekleyin&#8230;</string>
   <string name="conversation__action_mode__fwd__chooser__title">Paylaş</string>
   <!-- video message preview -->
-  <string name="video_message__preview__header">Gönder: %1$s</string>
-  <string name="video_message__quick_menu__send_label">Gönder</string>
-  <string name="video_message__preview__compressing">SIKIŞTIRILIYOR&#8230;</string>
   <string name="audio_message__recording__slide_control__slide_hint">GÖNDERMEK İÇİN YUKARI KAYDIRIN</string>
   <string name="audio_message__recording__slide_control__tap_hint">GÖNDERMEK İÇİN DOKUNUN</string>
   <string name="audio_message__recording__tap_to_record">Mesaj kaydetmek için dokunun\nbundan sonra _GLYPH_ yapabilirsiniz</string>
@@ -1024,7 +754,6 @@
   <string name="message_bottom_menu_action_delete">Sil</string>
   <string name="message_bottom_menu_action_delete_local">Benim için sil</string>
   <string name="message_bottom_menu_action_delete_global">Herkesten sil</string>
-  <string name="message_bottom_menu_action_forward_multiple">Birçok kişiyle paylaş</string>
   <string name="message_bottom_menu_action_reveal">Konuşmada göster</string>
   <string name="likes_list__header">Beğenen</string>
   <string name="message_bottom_menu_action_save_ok">Resim kaydedildi</string>
@@ -1042,7 +771,6 @@
   <string name="usernames__take_over__summary">Wire üzerinden hemen size özel isminizi alın! _Daha fazla bilgi._</string>
   <string name="usernames__take_over__choose">KENDİNİZİNKİNİ SEÇİN</string>
   <string name="usernames__take_over__keep">BUNU SAKLA</string>
-  <string name="pref_account_username_empty_title">Kullanıcı adı ekle</string>
   <string name="ephemeral_message__timeout__off">Kapalı</string>
   <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
   <string name="guests_option_on">On</string>
@@ -1072,17 +800,14 @@
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
   <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
-  <string name="collection_header_all">KOLEKSİYON</string>
   <string name="collection_header_pictures">RESİMLER</string>
   <string name="collection_header_files">DOSYALAR</string>
   <string name="collection_header_links">BAĞLANTILAR</string>
   <string name="collection_header_today">BUGÜN</string>
   <string name="collection_header_yesterday">DÜN</string>
   <string name="collection_empty">KOLEKSİYONDA HİÇBİR ŞEY YOK</string>
-  <string name="collection_send_to">Şuna gönder&#8230;</string>
   <string name="collection_all">%1$s\'in tümünü göster</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">Gönderim hatalı</string>
   <string name="multi_share_search_hint">GÖNDER&#8230;</string>
   <string name="search__box__hint_text">METİN MESAJLARINI ARA</string>
   <string name="search__no_results">Sonuç yok.</string>
@@ -1125,11 +850,8 @@
   <string name="conversation_list__someone">Birisi</string>
   <string name="conversation_list__added">[[%1$s]] eklendi</string>
   <string name="conversation_list__added_you">[[%1$s]] sizi ekledi</string>
-  <string name="conversation_list__left">[[%1$s]] ayrıldı</string>
   <string name="conversation_list__left_you">Ayrıldın</string>
   <string name="conversation_list__removed_you">[[%1$s]] seni gruptan çıkardı</string>
-  <string name="conversation_list__removed">[[%1$s]] çıkartıldı</string>
-  <string name="conversation_list__empty_conv__subtitle">Herkes ayrıldı</string>
   <string name="conversation_list__header__title">KONUŞMALAR</string>
   <string name="conversation_list__header__archive_title">ARŞİV</string>
   <string name="guest_indicator">KONUK</string>
@@ -1167,7 +889,6 @@
   <string name="teams_verify_email_change">E-POSTA’YI DEĞİŞTİR</string>
   <string name="teams_set_name_title">Adınız</string>
   <string name="teams_set_name_hint">TAM AD</string>
-  <string name="app_entry_slogan">Herkes için güvenli mesajlaşma.</string>
   <string name="app_entry_create_account">Kişisel</string>
   <string name="app_entry_create_account_sub">create an account</string>
   <string name="app_entry_create_team">Pro</string>
@@ -1194,17 +915,12 @@
   <string name="teams_invitations_skip">SKIP</string>
   <string name="teams_invitations_done">DONE</string>
   <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
-  <string name="teams_invitations_error_blacklisted_email">The given e-mail address has been blacklisted due to a permanent bounce or a complaint.</string>
-  <string name="teams_invitations_error_no_identity">The user has no verified identity (email or phone number).</string>
-  <string name="teams_invitations_error_no_email">This operation requires the user to have a verified email address.</string>
   <string name="teams_invitations_error_already_sent">Already sent</string>
   <string name="teams_invitations_error_generic">Bir şeyler ters gitti, lütfen tekrar deneyin</string>
   <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
   <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
   <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
-  <string name="teams_invitations_error_email_exists_more">DAHA FAZLA BİLGİ EDİNİN</string>
   <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
-  <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">Takımını kur</string>
   <string name="invitation_screen_subtitle">Katılmaları için iş arkadaşlarınızı davet edin.</string>
   <string name="open_service_conversation_button_text">Konuşma Başlat</string>
@@ -1225,7 +941,6 @@
   <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
   <string name="new_conv_no_results">Sonuç yok</string>
   <string name="new_conv_no_contacts">No contacts</string>
-  <string name="create_group_search">SEARCH FOR NAMES</string>
   <string name="participants_divider_services">SERVICES (%1$s)</string>
   <string name="participants_divider_people">PEOPLE (%1$s)</string>
   <string name="group_name_hint">GROUP NAME</string>
@@ -1292,7 +1007,6 @@
   <string name="video_paused">Video paused</string>
   <string name="calling_degraded_title">Yeni cihaz</string>
   <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
   <string name="markdown_link_dialog_title">Visit Link</string>
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">TAMAM</string>

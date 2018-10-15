@@ -27,7 +27,6 @@
   <string name="internet_connectivity_error_message">请检查您的网络连接，然后重试</string>
   <string name="too_many_attempts_header">您尝试太多次了</string>
   <string name="login_later_message">请稍后尝试登录</string>
-  <string name="register_again_message">请尝试再次注册</string>
   <string name="email_exists_header">邮箱地址已被使用。</string>
   <string name="email_exists_message">此邮箱已被注冊.</string>
   <string name="email_invalid_header">无效的邮箱地址</string>
@@ -45,8 +44,6 @@
   <string name="wrong_code_message">请输入有效的验证码</string>
   <string name="phone_pending_login_header">验证码已发送</string>
   <string name="phone_pending_login_message">我们已经将验证码通过短信发送给您。如需重新获取验证码，请等候10分钟后点击重新发送。</string>
-  <string name="password_invalid_header">无效的密码</string>
-  <string name="password_invalid_message">请检查您提供的资料然后重试。</string>
   <string name="phone_budget_exhausted_header">请求次数过多</string>
   <string name="phone_budget_exhausted_message">请稍后重试。</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -71,48 +68,16 @@
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">您的手机号码</string>
   <!-- Receive email/sms invitation -->
-  <string name="invitation_email__normal_phone_signup_button">使用手机号码注册</string>
-  <string name="invitation_email__normal_email_signup_button">使用其他邮箱地址注册</string>
-  <string name="invitation_email__password_placeholder">密码 (最少 %1$s 个字符)</string>
-  <string name="invitation_email__welcome_header">您好，%1$s。</string>
-  <string name="invitation_email__welcome_message">选择一个密码来创建您的账户。</string>
-  <string name="invitation__continue_button">继续</string>
-  <string name="invitation_phone__normal_phone_signup_button">使用其他手机</string>
-  <string name="invitation_phone__normal_email_signup_button">使用邮箱地址注册</string>
-  <string name="invitation_phone__welcome_header">您好，%1$s。</string>
-  <string name="invitation_phone__welcome_message">再一个步骤就完成建立您的账户。</string>
-  <string name="invitation__phone__failed">无法通过该邀请注册。</string>
-  <string name="invitation__email__failed">无法通过该邀请注册。</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 SEARCH</string>
   <string name="pick_user_search_hint">SEARCH</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">常联系的人</string>
-  <string name="people_picker__address_book_matches_title">新增好友</string>
   <string name="people_picker__search_result_conversations_header_title">群组</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s 组</string>
   <string name="people_picker__search_result_connections_header_title">联系人</string>
   <string name="people_picker__search_result_others_header_title">添加好友</string>
-  <string name="people_picker__search_result_recommended_header_title">推荐好友</string>
-  <string name="people_picker__search_result_contacts_header_title">联络人</string>
-  <string name="people_picker__search_result_team_members_header_title">团队成员</string>
-  <string name="people_picker__invite_header_title">邀请</string>
-  <string name="people_picker__confirm_button_title">开始聊天</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">向群组中添加联系人</string>
-  <string name="people_picker__confirm_button_title__create_conversation">创建群聊</string>
-  <string name="people_picker__error_message__no_results">没有搜寻结果</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts">按名称或电邮箱地址搜索</string>
-  <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">请输入有效的邮箱地址或</string>
-  <string name="people_picker__error_message__no_results__shared_contacts__add_to_conversation">输入不同的名称</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts__add_to_conversation">输入不同的名称。</string>
-  <string name="people_picker__error_message__no_results__send_invite">发送\n1条邀请</string>
-  <string name="people_picker__error_message__no_users_to_add_to_conversation">您所有的联系人都已在此聊天室。</string>
-  <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">我们在Wire找不到任何您的联系人。请输入完整的名称或电子邮件地址。</string>
-  <string name="people_picker__toolbar_header__group">新增好友</string>
-  <string name="people_picker__toolbar_header__one_to_one">创建群聊</string>
   <string name="people_picker__search_result__expander_title">显示全部 %1$s ↓</string>
-  <string name="people_picker__guest_label">游客</string>
   <string name="people_picker__search_people">联系人</string>
   <string name="people_picker__search_services">SERVICES</string>
   <string name="receive_news_and_offers_request_title">Newsletter</string>
@@ -123,9 +88,6 @@
   <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">服务</string>
-  <string name="integrations_picker__add">添加服务</string>
-  <string name="integrations_conv_bot">机器人</string>
-  <string name="integrations_chathead__section_title">服务</string>
   <string name="integrations_errors_add_service">无法添加服务</string>
   <string name="integrations_errors_service_unavailable">服务暂时无法使用</string>
   <string name="conversation_errors_full">对话人数已达上限</string>
@@ -135,51 +97,24 @@
   <string name="people_picker__share_contacts__yay">允许</string>
   <string name="people_picker__share_contacts__nah">拒绝</string>
   <string name="people_picker__share_contacts__nevvah">不再询问</string>
-  <!-- People you may know -->
-  <string name="people_picker__recommended__common_connections__one">认识%1$s</string>
-  <string name="people_picker__recommended__common_connections__two">认识 %1$s 和 %2$s</string>
-  <plurals name="people_picker__recommended__common_connections__more">
-    <item quantity="other">认识 %1$s 和 %2$d 个其他联系人</item>
-  </plurals>
-  <string name="people_picker__recommended__common_connections__hide">隐藏</string>
   <!-- Invite -->
-  <string name="people_picker__invite__share_details_label">发送邀请</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">邀请朋友使用Wire</string>
   <string name="people_picker__invite__share_text__header">%1$s 想和您在Wire上联系</string>
   <string name="people_picker__invite__share_text__body">我在用Wire，搜索%1$s或者访问get.wire.com吧。</string>
-  <string name="people_picker__invite__message">嗨，\n谢谢您的邀请。让我们成为好友吧。 \n%1$s</string>
-  <string name="people_picker__invite__sent_feedback">邀请已送出</string>
-  <string name="people_picker__contact_list__user_selection_button__label">开启</string>
-  <string name="people_picker__contact_list__user_adding_button__label">新增</string>
-  <string name="people_picker__contact_list__contact_selection_button__label">邀请</string>
-  <string name="people_picker__contact_list__invite_dialog__title">发送邀请</string>
-  <string name="people_picker__contact_list__searchbox__hint">\u0020通过用户名查询</string>
-  <string name="people_picker__generic_invite_button_text">邀请好友使用Wire</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="other">%1$d个共同好友</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s 已是联系人</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">在联系人中</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">开启</string>
-  <string name="conversation_quick_menu__conversation_button__group_label">建立群组</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_joined">[[%1$s]] joined</string>
   <string name="content__system__you_joined">[[You]] joined</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
   <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
-  <string name="content__system__message_deleted">该信息已被删除</string>
-  <string name="content_system_message_timestamp_failure">未发送的信息。</string>
-  <string name="content_system_message_timestamp_pending">发送\u2026</string>
-  <string name="content_system_message_timestamp_deleted">于%1$s删除</string>
   <!-- Add people -->
   <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
   <plurals name="content__system__someone_added_people_with_others">
     <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
   </plurals>
   <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
-  <string name="content__system__someone_added_people_and_you">[[%1$s]] added %2$s and you to the conversation</string>
   <plurals name="content__system__someone_added_people_and_you_with_others">
     <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
   </plurals>
@@ -196,8 +131,6 @@
   <!-- Create conversation -->
   <string name="content__system__you_started_conversation">You started the conversation</string>
   <string name="content__system__other_started_conversation">%1$s started the conversation</string>
-  <string name="content__system__you_started_one">[[您]] 开启了和%2$s的聊天室</string>
-  <string name="content__system__other_started_one">[[%1$s]] 开启了和您的聊天室</string>
   <string name="content__system__with_you_only">with you</string>
   <string name="content__system__with_list_only">with %1$s</string>
   <plurals name="content__system__with_others_only">
@@ -213,8 +146,6 @@
   <string name="content__you_pinged">[[您]] 打了声招呼</string>
   <string name="content__xxx_pinged">[[%1$s]] 打了声招呼</string>
   <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__conversation_verified">聊天室已验证</string>
-  <string name="content__otr__conversation_unverified">聊天室未验证</string>
   <string name="content__otr__message_error">从 [[%1$s]] 的信息未被接收。_为什么？_</string>
   <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] 的设备识别码已更改。信息无法送达。_了解更多_</string>
@@ -250,13 +181,11 @@
   <string name="content__file__status__upload_failed__size_and_extension">%1$s ·%2$s ·_上传失败_</string>
   <string name="content__file__action__open">开启</string>
   <string name="content__file__action__save">存档</string>
-  <string name="content__file__action__share">分享</string>
   <string name="content__file__action__open__no_app_found">找不到可打开此文件类型的应用程序</string>
   <string name="content__file__action__save_completed">文件保存成功</string>
   <string name="content__file__action__save_error">无法保存文件</string>
   <string name="content__location__no_map_placeholder">您的位置将在您重新在线时显示在地图上。</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">重新命名</string>
   <string name="conversation__action__delete">删除内容吗？</string>
   <string name="conversation__action__archive">归档</string>
   <string name="conversation__action__unarchive">取消归档</string>
@@ -266,7 +195,6 @@
   <string name="conversation__action__silence">静音</string>
   <string name="conversation__action__unsilence">关闭静音</string>
   <string name="conversation__action__leave">退出群组</string>
-  <string name="conversation__action__remove">移除</string>
   <string name="conversation__action__call">呼叫</string>
   <string name="conversation__action__picture">头像</string>
   <string name="conversation__action__block">封锁...</string>
@@ -280,10 +208,6 @@
   <string name="conversation__action__notifications_nothing">Nothing</string>
   <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
-  <string name="popover__action__open">开启</string>
-  <string name="popover__action__remove">移除</string>
-  <string name="popover__action__block">拉黑</string>
-  <string name="popover__action__profile">个人资料</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">网络速度缓慢</string>
   <string name="calling__slow_connection__message">您的网速太慢无法通话。请稍候再试。</string>
@@ -292,19 +216,12 @@
   <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
   <string name="calling__cannot_start__cancel__message">取消</string>
   <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
-  <string name="calling__cannot_start__ongoing_different_kind__title">%1$s忙线中</string>
-  <string name="calling__cannot_start__ongoing_different_kind__message">请稍候再试</string>
-  <string name="calling__cannot_start__button_settings">设置</string>
   <string name="calling__video_call__slow_connection__message">您可能会在通话期间遇到问题</string>
-  <string name="incoming__controls__incoming__decline">拒绝</string>
-  <string name="incoming__controls__incoming__accept">接听</string>
-  <string name="incoming__controls__ongoing__hangup">结束通话</string>
   <string name="incoming__controls__ongoing__speaker">免提</string>
   <string name="incoming__controls__ongoing__mute">静音</string>
   <string name="incoming__controls__ongoing__video">视频</string>
   <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">网络连接差，视频停止</string>
-  <string name="calling__self_preview_unavailable">关闭视频</string>
   <string name="calling__self_preview_unavailable_long">相机无法使用</string>
   <string name="calling__header__joining">正在连接...</string>
   <string name="calling__header__outgoing_subtitle">响铃中...</string>
@@ -331,9 +248,6 @@
   <string name="group_calling_confirm">呼叫</string>
   <!-- Connect request -->
   <string name="connect__message">Hi %1$s，\n请加我为好友。\n%2$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="other">%1$d个共同好友</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">尚未处理</string>
   <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
   <string name="connect_request__unblock__button__text">取消黑名单</string>
@@ -353,34 +267,20 @@
   <plurals name="conversation__degraded_confirmation__message">
     <item quantity="other">您仍然要发送您的信息吗？</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">是否接听该通话？</string>
-  <string name="conversation__degraded_confirmation__place_call">你要拨打电话吗？</string>
   <string name="conversation__degraded_confirmation__positive_action">确定发送</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="other">显示设备</item>
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">显示您的设备</string>
   <string name="conversation_degraded_confirmation__header__you">您</string>
-  <!-- Profile and Participants -->
-  <plurals name="participants__sub_header_xx_people">
-    <item quantity="other">%1$d位参与者</item>
-  </plurals>
-  <string name="group_name">群组名称</string>
   <!-- Picture selection confirmation -->
   <string name="confirmation_menu__confirm_done">好</string>
   <string name="confirmation_menu__cancel">取消</string>
   <!-- ADD TO CONVERSATION offline -->
-  <string name="conversation__add_user__no_network__title">没有互联网讯号</string>
-  <string name="conversation__add_user__no_network__message">您必須在线才能增加参与者。当您重新在线时我们将再次尝试。</string>
-  <string name="conversation__add_user__no_network__button">好</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <string name="conversation__create_group_conversation__no_network__title">没有互联网讯号</string>
-  <string name="conversation__create_group_conversation__no_network__message">您必须在线才能建立聊天室。其他人将在您重新在线时看到您新建立的聊天室。</string>
-  <string name="conversation__create_group_conversation__no_network__button">好</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">确定离开聊天室？</string>
   <string name="confirmation_menu__meta_remove_text">您将无法发送或接收此聊天室的讯息。</string>
-  <string name="confirmation_menu__confirm_leave">离开</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Remove from conversation dialogue -->
   <string name="confirmation_menu__header">移除？</string>
@@ -396,61 +296,31 @@
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">删除内容？</string>
   <string name="confirmation_menu__meta_delete_text">这将清除你所有设备上的会话历史。</string>
-  <string name="confirmation_menu__confirm_delete">删除</string>
-  <string name="confirmation_menu__delete_conversation__checkbox__label">并且离开聊天室</string>
   <!-- Rich media -->
   <string name="content__youtube__error__text">找不到该影片</string>
-  <string name="mediaplayer__artist__placeholder">音频</string>
-  <string name="mediaplayer__artist__error">无法播放音频</string>
   <string name="mediaplayer__message__onsoundcloud">打开SoundCloud</string>
   <string name="mediaplayer__message__onspotify">打开Spotify</string>
-  <string name="mediaplayer__spotify__hint">连接到Spotify</string>
-  <string name="mediaplayer__open_external">在浏览器中打开</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">分享给大家！</string>
-  <string name="content__invite_banner__subtitle">新增参与者或分享连接到此聊天室。</string>
-  <string name="content__invite_banner__howto_link">这是如何运作的？</string>
-  <string name="content__invite_banner__button_label">新增好友到此聊天室</string>
   <!-- Self profile -->
-  <string name="self_name">您的全名</string>
-  <string name="self_add_email">新增电子邮箱\u0026密码</string>
-  <string name="self_verify_email">验证电子邮箱</string>
-  <string name="self_add_phone">新增手机号码</string>
-  <string name="self_verify_phone">验证手机号码</string>
   <!-- Options and settings -->
   <string name="settings_title">设置</string>
   <!-- Options menu -->
-  <string name="menu_settings">设置</string>
-  <string name="menu_avs_settings">AVS设置</string>
-  <string name="menu_about">关于我们</string>
-  <string name="menu_tutorial">功能介绍</string>
-  <string name="menu_help">帮助</string>
-  <string name="menu_logout">退出</string>
   <!-- Manage Team -->
   <string name="pref_manage_team_title">管理团队</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">隐私政策</string>
-  <string name="about_third_party_licences">授权条款</string>
-  <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">使用条款</string>
-  <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">设置</string>
   <string name="pref_developer_screen_title">开发人员设置</string>
   <string name="pref_dev_avs_screen_title">AVS设置</string>
   <string name="pref_profile_screen_title">用户信息</string>
   <!-- Account -->
   <string name="pref_account_screen_title">帐户</string>
-  <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">名称</string>
   <string name="pref_account_edit_name_title">编辑名称</string>
   <string name="pref_account_details_category_title">个人信息</string>
   <string name="pref_account_actions_category_title">操作</string>
-  <string name="pref_account_personal_category_title">个人信息</string>
   <string name="pref_account_appearance_category_title">外观</string>
   <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">History</string>
-  <string name="pref_account_details_category_summary">其他使用者能通过这些信息搜寻到您。</string>
-  <string name="pref_account_personal_category_summary">该信息对他人不可见</string>
   <string name="pref_account_username_title">用户名</string>
   <string name="pref_account_phone_title">电话</string>
   <string name="pref_account_add_phone_title">新增手机号码</string>
@@ -494,7 +364,6 @@
   <string name="pref_options_sounds_none">无</string>
   <string name="pref_options_vibration_title">震动</string>
   <string name="pref_options_vibration_title_o">Vibrate on ring</string>
-  <string name="pref_options_sounds_category_title">注意</string>
   <string name="pref_options_ringtones_category_title">音效</string>
   <string name="pref_options_ringtones_ringtone_title">铃声</string>
   <string name="pref_options_ringtones_text_title">信息铃声</string>
@@ -510,9 +379,6 @@
   <string name="pref_options_cursor_send_button_summary">关闭键盘中的发送按钮</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">设备</string>
-  <string name="pref_current_device_category_title">当前设备</string>
-  <string name="pref_other_devices_category_title">已启用的设备</string>
-  <string name="pref_devices_summary">点一下来删除</string>
   <string name="pref_devices_current_device_category_title">当前的设备</string>
   <string name="pref_devices_other_devices_category_title">其他设备</string>
   <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
@@ -525,7 +391,6 @@
   <string name="pref_devices_device_fingerprint_category_title">指纹识别</string>
   <string name="pref_devices_device_fingerprint_summary">Wire为每个设备设置了一个独特的指纹。您可以透過指纹比对来验证您的设备和聊天室。</string>
   <string name="pref_devices_device_actions_category_title">操作</string>
-  <string name="pref_devices_device_trust_title">验证</string>
   <string name="pref_devices_device_reset_session_title">重设session</string>
   <string name="pref_devices_device_reset_session_summary">如果设备指纹比对结果不吻合，请重设session以产生新的密匙。</string>
   <string name="pref_devices_device_remove_title">移除设备</string>
@@ -536,8 +401,6 @@
   <string name="pref_advanced_screen_title">高级</string>
   <string name="pref_advanced_debug_report_title">提交错误报告</string>
   <string name="pref_advanced_debug_report_summary">这将协助Wire诊断问题。</string>
-  <string name="pref_advanced_analytics_title">数据和崩溃报告</string>
-  <string name="pref_advanced_analytics_summary">通过发送匿名信息让Wire变的更好。</string>
   <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">当您遇到信息推送相关问题，Wire 建议您重置该Token。</string>
   <string name="pref_advanced_reset_push_completed">信息推送Token已被重置</string>
@@ -587,68 +450,33 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">移除</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">您确定要将 %s 从您的Wire账户中删除吗？</string>
   <string name="pref__account_action__dialog__delete_phone__error">无法删除电话号码</string>
-  <string name="pref__account_action__dialog__delete_email__error">无法删除邮件地址</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">您需要在线来删除邮件地址</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">您需要在线来删除电话号码</string>
-  <string name="pref__account_action__dialog__change_email__error__invalid_email">请输入有效的电子邮箱</string>
   <string name="pref__account_action__dialog__change_email__title">编辑电子邮箱地址</string>
-  <string name="pref__account_action__dialog__change_username__summary">其他人可以在不知道您的email地址或电话号码的情况下，通过该用户名在Wire上找到您。</string>
   <string name="pref__account_action__dialog__change_username__rules">至少2个字符，仅可使用a—z, 0—9以及下划线</string>
   <string name="pref__account_action__dialog__change_username__title">用户名</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">已经被占用</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">连接错误，请重试</string>
   <!-- No Internet connection -->
   <string name="system_status__no_internet">没有网络连接</string>
-  <string name="system_status__no_server_connection">正在连接&#8230;</string>
   <!-- SHARING -->
-  <string name="system_status__sharing">选择聊天室</string>
   <string name="alert_dialog__confirmation">好</string>
   <string name="alert_dialog__no_network__header">没有互联网讯号</string>
-  <string name="sign_up__no_internet__message">您必须在线才能加入。检查您的网络，然后重试。</string>
-  <string name="sign_in__no_internet__message">您必须连接网络才能登录。检查您的网络，然后重试。</string>
-  <string name="sign_up__take_picture__back">编辑名称</string>
-  <string name="sign_up__take_picture_dialog__gallery">图片库</string>
-  <string name="sign_up__take_picture_dialog__camera">相机</string>
-  <string name="sign_up__take_picture_dialog__message">拍摄新的照片或从您现有的图片库中选择一张。</string>
-  <string name="sign_up__take_picture_dialog__title">拍照</string>
   <string name="sign_up__set_picture__choose">自行选择</string>
   <string name="sign_up__set_picture__keep">使用当前</string>
   <string name="sign_up__set_picture__guidance">Wire有了您的头像图片就更酷炫了。</string>
   <string name="sign_up__set_picture__loading">载入图片</string>
-  <string name="rename_conversation__no_network__message">您必须在线才能重新命名聊天室。检查您的网络，然后重试。</string>
-  <string name="resend_message__no_network__message">您必须在线才能重新发送信息。检查您的网络，然后重试。</string>
   <string name="leave_conversation_failed__message">您必须在线才能离开聊天室。检查您的网络，然后重试。</string>
   <string name="remove_from_conversation__no_network__message">您必须在线才能从聊天室移除参与者。检查您的网络，然后重试。</string>
   <string name="calling__call_drop__message">使用语音通话，您必须连接到互联网。请检查您的网路然后重试。</string>
-  <string name="profile_pic__no_network__message">您必须在线才能更改头像。检查您的网络，然后重试。</string>
-  <string name="calling__voice_channel_full__title">通话人数已满</string>
-  <plurals name="calling__voice_channel_full__message">
-    <!-- should not happen though -->
-    <item quantity="other">只能允许%1$d位参与者</item>
-  </plurals>
-  <string name="calling__conversation_full__title">超出群组通话人数</string>
-  <plurals name="calling__conversation_full__message">
-    <!-- should not happen though -->
-    <item quantity="other">通话功能最多支持%1$d位参与者的聊天室。</item>
-  </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">短消息</string>
   <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Pings</string>
   <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Background notifications</string>
   <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
   <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <string name="lockscreen__talk">来电中</string>
-  <plurals name="notification__new_messages">
-    <item quantity="other">%1$d 信息来自 %2$s</item>
-  </plurals>
-  <plurals name="notification__new_messages_groups">
-    <item quantity="other">%1$d 信息在 %2$s</item>
-  </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="other">%1$d 条新信息在%2$s个聊天室</item>
   </plurals>
@@ -664,20 +492,11 @@
   <string name="notification__message__one_to_one__shared_video">分享了影片</string>
   <string name="notification__message__one_to_one__shared_audio">分享了语音信息</string>
   <string name="notification__message__one_to_one__shared_location">分享了位置</string>
-  <string name="notification__message__one_to_one__liked">\u2764 您的信息</string>
   <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s于%2$s\u0020</string>
-  <string name="notification__message__group__pinged">ping了一下</string>
-  <string name="notification__message__group__shared_picture">分享了图片</string>
-  <string name="notification__message__group__shared_file">共享文件</string>
-  <string name="notification__message__group__shared_video">共享视频</string>
-  <string name="notification__message__group__shared_audio">分享了语音信息</string>
-  <string name="notification__message__group__shared_location">共享位置</string>
   <string name="notification__message__group__renamed_conversation">聊天室被新命名为%1$s</string>
   <string name="notification__message__group__add">新增了参与者到聊天室</string>
   <string name="notification__message__group__remove">已从聊天室移除了参与者</string>
-  <string name="notification__message__generic__accept_request">您有一个新的好友</string>
   <string name="notification__message__single__accept_request">您和%1$s已成为好友</string>
   <string name="notification__message__group__default_conversation_name">群组聊天室</string>
   <string name="notification__message__send_failed">消息发送失败</string>
@@ -686,10 +505,8 @@
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 您的信息</string>
   <string name="notification__message__liked_picture">\u2764 您的图片</string>
-  <string name="notification__message__liked_file">\u2764 您的文件</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_someone">某人</string>
-  <string name="notification__message__ephemeral_details">点击查看更多</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="other">您有 %1$d 条新信息</item>
   </plurals>
@@ -706,16 +523,9 @@
     <item quantity="other">%1$s others</item>
   </plurals>
   <!-- System notifications -->
-  <string name="system_notification__group_call_title">%1$s于%2$s</string>
   <string name="system_notification__silence_call">拒绝</string>
   <string name="system_notification__join_call">接听</string>
   <string name="system_notification__leave_call">结束通话</string>
-  <string name="system_notification__outgoing">拨号中</string>
-  <string name="system_notification__outgoing_video">视频拨号中</string>
-  <string name="system_notification__incoming">来电</string>
-  <string name="system_notification__incoming_video">Is calling with video</string>
-  <string name="system_notification__ongoing">通话中</string>
-  <string name="number_of_conversations_string">归档</string>
   <string name="system_notification__calling_one">正在呼叫...</string>
   <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
@@ -737,7 +547,6 @@
   <string name="notification__image_saving__action__share">共享</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
   <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <string name="notification__file_saving__content__title">Wire文件已保存。</string>
   <!-- forced update -->
   <string name="forced_update__header">重要更新</string>
   <string name="forced_update__sub_header">请安装最新版的Wire。</string>
@@ -745,16 +554,9 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Sharing -->
   <string name="sharing__image_preview__confirm_action">发送</string>
-  <string name="sharing__image_preview__title__single">发送1张图片到\n_%1$s_</string>
-  <string name="sharing__image_preview__title__multiple">发送 %1$s 张图片 到\n_%2$s_</string>
   <string name="sharing__user_not_logged_in__dialog__title">请登录</string>
   <string name="sharing__user_not_logged_in__dialog__message">登录Wire，开始分享。</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">好</string>
-  <string name="sharing__files__ok">共享</string>
-  <string name="sharing__files__cancel">取消</string>
-  <plurals name="sharing__files__message">
-    <item quantity="other">您将和%2$s分享 %1$d 个文件。</item>
-  </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">无法创建</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">无法和%1$s建立聊天室</string>
@@ -764,24 +566,8 @@
   <string name="in_app_notification__sync_error__create_convo__button">继续</string>
   <!--Timestamp formatting -->
   <string name="timestamp__just_now">刚刚</string>
-  <string name="timestamp__a_minute_ago">一分钟前</string>
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="other">%1$d分钟前</item>
-  </plurals>
-  <plurals name="timestamp__x_hours_ago">
-    <item quantity="other">%1$d小时前</item>
-  </plurals>
-  <plurals name="timestamp__x_days_ago">
-    <item quantity="other">%1$d天前</item>
-  </plurals>
-  <plurals name="timestamp__x_weeks_ago">
-    <item quantity="other">%1$d星期前</item>
-  </plurals>
-  <plurals name="timestamp__x_months_ago">
-    <item quantity="other">%1$d个月前</item>
-  </plurals>
-  <plurals name="timestamp__x_years_ago">
-    <item quantity="other">%1$d年前</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -793,25 +579,17 @@
   <!-- Example: MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d，YYYY，%1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- MONDAY -->
-  <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MARCH 2 -->
-  <string name="timestamp_pattern__separator_header__this_year">MMMM d</string>
   <!-- MARCH 2, 2015 -->
-  <string name="timestamp_pattern__separator_header__last_year">MMMM d YYYY</string>
-  <string name="timestamp_pattern__separator_header__today">今天</string>
-  <string name="timestamp_pattern__separator_header__yesterday">昨天</string>
   <!-- 23:15 -->
   <string name="timestamp_pattern__24h_format">HH:mm</string>
   <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="reg__phone_alert__button">好</string>
   <string name="country">国家</string>
   <string name="register">注册</string>
   <string name="password_placeholder">密码</string>
   <string name="email_placeholder">电邮箱地址</string>
   <string name="name_placeholder">名称</string>
-  <string name="registration_back">返回</string>
   <!-- Strings -->
   <string name="edit_phone_number">编辑手机号码</string>
   <string name="i_have_an_account">登录</string>
@@ -823,10 +601,8 @@
   <string name="activation_code_info_manual">输入我们发送到 \n&lt;b&gt;%s&lt;/b&gt;的验证码</string>
   <string name="enter_name">我们应该怎么称呼您？</string>
   <string name="enter_name_hint">输入全名</string>
-  <string name="set_a_picture">设置头像</string>
   <string name="new_reg__password__forgot">忘记密码</string>
   <string name="phone_sign_in">电话</string>
-  <string name="go_to_register">创建账户</string>
   <string name="email_sign_in">电邮箱地址</string>
   <string name="edit_email">修改电子邮箱地址</string>
   <string name="hello">您好，&lt;b&gt;%s&lt;/b&gt;</string>
@@ -835,8 +611,6 @@
   <string name="username__set__toast_error">更新用户名时出错</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">搜寻Giphy</string>
-  <string name="giphy_preview__title_search">#%s</string>
-  <string name="giphy_preview__title_random">随机</string>
   <string name="giphy_preview__error">找不到GIF。</string>
   <string name="giphy_preview__message_via_random_trending">来源 giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · 来源 giphy.com</string>
@@ -844,7 +618,6 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">点击颜色来更改画笔大小。\n\n摇一摇手机可移除照片。</string>
   <string name="drawing__tip__message">点击颜色更改画笔大小。\n\n点击不放可填充整个区域。</string>
-  <string name="add_a_sketch">添加一个剪影</string>
   <string name="sketch__emoji_keyboard__size_label__small">小</string>
   <string name="sketch__emoji_keyboard__size_label__medium">中</string>
   <string name="sketch__emoji_keyboard__size_label__large">大</string>
@@ -868,8 +641,6 @@
   <string name="otr__remove_device__button_delete">好</string>
   <string name="otr__remove_device__button_cancel">取消</string>
   <string name="otr__remove_device__error">错误的密码</string>
-  <string name="otr__remove_device__button_approve">好</string>
-  <string name="otr__remove_device__button_remove">移除</string>
   <string name="otr__error_dialog__cannot_register__message">使用此设备前请先移除一个您的其他设备。</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">设备管理</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">登出</string>
@@ -893,32 +664,18 @@
   <string name="otr__first_launch__header">这是您第一次在此设备使用Wire。</string>
   <string name="otr__first_launch__sub_header">基于隐私考虑，您的历史聊天记录将不会被显示。</string>
   <string name="otr__first_launch__button">好</string>
-  <string name="otr__device_approve__header">您有新的设备连接到您的Wire账户。</string>
-  <string name="otr__device_approve__note">如果您没有新增该设备，请移除该设备并且重设您的密码。</string>
   <string name="otr__signin__info_text">登录</string>
   <string name="otr__reset_session__message_ok">Session已被重设</string>
   <string name="otr__reset_session__message_fail">无法重设session</string>
   <string name="otr__reset_session__button_ok">好</string>
   <string name="otr__reset_session__button_fail">再试一次</string>
-  <string name="otr__remove_device__no_internet__title">没有互联网</string>
-  <string name="otr__remove_device__no_internet__message">下次上线时，尝试移除该设备。</string>
-  <string name="otr__remove_device__no_internet__button">好</string>
-  <string name="otr__device_inbox__header">您的账号被使用在：</string>
-  <string name="otr__device_inbox__name">从:[[%s]]</string>
   <string name="advanced_image_download_wifi_info">图片会在您重新连接 Wi-Fi 后显示。</string>
   <string name="change_settings">更改设置</string>
-  <string name="single_image__save_to_disk__error">没有储存空间使用的权限，无法储存图片</string>
-  <string name="conversation_list__label_action__contacts">联系人</string>
-  <string name="conversation_list__hint_header">从这里开始对话</string>
-  <string name="conversation_list__hint_text">开始一段对话。电话、 邮件和份额在私营或与团体。</string>
   <string name="conversation_list__action_join_call">加入</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">资源库</string>
   <string name="conversation_toolbar__call_video">视频通话</string>
   <string name="conversation_toolbar__call_audio">语音通话</string>
-  <string name="conversation_toolbar__delete">删除</string>
-  <string name="conversation_toolbar__copy">复制</string>
-  <string name="conversation_toolbar__fwd">共享</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">找不到该文件</string>
   <string name="asset_upload_error__not_found__message">无法打开指定的文件</string>
@@ -930,17 +687,8 @@
   <string name="asset_upload_warning__large_file__title">您不在 Wi-Fi上</string>
   <string name="asset_upload_warning__large_file__message_default">您确定要通过蜂窝网络发送大文件吗？</string>
   <string name="asset_upload_warning__large_file__message">您确定要通过蜂窝网络发送%1$s？</string>
-  <string name="asset_upload_warning__large_file__button_accept">好</string>
-  <string name="asset_upload_warning__large_file__button_cancel">取消</string>
   <!-- Video message errors -->
-  <string name="video_message_error__too_big__title">视频太大</string>
-  <string name="video_message_error__too_big__message">您可以发送25MB以下的视频。</string>
-  <string name="video_message_error__title">视频错误</string>
-  <string name="video_message_error__message">无法处理该视频文件</string>
-  <string name="video_message_error__button">好</string>
-  <string name="video_message_error__missing_camera_permissions">若您要传送视频信息，请确保打开手机的相机和文件的存取权限。</string>
   <string name="audio_message_error__missing_audio_permissions">若您要发送语音信息，请先同意录制语音的存储权限。</string>
-  <string name="audio_message_error__generic">无法播放语音</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">固定码率</string>
   <!-- no contacts -->
@@ -960,7 +708,6 @@
   <string name="tooltip_file">发送文件</string>
   <string name="tooltip_gif">动图</string>
   <string name="tooltip_mention">Add Mention</string>
-  <string name="new_feature">新增</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">确定仅为自己删除该信息？</string>
   <string name="conversation__message_action__delete_for_everyone">确定为每个接收者删除该信息？</string>
@@ -974,9 +721,6 @@
   <string name="conversation__action_mode__fwd__dialog__message">请稍候&#8230;</string>
   <string name="conversation__action_mode__fwd__chooser__title">分享：</string>
   <!-- video message preview -->
-  <string name="video_message__preview__header">发送到%1$s</string>
-  <string name="video_message__quick_menu__send_label">发送</string>
-  <string name="video_message__preview__compressing">压缩中...</string>
   <string name="audio_message__recording__slide_control__slide_hint">向上滑动来发送</string>
   <string name="audio_message__recording__slide_control__tap_hint">点击来发送</string>
   <string name="audio_message__recording__tap_to_record">点击来路试语音信息\n之后您可_GLYPH_该信息</string>
@@ -996,7 +740,6 @@
   <string name="message_bottom_menu_action_delete">删除</string>
   <string name="message_bottom_menu_action_delete_local">为自己删除</string>
   <string name="message_bottom_menu_action_delete_global">为所有接收者删除</string>
-  <string name="message_bottom_menu_action_forward_multiple">更多分享</string>
   <string name="message_bottom_menu_action_reveal">显示更多</string>
   <string name="likes_list__header">被赞</string>
   <string name="message_bottom_menu_action_save_ok">图片已保存</string>
@@ -1013,7 +756,6 @@
   <string name="usernames__take_over__summary">认领你在Wire的名称ID._Learn more._</string>
   <string name="usernames__take_over__choose">自定义</string>
   <string name="usernames__take_over__keep">推荐使用</string>
-  <string name="pref_account_username_empty_title">添加用户名</string>
   <string name="ephemeral_message__timeout__off">关闭</string>
   <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
   <string name="guests_option_on">开启</string>
@@ -1037,17 +779,14 @@
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
   <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
-  <string name="collection_header_all">收藏</string>
   <string name="collection_header_pictures">图片</string>
   <string name="collection_header_files">文件</string>
   <string name="collection_header_links">链接</string>
   <string name="collection_header_today">今日</string>
   <string name="collection_header_yesterday">昨日</string>
   <string name="collection_empty">空空如也...</string>
-  <string name="collection_send_to">发送给...</string>
   <string name="collection_all">显示 %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">发送失败</string>
   <string name="multi_share_search_hint">发送给...</string>
   <string name="search__box__hint_text">搜索文本消息</string>
   <string name="search__no_results">没有结果。</string>
@@ -1085,11 +824,8 @@
   <string name="conversation_list__someone">某人</string>
   <string name="conversation_list__added">[[%1$s]] 已加入</string>
   <string name="conversation_list__added_you">[[%1$s]] 新增了您</string>
-  <string name="conversation_list__left">[[%1$s]] 已离开</string>
   <string name="conversation_list__left_you">您退出了</string>
   <string name="conversation_list__removed_you">[[%1$s]] 移除了 您</string>
-  <string name="conversation_list__removed">[[%1$s]] 被移除</string>
-  <string name="conversation_list__empty_conv__subtitle">所有人都已离开</string>
   <string name="conversation_list__header__title">对话</string>
   <string name="conversation_list__header__archive_title">归档</string>
   <string name="guest_indicator">客人</string>
@@ -1127,7 +863,6 @@
   <string name="teams_verify_email_change">更改邮件地址</string>
   <string name="teams_set_name_title">您的名字</string>
   <string name="teams_set_name_hint">全名</string>
-  <string name="app_entry_slogan">保密每个人之通讯。</string>
   <string name="app_entry_create_account">个人信息</string>
   <string name="app_entry_create_account_sub">新增帐户</string>
   <string name="app_entry_create_team">Pro</string>
@@ -1154,17 +889,12 @@
   <string name="teams_invitations_skip">SKIP</string>
   <string name="teams_invitations_done">DONE</string>
   <string name="teams_invitations_error_too_many">已达到发送邀请的最大数量</string>
-  <string name="teams_invitations_error_blacklisted_email">The given e-mail address has been blacklisted due to a permanent bounce or a complaint.</string>
-  <string name="teams_invitations_error_no_identity">The user has no verified identity (email or phone number).</string>
-  <string name="teams_invitations_error_no_email">This operation requires the user to have a verified email address.</string>
   <string name="teams_invitations_error_already_sent">Already sent</string>
   <string name="teams_invitations_error_generic">出了点问题，请再试一次</string>
   <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
   <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
   <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
-  <string name="teams_invitations_error_email_exists_more">了解更多</string>
   <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
-  <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">创建您的团队</string>
   <string name="invitation_screen_subtitle">邀请你的同事加入。</string>
   <string name="open_service_conversation_button_text">打开对话</string>
@@ -1185,7 +915,6 @@
   <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
   <string name="new_conv_no_results">没有找到</string>
   <string name="new_conv_no_contacts">No contacts</string>
-  <string name="create_group_search">SEARCH FOR NAMES</string>
   <string name="participants_divider_services">SERVICES (%1$s)</string>
   <string name="participants_divider_people">PEOPLE (%1$s)</string>
   <string name="group_name_hint">GROUP NAME</string>
@@ -1252,7 +981,6 @@
   <string name="video_paused">Video paused</string>
   <string name="calling_degraded_title">新设备</string>
   <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
   <string name="markdown_link_dialog_title">打开链接</string>
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">好</string>

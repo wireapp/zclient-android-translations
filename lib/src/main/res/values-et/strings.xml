@@ -27,7 +27,6 @@
   <string name="internet_connectivity_error_message">Palun kontrolli oma internetiühendust ja proovi uuesti</string>
   <string name="too_many_attempts_header">Liiga palju proovimisi</string>
   <string name="login_later_message">Palun proovi hiljem sisse logida</string>
-  <string name="register_again_message">Palun proovi uuesti registreerida</string>
   <string name="email_exists_header">E-posti aadress on juba kasutusel</string>
   <string name="email_exists_message">See e-posti aadress on juba registreeritud</string>
   <string name="email_invalid_header">Vale meiliaadress</string>
@@ -45,8 +44,6 @@
   <string name="wrong_code_message">Sisesta kehtiv kood</string>
   <string name="phone_pending_login_header">Kood juba saadetud</string>
   <string name="phone_pending_login_message">Saatsime koodi juba SMS-iga. Toksi 10 minuti pärast \"Saada uuesti\", kui kood ei laeku.</string>
-  <string name="password_invalid_header">Vigane parool</string>
-  <string name="password_invalid_message">Palun kinnita oma andmeid ja proovi uuesti</string>
   <string name="phone_budget_exhausted_header">Liiga palju päringuid</string>
   <string name="phone_budget_exhausted_message">Palun proovi hiljem uuesti.</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -71,48 +68,16 @@
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">Sinu telefoninumber</string>
   <!-- Receive email/sms invitation -->
-  <string name="invitation_email__normal_phone_signup_button">Loo konto telefoninumbriga</string>
-  <string name="invitation_email__normal_email_signup_button">Loo konto teise meiliaadressiga</string>
-  <string name="invitation_email__password_placeholder">Parool (vähemalt %1$s tähte)</string>
-  <string name="invitation_email__welcome_header">Hei, %1$s.</string>
-  <string name="invitation_email__welcome_message">Vali parool.</string>
-  <string name="invitation__continue_button">Jätka</string>
-  <string name="invitation_phone__normal_phone_signup_button">Kasutades teist telefoni</string>
-  <string name="invitation_phone__normal_email_signup_button">Loo konto meiliaadressiga</string>
-  <string name="invitation_phone__welcome_header">Hei, %1$s.</string>
-  <string name="invitation_phone__welcome_message">Oled konto loomisest ühe sammu kaugusel.</string>
-  <string name="invitation__phone__failed">Selle kutsega registreerumine ebaõnnestus.</string>
-  <string name="invitation__email__failed">Selle kutsega registreerumine ebaõnnestus.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 OTSING</string>
   <string name="pick_user_search_hint">OTSING</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 OTSING</string>
   <string name="choose_conversation">OTSING</string>
   <string name="people_picker__top_users_header_title">Lemmikinimesed</string>
-  <string name="people_picker__address_book_matches_title">Ühendu</string>
   <string name="people_picker__search_result_conversations_header_title">Grupid</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s gruppi</string>
   <string name="people_picker__search_result_connections_header_title">Kontaktid</string>
   <string name="people_picker__search_result_others_header_title">Ühendu</string>
-  <string name="people_picker__search_result_recommended_header_title">Soovitatav</string>
-  <string name="people_picker__search_result_contacts_header_title">Kontaktid</string>
-  <string name="people_picker__search_result_team_members_header_title">Meeskonnaliikmed</string>
-  <string name="people_picker__invite_header_title">Kutsu</string>
-  <string name="people_picker__confirm_button_title">Alusta vestlust</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">Lisa inimesi gruppi</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Loo grupp</string>
-  <string name="people_picker__error_message__no_results">Tulemusi ei leitud.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts">Otsi inimesi nime või meiliaadressi järgi</string>
-  <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Sisesta korrektne meiliaadress või</string>
-  <string name="people_picker__error_message__no_results__shared_contacts__add_to_conversation">Proovi mõnda teist nime.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts__add_to_conversation">Proovi mõnda teist nime.</string>
-  <string name="people_picker__error_message__no_results__send_invite">saada\nkutse</string>
-  <string name="people_picker__error_message__no_users_to_add_to_conversation">Kõik, kellega ühendatud oled on juba siin vestluses.</string>
-  <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Me ei suutnud Wire\'ist leida ühtegi sinu kontakti. Sisesta täisnimi või e-posti aadress.</string>
-  <string name="people_picker__toolbar_header__group">Lisa inimesi</string>
-  <string name="people_picker__toolbar_header__one_to_one">Loo grupivestlus</string>
   <string name="people_picker__search_result__expander_title">Näita kõiki %1$s ↓</string>
-  <string name="people_picker__guest_label">Külaline</string>
   <string name="people_picker__search_people">INIMESED</string>
   <string name="people_picker__search_services">TEENUSED</string>
   <string name="receive_news_and_offers_request_title">Uudiskiri</string>
@@ -123,9 +88,6 @@
   <string name="crashes_and_analytics_request_agree">Nõustun</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Teenused</string>
-  <string name="integrations_picker__add">Lisa teenus</string>
-  <string name="integrations_conv_bot">Bot</string>
-  <string name="integrations_chathead__section_title">Teenused</string>
   <string name="integrations_errors_add_service">Teenuse lisamine pole võimalik</string>
   <string name="integrations_errors_service_unavailable">Teenus pole hetkel saadaval</string>
   <string name="conversation_errors_full">Vestlus on täis</string>
@@ -135,46 +97,18 @@
   <string name="people_picker__share_contacts__yay">Luba</string>
   <string name="people_picker__share_contacts__nah">Keela</string>
   <string name="people_picker__share_contacts__nevvah">Ära küsi uuesti</string>
-  <!-- People you may know -->
-  <string name="people_picker__recommended__common_connections__one">Tunneb %1$s</string>
-  <string name="people_picker__recommended__common_connections__two">Tunneb %1$s ja %2$s</string>
-  <plurals name="people_picker__recommended__common_connections__more">
-    <item quantity="one">Tunneb %1$s ja %2$d teist</item>
-    <item quantity="other">Tunneb %1$s ja %2$d teist</item>
-  </plurals>
-  <string name="people_picker__recommended__common_connections__hide">PEIDA</string>
   <!-- Invite -->
-  <string name="people_picker__invite__share_details_label">Saada kutse</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Jaga Wire\'i oma sõpradega.</string>
   <string name="people_picker__invite__share_text__header">%1$s soovib Wire\'s suhelda</string>
   <string name="people_picker__invite__share_text__body">Kasutan nüüd Wire\'it, otsi mu kasutajanime %1$s, või kui sul seda äppi veel pole, siis tõmba siit: get.wire.com</string>
-  <string name="people_picker__invite__message">Hei,\nAitäh kutse eest. Ühendume!\n%1$s</string>
-  <string name="people_picker__invite__sent_feedback">Kutse saadetud</string>
-  <string name="people_picker__contact_list__user_selection_button__label">AVA</string>
-  <string name="people_picker__contact_list__user_adding_button__label">LISA</string>
-  <string name="people_picker__contact_list__contact_selection_button__label">KUTSU</string>
-  <string name="people_picker__contact_list__invite_dialog__title">Saada kutse</string>
-  <string name="people_picker__contact_list__searchbox__hint">\u0020 OTSI NIME JÄRGI</string>
-  <string name="people_picker__generic_invite_button_text">Kutsu inimesi Wire\'iga liituma</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="one">%1$d ühine tuttav</item>
-    <item quantity="other">%1$d ühist tuttavat</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s seadme kontaktides</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">seadme kontaktides</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">AVA</string>
-  <string name="conversation_quick_menu__conversation_button__group_label">LOO GRUPP</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_joined">[[%1$s]] liitus</string>
   <string name="content__system__you_joined">[[You]] liitusid</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] nimetas vestluse ümber</string>
   <string name="content__system__you_renamed_conv">[[Sina]] nimetasid vestluse ümber</string>
-  <string name="content__system__message_deleted">Sõnum eemaldatud</string>
-  <string name="content_system_message_timestamp_failure">Saatmata sõnum.</string>
-  <string name="content_system_message_timestamp_pending">Saadan\u2026</string>
-  <string name="content_system_message_timestamp_deleted">Kustutatud %1$s</string>
   <!-- Add people -->
   <string name="content__system__someone_added_people">[[%1$s]] lisas vestlusesse %2$s</string>
   <plurals name="content__system__someone_added_people_with_others">
@@ -182,7 +116,6 @@
     <item quantity="other">[[%1$s]] lisas vestlusesse %2$s ja veel _%3$s inimest_</item>
   </plurals>
   <string name="content__system__someone_added_you">[[%1$s]] lisas sind vestlusesse</string>
-  <string name="content__system__someone_added_people_and_you">[[%1$s]] lisas vestlusesse %2$s ja sinu</string>
   <plurals name="content__system__someone_added_people_and_you_with_others">
     <item quantity="one">[[%1$s]] lisas vestlusesse %2$s, sinu ja veel _%3$s inimese_</item>
     <item quantity="other">[[%1$s]] lisas vestlusesse %2$s, sinu ja veel _%3$s inimest_</item>
@@ -201,8 +134,6 @@
   <!-- Create conversation -->
   <string name="content__system__you_started_conversation">Sina alustasid vestlust</string>
   <string name="content__system__other_started_conversation">%1$s alustas vestlust</string>
-  <string name="content__system__you_started_one">[[Sina]] alustasid %2$s-ga vestlust</string>
-  <string name="content__system__other_started_one">[[%1$s]] alustas sinuga vestlust</string>
   <string name="content__system__with_you_only">koos sinuga</string>
   <string name="content__system__with_list_only">koos kasutajaga %1$s</string>
   <plurals name="content__system__with_others_only">
@@ -220,8 +151,6 @@
   <string name="content__you_pinged">[[SINA]] PINGISID</string>
   <string name="content__xxx_pinged">[[%1$s]] PINGIS</string>
   <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__conversation_verified">Vestlus kinnitatud</string>
-  <string name="content__otr__conversation_unverified">Vestlus audentimata</string>
   <string name="content__otr__message_error">[[%1$s]] SÕNUM EI TULNUD KOHALE. _MIKS?_</string>
   <string name="content__otr__message_error_you">SINU SÕNUM EI TULNUD KOHALE. _MIKS?_</string>
   <string name="content__otr__identity_changed_error">KASUTAJA [[%1$s]] SEADME ID MUUTUS. SÕNUMI SAATMINE EBAÕNNESTUS. _LISAINFO_</string>
@@ -257,13 +186,11 @@
   <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · ÜLESLAADIMINE EBAÕNNESTUS</string>
   <string name="content__file__action__open">AVA</string>
   <string name="content__file__action__save">SALVESTA</string>
-  <string name="content__file__action__share">JAGA</string>
   <string name="content__file__action__open__no_app_found">Sul puudub rakendus millega seda failitüüpi avada</string>
   <string name="content__file__action__save_completed">Fail edukalt salvestatud</string>
   <string name="content__file__action__save_error">Faili salvestamine ebaõnnestus.</string>
   <string name="content__location__no_map_placeholder">ASUKOHT ILMUB KAARDILE KUI INTERNETIÜHENDUS TAASTUB.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">Nimeta ümber</string>
   <string name="conversation__action__delete">Kustuta sisu&#8230;</string>
   <string name="conversation__action__archive">Arhiveeri</string>
   <string name="conversation__action__unarchive">Arhiivist tagasi</string>
@@ -273,7 +200,6 @@
   <string name="conversation__action__silence">Hääletu</string>
   <string name="conversation__action__unsilence">Heli sisse</string>
   <string name="conversation__action__leave">Lahku grupist&#8230;</string>
-  <string name="conversation__action__remove">Eemalda</string>
   <string name="conversation__action__call">Kõne</string>
   <string name="conversation__action__picture">Profiilipilt</string>
   <string name="conversation__action__block">Blokeeri&#8230;</string>
@@ -287,10 +213,6 @@
   <string name="conversation__action__notifications_nothing">Ei midagi</string>
   <string name="conversation__action__notifications_title">Teavita mind:</string>
   <!-- Conversation: Profile Popover -->
-  <string name="popover__action__open">AVA</string>
-  <string name="popover__action__remove">EEMALDA</string>
-  <string name="popover__action__block">BLOKEERI</string>
-  <string name="popover__action__profile">PROFIIL</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Aeglane ühendus</string>
   <string name="calling__slow_connection__message">Ühendus on kõne tegemiseks hetkel liiga aeglane. Palun proovi hiljem uuesti.</string>
@@ -299,19 +221,12 @@
   <string name="calling__cannot_start__no_permission__message">Ava Seaded ja luba Wire’le ligipääs mikrofonile.</string>
   <string name="calling__cannot_start__cancel__message">LOOBU</string>
   <string name="calling__cannot_start__no_camera_permission__message">Wire’il puudub ligipääs kaamerale</string>
-  <string name="calling__cannot_start__ongoing_different_kind__title">%1$s on hõivatud</string>
-  <string name="calling__cannot_start__ongoing_different_kind__message">Proovi hiljem uuesti</string>
-  <string name="calling__cannot_start__button_settings">SEADED</string>
   <string name="calling__video_call__slow_connection__message">Kõne ajal võib esineda probleeme</string>
-  <string name="incoming__controls__incoming__decline">KEELDU</string>
-  <string name="incoming__controls__incoming__accept">VASTA</string>
-  <string name="incoming__controls__ongoing__hangup">LÕPETA KÕNE</string>
   <string name="incoming__controls__ongoing__speaker">KÕLAR</string>
   <string name="incoming__controls__ongoing__mute">VAIGISTA</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
   <string name="incoming__controls__ongoing__flip">PÖÖRA</string>
   <string name="ongoing__poor_connection_message">VIDEO KEHVA ÜHENDUSE TÕTTU PEATATUD</string>
-  <string name="calling__self_preview_unavailable">VIDEO VÄLJA</string>
   <string name="calling__self_preview_unavailable_long">KAAMERALE JUURDEPÄÄS PUUDUB</string>
   <string name="calling__header__joining">Ühendan&#8230;</string>
   <string name="calling__header__outgoing_subtitle">Heliseb&#8230;</string>
@@ -338,10 +253,6 @@
   <string name="group_calling_confirm">Kõne</string>
   <!-- Connect request -->
   <string name="connect__message">Hei %1$s,\nLisa mind Wire\'is.\n%2$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="one">%1$d ühine tuttav</item>
-    <item quantity="other">%1$d ühist tuttavat</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">Ootel</string>
   <string name="connect_request__cancel_request__label">TÜHISTA ÜHENDUMISKUTSE</string>
   <string name="connect_request__unblock__button__text">Tühista blokeering</string>
@@ -364,8 +275,6 @@
     <item quantity="one">Kas tahad ikka seda sõnumit saata?</item>
     <item quantity="other">Kas sa siiski soovid oma sõnumeid saata?</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Kas soovid kõne vastu võtta?</string>
-  <string name="conversation__degraded_confirmation__place_call">Kas sa soovid siiski kõne teha?</string>
   <string name="conversation__degraded_confirmation__positive_action">Saada</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Näita seadme infot</item>
@@ -373,27 +282,14 @@
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Vaata seadmete nimekirja</string>
   <string name="conversation_degraded_confirmation__header__you">Sina</string>
-  <!-- Profile and Participants -->
-  <plurals name="participants__sub_header_xx_people">
-    <item quantity="one">%1$d INIMEST</item>
-    <item quantity="other">%1$d INIMEST</item>
-  </plurals>
-  <string name="group_name">Grupi nimi</string>
   <!-- Picture selection confirmation -->
   <string name="confirmation_menu__confirm_done">OK</string>
   <string name="confirmation_menu__cancel">LOOBU</string>
   <!-- ADD TO CONVERSATION offline -->
-  <string name="conversation__add_user__no_network__title">Ühendus puudub</string>
-  <string name="conversation__add_user__no_network__message">Inimeste lisamiseks pead olema võrgus. Kontrolli ühendust ja proovi uuesti.</string>
-  <string name="conversation__add_user__no_network__button">OK</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <string name="conversation__create_group_conversation__no_network__title">Ühendus puudub</string>
-  <string name="conversation__create_group_conversation__no_network__message">Vestluse loomiseks pead online olema. Teised näevad tehtud uudatusi, kui jälle online oled.</string>
-  <string name="conversation__create_group_conversation__no_network__button">OK</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">Lahku vestlusest?</string>
   <string name="confirmation_menu__meta_remove_text">Lahkudes näed küll vestluse ajalugu, kuid ei saa sinna enam kirjutada.</string>
-  <string name="confirmation_menu__confirm_leave">LAHKU</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Remove from conversation dialogue -->
   <string name="confirmation_menu__header">Eemalda?</string>
@@ -409,61 +305,31 @@
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Kustuta sisu?</string>
   <string name="confirmation_menu__meta_delete_text">See tühjendab vestlusajaloo sinu kõigis seadmetes.</string>
-  <string name="confirmation_menu__confirm_delete">KUSTUTA</string>
-  <string name="confirmation_menu__delete_conversation__checkbox__label">Lahku vestlusest</string>
   <!-- Rich media -->
   <string name="content__youtube__error__text">Videot ei leitud</string>
-  <string name="mediaplayer__artist__placeholder">Lugu</string>
-  <string name="mediaplayer__artist__error">Lugu pole saadaval</string>
   <string name="mediaplayer__message__onsoundcloud">SoundCloudis</string>
   <string name="mediaplayer__message__onspotify">Spotifys</string>
-  <string name="mediaplayer__spotify__hint">Ühenda Spotify konto</string>
-  <string name="mediaplayer__open_external">Ava brauseris</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">KUTSU SÕBRAD KA WIRE\'T KASUTAMA!</string>
-  <string name="content__invite_banner__subtitle">Lisa osalejaid või jaga selle vestluse linki.</string>
-  <string name="content__invite_banner__howto_link">Kuidas see toimib?</string>
-  <string name="content__invite_banner__button_label">Lisa vestlusesse inimesi</string>
   <!-- Self profile -->
-  <string name="self_name">Sinu täisnimi</string>
-  <string name="self_add_email">Lisa meiliaadress \u0026 parool</string>
-  <string name="self_verify_email">Kinnita meiliaadress</string>
-  <string name="self_add_phone">Lisa mobiilinumber</string>
-  <string name="self_verify_phone">Kinnita telefoninumber</string>
   <!-- Options and settings -->
   <string name="settings_title">Seaded</string>
   <!-- Options menu -->
-  <string name="menu_settings">SEADED</string>
-  <string name="menu_avs_settings">AVS SEADED</string>
-  <string name="menu_about">INFO</string>
-  <string name="menu_tutorial">JUHEND</string>
-  <string name="menu_help">ABI</string>
-  <string name="menu_logout">LOGI VÄLJA</string>
   <!-- Manage Team -->
   <string name="pref_manage_team_title">Meeskonna haldus</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">Privaatsuspoliitika</string>
-  <string name="about_third_party_licences">Litsentsid</string>
-  <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">Kasutustingimused</string>
-  <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Seaded</string>
   <string name="pref_developer_screen_title">Arendajate seaded</string>
   <string name="pref_dev_avs_screen_title">AVS seaded</string>
   <string name="pref_profile_screen_title">Profiil</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Konto</string>
-  <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Nimi</string>
   <string name="pref_account_edit_name_title">Nime muutmine</string>
   <string name="pref_account_details_category_title">Info</string>
   <string name="pref_account_actions_category_title">Tegevused</string>
-  <string name="pref_account_personal_category_title">Isiklik</string>
   <string name="pref_account_appearance_category_title">Välimus</string>
   <string name="pref_account_personal_information_category_title">Isiklik info</string>
   <string name="pref_account_conversations_category_title">Ajalugu</string>
-  <string name="pref_account_details_category_summary">Inimesed leiavad sind nende andmete põhjal.</string>
-  <string name="pref_account_personal_category_summary">See info pole teistele näha</string>
   <string name="pref_account_username_title">Kasutajanimi</string>
   <string name="pref_account_phone_title">Telefon</string>
   <string name="pref_account_add_phone_title">Lisa mobiilinumber</string>
@@ -507,7 +373,6 @@
   <string name="pref_options_sounds_none">Puudub</string>
   <string name="pref_options_vibration_title">Vibratsioon</string>
   <string name="pref_options_vibration_title_o">Vibreeri helinaga</string>
-  <string name="pref_options_sounds_category_title">Teated</string>
   <string name="pref_options_ringtones_category_title">Helid</string>
   <string name="pref_options_ringtones_ringtone_title">Helin</string>
   <string name="pref_options_ringtones_text_title">Sõnumi heli</string>
@@ -523,9 +388,6 @@
   <string name="pref_options_cursor_send_button_summary">Keela, et saata klaviatuuri kaudu.</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Seadmed</string>
-  <string name="pref_current_device_category_title">See seade</string>
-  <string name="pref_other_devices_category_title">Aktiivsed seadmed</string>
-  <string name="pref_devices_summary">Kustutamiseks toksa</string>
   <string name="pref_devices_current_device_category_title">See seade</string>
   <string name="pref_devices_other_devices_category_title">Muud seadmed</string>
   <string name="pref_devices_device_activation_summary">Aktiveeritud [[%1$s]]\n</string>
@@ -538,7 +400,6 @@
   <string name="pref_devices_device_fingerprint_category_title">Sõrmejälg</string>
   <string name="pref_devices_device_fingerprint_summary">Wire annab igale seadmele unikaalse sõrmejälje. Võrdle neid ja kinnita oma seadmed ning vestlused.</string>
   <string name="pref_devices_device_actions_category_title">Tegevused</string>
-  <string name="pref_devices_device_trust_title">Kinnitatud</string>
   <string name="pref_devices_device_reset_session_title">Lähtesta seanss</string>
   <string name="pref_devices_device_reset_session_summary">Kui sõrmejäljed ei kattu, lähtesta sessioon - see loob mõlemal poolel uued krüpteerimisvõtmed.</string>
   <string name="pref_devices_device_remove_title">Eemalda seade</string>
@@ -549,8 +410,6 @@
   <string name="pref_advanced_screen_title">Edasijõudnutele</string>
   <string name="pref_advanced_debug_report_title">Saada arendajatele vea raport</string>
   <string name="pref_advanced_debug_report_summary">See aitab Wire kasutajatoel probleemi lahendada.</string>
-  <string name="pref_advanced_analytics_title">Kasutusandmed ja vearaportid</string>
-  <string name="pref_advanced_analytics_summary">Tee Wire paremaks, saates anonüümset infot.</string>
   <string name="pref_advanced_reset_push_title">Lähtesta tõuketeadete võti</string>
   <string name="pref_advanced_reset_push_summary">Kui sul on probleeme teavitustega, Wire kasutajatugi võib paluda sul see võti lähtestada.</string>
   <string name="pref_advanced_reset_push_completed">Võti lähtestatud</string>
@@ -600,72 +459,33 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Eemalda</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Kas soovid kindlasti eemaldada %s oma Wire\'i kontolt?</string>
   <string name="pref__account_action__dialog__delete_phone__error">Ei saa kustutada telefoninumbrit</string>
-  <string name="pref__account_action__dialog__delete_email__error">Ei saa kustutada e-posti</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">Sa pead olema võrgus, et kustutada e-posti</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Sa pead olema võrgus, et kustutada telefoni</string>
-  <string name="pref__account_action__dialog__change_email__error__invalid_email">Sisestage korrektne meiliaadress</string>
   <string name="pref__account_action__dialog__change_email__title">Meiliaadressi muutmine</string>
-  <string name="pref__account_action__dialog__change_username__summary">Selle kasutajanimega saavad inimesed sind Wire\'is leida, ilma et nad teaksid su e-posti aadressit või telefoninumbrit.</string>
   <string name="pref__account_action__dialog__change_username__rules">Vähemalt 2 tähemärki. Ainult a—z, 0—9 ja _</string>
   <string name="pref__account_action__dialog__change_username__title">Kasutajanimi</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">Juba kasutusel</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Ühendus ebaõnnestus, palun proovi uuesti.</string>
   <!-- No Internet connection -->
   <string name="system_status__no_internet">ÜHENDUS PUUDUB</string>
-  <string name="system_status__no_server_connection">ÜHENDUSE LOOMINE&#8230;</string>
   <!-- SHARING -->
-  <string name="system_status__sharing">VALI VESTLUS</string>
   <string name="alert_dialog__confirmation">OK</string>
   <string name="alert_dialog__no_network__header">Ühendus puudub</string>
-  <string name="sign_up__no_internet__message">Liitumiseks pead olema võrgus. Kontrolli ühendust ja proovi uuesti.</string>
-  <string name="sign_in__no_internet__message">Sisselogimiseks pead olema võrgus. Kontrolli ühendust ja proovi uuesti.</string>
-  <string name="sign_up__take_picture__back">Nime muutmine</string>
-  <string name="sign_up__take_picture_dialog__gallery">Galerii</string>
-  <string name="sign_up__take_picture_dialog__camera">Kaamera</string>
-  <string name="sign_up__take_picture_dialog__message">Tee uus pilt või vali mõni fotogaleriist.</string>
-  <string name="sign_up__take_picture_dialog__title">Tee pilti</string>
   <string name="sign_up__set_picture__choose">Vali enda oma</string>
   <string name="sign_up__set_picture__keep">Vali see sama</string>
   <string name="sign_up__set_picture__guidance">Wire on palju mõnusam, kui lisad pildi.</string>
   <string name="sign_up__set_picture__loading">Foto laadimine</string>
-  <string name="rename_conversation__no_network__message">Vestluse nime muutmiseks pead online olema. Kontrolli ühendust ja proovi uuesti.</string>
-  <string name="resend_message__no_network__message">Sõnumi uuesti saatmiseks pead olema võrgus. Kontrolli ühendust ja proovi uuesti.</string>
   <string name="leave_conversation_failed__message">Vestlusest lahkumiseks pead online olema. Kontrolli ühendust ja proovi uuesti.</string>
   <string name="remove_from_conversation__no_network__message">Inimeste vestlusest eemaldamiseks pead online olema. Kontrolli ühendust ja proovi uuesti.</string>
   <string name="calling__call_drop__message">Helistamiseks pead online olema. Kontrolli ühendust ja proovi uuesti.</string>
-  <string name="profile_pic__no_network__message">Pildi muutmiseks pead online olema. Kontrolli ühendust ja proovi uuesti.</string>
-  <string name="calling__voice_channel_full__title">Kõne on täis</string>
-  <plurals name="calling__voice_channel_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Siin on ainult %1$d inimese jaoks ruumi.</item>
-    <item quantity="other">Siin on ainult %1$d inimese jaoks ruumi.</item>
-  </plurals>
-  <string name="calling__conversation_full__title">Vestluses on liiga palju inimesi, et kõnet alustada</string>
-  <plurals name="calling__conversation_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Kõned töötavad vestlustes kuni %1$d inimesega.</item>
-    <item quantity="other">Kõned töötavad vestlustes kuni %1$d inimesega.</item>
-  </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Sõnumid</string>
   <string name="message_notifications_channel_description">Kõikide sõnumitüüpidega seonduvad teated, sealhulgas tekst, pildid, heli- ja videosõnumid.</string>
   <string name="incoming_call_notifications_channel_name">Sissetulevad kõned</string>
-  <string name="incoming_call_notifications_channel_description">Teated sissetulevate kõnede kohta</string>
   <string name="ping_notifications_channel_name">Pingid</string>
   <string name="ping_notifications_channel_description">Teated teiste kasutajate pingidest</string>
   <string name="ongoing_channel_name">Taustal olevad teated</string>
   <string name="ongoing_channel_description">Teated toimuvate protsesside või teisaste tegevuste kohta nagu kõned ja pildi salvestamine</string>
   <string name="foreground_service_notification_name">Hoia serveriga ühendust</string>
   <string name="foreground_service_notification_description">See teade on vajalik, hoidmaks serveriühendust aktiivsena, kuni Wire on taustal ja Google Play teenused pole installitud.</string>
-  <string name="lockscreen__talk">HELISTAB</string>
-  <plurals name="notification__new_messages">
-    <item quantity="one">Sõnum %2$s-lt</item>
-    <item quantity="other">%1$d sõnumit %2$s-lt</item>
-  </plurals>
-  <plurals name="notification__new_messages_groups">
-    <item quantity="one">Sõnum vesstluses %2$s</item>
-    <item quantity="other">%1$d sõnumit vestlues %2$s</item>
-  </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="one">Uus sõnum %2$s vestluses</item>
     <item quantity="other">%1$d sõnumit %2$s vestluses</item>
@@ -682,20 +502,11 @@
   <string name="notification__message__one_to_one__shared_video">Jagas videot</string>
   <string name="notification__message__one_to_one__shared_audio">Jagas häälsõnumit</string>
   <string name="notification__message__one_to_one__shared_location">Jagas asukohta</string>
-  <string name="notification__message__one_to_one__liked">\u2764 sinu sõnumit</string>
   <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s kohas %2$s \u0020</string>
-  <string name="notification__message__group__pinged">pingis</string>
-  <string name="notification__message__group__shared_picture">jagas pildi</string>
-  <string name="notification__message__group__shared_file">jagas faili</string>
-  <string name="notification__message__group__shared_video">jagas videot</string>
-  <string name="notification__message__group__shared_audio">saatis häälsõnumi</string>
-  <string name="notification__message__group__shared_location">jagas asukohta</string>
   <string name="notification__message__group__renamed_conversation">nimetas vestluse ümber: %1$s</string>
   <string name="notification__message__group__add">lisas vestlusesse inimesi</string>
   <string name="notification__message__group__remove">eemaldas vestlusest mõned liikmed</string>
-  <string name="notification__message__generic__accept_request">Sul on uus kontakt</string>
   <string name="notification__message__single__accept_request">%1$s kontaktidesse lisatud.</string>
   <string name="notification__message__group__default_conversation_name">grupivestlus</string>
   <string name="notification__message__send_failed">Sõnumi saatmine ebaõnnestus</string>
@@ -704,10 +515,8 @@
   <string name="notification__message__liked">\u2764 \"%1$s\"</string>
   <string name="notification__message__liked_message">\u2764 sinu sõnumit</string>
   <string name="notification__message__liked_picture">\u2764 sinu saadetud pilti</string>
-  <string name="notification__message__liked_file">\u2764 sinu saadetud faili</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_someone">Keegi</string>
-  <string name="notification__message__ephemeral_details">Toka lisainfo nägemiseks</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Keegi saatis sulle sõnumi</item>
     <item quantity="other">Keegi saatis sulle %1$d sõnumit</item>
@@ -726,16 +535,9 @@
     <item quantity="other">%1$s teist</item>
   </plurals>
   <!-- System notifications -->
-  <string name="system_notification__group_call_title">%1$s vestluses %2$s</string>
   <string name="system_notification__silence_call">Keeldu</string>
   <string name="system_notification__join_call">Vasta</string>
   <string name="system_notification__leave_call">Lõpeta kõne</string>
-  <string name="system_notification__outgoing">Helistan</string>
-  <string name="system_notification__outgoing_video">Videokõne</string>
-  <string name="system_notification__incoming">Helistab</string>
-  <string name="system_notification__incoming_video">Helistab videoga</string>
-  <string name="system_notification__ongoing">Kõne pooleli</string>
-  <string name="number_of_conversations_string">ARHIIV</string>
   <string name="system_notification__calling_one">Helistab&#8230;</string>
   <string name="system_notification__calling_group">%1$s helistab&#8230;</string>
   <string name="system_notification__video_calling_one">Helistan videoga&#8230;</string>
@@ -757,7 +559,6 @@
   <string name="notification__image_saving__action__share">Jaga</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
   <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <string name="notification__file_saving__content__title">Fail salvestatud.</string>
   <!-- forced update -->
   <string name="forced_update__header">Oluline uuendus</string>
   <string name="forced_update__sub_header">Palun paigaldage Wire uusim versioon.</string>
@@ -765,17 +566,9 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Sharing -->
   <string name="sharing__image_preview__confirm_action">SAADA</string>
-  <string name="sharing__image_preview__title__single">SAADAN ÜHE PILDI\n_%1$s_-LE </string>
-  <string name="sharing__image_preview__title__multiple">SAADAN %1$s PILTI\n_%2$s_-LE</string>
   <string name="sharing__user_not_logged_in__dialog__title">Palun logi sisse</string>
   <string name="sharing__user_not_logged_in__dialog__message">Jagamiseks ava Wire ja logi sisse.</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
-  <string name="sharing__files__ok">Jaga</string>
-  <string name="sharing__files__cancel">Tühista</string>
-  <plurals name="sharing__files__message">
-    <item quantity="one">Jagad %1$d faili %2$s-le inimesele.</item>
-    <item quantity="other">Jagad %1$d faili %2$s-le inimesele.</item>
-  </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">Loomine ebaõnnestus</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">Vestluse loomine %1$s-ga ebaõnnestus</string>
@@ -785,30 +578,9 @@
   <string name="in_app_notification__sync_error__create_convo__button">Jätka</string>
   <!--Timestamp formatting -->
   <string name="timestamp__just_now">Just nüüd</string>
-  <string name="timestamp__a_minute_ago">Minut aega tagasi</string>
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="one">%1$d minut tagasi</item>
     <item quantity="other">%1$d minutit tagasi</item>
-  </plurals>
-  <plurals name="timestamp__x_hours_ago">
-    <item quantity="one">%1$d tund tagasi</item>
-    <item quantity="other">%1$d tundi tagasi</item>
-  </plurals>
-  <plurals name="timestamp__x_days_ago">
-    <item quantity="one">%1$d päev tagasi</item>
-    <item quantity="other">%1$d päeva tagasi</item>
-  </plurals>
-  <plurals name="timestamp__x_weeks_ago">
-    <item quantity="one">%1$d nädal tagasi</item>
-    <item quantity="other">%1$d nädalat tagasi</item>
-  </plurals>
-  <plurals name="timestamp__x_months_ago">
-    <item quantity="one">%1$d kuu tagasi</item>
-    <item quantity="other">%1$d kuud tagasi</item>
-  </plurals>
-  <plurals name="timestamp__x_years_ago">
-    <item quantity="one">%1$d aasta tagasi</item>
-    <item quantity="other">%1$d aastat tagasi</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -820,25 +592,17 @@
   <!-- Example: MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- MONDAY -->
-  <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MARCH 2 -->
-  <string name="timestamp_pattern__separator_header__this_year">MMMM d</string>
   <!-- MARCH 2, 2015 -->
-  <string name="timestamp_pattern__separator_header__last_year">MMMM d, YYYY</string>
-  <string name="timestamp_pattern__separator_header__today">Täna</string>
-  <string name="timestamp_pattern__separator_header__yesterday">Eile</string>
   <!-- 23:15 -->
   <string name="timestamp_pattern__24h_format">HH:mm</string>
   <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="reg__phone_alert__button">OK</string>
   <string name="country">Riik</string>
   <string name="register">Registreeru</string>
   <string name="password_placeholder">Parool</string>
   <string name="email_placeholder">E-post</string>
   <string name="name_placeholder">Nimi</string>
-  <string name="registration_back">Tagasi</string>
   <!-- Strings -->
   <string name="edit_phone_number">NUMBRI MUUTMINE</string>
   <string name="i_have_an_account">LOGI SISSE</string>
@@ -851,10 +615,8 @@
   <string name="activation_code_info_manual">Sisesta kinnituskood, mille saatsime numbrile \n&lt;b&gt;%s&lt;/b&gt;</string>
   <string name="enter_name">Mis su nimi on?</string>
   <string name="enter_name_hint">Sinu täisnimi</string>
-  <string name="set_a_picture">Vali profiilipilt</string>
   <string name="new_reg__password__forgot">Unustasid parooli?</string>
   <string name="phone_sign_in">Telefon</string>
-  <string name="go_to_register">Konto loomine</string>
   <string name="email_sign_in">E-post</string>
   <string name="edit_email">Muuda e-posti aadressit</string>
   <string name="hello">Hei, &lt;b&gt;%s&lt;/b&gt;</string>
@@ -863,8 +625,6 @@
   <string name="username__set__toast_error">Kasutajanime uuendamine ebaõnnestus</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Otsi Giphy’st</string>
-  <string name="giphy_preview__title_search">#%s</string>
-  <string name="giphy_preview__title_random">JUHUSLIK</string>
   <string name="giphy_preview__error">EI LEIDNUD SOBIVAT GIF-i.</string>
   <string name="giphy_preview__message_via_random_trending">Via giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
@@ -872,7 +632,6 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">TOKSA VÄRVIVALIKUT, ET PINTSLI SUURUST MUUTA.\n\nTAUSTAFOTO PEITMISEKS RAPUTA TELEFONI.</string>
   <string name="drawing__tip__message">TOKSA VÄRVIVALIKUT, ET PINTSLI SUURUST MUUTA.\n\nTOKSA JA HOIA, ET TAUST VÄRVIGA TÄITA.</string>
-  <string name="add_a_sketch">Lisa joonistus</string>
   <string name="sketch__emoji_keyboard__size_label__small">VÄIKE</string>
   <string name="sketch__emoji_keyboard__size_label__medium">KESKMINE</string>
   <string name="sketch__emoji_keyboard__size_label__large">SUUR</string>
@@ -896,8 +655,6 @@
   <string name="otr__remove_device__button_delete">OK</string>
   <string name="otr__remove_device__button_cancel">Tühista</string>
   <string name="otr__remove_device__error">Vale parool</string>
-  <string name="otr__remove_device__button_approve">OK</string>
-  <string name="otr__remove_device__button_remove">Eemalda</string>
   <string name="otr__error_dialog__cannot_register__message">Eemalda üks oma teistest seadmetest, et sellel Wire\'i kasutada.</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Halda seadmeid</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Logi välja</string>
@@ -921,32 +678,18 @@
   <string name="otr__first_launch__header">Kasutad sellel seadmel Wire’t esimest korda.</string>
   <string name="otr__first_launch__sub_header">Privaatuse tagamiseks ei ilmu siia sinu varasemad vestlused.</string>
   <string name="otr__first_launch__button">OK</string>
-  <string name="otr__device_approve__header">Liitsid seadme oma Wire konto külge.</string>
-  <string name="otr__device_approve__note">Kui see polnud sina, siis eemalda seade ja muuda oma parool.</string>
   <string name="otr__signin__info_text">Logi sisse</string>
   <string name="otr__reset_session__message_ok">Sessioon on lähtestatud</string>
   <string name="otr__reset_session__message_fail">Sessioni lähtestamine ebaõnnestus</string>
   <string name="otr__reset_session__button_ok">OK</string>
   <string name="otr__reset_session__button_fail">Proovi uuesti</string>
-  <string name="otr__remove_device__no_internet__title">Puudub internetiühendus</string>
-  <string name="otr__remove_device__no_internet__message">Proovi seadet uuesti eemaldada, kui oled jälle võrgus.</string>
-  <string name="otr__remove_device__no_internet__button">OK</string>
-  <string name="otr__device_inbox__header">Sinu kontot kasutati:</string>
-  <string name="otr__device_inbox__name">Alates: [[%s]]</string>
   <string name="advanced_image_download_wifi_info">Pilt ilmub, kui uuesti wifi-levis oled</string>
   <string name="change_settings">Muuda rakenduse seadeid</string>
-  <string name="single_image__save_to_disk__error">Pildi salvestamine ebaõnnestus, puudub juuurdepääs mälukaardile</string>
-  <string name="conversation_list__label_action__contacts">INIMESED</string>
-  <string name="conversation_list__hint_header">Vestlused algavat siit</string>
-  <string name="conversation_list__hint_text">Alusta vestlust. Helista, saada sõnumeid ja jaga üksikisikule või grupile.</string>
   <string name="conversation_list__action_join_call">LIITU</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Kogumik</string>
   <string name="conversation_toolbar__call_video">Videokõne</string>
   <string name="conversation_toolbar__call_audio">Audio kõne</string>
-  <string name="conversation_toolbar__delete">Kustuta</string>
-  <string name="conversation_toolbar__copy">Kopeeri</string>
-  <string name="conversation_toolbar__fwd">Jaga</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Faili ei leitud</string>
   <string name="asset_upload_error__not_found__message">Antud faili ei õnnestunud laadida</string>
@@ -958,17 +701,8 @@
   <string name="asset_upload_warning__large_file__title">Netiühendus üle mobiilside</string>
   <string name="asset_upload_warning__large_file__message_default">Oled kindel, et soovid suuri faile üle mobiilse andmeside saata?</string>
   <string name="asset_upload_warning__large_file__message">Oled kindel, et soovid %1$s üle mobiilse andmeside saata?</string>
-  <string name="asset_upload_warning__large_file__button_accept">OK</string>
-  <string name="asset_upload_warning__large_file__button_cancel">Tühista</string>
   <!-- Video message errors -->
-  <string name="video_message_error__too_big__title">Liiga suur videofail</string>
-  <string name="video_message_error__too_big__message">Saad saata kuni 25MB suurusega videofaile.</string>
-  <string name="video_message_error__title">Video error</string>
-  <string name="video_message_error__message">Video töötlemine ebaõnnestus</string>
-  <string name="video_message_error__button">OK</string>
-  <string name="video_message_error__missing_camera_permissions">Video saatmiseks vajab Wire õigust kasutada kaamerat ja meediafaile.</string>
   <string name="audio_message_error__missing_audio_permissions">Häälsõnumite saatmiseks vajab Wire salvestamisõigust.</string>
-  <string name="audio_message_error__generic">Audio esitamine ebaõnnestus</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">ÜHTLANE BITISAGEDUS</string>
   <!-- no contacts -->
@@ -988,7 +722,6 @@
   <string name="tooltip_file">Saada fail</string>
   <string name="tooltip_gif">Gif</string>
   <string name="tooltip_mention">Lisa mainimine</string>
-  <string name="new_feature">Uus</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Kustuta ainult minu jaoks?</string>
   <string name="conversation__message_action__delete_for_everyone">Kustuta kõigi jaoks?</string>
@@ -1002,9 +735,6 @@
   <string name="conversation__action_mode__fwd__dialog__message">Palun oodake&#8230;</string>
   <string name="conversation__action_mode__fwd__chooser__title">Jaga…</string>
   <!-- video message preview -->
-  <string name="video_message__preview__header">Saada: %1$s</string>
-  <string name="video_message__quick_menu__send_label">Saada</string>
-  <string name="video_message__preview__compressing">OPTIMEERIMINE&#8230;</string>
   <string name="audio_message__recording__slide_control__slide_hint">SAATMISEKS NIPSA ÜLES</string>
   <string name="audio_message__recording__slide_control__tap_hint">SAATMISEKS TOKSA</string>
   <string name="audio_message__recording__tap_to_record">Toksa sõnumi salvestamiseks. \nPärast saade selle _GLYPH_ muuta.</string>
@@ -1024,7 +754,6 @@
   <string name="message_bottom_menu_action_delete">Kustuta</string>
   <string name="message_bottom_menu_action_delete_local">Kustuta minu jaoks</string>
   <string name="message_bottom_menu_action_delete_global">Kustuta kõigi jaoks</string>
-  <string name="message_bottom_menu_action_forward_multiple">Jaga mitmega</string>
   <string name="message_bottom_menu_action_reveal">Näita vestluses</string>
   <string name="likes_list__header">Neile meeldib</string>
   <string name="message_bottom_menu_action_save_ok">Pilt salvestatud</string>
@@ -1042,7 +771,6 @@
   <string name="usernames__take_over__summary">Vali unikaalne kasutajanimi. _Täpsem info._</string>
   <string name="usernames__take_over__choose">MUUDA</string>
   <string name="usernames__take_over__keep">VALI SEE</string>
-  <string name="pref_account_username_empty_title">Lisa kasutajanimi</string>
   <string name="ephemeral_message__timeout__off">Väljas</string>
   <string name="ephemeral_message__options_header">KUSTUVAD SÕNUMID</string>
   <string name="guests_option_on">Sees</string>
@@ -1072,17 +800,14 @@
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">jäänud %1$s ja %2$s</string>
   <string name="ephemeral_message_footer_single_unit">jäänud %1$s</string>
-  <string name="collection_header_all">KOGUMIK</string>
   <string name="collection_header_pictures">PILDID</string>
   <string name="collection_header_files">FAILID</string>
   <string name="collection_header_links">LINGID</string>
   <string name="collection_header_today">TÄNA</string>
   <string name="collection_header_yesterday">EILE</string>
   <string name="collection_empty">TÜHI KOGUMIK</string>
-  <string name="collection_send_to">Saada...</string>
   <string name="collection_all">Näita kõiki %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">Saatmine ebaõnnestus</string>
   <string name="multi_share_search_hint">SAADA&#8230;</string>
   <string name="search__box__hint_text">OTSI SÕNUMITEST</string>
   <string name="search__no_results">Tulemusi ei leitud.</string>
@@ -1125,11 +850,8 @@
   <string name="conversation_list__someone">Keegi</string>
   <string name="conversation_list__added">[[%1$s]] lisati</string>
   <string name="conversation_list__added_you">[[%1$s]] lisas sind</string>
-  <string name="conversation_list__left">[[%1$s]] on lahkunud</string>
   <string name="conversation_list__left_you">Lahkusid vestlusest</string>
   <string name="conversation_list__removed_you">[[%1$s]] eemaldas su vestlusest</string>
-  <string name="conversation_list__removed">[[%1$s]] eemaldati</string>
-  <string name="conversation_list__empty_conv__subtitle">Kõik lahkusid</string>
   <string name="conversation_list__header__title">VESTLUSED</string>
   <string name="conversation_list__header__archive_title">ARHIIV</string>
   <string name="guest_indicator">KÜLALINE</string>
@@ -1167,7 +889,6 @@
   <string name="teams_verify_email_change">MUUDA E-POSTI</string>
   <string name="teams_set_name_title">Sinu nimi</string>
   <string name="teams_set_name_hint">TÄISNIMI</string>
-  <string name="app_entry_slogan">Turvaline sõnumside kõigile.</string>
   <string name="app_entry_create_account">Isiklik</string>
   <string name="app_entry_create_account_sub">loo konto</string>
   <string name="app_entry_create_team">Pro</string>
@@ -1194,17 +915,12 @@
   <string name="teams_invitations_skip">JÄTA VAHELE</string>
   <string name="teams_invitations_done">VALMIS</string>
   <string name="teams_invitations_error_too_many">Maksimaalne kutsete arv on saadetud</string>
-  <string name="teams_invitations_error_blacklisted_email">Antud e-posti aadress on mustas nimekirjas püsiva tagasipõrke või kaebuse tõttu.</string>
-  <string name="teams_invitations_error_no_identity">Kasutajal ei ole kinnitatud identiteeti (e-post või telefoninumber).</string>
-  <string name="teams_invitations_error_no_email">See toiming nõuab kasutajal kontrollitud e-posti aadressi olemasolu.</string>
   <string name="teams_invitations_error_already_sent">Juba saadetud</string>
   <string name="teams_invitations_error_generic">Midagi läks valesti, palun proovi uuesti</string>
   <string name="teams_invite_email_hint">KOLLEEG@SINUFIRMA.EE</string>
   <string name="teams_invitations_error_invalid_email">PALUN SISESTA SOBIV E-POSTI AADRESS</string>
   <string name="teams_invitations_error_email_exists">SEE E-POSTI AADRESS ON JUBA KASUTUSEL</string>
-  <string name="teams_invitations_error_email_exists_more">LISATEAVE</string>
   <string name="teams_invitations_error_no_internet">INTERNETI-ÜHENDUS PUUDUB</string>
-  <string name="team_invitation_add_from_address_book">LISA AADRESSIRAAMATUST</string>
   <string name="invitation_screen_title">Ehita oma meeskond</string>
   <string name="invitation_screen_subtitle">Kutsu kolleegid liituma.</string>
   <string name="open_service_conversation_button_text">Ava vestlus</string>
@@ -1225,7 +941,6 @@
   <string name="add_participants_count_header">LISA OSALEJAID (%1$s)</string>
   <string name="new_conv_no_results">Tulemusi ei leitud.</string>
   <string name="new_conv_no_contacts">Kontakte pole</string>
-  <string name="create_group_search">OTSI NIMESID</string>
   <string name="participants_divider_services">TEENUSED (%1$s)</string>
   <string name="participants_divider_people">INIMESED (%1$s)</string>
   <string name="group_name_hint">GRUPI NIMI</string>
@@ -1292,7 +1007,6 @@
   <string name="video_paused">Video pausil</string>
   <string name="calling_degraded_title">Wire uuel seadmel</string>
   <string name="call_info_text">Grupivestlusega saavad liituda kuni 300 inimest. Videokõned töötavad kuni 3 inimesega, pluss sina.</string>
-  <string name="too_many_people_video_toast">Videokõned töötavad kuni 4 osalejaga vestluses.</string>
   <string name="markdown_link_dialog_title">Külasta linki</string>
   <string name="markdown_link_dialog_message">See viib su aadressile\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>

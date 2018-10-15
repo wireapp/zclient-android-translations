@@ -27,7 +27,6 @@
   <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
   <string name="too_many_attempts_header">Πάρα πολλές προσπάθειες</string>
   <string name="login_later_message">Please try to log in later</string>
-  <string name="register_again_message">Please try to register again</string>
   <string name="email_exists_header">Η Διεύθυνση Ηλ. Ταχυδρομείου χρησιμοποιείται ήδη</string>
   <string name="email_exists_message">This email address has already been registered</string>
   <string name="email_invalid_header">Μη έγκυρο email</string>
@@ -45,8 +44,6 @@
   <string name="wrong_code_message">Αυτός ο κωδικός δεν είναι έγκυρος</string>
   <string name="phone_pending_login_header">Ο κωδικός εστάλη ήδη</string>
   <string name="phone_pending_login_message">Σας στείλαμε ήδη έναν κωδικό επιβεβαίωσης μέσω SMS. Πατήστε \"Επαναποστολή\" μετά από 10 λεπτά για να λάβετε έναν καινούριο κωδικό επιβεβαίωσης.</string>
-  <string name="password_invalid_header">Λανθασμένος Κωδικός</string>
-  <string name="password_invalid_message">Παρακαλούμε επιβεβαιώστε τα στοιχεία σας και προσπαθήστε ξανά</string>
   <string name="phone_budget_exhausted_header">Πάρα πολλά αιτήματα</string>
   <string name="phone_budget_exhausted_message">Παρακαλούμε δοκιμάστε ξανά αργότερα.</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -71,48 +68,16 @@
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">Ο αριθμός κινητού σας</string>
   <!-- Receive email/sms invitation -->
-  <string name="invitation_email__normal_phone_signup_button">Εγγραφή με χρήση αριθμού τηλεφώνου</string>
-  <string name="invitation_email__normal_email_signup_button">Εγγραφή με χρήση άλλου email</string>
-  <string name="invitation_email__password_placeholder">Κωδικός πρόσβασης (ελάχιστο %1$s χαρακτήρες.)</string>
-  <string name="invitation_email__welcome_header">Γεια σου, %1$s.</string>
-  <string name="invitation_email__welcome_message">Επιλέξτε έναν κωδικό πρόσβασης για να δημιουργήσετε το λογαριασμό σας.</string>
-  <string name="invitation__continue_button">Συνέχεια</string>
-  <string name="invitation_phone__normal_phone_signup_button">Χρησιμοποιήστε άλλο αριθμό τηλεφώνου</string>
-  <string name="invitation_phone__normal_email_signup_button">Εγγραφείτε με χρήση email</string>
-  <string name="invitation_phone__welcome_header">Γεια σου, %1$s.</string>
-  <string name="invitation_phone__welcome_message">Είστε ένα βήμα μακριά από τη δημιουργία του λογαριασμού σας.</string>
-  <string name="invitation__phone__failed">Δεν είναι δυνατό να εγγραφείτε με την πρόσκληση αυτή.</string>
-  <string name="invitation__email__failed">Δεν είναι δυνατό να εγγραφείτε με την πρόσκληση αυτή.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 SEARCH</string>
   <string name="pick_user_search_hint">SEARCH</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Αγαπημένα άτομα</string>
-  <string name="people_picker__address_book_matches_title">Σύνδεση</string>
   <string name="people_picker__search_result_conversations_header_title">Ομάδες</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Ομάδες</string>
   <string name="people_picker__search_result_connections_header_title">Επαφές</string>
   <string name="people_picker__search_result_others_header_title">Σύνδεση</string>
-  <string name="people_picker__search_result_recommended_header_title">Προτεινόμενα</string>
-  <string name="people_picker__search_result_contacts_header_title">Επαφές</string>
-  <string name="people_picker__search_result_team_members_header_title">Μέλη της Ομάδος</string>
-  <string name="people_picker__invite_header_title">Προσκαλέστε</string>
-  <string name="people_picker__confirm_button_title">Δημιουργία συνομιλίας</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">Προσθήκη ατόμου σε Ομάδα</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Δημιουργία Ομάδος</string>
-  <string name="people_picker__error_message__no_results">Δεν βρέθηκαν αποτελέσματα.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts">Βρείτε άτομα πληκτρολογώντας το όνομα ή το email</string>
-  <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email ή</string>
-  <string name="people_picker__error_message__no_results__shared_contacts__add_to_conversation">Πληκτρολογήστε ένα διαφορετικό όνομα.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts__add_to_conversation">Πληκτρολογήστε ένα διαφορετικό όνομα.</string>
-  <string name="people_picker__error_message__no_results__send_invite">στείλε \n μία πρόσκληση</string>
-  <string name="people_picker__error_message__no_users_to_add_to_conversation">Είσαστε όλοι ήδη συνδεμένοι σε αυτή την συνομιλία.</string>
-  <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Δεν μπορέσαμε να βρούμε καμία από τις επαφές σας στο Wire. Εισάγετε ένα ολόκληρο όνομα ή μία διεύθυνση ηλεκτρονικού ταχυδρομείου.</string>
-  <string name="people_picker__toolbar_header__group">Προσθήκη ατόμων</string>
-  <string name="people_picker__toolbar_header__one_to_one">Δημιουργία ομάδος</string>
   <string name="people_picker__search_result__expander_title">Εμφάνιση όλων %1$s ↓</string>
-  <string name="people_picker__guest_label">Επισκέπτης</string>
   <string name="people_picker__search_people">ΑΤΟΜΑ</string>
   <string name="people_picker__search_services">SERVICES</string>
   <string name="receive_news_and_offers_request_title">Newsletter</string>
@@ -123,9 +88,6 @@
   <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Υπηρεσίες</string>
-  <string name="integrations_picker__add">Προσθήκη υπηρεσίας</string>
-  <string name="integrations_conv_bot">Bot</string>
-  <string name="integrations_chathead__section_title">Υπηρεσίες</string>
   <string name="integrations_errors_add_service">Adding service not possible</string>
   <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
   <string name="conversation_errors_full">The conversation is full</string>
@@ -135,46 +97,18 @@
   <string name="people_picker__share_contacts__yay">Να επιτρέπεται</string>
   <string name="people_picker__share_contacts__nah">Απόρριψη</string>
   <string name="people_picker__share_contacts__nevvah">Να μη ερωτηθώ ξανά</string>
-  <!-- People you may know -->
-  <string name="people_picker__recommended__common_connections__one">Γνωστοί %1$s</string>
-  <string name="people_picker__recommended__common_connections__two">Γνωστοί %1$s και %2$s</string>
-  <plurals name="people_picker__recommended__common_connections__more">
-    <item quantity="one">Γνωστοί %1$s και %2$d άλλοι</item>
-    <item quantity="other">Γνωστοί %1$s και %2$d άλλοι</item>
-  </plurals>
-  <string name="people_picker__recommended__common_connections__hide">Απόκρυψη</string>
   <!-- Invite -->
-  <string name="people_picker__invite__share_details_label">Στείλτε μια πρόσκληση</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Μοιραστείτε το Wire με τους φίλους σας.</string>
   <string name="people_picker__invite__share_text__header">%1$s επιθυμεί να συνδεθεί στο Wire</string>
   <string name="people_picker__invite__share_text__body">Βρίσκομαι στο Wire, αναζήτησε για %1$s ή επισκέψου την ιστοσελίδα get.wire.com</string>
-  <string name="people_picker__invite__message">Γεια,\n. Ευχαριστώ για την πρόσκληση. Ας συνδεθούμε.\n%1$s</string>
-  <string name="people_picker__invite__sent_feedback">Η πρόσκληση σας εστάλη</string>
-  <string name="people_picker__contact_list__user_selection_button__label">Άνοιγμα</string>
-  <string name="people_picker__contact_list__user_adding_button__label">ΠΡΟΣΘΗΚΗ</string>
-  <string name="people_picker__contact_list__contact_selection_button__label">Πρόσκληση</string>
-  <string name="people_picker__contact_list__invite_dialog__title">Αποστολή πρόσκλησης</string>
-  <string name="people_picker__contact_list__searchbox__hint">\u0020 ΑΝΑΖΗΤΗΣΗ ΜΕ ΒΑΣΗ ΟΝΟΜΑ</string>
-  <string name="people_picker__generic_invite_button_text">Πρόσκληση ατόμων για συμμετοχή στο Wire</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="one">%1$d κοινό άτομο</item>
-    <item quantity="other">%1$d κοινά άτομα</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s στις επαφές</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">στις Επαφές</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">Άνοιγμα</string>
-  <string name="conversation_quick_menu__conversation_button__group_label">Δημιουργία Ομάδος</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_joined">[[%1$s]] joined</string>
   <string name="content__system__you_joined">[[You]] joined</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
   <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
-  <string name="content__system__message_deleted">Αυτό το μήνυμα αφαιρέθηκε</string>
-  <string name="content_system_message_timestamp_failure">Μη απεσταλμένο μήνυμα.</string>
-  <string name="content_system_message_timestamp_pending">Αποστέλλεται\u2026</string>
-  <string name="content_system_message_timestamp_deleted">Διαγράφτηκε στις %1$s</string>
   <!-- Add people -->
   <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
   <plurals name="content__system__someone_added_people_with_others">
@@ -182,7 +116,6 @@
     <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
   </plurals>
   <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
-  <string name="content__system__someone_added_people_and_you">[[%1$s]] added %2$s and you to the conversation</string>
   <plurals name="content__system__someone_added_people_and_you_with_others">
     <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
     <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
@@ -201,8 +134,6 @@
   <!-- Create conversation -->
   <string name="content__system__you_started_conversation">You started the conversation</string>
   <string name="content__system__other_started_conversation">%1$s started the conversation</string>
-  <string name="content__system__you_started_one">[[You]] ξεκίνησες μία συνομιλία με %2$s</string>
-  <string name="content__system__other_started_one">[[%1$s]] ξεκίνησε μία συνομιλία με εσένα</string>
   <string name="content__system__with_you_only">with you</string>
   <string name="content__system__with_list_only">with %1$s</string>
   <plurals name="content__system__with_others_only">
@@ -220,8 +151,6 @@
   <string name="content__you_pinged">[[YOU]] Σκούντηξες</string>
   <string name="content__xxx_pinged">[[%1$s]] Σκούντηξε</string>
   <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__conversation_verified">Η συνομιλία επαληθεύτηκε</string>
-  <string name="content__otr__conversation_unverified">Η Συνομιλία δεν επαληθεύτηκε</string>
   <string name="content__otr__message_error">Ένα μήνυμα από [[%1$s]] Δεν ελήφθη. Γιατί?_</string>
   <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]]\'S Η ΤΑΥΤΟΤΗΤΑ ΤΗΣ ΣΥΣΚΕΥΗΣ ΆΛΛΑΞΕ. ΤΟ ΜΗΝΥΜΑ ΔΕΝ ΠΑΡΕΔΟΘΗ. _ΜΑΘΕΤΕ ΠΕΡΙΣΣΟΤΕΡΑ_</string>
@@ -257,13 +186,11 @@
   <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · Η μεταφόρτωση απέτυχε</string>
   <string name="content__file__action__open">Άνοιγμα</string>
   <string name="content__file__action__save">Αποθήκευση</string>
-  <string name="content__file__action__share">Μοιραστείτε</string>
   <string name="content__file__action__open__no_app_found">Καμία εφαρμογή δεν βρέθηκε για να ανοίξει αυτού του τύπου το αρχείο</string>
   <string name="content__file__action__save_completed">Το αρχείο αποθηκεύτηκε επιτυχώς</string>
   <string name="content__file__action__save_error">Αδύνατη η αποθήκευση αρχείου</string>
   <string name="content__location__no_map_placeholder">Η τοποθεσία σας θα εμφανιστεί στον χάρτη όταν επιστρέψετε σε σύνδεση.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">Rename</string>
   <string name="conversation__action__delete">Διαγραφή περιεχομένου&#8230;</string>
   <string name="conversation__action__archive">Αρχείο</string>
   <string name="conversation__action__unarchive">Αναίρεση αρχειοθέτησης</string>
@@ -273,7 +200,6 @@
   <string name="conversation__action__silence">Σίγαση</string>
   <string name="conversation__action__unsilence">Αύξηση έντασης</string>
   <string name="conversation__action__leave">Leave group&#8230;</string>
-  <string name="conversation__action__remove">Αφαίρεση</string>
   <string name="conversation__action__call">Κλήση</string>
   <string name="conversation__action__picture">Εικόνα</string>
   <string name="conversation__action__block">Block&#8230;</string>
@@ -287,10 +213,6 @@
   <string name="conversation__action__notifications_nothing">Nothing</string>
   <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
-  <string name="popover__action__open">Άνοιγμα</string>
-  <string name="popover__action__remove">Αφαίρεση</string>
-  <string name="popover__action__block">Αποκλεισμός</string>
-  <string name="popover__action__profile">Προφίλ</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Αργή σύνδεση</string>
   <string name="calling__slow_connection__message">Η σύνδεση δικτύου σας είναι πολύ αργή για να καλέσετε μόλις τώρα. Παρακαλούμε δοκιμάστε ξανά αργότερα.</string>
@@ -299,19 +221,12 @@
   <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
   <string name="calling__cannot_start__cancel__message">Ακύρωση</string>
   <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
-  <string name="calling__cannot_start__ongoing_different_kind__title">%1$s είναι απασχολημένος</string>
-  <string name="calling__cannot_start__ongoing_different_kind__message">Δοκιμάστε ξανά αργότερα</string>
-  <string name="calling__cannot_start__button_settings">Ρυθμίσεις</string>
   <string name="calling__video_call__slow_connection__message">Ενδεχομένως να αντιμετωπίσετε κάποια προβλήματα κατά την κλήση</string>
-  <string name="incoming__controls__incoming__decline">Απόρριψη</string>
-  <string name="incoming__controls__incoming__accept">Αποδοχή</string>
-  <string name="incoming__controls__ongoing__hangup">ΚΛΕΙΣΙΜΟ</string>
   <string name="incoming__controls__ongoing__speaker">ΗΧΕΙΟ</string>
   <string name="incoming__controls__ongoing__mute">Σίγαση</string>
   <string name="incoming__controls__ongoing__video">Βίντεο</string>
   <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">Το βίντεο διακόπηκε λόγω κακής σύνδεσης</string>
-  <string name="calling__self_preview_unavailable">Βίντεο κλειστό</string>
   <string name="calling__self_preview_unavailable_long">Η ΚΑΜΕΡΑ ΔΕΝ ΕΙΝΑΙ ΔΙΑΘΕΣΙΜΗ</string>
   <string name="calling__header__joining">Συνδέεται&#8230;</string>
   <string name="calling__header__outgoing_subtitle">Καλεί&#8230;</string>
@@ -338,10 +253,6 @@
   <string name="group_calling_confirm">Κλήση</string>
   <!-- Connect request -->
   <string name="connect__message">Γεια %1$s,\nΑς συνδεθούμε στο Wire.\n%2$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="one">%1$d κοινό άτομο</item>
-    <item quantity="other">%1$d κοινά άτομα</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">Εκκρεμεί</string>
   <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
   <string name="connect_request__unblock__button__text">Άρση αποκλεισμού</string>
@@ -364,8 +275,6 @@
     <item quantity="one">Θέλετε ακόμη να στείλετε το μήνυμα σας;</item>
     <item quantity="other">Θέλετε ακόμη να στείλετε τα μηνύματα σας;</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Θέλετε να αποδεχτείτε την κλήση;</string>
-  <string name="conversation__degraded_confirmation__place_call">Είστε σίγουρος ότι θέλετε να πραγματοποιήσετε την κλήση;</string>
   <string name="conversation__degraded_confirmation__positive_action">Αποστολή οπωσδήποτε</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Εμφάνιση συσκευής</item>
@@ -373,27 +282,14 @@
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Εμφάνιση των συσκευών μου</string>
   <string name="conversation_degraded_confirmation__header__you">Εσύ</string>
-  <!-- Profile and Participants -->
-  <plurals name="participants__sub_header_xx_people">
-    <item quantity="one">%1$d Άτομο</item>
-    <item quantity="other">%1$d Άτομα</item>
-  </plurals>
-  <string name="group_name">Όνομα ομάδος</string>
   <!-- Picture selection confirmation -->
   <string name="confirmation_menu__confirm_done">Εντάξει</string>
   <string name="confirmation_menu__cancel">Ακύρωση</string>
   <!-- ADD TO CONVERSATION offline -->
-  <string name="conversation__add_user__no_network__title">Δεν υπάρχει σύνδεση στο διαδίκτυο</string>
-  <string name="conversation__add_user__no_network__message">Πρέπει να είστε συνδεμένος για να προσθέσετε άτομα. Θα προσπαθήσουμε ξανά όταν επιστρέψετε σε σύνδεση.</string>
-  <string name="conversation__add_user__no_network__button">Εντάξει</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <string name="conversation__create_group_conversation__no_network__title">Δεν υπάρχει σύνδεση στο διαδίκτυο</string>
-  <string name="conversation__create_group_conversation__no_network__message">Πρέπει να είστε συνδεμένος για να δημιουργήσετε μία συνομιλία. Τα υπόλοιπα άτομα θα δουν τις αλλαγές σας όταν επανέλθετε σε σύνδεση.</string>
-  <string name="conversation__create_group_conversation__no_network__button">Εντάξει</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">Αποχώρηση από την συνομιλία;</string>
   <string name="confirmation_menu__meta_remove_text">Δεν θα μπορείτε να στείλετε ή να λάβετε μηνύματα σε αυτή την συνομιλία.</string>
-  <string name="confirmation_menu__confirm_leave">Αποχώρηση</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Remove from conversation dialogue -->
   <string name="confirmation_menu__header">Αφαίρεση;</string>
@@ -409,61 +305,31 @@
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Διαγραφή περιεχομένου;</string>
   <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
-  <string name="confirmation_menu__confirm_delete">Διαγραφή</string>
-  <string name="confirmation_menu__delete_conversation__checkbox__label">Επίσης θα αποχωρήσετε από την συνομιλία</string>
   <!-- Rich media -->
   <string name="content__youtube__error__text">το βίντεο δεν ευρέθη</string>
-  <string name="mediaplayer__artist__placeholder">Κομμάτι</string>
-  <string name="mediaplayer__artist__error">Παρακολούθηση μη διαθέσιμη</string>
   <string name="mediaplayer__message__onsoundcloud">στο SoundCloud</string>
   <string name="mediaplayer__message__onspotify">στο Spotify</string>
-  <string name="mediaplayer__spotify__hint">Σύνδεση με Spotify</string>
-  <string name="mediaplayer__open_external">Άνοιγμα σε πρόγραμμα περιήγησης</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">Διαδώστε το!</string>
-  <string name="content__invite_banner__subtitle">Προσθήκη ατόμων ή κοινοποίηση ενός συνδέσμου σε αυτή την συνομιλία.</string>
-  <string name="content__invite_banner__howto_link">Πως λειτουργεί αυτό;</string>
-  <string name="content__invite_banner__button_label">Προσθήκη ατόμων στην συνομιλία</string>
   <!-- Self profile -->
-  <string name="self_name">Ονοματεπώνυμο</string>
-  <string name="self_add_email">Προσθήκη email \u0026 κωδικός πρόσβασης</string>
-  <string name="self_verify_email">Επιβεβαίωση email</string>
-  <string name="self_add_phone">Προσθήκη αριθμού τηλεφώνου</string>
-  <string name="self_verify_phone">Επιβεβαίωση αριθμού τηλεφώνου</string>
   <!-- Options and settings -->
   <string name="settings_title">Ρυθμίσεις</string>
   <!-- Options menu -->
-  <string name="menu_settings">Ρυθμίσεις</string>
-  <string name="menu_avs_settings">AVS Ρυθμίσεις</string>
-  <string name="menu_about">Σχετικά</string>
-  <string name="menu_tutorial">Οδηγίες</string>
-  <string name="menu_help">Βοήθεια</string>
-  <string name="menu_logout">Αποσύνδεση</string>
   <!-- Manage Team -->
   <string name="pref_manage_team_title">Διαχείριση Ομάδας</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">Πολιτική Απορρήτου</string>
-  <string name="about_third_party_licences">Άδειες Χρήσης</string>
-  <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">Όροι Χρήσης</string>
-  <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Ρυθμίσεις</string>
   <string name="pref_developer_screen_title">Ρυθμίσεις για Προγραμματιστές</string>
   <string name="pref_dev_avs_screen_title">AVS Ρυθμίσεις</string>
   <string name="pref_profile_screen_title">Ταυτότητα</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Λογαριασμός</string>
-  <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Όνομα</string>
   <string name="pref_account_edit_name_title">Επεξεργασία ονόματος</string>
   <string name="pref_account_details_category_title">Πληροφορίες</string>
   <string name="pref_account_actions_category_title">Ενέργειες</string>
-  <string name="pref_account_personal_category_title">Προσωπικά</string>
   <string name="pref_account_appearance_category_title">Εμφάνιση</string>
   <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">History</string>
-  <string name="pref_account_details_category_summary">Τα άτομα μπορούν να σας βρουν με αυτές τις λεπτομέρειες.</string>
-  <string name="pref_account_personal_category_summary">Οι πληροφορίες δεν είναι ορατές σε κανέναν άλλον</string>
   <string name="pref_account_username_title">Όνομα Χρήστη</string>
   <string name="pref_account_phone_title">Κινητό Τηλέφωνο</string>
   <string name="pref_account_add_phone_title">Προσθήκη αριθμού τηλεφώνου</string>
@@ -507,7 +373,6 @@
   <string name="pref_options_sounds_none">Καθόλου</string>
   <string name="pref_options_vibration_title">Δόνηση</string>
   <string name="pref_options_vibration_title_o">Vibrate on ring</string>
-  <string name="pref_options_sounds_category_title">Ειδοποιήσεις</string>
   <string name="pref_options_ringtones_category_title">Ήχοι</string>
   <string name="pref_options_ringtones_ringtone_title">Ήχος Κλήσης</string>
   <string name="pref_options_ringtones_text_title">Ήχος κειμένου</string>
@@ -523,9 +388,6 @@
   <string name="pref_options_cursor_send_button_summary">Απενεργοποίηση αποστολής μέσω πληκτρολογίου.</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Συσκευές</string>
-  <string name="pref_current_device_category_title">Τρέχουσα συσκευή</string>
-  <string name="pref_other_devices_category_title">Ενεργές συσκευές</string>
-  <string name="pref_devices_summary">Πατήστε για διαγραφή</string>
   <string name="pref_devices_current_device_category_title">Τρέχουσα συσκευή</string>
   <string name="pref_devices_other_devices_category_title">Άλλες συσκευές</string>
   <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
@@ -538,7 +400,6 @@
   <string name="pref_devices_device_fingerprint_category_title">Κλειδί Αποτυπώματος</string>
   <string name="pref_devices_device_fingerprint_summary">Το Wire δίνει σε κάθε συσκευή ένα μοναδικό αποτύπωμα. Συγκρίνετε τα και επαληθεύστε τις συσκευές σας και τις συνομιλίες σας.</string>
   <string name="pref_devices_device_actions_category_title">Ενέργειες</string>
-  <string name="pref_devices_device_trust_title">Επιβεβαιωμένο</string>
   <string name="pref_devices_device_reset_session_title">Επαναφορά περιόδου σύνδεσης</string>
   <string name="pref_devices_device_reset_session_summary">Εάν τα αποτυπώματα δεν ταιριάζουν, επαναφέρετε την περίοδο σύνδεσης για να δημιουργήσετε νέα κλειδιά κρυπτογράφησης και στις δύο πλευρές.</string>
   <string name="pref_devices_device_remove_title">Αφαίρεση συσκευής</string>
@@ -549,8 +410,6 @@
   <string name="pref_advanced_screen_title">Για προχωρημένους</string>
   <string name="pref_advanced_debug_report_title">Υποβολή αναφοράς σφαλμάτων</string>
   <string name="pref_advanced_debug_report_summary">Αυτό βοηθάει το τμήμα υποστήριξης Wire στην διάγνωση προβλημάτων.</string>
-  <string name="pref_advanced_analytics_title">Δεδομένα χρήσης και αναφορά σφαλμάτων</string>
-  <string name="pref_advanced_analytics_summary">Μπορείτε να βοηθήσετε το Wire να βελτιωθεί στέλνοντας ανώνυμα δεδομένα.</string>
   <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">If you experience problems with push notifications, Wire Support may ask you to reset this token.</string>
   <string name="pref_advanced_reset_push_completed">Push token has been reset</string>
@@ -600,72 +459,33 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Αφαίρεση</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Είστε βέβαιοι ότι θέλετε να αφαιρέσετε το %s από τον λογαριασμό σας στο Wire;</string>
   <string name="pref__account_action__dialog__delete_phone__error">Αδύνατη η διαγραφή αριθμού τηλεφώνου</string>
-  <string name="pref__account_action__dialog__delete_email__error">Αδύνατη η διαγραφή του email</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">Χρειάζεται να είστε συνδεμένος για να διαγράψετε το email</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Χρειάζεται να είστε συνδεμένος για να διαγράψετε τον αριθμό τηλεφώνου</string>
-  <string name="pref__account_action__dialog__change_email__error__invalid_email">Εισάγετε ένα έγκυρο email</string>
   <string name="pref__account_action__dialog__change_email__title">Επεξεργασία διεύθυνσης ηλ. ταχυδρομείου</string>
-  <string name="pref__account_action__dialog__change_username__summary">Με αυτό το όνομα χρήστη, τα άτομα θα μπορούν να σας βρίσκουν χωρίς να γνωρίζουν το email σας ή τον αριθμό τηλεφώνου.</string>
   <string name="pref__account_action__dialog__change_username__rules">Τουλάχιστον 2 χαρακτήρες. a–z, 0–9, και _ μόνο</string>
   <string name="pref__account_action__dialog__change_username__title">Όνομα Χρήστη</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">Χρησιμοποιείται ήδη</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Σφάλμα σύνδεσης, παρακαλούμε δοκιμάστε ξανά</string>
   <!-- No Internet connection -->
   <string name="system_status__no_internet">Χωρίς Σύνδεση στο Διαδίκτυο</string>
-  <string name="system_status__no_server_connection">Συνδέεται&#8230;</string>
   <!-- SHARING -->
-  <string name="system_status__sharing">Επιλέξτε μία συνομιλία</string>
   <string name="alert_dialog__confirmation">Εντάξει</string>
   <string name="alert_dialog__no_network__header">Δεν υπάρχει σύνδεση στο διαδίκτυο</string>
-  <string name="sign_up__no_internet__message">Πρέπει να είσαστε συνδεμένος για να συμμετάσχετε. Ελέγξτε την σύνδεση σας και δοκιμάστε ξανά.</string>
-  <string name="sign_in__no_internet__message">Πρέπει να συνδεθείτε για να συμμετάσχετε. Ελέγξτε την σύνδεση σας και δοκιμάστε ξανά.</string>
-  <string name="sign_up__take_picture__back">Επεξεργασία ονόματος</string>
-  <string name="sign_up__take_picture_dialog__gallery">Συλλογή</string>
-  <string name="sign_up__take_picture_dialog__camera">Κάμερα</string>
-  <string name="sign_up__take_picture_dialog__message">Τραβήξτε μία νέα φωτογραφία ή επιλέξτε μία από τις υπάρχουσες στην βιβλιοθήκη σας.</string>
-  <string name="sign_up__take_picture_dialog__title">Τραβήξτε Φωτογραφία</string>
   <string name="sign_up__set_picture__choose">Επιλέξτε το δικό σας</string>
   <string name="sign_up__set_picture__keep">Κρατήστε το</string>
   <string name="sign_up__set_picture__guidance">Το Wire είναι πιο όμορφο με μία εικόνα.</string>
   <string name="sign_up__set_picture__loading">Μεταφόρτωση εικόνας</string>
-  <string name="rename_conversation__no_network__message">Πρέπει να είστε συνδεμένος για να μετονομάσετε την συζήτηση. Ελέγξτε την σύνδεση σας και δοκιμάστε ξανά.</string>
-  <string name="resend_message__no_network__message">Πρέπει να είστε συνδεμένος για να ξαναστείλετε μήνυμα. Ελέγξτε την σύνδεση σας και δοκιμάστε ξανά.</string>
   <string name="leave_conversation_failed__message">Πρέπει να είστε συνδεμένος για να αποχωρήσετε από την συζήτηση. Ελέγξτε την σύνδεση σας και δοκιμάστε ξανά.</string>
   <string name="remove_from_conversation__no_network__message">Πρέπει να είστε συνδεμένος για να αφαιρέσετε άτομα από τις συνομιλίες. Ελέγξτε την σύνδεση σας και δοκιμάστε ξανά.</string>
   <string name="calling__call_drop__message">Πρέπει να είστε συνδεμένος για να καλέσετε. Ελέγξτε την σύνδεση σας και δοκιμάστε ξανά.</string>
-  <string name="profile_pic__no_network__message">Πρέπει να είστε συνδεμένος για να αλλάξετε την φωτογραφία σας. Ελέγξτε την σύνδεση σας και δοκιμάστε ξανά.</string>
-  <string name="calling__voice_channel_full__title">Η συνομιλία είναι πλήρης</string>
-  <plurals name="calling__voice_channel_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Υπάρχει χώρος μόνο για %1$d άτομο εδώ.</item>
-    <item quantity="other">Υπάρχει χώρος μόνο για %1$d άτομα εδώ.</item>
-  </plurals>
-  <string name="calling__conversation_full__title">Πάρα πολλά άτομα για κλήση</string>
-  <plurals name="calling__conversation_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Οι κλήσεις λειτουργούν σε συζητήσεις μόνο πάνω από %1$d άτομο.</item>
-    <item quantity="other">Οι κλήσεις λειτουργούν σε συζητήσεις μόνο πάνω από %1$d άτομα.</item>
-  </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Messages</string>
   <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Pings</string>
   <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Background notifications</string>
   <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
   <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <string name="lockscreen__talk">Καλεί</string>
-  <plurals name="notification__new_messages">
-    <item quantity="one">Μήνυμα από %2$s</item>
-    <item quantity="other">%1$d Μήνυμα από %2$s</item>
-  </plurals>
-  <plurals name="notification__new_messages_groups">
-    <item quantity="one">Μήνυμα στον %2$s</item>
-    <item quantity="other">%1$d Μηνύματα στους %2$s</item>
-  </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="one">Μήνυμα σε %2$s συνομιλίες</item>
     <item quantity="other">%1$d μηνύματα σε %2$s συνομιλίες</item>
@@ -682,20 +502,11 @@
   <string name="notification__message__one_to_one__shared_video">Μοιράστηκε ένα βίντεο</string>
   <string name="notification__message__one_to_one__shared_audio">Μοιράστηκε ένα ηχητικό μήνυμα</string>
   <string name="notification__message__one_to_one__shared_location">Μοιράστηκε μία τοποθεσία</string>
-  <string name="notification__message__one_to_one__liked">\u2764 το μήνυμα σας</string>
   <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s σε %2$s \u0020</string>
-  <string name="notification__message__group__pinged">σκούντημα</string>
-  <string name="notification__message__group__shared_picture">μοιράστηκε εικόνα</string>
-  <string name="notification__message__group__shared_file">μοιράστηκε αρχείο</string>
-  <string name="notification__message__group__shared_video">κοινοποίηση ενός βίντεο</string>
-  <string name="notification__message__group__shared_audio">κοινοποίηση ενός ηχητικού μηνύματος</string>
-  <string name="notification__message__group__shared_location">κοινοποίηση της τοποθεσίας σας</string>
   <string name="notification__message__group__renamed_conversation">η συνομιλία μετονομάστηκε σε %1$s</string>
   <string name="notification__message__group__add">προστέθηκαν άτομα στην συνομιλία</string>
   <string name="notification__message__group__remove">αφαιρέθηκαν από την συνομιλία</string>
-  <string name="notification__message__generic__accept_request">Έχετε μία νέα σύνδεση</string>
   <string name="notification__message__single__accept_request">Εσύ και %1$s συνδεθήκατε</string>
   <string name="notification__message__group__default_conversation_name">ομαδική συνομιλία</string>
   <string name="notification__message__send_failed">Message failed to send</string>
@@ -704,10 +515,8 @@
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 το μήνυμα σας</string>
   <string name="notification__message__liked_picture">\u2764 your picture</string>
-  <string name="notification__message__liked_file">\u2764 your file</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_someone">Κάποιος</string>
-  <string name="notification__message__ephemeral_details">Πατήστε για περισσότερα</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Κάποιος σας έστειλε μήνυμα</item>
     <item quantity="other">Κάποιοι σας στείλανε %1$d μηνύματα</item>
@@ -726,16 +535,9 @@
     <item quantity="other">%1$s others</item>
   </plurals>
   <!-- System notifications -->
-  <string name="system_notification__group_call_title">%1$s σε %2$s</string>
   <string name="system_notification__silence_call">Απόρριψη</string>
   <string name="system_notification__join_call">Αποδοχή</string>
   <string name="system_notification__leave_call">Τερματισμός κλήσης</string>
-  <string name="system_notification__outgoing">Καλεί</string>
-  <string name="system_notification__outgoing_video">Βιντεοκλήση</string>
-  <string name="system_notification__incoming">Καλεί</string>
-  <string name="system_notification__incoming_video">Is calling with video</string>
-  <string name="system_notification__ongoing">Σε κλήση</string>
-  <string name="number_of_conversations_string">Αρχειοθέτηση</string>
   <string name="system_notification__calling_one">Καλεί&#8230;</string>
   <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
@@ -757,7 +559,6 @@
   <string name="notification__image_saving__action__share">Μοιράσου</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
   <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <string name="notification__file_saving__content__title">Το αρχείο αποθηκεύτηκε στο Wire.</string>
   <!-- forced update -->
   <string name="forced_update__header">Σημαντική ενημέρωση</string>
   <string name="forced_update__sub_header">Παρακαλούμε εγκαταστήστε την νεότερη έκδοση του Wire.</string>
@@ -765,17 +566,9 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Sharing -->
   <string name="sharing__image_preview__confirm_action">Αποστολή</string>
-  <string name="sharing__image_preview__title__single">Αποστολή 1 εικόνας σε\n_%1$s_</string>
-  <string name="sharing__image_preview__title__multiple">Αποστολή %1$s εικόνων σε\n_%2$s_</string>
   <string name="sharing__user_not_logged_in__dialog__title">Παρακαλούμε συνδεθήτε</string>
   <string name="sharing__user_not_logged_in__dialog__message">Άνοιγμα Wire και σύνδεση για κοινή χρήση.</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">Εντάξει</string>
-  <string name="sharing__files__ok">Μοιράσου</string>
-  <string name="sharing__files__cancel">Aκύρωση</string>
-  <plurals name="sharing__files__message">
-    <item quantity="one">Πρόκειται να μοιραστείτε %1$d αρχείο με %2$s.</item>
-    <item quantity="other">Πρόκειται να μοιραστείτε %1$d αρχεία με %2$s.</item>
-  </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">Αδύνατη η δημιουργία</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">Αδύνατη η δημιουργία συνομιλίας με %1$s</string>
@@ -785,30 +578,9 @@
   <string name="in_app_notification__sync_error__create_convo__button">Συνέχεια</string>
   <!--Timestamp formatting -->
   <string name="timestamp__just_now">Μόλις τώρα</string>
-  <string name="timestamp__a_minute_ago">Πριν ένα λεπτό</string>
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="one">%1$d λεπτό πριν</item>
     <item quantity="other">%1$d λεπτά πριν</item>
-  </plurals>
-  <plurals name="timestamp__x_hours_ago">
-    <item quantity="one">%1$d ώρα πριν</item>
-    <item quantity="other">%1$d ώρες πριν</item>
-  </plurals>
-  <plurals name="timestamp__x_days_ago">
-    <item quantity="one">%1$d ημέρα πριν</item>
-    <item quantity="other">%1$d ημέρες πριν</item>
-  </plurals>
-  <plurals name="timestamp__x_weeks_ago">
-    <item quantity="one">%1$d εβδομάδα πριν</item>
-    <item quantity="other">%1$d εβδομάδες πριν</item>
-  </plurals>
-  <plurals name="timestamp__x_months_ago">
-    <item quantity="one">%1$d μήνα πριν</item>
-    <item quantity="other">%1$d μήνες πριν</item>
-  </plurals>
-  <plurals name="timestamp__x_years_ago">
-    <item quantity="one">%1$d χρόνο πριν</item>
-    <item quantity="other">%1$d χρόνια πριν</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -820,25 +592,17 @@
   <!-- Example: MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- MONDAY -->
-  <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MARCH 2 -->
-  <string name="timestamp_pattern__separator_header__this_year">MMMM d</string>
   <!-- MARCH 2, 2015 -->
-  <string name="timestamp_pattern__separator_header__last_year">MMMM d, YYYY</string>
-  <string name="timestamp_pattern__separator_header__today">Σήμερα</string>
-  <string name="timestamp_pattern__separator_header__yesterday">Χθές</string>
   <!-- 23:15 -->
   <string name="timestamp_pattern__24h_format">HH:mm</string>
   <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="reg__phone_alert__button">Εντάξει</string>
   <string name="country">Χώρα</string>
   <string name="register">Εγγραφή</string>
   <string name="password_placeholder">Κωδικός Πρόσβασης</string>
   <string name="email_placeholder">Email</string>
   <string name="name_placeholder">Όνομα</string>
-  <string name="registration_back">Πίσω</string>
   <!-- Strings -->
   <string name="edit_phone_number">ΕΠΕΞΕΡΓΑΣΙΑ ΑΡΙΘΜΟΥ ΤΗΛΕΦΩΝΟΥ</string>
   <string name="i_have_an_account">ΣΥΝΔΕΣΗ</string>
@@ -851,10 +615,8 @@
   <string name="activation_code_info_manual">Εισάγετε τον κωδικό επαλήθευσης που σας στείλαμε στο \n&lt;b&gt;%s&lt;/b&amp;gt?</string>
   <string name="enter_name">What should we call you;</string>
   <string name="enter_name_hint">Εισάγετε ονοματεπώνυμο</string>
-  <string name="set_a_picture">Ορισμός μίας φωτογραφίας</string>
   <string name="new_reg__password__forgot">Ξεχάσατε τον κωδικό;</string>
   <string name="phone_sign_in">Κινητό Τηλέφωνο</string>
-  <string name="go_to_register">Δημιουργία Λογαριασμού</string>
   <string name="email_sign_in">Email</string>
   <string name="edit_email">Επεξεργασία Email</string>
   <string name="hello">Γεια σου, &lt;b&gt;%s&lt;/b&gt;</string>
@@ -863,8 +625,6 @@
   <string name="username__set__toast_error">Σφάλμα ενημέρωσης ονόματος χρήστη</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Αναζήτηση Giphy</string>
-  <string name="giphy_preview__title_search">#%s</string>
-  <string name="giphy_preview__title_random">Τυχαία</string>
   <string name="giphy_preview__error">Δεν βρέθηκαν εικόνες Gifs.</string>
   <string name="giphy_preview__message_via_random_trending">Μέσω giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · μέσω giphy.com</string>
@@ -872,7 +632,6 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">Πατήστε για αλλαγή μεγέθους πινέλου.\n\nμην αφαιρέσετε φωτογραφίες.</string>
   <string name="drawing__tip__message">Πατήστε χρώμα για αλλαγή μεγέθους πινέλου.\n\nPRESS και κρατήστε για να συμπληρώσετε μία περιοχή.</string>
-  <string name="add_a_sketch">Προσθήκη σκίτσου</string>
   <string name="sketch__emoji_keyboard__size_label__small">Μικρό</string>
   <string name="sketch__emoji_keyboard__size_label__medium">Μεσαίο</string>
   <string name="sketch__emoji_keyboard__size_label__large">Μεγάλο</string>
@@ -896,8 +655,6 @@
   <string name="otr__remove_device__button_delete">Εντάξει</string>
   <string name="otr__remove_device__button_cancel">Aκύρωση</string>
   <string name="otr__remove_device__error">Λανθασμένος κωδικός πρόσβασης</string>
-  <string name="otr__remove_device__button_approve">Εντάξει</string>
-  <string name="otr__remove_device__button_remove">Αφαίρεση</string>
   <string name="otr__error_dialog__cannot_register__message">Αφαιρέστε μία από τις άλλες συσκευές σας για να αρχίσετε να χρησιμοποιείτε το Wire σε αυτήν.</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Διαχείριση συσκευών</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Αποσύνδεση</string>
@@ -921,32 +678,18 @@
   <string name="otr__first_launch__header">Είναι η πρώτη φορά που χρησιμοποιείτε το Wire σε αυτή την συσκευή.</string>
   <string name="otr__first_launch__sub_header">Για λόγους απορρήτου, το ιστορικό συνομιλιών σας δεν θα εμφανίζεται εδώ.</string>
   <string name="otr__first_launch__button">Εντάξει</string>
-  <string name="otr__device_approve__header">Η συσκευή σας συνδέθηκε στον Wire λογαριασμό σας.</string>
-  <string name="otr__device_approve__note">Εάν δεν πράξατε κάτι τέτοιο, αφαιρέστε την συσκευή και επαναφέρετε τον κωδικό σας.</string>
   <string name="otr__signin__info_text">Σύνδεση</string>
   <string name="otr__reset_session__message_ok">Η περίοδος σύνδεσης επαναφέρθηκε</string>
   <string name="otr__reset_session__message_fail">Αδύνατη η επαναφορά περιόδου σύνδεσης</string>
   <string name="otr__reset_session__button_ok">Εντάξει</string>
   <string name="otr__reset_session__button_fail">Προσπαθήστε ξανά</string>
-  <string name="otr__remove_device__no_internet__title">Χωρίς σύνδεση στο διαδίκτυο</string>
-  <string name="otr__remove_device__no_internet__message">Δοκιμάστε να αφαιρέσετε την συσκευή όταν θα είστε συνδεμένος ξανά.</string>
-  <string name="otr__remove_device__no_internet__button">Εντάξει</string>
-  <string name="otr__device_inbox__header">Ο λογαριασμός σας χρησιμοποιήθηκε στις:</string>
-  <string name="otr__device_inbox__name">Από: [[%s]]</string>
   <string name="advanced_image_download_wifi_info">Η εικόνα θα εμφανιστεί όταν θα είστε συνδεμένος στο Wi-Fi ξανά</string>
   <string name="change_settings">Αλλαγή Ρυθμίσεων</string>
-  <string name="single_image__save_to_disk__error">Αδύνατη η αποθήκευση εικόνας, δεν υπάρχει πρόσβαση σε εξωτερικό αποθηκευτικό χώρο</string>
-  <string name="conversation_list__label_action__contacts">ΑΤΟΜΑ</string>
-  <string name="conversation_list__hint_header">Οι συνομιλίες ξεκινούν εδώ</string>
-  <string name="conversation_list__hint_text">Ξεκινήστε μία συνομιλία. Κλήση, μήνυμα και κοινοποίηση σε ιδιωτική ή με ομάδες.</string>
   <string name="conversation_list__action_join_call">Συμμετοχή</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Συλλογή</string>
   <string name="conversation_toolbar__call_video">Βιντεοκλήση</string>
   <string name="conversation_toolbar__call_audio">Ηχητική κλήση</string>
-  <string name="conversation_toolbar__delete">Διαγραφή</string>
-  <string name="conversation_toolbar__copy">Αντιγραφή</string>
-  <string name="conversation_toolbar__fwd">Μοιραστείτε</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Το αρχείο δεν βρέθηκε</string>
   <string name="asset_upload_error__not_found__message">Αδύνατη η ανάκτηση του καθορισμένου αρχείου</string>
@@ -958,17 +701,8 @@
   <string name="asset_upload_warning__large_file__title">Δεν είσαστε συνδεμένοι σε ασύρματο δίκτυο</string>
   <string name="asset_upload_warning__large_file__message_default">Είστε βέβαιοι ότι θέλετε να στείλετε ένα μεγάλο αρχείο μέσω του δικτύου κινητής τηλεφωνίας;</string>
   <string name="asset_upload_warning__large_file__message">Είστε βέβαιοι ότι θέλετε να στείλετε %1$s μέσω του δικτύου κινητής τηλεφωνίας;</string>
-  <string name="asset_upload_warning__large_file__button_accept">Εντάξει</string>
-  <string name="asset_upload_warning__large_file__button_cancel">Aκύρωση</string>
   <!-- Video message errors -->
-  <string name="video_message_error__too_big__title">Πολύ μεγάλο βίντεο</string>
-  <string name="video_message_error__too_big__message">Μπορείτε να στείλετε έως 25 MB.</string>
-  <string name="video_message_error__title">Σφάλμα βίντεο</string>
-  <string name="video_message_error__message">Αδύνατη η επεξεργασία αρχείου βίντεο</string>
-  <string name="video_message_error__button">Εντάξει</string>
-  <string name="video_message_error__missing_camera_permissions">Για την αποστολή μηνυμάτων βίντεο, παραχωρήστε δικαίωμα πρόσβασης στην κάμερα και αρχεία πολυμέσων.</string>
   <string name="audio_message_error__missing_audio_permissions">Για αποστολή ηχητικών μηνυμάτων, παραχωρήστε δικαίωμα καταγραφής ήχου.</string>
-  <string name="audio_message_error__generic">Αδύνατη η αναπαραγωγή ήχου</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">CONSTANT BIT RATE</string>
   <!-- no contacts -->
@@ -988,7 +722,6 @@
   <string name="tooltip_file">Αποστολή Αρχείου</string>
   <string name="tooltip_gif">Εικόνες Gif</string>
   <string name="tooltip_mention">Add Mention</string>
-  <string name="new_feature">Νέο</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Διαγραφή μόνο για εμένα;</string>
   <string name="conversation__message_action__delete_for_everyone">Διαγραφή για όλους;</string>
@@ -1002,9 +735,6 @@
   <string name="conversation__action_mode__fwd__dialog__message">Παρακαλώ περιμένετε&#8230;</string>
   <string name="conversation__action_mode__fwd__chooser__title">Κοινή χρήση με</string>
   <!-- video message preview -->
-  <string name="video_message__preview__header">Αποστολή σε %1$s</string>
-  <string name="video_message__quick_menu__send_label">Αποστολή</string>
-  <string name="video_message__preview__compressing">Γίνετε συμπίεση&#8230;</string>
   <string name="audio_message__recording__slide_control__slide_hint">ΑΛΛΑΓΗ ΑΠΟΣΤΟΛΗΣ</string>
   <string name="audio_message__recording__slide_control__tap_hint">Πατήστε για αποστολή</string>
   <string name="audio_message__recording__tap_to_record">Πατήστε για καταγραφή του μηνύματος\nμπορείτε να _GLYPH_ κατόπιν αυτού</string>
@@ -1024,7 +754,6 @@
   <string name="message_bottom_menu_action_delete">Διαγραφή</string>
   <string name="message_bottom_menu_action_delete_local">Διαγραφή για εμένα</string>
   <string name="message_bottom_menu_action_delete_global">Διαγραφή για όλους</string>
-  <string name="message_bottom_menu_action_forward_multiple">Κοινή χρήση με πολλαπλές</string>
   <string name="message_bottom_menu_action_reveal">Εμφάνιση συνομιλίας</string>
   <string name="likes_list__header">Αρέσει στον</string>
   <string name="message_bottom_menu_action_save_ok">Η εικόνα αποθηκεύτηκε</string>
@@ -1042,7 +771,6 @@
   <string name="usernames__take_over__summary">Ζητήστε το μοναδικό σας όνομα στο Wire. _Μάθετε περισσότερα._</string>
   <string name="usernames__take_over__choose">Επιλέξτε δικό σας</string>
   <string name="usernames__take_over__keep">Διατήρηση αυτού</string>
-  <string name="pref_account_username_empty_title">Προσθέστε όνομα χρήστη</string>
   <string name="ephemeral_message__timeout__off">Ανενεργό</string>
   <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
   <string name="guests_option_on">On</string>
@@ -1072,17 +800,14 @@
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
   <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
-  <string name="collection_header_all">Συλλογή</string>
   <string name="collection_header_pictures">Εικόνες</string>
   <string name="collection_header_files">Αρχεία</string>
   <string name="collection_header_links">Σύνδεσμοι</string>
   <string name="collection_header_today">Σήμερα</string>
   <string name="collection_header_yesterday">Χτες</string>
   <string name="collection_empty">Δεν συλλέχτηκε κανένα στοιχείο</string>
-  <string name="collection_send_to">Αποστολή σε&#8230;</string>
   <string name="collection_all">Προβολή όλων %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">Η αποστολή απέτυχε</string>
   <string name="multi_share_search_hint">Αποστολή σε&#8230;</string>
   <string name="search__box__hint_text">ΜΗΝΥΜΑΤΑ ΑΝΑΖΗΤΗΣΗΣ ΚΕΙΜΕΝΟΥ</string>
   <string name="search__no_results">Κανένα Αποτέλεσμα.</string>
@@ -1125,11 +850,8 @@
   <string name="conversation_list__someone">Κάποιος</string>
   <string name="conversation_list__added">[[%1$s]] προστέθηκε</string>
   <string name="conversation_list__added_you">[[%1$s]] προστέθηκες</string>
-  <string name="conversation_list__left">[[%1$s]] αποχώρησε</string>
   <string name="conversation_list__left_you">Αποχωρήσατε</string>
   <string name="conversation_list__removed_you">[[%1$s]] σε αφαίρεσε</string>
-  <string name="conversation_list__removed">[[%1$s]] Αφαιρέθηκε</string>
-  <string name="conversation_list__empty_conv__subtitle">Αποχώρηση όλων</string>
   <string name="conversation_list__header__title">Συνομιλίες</string>
   <string name="conversation_list__header__archive_title">Αρχειοθέτηση</string>
   <string name="guest_indicator">ΕΠΙΣΚΕΠΤΗΣ</string>
@@ -1167,7 +889,6 @@
   <string name="teams_verify_email_change">CHANGE EMAIL</string>
   <string name="teams_set_name_title">Το όνομά σας</string>
   <string name="teams_set_name_hint">FULL NAME</string>
-  <string name="app_entry_slogan">Secure messaging for everyone.</string>
   <string name="app_entry_create_account">Προσωπικά</string>
   <string name="app_entry_create_account_sub">δημιουργία λογαριασμού</string>
   <string name="app_entry_create_team">Pro</string>
@@ -1194,17 +915,12 @@
   <string name="teams_invitations_skip">SKIP</string>
   <string name="teams_invitations_done">DONE</string>
   <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
-  <string name="teams_invitations_error_blacklisted_email">The given e-mail address has been blacklisted due to a permanent bounce or a complaint.</string>
-  <string name="teams_invitations_error_no_identity">The user has no verified identity (email or phone number).</string>
-  <string name="teams_invitations_error_no_email">This operation requires the user to have a verified email address.</string>
   <string name="teams_invitations_error_already_sent">Already sent</string>
   <string name="teams_invitations_error_generic">Something went wrong, please try again</string>
   <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
   <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
   <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
-  <string name="teams_invitations_error_email_exists_more">LEARN MORE</string>
   <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
-  <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">Χτίστε την ομάδα σας</string>
   <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
   <string name="open_service_conversation_button_text">Ανοικτή Συνομιλία</string>
@@ -1225,7 +941,6 @@
   <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
   <string name="new_conv_no_results">No results</string>
   <string name="new_conv_no_contacts">No contacts</string>
-  <string name="create_group_search">SEARCH FOR NAMES</string>
   <string name="participants_divider_services">SERVICES (%1$s)</string>
   <string name="participants_divider_people">PEOPLE (%1$s)</string>
   <string name="group_name_hint">GROUP NAME</string>
@@ -1292,7 +1007,6 @@
   <string name="video_paused">Video paused</string>
   <string name="calling_degraded_title">Νέα συσκευή</string>
   <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
   <string name="markdown_link_dialog_title">Visit Link</string>
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">Εντάξει</string>

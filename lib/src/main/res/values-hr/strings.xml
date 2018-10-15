@@ -27,7 +27,6 @@
   <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
   <string name="too_many_attempts_header">Previše pokušaja</string>
   <string name="login_later_message">Please try to log in later</string>
-  <string name="register_again_message">Please try to register again</string>
   <string name="email_exists_header">Email adresa je već u upotrebi</string>
   <string name="email_exists_message">This email address has already been registered</string>
   <string name="email_invalid_header">Nevažeća e-mail adresa</string>
@@ -45,8 +44,6 @@
   <string name="wrong_code_message">Molimo, unesite važeći kod</string>
   <string name="phone_pending_login_header">Kod je već poslan</string>
   <string name="phone_pending_login_message">Poslali smo vam kod putem SMS-a. Možete zatražiti novi kod nakon 10 minuta.</string>
-  <string name="password_invalid_header">Netočna lozinka</string>
-  <string name="password_invalid_message">Molimo provjerite vaše podatke i pokušajte ponovno</string>
   <string name="phone_budget_exhausted_header">Too many requests</string>
   <string name="phone_budget_exhausted_message">Please try again later.</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -71,48 +68,16 @@
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">Your phone number</string>
   <!-- Receive email/sms invitation -->
-  <string name="invitation_email__normal_phone_signup_button">Prijavite se pomoću telefonskog broja</string>
-  <string name="invitation_email__normal_email_signup_button">Prijavite se koristeći drugu email adresu</string>
-  <string name="invitation_email__password_placeholder">Lozinka (min. %1$s simbola)</string>
-  <string name="invitation_email__welcome_header">Pozdrav, %1$s.</string>
-  <string name="invitation_email__welcome_message">Odaberite lozinku za stvaranje računa.</string>
-  <string name="invitation__continue_button">Nastavi</string>
-  <string name="invitation_phone__normal_phone_signup_button">Koristeći drugi uređaj</string>
-  <string name="invitation_phone__normal_email_signup_button">Prijavite se putem email adrese</string>
-  <string name="invitation_phone__welcome_header">Pozdrav, %1$s.</string>
-  <string name="invitation_phone__welcome_message">Jedan ste korak od izrade računa.</string>
-  <string name="invitation__phone__failed">Nije moguće registrirati s ovom pozivnicom.</string>
-  <string name="invitation__email__failed">Nije moguće registrirati s ovom pozivnicom.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 SEARCH</string>
   <string name="pick_user_search_hint">SEARCH</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Top veze</string>
-  <string name="people_picker__address_book_matches_title">Povežite se</string>
   <string name="people_picker__search_result_conversations_header_title">Grupe</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Groups</string>
   <string name="people_picker__search_result_connections_header_title">Kontakti</string>
   <string name="people_picker__search_result_others_header_title">Povežite se</string>
-  <string name="people_picker__search_result_recommended_header_title">Preporučeno</string>
-  <string name="people_picker__search_result_contacts_header_title">Kontakti</string>
-  <string name="people_picker__search_result_team_members_header_title">Team Members</string>
-  <string name="people_picker__invite_header_title">Pozovite</string>
-  <string name="people_picker__confirm_button_title">Stvori razgovor</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">Add People to Group</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Napravi grupu</string>
-  <string name="people_picker__error_message__no_results">Nema traženih rezulata.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts">Traži veze pomoću imena ili e-mail adrese</string>
-  <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Molimo unesite ispravnu e-mail adresu ili</string>
-  <string name="people_picker__error_message__no_results__shared_contacts__add_to_conversation">Unesite drugo ime.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts__add_to_conversation">Unesite drugo ime.</string>
-  <string name="people_picker__error_message__no_results__send_invite">pošaljite \n pozivnicu</string>
-  <string name="people_picker__error_message__no_users_to_add_to_conversation">Svi ljudi s kojima ste povezani su već u ovom razgovoru.</string>
-  <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Nismo mogli pronaći nikoga od tvojih kontakata na Wire. Unesite puno ime ili e-mail adresu.</string>
-  <string name="people_picker__toolbar_header__group">Dodajte osobe</string>
-  <string name="people_picker__toolbar_header__one_to_one">Kreirajte grupu</string>
   <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
-  <string name="people_picker__guest_label">Guest</string>
   <string name="people_picker__search_people">LJUDI</string>
   <string name="people_picker__search_services">SERVICES</string>
   <string name="receive_news_and_offers_request_title">Newsletter</string>
@@ -123,9 +88,6 @@
   <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Usluge</string>
-  <string name="integrations_picker__add">Add Service</string>
-  <string name="integrations_conv_bot">Bot</string>
-  <string name="integrations_chathead__section_title">Usluge</string>
   <string name="integrations_errors_add_service">Adding service not possible</string>
   <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
   <string name="conversation_errors_full">The conversation is full</string>
@@ -135,48 +97,18 @@
   <string name="people_picker__share_contacts__yay">Allow</string>
   <string name="people_picker__share_contacts__nah">Deny</string>
   <string name="people_picker__share_contacts__nevvah">Never ask again</string>
-  <!-- People you may know -->
-  <string name="people_picker__recommended__common_connections__one">Zna %1$s</string>
-  <string name="people_picker__recommended__common_connections__two">Zna %1$s i %2$s</string>
-  <plurals name="people_picker__recommended__common_connections__more">
-    <item quantity="one">Zna %1$s i ostalih %2$d</item>
-    <item quantity="few">Zna %1$s i ostalih %2$d</item>
-    <item quantity="other">Zna %1$s i ostalih %2$d</item>
-  </plurals>
-  <string name="people_picker__recommended__common_connections__hide">SAKRIJ</string>
   <!-- Invite -->
-  <string name="people_picker__invite__share_details_label">Pošalji pozivnicu</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Podijeli Wire sa svojim prijateljima.</string>
   <string name="people_picker__invite__share_text__header">%1$s se želi povezati na Wire</string>
   <string name="people_picker__invite__share_text__body">I\'m on Wire, search for %1$s or visit get.wire.com</string>
-  <string name="people_picker__invite__message">Bok,\nhvala na pozivu. Spojimo se. \n%1$s</string>
-  <string name="people_picker__invite__sent_feedback">Pozivnica poslana</string>
-  <string name="people_picker__contact_list__user_selection_button__label">OTVORI</string>
-  <string name="people_picker__contact_list__user_adding_button__label">DODAJ</string>
-  <string name="people_picker__contact_list__contact_selection_button__label">POZOVI</string>
-  <string name="people_picker__contact_list__invite_dialog__title">Pošalji pozivnicu</string>
-  <string name="people_picker__contact_list__searchbox__hint">\u0020 PRETRAŽIVANJE PO IMENU</string>
-  <string name="people_picker__generic_invite_button_text">Invite People to Join Wire</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="one">%1$d osoba zajedničko</item>
-    <item quantity="few">%1$d people in common</item>
-    <item quantity="other">%1$d people in common</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s u kontaktima</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">u kontaktima</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">OTVORI</string>
-  <string name="conversation_quick_menu__conversation_button__group_label">IZRADI GRUPU</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_joined">[[%1$s]] joined</string>
   <string name="content__system__you_joined">[[You]] joined</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
   <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
-  <string name="content__system__message_deleted">Ova poruka je izbrisana</string>
-  <string name="content_system_message_timestamp_failure">Poruka nije poslana.</string>
-  <string name="content_system_message_timestamp_pending">Šaljem\u2026</string>
-  <string name="content_system_message_timestamp_deleted">Izbrisano %1$s</string>
   <!-- Add people -->
   <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
   <plurals name="content__system__someone_added_people_with_others">
@@ -185,7 +117,6 @@
     <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
   </plurals>
   <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
-  <string name="content__system__someone_added_people_and_you">[[%1$s]] added %2$s and you to the conversation</string>
   <plurals name="content__system__someone_added_people_and_you_with_others">
     <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
     <item quantity="few">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
@@ -206,8 +137,6 @@
   <!-- Create conversation -->
   <string name="content__system__you_started_conversation">You started the conversation</string>
   <string name="content__system__other_started_conversation">%1$s started the conversation</string>
-  <string name="content__system__you_started_one">[[Ti]] si započeo razgovor s %2$s</string>
-  <string name="content__system__other_started_one">[[%1$s]] je započeo/la razgovor s tobom</string>
   <string name="content__system__with_you_only">with you</string>
   <string name="content__system__with_list_only">with %1$s</string>
   <plurals name="content__system__with_others_only">
@@ -227,8 +156,6 @@
   <string name="content__you_pinged">[[VI]] STE POSLALI PING</string>
   <string name="content__xxx_pinged">[[%1$s]] PING</string>
   <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__conversation_verified">Razgovor verificiran</string>
-  <string name="content__otr__conversation_unverified">Razgovor nije verificiran</string>
   <string name="content__otr__message_error">PORUKA OD [[%1$s]] NIJE DOSTAVLJENA. _ZAŠTO?. _</string>
   <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] IDENTITET URĐAJA SE PROMIJENIO. NEISPORUČENA PORUKA. _SAZNAJ VIŠE_</string>
@@ -264,13 +191,11 @@
   <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · UPLOAD FAILED</string>
   <string name="content__file__action__open">OTVORI</string>
   <string name="content__file__action__save">SPREMI</string>
-  <string name="content__file__action__share">PODIJELI</string>
   <string name="content__file__action__open__no_app_found">Aplikacija koja može otvoriti ovu datoteku nije pronađena</string>
   <string name="content__file__action__save_completed">Datoteka uspješno spremljena</string>
   <string name="content__file__action__save_error">Nije moguće spremiti datoteku</string>
   <string name="content__location__no_map_placeholder">LOKACIJA ĆE SE POJAVITI NA KARTI KAD BUDETE ONLINE.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">Preimenujte</string>
   <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Arhiviraj</string>
   <string name="conversation__action__unarchive">Dearhiviraj</string>
@@ -280,7 +205,6 @@
   <string name="conversation__action__silence">Isključi zvuk</string>
   <string name="conversation__action__unsilence">Uključi zvuk</string>
   <string name="conversation__action__leave">Leave group&#8230;</string>
-  <string name="conversation__action__remove">Ukloni</string>
   <string name="conversation__action__call">Poziv</string>
   <string name="conversation__action__picture">Slika</string>
   <string name="conversation__action__block">Block&#8230;</string>
@@ -294,10 +218,6 @@
   <string name="conversation__action__notifications_nothing">Nothing</string>
   <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
-  <string name="popover__action__open">OTVORI</string>
-  <string name="popover__action__remove">UKLONI</string>
-  <string name="popover__action__block">BLOKIRAJ</string>
-  <string name="popover__action__profile">PROFIL</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Spora internetska veza</string>
   <string name="calling__slow_connection__message">Vaša internetska veza je prespora da bi zvali sada. Molimo pokušajte kasnije.</string>
@@ -306,19 +226,12 @@
   <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
   <string name="calling__cannot_start__cancel__message">ODUSTANI</string>
   <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
-  <string name="calling__cannot_start__ongoing_different_kind__title">%1$s je zauzet</string>
-  <string name="calling__cannot_start__ongoing_different_kind__message">Pokušajte ponovno kasnije</string>
-  <string name="calling__cannot_start__button_settings">POSTAVKE</string>
   <string name="calling__video_call__slow_connection__message">U ovom pozivu biste mogli iskusiti manje poteškoće</string>
-  <string name="incoming__controls__incoming__decline">ODBIJ POZIV</string>
-  <string name="incoming__controls__incoming__accept">PRIHVATI POZIV</string>
-  <string name="incoming__controls__ongoing__hangup">PREKINI POZIV</string>
   <string name="incoming__controls__ongoing__speaker">ZVUČNIK</string>
   <string name="incoming__controls__ongoing__mute">UTIŠAJ</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
   <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">VIDEO JE PREKINUT ZBOG LOŠE VEZE</string>
-  <string name="calling__self_preview_unavailable">VIDEO ISKLJUČEN</string>
   <string name="calling__self_preview_unavailable_long">KAMERA NIJE DOSTUPNA</string>
   <string name="calling__header__joining">Povezivanje&#8230;</string>
   <string name="calling__header__outgoing_subtitle">Zvoni...</string>
@@ -345,11 +258,6 @@
   <string name="group_calling_confirm">Poziv</string>
   <!-- Connect request -->
   <string name="connect__message">Bok %1$s,\nPovežimo se na Wireu.\n%2$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="one">%1$d osoba zajedničko</item>
-    <item quantity="few">%1$d people in common</item>
-    <item quantity="other">%1$d people in common</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">Na čekanju</string>
   <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
   <string name="connect_request__unblock__button__text">Odblokiraj</string>
@@ -375,8 +283,6 @@
     <item quantity="few">Još uvijek želite poslati poruku?</item>
     <item quantity="other">Još uvijek želite poslati poruku?</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Do you want to accept the call?</string>
-  <string name="conversation__degraded_confirmation__place_call">Do you still want to place the call?</string>
   <string name="conversation__degraded_confirmation__positive_action">Svejedno pošalji</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Prikaži uređaj</item>
@@ -385,28 +291,14 @@
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Show your devices</string>
   <string name="conversation_degraded_confirmation__header__you">Vi</string>
-  <!-- Profile and Participants -->
-  <plurals name="participants__sub_header_xx_people">
-    <item quantity="one">%1$d LJUDI</item>
-    <item quantity="few">%1$d LJUDI</item>
-    <item quantity="other">%1$d LJUDI</item>
-  </plurals>
-  <string name="group_name">Ime grupe</string>
   <!-- Picture selection confirmation -->
   <string name="confirmation_menu__confirm_done">U redu</string>
   <string name="confirmation_menu__cancel">ODUSTANI</string>
   <!-- ADD TO CONVERSATION offline -->
-  <string name="conversation__add_user__no_network__title">Bez internetske veze</string>
-  <string name="conversation__add_user__no_network__message">Morate biti na mreži kako bi dodali ljude. Pokušati ćemo ponovno kada dođete na mrežu.</string>
-  <string name="conversation__add_user__no_network__button">U redu</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <string name="conversation__create_group_conversation__no_network__title">Bez internetske veze</string>
-  <string name="conversation__create_group_conversation__no_network__message">Morate biti na mreži kako bi stvorili razgovor. Drugi ljudi će vidjeti vaše promjene kada dođete na mrežu.</string>
-  <string name="conversation__create_group_conversation__no_network__button">U redu</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">Napustiti razgovor?</string>
   <string name="confirmation_menu__meta_remove_text">Nećete moći slati ili primati poruke u ovom razgovoru.</string>
-  <string name="confirmation_menu__confirm_leave">NAPUSTI</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Remove from conversation dialogue -->
   <string name="confirmation_menu__header">Ukloniti?</string>
@@ -422,61 +314,31 @@
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Izbrisati sadržaj?</string>
   <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
-  <string name="confirmation_menu__confirm_delete">OBRIŠI</string>
-  <string name="confirmation_menu__delete_conversation__checkbox__label">Također napusti razgovor</string>
   <!-- Rich media -->
   <string name="content__youtube__error__text">video nije pronađen</string>
-  <string name="mediaplayer__artist__placeholder">Pjesma</string>
-  <string name="mediaplayer__artist__error">Pjesma nije dostupna</string>
   <string name="mediaplayer__message__onsoundcloud">on SoundCloud</string>
   <string name="mediaplayer__message__onspotify">on Spotify</string>
-  <string name="mediaplayer__spotify__hint">Poveži sa Spotify</string>
-  <string name="mediaplayer__open_external">Otvori u pregledniku</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">PODIJELI S DRUGIMA!</string>
-  <string name="content__invite_banner__subtitle">Dodaj druge ili podijeli link na ovaj razgovor.</string>
-  <string name="content__invite_banner__howto_link">Kako ovo funkcionira?</string>
-  <string name="content__invite_banner__button_label">Dodaj druge u razgovor</string>
   <!-- Self profile -->
-  <string name="self_name">Vaše puno ime</string>
-  <string name="self_add_email">Dodaj email \u0026 lozinku</string>
-  <string name="self_verify_email">Potvrdi email</string>
-  <string name="self_add_phone">Dodavanje telefonskog broja</string>
-  <string name="self_verify_phone">Potvrdi telefonski broj</string>
   <!-- Options and settings -->
   <string name="settings_title">Postavke</string>
   <!-- Options menu -->
-  <string name="menu_settings">POSTAVKE</string>
-  <string name="menu_avs_settings">AVS POSTAVKE</string>
-  <string name="menu_about">VIŠE O</string>
-  <string name="menu_tutorial">UPUTE</string>
-  <string name="menu_help">POMOĆ</string>
-  <string name="menu_logout">ODJAVI SE</string>
   <!-- Manage Team -->
   <string name="pref_manage_team_title">Manage Team</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">Pravilnik o zaštiti privatnosti</string>
-  <string name="about_third_party_licences">Dozvole</string>
-  <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">Uvjeti korištenja</string>
-  <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Postavke</string>
   <string name="pref_developer_screen_title">Programerske postavke</string>
   <string name="pref_dev_avs_screen_title">AVS postavke</string>
   <string name="pref_profile_screen_title">Profil</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Račun</string>
-  <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Ime</string>
   <string name="pref_account_edit_name_title">Uredi ime</string>
   <string name="pref_account_details_category_title">Info</string>
   <string name="pref_account_actions_category_title">Akcije</string>
-  <string name="pref_account_personal_category_title">Privatno</string>
   <string name="pref_account_appearance_category_title">Izgled</string>
   <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">History</string>
-  <string name="pref_account_details_category_summary">Drugi Vas mogu pronaći s ovim detaljima.</string>
-  <string name="pref_account_personal_category_summary">Ova informacija nije vidljiva drugima</string>
   <string name="pref_account_username_title">Korisničko Ime</string>
   <string name="pref_account_phone_title">Telefon</string>
   <string name="pref_account_add_phone_title">Dodavanje telefonskog broja</string>
@@ -520,7 +382,6 @@
   <string name="pref_options_sounds_none">Ništa</string>
   <string name="pref_options_vibration_title">Vibracija</string>
   <string name="pref_options_vibration_title_o">Vibrate on ring</string>
-  <string name="pref_options_sounds_category_title">Upozorenja</string>
   <string name="pref_options_ringtones_category_title">Zvukovi</string>
   <string name="pref_options_ringtones_ringtone_title">Zvuk zvona</string>
   <string name="pref_options_ringtones_text_title">Zvuk poruke</string>
@@ -536,9 +397,6 @@
   <string name="pref_options_cursor_send_button_summary">Onemogući za slanje preko tipkovnice.</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Uređaji</string>
-  <string name="pref_current_device_category_title">Trenutni uređaj</string>
-  <string name="pref_other_devices_category_title">Aktivni uređaji</string>
-  <string name="pref_devices_summary">Dodirnite za brisanje</string>
   <string name="pref_devices_current_device_category_title">Trenutni uređaj</string>
   <string name="pref_devices_other_devices_category_title">Ostali uređaji</string>
   <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
@@ -551,7 +409,6 @@
   <string name="pref_devices_device_fingerprint_category_title">Otisak prsta</string>
   <string name="pref_devices_device_fingerprint_summary">Wire daje svakom uređaju jedinstveni otisak. Usporedite otiske da bi verificirali uređaje i razgovore.</string>
   <string name="pref_devices_device_actions_category_title">Akcije</string>
-  <string name="pref_devices_device_trust_title">Verificirano</string>
   <string name="pref_devices_device_reset_session_title">Resetiraj sesiju</string>
   <string name="pref_devices_device_reset_session_summary">Ako otisci prstiju ne odgovaraju, resetirajte sesiju da bi generirali nove ključeve za šifriranje na obje strane.</string>
   <string name="pref_devices_device_remove_title">Uklanjanje uređaja</string>
@@ -562,8 +419,6 @@
   <string name="pref_advanced_screen_title">Napredno</string>
   <string name="pref_advanced_debug_report_title">Pošaljite izvještaj za pogramere</string>
   <string name="pref_advanced_debug_report_summary">Ovo pomaže Wire timu za podršku dijagnosticirati probleme.</string>
-  <string name="pref_advanced_analytics_title">Izvješće o korištenju i rušenju aplikacije</string>
-  <string name="pref_advanced_analytics_summary">Poboljšaj Wire slanjem anonimnih informacija.</string>
   <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">If you experience problems with push notifications, Wire Support may ask you to reset this token.</string>
   <string name="pref_advanced_reset_push_completed">Push token has been reset</string>
@@ -613,76 +468,33 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Ukloni</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Are you sure you want to remove %s from your Wire account?</string>
   <string name="pref__account_action__dialog__delete_phone__error">Unable to delete phone number</string>
-  <string name="pref__account_action__dialog__delete_email__error">Unable to delete email</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">You need to be online to delete email</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">You need to be online to delete phone</string>
-  <string name="pref__account_action__dialog__change_email__error__invalid_email">Unesite valjani e-mail</string>
   <string name="pref__account_action__dialog__change_email__title">Adresa e-pošte</string>
-  <string name="pref__account_action__dialog__change_username__summary">Pomoću ovog korisničkog imena druge osobe će Vas moći pronaći na Wire-u bez da znaju adresu Vaše e-pošte ili mobilni broj.</string>
   <string name="pref__account_action__dialog__change_username__rules">Najmanje 2 znaka. Samo a-z, 0-9, i _</string>
   <string name="pref__account_action__dialog__change_username__title">Korisničko Ime</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">Već uzeto</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Greška u vezi, molimo pokušajte ponovno</string>
   <!-- No Internet connection -->
   <string name="system_status__no_internet">NEMA INTERNETSKE VEZE</string>
-  <string name="system_status__no_server_connection">SPAJAM&#8230;</string>
   <!-- SHARING -->
-  <string name="system_status__sharing">ODABERITE RAZGOVOR</string>
   <string name="alert_dialog__confirmation">U redu</string>
   <string name="alert_dialog__no_network__header">Bez internetske veze</string>
-  <string name="sign_up__no_internet__message">Morate biti on-linre da biste se pridružili. Provjerite vezu i pokušajte ponovno.</string>
-  <string name="sign_in__no_internet__message">Morate biti na mreži da biste se prijavili. Provjerite vezu i pokušajte ponovno.</string>
-  <string name="sign_up__take_picture__back">Uredi ime</string>
-  <string name="sign_up__take_picture_dialog__gallery">Galerija</string>
-  <string name="sign_up__take_picture_dialog__camera">Kamera</string>
-  <string name="sign_up__take_picture_dialog__message">Snimite novu fotografiju ili odaberite jednu iz biblioteke postojećih fotografija.</string>
-  <string name="sign_up__take_picture_dialog__title">Napravi fotku</string>
   <string name="sign_up__set_picture__choose">Odaberite vlastitu</string>
   <string name="sign_up__set_picture__keep">Zadrži ovu</string>
   <string name="sign_up__set_picture__guidance">Wire je ljepši sa slikom.</string>
   <string name="sign_up__set_picture__loading">Učitavanje fotografije</string>
-  <string name="rename_conversation__no_network__message">Morate biti na mreži da biste preimenovali razgovor. Provjerite vezu i pokušajte ponovno.</string>
-  <string name="resend_message__no_network__message">Morate biti na mreži da biste ponovno poslali poruku. Provjerite vezu i pokušajte ponovno.</string>
   <string name="leave_conversation_failed__message">Morate biti na mreži da biste napustili razgovor. Provjerite vezu i pokušajte ponovno.</string>
   <string name="remove_from_conversation__no_network__message">Morate biti na mreži da biste uklonili ljude iz razgovora. Provjerite vezu i pokušajte ponovno.</string>
   <string name="calling__call_drop__message">Morate biti na mreži da biste zvali. Provjerite vezu i pokušajte ponovno.</string>
-  <string name="profile_pic__no_network__message">Morate biti na mreži da biste promijenili svoju fotografiju. Provjerite vezu i pokušajte ponovno.</string>
-  <string name="calling__voice_channel_full__title">Poziv je pun</string>
-  <plurals name="calling__voice_channel_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Ima mjesta samo za %1$d korisnika.</item>
-    <item quantity="few">There\'s only room for %1$d people in here.</item>
-    <item quantity="other">There\'s only room for %1$d people in here.</item>
-  </plurals>
-  <string name="calling__conversation_full__title">Previše ljudi za poziv</string>
-  <plurals name="calling__conversation_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Pozivi rade u razgovorima s %1$d ljudi.</item>
-    <item quantity="few">Calls work in conversations with up to %1$d people.</item>
-    <item quantity="other">Calls work in conversations with up to %1$d people.</item>
-  </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Messages</string>
   <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Pings</string>
   <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Background notifications</string>
   <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
   <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <string name="lockscreen__talk">ZOVE</string>
-  <plurals name="notification__new_messages">
-    <item quantity="one">Poruka od %2$s</item>
-    <item quantity="few">%1$d messages from %2$s</item>
-    <item quantity="other">%1$d messages from %2$s</item>
-  </plurals>
-  <plurals name="notification__new_messages_groups">
-    <item quantity="one">Poruku u %2$s</item>
-    <item quantity="few">%1$d messages in %2$s</item>
-    <item quantity="other">%1$d messages in %2$s</item>
-  </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="one">Poruka u %2$s razgovora</item>
     <item quantity="few">Poruku u %2$s razgovora</item>
@@ -700,20 +512,11 @@
   <string name="notification__message__one_to_one__shared_video">Podijelila/o video</string>
   <string name="notification__message__one_to_one__shared_audio">Podijelila/o audio poruku</string>
   <string name="notification__message__one_to_one__shared_location">Podijelila/o lokaciju</string>
-  <string name="notification__message__one_to_one__liked">\u2764 Vašu poruku</string>
   <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s u %2$s \u0020</string>
-  <string name="notification__message__group__pinged">je poslao/la ping</string>
-  <string name="notification__message__group__shared_picture">je podijelio/la fotografiju</string>
-  <string name="notification__message__group__shared_file">je podijelio/la datoteku</string>
-  <string name="notification__message__group__shared_video">je podijelio/la video</string>
-  <string name="notification__message__group__shared_audio">je podijelio/la zvučnu poruku</string>
-  <string name="notification__message__group__shared_location">je podijelio/la lokaciju</string>
   <string name="notification__message__group__renamed_conversation">preimenovala/o razgovor u %1$s</string>
   <string name="notification__message__group__add">dodao/la je ljude u razgovor</string>
   <string name="notification__message__group__remove">uklonio/la je ljude iz razgovora</string>
-  <string name="notification__message__generic__accept_request">Imate novi kontakt</string>
   <string name="notification__message__single__accept_request">You and %1$s are now connected</string>
   <string name="notification__message__group__default_conversation_name">grupni razgovor</string>
   <string name="notification__message__send_failed">Message failed to send</string>
@@ -722,10 +525,8 @@
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 Vašu poruku</string>
   <string name="notification__message__liked_picture">\u2764 your picture</string>
-  <string name="notification__message__liked_file">\u2764 your file</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_someone">Netko</string>
-  <string name="notification__message__ephemeral_details">Pritisnite za više</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Netko Vam je poslao poruku</item>
     <item quantity="few">Netko Vam je poslao %1$d poruke</item>
@@ -746,16 +547,9 @@
     <item quantity="other">%1$s others</item>
   </plurals>
   <!-- System notifications -->
-  <string name="system_notification__group_call_title">%1$s u %2$s</string>
   <string name="system_notification__silence_call">Odbij</string>
   <string name="system_notification__join_call">Prihvati</string>
   <string name="system_notification__leave_call">Završi poziv</string>
-  <string name="system_notification__outgoing">Pozivanje</string>
-  <string name="system_notification__outgoing_video">Video poziv</string>
-  <string name="system_notification__incoming">Zove</string>
-  <string name="system_notification__incoming_video">Is calling with video</string>
-  <string name="system_notification__ongoing">Na pozivu</string>
-  <string name="number_of_conversations_string">ARHIVIRAJ</string>
   <string name="system_notification__calling_one">Pozivanje&#8230;</string>
   <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
@@ -777,7 +571,6 @@
   <string name="notification__image_saving__action__share">Podijeli</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
   <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <string name="notification__file_saving__content__title">Wire datoteka spremljena.</string>
   <!-- forced update -->
   <string name="forced_update__header">Važno ažuriranje</string>
   <string name="forced_update__sub_header">Molimo instalirajte najnoviju verziju Wire aplikacije.</string>
@@ -785,18 +578,9 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Sharing -->
   <string name="sharing__image_preview__confirm_action">POSLATI</string>
-  <string name="sharing__image_preview__title__single">SLANJE 1 FOTOGRAFIJE\n_%1$s_</string>
-  <string name="sharing__image_preview__title__multiple">SLANJE %1$s FOTOGRAFIJA\n_%2$s_</string>
   <string name="sharing__user_not_logged_in__dialog__title">Molimo prijavite se</string>
   <string name="sharing__user_not_logged_in__dialog__message">Otvorite Wire i prijavite se za dijeljenje.</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">U redu</string>
-  <string name="sharing__files__ok">Podijeli</string>
-  <string name="sharing__files__cancel">Odustani</string>
-  <plurals name="sharing__files__message">
-    <item quantity="one">Upravo ćete podijeliti %1$d datoteke sa %2$s.</item>
-    <item quantity="few">You are about to share %1$d files with %2$s.</item>
-    <item quantity="other">Upravo ćete podijeliti %1$d datoteke sa %2$s.</item>
-  </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">Nije moguće stvoriti</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">Nije moguće stvoriti razgovor s %1$s</string>
@@ -806,36 +590,10 @@
   <string name="in_app_notification__sync_error__create_convo__button">Nastavi</string>
   <!--Timestamp formatting -->
   <string name="timestamp__just_now">Upravo</string>
-  <string name="timestamp__a_minute_ago">Prije jedne minute</string>
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="one">%1$d minute ago</item>
     <item quantity="few">%1$d minutes ago</item>
     <item quantity="other">prije %1$d minuta</item>
-  </plurals>
-  <plurals name="timestamp__x_hours_ago">
-    <item quantity="one">prije %1$d sata</item>
-    <item quantity="few">prije %1$d sata</item>
-    <item quantity="other">prije %1$d sati</item>
-  </plurals>
-  <plurals name="timestamp__x_days_ago">
-    <item quantity="one">prije %1$d dana</item>
-    <item quantity="few">prije %1$d dana</item>
-    <item quantity="other">prije %1$d dana</item>
-  </plurals>
-  <plurals name="timestamp__x_weeks_ago">
-    <item quantity="one">%1$d tjedan</item>
-    <item quantity="few">%1$d tjedna</item>
-    <item quantity="other">%1$d tjedna</item>
-  </plurals>
-  <plurals name="timestamp__x_months_ago">
-    <item quantity="one">prije %1$d mjesec</item>
-    <item quantity="few">prije %1$s mjeseci</item>
-    <item quantity="other">prije %1$s mjeseci</item>
-  </plurals>
-  <plurals name="timestamp__x_years_ago">
-    <item quantity="one">%1$d godine</item>
-    <item quantity="few">%1$d godine</item>
-    <item quantity="other">%1$d godine</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -847,25 +605,17 @@
   <!-- Example: MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- MONDAY -->
-  <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MARCH 2 -->
-  <string name="timestamp_pattern__separator_header__this_year">MMMM d</string>
   <!-- MARCH 2, 2015 -->
-  <string name="timestamp_pattern__separator_header__last_year">MMMM d, YYYY</string>
-  <string name="timestamp_pattern__separator_header__today">Danas</string>
-  <string name="timestamp_pattern__separator_header__yesterday">Jučer</string>
   <!-- 23:15 -->
   <string name="timestamp_pattern__24h_format">HH:mm</string>
   <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="reg__phone_alert__button">U redu</string>
   <string name="country">Država</string>
   <string name="register">Registrirajte se</string>
   <string name="password_placeholder">Lozinka</string>
   <string name="email_placeholder">E-mail</string>
   <string name="name_placeholder">Ime</string>
-  <string name="registration_back">Natrag</string>
   <!-- Strings -->
   <string name="edit_phone_number">UREĐIVANJE TELEFONSKOG BROJA</string>
   <string name="i_have_an_account">PRIJAVI SE</string>
@@ -879,10 +629,8 @@
   <string name="activation_code_info_manual">Unesite kod za provjeru upućen \n&lt;b&gt;%s&lt;/b&gt;</string>
   <string name="enter_name">Kako da te zovemo?</string>
   <string name="enter_name_hint">Unesite puno ime</string>
-  <string name="set_a_picture">Postavi sliku</string>
   <string name="new_reg__password__forgot">Zaboravili ste lozinku?</string>
   <string name="phone_sign_in">Telefon</string>
-  <string name="go_to_register">Napravi račun</string>
   <string name="email_sign_in">E-mail</string>
   <string name="edit_email">Uredi e-poštu</string>
   <string name="hello">Pozdrav, &lt; b &gt;%s &lt; /b &gt;</string>
@@ -891,8 +639,6 @@
   <string name="username__set__toast_error">Pogreška pri ažuriranju korisničkog imena</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Pretraži Giphy</string>
-  <string name="giphy_preview__title_search">#%s</string>
-  <string name="giphy_preview__title_random">SLUČAJNO</string>
   <string name="giphy_preview__error">NIJEDAN GIF NIJE PRONAĐEN.</string>
   <string name="giphy_preview__message_via_random_trending">Preko giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · preko giphy.com</string>
@@ -900,7 +646,6 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">DODIRNITE BOJU ZA PROMJENU VELIČINE KISTA.\n\nPROTRESITE ZA UKLANJANJE SLIKE.</string>
   <string name="drawing__tip__message">DODIRNITE BOJU ZA PROMJENU VELIČINE KISTA.\n\nPRITISNITE I DRŽITE ZA POPUNJAVANJE POVRŠINE.</string>
-  <string name="add_a_sketch">Dodajte skicu</string>
   <string name="sketch__emoji_keyboard__size_label__small">MALO</string>
   <string name="sketch__emoji_keyboard__size_label__medium">SREDNJE</string>
   <string name="sketch__emoji_keyboard__size_label__large">VELIKO</string>
@@ -924,8 +669,6 @@
   <string name="otr__remove_device__button_delete">U redu</string>
   <string name="otr__remove_device__button_cancel">Odustani</string>
   <string name="otr__remove_device__error">Pogrešna lozinka</string>
-  <string name="otr__remove_device__button_approve">U redu</string>
-  <string name="otr__remove_device__button_remove">Ukloni</string>
   <string name="otr__error_dialog__cannot_register__message">Uklonite jedan od Vaših ostalih uređaja kako bi ste počeli koristiti Wire na ovom.</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Upravljanje uređajima</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Odjava</string>
@@ -949,32 +692,18 @@
   <string name="otr__first_launch__header">Ovo je prvi put da koristite Wire na ovom uređaju.</string>
   <string name="otr__first_launch__sub_header">Iz sigurnosnih razloga, povijest razgovora se neće pojaviti ovdje.</string>
   <string name="otr__first_launch__button">U redu</string>
-  <string name="otr__device_approve__header">Povezali ste uređaj s Wire računom.</string>
-  <string name="otr__device_approve__note">Ako niste to učinili, uklonite uređaj i ponovno postavite lozinku.</string>
   <string name="otr__signin__info_text">Prijava</string>
   <string name="otr__reset_session__message_ok">Sesija je resetirana</string>
   <string name="otr__reset_session__message_fail">Nije moguće resetirati sesiju</string>
   <string name="otr__reset_session__button_ok">U redu</string>
   <string name="otr__reset_session__button_fail">Pokušaj ponovno</string>
-  <string name="otr__remove_device__no_internet__title">Nema interneta</string>
-  <string name="otr__remove_device__no_internet__message">Pokušajte ukloniti uređaj kada opet budete online.</string>
-  <string name="otr__remove_device__no_internet__button">U redu</string>
-  <string name="otr__device_inbox__header">Vaš račun je korišten na:</string>
-  <string name="otr__device_inbox__name">Od: [[%s]]</string>
   <string name="advanced_image_download_wifi_info">The picture will appear when you are on Wi-Fi again</string>
   <string name="change_settings">Promjena postavki</string>
-  <string name="single_image__save_to_disk__error">Nije moguće spremiti sliku, pristup vanjskoj pohrani nije moguć</string>
-  <string name="conversation_list__label_action__contacts">LJUDI</string>
-  <string name="conversation_list__hint_header">Razgovori počinju ovdje</string>
-  <string name="conversation_list__hint_text">Start a conversation. Call, message and share in private or with groups.</string>
   <string name="conversation_list__action_join_call">PRIDRUŽITE SE</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Collection</string>
   <string name="conversation_toolbar__call_video">Video poziv</string>
   <string name="conversation_toolbar__call_audio">Audio poziv</string>
-  <string name="conversation_toolbar__delete">Izbriši</string>
-  <string name="conversation_toolbar__copy">Kopiraj</string>
-  <string name="conversation_toolbar__fwd">Podijeli</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Datoteka nije pronađena</string>
   <string name="asset_upload_error__not_found__message">Nije moguće dohvatiti navedenu datoteku</string>
@@ -986,17 +715,8 @@
   <string name="asset_upload_warning__large_file__title">Niste priključeni na Wi-Fi</string>
   <string name="asset_upload_warning__large_file__message_default">Jeste li sigurni da želite poslati veliku datoteku putem mobilne mreže?</string>
   <string name="asset_upload_warning__large_file__message">Jeste li sigurni da želite poslati %1$s putem mobilne mreže?</string>
-  <string name="asset_upload_warning__large_file__button_accept">U redu</string>
-  <string name="asset_upload_warning__large_file__button_cancel">Odustani</string>
   <!-- Video message errors -->
-  <string name="video_message_error__too_big__title">Videozapis je prevelik</string>
-  <string name="video_message_error__too_big__message">Možete poslati videozapise veličine do 25 MB.</string>
-  <string name="video_message_error__title">Video pogreška</string>
-  <string name="video_message_error__message">Nije moguće obraditi videozapis</string>
-  <string name="video_message_error__button">U redu</string>
-  <string name="video_message_error__missing_camera_permissions">Za slanje video poruka, dajte dopuštenje za pristup kameri i medijskim datotekama.</string>
   <string name="audio_message_error__missing_audio_permissions">Za slanje zvučnih poruka, dajte dopuštenje za snimanje zvuka.</string>
-  <string name="audio_message_error__generic">Reprodukcija neuspješna</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">CONSTANT BIT RATE</string>
   <!-- no contacts -->
@@ -1016,7 +736,6 @@
   <string name="tooltip_file">Pošalji datoteku</string>
   <string name="tooltip_gif">Gif</string>
   <string name="tooltip_mention">Add Mention</string>
-  <string name="new_feature">Novo</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Izbriši samo za mene?</string>
   <string name="conversation__message_action__delete_for_everyone">Izbriši za sve?</string>
@@ -1030,9 +749,6 @@
   <string name="conversation__action_mode__fwd__dialog__message">Molimo pričekajte&#8230;</string>
   <string name="conversation__action_mode__fwd__chooser__title">Share with</string>
   <!-- video message preview -->
-  <string name="video_message__preview__header">Pošalji %1$s</string>
-  <string name="video_message__quick_menu__send_label">Pošalji</string>
-  <string name="video_message__preview__compressing">SAŽIMANJE&#8230;</string>
   <string name="audio_message__recording__slide_control__slide_hint">POVUCITE PREMA GORE ZA SLANJE</string>
   <string name="audio_message__recording__slide_control__tap_hint">DODIRNITE ZA SLANJE</string>
   <string name="audio_message__recording__tap_to_record">Dodirnite za snimanje message\nmožete _GLYPH_ nakon toga</string>
@@ -1052,7 +768,6 @@
   <string name="message_bottom_menu_action_delete">Izbriši</string>
   <string name="message_bottom_menu_action_delete_local">Brisanje poruke za mene</string>
   <string name="message_bottom_menu_action_delete_global">Izbriši za sve</string>
-  <string name="message_bottom_menu_action_forward_multiple">Share with multiple</string>
   <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
   <string name="likes_list__header">Sviđa se</string>
   <string name="message_bottom_menu_action_save_ok">Fotografija je spremljena</string>
@@ -1071,7 +786,6 @@
   <string name="usernames__take_over__summary">Zgrabite svoje jedistveno ime na Wire. _Saznajte više._</string>
   <string name="usernames__take_over__choose">ODABERITE VLASTITO</string>
   <string name="usernames__take_over__keep">ZADRŽITE OVO</string>
-  <string name="pref_account_username_empty_title">Dodajte korisničko ime</string>
   <string name="ephemeral_message__timeout__off">Isključi</string>
   <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
   <string name="guests_option_on">On</string>
@@ -1107,17 +821,14 @@
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
   <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
-  <string name="collection_header_all">COLLECTION</string>
   <string name="collection_header_pictures">PICTURES</string>
   <string name="collection_header_files">FILES</string>
   <string name="collection_header_links">LINKS</string>
   <string name="collection_header_today">TODAY</string>
   <string name="collection_header_yesterday">YESTERDAY</string>
   <string name="collection_empty">NO ITEMS IN COLLECTION</string>
-  <string name="collection_send_to">Send to&#8230;</string>
   <string name="collection_all">Show all %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">Sending failed</string>
   <string name="multi_share_search_hint">SEND TO&#8230;</string>
   <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
   <string name="search__no_results">0 rezultata.</string>
@@ -1165,11 +876,8 @@
   <string name="conversation_list__someone">Netko</string>
   <string name="conversation_list__added">[[%1$s]] was added</string>
   <string name="conversation_list__added_you">[[%1$s]] te dodao/la</string>
-  <string name="conversation_list__left">[[%1$s]] has left</string>
   <string name="conversation_list__left_you">Vi ste otišli</string>
   <string name="conversation_list__removed_you">[[%1$s]] te uklonio/la</string>
-  <string name="conversation_list__removed">[[%1$s]] was removed</string>
-  <string name="conversation_list__empty_conv__subtitle">Everyone left</string>
   <string name="conversation_list__header__title">CONVERSATIONS</string>
   <string name="conversation_list__header__archive_title">ARHIVIRAJ</string>
   <string name="guest_indicator">GUEST</string>
@@ -1207,7 +915,6 @@
   <string name="teams_verify_email_change">CHANGE EMAIL</string>
   <string name="teams_set_name_title">Your name</string>
   <string name="teams_set_name_hint">FULL NAME</string>
-  <string name="app_entry_slogan">Secure messaging for everyone.</string>
   <string name="app_entry_create_account">Privatno</string>
   <string name="app_entry_create_account_sub">create an account</string>
   <string name="app_entry_create_team">Pro</string>
@@ -1234,17 +941,12 @@
   <string name="teams_invitations_skip">SKIP</string>
   <string name="teams_invitations_done">DONE</string>
   <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
-  <string name="teams_invitations_error_blacklisted_email">The given e-mail address has been blacklisted due to a permanent bounce or a complaint.</string>
-  <string name="teams_invitations_error_no_identity">The user has no verified identity (email or phone number).</string>
-  <string name="teams_invitations_error_no_email">This operation requires the user to have a verified email address.</string>
   <string name="teams_invitations_error_already_sent">Already sent</string>
   <string name="teams_invitations_error_generic">Nešto ne funkcionira dobro. Molimo, pokušajte ponovno</string>
   <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
   <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
   <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
-  <string name="teams_invitations_error_email_exists_more">LEARN MORE</string>
   <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
-  <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">Build your team</string>
   <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
   <string name="open_service_conversation_button_text">Otvori razgovor</string>
@@ -1265,7 +967,6 @@
   <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
   <string name="new_conv_no_results">No results</string>
   <string name="new_conv_no_contacts">No contacts</string>
-  <string name="create_group_search">SEARCH FOR NAMES</string>
   <string name="participants_divider_services">SERVICES (%1$s)</string>
   <string name="participants_divider_people">PEOPLE (%1$s)</string>
   <string name="group_name_hint">GROUP NAME</string>
@@ -1332,7 +1033,6 @@
   <string name="video_paused">Video paused</string>
   <string name="calling_degraded_title">New device</string>
   <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
   <string name="markdown_link_dialog_title">Visit Link</string>
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">U redu</string>

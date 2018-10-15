@@ -27,7 +27,6 @@
   <string name="internet_connectivity_error_message">Kontrollera din internetanslutning och försök igen</string>
   <string name="too_many_attempts_header">För många försök</string>
   <string name="login_later_message">Försök att logga in senare</string>
-  <string name="register_again_message">Försök att registrera dig igen</string>
   <string name="email_exists_header">E-postadress redan tagen</string>
   <string name="email_exists_message">Denna e-postadress har redan registrerats</string>
   <string name="email_invalid_header">Ogiltig e-postadress</string>
@@ -45,8 +44,6 @@
   <string name="wrong_code_message">Ange en giltig kod</string>
   <string name="phone_pending_login_header">Koden redan skickad</string>
   <string name="phone_pending_login_message">Vi har redan skickat en kod till dig via SMS. Tryck på Skicka igen efter 10 minuter för att få en ny.</string>
-  <string name="password_invalid_header">Felaktigt lösenord</string>
-  <string name="password_invalid_message">Kontrollera dina detaljer och försök igen</string>
   <string name="phone_budget_exhausted_header">För många förfrågningar</string>
   <string name="phone_budget_exhausted_message">Försök igen senare.</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -71,48 +68,16 @@
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">Ditt telefonnummer</string>
   <!-- Receive email/sms invitation -->
-  <string name="invitation_email__normal_phone_signup_button">Registrera dig via telefonnummer</string>
-  <string name="invitation_email__normal_email_signup_button">Registrera dig med en annan e-post</string>
-  <string name="invitation_email__password_placeholder">Lösenord (min %1$s tecken.)</string>
-  <string name="invitation_email__welcome_header">Hej, %1$s.</string>
-  <string name="invitation_email__welcome_message">Välj ett lösenord för att skapa ditt konto.</string>
-  <string name="invitation__continue_button">Fortsätt</string>
-  <string name="invitation_phone__normal_phone_signup_button">Använda en annan telefon</string>
-  <string name="invitation_phone__normal_email_signup_button">Registrera dig via e-post</string>
-  <string name="invitation_phone__welcome_header">Hej, %1$s.</string>
-  <string name="invitation_phone__welcome_message">Du är ett steg från att skapa ditt konto.</string>
-  <string name="invitation__phone__failed">Det gick inte att registrera med denna inbjudan.</string>
-  <string name="invitation__email__failed">Det gick inte att registrera med denna inbjudan.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 SÖK</string>
   <string name="pick_user_search_hint">SÖK</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 SÖK</string>
   <string name="choose_conversation">SÖK</string>
   <string name="people_picker__top_users_header_title">Topp användarna</string>
-  <string name="people_picker__address_book_matches_title">Anslut</string>
   <string name="people_picker__search_result_conversations_header_title">Grupper</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s grupper</string>
   <string name="people_picker__search_result_connections_header_title">Kontakter</string>
   <string name="people_picker__search_result_others_header_title">Anslut</string>
-  <string name="people_picker__search_result_recommended_header_title">Förslag</string>
-  <string name="people_picker__search_result_contacts_header_title">Kontakter</string>
-  <string name="people_picker__search_result_team_members_header_title">Teammedlemmar</string>
-  <string name="people_picker__invite_header_title">Bjud in</string>
-  <string name="people_picker__confirm_button_title">Skapa en konversation</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">Lägg till personer till gruppen</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Skapa grupp</string>
-  <string name="people_picker__error_message__no_results">Inga matchande resultat.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts">Hitta andra med hjälp av namn eller e-postadress</string>
-  <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Ange en giltig e-postadress eller</string>
-  <string name="people_picker__error_message__no_results__shared_contacts__add_to_conversation">Ange ett annat namn.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts__add_to_conversation">Ange ett annat namn.</string>
-  <string name="people_picker__error_message__no_results__send_invite">skicka\nen inbjudan</string>
-  <string name="people_picker__error_message__no_users_to_add_to_conversation">Alla du är ansluten till är redan i den här konversationen.</string>
-  <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Vi kunde inte hitta någon av dina kontakter på Wire. Ange fullständigt namn eller e-postadress.</string>
-  <string name="people_picker__toolbar_header__group">Lägg till personer</string>
-  <string name="people_picker__toolbar_header__one_to_one">Skapa en grupp</string>
   <string name="people_picker__search_result__expander_title">Visa alla %1$s ↓</string>
-  <string name="people_picker__guest_label">Gäst</string>
   <string name="people_picker__search_people">ANVÄNDARE</string>
   <string name="people_picker__search_services">TJÄNSTER</string>
   <string name="receive_news_and_offers_request_title">Nyhetsbrev</string>
@@ -123,9 +88,6 @@
   <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Tjänster</string>
-  <string name="integrations_picker__add">Lägg till tjänst</string>
-  <string name="integrations_conv_bot">Bot</string>
-  <string name="integrations_chathead__section_title">Tjänster</string>
   <string name="integrations_errors_add_service">Att lägga till en tjänst är inte möjligt</string>
   <string name="integrations_errors_service_unavailable">Tjänsten är inte tillgänglig för tillfället</string>
   <string name="conversation_errors_full">Konversationen är full</string>
@@ -135,46 +97,18 @@
   <string name="people_picker__share_contacts__yay">Tillåt</string>
   <string name="people_picker__share_contacts__nah">Neka</string>
   <string name="people_picker__share_contacts__nevvah">Fråga mig inte igen</string>
-  <!-- People you may know -->
-  <string name="people_picker__recommended__common_connections__one">Vet %1$s</string>
-  <string name="people_picker__recommended__common_connections__two">Vet %1$s och %2$s</string>
-  <plurals name="people_picker__recommended__common_connections__more">
-    <item quantity="one">Vet %1$s och %2$d andra</item>
-    <item quantity="other">Vet %1$s och %2$d andra</item>
-  </plurals>
-  <string name="people_picker__recommended__common_connections__hide">DÖLJ</string>
   <!-- Invite -->
-  <string name="people_picker__invite__share_details_label">Skicka en inbjudan</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Dela Wire med dina vänner.</string>
   <string name="people_picker__invite__share_text__header">%1$s vill ansluta på Wire</string>
   <string name="people_picker__invite__share_text__body">Jag använder Wire, Sök efter %1$s eller besök get.wire.com</string>
-  <string name="people_picker__invite__message">Hej,\nTack för inbjudan. Låt oss ansluta.%1$s</string>
-  <string name="people_picker__invite__sent_feedback">Inbjudan skickat</string>
-  <string name="people_picker__contact_list__user_selection_button__label">ÖPPEN</string>
-  <string name="people_picker__contact_list__user_adding_button__label">LÄGG TILL</string>
-  <string name="people_picker__contact_list__contact_selection_button__label">BJUD IN</string>
-  <string name="people_picker__contact_list__invite_dialog__title">Skicka inbjudan</string>
-  <string name="people_picker__contact_list__searchbox__hint">\u0020 SÖK EFTER NAMN</string>
-  <string name="people_picker__generic_invite_button_text">Bjud in personer att gå med i Wire</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="one">%1$d gemensam kontakt</item>
-    <item quantity="other">%1$d gemensamma kontakter</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s i kontakter</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">i kontakter</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ÖPPNA</string>
-  <string name="conversation_quick_menu__conversation_button__group_label">SKAPA GRUPP</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_joined">[[%1$s]] gick med</string>
   <string name="content__system__you_joined">[[You]] gick med</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] bytte namn på konversationen</string>
   <string name="content__system__you_renamed_conv">[[[You]] har bytt namn på konversationen</string>
-  <string name="content__system__message_deleted">Detta meddelande har tagits bort</string>
-  <string name="content_system_message_timestamp_failure">Ej skickat meddelande.</string>
-  <string name="content_system_message_timestamp_pending">Skickar\u2026</string>
-  <string name="content_system_message_timestamp_deleted">Togs bort vid %1$s</string>
   <!-- Add people -->
   <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
   <plurals name="content__system__someone_added_people_with_others">
@@ -182,7 +116,6 @@
     <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
   </plurals>
   <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
-  <string name="content__system__someone_added_people_and_you">[[%1$s]] added %2$s and you to the conversation</string>
   <plurals name="content__system__someone_added_people_and_you_with_others">
     <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
     <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
@@ -201,8 +134,6 @@
   <!-- Create conversation -->
   <string name="content__system__you_started_conversation">Du startade konversationen</string>
   <string name="content__system__other_started_conversation">%1$s startade konversationen</string>
-  <string name="content__system__you_started_one">[[Du]] startade en konversation med %2$s</string>
-  <string name="content__system__other_started_one">[[%1$s]] startade en konversation med dig</string>
   <string name="content__system__with_you_only">med dig</string>
   <string name="content__system__with_list_only">med %1$s</string>
   <plurals name="content__system__with_others_only">
@@ -220,8 +151,6 @@
   <string name="content__you_pinged">[[DU]] PINGADE</string>
   <string name="content__xxx_pinged">[[%1$s]] PINGADE</string>
   <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__conversation_verified">Konversation verifierad</string>
-  <string name="content__otr__conversation_unverified">Konversationen inte verifierad</string>
   <string name="content__otr__message_error">ETT MEDDELANDE FRÅN [[%1$s]] TOGS INTE EMOT. _VARFÖR? _</string>
   <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]]\'S ENHETS IDENTITET ÄNDRADES. OLEVERERADE MEDDELANDEN. _LÄR DIG MER_</string>
@@ -257,13 +186,11 @@
   <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · UPPLADDNINGEN MISSLYCKADES</string>
   <string name="content__file__action__open">ÖPPNA</string>
   <string name="content__file__action__save">SPARA</string>
-  <string name="content__file__action__share">DELA</string>
   <string name="content__file__action__open__no_app_found">Ingen app hittades för att öppna den här filtypen</string>
   <string name="content__file__action__save_completed">Filen har sparats</string>
   <string name="content__file__action__save_error">Det gick inte att spara filen</string>
   <string name="content__location__no_map_placeholder">PLATSEN VISAS PÅ KARTAN NÄR DU ÄR ONLINE IGEN.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">Byt namn</string>
   <string name="conversation__action__delete">Ta bort innehåll&#8230;</string>
   <string name="conversation__action__archive">Arkiv</string>
   <string name="conversation__action__unarchive">Hämta från Arkiv</string>
@@ -273,7 +200,6 @@
   <string name="conversation__action__silence">Tysta</string>
   <string name="conversation__action__unsilence">Slå på ljud</string>
   <string name="conversation__action__leave">Lämna gruppen&#8230;</string>
-  <string name="conversation__action__remove">Ta bort</string>
   <string name="conversation__action__call">Ring</string>
   <string name="conversation__action__picture">Foto</string>
   <string name="conversation__action__block">Blockera&#8230;</string>
@@ -287,10 +213,6 @@
   <string name="conversation__action__notifications_nothing">Nothing</string>
   <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
-  <string name="popover__action__open">ÖPPNA</string>
-  <string name="popover__action__remove">RADERA</string>
-  <string name="popover__action__block">BLOCKERA</string>
-  <string name="popover__action__profile">PROFIL</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Långsamt Internet</string>
   <string name="calling__slow_connection__message">Din Internet anslutning är för långsam för att ringa just nu. Försök igen senare.</string>
@@ -299,19 +221,12 @@
   <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
   <string name="calling__cannot_start__cancel__message">AVBRYT</string>
   <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
-  <string name="calling__cannot_start__ongoing_different_kind__title">%1$s är upptagen</string>
-  <string name="calling__cannot_start__ongoing_different_kind__message">Försök igen senare</string>
-  <string name="calling__cannot_start__button_settings">INSTÄLLNINGAR</string>
   <string name="calling__video_call__slow_connection__message">Du kan känna av problem under samtalet</string>
-  <string name="incoming__controls__incoming__decline">NEKA</string>
-  <string name="incoming__controls__incoming__accept">ACCEPTERA</string>
-  <string name="incoming__controls__ongoing__hangup">LÄGG PÅ</string>
   <string name="incoming__controls__ongoing__speaker">HÖGTALARE</string>
   <string name="incoming__controls__ongoing__mute">TYSTA</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
   <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">VIDEO STOPPADES PÅGRUND AV DÅLIG ANSLUTNING</string>
-  <string name="calling__self_preview_unavailable">VIDEO AV</string>
   <string name="calling__self_preview_unavailable_long">KAMERA EJ TILLGÄNGLIG</string>
   <string name="calling__header__joining">Ansluter&#8230;</string>
   <string name="calling__header__outgoing_subtitle">Ringer&#8230;</string>
@@ -338,10 +253,6 @@
   <string name="group_calling_confirm">Ring</string>
   <!-- Connect request -->
   <string name="connect__message">Hej %1$s, \nLåt oss ansluta på Wire.\n%2$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="one">%1$d gemensam kontakt</item>
-    <item quantity="other">%1$d gemensamma kontakter</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">Väntande</string>
   <string name="connect_request__cancel_request__label">AVBRYT BEGÄRAN OM ANSLUTNING</string>
   <string name="connect_request__unblock__button__text">Avblockera</string>
@@ -364,8 +275,6 @@
     <item quantity="one">Vill du skicka ditt meddelande?</item>
     <item quantity="other">Vill du skicka dina meddelanden?</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Vill du acceptera samtalet?</string>
-  <string name="conversation__degraded_confirmation__place_call">Vill du fortfarande ringa samtalet?</string>
   <string name="conversation__degraded_confirmation__positive_action">Skicka ändå</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Visa enhet</item>
@@ -373,27 +282,14 @@
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Visa dina enheter</string>
   <string name="conversation_degraded_confirmation__header__you">Du</string>
-  <!-- Profile and Participants -->
-  <plurals name="participants__sub_header_xx_people">
-    <item quantity="one">%1$d PERSONER</item>
-    <item quantity="other">%1$d PERSONER</item>
-  </plurals>
-  <string name="group_name">Gruppens namn</string>
   <!-- Picture selection confirmation -->
   <string name="confirmation_menu__confirm_done">OK</string>
   <string name="confirmation_menu__cancel">AVBRYT</string>
   <!-- ADD TO CONVERSATION offline -->
-  <string name="conversation__add_user__no_network__title">Ingen Internet anslutning</string>
-  <string name="conversation__add_user__no_network__message">Du måste vara online för att lägga till personer. Vi kommer att försöka igen när du är online.</string>
-  <string name="conversation__add_user__no_network__button">OK</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <string name="conversation__create_group_conversation__no_network__title">Ingen Internet anslutning</string>
-  <string name="conversation__create_group_conversation__no_network__message">Du måste vara online för att skapa en konversation. Andra kommer att se dina ändringar när du är online igen.</string>
-  <string name="conversation__create_group_conversation__no_network__button">OK</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">Lämna konversationen?</string>
   <string name="confirmation_menu__meta_remove_text">Du kommer inte att kunna skicka eller ta emot meddelanden i den här konversationen.</string>
-  <string name="confirmation_menu__confirm_leave">LÄMNA</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Remove from conversation dialogue -->
   <string name="confirmation_menu__header">Ta bort?</string>
@@ -409,61 +305,31 @@
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Ta bort innehåll?</string>
   <string name="confirmation_menu__meta_delete_text">Det här kommer att rensa konversationshistoriken på alla dina enheter.</string>
-  <string name="confirmation_menu__confirm_delete">RADERA</string>
-  <string name="confirmation_menu__delete_conversation__checkbox__label">Också lämna konversation</string>
   <!-- Rich media -->
   <string name="content__youtube__error__text">videon hittades inte</string>
-  <string name="mediaplayer__artist__placeholder">Spår</string>
-  <string name="mediaplayer__artist__error">Spår ej tillgängligt</string>
   <string name="mediaplayer__message__onsoundcloud">på SoundCloud</string>
   <string name="mediaplayer__message__onspotify">på Spotify</string>
-  <string name="mediaplayer__spotify__hint">Koppla med Spotify</string>
-  <string name="mediaplayer__open_external">Öppna i webbläsare</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">SPRID ORDET!</string>
-  <string name="content__invite_banner__subtitle">Lägg till personer eller dela en länk till denna konversation.</string>
-  <string name="content__invite_banner__howto_link">Hur fungerar detta?</string>
-  <string name="content__invite_banner__button_label">Lägg till personer i denna konversation</string>
   <!-- Self profile -->
-  <string name="self_name">Ditt fullständiga namn</string>
-  <string name="self_add_email">Lägg till e-post\u0026 lösenord</string>
-  <string name="self_verify_email">Verifiera e-post</string>
-  <string name="self_add_phone">Lägg till telefonnummer</string>
-  <string name="self_verify_phone">Verifiera telefonnummer</string>
   <!-- Options and settings -->
   <string name="settings_title">Inställningar</string>
   <!-- Options menu -->
-  <string name="menu_settings">INSTÄLLNINGAR</string>
-  <string name="menu_avs_settings">AVS INSTÄLLNINGAR</string>
-  <string name="menu_about">OM</string>
-  <string name="menu_tutorial">HANDLEDNING</string>
-  <string name="menu_help">HJÄLP</string>
-  <string name="menu_logout">LOGGA UT</string>
   <!-- Manage Team -->
   <string name="pref_manage_team_title">Hantera Team</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">Integritetspolicy</string>
-  <string name="about_third_party_licences">Licenser</string>
-  <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">Användarvillkor</string>
-  <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Inställningar</string>
   <string name="pref_developer_screen_title">Utvecklarinställnigar</string>
   <string name="pref_dev_avs_screen_title">AVS inställningar</string>
   <string name="pref_profile_screen_title">Profil</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Konto</string>
-  <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Namn</string>
   <string name="pref_account_edit_name_title">Redigera namn</string>
   <string name="pref_account_details_category_title">Information</string>
   <string name="pref_account_actions_category_title">Åtgärder</string>
-  <string name="pref_account_personal_category_title">Personligt</string>
   <string name="pref_account_appearance_category_title">Utseende</string>
   <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">Historik</string>
-  <string name="pref_account_details_category_summary">Andra kan hitta dig med dessa uppgifter.</string>
-  <string name="pref_account_personal_category_summary">Informationen är inte synlig för någon</string>
   <string name="pref_account_username_title">Användarnanm</string>
   <string name="pref_account_phone_title">Telefon</string>
   <string name="pref_account_add_phone_title">Lägg till telefonnummer</string>
@@ -507,7 +373,6 @@
   <string name="pref_options_sounds_none">Inget alls</string>
   <string name="pref_options_vibration_title">Vibration</string>
   <string name="pref_options_vibration_title_o">Vibrate on ring</string>
-  <string name="pref_options_sounds_category_title">Varningar</string>
   <string name="pref_options_ringtones_category_title">Ljud</string>
   <string name="pref_options_ringtones_ringtone_title">Ringsignal</string>
   <string name="pref_options_ringtones_text_title">Meddelandeljud</string>
@@ -523,9 +388,6 @@
   <string name="pref_options_cursor_send_button_summary">Inaktivera skicka via tangentbordet.</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Enheter</string>
-  <string name="pref_current_device_category_title">Aktuell enhet</string>
-  <string name="pref_other_devices_category_title">Aktiva enheter</string>
-  <string name="pref_devices_summary">Tryck för att ta bort</string>
   <string name="pref_devices_current_device_category_title">Aktuell enhet</string>
   <string name="pref_devices_other_devices_category_title">Andra enheter</string>
   <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
@@ -538,7 +400,6 @@
   <string name="pref_devices_device_fingerprint_category_title">Nyckel Fingeravtryck</string>
   <string name="pref_devices_device_fingerprint_summary">Wire ger varje enhet ett unika fingeravtryck. Jämför dem och kontrollera dina enheter och konversationer.</string>
   <string name="pref_devices_device_actions_category_title">Åtgärder</string>
-  <string name="pref_devices_device_trust_title">Verifierad</string>
   <string name="pref_devices_device_reset_session_title">Börja om sessionen</string>
   <string name="pref_devices_device_reset_session_summary">Om fingeravtryck inte matchar, återställa sessionen för att generera nya krypteringsnycklar på båda enheterna.</string>
   <string name="pref_devices_device_remove_title">Ta bort enhet</string>
@@ -549,8 +410,6 @@
   <string name="pref_advanced_screen_title">Avancerat</string>
   <string name="pref_advanced_debug_report_title">Skicka in Debug rapport</string>
   <string name="pref_advanced_debug_report_summary">Detta hjälper Wire Support att diagnostisera problem.</string>
-  <string name="pref_advanced_analytics_title">Användningsrapporter för data och krasch rapporter</string>
-  <string name="pref_advanced_analytics_summary">Gör Wire bättre genom skicka anonym information.</string>
   <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">Om du upplever problem med push notiser, kan Support Wire be dig att återställa denna token.</string>
   <string name="pref_advanced_reset_push_completed">Push-token har återställts</string>
@@ -600,72 +459,33 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Ta bort</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Är du säker på att du vill ta bort %s från ditt Wire konto?</string>
   <string name="pref__account_action__dialog__delete_phone__error">Kunde inte ta bort telefonnumret</string>
-  <string name="pref__account_action__dialog__delete_email__error">Kunde inte ta bort epost-adressen</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">Du behöver vara online för att ta bort epost-adressen</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Du behöver vara online för att ta bort telefonnumret</string>
-  <string name="pref__account_action__dialog__change_email__error__invalid_email">Ange giltig e-postadress</string>
   <string name="pref__account_action__dialog__change_email__title">Redigera e-postadress</string>
-  <string name="pref__account_action__dialog__change_username__summary">Med detta användarnamn, kommer människor att kunna hitta dig på Wire utan din e-postadress eller ditt telefonnummer.</string>
   <string name="pref__account_action__dialog__change_username__rules">Minst 2 tecken. a – z, 0-9 och bara _</string>
   <string name="pref__account_action__dialog__change_username__title">Användarnanm</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">Upptaget</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Anslutningsfel, försök igen</string>
   <!-- No Internet connection -->
   <string name="system_status__no_internet">INGET INTERNET</string>
-  <string name="system_status__no_server_connection">ANSLUTER&#8230;</string>
   <!-- SHARING -->
-  <string name="system_status__sharing">VÄLJ EN KONVERSATION</string>
   <string name="alert_dialog__confirmation">OK</string>
   <string name="alert_dialog__no_network__header">Ingen Internet anslutning</string>
-  <string name="sign_up__no_internet__message">Du måste vara online för gå med. Kontrollerna din anslutning och försök igen.</string>
-  <string name="sign_in__no_internet__message">Du måste vara online för logga in. Kontrollerna din anslutning och försök igen.</string>
-  <string name="sign_up__take_picture__back">Redigera namn</string>
-  <string name="sign_up__take_picture_dialog__gallery">Galleri</string>
-  <string name="sign_up__take_picture_dialog__camera">Kamera</string>
-  <string name="sign_up__take_picture_dialog__message">Ta ett nytt foto eller välj en från ditt bildbiblotek.</string>
-  <string name="sign_up__take_picture_dialog__title">Ta foto</string>
   <string name="sign_up__set_picture__choose">Välj din egen</string>
   <string name="sign_up__set_picture__keep">Behåll denna</string>
   <string name="sign_up__set_picture__guidance">Wire är så mycket trevligare med en bild.</string>
   <string name="sign_up__set_picture__loading">Laddar foto</string>
-  <string name="rename_conversation__no_network__message">Du måste vara online för att byta namn på en konversation. Kontrollera din anslutningen och försök igen.</string>
-  <string name="resend_message__no_network__message">Du måste vara online för att skicka meddelande igen. Kontrollera din anslutningen och försök igen.</string>
   <string name="leave_conversation_failed__message">Du måste vara online för att lämna en konversation. Kontrollera din anslutningen och försök igen.</string>
   <string name="remove_from_conversation__no_network__message">Du måste vara online för att ta bort andra från konversationer. Kontrollera din anslutningen och försök igen.</string>
   <string name="calling__call_drop__message">Du måste vara online för ringa. Kontrollerna din anslutning och försök igen.</string>
-  <string name="profile_pic__no_network__message">Du måste vara online för att ändra din bild. Kontrollera din anslutningen och försök igen.</string>
-  <string name="calling__voice_channel_full__title">Samtalet är fullt</string>
-  <plurals name="calling__voice_channel_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Det finns bara plats för %1$d person här.</item>
-    <item quantity="other">Det finns bara plats för %1$d person här.</item>
-  </plurals>
-  <string name="calling__conversation_full__title">För många personer i samtalet</string>
-  <plurals name="calling__conversation_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Prata i samtal med upp till %1$d personer.</item>
-    <item quantity="other">Prata i samtal med upp till %1$d personer.</item>
-  </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Meddelanden</string>
   <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Pings</string>
   <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Background notifications</string>
   <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
   <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <string name="lockscreen__talk">RINGER</string>
-  <plurals name="notification__new_messages">
-    <item quantity="one">Meddelande från %2$s</item>
-    <item quantity="other">%1$d meddelande från %2$s</item>
-  </plurals>
-  <plurals name="notification__new_messages_groups">
-    <item quantity="one">Meddelande i %2$s</item>
-    <item quantity="other">%1$d meddelanden i %2$s</item>
-  </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="one">Meddelande i %2$s konversation</item>
     <item quantity="other">%1$d meddelanden i %2$s konversationer</item>
@@ -682,20 +502,11 @@
   <string name="notification__message__one_to_one__shared_video">Delade en video</string>
   <string name="notification__message__one_to_one__shared_audio">Delade ett ljudmeddelande</string>
   <string name="notification__message__one_to_one__shared_location">Delade en plats</string>
-  <string name="notification__message__one_to_one__liked">\u2764 ditt meddelande</string>
   <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s i %2$s \u0020</string>
-  <string name="notification__message__group__pinged">pingade</string>
-  <string name="notification__message__group__shared_picture">delade en bild</string>
-  <string name="notification__message__group__shared_file">delade en fil</string>
-  <string name="notification__message__group__shared_video">delade en video</string>
-  <string name="notification__message__group__shared_audio">delade ett ljudmeddelande</string>
-  <string name="notification__message__group__shared_location">delade en plats</string>
   <string name="notification__message__group__renamed_conversation">döpte om konversationen till %1$s</string>
   <string name="notification__message__group__add">lade till personer i konversationen</string>
   <string name="notification__message__group__remove">tog bort personer från konversationen</string>
-  <string name="notification__message__generic__accept_request">Du har en ny anslutning</string>
   <string name="notification__message__single__accept_request">Du och %1$s är nu anslutna</string>
   <string name="notification__message__group__default_conversation_name">grupp konversation</string>
   <string name="notification__message__send_failed">Meddelandet gick inte att skicka</string>
@@ -704,10 +515,8 @@
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 ditt meddelande</string>
   <string name="notification__message__liked_picture">\u2764 din bild</string>
-  <string name="notification__message__liked_file">\u2764 din fil</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_someone">Någon</string>
-  <string name="notification__message__ephemeral_details">Tryck för mer</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Någon har skickat ett meddelande</item>
     <item quantity="other">Någon har skickat %1$d meddelanden</item>
@@ -726,16 +535,9 @@
     <item quantity="other">%1$s others</item>
   </plurals>
   <!-- System notifications -->
-  <string name="system_notification__group_call_title">%1$s i %2$s</string>
   <string name="system_notification__silence_call">Avböj</string>
   <string name="system_notification__join_call">Acceptera</string>
   <string name="system_notification__leave_call">Avsluta samtal</string>
-  <string name="system_notification__outgoing">Ringer</string>
-  <string name="system_notification__outgoing_video">Videosamtal</string>
-  <string name="system_notification__incoming">Ringer</string>
-  <string name="system_notification__incoming_video">Is calling with video</string>
-  <string name="system_notification__ongoing">I ett samtal</string>
-  <string name="number_of_conversations_string">ARKIV</string>
   <string name="system_notification__calling_one">Ringer&#8230;</string>
   <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
@@ -757,7 +559,6 @@
   <string name="notification__image_saving__action__share">Dela</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
   <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <string name="notification__file_saving__content__title">Wire har sparat en fil.</string>
   <!-- forced update -->
   <string name="forced_update__header">Viktig uppdatering</string>
   <string name="forced_update__sub_header">Vänligen installera den senaste versionen av Wire.</string>
@@ -765,17 +566,9 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Sharing -->
   <string name="sharing__image_preview__confirm_action">SKICKA</string>
-  <string name="sharing__image_preview__title__single">SKICKAR 1 BILD TILL \n_%1$s_</string>
-  <string name="sharing__image_preview__title__multiple">SKICKAR %1$s BILDER TILL\n_%2$s_</string>
   <string name="sharing__user_not_logged_in__dialog__title">Vänligen logga in</string>
   <string name="sharing__user_not_logged_in__dialog__message">Öppna Wire och logga in för att dela.</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
-  <string name="sharing__files__ok">Dela</string>
-  <string name="sharing__files__cancel">Avbryt</string>
-  <plurals name="sharing__files__message">
-    <item quantity="one">Du håller på att dela %1$d fil med %2$s.</item>
-    <item quantity="other">Du håller på att dela %1$d filer med %2$s.</item>
-  </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">Det gick att inte skapa</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">Kunde inte skapa konversation med %1$s</string>
@@ -785,30 +578,9 @@
   <string name="in_app_notification__sync_error__create_convo__button">Fortsätt</string>
   <!--Timestamp formatting -->
   <string name="timestamp__just_now">Just nu</string>
-  <string name="timestamp__a_minute_ago">En minut sedan</string>
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="one">%1$d minut sedan</item>
     <item quantity="other">%1$d minuter sedan</item>
-  </plurals>
-  <plurals name="timestamp__x_hours_ago">
-    <item quantity="one">%1$d timme sedan</item>
-    <item quantity="other">%1$d timmar sedan</item>
-  </plurals>
-  <plurals name="timestamp__x_days_ago">
-    <item quantity="one">%1$d dag sedan</item>
-    <item quantity="other">%1$d dagar sedan</item>
-  </plurals>
-  <plurals name="timestamp__x_weeks_ago">
-    <item quantity="one">%1$d vecka sedan</item>
-    <item quantity="other">%1$d veckor sedan</item>
-  </plurals>
-  <plurals name="timestamp__x_months_ago">
-    <item quantity="one">%1$d månad sedan</item>
-    <item quantity="other">%1$d månader sedan</item>
-  </plurals>
-  <plurals name="timestamp__x_years_ago">
-    <item quantity="one">%1$d år sedan</item>
-    <item quantity="other">%1$d flera år sedan</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -820,25 +592,17 @@
   <!-- Example: MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- MONDAY -->
-  <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MARCH 2 -->
-  <string name="timestamp_pattern__separator_header__this_year">MMMM d</string>
   <!-- MARCH 2, 2015 -->
-  <string name="timestamp_pattern__separator_header__last_year">D MMMM, YYYY</string>
-  <string name="timestamp_pattern__separator_header__today">Idag</string>
-  <string name="timestamp_pattern__separator_header__yesterday">Igår</string>
   <!-- 23:15 -->
   <string name="timestamp_pattern__24h_format">HH:mm</string>
   <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="reg__phone_alert__button">OK</string>
   <string name="country">Land</string>
   <string name="register">Registrera dig</string>
   <string name="password_placeholder">Lösenord</string>
   <string name="email_placeholder">E-post</string>
   <string name="name_placeholder">Namn</string>
-  <string name="registration_back">Tillbaka</string>
   <!-- Strings -->
   <string name="edit_phone_number">REDIGERA TELEFONNUMMER</string>
   <string name="i_have_an_account">LOGGA IN</string>
@@ -851,10 +615,8 @@
   <string name="activation_code_info_manual">Ange verifieringskoden vi skickat till \n &lt; b &gt;%s &lt; /b &gt;</string>
   <string name="enter_name">Vad ska vi kalla dig?</string>
   <string name="enter_name_hint">Ange fullständiga namn</string>
-  <string name="set_a_picture">Ange en bild</string>
   <string name="new_reg__password__forgot">Glömt lösenord?</string>
   <string name="phone_sign_in">Telefon</string>
-  <string name="go_to_register">Skapa konto</string>
   <string name="email_sign_in">E-post</string>
   <string name="edit_email">Redigera e-post</string>
   <string name="hello">Hej, &lt; b &gt;%s &lt; /b &gt;</string>
@@ -863,8 +625,6 @@
   <string name="username__set__toast_error">Fel vid uppdatering av användarnamn</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Sök på Giphy</string>
-  <string name="giphy_preview__title_search">#%s</string>
-  <string name="giphy_preview__title_random">SLUMPMÄSSIG</string>
   <string name="giphy_preview__error">INGA GIFS HITTADE.</string>
   <string name="giphy_preview__message_via_random_trending">Via giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
@@ -872,7 +632,6 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">TRYCK FÄRG FÖR ATT ÄNDRA PENSEL STORLEK.\n\nSKAKA FÖR ATT TA BORT BILDER.</string>
   <string name="drawing__tip__message">TRYCK FÄRG FÖR ATT ÄNDRA PENSEL STORLEK.\n\nTRYCK OCH HÅLL FÖR ATT FYLLA EN YTA.</string>
-  <string name="add_a_sketch">Lägg till en skiss</string>
   <string name="sketch__emoji_keyboard__size_label__small">LITEN</string>
   <string name="sketch__emoji_keyboard__size_label__medium">MEDIUM</string>
   <string name="sketch__emoji_keyboard__size_label__large">STORA</string>
@@ -896,8 +655,6 @@
   <string name="otr__remove_device__button_delete">OK</string>
   <string name="otr__remove_device__button_cancel">Avbryt</string>
   <string name="otr__remove_device__error">Fel lösenord</string>
-  <string name="otr__remove_device__button_approve">OK</string>
-  <string name="otr__remove_device__button_remove">Ta bort</string>
   <string name="otr__error_dialog__cannot_register__message">Ta bort en av dina andra enheter för att börja använda Wire på den här enheten.</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Hantera enheter</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Logga ut</string>
@@ -921,32 +678,18 @@
   <string name="otr__first_launch__header">Det är första gången du använder Wire på denna enhet.</string>
   <string name="otr__first_launch__sub_header">För integritetsskäl visas din konversationshistorik inte här.</string>
   <string name="otr__first_launch__button">OK</string>
-  <string name="otr__device_approve__header">Du har anslutit en enhet till ditt Wire konto.</string>
-  <string name="otr__device_approve__note">Om du inte gjorde detta, ta bort enheten och återställ ditt lösenord.</string>
   <string name="otr__signin__info_text">Logga in</string>
   <string name="otr__reset_session__message_ok">Sessionen har återställts</string>
   <string name="otr__reset_session__message_fail">Det gick inte att återställa sessionen</string>
   <string name="otr__reset_session__button_ok">OK</string>
   <string name="otr__reset_session__button_fail">Försök igen</string>
-  <string name="otr__remove_device__no_internet__title">Inget Internet</string>
-  <string name="otr__remove_device__no_internet__message">Försök att ta bort enheten när du är online igen.</string>
-  <string name="otr__remove_device__no_internet__button">OK</string>
-  <string name="otr__device_inbox__header">Ditt konto har använts på:</string>
-  <string name="otr__device_inbox__name">Från: [[%s]]</string>
   <string name="advanced_image_download_wifi_info">Bilden kommer att visas när du är uppkopplad på Wi-Fi igen</string>
   <string name="change_settings">Ändra inställningar</string>
-  <string name="single_image__save_to_disk__error">Det gick inte att spara bilden, ingen tillgång till extern lagring</string>
-  <string name="conversation_list__label_action__contacts">ANVÄNDARE</string>
-  <string name="conversation_list__hint_header">Konversationerna börjar här</string>
-  <string name="conversation_list__hint_text">Starta en konversation. Ring, skicka meddelande och dela i privat eller i grupp.</string>
   <string name="conversation_list__action_join_call">GÅ MED</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Samling</string>
   <string name="conversation_toolbar__call_video">Videosamtal</string>
   <string name="conversation_toolbar__call_audio">Röstsamtal</string>
-  <string name="conversation_toolbar__delete">Radera</string>
-  <string name="conversation_toolbar__copy">Kopiera</string>
-  <string name="conversation_toolbar__fwd">Dela</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Filen hittades inte</string>
   <string name="asset_upload_error__not_found__message">Det gick inte att hämta den angivna filen</string>
@@ -958,17 +701,8 @@
   <string name="asset_upload_warning__large_file__title">Du är inte ansluten till Wi-Fi</string>
   <string name="asset_upload_warning__large_file__message_default">Är du säker att du vill skicka en stor fil via mobildata?</string>
   <string name="asset_upload_warning__large_file__message">Är du säker att du vill skicka %1$s via mobildata?</string>
-  <string name="asset_upload_warning__large_file__button_accept">OK</string>
-  <string name="asset_upload_warning__large_file__button_cancel">Avbryt</string>
   <!-- Video message errors -->
-  <string name="video_message_error__too_big__title">Videon är för stor</string>
-  <string name="video_message_error__too_big__message">Du kan skicka videos upp tlll 25 MB.</string>
-  <string name="video_message_error__title">Videofel</string>
-  <string name="video_message_error__message">Kunde inte spela upp video</string>
-  <string name="video_message_error__button">OK</string>
-  <string name="video_message_error__missing_camera_permissions">För att skicka videomeddelanden, bevilja behörighet att komma kameran och filer.</string>
   <string name="audio_message_error__missing_audio_permissions">För att skicka ljud meddelanden, bevilja behörighet att spela in ljud.</string>
-  <string name="audio_message_error__generic">Kunde inte spela upp ljud</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">KONSTANT BITHASTIGHET</string>
   <!-- no contacts -->
@@ -988,7 +722,6 @@
   <string name="tooltip_file">Skicka fil</string>
   <string name="tooltip_gif">Gif</string>
   <string name="tooltip_mention">Add Mention</string>
-  <string name="new_feature">Nytt</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Ta bort bara för mig?</string>
   <string name="conversation__message_action__delete_for_everyone">Ta bort för alla?</string>
@@ -1002,9 +735,6 @@
   <string name="conversation__action_mode__fwd__dialog__message">Vänta&#8230;</string>
   <string name="conversation__action_mode__fwd__chooser__title">Dela med</string>
   <!-- video message preview -->
-  <string name="video_message__preview__header">Skicka till %1$s</string>
-  <string name="video_message__quick_menu__send_label">Skicka</string>
-  <string name="video_message__preview__compressing">KOMPRIMERAR&#8230;</string>
   <string name="audio_message__recording__slide_control__slide_hint">DRA UPP FÖR ATT SKICKA</string>
   <string name="audio_message__recording__slide_control__tap_hint">TRYCK FÖR ATT SKICKA</string>
   <string name="audio_message__recording__tap_to_record">Tryck för spela in ett meddelande\ndu kan _GLYPH_ efter det</string>
@@ -1024,7 +754,6 @@
   <string name="message_bottom_menu_action_delete">Radera</string>
   <string name="message_bottom_menu_action_delete_local">Ta bort för mig</string>
   <string name="message_bottom_menu_action_delete_global">Ta bort för alla</string>
-  <string name="message_bottom_menu_action_forward_multiple">Dela med flera</string>
   <string name="message_bottom_menu_action_reveal">Visa i konversation</string>
   <string name="likes_list__header">Gillad av</string>
   <string name="message_bottom_menu_action_save_ok">Bild sparad</string>
@@ -1042,7 +771,6 @@
   <string name="usernames__take_over__summary">Paxa ett unikt användarnamn på Wire. _Lär dig mer._</string>
   <string name="usernames__take_over__choose">VÄLJ DITT EGET</string>
   <string name="usernames__take_over__keep">BEHÅLL DENNA</string>
-  <string name="pref_account_username_empty_title">Lägg till användarnamn</string>
   <string name="ephemeral_message__timeout__off">Av</string>
   <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
   <string name="guests_option_on">På</string>
@@ -1072,17 +800,14 @@
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
   <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
-  <string name="collection_header_all">SAMLING</string>
   <string name="collection_header_pictures">BILDER</string>
   <string name="collection_header_files">FILER</string>
   <string name="collection_header_links">LÄNKAR</string>
   <string name="collection_header_today">IDAG</string>
   <string name="collection_header_yesterday">IGÅR</string>
   <string name="collection_empty">INGA OBJEKT I DIN SAMLING</string>
-  <string name="collection_send_to">Skicka till&#8230;</string>
   <string name="collection_all">Visa alla %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">Skickning misslyckades</string>
   <string name="multi_share_search_hint">SKICKA TILL&#8230;</string>
   <string name="search__box__hint_text">SÖK TEXTMEDDELANDEN</string>
   <string name="search__no_results">Inga resultat.</string>
@@ -1125,11 +850,8 @@
   <string name="conversation_list__someone">Någon</string>
   <string name="conversation_list__added">[[%1$s]] har lagts till</string>
   <string name="conversation_list__added_you">[[%1$s]] har lagt till dig</string>
-  <string name="conversation_list__left">[[%1$s]] har lämnat</string>
   <string name="conversation_list__left_you">Du lämnade</string>
   <string name="conversation_list__removed_you">[[%1$s]] tog bort dig</string>
-  <string name="conversation_list__removed">[[%1$s]] har tagits bort</string>
-  <string name="conversation_list__empty_conv__subtitle">Alla har lämnat</string>
   <string name="conversation_list__header__title">KONVERSATIONER</string>
   <string name="conversation_list__header__archive_title">ARKIV</string>
   <string name="guest_indicator">GÄST</string>
@@ -1167,7 +889,6 @@
   <string name="teams_verify_email_change">ÄNDRA EPOST</string>
   <string name="teams_set_name_title">Ditt namn</string>
   <string name="teams_set_name_hint">FULLSTÄNDIGT NAMN</string>
-  <string name="app_entry_slogan">Säker meddelandehantering för alla.</string>
   <string name="app_entry_create_account">Personligt</string>
   <string name="app_entry_create_account_sub">skapa ett konto</string>
   <string name="app_entry_create_team">Proffs</string>
@@ -1194,17 +915,12 @@
   <string name="teams_invitations_skip">HOPPA ÖVER</string>
   <string name="teams_invitations_done">KLAR</string>
   <string name="teams_invitations_error_too_many">Det högsta antalet inbjudningar har sänts</string>
-  <string name="teams_invitations_error_blacklisted_email">Den givna epostadressen har blivit svartlistad på grund av ett permanent utkast eller klagomål.</string>
-  <string name="teams_invitations_error_no_identity">Användaren har ingen verifierad indentitet (epost eller telefonnummer).</string>
-  <string name="teams_invitations_error_no_email">Denna operation kräver att användaren har en verifierad e-postadress.</string>
   <string name="teams_invitations_error_already_sent">Redan skickats</string>
   <string name="teams_invitations_error_generic">Något gick fel, vänligen försök igen</string>
   <string name="teams_invite_email_hint">KOLLEGA@DITTFÖRETAG.COM</string>
   <string name="teams_invitations_error_invalid_email">VAR VÄNLIG OCH ANGE EN GILTIG E-POSTADRESS</string>
   <string name="teams_invitations_error_email_exists">DENNA E-POSTADRESS ANVÄNDS REDAN</string>
-  <string name="teams_invitations_error_email_exists_more">MER INFORMATION</string>
   <string name="teams_invitations_error_no_internet">INGEN INTERNETANSLUTNING</string>
-  <string name="team_invitation_add_from_address_book">LÄGG TILL FRÅN ADRESSBOKEN</string>
   <string name="invitation_screen_title">Skapa ditt team</string>
   <string name="invitation_screen_subtitle">Bjud in dina kollegor att delta.</string>
   <string name="open_service_conversation_button_text">Öppna konversation</string>
@@ -1225,7 +941,6 @@
   <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
   <string name="new_conv_no_results">Inga resultat</string>
   <string name="new_conv_no_contacts">No contacts</string>
-  <string name="create_group_search">SÖK EFTER NAMN</string>
   <string name="participants_divider_services">TJÄNSTER (%1$s)</string>
   <string name="participants_divider_people">PERSONER (%1$s)</string>
   <string name="group_name_hint">GRUPPENS NAMN</string>
@@ -1292,7 +1007,6 @@
   <string name="video_paused">Klippet pausades</string>
   <string name="calling_degraded_title">Ny enhet</string>
   <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
   <string name="markdown_link_dialog_title">Öppna länk</string>
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>

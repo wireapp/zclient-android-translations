@@ -27,7 +27,6 @@
   <string name="internet_connectivity_error_message">Перевірте підключення до Інтернету та спробуйте ще раз</string>
   <string name="too_many_attempts_header">Зроблено забагато спроб</string>
   <string name="login_later_message">Будь ласка, спробуйте увійти пізніше</string>
-  <string name="register_again_message">Спробуйте зареєструватися ще раз</string>
   <string name="email_exists_header">Email вже використовується</string>
   <string name="email_exists_message">Дана Email-адреса вже зареєстрована</string>
   <string name="email_invalid_header">Недійсний email</string>
@@ -45,8 +44,6 @@
   <string name="wrong_code_message">Будь ласка, введіть правильний код</string>
   <string name="phone_pending_login_header">Код вже надіслано</string>
   <string name="phone_pending_login_message">Ми вже надіслали SMS з кодом. Щоб отримати новий код, натисніть \"Надіслати ще раз\" через 10 хвилин.</string>
-  <string name="password_invalid_header">Невірний пароль</string>
-  <string name="password_invalid_message">Будь ласка, перевірте ваші дані та повторіть спробу</string>
   <string name="phone_budget_exhausted_header">Було здійснено забагато запитів</string>
   <string name="phone_budget_exhausted_message">Будь ласка, спробуйте ще раз пізніше.</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -71,48 +68,16 @@
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">Ваш номер телефону</string>
   <!-- Receive email/sms invitation -->
-  <string name="invitation_email__normal_phone_signup_button">Реєстрація за допомогою номера телефону</string>
-  <string name="invitation_email__normal_email_signup_button">Зареєструватися, використовуючи інший email</string>
-  <string name="invitation_email__password_placeholder">Пароль (мін %1$s символів)</string>
-  <string name="invitation_email__welcome_header">Привіт, %1$s.</string>
-  <string name="invitation_email__welcome_message">Виберіть пароль для створення акаунту.</string>
-  <string name="invitation__continue_button">Продовжити</string>
-  <string name="invitation_phone__normal_phone_signup_button">За допомогою іншого телефону</string>
-  <string name="invitation_phone__normal_email_signup_button">Реєстрація за допомогою email</string>
-  <string name="invitation_phone__welcome_header">Привіт, %1$s.</string>
-  <string name="invitation_phone__welcome_message">Ви за один крок від створення свого акаунту.</string>
-  <string name="invitation__phone__failed">Не вдалося зареєструвати з цим запрошенням.</string>
-  <string name="invitation__email__failed">Не вдалося зареєструвати з цим запрошенням.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 ПОШУК</string>
   <string name="pick_user_search_hint">ПОШУК</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 ПОШУК</string>
   <string name="choose_conversation">ПОШУК</string>
   <string name="people_picker__top_users_header_title">Топ-контакти</string>
-  <string name="people_picker__address_book_matches_title">Додати до контактів</string>
   <string name="people_picker__search_result_conversations_header_title">Групи</string>
   <string name="people_picker__search_result_team_conversations_header_title">Групи %1$s</string>
   <string name="people_picker__search_result_connections_header_title">Контакти</string>
   <string name="people_picker__search_result_others_header_title">Додати до контактів</string>
-  <string name="people_picker__search_result_recommended_header_title">Рекомендації</string>
-  <string name="people_picker__search_result_contacts_header_title">Контакти</string>
-  <string name="people_picker__search_result_team_members_header_title">Учасники команди</string>
-  <string name="people_picker__invite_header_title">Запросити</string>
-  <string name="people_picker__confirm_button_title">Почати розмову</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">Додати учасників до групи</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Створити групу</string>
-  <string name="people_picker__error_message__no_results">Співпадінь не знайдено.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts">Знайти людей за іменем або email</string>
-  <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Будь ласка, введіть дійсний email або</string>
-  <string name="people_picker__error_message__no_results__shared_contacts__add_to_conversation">Введіть інше ім\'я.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts__add_to_conversation">Введіть інше ім\'я.</string>
-  <string name="people_picker__error_message__no_results__send_invite">надішліть\nзапрошення</string>
-  <string name="people_picker__error_message__no_users_to_add_to_conversation">Всі ваші контакти уже присутні в даній групі.</string>
-  <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Ми не змогли знайти нікого з ваших знайомих в Wire. Введіть повне ім\'я або email-адресу.</string>
-  <string name="people_picker__toolbar_header__group">Додати учасників</string>
-  <string name="people_picker__toolbar_header__one_to_one">Створити групу</string>
   <string name="people_picker__search_result__expander_title">Показати всі %1$s ↓</string>
-  <string name="people_picker__guest_label">Гість</string>
   <string name="people_picker__search_people">УЧАСНИКИ</string>
   <string name="people_picker__search_services">СЕРВІСИ</string>
   <string name="receive_news_and_offers_request_title">Стрічка новин</string>
@@ -123,9 +88,6 @@
   <string name="crashes_and_analytics_request_agree">Я згоден(-а)</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Сервіси</string>
-  <string name="integrations_picker__add">Додати сервіс</string>
-  <string name="integrations_conv_bot">Бот</string>
-  <string name="integrations_chathead__section_title">Сервіси</string>
   <string name="integrations_errors_add_service">Неможливо додати сервіс</string>
   <string name="integrations_errors_service_unavailable">Даний сервіс наразі недоступний</string>
   <string name="conversation_errors_full">Розмова переповнена</string>
@@ -135,50 +97,18 @@
   <string name="people_picker__share_contacts__yay">Дозволити</string>
   <string name="people_picker__share_contacts__nah">Заборонити</string>
   <string name="people_picker__share_contacts__nevvah">Більше не запитувати</string>
-  <!-- People you may know -->
-  <string name="people_picker__recommended__common_connections__one">Знайомий(-а) з %1$s</string>
-  <string name="people_picker__recommended__common_connections__two">Знайомий(-а) з %1$s та %2$s</string>
-  <plurals name="people_picker__recommended__common_connections__more">
-    <item quantity="one">Знайомий(-а) з %1$s та з %2$d-им</item>
-    <item quantity="few">Знайомий з %1$s та ще з %2$d-ма іншими</item>
-    <item quantity="many">Знайомий(-а) з %1$s та ще з %2$d-ма іншими</item>
-    <item quantity="other">Знайомий з %1$s та ще з %2$d-ма іншими</item>
-  </plurals>
-  <string name="people_picker__recommended__common_connections__hide">СХОВАТИ</string>
   <!-- Invite -->
-  <string name="people_picker__invite__share_details_label">Надіслати запрошення</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Поділіться Wire з друзями.</string>
   <string name="people_picker__invite__share_text__header">%1$s бажає додати вас до своїх контактів в Wire</string>
   <string name="people_picker__invite__share_text__body">Я в Wire. Шукайте мене як %1$s або відвідайте get.wire.com</string>
-  <string name="people_picker__invite__message">Привіт,\nДякую за запрошення. Давай спілкуватися.\n%1$s</string>
-  <string name="people_picker__invite__sent_feedback">Запрошення надіслано</string>
-  <string name="people_picker__contact_list__user_selection_button__label">ВІДКРИТИ</string>
-  <string name="people_picker__contact_list__user_adding_button__label">ДОДАТИ</string>
-  <string name="people_picker__contact_list__contact_selection_button__label">ЗАПРОСИТИ</string>
-  <string name="people_picker__contact_list__invite_dialog__title">Надіслати запрошення</string>
-  <string name="people_picker__contact_list__searchbox__hint">\u0020 ПОШУК ЗА ІМЕНЕМ</string>
-  <string name="people_picker__generic_invite_button_text">Запросіть людей в Wire</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="one">%1$d спільний знайомий</item>
-    <item quantity="few">%1$d спільних знайомих</item>
-    <item quantity="many">%1$d спільних знайомих</item>
-    <item quantity="other">%1$d спільних знайомих</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s в Контактах</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">в Контактах</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ВІДКРИТИ</string>
-  <string name="conversation_quick_menu__conversation_button__group_label">СТВОРИТИ ГРУПУ</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_joined">[[%1$s]] приєднався(-лася)</string>
   <string name="content__system__you_joined">[[Ви]] приєдналися</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] перейменував(-ла)і розмову</string>
   <string name="content__system__you_renamed_conv">[[Ви]] перейменували розмову</string>
-  <string name="content__system__message_deleted">Це повідомлення було видалено</string>
-  <string name="content_system_message_timestamp_failure">Ненадіслане повідомлення.</string>
-  <string name="content_system_message_timestamp_pending">Відправка\u2026</string>
-  <string name="content_system_message_timestamp_deleted">Видалено %1$s</string>
   <!-- Add people -->
   <string name="content__system__someone_added_people">[[%1$s]] додав(-ла) %2$s до розмови</string>
   <plurals name="content__system__someone_added_people_with_others">
@@ -188,7 +118,6 @@
     <item quantity="other">[[%1$s]] додав(-ла) %2$s та _ще %3$s до розмови_</item>
   </plurals>
   <string name="content__system__someone_added_you">[[%1$s]] додав(-ла) вас до розмови</string>
-  <string name="content__system__someone_added_people_and_you">[[%1$s]] додав(-ла) %2$s та вас до розмови</string>
   <plurals name="content__system__someone_added_people_and_you_with_others">
     <item quantity="one">[[%1$s]] додав(-ла) %2$s, вас та _ще %3$s_ до розмови</item>
     <item quantity="few">[[%1$s]] додав(-ла) %2$s, вас та _ще %3$s_ до розмови</item>
@@ -211,8 +140,6 @@
   <!-- Create conversation -->
   <string name="content__system__you_started_conversation">Ви розпочали розмову</string>
   <string name="content__system__other_started_conversation">%1$s розпочав(-ла) розмову</string>
-  <string name="content__system__you_started_one">[[Ви]] почали розмову з %2$s</string>
-  <string name="content__system__other_started_one">[[%1$s]] почав(-ла) розмову з вами</string>
   <string name="content__system__with_you_only">з вами</string>
   <string name="content__system__with_list_only">з %1$s</string>
   <plurals name="content__system__with_others_only">
@@ -234,8 +161,6 @@
   <string name="content__you_pinged">[[ВИ]] ВІДПРАВИЛИ ПІНГ</string>
   <string name="content__xxx_pinged">[[%1$s]] ВІДПРАВИВ(-ЛА) ПІНГ</string>
   <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__conversation_verified">Розмова верифікована</string>
-  <string name="content__otr__conversation_unverified">Розмова не верифікована</string>
   <string name="content__otr__message_error">ПОВІДОМЛЕННЯ ВІД [[%1$s]] НЕ БУЛО ОТРИМАНЕ. _ЧОМУ?_</string>
   <string name="content__otr__message_error_you">ПОВІДОМЛЕННЯ ВІД ВАС НЕ БУЛО ОТРИМАНЕ. _ЧОМУ?_</string>
   <string name="content__otr__identity_changed_error">ЗМІНИВСЯ ИДЕНТИФІКАТОР ПРИСТРОЮ [[%1$s]]. ПОВІДОМЛЕННЯ НЕ БУЛО ДОСТАВЛЕНЕ. _ДІЗНАТИСЯ БІЛЬШЕ_</string>
@@ -271,13 +196,11 @@
   <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · ПОМИЛКА ЗАВАНТАЖЕННЯ</string>
   <string name="content__file__action__open">ВІДКРИТИ</string>
   <string name="content__file__action__save">ЗБЕРЕГТИ</string>
-  <string name="content__file__action__share">ПОДІЛИТИСЬ</string>
   <string name="content__file__action__open__no_app_found">Немає додатків, які відкривають файли цього типу</string>
   <string name="content__file__action__save_completed">Файл успішно збережено</string>
   <string name="content__file__action__save_error">Не вдалося зберегти файл</string>
   <string name="content__location__no_map_placeholder">ВАШЕ РОЗТАШУВАННЯ БУДЕ ВІДОБРАЖЕНЕ НА КАРТІ ЯК ТІЛЬКИ ДОДАТОК ПОВЕРНЕТЬСЯ В ОНЛАЙН-РЕЖИМ.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">Перейменувати</string>
   <string name="conversation__action__delete">Видалити вміст&#8230;</string>
   <string name="conversation__action__archive">Архівувати</string>
   <string name="conversation__action__unarchive">Розархівувати</string>
@@ -287,7 +210,6 @@
   <string name="conversation__action__silence">Вимкнути звук</string>
   <string name="conversation__action__unsilence">Увімкнути звук</string>
   <string name="conversation__action__leave">Вийти з групи&#8230;</string>
-  <string name="conversation__action__remove">Видалити</string>
   <string name="conversation__action__call">Зателефонувати</string>
   <string name="conversation__action__picture">Картинка</string>
   <string name="conversation__action__block">Заблокувати&#8230;</string>
@@ -301,10 +223,6 @@
   <string name="conversation__action__notifications_nothing">Нічого</string>
   <string name="conversation__action__notifications_title">Повідомляти мене про:</string>
   <!-- Conversation: Profile Popover -->
-  <string name="popover__action__open">ВІДКРИТИ</string>
-  <string name="popover__action__remove">ВИДАЛИТИ</string>
-  <string name="popover__action__block">ЗАБЛОКУВАТИ</string>
-  <string name="popover__action__profile">ПРОФІЛЬ</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Повільний інтернет</string>
   <string name="calling__slow_connection__message">Дуже повільне з\'єднання для здійснення дзвінка. Спробуйте ще раз, пізніше.</string>
@@ -313,19 +231,12 @@
   <string name="calling__cannot_start__no_permission__message">Відкрийте налаштування та дозвольте Wire доступ до мікрофону.</string>
   <string name="calling__cannot_start__cancel__message">СКАСУВАТИ</string>
   <string name="calling__cannot_start__no_camera_permission__message">Доступ до камери відсутній</string>
-  <string name="calling__cannot_start__ongoing_different_kind__title">%1$s зайнятий(-а)</string>
-  <string name="calling__cannot_start__ongoing_different_kind__message">Спробуйте пізніше</string>
-  <string name="calling__cannot_start__button_settings">НАЛАШТУВАННЯ</string>
   <string name="calling__video_call__slow_connection__message">Можуть виникнути проблеми під час дзвінка</string>
-  <string name="incoming__controls__incoming__decline">СКАСУВАТИ</string>
-  <string name="incoming__controls__incoming__accept">ПРИЙНЯТИ</string>
-  <string name="incoming__controls__ongoing__hangup">СКАСУВАТИ</string>
   <string name="incoming__controls__ongoing__speaker">ДИНАМІК</string>
   <string name="incoming__controls__ongoing__mute">ВИМКН. ЗВУК</string>
   <string name="incoming__controls__ongoing__video">ВІДЕО</string>
   <string name="incoming__controls__ongoing__flip">ПЕРЕКЛ. КАМЕРУ</string>
   <string name="ongoing__poor_connection_message">ВІДЕО ЗУПИНЕНО ЧЕРЕЗ ПОГАНИЙ ЗВ\'ЯЗОК</string>
-  <string name="calling__self_preview_unavailable">ВІДЕО ВІДКЛЮЧЕНО</string>
   <string name="calling__self_preview_unavailable_long">КАМЕРА НЕДОСТУПНА</string>
   <string name="calling__header__joining">Підключення&#8230;</string>
   <string name="calling__header__outgoing_subtitle">Дзвінок&#8230;</string>
@@ -352,12 +263,6 @@
   <string name="group_calling_confirm">Аудіодзвінок</string>
   <!-- Connect request -->
   <string name="connect__message">Ппивіт %1$s,\nДавай спікуватися в Wire.\n%2$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="one">%1$d спільний знайомий</item>
-    <item quantity="few">%1$d спільних знайомих</item>
-    <item quantity="many">%1$d спільних знайомих</item>
-    <item quantity="other">%1$d спільних знайомих</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">Очікує підтвердження</string>
   <string name="connect_request__cancel_request__label">СКАСУВАТИ ЗАПИТ НА ДОДАВАННЯ</string>
   <string name="connect_request__unblock__button__text">Розблокувати</string>
@@ -386,8 +291,6 @@
     <item quantity="many">Все одно надіслати ваші повідомлення?</item>
     <item quantity="other">Все одно надіслати ваші повідомлення?</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Ви хочете прийняти цей дзвінок?</string>
-  <string name="conversation__degraded_confirmation__place_call">Ви все ще хочете здійснити дзвінок?</string>
   <string name="conversation__degraded_confirmation__positive_action">Все одно надіслати</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Показати пристрій</item>
@@ -397,29 +300,14 @@
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Показати мої пристрої</string>
   <string name="conversation_degraded_confirmation__header__you">Ви</string>
-  <!-- Profile and Participants -->
-  <plurals name="participants__sub_header_xx_people">
-    <item quantity="one">%1$d УЧАСНИК</item>
-    <item quantity="few">%1$d УЧАСНИКИ</item>
-    <item quantity="many">%1$d УЧАСНИКІВ</item>
-    <item quantity="other">%1$d УЧАСНИКІВ</item>
-  </plurals>
-  <string name="group_name">Ім\'я групи</string>
   <!-- Picture selection confirmation -->
   <string name="confirmation_menu__confirm_done">OK</string>
   <string name="confirmation_menu__cancel">СКАСУВАТИ</string>
   <!-- ADD TO CONVERSATION offline -->
-  <string name="conversation__add_user__no_network__title">Немає з\'єднання з Інтернетом</string>
-  <string name="conversation__add_user__no_network__message">Ви повинні бути онлайн, щоб додати учасників. Ми спробуємо ще раз, коли ви будете знову в мережі.</string>
-  <string name="conversation__add_user__no_network__button">OK</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <string name="conversation__create_group_conversation__no_network__title">Немає з\'єднання з Інтернетом</string>
-  <string name="conversation__create_group_conversation__no_network__message">Ви повинні знаходитися в Інтернеті щоб почати розмову. Інші учасники будуть бачити внесені зміни, коли ви будете знову онлайн.</string>
-  <string name="conversation__create_group_conversation__no_network__button">OK</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">Вийти з розмови?</string>
   <string name="confirmation_menu__meta_remove_text">Ви більше не зможете надсилати або отримувати повідомлення в цій розмові.</string>
-  <string name="confirmation_menu__confirm_leave">ВИЙТИ</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Remove from conversation dialogue -->
   <string name="confirmation_menu__header">Видалити?</string>
@@ -435,61 +323,31 @@
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Видалити вміст?</string>
   <string name="confirmation_menu__meta_delete_text">Це очистить історію розмови на всіх ваших пристроях.</string>
-  <string name="confirmation_menu__confirm_delete">ВИДАЛИТИ</string>
-  <string name="confirmation_menu__delete_conversation__checkbox__label">Також вийти з розмови</string>
   <!-- Rich media -->
   <string name="content__youtube__error__text">відео не знайдено</string>
-  <string name="mediaplayer__artist__placeholder">Трек</string>
-  <string name="mediaplayer__artist__error">Трек недоступний</string>
   <string name="mediaplayer__message__onsoundcloud">в SoundCloud</string>
   <string name="mediaplayer__message__onspotify">в Spotify</string>
-  <string name="mediaplayer__spotify__hint">Підключити Spotify</string>
-  <string name="mediaplayer__open_external">Відкрити у браузері</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">РОЗПОЧНІТЬ СПІЛКУВАТИСЬ!</string>
-  <string name="content__invite_banner__subtitle">Додайте учасників або поділіться посиланням на цю розмову.</string>
-  <string name="content__invite_banner__howto_link">Як це працює?</string>
-  <string name="content__invite_banner__button_label">Додати учасників до цієї розмови</string>
   <!-- Self profile -->
-  <string name="self_name">Ваше повне ім\'я</string>
-  <string name="self_add_email">Додати email \u0026 пароль</string>
-  <string name="self_verify_email">Підтвердити email</string>
-  <string name="self_add_phone">Додайте номер телефону</string>
-  <string name="self_verify_phone">Підтвердити номер телефону</string>
   <!-- Options and settings -->
   <string name="settings_title">Налаштування</string>
   <!-- Options menu -->
-  <string name="menu_settings">НАЛАШТУВАННЯ</string>
-  <string name="menu_avs_settings">НАЛАШТУВАННЯ AVS</string>
-  <string name="menu_about">ПРО WIRE</string>
-  <string name="menu_tutorial">ПІДРУЧНИК</string>
-  <string name="menu_help">Допомога</string>
-  <string name="menu_logout">ВИЙТИ</string>
   <!-- Manage Team -->
   <string name="pref_manage_team_title">Керування командою</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">Політика конфіденційності</string>
-  <string name="about_third_party_licences">Ліцензії</string>
-  <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">Умови використання</string>
-  <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Налаштування</string>
   <string name="pref_developer_screen_title">Налаштування розробника</string>
   <string name="pref_dev_avs_screen_title">Налаштування AVS</string>
   <string name="pref_profile_screen_title">Профіль</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Акаунт</string>
-  <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Ім’я</string>
   <string name="pref_account_edit_name_title">Редагувати ім\'я</string>
   <string name="pref_account_details_category_title">Інформація</string>
   <string name="pref_account_actions_category_title">Дії</string>
-  <string name="pref_account_personal_category_title">Персональні дані</string>
   <string name="pref_account_appearance_category_title">Оформлення</string>
   <string name="pref_account_personal_information_category_title">Особисті дані</string>
   <string name="pref_account_conversations_category_title">Історія</string>
-  <string name="pref_account_details_category_summary">Ці деталі допоможуть іншим людям знайти вас.</string>
-  <string name="pref_account_personal_category_summary">Ця інформація недоступна для інших користувачів</string>
   <string name="pref_account_username_title">Нік</string>
   <string name="pref_account_phone_title">Телефон</string>
   <string name="pref_account_add_phone_title">Додайте номер телефону</string>
@@ -533,7 +391,6 @@
   <string name="pref_options_sounds_none">Все вимкнено</string>
   <string name="pref_options_vibration_title">Вібро</string>
   <string name="pref_options_vibration_title_o">Вібрувати під час виклику</string>
-  <string name="pref_options_sounds_category_title">Сповіщення</string>
   <string name="pref_options_ringtones_category_title">Звуки</string>
   <string name="pref_options_ringtones_ringtone_title">Рингтон</string>
   <string name="pref_options_ringtones_text_title">Звук текстового повідомлення</string>
@@ -549,9 +406,6 @@
   <string name="pref_options_cursor_send_button_summary">Вимкнути надсилання з клавіатури.</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Пристрої</string>
-  <string name="pref_current_device_category_title">Поточний пристрій</string>
-  <string name="pref_other_devices_category_title">Активні пристрої</string>
-  <string name="pref_devices_summary">Торкніться, щоб видалити</string>
   <string name="pref_devices_current_device_category_title">Поточний пристрій</string>
   <string name="pref_devices_other_devices_category_title">Інші пристрої</string>
   <string name="pref_devices_device_activation_summary">Активований [[%1$s]]\n</string>
@@ -564,7 +418,6 @@
   <string name="pref_devices_device_fingerprint_category_title">Ідентифікатор</string>
   <string name="pref_devices_device_fingerprint_summary">Wire присвоює кожному пристроєві унікальний ідентифікатор. Порівняйте їх, щоб зверифікувати ваші пристрої та розмови.</string>
   <string name="pref_devices_device_actions_category_title">Дії</string>
-  <string name="pref_devices_device_trust_title">Верифікований</string>
   <string name="pref_devices_device_reset_session_title">Скидання сесії</string>
   <string name="pref_devices_device_reset_session_summary">Якщо ідентифікатори не збігаються, виконайте скидання сесії, щоб згенерувати нові ключі шифрування з обидвох сторін.</string>
   <string name="pref_devices_device_remove_title">Видалити пристрій</string>
@@ -575,8 +428,6 @@
   <string name="pref_advanced_screen_title">Розширені налаштування</string>
   <string name="pref_advanced_debug_report_title">Відправити звіт для відлагодження</string>
   <string name="pref_advanced_debug_report_summary">Це допоможе службі підтримки Wire діагностувати проблеми.</string>
-  <string name="pref_advanced_analytics_title">Статистика використання та збоїв</string>
-  <string name="pref_advanced_analytics_summary">Зробіть Wire кращим, відправляючи анонімну інформацію.</string>
   <string name="pref_advanced_reset_push_title">Оновити Push-токен для нотифікацій</string>
   <string name="pref_advanced_reset_push_summary">Якщо у вас виникли проблеми з push-сповіщеннями, команда підтримки Wire може попросити вас виконати скидання цього токену.</string>
   <string name="pref_advanced_reset_push_completed">Push-токен був оновлений</string>
@@ -626,80 +477,33 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Видалити</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Ви дійсно бажаєте видалити %s з вишого облікового запису в Wire?</string>
   <string name="pref__account_action__dialog__delete_phone__error">Не вдалося видалити номер телефону</string>
-  <string name="pref__account_action__dialog__delete_email__error">Не вдалося видалити адресу електронної пошти</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">Ви повинні бути онлайн, щоб видалити адресу електронної пошти</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Ви повинні бути онлайн, щоб видалити номер телефону</string>
-  <string name="pref__account_action__dialog__change_email__error__invalid_email">Введіть дійсний email</string>
   <string name="pref__account_action__dialog__change_email__title">Змінити email</string>
-  <string name="pref__account_action__dialog__change_username__summary">Використовуючи цей нік, люди зможуть знайти вас у Wire, не знаючи вашої електронної адреси або номеру телефону.</string>
   <string name="pref__account_action__dialog__change_username__rules">Мінімум 2 символи з множини a—z, 0—9, та _</string>
   <string name="pref__account_action__dialog__change_username__title">Нік</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">Уже зарезервований</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Помилка підключення. Будь ласка, спробуйте ще раз</string>
   <!-- No Internet connection -->
   <string name="system_status__no_internet">НЕМАЄ ІНТЕРНЕТУ</string>
-  <string name="system_status__no_server_connection">ПІДКЛЮЧЕННЯ&#8230;</string>
   <!-- SHARING -->
-  <string name="system_status__sharing">ВИБЕРІТЬ РОЗМОВУ</string>
   <string name="alert_dialog__confirmation">OK</string>
   <string name="alert_dialog__no_network__header">Немає з\'єднання з Інтернетом</string>
-  <string name="sign_up__no_internet__message">Ви повинні бути онлайн, щоб зареєструватись в Wire. Перевірте підключення та спробуйте ще раз.</string>
-  <string name="sign_in__no_internet__message">Ви повинні бути онлайн, щоб увійти в Wire. Перевірте підключення та спробуйте ще раз.</string>
-  <string name="sign_up__take_picture__back">Редагувати ім\'я</string>
-  <string name="sign_up__take_picture_dialog__gallery">Галерея</string>
-  <string name="sign_up__take_picture_dialog__camera">Камера</string>
-  <string name="sign_up__take_picture_dialog__message">Зробити нове фото або вибрати існуюче з галереї.</string>
-  <string name="sign_up__take_picture_dialog__title">Зробити фото</string>
   <string name="sign_up__set_picture__choose">Вибрати власне фото</string>
   <string name="sign_up__set_picture__keep">Залишити це</string>
   <string name="sign_up__set_picture__guidance">Wire виглядає краще з вашою фотографією.</string>
   <string name="sign_up__set_picture__loading">Завантаження фото</string>
-  <string name="rename_conversation__no_network__message">Ви повинні бути онлайн, щоб перейменувати розмову. Перевірте підключення та спробуйте ще раз.</string>
-  <string name="resend_message__no_network__message">Ви повинні бути онлайн, щоб надіслати повідомлення. Перевірте підключення та спробуйте ще раз.</string>
   <string name="leave_conversation_failed__message">Ви повинні бути онлайн, щоб вийти з розмови. Перевірте підключення та спробуйте ще раз.</string>
   <string name="remove_from_conversation__no_network__message">Ви повинні бути онлайн, щоб видаляти учасників з розмови. Перевірте підключення та спробуйте ще раз.</string>
   <string name="calling__call_drop__message">Ви повинні бути онлайн, щоб подзвонити. Перевірте підключення та спробуйте ще раз.</string>
-  <string name="profile_pic__no_network__message">Ви повинні бути онлайн, щоб змінити своє фото. Перевірте підключення та спробуйте ще раз.</string>
-  <string name="calling__voice_channel_full__title">Забагато людей в дзвінку</string>
-  <plurals name="calling__voice_channel_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Тут залишилось місце тільки для %1$d учасника.</item>
-    <item quantity="few">Тут залишилось місце тільки для %1$d учасників.</item>
-    <item quantity="many">Тут залишилось місце тільки для %1$d учасників.</item>
-    <item quantity="other">Тут залишилось місце тільки для %1$d учасників.</item>
-  </plurals>
-  <string name="calling__conversation_full__title">Забагато учасників для здійснення дзвінка</string>
-  <plurals name="calling__conversation_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Дзвінки можливі в розмовах до %1$d учасника.</item>
-    <item quantity="few">Дзвінки можливі в розмовах до %1$d учасників.</item>
-    <item quantity="many">Дзвінки можливі в розмовах до %1$d учасників.</item>
-    <item quantity="other">Дзвінки можливі в розмовах до %1$d учасників.</item>
-  </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Повідомлення</string>
   <string name="message_notifications_channel_description">Нотифікації для всіх типів повідомлень, включаючи текст, картинки, аудіо- та відеоповідомлення.</string>
   <string name="incoming_call_notifications_channel_name">Вхідні дзвінки</string>
-  <string name="incoming_call_notifications_channel_description">Нотифікації для вхідних дзвінків</string>
   <string name="ping_notifications_channel_name">Пінги</string>
   <string name="ping_notifications_channel_description">Нотифікації при отриманні пінгів</string>
   <string name="ongoing_channel_name">Фонові нотифікації</string>
   <string name="ongoing_channel_description">Нотифікації для активних процесів та інших подій, таких як дзвінки або збереження картинок</string>
   <string name="foreground_service_notification_name">Зберігати підключення до сервера</string>
   <string name="foreground_service_notification_description">Дана нотифікація необхідна для того, щоб зберігати підключення до серверу Wire активним під час того як Wire знаходиться в фоновому режимі без наявності сервісів Google Play.</string>
-  <string name="lockscreen__talk">ДЗВОНИТЬ</string>
-  <plurals name="notification__new_messages">
-    <item quantity="one">Повідомлення від %2$s</item>
-    <item quantity="few">%1$d повідомлення від %2$s</item>
-    <item quantity="many">%1$d повідомлень від %2$s</item>
-    <item quantity="other">%1$d повідомлень від %2$s</item>
-  </plurals>
-  <plurals name="notification__new_messages_groups">
-    <item quantity="one">Повідомлення в %2$s</item>
-    <item quantity="few">%1$d повідомлення в %2$s</item>
-    <item quantity="many">%1$d повідомлень в %2$s</item>
-    <item quantity="other">%1$d повідомлень в %2$s</item>
-  </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="one">Повідомлення в %2$s розмові</item>
     <item quantity="few">%1$d повідомлення в %2$s розмовах</item>
@@ -718,20 +522,11 @@
   <string name="notification__message__one_to_one__shared_video">Поділився(-лась) відео</string>
   <string name="notification__message__one_to_one__shared_audio">Поділився(-лась) аудіоповідомленням</string>
   <string name="notification__message__one_to_one__shared_location">Поділитись розташуванням</string>
-  <string name="notification__message__one_to_one__liked">\u2764 ваше повідомлення</string>
   <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s в %2$s \u0020</string>
-  <string name="notification__message__group__pinged">відправив(-ла) пінг</string>
-  <string name="notification__message__group__shared_picture">поділився(-лась) картинкою</string>
-  <string name="notification__message__group__shared_file">поділився(-лась) файлом</string>
-  <string name="notification__message__group__shared_video">поділився(-лась) відео</string>
-  <string name="notification__message__group__shared_audio">поділився(-лась) аудіоповідомленням</string>
-  <string name="notification__message__group__shared_location">поділився(-лась) розташуванням</string>
   <string name="notification__message__group__renamed_conversation">змінив(-лв) тему розмови на %1$s</string>
   <string name="notification__message__group__add">запросив(-ла) людей до розмови</string>
   <string name="notification__message__group__remove">видалив(-ла) учасників з розмови</string>
-  <string name="notification__message__generic__accept_request">У вас з\'явились нові контакти</string>
   <string name="notification__message__single__accept_request">%1$s тепер доданий(-а) до вашого списку контактів</string>
   <string name="notification__message__group__default_conversation_name">групова розмова</string>
   <string name="notification__message__send_failed">Не вдалося надіслати повідомлення</string>
@@ -740,10 +535,8 @@
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 ваше повідомлення</string>
   <string name="notification__message__liked_picture">\u2764 вашу картинку</string>
-  <string name="notification__message__liked_file">\u2764 ваш файл</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_someone">Хтось</string>
-  <string name="notification__message__ephemeral_details">Торкніться, щоб показати деталі</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Хтось надіслав вам повідомлення</item>
     <item quantity="few">Хтось надіслав вам %1$d повідомлення</item>
@@ -766,16 +559,9 @@
     <item quantity="other">%1$s інших</item>
   </plurals>
   <!-- System notifications -->
-  <string name="system_notification__group_call_title">%1$s в %2$s</string>
   <string name="system_notification__silence_call">Скасувати</string>
   <string name="system_notification__join_call">Прийняти</string>
   <string name="system_notification__leave_call">Завершити дзвінок</string>
-  <string name="system_notification__outgoing">Дзвонить</string>
-  <string name="system_notification__outgoing_video">Відеодзвінок</string>
-  <string name="system_notification__incoming">Дзвонить</string>
-  <string name="system_notification__incoming_video">дзвонить з відео</string>
-  <string name="system_notification__ongoing">Дзвонить</string>
-  <string name="number_of_conversations_string">АРХІВ</string>
   <string name="system_notification__calling_one">Дзвінок&#8230;</string>
   <string name="system_notification__calling_group">%1$s дзвонить&#8230;</string>
   <string name="system_notification__video_calling_one">Дзвонить з відео&#8230;</string>
@@ -797,7 +583,6 @@
   <string name="notification__image_saving__action__share">Поділитись</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
   <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <string name="notification__file_saving__content__title">Wire-файл збережено.</string>
   <!-- forced update -->
   <string name="forced_update__header">Важливе оновлення</string>
   <string name="forced_update__sub_header">Будь ласка, встановіть останню версію Wire.</string>
@@ -805,19 +590,9 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Sharing -->
   <string name="sharing__image_preview__confirm_action">НАДІСЛАТИ</string>
-  <string name="sharing__image_preview__title__single">ВІДПРАВЛЕННЯ 1 КАРТИНКИ ДО\n_%1$s_</string>
-  <string name="sharing__image_preview__title__multiple">ВІДПРАВЛЕННЯ %1$s КАРТИНОК ДО\n_%2$s_</string>
   <string name="sharing__user_not_logged_in__dialog__title">Будь ласка, авторизуйтесь</string>
   <string name="sharing__user_not_logged_in__dialog__message">Відкрийте Wire та авторизуйтесь, щоб поділитись.</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
-  <string name="sharing__files__ok">Поділитись</string>
-  <string name="sharing__files__cancel">Скасувати</string>
-  <plurals name="sharing__files__message">
-    <item quantity="one">Ви збираєтесь поділитись %1$d файлом з %2$s.</item>
-    <item quantity="few">Ви збираєтесь поділитись %1$d файлами з %2$s.</item>
-    <item quantity="many">Ви збираєтесь поділитись %1$d файлами з %2$s.</item>
-    <item quantity="other">Ви збираєтесь поділитись %1$d файлами з %2$s.</item>
-  </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">Не вдалося створити</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">Не вдалося почати розмову з %1$s</string>
@@ -827,42 +602,11 @@
   <string name="in_app_notification__sync_error__create_convo__button">Продовжити</string>
   <!--Timestamp formatting -->
   <string name="timestamp__just_now">Щойно</string>
-  <string name="timestamp__a_minute_ago">Хвилину тому</string>
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="one">%1$d хвилину тому</item>
     <item quantity="few">%1$d хвилини тому</item>
     <item quantity="many">%1$d хвилин тому</item>
     <item quantity="other">%1$d хвилин тому</item>
-  </plurals>
-  <plurals name="timestamp__x_hours_ago">
-    <item quantity="one">%1$d годину тому</item>
-    <item quantity="few">%1$d години тому</item>
-    <item quantity="many">%1$d годин тому</item>
-    <item quantity="other">%1$d годин тому</item>
-  </plurals>
-  <plurals name="timestamp__x_days_ago">
-    <item quantity="one">%1$d день тому</item>
-    <item quantity="few">%1$d дні тому</item>
-    <item quantity="many">%1$d днів тому</item>
-    <item quantity="other">%1$d днів тому</item>
-  </plurals>
-  <plurals name="timestamp__x_weeks_ago">
-    <item quantity="one">%1$d тиждень тому</item>
-    <item quantity="few">%1$d тижні тому</item>
-    <item quantity="many">%1$d тижнів тому</item>
-    <item quantity="other">%1$d тижнів тому</item>
-  </plurals>
-  <plurals name="timestamp__x_months_ago">
-    <item quantity="one">%1$d місяць тому</item>
-    <item quantity="few">%1$d місяці тому</item>
-    <item quantity="many">%1$d місяців тому</item>
-    <item quantity="other">%1$d місяців тому</item>
-  </plurals>
-  <plurals name="timestamp__x_years_ago">
-    <item quantity="one">%1$d рік тому</item>
-    <item quantity="few">%1$d роки тому</item>
-    <item quantity="many">%1$d років тому</item>
-    <item quantity="other">%1$d років тому</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -874,25 +618,17 @@
   <!-- Example: MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year_no_weekday">d MMM, YYYY, %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- MONDAY -->
-  <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MARCH 2 -->
-  <string name="timestamp_pattern__separator_header__this_year">d MMMM</string>
   <!-- MARCH 2, 2015 -->
-  <string name="timestamp_pattern__separator_header__last_year">d MMMM, YYYY</string>
-  <string name="timestamp_pattern__separator_header__today">Сьогодні</string>
-  <string name="timestamp_pattern__separator_header__yesterday">Вчора</string>
   <!-- 23:15 -->
   <string name="timestamp_pattern__24h_format">HH:mm</string>
   <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="reg__phone_alert__button">OK</string>
   <string name="country">Країна</string>
   <string name="register">Зареєструватися</string>
   <string name="password_placeholder">Пароль</string>
   <string name="email_placeholder">Email</string>
   <string name="name_placeholder">Ім’я</string>
-  <string name="registration_back">Назад</string>
   <!-- Strings -->
   <string name="edit_phone_number">РЕДАГУВАТИ НОМЕР ТЕЛЕФОНУ</string>
   <string name="i_have_an_account">УВІЙТИ</string>
@@ -907,10 +643,8 @@
   <string name="activation_code_info_manual">Введіть код підтвердження, який ми надіслали на \n&lt;b&gt;%s&lt;/b&gt;</string>
   <string name="enter_name">Як ми можемо до Вас звертатися?</string>
   <string name="enter_name_hint">Введіть повне ім\'я</string>
-  <string name="set_a_picture">Виберіть фото</string>
   <string name="new_reg__password__forgot">Забули пароль?</string>
   <string name="phone_sign_in">Номер телефону</string>
-  <string name="go_to_register">Створити акаунт</string>
   <string name="email_sign_in">Email</string>
   <string name="edit_email">Змінити email</string>
   <string name="hello">Привіт, &lt;b&gt;%s&lt;/b&gt;</string>
@@ -919,8 +653,6 @@
   <string name="username__set__toast_error">Помилка оновлення ніка</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Пошук Giphy</string>
-  <string name="giphy_preview__title_search">#%s</string>
-  <string name="giphy_preview__title_random">ВИПАДКОВА</string>
   <string name="giphy_preview__error">ГІФОК НЕ ЗНАЙДЕНО.</string>
   <string name="giphy_preview__message_via_random_trending">Через giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · через giphy.com</string>
@@ -928,7 +660,6 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">ТОРКНІТЬСЯ КОЛЬОРУ, ЩОБ ЗМІНИТИ РОЗМІР ПЕНЗЛЯ.\n\nПОТРУСІТЬ ДЛЯ ВИДАЛЕННЯ ФОНОВОЇ КАРТИНКИ.</string>
   <string name="drawing__tip__message">ТОРКНІТЬСЯ КОЛЬОРУ, ЩОБ ЗМІНИТИ РОЗМІР ПЕНЗЛЯ.\n\nТОРКНІТЬСЯ ТА УТРИМУЙТЕ, ЩОБ ЗАФАРБУВАТИ ФОН.</string>
-  <string name="add_a_sketch">Додати зарисовку</string>
   <string name="sketch__emoji_keyboard__size_label__small">МАЛІ</string>
   <string name="sketch__emoji_keyboard__size_label__medium">СЕРЕДНІ</string>
   <string name="sketch__emoji_keyboard__size_label__large">ВЕЛИКІ</string>
@@ -952,8 +683,6 @@
   <string name="otr__remove_device__button_delete">OK</string>
   <string name="otr__remove_device__button_cancel">Скасувати</string>
   <string name="otr__remove_device__error">Невірний пароль</string>
-  <string name="otr__remove_device__button_approve">OK</string>
-  <string name="otr__remove_device__button_remove">Видалити</string>
   <string name="otr__error_dialog__cannot_register__message">Видаліть один з ваших пристроїв, щоб почати використовувати Wire на цьому.</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Керування пристроями</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Вийти</string>
@@ -977,32 +706,18 @@
   <string name="otr__first_launch__header">Це перший раз, коли ви використовуєте Wire на цьому пристрої.</string>
   <string name="otr__first_launch__sub_header">З міркувань конфіденційності, історія ваших розмов тут не показується.</string>
   <string name="otr__first_launch__button">OK</string>
-  <string name="otr__device_approve__header">Ви під\'єднали пристрій до акаунту Wire.</string>
-  <string name="otr__device_approve__note">Якщо ви не робили цього, видаліть пристрій і змініть пароль.</string>
   <string name="otr__signin__info_text">Увійти</string>
   <string name="otr__reset_session__message_ok">Сесія була скинута</string>
   <string name="otr__reset_session__message_fail">Не вдалося виконати скидання сесії</string>
   <string name="otr__reset_session__button_ok">OK</string>
   <string name="otr__reset_session__button_fail">Спробувати ще раз</string>
-  <string name="otr__remove_device__no_internet__title">Немає Інтернету</string>
-  <string name="otr__remove_device__no_internet__message">Спробуйте видалити пристрій, коли будете знову онлайн.</string>
-  <string name="otr__remove_device__no_internet__button">OK</string>
-  <string name="otr__device_inbox__header">Ваш акаунт використовується на:</string>
-  <string name="otr__device_inbox__name">Від: [[%s]]</string>
   <string name="advanced_image_download_wifi_info">Картинка з\'явиться, щойно ви підключитесь до мережі Wi-Fi</string>
   <string name="change_settings">Змінити налаштування</string>
-  <string name="single_image__save_to_disk__error">Не вдається зберегти картинку. Відсутній доступ до зовнішнього накопичувача</string>
-  <string name="conversation_list__label_action__contacts">УЧАСНИКИ</string>
-  <string name="conversation_list__hint_header">Розмови починаються тут</string>
-  <string name="conversation_list__hint_text">Розпочніть розмову. Дзвінки, повідомлення та обмін даними приватно або в групах.</string>
   <string name="conversation_list__action_join_call">ПРИЄДНАТИСЯ</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Колекція</string>
   <string name="conversation_toolbar__call_video">Відеодзвінок</string>
   <string name="conversation_toolbar__call_audio">Аудіодзвінок</string>
-  <string name="conversation_toolbar__delete">Видалити</string>
-  <string name="conversation_toolbar__copy">Скопіювати</string>
-  <string name="conversation_toolbar__fwd">Поділитись</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Файл не знайдено</string>
   <string name="asset_upload_error__not_found__message">Не вдалося знайти вказаний файл</string>
@@ -1014,17 +729,8 @@
   <string name="asset_upload_warning__large_file__title">Ви не в мережі Wi-Fi</string>
   <string name="asset_upload_warning__large_file__message_default">Ви дійсно хочете надіслати великий файл через мобільну мережу?</string>
   <string name="asset_upload_warning__large_file__message">Ви дійсно хочете надіслати %1$s через мобільну мережу?</string>
-  <string name="asset_upload_warning__large_file__button_accept">OK</string>
-  <string name="asset_upload_warning__large_file__button_cancel">Скасувати</string>
   <!-- Video message errors -->
-  <string name="video_message_error__too_big__title">Відео завелике</string>
-  <string name="video_message_error__too_big__message">Ви можете надсилати відео до 25 МБ.</string>
-  <string name="video_message_error__title">Помилка відео</string>
-  <string name="video_message_error__message">Не вдалося обробити файл відео</string>
-  <string name="video_message_error__button">OK</string>
-  <string name="video_message_error__missing_camera_permissions">Дозвольте доступ до камери та мультимедійних файлів, щоб надсилати відеоповідомлення.</string>
   <string name="audio_message_error__missing_audio_permissions">Дозвольте доступ до записування звуку, щоб надсилати аудіоповідомлення.</string>
-  <string name="audio_message_error__generic">Не вдалося відтворити аудіо</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">СТАЛИЙ БІТРЕЙТ</string>
   <!-- no contacts -->
@@ -1044,7 +750,6 @@
   <string name="tooltip_file">Відправити файл</string>
   <string name="tooltip_gif">Gif</string>
   <string name="tooltip_mention">Додати згадку</string>
-  <string name="new_feature">Нове</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Видалити тільки для мене?</string>
   <string name="conversation__message_action__delete_for_everyone">Видалити для всіх?</string>
@@ -1058,9 +763,6 @@
   <string name="conversation__action_mode__fwd__dialog__message">Будь ласка, зачекайте&#8230;</string>
   <string name="conversation__action_mode__fwd__chooser__title">Поділитися з</string>
   <!-- video message preview -->
-  <string name="video_message__preview__header">Надіслати %1$s</string>
-  <string name="video_message__quick_menu__send_label">Надіслати</string>
-  <string name="video_message__preview__compressing">КОМПРЕСІЯ&#8230;</string>
   <string name="audio_message__recording__slide_control__slide_hint">ПРОВЕДІТЬ ВГОРУ ДЛЯ НАДСИЛАННЯ</string>
   <string name="audio_message__recording__slide_control__tap_hint">ТОРКНІТЬСЯ, ЩОБ НАДІСЛАТИ</string>
   <string name="audio_message__recording__tap_to_record">Торкніться тут, щоб почати запис\nВи зможете _GLYPH_ після цього</string>
@@ -1080,7 +782,6 @@
   <string name="message_bottom_menu_action_delete">Видалити</string>
   <string name="message_bottom_menu_action_delete_local">Видалити для мене</string>
   <string name="message_bottom_menu_action_delete_global">Видалити для всіх</string>
-  <string name="message_bottom_menu_action_forward_multiple">Поділитися з декількома</string>
   <string name="message_bottom_menu_action_reveal">Показати в розмові</string>
   <string name="likes_list__header">Сподобалося</string>
   <string name="message_bottom_menu_action_save_ok">Картинка збережена</string>
@@ -1100,7 +801,6 @@
   <string name="usernames__take_over__summary">Виберіть собі Wire-нік. _Дізнатися більше._</string>
   <string name="usernames__take_over__choose">ВИБРАТИ ВЛАСНИЙ</string>
   <string name="usernames__take_over__keep">ВИКОРИСТОВУВАТИ ЦЕЙ</string>
-  <string name="pref_account_username_empty_title">Додати нік</string>
   <string name="ephemeral_message__timeout__off">Вимк.</string>
   <string name="ephemeral_message__options_header">ТИМЧАСОВІ ПОВІДОМЛЕННЯ</string>
   <string name="guests_option_on">Увімк.</string>
@@ -1142,17 +842,14 @@
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">Залишилось %1$s та %2$s</string>
   <string name="ephemeral_message_footer_single_unit">Залишилось %1$s</string>
-  <string name="collection_header_all">КОЛЕКЦІЯ</string>
   <string name="collection_header_pictures">КАРТИНКИ</string>
   <string name="collection_header_files">ФАЙЛИ</string>
   <string name="collection_header_links">ПОСИЛАННЯ</string>
   <string name="collection_header_today">СЬОГОДНІ</string>
   <string name="collection_header_yesterday">ВЧОРА</string>
   <string name="collection_empty">КОЛЕКЦІЯ ПОРОЖНЯ</string>
-  <string name="collection_send_to">Надіслати до&#8230;</string>
   <string name="collection_all">Показати всі %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">Помилка надсилання</string>
   <string name="multi_share_search_hint">НАДІСЛАТИ ДО&#8230;</string>
   <string name="search__box__hint_text">ПОШУК ТЕКСТОВИХ ПОВІДОМЛЕНЬ</string>
   <string name="search__no_results">Нікого не знайдено.</string>
@@ -1205,11 +902,8 @@
   <string name="conversation_list__someone">Хтось</string>
   <string name="conversation_list__added">[[%1$s]] був(-ла) доданий(-а)</string>
   <string name="conversation_list__added_you">[[%1$s]] додав(-ла) вас</string>
-  <string name="conversation_list__left">[[%1$s]] вийшов(-ла)</string>
   <string name="conversation_list__left_you">Ви вийшли</string>
   <string name="conversation_list__removed_you">[[%1$s]] видалив(-ла) вас</string>
-  <string name="conversation_list__removed">[[%1$s]] був(-ла) видалений(-а)</string>
-  <string name="conversation_list__empty_conv__subtitle">Всі вийшли</string>
   <string name="conversation_list__header__title">РОЗМОВИ</string>
   <string name="conversation_list__header__archive_title">АРХІВ</string>
   <string name="guest_indicator">ГІСТЬ</string>
@@ -1247,7 +941,6 @@
   <string name="teams_verify_email_change">ЗМІНИТИ EMAIL</string>
   <string name="teams_set_name_title">Ваше ім’я</string>
   <string name="teams_set_name_hint">ПОВНЕ ІМ\'Я</string>
-  <string name="app_entry_slogan">Безпечний обмін повідомленнями для всіх.</string>
   <string name="app_entry_create_account">Персональний акаунт</string>
   <string name="app_entry_create_account_sub">створити акаунт</string>
   <string name="app_entry_create_team">Pro акаунт</string>
@@ -1274,17 +967,12 @@
   <string name="teams_invitations_skip">ПРОПУСТИТИ</string>
   <string name="teams_invitations_done">ГОТОВО</string>
   <string name="teams_invitations_error_too_many">Вже було надіслано максимальну кількість запрошень</string>
-  <string name="teams_invitations_error_blacklisted_email">Дану електронну адресу було внесено в чорний список через проблеми з доставкою або скаргу.</string>
-  <string name="teams_invitations_error_no_identity">Користувач ще не підтвердив свої дані (емейл або номер телефону).</string>
-  <string name="teams_invitations_error_no_email">Ця операція потребує, щоб користувач верифікував свою електронну адресу.</string>
   <string name="teams_invitations_error_already_sent">Вже надіслано</string>
   <string name="teams_invitations_error_generic">Щось пішло не так. Будь ласка, спробуй ще раз</string>
   <string name="teams_invite_email_hint">КОЛЕГА@ВАШАКОМПАНІЯ.COM</string>
   <string name="teams_invitations_error_invalid_email">БУДЬ ЛАСКА, ВВЕДІТЬ ПРАВИЛЬНУ ЕЛЕКТРОННУ АДРЕСУ</string>
   <string name="teams_invitations_error_email_exists">ЦЯ АДРЕСА ЕЛЕКТРОННОЇ ПОШТИ ВЖЕ ВИКОРИСТОВУЄТЬСЯ</string>
-  <string name="teams_invitations_error_email_exists_more">ДІЗНАТИСЯ БІЛЬШЕ</string>
   <string name="teams_invitations_error_no_internet">З\'ЄДНАННЯ З ІНТЕРНЕТОМ ВІДСУТНЄ</string>
-  <string name="team_invitation_add_from_address_book">ДОДАТИ ІЗ АДРЕСНОЇ КНИГИ</string>
   <string name="invitation_screen_title">Створіть свою власну команду</string>
   <string name="invitation_screen_subtitle">Запросіть ваших колег приєднатися до команди.</string>
   <string name="open_service_conversation_button_text">Відкрити розмову</string>
@@ -1305,7 +993,6 @@
   <string name="add_participants_count_header">ДОДАТИ УЧАСНИКІВ (%1$s)</string>
   <string name="new_conv_no_results">Нічого не знайдено</string>
   <string name="new_conv_no_contacts">Учасники відсутні</string>
-  <string name="create_group_search">ПОШУК ЗА ІМЕНЕМ</string>
   <string name="participants_divider_services">СЕРВІСИ (%1$s)</string>
   <string name="participants_divider_people">УЧАСНИКИ (%1$s)</string>
   <string name="group_name_hint">ІМ\'Я ГРУПОВОЇ РОЗМОВИ</string>
@@ -1372,7 +1059,6 @@
   <string name="video_paused">Відео призупинене</string>
   <string name="calling_degraded_title">Новий пристрій</string>
   <string name="call_info_text">До цієї розмови може прєднатись не більше 300 учасників. Відеодзвінки будуть працювати тільки в розмовах. що містять до чотирьох учасників.</string>
-  <string name="too_many_people_video_toast">Відеодзвінки працюють тільки в групах з 4-ма або менше учасниками.</string>
   <string name="markdown_link_dialog_title">Перейдіть за лінком</string>
   <string name="markdown_link_dialog_message">Це перенаправить вас на\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>

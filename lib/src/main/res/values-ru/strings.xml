@@ -27,7 +27,6 @@
   <string name="internet_connectivity_error_message">Проверьте подключение к интернету и повторите попытку</string>
   <string name="too_many_attempts_header">Слишком много попыток</string>
   <string name="login_later_message">Попробуйте войти позже</string>
-  <string name="register_again_message">Попробуйте зарегистрироваться еще раз</string>
   <string name="email_exists_header">Такой email уже используется</string>
   <string name="email_exists_message">Данный адрес email уже зарегистрирован</string>
   <string name="email_invalid_header">Недопустимый адрес email</string>
@@ -45,8 +44,6 @@
   <string name="wrong_code_message">Пожалуйста, введите правильный код</string>
   <string name="phone_pending_login_header">Код уже отправлен</string>
   <string name="phone_pending_login_message">Мы уже отправили вам код в SMS. Для получения нового кода нажмите \'Отправить повторно\' через 10 минут.</string>
-  <string name="password_invalid_header">Неверный пароль</string>
-  <string name="password_invalid_message">Проверьте свои данные и повторите попытку</string>
   <string name="phone_budget_exhausted_header">Слишком много запросов</string>
   <string name="phone_budget_exhausted_message">Пожалуйста, повторите попытку позже.</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -71,48 +68,16 @@
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">Ваш номер телефона</string>
   <!-- Receive email/sms invitation -->
-  <string name="invitation_email__normal_phone_signup_button">Зарегистрироваться по номеру телефона</string>
-  <string name="invitation_email__normal_email_signup_button">Зарегистрироваться, используя другой email</string>
-  <string name="invitation_email__password_placeholder">Пароль (мин %1$s символов)</string>
-  <string name="invitation_email__welcome_header">Привет, %1$s.</string>
-  <string name="invitation_email__welcome_message">Выберите пароль для создания аккаунта.</string>
-  <string name="invitation__continue_button">Продолжить</string>
-  <string name="invitation_phone__normal_phone_signup_button">Использование другого телефона</string>
-  <string name="invitation_phone__normal_email_signup_button">Зарегистрироваться с помощью email</string>
-  <string name="invitation_phone__welcome_header">Привет, %1$s.</string>
-  <string name="invitation_phone__welcome_message">Вы в одном шаге от создания аккаунта.</string>
-  <string name="invitation__phone__failed">Не удалось зарегистрироваться по этому приглашению.</string>
-  <string name="invitation__email__failed">Не удалось зарегистрироваться по этому приглашению.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 ПОИСК</string>
   <string name="pick_user_search_hint">ПОИСК</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 ПОИСК</string>
   <string name="choose_conversation">ПОИСК</string>
   <string name="people_picker__top_users_header_title">Топ-контакты</string>
-  <string name="people_picker__address_book_matches_title">Добавить в контакты</string>
   <string name="people_picker__search_result_conversations_header_title">Группы</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s групп</string>
   <string name="people_picker__search_result_connections_header_title">Контакты</string>
   <string name="people_picker__search_result_others_header_title">Добавить в контакты</string>
-  <string name="people_picker__search_result_recommended_header_title">Рекомендуется</string>
-  <string name="people_picker__search_result_contacts_header_title">Контакты</string>
-  <string name="people_picker__search_result_team_members_header_title">Члены команды</string>
-  <string name="people_picker__invite_header_title">Пригласить</string>
-  <string name="people_picker__confirm_button_title">Создать разговор</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">Добавить пользователей в группу</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Создать группу</string>
-  <string name="people_picker__error_message__no_results">Совпадений не найдено.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts">Найти людей по имени или email</string>
-  <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Пожалуйста, введите правильный email или</string>
-  <string name="people_picker__error_message__no_results__shared_contacts__add_to_conversation">Введите другое имя.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts__add_to_conversation">Введите другое имя.</string>
-  <string name="people_picker__error_message__no_results__send_invite">отправить\nприглашение</string>
-  <string name="people_picker__error_message__no_users_to_add_to_conversation">Все ваши контакты уже находятся в этой группе.</string>
-  <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Мы не смогли найти никого из ваших знакомых в Wire. Пожалуйста, введите полное имя или email.</string>
-  <string name="people_picker__toolbar_header__group">Добавить людей</string>
-  <string name="people_picker__toolbar_header__one_to_one">Создание группы</string>
   <string name="people_picker__search_result__expander_title">Показать все %1$s ↓</string>
-  <string name="people_picker__guest_label">Гость</string>
   <string name="people_picker__search_people">УЧАСТНИКИ</string>
   <string name="people_picker__search_services">СЕРВИСЫ</string>
   <string name="receive_news_and_offers_request_title">Новости</string>
@@ -123,9 +88,6 @@
   <string name="crashes_and_analytics_request_agree">Принимаю</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Службы</string>
-  <string name="integrations_picker__add">Добавить службу</string>
-  <string name="integrations_conv_bot">Бот</string>
-  <string name="integrations_chathead__section_title">Службы</string>
   <string name="integrations_errors_add_service">Добавление службы невозможно</string>
   <string name="integrations_errors_service_unavailable">В данный момент служба недоступна</string>
   <string name="conversation_errors_full">Разговор переполнен</string>
@@ -135,50 +97,18 @@
   <string name="people_picker__share_contacts__yay">Разрешить</string>
   <string name="people_picker__share_contacts__nah">Отказать</string>
   <string name="people_picker__share_contacts__nevvah">Больше не спрашивать</string>
-  <!-- People you may know -->
-  <string name="people_picker__recommended__common_connections__one">Знаком с %1$s</string>
-  <string name="people_picker__recommended__common_connections__two">Знаком с %1$s и %2$s</string>
-  <plurals name="people_picker__recommended__common_connections__more">
-    <item quantity="one">Знаком с %1$s и еще с %2$d-им</item>
-    <item quantity="few">Знаком с %1$s и еще с %2$d-мя другими</item>
-    <item quantity="many">Знаком с %1$s и еще с %2$d-ю другими</item>
-    <item quantity="other">Знаком с %1$s и еще с %2$d-ю другими</item>
-  </plurals>
-  <string name="people_picker__recommended__common_connections__hide">СКРЫТЬ</string>
   <!-- Invite -->
-  <string name="people_picker__invite__share_details_label">Отправить приглашение</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Расскажите своим друзьям о Wire.</string>
   <string name="people_picker__invite__share_text__header">%1$s хочет добавиться в Wire</string>
   <string name="people_picker__invite__share_text__body">Я использую Wire. Ищите меня там по имени %1$s или посетите сайт get.wire.com</string>
-  <string name="people_picker__invite__message">Привет,\nспасибо за приглашение. Давай общаться!\n%1$s</string>
-  <string name="people_picker__invite__sent_feedback">Приглашение отправлено</string>
-  <string name="people_picker__contact_list__user_selection_button__label">ОТКРЫТЬ</string>
-  <string name="people_picker__contact_list__user_adding_button__label">ДОБАВИТЬ</string>
-  <string name="people_picker__contact_list__contact_selection_button__label">Пригласить</string>
-  <string name="people_picker__contact_list__invite_dialog__title">Отправить приглашение</string>
-  <string name="people_picker__contact_list__searchbox__hint">\u0020 ПОИСК ПО ИМЕНИ</string>
-  <string name="people_picker__generic_invite_button_text">Пригласите людей в Wire</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="one">%1$d общий знакомый</item>
-    <item quantity="few">%1$d общих знакомых</item>
-    <item quantity="many">%1$d общих знакомых</item>
-    <item quantity="other">%1$d общих знакомых</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s в контактах</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">в контактах</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">ОТКРЫТЬ</string>
-  <string name="conversation_quick_menu__conversation_button__group_label">Создать группу</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_joined">[[%1$s]] присоединился</string>
   <string name="content__system__you_joined">[[You]] вошли</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] переименовал разговор</string>
   <string name="content__system__you_renamed_conv">[[You]] переименовал разговор</string>
-  <string name="content__system__message_deleted">Это сообщение было удалено</string>
-  <string name="content_system_message_timestamp_failure">Неотправленное сообщение.</string>
-  <string name="content_system_message_timestamp_pending">Отправка\u2026</string>
-  <string name="content_system_message_timestamp_deleted">Удалено %1$s</string>
   <!-- Add people -->
   <string name="content__system__someone_added_people">[[%1$s]] добавил в разговор %2$s</string>
   <plurals name="content__system__someone_added_people_with_others">
@@ -188,7 +118,6 @@
     <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
   </plurals>
   <string name="content__system__someone_added_you">[[%1$s]] добавил вас в разговор</string>
-  <string name="content__system__someone_added_people_and_you">[[%1$s]] добавил в разговор вас и %2$s</string>
   <plurals name="content__system__someone_added_people_and_you_with_others">
     <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
     <item quantity="few">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
@@ -211,8 +140,6 @@
   <!-- Create conversation -->
   <string name="content__system__you_started_conversation">Вы начали разговор</string>
   <string name="content__system__other_started_conversation">%1$s начал разговор</string>
-  <string name="content__system__you_started_one">[[Вы]] начали разговор с %2$s</string>
-  <string name="content__system__other_started_one">[[%1$s]] начал(-а) разговор с вами</string>
   <string name="content__system__with_you_only">с вами</string>
   <string name="content__system__with_list_only">с %1$s</string>
   <plurals name="content__system__with_others_only">
@@ -234,8 +161,6 @@
   <string name="content__you_pinged">[[ВЫ]] ОТПРАВИЛИ ПИНГ</string>
   <string name="content__xxx_pinged">[[%1$s]] ОТПРАВИЛ(-А) ПИНГ</string>
   <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__conversation_verified">Проверенный разговор</string>
-  <string name="content__otr__conversation_unverified">Непроверенный разговор</string>
   <string name="content__otr__message_error">СООБЩЕНИЕ ОТ [[%1$s]] ПОЛУЧЕНО НЕ БЫЛО. _ПОЧЕМУ? _</string>
   <string name="content__otr__message_error_you">СООБЩЕНИЕ ОТ ВАС ПОЛУЧЕНО НЕ БЫЛО. _ПОЧЕМУ? _</string>
   <string name="content__otr__identity_changed_error">ИДЕНТИФИКАТОР УСТРОЙСТВА [[%1$s]] ИЗМЕНИЛСЯ. СООБЩЕНИЕ НЕ ДОСТАВЛЕНО. _УЗНАТЬ БОЛЬШЕ_</string>
@@ -271,13 +196,11 @@
   <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · ОШИБКА ЗАГРУЗКИ</string>
   <string name="content__file__action__open">ОТКРЫТЬ</string>
   <string name="content__file__action__save">СОХРАНИТЬ</string>
-  <string name="content__file__action__share">ПОДЕЛИТЬСЯ</string>
   <string name="content__file__action__open__no_app_found">Не найдено приложение для открытия файлов этого типа</string>
   <string name="content__file__action__save_completed">Файл успешно сохранен</string>
   <string name="content__file__action__save_error">Невозможно сохранить файл</string>
   <string name="content__location__no_map_placeholder">МЕСТОПОЛОЖЕНИЕ БУДЕТ ОТОБРАЖЕНО НА КАРТЕ, КОГДА ВЫ ВНОВЬ БУДЕТЕ ОНЛАЙН.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">Переименовать</string>
   <string name="conversation__action__delete">Удалить контент&#8230;</string>
   <string name="conversation__action__archive">Архивировать</string>
   <string name="conversation__action__unarchive">Разархивировать</string>
@@ -287,7 +210,6 @@
   <string name="conversation__action__silence">Отключить уведомления</string>
   <string name="conversation__action__unsilence">Включить уведомления</string>
   <string name="conversation__action__leave">Покинуть группу&#8230;</string>
-  <string name="conversation__action__remove">Удалить</string>
   <string name="conversation__action__call">Позвонить</string>
   <string name="conversation__action__picture">Изображение</string>
   <string name="conversation__action__block">Блокировка&#8230;</string>
@@ -301,10 +223,6 @@
   <string name="conversation__action__notifications_nothing">Ничего</string>
   <string name="conversation__action__notifications_title">Уведомлять меня о:</string>
   <!-- Conversation: Profile Popover -->
-  <string name="popover__action__open">ОТКРЫТЬ</string>
-  <string name="popover__action__remove">УДАЛИТЬ</string>
-  <string name="popover__action__block">ЗАБЛОКИРОВАТЬ</string>
-  <string name="popover__action__profile">ПРОФИЛЬ</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Медленный интернет</string>
   <string name="calling__slow_connection__message">Ваше Интернет-соединение слишком медленное, чтобы позвонить прямо сейчас. Пожалуйста, попробуйте немного позже.</string>
@@ -313,19 +231,12 @@
   <string name="calling__cannot_start__no_permission__message">Перейдите в Настройки и разрешите Wire доступ к микрофону.</string>
   <string name="calling__cannot_start__cancel__message">ОТМЕНА</string>
   <string name="calling__cannot_start__no_camera_permission__message">Wire необходим доступ к камере</string>
-  <string name="calling__cannot_start__ongoing_different_kind__title">%1$s занят</string>
-  <string name="calling__cannot_start__ongoing_different_kind__message">Попробуйте позже</string>
-  <string name="calling__cannot_start__button_settings">НАСТРОЙКИ</string>
   <string name="calling__video_call__slow_connection__message">Могут возникнуть проблемы во время звонка</string>
-  <string name="incoming__controls__incoming__decline">Отклонить</string>
-  <string name="incoming__controls__incoming__accept">Принять</string>
-  <string name="incoming__controls__ongoing__hangup">ПОВЕСИТЬ ТРУБКУ</string>
   <string name="incoming__controls__ongoing__speaker">ДИНАМИК</string>
   <string name="incoming__controls__ongoing__mute">МИКРОФОН</string>
   <string name="incoming__controls__ongoing__video">Видео</string>
   <string name="incoming__controls__ongoing__flip">ПЕРЕКЛЮЧИТЬ</string>
   <string name="ongoing__poor_connection_message">ВИДЕО ОСТАНОВЛЕНО ИЗ-ЗА ПЛОХОГО СОЕДИНЕНИЯ</string>
-  <string name="calling__self_preview_unavailable">ВИДЕО ВЫКЛЮЧЕНО</string>
   <string name="calling__self_preview_unavailable_long">КАМЕРА НЕ ДОСТУПНА</string>
   <string name="calling__header__joining">Подключение&#8230;</string>
   <string name="calling__header__outgoing_subtitle">Звонит&#8230;</string>
@@ -352,12 +263,6 @@
   <string name="group_calling_confirm">Позвонить</string>
   <!-- Connect request -->
   <string name="connect__message">Привет %1$s,\nДавай общаться в Wire.\n%2$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="one">%1$d общий знакомый</item>
-    <item quantity="few">%1$d общих знакомых</item>
-    <item quantity="many">%1$d общих знакомых</item>
-    <item quantity="other">%1$d общих знакомых</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">Ожидает подтверждения</string>
   <string name="connect_request__cancel_request__label">ОТМЕНИТЬ ЗАПРОС НА ПОДКЛЮЧЕНИЕ</string>
   <string name="connect_request__unblock__button__text">Разблокировать</string>
@@ -386,8 +291,6 @@
     <item quantity="many">Вы все еще хотите отправить ваши сообщения?</item>
     <item quantity="other">Вы все еще хотите отправить ваши сообщения?</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Вы хотите принять звонок?</string>
-  <string name="conversation__degraded_confirmation__place_call">Вы действительно хотите позвонить?</string>
   <string name="conversation__degraded_confirmation__positive_action">Отправить</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Показать устройство</item>
@@ -397,29 +300,14 @@
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Показать ваши устройства</string>
   <string name="conversation_degraded_confirmation__header__you">Вы</string>
-  <!-- Profile and Participants -->
-  <plurals name="participants__sub_header_xx_people">
-    <item quantity="one">%1$d  УЧАСТНИК</item>
-    <item quantity="few">%1$d  УЧАСТНИКА</item>
-    <item quantity="many">%1$d УЧАСТНИКОВ</item>
-    <item quantity="other">%1$d  УЧАСТНИКОВ</item>
-  </plurals>
-  <string name="group_name">Имя группы</string>
   <!-- Picture selection confirmation -->
   <string name="confirmation_menu__confirm_done">OK</string>
   <string name="confirmation_menu__cancel">ОТМЕНА</string>
   <!-- ADD TO CONVERSATION offline -->
-  <string name="conversation__add_user__no_network__title">Отсутствует подключение к Интернету</string>
-  <string name="conversation__add_user__no_network__message">Вы должны быть онлайн, чтобы добавлять контакты. Мы попробуем еще раз, когда вы опять будете онлайн.</string>
-  <string name="conversation__add_user__no_network__button">OK</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <string name="conversation__create_group_conversation__no_network__title">Отсутствует подключение к Интернету</string>
-  <string name="conversation__create_group_conversation__no_network__message">Вы должны быть онлайн для начала разговора. Другие люди увидят ваши изменения, когда вы снова будете онлайн.</string>
-  <string name="conversation__create_group_conversation__no_network__button">OK</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">Покинуть разговор?</string>
   <string name="confirmation_menu__meta_remove_text">Вы больше не сможете отправлять и получать сообщения в этом разговоре.</string>
-  <string name="confirmation_menu__confirm_leave">ВЫЙТИ</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Remove from conversation dialogue -->
   <string name="confirmation_menu__header">Удалить?</string>
@@ -435,61 +323,31 @@
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Удалить содержимое?</string>
   <string name="confirmation_menu__meta_delete_text">Это очистит историю разговоров на всех ваших устройствах.</string>
-  <string name="confirmation_menu__confirm_delete">УДАЛИТЬ</string>
-  <string name="confirmation_menu__delete_conversation__checkbox__label">Также покинуть разговор</string>
   <!-- Rich media -->
   <string name="content__youtube__error__text">видео не найдено</string>
-  <string name="mediaplayer__artist__placeholder">Трек</string>
-  <string name="mediaplayer__artist__error">Трек недоступен</string>
   <string name="mediaplayer__message__onsoundcloud">в SoundCloud</string>
   <string name="mediaplayer__message__onspotify">в Spotify</string>
-  <string name="mediaplayer__spotify__hint">Подключить Spotify</string>
-  <string name="mediaplayer__open_external">Открыть в браузере</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">РАССКАЖИТЕ ДРУГИМ!</string>
-  <string name="content__invite_banner__subtitle">Добавьте людей или поделитесь ссылкой на этот разговор.</string>
-  <string name="content__invite_banner__howto_link">Как это работает?</string>
-  <string name="content__invite_banner__button_label">Добавить людей в этот разговор</string>
   <!-- Self profile -->
-  <string name="self_name">Ваше полное имя</string>
-  <string name="self_add_email">Добавить email \u0026 пароль</string>
-  <string name="self_verify_email">Подтвердить email</string>
-  <string name="self_add_phone">Добавить номер телефона</string>
-  <string name="self_verify_phone">Подтвердить номер телефона</string>
   <!-- Options and settings -->
   <string name="settings_title">Настройки</string>
   <!-- Options menu -->
-  <string name="menu_settings">НАСТРОЙКИ</string>
-  <string name="menu_avs_settings">НАСТРОЙКИ AVS</string>
-  <string name="menu_about">О WIRE</string>
-  <string name="menu_tutorial">РУКОВОДСТВО</string>
-  <string name="menu_help">ПОМОЩЬ</string>
-  <string name="menu_logout">ВЫХОД</string>
   <!-- Manage Team -->
   <string name="pref_manage_team_title">Управлять командой</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">Политика конфиденциальности</string>
-  <string name="about_third_party_licences">Лицензии</string>
-  <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">Условия использования</string>
-  <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Настройки</string>
   <string name="pref_developer_screen_title">Настройки разработчика</string>
   <string name="pref_dev_avs_screen_title">Настройки AVS</string>
   <string name="pref_profile_screen_title">Профиль</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Аккаунт</string>
-  <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Имя</string>
   <string name="pref_account_edit_name_title">Изменить имя</string>
   <string name="pref_account_details_category_title">Информация</string>
   <string name="pref_account_actions_category_title">Действия</string>
-  <string name="pref_account_personal_category_title">Personal</string>
   <string name="pref_account_appearance_category_title">Внешний вид</string>
   <string name="pref_account_personal_information_category_title">Личная информация</string>
   <string name="pref_account_conversations_category_title">История</string>
-  <string name="pref_account_details_category_summary">Люди могут найти вас с этими данными.</string>
-  <string name="pref_account_personal_category_summary">Информация недоступна другим</string>
   <string name="pref_account_username_title">Имя пользователя</string>
   <string name="pref_account_phone_title">Телефон</string>
   <string name="pref_account_add_phone_title">Добавить номер телефона</string>
@@ -533,7 +391,6 @@
   <string name="pref_options_sounds_none">Отключены</string>
   <string name="pref_options_vibration_title">Вибрация</string>
   <string name="pref_options_vibration_title_o">Вибрация при вызове</string>
-  <string name="pref_options_sounds_category_title">Оповещения</string>
   <string name="pref_options_ringtones_category_title">Звуки</string>
   <string name="pref_options_ringtones_ringtone_title">Рингтон</string>
   <string name="pref_options_ringtones_text_title">Звук текстового сообщения</string>
@@ -549,9 +406,6 @@
   <string name="pref_options_cursor_send_button_summary">Отключает отправку с помощью Enter.</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Устройства</string>
-  <string name="pref_current_device_category_title">Текущее устройство</string>
-  <string name="pref_other_devices_category_title">Активные устройства</string>
-  <string name="pref_devices_summary">Нажмите, чтобы удалить</string>
   <string name="pref_devices_current_device_category_title">Текущее устройство</string>
   <string name="pref_devices_other_devices_category_title">Другие устройства</string>
   <string name="pref_devices_device_activation_summary">Активировано [[%1$s]]\n</string>
@@ -564,7 +418,6 @@
   <string name="pref_devices_device_fingerprint_category_title">Отпечаток</string>
   <string name="pref_devices_device_fingerprint_summary">Wire присваивает каждому устройству уникальный отпечаток. Сравните их и верифицируйте ваши устройства и разговоры.</string>
   <string name="pref_devices_device_actions_category_title">Действия</string>
-  <string name="pref_devices_device_trust_title">Верифицировано</string>
   <string name="pref_devices_device_reset_session_title">Сбросить сессию</string>
   <string name="pref_devices_device_reset_session_summary">Если отпечатки не совпадают, сбросьте сессию для создания новых ключей шифрования на обеих сторонах.</string>
   <string name="pref_devices_device_remove_title">Удалить устройство</string>
@@ -575,8 +428,6 @@
   <string name="pref_advanced_screen_title">Дополнительные настройки</string>
   <string name="pref_advanced_debug_report_title">Отправить отладочный отчет</string>
   <string name="pref_advanced_debug_report_summary">Это поможет службе поддержки Wire диагностировать проблемы.</string>
-  <string name="pref_advanced_analytics_title">Статистика использования и сбои</string>
-  <string name="pref_advanced_analytics_summary">Сделайте Wire лучше, отправляя анонимную информацию.</string>
   <string name="pref_advanced_reset_push_title">Обновить токен push-уведомлений</string>
   <string name="pref_advanced_reset_push_summary">При возникновении проблем с push-уведомлениями, служба поддержки Wire может попросить вас обновить токен.</string>
   <string name="pref_advanced_reset_push_completed">Токен Push-уведомлений был обновлен</string>
@@ -626,80 +477,33 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Удалить</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Вы уверены, что хотите удалить %s для вашего аккаунта Wire?</string>
   <string name="pref__account_action__dialog__delete_phone__error">Не удается удалить номер телефона</string>
-  <string name="pref__account_action__dialog__delete_email__error">Не удается удалить email</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">Вам нужно быть онлайн, чтобы удалить email</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Вам нужно быть онлайн, чтобы удалить номер телефона</string>
-  <string name="pref__account_action__dialog__change_email__error__invalid_email">Введите действующий email</string>
   <string name="pref__account_action__dialog__change_email__title">Изменить email</string>
-  <string name="pref__account_action__dialog__change_username__summary">По этому имени люди смогут находить вас в Wire, не зная вашего email или телефона.</string>
   <string name="pref__account_action__dialog__change_username__rules">Минимум 2 символа. Только a–z, 0–9 и _</string>
   <string name="pref__account_action__dialog__change_username__title">Имя пользователя</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">Уже занято</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Ошибка соединения, пожалуйста, попробуйте снова</string>
   <!-- No Internet connection -->
   <string name="system_status__no_internet">ОТСУТСТВУЕТ ПОДКЛЮЧЕНИЕ К ИНТЕРНЕТУ</string>
-  <string name="system_status__no_server_connection">ПОДКЛЮЧЕНИЕ&#8230;</string>
   <!-- SHARING -->
-  <string name="system_status__sharing">ВЫБЕРИТЕ РАЗГОВОР</string>
   <string name="alert_dialog__confirmation">OK</string>
   <string name="alert_dialog__no_network__header">Отсутствует подключение к интернету</string>
-  <string name="sign_up__no_internet__message">Вы должны быть онлайн, чтобы присоединиться. Проверьте подключение и повторите попытку.</string>
-  <string name="sign_in__no_internet__message">Вы должны быть онлайн, чтобы войти. Проверьте подключение и повторите попытку.</string>
-  <string name="sign_up__take_picture__back">Изменить имя</string>
-  <string name="sign_up__take_picture_dialog__gallery">Галерея</string>
-  <string name="sign_up__take_picture_dialog__camera">Камера</string>
-  <string name="sign_up__take_picture_dialog__message">Сделайте новое фото или выберите готовое из Галереи.</string>
-  <string name="sign_up__take_picture_dialog__title">Сделать фото</string>
   <string name="sign_up__set_picture__choose">Выбрать фотографию</string>
   <string name="sign_up__set_picture__keep">Оставить эту</string>
   <string name="sign_up__set_picture__guidance">Wire выглядит лучше с вашей фотографией.</string>
   <string name="sign_up__set_picture__loading">Загрузка фото</string>
-  <string name="rename_conversation__no_network__message">Вы должны быть онлайн, чтобы переименовать разговор. Проверьте подключение и повторите попытку.</string>
-  <string name="resend_message__no_network__message">Чтобы повторно отправить сообщение вы должны быть онлайн. Проверьте подключение и повторите попытку.</string>
   <string name="leave_conversation_failed__message">Вы должны быть онлайн, чтобы покинуть разговор. Проверьте подключение и повторите попытку.</string>
   <string name="remove_from_conversation__no_network__message">Вы должны быть онлайн, чтобы удалять людей из разговора. Проверьте подключение и повторите попытку.</string>
   <string name="calling__call_drop__message">Вы должны быть онлайн, чтобы позвонить. Проверьте подключение и повторите попытку.</string>
-  <string name="profile_pic__no_network__message">Вы должны быть онлайн, чтобы изменить ваше фото. Проверьте подключение и повторите попытку.</string>
-  <string name="calling__voice_channel_full__title">Слишком много людей на звонке</string>
-  <plurals name="calling__voice_channel_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Здесь осталось место только для %1$d участника.</item>
-    <item quantity="few">Здесь осталось место только для %1$d участников.</item>
-    <item quantity="many">Здесь осталось место только для %1$d участников.</item>
-    <item quantity="other">Здесь осталось место только для %1$d участников.</item>
-  </plurals>
-  <string name="calling__conversation_full__title">Слишком много людей для группового звонка</string>
-  <plurals name="calling__conversation_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Звонки возможны в разговорах до %1$d человек.</item>
-    <item quantity="few">Звонки возможны разговорах до %1$d участников.</item>
-    <item quantity="many">Звонки возможны в разговорах до %1$d участников.</item>
-    <item quantity="other">Звонки возможны в разговорах до %1$d участников.</item>
-  </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Сообщения</string>
   <string name="message_notifications_channel_description">Уведомления обо всех типах сообщений, включая текст, изображения, аудио- и видеосообщения.</string>
   <string name="incoming_call_notifications_channel_name">Входящие вызовы</string>
-  <string name="incoming_call_notifications_channel_description">Уведомления о входящих звонках</string>
   <string name="ping_notifications_channel_name">Пинги</string>
   <string name="ping_notifications_channel_description">Уведомления, когда вас пингуют другие пользователи</string>
   <string name="ongoing_channel_name">Фоновые уведомления</string>
   <string name="ongoing_channel_description">Уведомления о текущих процессах или вторичных действиях, таких как вызовы или сохранение изображения</string>
   <string name="foreground_service_notification_name">Поддерживать подключение к серверу</string>
   <string name="foreground_service_notification_description">Это уведомление необходимо для поддержания соединения с сервером Wire в фоновом режиме для пользователей у которых не установлены сервисы Google Play.</string>
-  <string name="lockscreen__talk">ЗВОНИТ</string>
-  <plurals name="notification__new_messages">
-    <item quantity="one">Сообщение от %2$s</item>
-    <item quantity="few">%1$d сообщения от %2$s</item>
-    <item quantity="many">%1$d сообщений от %2$s</item>
-    <item quantity="other">%1$d сообщений от %2$s</item>
-  </plurals>
-  <plurals name="notification__new_messages_groups">
-    <item quantity="one">Сообщение в %2$s</item>
-    <item quantity="few">%1$d сообщения в %2$s</item>
-    <item quantity="many">%1$d сообщений в %2$s</item>
-    <item quantity="other">%1$d сообщений в %2$s</item>
-  </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="one">Сообщение в %2$s разговорах</item>
     <item quantity="few">%1$d сообщения в %2$s разговорах</item>
@@ -718,20 +522,11 @@
   <string name="notification__message__one_to_one__shared_video">Поделился(-лась) видео</string>
   <string name="notification__message__one_to_one__shared_audio">Поделился(-лась) аудио сообщением</string>
   <string name="notification__message__one_to_one__shared_location">Поделился местоположением</string>
-  <string name="notification__message__one_to_one__liked">\u2764 твое сообщение</string>
   <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s в %2$s \u0020</string>
-  <string name="notification__message__group__pinged">отправил(-а) пинг</string>
-  <string name="notification__message__group__shared_picture">поделился картинкой</string>
-  <string name="notification__message__group__shared_file">поделился(-лась) файлом</string>
-  <string name="notification__message__group__shared_video">поделился(-лась) видео</string>
-  <string name="notification__message__group__shared_audio">поделился(-лась) аудио сообщением</string>
-  <string name="notification__message__group__shared_location">поделился местоположением</string>
   <string name="notification__message__group__renamed_conversation">переименовал(-а) разговор на %1$s</string>
   <string name="notification__message__group__add">добавил(-а) участников в разговор</string>
   <string name="notification__message__group__remove">удалил(-а) участников из разговора</string>
-  <string name="notification__message__generic__accept_request">У вас появился новый контакт</string>
   <string name="notification__message__single__accept_request">%1$s теперь добавлен(а) в ваш список контактов</string>
   <string name="notification__message__group__default_conversation_name">группа</string>
   <string name="notification__message__send_failed">Не удалось отправить сообщение</string>
@@ -740,10 +535,8 @@
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 ваше сообщение</string>
   <string name="notification__message__liked_picture">\u2764 ваше изображение</string>
-  <string name="notification__message__liked_file">\u2764 ваш файл</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_someone">Кто-то</string>
-  <string name="notification__message__ephemeral_details">Нажмите, чтобы просмотреть детали</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Кто-то прислал сообщение</item>
     <item quantity="few">Кто-то прислал %1$d сообщения</item>
@@ -766,16 +559,9 @@
     <item quantity="other">%1$s others</item>
   </plurals>
   <!-- System notifications -->
-  <string name="system_notification__group_call_title">%1$s в %2$s</string>
   <string name="system_notification__silence_call">Отклонить</string>
   <string name="system_notification__join_call">Принять</string>
   <string name="system_notification__leave_call">Завершить звонок</string>
-  <string name="system_notification__outgoing">Звонок</string>
-  <string name="system_notification__outgoing_video">Видео звонок</string>
-  <string name="system_notification__incoming">звонит</string>
-  <string name="system_notification__incoming_video">Вызывает с видео</string>
-  <string name="system_notification__ongoing">Звонит</string>
-  <string name="number_of_conversations_string">АРХИВ</string>
   <string name="system_notification__calling_one">Звонит&#8230;</string>
   <string name="system_notification__calling_group">%1$s звонит&#8230;</string>
   <string name="system_notification__video_calling_one">Видеозвонок&#8230;</string>
@@ -797,7 +583,6 @@
   <string name="notification__image_saving__action__share">Поделиться</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
   <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <string name="notification__file_saving__content__title">Файл Wire сохранен.</string>
   <!-- forced update -->
   <string name="forced_update__header">Важное обновление</string>
   <string name="forced_update__sub_header">Пожалуйста, установите последнюю версию Wire.</string>
@@ -805,19 +590,9 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Sharing -->
   <string name="sharing__image_preview__confirm_action">ОТПРАВИТЬ</string>
-  <string name="sharing__image_preview__title__single">Отправка 1 картинки в\n_%1$s_</string>
-  <string name="sharing__image_preview__title__multiple">Отправка %1$s картинок в\n_%2$s_</string>
   <string name="sharing__user_not_logged_in__dialog__title">Пожалуйста, войдите</string>
   <string name="sharing__user_not_logged_in__dialog__message">Откройте Wire и войдите в свой аккаунт, чтобы поделиться.</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
-  <string name="sharing__files__ok">Поделиться</string>
-  <string name="sharing__files__cancel">Отменить</string>
-  <plurals name="sharing__files__message">
-    <item quantity="one">Вы собираетесь поделиться файлом %1$d с %2$s.</item>
-    <item quantity="few">Вы собираетесь поделиться файлами %1$d с %2$s.</item>
-    <item quantity="many">Вы собираетесь поделиться файлами %1$d с %2$s.</item>
-    <item quantity="other">Вы собираетесь поделиться файлами %1$d с %2$s.</item>
-  </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">Не удается создать</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">Не удалось создать разговор с %1$s</string>
@@ -827,42 +602,11 @@
   <string name="in_app_notification__sync_error__create_convo__button">Продолжить</string>
   <!--Timestamp formatting -->
   <string name="timestamp__just_now">Только что</string>
-  <string name="timestamp__a_minute_ago">Минуту назад</string>
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="one">%1$d минуту назад</item>
     <item quantity="few">%1$d минуты назад</item>
     <item quantity="many">%1$d минут назад</item>
     <item quantity="other">%1$d минут назад</item>
-  </plurals>
-  <plurals name="timestamp__x_hours_ago">
-    <item quantity="one">%1$d час назад</item>
-    <item quantity="few">%1$d часа назад</item>
-    <item quantity="many">%1$d часов назад</item>
-    <item quantity="other">%1$d часов назад</item>
-  </plurals>
-  <plurals name="timestamp__x_days_ago">
-    <item quantity="one">%1$d день назад</item>
-    <item quantity="few">%1$d дня назад</item>
-    <item quantity="many">%1$d дней назад</item>
-    <item quantity="other">%1$d дней назад</item>
-  </plurals>
-  <plurals name="timestamp__x_weeks_ago">
-    <item quantity="one">%1$d неделю назад</item>
-    <item quantity="few">%1$d недели назад</item>
-    <item quantity="many">%1$d недель назад</item>
-    <item quantity="other">%1$d недель назад</item>
-  </plurals>
-  <plurals name="timestamp__x_months_ago">
-    <item quantity="one">%1$d месяц назад</item>
-    <item quantity="few">%1$d месяца назад</item>
-    <item quantity="many">%1$d месяцев назад</item>
-    <item quantity="other">%1$d месяцев назад</item>
-  </plurals>
-  <plurals name="timestamp__x_years_ago">
-    <item quantity="one">%1$d год назад</item>
-    <item quantity="few">%1$d года назад</item>
-    <item quantity="many">%1$d лет назад</item>
-    <item quantity="other">%1$d лет назад</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -874,25 +618,17 @@
   <!-- Example: MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year_no_weekday">d MMM YYYY, %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- MONDAY -->
-  <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MARCH 2 -->
-  <string name="timestamp_pattern__separator_header__this_year">d MMMM</string>
   <!-- MARCH 2, 2015 -->
-  <string name="timestamp_pattern__separator_header__last_year">d MMMM, YYYY</string>
-  <string name="timestamp_pattern__separator_header__today">Сегодня</string>
-  <string name="timestamp_pattern__separator_header__yesterday">Вчера</string>
   <!-- 23:15 -->
   <string name="timestamp_pattern__24h_format">HH:mm</string>
   <string name="timestamp_pattern__12h_format">HH:mm</string>
-  <string name="reg__phone_alert__button">OK</string>
   <string name="country">Страна</string>
   <string name="register">Зарегистрироваться</string>
   <string name="password_placeholder">Пароль</string>
   <string name="email_placeholder">Email</string>
   <string name="name_placeholder">Имя</string>
-  <string name="registration_back">Назад</string>
   <!-- Strings -->
   <string name="edit_phone_number">ИЗМЕНИТЬ НОМЕР ТЕЛЕФОНА</string>
   <string name="i_have_an_account">ВОЙТИ</string>
@@ -907,10 +643,8 @@
   <string name="activation_code_info_manual">Введите проверочный код, который мы отправили для \n&lt;b&gt;%s&lt;/b&gt;</string>
   <string name="enter_name">Как нам называть вас?</string>
   <string name="enter_name_hint">Введите полное имя</string>
-  <string name="set_a_picture">Выберите фото</string>
   <string name="new_reg__password__forgot">Забыли пароль?</string>
   <string name="phone_sign_in">Телефон</string>
-  <string name="go_to_register">Создать аккаунт</string>
   <string name="email_sign_in">Email</string>
   <string name="edit_email">Изменить email</string>
   <string name="hello">Привет, &lt;b&gt;%s&lt;/b&gt;</string>
@@ -919,8 +653,6 @@
   <string name="username__set__toast_error">Ошибка обновления имени пользователя</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Поиск Giphy</string>
-  <string name="giphy_preview__title_search">#%s</string>
-  <string name="giphy_preview__title_random">СЛУЧАЙНАЯ</string>
   <string name="giphy_preview__error">GIF-файл НЕ НАЙДЕН.</string>
   <string name="giphy_preview__message_via_random_trending">через giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · через giphy.com</string>
@@ -928,7 +660,6 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">НАЖМИТЕ НА ЦВЕТ, ЧТОБЫ ИЗМЕНИТЬ РАЗМЕР ПЕРА.\n\nВСТРЯХНИТЕ УСТРОЙСТВО ДЛЯ УДАЛЕНИЯ ФОНОВОГО РИСУНКА.</string>
   <string name="drawing__tip__message">НАЖМИТЕ НА ЦВЕТ, ЧТОБЫ ИЗМЕНИТЬ РАЗМЕР ПЕРА.\n\nНАЖМИТЕ И УДЕРЖИВАЙТЕ, ЧТОБЫ ЗАКРАСИТЬ ФОН.</string>
-  <string name="add_a_sketch">Нарисовать эскиз</string>
   <string name="sketch__emoji_keyboard__size_label__small">МАЛЕНЬКИЕ</string>
   <string name="sketch__emoji_keyboard__size_label__medium">СРЕДНИЕ</string>
   <string name="sketch__emoji_keyboard__size_label__large">БОЛЬШИЕ</string>
@@ -952,8 +683,6 @@
   <string name="otr__remove_device__button_delete">OK</string>
   <string name="otr__remove_device__button_cancel">Отмена</string>
   <string name="otr__remove_device__error">Неправильный пароль</string>
-  <string name="otr__remove_device__button_approve">OK</string>
-  <string name="otr__remove_device__button_remove">Удалить</string>
   <string name="otr__error_dialog__cannot_register__message">Удалите одно из ваших устройств для того, чтобы начать использовать Wire на этом.</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Список устройств</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Выход</string>
@@ -977,32 +706,18 @@
   <string name="otr__first_launch__header">Вы впервые используете Wire на этом устройстве.</string>
   <string name="otr__first_launch__sub_header">История разговоров не отображается из соображений конфиденциальности.</string>
   <string name="otr__first_launch__button">OK</string>
-  <string name="otr__device_approve__header">Вы подключили устройство к вашему аккаунту Wire.</string>
-  <string name="otr__device_approve__note">Если вы не делали этого, удалите устройство и измените ваш пароль.</string>
   <string name="otr__signin__info_text">Войти</string>
   <string name="otr__reset_session__message_ok">Сессия была обновлена</string>
   <string name="otr__reset_session__message_fail">Не удается сбросить сессию</string>
   <string name="otr__reset_session__button_ok">OK</string>
   <string name="otr__reset_session__button_fail">Повторить</string>
-  <string name="otr__remove_device__no_internet__title">Нет доступа к интернету</string>
-  <string name="otr__remove_device__no_internet__message">Попробуйте удалить устройство, когда будете онлайн.</string>
-  <string name="otr__remove_device__no_internet__button">OK</string>
-  <string name="otr__device_inbox__header">Ваша учетная запись использовалась на:</string>
-  <string name="otr__device_inbox__name">От: [[%s]]</string>
   <string name="advanced_image_download_wifi_info">Изображение появится, когда вы снова подключитесь к Wi-Fi</string>
   <string name="change_settings">Изменить настройки</string>
-  <string name="single_image__save_to_disk__error">Не удается сохранить изображение, нет доступа к внешнему хранилищу</string>
-  <string name="conversation_list__label_action__contacts">УЧАСТНИКИ</string>
-  <string name="conversation_list__hint_header">Разговоры начинаются здесь</string>
-  <string name="conversation_list__hint_text">Начните разговор. Звонки, сообщения и многое другое — приватно или в группе.</string>
   <string name="conversation_list__action_join_call">ПРИСОЕДИНИТЬСЯ</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Коллекция</string>
   <string name="conversation_toolbar__call_video">Видео звонок</string>
   <string name="conversation_toolbar__call_audio">Аудиозвонок</string>
-  <string name="conversation_toolbar__delete">Удалить</string>
-  <string name="conversation_toolbar__copy">Копировать</string>
-  <string name="conversation_toolbar__fwd">Поделиться</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Файл не найден</string>
   <string name="asset_upload_error__not_found__message">Не удается найти указанный файл</string>
@@ -1014,17 +729,8 @@
   <string name="asset_upload_warning__large_file__title">Вы не подключены к вайфаю</string>
   <string name="asset_upload_warning__large_file__message_default">Вы действительно хотите отправить большой файл используя мобильную сеть?</string>
   <string name="asset_upload_warning__large_file__message">Вы действительно хотите отправить %1$s используя мобильную сеть?</string>
-  <string name="asset_upload_warning__large_file__button_accept">OK</string>
-  <string name="asset_upload_warning__large_file__button_cancel">Отмена</string>
   <!-- Video message errors -->
-  <string name="video_message_error__too_big__title">Видео слишком большое</string>
-  <string name="video_message_error__too_big__message">Вы можете отправлять видео до 25 Mб.</string>
-  <string name="video_message_error__title">Ошибка видео</string>
-  <string name="video_message_error__message">Не удается обработать видеофайл</string>
-  <string name="video_message_error__button">OK</string>
-  <string name="video_message_error__missing_camera_permissions">Для отправки видео сообщений разрешите доступ к камере и медиафайлам.</string>
   <string name="audio_message_error__missing_audio_permissions">Для отправки аудиосообщений разрешите запись аудио.</string>
-  <string name="audio_message_error__generic">Не удается воспроизвести аудио</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">ПОСТОЯННЫЙ БИТРЕЙТ</string>
   <!-- no contacts -->
@@ -1044,7 +750,6 @@
   <string name="tooltip_file">Отправить файл</string>
   <string name="tooltip_gif">GIF</string>
   <string name="tooltip_mention">Добавил упоминание</string>
-  <string name="new_feature">Новое</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Удалить только у меня?</string>
   <string name="conversation__message_action__delete_for_everyone">Удалить у всех?</string>
@@ -1058,9 +763,6 @@
   <string name="conversation__action_mode__fwd__dialog__message">Пожалуйста, подождите&#8230;</string>
   <string name="conversation__action_mode__fwd__chooser__title">Поделиться с...</string>
   <!-- video message preview -->
-  <string name="video_message__preview__header">Отправить %1$s</string>
-  <string name="video_message__quick_menu__send_label">Отправить</string>
-  <string name="video_message__preview__compressing">СЖАТИЕ&#8230;</string>
   <string name="audio_message__recording__slide_control__slide_hint">ПРОВЕДИТЕ ВВЕРХ ДЛЯ ОТПРАВКИ</string>
   <string name="audio_message__recording__slide_control__tap_hint">НАЖМИТЕ ЧТОБЫ ОТПРАВИТЬ</string>
   <string name="audio_message__recording__tap_to_record">Нажмите для записи сообщения\nвы сможете _GLYPH_ его позже</string>
@@ -1080,7 +782,6 @@
   <string name="message_bottom_menu_action_delete">Удалить</string>
   <string name="message_bottom_menu_action_delete_local">Удалить у меня</string>
   <string name="message_bottom_menu_action_delete_global">Удалить у всех</string>
-  <string name="message_bottom_menu_action_forward_multiple">Поделиться с несколькими</string>
   <string name="message_bottom_menu_action_reveal">Показать в разговоре</string>
   <string name="likes_list__header">Понравилось</string>
   <string name="message_bottom_menu_action_save_ok">Изображение сохранено</string>
@@ -1100,7 +801,6 @@
   <string name="usernames__take_over__summary">Зарегистрируйте свое уникальное имя в Wire. _Подробнее._</string>
   <string name="usernames__take_over__choose">ВЫБЕРИТЕ ФОТОГРАФИЮ</string>
   <string name="usernames__take_over__keep">ОСТАВИТЬ ЭТО</string>
-  <string name="pref_account_username_empty_title">Добавить имя пользователя</string>
   <string name="ephemeral_message__timeout__off">Отключено</string>
   <string name="ephemeral_message__options_header">ВРЕМЕННЫЕ СООБЩЕНИЯ</string>
   <string name="guests_option_on">Вкл.</string>
@@ -1142,17 +842,14 @@
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">осталось %1$s и %2$s</string>
   <string name="ephemeral_message_footer_single_unit">осталось %1$s</string>
-  <string name="collection_header_all">КОЛЛЕКЦИЯ</string>
   <string name="collection_header_pictures">ИЗОБРАЖЕНИЯ</string>
   <string name="collection_header_files">ФАЙЛЫ</string>
   <string name="collection_header_links">ССЫЛКИ</string>
   <string name="collection_header_today">СЕГОДНЯ</string>
   <string name="collection_header_yesterday">ВЧЕРА</string>
   <string name="collection_empty">НЕТ ЭЛЕМЕНТОВ В КОЛЛЕКЦИИ</string>
-  <string name="collection_send_to">Отправить&#8230;</string>
   <string name="collection_all">Показать все %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">Отправка не удалась</string>
   <string name="multi_share_search_hint">ОТПРАВИТЬ...</string>
   <string name="search__box__hint_text">ПОИСК В ТЕКСТОВЫХ СООБЩЕНИЯХ</string>
   <string name="search__no_results">Ничего не найдено.</string>
@@ -1205,11 +902,8 @@
   <string name="conversation_list__someone">Кто-то</string>
   <string name="conversation_list__added">[[%1$s]] был добавлен</string>
   <string name="conversation_list__added_you">[[%1$s]] добавил(-а) вас</string>
-  <string name="conversation_list__left">[[%1$s]] вышел(-ла)</string>
   <string name="conversation_list__left_you">Вы покинули беседу</string>
   <string name="conversation_list__removed_you">[[%1$s]] удалил(-а) вас</string>
-  <string name="conversation_list__removed">[[%1$s]] был удален</string>
-  <string name="conversation_list__empty_conv__subtitle">Все вышли</string>
   <string name="conversation_list__header__title">РАЗГОВОРЫ</string>
   <string name="conversation_list__header__archive_title">АРХИВ</string>
   <string name="guest_indicator">ГОСТЬ</string>
@@ -1247,7 +941,6 @@
   <string name="teams_verify_email_change">ИЗМЕНИТЬ EMAIL АДРЕС</string>
   <string name="teams_set_name_title">Ваше имя</string>
   <string name="teams_set_name_hint">ПОЛНОЕ ИМЯ</string>
-  <string name="app_entry_slogan">Безопасный обмен сообщениями для всех.</string>
   <string name="app_entry_create_account">Личные</string>
   <string name="app_entry_create_account_sub">создать учетную запись</string>
   <string name="app_entry_create_team">Pro</string>
@@ -1274,17 +967,12 @@
   <string name="teams_invitations_skip">ПРОПУСТИТЬ</string>
   <string name="teams_invitations_done">ГОТОВО</string>
   <string name="teams_invitations_error_too_many">Было отправлено максимальное количество приглашений</string>
-  <string name="teams_invitations_error_blacklisted_email">Данный email адрес был помещен в черный список из-за постоянного возврата или жалобы.</string>
-  <string name="teams_invitations_error_no_identity">У пользователя нет проверенных идентификационных данных (email или телефонный номер).</string>
-  <string name="teams_invitations_error_no_email">Эта операция требует наличия у пользователя проверенного email адреса.</string>
   <string name="teams_invitations_error_already_sent">Уже отправлено</string>
   <string name="teams_invitations_error_generic">Что-то пошло не так - пожалуйста, попробуйте еще раз</string>
   <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
   <string name="teams_invitations_error_invalid_email">УКАЖИТЕ ДЕЙСТВИТЕЛЬНЫЙ EMAIL</string>
   <string name="teams_invitations_error_email_exists">ЭТОТ EMAIL АДРЕС УЖЕ ИСПОЛЬЗУЕТСЯ</string>
-  <string name="teams_invitations_error_email_exists_more">ПОДРОБНЕЕ</string>
   <string name="teams_invitations_error_no_internet">НЕТ ПОДКЛЮЧЕНИЯ К ИНТЕРНЕТУ</string>
-  <string name="team_invitation_add_from_address_book">ДОБАВИТЬ ИЗ АДРЕСНОЙ КНИГИ</string>
   <string name="invitation_screen_title">Создание команды</string>
   <string name="invitation_screen_subtitle">Пригласите своих коллег присоединиться.</string>
   <string name="open_service_conversation_button_text">Открыть беседу</string>
@@ -1305,7 +993,6 @@
   <string name="add_participants_count_header">ДОБАВИТЬ УЧАСТНИКОВ (%1$s)</string>
   <string name="new_conv_no_results">Ничего не найдено</string>
   <string name="new_conv_no_contacts">Нет контактов</string>
-  <string name="create_group_search">ПОИСК ИМЕН</string>
   <string name="participants_divider_services">СЕРВИСЫ (%1$s)</string>
   <string name="participants_divider_people">УЧАСТНИКИ (%1$s)</string>
   <string name="group_name_hint">ИМЯ ГРУППЫ</string>
@@ -1373,7 +1060,6 @@
   <string name="video_paused">Видео приостановлено</string>
   <string name="calling_degraded_title">Новое устройство</string>
   <string name="call_info_text">К групповому разговору может присоединиться до 300 человек. Видеозвонки возможны между вами и еще тремя участниками.</string>
-  <string name="too_many_people_video_toast">Видеозвонки работают в группах из 4 участников и меньше.</string>
   <string name="markdown_link_dialog_title">Перейти по ссылке</string>
   <string name="markdown_link_dialog_message">Это приведет вас к\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>

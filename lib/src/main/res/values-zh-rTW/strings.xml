@@ -27,7 +27,6 @@
   <string name="internet_connectivity_error_message">請檢查您的網路連線，然後重試</string>
   <string name="too_many_attempts_header">您已嘗試太多次</string>
   <string name="login_later_message">請稍候再嘗試登入</string>
-  <string name="register_again_message">請重新註冊</string>
   <string name="email_exists_header">此電子郵件信箱已經被使用</string>
   <string name="email_exists_message">這個電郵地址已經註冊</string>
   <string name="email_invalid_header">無效的電子郵件信箱</string>
@@ -45,8 +44,6 @@
   <string name="wrong_code_message">請輸入一個有效的代碼</string>
   <string name="phone_pending_login_header">已發送代碼</string>
   <string name="phone_pending_login_message">我們已透過手機簡訊發送代碼到您的手機。如需新代碼需等候 10 分鐘後再點擊重新發送。</string>
-  <string name="password_invalid_header">不正確的密碼</string>
-  <string name="password_invalid_message">請檢查您的資訊後再重試</string>
   <string name="phone_budget_exhausted_header">請求次數過多</string>
   <string name="phone_budget_exhausted_message">請稍後再重試。</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -71,48 +68,16 @@
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">你的電話號碼</string>
   <!-- Receive email/sms invitation -->
-  <string name="invitation_email__normal_phone_signup_button">使用手機號碼註冊</string>
-  <string name="invitation_email__normal_email_signup_button">使用其他的電子郵件註冊</string>
-  <string name="invitation_email__password_placeholder">密碼 (最少 %1$s 個字元)</string>
-  <string name="invitation_email__welcome_header">您好，%1$s。</string>
-  <string name="invitation_email__welcome_message">選擇一個密碼來建立您的帳號。</string>
-  <string name="invitation__continue_button">繼續</string>
-  <string name="invitation_phone__normal_phone_signup_button">使用其他手機號碼</string>
-  <string name="invitation_phone__normal_email_signup_button">使用電子郵件註冊</string>
-  <string name="invitation_phone__welcome_header">您好，%1$s。</string>
-  <string name="invitation_phone__welcome_message">再一個步驟就將您的帳號建立完成。</string>
-  <string name="invitation__phone__failed">無法透過這邀請進行註冊。</string>
-  <string name="invitation__email__failed">無法透過這邀請進行註冊。</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020搜索</string>
   <string name="pick_user_search_hint">搜索</string>
-  <string name="pick_user_search__add_to_conversation">\u0020搜索</string>
   <string name="choose_conversation">搜索</string>
   <string name="people_picker__top_users_header_title">常用連絡人</string>
-  <string name="people_picker__address_book_matches_title">加為連絡人</string>
   <string name="people_picker__search_result_conversations_header_title">群組</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s群組</string>
   <string name="people_picker__search_result_connections_header_title">連絡人</string>
   <string name="people_picker__search_result_others_header_title">加為連絡人</string>
-  <string name="people_picker__search_result_recommended_header_title">推薦的連絡人</string>
-  <string name="people_picker__search_result_contacts_header_title">連絡人</string>
-  <string name="people_picker__search_result_team_members_header_title">團隊成員</string>
-  <string name="people_picker__invite_header_title">邀請</string>
-  <string name="people_picker__confirm_button_title">開始對話</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">邀請好友加入群組</string>
-  <string name="people_picker__confirm_button_title__create_conversation">建立群組</string>
-  <string name="people_picker__error_message__no_results">沒有搜尋結果</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts">透過名稱或電子郵件搜尋連絡人</string>
-  <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">請輸入有效的電子郵件信箱或</string>
-  <string name="people_picker__error_message__no_results__shared_contacts__add_to_conversation">請輸入不同的名稱。</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts__add_to_conversation">請輸入不同的名稱。</string>
-  <string name="people_picker__error_message__no_results__send_invite">發送\n1則邀請</string>
-  <string name="people_picker__error_message__no_users_to_add_to_conversation">您所有的連絡人都已在此聊天室。</string>
-  <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">我們在Wire找不到任何您的連絡人。請輸入完整的名稱或電子郵件地址。</string>
-  <string name="people_picker__toolbar_header__group">新增連絡人</string>
-  <string name="people_picker__toolbar_header__one_to_one">建立群組</string>
   <string name="people_picker__search_result__expander_title">顯示所有%1$s ↓</string>
-  <string name="people_picker__guest_label">訪客</string>
   <string name="people_picker__search_people">聯絡人</string>
   <string name="people_picker__search_services">服務</string>
   <string name="receive_news_and_offers_request_title">電子報</string>
@@ -123,9 +88,6 @@
   <string name="crashes_and_analytics_request_agree">我同意</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">服務</string>
-  <string name="integrations_picker__add">新增服務</string>
-  <string name="integrations_conv_bot">Bot</string>
-  <string name="integrations_chathead__section_title">服務</string>
   <string name="integrations_errors_add_service">無法添加服務</string>
   <string name="integrations_errors_service_unavailable">服務暫時無法使用</string>
   <string name="conversation_errors_full">對話人數已達上限</string>
@@ -135,51 +97,24 @@
   <string name="people_picker__share_contacts__yay">允許</string>
   <string name="people_picker__share_contacts__nah">拒絕</string>
   <string name="people_picker__share_contacts__nevvah">不要再詢問我</string>
-  <!-- People you may know -->
-  <string name="people_picker__recommended__common_connections__one">認識%1$s</string>
-  <string name="people_picker__recommended__common_connections__two">認識 %1$s 和 %2$s</string>
-  <plurals name="people_picker__recommended__common_connections__more">
-    <item quantity="other">認識 %1$s 和 %2$d 個其他連絡人</item>
-  </plurals>
-  <string name="people_picker__recommended__common_connections__hide">隱藏</string>
   <!-- Invite -->
-  <string name="people_picker__invite__share_details_label">發送邀請</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">邀請朋友使用Wire</string>
   <string name="people_picker__invite__share_text__header">%1$s 想和您在Wire上聯繫</string>
   <string name="people_picker__invite__share_text__body">我在使用Wire，搜尋%1$s或造訪 get.wire.com。</string>
-  <string name="people_picker__invite__message">嗨，\n謝謝您的邀請。讓我們成為連絡人吧。 \n%1$s</string>
-  <string name="people_picker__invite__sent_feedback">已送出邀請</string>
-  <string name="people_picker__contact_list__user_selection_button__label">開啓</string>
-  <string name="people_picker__contact_list__user_adding_button__label">新增</string>
-  <string name="people_picker__contact_list__contact_selection_button__label">邀請</string>
-  <string name="people_picker__contact_list__invite_dialog__title">發送邀請</string>
-  <string name="people_picker__contact_list__searchbox__hint">\u0020透過名稱來搜尋</string>
-  <string name="people_picker__generic_invite_button_text">邀請好友加入 Wire 的行列</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="other">%1$d個共同好友</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s已聯繫</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">在連絡人中</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">開啟</string>
-  <string name="conversation_quick_menu__conversation_button__group_label">建立群組</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_joined">[[%1$s]] 已加入</string>
   <string name="content__system__you_joined">[[你]]已加入</string>
   <string name="content__system__other_renamed_conv">[[%1$s]]重新命名了聊天室</string>
   <string name="content__system__you_renamed_conv">[[你]]重新命名了聊天室</string>
-  <string name="content__system__message_deleted">該訊息已被刪除</string>
-  <string name="content_system_message_timestamp_failure">未發送的訊息。</string>
-  <string name="content_system_message_timestamp_pending">發送\u2026</string>
-  <string name="content_system_message_timestamp_deleted">於%1$s刪除</string>
   <!-- Add people -->
   <string name="content__system__someone_added_people">[[%1$s]] 已將 %2$s 添加到對話中</string>
   <plurals name="content__system__someone_added_people_with_others">
     <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
   </plurals>
   <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
-  <string name="content__system__someone_added_people_and_you">[[%1$s]] added %2$s and you to the conversation</string>
   <plurals name="content__system__someone_added_people_and_you_with_others">
     <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
   </plurals>
@@ -196,8 +131,6 @@
   <!-- Create conversation -->
   <string name="content__system__you_started_conversation">你開啓了聊天室</string>
   <string name="content__system__other_started_conversation">%1$s開啓了聊天室</string>
-  <string name="content__system__you_started_one">[[您]] 開啟了和%2$s的聊天室</string>
-  <string name="content__system__other_started_one">[[%1$s]] 開啟了和您的聊天室</string>
   <string name="content__system__with_you_only">和你</string>
   <string name="content__system__with_list_only">與%1$s</string>
   <plurals name="content__system__with_others_only">
@@ -213,8 +146,6 @@
   <string name="content__you_pinged">[[您]] 打了聲招呼</string>
   <string name="content__xxx_pinged">[[%1$s]] 打了聲招呼</string>
   <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__conversation_verified">聊天室已驗證</string>
-  <string name="content__otr__conversation_unverified">聊天室未驗證</string>
   <string name="content__otr__message_error">從 [[%1$s]] 的訊息未被接收。_為什麼？_</string>
   <string name="content__otr__message_error_you">您發出的訊息未被接收。_為什麼？_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]] 的設備識別已更改。信息無法送達。_瞭解更多_</string>
@@ -250,13 +181,11 @@
   <string name="content__file__status__upload_failed__size_and_extension">%1$s ·%2$s ·上傳失敗</string>
   <string name="content__file__action__open">開啓</string>
   <string name="content__file__action__save">存檔</string>
-  <string name="content__file__action__share">分享</string>
   <string name="content__file__action__open__no_app_found">找不到可打開此檔案類型的應用程式</string>
   <string name="content__file__action__save_completed">存檔成功</string>
   <string name="content__file__action__save_error">無法儲存檔案。</string>
   <string name="content__location__no_map_placeholder">您的位置將在您重新連線時顯示在地圖上。</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">重新命名</string>
   <string name="conversation__action__delete">刪除內容...</string>
   <string name="conversation__action__archive">封存</string>
   <string name="conversation__action__unarchive">解除封存</string>
@@ -266,7 +195,6 @@
   <string name="conversation__action__silence">靜音</string>
   <string name="conversation__action__unsilence">開啟訊息通知</string>
   <string name="conversation__action__leave">離開群組&#8230;</string>
-  <string name="conversation__action__remove">移除</string>
   <string name="conversation__action__call">通話</string>
   <string name="conversation__action__picture">大頭照</string>
   <string name="conversation__action__block">封鎖...</string>
@@ -280,10 +208,6 @@
   <string name="conversation__action__notifications_nothing">無</string>
   <string name="conversation__action__notifications_title">通知我關於：</string>
   <!-- Conversation: Profile Popover -->
-  <string name="popover__action__open">開啟</string>
-  <string name="popover__action__remove">移除</string>
-  <string name="popover__action__block">封鎖</string>
-  <string name="popover__action__profile">個人資料</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">網路速度緩慢</string>
   <string name="calling__slow_connection__message">您的連線速度太慢無法通話。請稍後再試。</string>
@@ -292,19 +216,12 @@
   <string name="calling__cannot_start__no_permission__message">請前往手機「設定」並允許Wire使用麥克風權限。</string>
   <string name="calling__cannot_start__cancel__message">取消</string>
   <string name="calling__cannot_start__no_camera_permission__message">Wire無法使用相機</string>
-  <string name="calling__cannot_start__ongoing_different_kind__title">%1$s忙線中</string>
-  <string name="calling__cannot_start__ongoing_different_kind__message">請稍後再試</string>
-  <string name="calling__cannot_start__button_settings">設定</string>
   <string name="calling__video_call__slow_connection__message">您可能會在通話期間遇到問題</string>
-  <string name="incoming__controls__incoming__decline">不接聽</string>
-  <string name="incoming__controls__incoming__accept">接聽</string>
-  <string name="incoming__controls__ongoing__hangup">結束通話</string>
   <string name="incoming__controls__ongoing__speaker">擴音</string>
   <string name="incoming__controls__ongoing__mute">關閉麥克風</string>
   <string name="incoming__controls__ongoing__video">視訊</string>
   <string name="incoming__controls__ongoing__flip">切換鏡頭</string>
   <string name="ongoing__poor_connection_message">連線品質不佳，視訊停止</string>
-  <string name="calling__self_preview_unavailable">視訊關閉</string>
   <string name="calling__self_preview_unavailable_long">相機無法使用</string>
   <string name="calling__header__joining">連接中&#8230;</string>
   <string name="calling__header__outgoing_subtitle">響鈴中...</string>
@@ -331,9 +248,6 @@
   <string name="group_calling_confirm">通話</string>
   <!-- Connect request -->
   <string name="connect__message">Hi %1$s，\n請加我為連絡人。\n%2$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="other">%1$d個共同好友</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">等待對方接受</string>
   <string name="connect_request__cancel_request__label">取消連絡請求</string>
   <string name="connect_request__unblock__button__text">解除封鎖</string>
@@ -353,34 +267,20 @@
   <plurals name="conversation__degraded_confirmation__message">
     <item quantity="other">您仍然要發送您的訊息嗎？</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">您要接受此對話邀請嗎？</string>
-  <string name="conversation__degraded_confirmation__place_call">你要撥打電話嗎？</string>
   <string name="conversation__degraded_confirmation__positive_action">確定發送</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="other">顯示設備</item>
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">顯示您的設備</string>
   <string name="conversation_degraded_confirmation__header__you">您</string>
-  <!-- Profile and Participants -->
-  <plurals name="participants__sub_header_xx_people">
-    <item quantity="other">%1$d位參與者</item>
-  </plurals>
-  <string name="group_name">群組名稱</string>
   <!-- Picture selection confirmation -->
   <string name="confirmation_menu__confirm_done">確認</string>
   <string name="confirmation_menu__cancel">取消</string>
   <!-- ADD TO CONVERSATION offline -->
-  <string name="conversation__add_user__no_network__title">沒有互聯網連線</string>
-  <string name="conversation__add_user__no_network__message">您必須連線才能新增加參與者。當你重新連線時我們將再次嘗試。</string>
-  <string name="conversation__add_user__no_network__button">確認</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <string name="conversation__create_group_conversation__no_network__title">沒有互聯網連線</string>
-  <string name="conversation__create_group_conversation__no_network__message">您必須連線才能建立聊天室。其他人將在您重新連線時看到您新建立的聊天室。</string>
-  <string name="conversation__create_group_conversation__no_network__button">確認</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">確定離開聊天室？</string>
   <string name="confirmation_menu__meta_remove_text">您將無法發送至或接收此聊天室的訊息。</string>
-  <string name="confirmation_menu__confirm_leave">離開</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Remove from conversation dialogue -->
   <string name="confirmation_menu__header">確定移除？</string>
@@ -396,61 +296,31 @@
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">確定刪除內容？</string>
   <string name="confirmation_menu__meta_delete_text">這將清除所有設備上的會話歷史。</string>
-  <string name="confirmation_menu__confirm_delete">刪除</string>
-  <string name="confirmation_menu__delete_conversation__checkbox__label">並且離開聊天室</string>
   <!-- Rich media -->
   <string name="content__youtube__error__text">找不到該影片</string>
-  <string name="mediaplayer__artist__placeholder">曲目</string>
-  <string name="mediaplayer__artist__error">無法播放曲目</string>
   <string name="mediaplayer__message__onsoundcloud">打開SoundCloud</string>
   <string name="mediaplayer__message__onspotify">打開Spotify</string>
-  <string name="mediaplayer__spotify__hint">連結到Spotify</string>
-  <string name="mediaplayer__open_external">在瀏覽器中開啓</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">請大家告訴大家！</string>
-  <string name="content__invite_banner__subtitle">新增參與者或分享連結到此聊天室。</string>
-  <string name="content__invite_banner__howto_link">這是如何運作的？</string>
-  <string name="content__invite_banner__button_label">新增參與者到聊天室</string>
   <!-- Self profile -->
-  <string name="self_name">您的全名</string>
-  <string name="self_add_email">新增電子郵件\u0026密碼</string>
-  <string name="self_verify_email">驗證電子郵件</string>
-  <string name="self_add_phone">新增手機號碼</string>
-  <string name="self_verify_phone">驗證手機號碼</string>
   <!-- Options and settings -->
   <string name="settings_title">設定</string>
   <!-- Options menu -->
-  <string name="menu_settings">設定</string>
-  <string name="menu_avs_settings">AVS 的設定</string>
-  <string name="menu_about">關於</string>
-  <string name="menu_tutorial">功能介紹</string>
-  <string name="menu_help">說明</string>
-  <string name="menu_logout">登出</string>
   <!-- Manage Team -->
   <string name="pref_manage_team_title">管理團隊</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">隱私權原則</string>
-  <string name="about_third_party_licences">授權條款</string>
-  <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">使用條款</string>
-  <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">設定</string>
   <string name="pref_developer_screen_title">開發人員設定</string>
   <string name="pref_dev_avs_screen_title">AVS設定</string>
   <string name="pref_profile_screen_title">個人資料</string>
   <!-- Account -->
   <string name="pref_account_screen_title">帳號</string>
-  <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">名稱</string>
   <string name="pref_account_edit_name_title">編輯名稱</string>
   <string name="pref_account_details_category_title">資訊</string>
   <string name="pref_account_actions_category_title">操作</string>
-  <string name="pref_account_personal_category_title">個人信息</string>
   <string name="pref_account_appearance_category_title">外觀</string>
   <string name="pref_account_personal_information_category_title">個人資訊</string>
   <string name="pref_account_conversations_category_title">歷史</string>
-  <string name="pref_account_details_category_summary">其他使用者能透過這些資料搜尋到您。</string>
-  <string name="pref_account_personal_category_summary">其他人不能看到該信息</string>
   <string name="pref_account_username_title">使用者名稱</string>
   <string name="pref_account_phone_title">手機</string>
   <string name="pref_account_add_phone_title">新增手機號碼</string>
@@ -494,7 +364,6 @@
   <string name="pref_options_sounds_none">無</string>
   <string name="pref_options_vibration_title">震動</string>
   <string name="pref_options_vibration_title_o">鈴響時震動</string>
-  <string name="pref_options_sounds_category_title">訊息通知</string>
   <string name="pref_options_ringtones_category_title">音效</string>
   <string name="pref_options_ringtones_ringtone_title">鈴聲</string>
   <string name="pref_options_ringtones_text_title">訊息音效</string>
@@ -510,9 +379,6 @@
   <string name="pref_options_cursor_send_button_summary">關閉發送按鍵</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">設備</string>
-  <string name="pref_current_device_category_title">目前的設備</string>
-  <string name="pref_other_devices_category_title">已啟用的設備</string>
-  <string name="pref_devices_summary">點一下來刪除</string>
   <string name="pref_devices_current_device_category_title">目前的設備</string>
   <string name="pref_devices_other_devices_category_title">其他設備</string>
   <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
@@ -525,7 +391,6 @@
   <string name="pref_devices_device_fingerprint_category_title">指紋識別</string>
   <string name="pref_devices_device_fingerprint_summary">Wire為每個設備設置了一個獨特的指紋。您可以透過指紋比對來驗證您的設備和聊天室。</string>
   <string name="pref_devices_device_actions_category_title">操作</string>
-  <string name="pref_devices_device_trust_title">已驗證</string>
   <string name="pref_devices_device_reset_session_title">重設session</string>
   <string name="pref_devices_device_reset_session_summary">如果設備指紋比對結果不吻合，請重設session以產生兩方新的加密金鎖。</string>
   <string name="pref_devices_device_remove_title">移除設備</string>
@@ -536,8 +401,6 @@
   <string name="pref_advanced_screen_title">進階</string>
   <string name="pref_advanced_debug_report_title">提交錯誤報告</string>
   <string name="pref_advanced_debug_report_summary">這將協助Wire診斷問題。</string>
-  <string name="pref_advanced_analytics_title">使用資料和崩潰報告</string>
-  <string name="pref_advanced_analytics_summary">通過發送匿名資訊讓Wire變得更好。</string>
   <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">如果您有推送通知的問題，Wire客服可能會請您重設此token。</string>
   <string name="pref_advanced_reset_push_completed">推送token 已被重設</string>
@@ -587,68 +450,33 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">移除</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">您確定要將 %s 從您的Wire賬戶中刪除嗎？</string>
   <string name="pref__account_action__dialog__delete_phone__error">無法刪除電話號碼</string>
-  <string name="pref__account_action__dialog__delete_email__error">無法刪除電子郵件地址</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">您需要在線以刪除郵件地址</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">您需要在線以刪除電話號碼</string>
-  <string name="pref__account_action__dialog__change_email__error__invalid_email">請輸入有效的電子郵件</string>
   <string name="pref__account_action__dialog__change_email__title">編輯電子郵件地址</string>
-  <string name="pref__account_action__dialog__change_username__summary">其他人可以在不知道您的email地址或電話號碼的情況下，通過該用戶名在Wire上找到您。</string>
   <string name="pref__account_action__dialog__change_username__rules">至少要兩個字元，只可使用a到z、0到9或_</string>
   <string name="pref__account_action__dialog__change_username__title">使用者名稱</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">已經被用了</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">連接錯誤，請重試。</string>
   <!-- No Internet connection -->
   <string name="system_status__no_internet">沒有網路連線</string>
-  <string name="system_status__no_server_connection">正在連接...</string>
   <!-- SHARING -->
-  <string name="system_status__sharing">選擇聊天室</string>
   <string name="alert_dialog__confirmation">確認</string>
   <string name="alert_dialog__no_network__header">沒有網路連線</string>
-  <string name="sign_up__no_internet__message">您必須連線才能加入。檢查您的網路，然後重試。</string>
-  <string name="sign_in__no_internet__message">您必須連線才能登入。檢查您的網路，然後重試。</string>
-  <string name="sign_up__take_picture__back">編輯名稱</string>
-  <string name="sign_up__take_picture_dialog__gallery">圖片庫</string>
-  <string name="sign_up__take_picture_dialog__camera">相機</string>
-  <string name="sign_up__take_picture_dialog__message">拍攝新的照片或從您現有的圖片庫中選擇一張。</string>
-  <string name="sign_up__take_picture_dialog__title">拍攝照片</string>
   <string name="sign_up__set_picture__choose">自行選擇</string>
   <string name="sign_up__set_picture__keep">使用</string>
   <string name="sign_up__set_picture__guidance">有了圖片，Wire變得更生色。</string>
   <string name="sign_up__set_picture__loading">載入圖片</string>
-  <string name="rename_conversation__no_network__message">您必須連線才能重新命名聊天室。檢查您的網路，然後重試。</string>
-  <string name="resend_message__no_network__message">您必須連線才能重新發送訊息。檢查您的網路，然後重試。</string>
   <string name="leave_conversation_failed__message">您必須連線才能離開聊天室。檢查您的網路，然後重試。</string>
   <string name="remove_from_conversation__no_network__message">您必須連線才能從聊天室移除參與者。檢查您的網路，然後重試。</string>
   <string name="calling__call_drop__message">您必須連線才能使用通話。檢查您的網路，然後重試。</string>
-  <string name="profile_pic__no_network__message">您必須連線才能更改大頭照。檢查您的網路，然後重試。</string>
-  <string name="calling__voice_channel_full__title">此通話參與者已達上限</string>
-  <plurals name="calling__voice_channel_full__message">
-    <!-- should not happen though -->
-    <item quantity="other">只能允許%1$d位參與者</item>
-  </plurals>
-  <string name="calling__conversation_full__title">已超過群組通話限定人數</string>
-  <plurals name="calling__conversation_full__message">
-    <!-- should not happen though -->
-    <item quantity="other">通話功能最多支援%1$d位參與職的聊天室。</item>
-  </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">訊息</string>
   <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">打招呼</string>
   <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">背景通知</string>
   <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
   <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <string name="lockscreen__talk">來電中</string>
-  <plurals name="notification__new_messages">
-    <item quantity="other">收到了%2$s的一則訊息</item>
-  </plurals>
-  <plurals name="notification__new_messages_groups">
-    <item quantity="other">收到了%2$s的%1$d則訊息</item>
-  </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="other">%1$d 則新訊息在%2$s個聊天室</item>
   </plurals>
@@ -664,20 +492,11 @@
   <string name="notification__message__one_to_one__shared_video">分享了影片</string>
   <string name="notification__message__one_to_one__shared_audio">分享了語音訊息</string>
   <string name="notification__message__one_to_one__shared_location">分享了位置</string>
-  <string name="notification__message__one_to_one__liked">\u2764 您的訊息</string>
   <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__other">%1$s\u0020</string>
   <string name="notification__message__group__prefix__other">%1$s於%2$s\u0020</string>
-  <string name="notification__message__group__pinged">打了聲招呼</string>
-  <string name="notification__message__group__shared_picture">分享了一張圖片</string>
-  <string name="notification__message__group__shared_file">分享了檔案</string>
-  <string name="notification__message__group__shared_video">分享了影片</string>
-  <string name="notification__message__group__shared_audio">分享了語音訊息</string>
-  <string name="notification__message__group__shared_location">分享了位置</string>
   <string name="notification__message__group__renamed_conversation">聊天室被新命名為%1$s</string>
   <string name="notification__message__group__add">新增了參與者到聊天室</string>
   <string name="notification__message__group__remove">從到聊天室移除了參與者</string>
-  <string name="notification__message__generic__accept_request">您有一個新的連絡人</string>
   <string name="notification__message__single__accept_request">您和%1$s 已成為連絡人</string>
   <string name="notification__message__group__default_conversation_name">群組聊天室</string>
   <string name="notification__message__send_failed">訊息發送失敗</string>
@@ -686,10 +505,8 @@
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 您的訊息</string>
   <string name="notification__message__liked_picture">\u2764你的圖片</string>
-  <string name="notification__message__liked_file">\u2764你的檔案</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_someone">某人</string>
-  <string name="notification__message__ephemeral_details">點擊查看更多</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="other">您有 %1$d 則新訊息</item>
   </plurals>
@@ -706,16 +523,9 @@
     <item quantity="other">%1$s others</item>
   </plurals>
   <!-- System notifications -->
-  <string name="system_notification__group_call_title">%1$s於%2$s</string>
   <string name="system_notification__silence_call">拒絕通話</string>
   <string name="system_notification__join_call">接聽</string>
   <string name="system_notification__leave_call">結束通話</string>
-  <string name="system_notification__outgoing">撥號中</string>
-  <string name="system_notification__outgoing_video">撥號中</string>
-  <string name="system_notification__incoming">來電</string>
-  <string name="system_notification__incoming_video">Is calling with video</string>
-  <string name="system_notification__ongoing">通話中</string>
-  <string name="number_of_conversations_string">封存</string>
   <string name="system_notification__calling_one">呼叫中...</string>
   <string name="system_notification__calling_group">%1$s來電&#8230;</string>
   <string name="system_notification__video_calling_one">視訊通話中&#8230;</string>
@@ -737,7 +547,6 @@
   <string name="notification__image_saving__action__share">分享</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
   <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <string name="notification__file_saving__content__title">Wire檔案已儲存。</string>
   <!-- forced update -->
   <string name="forced_update__header">重要更新</string>
   <string name="forced_update__sub_header">請安裝最新版本的Wire。</string>
@@ -745,16 +554,9 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Sharing -->
   <string name="sharing__image_preview__confirm_action">發送</string>
-  <string name="sharing__image_preview__title__single">發送1張圖片到\n_%1$s_</string>
-  <string name="sharing__image_preview__title__multiple">發送 %1$s 張圖片 到\n_%2$s_</string>
   <string name="sharing__user_not_logged_in__dialog__title">請登入</string>
   <string name="sharing__user_not_logged_in__dialog__message">登入Wire，開始分享。</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">確認</string>
-  <string name="sharing__files__ok">分享</string>
-  <string name="sharing__files__cancel">取消</string>
-  <plurals name="sharing__files__message">
-    <item quantity="other">您將和%2$s分享 %1$d 個檔案。</item>
-  </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">無法建立</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">無法和%1$s建立聊天室</string>
@@ -764,24 +566,8 @@
   <string name="in_app_notification__sync_error__create_convo__button">繼續</string>
   <!--Timestamp formatting -->
   <string name="timestamp__just_now">剛剛</string>
-  <string name="timestamp__a_minute_ago">一分鐘前</string>
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="other">%1$d分鐘前</item>
-  </plurals>
-  <plurals name="timestamp__x_hours_ago">
-    <item quantity="other">%1$d小時前</item>
-  </plurals>
-  <plurals name="timestamp__x_days_ago">
-    <item quantity="other">%1$d天前</item>
-  </plurals>
-  <plurals name="timestamp__x_weeks_ago">
-    <item quantity="other">%1$d星期前</item>
-  </plurals>
-  <plurals name="timestamp__x_months_ago">
-    <item quantity="other">%1$d個月前</item>
-  </plurals>
-  <plurals name="timestamp__x_years_ago">
-    <item quantity="other">%1$d年前</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -793,25 +579,17 @@
   <!-- Example: MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d，YYYY，%1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- MONDAY -->
-  <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MARCH 2 -->
-  <string name="timestamp_pattern__separator_header__this_year">MMMM d</string>
   <!-- MARCH 2, 2015 -->
-  <string name="timestamp_pattern__separator_header__last_year">MMMM d YYYY</string>
-  <string name="timestamp_pattern__separator_header__today">今天</string>
-  <string name="timestamp_pattern__separator_header__yesterday">昨天</string>
   <!-- 23:15 -->
   <string name="timestamp_pattern__24h_format">HH:mm</string>
   <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="reg__phone_alert__button">確認</string>
   <string name="country">國家</string>
   <string name="register">註冊</string>
   <string name="password_placeholder">密碼</string>
   <string name="email_placeholder">電子郵件</string>
   <string name="name_placeholder">名稱</string>
-  <string name="registration_back">返回</string>
   <!-- Strings -->
   <string name="edit_phone_number">編輯手機號碼</string>
   <string name="i_have_an_account">登入</string>
@@ -823,10 +601,8 @@
   <string name="activation_code_info_manual">輸入我們發送到 \n&lt;b&gt;%s&lt;/b&gt;的驗證碼</string>
   <string name="enter_name">我們該怎麼稱呼您？</string>
   <string name="enter_name_hint">輸入全名</string>
-  <string name="set_a_picture">設置大頭照</string>
   <string name="new_reg__password__forgot">忘記密碼？</string>
   <string name="phone_sign_in">手機號碼</string>
-  <string name="go_to_register">新增帳號</string>
   <string name="email_sign_in">電子郵件</string>
   <string name="edit_email">編輯電子郵件</string>
   <string name="hello">您好，&lt;b&gt;%s&lt;/b&gt;</string>
@@ -835,8 +611,6 @@
   <string name="username__set__toast_error">變更用戶稱時出錯</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">搜尋Giphy</string>
-  <string name="giphy_preview__title_search">#%s</string>
-  <string name="giphy_preview__title_random">隨機</string>
   <string name="giphy_preview__error">找不到動畫。</string>
   <string name="giphy_preview__message_via_random_trending">來源 giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · 來源 giphy.com</string>
@@ -844,7 +618,6 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">點擊顏色來更改畫筆大小。\n\n搖晃手機可移除照片。</string>
   <string name="drawing__tip__message">點擊顏色更改畫筆大小。\n\n點擊不放開可填充整個區域。</string>
-  <string name="add_a_sketch">加入手繪</string>
   <string name="sketch__emoji_keyboard__size_label__small">小</string>
   <string name="sketch__emoji_keyboard__size_label__medium">中</string>
   <string name="sketch__emoji_keyboard__size_label__large">大</string>
@@ -868,8 +641,6 @@
   <string name="otr__remove_device__button_delete">確認</string>
   <string name="otr__remove_device__button_cancel">取消</string>
   <string name="otr__remove_device__error">錯誤的密碼</string>
-  <string name="otr__remove_device__button_approve">確認</string>
-  <string name="otr__remove_device__button_remove">移除</string>
   <string name="otr__error_dialog__cannot_register__message">使用此設備前請先移除一個您的其他設備。</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">管理設備</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">登出</string>
@@ -893,32 +664,18 @@
   <string name="otr__first_launch__header">這是您第一次在此設備使用Wire。</string>
   <string name="otr__first_launch__sub_header">基於隱私考慮，您的歷史聊天紀錄將不會被顯示。</string>
   <string name="otr__first_launch__button">確認</string>
-  <string name="otr__device_approve__header">您有新的設備連結到您的Wire帳號。</string>
-  <string name="otr__device_approve__note">如果您沒有新增該設備，請移除該設備且重設您的密碼。</string>
   <string name="otr__signin__info_text">登入</string>
   <string name="otr__reset_session__message_ok">Session已被重設</string>
   <string name="otr__reset_session__message_fail">無法重設session</string>
   <string name="otr__reset_session__button_ok">確認</string>
   <string name="otr__reset_session__button_fail">再試一次</string>
-  <string name="otr__remove_device__no_internet__title">沒有網路連線</string>
-  <string name="otr__remove_device__no_internet__message">下次上線時，試著移除該裝置。</string>
-  <string name="otr__remove_device__no_internet__button">確認</string>
-  <string name="otr__device_inbox__header">您的帳號被使用在:</string>
-  <string name="otr__device_inbox__name">從:[[%s]]</string>
   <string name="advanced_image_download_wifi_info">當您再次連接Wi-Fi時，這張圖片會再次顯示。</string>
   <string name="change_settings">更改設定</string>
-  <string name="single_image__save_to_disk__error">沒有儲存空間的使用權限，無法儲存圖像</string>
-  <string name="conversation_list__label_action__contacts">聯絡人</string>
-  <string name="conversation_list__hint_header">對話從這裡開始</string>
-  <string name="conversation_list__hint_text">開啟新的聊天室。盡情在個人或群組聊天室中傳達訊息、通話和分享。</string>
   <string name="conversation_list__action_join_call">加入</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">收藏</string>
   <string name="conversation_toolbar__call_video">視訊通話</string>
   <string name="conversation_toolbar__call_audio">語音通話</string>
-  <string name="conversation_toolbar__delete">刪除</string>
-  <string name="conversation_toolbar__copy">複製</string>
-  <string name="conversation_toolbar__fwd">分享</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">找不到該檔案</string>
   <string name="asset_upload_error__not_found__message">找不到指定的檔案</string>
@@ -930,17 +687,8 @@
   <string name="asset_upload_warning__large_file__title">您不在 Wi-fi上</string>
   <string name="asset_upload_warning__large_file__message_default">您確定要透過行動網路發送大檔案？</string>
   <string name="asset_upload_warning__large_file__message">您確定要透過行動網路發送%1$s？</string>
-  <string name="asset_upload_warning__large_file__button_accept">確認</string>
-  <string name="asset_upload_warning__large_file__button_cancel">取消</string>
   <!-- Video message errors -->
-  <string name="video_message_error__too_big__title">影片檔案太大</string>
-  <string name="video_message_error__too_big__message">您可以傳送25MB以下的影片。</string>
-  <string name="video_message_error__title">影像錯誤</string>
-  <string name="video_message_error__message">無法處理影像檔</string>
-  <string name="video_message_error__button">確認</string>
-  <string name="video_message_error__missing_camera_permissions">若您要傳送影像訊息，請先同意相機和媒體檔案的存取權限。</string>
   <string name="audio_message_error__missing_audio_permissions">若您要傳送語音訊息，請先同意錄製語音的存取權限。</string>
-  <string name="audio_message_error__generic">無法撥放語音</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">固定位元速率</string>
   <!-- no contacts -->
@@ -960,7 +708,6 @@
   <string name="tooltip_file">發送檔案</string>
   <string name="tooltip_gif">動態圖片</string>
   <string name="tooltip_mention">Add Mention</string>
-  <string name="new_feature">新</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">確定為自己刪除？</string>
   <string name="conversation__message_action__delete_for_everyone">確定為每個人刪除？</string>
@@ -974,9 +721,6 @@
   <string name="conversation__action_mode__fwd__dialog__message">請稍候&#8230;</string>
   <string name="conversation__action_mode__fwd__chooser__title">分享：</string>
   <!-- video message preview -->
-  <string name="video_message__preview__header">發送到%1$s</string>
-  <string name="video_message__quick_menu__send_label">發送</string>
-  <string name="video_message__preview__compressing">壓縮中...</string>
   <string name="audio_message__recording__slide_control__slide_hint">向上滑動來發送</string>
   <string name="audio_message__recording__slide_control__tap_hint">點擊來發送</string>
   <string name="audio_message__recording__tap_to_record">點擊來錄製語音訊息\n之後您可_GLYPH_該訊息</string>
@@ -996,7 +740,6 @@
   <string name="message_bottom_menu_action_delete">刪除</string>
   <string name="message_bottom_menu_action_delete_local">為自己刪除</string>
   <string name="message_bottom_menu_action_delete_global">為每個人刪除</string>
-  <string name="message_bottom_menu_action_forward_multiple">更多分享</string>
   <string name="message_bottom_menu_action_reveal">在對話中顯示</string>
   <string name="likes_list__header">被喜歡</string>
   <string name="message_bottom_menu_action_save_ok">相片已儲存</string>
@@ -1013,7 +756,6 @@
   <string name="usernames__take_over__summary">認領你在Wire的名稱ID._瞭解更多_</string>
   <string name="usernames__take_over__choose">自選</string>
   <string name="usernames__take_over__keep">使用這個</string>
-  <string name="pref_account_username_empty_title">添加使用者名稱</string>
   <string name="ephemeral_message__timeout__off">關閉</string>
   <string name="ephemeral_message__options_header">限時訊息</string>
   <string name="guests_option_on">開啟</string>
@@ -1037,17 +779,14 @@
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">剩餘 %1$s 又 %2$s </string>
   <string name="ephemeral_message_footer_single_unit">剩餘%1$s</string>
-  <string name="collection_header_all">收藏</string>
   <string name="collection_header_pictures">圖片</string>
   <string name="collection_header_files">檔案</string>
   <string name="collection_header_links">連結</string>
   <string name="collection_header_today">今天</string>
   <string name="collection_header_yesterday">昨天</string>
   <string name="collection_empty">空空如也...</string>
-  <string name="collection_send_to">發送給...</string>
   <string name="collection_all">顯示%1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">發送失敗。</string>
   <string name="multi_share_search_hint">發送給...</string>
   <string name="search__box__hint_text">搜索文字訊息</string>
   <string name="search__no_results">沒有結果。</string>
@@ -1085,11 +824,8 @@
   <string name="conversation_list__someone">某人</string>
   <string name="conversation_list__added">[[%1$s]]已加入</string>
   <string name="conversation_list__added_you">[[%1$s]] 新增了您</string>
-  <string name="conversation_list__left">[[%1$s]]離開了</string>
   <string name="conversation_list__left_you">您 離開了</string>
   <string name="conversation_list__removed_you">[[%1$s]] 移除了 您</string>
-  <string name="conversation_list__removed">[[%1$s]]被移除</string>
-  <string name="conversation_list__empty_conv__subtitle">所有人都已經離開了</string>
   <string name="conversation_list__header__title">對話</string>
   <string name="conversation_list__header__archive_title">封存</string>
   <string name="guest_indicator">訪客</string>
@@ -1127,7 +863,6 @@
   <string name="teams_verify_email_change">更改電子郵件地址</string>
   <string name="teams_set_name_title">您的名字</string>
   <string name="teams_set_name_hint">全名</string>
-  <string name="app_entry_slogan">保密每個人之通訊。</string>
   <string name="app_entry_create_account">個人信息</string>
   <string name="app_entry_create_account_sub">新增帳號</string>
   <string name="app_entry_create_team">專業版</string>
@@ -1154,17 +889,12 @@
   <string name="teams_invitations_skip">略過</string>
   <string name="teams_invitations_done">完成</string>
   <string name="teams_invitations_error_too_many">已達到邀請上限。</string>
-  <string name="teams_invitations_error_blacklisted_email">由於電郵不能送達或收到投訴，指定的電子郵件地址已列入黑名單。</string>
-  <string name="teams_invitations_error_no_identity">使用者沒有驗證身份資訊 (電子郵件或電話號碼)。</string>
-  <string name="teams_invitations_error_no_email">此操作要求使用者具有經過驗證的電子郵件地址。</string>
   <string name="teams_invitations_error_already_sent">已經傳送</string>
   <string name="teams_invitations_error_generic">出了點問題，請再試一次</string>
   <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
   <string name="teams_invitations_error_invalid_email">請輸入有效的電子郵件地址</string>
   <string name="teams_invitations_error_email_exists">此電子郵件地址已在使用中</string>
-  <string name="teams_invitations_error_email_exists_more">瞭解更多</string>
   <string name="teams_invitations_error_no_internet">無互聯網連接</string>
-  <string name="team_invitation_add_from_address_book">從位址薄添加</string>
   <string name="invitation_screen_title">建立您的團隊</string>
   <string name="invitation_screen_subtitle">邀請你的同事加入。</string>
   <string name="open_service_conversation_button_text">開啟對話</string>
@@ -1185,7 +915,6 @@
   <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
   <string name="new_conv_no_results">沒有找到</string>
   <string name="new_conv_no_contacts">No contacts</string>
-  <string name="create_group_search">搜索名稱</string>
   <string name="participants_divider_services">服務 (%1$s)</string>
   <string name="participants_divider_people">成員(%1$s)</string>
   <string name="group_name_hint">群組名</string>
@@ -1251,7 +980,6 @@
   <string name="video_paused">影像已暫停</string>
   <string name="calling_degraded_title">新裝置</string>
   <string name="call_info_text">最多300人可以加入群組對話。視像通話可用以你與另外3人。</string>
-  <string name="too_many_people_video_toast">視像通話僅能在4個人或以下的群組中使用。</string>
   <string name="markdown_link_dialog_title">瀏覽連結</string>
   <string name="markdown_link_dialog_message">這會帶你去\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">確認</string>

@@ -27,7 +27,6 @@
   <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
   <string name="too_many_attempts_header">Terlalu banyak upaya</string>
   <string name="login_later_message">Please try to log in later</string>
-  <string name="register_again_message">Please try to register again</string>
   <string name="email_exists_header">Alamat email sudah diambil</string>
   <string name="email_exists_message">Alamat email ini sudah terdaftar</string>
   <string name="email_invalid_header">Alamat email tidak valid</string>
@@ -45,8 +44,6 @@
   <string name="wrong_code_message">Harap masukkan kode yang valid</string>
   <string name="phone_pending_login_header">Kode Telah Dikirim</string>
   <string name="phone_pending_login_message">Kami telah mengirimi Anda kode melalui SMS. Ketuk Kirim Ulang setelah 10 menit untuk mendapatkan yang baru.</string>
-  <string name="password_invalid_header">Sandi tidak valid</string>
-  <string name="password_invalid_message">Harap verifikasi data Anda dan coba lagi</string>
   <string name="phone_budget_exhausted_header">Too many requests</string>
   <string name="phone_budget_exhausted_message">Silakan coba lagi nanti.</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -71,48 +68,16 @@
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">Your phone number</string>
   <!-- Receive email/sms invitation -->
-  <string name="invitation_email__normal_phone_signup_button">Daftar dengan nomor telepon</string>
-  <string name="invitation_email__normal_email_signup_button">Daftar dengan email lain</string>
-  <string name="invitation_email__password_placeholder">Sandi (min %1$s karakter.)</string>
-  <string name="invitation_email__welcome_header">Halo, %1$s.</string>
-  <string name="invitation_email__welcome_message">Pilih sandi untuk membuat akun Anda.</string>
-  <string name="invitation__continue_button">Lanjutkan</string>
-  <string name="invitation_phone__normal_phone_signup_button">Daftar dengan telepon lain</string>
-  <string name="invitation_phone__normal_email_signup_button">Daftar dengan email</string>
-  <string name="invitation_phone__welcome_header">Halo, %1$s.</string>
-  <string name="invitation_phone__welcome_message">Satu langkah lagi untuk membuat akun Anda.</string>
-  <string name="invitation__phone__failed">Tidak dapat mendaftar dengan undangan ini.</string>
-  <string name="invitation__email__failed">Tidak dapat mendaftar dengan undangan ini.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 SEARCH</string>
   <string name="pick_user_search_hint">SEARCH</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Orang Top</string>
-  <string name="people_picker__address_book_matches_title">Hubungkan</string>
   <string name="people_picker__search_result_conversations_header_title">Grup</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s Groups</string>
   <string name="people_picker__search_result_connections_header_title">Kontak</string>
   <string name="people_picker__search_result_others_header_title">Hubungkan</string>
-  <string name="people_picker__search_result_recommended_header_title">Direkomendasikan</string>
-  <string name="people_picker__search_result_contacts_header_title">Kontak</string>
-  <string name="people_picker__search_result_team_members_header_title">Team Members</string>
-  <string name="people_picker__invite_header_title">Undang</string>
-  <string name="people_picker__confirm_button_title">Buat percakapan</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">Tambahkan Orang ke Grup</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Buat grup</string>
-  <string name="people_picker__error_message__no_results">Tidak ada hasil yang cocok.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts">Temukan orang dengan nama atau alamat email</string>
-  <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Silakan masukkan alamat email yang valid atau</string>
-  <string name="people_picker__error_message__no_results__shared_contacts__add_to_conversation">Masukkan nama yang berbeda.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts__add_to_conversation">Masukkan nama yang berbeda.</string>
-  <string name="people_picker__error_message__no_results__send_invite">kirim\nundangan</string>
-  <string name="people_picker__error_message__no_users_to_add_to_conversation">Semua orang yang terhubung dengan Anda sudah dalam percakapan ini.</string>
-  <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Kami tidak dapat menemukan salah satu kontak Anda pada Wire. Masukkan nama lengkap atau alamat email.</string>
-  <string name="people_picker__toolbar_header__group">Tambah orang</string>
-  <string name="people_picker__toolbar_header__one_to_one">Buat grup</string>
   <string name="people_picker__search_result__expander_title">Show all %1$s ↓</string>
-  <string name="people_picker__guest_label">Tamu</string>
   <string name="people_picker__search_people">PEOPLE</string>
   <string name="people_picker__search_services">SERVICES</string>
   <string name="receive_news_and_offers_request_title">Newsletter</string>
@@ -123,9 +88,6 @@
   <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Layanan</string>
-  <string name="integrations_picker__add">Add Service</string>
-  <string name="integrations_conv_bot">Bot</string>
-  <string name="integrations_chathead__section_title">Layanan</string>
   <string name="integrations_errors_add_service">Adding service not possible</string>
   <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
   <string name="conversation_errors_full">The conversation is full</string>
@@ -135,51 +97,24 @@
   <string name="people_picker__share_contacts__yay">Allow</string>
   <string name="people_picker__share_contacts__nah">Deny</string>
   <string name="people_picker__share_contacts__nevvah">Never ask again</string>
-  <!-- People you may know -->
-  <string name="people_picker__recommended__common_connections__one">Mengetahui %1$s</string>
-  <string name="people_picker__recommended__common_connections__two">Mengetahui %1$s dan %2$s</string>
-  <plurals name="people_picker__recommended__common_connections__more">
-    <item quantity="other">Mengetahui %1$s, %2$d, dan lainnya</item>
-  </plurals>
-  <string name="people_picker__recommended__common_connections__hide">SEMBUNYIKAN</string>
   <!-- Invite -->
-  <string name="people_picker__invite__share_details_label">Kirim undangan</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Bagikan Wire dengan teman Anda.</string>
   <string name="people_picker__invite__share_text__header">%1$s ingin terhubung pada Wire</string>
   <string name="people_picker__invite__share_text__body">I\'m on Wire, search for %1$s or visit get.wire.com</string>
-  <string name="people_picker__invite__message">Hai, \nTerima kasih undangannya. Mari kita terhubung. \n%1$s</string>
-  <string name="people_picker__invite__sent_feedback">Undangan terkirim</string>
-  <string name="people_picker__contact_list__user_selection_button__label">BUKA</string>
-  <string name="people_picker__contact_list__user_adding_button__label">TAMBAHKAN</string>
-  <string name="people_picker__contact_list__contact_selection_button__label">UNDANG</string>
-  <string name="people_picker__contact_list__invite_dialog__title">Kirim undangan</string>
-  <string name="people_picker__contact_list__searchbox__hint">\u0020 Cari dengan nama</string>
-  <string name="people_picker__generic_invite_button_text">Invite People to Join Wire</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="other">%1$d orang yang sama</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s in Contacts</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">di Kontak</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">BUKA</string>
-  <string name="conversation_quick_menu__conversation_button__group_label">BUAT GRUP</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_joined">[[%1$s]] joined</string>
   <string name="content__system__you_joined">[[You]] joined</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
   <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
-  <string name="content__system__message_deleted">Pesan ini telah dihapus</string>
-  <string name="content_system_message_timestamp_failure">Pesan yang belum terkirim.</string>
-  <string name="content_system_message_timestamp_pending">Mengirim\u2026</string>
-  <string name="content_system_message_timestamp_deleted">Dihapus pada %1$s</string>
   <!-- Add people -->
   <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
   <plurals name="content__system__someone_added_people_with_others">
     <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
   </plurals>
   <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
-  <string name="content__system__someone_added_people_and_you">[[%1$s]] added %2$s and you to the conversation</string>
   <plurals name="content__system__someone_added_people_and_you_with_others">
     <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
   </plurals>
@@ -196,8 +131,6 @@
   <!-- Create conversation -->
   <string name="content__system__you_started_conversation">You started the conversation</string>
   <string name="content__system__other_started_conversation">%1$s started the conversation</string>
-  <string name="content__system__you_started_one">[[Anda]] memulai percakapan dengan %2$s</string>
-  <string name="content__system__other_started_one">[[%1$s]] memulai percakapan dengan Anda</string>
   <string name="content__system__with_you_only">with you</string>
   <string name="content__system__with_list_only">with %1$s</string>
   <plurals name="content__system__with_others_only">
@@ -213,8 +146,6 @@
   <string name="content__you_pinged">[[ANDA]] DIPING</string>
   <string name="content__xxx_pinged">[[%1$s]] ME-PING</string>
   <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__conversation_verified">Percakapan diverifikasi</string>
-  <string name="content__otr__conversation_unverified">Percakapan tidak diverifikasi</string>
   <string name="content__otr__message_error">PESAN DARI [[%1$s]] TIDAK DITERIMA. _KENAPA?_</string>
   <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">IDENTITAS PERANGKAT [[%1$s]] BERUBAH. PESAN TIDAK TERKIRIM. _PELAJARI LEBIH LANJUT_</string>
@@ -250,13 +181,11 @@
   <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · UPLOAD FAILED</string>
   <string name="content__file__action__open">BUKA</string>
   <string name="content__file__action__save">SIMPAN</string>
-  <string name="content__file__action__share">BAGIKAN</string>
   <string name="content__file__action__open__no_app_found">App untuk membuka jenis berkas ini tidak ditemukan</string>
   <string name="content__file__action__save_completed">Berkas berhasil disimpan</string>
   <string name="content__file__action__save_error">Tidak dapat menyimpan berkas</string>
   <string name="content__location__no_map_placeholder">LOKASI AKAN MUNCUL DI PETA KETIKA ANDA KEMBALI ONLINE.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">Ganti nama</string>
   <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Arsip</string>
   <string name="conversation__action__unarchive">Batalkan arsip</string>
@@ -266,7 +195,6 @@
   <string name="conversation__action__silence">Diamkan</string>
   <string name="conversation__action__unsilence">Bersuara</string>
   <string name="conversation__action__leave">Leave group&#8230;</string>
-  <string name="conversation__action__remove">Hapus</string>
   <string name="conversation__action__call">Panggil</string>
   <string name="conversation__action__picture">Gambar</string>
   <string name="conversation__action__block">Block&#8230;</string>
@@ -280,10 +208,6 @@
   <string name="conversation__action__notifications_nothing">Nothing</string>
   <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
-  <string name="popover__action__open">BUKA</string>
-  <string name="popover__action__remove">HAPUS</string>
-  <string name="popover__action__block">BLOKIR</string>
-  <string name="popover__action__profile">PROFIL</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Internet lambat</string>
   <string name="calling__slow_connection__message">Koneksi Internet Anda terlalu lambat untuk memanggil sekarang. Silakan coba lagi nanti.</string>
@@ -292,19 +216,12 @@
   <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
   <string name="calling__cannot_start__cancel__message">BATAL</string>
   <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
-  <string name="calling__cannot_start__ongoing_different_kind__title">%1$s sedang sibuk</string>
-  <string name="calling__cannot_start__ongoing_different_kind__message">Coba lagi nanti</string>
-  <string name="calling__cannot_start__button_settings">PENGATURAN</string>
   <string name="calling__video_call__slow_connection__message">Anda mungkin mengalami masalah selama panggilan</string>
-  <string name="incoming__controls__incoming__decline">TOLAK</string>
-  <string name="incoming__controls__incoming__accept">TERIMA</string>
-  <string name="incoming__controls__ongoing__hangup">TUTUP</string>
   <string name="incoming__controls__ongoing__speaker">SPEAKER</string>
   <string name="incoming__controls__ongoing__mute">SENYAP</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
   <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">VIDEO BERHENTI KARENA KONEKSI BURUK</string>
-  <string name="calling__self_preview_unavailable">VIDEO MATI</string>
   <string name="calling__self_preview_unavailable_long">KAMERA TIDAK TERSEDIA</string>
   <string name="calling__header__joining">Menghubungkan&#8230;</string>
   <string name="calling__header__outgoing_subtitle">Berdering&#8230;</string>
@@ -331,9 +248,6 @@
   <string name="group_calling_confirm">Panggil</string>
   <!-- Connect request -->
   <string name="connect__message">Hai %1$s, \nMari terhubung pada Wire.\n%2$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="other">%1$d orang yang sama</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">Tertunda</string>
   <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
   <string name="connect_request__unblock__button__text">Buka blokir</string>
@@ -353,34 +267,20 @@
   <plurals name="conversation__degraded_confirmation__message">
     <item quantity="other">Apakah Anda tetap ingin mengirim pesan Anda?</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Do you want to accept the call?</string>
-  <string name="conversation__degraded_confirmation__place_call">Apakah Anda masih ingin menelepon?</string>
   <string name="conversation__degraded_confirmation__positive_action">Kirim saja</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="other">Tunjukkan orang-orang</item>
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Show your devices</string>
   <string name="conversation_degraded_confirmation__header__you">Kamu</string>
-  <!-- Profile and Participants -->
-  <plurals name="participants__sub_header_xx_people">
-    <item quantity="other">%1$d ORANG</item>
-  </plurals>
-  <string name="group_name">Nama grup</string>
   <!-- Picture selection confirmation -->
   <string name="confirmation_menu__confirm_done">OK</string>
   <string name="confirmation_menu__cancel">BATAL</string>
   <!-- ADD TO CONVERSATION offline -->
-  <string name="conversation__add_user__no_network__title">Tidak Ada Koneksi Internet</string>
-  <string name="conversation__add_user__no_network__message">Anda harus online untuk menambah orang. Kami akan mencoba kembali ketika Anda kembali online.</string>
-  <string name="conversation__add_user__no_network__button">OK</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <string name="conversation__create_group_conversation__no_network__title">Tidak Ada Koneksi Internet</string>
-  <string name="conversation__create_group_conversation__no_network__message">Anda harus online untuk membuat percakapan. Orang lain akan melihat perubahan Anda ketika Anda kembali online.</string>
-  <string name="conversation__create_group_conversation__no_network__button">OK</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">Keluar dari pecakapan?</string>
   <string name="confirmation_menu__meta_remove_text">Anda tidak dapat mengirim atau menerima pesan dalam percakapan ini.</string>
-  <string name="confirmation_menu__confirm_leave">KELUAR</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Remove from conversation dialogue -->
   <string name="confirmation_menu__header">Hapus?</string>
@@ -396,61 +296,31 @@
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Hapus konten?</string>
   <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
-  <string name="confirmation_menu__confirm_delete">HAPUS</string>
-  <string name="confirmation_menu__delete_conversation__checkbox__label">Juga keluar dari percakapan</string>
   <!-- Rich media -->
   <string name="content__youtube__error__text">video tidak ditemukan</string>
-  <string name="mediaplayer__artist__placeholder">Lagu</string>
-  <string name="mediaplayer__artist__error">Lagu tidak tersedia</string>
   <string name="mediaplayer__message__onsoundcloud">on SoundCloud</string>
   <string name="mediaplayer__message__onspotify">on Spotify</string>
-  <string name="mediaplayer__spotify__hint">Terhubung dengan Spotify</string>
-  <string name="mediaplayer__open_external">Buka di peramban</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">SEBARKAN KATA!</string>
-  <string name="content__invite_banner__subtitle">Tambah orang atau bagikan tautan ke percakapan ini.</string>
-  <string name="content__invite_banner__howto_link">Bagaimana ini bekerja?</string>
-  <string name="content__invite_banner__button_label">Tambah orang ke percakapan ini</string>
   <!-- Self profile -->
-  <string name="self_name">Nama lengkap Anda</string>
-  <string name="self_add_email">Tambah email \u0026 password</string>
-  <string name="self_verify_email">Verifikasi email</string>
-  <string name="self_add_phone">Tambah nomor telepon</string>
-  <string name="self_verify_phone">Verifikasi nomor telepon</string>
   <!-- Options and settings -->
   <string name="settings_title">Pengaturan</string>
   <!-- Options menu -->
-  <string name="menu_settings">PENGATURAN</string>
-  <string name="menu_avs_settings">PENGATURAN AVS</string>
-  <string name="menu_about">TENTANG</string>
-  <string name="menu_tutorial">TUTORIAL</string>
-  <string name="menu_help">BANTUAN</string>
-  <string name="menu_logout">KELUAR</string>
   <!-- Manage Team -->
   <string name="pref_manage_team_title">Kelola Tim</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">Kebijakan Privasi</string>
-  <string name="about_third_party_licences">Lisensi</string>
-  <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">Aturan Penggunaan</string>
-  <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Pengaturan</string>
   <string name="pref_developer_screen_title">Pengaturan Pengembang</string>
   <string name="pref_dev_avs_screen_title">Pengaturan AVS</string>
   <string name="pref_profile_screen_title">Profil</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Akun</string>
-  <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Nama</string>
   <string name="pref_account_edit_name_title">Ubah nama</string>
   <string name="pref_account_details_category_title">Info</string>
   <string name="pref_account_actions_category_title">Tindakan</string>
-  <string name="pref_account_personal_category_title">Pribadi</string>
   <string name="pref_account_appearance_category_title">Tampilan</string>
   <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">History</string>
-  <string name="pref_account_details_category_summary">Orang-orang dapat menemukan Anda dengan detil ini.</string>
-  <string name="pref_account_personal_category_summary">Informasi ini tidak dapat dilihat oleh orang lain</string>
   <string name="pref_account_username_title">Username</string>
   <string name="pref_account_phone_title">Telepon</string>
   <string name="pref_account_add_phone_title">Tambah nomor telepon</string>
@@ -494,7 +364,6 @@
   <string name="pref_options_sounds_none">Tidak ada</string>
   <string name="pref_options_vibration_title">Getaran</string>
   <string name="pref_options_vibration_title_o">Vibrate on ring</string>
-  <string name="pref_options_sounds_category_title">Peringatan</string>
   <string name="pref_options_ringtones_category_title">Suara</string>
   <string name="pref_options_ringtones_ringtone_title">Nada dering</string>
   <string name="pref_options_ringtones_text_title">Nada teks</string>
@@ -510,9 +379,6 @@
   <string name="pref_options_cursor_send_button_summary">Tidak dapat mengirim melalui papan teks.</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Perangkat</string>
-  <string name="pref_current_device_category_title">Perangkat saat ini</string>
-  <string name="pref_other_devices_category_title">Perangkat aktif</string>
-  <string name="pref_devices_summary">Ketuk untuk menghapus</string>
   <string name="pref_devices_current_device_category_title">Perangkat Saat Ini</string>
   <string name="pref_devices_other_devices_category_title">Perangkat lainnya</string>
   <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
@@ -525,7 +391,6 @@
   <string name="pref_devices_device_fingerprint_category_title">Kunci Sidik Jari</string>
   <string name="pref_devices_device_fingerprint_summary">Wire memberikan setiap perangkat sidik jari yang unik. Bandingkan dan verifikasi perangkat dan percakapan Anda.</string>
   <string name="pref_devices_device_actions_category_title">Tindakan</string>
-  <string name="pref_devices_device_trust_title">Terverifikasi</string>
   <string name="pref_devices_device_reset_session_title">Ulangi sesi</string>
   <string name="pref_devices_device_reset_session_summary">Jika sidik jari tidak cocok, ulangi sesi untuk membuat enkripsi batu di kedua sisi.</string>
   <string name="pref_devices_device_remove_title">Hapus perangkat</string>
@@ -536,8 +401,6 @@
   <string name="pref_advanced_screen_title">Lanjutan</string>
   <string name="pref_advanced_debug_report_title">Kirim laporan debug</string>
   <string name="pref_advanced_debug_report_summary">Ini membantu Wire mendiagnosis masalah.</string>
-  <string name="pref_advanced_analytics_title">Laporan penggunaan data dan kerusakan</string>
-  <string name="pref_advanced_analytics_summary">Buat Wire lebih baik dengan mengirim informasi anonim.</string>
   <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">Jika Anda mengalami masalah dengan notifikasi push, Dukungan Kawat mungkin meminta Anda menyetel ulang token ini.</string>
   <string name="pref_advanced_reset_push_completed">Push token telah diatur ulang</string>
@@ -587,68 +450,33 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Hapus</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Are you sure you want to remove %s from your Wire account?</string>
   <string name="pref__account_action__dialog__delete_phone__error">Unable to delete phone number</string>
-  <string name="pref__account_action__dialog__delete_email__error">Unable to delete email</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">You need to be online to delete email</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">You need to be online to delete phone</string>
-  <string name="pref__account_action__dialog__change_email__error__invalid_email">Masukkan email yang valid</string>
   <string name="pref__account_action__dialog__change_email__title">Ubah alamat email</string>
-  <string name="pref__account_action__dialog__change_username__summary">Dengan username, orang akan dapat mencari Anda pada Wire tanpa mengetahui alamat email dan nomor telepon.</string>
   <string name="pref__account_action__dialog__change_username__rules">Minimal 2 karakter. Hanya a-z, 0-9, dan _</string>
   <string name="pref__account_action__dialog__change_username__title">Username</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">Telah diambil</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Sambungan gagal, silakan ulangi</string>
   <!-- No Internet connection -->
   <string name="system_status__no_internet">TIDAK ADA INTERNET</string>
-  <string name="system_status__no_server_connection">MENGHUBUNGKAN&#8230;</string>
   <!-- SHARING -->
-  <string name="system_status__sharing">PILIH PERCAKAPAN</string>
   <string name="alert_dialog__confirmation">OK</string>
   <string name="alert_dialog__no_network__header">Tidak Ada Koneksi Internet</string>
-  <string name="sign_up__no_internet__message">Anda harus online untuk bergabung. Cek koneksi Anda dan coba lagi.</string>
-  <string name="sign_in__no_internet__message">Anda harus online untuk masuk. Cek koneksi Anda dan coba lagi.</string>
-  <string name="sign_up__take_picture__back">Ubah nama</string>
-  <string name="sign_up__take_picture_dialog__gallery">Galeri</string>
-  <string name="sign_up__take_picture_dialog__camera">Kamera</string>
-  <string name="sign_up__take_picture_dialog__message">Ambil foto baru atau pilih salah satu dari galeri foto Anda yang telah ada.</string>
-  <string name="sign_up__take_picture_dialog__title">Ambil Gambar</string>
   <string name="sign_up__set_picture__choose">Pilih milik Anda</string>
   <string name="sign_up__set_picture__keep">Jaga yang satu ini</string>
   <string name="sign_up__set_picture__guidance">Wire lebih baik dengan gambar.</string>
   <string name="sign_up__set_picture__loading">Memuat foto</string>
-  <string name="rename_conversation__no_network__message">Anda harus online untuk mengubah nama percakapan. Cek koneksi Anda dan coba lagi.</string>
-  <string name="resend_message__no_network__message">Anda harus online untuk mengirim ulang pesan. Cek koneksi Anda dan coba lagi.</string>
   <string name="leave_conversation_failed__message">Anda harus online untuk keluar dari percakapan. Cek koneksi Anda dan coba lagi.</string>
   <string name="remove_from_conversation__no_network__message">Anda harus online untuk menghapus orang dari percakapan. Cek koneksi Anda dan coba lagi.</string>
   <string name="calling__call_drop__message">Anda harus online untuk memanggil. Cek koneksi Anda dan coba lagi.</string>
-  <string name="profile_pic__no_network__message">Anda harus online untuk mengubah gambar. Cek koneksi Anda dan coba lagi.</string>
-  <string name="calling__voice_channel_full__title">Panggilan sudah penuh</string>
-  <plurals name="calling__voice_channel_full__message">
-    <!-- should not happen though -->
-    <item quantity="other">Hanya ada kamar untuk %1$d orang di sini.</item>
-  </plurals>
-  <string name="calling__conversation_full__title">Terlalu banyak orang untuk memanggil</string>
-  <plurals name="calling__conversation_full__message">
-    <!-- should not happen though -->
-    <item quantity="other">Panggilan dalam percakapan dapat dilakukan hingga %1$d orang.</item>
-  </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Pesan</string>
   <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Pings</string>
   <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Background notifications</string>
   <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
   <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <string name="lockscreen__talk">SEDANG MEMANGGIL</string>
-  <plurals name="notification__new_messages">
-    <item quantity="other">%1$d pesan dari %2$s</item>
-  </plurals>
-  <plurals name="notification__new_messages_groups">
-    <item quantity="other">%1$d pesan dalam %2$s</item>
-  </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="other">%1$d pesan dalam %2$s percakapan</item>
   </plurals>
@@ -664,20 +492,11 @@
   <string name="notification__message__one_to_one__shared_video">Membagikan video</string>
   <string name="notification__message__one_to_one__shared_audio">Membagikan pesan suara</string>
   <string name="notification__message__one_to_one__shared_location">Membagikan lokasi</string>
-  <string name="notification__message__one_to_one__liked">\u2764 pesan Anda</string>
   <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s dalam %2$s \u0020</string>
-  <string name="notification__message__group__pinged">diping</string>
-  <string name="notification__message__group__shared_picture">membagikan gambar</string>
-  <string name="notification__message__group__shared_file">membagikan berkas</string>
-  <string name="notification__message__group__shared_video">membagikan video</string>
-  <string name="notification__message__group__shared_audio">membagikan pesan suara</string>
-  <string name="notification__message__group__shared_location">membagikan lokasi</string>
   <string name="notification__message__group__renamed_conversation">mengubah nama percakapan menjadi %1$s</string>
   <string name="notification__message__group__add">menambah orang ke percakapan</string>
   <string name="notification__message__group__remove">menghapus orang dari percakapan</string>
-  <string name="notification__message__generic__accept_request">Anda memiliki koneksi baru</string>
   <string name="notification__message__single__accept_request">You and %1$s are now connected</string>
   <string name="notification__message__group__default_conversation_name">percakapan grup</string>
   <string name="notification__message__send_failed">Message failed to send</string>
@@ -686,10 +505,8 @@
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 pesan Anda</string>
   <string name="notification__message__liked_picture">\u2764 your picture</string>
-  <string name="notification__message__liked_file">\u2764 your file</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_someone">Seseorang</string>
-  <string name="notification__message__ephemeral_details">Tekan untuk lebih lanjut</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="other">Seseorang mengirimi Anda %1$d pesan</item>
   </plurals>
@@ -706,16 +523,9 @@
     <item quantity="other">%1$s others</item>
   </plurals>
   <!-- System notifications -->
-  <string name="system_notification__group_call_title">%1$s dalam %2$s</string>
   <string name="system_notification__silence_call">Tolak</string>
   <string name="system_notification__join_call">Terima</string>
   <string name="system_notification__leave_call">Akhiri panggilan</string>
-  <string name="system_notification__outgoing">Memanggil</string>
-  <string name="system_notification__outgoing_video">Panggilan video</string>
-  <string name="system_notification__incoming">Memanggil</string>
-  <string name="system_notification__incoming_video">Is calling with video</string>
-  <string name="system_notification__ongoing">Dalam panggilan</string>
-  <string name="number_of_conversations_string">ARSIP</string>
   <string name="system_notification__calling_one">Memanggil&#8230;</string>
   <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
@@ -737,7 +547,6 @@
   <string name="notification__image_saving__action__share">Bagikan</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
   <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <string name="notification__file_saving__content__title">Berkas Wire disimpan.</string>
   <!-- forced update -->
   <string name="forced_update__header">Pembaruan penting</string>
   <string name="forced_update__sub_header">Silakan pasang Wire versi terbaru.</string>
@@ -745,16 +554,9 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Sharing -->
   <string name="sharing__image_preview__confirm_action">KIRIM</string>
-  <string name="sharing__image_preview__title__single">MENGIRIM 1 GAMBAR KE\n_%1$s_</string>
-  <string name="sharing__image_preview__title__multiple">MENGIRIM %1$s GAMBAR KE\n_%2$s_</string>
   <string name="sharing__user_not_logged_in__dialog__title">Silakan masuk</string>
   <string name="sharing__user_not_logged_in__dialog__message">Buka Wire dan masuk untuk berbagi.</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
-  <string name="sharing__files__ok">Bagikan</string>
-  <string name="sharing__files__cancel">Batal</string>
-  <plurals name="sharing__files__message">
-    <item quantity="other">Anda akan berbagi %1$d berkas dengan %2$s.</item>
-  </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">Tidak dapat membuat</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">Tidak dapat membuat percakapan dengan %1$s</string>
@@ -764,24 +566,8 @@
   <string name="in_app_notification__sync_error__create_convo__button">Lanjutkan</string>
   <!--Timestamp formatting -->
   <string name="timestamp__just_now">Sekarang</string>
-  <string name="timestamp__a_minute_ago">Satu menit yang lalu</string>
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="other">%1$d menit yang lalu</item>
-  </plurals>
-  <plurals name="timestamp__x_hours_ago">
-    <item quantity="other">%1$d jam yang lalu</item>
-  </plurals>
-  <plurals name="timestamp__x_days_ago">
-    <item quantity="other">%1$d hari yang lalu</item>
-  </plurals>
-  <plurals name="timestamp__x_weeks_ago">
-    <item quantity="other">%1$d pekan yang lalu</item>
-  </plurals>
-  <plurals name="timestamp__x_months_ago">
-    <item quantity="other">%1$d bulan yang lalu</item>
-  </plurals>
-  <plurals name="timestamp__x_years_ago">
-    <item quantity="other">%1$d tahun yang lalu</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -793,25 +579,17 @@
   <!-- Example: MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- MONDAY -->
-  <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MARCH 2 -->
-  <string name="timestamp_pattern__separator_header__this_year">MMMM d</string>
   <!-- MARCH 2, 2015 -->
-  <string name="timestamp_pattern__separator_header__last_year">MMMM d, YYYY</string>
-  <string name="timestamp_pattern__separator_header__today">Hari ini</string>
-  <string name="timestamp_pattern__separator_header__yesterday">Kemarin</string>
   <!-- 23:15 -->
   <string name="timestamp_pattern__24h_format">HH:mm</string>
   <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="reg__phone_alert__button">OK</string>
   <string name="country">Negara</string>
   <string name="register">Daftar</string>
   <string name="password_placeholder">Kata sandi</string>
   <string name="email_placeholder">Email</string>
   <string name="name_placeholder">Nama</string>
-  <string name="registration_back">Kembali</string>
   <!-- Strings -->
   <string name="edit_phone_number">UBAH NOMOR TELEPON</string>
   <string name="i_have_an_account">MASUK</string>
@@ -823,10 +601,8 @@
   <string name="activation_code_info_manual">Masukkan kode verifikasi yang kami kirim ke \n&lt;b&gt;%s&lt;/b&gt;</string>
   <string name="enter_name">Apakah kami harus memanggil Anda?</string>
   <string name="enter_name_hint">Masukkan Nama Lengkap</string>
-  <string name="set_a_picture">Atur Gambar</string>
   <string name="new_reg__password__forgot">Lupa Sandi?</string>
   <string name="phone_sign_in">Telepon</string>
-  <string name="go_to_register">Buat Akun</string>
   <string name="email_sign_in">Email</string>
   <string name="edit_email">Ubah Email</string>
   <string name="hello">Halo, &lt;b&gt;%s&lt;/b&gt;</string>
@@ -835,8 +611,6 @@
   <string name="username__set__toast_error">Gagal memperbarui username</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Cari Giphy</string>
-  <string name="giphy_preview__title_search">#%s</string>
-  <string name="giphy_preview__title_random">ACAK</string>
   <string name="giphy_preview__error">GIF TIDAK DITEMUKAN.</string>
   <string name="giphy_preview__message_via_random_trending">Via giphy.com</string>
   <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
@@ -844,7 +618,6 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">KETUK WARNA UNTUK MENGUBAH UKURAN KUAS.\n\nGOYANG UNTUK MENGHAPUS FOTO.</string>
   <string name="drawing__tip__message">KETUK WARNA UNTUK MENGUBAH UKURAN KUAS.\n\nTEKAN DAN TAHAN UNTUK MENGISI AREA.</string>
-  <string name="add_a_sketch">Tambah sketsa</string>
   <string name="sketch__emoji_keyboard__size_label__small">KECIL</string>
   <string name="sketch__emoji_keyboard__size_label__medium">SEDANG</string>
   <string name="sketch__emoji_keyboard__size_label__large">BESAR</string>
@@ -868,8 +641,6 @@
   <string name="otr__remove_device__button_delete">OK</string>
   <string name="otr__remove_device__button_cancel">Batal</string>
   <string name="otr__remove_device__error">Sandi salah</string>
-  <string name="otr__remove_device__button_approve">OK</string>
-  <string name="otr__remove_device__button_remove">Hapus</string>
   <string name="otr__error_dialog__cannot_register__message">Hapus salah satu perangkat Anda untuk mulai menggunakan Wire pada perangkat ini.</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Kelola perangkat</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Keluar</string>
@@ -893,32 +664,18 @@
   <string name="otr__first_launch__header">Ini pertama kalinya Anda menggunakan Wire pada perangkat ini.</string>
   <string name="otr__first_launch__sub_header">Untuk alasan privasi, riwayat percakapan Anda tidak muncul di sini.</string>
   <string name="otr__first_launch__button">OK</string>
-  <string name="otr__device_approve__header">Anda telah menghubungkan perangkat ke akun Wire Anda.</string>
-  <string name="otr__device_approve__note">Jika Anda tidak melakukan ini, hapus perangkat dan buat ulang sandi Anda.</string>
   <string name="otr__signin__info_text">Masuk</string>
   <string name="otr__reset_session__message_ok">Sesi telah diulang</string>
   <string name="otr__reset_session__message_fail">Tidak dapat mengulang sesi</string>
   <string name="otr__reset_session__button_ok">OK</string>
   <string name="otr__reset_session__button_fail">Coba lagi</string>
-  <string name="otr__remove_device__no_internet__title">Tidak ada internet</string>
-  <string name="otr__remove_device__no_internet__message">Coba hapus perangkat ketika Anda online lagi.</string>
-  <string name="otr__remove_device__no_internet__button">OK</string>
-  <string name="otr__device_inbox__header">Akun Anda digunakan di:</string>
-  <string name="otr__device_inbox__name">Dari: [[%s]]</string>
   <string name="advanced_image_download_wifi_info">The picture will appear when you are on Wi-Fi again</string>
   <string name="change_settings">Ubah Pengaturan</string>
-  <string name="single_image__save_to_disk__error">Tidak dapat menyimpan gambar, tidak ada akses ke penyimpanan eksternal</string>
-  <string name="conversation_list__label_action__contacts">PEOPLE</string>
-  <string name="conversation_list__hint_header">Percakapan dimulai di sini</string>
-  <string name="conversation_list__hint_text">Mulai percakapan . Panggil, pesan dan bagikan secara pribadi atau dengan kelompok.</string>
   <string name="conversation_list__action_join_call">GABUNG</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Collection</string>
   <string name="conversation_toolbar__call_video">Panggilan video</string>
   <string name="conversation_toolbar__call_audio">Panggilan suara</string>
-  <string name="conversation_toolbar__delete">Hapus</string>
-  <string name="conversation_toolbar__copy">Salin</string>
-  <string name="conversation_toolbar__fwd">Bagikan</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Berkas tidak ditemukan</string>
   <string name="asset_upload_error__not_found__message">Tidak dapat menerima berkas yang ditentukan</string>
@@ -930,17 +687,8 @@
   <string name="asset_upload_warning__large_file__title">Anda tidak terhubung dengan Wi-Fi</string>
   <string name="asset_upload_warning__large_file__message_default">Apakah Anda yakin mengirim berkas berukuran besar melalui jaringan ponsel?</string>
   <string name="asset_upload_warning__large_file__message">Apakah Anda yakin mengirim %1$s melalui jaringan ponsel?</string>
-  <string name="asset_upload_warning__large_file__button_accept">OK</string>
-  <string name="asset_upload_warning__large_file__button_cancel">Batal</string>
   <!-- Video message errors -->
-  <string name="video_message_error__too_big__title">Video terlalu besar</string>
-  <string name="video_message_error__too_big__message">Anda dapat mengirim video hingga 25 MB.</string>
-  <string name="video_message_error__title">Video error</string>
-  <string name="video_message_error__message">Tidak dapat memproses berkas video</string>
-  <string name="video_message_error__button">OK</string>
-  <string name="video_message_error__missing_camera_permissions">Untuk mengirim pesan video, berikan izin untuk mengakses kamera dan berkas media.</string>
   <string name="audio_message_error__missing_audio_permissions">Untuk mengirim berkas suara, berikan izin untuk merekan suara.</string>
-  <string name="audio_message_error__generic">Tidak dapat memutar suara</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">CONSTANT BIT RATE</string>
   <!-- no contacts -->
@@ -960,7 +708,6 @@
   <string name="tooltip_file">Kirim berkas</string>
   <string name="tooltip_gif">Gif</string>
   <string name="tooltip_mention">Add Mention</string>
-  <string name="new_feature">Baru</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Hapus hanya untuk saya?</string>
   <string name="conversation__message_action__delete_for_everyone">Hapus untuk semua orang?</string>
@@ -974,9 +721,6 @@
   <string name="conversation__action_mode__fwd__dialog__message">Harap tunggu&#8230;</string>
   <string name="conversation__action_mode__fwd__chooser__title">Share with</string>
   <!-- video message preview -->
-  <string name="video_message__preview__header">Kirim ke %1$s</string>
-  <string name="video_message__quick_menu__send_label">Kirim</string>
-  <string name="video_message__preview__compressing">MENGOMPRES&#8230;</string>
   <string name="audio_message__recording__slide_control__slide_hint">GESER KE ATAS UNTUK MENGIRIM</string>
   <string name="audio_message__recording__slide_control__tap_hint">KETUK UNTUK MENGIRIM</string>
   <string name="audio_message__recording__tap_to_record">Ketuk untuk merekam pesan\nAnda dapat _GLYPH_ setelahnya</string>
@@ -996,7 +740,6 @@
   <string name="message_bottom_menu_action_delete">Hapus</string>
   <string name="message_bottom_menu_action_delete_local">Hapus untuk saya</string>
   <string name="message_bottom_menu_action_delete_global">Hapus untuk semua orang</string>
-  <string name="message_bottom_menu_action_forward_multiple">Share with multiple</string>
   <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
   <string name="likes_list__header">Disukai oleh</string>
   <string name="message_bottom_menu_action_save_ok">Gambar disimpan</string>
@@ -1013,7 +756,6 @@
   <string name="usernames__take_over__summary">Klaim nama unik Anda pada Wire. _Pelajari lebih lanjut_</string>
   <string name="usernames__take_over__choose">PILIH MILIK ANDA</string>
   <string name="usernames__take_over__keep">JAGA YANG SATU INI</string>
-  <string name="pref_account_username_empty_title">Tambah username</string>
   <string name="ephemeral_message__timeout__off">Nonaktif</string>
   <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
   <string name="guests_option_on">On</string>
@@ -1037,17 +779,14 @@
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
   <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
-  <string name="collection_header_all">COLLECTION</string>
   <string name="collection_header_pictures">PICTURES</string>
   <string name="collection_header_files">FILES</string>
   <string name="collection_header_links">LINKS</string>
   <string name="collection_header_today">TODAY</string>
   <string name="collection_header_yesterday">YESTERDAY</string>
   <string name="collection_empty">NO ITEMS IN COLLECTION</string>
-  <string name="collection_send_to">Send to&#8230;</string>
   <string name="collection_all">Show all %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">Sending failed</string>
   <string name="multi_share_search_hint">SEND TO&#8230;</string>
   <string name="search__box__hint_text">SEARCH TEXT MESSAGES</string>
   <string name="search__no_results">Tidak ada hasil.</string>
@@ -1085,11 +824,8 @@
   <string name="conversation_list__someone">Seseorang</string>
   <string name="conversation_list__added">[[%1$s]] was added</string>
   <string name="conversation_list__added_you">[[%1$s]] menambahkan Anda</string>
-  <string name="conversation_list__left">[[%1$s]] has left</string>
   <string name="conversation_list__left_you">Anda meninggalkan</string>
   <string name="conversation_list__removed_you">[[%1$s]] menghapus Anda</string>
-  <string name="conversation_list__removed">[[%1$s]] was removed</string>
-  <string name="conversation_list__empty_conv__subtitle">Semua orang pergi</string>
   <string name="conversation_list__header__title">CONVERSATIONS</string>
   <string name="conversation_list__header__archive_title">ARSIPKAN</string>
   <string name="guest_indicator">GUEST</string>
@@ -1127,7 +863,6 @@
   <string name="teams_verify_email_change">CHANGE EMAIL</string>
   <string name="teams_set_name_title">Namamu</string>
   <string name="teams_set_name_hint">FULL NAME</string>
-  <string name="app_entry_slogan">Pesan aman untuk semua orang.</string>
   <string name="app_entry_create_account">Pribadi</string>
   <string name="app_entry_create_account_sub">create an account</string>
   <string name="app_entry_create_team">Pro</string>
@@ -1154,17 +889,12 @@
   <string name="teams_invitations_skip">SKIP</string>
   <string name="teams_invitations_done">DONE</string>
   <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
-  <string name="teams_invitations_error_blacklisted_email">The given e-mail address has been blacklisted due to a permanent bounce or a complaint.</string>
-  <string name="teams_invitations_error_no_identity">The user has no verified identity (email or phone number).</string>
-  <string name="teams_invitations_error_no_email">This operation requires the user to have a verified email address.</string>
   <string name="teams_invitations_error_already_sent">Already sent</string>
   <string name="teams_invitations_error_generic">Ada yang tidak beres, coba lagi</string>
   <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
   <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
   <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
-  <string name="teams_invitations_error_email_exists_more">LEARN MORE</string>
   <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
-  <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">Bangun tim Anda</string>
   <string name="invitation_screen_subtitle">Mintalah rekan kerja Anda untuk bergabung.</string>
   <string name="open_service_conversation_button_text">Buka Percakapan</string>
@@ -1185,7 +915,6 @@
   <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
   <string name="new_conv_no_results">Tidak ada hasil</string>
   <string name="new_conv_no_contacts">No contacts</string>
-  <string name="create_group_search">SEARCH FOR NAMES</string>
   <string name="participants_divider_services">SERVICES (%1$s)</string>
   <string name="participants_divider_people">PEOPLE (%1$s)</string>
   <string name="group_name_hint">GROUP NAME</string>
@@ -1252,7 +981,6 @@
   <string name="video_paused">Video paused</string>
   <string name="calling_degraded_title">New device</string>
   <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
   <string name="markdown_link_dialog_title">Visit Link</string>
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>

@@ -27,7 +27,6 @@
   <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
   <string name="too_many_attempts_header">Liian monta yritystä</string>
   <string name="login_later_message">Please try to log in later</string>
-  <string name="register_again_message">Please try to register again</string>
   <string name="email_exists_header">Tälle sähköpostille on jo luotu tunnus</string>
   <string name="email_exists_message">This email address has already been registered</string>
   <string name="email_invalid_header">Virheellinen sähköpostiosoite</string>
@@ -45,8 +44,6 @@
   <string name="wrong_code_message">Syötä kelvollinen koodi</string>
   <string name="phone_pending_login_header">Koodi on jo lähetetty</string>
   <string name="phone_pending_login_message">Olemme lähettäneet jo sinulle koodin tekstiviestillä. Napauta Lähetä Uudelleen 10 minuutin päästä saadaksesi uuden koodin.</string>
-  <string name="password_invalid_header">Virheellinen Salasana</string>
-  <string name="password_invalid_message">Vahvista tietosi ja yritä uudelleen</string>
   <string name="phone_budget_exhausted_header">Liian monta pyyntöä</string>
   <string name="phone_budget_exhausted_message">Yritä myöhemmin uudelleen.</string>
   <!--*********************************************** ERRORS ***********************************************-->
@@ -71,48 +68,16 @@
   <!-- consider updating this for every new language -->
   <string name="your_phone_number">Puhelinnumerosi</string>
   <!-- Receive email/sms invitation -->
-  <string name="invitation_email__normal_phone_signup_button">Rekisteröidy käyttäen puhelinnumeroa</string>
-  <string name="invitation_email__normal_email_signup_button">Rekisteröidy käyttäen toista sähköpostiosoitetta</string>
-  <string name="invitation_email__password_placeholder">Salasana (vähintään %1$s merkkiä.)</string>
-  <string name="invitation_email__welcome_header">Hei, %1$s.</string>
-  <string name="invitation_email__welcome_message">Valitse salasana luodaksesi tilisi.</string>
-  <string name="invitation__continue_button">Jatka</string>
-  <string name="invitation_phone__normal_phone_signup_button">Käyttäen toista puhelinta</string>
-  <string name="invitation_phone__normal_email_signup_button">Rekisteröidy käyttäen sähköpostiosoitetta</string>
-  <string name="invitation_phone__welcome_header">Hei, %1$s.</string>
-  <string name="invitation_phone__welcome_message">Olet askeleen päässä viimeistelleksesi tilisi.</string>
-  <string name="invitation__phone__failed">Tällä kutsulla rekisteröityminen ei onnistu.</string>
-  <string name="invitation__email__failed">Tällä kutsulla rekisteröityminen ei onnistu.</string>
   <!-- People picker/start UI -->
   <string name="pick_user_search_focus">\u0020 SEARCH</string>
   <string name="pick_user_search_hint">SEARCH</string>
-  <string name="pick_user_search__add_to_conversation">\u0020 SEARCH</string>
   <string name="choose_conversation">SEARCH</string>
   <string name="people_picker__top_users_header_title">Eniten käytetyt kontaktit</string>
-  <string name="people_picker__address_book_matches_title">Yhdistä</string>
   <string name="people_picker__search_result_conversations_header_title">Ryhmät</string>
   <string name="people_picker__search_result_team_conversations_header_title">%1$s ryhmää</string>
   <string name="people_picker__search_result_connections_header_title">Yhteystiedot</string>
   <string name="people_picker__search_result_others_header_title">Yhdistä</string>
-  <string name="people_picker__search_result_recommended_header_title">Suositellut</string>
-  <string name="people_picker__search_result_contacts_header_title">Yhteystiedot</string>
-  <string name="people_picker__search_result_team_members_header_title">Tiimin jäsenet</string>
-  <string name="people_picker__invite_header_title">Kutsu</string>
-  <string name="people_picker__confirm_button_title">Luo keskustelu</string>
-  <string name="people_picker__confirm_button_title__add_to_conversation">Lisää käyttäjiä ryhmään</string>
-  <string name="people_picker__confirm_button_title__create_conversation">Luo Ryhmä</string>
-  <string name="people_picker__error_message__no_results">Ei vastaavia tuloksia.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts">Etsi ihmisiä nimellä tai sähköpostiosoitteella</string>
-  <string name="people_picker__error_message__no_results__invalid_email__no_shared_contacts">Syötä voimassa oleva sähköpostiosoite tai</string>
-  <string name="people_picker__error_message__no_results__shared_contacts__add_to_conversation">Syötä eri nimi.</string>
-  <string name="people_picker__error_message__no_results__no_shared_contacts__add_to_conversation">Syötä eri nimi.</string>
-  <string name="people_picker__error_message__no_results__send_invite">lähetä\nan Kutsu</string>
-  <string name="people_picker__error_message__no_users_to_add_to_conversation">Jokainen jonka kanssa olet yhdistetty on jo tässä keskustelussa.</string>
-  <string name="people_picker__error_message__no_recommenended_users_found__body__shared_contacts">Emme löytäneet Wirestä ainuttakaan kontaktiasi. Syötä koko nimi tai sähköpostiosoite.</string>
-  <string name="people_picker__toolbar_header__group">Lisää ihmisiä</string>
-  <string name="people_picker__toolbar_header__one_to_one">Luo ryhmä</string>
   <string name="people_picker__search_result__expander_title">Näytä kaikki %1$s ↓</string>
-  <string name="people_picker__guest_label">Vieras</string>
   <string name="people_picker__search_people">KÄYTTÄJÄT</string>
   <string name="people_picker__search_services">SERVICES</string>
   <string name="receive_news_and_offers_request_title">Newsletter</string>
@@ -123,9 +88,6 @@
   <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
   <string name="integrations_picker__section_title">Palvelut</string>
-  <string name="integrations_picker__add">Add Service</string>
-  <string name="integrations_conv_bot">Bot</string>
-  <string name="integrations_chathead__section_title">Palvelut</string>
   <string name="integrations_errors_add_service">Adding service not possible</string>
   <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
   <string name="conversation_errors_full">The conversation is full</string>
@@ -135,46 +97,18 @@
   <string name="people_picker__share_contacts__yay">Salli</string>
   <string name="people_picker__share_contacts__nah">Kiellä</string>
   <string name="people_picker__share_contacts__nevvah">Älä kysy enää koskaan</string>
-  <!-- People you may know -->
-  <string name="people_picker__recommended__common_connections__one">Tuntee %1$s</string>
-  <string name="people_picker__recommended__common_connections__two">Tuntee %1$s ja %2$s</string>
-  <plurals name="people_picker__recommended__common_connections__more">
-    <item quantity="one">Tuntee %1$s ja %2$d ja jonkun muun</item>
-    <item quantity="other">Tuntee %1$s ja %2$d ja muita</item>
-  </plurals>
-  <string name="people_picker__recommended__common_connections__hide">PIILOTA</string>
   <!-- Invite -->
-  <string name="people_picker__invite__share_details_label">Lähetä kutsu</string>
   <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
   <string name="people_picker__invite__share_details_dialog">Jaa Wire ystävillesi.</string>
   <string name="people_picker__invite__share_text__header">%1$s haluaa lisätä sinut yhteyksiinsä Wiressä</string>
   <string name="people_picker__invite__share_text__body">Olen Wiressä, etsi %1$s tai mene osoitteeseen get.wire.com</string>
-  <string name="people_picker__invite__message">Hei,,\nKiitos kutsusta. Keskustellaan.\n%1$s</string>
-  <string name="people_picker__invite__sent_feedback">Kutsu lähetetty</string>
-  <string name="people_picker__contact_list__user_selection_button__label">AVAA</string>
-  <string name="people_picker__contact_list__user_adding_button__label">LISÄÄ</string>
-  <string name="people_picker__contact_list__contact_selection_button__label">KUTSU</string>
-  <string name="people_picker__contact_list__invite_dialog__title">Lähetä kutsu</string>
-  <string name="people_picker__contact_list__searchbox__hint">\u0020 ETSI NIMELLÄ</string>
-  <string name="people_picker__generic_invite_button_text">Kutsu henkilöitä Wireen</string>
-  <plurals name="people_picker__contact_list_contact_sub_label_common_friends">
-    <item quantity="one">%1$d yhteinen käyttäjä molemmilla</item>
-    <item quantity="other">%1$d yhteistä käyttäjää molemmilla</item>
-  </plurals>
-  <string name="people_picker__contact_list_contact_sub_label_address_book">%1$s yhteystiedoissa</string>
-  <string name="people_picker__contact_list_contact_sub_label_address_book_identical">yhteystiedoissa</string>
   <!-- Conversation: Quick menu -->
   <string name="conversation_quick_menu__conversation_button__single_label">AVAA</string>
-  <string name="conversation_quick_menu__conversation_button__group_label">LUO RYHMÄ</string>
   <!-- Conversation: System messages -->
   <string name="content__system__other_joined">[[%1$s]] joined</string>
   <string name="content__system__you_joined">[[You]] joined</string>
   <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
   <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
-  <string name="content__system__message_deleted">Tämä viesti on poistettu</string>
-  <string name="content_system_message_timestamp_failure">Lähettämätön viesti.</string>
-  <string name="content_system_message_timestamp_pending">Lähetetään\u2026</string>
-  <string name="content_system_message_timestamp_deleted">Poistettiin %1$s</string>
   <!-- Add people -->
   <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
   <plurals name="content__system__someone_added_people_with_others">
@@ -182,7 +116,6 @@
     <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
   </plurals>
   <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
-  <string name="content__system__someone_added_people_and_you">[[%1$s]] added %2$s and you to the conversation</string>
   <plurals name="content__system__someone_added_people_and_you_with_others">
     <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
     <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
@@ -201,8 +134,6 @@
   <!-- Create conversation -->
   <string name="content__system__you_started_conversation">You started the conversation</string>
   <string name="content__system__other_started_conversation">%1$s started the conversation</string>
-  <string name="content__system__you_started_one">[[Sinä]] aloitit keskustelun %2$s kanssa</string>
-  <string name="content__system__other_started_one">[[%1$s]] aloitti keskustelun kanssasi</string>
   <string name="content__system__with_you_only">with you</string>
   <string name="content__system__with_list_only">with %1$s</string>
   <plurals name="content__system__with_others_only">
@@ -220,8 +151,6 @@
   <string name="content__you_pinged">[[SINÄ]] PINGASIT</string>
   <string name="content__xxx_pinged">[[%1$s]] PINGASI</string>
   <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__conversation_verified">Keskustelu todennettu</string>
-  <string name="content__otr__conversation_unverified">Keskustelu ei ole todennettu</string>
   <string name="content__otr__message_error">VIESTI [[%1$s]] LTA EI TULLUT PERILLE. _MIKSI?_</string>
   <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
   <string name="content__otr__identity_changed_error">[[%1$s]]: N LAITTEEN IDENTITEETTI ON MUUTTUNUT. LÄHETTÄMÄTÖN VIESTI. _LUE LISÄÄ._</string>
@@ -257,13 +186,11 @@
   <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · LÄHETYS EPÄONNISTUI</string>
   <string name="content__file__action__open">AVAA</string>
   <string name="content__file__action__save">TALLENNA</string>
-  <string name="content__file__action__share">JAA</string>
   <string name="content__file__action__open__no_app_found">Ei löydetty sovellusta jolla tämän tiedostotyypin voisi avata</string>
   <string name="content__file__action__save_completed">Tallennus onnistunut</string>
   <string name="content__file__action__save_error">Tiedostoa ei voi tallentaa</string>
   <string name="content__location__no_map_placeholder">SIJAINTI NÄKYY KARTALLA, KUN PALAAT ONLINE-TILAAN.</string>
   <!-- Conversation actions -->
-  <string name="conversation__action__rename">Nimeä uudelleen</string>
   <string name="conversation__action__delete">Delete content&#8230;</string>
   <string name="conversation__action__archive">Arkistoi</string>
   <string name="conversation__action__unarchive">Palauta arkistosta</string>
@@ -273,7 +200,6 @@
   <string name="conversation__action__silence">Mykistä</string>
   <string name="conversation__action__unsilence">Poista mykistys</string>
   <string name="conversation__action__leave">Leave group&#8230;</string>
-  <string name="conversation__action__remove">Poista</string>
   <string name="conversation__action__call">Puhelu</string>
   <string name="conversation__action__picture">Kuva</string>
   <string name="conversation__action__block">Block&#8230;</string>
@@ -287,10 +213,6 @@
   <string name="conversation__action__notifications_nothing">Nothing</string>
   <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
-  <string name="popover__action__open">AVAA</string>
-  <string name="popover__action__remove">POISTA</string>
-  <string name="popover__action__block">ESTÄ</string>
-  <string name="popover__action__profile">PROFIILI</string>
   <!-- Calling/voice -->
   <string name="calling__slow_connection__title">Hidas Internet</string>
   <string name="calling__slow_connection__message">Internet-yhteytesi on liian hidas puheluun juuri nyt. Yritä myöhemmin uudelleen.</string>
@@ -299,19 +221,12 @@
   <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
   <string name="calling__cannot_start__cancel__message">PERUUTA</string>
   <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
-  <string name="calling__cannot_start__ongoing_different_kind__title">%1$s on varattu</string>
-  <string name="calling__cannot_start__ongoing_different_kind__message">Kokeile myöhemmin uudelleen</string>
-  <string name="calling__cannot_start__button_settings">ASETUKSET</string>
   <string name="calling__video_call__slow_connection__message">Voit kohdata ongelmia puhelun aikana</string>
-  <string name="incoming__controls__incoming__decline">KIELTÄYDY</string>
-  <string name="incoming__controls__incoming__accept">VASTAA</string>
-  <string name="incoming__controls__ongoing__hangup">LOPETA PUHELU</string>
   <string name="incoming__controls__ongoing__speaker">KAIUTIN</string>
   <string name="incoming__controls__ongoing__mute">MYKISTÄ</string>
   <string name="incoming__controls__ongoing__video">VIDEO</string>
   <string name="incoming__controls__ongoing__flip">FLIP</string>
   <string name="ongoing__poor_connection_message">VIDEO PYSÄHTYI HUONON YHTEYDEN TAKIA</string>
-  <string name="calling__self_preview_unavailable">VIDEO POIS PÄÄLTÄ</string>
   <string name="calling__self_preview_unavailable_long">KAMERA EI OLE KÄYTETTÄVISSÄ</string>
   <string name="calling__header__joining">Yhdistetään&#8230;</string>
   <string name="calling__header__outgoing_subtitle">Soi&#8230;</string>
@@ -338,10 +253,6 @@
   <string name="group_calling_confirm">Puhelu</string>
   <!-- Connect request -->
   <string name="connect__message">Hei %1$s,\nKeskustellaan Wiressä.\n%2$s</string>
-  <plurals name="connect_request__common_users__summary">
-    <item quantity="one">%1$d yhteinen käyttäjä molemmilla</item>
-    <item quantity="other">%1$d yhteistä käyttäjää molemmilla</item>
-  </plurals>
   <string name="connect_request__sub_header__pending_label">Odottaa</string>
   <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
   <string name="connect_request__unblock__button__text">Poista esto</string>
@@ -364,8 +275,6 @@
     <item quantity="one">Haluatko vielä silti lähettää viestisi?</item>
     <item quantity="other">Haluatko vielä silti lähettää viestisi?</item>
   </plurals>
-  <string name="conversation__degraded_confirmation__accept_call">Haluatko vastata puheluun?</string>
-  <string name="conversation__degraded_confirmation__place_call">Haluatko silti soittaa puhelun?</string>
   <string name="conversation__degraded_confirmation__positive_action">Lähetä siitä huolimatta</string>
   <plurals name="conversation__degraded_confirmation__negative_action">
     <item quantity="one">Näytä laite</item>
@@ -373,27 +282,14 @@
   </plurals>
   <string name="conversation__degraded_confirmation__negative_action_self">Näytä laitteesi</string>
   <string name="conversation_degraded_confirmation__header__you">Sinä</string>
-  <!-- Profile and Participants -->
-  <plurals name="participants__sub_header_xx_people">
-    <item quantity="one">%1$d IHMINEN</item>
-    <item quantity="other">%1$d IHMISET</item>
-  </plurals>
-  <string name="group_name">Ryhmän nimi</string>
   <!-- Picture selection confirmation -->
   <string name="confirmation_menu__confirm_done">OK</string>
   <string name="confirmation_menu__cancel">PERUUTA</string>
   <!-- ADD TO CONVERSATION offline -->
-  <string name="conversation__add_user__no_network__title">Ei internet-yhteyttä</string>
-  <string name="conversation__add_user__no_network__message">Sinun täytyy olla online-tilassa lisätäksesi ihmisia. Yritämme uudelleen kun olet taas online.</string>
-  <string name="conversation__add_user__no_network__button">OK</string>
   <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <string name="conversation__create_group_conversation__no_network__title">Ei internet-yhteyttä</string>
-  <string name="conversation__create_group_conversation__no_network__message">Sinun täytyy olla online-tilassa voidaksesi luoda keskustelun. Muut ihmiset näkevät tekemäsi muutokset kun olet taas online.</string>
-  <string name="conversation__create_group_conversation__no_network__button">OK</string>
   <!-- Leave conversation -->
   <string name="confirmation_menu__meta_remove">Poistu keskustelusta?</string>
   <string name="confirmation_menu__meta_remove_text">Et pysty lähettämään tai vastaanottamaan viestejä tässä keskustelussa.</string>
-  <string name="confirmation_menu__confirm_leave">POISTU</string>
   <!-- RE-USING: confirmation_menu.cancel -->
   <!-- Remove from conversation dialogue -->
   <string name="confirmation_menu__header">Poista?</string>
@@ -409,61 +305,31 @@
   <!-- Delete conversation -->
   <string name="confirmation_menu__meta_delete">Poista sisältö?</string>
   <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
-  <string name="confirmation_menu__confirm_delete">POISTA</string>
-  <string name="confirmation_menu__delete_conversation__checkbox__label">Poistu myös keskustelusta</string>
   <!-- Rich media -->
   <string name="content__youtube__error__text">videota ei löydy</string>
-  <string name="mediaplayer__artist__placeholder">Kappale</string>
-  <string name="mediaplayer__artist__error">Kappale ei ole saatavilla</string>
   <string name="mediaplayer__message__onsoundcloud">SoundCloudissa</string>
   <string name="mediaplayer__message__onspotify">Spotifyssa</string>
-  <string name="mediaplayer__spotify__hint">Yhdistä Spotifyhin</string>
-  <string name="mediaplayer__open_external">Avaa selaimessa</string>
   <!-- Invite banner -->
-  <string name="content__invite_banner__title">LEVITÄ SANAA!</string>
-  <string name="content__invite_banner__subtitle">Lisää käyttäjiä tai jaa linkki tähän keskusteluun.</string>
-  <string name="content__invite_banner__howto_link">Miten tämä toimii?</string>
-  <string name="content__invite_banner__button_label">Lisää käyttäjiä tähän keskusteluun</string>
   <!-- Self profile -->
-  <string name="self_name">Koko nimesi</string>
-  <string name="self_add_email">Lisää sähköpostin \u0026 salasana</string>
-  <string name="self_verify_email">Vahvista sähköpostiosoite</string>
-  <string name="self_add_phone">Lisää puhelinnumero</string>
-  <string name="self_verify_phone">Vahvista puhelinnumero</string>
   <!-- Options and settings -->
   <string name="settings_title">Asetukset</string>
   <!-- Options menu -->
-  <string name="menu_settings">ASETUKSET</string>
-  <string name="menu_avs_settings">AVS ASETUKSET</string>
-  <string name="menu_about">TIETOJA</string>
-  <string name="menu_tutorial">OHJE</string>
-  <string name="menu_help">APUA</string>
-  <string name="menu_logout">KIRJAUDU ULOS</string>
   <!-- Manage Team -->
   <string name="pref_manage_team_title">Hallinnoi tiimiä</string>
   <!-- About screen -->
-  <string name="about_privacy_policy">Yksityisyyskäytännöt</string>
-  <string name="about_third_party_licences">Lisenssit</string>
-  <string name="about_website">wire.com</string>
-  <string name="about_terms_of_service">Käyttöehdot</string>
-  <string name="about_copyright">\u00A9 Wire Swiss GmbH \u2022 %1$s</string>
   <string name="pref_category_title">Asetukset</string>
   <string name="pref_developer_screen_title">Kehittäjän Asetukset</string>
   <string name="pref_dev_avs_screen_title">AVS Asetukset</string>
   <string name="pref_profile_screen_title">Profiili</string>
   <!-- Account -->
   <string name="pref_account_screen_title">Tili</string>
-  <string name="pref_account_category_title">@string/pref_account_screen_title</string>
   <string name="pref_account_name_title">Nimi</string>
   <string name="pref_account_edit_name_title">Muokkaa nimeä</string>
   <string name="pref_account_details_category_title">Lisätietoja</string>
   <string name="pref_account_actions_category_title">Toiminnot</string>
-  <string name="pref_account_personal_category_title">Henkilökohtainen</string>
   <string name="pref_account_appearance_category_title">Ulkoasu</string>
   <string name="pref_account_personal_information_category_title">Personal Information</string>
   <string name="pref_account_conversations_category_title">History</string>
-  <string name="pref_account_details_category_summary">Ihmiset voivat löytää sinut näillä tiedoilla.</string>
-  <string name="pref_account_personal_category_summary">Tämä tieto ei näy kenellekään muulle</string>
   <string name="pref_account_username_title">Käyttäjänimi</string>
   <string name="pref_account_phone_title">Puhelinnumero</string>
   <string name="pref_account_add_phone_title">Lisää puhelinnumero</string>
@@ -507,7 +373,6 @@
   <string name="pref_options_sounds_none">Ei mitään</string>
   <string name="pref_options_vibration_title">Värinä</string>
   <string name="pref_options_vibration_title_o">Vibrate on ring</string>
-  <string name="pref_options_sounds_category_title">Ilmoitukset</string>
   <string name="pref_options_ringtones_category_title">Äänet</string>
   <string name="pref_options_ringtones_ringtone_title">Soittoääni</string>
   <string name="pref_options_ringtones_text_title">Tekstin merkkiääni</string>
@@ -523,9 +388,6 @@
   <string name="pref_options_cursor_send_button_summary">Poista käytöstä lähetys näppäimistön välityksellä.</string>
   <!-- Devices -->
   <string name="pref_devices_screen_title">Laitteet</string>
-  <string name="pref_current_device_category_title">Tämänhetkinen laite</string>
-  <string name="pref_other_devices_category_title">Aktiiviset laitteet</string>
-  <string name="pref_devices_summary">Napauta poistaaksesi</string>
   <string name="pref_devices_current_device_category_title">Tämänhetkinen laite</string>
   <string name="pref_devices_other_devices_category_title">Muut laitteet</string>
   <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
@@ -538,7 +400,6 @@
   <string name="pref_devices_device_fingerprint_category_title">Sormenjälki</string>
   <string name="pref_devices_device_fingerprint_summary">Wire antaa jokaiselle laitteelle yksilöllisen sormenjäljen. Vertaa niitä ja varmenna laitteesi ja keskustelusi.</string>
   <string name="pref_devices_device_actions_category_title">Toiminnot</string>
-  <string name="pref_devices_device_trust_title">Vahvistettu</string>
   <string name="pref_devices_device_reset_session_title">Nollaa istunto</string>
   <string name="pref_devices_device_reset_session_summary">Jos sormenjäljet eivät täsmää, nollaa istunto luodaksesi uudet salausavaimet molemmille osapuolille.</string>
   <string name="pref_devices_device_remove_title">Poista laite</string>
@@ -549,8 +410,6 @@
   <string name="pref_advanced_screen_title">Extrat</string>
   <string name="pref_advanced_debug_report_title">Lähetä virheraportti</string>
   <string name="pref_advanced_debug_report_summary">Tämä auttaa Wiren Tukea diagnosoimaan ongelmia.</string>
-  <string name="pref_advanced_analytics_title">Käyttö- ja vikaraportit</string>
-  <string name="pref_advanced_analytics_summary">Tee Wirestä parempi lähetämällä anonyymiä tietoa.</string>
   <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
   <string name="pref_advanced_reset_push_summary">Jos kohtaat ongelmia push-ilmoitusten kanssa. Wiren tuki voi pyytää sinua nollaamaan tämän tunnuksen.</string>
   <string name="pref_advanced_reset_push_completed">Push-tunnus on nollattu</string>
@@ -600,72 +459,33 @@
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Poista</string>
   <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Oletko varma, että haluat poistaa sähköpostin tai puhelinnumeron %s Wire-tililtäsi?</string>
   <string name="pref__account_action__dialog__delete_phone__error">Ei voitu poistaa puhelinnumeroa</string>
-  <string name="pref__account_action__dialog__delete_email__error">Ei voitu poistaa sähköpostiosoitetta</string>
-  <string name="pref__account_action__dialog__delete_email__no_internet_error">Sinulla täytyy olla verkkoyhteys poistaaksesi sähköpostiosoitteen</string>
-  <string name="pref__account_action__dialog__delete_phone__no_internet_error">Sinulla täytyy olla verkkoyhteys poistaaksesi puhelinnumeron</string>
-  <string name="pref__account_action__dialog__change_email__error__invalid_email">Syötä voimassa oleva sähköpostiosoitteesi</string>
   <string name="pref__account_action__dialog__change_email__title">Muokkaa sähköpostiosoitetta</string>
-  <string name="pref__account_action__dialog__change_username__summary">Tällä käyttäjänimellä muut voivat löytää sinut Wirestä tietämättä sinun sähköpostiosoitetta tai puhelinnumeroa.</string>
   <string name="pref__account_action__dialog__change_username__rules">Vähintään 2 merkkiä, vain a-z, 0-9 ja _</string>
   <string name="pref__account_action__dialog__change_username__title">Käyttäjänimi</string>
   <string name="pref__account_action__dialog__change_username__error_already_taken">On jo käytössä</string>
   <string name="pref__account_action__dialog__change_username__error_unknown">Yhteysvirhe, yritä uudelleen</string>
   <!-- No Internet connection -->
   <string name="system_status__no_internet">EI INTERNET-YHTEYTTÄ</string>
-  <string name="system_status__no_server_connection">YHDISTETÄÄN&#8230;</string>
   <!-- SHARING -->
-  <string name="system_status__sharing">VALITSE KESKUSTELU</string>
   <string name="alert_dialog__confirmation">OK</string>
   <string name="alert_dialog__no_network__header">Ei internet-yhteyttä</string>
-  <string name="sign_up__no_internet__message">Sinun pitää olla online-tilassa liittyäksesi. Tarkista yhteytesi ja yritä uudelleen.</string>
-  <string name="sign_in__no_internet__message">Sinun pitää olla online tilassa kirjautuaksesi sisään. Tarkista yhteytesi ja yritä uudelleen.</string>
-  <string name="sign_up__take_picture__back">Muokkaa nimeä</string>
-  <string name="sign_up__take_picture_dialog__gallery">Galleria</string>
-  <string name="sign_up__take_picture_dialog__camera">Kamera</string>
-  <string name="sign_up__take_picture_dialog__message">Ota uusi kuva tai valitse jokin olemassa olevista kuvakirjastosta.</string>
-  <string name="sign_up__take_picture_dialog__title">Ota kuva</string>
   <string name="sign_up__set_picture__choose">Valitse omasi</string>
   <string name="sign_up__set_picture__keep">Pidä tämä</string>
   <string name="sign_up__set_picture__guidance">Wire on niin paljon mukavampi kuvalla.</string>
   <string name="sign_up__set_picture__loading">Ladataan kuvaa</string>
-  <string name="rename_conversation__no_network__message">Sinun pitää olla online-tilassa nimetäksesi keskustelun uudelleen. Tarkista yhteytesi ja yritä uudelleen.</string>
-  <string name="resend_message__no_network__message">Sinun pitää olla online-tilassa lähettääksesi viestin uudelleen. Tarkista yhteytesi ja yritä uudelleen.</string>
   <string name="leave_conversation_failed__message">Sinun pitää olla online-tilassa poistuaksesi keskustelusta. Tarkista yhteytesi ja yritä uudelleen.</string>
   <string name="remove_from_conversation__no_network__message">Sinun pitää olla online-tilassa poistaaksesi käyttäjiä keskusteluista. Tarkista yhteytesi ja yritä uudelleen.</string>
   <string name="calling__call_drop__message">Sinun pitää olla online-tilassa soittaaksesi puheluja. Tarkista yhteytesi ja yritä uudelleen.</string>
-  <string name="profile_pic__no_network__message">Sinun pitää olla online-tilassa vaihtaaksesi kuvasi. Tarkista yhteytesi ja yritä uudelleen.</string>
-  <string name="calling__voice_channel_full__title">Puhelu on täynnä</string>
-  <plurals name="calling__voice_channel_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Täällä on tilaa vain %1$d käyttäjälle.</item>
-    <item quantity="other">Täällä on tilaa vain %1$d käyttäjille.</item>
-  </plurals>
-  <string name="calling__conversation_full__title">Liian monta ihmistä puheluun</string>
-  <plurals name="calling__conversation_full__message">
-    <!-- should not happen though -->
-    <item quantity="one">Puhelut toimivat maksimissaan %1$d käyttäjän välillä.</item>
-    <item quantity="other">Puhelut toimivat maksimissaan %1$d käyttäjien välillä.</item>
-  </plurals>
   <!-- Lockscreen and notifications -->
   <string name="message_notifications_channel_name">Viestit</string>
   <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
   <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="incoming_call_notifications_channel_description">Notifications on incoming calls</string>
   <string name="ping_notifications_channel_name">Pings</string>
   <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
   <string name="ongoing_channel_name">Background notifications</string>
   <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
   <string name="foreground_service_notification_name">Maintain connection to server</string>
   <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <string name="lockscreen__talk">SOITTAA</string>
-  <plurals name="notification__new_messages">
-    <item quantity="one">Viesti lähettäjältä %2$s</item>
-    <item quantity="other">%1$d viestiä lähettäjältä %2$s</item>
-  </plurals>
-  <plurals name="notification__new_messages_groups">
-    <item quantity="one">Viesti keskustelussa %2$s</item>
-    <item quantity="other">%1$d viestiä keskustelussa %2$s</item>
-  </plurals>
   <plurals name="notification__new_messages__multiple">
     <item quantity="one">Viesti keskustelussa: %2$s</item>
     <item quantity="other">%1$d viestiä %2$s keskustelussa</item>
@@ -682,20 +502,11 @@
   <string name="notification__message__one_to_one__shared_video">Jakoi videon</string>
   <string name="notification__message__one_to_one__shared_audio">Jakoi ääniviestin</string>
   <string name="notification__message__one_to_one__shared_location">Jakoi sijainnin</string>
-  <string name="notification__message__one_to_one__liked">\u2764 viestisi</string>
   <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__other">%1$s \u0020</string>
   <string name="notification__message__group__prefix__other">%1$s %2$s ssa \u0020</string>
-  <string name="notification__message__group__pinged">pinggasi</string>
-  <string name="notification__message__group__shared_picture">jakoi kuvan</string>
-  <string name="notification__message__group__shared_file">jakoi tiedoston</string>
-  <string name="notification__message__group__shared_video">jakoi videon</string>
-  <string name="notification__message__group__shared_audio">jakoi ääniviestin</string>
-  <string name="notification__message__group__shared_location">jakoi sijainnin</string>
   <string name="notification__message__group__renamed_conversation">keskustelun nimi vaihdettu %1$s ksi</string>
   <string name="notification__message__group__add">lisäsi käyttäjiä keskusteluun</string>
   <string name="notification__message__group__remove">poisti käyttäjiä keskustelusta</string>
-  <string name="notification__message__generic__accept_request">Sinulla on uusi kontakti</string>
   <string name="notification__message__single__accept_request">Sinä ja %1$s olette nyt kontaktissa</string>
   <string name="notification__message__group__default_conversation_name">ryhmäkeskustelu</string>
   <string name="notification__message__send_failed">Viestin lähetys epäonnistui</string>
@@ -704,10 +515,8 @@
   <string name="notification__message__liked">\u2764 ‘%1$s’</string>
   <string name="notification__message__liked_message">\u2764 viestiäsi</string>
   <string name="notification__message__liked_picture">\u2764 kuvaasi</string>
-  <string name="notification__message__liked_file">\u2764 tiedostoasi</string>
   <!-- ephemeral -->
   <string name="notification__message__ephemeral_someone">Joku</string>
-  <string name="notification__message__ephemeral_details">Paina saadaksesi lisätietoja</string>
   <plurals name="notification__message__ephemeral">
     <item quantity="one">Joku lähetti sinulle viestin</item>
     <item quantity="other">Joku lähetti sinulle %1$d viestiä</item>
@@ -726,16 +535,9 @@
     <item quantity="other">%1$s others</item>
   </plurals>
   <!-- System notifications -->
-  <string name="system_notification__group_call_title">%1$s %2$s ssa</string>
   <string name="system_notification__silence_call">Kieltäydy</string>
   <string name="system_notification__join_call">Hyväksy</string>
   <string name="system_notification__leave_call">Lopeta puhelu</string>
-  <string name="system_notification__outgoing">Soittaa</string>
-  <string name="system_notification__outgoing_video">Videopuhelu</string>
-  <string name="system_notification__incoming">Soittaa</string>
-  <string name="system_notification__incoming_video">Is calling with video</string>
-  <string name="system_notification__ongoing">Puhelussa</string>
-  <string name="number_of_conversations_string">ARKISTOI</string>
   <string name="system_notification__calling_one">Soitetaan&#8230;</string>
   <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
   <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
@@ -757,7 +559,6 @@
   <string name="notification__image_saving__action__share">Jaa</string>
   <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
   <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <string name="notification__file_saving__content__title">Wire tiedosto tallennettu.</string>
   <!-- forced update -->
   <string name="forced_update__header">Tärkeä päivitys</string>
   <string name="forced_update__sub_header">Asenna uusin versio Wirestä.</string>
@@ -765,17 +566,9 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Sharing -->
   <string name="sharing__image_preview__confirm_action">LÄHETÄ</string>
-  <string name="sharing__image_preview__title__single">LÄHETETÄÄN 1 KUVA \n_%1$s_ LLE</string>
-  <string name="sharing__image_preview__title__multiple">LÄHETETÄÄN %1$s KUVAA \n_%2$s_ LLE</string>
   <string name="sharing__user_not_logged_in__dialog__title">Kirjaudu sisään</string>
   <string name="sharing__user_not_logged_in__dialog__message">Avaa Wire ja kirjaudu sisään jakaaksesi.</string>
   <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
-  <string name="sharing__files__ok">Jaa</string>
-  <string name="sharing__files__cancel">Peruuta</string>
-  <plurals name="sharing__files__message">
-    <item quantity="one">Olet jakamassa %1$d tiedoston %2$s kanssa.</item>
-    <item quantity="other">Olet jakamassa %1$d tiedostot %2$s kanssa.</item>
-  </plurals>
   <!-- Sync errors -->
   <string name="in_app_notification__sync_error__create_group_convo__title">Ei voi luoda</string>
   <string name="in_app_notification__sync_error__create_group_convo__body">Ei pystytty luomaan keskustelua %1$s kanssa</string>
@@ -785,30 +578,9 @@
   <string name="in_app_notification__sync_error__create_convo__button">Jatka</string>
   <!--Timestamp formatting -->
   <string name="timestamp__just_now">Juuri nyt</string>
-  <string name="timestamp__a_minute_ago">Minuutti sitten</string>
   <plurals name="timestamp__x_minutes_ago">
     <item quantity="one">%1$d minuutti sitten</item>
     <item quantity="other">%1$d minuuttia sitten</item>
-  </plurals>
-  <plurals name="timestamp__x_hours_ago">
-    <item quantity="one">%1$d tunti sitten</item>
-    <item quantity="other">%1$d tuntia sitten</item>
-  </plurals>
-  <plurals name="timestamp__x_days_ago">
-    <item quantity="one">%1$d päivä sitten</item>
-    <item quantity="other">%1$d päivää sitten</item>
-  </plurals>
-  <plurals name="timestamp__x_weeks_ago">
-    <item quantity="one">%1$d viikko sitten</item>
-    <item quantity="other">%1$d viikkoa sitten</item>
-  </plurals>
-  <plurals name="timestamp__x_months_ago">
-    <item quantity="one">%1$d kuukausi sitten</item>
-    <item quantity="other">%1$d kuukautta sitten</item>
-  </plurals>
-  <plurals name="timestamp__x_years_ago">
-    <item quantity="one">%1$d vuosi sitten</item>
-    <item quantity="other">%1$d vuotta sitten</item>
   </plurals>
   <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
   <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -820,25 +592,17 @@
   <!-- Example: MAR 9, 2015, 11:29 -->
   <string name="timestamp_pattern__date_and_time__with_year_no_weekday">d MMM, YYYY, %1$s</string>
   <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <string name="timestamp_pattern__single_message">EEEE, d MMMM YYYY \u30FB %1$s</string>
   <!-- MONDAY -->
-  <string name="timestamp_pattern__separator_header__this_week">EEEE</string>
   <!-- MARCH 2 -->
-  <string name="timestamp_pattern__separator_header__this_year">d MMMM</string>
   <!-- MARCH 2, 2015 -->
-  <string name="timestamp_pattern__separator_header__last_year">d MMMM, YYYY</string>
-  <string name="timestamp_pattern__separator_header__today">Tänään</string>
-  <string name="timestamp_pattern__separator_header__yesterday">Eilen</string>
   <!-- 23:15 -->
   <string name="timestamp_pattern__24h_format">HH:mm</string>
   <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="reg__phone_alert__button">OK</string>
   <string name="country">Maa</string>
   <string name="register">Rekisteröidy</string>
   <string name="password_placeholder">Salasana</string>
   <string name="email_placeholder">Sähköposti</string>
   <string name="name_placeholder">Nimi</string>
-  <string name="registration_back">Takaisin</string>
   <!-- Strings -->
   <string name="edit_phone_number">MUOKKAA PUHELINNUMEROA</string>
   <string name="i_have_an_account">KIRJAUDU SISÄÄN</string>
@@ -851,10 +615,8 @@
   <string name="activation_code_info_manual">Syötä vahvistuskoodi jonka lähetimme: \n&lt;b&gt;%s&lt;/b&gt;</string>
   <string name="enter_name">Miten meidän pitäisi kutsua sinua?</string>
   <string name="enter_name_hint">Kirjoita koko nimi</string>
-  <string name="set_a_picture">Aseta Kuva</string>
   <string name="new_reg__password__forgot">Unohditko salasanan?</string>
   <string name="phone_sign_in">Puhelinnumero</string>
-  <string name="go_to_register">Luo tili</string>
   <string name="email_sign_in">Sähköposti</string>
   <string name="edit_email">Muokkaa sähköpostiosoitetta</string>
   <string name="hello">Hei, &lt;b&gt;%s&lt;/b&gt;</string>
@@ -863,8 +625,6 @@
   <string name="username__set__toast_error">Virhe päivittäessä käyttäjänimeä</string>
   <!-- Giphy -->
   <string name="giphy_preview__search_hint">Etsi Giphy</string>
-  <string name="giphy_preview__title_search">#%s</string>
-  <string name="giphy_preview__title_random">SATUNNAINEN</string>
   <string name="giphy_preview__error">GIF-TIEDOSTOJA EI LÖYTYNYT.</string>
   <string name="giphy_preview__message_via_random_trending">Giphy.com in kautta</string>
   <string name="giphy_preview__message_via_search">%s • giphy.com:in kautta</string>
@@ -872,7 +632,6 @@
   <!--Sketch-->
   <string name="drawing__tip__picture__message">NAPAUTA VÄRIÄ MUUTTAKSESI SIVELTIMEN KOKOA.\n\nRAVISTA POISTAAKSESI KUVIA.</string>
   <string name="drawing__tip__message">NAPAUTA VÄRIÄ MUUTTAKSESI SIVELTIMEN KOKOA.\n\nPAINA JA PIDÄ TÄYTTÄÄKSESI ALUEEN.</string>
-  <string name="add_a_sketch">Lisää piirros</string>
   <string name="sketch__emoji_keyboard__size_label__small">PIENI</string>
   <string name="sketch__emoji_keyboard__size_label__medium">KESKIKOKOINEN</string>
   <string name="sketch__emoji_keyboard__size_label__large">SUURI</string>
@@ -896,8 +655,6 @@
   <string name="otr__remove_device__button_delete">OK</string>
   <string name="otr__remove_device__button_cancel">Peruuta</string>
   <string name="otr__remove_device__error">Väärä salasana</string>
-  <string name="otr__remove_device__button_approve">OK</string>
-  <string name="otr__remove_device__button_remove">Poista</string>
   <string name="otr__error_dialog__cannot_register__message">Poista yksi laitteistasi aloittaaksesi Wiren käytön tässä laiteessa.</string>
   <string name="otr__error_dialog__cannot_register__manage_devices_button">Hallitse laitteita</string>
   <string name="otr__error_dialog__cannot_register__log_out_button">Kirjaudu ulos</string>
@@ -921,32 +678,18 @@
   <string name="otr__first_launch__header">Käytät Wireä ensimmäistä kertaa tällä laitteella.</string>
   <string name="otr__first_launch__sub_header">Tietosuojasyistä keskusteluhistoriasi ei näy täällä.</string>
   <string name="otr__first_launch__button">OK</string>
-  <string name="otr__device_approve__header">Olet liittänyt laitteen Wire tiliisi.</string>
-  <string name="otr__device_approve__note">Jos et tehnyt tätä, poista laite ja vaihda salasanasi.</string>
   <string name="otr__signin__info_text">Kirjaudu sisään</string>
   <string name="otr__reset_session__message_ok">Istunto on nollattu</string>
   <string name="otr__reset_session__message_fail">Ei voitu nollata istuntoa</string>
   <string name="otr__reset_session__button_ok">OK</string>
   <string name="otr__reset_session__button_fail">Yritä uudelleen</string>
-  <string name="otr__remove_device__no_internet__title">Ei Internet-yhteyttä</string>
-  <string name="otr__remove_device__no_internet__message">Yritä poistaa laite kun olet taas online-tilassa.</string>
-  <string name="otr__remove_device__no_internet__button">OK</string>
-  <string name="otr__device_inbox__header">Tiliäsi käytettiin:</string>
-  <string name="otr__device_inbox__name">Lähettäjä: [[%s]]</string>
   <string name="advanced_image_download_wifi_info">Kuva tulee näkyviin, kun olet taas Wi-Fi-verkossa</string>
   <string name="change_settings">Muuta Asetuksia</string>
-  <string name="single_image__save_to_disk__error">Ei voi tallentaa kuvaa, ei pääsyä ulkonaiseen muistiin</string>
-  <string name="conversation_list__label_action__contacts">KÄYTTÄJÄT</string>
-  <string name="conversation_list__hint_header">Keskustelut alkavat tästä</string>
-  <string name="conversation_list__hint_text">Aloita keskustelu. Soita, pikaviestitä ja jaa yksityisesti tai ryhmissä.</string>
   <string name="conversation_list__action_join_call">LIITY</string>
   <!-- Conversation Toolbar -->
   <string name="conversation_toolbar__collection">Kokoelma</string>
   <string name="conversation_toolbar__call_video">Videopuhelu</string>
   <string name="conversation_toolbar__call_audio">Äänipuhelu</string>
-  <string name="conversation_toolbar__delete">Poista</string>
-  <string name="conversation_toolbar__copy">Kopioi</string>
-  <string name="conversation_toolbar__fwd">Jaa</string>
   <!-- Asset upload errors -->
   <string name="asset_upload_error__not_found__title">Tiedostoa ei löydy</string>
   <string name="asset_upload_error__not_found__message">Ei pystytä löytämään määriteltyä tiedostoa</string>
@@ -958,17 +701,8 @@
   <string name="asset_upload_warning__large_file__title">Et ole Wi-Fi-verkossa</string>
   <string name="asset_upload_warning__large_file__message_default">Oletko varma että haluat lähettää suuren tiedoston matkapuhelinverkossa?</string>
   <string name="asset_upload_warning__large_file__message">Oletko varma, että haluat lähettää %1$s matkapuhelinverkossa?</string>
-  <string name="asset_upload_warning__large_file__button_accept">OK</string>
-  <string name="asset_upload_warning__large_file__button_cancel">Peruuta</string>
   <!-- Video message errors -->
-  <string name="video_message_error__too_big__title">Video on liian suuri</string>
-  <string name="video_message_error__too_big__message">Voit lähettää maksimissaan 25 MB: n kokoisia videoita.</string>
-  <string name="video_message_error__title">Videovirhe</string>
-  <string name="video_message_error__message">Ei pysty prosessoimaan videotiedostoa</string>
-  <string name="video_message_error__button">OK</string>
-  <string name="video_message_error__missing_camera_permissions">Lähettääksesi videoviestejä, anna lupa käyttää kameraa ja mediatiedostoja.</string>
   <string name="audio_message_error__missing_audio_permissions">Lähettäksesi ääniviestejä, anna lupa nauhoittaa ääntä.</string>
-  <string name="audio_message_error__generic">Ääntä ei voida toistaa</string>
   <!-- Audio bit rate mode -->
   <string name="audio_message__constant_bit_rate">VAKIOBITTITAAJUUS</string>
   <!-- no contacts -->
@@ -988,7 +722,6 @@
   <string name="tooltip_file">Lähetä tiedosto</string>
   <string name="tooltip_gif">Gif</string>
   <string name="tooltip_mention">Add Mention</string>
-  <string name="new_feature">Uusi</string>
   <!-- Delete -->
   <string name="conversation__message_action__delete_for_me">Poista ainoastaan minulta?</string>
   <string name="conversation__message_action__delete_for_everyone">Poista kaikilta?</string>
@@ -1002,9 +735,6 @@
   <string name="conversation__action_mode__fwd__dialog__message">Odota hetki&#8230;</string>
   <string name="conversation__action_mode__fwd__chooser__title">Jaa seuraavien kanssa</string>
   <!-- video message preview -->
-  <string name="video_message__preview__header">Lähetä %1$s lle</string>
-  <string name="video_message__quick_menu__send_label">Lähetä</string>
-  <string name="video_message__preview__compressing">KOMPRESSOIDAAN&#8230;</string>
   <string name="audio_message__recording__slide_control__slide_hint">PYYHKÄISE YLÖS LÄHETTÄÄKSESI</string>
   <string name="audio_message__recording__slide_control__tap_hint">NAPAUTA LÄHETTÄÄKSESI</string>
   <string name="audio_message__recording__tap_to_record">Napauta äänittääksesi viestin\nvoit _GLYPH_ sitä sen jälkeen</string>
@@ -1024,7 +754,6 @@
   <string name="message_bottom_menu_action_delete">Poista</string>
   <string name="message_bottom_menu_action_delete_local">Poista minulta</string>
   <string name="message_bottom_menu_action_delete_global">Poista kaikilta</string>
-  <string name="message_bottom_menu_action_forward_multiple">Jaa useiden kanssa</string>
   <string name="message_bottom_menu_action_reveal">Näytä keskustelussa</string>
   <string name="likes_list__header">Tykätty</string>
   <string name="message_bottom_menu_action_save_ok">Kuva tallennettu</string>
@@ -1042,7 +771,6 @@
   <string name="usernames__take_over__summary">Omi ainutlaatuinen nimesi Wiressä. _Lue lisää._</string>
   <string name="usernames__take_over__choose">VALITSE OMASI</string>
   <string name="usernames__take_over__keep">PIDÄ TÄMÄ</string>
-  <string name="pref_account_username_empty_title">Lisää käyttäjänimi</string>
   <string name="ephemeral_message__timeout__off">Pois päältä</string>
   <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
   <string name="guests_option_on">On</string>
@@ -1072,17 +800,14 @@
   </plurals>
   <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
   <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
-  <string name="collection_header_all">KOKOELMA</string>
   <string name="collection_header_pictures">KUVAT</string>
   <string name="collection_header_files">TIEDOSTOT</string>
   <string name="collection_header_links">LINKIT</string>
   <string name="collection_header_today">TÄNÄÄN</string>
   <string name="collection_header_yesterday">EILEN</string>
   <string name="collection_empty">EI KOHTEITÄ KOKOELMASSA</string>
-  <string name="collection_send_to">Lähetä&#8230;</string>
   <string name="collection_all">Näytä kaikki %1$s</string>
   <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_toast_failed">Lähettäminen epäonnistui</string>
   <string name="multi_share_search_hint">LÄHETÄ&#8230;</string>
   <string name="search__box__hint_text">ETSI VIESTEJÄ</string>
   <string name="search__no_results">Ei tuloksia.</string>
@@ -1125,11 +850,8 @@
   <string name="conversation_list__someone">Joku</string>
   <string name="conversation_list__added">[[%1$s]] lisättiin</string>
   <string name="conversation_list__added_you">[[%1$s]] lisäsi sinut</string>
-  <string name="conversation_list__left">[[%1$s]] poistui</string>
   <string name="conversation_list__left_you">Sinä poistuit</string>
   <string name="conversation_list__removed_you">[[%1$s]] poisti sinut</string>
-  <string name="conversation_list__removed">[[%1$s]] poistettiin</string>
-  <string name="conversation_list__empty_conv__subtitle">Kaikki poistuivat</string>
   <string name="conversation_list__header__title">KESKUSTELUT</string>
   <string name="conversation_list__header__archive_title">ARKISTOI</string>
   <string name="guest_indicator">VIERAS</string>
@@ -1167,7 +889,6 @@
   <string name="teams_verify_email_change">CHANGE EMAIL</string>
   <string name="teams_set_name_title">Your name</string>
   <string name="teams_set_name_hint">FULL NAME</string>
-  <string name="app_entry_slogan">Secure messaging for everyone.</string>
   <string name="app_entry_create_account">Henkilökohtainen</string>
   <string name="app_entry_create_account_sub">create an account</string>
   <string name="app_entry_create_team">Pro</string>
@@ -1194,17 +915,12 @@
   <string name="teams_invitations_skip">SKIP</string>
   <string name="teams_invitations_done">DONE</string>
   <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
-  <string name="teams_invitations_error_blacklisted_email">The given e-mail address has been blacklisted due to a permanent bounce or a complaint.</string>
-  <string name="teams_invitations_error_no_identity">The user has no verified identity (email or phone number).</string>
-  <string name="teams_invitations_error_no_email">This operation requires the user to have a verified email address.</string>
   <string name="teams_invitations_error_already_sent">Already sent</string>
   <string name="teams_invitations_error_generic">Jokin meni pieleen, yritä uudelleen</string>
   <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
   <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
   <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
-  <string name="teams_invitations_error_email_exists_more">LEARN MORE</string>
   <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
-  <string name="team_invitation_add_from_address_book">ADD FROM ADDRESSBOOK</string>
   <string name="invitation_screen_title">Rakenna tiimisi</string>
   <string name="invitation_screen_subtitle">Kutsu kollegat liittymään.</string>
   <string name="open_service_conversation_button_text">Avaa keskustelu</string>
@@ -1225,7 +941,6 @@
   <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
   <string name="new_conv_no_results">Ei tuloksia</string>
   <string name="new_conv_no_contacts">No contacts</string>
-  <string name="create_group_search">SEARCH FOR NAMES</string>
   <string name="participants_divider_services">SERVICES (%1$s)</string>
   <string name="participants_divider_people">PEOPLE (%1$s)</string>
   <string name="group_name_hint">GROUP NAME</string>
@@ -1292,7 +1007,6 @@
   <string name="video_paused">Video paused</string>
   <string name="calling_degraded_title">New device</string>
   <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="too_many_people_video_toast">Video calls only work in groups of 4 or less.</string>
   <string name="markdown_link_dialog_title">Visit Link</string>
   <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>
