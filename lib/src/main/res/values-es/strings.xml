@@ -83,7 +83,7 @@
   <string name="receive_news_and_offers_request_title">Boletín informativo</string>
   <string name="receive_news_and_offers_request_body">¿Desea recibir noticias y actualizaciones de Wire por correo electrónico? Puede darse de baja en cualquier momento.</string>
   <string name="crashes_and_analytics_request_title">¡Ayúdanos a mejorar!</string>
-  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+  <string name="crashes_and_analytics_request_body">El envío anónimo de informes de uso y fallos nos ayuda a mejorar nuestros productos y servicios. No usamos esta información para nada más.</string>
   <string name="crashes_and_analytics_request_no">No</string>
   <string name="crashes_and_analytics_request_agree">I Agree</string>
   <!-- Bots / Integrations / Services -->
@@ -196,7 +196,7 @@
   <string name="conversation__action__unarchive">Desarchivar</string>
   <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
   <string name="conversation__action__create_group">CREAR GRUPO</string>
-  <string name="conversation__action__notifications">Notifications&#8230;</string>
+  <string name="conversation__action__notifications">Notificaciones&#8230;</string>
   <string name="conversation__action__silence">Silenciar</string>
   <string name="conversation__action__unsilence">No silenciar</string>
   <string name="conversation__action__leave">Abandonar el grupo&#8230;</string>
@@ -208,9 +208,9 @@
   <string name="conversation__action__leave_only">\tSalir del grupo</string>
   <string name="conversation__action__delete_and_leave">\tEliminar contenido y salir</string>
   <string name="conversation__action__delete_only">\tEliminar contenido</string>
-  <string name="conversation__action__notifications_everything">Everything</string>
-  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
-  <string name="conversation__action__notifications_nothing">Nothing</string>
+  <string name="conversation__action__notifications_everything">Todo</string>
+  <string name="conversation__action__notifications_mentions_only">Solo menciones</string>
+  <string name="conversation__action__notifications_nothing">Nada</string>
   <string name="conversation__action__notifications_title">Notify me about:</string>
   <!-- Conversation: Profile Popover -->
   <!-- Calling/voice -->
@@ -510,8 +510,8 @@
   <string name="notification__message__single__accept_request">%1$s y tú estáis conectados</string>
   <string name="notification__message__group__default_conversation_name">conversación de grupo</string>
   <string name="notification__message__send_failed">Fallo al enviar mensaje</string>
-  <string name="notification__message__ephemeral">Sent a message</string>
-  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
+  <string name="notification__message__ephemeral">Te envió un mensaje</string>
+  <string name="notification__message_with_mention__ephemeral">Te mencionó</string>
   <string name="notification__message__liked">\u2764 %1$s</string>
   <string name="notification__message__liked_message">\u2764 tu mensaje</string>
   <string name="notification__message__liked_picture">\u2764 tu foto</string>
@@ -844,8 +844,8 @@
   <string name="conversation_list__missed_call">Llamada perdida</string>
   <string name="conversation_list__pinged">Hizo ping</string>
   <string name="conversation_list__ephemeral">Alguien envió un mensaje</string>
-  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
-  <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
+  <string name="conversation_list__single_eph_and_mention">Te mencionó</string>
+  <string name="conversation_list__group_eph_and_mention">Alguien te mencionó</string>
   <string name="conversation_list__typing">Escribiendo ...</string>
   <string name="conversation_list__someone">Alguien</string>
   <string name="conversation_list__added">[[%1$s]] se agregó</string>
@@ -945,16 +945,16 @@
   <string name="participants_divider_people">PERSONAS (%1$s)</string>
   <string name="group_name_hint">NOMBRE DEL GRUPO</string>
   <string name="allow_guests_toggle_text">Permitir invitados y servicios</string>
-  <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
+  <string name="allow_guests_toggle_info_text">Abrir esta conversación a servicios y personas fuera de su equipo. Siempre puedes cambiarlo más tarde.</string>
+  <string name="open_this_conversation_to_people_outside_your_team">Abrir esta conversación a servicios y personas fuera de su equipo.</string>
   <string name="allow_guests">Permitir invitados y servicios</string>
   <string name="guest_options_title">Invitados y servicios</string>
-  <string name="ephemeral_options_title">Mensajes cronometrados</string>
+  <string name="ephemeral_options_title">Mensajes temporizados</string>
   <string name="ephemeral_explanation_text">Los mensajes cronometrados se activarán para todos los participantes en esta conversación</string>
   <string name="show_all_participants">Mostrar todos (%1$s)</string>
   <string name="allow_guests_error_title">Algo salió mal</string>
   <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
-  <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
+  <string name="allow_guests_warning_body">Los invitados y servicios actuales serán eliminados de la conversación. No se permitirán nuevos invitados o servicios.</string>
   <string name="allow_guests_warning_confirm">Quitar</string>
   <string name="guests_are_present">LOS INVITADOS ESTÁN PRESENTES</string>
   <string name="services_are_present">SERVICES ARE ACTIVE</string>
@@ -998,19 +998,19 @@
   <string name="export_generic_error_text">Es posible que no tenga suficiente espacio o permiso para guardarlo allí.</string>
   <string name="backup_button">Haga una copia de seguridad ahora</string>
   <string name="backup_import_error_unknown_title">Algo salió mal</string>
-  <string name="backup_import_error_unknown">Su historia no pudo ser restaurada.</string>
+  <string name="backup_import_error_unknown">Tu historial no pudo ser restaurado.</string>
   <string name="backup_import_error_unsupported_version_title">Copia de seguridad incompatible</string>
   <string name="backup_import_error_unsupported_version">Esta copia de seguridad fue creada por una versión antigua o más reciente de Wire y no se puede restaurar aquí.</string>
   <string name="backup_import_error_wrong_account_title">Copia de seguridad incorrecta</string>
   <string name="backup_import_error_wrong_account">No se puede restaurar el historial desde una cuenta diferente.</string>
-  <string name="video_paused">Video en Pausa</string>
+  <string name="video_paused">Video pausado</string>
   <string name="calling_degraded_title">Nuevo dispositivo</string>
   <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
   <string name="markdown_link_dialog_title">Abrir enlace</string>
   <string name="markdown_link_dialog_message">Esto le llevará a\n%1$s</string>
   <string name="markdown_link_dialog_confirmation">OK</string>
   <string name="markdown_link_dialog_cancel">CANCELAR</string>
-  <string name="max_participants_alert_title">The group is full</string>
+  <string name="max_participants_alert_title">Grupo completo</string>
   <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
   <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
   <string name="sso_signin_button">Acceso empresarial</string>
@@ -1022,7 +1022,7 @@
   <string name="participant_search_hint">BUSCAR POR NOMBRES</string>
   <string name="participant_search_title">Personas</string>
   <string name="generic_service_warning">Hay servicios con acceso al contenido de esta conversación</string>
-  <string name="add_services_button_text">Gestionar los servicios</string>
+  <string name="add_services_button_text">Gestionar servicios</string>
   <string name="wire_notification_name">Wire Notification</string>
   <string name="wire_ping_name">Tono de Wire</string>
 </resources>
