@@ -20,1062 +20,1089 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!--*********************************************** ERRORS ***********************************************-->
-  <string name="generic_error_header">Kažkas nutiko</string>
-  <string name="generic_error_message">Bandykite dar kartą</string>
-  <string name="internet_connectivity_error_header">Nėra interneto ryšio</string>
-  <string name="internet_connectivity_error_message">Patikrinkite savo interneto ryšį ir bandykite dar kartą</string>
-  <string name="too_many_attempts_header">Per daug bandymų</string>
-  <string name="login_later_message">Bandykite prisijungti vėliau</string>
-  <string name="email_exists_header">El. pašto adresas jau užimtas</string>
-  <string name="email_exists_message">Šis el. pašto adresas jau užregistruotas</string>
-  <string name="email_invalid_header">Neteisingas el. pašto adresas</string>
-  <string name="email_invalid_message">Iveskite teisingą el. pašto adresą</string>
-  <string name="invalid_credentials_header">Neteisinga informacija</string>
-  <string name="invalid_credentials_message">Patikrinkite duomenis ir bandykite dar kartą</string>
-  <string name="phone_exists_header">Telefono numeris jau naudojamas</string>
-  <string name="phone_exists_message">Nurodytas telefono numeris jau yra užregistruotas. Bandykite dar kartą</string>
-  <string name="phone_invalid_format_header">Neteisingas telefono numeris</string>
-  <string name="phone_invalid_format_message">Įrašykite teisingą telefono numerį</string>
-  <string name="phone_password_exists_header">Slaptažodis naudojamas</string>
-  <string name="phone_password_exists_message">Paskyra jau turi slaptažodį ir priskirtą el. pašto adresą. Prisijunkite el. paštu.</string>
-  <string name="invalid_code_header">Netaisyklingas kodas</string>
-  <string name="incorrect_code_header">Neteisingas kodas</string>
-  <string name="wrong_code_message">Įrašykite teisingą kodą</string>
-  <string name="phone_pending_login_header">Kodas jau išsiųstas</string>
-  <string name="phone_pending_login_message">Kodą jau išsiuntėme jums SMS žinute. Spustelėkite „Siųsti dar kartą“ po 10 minučių ir gausite naują kodą.</string>
-  <string name="phone_budget_exhausted_header">Per daug bandymų</string>
-  <string name="phone_budget_exhausted_message">Bandykite dar kartą vėliau.</string>
-  <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_settings">Nustatymai</string>
-  <string name="camera_not_available">KAMERA NEPRIEINAMA</string>
-  <string name="camera_permissions_denied_title">Kamera neprieinama</string>
-  <string name="camera_permissions_denied_message">Norėdami nufotografuoti ir siųsti nuotraukas, suteikite teisę naudotis fotoaparatu</string>
-  <!-- Registration and Sign in -->
-  <string name="welcome__terms_of_service">TĘSDAMI, JŪS SUTINKATE SU _NAUDOJIMOSI SĄLYGOMIS_.</string>
-  <string name="profile__name__guidance__tooshort__title">BENT 2 SIMBOLIAI</string>
-  <string name="profile__email__placeholder">El. paštas</string>
-  <string name="profile__password__placeholder">Slaptažodis</string>
-  <string name="profile__password__guidance__tooshort__title">BENT 8 SIMBOLIAI</string>
-  <string name="profile__email__verify__instructions">Išsiuntėme el. laišką į \n[[%1$s]].\nSpustelėkite ten esančią nuorodą adreso patvirtinimui.</string>
-  <string name="profile__email__verify__didnt_get">Negavote el. laiško?</string>
-  <string name="profile__email__verify__resend">Siųsti iš naujo</string>
-  <string name="profile__guidance__invalid_email">Įrašytas el. pašto adresas yra netinkamas. Pasitikslinkite ir bandykite dar kartą</string>
-  <string name="new_reg__code_resent">Naujas kodas jums buvo išsiųstas SMS žinute</string>
-  <string name="new_reg__email_code_resent">Naujas kodas jums buvo išsiųstas el. paštu</string>
-  <string name="new_reg__code_resent__call">Palaukite skambučio</string>
-  <string name="new_reg__default_country">de</string>
-  <!-- consider updating this for every new language -->
-  <string name="your_phone_number">Jūsų telefono numeris</string>
-  <!-- Receive email/sms invitation -->
-  <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 IEŠKOTI</string>
-  <string name="pick_user_search_hint">IEŠKOTI</string>
-  <string name="choose_conversation">IEŠKOTI</string>
-  <string name="people_picker__top_users_header_title">Svarbiausi žmonės</string>
-  <string name="people_picker__search_result_conversations_header_title">Grupės</string>
-  <string name="people_picker__search_result_team_conversations_header_title">%1$s grupės</string>
-  <string name="people_picker__search_result_connections_header_title">Kontaktai</string>
-  <string name="people_picker__search_result_others_header_title">Užmegzti kontaktą</string>
-  <string name="people_picker__search_result__expander_title">Rodyti visus %1$s ↓</string>
-  <string name="people_picker__search_people">ŽMONĖS</string>
-  <string name="people_picker__search_services">PASLAUGOS</string>
-  <string name="receive_news_and_offers_request_title">Naujienlaiškis</string>
-  <string name="receive_news_and_offers_request_body">Norite gauti naujienas ir produktų informacija iš „Wire“ el. paštu? Atsisakyti galite bet kada.</string>
-  <string name="crashes_and_analytics_request_title">Pagerinkite „Wire“</string>
-  <string name="crashes_and_analytics_request_body">Sutinku, kad \"Wire\" galėtų sukurti ir naudoti anoniminę vartojimo ir klaidų ataskaitą \"Wire\" aplikacijos tobulinimui. Aš galėsiu atšaukti sutikimą bet kada vėliau.</string>
-  <string name="crashes_and_analytics_request_no">Ne</string>
-  <string name="crashes_and_analytics_request_agree">Sutinku</string>
-  <!-- Bots / Integrations / Services -->
-  <string name="integrations_picker__section_title">Paslaugos</string>
-  <string name="integrations_errors_add_service">Paslaugos pridėjimas negalimas</string>
-  <string name="integrations_errors_service_unavailable">Paslauga šiuo metu negalima</string>
-  <string name="conversation_errors_full">Susirašinėjimas pilnas</string>
-  <!-- start ui / people picker, contacts sharing -->
-  <string name="people_picker__share_contacts__title">Dalintis kontaktais</string>
-  <string name="people_picker__share_contacts__message">„Wire“ padės jums rasti draugus jei pasidalinsite kontaktais.</string>
-  <string name="people_picker__share_contacts__yay">Leisti</string>
-  <string name="people_picker__share_contacts__nah">Atmesti</string>
-  <string name="people_picker__share_contacts__nevvah">Daugiau neklausti</string>
-  <!-- Invite -->
-  <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Dalinkitės „Wire“ su draugais.</string>
-  <string name="people_picker__invite__share_text__header">%1$s nori bendrauti su jumis per „Wire“</string>
-  <string name="people_picker__invite__share_text__body">Naudojuosi „Wire“, ieškokite %1$s arba eikit į get.wire.com</string>
-  <!-- Conversation: Quick menu -->
-  <string name="conversation_quick_menu__conversation_button__single_label">ATVERTI</string>
-  <!-- Conversation: System messages -->
-  <string name="content__system__other_joined">[[%1$s]] prisijungė</string>
-  <string name="content__system__you_joined">[[You]] prisijungėte</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] pakeitė susirašinėjimo pavadinimą</string>
-  <string name="content__system__you_renamed_conv">[[You]] pakeitei susirašinėjimo pavadinimą</string>
-  <!-- Add people -->
-  <string name="content__system__someone_added_people">[[%1$s]] pridėjo pašnekovą %2$s prie susirašinėjimo</string>
-  <plurals name="content__system__someone_added_people_with_others">
-    <item quantity="one">[[%1$s]] pridėjo pašnekovą %2$s ir dar _%3$s prie susirašinėjimo_</item>
-    <item quantity="few">[[%1$s]] pridėjo pašnekovą %2$s ir dar _%3$s prie susirašinėjimo_</item>
-    <item quantity="many">[[%1$s]] pridėjo pašnekovą %2$s ir dar _%3$s prie susirašinėjimo_</item>
-    <item quantity="other">[[%1$s]] pridėjo pašnekovą %2$s ir dar _%3$s prie susirašinėjimo_</item>
-  </plurals>
-  <string name="content__system__someone_added_you">[[%1$s]] pridėjo jus prie susirašinėjimo</string>
-  <plurals name="content__system__someone_added_people_and_you_with_others">
-    <item quantity="one">[[%1$s]] pridėjo pašnekovą %2$s, jus ir _dar %3$s prie susirašinėjimo_</item>
-    <item quantity="few">[[%1$s]] pridėjo pašnekovą %2$s, jus ir _dar %3$s prie susirašinėjimo_</item>
-    <item quantity="many">[[%1$s]] pridėjo pašnekovą %2$s, jus ir _dar %3$s prie susirašinėjimo_</item>
-    <item quantity="other">[[%1$s]] pridėjo pašnekovą %2$s, jus ir _dar %3$s prie susirašinėjimo_</item>
-  </plurals>
-  <string name="content__system__you_added_people">Pridėjote pašnekovą %1$s prie susirašinėjimo</string>
-  <plurals name="content__system__you_added_people_with_others">
-    <item quantity="one">Pridėjote pašnekovą %1$s ir _dar %2$s prie susirašinėjimo_</item>
-    <item quantity="few">Pridėjote pašnekovą %1$s ir _dar %2$s prie susirašinėjimo_</item>
-    <item quantity="many">Pridėjote pašnekovą %1$s ir _dar %2$s prie susirašinėjimo_</item>
-    <item quantity="other">Pridėjote pašnekovą %1$s ir _dar %2$s prie susirašinėjimo_</item>
-  </plurals>
-  <!-- Remove people -->
-  <string name="content__system__other_removed_other">[[%1$s]] pašalino %2$s</string>
-  <string name="content__system__other_removed_you">[[%1$s]] jus pašalino</string>
-  <string name="content__system__you_removed_other">Pašalinote pašnekovą %1$s</string>
-  <string name="content__system__you_left">[[Jūs]] išėjote</string>
-  <string name="content__system__other_left">[[%1$s]] išėjo</string>
-  <!-- Create conversation -->
-  <string name="content__system__you_started_conversation">Jūs pradėjote susirašinėjimą</string>
-  <string name="content__system__other_started_conversation">%1$s pradėjo susirašinėjimą</string>
-  <string name="content__system__with_you_only">su jumis</string>
-  <string name="content__system__with_list_only">su %1$s</string>
-  <plurals name="content__system__with_others_only">
-    <item quantity="one">su pašnekovu %1$s ir _dar %2$s_</item>
-    <item quantity="few">su pašnekovu %1$s ir _dar %2$s_</item>
-    <item quantity="many">su pašnekovu %1$s ir _dar %2$s_</item>
-    <item quantity="other">su pašnekovu %1$s ir _dar %2$s_</item>
-  </plurals>
-  <string name="content__system__with_list_and_you">su pašnekovu %1$s ir jumis</string>
-  <plurals name="content__system__with_others_and_you">
-    <item quantity="one">su pašnekovu %1$s, jumis ir _dar %2$s_</item>
-    <item quantity="few">su pašnekovu %1$s, jumis ir _dar %2$s_</item>
-    <item quantity="many">su pašnekovu %1$s, jumis ir _dar %2$s_</item>
-    <item quantity="other">su pašnekovu %1$s, jumis ir _dar %2$s_</item>
-  </plurals>
-  <!-- Conversation: missed call -->
-  <string name="content__missed_call__you_called">[[JŪS]] SKAMBINOTE</string>
-  <string name="content__missed_call__xxx_called">SKAMBINO [[%1$s]]</string>
-  <string name="content__you_pinged">[[JŪS]] SKAMBTELĖJOTE</string>
-  <string name="content__xxx_pinged">[[%1$s]] SKAMBTELĖJO</string>
-  <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__message_error">ŽINUTĖ, KURIĄ PARAŠĖ [[%1$s]] NEGAUTA. _KODĖL?_</string>
-  <string name="content__otr__message_error_you">ŽINUTĖ, KURIĄ PARAŠĖTE JŪS NEGAUTA. _KODĖL?_</string>
-  <string name="content__otr__identity_changed_error">KONTAKTO [[%1$s]] ĮRENGINIO TAPATYBĖ PASIKEITĖ. NEIŠSIŲSTOS ŽINUTĖS. _SUŽINOKITE DAUGIAU_</string>
-  <string name="content__otr__identity_changed_error_you">JŪSŲ ĮRENGINIO TAPATYBĖ PASIKEITĖ. NEIŠSIŲSTOS ŽINUTĖS. _SUŽINOKITE DAUGIAU_</string>
-  <string name="content__otr__someone_added_new_device__message">%1$s pradėjo naudotis _nauju įrenginiu_</string>
-  <string name="content__otr__someone_and_you_added_new_device__message">%1$s ir jūs pradėjote naudotis _nauju įrenginiu_</string>
-  <string name="content__otr__someone_and_others_added_new_device__message">%1$s ir dar %2$s kiti pradėjo naudotis _nauju įrenginiu_</string>
-  <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s kiti ir jūs pradėjote naudotis _nauju įrenginiu_</string>
-  <string name="content__otr__start_this_device__message">[[JŪS]] PRADĖJOTE NAUDOTIS _ŠIUO ĮRENGINIU_</string>
-  <string name="content__otr__all_fingerprints_verified">VISI KONTROLINIAI KODAI PATVIRTINTI</string>
-  <string name="content__otr__lost_history">ŠIUO ĮRENGINIU KAI KURĮ LAIKĄ NESINAUDOJOTE. KAI KURIOS ŽINUTĖS ČIA NEATSIRAS.</string>
-  <string name="content__otr__unverified_device__message">[[JŪS]] NEPATVIRTINOTE VIENO IŠ _%1$s ĮRENGINIŲ_</string>
-  <string name="content__otr__your_unverified_device__message">[[JŪS]] NEPATVIRTINOTE VIENO IŠ _SAVO ĮRENGINIŲ_</string>
-  <string name="content__otr__new_member__message">PRISIJUNGĖ NAUJI ŽMONĖS. _PATVIRTINTI ĮRENGINIUS_</string>
-  <!-- File transfer -->
-  <string name="content__file__status__default">%1$s</string>
-  <string name="content__file__status__uploading__minimized">ĮKELIAMA&#8230;</string>
-  <string name="content__file__status__cancelled__minimized">ATŠAUKTA&#8230;</string>
-  <string name="content__file__status__downloading__minimized">ATSIUNČIAMA&#8230;</string>
-  <string name="content__file__status__download_failed__minimized">ATSISIŲSTI NEPAVYKO</string>
-  <string name="content__file__status__upload_failed__minimized">ĮKELTI NEPAVYKO</string>
-  <string name="content__file__status__uploading">%1$s · ĮKELIAMA&#8230;</string>
-  <string name="content__file__status__cancelled">%1$s · ATŠAUKTA&#8230;</string>
-  <string name="content__file__status__downloading">%1$s · ATSIUNČIAMA&#8230;</string>
-  <string name="content__file__status__download_failed">%1$s · ATSISIŲSTI NEPAVYKO</string>
-  <string name="content__file__status__upload_failed">%1$s · ĮKELTI NEPAVYKO</string>
-  <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
-  <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
-  <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · ĮKELIAMA&#8230;</string>
-  <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · ATŠAUKTA&#8230;</string>
-  <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · ATSIUNČIAMA&#8230;</string>
-  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · ATSISIŲSTI NEPAVYKO</string>
-  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · ĮKELTI NEPAVYKO</string>
-  <string name="content__file__action__open">ATVERTI</string>
-  <string name="content__file__action__save">IŠSAUGOTI</string>
-  <string name="content__file__action__open__no_app_found">Nėra programėlės, kuri galėtų atverti šį failų tipą</string>
-  <string name="content__file__action__save_completed">Failas sėkmingai įrašytas</string>
-  <string name="content__file__action__save_error">Nepavyko įrašyti failo</string>
-  <string name="content__location__no_map_placeholder">VIETA PASIRODYS ŽEMĖLAPYJE KAI ATSIRAS RYŠYS.</string>
-  <!-- Conversation actions -->
-  <string name="conversation__action__delete">Trinti turinį&#8230;</string>
-  <string name="conversation__action__archive">Archyvuoti</string>
-  <string name="conversation__action__unarchive">Išarchyvuoti</string>
-  <string name="conversation__action__add_participants">PRIDĖTI PAŠNEKOVŲ</string>
-  <string name="conversation__action__create_group">SUKURTI GRUPĘ</string>
-  <string name="conversation__action__notifications">Pranešimai&#8230;</string>
-  <string name="conversation__action__silence">Išjungti pranešimus</string>
-  <string name="conversation__action__unsilence">Įjungti pranešimus</string>
-  <string name="conversation__action__leave">Išeiti iš grupės&#8230;</string>
-  <string name="conversation__action__call">Skambutis</string>
-  <string name="conversation__action__picture">Paveikslas</string>
-  <string name="conversation__action__block">Blokuoti&#8230;</string>
-  <string name="conversation__action__unblock">Atblokuoti</string>
-  <string name="conversation__action__leave_and_delete">\tIšeiti ir ištrinti turinį</string>
-  <string name="conversation__action__leave_only">\tIšeiti iš grupės</string>
-  <string name="conversation__action__delete_and_leave">\tIštrinti turinį ir išeiti</string>
-  <string name="conversation__action__delete_only">\tIštrinti turinį</string>
-  <string name="conversation__action__notifications_everything">Viską</string>
-  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
-  <string name="conversation__action__notifications_nothing">Nieką</string>
-  <string name="conversation__action__notifications_title">Pranešti apie:</string>
-  <!-- Conversation: Profile Popover -->
-  <!-- Calling/voice -->
-  <string name="calling__slow_connection__title">Lėtas internetas</string>
-  <string name="calling__slow_connection__message">Jūsų interneto ryšys šiuo metu yra pernelyg lėtas. Bandykite dar kartą.</string>
-  <string name="calling__cannot_start__title">Būtinas mikrofonas</string>
-  <string name="calling__cannot_start__message">Norėdami skambinti užbaikite dabartinį skambutį.</string>
-  <string name="calling__cannot_start__no_permission__message">Eikite į nustatymus ir leiskite „Wire“ naudoti mikrofoną.</string>
-  <string name="calling__cannot_start__cancel__message">ATŠAUKTI</string>
-  <string name="calling__cannot_start__no_camera_permission__message">„Wire“ neturi leidimo naudotis kamera</string>
-  <string name="calling__video_call__slow_connection__message">Skambučio metu gali kilti nesklandumų</string>
-  <string name="incoming__controls__ongoing__speaker">GARSIAKALBIS</string>
-  <string name="incoming__controls__ongoing__mute">NUTILDYTI</string>
-  <string name="incoming__controls__ongoing__video">VAIZDAS</string>
-  <string name="incoming__controls__ongoing__flip">APVERSTI</string>
-  <string name="ongoing__poor_connection_message">VAIZDAS SUSTABDYTAS DĖL PRASTO RYŠIO</string>
-  <string name="calling__self_preview_unavailable_long">KAMERA NEPRIEINAMA</string>
-  <string name="calling__header__joining">Jungiamasi&#8230;</string>
-  <string name="calling__header__outgoing_subtitle">Kviečiama&#8230;</string>
-  <string name="calling__header__outgoing_video_subtitle">Kviečiama&#8230;</string>
-  <string name="calling__header__incoming_subtitle">Skambinama&#8230;</string>
-  <string name="calling__header__incoming_subtitle__video">Skambinama&#8230;</string>
-  <string name="calling__header__incoming_subtitle__group">%1$s jums skambina&#8230;</string>
-  <string name="call_banner_joining">Jungiamasi&#8230;</string>
-  <string name="call_banner_outgoing">Skambinate %1$S&#8230;</string>
-  <string name="call_banner_incoming">%1$s jums skambina&#8230;</string>
-  <string name="call_banner_incoming_group">%1$s \u30FB %2$s jums skambina&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">Spustelėję grįšite prie skambučio \u30FB %1$s</string>
-  <string name="calling_ongoing_call_title">Vykstantis skambutis</string>
-  <string name="calling_ongoing_call_start_message">Kitame susirašinėjime vyksta pokalbis.\nSkambindami čia baigsite aną pokalbį.</string>
-  <string name="calling_ongoing_call_start_anyway">SKAMBINTI VIS TIEK</string>
-  <string name="calling_ongoing_call_join_message">Kitame susirašinėjime vyksta pokalbis.\nPrisijungę prie šio pokalbio baigsite aną.</string>
-  <string name="calling_ongoing_call_join_anyway">JUNGTIS VIS TIEK</string>
-  <string name="calling_ongoing_call_participants_header">DALYVIAI</string>
-  <string name="calling_ongoing_call_audio_message">Kol kalbate, garso pranešimo įrašyti negalite</string>
-  <string name="calling_ongoing_call_video_message">Kol kalbate, garso pranešimo įrašyti negalite</string>
-  <!-- Calling in group conversation -->
-  <string name="group_calling_title">Pradėti pokalbį</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">Skambinsite %1$s žmonėms</string>
-  <string name="group_calling_confirm">Skambutis</string>
-  <!-- Connect request -->
-  <string name="connect__message">Sveiki, %1$s,\nSusijunkime per „Wire“.\n%2$s</string>
-  <string name="connect_request__sub_header__pending_label">Laukia</string>
-  <string name="connect_request__cancel_request__label">ATŠAUKTI PRAŠYMĄ SUSIJUNGTI</string>
-  <string name="connect_request__unblock__button__text">Atblokuoti</string>
-  <string name="send_connect_request__connect_button__text">SUSIJUNGTI</string>
-  <plurals name="connect_inbox__link__name">
-    <item quantity="one">Laukia 1 asmuo</item>
-    <item quantity="few">Laukia %1$s asmenys</item>
-    <item quantity="many">Laukia %1$s asmens</item>
-    <item quantity="other">Laukia %1$s asmenų</item>
-  </plurals>
-  <string name="connect_request__ignore_button__text">Nepaisyti</string>
-  <string name="content__message__connect_request__footer">PRISIJUNGĖ</string>
-  <string name="content__message__connect_request__auto_connect__footer">SUSIJUNGTA AUTOMATIŠKAI. _SUŽINOKITE DAUGIAU_</string>
-  <!-- Otr-->
-  <plurals name="conversation__degraded_confirmation__header__single_user">
-    <item quantity="one">%1$s pradėjo naudotis nauju įrenginiu.</item>
-    <item quantity="few">%1$s pradėjo naudotis naujais įrenginiais.</item>
-    <item quantity="many">%1$s pradėjo naudotis naujais įrenginiais.</item>
-    <item quantity="other">%1$s pradėjo naudotis naujais įrenginiais.</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__header__someone">Kažkas pradėjo naudotis nauju įrenginiu.</string>
-  <string name="conversation__degraded_confirmation__header__multiple_user">%1$s ir %2$s pradėjo naudotis naujais įrenginiais.</string>
-  <plurals name="conversation__degraded_confirmation__message">
-    <item quantity="one">Ar vis dar norite išsiųsti savo žinutę?</item>
-    <item quantity="few">Ar vis dar norite išsiųsti savo žinutes?</item>
-    <item quantity="many">Ar vis dar norite išsiųsti savo žinutes?</item>
-    <item quantity="other">Ar vis dar norite išsiųsti savo žinutes?</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__positive_action">Vis tiek siųsti</string>
-  <plurals name="conversation__degraded_confirmation__negative_action">
-    <item quantity="one">Rodyti įrenginį</item>
-    <item quantity="few">Rodyti įrenginius</item>
-    <item quantity="many">Rodyti įrenginio</item>
-    <item quantity="other">Rodyti įrenginių</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__negative_action_self">Rodyti savo įrenginius</string>
-  <string name="conversation_degraded_confirmation__header__you">Jūs</string>
-  <!-- Picture selection confirmation -->
-  <string name="confirmation_menu__confirm_done">GERAI</string>
-  <string name="confirmation_menu__cancel">ATŠAUKTI</string>
-  <!-- ADD TO CONVERSATION offline -->
-  <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <!-- Leave conversation -->
-  <string name="confirmation_menu__meta_remove">Išeiti iš pokalbio?</string>
-  <string name="confirmation_menu__meta_remove_text">Negalėsite siųsti ir gauti žinučių šiame susirašinėjime.</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <!-- Remove from conversation dialogue -->
-  <string name="confirmation_menu__header">Šalinti?</string>
-  <string name="confirmation_menu_text_with_name">%1$s negalės siųsti ir gauti žinučių šiame susirašinėjime.</string>
-  <string name="confirmation_menu__confirm_remove">ŠALINTI</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <!-- Block someone dialogue -->
-  <string name="confirmation_menu__block_header">Užblokuoti?</string>
-  <string name="confirmation_menu__block_text_with_name">%1$s negalės su jumis susisiekti ar pridėti jus į grupės susirašinėjimą.</string>
-  <string name="confirmation_menu__confirm_block">Užblokuoti</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <string name="connect_request__footer__blocked_label">Užblokuotas(-a)</string>
-  <!-- Delete conversation -->
-  <string name="confirmation_menu__meta_delete">Ištrinti turinį?</string>
-  <string name="confirmation_menu__meta_delete_text">Tai išvalys bendravimo praeitį visuose jūsų įrenginiuose.</string>
-  <!-- Rich media -->
-  <string name="content__youtube__error__text">vaizdo įrašas nerastas</string>
-  <string name="mediaplayer__message__onsoundcloud">„SoundCloud“ sistemoje</string>
-  <string name="mediaplayer__message__onspotify">„Spotify“ sistemoje</string>
-  <!-- Invite banner -->
-  <!-- Self profile -->
-  <!-- Options and settings -->
-  <string name="settings_title">Nustatymai</string>
-  <!-- Options menu -->
-  <!-- Manage Team -->
-  <string name="pref_manage_team_title">Valdyti komandą</string>
-  <!-- About screen -->
-  <string name="pref_category_title">Nustatymai</string>
-  <string name="pref_developer_screen_title">Kūrėjo nustatymai</string>
-  <string name="pref_dev_avs_screen_title">AVS nustatymai</string>
-  <string name="pref_profile_screen_title">Profilis</string>
-  <!-- Account -->
-  <string name="pref_account_screen_title">Paskyra</string>
-  <string name="pref_account_name_title">Vardas</string>
-  <string name="pref_account_edit_name_title">Keisti vardą</string>
-  <string name="pref_account_details_category_title">Informacija</string>
-  <string name="pref_account_actions_category_title">Veiksmai</string>
-  <string name="pref_account_appearance_category_title">Išvaizda</string>
-  <string name="pref_account_personal_information_category_title">Asmeninė informacija</string>
-  <string name="pref_account_conversations_category_title">Praeitis</string>
-  <string name="pref_account_username_title">Naudotojo vardas</string>
-  <string name="pref_account_phone_title">Telefonas</string>
-  <string name="pref_account_add_phone_title">Pridėti telefono numerį</string>
-  <string name="pref_account_email_title">El. paštas</string>
-  <string name="pref_account_add_email_title">Pridėti el. pašto adresą</string>
-  <string name="pref_account_delete">Ištrinti</string>
-  <string name="pref_account_sign_out_title">Atsijungti</string>
-  <string name="pref_account_color_title">Spalva</string>
-  <string name="pref_account_picture_title">Paveikslas</string>
-  <string name="pref_account_delete_title">Ištrinti paskyrą</string>
-  <string name="pref_account_delete_warning_title">Ištrinti paskyrą</string>
-  <string name="pref_account_delete_warning_message_email">Išsiųsime el. laišką į:\n[[%1$s]]\nSpustelėję el. laiške esančią nuorodą ištrinsite paskyrą negrįžtamai.</string>
-  <string name="pref_account_delete_warning_message_sms">Išsiųsime SMS žinutę į:\n[[%1$s]]\nSpustelėję žinutėje esančią nuorodą ištrinsite paskyrą negrįžtamai.</string>
-  <string name="pref_account_delete_warning_verify">GERAI</string>
-  <string name="pref_account_delete_warning_cancel">Atsisakyti</string>
-  <string name="pref_account_sign_out_warning_message">Ar tikrai norite atsijungti?</string>
-  <string name="pref_account_sign_out_warning_verify">Atsijungti</string>
-  <string name="pref_account_sign_out_warning_cancel">Atsisakyti</string>
-  <string name="pref_account_password_title">Atstatyti slaptažodį</string>
-  <string name="pref_account_edit_name_empty_warning">Vardas turi būti iš 2 arba daugiau simbolių</string>
-  <string name="pref_account_edit_name_empty_verify">GERAI</string>
-  <string name="pref_account_data_usage_permissions">Duomenų naudojimo leidimas</string>
-  <string name="pref_backup_screen_title">Kurti susirašinėjimų atsarginę kopiją</string>
-  <!-- Data Usage Permissions -->
-  <string name="pref_advanced_send_anonymous_data_title">Siųsti nuasmenintą informaciją</string>
-  <string name="pref_advanced_send_anonymous_data_summary">Pagerinkite „Wire“ siųsdami anoniminę naudojimosi ir trikčių ataskaitą.</string>
-  <string name="pref_advanced_receive_news_and_offers_title">Gaukite naujienlaiškį</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Gaukite naujienas ir produktų pakeitimo informaciją iš „Wire“ el. paštu.</string>
-  <!-- Options -->
-  <string name="pref_options_dark_theme_title">Tamsi tema</string>
-  <string name="pref_options_screen_title">Parinktys</string>
-  <string name="pref_options_contacts_title">Dalintis kontaktais</string>
-  <string name="pref_options_contacts_summary">Tai padeda jums užmegzti kontaktą su kitais žmonėmis. Mes padarome visą informaciją anonimine ir su niekuo ja nesidaliname.</string>
-  <string name="pref_options_vbr_title">Kodavimas kintama sparta</string>
-  <string name="pref_options_vbr_summary">Tai padeda sumažinti naudojamų duomenų kiekį skambinant lėtuose tinkluose. Išjungę naudosite kodavimą pastovia sparta.</string>
-  <string name="pref_options_alerts_category_title">Signalai</string>
-  <string name="pref_options_calls_category_title">Skambučiai</string>
-  <string name="pref_options_sounds_title">Garsai</string>
-  <string name="pref_options_sounds_all">Visi</string>
-  <string name="pref_options_sounds_new_conversations_and_talks_only">Pirmasis pranešimas, skambtelėjimas, skambutis</string>
-  <string name="pref_options_sounds_none">Jokių</string>
-  <string name="pref_options_vibration_title">Vibravimas</string>
-  <string name="pref_options_vibration_title_o">Vibruoti kai skamba</string>
-  <string name="pref_options_ringtones_category_title">Garsai</string>
-  <string name="pref_options_ringtones_ringtone_title">Skambučio melodija</string>
-  <string name="pref_options_ringtones_text_title">Pranešimo garsas</string>
-  <string name="pref_options_ringtones_ping_title">Skambtelėjimo</string>
-  <string name="pref_options_ringtones_default_summary">„Wire“ įprastinis</string>
-  <string name="pref_options_ringtones_silent">Tylusis</string>
-  <string name="pref_options_image_download_title">Atsisiųsti paveikslus</string>
-  <string name="pref_options_image_download_always">Visada</string>
-  <string name="pref_options_image_download_wifi">Tik „Wi-Fi“</string>
-  <string name="pref_options_media_category_title">Medija</string>
-  <string name="pref_options_requested_category_title">Pagal populiarius pageidavimus</string>
-  <string name="pref_options_cursor_send_button_title">Siuntimo mygtukas</string>
-  <string name="pref_options_cursor_send_button_summary">Išjungti siuntimą naudojant klaviatūrą.</string>
-  <!-- Devices -->
-  <string name="pref_devices_screen_title">Įrenginiai</string>
-  <string name="pref_devices_current_device_category_title">Šis įrenginys</string>
-  <string name="pref_devices_other_devices_category_title">Kiti įrenginiai</string>
-  <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
-  <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
-  <string name="pref_devices_device_id">ID: %1$s</string>
-  <string name="pref_devices_device_verified">Patvirtintas</string>
-  <string name="pref_devices_device_not_verified">Nepatvirtintas</string>
-  <string name="pref_devices_warning_summary">Jei aukščiau esantis įrenginys jums nematytas, pašalinkite jį ir pasikeiskite slaptažodį.</string>
-  <string name="pref_devices_device_screen_title">Išsamesnė įrenginio informacija</string>
-  <string name="pref_devices_device_fingerprint_category_title">Rakto kontrolinis kodas</string>
-  <string name="pref_devices_device_fingerprint_summary">„Wire“ kiekvienam įrenginiui suteikia unikalų kontrolinį kodą. Palyginkite juos ir patvirtinkite savo įrenginius ir pokalbius.</string>
-  <string name="pref_devices_device_actions_category_title">Veiksmai</string>
-  <string name="pref_devices_device_reset_session_title">Atstatyti seansą</string>
-  <string name="pref_devices_device_reset_session_summary">Jeigu kontroliniai kodai nesutampa, atstatykite seansą, kad abiejose pusėse būtų sugeneruoti nauji šifravimo raktai.</string>
-  <string name="pref_devices_device_remove_title">Šalinti įrenginį</string>
-  <string name="pref_devices_device_remove_summary">Jeigu nebenaudojate šį įrenginį, pašalinkite jį. Jūs būsite nedelsiant atjungti iš šio įrenginio.</string>
-  <string name="pref_devices_device_fingerprint_copy_description">Kontrolinis kodas</string>
-  <string name="pref_devices_device_fingerprint_copy_toast">Rakto kontrolinis kodas nukopijuotas</string>
-  <!-- Advanced -->
-  <string name="pref_advanced_screen_title">Papildomi</string>
-  <string name="pref_advanced_debug_report_title">Pateikti derinimo ataskaitą</string>
-  <string name="pref_advanced_debug_report_summary">Tai padeda „Wire“ pagalbos centrui nustatyti nesklandumus.</string>
-  <string name="pref_advanced_reset_push_title">Sukurti naujienų pranešimų tarnybos atpažinimo ženklą iš naujo</string>
-  <string name="pref_advanced_reset_push_summary">Jei susiduriate su naujienų pranešimo tarnybos nesklandumais, „Wire“ pagalbos centras gali paprašyti nustatyti atpažinimo ženklą iš naujo.</string>
-  <string name="pref_advanced_reset_push_completed">Naujienų pranešimų tarnybos atpažinimo ženklas nustatytas iš naujo</string>
-  <string name="debug_report__title">„Wire“ klaidos ataskaita - %1$s</string>
-  <string name="debug_report__body">Aprašykite žingsnius, kuriais galėtume atkurti nesklandumą, jei įmanoma pridėkite ekrano nuotraukų ir išsiųskite šį laišką.\n\n</string>
-  <string name="pref_advanced_ws_foreground_title">Palaikyti ryšį su serveriu</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+    <!--*********************************************** ERRORS ***********************************************-->
+    <string name="generic_error_header">Kažkas nutiko</string>
+    <string name="generic_error_message">Bandykite dar kartą</string>
+    <string name="internet_connectivity_error_header">Nėra interneto ryšio</string>
+    <string name="internet_connectivity_error_message">Patikrinkite savo interneto ryšį ir bandykite dar kartą</string>
+    <string name="too_many_attempts_header">Per daug bandymų</string>
+    <string name="login_later_message">Bandykite prisijungti vėliau</string>
+    <string name="email_exists_header">El. pašto adresas jau užimtas</string>
+    <string name="email_exists_message">Šis el. pašto adresas jau užregistruotas</string>
+    <string name="email_invalid_header">Neteisingas el. pašto adresas</string>
+    <string name="email_invalid_message">Iveskite teisingą el. pašto adresą</string>
+    <string name="invalid_credentials_header">Neteisinga informacija</string>
+    <string name="invalid_credentials_message">Patikrinkite duomenis ir bandykite dar kartą</string>
+    <string name="phone_exists_header">Telefono numeris jau naudojamas</string>
+    <string name="phone_exists_message">Nurodytas telefono numeris jau yra užregistruotas. Bandykite dar kartą</string>
+    <string name="phone_invalid_format_header">Neteisingas telefono numeris</string>
+    <string name="phone_invalid_format_message">Įrašykite teisingą telefono numerį</string>
+    <string name="phone_password_exists_header">Slaptažodis naudojamas</string>
+    <string name="phone_password_exists_message">Paskyra jau turi slaptažodį ir priskirtą el. pašto adresą. Prisijunkite el. paštu.</string>
+    <string name="invalid_code_header">Netaisyklingas kodas</string>
+    <string name="incorrect_code_header">Neteisingas kodas</string>
+    <string name="wrong_code_message">Įrašykite teisingą kodą</string>
+    <string name="phone_pending_login_header">Kodas jau išsiųstas</string>
+    <string name="phone_pending_login_message">Kodą jau išsiuntėme jums SMS žinute. Spustelėkite „Siųsti dar kartą“ po 10 minučių ir gausite naują kodą.</string>
+    <string name="phone_budget_exhausted_header">Per daug bandymų</string>
+    <string name="phone_budget_exhausted_message">Bandykite dar kartą vėliau.</string>
+    <!--*********************************************** ERRORS ***********************************************-->
+    <string name="permissions_denied_dialog_settings">Nustatymai</string>
+    <string name="camera_not_available">KAMERA NEPRIEINAMA</string>
+    <string name="camera_permissions_denied_title">Kamera neprieinama</string>
+    <string name="camera_permissions_denied_message">Norėdami nufotografuoti ir siųsti nuotraukas, suteikite teisę naudotis fotoaparatu</string>
+    <!-- Registration and Sign in -->
+    <string name="welcome__terms_of_service">TĘSDAMI, JŪS SUTINKATE SU _NAUDOJIMOSI SĄLYGOMIS_.</string>
+    <string name="profile__name__guidance__tooshort__title">BENT 2 SIMBOLIAI</string>
+    <string name="profile__email__placeholder">El. paštas</string>
+    <string name="profile__password__placeholder">Slaptažodis</string>
+    <string name="profile__password__guidance__tooshort__title">BENT 8 SIMBOLIAI</string>
+    <string name="profile__email__verify__instructions">Išsiuntėme el. laišką į \n[[%1$s]].\nSpustelėkite ten esančią nuorodą adreso patvirtinimui.</string>
+    <string name="profile__email__verify__didnt_get">Negavote el. laiško?</string>
+    <string name="profile__email__verify__resend">Siųsti iš naujo</string>
+    <string name="profile__guidance__invalid_email">Įrašytas el. pašto adresas yra netinkamas. Pasitikslinkite ir bandykite dar kartą</string>
+    <string name="new_reg__code_resent">Naujas kodas jums buvo išsiųstas SMS žinute</string>
+    <string name="new_reg__email_code_resent">Naujas kodas jums buvo išsiųstas el. paštu</string>
+    <string name="new_reg__code_resent__call">Palaukite skambučio</string>
+    <string name="new_reg__default_country">de</string>
+    <!-- consider updating this for every new language -->
+    <string name="your_phone_number">Jūsų telefono numeris</string>
+    <!-- Receive email/sms invitation -->
+    <!-- People picker/start UI -->
+    <string name="pick_user_search_focus">\u0020 IEŠKOTI</string>
+    <string name="pick_user_search_hint">IEŠKOTI</string>
+    <string name="choose_conversation">IEŠKOTI</string>
+    <string name="people_picker__top_users_header_title">Svarbiausi žmonės</string>
+    <string name="people_picker__search_result_conversations_header_title">Grupės</string>
+    <string name="people_picker__search_result_team_conversations_header_title">%1$s grupės</string>
+    <string name="people_picker__search_result_connections_header_title">Kontaktai</string>
+    <string name="people_picker__search_result_others_header_title">Užmegzti kontaktą</string>
+    <string name="people_picker__search_result__expander_title">Rodyti visus %1$s ↓</string>
+    <string name="people_picker__search_people">ŽMONĖS</string>
+    <string name="people_picker__search_services">PASLAUGOS</string>
+    <string name="receive_news_and_offers_request_title">Naujienlaiškis</string>
+    <string name="receive_news_and_offers_request_body">Norite gauti naujienas ir produktų informacija iš „Wire“ el. paštu? Atsisakyti galite bet kada.</string>
+    <string name="crashes_and_analytics_request_title">Pagerinkite „Wire“</string>
+    <string name="crashes_and_analytics_request_body">Sutinku, kad \"Wire\" galėtų sukurti ir naudoti anoniminę vartojimo ir klaidų ataskaitą \"Wire\" aplikacijos tobulinimui. Aš galėsiu atšaukti sutikimą bet kada vėliau.</string>
+    <string name="crashes_and_analytics_request_no">Ne</string>
+    <string name="crashes_and_analytics_request_agree">Sutinku</string>
+    <!-- Bots / Integrations / Services -->
+    <string name="integrations_picker__section_title">Paslaugos</string>
+    <string name="integrations_errors_add_service">Paslaugos pridėjimas negalimas</string>
+    <string name="integrations_errors_service_unavailable">Paslauga šiuo metu negalima</string>
+    <string name="conversation_errors_full">Susirašinėjimas pilnas</string>
+    <!-- start ui / people picker, contacts sharing -->
+    <string name="people_picker__share_contacts__title">Dalintis kontaktais</string>
+    <string name="people_picker__share_contacts__message">„Wire“ padės jums rasti draugus jei pasidalinsite kontaktais.</string>
+    <string name="people_picker__share_contacts__yay">Leisti</string>
+    <string name="people_picker__share_contacts__nah">Atmesti</string>
+    <string name="people_picker__share_contacts__nevvah">Daugiau neklausti</string>
+    <!-- Invite -->
+    <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
+    <string name="people_picker__invite__share_details_dialog">Dalinkitės „Wire“ su draugais.</string>
+    <string name="people_picker__invite__share_text__header">%1$s nori bendrauti su jumis per „Wire“</string>
+    <string name="people_picker__invite__share_text__body">Naudojuosi „Wire“, ieškokite %1$s arba eikit į get.wire.com</string>
+    <!-- Conversation: Quick menu -->
+    <string name="conversation_quick_menu__conversation_button__single_label">ATVERTI</string>
+    <!-- Conversation: System messages -->
+    <string name="content__system__other_joined">[[%1$s]] prisijungė</string>
+    <string name="content__system__you_joined">[[You]] prisijungėte</string>
+    <string name="content__system__other_renamed_conv">[[%1$s]] pakeitė susirašinėjimo pavadinimą</string>
+    <string name="content__system__you_renamed_conv">[[You]] pakeitei susirašinėjimo pavadinimą</string>
+    <!-- Add people -->
+    <string name="content__system__someone_added_people">[[%1$s]] pridėjo pašnekovą %2$s prie susirašinėjimo</string>
+    <plurals name="content__system__someone_added_people_with_others">
+        <item quantity="one">[[%1$s]] pridėjo pašnekovą %2$s ir dar _%3$s prie susirašinėjimo_</item>
+        <item quantity="few">[[%1$s]] pridėjo pašnekovą %2$s ir dar _%3$s prie susirašinėjimo_</item>
+        <item quantity="many">[[%1$s]] pridėjo pašnekovą %2$s ir dar _%3$s prie susirašinėjimo_</item>
+        <item quantity="other">[[%1$s]] pridėjo pašnekovą %2$s ir dar _%3$s prie susirašinėjimo_</item>
+    </plurals>
+    <string name="content__system__someone_added_you">[[%1$s]] pridėjo jus prie susirašinėjimo</string>
+    <plurals name="content__system__someone_added_people_and_you_with_others">
+        <item quantity="one">[[%1$s]] pridėjo pašnekovą %2$s, jus ir _dar %3$s prie susirašinėjimo_</item>
+        <item quantity="few">[[%1$s]] pridėjo pašnekovą %2$s, jus ir _dar %3$s prie susirašinėjimo_</item>
+        <item quantity="many">[[%1$s]] pridėjo pašnekovą %2$s, jus ir _dar %3$s prie susirašinėjimo_</item>
+        <item quantity="other">[[%1$s]] pridėjo pašnekovą %2$s, jus ir _dar %3$s prie susirašinėjimo_</item>
+    </plurals>
+    <string name="content__system__you_added_people">Pridėjote pašnekovą %1$s prie susirašinėjimo</string>
+    <plurals name="content__system__you_added_people_with_others">
+        <item quantity="one">Pridėjote pašnekovą %1$s ir _dar %2$s prie susirašinėjimo_</item>
+        <item quantity="few">Pridėjote pašnekovą %1$s ir _dar %2$s prie susirašinėjimo_</item>
+        <item quantity="many">Pridėjote pašnekovą %1$s ir _dar %2$s prie susirašinėjimo_</item>
+        <item quantity="other">Pridėjote pašnekovą %1$s ir _dar %2$s prie susirašinėjimo_</item>
+    </plurals>
+    <!-- Remove people -->
+    <string name="content__system__other_removed_other">[[%1$s]] pašalino %2$s</string>
+    <string name="content__system__other_removed_you">[[%1$s]] jus pašalino</string>
+    <string name="content__system__you_removed_other">Pašalinote pašnekovą %1$s</string>
+    <string name="content__system__you_left">[[Jūs]] išėjote</string>
+    <string name="content__system__other_left">[[%1$s]] išėjo</string>
+    <!-- Create conversation -->
+    <string name="content__system__you_started_conversation">Jūs pradėjote susirašinėjimą</string>
+    <string name="content__system__other_started_conversation">%1$s pradėjo susirašinėjimą</string>
+    <string name="content__system__with_you_only">su jumis</string>
+    <string name="content__system__with_list_only">su %1$s</string>
+    <plurals name="content__system__with_others_only">
+        <item quantity="one">su pašnekovu %1$s ir _dar %2$s_</item>
+        <item quantity="few">su pašnekovu %1$s ir _dar %2$s_</item>
+        <item quantity="many">su pašnekovu %1$s ir _dar %2$s_</item>
+        <item quantity="other">su pašnekovu %1$s ir _dar %2$s_</item>
+    </plurals>
+    <string name="content__system__with_list_and_you">su pašnekovu %1$s ir jumis</string>
+    <plurals name="content__system__with_others_and_you">
+        <item quantity="one">su pašnekovu %1$s, jumis ir _dar %2$s_</item>
+        <item quantity="few">su pašnekovu %1$s, jumis ir _dar %2$s_</item>
+        <item quantity="many">su pašnekovu %1$s, jumis ir _dar %2$s_</item>
+        <item quantity="other">su pašnekovu %1$s, jumis ir _dar %2$s_</item>
+    </plurals>
+    <!-- Conversation: missed call -->
+    <string name="content__missed_call__you_called">[[JŪS]] SKAMBINOTE</string>
+    <string name="content__missed_call__xxx_called">SKAMBINO [[%1$s]]</string>
+    <string name="content__you_pinged">[[JŪS]] SKAMBTELĖJOTE</string>
+    <string name="content__xxx_pinged">[[%1$s]] SKAMBTELĖJO</string>
+    <!-- Conversation: E2EE system messages -->
+    <string name="content__otr__message_error">ŽINUTĖ, KURIĄ PARAŠĖ [[%1$s]] NEGAUTA. _KODĖL?_</string>
+    <string name="content__otr__message_error_you">ŽINUTĖ, KURIĄ PARAŠĖTE JŪS NEGAUTA. _KODĖL?_</string>
+    <string name="content__otr__identity_changed_error">KONTAKTO [[%1$s]] ĮRENGINIO TAPATYBĖ PASIKEITĖ. NEIŠSIŲSTOS ŽINUTĖS. _SUŽINOKITE DAUGIAU_</string>
+    <string name="content__otr__identity_changed_error_you">JŪSŲ ĮRENGINIO TAPATYBĖ PASIKEITĖ. NEIŠSIŲSTOS ŽINUTĖS. _SUŽINOKITE DAUGIAU_</string>
+    <string name="content__otr__someone_added_new_device__message">%1$s pradėjo naudotis _nauju įrenginiu_</string>
+    <string name="content__otr__someone_and_you_added_new_device__message">%1$s ir jūs pradėjote naudotis _nauju įrenginiu_</string>
+    <string name="content__otr__someone_and_others_added_new_device__message">%1$s ir dar %2$s kiti pradėjo naudotis _nauju įrenginiu_</string>
+    <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s kiti ir jūs pradėjote naudotis _nauju įrenginiu_</string>
+    <string name="content__otr__start_this_device__message">[[JŪS]] PRADĖJOTE NAUDOTIS _ŠIUO ĮRENGINIU_</string>
+    <string name="content__otr__all_fingerprints_verified">VISI KONTROLINIAI KODAI PATVIRTINTI</string>
+    <string name="content__otr__lost_history">ŠIUO ĮRENGINIU KAI KURĮ LAIKĄ NESINAUDOJOTE. KAI KURIOS ŽINUTĖS ČIA NEATSIRAS.</string>
+    <string name="content__otr__unverified_device__message">[[JŪS]] NEPATVIRTINOTE VIENO IŠ _%1$s ĮRENGINIŲ_</string>
+    <string name="content__otr__your_unverified_device__message">[[JŪS]] NEPATVIRTINOTE VIENO IŠ _SAVO ĮRENGINIŲ_</string>
+    <string name="content__otr__new_member__message">PRISIJUNGĖ NAUJI ŽMONĖS. _PATVIRTINTI ĮRENGINIUS_</string>
+    <!-- File transfer -->
+    <string name="content__file__status__default">%1$s</string>
+    <string name="content__file__status__uploading__minimized">ĮKELIAMA&#8230;</string>
+    <string name="content__file__status__cancelled__minimized">ATŠAUKTA&#8230;</string>
+    <string name="content__file__status__downloading__minimized">ATSIUNČIAMA&#8230;</string>
+    <string name="content__file__status__download_failed__minimized">ATSISIŲSTI NEPAVYKO</string>
+    <string name="content__file__status__upload_failed__minimized">ĮKELTI NEPAVYKO</string>
+    <string name="content__file__status__uploading">%1$s · ĮKELIAMA&#8230;</string>
+    <string name="content__file__status__cancelled">%1$s · ATŠAUKTA&#8230;</string>
+    <string name="content__file__status__downloading">%1$s · ATSIUNČIAMA&#8230;</string>
+    <string name="content__file__status__download_failed">%1$s · ATSISIŲSTI NEPAVYKO</string>
+    <string name="content__file__status__upload_failed">%1$s · ĮKELTI NEPAVYKO</string>
+    <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
+    <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
+    <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · ĮKELIAMA&#8230;</string>
+    <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · ATŠAUKTA&#8230;</string>
+    <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · ATSIUNČIAMA&#8230;</string>
+    <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · ATSISIŲSTI NEPAVYKO</string>
+    <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · ĮKELTI NEPAVYKO</string>
+    <string name="content__file__action__open">ATVERTI</string>
+    <string name="content__file__action__save">IŠSAUGOTI</string>
+    <string name="content__file__action__open__no_app_found">Nėra programėlės, kuri galėtų atverti šį failų tipą</string>
+    <string name="content__file__action__save_completed">Failas sėkmingai įrašytas</string>
+    <string name="content__file__action__save_error">Nepavyko įrašyti failo</string>
+    <string name="content__location__no_map_placeholder">VIETA PASIRODYS ŽEMĖLAPYJE KAI ATSIRAS RYŠYS.</string>
+    <!-- Conversation actions -->
+    <string name="conversation__action__delete">Trinti turinį&#8230;</string>
+    <string name="conversation__action__archive">Archyvuoti</string>
+    <string name="conversation__action__unarchive">Išarchyvuoti</string>
+    <string name="conversation__action__add_participants">PRIDĖTI PAŠNEKOVŲ</string>
+    <string name="conversation__action__create_group">SUKURTI GRUPĘ</string>
+    <string name="conversation__action__notifications">Pranešimai&#8230;</string>
+    <string name="conversation__action__silence">Išjungti mikrofoną</string>
+    <string name="conversation__action__unsilence">Įjungti pranešimus</string>
+    <string name="conversation__action__leave">Išeiti iš grupės&#8230;</string>
+    <string name="conversation__action__call">Skambutis</string>
+    <string name="conversation__action__picture">Paveikslas</string>
+    <string name="conversation__action__block">Blokuoti&#8230;</string>
+    <string name="conversation__action__unblock">Atblokuoti</string>
+    <string name="conversation__action__leave_and_delete">\tIšeiti ir ištrinti turinį</string>
+    <string name="conversation__action__leave_only">\tIšeiti iš grupės</string>
+    <string name="conversation__action__delete_and_leave">\tIštrinti turinį ir išeiti</string>
+    <string name="conversation__action__delete_only">\tIštrinti turinį</string>
+    <string name="conversation__action__notifications_everything">Viską</string>
+    <string name="conversation__action__notifications_mentions_and_replies">Mentions and Replies</string>
+    <string name="conversation__action__notifications_nothing">Nieką</string>
+    <string name="conversation__action__notifications_title">Pranešti apie:</string>
+    <!-- Conversation: Profile Popover -->
+    <!-- Calling/voice -->
+    <string name="calling__slow_connection__title">Lėtas internetas</string>
+    <string name="calling__slow_connection__message">Jūsų interneto ryšys šiuo metu yra pernelyg lėtas. Bandykite dar kartą.</string>
+    <string name="calling__cannot_start__title">Būtinas mikrofonas</string>
+    <string name="calling__cannot_start__message">Norėdami skambinti užbaikite dabartinį skambutį.</string>
+    <string name="calling__cannot_start__no_permission__message">Eikite į nustatymus ir leiskite „Wire“ naudoti mikrofoną.</string>
+    <string name="calling__cannot_start__cancel__message">ATŠAUKTI</string>
+    <string name="calling__cannot_start__no_camera_permission__message">„Wire“ neturi leidimo naudotis kamera</string>
+    <string name="calling__video_call__slow_connection__message">Skambučio metu gali kilti nesklandumų</string>
+    <string name="incoming__controls__ongoing__speaker">GARSIAKALBIS</string>
+    <string name="incoming__controls__ongoing__mute">NUTILDYTI</string>
+    <string name="incoming__controls__ongoing__video">VAIZDAS</string>
+    <string name="incoming__controls__ongoing__flip">APVERSTI</string>
+    <string name="ongoing__poor_connection_message">VAIZDAS SUSTABDYTAS DĖL PRASTO RYŠIO</string>
+    <string name="calling__self_preview_unavailable_long">KAMERA NEPRIEINAMA</string>
+    <string name="calling__header__joining">Jungiamasi&#8230;</string>
+    <string name="calling__header__outgoing_subtitle">Kviečiama&#8230;</string>
+    <string name="calling__header__outgoing_video_subtitle">Kviečiama&#8230;</string>
+    <string name="calling__header__incoming_subtitle">Skambinama&#8230;</string>
+    <string name="calling__header__incoming_subtitle__video">Skambinama&#8230;</string>
+    <string name="calling__header__incoming_subtitle__group">%1$s jums skambina&#8230;</string>
+    <string name="call_banner_joining">Jungiamasi&#8230;</string>
+    <string name="call_banner_outgoing">Skambinate %1$S&#8230;</string>
+    <string name="call_banner_incoming">%1$s jums skambina&#8230;</string>
+    <string name="call_banner_incoming_group">%1$s \u30FB %2$s jums skambina&#8230;</string>
+    <string name="call_banner_tap_to_return_to_call">Spustelėję grįšite prie skambučio \u30FB %1$s</string>
+    <string name="calling_ongoing_call_title">Vykstantis skambutis</string>
+    <string name="calling_ongoing_call_start_message">Kitame susirašinėjime vyksta pokalbis.\nSkambindami čia baigsite aną pokalbį.</string>
+    <string name="calling_ongoing_call_start_anyway">SKAMBINTI VIS TIEK</string>
+    <string name="calling_ongoing_call_join_message">Kitame susirašinėjime vyksta pokalbis.\nPrisijungę prie šio pokalbio baigsite aną.</string>
+    <string name="calling_ongoing_call_join_anyway">JUNGTIS VIS TIEK</string>
+    <string name="calling_ongoing_call_participants_header">DALYVIAI</string>
+    <string name="calling_ongoing_call_audio_message">Kol kalbate, garso pranešimo įrašyti negalite</string>
+    <string name="calling_ongoing_call_video_message">Kol kalbate, garso pranešimo įrašyti negalite</string>
+    <!-- Calling in group conversation -->
+    <string name="group_calling_title">Pradėti pokalbį</string>
+    <string name="group_calling_message" tools:ignore="PluralsCandidate">Skambinsite %1$s žmonėms</string>
+    <string name="group_calling_confirm">Skambutis</string>
+    <!-- Connect request -->
+    <string name="connect__message">Sveiki, %1$s,\nSusijunkime per „Wire“.\n%2$s</string>
+    <string name="connect_request__sub_header__pending_label">Laukia</string>
+    <string name="connect_request__cancel_request__label">ATŠAUKTI PRAŠYMĄ SUSIJUNGTI</string>
+    <string name="connect_request__unblock__button__text">Atblokuoti</string>
+    <string name="send_connect_request__connect_button__text">SUSIJUNGTI</string>
+    <plurals name="connect_inbox__link__name">
+        <item quantity="one">Laukia 1 asmuo</item>
+        <item quantity="few">Laukia %1$s asmenys</item>
+        <item quantity="many">Laukia %1$s asmens</item>
+        <item quantity="other">Laukia %1$s asmenų</item>
+    </plurals>
+    <string name="connect_request__ignore_button__text">Nepaisyti</string>
+    <string name="content__message__connect_request__footer">PRISIJUNGĖ</string>
+    <string name="content__message__connect_request__auto_connect__footer">SUSIJUNGTA AUTOMATIŠKAI. _SUŽINOKITE DAUGIAU_</string>
+    <!-- Otr-->
+    <plurals name="conversation__degraded_confirmation__header__single_user">
+        <item quantity="one">%1$s pradėjo naudotis nauju įrenginiu.</item>
+        <item quantity="few">%1$s pradėjo naudotis naujais įrenginiais.</item>
+        <item quantity="many">%1$s pradėjo naudotis naujais įrenginiais.</item>
+        <item quantity="other">%1$s pradėjo naudotis naujais įrenginiais.</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__header__someone">Kažkas pradėjo naudotis nauju įrenginiu.</string>
+    <string name="conversation__degraded_confirmation__header__multiple_user">%1$s ir %2$s pradėjo naudotis naujais įrenginiais.</string>
+    <plurals name="conversation__degraded_confirmation__message">
+        <item quantity="one">Ar vis dar norite išsiųsti savo žinutę?</item>
+        <item quantity="few">Ar vis dar norite išsiųsti savo žinutes?</item>
+        <item quantity="many">Ar vis dar norite išsiųsti savo žinutes?</item>
+        <item quantity="other">Ar vis dar norite išsiųsti savo žinutes?</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__positive_action">Vis tiek siųsti</string>
+    <plurals name="conversation__degraded_confirmation__negative_action">
+        <item quantity="one">Rodyti įrenginį</item>
+        <item quantity="few">Rodyti įrenginius</item>
+        <item quantity="many">Rodyti įrenginio</item>
+        <item quantity="other">Rodyti įrenginių</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__negative_action_self">Rodyti savo įrenginius</string>
+    <string name="conversation_degraded_confirmation__header__you">Jūs</string>
+    <!-- Picture selection confirmation -->
+    <string name="confirmation_menu__confirm_done">GERAI</string>
+    <string name="confirmation_menu__cancel">ATŠAUKTI</string>
+    <!-- ADD TO CONVERSATION offline -->
+    <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
+    <!-- Leave conversation -->
+    <string name="confirmation_menu__meta_remove">Išeiti iš pokalbio?</string>
+    <string name="confirmation_menu__meta_remove_text">Negalėsite siųsti ir gauti žinučių šiame susirašinėjime.</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <!-- Remove from conversation dialogue -->
+    <string name="confirmation_menu__header">Šalinti?</string>
+    <string name="confirmation_menu_text_with_name">%1$s negalės siųsti ir gauti žinučių šiame susirašinėjime.</string>
+    <string name="confirmation_menu__confirm_remove">ŠALINTI</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <!-- Block someone dialogue -->
+    <string name="confirmation_menu__block_header">Užblokuoti?</string>
+    <string name="confirmation_menu__block_text_with_name">%1$s negalės su jumis susisiekti ar pridėti jus į grupės susirašinėjimą.</string>
+    <string name="confirmation_menu__confirm_block">Užblokuoti</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <string name="connect_request__footer__blocked_label">Užblokuotas(-a)</string>
+    <!-- Delete conversation -->
+    <string name="confirmation_menu__meta_delete">Ištrinti turinį?</string>
+    <string name="confirmation_menu__meta_delete_text">Tai išvalys bendravimo praeitį visuose jūsų įrenginiuose.</string>
+    <!-- Rich media -->
+    <string name="content__youtube__error__text">vaizdo įrašas nerastas</string>
+    <string name="mediaplayer__message__onsoundcloud">„SoundCloud“ sistemoje</string>
+    <string name="mediaplayer__message__onspotify">„Spotify“ sistemoje</string>
+    <!-- Invite banner -->
+    <!-- Self profile -->
+    <!-- Options and settings -->
+    <string name="settings_title">Nustatymai</string>
+    <!-- Options menu -->
+    <!-- Manage Team -->
+    <string name="pref_manage_team_title">Valdyti komandą</string>
+    <!-- About screen -->
+    <string name="pref_category_title">Nustatymai</string>
+    <string name="pref_developer_screen_title">Kūrėjo nustatymai</string>
+    <string name="pref_dev_avs_screen_title">AVS nustatymai</string>
+    <string name="pref_profile_screen_title">Profilis</string>
+    <!-- Account -->
+    <string name="pref_account_screen_title">Paskyra</string>
+    <string name="pref_account_name_title">Vardas</string>
+    <string name="pref_account_edit_name_title">Keisti vardą</string>
+    <string name="pref_account_details_category_title">Informacija</string>
+    <string name="pref_account_actions_category_title">Veiksmai</string>
+    <string name="pref_account_appearance_category_title">Išvaizda</string>
+    <string name="pref_account_personal_information_category_title">Asmeninė informacija</string>
+    <string name="pref_account_conversations_category_title">Praeitis</string>
+    <string name="pref_account_username_title">Naudotojo vardas</string>
+    <string name="pref_account_phone_title">Telefonas</string>
+    <string name="pref_account_add_phone_title">Pridėti telefono numerį</string>
+    <string name="pref_account_email_title">El. paštas</string>
+    <string name="pref_account_add_email_title">Pridėti el. pašto adresą</string>
+    <string name="pref_account_delete">Ištrinti</string>
+    <string name="pref_account_sign_out_title">Atsijungti</string>
+    <string name="pref_account_color_title">Spalva</string>
+    <string name="pref_account_picture_title">Paveikslas</string>
+    <string name="pref_account_delete_title">Ištrinti paskyrą</string>
+    <string name="pref_account_delete_warning_title">Ištrinti paskyrą</string>
+    <string name="pref_account_delete_warning_message_email">Išsiųsime el. laišką į:\n[[%1$s]]\nSpustelėję el. laiške esančią nuorodą ištrinsite paskyrą negrįžtamai.</string>
+    <string name="pref_account_delete_warning_message_sms">Išsiųsime SMS žinutę į:\n[[%1$s]]\nSpustelėję žinutėje esančią nuorodą ištrinsite paskyrą negrįžtamai.</string>
+    <string name="pref_account_delete_warning_verify">GERAI</string>
+    <string name="pref_account_delete_warning_cancel">Atsisakyti</string>
+    <string name="pref_account_sign_out_warning_message">Ar tikrai norite atsijungti?</string>
+    <string name="pref_account_sign_out_warning_verify">Atsijungti</string>
+    <string name="pref_account_sign_out_warning_cancel">Atsisakyti</string>
+    <string name="pref_account_password_title">Atstatyti slaptažodį</string>
+    <string name="pref_account_edit_name_empty_warning">Vardas turi būti iš 2 arba daugiau simbolių</string>
+    <string name="pref_account_edit_name_empty_verify">GERAI</string>
+    <string name="pref_account_data_usage_permissions">Duomenų naudojimo leidimas</string>
+    <string name="pref_backup_screen_title">Kurti susirašinėjimų atsarginę kopiją</string>
+    <!-- Data Usage Permissions -->
+    <string name="pref_advanced_send_anonymous_data_title">Siųsti nuasmenintą informaciją</string>
+    <string name="pref_advanced_send_anonymous_data_summary">Pagerinkite „Wire“ siųsdami anoniminę naudojimosi ir trikčių ataskaitą.</string>
+    <string name="pref_advanced_receive_news_and_offers_title">Gaukite naujienlaiškį</string>
+    <string name="pref_advanced_receive_news_and_offers_summary">Gaukite naujienas ir produktų pakeitimo informaciją iš „Wire“ el. paštu.</string>
+    <!-- Options -->
+    <string name="pref_options_dark_theme_title">Tamsi tema</string>
+    <string name="pref_options_screen_title">Parinktys</string>
+    <string name="pref_options_contacts_title">Dalintis kontaktais</string>
+    <string name="pref_options_contacts_summary">Tai padeda jums užmegzti kontaktą su kitais žmonėmis. Mes padarome visą informaciją anonimine ir su niekuo ja nesidaliname.</string>
+    <string name="pref_options_vbr_title">Kodavimas kintama sparta</string>
+    <string name="pref_options_vbr_summary">Tai padeda sumažinti naudojamų duomenų kiekį skambinant lėtuose tinkluose. Išjungę naudosite kodavimą pastovia sparta.</string>
+    <string name="pref_options_alerts_category_title">Signalai</string>
+    <string name="pref_options_calls_category_title">Skambučiai</string>
+    <string name="pref_options_sounds_title">Garsai</string>
+    <string name="pref_options_sounds_all">Visi</string>
+    <string name="pref_options_sounds_new_conversations_and_talks_only">Pirmasis pranešimas, skambtelėjimas, skambutis</string>
+    <string name="pref_options_sounds_none">Jokių</string>
+    <string name="pref_options_vibration_title">Vibravimas</string>
+    <string name="pref_options_vibration_title_o">Vibruoti kai skamba</string>
+    <string name="pref_options_ringtones_category_title">Garsai</string>
+    <string name="pref_options_ringtones_ringtone_title">Skambučio melodija</string>
+    <string name="pref_options_ringtones_text_title">Pranešimo garsas</string>
+    <string name="pref_options_ringtones_ping_title">Skambtelėjimo</string>
+    <string name="pref_options_ringtones_default_summary">„Wire“ įprastinis</string>
+    <string name="pref_options_ringtones_silent">Tylusis</string>
+    <string name="pref_options_image_download_title">Atsisiųsti paveikslus</string>
+    <string name="pref_options_image_download_always">Visada</string>
+    <string name="pref_options_image_download_wifi">Tik „Wi-Fi“</string>
+    <string name="pref_options_media_category_title">Medija</string>
+    <string name="pref_options_requested_category_title">Pagal populiarius pageidavimus</string>
+    <string name="pref_options_cursor_send_button_title">Siuntimo mygtukas</string>
+    <string name="pref_options_cursor_send_button_summary">Išjungti siuntimą naudojant klaviatūrą.</string>
+    <!-- Devices -->
+    <string name="pref_devices_screen_title">Įrenginiai</string>
+    <string name="pref_devices_current_device_category_title">Šis įrenginys</string>
+    <string name="pref_devices_other_devices_category_title">Kiti įrenginiai</string>
+    <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
+    <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
+    <string name="pref_devices_device_id">ID: %1$s</string>
+    <string name="pref_devices_device_verified">Patvirtintas</string>
+    <string name="pref_devices_device_not_verified">Nepatvirtintas</string>
+    <string name="pref_devices_warning_summary">Jei aukščiau esantis įrenginys jums nematytas, pašalinkite jį ir pasikeiskite slaptažodį.</string>
+    <string name="pref_devices_device_screen_title">Išsamesnė įrenginio informacija</string>
+    <string name="pref_devices_device_fingerprint_category_title">Rakto kontrolinis kodas</string>
+    <string name="pref_devices_device_fingerprint_summary">„Wire“ kiekvienam įrenginiui suteikia unikalų kontrolinį kodą. Palyginkite juos ir patvirtinkite savo įrenginius ir pokalbius.</string>
+    <string name="pref_devices_device_actions_category_title">Veiksmai</string>
+    <string name="pref_devices_device_reset_session_title">Atstatyti seansą</string>
+    <string name="pref_devices_device_reset_session_summary">Jeigu kontroliniai kodai nesutampa, atstatykite seansą, kad abiejose pusėse būtų sugeneruoti nauji šifravimo raktai.</string>
+    <string name="pref_devices_device_remove_title">Šalinti įrenginį</string>
+    <string name="pref_devices_device_remove_summary">Jeigu nebenaudojate šį įrenginį, pašalinkite jį. Jūs būsite nedelsiant atjungti iš šio įrenginio.</string>
+    <string name="pref_devices_device_fingerprint_copy_description">Kontrolinis kodas</string>
+    <string name="pref_devices_device_fingerprint_copy_toast">Rakto kontrolinis kodas nukopijuotas</string>
+    <!-- Advanced -->
+    <string name="pref_advanced_screen_title">Papildomi</string>
+    <string name="pref_advanced_debug_report_title">Pateikti derinimo ataskaitą</string>
+    <string name="pref_advanced_debug_report_summary">Tai padeda „Wire“ pagalbos centrui nustatyti nesklandumus.</string>
+    <string name="pref_advanced_reset_push_title">Sukurti naujienų pranešimų tarnybos atpažinimo ženklą iš naujo</string>
+    <string name="pref_advanced_reset_push_summary">Jei susiduriate su naujienų pranešimo tarnybos nesklandumais, „Wire“ pagalbos centras gali paprašyti nustatyti atpažinimo ženklą iš naujo.</string>
+    <string name="pref_advanced_reset_push_completed">Naujienų pranešimų tarnybos atpažinimo ženklas nustatytas iš naujo</string>
+    <string name="debug_report__title">„Wire“ klaidos ataskaita - %1$s</string>
+    <string name="debug_report__body">Aprašykite žingsnius, kuriais galėtume atkurti nesklandumą, jei įmanoma pridėkite ekrano nuotraukų ir išsiųskite šį laišką.\n\n</string>
+    <string name="pref_advanced_ws_foreground_title">Palaikyti ryšį su serveriu</string>
+    <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
-  <!-- Support -->
-  <string name="pref_support_screen_title">Palaikymas</string>
-  <string name="pref_support_website_title">„Wire“ pagalbos svetainė</string>
-  <string name="pref_support_contact_title">Susisiekti su palaikymu</string>
-  <!-- About -->
-  <string name="pref_about_screen_title">Apie</string>
-  <string name="pref_about_website_title">„Wire“ svetainė</string>
-  <string name="pref_about_tos_title">Naudojimosi sąlygos</string>
-  <string name="pref_about_privacy_policy_title">Privatumo politika</string>
-  <string name="pref_about_licenses_title">Licencijos informacija</string>
-  <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
-  <string name="pref_about_version_title">Versija %s</string>
-  <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
-  <!-- Pref invite -->
-  <string name="pref_invite_title">Pakvieskite žmonių naudotis „Wire“</string>
-  <!-- Preference Account Actions -->
-  <string name="pref__account_action__phone_verification__title">Patvirtinti telefono numerį</string>
-  <string name="pref__account_action__phone_verification__description">Įrašykite patvirtinimo kodą, kuris buvo išsiųstas į %s</string>
-  <string name="pref__account_action__phone_verification__code">Kodas</string>
-  <string name="pref__account_action__phone_verification__question">Negaunate kodo?</string>
-  <string name="pref__account_action__phone_verification__resend"><u>Siųsti kodą dar kartą</u></string>
-  <string name="pref__account_action__phone_verification__change"><u>Keisti telefono numerį</u></string>
-  <string name="pref__account_action__email_verification__title">Patvirtinti el. pašto adresą</string>
-  <string name="pref__account_action__email_verification__description">Patikrinkite savo el. paštą ir sekite nurodymus.</string>
-  <string name="pref__account_action__email_verification__question">Negaunate el. laiško?</string>
-  <string name="pref__account_action__email_verification__resend">&lt;u&gt;Persiųsti į %s&lt;/u&gt;</string>
-  <string name="pref__account_action__email_verification__change"><u>Keisti el. pašto adresą</u></string>
-  <string name="pref__account_action__dialog__add_email_password__password">Slaptažodis</string>
-  <string name="pref__account_action__dialog__add_email_password__email">El. paštas</string>
-  <string name="pref__account_action__dialog__add_email_password__title">Pridėti el. pašto adresą</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Neteisingas el. pašto adresas</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_password">Bent 8 simbolių</string>
-  <string name="pref__account_action__dialog__edit_phone__title">Keisti telefono numerį</string>
-  <string name="pref__account_action__dialog__add_phone__title">Pridėti telefono numerį</string>
-  <string name="pref__account_action__dialog__add_phone__error__country">Netinkamas šalies kodas</string>
-  <string name="pref__account_action__dialog__add_phone__error__number">Neteisingas telefono numeris</string>
-  <string name="pref__account_action__dialog__add_phone__confirm__title">Patvirtinti numerį</string>
-  <string name="pref__account_action__dialog__add_phone__confirm__message">Išsiųsime patvirtinimo kodą į:\n%s</string>
-  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Šalinti</string>
-  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Ar tikrai norite ištrinti %s iš jūsų „Wire“ paskyros?</string>
-  <string name="pref__account_action__dialog__delete_phone__error">Nepavyko ištrinti telefono numerio</string>
-  <string name="pref__account_action__dialog__change_email__title">Keisti el. pašto adresą</string>
-  <string name="pref__account_action__dialog__change_username__rules">Bent 2 simboliai. Tik a–z, 0–9 ir _</string>
-  <string name="pref__account_action__dialog__change_username__title">Naudotojo vardas</string>
-  <string name="pref__account_action__dialog__change_username__error_already_taken">Jau užimtas</string>
-  <string name="pref__account_action__dialog__change_username__error_unknown">Ryšio klaida, bandykite dar kartą</string>
-  <!-- No Internet connection -->
-  <string name="system_status__no_internet">NĖRA INTERNETO</string>
-  <!-- SHARING -->
-  <string name="alert_dialog__confirmation">GERAI</string>
-  <string name="alert_dialog__no_network__header">Nėra interneto ryšio</string>
-  <string name="sign_up__set_picture__choose">Pasirinkti savo asmeninį</string>
-  <string name="sign_up__set_picture__keep">Palikti šį</string>
-  <string name="sign_up__set_picture__guidance">„Wire“ yra kur kas gražesnė kai naudojate paveikslėlį.</string>
-  <string name="sign_up__set_picture__loading">Įkeliama nuotrauka</string>
-  <string name="leave_conversation_failed__message">Norint išeiti iš susirašinėjimo, turi būti ryšys. Patikrinkite ryšį ir bandykite dar kartą.</string>
-  <string name="remove_from_conversation__no_network__message">Norint pašalinti žmones iš susirašinėjimų, turi būti ryšys. Patikrinkite ryšį ir bandykite dar kartą.</string>
-  <string name="calling__call_drop__message">Norint skambinti, turi būti ryšys. Patikrinkite interneto ryšį ir bandykite dar kartą.</string>
-  <!-- Lockscreen and notifications -->
-  <string name="message_notifications_channel_name">Žinutės</string>
-  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
-  <string name="incoming_call_notifications_channel_name">Gaunamas skambutis</string>
-  <string name="ping_notifications_channel_name">Skambtelėjimai</string>
-  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
-  <string name="ongoing_channel_name">Pranešimai fone</string>
-  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
-  <string name="foreground_service_notification_name">Palaikyti ryšį su serveriu</string>
-  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <plurals name="notification__new_messages__multiple">
-    <item quantity="one">%2$s susirašinėjimuose yra pranešimas</item>
-    <item quantity="few">%2$s susirašinėjimuose yra %1$d pranešimai</item>
-    <item quantity="many">%2$s susirašinėjimuose yra %1$d pranešimai</item>
-    <item quantity="other">%2$s susirašinėjimuose yra %1$d pranešimų</item>
-  </plurals>
-  <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
-  <string name="notification__message__group__prefix__text">%1$s grupėje %2$s:\u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
-  <string name="notification__message__one_to_one__wanted_to_talk">Skambino</string>
-  <string name="notification__message__one_to_one__pinged">Skambtelėjo</string>
-  <string name="notification__message__one_to_one__shared_picture">Pasidalino paveikslu</string>
-  <string name="notification__message__one_to_one__shared_file">Pasidalino failu</string>
-  <string name="notification__message__one_to_one__shared_video">Pasidalino vaizdo įrašu</string>
-  <string name="notification__message__one_to_one__shared_audio">Pasidalino garso žinute</string>
-  <string name="notification__message__one_to_one__shared_location">Pasidalino vieta</string>
-  <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__group__prefix__other">%1$s grupėje %2$s \u0020</string>
-  <string name="notification__message__group__renamed_conversation">pervadino pokalbį į %1$s</string>
-  <string name="notification__message__group__add">pridėjo žmonių į susirašinėjimą</string>
-  <string name="notification__message__group__remove">pašalino žmonių iš susirašinėjimo</string>
-  <string name="notification__message__single__accept_request">Jūs ir %1$s nuo šiol galite bendrauti</string>
-  <string name="notification__message__group__default_conversation_name">grupės susirašinėjimas</string>
-  <string name="notification__message__send_failed">Nepavyko išsiųsti žinutės</string>
-  <string name="notification__message__ephemeral">Atsiuntė jums žinutę</string>
-  <string name="notification__message_with_mention__ephemeral">Jus paminėjo</string>
-  <string name="notification__message__liked">\u2764 „%1$s“</string>
-  <string name="notification__message__liked_message">\u2764 jūsų žinutė</string>
-  <string name="notification__message__liked_picture">\u2764 ant jūsų paveikslėlio</string>
-  <!-- ephemeral -->
-  <string name="notification__message__ephemeral_someone">Kažkas</string>
-  <plurals name="notification__message__ephemeral">
-    <item quantity="one">Kažkas atsiuntė jums žinutę</item>
-    <item quantity="few">Kažkas atsiuntė jums %1$d žinutes</item>
-    <item quantity="many">Kažkas atsiuntė jums %1$d žinutes</item>
-    <item quantity="other">Kažkas atsiuntė jums %1$d žinučių</item>
-  </plurals>
-  <string name="other_set_message_timer">[[%1$s]] nustatė žinutės laikmatį į [[%2$s]]</string>
-  <string name="you_set_message_timer">[[[You]]] nustatėte žinutės laikmatį į [[%1$s]]</string>
-  <string name="other_turned_off_message_timer">[[%1$s]] išjungė žinutės laikmatį</string>
-  <string name="you_turned_off_message_timer">[[You]] išjungėte žinutės laikmatį</string>
-  <!-- Others -->
-  <string name="app_name">Wire</string>
-  <string name="content__system__item_separator">,</string>
-  <string name="content__system__last_item_separator">ir</string>
-  <string name="content__system__you">jums</string>
-  <plurals name="content__system__other_members">
-    <item quantity="one">dar %1$s</item>
-    <item quantity="few">dar %1$s</item>
-    <item quantity="many">dar %1$s</item>
-    <item quantity="other">dar %1$s</item>
-  </plurals>
-  <!-- System notifications -->
-  <string name="system_notification__silence_call">Atmesti</string>
-  <string name="system_notification__join_call">Priimti</string>
-  <string name="system_notification__leave_call">Baigti pokalbį</string>
-  <string name="system_notification__calling_one">Skambinama&#8230;</string>
-  <string name="system_notification__calling_group">%1$s jums skambina&#8230;</string>
-  <string name="system_notification__video_calling_one">Skambina su vaizdu&#8230;</string>
-  <string name="system_notification__video_calling_group">%1$s skambina su vaizdu&#8230;</string>
-  <string name="ws_foreground_notification_connected_title">Prisijungta prie „Wire“ serverio</string>
-  <string name="ws_foreground_notification_no_internet_title">Laukiama interneto ryšio&#8230;</string>
-  <string name="ws_foreground_notification_connecting_title">Nustatomas ryšys&#8230;</string>
-  <string name="ws_foreground_notification_summary">Čia spustelėję gausite daugiau informacijos.</string>
-  <!-- Notification actions -->
-  <string name="notification__action__call">Skambutis</string>
-  <string name="notification__action__reply">Atsakyti</string>
-  <!-- Quick reply -->
-  <string name="quick_reply__counter">%1$d iš %2$d</string>
-  <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
-  <string name="quick_reply__open_wire">Atverti Wire</string>
-  <!-- Save image notification -->
-  <string name="notification__image_saving__content__title">„Wire“ paveikslėlis išsaugotas.</string>
-  <string name="notification__image_saving__content__subtitle">Palietę pamatysite.</string>
-  <string name="notification__image_saving__action__share">Bendrinti</string>
-  <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
-  <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <!-- forced update -->
-  <string name="forced_update__header">Svarbus atnaujinimas</string>
-  <string name="forced_update__sub_header">Įdiekite naujausią „Wire“ versiją.</string>
-  <string name="forced_update__download_button">Atsisiųsti</string>
-  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Sharing -->
-  <string name="sharing__image_preview__confirm_action">SIŲSTI</string>
-  <string name="sharing__user_not_logged_in__dialog__title">Prisijunkite</string>
-  <string name="sharing__user_not_logged_in__dialog__message">Atverkite „Wire“, prisijunkite ir galėsite bendrinti.</string>
-  <string name="sharing__user_not_logged_in__dialog__confirm">GERAI</string>
-  <!-- Sync errors -->
-  <string name="in_app_notification__sync_error__create_group_convo__title">Nepavyko sukurti</string>
-  <string name="in_app_notification__sync_error__create_group_convo__body">Nepavyko pradėti susirašinėjimo su %1$s</string>
-  <string name="in_app_notification__sync_error__add_user__body">%1$s nenori būti pridėtas prie susirašinėjimų.</string>
-  <string name="in_app_notification__sync_error__add_multiple_user__body">Vienas iš pasirinktų žmonių nenori būti pridėtas prie susirašinėjimų.</string>
-  <string name="in_app_notification__sync_error__unknown__body">Kažkas nepavyko, bandykite dar kartą.</string>
-  <string name="in_app_notification__sync_error__create_convo__button">Tęsti</string>
-  <!--Timestamp formatting -->
-  <string name="timestamp__just_now">Ką tik</string>
-  <plurals name="timestamp__x_minutes_ago">
-    <item quantity="one">Prieš %1$d minutę</item>
-    <item quantity="few">Prieš %1$d minutes</item>
-    <item quantity="many">Prieš %1$d minutę</item>
-    <item quantity="other">Prieš %1$d minučių</item>
-  </plurals>
-  <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
-  <!-- Example: FRIDAY, MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__no_year">MMM d \'d.\', EEE, %1$s</string>
-  <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year">YYYY \'m.\' MMM d \'d.\', EEE, %1$s</string>
-  <!-- Example: MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__no_year_no_weekday">MMM d \'d.\' %1$s</string>
-  <!-- Example: MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year_no_weekday">YYYY \'m.\' MMM d \'d.\' %1$s</string>
-  <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <!-- MONDAY -->
-  <!-- MARCH 2 -->
-  <!-- MARCH 2, 2015 -->
-  <!-- 23:15 -->
-  <string name="timestamp_pattern__24h_format">HH:mm</string>
-  <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="country">Šalis</string>
-  <string name="register">Registruotis</string>
-  <string name="password_placeholder">Slaptažodis</string>
-  <string name="email_placeholder">El. paštas</string>
-  <string name="name_placeholder">Vardas</string>
-  <!-- Strings -->
-  <string name="edit_phone_number">KEISTI TELEFONO NUMERĮ</string>
-  <string name="i_have_an_account">PRISIJUNGTI</string>
-  <plurals name="welcome__resend__timer_label">
-    <item quantity="one">NAUJO KODO GALITE PRAŠYTI PO %1$d SEKUNDĖS</item>
-    <item quantity="few">NAUJO KODO GALITE PRAŠYTI PO %1$d SEKUNDŽIŲ</item>
-    <item quantity="many">NAUJO KODO GALITE PRAŠYTI PO %1$d SEKUNDĖS</item>
-    <item quantity="other">NAUJO KODO GALITE PRAŠYTI PO %1$d SEKUNDŽIŲ</item>
-  </plurals>
-  <string name="welcome__resend__manual">SIŲSTI DAR KARTĄ</string>
-  <string name="welcome__resend__callme">PASKAMBINKIT MAN</string>
-  <string name="activation_code_info_manual">Įrašykite patvirtinimo kodą, kurį išsiuntėme į \n&lt;b&gt;%s&lt;/b&gt;</string>
-  <string name="enter_name">Kaip turėtume į jus kreiptis?</string>
-  <string name="enter_name_hint">Įrašykite vardą ir pavardę</string>
-  <string name="new_reg__password__forgot">Pamiršote slaptažodį?</string>
-  <string name="phone_sign_in">Telefonas</string>
-  <string name="email_sign_in">El. paštas</string>
-  <string name="edit_email">Keisti el. pašto adresą</string>
-  <string name="hello">Sveiki, &lt;b&gt;%s&lt;/b&gt;</string>
-  <string name="sign_in">Prisijungti</string>
-  <string name="new_reg__password_length">BENT %1$s SIMBOLIAI</string>
-  <string name="username__set__toast_error">Įvyko klaida keičiant naudotojo vardą</string>
-  <!-- Giphy -->
-  <string name="giphy_preview__search_hint">Ieškoti „Giphy“</string>
-  <string name="giphy_preview__error">GIF FAILŲ NERASTA.</string>
-  <string name="giphy_preview__message_via_random_trending">Iš giphy.com</string>
-  <string name="giphy_preview__message_via_search">%s · iš giphy.com</string>
-  <string name="service_giphy_name">Giphy</string>
-  <!--Sketch-->
-  <string name="drawing__tip__picture__message">BAKSTELĖJĘ SPALVĄ GALĖSITE PAKEISTI TEPTUKO DYDĮ.\n\nPAKRATĘ PAŠALINSITE NUOTRAUKAS.</string>
-  <string name="drawing__tip__message">BAKSTELĖJĘ SPALVĄ GALĖSITE PAKEISTI TEPTUKO DYDĮ.\n\nPASPAUDĘ IR PALAIKĘ UŽPILDYSITE PLOTĄ.</string>
-  <string name="sketch__emoji_keyboard__size_label__small">MAŽAS</string>
-  <string name="sketch__emoji_keyboard__size_label__medium">VIDUTINIS</string>
-  <string name="sketch__emoji_keyboard__size_label__large">DIDELIS</string>
-  <string name="toolbar__sketch__action_close">Užverti</string>
-  <string name="drawing__text_hint">RAŠYKITE PRANEŠIMĄ</string>
-  <!-- Location sharing -->
-  <string name="location_sharing__tip">Vilkdami žemėlapį pakeisite vietą</string>
-  <string name="location_sharing__permission_error">Nepavyko gauti dabartinės vietos, nesuteikta teisė</string>
-  <string name="location_sharing__send_button">SIŲSTI</string>
-  <string name="location_sharing__enable_system_location__title">Naudoti vietos informaciją?</string>
-  <string name="location_sharing__enable_system_location__message">Aktyvuokite vietos aptikimą nustatymuose, kad būtų galima parodyti dabartinę vietą</string>
-  <string name="location_sharing__enable_system_location__confirm">Nustatymai</string>
-  <string name="location_sharing__enable_system_location__cancel">Atsisakyti</string>
-  <string name="location_sharing__missing_play_services">„Google Play Services“ yra būtinas norint dalintis savo buvimo vieta</string>
-  <!-- From SyncEngine -->
-  <string name="new_reg__phone_signup__create_account">Sukurti paskyrą</string>
-  <!-- OTR -->
-  <string name="otr__remove_device__title">Pašalinti %1$s</string>
-  <string name="otr__remove_device__message">Įrašykite slaptažodį</string>
-  <string name="otr__remove_device__default">įrenginys</string>
-  <string name="otr__remove_device__button_delete">GERAI</string>
-  <string name="otr__remove_device__button_cancel">Atsisakyti</string>
-  <string name="otr__remove_device__error">Neteisingas slaptažodis</string>
-  <string name="otr__error_dialog__cannot_register__message">Norėdami naudotis „Wire“ šiame įrenginyje, pašalinkite vieną iš savo įrenginių.</string>
-  <string name="otr__error_dialog__cannot_register__manage_devices_button">Tvarkyti įrenginius</string>
-  <string name="otr__error_dialog__cannot_register__log_out_button">Atsijungti</string>
-  <!-- OTR Participants -->
-  <string name="otr__participant__device_header">„Wire“ suteikia kiekvienam įrenginiui unikalų kontrolinį kodą. Palyginkite jį su %1$s ir patvirtinkite savo susirašinėjimą.</string>
-  <string name="otr__participant__device_header__no_devices">%1$s naudoja seną „Wire“ versiją. Čia nerodomi jokie įrenginiai.</string>
-  <string name="otr__participant__device_header__link_text">_Kam patvirtinti susirašinėjimą?_</string>
-  <string name="otr__participant__device_class__unknown">Nežinoma</string>
-  <string name="otr__participant__device_class__phone">Telefonas</string>
-  <string name="otr__participant__device_class__tablet">Planšetinis kompiuteris</string>
-  <string name="otr__participant__device_class__desktop">Stalinis kompiuteris</string>
-  <string name="otr__participant__tab_details">Išsamiau</string>
-  <string name="otr__participant__tab_devices">Įrenginiai</string>
-  <string name="otr__participant__single_device__my_fingerprint_link">Rodyti mano įrenginio kontrolinį kodą</string>
-  <string name="otr__participant__single_device__reset_session_link">Atstatyti seansą</string>
-  <string name="otr__participant__my_device__description">Jūsų įrenginio kontrolinis kodas</string>
-  <string name="otr__participant__my_device__show_all_devices_link">Rodyti visus mano įrenginius</string>
-  <string name="otr__participant__single_device__description">Įsitikinkite, kad šis kontrolinis kodas yra toks pats, kaip ir įrenginyje, kurį naudoja %1$s.</string>
-  <string name="otr__participant__single_device__how_to_link">_Kaip tai padaryti?_</string>
-  <string name="otr__device_id">ID: %s</string>
-  <string name="otr__first_launch__header">Pirmą kartą naudojate „Wire“ šiame įrenginyje.</string>
-  <string name="otr__first_launch__sub_header">Privatumo sumetimais, jūsų pokalbio istorija čia nebus rodoma.</string>
-  <string name="otr__first_launch__button">GERAI</string>
-  <string name="otr__signin__info_text">Prisijungti</string>
-  <string name="otr__reset_session__message_ok">Sesija buvo sukurta iš naujo</string>
-  <string name="otr__reset_session__message_fail">Nepavyko atstatyti seanso</string>
-  <string name="otr__reset_session__button_ok">GERAI</string>
-  <string name="otr__reset_session__button_fail">Bandyti dar kartą</string>
-  <string name="advanced_image_download_wifi_info">Paveikslėlis atsiras kai vėl būsite prisijungę „Wi-Fi“ ryšiu</string>
-  <string name="change_settings">Keisti nustatymus</string>
-  <string name="conversation_list__action_join_call">JUNGTIS</string>
-  <!-- Conversation Toolbar -->
-  <string name="conversation_toolbar__collection">Rinkinys</string>
-  <string name="conversation_toolbar__call_video">Vaizdo skambutis</string>
-  <string name="conversation_toolbar__call_audio">Garso skambutis</string>
-  <!-- Asset upload errors -->
-  <string name="asset_upload_error__not_found__title">Failas nerastas</string>
-  <string name="asset_upload_error__not_found__message">Nepavyksta gauti nurodyto failo</string>
-  <string name="asset_upload_error__not_found__button">GERAI</string>
-  <string name="asset_upload_error__file_too_large__title">Failas per didelis</string>
-  <string name="asset_upload_error__file_too_large__message_default">Didelių failų įkėlimas nepalaikomas.</string>
-  <string name="asset_upload_error__file_too_large__message">Siunčiamų failų dydis negali viršyti %1$s.</string>
-  <string name="asset_upload_error__file_too_large__button">GERAI</string>
-  <string name="asset_upload_warning__large_file__title">Nėra „Wi-Fi“ ryšio</string>
-  <string name="asset_upload_warning__large_file__message_default">Didelis failas bus siunčiamas mobiliuoju ryšiu. Tęsti?</string>
-  <string name="asset_upload_warning__large_file__message">Failas %1$s bus siunčiamas mobiliuoju ryšiu. Tęsti?</string>
-  <!-- Video message errors -->
-  <string name="audio_message_error__missing_audio_permissions">Norint siųsti garso žinutes, turi būti suteikta teisė įrašyti garsą.</string>
-  <!-- Audio bit rate mode -->
-  <string name="audio_message__constant_bit_rate">KODAVIMAS PASTOVIA SPARTA</string>
-  <!-- no contacts -->
-  <string name="no_conversation_in_list__header">Kol kas nėra pokalbių</string>
-  <string name="all_archived__header">Viskas užarchyvuota</string>
-  <string name="no_conversation_in_list__message">Pradėkite susirašinėjimą arba sukurkite grupę.</string>
-  <string name="cursor__type_a_message">RAŠYKITE PRANEŠIMĄ</string>
-  <string name="cursor__ephemeral_message">IŠNYKSTANTI ŽINUTĖ</string>
-  <string name="tooltip_record">Padaryti vaizdo įrašą</string>
-  <string name="tooltip_camera">Pridėti nuotrauką</string>
-  <string name="tooltip_sketch">Nupiešti paveikslėlį</string>
-  <string name="tooltip_ping">Skambtelėjimas</string>
-  <string name="tooltip_emoji">Jaustukas</string>
-  <string name="tooltip_location">Vieta</string>
-  <string name="tooltip_more">Daugiau veiksmų</string>
-  <string name="tooltip_audio_message">Bakstelėkite ir laikykite garso žinutės siuntimui</string>
-  <string name="tooltip_file">Siųsti failą</string>
-  <string name="tooltip_gif">Gif</string>
-  <string name="tooltip_mention">Add Mention</string>
-  <!-- Delete -->
-  <string name="conversation__message_action__delete_for_me">Ištrinti tik man?</string>
-  <string name="conversation__message_action__delete_for_everyone">Ištrinti visiems?</string>
-  <string name="conversation__message_action__delete_details">To negalima bus atšaukti.</string>
-  <string name="conversation__message_action__delete__dialog__cancel">Atsisakyti</string>
-  <string name="conversation__message_action__delete__dialog__ok">Ištrinti</string>
-  <string name="conversation__message_action__delete__confirmation">Žinutė ištrinta</string>
-  <string name="conversation__action_mode__copy__description">%1$s parašė žinutę</string>
-  <string name="conversation__action_mode__copy__toast">Nukopijuota</string>
-  <string name="conversation__action_mode__fwd__dialog__title">Ruošiamas turinys</string>
-  <string name="conversation__action_mode__fwd__dialog__message">Palaukite&#8230;</string>
-  <string name="conversation__action_mode__fwd__chooser__title">Pasidalinti su</string>
-  <!-- video message preview -->
-  <string name="audio_message__recording__slide_control__slide_hint">PERBRAUKĘ Į VIRŠŲ IŠSIŲSITE</string>
-  <string name="audio_message__recording__slide_control__tap_hint">BAKSTELĖJĘ IŠSIŲSITE</string>
-  <string name="audio_message__recording__tap_to_record">Bakstelėję įrašysite žinutę\npo to galėsite _GLYPH_</string>
-  <string name="audio_message__recording__failure__title">Nepavyko įrašyti garso</string>
-  <string name="audio_message__recording__failure__message">Bandykite dar kartą.</string>
-  <string name="audio_message__recording__limit_reached__title">Įrašymas sustabdytas</string>
-  <string name="audio_message__recording__limit_reached__message">Garso žinutės ribojamos iki 25MB. Siųsti žinutę?</string>
-  <string name="audio_message__recording__limit_reached__confirmation">SIŲSTI</string>
-  <string name="hint_change_filter">Pasirinkite filtrą aukščiau</string>
-  <string name="message_bottom_menu_action_forward">Bendrinti</string>
-  <string name="message_bottom_menu_action_copy">Kopijuoti</string>
-  <string name="message_bottom_menu_action_edit">Taisa</string>
-  <string name="message_bottom_menu_action_like">Patinka</string>
-  <string name="message_bottom_menu_action_unlike">Nebepatinka</string>
-  <string name="message_bottom_menu_action_save">Įrašyti</string>
-  <string name="message_bottom_menu_action_open">Atverti</string>
-  <string name="message_bottom_menu_action_delete">Ištrinti</string>
-  <string name="message_bottom_menu_action_delete_local">Ištrinti man</string>
-  <string name="message_bottom_menu_action_delete_global">Ištrinti visiems</string>
-  <string name="message_bottom_menu_action_reveal">Rodyti susirašinėjime</string>
-  <string name="likes_list__header">Patinka</string>
-  <string name="message_bottom_menu_action_save_ok">Paveikslėlis išsaugotas</string>
-  <string name="message_footer__tap_to_like">Bakstelėję pažymėsite, kad patinka</string>
-  <plurals name="message_footer__number_of_likes">
-    <item quantity="one">%1$d žmogus</item>
-    <item quantity="few">%1$d žmonės</item>
-    <item quantity="many">%1$d žmogus</item>
-    <item quantity="other">%1$d žmonių</item>
-  </plurals>
-  <string name="message_footer__status__sending">Siunčiama&#8230;</string>
-  <string name="message_footer__status__sent">%1$s \u30FB išsiųsta</string>
-  <string name="message_footer__status__delivered">%1$s \u30FB pristatyta</string>
-  <string name="message_footer__status__failed">Išsiųsti nepavyko. _Siųsti dar kartą_</string>
-  <string name="message_footer__status__deleted">%1$s \u30FB Ištrinta</string>
-  <string name="ephemeral_message__timeout_selection_info">NUSTATYKITE PO KIEK LAIKO PRANEŠIMAS IŠNYKS</string>
-  <string name="usernames__take_over__summary">Gaukite savo unikalų vardą „Wire“ platformoje. _Sužinokite daugiau._</string>
-  <string name="usernames__take_over__choose">PASIRINITE SAVO</string>
-  <string name="usernames__take_over__keep">NAUDOTI ŠĮ</string>
-  <string name="ephemeral_message__timeout__off">Išjungta</string>
-  <string name="ephemeral_message__options_header">LAIKINOS ŽINUTĖS</string>
-  <string name="guests_option_on">Įjungta</string>
-  <plurals name="unit_years">
-    <item quantity="one">%1$s metai</item>
-    <item quantity="few">%1$s metai</item>
-    <item quantity="many">%1$s metų</item>
-    <item quantity="other">%1$s metų</item>
-  </plurals>
-  <plurals name="unit_weeks">
-    <item quantity="one">%1$s savaitė</item>
-    <item quantity="few">%1$s savaitės</item>
-    <item quantity="many">%1$s savaitės</item>
-    <item quantity="other">%1$s savaičių</item>
-  </plurals>
-  <plurals name="unit_days">
-    <item quantity="one">%1$s diena</item>
-    <item quantity="few">%1$s dienos</item>
-    <item quantity="many">%1$s dienos</item>
-    <item quantity="other">%1$s dienų</item>
-  </plurals>
-  <plurals name="unit_hours">
-    <item quantity="one">%1$s valanda</item>
-    <item quantity="few">%1$s valandos</item>
-    <item quantity="many">%1$s valandos</item>
-    <item quantity="other">%1$s valandų</item>
-  </plurals>
-  <plurals name="unit_minutes">
-    <item quantity="one">%1$s minutė</item>
-    <item quantity="few">%1$s minutės</item>
-    <item quantity="many">%1$s minutės</item>
-    <item quantity="other">%1$s minučių</item>
-  </plurals>
-  <plurals name="unit_seconds">
-    <item quantity="one">%1$s sekundė</item>
-    <item quantity="few">%1$s sekundės</item>
-    <item quantity="many">%1$s sekundės</item>
-    <item quantity="other">%1$s sekundžių</item>
-  </plurals>
-  <string name="ephemeral_message_footer_multiple_units">Liko %1$s ir %2$s</string>
-  <string name="ephemeral_message_footer_single_unit">Liko %1$s</string>
-  <string name="collection_header_pictures">PAVEIKSLĖLIAI</string>
-  <string name="collection_header_files">FAILAI</string>
-  <string name="collection_header_links">NUORODOS</string>
-  <string name="collection_header_today">ŠIANDIEN</string>
-  <string name="collection_header_yesterday">VAKAR</string>
-  <string name="collection_empty">RINKINYJE NIEKO NĖRA</string>
-  <string name="collection_all">Rodyti visus %1$s</string>
-  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_search_hint">SIŲSTI&#8230;</string>
-  <string name="search__box__hint_text">IEŠKOTI ŽINUČIŲ TEKSTE</string>
-  <string name="search__no_results">Rezultatų nėra.</string>
-  <!-- Conversation List -->
-  <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s message</item>
-    <item quantity="few">%1$s messages</item>
-    <item quantity="many">%1$s messages</item>
-    <item quantity="other">%1$s messages</item>
-  </plurals>
-  <plurals name="conversation_list__pings_count">
-    <item quantity="one">%1$s skambtelėjimas</item>
-    <item quantity="few">%1$s skambtelėjimai</item>
-    <item quantity="many">%1$s skambtelėjimo</item>
-    <item quantity="other">%1$s skambtelėjimų</item>
-  </plurals>
-  <plurals name="conversation_list__new_likes_count">
-    <item quantity="one">%1$s ♥</item>
-    <item quantity="few">%1$s ♥</item>
-    <item quantity="many">%1$s ♥</item>
-    <item quantity="other">%1$s ♥</item>
-  </plurals>
-  <plurals name="conversation_list__missed_calls_plural">
-    <item quantity="one">%1$s praleistas skambutis</item>
-    <item quantity="few">%1$s praleistas skambutis</item>
-    <item quantity="many">%1$s praleistas skambutis</item>
-    <item quantity="other">%1$s praleistas skambutis</item>
-  </plurals>
-  <string name="conversation_list__missed_calls_count">Praleistas skambutis</string>
-  <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
-  <plurals name="conversation_list__mentions_count">
-    <item quantity="one">%1$s mention</item>
-    <item quantity="few">%1$s mentions</item>
-    <item quantity="many">%1$s mentions</item>
-    <item quantity="other">%1$s mentions</item>
-  </plurals>
-  <string name="conversation_list__unsent_message_long">⚠ Neišsiųsta žinutė</string>
-  <string name="conversation_list__unsent_message_short">⚠</string>
-  <string name="conversation_list__shared__image">Pasidalino paveikslėliu</string>
-  <string name="conversation_list__shared__file">Pasidalino failu</string>
-  <string name="conversation_list__shared__video">Pasidalino vaizdo įrašu</string>
-  <string name="conversation_list__shared__audio">Pasidalino garso žinute</string>
-  <string name="conversation_list__shared__location">Pasidalino vieta</string>
-  <string name="conversation_list__missed_call">Praleistas skambutis</string>
-  <string name="conversation_list__pinged">Skambtelėjo</string>
-  <string name="conversation_list__ephemeral">Kažkas atsiuntė žinutę</string>
-  <string name="conversation_list__single_eph_and_mention">Jus paminėjo</string>
-  <string name="conversation_list__group_eph_and_mention">Kažkas jus paminėjo</string>
-  <string name="conversation_list__typing">Rašo žinutę&#8230;</string>
-  <string name="conversation_list__someone">Kažkas</string>
-  <string name="conversation_list__added">[[%1$s]] buvo pridėtas</string>
-  <string name="conversation_list__added_you">[[%1$s]] jus pridėjo</string>
-  <string name="conversation_list__left_you">Jūs išėjote</string>
-  <string name="conversation_list__removed_you">[[%1$s]] jus pašalino</string>
-  <string name="conversation_list__header__title">SUSIRAŠINĖJIMAI</string>
-  <string name="conversation_list__header__archive_title">ARCHYVUOTI</string>
-  <string name="guest_indicator">SVEČIAS</string>
-  <string name="participant_tab_guest_indicator_label">Svečias</string>
-  <string name="availability_none">Jokių</string>
-  <string name="availability_available">Prisijungęs</string>
-  <string name="availability_away">Pasišalinęs</string>
-  <string name="availability_busy">Užsiėmęs</string>
-  <string name="availability_text_available">%1$s YRA PRISIJUNGĘS</string>
-  <string name="availability_text_away">%1$s YRA PASIŠALINĘS</string>
-  <string name="availability_text_busy">%1$s YRA UŽSIĖMĘS</string>
-  <string name="availability_setstatus">NURODYTI BŪSENĄ</string>
-  <string name="preferences_profile_new">Nauja komanda ar paskyra</string>
-  <string name="preferences_profile_add_account">Pridėti paskyrą</string>
-  <string name="preferences_profile_create_team">Sukurti komandą</string>
-  <string name="preferences_profile_in_team">komandoje %1$s</string>
-  <string name="new_devices_dialog_title">Prijungėte įrenginį prie savo „Wire“ paskyros</string>
-  <string name="new_devices_dialog_info">Jeigu jūs to nedarėte, pašalinkite įrenginį ir pasikeiskite slaptažodį.</string>
-  <string name="new_devices_dialog_manage_devices">Tvarkyti įrenginius</string>
-  <string name="teams_set_email_title">Jūsų paskyra</string>
-  <string name="teams_set_email_subtitle">Įrašykite darbo el. pašto adresą.</string>
-  <string name="teams_set_email_hint">TU@TAVOORGANIZACIJA.LT</string>
-  <string name="teams_set_email_about">SUŽINOKITE DAUGIAU</string>
-  <string name="teams_set_password_title">Įrašykite slaptažodį</string>
-  <string name="teams_set_password_hint">BENT 8 SIMBOLIAI</string>
-  <string name="teams_set_username_title">Įrašykite naudotojo vardą</string>
-  <string name="teams_set_username_hint">NAUDOTOJO VARDAS</string>
-  <string name="teams_set_team_name_title">Pavadinkite komandą</string>
-  <string name="teams_set_team_name_subtitle">Bet kada vėliau galėsite pakeisti.</string>
-  <string name="teams_set_team_name_hint">KOMANDOS PAVADINIMAS</string>
-  <string name="teams_set_team_name_about">KAS YRA „WIRE“ KOMANDOMS?</string>
-  <string name="teams_verify_email_title">Gavote el. laišką</string>
-  <string name="teams_verify_email_subtitle">Įrašykite patvirtinimo kodą, kuris buvo išsiųstas į %1$s.</string>
-  <string name="teams_verify_email_resend">SIŲSTI KODĄ DAR KARTĄ</string>
-  <string name="teams_verify_email_change">KEISTI EL. PAŠTO ADRESĄ</string>
-  <string name="teams_set_name_title">Jūsų vardas</string>
-  <string name="teams_set_name_hint">VARDAS PAVARDĖ</string>
-  <string name="app_entry_create_account">Asmeninis</string>
-  <string name="app_entry_create_account_sub">kurti paskyrą</string>
-  <string name="app_entry_create_team">Pro</string>
-  <string name="app_entry_create_team_sub">kurti komandą</string>
-  <string name="app_entry_login_sub">Jau turite paskyrą?</string>
-  <string name="app_entry_login">Prisijungti</string>
-  <string name="app_entry_tc_dialog_title">Paslaugos teikimo sąlygos</string>
-  <string name="app_entry_tc_dialog_message">Norėdami tęsti, privalote sutikti</string>
-  <string name="app_entry_notifications_dialog_title">Pranešimai</string>
-  <string name="app_entry_notifications_dialog_message">Pranešimuose gali būti įspėjimai, garsai ir ženkliukai. Tai galima konfigūruoti nustatymuose.</string>
-  <string name="app_entry_dialog_accept">PRIIMTI</string>
-  <string name="app_entry_dialog_cancel">ATŠAUKTI</string>
-  <string name="app_entry_dialog_log_in">PRISIJUNGTI</string>
-  <string name="app_entry_dialog_no_thanks">NE, DĖKOJU</string>
-  <string name="app_entry_dialog_not_now">NE DABAR</string>
-  <string name="app_entry_dialog_view">RODYTI</string>
-  <string name="app_entry_dialog_privacy_policy">PRIVATUMO POLITIKA</string>
-  <string name="app_entry_email_sent">El. laiškas išsiųstas</string>
-  <string name="teams_set_username_subtitle">Naudotojo vardas padeda žmonėms jus rasti.</string>
-  <string name="app_entry_sso_dialog_title">Įmonės prisijungimas</string>
-  <string name="app_entry_sso_dialog_message">Įrašykite įmonės SSO prieigos kodą.</string>
-  <string name="app_entry_sso_input_hint"></string>
-  <string name="pick_user_teams_invite">Kvieskite žmonių prisijungti prie komandos</string>
-  <string name="teams_invitations_skip">PRALEISTI</string>
-  <string name="teams_invitations_done">BAIGTA</string>
-  <string name="teams_invitations_error_too_many">Didžiausias galimas kvietimų skaičius išsiųstas</string>
-  <string name="teams_invitations_error_already_sent">Jau išsiųsta</string>
-  <string name="teams_invitations_error_generic">Įvyko klaida, bandykite dar kartą</string>
-  <string name="teams_invite_email_hint">KOLEGA@TAVOORGANIZACIJA.LT</string>
-  <string name="teams_invitations_error_invalid_email">ĮRAŠYKITE TINKAMĄ EL. PAŠTO ADRESĄ</string>
-  <string name="teams_invitations_error_email_exists">EL. PAŠTO ADRESAS JAU NAUDOJAMAS</string>
-  <string name="teams_invitations_error_no_internet">NĖRA INTERNETO RYŠIO</string>
-  <string name="invitation_screen_title">Sukurkite savo komandą</string>
-  <string name="invitation_screen_subtitle">Kvieskite kolegas prisijungti.</string>
-  <string name="open_service_conversation_button_text">Atverti pokalbį</string>
-  <string name="remove_service_button_text">Pašalinti paslaugą</string>
-  <string name="integrations_create_conversation">Kurti naują susirašinėjimą</string>
-  <string name="no_matches_found">Atitikmenų nerasta</string>
-  <string name="loading_services">Įkeliamos tarnybos&#8230;</string>
-  <string name="empty_services_list">Tarnybos yra pagalbininkai, kurie padeda pagerinti darbo eigą. Norėdami jomis naudotis, prašykite savo administratoriaus.</string>
-  <string name="empty_services_list_admin">Tarnybos yra pagalbininkai, kurie padeda pagerinti darbo eigą.</string>
-  <string name="create_group_conversation">Sukurti grupę</string>
-  <string name="create_guest_room_conversation">Kurti kambarį svečiams</string>
-  <string name="manage_services">Valdyti tarnybas</string>
-  <string name="next_button">KITAS</string>
-  <string name="skip_button">PRALEISTI</string>
-  <string name="done_button">BAIGTA</string>
-  <string name="new_group_header">SUKURTI GRUPĘ</string>
-  <string name="add_participants_empty_header">PRIDĖTI PAŠNEKOVŲ</string>
-  <string name="add_participants_count_header">PRIDĖTI PAŠNEKOVŲ (%1$s)</string>
-  <string name="new_conv_no_results">Rezultatų nėra</string>
-  <string name="new_conv_no_contacts">Kontaktų nėra</string>
-  <string name="participants_divider_services">PASLAUGOS (%1$s)</string>
-  <string name="participants_divider_people">ŽMONĖS (%1$s)</string>
-  <string name="group_name_hint">GRUPĖS PAVADINIMAS</string>
-  <string name="allow_guests_toggle_text">Leisti svečius ir tarnybas</string>
-  <string name="allow_guests_toggle_info_text">Atverkite šį susirašinėjimą paslaugoms ir žmonėms, kurie nėra jūsų komandoje. Vėliau bet kada galėsite tai pakeisti.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Leiskite šį susirašinėjimą matyti tarnyboms ir žmonėms, kurie nėra jūsų komandoje.</string>
-  <string name="allow_guests">Leisti svečius ir tarnybas</string>
-  <string name="guest_options_title">Svečiai ir tarnybos</string>
-  <string name="ephemeral_options_title">Laikinos žinutės</string>
-  <string name="ephemeral_explanation_text">Laikinos žinutės bus įjungtos visiems šio pokalbio dalyviams</string>
-  <string name="show_all_participants">Rodyti visus (%1$s)</string>
-  <string name="allow_guests_error_title">Kažkas nutiko</string>
-  <string name="allow_guests_error_body">Nepavyko leisti svečių ar tarnybų. Pabandykite dar kartą.</string>
-  <string name="allow_guests_warning_body">Dabar esantys svečiai ir tarnybos bus pašalintos iš šio susirašinėjimo. Nauji svečiai ir tarnybos negalės prisijungti.</string>
-  <string name="allow_guests_warning_confirm">Šalinti</string>
-  <string name="guests_are_present">YRA SVEČIŲ</string>
-  <string name="services_are_present">TARNYBOS ĮJUNGTOS</string>
-  <string name="guests_and_services_are_present">YRA SVEČIŲ IR TARNYBŲ</string>
-  <string name="participants_details_header_title">IŠSAMIAU</string>
-  <string name="invitation_link_description">Bet kas turintis nuorodą gali prisijungti prie susirašinėjimo, net jei neturi „Wire“</string>
-  <string name="create_link_button">Kurti nuorodą</string>
-  <string name="copy_link_button">Kopijuoti nuorodą</string>
-  <string name="share_link_button">Bendrinti nuorodą</string>
-  <string name="revoke_link_button">Atšaukti nuorodą&#8230;</string>
-  <string name="invitation_link_title">KVIESTI KITUS SU NUORODA</string>
-  <string name="link_copied_toast">Nuoroda nukopijuota!</string>
-  <string name="revoke_link_message">Nauji svečiai negalės prisijungti spustelėję nuorodą. Dabartiniai svečiai liks prisijungę.</string>
-  <string name="revoke_link_confirm">Atšaukti nuorodą</string>
-  <string name="invite_button_description">Žmonės nesantys jūsų komandoje gali prisijungti prie susirašinėjimo.</string>
-  <string name="invite_people">Pakviesti žmones</string>
-  <string name="guest_room_name">Svečių kambarys</string>
-  <string name="guest_time_left_hours">Liko %1$s val.</string>
-  <string name="guest_time_left_hours_minutes">Liko %1$s val. %2$s min.</string>
-  <string name="guest_time_left_minutes">Liko mažiau nei %1$s min.</string>
-  <string name="backup_description">Kurkite atsarginę kopiją, kad išsaugotumėte susirašinėjimo praeitį. Jei prarasite savo įrenginį arba pasikeisite nauju, tai galėsite panaudoti praeitis atstatymui.
+    <!-- Support -->
+    <string name="pref_support_screen_title">Palaikymas</string>
+    <string name="pref_support_website_title">„Wire“ pagalbos svetainė</string>
+    <string name="pref_support_contact_title">Susisiekti su palaikymu</string>
+    <!-- About -->
+    <string name="pref_about_screen_title">Apie</string>
+    <string name="pref_about_website_title">„Wire“ svetainė</string>
+    <string name="pref_about_tos_title">Naudojimosi sąlygos</string>
+    <string name="pref_about_privacy_policy_title">Privatumo politika</string>
+    <string name="pref_about_licenses_title">Licencijos informacija</string>
+    <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
+    <string name="pref_about_version_title">Versija %s</string>
+    <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
+    <!-- Pref invite -->
+    <string name="pref_invite_title">Pakvieskite žmonių naudotis „Wire“</string>
+    <!-- Preference Account Actions -->
+    <string name="pref__account_action__phone_verification__title">Patvirtinti telefono numerį</string>
+    <string name="pref__account_action__phone_verification__description">Įrašykite patvirtinimo kodą, kuris buvo išsiųstas į %s</string>
+    <string name="pref__account_action__phone_verification__code">Kodas</string>
+    <string name="pref__account_action__phone_verification__question">Negaunate kodo?</string>
+    <string name="pref__account_action__phone_verification__resend"><u>Siųsti kodą dar kartą</u></string>
+    <string name="pref__account_action__phone_verification__change"><u>Keisti telefono numerį</u></string>
+    <string name="pref__account_action__email_verification__title">Patvirtinti el. pašto adresą</string>
+    <string name="pref__account_action__email_verification__description">Patikrinkite savo el. paštą ir sekite nurodymus.</string>
+    <string name="pref__account_action__email_verification__question">Negaunate el. laiško?</string>
+    <string name="pref__account_action__email_verification__resend">&lt;u&gt;Persiųsti į %s&lt;/u&gt;</string>
+    <string name="pref__account_action__email_verification__change"><u>Keisti el. pašto adresą</u></string>
+    <string name="pref__account_action__dialog__add_email_password__password">Slaptažodis</string>
+    <string name="pref__account_action__dialog__add_email_password__email">El. paštas</string>
+    <string name="pref__account_action__dialog__add_email_password__title">Pridėti el. pašto adresą</string>
+    <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Neteisingas el. pašto adresas</string>
+    <string name="pref__account_action__dialog__add_email_password__error__invalid_password">Bent 8 simbolių</string>
+    <string name="pref__account_action__dialog__edit_phone__title">Keisti telefono numerį</string>
+    <string name="pref__account_action__dialog__add_phone__title">Pridėti telefono numerį</string>
+    <string name="pref__account_action__dialog__add_phone__error__country">Netinkamas šalies kodas</string>
+    <string name="pref__account_action__dialog__add_phone__error__number">Neteisingas telefono numeris</string>
+    <string name="pref__account_action__dialog__add_phone__confirm__title">Patvirtinti numerį</string>
+    <string name="pref__account_action__dialog__add_phone__confirm__message">Išsiųsime patvirtinimo kodą į:\n%s</string>
+    <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Šalinti</string>
+    <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Ar tikrai norite ištrinti %s iš jūsų „Wire“ paskyros?</string>
+    <string name="pref__account_action__dialog__delete_phone__error">Nepavyko ištrinti telefono numerio</string>
+    <string name="pref__account_action__dialog__change_email__title">Keisti el. pašto adresą</string>
+    <string name="pref__account_action__dialog__change_username__rules">Bent 2 simboliai. Tik a–z, 0–9 ir _</string>
+    <string name="pref__account_action__dialog__change_username__title">Naudotojo vardas</string>
+    <string name="pref__account_action__dialog__change_username__error_already_taken">Jau užimtas</string>
+    <string name="pref__account_action__dialog__change_username__error_unknown">Ryšio klaida, bandykite dar kartą</string>
+    <!-- No Internet connection -->
+    <string name="system_status__no_internet">NĖRA INTERNETO</string>
+    <!-- SHARING -->
+    <string name="alert_dialog__confirmation">GERAI</string>
+    <string name="alert_dialog__no_network__header">Nėra interneto ryšio</string>
+    <string name="sign_up__set_picture__choose">Pasirinkti savo asmeninį</string>
+    <string name="sign_up__set_picture__keep">Palikti šį</string>
+    <string name="sign_up__set_picture__guidance">„Wire“ yra kur kas gražesnė kai naudojate paveikslėlį.</string>
+    <string name="sign_up__set_picture__loading">Įkeliama nuotrauka</string>
+    <string name="leave_conversation_failed__message">Norint išeiti iš susirašinėjimo, turi būti ryšys. Patikrinkite ryšį ir bandykite dar kartą.</string>
+    <string name="remove_from_conversation__no_network__message">Norint pašalinti žmones iš susirašinėjimų, turi būti ryšys. Patikrinkite ryšį ir bandykite dar kartą.</string>
+    <string name="calling__call_drop__message">Norint skambinti, turi būti ryšys. Patikrinkite interneto ryšį ir bandykite dar kartą.</string>
+    <!-- Lockscreen and notifications -->
+    <string name="message_notifications_channel_name">Žinutės</string>
+    <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
+    <string name="incoming_call_notifications_channel_name">Gaunamas skambutis</string>
+    <string name="ping_notifications_channel_name">Skambtelėjimai</string>
+    <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
+    <string name="ongoing_channel_name">Pranešimai fone</string>
+    <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
+    <string name="foreground_service_notification_name">Palaikyti ryšį su serveriu</string>
+    <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
+    <plurals name="notification__new_messages__multiple">
+        <item quantity="one">%2$s susirašinėjimuose yra pranešimas</item>
+        <item quantity="few">%2$s susirašinėjimuose yra %1$d pranešimai</item>
+        <item quantity="many">%2$s susirašinėjimuose yra %1$d pranešimai</item>
+        <item quantity="other">%2$s susirašinėjimuose yra %1$d pranešimų</item>
+    </plurals>
+    <!-- %1$s == username, %2$s == conversation -->
+    <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
+    <string name="notification__message__group__prefix__text">%1$s grupėje %2$s:\u0020</string>
+    <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+    <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text_one2one">Reply: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">Reply from %1$s: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">Reply from %1$s in %2$s: \u0020</string>
+    <string name="notification__message__one_to_one__wanted_to_talk">Skambino</string>
+    <string name="notification__message__one_to_one__pinged">Skambtelėjo</string>
+    <string name="notification__message__one_to_one__shared_picture">Pasidalino paveikslu</string>
+    <string name="notification__message__one_to_one__shared_file">Pasidalino failu</string>
+    <string name="notification__message__one_to_one__shared_video">Pasidalino vaizdo įrašu</string>
+    <string name="notification__message__one_to_one__shared_audio">Pasidalino garso žinute</string>
+    <string name="notification__message__one_to_one__shared_location">Pasidalino vieta</string>
+    <!-- %1$s == username, %2$s == conversation -->
+    <string name="notification__message__group__prefix__other">%1$s grupėje %2$s \u0020</string>
+    <string name="notification__message__group__renamed_conversation">pervadino pokalbį į %1$s</string>
+    <string name="notification__message__group__add">pridėjo žmonių į susirašinėjimą</string>
+    <string name="notification__message__group__remove">pašalino žmonių iš susirašinėjimo</string>
+    <string name="notification__message__single__accept_request">Jūs ir %1$s nuo šiol galite bendrauti</string>
+    <string name="notification__message__group__default_conversation_name">grupės susirašinėjimas</string>
+    <string name="notification__message__send_failed">Nepavyko išsiųsti žinutės</string>
+    <string name="notification__message__ephemeral">Atsiuntė jums žinutę</string>
+    <string name="notification__message_with_mention__ephemeral">Jus paminėjo</string>
+    <string name="notification__message_with_quote__ephemeral">Replied to you</string>
+    <string name="notification__message__liked">\u2764 „%1$s“</string>
+    <string name="notification__message__liked_message">\u2764 jūsų žinutė</string>
+    <string name="notification__message__liked_picture">\u2764 ant jūsų paveikslėlio</string>
+    <!-- ephemeral -->
+    <string name="notification__message__ephemeral_someone">Kažkas</string>
+    <plurals name="notification__message__ephemeral">
+        <item quantity="one">Kažkas atsiuntė jums žinutę</item>
+        <item quantity="few">Kažkas atsiuntė jums %1$d žinutes</item>
+        <item quantity="many">Kažkas atsiuntė jums %1$d žinutes</item>
+        <item quantity="other">Kažkas atsiuntė jums %1$d žinučių</item>
+    </plurals>
+    <string name="other_set_message_timer">[[%1$s]] nustatė žinutės laikmatį į [[%2$s]]</string>
+    <string name="you_set_message_timer">[[[You]]] nustatėte žinutės laikmatį į [[%1$s]]</string>
+    <string name="other_turned_off_message_timer">[[%1$s]] išjungė žinutės laikmatį</string>
+    <string name="you_turned_off_message_timer">[[You]] išjungėte žinutės laikmatį</string>
+    <!-- Others -->
+    <string name="app_name">Wire</string>
+    <string name="content__system__item_separator">,</string>
+    <string name="content__system__last_item_separator">ir</string>
+    <string name="content__system__you">jums</string>
+    <plurals name="content__system__other_members">
+        <item quantity="one">dar %1$s</item>
+        <item quantity="few">dar %1$s</item>
+        <item quantity="many">dar %1$s</item>
+        <item quantity="other">dar %1$s</item>
+    </plurals>
+    <!-- System notifications -->
+    <string name="system_notification__silence_call">Atmesti</string>
+    <string name="system_notification__join_call">Priimti</string>
+    <string name="system_notification__leave_call">Baigti pokalbį</string>
+    <string name="system_notification__calling_one">Skambinama&#8230;</string>
+    <string name="system_notification__calling_group">%1$s jums skambina&#8230;</string>
+    <string name="system_notification__video_calling_one">Skambina su vaizdu&#8230;</string>
+    <string name="system_notification__video_calling_group">%1$s skambina su vaizdu&#8230;</string>
+    <string name="ws_foreground_notification_connected_title">Prisijungta prie „Wire“ serverio</string>
+    <string name="ws_foreground_notification_no_internet_title">Laukiama interneto ryšio&#8230;</string>
+    <string name="ws_foreground_notification_connecting_title">Nustatomas ryšys&#8230;</string>
+    <string name="ws_foreground_notification_summary">Čia spustelėję gausite daugiau informacijos.</string>
+    <!-- Notification actions -->
+    <string name="notification__action__call">Skambutis</string>
+    <string name="notification__action__reply">Atsakyti</string>
+    <!-- Quick reply -->
+    <string name="quick_reply__counter">%1$d iš %2$d</string>
+    <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
+    <string name="quick_reply__open_wire">Atverti Wire</string>
+    <!-- Save image notification -->
+    <string name="notification__image_saving__content__title">„Wire“ paveikslėlis išsaugotas.</string>
+    <string name="notification__image_saving__content__subtitle">Palietę pamatysite.</string>
+    <string name="notification__image_saving__action__share">Bendrinti</string>
+    <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
+    <dimen name="notification__image_saving__image_width">512dp</dimen>
+    <!-- forced update -->
+    <string name="forced_update__header">Svarbus atnaujinimas</string>
+    <string name="forced_update__sub_header">Įdiekite naujausią „Wire“ versiją.</string>
+    <string name="forced_update__download_button">Atsisiųsti</string>
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- Sharing -->
+    <string name="sharing__image_preview__confirm_action">SIŲSTI</string>
+    <string name="sharing__user_not_logged_in__dialog__title">Prisijunkite</string>
+    <string name="sharing__user_not_logged_in__dialog__message">Atverkite „Wire“, prisijunkite ir galėsite bendrinti.</string>
+    <string name="sharing__user_not_logged_in__dialog__confirm">GERAI</string>
+    <!-- Sync errors -->
+    <string name="in_app_notification__sync_error__create_group_convo__title">Nepavyko sukurti</string>
+    <string name="in_app_notification__sync_error__create_group_convo__body">Nepavyko pradėti susirašinėjimo su %1$s</string>
+    <string name="in_app_notification__sync_error__add_user__body">%1$s nenori būti pridėtas prie susirašinėjimų.</string>
+    <string name="in_app_notification__sync_error__add_multiple_user__body">Vienas iš pasirinktų žmonių nenori būti pridėtas prie susirašinėjimų.</string>
+    <string name="in_app_notification__sync_error__unknown__body">Kažkas nepavyko, bandykite dar kartą.</string>
+    <string name="in_app_notification__sync_error__create_convo__button">Tęsti</string>
+    <!--Timestamp formatting -->
+    <string name="timestamp__just_now">Ką tik</string>
+    <plurals name="timestamp__x_minutes_ago">
+        <item quantity="one">Prieš %1$d minutę</item>
+        <item quantity="few">Prieš %1$d minutes</item>
+        <item quantity="many">Prieš %1$d minutę</item>
+        <item quantity="other">Prieš %1$d minučių</item>
+    </plurals>
+    <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
+    <!-- Example: FRIDAY, MAR 9, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__no_year">MMM d \'d.\', EEE, %1$s</string>
+    <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__with_year">YYYY \'m.\' MMM d \'d.\', EEE, %1$s</string>
+    <!-- Example: MAR 9, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__no_year_no_weekday">MMM d \'d.\' %1$s</string>
+    <!-- Example: MAR 9, 2015, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__with_year_no_weekday">YYYY \'m.\' MMM d \'d.\' %1$s</string>
+    <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
+    <!-- MONDAY -->
+    <!-- MARCH 2 -->
+    <!-- MARCH 2, 2015 -->
+    <!-- 23:15 -->
+    <string name="timestamp_pattern__24h_format">HH:mm</string>
+    <string name="timestamp_pattern__12h_format">hh:mm a</string>
+    <string name="country">Šalis</string>
+    <string name="register">Registruotis</string>
+    <string name="password_placeholder">Slaptažodis</string>
+    <string name="email_placeholder">El. paštas</string>
+    <string name="name_placeholder">Vardas</string>
+    <!-- Strings -->
+    <string name="edit_phone_number">KEISTI TELEFONO NUMERĮ</string>
+    <string name="i_have_an_account">PRISIJUNGTI</string>
+    <plurals name="welcome__resend__timer_label">
+        <item quantity="one">NAUJO KODO GALITE PRAŠYTI PO %1$d SEKUNDĖS</item>
+        <item quantity="few">NAUJO KODO GALITE PRAŠYTI PO %1$d SEKUNDŽIŲ</item>
+        <item quantity="many">NAUJO KODO GALITE PRAŠYTI PO %1$d SEKUNDĖS</item>
+        <item quantity="other">NAUJO KODO GALITE PRAŠYTI PO %1$d SEKUNDŽIŲ</item>
+    </plurals>
+    <string name="welcome__resend__manual">SIŲSTI DAR KARTĄ</string>
+    <string name="welcome__resend__callme">PASKAMBINKIT MAN</string>
+    <string name="activation_code_info_manual">Įrašykite patvirtinimo kodą, kurį išsiuntėme į \n&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="enter_name">Kaip turėtume į jus kreiptis?</string>
+    <string name="enter_name_hint">Įrašykite vardą ir pavardę</string>
+    <string name="new_reg__password__forgot">Pamiršote slaptažodį?</string>
+    <string name="phone_sign_in">Telefonas</string>
+    <string name="email_sign_in">El. paštas</string>
+    <string name="edit_email">Keisti el. pašto adresą</string>
+    <string name="hello">Sveiki, &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="sign_in">Prisijungti</string>
+    <string name="new_reg__password_length">BENT %1$s SIMBOLIAI</string>
+    <string name="username__set__toast_error">Įvyko klaida keičiant naudotojo vardą</string>
+    <!-- Giphy -->
+    <string name="giphy_preview__search_hint">Ieškoti „Giphy“</string>
+    <string name="giphy_preview__error">GIF FAILŲ NERASTA.</string>
+    <string name="giphy_preview__message_via_random_trending">Iš giphy.com</string>
+    <string name="giphy_preview__message_via_search">%s · iš giphy.com</string>
+    <string name="service_giphy_name">Giphy</string>
+    <!--Sketch-->
+    <string name="drawing__tip__picture__message">BAKSTELĖJĘ SPALVĄ GALĖSITE PAKEISTI TEPTUKO DYDĮ.\n\nPAKRATĘ PAŠALINSITE NUOTRAUKAS.</string>
+    <string name="drawing__tip__message">BAKSTELĖJĘ SPALVĄ GALĖSITE PAKEISTI TEPTUKO DYDĮ.\n\nPASPAUDĘ IR PALAIKĘ UŽPILDYSITE PLOTĄ.</string>
+    <string name="sketch__emoji_keyboard__size_label__small">MAŽAS</string>
+    <string name="sketch__emoji_keyboard__size_label__medium">VIDUTINIS</string>
+    <string name="sketch__emoji_keyboard__size_label__large">DIDELIS</string>
+    <string name="toolbar__sketch__action_close">Užverti</string>
+    <string name="drawing__text_hint">RAŠYKITE PRANEŠIMĄ</string>
+    <!-- Location sharing -->
+    <string name="location_sharing__tip">Vilkdami žemėlapį pakeisite vietą</string>
+    <string name="location_sharing__permission_error">Nepavyko gauti dabartinės vietos, nesuteikta teisė</string>
+    <string name="location_sharing__send_button">SIŲSTI</string>
+    <string name="location_sharing__enable_system_location__title">Naudoti vietos informaciją?</string>
+    <string name="location_sharing__enable_system_location__message">Aktyvuokite vietos aptikimą nustatymuose, kad būtų galima parodyti dabartinę vietą</string>
+    <string name="location_sharing__enable_system_location__confirm">Nustatymai</string>
+    <string name="location_sharing__enable_system_location__cancel">Atsisakyti</string>
+    <string name="location_sharing__missing_play_services">„Google Play Services“ yra būtinas norint dalintis savo buvimo vieta</string>
+    <!-- From SyncEngine -->
+    <string name="new_reg__phone_signup__create_account">Sukurti paskyrą</string>
+    <!-- OTR -->
+    <string name="otr__remove_device__title">Pašalinti %1$s</string>
+    <string name="otr__remove_device__message">Įrašykite slaptažodį</string>
+    <string name="otr__remove_device__default">įrenginys</string>
+    <string name="otr__remove_device__button_delete">GERAI</string>
+    <string name="otr__remove_device__button_cancel">Atsisakyti</string>
+    <string name="otr__remove_device__error">Neteisingas slaptažodis</string>
+    <string name="otr__error_dialog__cannot_register__message">Norėdami naudotis „Wire“ šiame įrenginyje, pašalinkite vieną iš savo įrenginių.</string>
+    <string name="otr__error_dialog__cannot_register__manage_devices_button">Tvarkyti įrenginius</string>
+    <string name="otr__error_dialog__cannot_register__log_out_button">Atsijungti</string>
+    <!-- OTR Participants -->
+    <string name="otr__participant__device_header">„Wire“ suteikia kiekvienam įrenginiui unikalų kontrolinį kodą. Palyginkite jį su %1$s ir patvirtinkite savo susirašinėjimą.</string>
+    <string name="otr__participant__device_header__no_devices">%1$s naudoja seną „Wire“ versiją. Čia nerodomi jokie įrenginiai.</string>
+    <string name="otr__participant__device_header__link_text">_Kam patvirtinti susirašinėjimą?_</string>
+    <string name="otr__participant__device_class__unknown">Nežinoma</string>
+    <string name="otr__participant__device_class__phone">Telefonas</string>
+    <string name="otr__participant__device_class__tablet">Planšetinis kompiuteris</string>
+    <string name="otr__participant__device_class__desktop">Stalinis kompiuteris</string>
+    <string name="otr__participant__tab_details">Išsamiau</string>
+    <string name="otr__participant__tab_devices">Įrenginiai</string>
+    <string name="otr__participant__single_device__my_fingerprint_link">Rodyti mano įrenginio kontrolinį kodą</string>
+    <string name="otr__participant__single_device__reset_session_link">Atstatyti seansą</string>
+    <string name="otr__participant__my_device__description">Jūsų įrenginio kontrolinis kodas</string>
+    <string name="otr__participant__my_device__show_all_devices_link">Rodyti visus mano įrenginius</string>
+    <string name="otr__participant__single_device__description">Įsitikinkite, kad šis kontrolinis kodas yra toks pats, kaip ir įrenginyje, kurį naudoja %1$s.</string>
+    <string name="otr__participant__single_device__how_to_link">_Kaip tai padaryti?_</string>
+    <string name="otr__device_id">ID: %s</string>
+    <string name="otr__first_launch__header">Pirmą kartą naudojate „Wire“ šiame įrenginyje.</string>
+    <string name="otr__first_launch__sub_header">Privatumo sumetimais, jūsų pokalbio istorija čia nebus rodoma.</string>
+    <string name="otr__first_launch__button">GERAI</string>
+    <string name="otr__signin__info_text">Prisijungti</string>
+    <string name="otr__reset_session__message_ok">Sesija buvo sukurta iš naujo</string>
+    <string name="otr__reset_session__message_fail">Nepavyko atstatyti seanso</string>
+    <string name="otr__reset_session__button_ok">GERAI</string>
+    <string name="otr__reset_session__button_fail">Bandyti dar kartą</string>
+    <string name="advanced_image_download_wifi_info">Paveikslėlis atsiras kai vėl būsite prisijungę „Wi-Fi“ ryšiu</string>
+    <string name="change_settings">Keisti nustatymus</string>
+    <string name="conversation_list__action_join_call">JUNGTIS</string>
+    <!-- Conversation Toolbar -->
+    <string name="conversation_toolbar__collection">Rinkinys</string>
+    <string name="conversation_toolbar__call_video">Vaizdo skambutis</string>
+    <string name="conversation_toolbar__call_audio">Garso skambutis</string>
+    <!-- Asset upload errors -->
+    <string name="asset_upload_error__not_found__title">Failas nerastas</string>
+    <string name="asset_upload_error__not_found__message">Nepavyksta gauti nurodyto failo</string>
+    <string name="asset_upload_error__not_found__button">GERAI</string>
+    <string name="asset_upload_error__file_too_large__title">Failas per didelis</string>
+    <string name="asset_upload_error__file_too_large__message_default">Didelių failų įkėlimas nepalaikomas.</string>
+    <string name="asset_upload_error__file_too_large__message">Siunčiamų failų dydis negali viršyti %1$s.</string>
+    <string name="asset_upload_error__file_too_large__button">GERAI</string>
+    <string name="asset_upload_warning__large_file__title">Nėra „Wi-Fi“ ryšio</string>
+    <string name="asset_upload_warning__large_file__message_default">Didelis failas bus siunčiamas mobiliuoju ryšiu. Tęsti?</string>
+    <string name="asset_upload_warning__large_file__message">Failas %1$s bus siunčiamas mobiliuoju ryšiu. Tęsti?</string>
+    <!-- Video message errors -->
+    <string name="audio_message_error__missing_audio_permissions">Norint siųsti garso žinutes, turi būti suteikta teisė įrašyti garsą.</string>
+    <!-- Audio bit rate mode -->
+    <string name="audio_message__constant_bit_rate">KODAVIMAS PASTOVIA SPARTA</string>
+    <!-- no contacts -->
+    <string name="no_conversation_in_list__header">Kol kas nėra pokalbių</string>
+    <string name="all_archived__header">Viskas užarchyvuota</string>
+    <string name="no_conversation_in_list__message">Pradėkite susirašinėjimą arba sukurkite grupę.</string>
+    <string name="cursor__type_a_message">RAŠYKITE PRANEŠIMĄ</string>
+    <string name="cursor__ephemeral_message">IŠNYKSTANTI ŽINUTĖ</string>
+    <string name="tooltip_record">Padaryti vaizdo įrašą</string>
+    <string name="tooltip_camera">Pridėti nuotrauką</string>
+    <string name="tooltip_sketch">Nupiešti paveikslėlį</string>
+    <string name="tooltip_ping">Skambtelėjimas</string>
+    <string name="tooltip_emoji">Jaustukas</string>
+    <string name="tooltip_location">Vieta</string>
+    <string name="tooltip_more">Daugiau veiksmų</string>
+    <string name="tooltip_audio_message">Bakstelėkite ir laikykite garso žinutės siuntimui</string>
+    <string name="tooltip_file">Siųsti failą</string>
+    <string name="tooltip_gif">Gif</string>
+    <string name="tooltip_mention">Add Mention</string>
+    <!-- Delete -->
+    <string name="conversation__message_action__delete_for_me">Ištrinti tik man?</string>
+    <string name="conversation__message_action__delete_for_everyone">Ištrinti visiems?</string>
+    <string name="conversation__message_action__delete_details">To negalima bus atšaukti.</string>
+    <string name="conversation__message_action__delete__dialog__cancel">Atsisakyti</string>
+    <string name="conversation__message_action__delete__dialog__ok">Ištrinti</string>
+    <string name="conversation__message_action__delete__confirmation">Žinutė ištrinta</string>
+    <string name="conversation__action_mode__copy__description">%1$s parašė žinutę</string>
+    <string name="conversation__action_mode__copy__toast">Nukopijuota</string>
+    <string name="conversation__action_mode__fwd__dialog__title">Ruošiamas turinys</string>
+    <string name="conversation__action_mode__fwd__dialog__message">Palaukite&#8230;</string>
+    <string name="conversation__action_mode__fwd__chooser__title">Pasidalinti su</string>
+    <!-- video message preview -->
+    <string name="audio_message__recording__slide_control__slide_hint">PERBRAUKĘ Į VIRŠŲ IŠSIŲSITE</string>
+    <string name="audio_message__recording__slide_control__tap_hint">BAKSTELĖJĘ IŠSIŲSITE</string>
+    <string name="audio_message__recording__tap_to_record">Bakstelėję įrašysite žinutę\npo to galėsite _GLYPH_</string>
+    <string name="audio_message__recording__failure__title">Nepavyko įrašyti garso</string>
+    <string name="audio_message__recording__failure__message">Bandykite dar kartą.</string>
+    <string name="audio_message__recording__limit_reached__title">Įrašymas sustabdytas</string>
+    <string name="audio_message__recording__limit_reached__message">Garso žinutės ribojamos iki 25MB. Siųsti žinutę?</string>
+    <string name="audio_message__recording__limit_reached__confirmation">SIŲSTI</string>
+    <string name="hint_change_filter">Pasirinkite filtrą aukščiau</string>
+    <string name="message_bottom_menu_action_forward">Bendrinti</string>
+    <string name="message_bottom_menu_action_copy">Kopijuoti</string>
+    <string name="message_bottom_menu_action_edit">Taisa</string>
+    <string name="message_bottom_menu_action_like">Patinka</string>
+    <string name="message_bottom_menu_action_unlike">Nebepatinka</string>
+    <string name="message_bottom_menu_action_save">Įrašyti</string>
+    <string name="message_bottom_menu_action_open">Atverti</string>
+    <string name="message_bottom_menu_action_delete">Ištrinti</string>
+    <string name="message_bottom_menu_action_delete_local">Ištrinti man</string>
+    <string name="message_bottom_menu_action_delete_global">Ištrinti visiems</string>
+    <string name="message_bottom_menu_action_reveal">Rodyti susirašinėjime</string>
+    <string name="message_bottom_menu_action_reply">Atsakyti</string>
+    <string name="likes_list__header">Patinka</string>
+    <string name="message_bottom_menu_action_save_ok">Paveikslėlis išsaugotas</string>
+    <string name="message_footer__tap_to_like">Bakstelėję pažymėsite, kad patinka</string>
+    <plurals name="message_footer__number_of_likes">
+        <item quantity="one">%1$d žmogus</item>
+        <item quantity="few">%1$d žmonės</item>
+        <item quantity="many">%1$d žmogus</item>
+        <item quantity="other">%1$d žmonių</item>
+    </plurals>
+    <string name="message_footer__status__sending">Siunčiama&#8230;</string>
+    <string name="message_footer__status__sent">%1$s \u30FB išsiųsta</string>
+    <string name="message_footer__status__delivered">%1$s \u30FB pristatyta</string>
+    <string name="message_footer__status__failed">Išsiųsti nepavyko. _Siųsti dar kartą_</string>
+    <string name="message_footer__status__deleted">%1$s \u30FB Ištrinta</string>
+    <string name="ephemeral_message__timeout_selection_info">NUSTATYKITE PO KIEK LAIKO PRANEŠIMAS IŠNYKS</string>
+    <string name="usernames__take_over__summary">Gaukite savo unikalų vardą „Wire“ platformoje. _Sužinokite daugiau._</string>
+    <string name="usernames__take_over__choose">PASIRINITE SAVO</string>
+    <string name="usernames__take_over__keep">NAUDOTI ŠĮ</string>
+    <string name="ephemeral_message__timeout__off">Išjungta</string>
+    <string name="ephemeral_message__options_header">LAIKINOS ŽINUTĖS</string>
+    <string name="guests_option_on">Įjungta</string>
+    <plurals name="unit_years">
+        <item quantity="one">%1$s metai</item>
+        <item quantity="few">%1$s metai</item>
+        <item quantity="many">%1$s metų</item>
+        <item quantity="other">%1$s metų</item>
+    </plurals>
+    <plurals name="unit_weeks">
+        <item quantity="one">%1$s savaitė</item>
+        <item quantity="few">%1$s savaitės</item>
+        <item quantity="many">%1$s savaitės</item>
+        <item quantity="other">%1$s savaičių</item>
+    </plurals>
+    <plurals name="unit_days">
+        <item quantity="one">%1$s diena</item>
+        <item quantity="few">%1$s dienos</item>
+        <item quantity="many">%1$s dienos</item>
+        <item quantity="other">%1$s dienų</item>
+    </plurals>
+    <plurals name="unit_hours">
+        <item quantity="one">%1$s valanda</item>
+        <item quantity="few">%1$s valandos</item>
+        <item quantity="many">%1$s valandos</item>
+        <item quantity="other">%1$s valandų</item>
+    </plurals>
+    <plurals name="unit_minutes">
+        <item quantity="one">%1$s minutė</item>
+        <item quantity="few">%1$s minutės</item>
+        <item quantity="many">%1$s minutės</item>
+        <item quantity="other">%1$s minučių</item>
+    </plurals>
+    <plurals name="unit_seconds">
+        <item quantity="one">%1$s sekundė</item>
+        <item quantity="few">%1$s sekundės</item>
+        <item quantity="many">%1$s sekundės</item>
+        <item quantity="other">%1$s sekundžių</item>
+    </plurals>
+    <string name="ephemeral_message_footer_multiple_units">Liko %1$s ir %2$s</string>
+    <string name="ephemeral_message_footer_single_unit">Liko %1$s</string>
+    <string name="collection_header_pictures">PAVEIKSLĖLIAI</string>
+    <string name="collection_header_files">FAILAI</string>
+    <string name="collection_header_links">NUORODOS</string>
+    <string name="collection_header_today">ŠIANDIEN</string>
+    <string name="collection_header_yesterday">VAKAR</string>
+    <string name="collection_empty">RINKINYJE NIEKO NĖRA</string>
+    <string name="collection_all">Rodyti visus %1$s</string>
+    <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+    <string name="multi_share_search_hint">SIŲSTI&#8230;</string>
+    <string name="search__box__hint_text">IEŠKOTI ŽINUČIŲ TEKSTE</string>
+    <string name="search__no_results">Rezultatų nėra.</string>
+    <!-- Conversation List -->
+    <plurals name="conversation_list__new_message_count">
+        <item quantity="one">%1$s message</item>
+        <item quantity="few">%1$s messages</item>
+        <item quantity="many">%1$s messages</item>
+        <item quantity="other">%1$s messages</item>
+    </plurals>
+    <plurals name="conversation_list__pings_count">
+        <item quantity="one">%1$s skambtelėjimas</item>
+        <item quantity="few">%1$s skambtelėjimai</item>
+        <item quantity="many">%1$s skambtelėjimo</item>
+        <item quantity="other">%1$s skambtelėjimų</item>
+    </plurals>
+    <plurals name="conversation_list__new_likes_count">
+        <item quantity="one">%1$s ♥</item>
+        <item quantity="few">%1$s ♥</item>
+        <item quantity="many">%1$s ♥</item>
+        <item quantity="other">%1$s ♥</item>
+    </plurals>
+    <plurals name="conversation_list__missed_calls_plural">
+        <item quantity="one">%1$s praleistas skambutis</item>
+        <item quantity="few">%1$s praleistas skambutis</item>
+        <item quantity="many">%1$s praleistas skambutis</item>
+        <item quantity="other">%1$s praleistas skambutis</item>
+    </plurals>
+    <string name="conversation_list__missed_calls_count">Praleistas skambutis</string>
+    <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
+    <plurals name="conversation_list__mentions_count">
+        <item quantity="one">%1$s mention</item>
+        <item quantity="few">%1$s mentions</item>
+        <item quantity="many">%1$s mentions</item>
+        <item quantity="other">%1$s mentions</item>
+    </plurals>
+    <plurals name="conversation_list__quotes_count">
+        <item quantity="one">%1$s reply</item>
+        <item quantity="few">%1$s replies</item>
+        <item quantity="many">%1$s replies</item>
+        <item quantity="other">%1$s replies</item>
+    </plurals>
+    <string name="conversation_list__unsent_message_long">⚠ Neišsiųsta žinutė</string>
+    <string name="conversation_list__unsent_message_short">⚠</string>
+    <string name="conversation_list__shared__image">Pasidalino paveikslėliu</string>
+    <string name="conversation_list__shared__file">Pasidalino failu</string>
+    <string name="conversation_list__shared__video">Pasidalino vaizdo įrašu</string>
+    <string name="conversation_list__shared__audio">Pasidalino garso žinute</string>
+    <string name="conversation_list__shared__location">Pasidalino vieta</string>
+    <string name="conversation_list__missed_call">Praleistas skambutis</string>
+    <string name="conversation_list__pinged">Skambtelėjo</string>
+    <string name="conversation_list__ephemeral">Kažkas atsiuntė žinutę</string>
+    <string name="conversation_list__single_eph_and_mention">Jus paminėjo</string>
+    <string name="conversation_list__group_eph_and_mention">Kažkas jus paminėjo</string>
+    <string name="conversation_list__single_eph_and_quote">Replied to you</string>
+    <string name="conversation_list__group_eph_and_quote">Someone replied to you</string>
+    <string name="conversation_list__typing">Rašo žinutę&#8230;</string>
+    <string name="conversation_list__someone">Kažkas</string>
+    <string name="conversation_list__added">[[%1$s]] buvo pridėtas</string>
+    <string name="conversation_list__added_you">[[%1$s]] jus pridėjo</string>
+    <string name="conversation_list__left_you">Jūs išėjote</string>
+    <string name="conversation_list__removed_you">[[%1$s]] jus pašalino</string>
+    <string name="conversation_list__header__title">SUSIRAŠINĖJIMAI</string>
+    <string name="conversation_list__header__archive_title">ARCHYVUOTI</string>
+    <string name="conversation_list__single_with_quote">Reply: %1$s</string>
+    <string name="conversation_list__group_with_quote">Reply from %1$s: %2$s</string>
+    <string name="conversation_list__single_without_quote">%1$s</string>
+    <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
+    <string name="guest_indicator">SVEČIAS</string>
+    <string name="participant_tab_guest_indicator_label">Svečias</string>
+    <string name="availability_none">Jokių</string>
+    <string name="availability_available">Prisijungęs</string>
+    <string name="availability_away">Pasišalinęs</string>
+    <string name="availability_busy">Užsiėmęs</string>
+    <string name="availability_text_available">%1$s YRA PRISIJUNGĘS</string>
+    <string name="availability_text_away">%1$s YRA PASIŠALINĘS</string>
+    <string name="availability_text_busy">%1$s YRA UŽSIĖMĘS</string>
+    <string name="availability_setstatus">NURODYTI BŪSENĄ</string>
+    <string name="preferences_profile_new">Nauja komanda ar paskyra</string>
+    <string name="preferences_profile_add_account">Pridėti paskyrą</string>
+    <string name="preferences_profile_create_team">Sukurti komandą</string>
+    <string name="preferences_profile_in_team">komandoje %1$s</string>
+    <string name="new_devices_dialog_title">Prijungėte įrenginį prie savo „Wire“ paskyros</string>
+    <string name="new_devices_dialog_info">Jeigu jūs to nedarėte, pašalinkite įrenginį ir pasikeiskite slaptažodį.</string>
+    <string name="new_devices_dialog_manage_devices">Tvarkyti įrenginius</string>
+    <string name="teams_set_email_title">Jūsų paskyra</string>
+    <string name="teams_set_email_subtitle">Įrašykite darbo el. pašto adresą.</string>
+    <string name="teams_set_email_hint">TU@TAVOORGANIZACIJA.LT</string>
+    <string name="teams_set_email_about">SUŽINOKITE DAUGIAU</string>
+    <string name="teams_set_password_title">Įrašykite slaptažodį</string>
+    <string name="teams_set_password_hint">BENT 8 SIMBOLIAI</string>
+    <string name="teams_set_username_title">Įrašykite naudotojo vardą</string>
+    <string name="teams_set_username_hint">NAUDOTOJO VARDAS</string>
+    <string name="teams_set_team_name_title">Pavadinkite komandą</string>
+    <string name="teams_set_team_name_subtitle">Bet kada vėliau galėsite pakeisti.</string>
+    <string name="teams_set_team_name_hint">KOMANDOS PAVADINIMAS</string>
+    <string name="teams_set_team_name_about">KAS YRA „WIRE“ KOMANDOMS?</string>
+    <string name="teams_verify_email_title">Gavote el. laišką</string>
+    <string name="teams_verify_email_subtitle">Įrašykite patvirtinimo kodą, kuris buvo išsiųstas į %1$s.</string>
+    <string name="teams_verify_email_resend">SIŲSTI KODĄ DAR KARTĄ</string>
+    <string name="teams_verify_email_change">KEISTI EL. PAŠTO ADRESĄ</string>
+    <string name="teams_set_name_title">Jūsų vardas</string>
+    <string name="teams_set_name_hint">VARDAS PAVARDĖ</string>
+    <string name="app_entry_create_account">Asmeninis</string>
+    <string name="app_entry_create_account_sub">kurti paskyrą</string>
+    <string name="app_entry_create_team">Pro</string>
+    <string name="app_entry_create_team_sub">kurti komandą</string>
+    <string name="app_entry_login_sub">Jau turite paskyrą?</string>
+    <string name="app_entry_login">Prisijungti</string>
+    <string name="app_entry_tc_dialog_title">Paslaugos teikimo sąlygos</string>
+    <string name="app_entry_tc_dialog_message">Norėdami tęsti, privalote sutikti</string>
+    <string name="app_entry_notifications_dialog_title">Pranešimai</string>
+    <string name="app_entry_notifications_dialog_message">Pranešimuose gali būti įspėjimai, garsai ir ženkliukai. Tai galima konfigūruoti nustatymuose.</string>
+    <string name="app_entry_dialog_accept">PRIIMTI</string>
+    <string name="app_entry_dialog_cancel">ATŠAUKTI</string>
+    <string name="app_entry_dialog_log_in">PRISIJUNGTI</string>
+    <string name="app_entry_dialog_no_thanks">NE, DĖKOJU</string>
+    <string name="app_entry_dialog_not_now">NE DABAR</string>
+    <string name="app_entry_dialog_view">RODYTI</string>
+    <string name="app_entry_dialog_privacy_policy">PRIVATUMO POLITIKA</string>
+    <string name="app_entry_email_sent">El. laiškas išsiųstas</string>
+    <string name="teams_set_username_subtitle">Naudotojo vardas padeda žmonėms jus rasti.</string>
+    <string name="app_entry_sso_dialog_title">Įmonės prisijungimas</string>
+    <string name="app_entry_sso_dialog_message">Įrašykite įmonės SSO prieigos kodą.</string>
+    <string name="app_entry_sso_input_hint"></string>
+    <string name="pick_user_teams_invite">Kvieskite žmonių prisijungti prie komandos</string>
+    <string name="teams_invitations_skip">PRALEISTI</string>
+    <string name="teams_invitations_done">BAIGTA</string>
+    <string name="teams_invitations_error_too_many">Didžiausias galimas kvietimų skaičius išsiųstas</string>
+    <string name="teams_invitations_error_already_sent">Jau išsiųsta</string>
+    <string name="teams_invitations_error_generic">Įvyko klaida, bandykite dar kartą</string>
+    <string name="teams_invite_email_hint">KOLEGA@TAVOORGANIZACIJA.LT</string>
+    <string name="teams_invitations_error_invalid_email">ĮRAŠYKITE TINKAMĄ EL. PAŠTO ADRESĄ</string>
+    <string name="teams_invitations_error_email_exists">EL. PAŠTO ADRESAS JAU NAUDOJAMAS</string>
+    <string name="teams_invitations_error_no_internet">NĖRA INTERNETO RYŠIO</string>
+    <string name="invitation_screen_title">Sukurkite savo komandą</string>
+    <string name="invitation_screen_subtitle">Kvieskite kolegas prisijungti.</string>
+    <string name="open_service_conversation_button_text">Atverti pokalbį</string>
+    <string name="remove_service_button_text">Pašalinti paslaugą</string>
+    <string name="integrations_create_conversation">Kurti naują susirašinėjimą</string>
+    <string name="no_matches_found">Atitikmenų nerasta</string>
+    <string name="loading_services">Įkeliamos tarnybos&#8230;</string>
+    <string name="empty_services_list">Tarnybos yra pagalbininkai, kurie padeda pagerinti darbo eigą. Norėdami jomis naudotis, prašykite savo administratoriaus.</string>
+    <string name="empty_services_list_admin">Tarnybos yra pagalbininkai, kurie padeda pagerinti darbo eigą.</string>
+    <string name="create_group_conversation">Sukurti grupę</string>
+    <string name="create_guest_room_conversation">Kurti kambarį svečiams</string>
+    <string name="manage_services">Valdyti tarnybas</string>
+    <string name="next_button">KITAS</string>
+    <string name="skip_button">PRALEISTI</string>
+    <string name="done_button">BAIGTA</string>
+    <string name="new_group_header">SUKURTI GRUPĘ</string>
+    <string name="add_participants_empty_header">PRIDĖTI PAŠNEKOVŲ</string>
+    <string name="add_participants_count_header">PRIDĖTI PAŠNEKOVŲ (%1$s)</string>
+    <string name="new_conv_no_results">Rezultatų nėra</string>
+    <string name="new_conv_no_contacts">Kontaktų nėra</string>
+    <string name="participants_divider_services">PASLAUGOS (%1$s)</string>
+    <string name="participants_divider_people">ŽMONĖS (%1$s)</string>
+    <string name="group_name_hint">GRUPĖS PAVADINIMAS</string>
+    <string name="allow_guests_toggle_text">Leisti svečius ir tarnybas</string>
+    <string name="allow_guests_toggle_info_text">Atverkite šį susirašinėjimą paslaugoms ir žmonėms, kurie nėra jūsų komandoje. Vėliau bet kada galėsite tai pakeisti.</string>
+    <string name="open_this_conversation_to_people_outside_your_team">Leiskite šį susirašinėjimą matyti tarnyboms ir žmonėms, kurie nėra jūsų komandoje.</string>
+    <string name="allow_guests">Leisti svečius ir tarnybas</string>
+    <string name="guest_options_title">Svečiai ir tarnybos</string>
+    <string name="ephemeral_options_title">Laikinos žinutės</string>
+    <string name="notifications_options_title">Pranešimai</string>
+    <string name="ephemeral_explanation_text">Laikinos žinutės bus įjungtos visiems šio pokalbio dalyviams</string>
+    <string name="notifications_explanation_text">Jums bus pranešta apie viską (įskaitant garso ir vaizdo skambučius) arba tik tada kai esate paminėta (-s).</string>
+    <string name="show_all_participants">Rodyti visus (%1$s)</string>
+    <string name="allow_guests_error_title">Kažkas nutiko</string>
+    <string name="allow_guests_error_body">Nepavyko leisti svečių ar tarnybų. Pabandykite dar kartą.</string>
+    <string name="allow_guests_warning_body">Dabar esantys svečiai ir tarnybos bus pašalintos iš šio susirašinėjimo. Nauji svečiai ir tarnybos negalės prisijungti.</string>
+    <string name="allow_guests_warning_confirm">Šalinti</string>
+    <string name="guests_are_present">YRA SVEČIŲ</string>
+    <string name="services_are_present">TARNYBOS ĮJUNGTOS</string>
+    <string name="guests_and_services_are_present">YRA SVEČIŲ IR TARNYBŲ</string>
+    <string name="participants_details_header_title">IŠSAMIAU</string>
+    <string name="invitation_link_description">Bet kas turintis nuorodą gali prisijungti prie susirašinėjimo, net jei neturi „Wire“</string>
+    <string name="create_link_button">Kurti nuorodą</string>
+    <string name="copy_link_button">Kopijuoti nuorodą</string>
+    <string name="share_link_button">Bendrinti nuorodą</string>
+    <string name="revoke_link_button">Atšaukti nuorodą&#8230;</string>
+    <string name="invitation_link_title">KVIESTI KITUS SU NUORODA</string>
+    <string name="link_copied_toast">Nuoroda nukopijuota!</string>
+    <string name="revoke_link_message">Nauji svečiai negalės prisijungti spustelėję nuorodą. Dabartiniai svečiai liks prisijungę.</string>
+    <string name="revoke_link_confirm">Atšaukti nuorodą</string>
+    <string name="invite_button_description">Žmonės nesantys jūsų komandoje gali prisijungti prie susirašinėjimo.</string>
+    <string name="invite_people">Pakviesti žmones</string>
+    <string name="guest_room_name">Svečių kambarys</string>
+    <string name="guest_time_left_hours">Liko %1$s val.</string>
+    <string name="guest_time_left_hours_minutes">Liko %1$s val. %2$s min.</string>
+    <string name="guest_time_left_minutes">Liko mažiau nei %1$s min.</string>
+    <string name="backup_description">Kurkite atsarginę kopiją, kad išsaugotumėte susirašinėjimo praeitį. Jei prarasite savo įrenginį arba pasikeisite nauju, tai galėsite panaudoti praeitis atstatymui.
         \nAtsarginės kopijos failas nėra apsaugotas „Wire“ kodavimo, dėl to jūs turite parinkti jam saugią vietą.</string>
-  <string name="pref_account_backup_title">Kurti susirašinėjimų atsarginę kopiją</string>
-  <string name="add_email_address">Pridėkite savo el. pašto adresą</string>
-  <string name="set_a_password">Nustatykite slaptažodį</string>
-  <string name="email_and_password_explanation">Norėdami naudotis „Wire“ keliuose įrenginiuose, privalote pridėti el. pašto adresą ir slaptažodį.</string>
-  <string name="new_device_password">Naujas įrenginys</string>
-  <string name="new_device_password_explanation">Įrašykite „Wire“ paskyros slaptažodį.\n%1$s</string>
-  <string name="restore_from_backup_button">ATSTATYTI IŠ ATSARGINĖS KOPIJOS</string>
-  <string name="second_launch__header">Naudojote „Wire“ šiame įrenginyje.</string>
-  <string name="second_launch__sub_header">Jei praėjo daug laiko, kai kurios žinutės čia gali neatsirasti.</string>
-  <string name="restore_override_alert_title">Atkurti praeitį</string>
-  <string name="restore_override_alert_text">Atsarginės kopijos turinys pakeis susirašinėjimo praeitį šiame įrenginyje. Atkurti atsarginėje kopijoje esančią praeitį galite tik toje pačioje platformoje, kur jis ir buvo sukurtas.</string>
-  <string name="restore_override_alert_ok">Pasirinkite atsarginės kopijos failą</string>
-  <string name="back_up_progress">KURIAMA ATSARGINĖ KOPIJA&#8230;</string>
-  <string name="back_up_progress_complete">BAIGTA</string>
-  <string name="restore_progress">ATKURIAMA&#8230;</string>
-  <string name="pref_account_backup_warning_title">Nustatykite el. pašto adresą ir slaptažodį.</string>
-  <string name="pref_account_backup_warning_message">Norėdami sukurti susirašinėjimo praeitis atsarginę kopiją, jums būtina naudoti el. pašto adresą ir slaptažodį. Sukurti galite paskyros puslapyje Nustatymuose.</string>
-  <string name="pref_account_backup_warning_ok">GERAI</string>
-  <string name="export_generic_error_title">Failo išsaugoti nepavyko</string>
-  <string name="export_generic_error_text">Neturite pakankamai vietos arba teisių failą išsaugoti ten.</string>
-  <string name="backup_button">Kurti atsarginę kopiją dabar</string>
-  <string name="backup_import_error_unknown_title">Kažkas nutiko</string>
-  <string name="backup_import_error_unknown">Praeities atkurti nepavyko.</string>
-  <string name="backup_import_error_unsupported_version_title">Nesuderinama atsarginė kopija</string>
-  <string name="backup_import_error_unsupported_version">Ši atsarginė kopija buvo sukurta naudojant arba naujesnę arba senesnę „Wire“ versiją, ir negali būti naudojama atkūrimui.</string>
-  <string name="backup_import_error_wrong_account_title">Netinkama atsarginė kopija</string>
-  <string name="backup_import_error_wrong_account">Atkurti kitos paskyros atsarginės kopijos nepavyks.</string>
-  <string name="video_paused">Vaizdas pristabdytas</string>
-  <string name="calling_degraded_title">Naujas įrenginys</string>
-  <string name="call_info_text">Prie pokalbio gali prisijungti iki 300 pašnekovų. Vaizdo skambučiai veikia grupėse iki 3 pašnekovų ir jumis.</string>
-  <string name="markdown_link_dialog_title">Atverti nuorodą</string>
-  <string name="markdown_link_dialog_message">Nueisite į\n%1$s</string>
-  <string name="markdown_link_dialog_confirmation">GERAI</string>
-  <string name="markdown_link_dialog_cancel">ATŠAUKTI</string>
-  <string name="max_participants_alert_title">Grupė pilna</string>
-  <string name="max_participants_create_alert_message">Susirašinėjime gali būti iki 300 pašnekovų.</string>
-  <string name="max_participants_add_alert_message">Susirašinėjime gali būti iki 300 pašnekovų. Šiuo metu dar gali prisijungti %1$s.</string>
-  <string name="sso_signin_button">Įmonės prisijungimas</string>
-  <string name="sso_signin_error_title">Kažkas nutiko</string>
-  <string name="sso_signin_error_message">Papildomai informacijai susisiekite su savo komandos administratoriumi (klaida %1$s).</string>
-  <string name="sso_signin_error_try_again_message">Bandykite dar kartą vėliau (klaida %1$s).</string>
-  <string name="sso_signin_wrong_code_title">Netaisyklingas kodas</string>
-  <string name="sso_signin_wrong_code_message">Įsitikinkite, kad jūsų įmonės SSO prieigos kodas be klaidos, ir bandykite dar kartą.</string>
-  <string name="participant_search_hint">IEŠKOTI VARDŲ</string>
-  <string name="participant_search_title">ŽMONĖS</string>
-  <string name="generic_service_warning">Tarnybos turi galimybę matyti šio susirašinėjimo turinį</string>
-  <string name="add_services_button_text">Valdyti tarnybas</string>
-  <string name="wire_notification_name">Wire Notification</string>
-  <string name="wire_ping_name">„Wire“ skambtelėjimas</string>
+    <string name="pref_account_backup_title">Kurti susirašinėjimų atsarginę kopiją</string>
+    <string name="add_email_address">Pridėkite savo el. pašto adresą</string>
+    <string name="set_a_password">Nustatykite slaptažodį</string>
+    <string name="email_and_password_explanation">Norėdami naudotis „Wire“ keliuose įrenginiuose, privalote pridėti el. pašto adresą ir slaptažodį.</string>
+    <string name="new_device_password">Naujas įrenginys</string>
+    <string name="new_device_password_explanation">Įrašykite „Wire“ paskyros slaptažodį.\n%1$s</string>
+    <string name="restore_from_backup_button">ATSTATYTI IŠ ATSARGINĖS KOPIJOS</string>
+    <string name="second_launch__header">Naudojote „Wire“ šiame įrenginyje.</string>
+    <string name="second_launch__sub_header">Jei praėjo daug laiko, kai kurios žinutės čia gali neatsirasti.</string>
+    <string name="restore_override_alert_title">Atkurti praeitį</string>
+    <string name="restore_override_alert_text">Atsarginės kopijos turinys pakeis susirašinėjimo praeitį šiame įrenginyje. Atkurti atsarginėje kopijoje esančią praeitį galite tik toje pačioje platformoje, kur jis ir buvo sukurtas.</string>
+    <string name="restore_override_alert_ok">Pasirinkite atsarginės kopijos failą</string>
+    <string name="back_up_progress">KURIAMA ATSARGINĖ KOPIJA&#8230;</string>
+    <string name="back_up_progress_complete">BAIGTA</string>
+    <string name="restore_progress">ATKURIAMA&#8230;</string>
+    <string name="pref_account_backup_warning_title">Nustatykite el. pašto adresą ir slaptažodį.</string>
+    <string name="pref_account_backup_warning_message">Norėdami sukurti susirašinėjimo praeitis atsarginę kopiją, jums būtina naudoti el. pašto adresą ir slaptažodį. Sukurti galite paskyros puslapyje Nustatymuose.</string>
+    <string name="pref_account_backup_warning_ok">GERAI</string>
+    <string name="export_generic_error_title">Failo išsaugoti nepavyko</string>
+    <string name="export_generic_error_text">Neturite pakankamai vietos arba teisių failą išsaugoti ten.</string>
+    <string name="backup_button">Kurti atsarginę kopiją dabar</string>
+    <string name="backup_import_error_unknown_title">Kažkas nutiko</string>
+    <string name="backup_import_error_unknown">Praeities atkurti nepavyko.</string>
+    <string name="backup_import_error_unsupported_version_title">Nesuderinama atsarginė kopija</string>
+    <string name="backup_import_error_unsupported_version">Ši atsarginė kopija buvo sukurta naudojant arba naujesnę arba senesnę „Wire“ versiją, ir negali būti naudojama atkūrimui.</string>
+    <string name="backup_import_error_wrong_account_title">Netinkama atsarginė kopija</string>
+    <string name="backup_import_error_wrong_account">Atkurti kitos paskyros atsarginės kopijos nepavyks.</string>
+    <string name="video_paused">Vaizdas pristabdytas</string>
+    <string name="calling_degraded_title">Naujas įrenginys</string>
+    <string name="call_info_text">Prie pokalbio gali prisijungti iki 300 pašnekovų. Vaizdo skambučiai veikia grupėse iki 3 pašnekovų ir jumis.</string>
+    <string name="markdown_link_dialog_title">Atverti nuorodą</string>
+    <string name="markdown_link_dialog_message">Nueisite į\n%1$s</string>
+    <string name="markdown_link_dialog_confirmation">GERAI</string>
+    <string name="markdown_link_dialog_cancel">ATŠAUKTI</string>
+    <string name="max_participants_alert_title">Grupė pilna</string>
+    <string name="max_participants_create_alert_message">Susirašinėjime gali būti iki 300 pašnekovų.</string>
+    <string name="max_participants_add_alert_message">Susirašinėjime gali būti iki 300 pašnekovų. Šiuo metu dar gali prisijungti %1$s.</string>
+    <string name="sso_signin_button">Įmonės prisijungimas</string>
+    <string name="sso_signin_error_title">Kažkas nutiko</string>
+    <string name="sso_signin_error_message">Papildomai informacijai susisiekite su savo komandos administratoriumi (klaida %1$s).</string>
+    <string name="sso_signin_error_try_again_message">Bandykite dar kartą vėliau (klaida %1$s).</string>
+    <string name="sso_signin_wrong_code_title">Netaisyklingas kodas</string>
+    <string name="sso_signin_wrong_code_message">Įsitikinkite, kad jūsų įmonės SSO prieigos kodas be klaidos, ir bandykite dar kartą.</string>
+    <string name="participant_search_hint">IEŠKOTI VARDŲ</string>
+    <string name="participant_search_title">ŽMONĖS</string>
+    <string name="generic_service_warning">Tarnybos turi galimybę matyti šio susirašinėjimo turinį</string>
+    <string name="add_services_button_text">Valdyti tarnybas</string>
+    <string name="wire_notification_name">Wire Notification</string>
+    <string name="wire_ping_name">„Wire“ skambtelėjimas</string>
+    <string name="reply_self_name">Jūs</string>
+    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_video">VAIZDAS</string>
+    <string name="reply_message_type_audio">AUDIO MESSAGE</string>
+    <string name="reply_message_type_location">LOCATION</string>
+    <string name="reply_message_type_asset">ATTACHMENT</string>
+    <string name="reply_message_type_unknown">You cannot see this message.</string>
+    <string name="quote_timestamp_message">Original message from %s</string>
 </resources>

@@ -219,7 +219,7 @@
     <string name="conversation__action__delete_and_leave">\tУдалить контент и покинуть</string>
     <string name="conversation__action__delete_only">\tУдалить контент</string>
     <string name="conversation__action__notifications_everything">Все</string>
-    <string name="conversation__action__notifications_mentions_only">Только упоминания</string>
+    <string name="conversation__action__notifications_mentions_and_replies">Упоминания и ответы</string>
     <string name="conversation__action__notifications_nothing">Ничего</string>
     <string name="conversation__action__notifications_title">Уведомлять меня о:</string>
     <!-- Conversation: Profile Popover -->
@@ -515,6 +515,9 @@
     <string name="notification__message__group__prefix__text">%1$s в %2$s: \u0020</string>
     <string name="notification__message_with_mention__name__prefix__text">Упоминание от %1$s: \u0020</string>
     <string name="notification__message_with_mention__group__prefix__text">Упоминание от %1$s в %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text_one2one">Ответ: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">Ответ от %1$s: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">Ответ от %1$s в %2$s: \u0020</string>
     <string name="notification__message__one_to_one__wanted_to_talk">Звонил(а)</string>
     <string name="notification__message__one_to_one__pinged">Отправил(а) пинг</string>
     <string name="notification__message__one_to_one__shared_picture">Поделился(лась) картинкой</string>
@@ -532,6 +535,7 @@
     <string name="notification__message__send_failed">Не удалось отправить сообщение</string>
     <string name="notification__message__ephemeral">Отправил(а) сообщение</string>
     <string name="notification__message_with_mention__ephemeral">Вас упомянули</string>
+    <string name="notification__message_with_quote__ephemeral">Ответил(а) вам</string>
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">\u2764 ваше сообщение</string>
     <string name="notification__message__liked_picture">\u2764 ваше изображение</string>
@@ -783,6 +787,7 @@
     <string name="message_bottom_menu_action_delete_local">Удалить у меня</string>
     <string name="message_bottom_menu_action_delete_global">Удалить у всех</string>
     <string name="message_bottom_menu_action_reveal">Показать в разговоре</string>
+    <string name="message_bottom_menu_action_reply">Ответить</string>
     <string name="likes_list__header">Понравилось</string>
     <string name="message_bottom_menu_action_save_ok">Изображение сохранено</string>
     <string name="message_footer__tap_to_like">Нажмите, чтобы лайкнуть</string>
@@ -886,6 +891,12 @@
         <item quantity="many">%1$s упоминаний</item>
         <item quantity="other">%1$s упоминаний</item>
     </plurals>
+    <plurals name="conversation_list__quotes_count">
+        <item quantity="one">%1$s ответ</item>
+        <item quantity="few">%1$s ответа</item>
+        <item quantity="many">%1$s ответов</item>
+        <item quantity="other">%1$s ответов</item>
+    </plurals>
     <string name="conversation_list__unsent_message_long">⚠ Неотправленное сообщение</string>
     <string name="conversation_list__unsent_message_short">⚠</string>
     <string name="conversation_list__shared__image">Поделился(лась) изображением</string>
@@ -898,6 +909,8 @@
     <string name="conversation_list__ephemeral">Кто-то прислал сообщение</string>
     <string name="conversation_list__single_eph_and_mention">Вас упомянули</string>
     <string name="conversation_list__group_eph_and_mention">Кто-то упомянул вас</string>
+    <string name="conversation_list__single_eph_and_quote">Ответил(а) вам</string>
+    <string name="conversation_list__group_eph_and_quote">Вам ответили</string>
     <string name="conversation_list__typing">Набирает сообщение&#8230;</string>
     <string name="conversation_list__someone">Кто-то</string>
     <string name="conversation_list__added">[[%1$s]] был добавлен</string>
@@ -906,6 +919,10 @@
     <string name="conversation_list__removed_you">[[%1$s]] удалил(а) вас</string>
     <string name="conversation_list__header__title">РАЗГОВОРЫ</string>
     <string name="conversation_list__header__archive_title">АРХИВ</string>
+    <string name="conversation_list__single_with_quote">Ответ: %1$s</string>
+    <string name="conversation_list__group_with_quote">Ответ от %1$s: %2$s</string>
+    <string name="conversation_list__single_without_quote">%1$s</string>
+    <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">ГОСТЬ</string>
     <string name="participant_tab_guest_indicator_label">Гость</string>
     <string name="availability_none">Нет</string>
@@ -949,7 +966,7 @@
     <string name="app_entry_login">Войти</string>
     <string name="app_entry_tc_dialog_title">Условия использования</string>
     <string name="app_entry_tc_dialog_message">Для продолжения необходимо принять</string>
-    <string name="app_entry_notifications_dialog_title">Уведомления</string>
+    <string name="app_entry_notifications_dialog_title">Notifications</string>
     <string name="app_entry_notifications_dialog_message">Уведомления содержать оповещения, звуки и значки. Их можно задать в настройках.</string>
     <string name="app_entry_dialog_accept">ПРИНЯТЬ</string>
     <string name="app_entry_dialog_cancel">ОТМЕНА</string>
@@ -1002,7 +1019,9 @@
     <string name="allow_guests">Разрешить гостей и сервисы</string>
     <string name="guest_options_title">Гости и сервисы</string>
     <string name="ephemeral_options_title">Временные сообщения</string>
+    <string name="notifications_options_title">Уведомления</string>
     <string name="ephemeral_explanation_text">Временные сообщения будут включены для всех участников этого разговора</string>
+    <string name="notifications_explanation_text">Вы можете получать уведомления обо всем (включая аудио- и видеозвонки) или только когда вы были упомянуты.</string>
     <string name="show_all_participants">Показать все (%1$s)</string>
     <string name="allow_guests_error_title">Что-то пошло не так</string>
     <string name="allow_guests_error_body">Не удалось разрешить гостей и сервисы. Попробуйте снова.</string>
@@ -1079,4 +1098,12 @@
     <string name="add_services_button_text">Управление сервисами</string>
     <string name="wire_notification_name">Уведомление Wire</string>
     <string name="wire_ping_name">Пинг Wire</string>
+    <string name="reply_self_name">Вы</string>
+    <string name="reply_message_type_image">ИЗОБРАЖЕНИЕ</string>
+    <string name="reply_message_type_video">ВИДЕО</string>
+    <string name="reply_message_type_audio">АУДИОСООБЩЕНИЕ</string>
+    <string name="reply_message_type_location">МЕСТОПОЛОЖЕНИЕ</string>
+    <string name="reply_message_type_asset">ВЛОЖЕНИЕ</string>
+    <string name="reply_message_type_unknown">Вы не можете увидеть это сообщение.</string>
+    <string name="quote_timestamp_message">Исходное сообщение от %s</string>
 </resources>

@@ -209,7 +209,7 @@
     <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
     <string name="conversation__action__delete_only">\tDelete content</string>
     <string name="conversation__action__notifications_everything">Everything</string>
-    <string name="conversation__action__notifications_mentions_only">Only mentions</string>
+    <string name="conversation__action__notifications_mentions_and_replies">Mentions and Replies</string>
     <string name="conversation__action__notifications_nothing">Nothing</string>
     <string name="conversation__action__notifications_title">Notify me about:</string>
     <!-- Conversation: Profile Popover -->
@@ -495,6 +495,9 @@
     <string name="notification__message__group__prefix__text">%2$s %1$s: \u0020</string>
     <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
     <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text_one2one">Reply: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">Reply from %1$s: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">Reply from %1$s in %2$s: \u0020</string>
     <string name="notification__message__one_to_one__wanted_to_talk">Aradı</string>
     <string name="notification__message__one_to_one__pinged">Seslendi</string>
     <string name="notification__message__one_to_one__shared_picture">Bir resim paylaştı</string>
@@ -512,6 +515,7 @@
     <string name="notification__message__send_failed">Mesaj gönderilemedi</string>
     <string name="notification__message__ephemeral">Sent a message</string>
     <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
+    <string name="notification__message_with_quote__ephemeral">Replied to you</string>
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">Mesajınızı \u2764</string>
     <string name="notification__message__liked_picture">Senin fotoğrafını \u2764</string>
@@ -755,6 +759,7 @@
     <string name="message_bottom_menu_action_delete_local">Benim için sil</string>
     <string name="message_bottom_menu_action_delete_global">Herkesten sil</string>
     <string name="message_bottom_menu_action_reveal">Konuşmada göster</string>
+    <string name="message_bottom_menu_action_reply">Cevapla</string>
     <string name="likes_list__header">Beğenen</string>
     <string name="message_bottom_menu_action_save_ok">Resim kaydedildi</string>
     <string name="message_footer__tap_to_like">Beğenmek için dokunun</string>
@@ -834,6 +839,10 @@
         <item quantity="one">%1$s mention</item>
         <item quantity="other">%1$s mentions</item>
     </plurals>
+    <plurals name="conversation_list__quotes_count">
+        <item quantity="one">%1$s reply</item>
+        <item quantity="other">%1$s replies</item>
+    </plurals>
     <string name="conversation_list__unsent_message_long">⚠ Mesaj gönderilemedi</string>
     <string name="conversation_list__unsent_message_short">⚠</string>
     <string name="conversation_list__shared__image">Bir resim paylaştı</string>
@@ -846,6 +855,8 @@
     <string name="conversation_list__ephemeral">Someone sent a message</string>
     <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
     <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
+    <string name="conversation_list__single_eph_and_quote">Replied to you</string>
+    <string name="conversation_list__group_eph_and_quote">Someone replied to you</string>
     <string name="conversation_list__typing">Bir mesaj yazıyor&#8230;</string>
     <string name="conversation_list__someone">Birisi</string>
     <string name="conversation_list__added">[[%1$s]] eklendi</string>
@@ -854,6 +865,10 @@
     <string name="conversation_list__removed_you">[[%1$s]] seni gruptan çıkardı</string>
     <string name="conversation_list__header__title">KONUŞMALAR</string>
     <string name="conversation_list__header__archive_title">ARŞİV</string>
+    <string name="conversation_list__single_with_quote">Reply: %1$s</string>
+    <string name="conversation_list__group_with_quote">Reply from %1$s: %2$s</string>
+    <string name="conversation_list__single_without_quote">%1$s</string>
+    <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">KONUK</string>
     <string name="participant_tab_guest_indicator_label">Misafir</string>
     <string name="availability_none">Hiçbiri</string>
@@ -950,7 +965,9 @@
     <string name="allow_guests">Allow guests and services</string>
     <string name="guest_options_title">Guests and services</string>
     <string name="ephemeral_options_title">Timed messages</string>
+    <string name="notifications_options_title">Bildirimler</string>
     <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
+    <string name="notifications_explanation_text">You can be notified about everything (including audio and video calls) or only when you are mentioned.</string>
     <string name="show_all_participants">Show all (%1$s)</string>
     <string name="allow_guests_error_title">Bir şeyler yanlış gitti</string>
     <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
@@ -1026,4 +1043,12 @@
     <string name="add_services_button_text">Manage services</string>
     <string name="wire_notification_name">Wire Notification</string>
     <string name="wire_ping_name">Wire Pingi</string>
+    <string name="reply_self_name">Sen</string>
+    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_video">VİDEO</string>
+    <string name="reply_message_type_audio">AUDIO MESSAGE</string>
+    <string name="reply_message_type_location">LOCATION</string>
+    <string name="reply_message_type_asset">ATTACHMENT</string>
+    <string name="reply_message_type_unknown">You cannot see this message.</string>
+    <string name="quote_timestamp_message">Original message from %s</string>
 </resources>

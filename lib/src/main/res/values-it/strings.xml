@@ -209,7 +209,7 @@
     <string name="conversation__action__delete_and_leave">\tElimina il contenuto e lascia</string>
     <string name="conversation__action__delete_only">\tElimina il contenuto</string>
     <string name="conversation__action__notifications_everything">Tutte</string>
-    <string name="conversation__action__notifications_mentions_only">Solo menzioni</string>
+    <string name="conversation__action__notifications_mentions_and_replies">Mentions and Replies</string>
     <string name="conversation__action__notifications_nothing">Nessuna</string>
     <string name="conversation__action__notifications_title">Notificami riguardo:</string>
     <!-- Conversation: Profile Popover -->
@@ -415,7 +415,7 @@
     <string name="pref_advanced_reset_push_completed">Push Token è stata resettata</string>
     <string name="debug_report__title">Report di debug di Wire - %1$s</string>
     <string name="debug_report__body">Descrivi per favore i passaggi necessari per riprodurre il problema, se possibile mandaci uno screenshot e invia questa emaill.\n\n</string>
-    <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+    <string name="pref_advanced_ws_foreground_title">Mantenere la connessione al server</string>
     <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
     <!-- Support -->
@@ -495,6 +495,9 @@
     <string name="notification__message__group__prefix__text">%1$s in %2$s: \u0020</string>
     <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
     <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text_one2one">Risposta: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">Reply from %1$s: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">Reply from %1$s in %2$s: \u0020</string>
     <string name="notification__message__one_to_one__wanted_to_talk">Ha chamato</string>
     <string name="notification__message__one_to_one__pinged">Ha fatto un trillo</string>
     <string name="notification__message__one_to_one__shared_picture">Ha condiviso un\'immagine</string>
@@ -512,6 +515,7 @@
     <string name="notification__message__send_failed">Invio messaggio fallito</string>
     <string name="notification__message__ephemeral">Ha inviato un messaggio</string>
     <string name="notification__message_with_mention__ephemeral">Ti ha menzionato</string>
+    <string name="notification__message_with_quote__ephemeral">Ti ha risposto</string>
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">\u2764 il tuo messaggio</string>
     <string name="notification__message__liked_picture">\u2764 la tua foto</string>
@@ -531,8 +535,8 @@
     <string name="content__system__last_item_separator">e</string>
     <string name="content__system__you">tu</string>
     <plurals name="content__system__other_members">
-        <item quantity="one">%1$s other</item>
-        <item quantity="other">%1$s others</item>
+        <item quantity="one">%1$s altro</item>
+        <item quantity="other">%1$s altri</item>
     </plurals>
     <!-- System notifications -->
     <string name="system_notification__silence_call">Rifiuta</string>
@@ -755,6 +759,7 @@
     <string name="message_bottom_menu_action_delete_local">Elimina per me</string>
     <string name="message_bottom_menu_action_delete_global">Elimina per tutti</string>
     <string name="message_bottom_menu_action_reveal">Mostra nella conversazione</string>
+    <string name="message_bottom_menu_action_reply">Rispondi</string>
     <string name="likes_list__header">Piace a</string>
     <string name="message_bottom_menu_action_save_ok">Immagine salvata</string>
     <string name="message_footer__tap_to_like">Tocca per mettere mi piace</string>
@@ -834,6 +839,10 @@
         <item quantity="one">%1$s mention</item>
         <item quantity="other">%1$s mentions</item>
     </plurals>
+    <plurals name="conversation_list__quotes_count">
+        <item quantity="one">%1$s reply</item>
+        <item quantity="other">%1$s replies</item>
+    </plurals>
     <string name="conversation_list__unsent_message_long">⚠ Messaggio non inviato</string>
     <string name="conversation_list__unsent_message_short">⚠</string>
     <string name="conversation_list__shared__image">Ha condiviso un\'immagine</string>
@@ -846,6 +855,8 @@
     <string name="conversation_list__ephemeral">Qualcuno ha mandato un messaggio</string>
     <string name="conversation_list__single_eph_and_mention">Ti ha menzionato</string>
     <string name="conversation_list__group_eph_and_mention">Qualcuno ti ha menzionato</string>
+    <string name="conversation_list__single_eph_and_quote">Ti ha risposto</string>
+    <string name="conversation_list__group_eph_and_quote">Someone replied to you</string>
     <string name="conversation_list__typing">Scrivendo un messaggio&#8230;</string>
     <string name="conversation_list__someone">Qualcuno</string>
     <string name="conversation_list__added">[[%1$s]] è stato aggiunto</string>
@@ -854,6 +865,10 @@
     <string name="conversation_list__removed_you">[[%1$s]] ti ha rimosso</string>
     <string name="conversation_list__header__title">CONVERSAZIONI</string>
     <string name="conversation_list__header__archive_title">ARCHIVIA</string>
+    <string name="conversation_list__single_with_quote">Reply: %1$s</string>
+    <string name="conversation_list__group_with_quote">Reply from %1$s: %2$s</string>
+    <string name="conversation_list__single_without_quote">%1$s</string>
+    <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">OSPITE</string>
     <string name="participant_tab_guest_indicator_label">Ospite</string>
     <string name="availability_none">Nessuno</string>
@@ -950,7 +965,9 @@
     <string name="allow_guests">Consenti ospiti e servizi</string>
     <string name="guest_options_title">Guests and services</string>
     <string name="ephemeral_options_title">Messaggi a tempo</string>
+    <string name="notifications_options_title">Notifiche</string>
     <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
+    <string name="notifications_explanation_text">You can be notified about everything (including audio and video calls) or only when you are mentioned.</string>
     <string name="show_all_participants">Show all (%1$s)</string>
     <string name="allow_guests_error_title">Qualcosa è andato storto</string>
     <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
@@ -1026,4 +1043,12 @@
     <string name="add_services_button_text">Manage services</string>
     <string name="wire_notification_name">Wire Notification</string>
     <string name="wire_ping_name">Trillo Wire</string>
+    <string name="reply_self_name">Tu</string>
+    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_video">VIDEO</string>
+    <string name="reply_message_type_audio">AUDIO MESSAGE</string>
+    <string name="reply_message_type_location">LOCATION</string>
+    <string name="reply_message_type_asset">ATTACHMENT</string>
+    <string name="reply_message_type_unknown">You cannot see this message.</string>
+    <string name="quote_timestamp_message">Original message from %s</string>
 </resources>

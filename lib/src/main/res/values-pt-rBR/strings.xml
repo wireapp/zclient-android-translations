@@ -209,7 +209,7 @@
     <string name="conversation__action__delete_and_leave">\tExcluir conteúdo e sair</string>
     <string name="conversation__action__delete_only">\tExcluir conteúdo</string>
     <string name="conversation__action__notifications_everything">Tudo</string>
-    <string name="conversation__action__notifications_mentions_only">Apenas menções</string>
+    <string name="conversation__action__notifications_mentions_and_replies">Menções e Respostas</string>
     <string name="conversation__action__notifications_nothing">Nada</string>
     <string name="conversation__action__notifications_title">Notifique-me sobre:</string>
     <!-- Conversation: Profile Popover -->
@@ -495,6 +495,9 @@
     <string name="notification__message__group__prefix__text">%1$s em %2$s: \u0020</string>
     <string name="notification__message_with_mention__name__prefix__text">Menção de %1$s: \u0020</string>
     <string name="notification__message_with_mention__group__prefix__text">Menção de %1$s em %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text_one2one">Reply: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">Reply from %1$s: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">Reply from %1$s in %2$s: \u0020</string>
     <string name="notification__message__one_to_one__wanted_to_talk">Ligou</string>
     <string name="notification__message__one_to_one__pinged">Pingou</string>
     <string name="notification__message__one_to_one__shared_picture">Compartilhou uma imagem</string>
@@ -512,6 +515,7 @@
     <string name="notification__message__send_failed">Falha no envio da mensagem</string>
     <string name="notification__message__ephemeral">Enviou uma mensagem</string>
     <string name="notification__message_with_mention__ephemeral">Mencionou você</string>
+    <string name="notification__message_with_quote__ephemeral">Respondeu para você</string>
     <string name="notification__message__liked">\u2764 \'%1$s\'</string>
     <string name="notification__message__liked_message">\u2764 sua mensagem</string>
     <string name="notification__message__liked_picture">\u2764 sua foto</string>
@@ -755,6 +759,7 @@
     <string name="message_bottom_menu_action_delete_local">Apagar para mim</string>
     <string name="message_bottom_menu_action_delete_global">Excluir para todos</string>
     <string name="message_bottom_menu_action_reveal">Mostrar na conversa</string>
+    <string name="message_bottom_menu_action_reply">Responder</string>
     <string name="likes_list__header">Curtido por</string>
     <string name="message_bottom_menu_action_save_ok">Foto salva</string>
     <string name="message_footer__tap_to_like">Toque para curtir</string>
@@ -834,6 +839,10 @@
         <item quantity="one">%1$s menção</item>
         <item quantity="other">%1$s menções</item>
     </plurals>
+    <plurals name="conversation_list__quotes_count">
+        <item quantity="one">%1$s reply</item>
+        <item quantity="other">%1$s replies</item>
+    </plurals>
     <string name="conversation_list__unsent_message_long">⚠ Mensagem não enviada</string>
     <string name="conversation_list__unsent_message_short">⚠</string>
     <string name="conversation_list__shared__image">Compartilhou uma imagem</string>
@@ -846,6 +855,8 @@
     <string name="conversation_list__ephemeral">Alguém mandou uma mensagem</string>
     <string name="conversation_list__single_eph_and_mention">Mencionou você</string>
     <string name="conversation_list__group_eph_and_mention">Alguém mencionou você</string>
+    <string name="conversation_list__single_eph_and_quote">Respondeu para você</string>
+    <string name="conversation_list__group_eph_and_quote">Alguém respondeu para você</string>
     <string name="conversation_list__typing">Digitando uma mensagem&#8230;</string>
     <string name="conversation_list__someone">Alguém</string>
     <string name="conversation_list__added">[[%1$s]] foi adicionado(a)</string>
@@ -854,6 +865,10 @@
     <string name="conversation_list__removed_you">[[%1$s]] removeu você</string>
     <string name="conversation_list__header__title">CONVERSAS</string>
     <string name="conversation_list__header__archive_title">ARQUIVO</string>
+    <string name="conversation_list__single_with_quote">Reply: %1$s</string>
+    <string name="conversation_list__group_with_quote">Reply from %1$s: %2$s</string>
+    <string name="conversation_list__single_without_quote">%1$s</string>
+    <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">CONVIDADO</string>
     <string name="participant_tab_guest_indicator_label">Convidado</string>
     <string name="availability_none">Nenhum</string>
@@ -950,7 +965,9 @@
     <string name="allow_guests">Permitir que os hóspedes e serviços</string>
     <string name="guest_options_title">Hóspedes e serviços</string>
     <string name="ephemeral_options_title">Mensagens com tempo</string>
+    <string name="notifications_options_title">Notificações</string>
     <string name="ephemeral_explanation_text">Mensagens com tempo serão ativadas para todos os participantes nesta conversa</string>
+    <string name="notifications_explanation_text">Você pode ser notificado sobre tudo (incluindo chamadas de áudio e vídeo) ou apenas quando for mencionado.</string>
     <string name="show_all_participants">Mostrar todos (%1$s)</string>
     <string name="allow_guests_error_title">Algo deu errado</string>
     <string name="allow_guests_error_body">Não foi possível permitir convidados nem serviços. Por favor, tente novamente.</string>
@@ -1026,4 +1043,12 @@
     <string name="add_services_button_text">Gerenciar serviços</string>
     <string name="wire_notification_name">Notificação do Wire</string>
     <string name="wire_ping_name">Ping do Wire</string>
+    <string name="reply_self_name">Você</string>
+    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_video">VÍDEO</string>
+    <string name="reply_message_type_audio">AUDIO MESSAGE</string>
+    <string name="reply_message_type_location">LOCATION</string>
+    <string name="reply_message_type_asset">ATTACHMENT</string>
+    <string name="reply_message_type_unknown">Você não pode ver esta mensagem.</string>
+    <string name="quote_timestamp_message">Original message from %s</string>
 </resources>

@@ -20,985 +20,1008 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!--*********************************************** ERRORS ***********************************************-->
-  <string name="generic_error_header">何か問題があります</string>
-  <string name="generic_error_message">もう一度やり直してください</string>
-  <string name="internet_connectivity_error_header">インターネット接続がありません</string>
-  <string name="internet_connectivity_error_message">インターネット接続を確認して、もう一度やり直してください。</string>
-  <string name="too_many_attempts_header">試行回数が多すぎます</string>
-  <string name="login_later_message">後でログインしてみてください。</string>
-  <string name="email_exists_header">メールアドレスは使われています。</string>
-  <string name="email_exists_message">このメールアドレスは既に登録されています</string>
-  <string name="email_invalid_header">無効なメールアドレス</string>
-  <string name="email_invalid_message">有効なメール アドレスを入力してください</string>
-  <string name="invalid_credentials_header">無効な情報</string>
-  <string name="invalid_credentials_message">詳細を確認して、もう一度やり直してください。</string>
-  <string name="phone_exists_header">電話番号はすでに使用されています</string>
-  <string name="phone_exists_message">指定した電話番号はすでに登録されています。もう一度やり直してください。</string>
-  <string name="phone_invalid_format_header">無効な電話番号</string>
-  <string name="phone_invalid_format_message">有効な電話番号を入力してください</string>
-  <string name="phone_password_exists_header">パスワードが存在します。</string>
-  <string name="phone_password_exists_message">このアカウントはすでにパスワードとメールアドレスで関連付けられています。メールアドレスでログインしてください。</string>
-  <string name="invalid_code_header">無効なコード</string>
-  <string name="incorrect_code_header">間違ったコード</string>
-  <string name="wrong_code_message">有効なコードを入力してください。</string>
-  <string name="phone_pending_login_header">コードはすでに送信されています</string>
-  <string name="phone_pending_login_message">すでに SMS 経由でコードを送信しました。新しいものを取得するには 10 分後に、再送信をタップします。</string>
-  <string name="phone_budget_exhausted_header">リクエストが多すぎます</string>
-  <string name="phone_budget_exhausted_message">あとで再び試してください</string>
-  <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_settings">設定</string>
-  <string name="camera_not_available">カメラは利用できません</string>
-  <string name="camera_permissions_denied_title">カメラは利用できません</string>
-  <string name="camera_permissions_denied_message">撮影した写真を送信するために、カメラのアクセス許可を与えてください</string>
-  <!-- Registration and Sign in -->
-  <string name="welcome__terms_of_service">継続することにより、_利用規約_に同意します。</string>
-  <string name="profile__name__guidance__tooshort__title">最低2 文字以上</string>
-  <string name="profile__email__placeholder">メール</string>
-  <string name="profile__password__placeholder">パスワード</string>
-  <string name="profile__password__guidance__tooshort__title">最低8 文字以上</string>
-  <string name="profile__email__verify__instructions">メールを送信しました \n[[%1$s]。\nリンクをクリックして、アドレスを確認します。</string>
-  <string name="profile__email__verify__didnt_get">メッセージを取得できませんでしたか?</string>
-  <string name="profile__email__verify__resend">再送信</string>
-  <string name="profile__guidance__invalid_email">入力したメール アドレスは無効です。確認して、もう一度やり直してください。</string>
-  <string name="new_reg__code_resent">新しいコードを SMS 経由で送信しました</string>
-  <string name="new_reg__email_code_resent">新しいコードを Eメール にて送信しました</string>
-  <string name="new_reg__code_resent__call">呼び出しの準備</string>
-  <string name="new_reg__default_country">jp</string>
-  <!-- consider updating this for every new language -->
-  <string name="your_phone_number">電話番号</string>
-  <!-- Receive email/sms invitation -->
-  <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 検索</string>
-  <string name="pick_user_search_hint">検索</string>
-  <string name="choose_conversation">検索</string>
-  <string name="people_picker__top_users_header_title">Top people</string>
-  <string name="people_picker__search_result_conversations_header_title">グループ</string>
-  <string name="people_picker__search_result_team_conversations_header_title">%1$s グループ</string>
-  <string name="people_picker__search_result_connections_header_title">連絡先</string>
-  <string name="people_picker__search_result_others_header_title">つながる</string>
-  <string name="people_picker__search_result__expander_title">全てを表示 %1$s ↓</string>
-  <string name="people_picker__search_people">友人</string>
-  <string name="people_picker__search_services">サービス</string>
-  <string name="receive_news_and_offers_request_title">ニュースレター</string>
-  <string name="receive_news_and_offers_request_body">電子メールで Wire からニュースや製品アップデートを受信しますか？購読はいつでもでも解除することができます。</string>
-  <string name="crashes_and_analytics_request_title">Wire の改善にご協力を</string>
-  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
-  <string name="crashes_and_analytics_request_no">いいえ</string>
-  <string name="crashes_and_analytics_request_agree">同意する</string>
-  <!-- Bots / Integrations / Services -->
-  <string name="integrations_picker__section_title">サービス</string>
-  <string name="integrations_errors_add_service">サービスの追加はできません。</string>
-  <string name="integrations_errors_service_unavailable">現在、サービスはご利用いただけません。</string>
-  <string name="conversation_errors_full">会話数が上限に達しました。</string>
-  <!-- start ui / people picker, contacts sharing -->
-  <string name="people_picker__share_contacts__title">連絡先を共有</string>
-  <string name="people_picker__share_contacts__message">連絡先をシェアした場合、Wireで友人を探すことが容易になります。</string>
-  <string name="people_picker__share_contacts__yay">許可する</string>
-  <string name="people_picker__share_contacts__nah">拒否</string>
-  <string name="people_picker__share_contacts__nevvah">今後は確認しない</string>
-  <!-- Invite -->
-  <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Wireを友達と共有する</string>
-  <string name="people_picker__invite__share_text__header">%1$s は、Wire に接続しようとしています</string>
-  <string name="people_picker__invite__share_text__body">私はWireにいます。%1$s で検索するか、get.wire.com. にアクセスしてください</string>
-  <!-- Conversation: Quick menu -->
-  <string name="conversation_quick_menu__conversation_button__single_label">開く</string>
-  <!-- Conversation: System messages -->
-  <string name="content__system__other_joined">[[%1$s]] 参加済</string>
-  <string name="content__system__you_joined">[[You]] 参加済</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] が会話名を変更しました</string>
-  <string name="content__system__you_renamed_conv">[[You]] が会話名を変更しました。</string>
-  <!-- Add people -->
-  <string name="content__system__someone_added_people">[[%1$s]] が %2$s を会話に追加しました</string>
-  <plurals name="content__system__someone_added_people_with_others">
-    <item quantity="other">[[%1$s]] が %2$s と _%3$s を他の会話に追加しました_</item>
-  </plurals>
-  <string name="content__system__someone_added_you">[[%1$s]] があなたを会話に追加しました</string>
-  <plurals name="content__system__someone_added_people_and_you_with_others">
-    <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
-  </plurals>
-  <string name="content__system__you_added_people">あなたが、%1$s を会話に追加しました</string>
-  <plurals name="content__system__you_added_people_with_others">
-    <item quantity="other">あなたが %1$s と _%2$s を他の会話に追加しました_</item>
-  </plurals>
-  <!-- Remove people -->
-  <string name="content__system__other_removed_other">[[%1$s]] %2$s を削除しました</string>
-  <string name="content__system__other_removed_you">[[%1$s]] あなたを削除しました</string>
-  <string name="content__system__you_removed_other">あなたは %1$s を削除しました</string>
-  <string name="content__system__you_left">[[あなた]] 退室しました</string>
-  <string name="content__system__other_left">[[%1$s]] 退室しました</string>
-  <!-- Create conversation -->
-  <string name="content__system__you_started_conversation">あなたが会話を開始しました。</string>
-  <string name="content__system__other_started_conversation">%1$s が会話を開始しました。</string>
-  <string name="content__system__with_you_only">あなたと</string>
-  <string name="content__system__with_list_only">%1$s と</string>
-  <plurals name="content__system__with_others_only">
-    <item quantity="other">%1$s とほか %2$s 名</item>
-  </plurals>
-  <string name="content__system__with_list_and_you">%1$s とあなた</string>
-  <plurals name="content__system__with_others_and_you">
-    <item quantity="other">%1$s とあなたと 他 %2$s 名</item>
-  </plurals>
-  <!-- Conversation: missed call -->
-  <string name="content__missed_call__you_called">[[あなた]] 呼び出しました</string>
-  <string name="content__missed_call__xxx_called">[[%1$s]] 呼び出しました</string>
-  <string name="content__you_pinged">[[あなた]] PING しました</string>
-  <string name="content__xxx_pinged">[[%1$s]] PING しました</string>
-  <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__message_error">[[%1$s]] からのメッセージは受信されませんでした。 _なぜ?_</string>
-  <string name="content__otr__message_error_you">あなたからのメッセージは受信されませんでした。_WHY? _</string>
-  <string name="content__otr__identity_changed_error">[[%1$s]] のデバイス ID を変更しました。配信不能なメッセージ。 _詳細_</string>
-  <string name="content__otr__identity_changed_error_you">あなたの デバイス ID を変更しました。メッセージは配信されません。 _詳細_</string>
-  <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
-  <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
-  <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
-  <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
-  <string name="content__otr__start_this_device__message">[[あなた]] _新しいデバイス_ を使い始めました</string>
-  <string name="content__otr__all_fingerprints_verified">すべてのフィンガープリントは確認されています</string>
-  <string name="content__otr__lost_history">しばらくの間このデバイスを使用していません。一部のメッセージは表示されません。</string>
-  <string name="content__otr__unverified_device__message">[[あなた]] _%1$s のデバイス_ の 1 つを確認していません</string>
-  <string name="content__otr__your_unverified_device__message">[[あなた]] _あなたのデバイス_ の 1 つを確認していません</string>
-  <string name="content__otr__new_member__message">新しい人が参加しました。_デバイスを検証する_</string>
-  <!-- File transfer -->
-  <string name="content__file__status__default">%1$s</string>
-  <string name="content__file__status__uploading__minimized">アップロード中&#8230;</string>
-  <string name="content__file__status__cancelled__minimized">キャンセルしました&#8230;</string>
-  <string name="content__file__status__downloading__minimized">ダウンロード中&#8230;</string>
-  <string name="content__file__status__download_failed__minimized">ダウンロードに失敗しました</string>
-  <string name="content__file__status__upload_failed__minimized">アップロードに失敗しました</string>
-  <string name="content__file__status__uploading">%1$s · アップロード中&#8230;</string>
-  <string name="content__file__status__cancelled">%1$s · キャンセルしました&#8230;</string>
-  <string name="content__file__status__downloading">%1$s · ダウンロード中&#8230;</string>
-  <string name="content__file__status__download_failed">%1$s· ダウンロードに失敗しました</string>
-  <string name="content__file__status__upload_failed">%1$s·アップロードに失敗しました</string>
-  <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
-  <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
-  <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · アップロード中&#8230;</string>
-  <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · キャンセルしました&#8230;</string>
-  <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · ダウンロード中&#8230;</string>
-  <string name="content__file__status__download_failed__size_and_extension">%1$s·%2$s·ダウンロードに失敗しました</string>
-  <string name="content__file__status__upload_failed__size_and_extension">%1$s·%2$s·アップロードに失敗しました</string>
-  <string name="content__file__action__open">開く</string>
-  <string name="content__file__action__save">保存.</string>
-  <string name="content__file__action__open__no_app_found">この種類のファイルを開くアプリが見つかりません</string>
-  <string name="content__file__action__save_completed">ファイルを正常に保存しました</string>
-  <string name="content__file__action__save_error">ファイルを保存できません</string>
-  <string name="content__location__no_map_placeholder">オンラインに戻ったとき、場所が地図に表示されます。</string>
-  <!-- Conversation actions -->
-  <string name="conversation__action__delete">コンテンツ削除...</string>
-  <string name="conversation__action__archive">アーカイブ</string>
-  <string name="conversation__action__unarchive">解答する</string>
-  <string name="conversation__action__add_participants">参加者を追加</string>
-  <string name="conversation__action__create_group">グループを作成</string>
-  <string name="conversation__action__notifications">Notifications&#8230;</string>
-  <string name="conversation__action__silence">ミュート</string>
-  <string name="conversation__action__unsilence">ミュート解除します。</string>
-  <string name="conversation__action__leave">グループを退出...</string>
-  <string name="conversation__action__call">通話</string>
-  <string name="conversation__action__picture">写真</string>
-  <string name="conversation__action__block">ブロック...</string>
-  <string name="conversation__action__unblock">ブロック解除</string>
-  <string name="conversation__action__leave_and_delete">\t退出してアカウントを削除する</string>
-  <string name="conversation__action__leave_only">\tグループを離れる</string>
-  <string name="conversation__action__delete_and_leave">\tコンテンツを削除して退出する</string>
-  <string name="conversation__action__delete_only">\tコンテンツを削除</string>
-  <string name="conversation__action__notifications_everything">Everything</string>
-  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
-  <string name="conversation__action__notifications_nothing">Nothing</string>
-  <string name="conversation__action__notifications_title">Notify me about:</string>
-  <!-- Conversation: Profile Popover -->
-  <!-- Calling/voice -->
-  <string name="calling__slow_connection__title">遅いインターネット</string>
-  <string name="calling__slow_connection__message">インターネット接続が遅すぎるため、今すぐ電話できません。後でもう一度試してください。</string>
-  <string name="calling__cannot_start__title">マイクが必要です</string>
-  <string name="calling__cannot_start__message">通話するには、現在の電話を切ってください。</string>
-  <string name="calling__cannot_start__no_permission__message">設定に移動して、Wireがマイクにアクセスすることを許可して下さい。</string>
-  <string name="calling__cannot_start__cancel__message">キャンセル</string>
-  <string name="calling__cannot_start__no_camera_permission__message">Wire はカメラへのアクセス権を持っていません。</string>
-  <string name="calling__video_call__slow_connection__message">通話中に問題が発生する可能性があります</string>
-  <string name="incoming__controls__ongoing__speaker">スピーカー</string>
-  <string name="incoming__controls__ongoing__mute">ミュート</string>
-  <string name="incoming__controls__ongoing__video">ビデオ</string>
-  <string name="incoming__controls__ongoing__flip">カメラ切替</string>
-  <string name="ongoing__poor_connection_message">接続不良のためビデオが停止しました</string>
-  <string name="calling__self_preview_unavailable_long">カメラは利用できません</string>
-  <string name="calling__header__joining">接続中...</string>
-  <string name="calling__header__outgoing_subtitle">呼び出し中...</string>
-  <string name="calling__header__outgoing_video_subtitle">呼び出し中...</string>
-  <string name="calling__header__incoming_subtitle">発信中...</string>
-  <string name="calling__header__incoming_subtitle__video">発信中...</string>
-  <string name="calling__header__incoming_subtitle__group">%1$s からの着信中...</string>
-  <string name="call_banner_joining">接続中...</string>
-  <string name="call_banner_outgoing">%1$S に発信中&#8230;</string>
-  <string name="call_banner_incoming">%1$s からの着信中...</string>
-  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
-  <string name="calling_ongoing_call_title">通話中</string>
-  <string name="calling_ongoing_call_start_message">他の会話で通話中です。\nここで呼び出すと、その他の通話は終了します。</string>
-  <string name="calling_ongoing_call_start_anyway">いつでも通話する</string>
-  <string name="calling_ongoing_call_join_message">他の会話で通話中です。\nこの呼び出しに参加すると、その他の通話は終了します。</string>
-  <string name="calling_ongoing_call_join_anyway">いつでも参加する</string>
-  <string name="calling_ongoing_call_participants_header">参加者</string>
-  <string name="calling_ongoing_call_audio_message">音声メッセージは通話中に記録できません</string>
-  <string name="calling_ongoing_call_video_message">ビデオメッセージは通話中に記録できません</string>
-  <!-- Calling in group conversation -->
-  <string name="group_calling_title">通話を始める</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">%1$s 人を呼び出す</string>
-  <string name="group_calling_confirm">通話</string>
-  <!-- Connect request -->
-  <string name="connect__message">%1$s さん、こんにちは。\nWire でつながりましょう。\n%2$s</string>
-  <string name="connect_request__sub_header__pending_label">保留中</string>
-  <string name="connect_request__cancel_request__label">接続リクエストをキャンセルする</string>
-  <string name="connect_request__unblock__button__text">ブロック解除</string>
-  <string name="send_connect_request__connect_button__text">接続</string>
-  <plurals name="connect_inbox__link__name">
-    <item quantity="other">%1$s 人が待機中</item>
-  </plurals>
-  <string name="connect_request__ignore_button__text">無視する</string>
-  <string name="content__message__connect_request__footer">接続しています</string>
-  <string name="content__message__connect_request__auto_connect__footer">自動接続されています。_詳細_</string>
-  <!-- Otr-->
-  <plurals name="conversation__degraded_confirmation__header__single_user">
-    <item quantity="other">%1$s は、新しいデバイスを使い始めました。</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__header__someone">新しいデバイスを使い始めた人がいます</string>
-  <string name="conversation__degraded_confirmation__header__multiple_user">%1$s と %2$s は、新しいデバイスを使い始めました。</string>
-  <plurals name="conversation__degraded_confirmation__message">
-    <item quantity="other">まだメッセージを送信しますか?</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__positive_action">このまま送信</string>
-  <plurals name="conversation__degraded_confirmation__negative_action">
-    <item quantity="other">人を表示</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__negative_action_self">デバイスを表示する</string>
-  <string name="conversation_degraded_confirmation__header__you">あなた</string>
-  <!-- Picture selection confirmation -->
-  <string name="confirmation_menu__confirm_done">OK</string>
-  <string name="confirmation_menu__cancel">キャンセル</string>
-  <!-- ADD TO CONVERSATION offline -->
-  <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <!-- Leave conversation -->
-  <string name="confirmation_menu__meta_remove">会話から退室しますか?</string>
-  <string name="confirmation_menu__meta_remove_text">この会話でメッセージを送受信することはできません。</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <!-- Remove from conversation dialogue -->
-  <string name="confirmation_menu__header">削除しますか?</string>
-  <string name="confirmation_menu_text_with_name">%1$s は、この会話でメッセージを送受信することはできません。</string>
-  <string name="confirmation_menu__confirm_remove">削除</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <!-- Block someone dialogue -->
-  <string name="confirmation_menu__block_header">ブロックしますか?</string>
-  <string name="confirmation_menu__block_text_with_name">%1$s は、あなたにコンタクトをすることやグループ会話にあなたを追加することができません。</string>
-  <string name="confirmation_menu__confirm_block">ブロック</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <string name="connect_request__footer__blocked_label">ブロックしました</string>
-  <!-- Delete conversation -->
-  <string name="confirmation_menu__meta_delete">コンテンツを削除しますか?</string>
-  <string name="confirmation_menu__meta_delete_text">あなたのすべてのデバイスから会話履歴をクリアします。</string>
-  <!-- Rich media -->
-  <string name="content__youtube__error__text">ビデオが見つかりません</string>
-  <string name="mediaplayer__message__onsoundcloud">SoundCloud</string>
-  <string name="mediaplayer__message__onspotify">Spotify</string>
-  <!-- Invite banner -->
-  <!-- Self profile -->
-  <!-- Options and settings -->
-  <string name="settings_title">設定</string>
-  <!-- Options menu -->
-  <!-- Manage Team -->
-  <string name="pref_manage_team_title">チームを管理する</string>
-  <!-- About screen -->
-  <string name="pref_category_title">設定</string>
-  <string name="pref_developer_screen_title">開発者向けの設定</string>
-  <string name="pref_dev_avs_screen_title">AVS の設定</string>
-  <string name="pref_profile_screen_title">プロフィール</string>
-  <!-- Account -->
-  <string name="pref_account_screen_title">アカウント</string>
-  <string name="pref_account_name_title">名前</string>
-  <string name="pref_account_edit_name_title">名前を編集</string>
-  <string name="pref_account_details_category_title">情報</string>
-  <string name="pref_account_actions_category_title">アクション</string>
-  <string name="pref_account_appearance_category_title">外観</string>
-  <string name="pref_account_personal_information_category_title">個人情報</string>
-  <string name="pref_account_conversations_category_title">履歴</string>
-  <string name="pref_account_username_title">ユーザーネーム</string>
-  <string name="pref_account_phone_title">携帯電話</string>
-  <string name="pref_account_add_phone_title">電話番号を追加する</string>
-  <string name="pref_account_email_title">メール</string>
-  <string name="pref_account_add_email_title">メールを追加</string>
-  <string name="pref_account_delete">削除</string>
-  <string name="pref_account_sign_out_title">ログアウト</string>
-  <string name="pref_account_color_title">色</string>
-  <string name="pref_account_picture_title">写真</string>
-  <string name="pref_account_delete_title">アカウントを削除</string>
-  <string name="pref_account_delete_warning_title">アカウントを削除</string>
-  <string name="pref_account_delete_warning_message_email">メールが送信されます:\n[[%1$s]]\nリンクをクリックすると、アカウントを永久に削除します。</string>
-  <string name="pref_account_delete_warning_message_sms">SMS が送信されます:\n[[%1$s]]\nリンクをクリックすると、アカウントを永久に削除します。</string>
-  <string name="pref_account_delete_warning_verify">OK</string>
-  <string name="pref_account_delete_warning_cancel">キャンセル</string>
-  <string name="pref_account_sign_out_warning_message">ログアウトしてもよろしいですか?</string>
-  <string name="pref_account_sign_out_warning_verify">ログアウト</string>
-  <string name="pref_account_sign_out_warning_cancel">キャンセル</string>
-  <string name="pref_account_password_title">パスワードをリセット</string>
-  <string name="pref_account_edit_name_empty_warning">名前は２文字以上にしてください</string>
-  <string name="pref_account_edit_name_empty_verify">OK</string>
-  <string name="pref_account_data_usage_permissions">データ利用許可</string>
-  <string name="pref_backup_screen_title">会話をバックアップする</string>
-  <!-- Data Usage Permissions -->
-  <string name="pref_advanced_send_anonymous_data_title">匿名データを共有</string>
-  <string name="pref_advanced_send_anonymous_data_summary">Wire を改善するため、匿名の利用状況のデータとクラッシュレポートを送信します。</string>
-  <string name="pref_advanced_receive_news_and_offers_title">ニュースレターを受け取る</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">電子メールで Wireからニュースや製品アップデート情報を受け取る。</string>
-  <!-- Options -->
-  <string name="pref_options_dark_theme_title">ダークテーマ</string>
-  <string name="pref_options_screen_title">オプション</string>
-  <string name="pref_options_contacts_title">連絡先を共有</string>
-  <string name="pref_options_contacts_summary">他のユーザーと接続するのに役立ちます。すべての情報は匿名化し、他のユーザーと共有しません。</string>
-  <string name="pref_options_vbr_title">可変ビットレートエンコーディング</string>
-  <string name="pref_options_vbr_summary">これは通話でのデータ量を削減し、低速なネットワークにおける通話をより良くします。これをオフにすることで固定ビットレートエンコーディングを利用することができます。</string>
-  <string name="pref_options_alerts_category_title">アラート</string>
-  <string name="pref_options_calls_category_title">通話</string>
-  <string name="pref_options_sounds_title">サウンド</string>
-  <string name="pref_options_sounds_all">すべて</string>
-  <string name="pref_options_sounds_new_conversations_and_talks_only">最初のメッセージ、ping、通話</string>
-  <string name="pref_options_sounds_none">なし</string>
-  <string name="pref_options_vibration_title">バイブレーション</string>
-  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
-  <string name="pref_options_ringtones_category_title">サウンド</string>
-  <string name="pref_options_ringtones_ringtone_title">電話着信音</string>
-  <string name="pref_options_ringtones_text_title">メッセージ着信音</string>
-  <string name="pref_options_ringtones_ping_title">Ping</string>
-  <string name="pref_options_ringtones_default_summary">Wire デフォルト</string>
-  <string name="pref_options_ringtones_silent">サイレント</string>
-  <string name="pref_options_image_download_title">写真をダウンロード</string>
-  <string name="pref_options_image_download_always">常に</string>
-  <string name="pref_options_image_download_wifi">Wi-Fi のみ</string>
-  <string name="pref_options_media_category_title">メディア</string>
-  <string name="pref_options_requested_category_title">人気の高い順</string>
-  <string name="pref_options_cursor_send_button_title">送信ボタン</string>
-  <string name="pref_options_cursor_send_button_summary">キーボードからの送信を無効にします。</string>
-  <!-- Devices -->
-  <string name="pref_devices_screen_title">デバイス</string>
-  <string name="pref_devices_current_device_category_title">現在のデバイス</string>
-  <string name="pref_devices_other_devices_category_title">その他のデバイス</string>
-  <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
-  <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
-  <string name="pref_devices_device_id">ID: %1$s</string>
-  <string name="pref_devices_device_verified">確認済</string>
-  <string name="pref_devices_device_not_verified">未確認</string>
-  <string name="pref_devices_warning_summary">上のデバイスを知らない場合は、そのデバイスを削除して、パスワードをリセットしてください。</string>
-  <string name="pref_devices_device_screen_title">デバイスの詳細</string>
-  <string name="pref_devices_device_fingerprint_category_title">重要なフィンガープリント</string>
-  <string name="pref_devices_device_fingerprint_summary">Wireは各デバイスに固有のフィンガープリントを付与します。これを比較することでお使いのデバイスと会話を確認します。</string>
-  <string name="pref_devices_device_actions_category_title">アクション</string>
-  <string name="pref_devices_device_reset_session_title">セッションをリセット</string>
-  <string name="pref_devices_device_reset_session_summary">フィンガープリントが一致しない場合は、セッションをリセットして、両側で新しい暗号化鍵を生成します。</string>
-  <string name="pref_devices_device_remove_title">デバイスを削除</string>
-  <string name="pref_devices_device_remove_summary">このデバイスを使用していない場合、このデバイスを削除する。メッセージ履歴はこのデバイスから削除されログアウトされます。</string>
-  <string name="pref_devices_device_fingerprint_copy_description">フィンガープリント</string>
-  <string name="pref_devices_device_fingerprint_copy_toast">重要なフィンガープリントをコピーしました</string>
-  <!-- Advanced -->
-  <string name="pref_advanced_screen_title">さらに</string>
-  <string name="pref_advanced_debug_report_title">デバッグ報告を送信</string>
-  <string name="pref_advanced_debug_report_summary">これは Wire のサポートで問題の診断に役立ちます。</string>
-  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
-  <string name="pref_advanced_reset_push_summary">プッシュ通知に関して問題があった場合、Wireサポートチームはあなたにトークンのリセットを求めることがあります。</string>
-  <string name="pref_advanced_reset_push_completed">プッシュトークンがリセットされました。</string>
-  <string name="debug_report__title">Wire デバッグ報告 - %1$s</string>
-  <string name="debug_report__body">問題を再現するための手順を教えてください。可能であればスクリーンショットを提供して、このメールを送信してください。\n\n</string>
-  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+    <!--*********************************************** ERRORS ***********************************************-->
+    <string name="generic_error_header">何か問題があります</string>
+    <string name="generic_error_message">もう一度やり直してください</string>
+    <string name="internet_connectivity_error_header">インターネット接続がありません</string>
+    <string name="internet_connectivity_error_message">インターネット接続を確認して、もう一度やり直してください。</string>
+    <string name="too_many_attempts_header">試行回数が多すぎます</string>
+    <string name="login_later_message">後でログインしてみてください。</string>
+    <string name="email_exists_header">メールアドレスは使われています。</string>
+    <string name="email_exists_message">このメールアドレスは既に登録されています</string>
+    <string name="email_invalid_header">無効なメールアドレス</string>
+    <string name="email_invalid_message">有効なメール アドレスを入力してください</string>
+    <string name="invalid_credentials_header">無効な情報</string>
+    <string name="invalid_credentials_message">詳細を確認して、もう一度やり直してください。</string>
+    <string name="phone_exists_header">電話番号はすでに使用されています</string>
+    <string name="phone_exists_message">指定した電話番号はすでに登録されています。もう一度やり直してください。</string>
+    <string name="phone_invalid_format_header">無効な電話番号</string>
+    <string name="phone_invalid_format_message">有効な電話番号を入力してください</string>
+    <string name="phone_password_exists_header">パスワードが存在します。</string>
+    <string name="phone_password_exists_message">このアカウントはすでにパスワードとメールアドレスで関連付けられています。メールアドレスでログインしてください。</string>
+    <string name="invalid_code_header">無効なコード</string>
+    <string name="incorrect_code_header">間違ったコード</string>
+    <string name="wrong_code_message">有効なコードを入力してください。</string>
+    <string name="phone_pending_login_header">コードはすでに送信されています</string>
+    <string name="phone_pending_login_message">すでに SMS 経由でコードを送信しました。新しいものを取得するには 10 分後に、再送信をタップします。</string>
+    <string name="phone_budget_exhausted_header">リクエストが多すぎます</string>
+    <string name="phone_budget_exhausted_message">あとで再び試してください</string>
+    <!--*********************************************** ERRORS ***********************************************-->
+    <string name="permissions_denied_dialog_settings">設定</string>
+    <string name="camera_not_available">カメラは利用できません</string>
+    <string name="camera_permissions_denied_title">カメラは利用できません</string>
+    <string name="camera_permissions_denied_message">撮影した写真を送信するために、カメラのアクセス許可を与えてください</string>
+    <!-- Registration and Sign in -->
+    <string name="welcome__terms_of_service">継続することにより、_利用規約_に同意します。</string>
+    <string name="profile__name__guidance__tooshort__title">最低2 文字以上</string>
+    <string name="profile__email__placeholder">メール</string>
+    <string name="profile__password__placeholder">パスワード</string>
+    <string name="profile__password__guidance__tooshort__title">最低8 文字以上</string>
+    <string name="profile__email__verify__instructions">メールを送信しました \n[[%1$s]。\nリンクをクリックして、アドレスを確認します。</string>
+    <string name="profile__email__verify__didnt_get">メッセージを取得できませんでしたか?</string>
+    <string name="profile__email__verify__resend">再送信</string>
+    <string name="profile__guidance__invalid_email">入力したメール アドレスは無効です。確認して、もう一度やり直してください。</string>
+    <string name="new_reg__code_resent">新しいコードを SMS 経由で送信しました</string>
+    <string name="new_reg__email_code_resent">新しいコードを Eメール にて送信しました</string>
+    <string name="new_reg__code_resent__call">呼び出しの準備</string>
+    <string name="new_reg__default_country">jp</string>
+    <!-- consider updating this for every new language -->
+    <string name="your_phone_number">電話番号</string>
+    <!-- Receive email/sms invitation -->
+    <!-- People picker/start UI -->
+    <string name="pick_user_search_focus">\u0020 検索</string>
+    <string name="pick_user_search_hint">検索</string>
+    <string name="choose_conversation">検索</string>
+    <string name="people_picker__top_users_header_title">Top people</string>
+    <string name="people_picker__search_result_conversations_header_title">グループ</string>
+    <string name="people_picker__search_result_team_conversations_header_title">%1$s グループ</string>
+    <string name="people_picker__search_result_connections_header_title">連絡先</string>
+    <string name="people_picker__search_result_others_header_title">つながる</string>
+    <string name="people_picker__search_result__expander_title">全てを表示 %1$s ↓</string>
+    <string name="people_picker__search_people">友人</string>
+    <string name="people_picker__search_services">サービス</string>
+    <string name="receive_news_and_offers_request_title">ニュースレター</string>
+    <string name="receive_news_and_offers_request_body">電子メールで Wire からニュースや製品アップデートを受信しますか？購読はいつでもでも解除することができます。</string>
+    <string name="crashes_and_analytics_request_title">Wire の改善にご協力を</string>
+    <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+    <string name="crashes_and_analytics_request_no">いいえ</string>
+    <string name="crashes_and_analytics_request_agree">同意する</string>
+    <!-- Bots / Integrations / Services -->
+    <string name="integrations_picker__section_title">サービス</string>
+    <string name="integrations_errors_add_service">サービスの追加はできません。</string>
+    <string name="integrations_errors_service_unavailable">現在、サービスはご利用いただけません。</string>
+    <string name="conversation_errors_full">会話数が上限に達しました。</string>
+    <!-- start ui / people picker, contacts sharing -->
+    <string name="people_picker__share_contacts__title">連絡先を共有</string>
+    <string name="people_picker__share_contacts__message">連絡先をシェアした場合、Wireで友人を探すことが容易になります。</string>
+    <string name="people_picker__share_contacts__yay">許可する</string>
+    <string name="people_picker__share_contacts__nah">拒否</string>
+    <string name="people_picker__share_contacts__nevvah">今後は確認しない</string>
+    <!-- Invite -->
+    <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
+    <string name="people_picker__invite__share_details_dialog">Wireを友達と共有する</string>
+    <string name="people_picker__invite__share_text__header">%1$s は、Wire に接続しようとしています</string>
+    <string name="people_picker__invite__share_text__body">私はWireにいます。%1$s で検索するか、get.wire.com. にアクセスしてください</string>
+    <!-- Conversation: Quick menu -->
+    <string name="conversation_quick_menu__conversation_button__single_label">開く</string>
+    <!-- Conversation: System messages -->
+    <string name="content__system__other_joined">[[%1$s]] 参加済</string>
+    <string name="content__system__you_joined">[[You]] 参加済</string>
+    <string name="content__system__other_renamed_conv">[[%1$s]] が会話名を変更しました</string>
+    <string name="content__system__you_renamed_conv">[[You]] が会話名を変更しました。</string>
+    <!-- Add people -->
+    <string name="content__system__someone_added_people">[[%1$s]] が %2$s を会話に追加しました</string>
+    <plurals name="content__system__someone_added_people_with_others">
+        <item quantity="other">[[%1$s]] が %2$s と _%3$s を他の会話に追加しました_</item>
+    </plurals>
+    <string name="content__system__someone_added_you">[[%1$s]] があなたを会話に追加しました</string>
+    <plurals name="content__system__someone_added_people_and_you_with_others">
+        <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+    </plurals>
+    <string name="content__system__you_added_people">あなたが、%1$s を会話に追加しました</string>
+    <plurals name="content__system__you_added_people_with_others">
+        <item quantity="other">あなたが %1$s と _%2$s を他の会話に追加しました_</item>
+    </plurals>
+    <!-- Remove people -->
+    <string name="content__system__other_removed_other">[[%1$s]] %2$s を削除しました</string>
+    <string name="content__system__other_removed_you">[[%1$s]] あなたを削除しました</string>
+    <string name="content__system__you_removed_other">あなたは %1$s を削除しました</string>
+    <string name="content__system__you_left">[[あなた]] 退室しました</string>
+    <string name="content__system__other_left">[[%1$s]] 退室しました</string>
+    <!-- Create conversation -->
+    <string name="content__system__you_started_conversation">あなたが会話を開始しました。</string>
+    <string name="content__system__other_started_conversation">%1$s が会話を開始しました。</string>
+    <string name="content__system__with_you_only">あなたと</string>
+    <string name="content__system__with_list_only">%1$s と</string>
+    <plurals name="content__system__with_others_only">
+        <item quantity="other">%1$s とほか %2$s 名</item>
+    </plurals>
+    <string name="content__system__with_list_and_you">%1$s とあなた</string>
+    <plurals name="content__system__with_others_and_you">
+        <item quantity="other">%1$s とあなたと 他 %2$s 名</item>
+    </plurals>
+    <!-- Conversation: missed call -->
+    <string name="content__missed_call__you_called">[[あなた]] 呼び出しました</string>
+    <string name="content__missed_call__xxx_called">[[%1$s]] 呼び出しました</string>
+    <string name="content__you_pinged">[[あなた]] PING しました</string>
+    <string name="content__xxx_pinged">[[%1$s]] PING しました</string>
+    <!-- Conversation: E2EE system messages -->
+    <string name="content__otr__message_error">[[%1$s]] からのメッセージは受信されませんでした。 _なぜ?_</string>
+    <string name="content__otr__message_error_you">あなたからのメッセージは受信されませんでした。_WHY? _</string>
+    <string name="content__otr__identity_changed_error">[[%1$s]] のデバイス ID を変更しました。配信不能なメッセージ。 _詳細_</string>
+    <string name="content__otr__identity_changed_error_you">あなたの デバイス ID を変更しました。メッセージは配信されません。 _詳細_</string>
+    <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
+    <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
+    <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
+    <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
+    <string name="content__otr__start_this_device__message">[[あなた]] _新しいデバイス_ を使い始めました</string>
+    <string name="content__otr__all_fingerprints_verified">すべてのフィンガープリントは確認されています</string>
+    <string name="content__otr__lost_history">しばらくの間このデバイスを使用していません。一部のメッセージは表示されません。</string>
+    <string name="content__otr__unverified_device__message">[[あなた]] _%1$s のデバイス_ の 1 つを確認していません</string>
+    <string name="content__otr__your_unverified_device__message">[[あなた]] _あなたのデバイス_ の 1 つを確認していません</string>
+    <string name="content__otr__new_member__message">新しい人が参加しました。_デバイスを検証する_</string>
+    <!-- File transfer -->
+    <string name="content__file__status__default">%1$s</string>
+    <string name="content__file__status__uploading__minimized">アップロード中&#8230;</string>
+    <string name="content__file__status__cancelled__minimized">キャンセルしました&#8230;</string>
+    <string name="content__file__status__downloading__minimized">ダウンロード中&#8230;</string>
+    <string name="content__file__status__download_failed__minimized">ダウンロードに失敗しました</string>
+    <string name="content__file__status__upload_failed__minimized">アップロードに失敗しました</string>
+    <string name="content__file__status__uploading">%1$s · アップロード中&#8230;</string>
+    <string name="content__file__status__cancelled">%1$s · キャンセルしました&#8230;</string>
+    <string name="content__file__status__downloading">%1$s · ダウンロード中&#8230;</string>
+    <string name="content__file__status__download_failed">%1$s· ダウンロードに失敗しました</string>
+    <string name="content__file__status__upload_failed">%1$s·アップロードに失敗しました</string>
+    <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
+    <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
+    <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · アップロード中&#8230;</string>
+    <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · キャンセルしました&#8230;</string>
+    <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · ダウンロード中&#8230;</string>
+    <string name="content__file__status__download_failed__size_and_extension">%1$s·%2$s·ダウンロードに失敗しました</string>
+    <string name="content__file__status__upload_failed__size_and_extension">%1$s·%2$s·アップロードに失敗しました</string>
+    <string name="content__file__action__open">開く</string>
+    <string name="content__file__action__save">保存.</string>
+    <string name="content__file__action__open__no_app_found">この種類のファイルを開くアプリが見つかりません</string>
+    <string name="content__file__action__save_completed">ファイルを正常に保存しました</string>
+    <string name="content__file__action__save_error">ファイルを保存できません</string>
+    <string name="content__location__no_map_placeholder">オンラインに戻ったとき、場所が地図に表示されます。</string>
+    <!-- Conversation actions -->
+    <string name="conversation__action__delete">コンテンツ削除...</string>
+    <string name="conversation__action__archive">アーカイブ</string>
+    <string name="conversation__action__unarchive">解答する</string>
+    <string name="conversation__action__add_participants">参加者を追加</string>
+    <string name="conversation__action__create_group">グループを作成</string>
+    <string name="conversation__action__notifications">通知&#8230;</string>
+    <string name="conversation__action__silence">ミュート</string>
+    <string name="conversation__action__unsilence">ミュート解除します。</string>
+    <string name="conversation__action__leave">グループを退出...</string>
+    <string name="conversation__action__call">通話</string>
+    <string name="conversation__action__picture">写真</string>
+    <string name="conversation__action__block">ブロック...</string>
+    <string name="conversation__action__unblock">ブロック解除</string>
+    <string name="conversation__action__leave_and_delete">\t退出してアカウントを削除する</string>
+    <string name="conversation__action__leave_only">\tグループを離れる</string>
+    <string name="conversation__action__delete_and_leave">\tコンテンツを削除して退出する</string>
+    <string name="conversation__action__delete_only">\tコンテンツを削除</string>
+    <string name="conversation__action__notifications_everything">Everything</string>
+    <string name="conversation__action__notifications_mentions_and_replies">Mentions and Replies</string>
+    <string name="conversation__action__notifications_nothing">Nothing</string>
+    <string name="conversation__action__notifications_title">Notify me about:</string>
+    <!-- Conversation: Profile Popover -->
+    <!-- Calling/voice -->
+    <string name="calling__slow_connection__title">遅いインターネット</string>
+    <string name="calling__slow_connection__message">インターネット接続が遅すぎるため、今すぐ電話できません。後でもう一度試してください。</string>
+    <string name="calling__cannot_start__title">マイクが必要です</string>
+    <string name="calling__cannot_start__message">通話するには、現在の電話を切ってください。</string>
+    <string name="calling__cannot_start__no_permission__message">設定に移動して、Wireがマイクにアクセスすることを許可して下さい。</string>
+    <string name="calling__cannot_start__cancel__message">キャンセル</string>
+    <string name="calling__cannot_start__no_camera_permission__message">Wire はカメラへのアクセス権を持っていません。</string>
+    <string name="calling__video_call__slow_connection__message">通話中に問題が発生する可能性があります</string>
+    <string name="incoming__controls__ongoing__speaker">スピーカー</string>
+    <string name="incoming__controls__ongoing__mute">ミュート</string>
+    <string name="incoming__controls__ongoing__video">ビデオ</string>
+    <string name="incoming__controls__ongoing__flip">カメラ切替</string>
+    <string name="ongoing__poor_connection_message">接続不良のためビデオが停止しました</string>
+    <string name="calling__self_preview_unavailable_long">カメラは利用できません</string>
+    <string name="calling__header__joining">接続中...</string>
+    <string name="calling__header__outgoing_subtitle">呼び出し中...</string>
+    <string name="calling__header__outgoing_video_subtitle">呼び出し中...</string>
+    <string name="calling__header__incoming_subtitle">発信中...</string>
+    <string name="calling__header__incoming_subtitle__video">発信中...</string>
+    <string name="calling__header__incoming_subtitle__group">%1$s からの着信中...</string>
+    <string name="call_banner_joining">接続中...</string>
+    <string name="call_banner_outgoing">%1$S に発信中&#8230;</string>
+    <string name="call_banner_incoming">%1$s からの着信中...</string>
+    <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
+    <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
+    <string name="calling_ongoing_call_title">通話中</string>
+    <string name="calling_ongoing_call_start_message">他の会話で通話中です。\nここで呼び出すと、その他の通話は終了します。</string>
+    <string name="calling_ongoing_call_start_anyway">いつでも通話する</string>
+    <string name="calling_ongoing_call_join_message">他の会話で通話中です。\nこの呼び出しに参加すると、その他の通話は終了します。</string>
+    <string name="calling_ongoing_call_join_anyway">いつでも参加する</string>
+    <string name="calling_ongoing_call_participants_header">参加者</string>
+    <string name="calling_ongoing_call_audio_message">音声メッセージは通話中に記録できません</string>
+    <string name="calling_ongoing_call_video_message">ビデオメッセージは通話中に記録できません</string>
+    <!-- Calling in group conversation -->
+    <string name="group_calling_title">通話を始める</string>
+    <string name="group_calling_message" tools:ignore="PluralsCandidate">%1$s 人を呼び出す</string>
+    <string name="group_calling_confirm">通話</string>
+    <!-- Connect request -->
+    <string name="connect__message">%1$s さん、こんにちは。\nWire でつながりましょう。\n%2$s</string>
+    <string name="connect_request__sub_header__pending_label">保留中</string>
+    <string name="connect_request__cancel_request__label">接続リクエストをキャンセルする</string>
+    <string name="connect_request__unblock__button__text">ブロック解除</string>
+    <string name="send_connect_request__connect_button__text">接続</string>
+    <plurals name="connect_inbox__link__name">
+        <item quantity="other">%1$s 人が待機中</item>
+    </plurals>
+    <string name="connect_request__ignore_button__text">無視する</string>
+    <string name="content__message__connect_request__footer">接続しています</string>
+    <string name="content__message__connect_request__auto_connect__footer">自動接続されています。_詳細_</string>
+    <!-- Otr-->
+    <plurals name="conversation__degraded_confirmation__header__single_user">
+        <item quantity="other">%1$s は、新しいデバイスを使い始めました。</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__header__someone">新しいデバイスを使い始めた人がいます</string>
+    <string name="conversation__degraded_confirmation__header__multiple_user">%1$s と %2$s は、新しいデバイスを使い始めました。</string>
+    <plurals name="conversation__degraded_confirmation__message">
+        <item quantity="other">まだメッセージを送信しますか?</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__positive_action">このまま送信</string>
+    <plurals name="conversation__degraded_confirmation__negative_action">
+        <item quantity="other">人を表示</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__negative_action_self">デバイスを表示する</string>
+    <string name="conversation_degraded_confirmation__header__you">あなた</string>
+    <!-- Picture selection confirmation -->
+    <string name="confirmation_menu__confirm_done">OK</string>
+    <string name="confirmation_menu__cancel">キャンセル</string>
+    <!-- ADD TO CONVERSATION offline -->
+    <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
+    <!-- Leave conversation -->
+    <string name="confirmation_menu__meta_remove">会話から退室しますか?</string>
+    <string name="confirmation_menu__meta_remove_text">この会話でメッセージを送受信することはできません。</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <!-- Remove from conversation dialogue -->
+    <string name="confirmation_menu__header">削除しますか?</string>
+    <string name="confirmation_menu_text_with_name">%1$s は、この会話でメッセージを送受信することはできません。</string>
+    <string name="confirmation_menu__confirm_remove">削除</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <!-- Block someone dialogue -->
+    <string name="confirmation_menu__block_header">ブロックしますか?</string>
+    <string name="confirmation_menu__block_text_with_name">%1$s は、あなたにコンタクトをすることやグループ会話にあなたを追加することができません。</string>
+    <string name="confirmation_menu__confirm_block">ブロック</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <string name="connect_request__footer__blocked_label">ブロックしました</string>
+    <!-- Delete conversation -->
+    <string name="confirmation_menu__meta_delete">コンテンツを削除しますか?</string>
+    <string name="confirmation_menu__meta_delete_text">あなたのすべてのデバイスから会話履歴をクリアします。</string>
+    <!-- Rich media -->
+    <string name="content__youtube__error__text">ビデオが見つかりません</string>
+    <string name="mediaplayer__message__onsoundcloud">SoundCloud</string>
+    <string name="mediaplayer__message__onspotify">Spotify</string>
+    <!-- Invite banner -->
+    <!-- Self profile -->
+    <!-- Options and settings -->
+    <string name="settings_title">設定</string>
+    <!-- Options menu -->
+    <!-- Manage Team -->
+    <string name="pref_manage_team_title">チームを管理する</string>
+    <!-- About screen -->
+    <string name="pref_category_title">設定</string>
+    <string name="pref_developer_screen_title">開発者向けの設定</string>
+    <string name="pref_dev_avs_screen_title">AVS の設定</string>
+    <string name="pref_profile_screen_title">プロフィール</string>
+    <!-- Account -->
+    <string name="pref_account_screen_title">アカウント</string>
+    <string name="pref_account_name_title">名前</string>
+    <string name="pref_account_edit_name_title">名前を編集</string>
+    <string name="pref_account_details_category_title">情報</string>
+    <string name="pref_account_actions_category_title">アクション</string>
+    <string name="pref_account_appearance_category_title">外観</string>
+    <string name="pref_account_personal_information_category_title">個人情報</string>
+    <string name="pref_account_conversations_category_title">履歴</string>
+    <string name="pref_account_username_title">ユーザーネーム</string>
+    <string name="pref_account_phone_title">携帯電話</string>
+    <string name="pref_account_add_phone_title">電話番号を追加する</string>
+    <string name="pref_account_email_title">メール</string>
+    <string name="pref_account_add_email_title">メールを追加</string>
+    <string name="pref_account_delete">削除</string>
+    <string name="pref_account_sign_out_title">ログアウト</string>
+    <string name="pref_account_color_title">色</string>
+    <string name="pref_account_picture_title">写真</string>
+    <string name="pref_account_delete_title">アカウントを削除</string>
+    <string name="pref_account_delete_warning_title">アカウントを削除</string>
+    <string name="pref_account_delete_warning_message_email">メールが送信されます:\n[[%1$s]]\nリンクをクリックすると、アカウントを永久に削除します。</string>
+    <string name="pref_account_delete_warning_message_sms">SMS が送信されます:\n[[%1$s]]\nリンクをクリックすると、アカウントを永久に削除します。</string>
+    <string name="pref_account_delete_warning_verify">OK</string>
+    <string name="pref_account_delete_warning_cancel">キャンセル</string>
+    <string name="pref_account_sign_out_warning_message">ログアウトしてもよろしいですか?</string>
+    <string name="pref_account_sign_out_warning_verify">ログアウト</string>
+    <string name="pref_account_sign_out_warning_cancel">キャンセル</string>
+    <string name="pref_account_password_title">パスワードをリセット</string>
+    <string name="pref_account_edit_name_empty_warning">名前は２文字以上にしてください</string>
+    <string name="pref_account_edit_name_empty_verify">OK</string>
+    <string name="pref_account_data_usage_permissions">データ利用許可</string>
+    <string name="pref_backup_screen_title">会話をバックアップする</string>
+    <!-- Data Usage Permissions -->
+    <string name="pref_advanced_send_anonymous_data_title">匿名データを共有</string>
+    <string name="pref_advanced_send_anonymous_data_summary">Wire を改善するため、匿名の利用状況のデータとクラッシュレポートを送信します。</string>
+    <string name="pref_advanced_receive_news_and_offers_title">ニュースレターを受け取る</string>
+    <string name="pref_advanced_receive_news_and_offers_summary">電子メールで Wireからニュースや製品アップデート情報を受け取る。</string>
+    <!-- Options -->
+    <string name="pref_options_dark_theme_title">ダークテーマ</string>
+    <string name="pref_options_screen_title">オプション</string>
+    <string name="pref_options_contacts_title">連絡先を共有</string>
+    <string name="pref_options_contacts_summary">他のユーザーと接続するのに役立ちます。すべての情報は匿名化し、他のユーザーと共有しません。</string>
+    <string name="pref_options_vbr_title">可変ビットレートエンコーディング</string>
+    <string name="pref_options_vbr_summary">これは通話でのデータ量を削減し、低速なネットワークにおける通話をより良くします。これをオフにすることで固定ビットレートエンコーディングを利用することができます。</string>
+    <string name="pref_options_alerts_category_title">アラート</string>
+    <string name="pref_options_calls_category_title">通話</string>
+    <string name="pref_options_sounds_title">サウンド</string>
+    <string name="pref_options_sounds_all">すべて</string>
+    <string name="pref_options_sounds_new_conversations_and_talks_only">最初のメッセージ、ping、通話</string>
+    <string name="pref_options_sounds_none">なし</string>
+    <string name="pref_options_vibration_title">バイブレーション</string>
+    <string name="pref_options_vibration_title_o">Vibrate on ring</string>
+    <string name="pref_options_ringtones_category_title">サウンド</string>
+    <string name="pref_options_ringtones_ringtone_title">電話着信音</string>
+    <string name="pref_options_ringtones_text_title">メッセージ着信音</string>
+    <string name="pref_options_ringtones_ping_title">Ping</string>
+    <string name="pref_options_ringtones_default_summary">Wire デフォルト</string>
+    <string name="pref_options_ringtones_silent">サイレント</string>
+    <string name="pref_options_image_download_title">写真をダウンロード</string>
+    <string name="pref_options_image_download_always">常に</string>
+    <string name="pref_options_image_download_wifi">Wi-Fi のみ</string>
+    <string name="pref_options_media_category_title">メディア</string>
+    <string name="pref_options_requested_category_title">人気の高い順</string>
+    <string name="pref_options_cursor_send_button_title">送信ボタン</string>
+    <string name="pref_options_cursor_send_button_summary">キーボードからの送信を無効にします。</string>
+    <!-- Devices -->
+    <string name="pref_devices_screen_title">デバイス</string>
+    <string name="pref_devices_current_device_category_title">現在のデバイス</string>
+    <string name="pref_devices_other_devices_category_title">その他のデバイス</string>
+    <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
+    <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
+    <string name="pref_devices_device_id">ID: %1$s</string>
+    <string name="pref_devices_device_verified">確認済</string>
+    <string name="pref_devices_device_not_verified">未確認</string>
+    <string name="pref_devices_warning_summary">上のデバイスを知らない場合は、そのデバイスを削除して、パスワードをリセットしてください。</string>
+    <string name="pref_devices_device_screen_title">デバイスの詳細</string>
+    <string name="pref_devices_device_fingerprint_category_title">重要なフィンガープリント</string>
+    <string name="pref_devices_device_fingerprint_summary">Wireは各デバイスに固有のフィンガープリントを付与します。これを比較することでお使いのデバイスと会話を確認します。</string>
+    <string name="pref_devices_device_actions_category_title">アクション</string>
+    <string name="pref_devices_device_reset_session_title">セッションをリセット</string>
+    <string name="pref_devices_device_reset_session_summary">フィンガープリントが一致しない場合は、セッションをリセットして、両側で新しい暗号化鍵を生成します。</string>
+    <string name="pref_devices_device_remove_title">デバイスを削除</string>
+    <string name="pref_devices_device_remove_summary">このデバイスを使用していない場合、このデバイスを削除する。メッセージ履歴はこのデバイスから削除されログアウトされます。</string>
+    <string name="pref_devices_device_fingerprint_copy_description">フィンガープリント</string>
+    <string name="pref_devices_device_fingerprint_copy_toast">重要なフィンガープリントをコピーしました</string>
+    <!-- Advanced -->
+    <string name="pref_advanced_screen_title">さらに</string>
+    <string name="pref_advanced_debug_report_title">デバッグ報告を送信</string>
+    <string name="pref_advanced_debug_report_summary">これは Wire のサポートで問題の診断に役立ちます。</string>
+    <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
+    <string name="pref_advanced_reset_push_summary">プッシュ通知に関して問題があった場合、Wireサポートチームはあなたにトークンのリセットを求めることがあります。</string>
+    <string name="pref_advanced_reset_push_completed">プッシュトークンがリセットされました。</string>
+    <string name="debug_report__title">Wire デバッグ報告 - %1$s</string>
+    <string name="debug_report__body">問題を再現するための手順を教えてください。可能であればスクリーンショットを提供して、このメールを送信してください。\n\n</string>
+    <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+    <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
-  <!-- Support -->
-  <string name="pref_support_screen_title">サポート</string>
-  <string name="pref_support_website_title">Wire サポート ウェブサイト</string>
-  <string name="pref_support_contact_title">サポートへの問い合わせ</string>
-  <!-- About -->
-  <string name="pref_about_screen_title">概要</string>
-  <string name="pref_about_website_title">Wire のウェブサイト</string>
-  <string name="pref_about_tos_title">利用規約</string>
-  <string name="pref_about_privacy_policy_title">プライバシーポリシー</string>
-  <string name="pref_about_licenses_title">ライセンス情報</string>
-  <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
-  <string name="pref_about_version_title">バージョン %s</string>
-  <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
-  <!-- Pref invite -->
-  <string name="pref_invite_title">Wireに招待する</string>
-  <!-- Preference Account Actions -->
-  <string name="pref__account_action__phone_verification__title">電話番号を確認</string>
-  <string name="pref__account_action__phone_verification__description">%s に送信された確認コードを入力してください。</string>
-  <string name="pref__account_action__phone_verification__code">コード</string>
-  <string name="pref__account_action__phone_verification__question">コードが表示されていませんか?</string>
-  <string name="pref__account_action__phone_verification__resend"><u>コードを再送信</u></string>
-  <string name="pref__account_action__phone_verification__change"><u>電話番号を変更</u></string>
-  <string name="pref__account_action__email_verification__title">メールアドレスを確認</string>
-  <string name="pref__account_action__email_verification__description">メールの受信トレイを確認して、手順に従ってください。</string>
-  <string name="pref__account_action__email_verification__question">メールが表示されていませんか?</string>
-  <string name="pref__account_action__email_verification__resend">&lt;u&gt;%s に再送信&lt;/u&gt;</string>
-  <string name="pref__account_action__email_verification__change"><u>メールアドレスを変更</u></string>
-  <string name="pref__account_action__dialog__add_email_password__password">パスワード</string>
-  <string name="pref__account_action__dialog__add_email_password__email">メール</string>
-  <string name="pref__account_action__dialog__add_email_password__title">メールアドレスを追加</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_email">無効なメールアドレス</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_password">8 文字以上</string>
-  <string name="pref__account_action__dialog__edit_phone__title">電話番号を編集</string>
-  <string name="pref__account_action__dialog__add_phone__title">電話番号を追加</string>
-  <string name="pref__account_action__dialog__add_phone__error__country">無効な国コード</string>
-  <string name="pref__account_action__dialog__add_phone__error__number">無効な電話番号</string>
-  <string name="pref__account_action__dialog__add_phone__confirm__title">番号を確認</string>
-  <string name="pref__account_action__dialog__add_phone__confirm__message">通知コードを送ります:\n%s</string>
-  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">削除</string>
-  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">本当にあなたの Wire アカウントから %s を削除しますか？</string>
-  <string name="pref__account_action__dialog__delete_phone__error">電話番号を削除できません。</string>
-  <string name="pref__account_action__dialog__change_email__title">メールアドレスを編集</string>
-  <string name="pref__account_action__dialog__change_username__rules">少なくとも２文字。a-z, 0-9, および _ のみが利用できます。</string>
-  <string name="pref__account_action__dialog__change_username__title">ユーザーネーム</string>
-  <string name="pref__account_action__dialog__change_username__error_already_taken">すでに利用されています</string>
-  <string name="pref__account_action__dialog__change_username__error_unknown">接続エラー、再試行してください</string>
-  <!-- No Internet connection -->
-  <string name="system_status__no_internet">インターネットがありません</string>
-  <!-- SHARING -->
-  <string name="alert_dialog__confirmation">OK</string>
-  <string name="alert_dialog__no_network__header">インターネット接続がありません</string>
-  <string name="sign_up__set_picture__choose">自分で選ぶ</string>
-  <string name="sign_up__set_picture__keep">これにする</string>
-  <string name="sign_up__set_picture__guidance">Wireは写真があるとより魅力的になります。</string>
-  <string name="sign_up__set_picture__loading">写真の読み込み中</string>
-  <string name="leave_conversation_failed__message">オンラインにしてから会話を退室する必要があります。接続を確認して、もう一度やり直してください。</string>
-  <string name="remove_from_conversation__no_network__message">オンラインにしてから会話から人を削除する必要があります。接続を確認して、もう一度やり直してください。</string>
-  <string name="calling__call_drop__message">オンラインにしてから通話する必要が有ります。接続を確認してもう一度やり直して下さい。</string>
-  <!-- Lockscreen and notifications -->
-  <string name="message_notifications_channel_name">メッセージ</string>
-  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
-  <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="ping_notifications_channel_name">Pings</string>
-  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
-  <string name="ongoing_channel_name">Background notifications</string>
-  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
-  <string name="foreground_service_notification_name">Maintain connection to server</string>
-  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <plurals name="notification__new_messages__multiple">
-    <item quantity="other">%2$s の会話に %1$d メッセージ</item>
-  </plurals>
-  <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
-  <string name="notification__message__group__prefix__text">%2$s に %1$s: \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
-  <string name="notification__message__one_to_one__wanted_to_talk">呼び出しました</string>
-  <string name="notification__message__one_to_one__pinged">Ping しました</string>
-  <string name="notification__message__one_to_one__shared_picture">写真を共有しました</string>
-  <string name="notification__message__one_to_one__shared_file">ファイルを共有しました</string>
-  <string name="notification__message__one_to_one__shared_video">ビデオを共有します</string>
-  <string name="notification__message__one_to_one__shared_audio">音声メッセージを共有しました</string>
-  <string name="notification__message__one_to_one__shared_location">場所を共有しました</string>
-  <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__group__prefix__other">%2$s に %1$s \u0020</string>
-  <string name="notification__message__group__renamed_conversation">会話の名前を %1$s に変更しました</string>
-  <string name="notification__message__group__add">会話に人を追加します</string>
-  <string name="notification__message__group__remove">会話から人を削除します</string>
-  <string name="notification__message__single__accept_request">あなたと%1$s はいまつながっています。</string>
-  <string name="notification__message__group__default_conversation_name">グループ会話</string>
-  <string name="notification__message__send_failed">メッセージの送信に失敗しました</string>
-  <string name="notification__message__ephemeral">Sent a message</string>
-  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
-  <string name="notification__message__liked">\u2764 ‘%1$s’</string>
-  <string name="notification__message__liked_message">\u2764 あなたのメッセージ</string>
-  <string name="notification__message__liked_picture">\u2764 あなたの画像</string>
-  <!-- ephemeral -->
-  <string name="notification__message__ephemeral_someone">誰か</string>
-  <plurals name="notification__message__ephemeral">
-    <item quantity="other">Singular Form; メッセージを受信しました
+    <!-- Support -->
+    <string name="pref_support_screen_title">サポート</string>
+    <string name="pref_support_website_title">Wire サポート ウェブサイト</string>
+    <string name="pref_support_contact_title">サポートへの問い合わせ</string>
+    <!-- About -->
+    <string name="pref_about_screen_title">概要</string>
+    <string name="pref_about_website_title">Wire のウェブサイト</string>
+    <string name="pref_about_tos_title">利用規約</string>
+    <string name="pref_about_privacy_policy_title">プライバシーポリシー</string>
+    <string name="pref_about_licenses_title">ライセンス情報</string>
+    <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
+    <string name="pref_about_version_title">バージョン %s</string>
+    <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
+    <!-- Pref invite -->
+    <string name="pref_invite_title">Wireに招待する</string>
+    <!-- Preference Account Actions -->
+    <string name="pref__account_action__phone_verification__title">電話番号を確認</string>
+    <string name="pref__account_action__phone_verification__description">%s に送信された確認コードを入力してください。</string>
+    <string name="pref__account_action__phone_verification__code">コード</string>
+    <string name="pref__account_action__phone_verification__question">コードが表示されていませんか?</string>
+    <string name="pref__account_action__phone_verification__resend"><u>コードを再送信</u></string>
+    <string name="pref__account_action__phone_verification__change"><u>電話番号を変更</u></string>
+    <string name="pref__account_action__email_verification__title">メールアドレスを確認</string>
+    <string name="pref__account_action__email_verification__description">メールの受信トレイを確認して、手順に従ってください。</string>
+    <string name="pref__account_action__email_verification__question">メールが表示されていませんか?</string>
+    <string name="pref__account_action__email_verification__resend">&lt;u&gt;%s に再送信&lt;/u&gt;</string>
+    <string name="pref__account_action__email_verification__change"><u>メールアドレスを変更</u></string>
+    <string name="pref__account_action__dialog__add_email_password__password">パスワード</string>
+    <string name="pref__account_action__dialog__add_email_password__email">メール</string>
+    <string name="pref__account_action__dialog__add_email_password__title">メールアドレスを追加</string>
+    <string name="pref__account_action__dialog__add_email_password__error__invalid_email">無効なメールアドレス</string>
+    <string name="pref__account_action__dialog__add_email_password__error__invalid_password">8 文字以上</string>
+    <string name="pref__account_action__dialog__edit_phone__title">電話番号を編集</string>
+    <string name="pref__account_action__dialog__add_phone__title">電話番号を追加</string>
+    <string name="pref__account_action__dialog__add_phone__error__country">無効な国コード</string>
+    <string name="pref__account_action__dialog__add_phone__error__number">無効な電話番号</string>
+    <string name="pref__account_action__dialog__add_phone__confirm__title">番号を確認</string>
+    <string name="pref__account_action__dialog__add_phone__confirm__message">通知コードを送ります:\n%s</string>
+    <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">削除</string>
+    <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">本当にあなたの Wire アカウントから %s を削除しますか？</string>
+    <string name="pref__account_action__dialog__delete_phone__error">電話番号を削除できません。</string>
+    <string name="pref__account_action__dialog__change_email__title">メールアドレスを編集</string>
+    <string name="pref__account_action__dialog__change_username__rules">少なくとも２文字。a-z, 0-9, および _ のみが利用できます。</string>
+    <string name="pref__account_action__dialog__change_username__title">ユーザーネーム</string>
+    <string name="pref__account_action__dialog__change_username__error_already_taken">すでに利用されています</string>
+    <string name="pref__account_action__dialog__change_username__error_unknown">接続エラー、再試行してください</string>
+    <!-- No Internet connection -->
+    <string name="system_status__no_internet">インターネットがありません</string>
+    <!-- SHARING -->
+    <string name="alert_dialog__confirmation">OK</string>
+    <string name="alert_dialog__no_network__header">インターネット接続がありません</string>
+    <string name="sign_up__set_picture__choose">自分で選ぶ</string>
+    <string name="sign_up__set_picture__keep">これにする</string>
+    <string name="sign_up__set_picture__guidance">Wireは写真があるとより魅力的になります。</string>
+    <string name="sign_up__set_picture__loading">写真の読み込み中</string>
+    <string name="leave_conversation_failed__message">オンラインにしてから会話を退室する必要があります。接続を確認して、もう一度やり直してください。</string>
+    <string name="remove_from_conversation__no_network__message">オンラインにしてから会話から人を削除する必要があります。接続を確認して、もう一度やり直してください。</string>
+    <string name="calling__call_drop__message">オンラインにしてから通話する必要が有ります。接続を確認してもう一度やり直して下さい。</string>
+    <!-- Lockscreen and notifications -->
+    <string name="message_notifications_channel_name">メッセージ</string>
+    <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
+    <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+    <string name="ping_notifications_channel_name">Pings</string>
+    <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
+    <string name="ongoing_channel_name">Background notifications</string>
+    <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
+    <string name="foreground_service_notification_name">Maintain connection to server</string>
+    <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
+    <plurals name="notification__new_messages__multiple">
+        <item quantity="other">%2$s の会話に %1$d メッセージ</item>
+    </plurals>
+    <!-- %1$s == username, %2$s == conversation -->
+    <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
+    <string name="notification__message__group__prefix__text">%2$s に %1$s: \u0020</string>
+    <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+    <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text_one2one">Reply: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">Reply from %1$s: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">Reply from %1$s in %2$s: \u0020</string>
+    <string name="notification__message__one_to_one__wanted_to_talk">呼び出しました</string>
+    <string name="notification__message__one_to_one__pinged">Ping しました</string>
+    <string name="notification__message__one_to_one__shared_picture">写真を共有しました</string>
+    <string name="notification__message__one_to_one__shared_file">ファイルを共有しました</string>
+    <string name="notification__message__one_to_one__shared_video">ビデオを共有します</string>
+    <string name="notification__message__one_to_one__shared_audio">音声メッセージを共有しました</string>
+    <string name="notification__message__one_to_one__shared_location">場所を共有しました</string>
+    <!-- %1$s == username, %2$s == conversation -->
+    <string name="notification__message__group__prefix__other">%2$s に %1$s \u0020</string>
+    <string name="notification__message__group__renamed_conversation">会話の名前を %1$s に変更しました</string>
+    <string name="notification__message__group__add">会話に人を追加します</string>
+    <string name="notification__message__group__remove">会話から人を削除します</string>
+    <string name="notification__message__single__accept_request">あなたと%1$s はいまつながっています。</string>
+    <string name="notification__message__group__default_conversation_name">グループ会話</string>
+    <string name="notification__message__send_failed">メッセージの送信に失敗しました</string>
+    <string name="notification__message__ephemeral">Sent a message</string>
+    <string name="notification__message_with_mention__ephemeral">あなたへのメンション</string>
+    <string name="notification__message_with_quote__ephemeral">あなたへの返信</string>
+    <string name="notification__message__liked">\u2764 ‘%1$s’</string>
+    <string name="notification__message__liked_message">\u2764 あなたのメッセージ</string>
+    <string name="notification__message__liked_picture">\u2764 あなたの画像</string>
+    <!-- ephemeral -->
+    <string name="notification__message__ephemeral_someone">誰か</string>
+    <plurals name="notification__message__ephemeral">
+        <item quantity="other">Singular Form; メッセージを受信しました
 Pliral Form; %1$d 件のメッセージを受信しました</item>
-  </plurals>
-  <string name="other_set_message_timer">[[%1$s]] が タイマーメッセージを [[%2$s]] に設定しました</string>
-  <string name="you_set_message_timer">[[You]] が タイマーメッセージを [[%1$s]] に設定しました</string>
-  <string name="other_turned_off_message_timer">[[%1$s]] が タイマーメッセージをオフにしました</string>
-  <string name="you_turned_off_message_timer">[[You]] がタイマーメッセージをオフにしました</string>
-  <!-- Others -->
-  <string name="app_name">Wire</string>
-  <string name="content__system__item_separator">,</string>
-  <string name="content__system__last_item_separator">と</string>
-  <string name="content__system__you">あなた</string>
-  <plurals name="content__system__other_members">
-    <item quantity="other">他 %1$s 名</item>
-  </plurals>
-  <!-- System notifications -->
-  <string name="system_notification__silence_call">辞退</string>
-  <string name="system_notification__join_call">承諾</string>
-  <string name="system_notification__leave_call">通話を終了</string>
-  <string name="system_notification__calling_one">発信中...</string>
-  <string name="system_notification__calling_group">%1$s からの着信中...</string>
-  <string name="system_notification__video_calling_one">ビデオ通話で呼出中...</string>
-  <string name="system_notification__video_calling_group">%1$s をビデオ通話で呼出中...</string>
-  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
-  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
-  <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
-  <string name="ws_foreground_notification_summary">Tap here for more information.</string>
-  <!-- Notification actions -->
-  <string name="notification__action__call">呼び出し</string>
-  <string name="notification__action__reply">返信</string>
-  <!-- Quick reply -->
-  <string name="quick_reply__counter">%1$d / %2$d</string>
-  <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
-  <string name="quick_reply__open_wire">Wire を開く</string>
-  <!-- Save image notification -->
-  <string name="notification__image_saving__content__title">Wire の写真を保存しました。</string>
-  <string name="notification__image_saving__content__subtitle">タップして表示します。</string>
-  <string name="notification__image_saving__action__share">共有</string>
-  <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
-  <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <!-- forced update -->
-  <string name="forced_update__header">重要な更新</string>
-  <string name="forced_update__sub_header">Wire の最新バージョンをインストールしてください</string>
-  <string name="forced_update__download_button">ダウンロード</string>
-  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Sharing -->
-  <string name="sharing__image_preview__confirm_action">送信</string>
-  <string name="sharing__user_not_logged_in__dialog__title">ログインしてください</string>
-  <string name="sharing__user_not_logged_in__dialog__message">Wire を開き、ログインして共有してください。</string>
-  <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
-  <!-- Sync errors -->
-  <string name="in_app_notification__sync_error__create_group_convo__title">作成できません</string>
-  <string name="in_app_notification__sync_error__create_group_convo__body">%1$s との会話を作成できませんでした。</string>
-  <string name="in_app_notification__sync_error__add_user__body">%1$s は会話への追加を希望していません。</string>
-  <string name="in_app_notification__sync_error__add_multiple_user__body">選択した人の一人は会話への追加を希望していません。</string>
-  <string name="in_app_notification__sync_error__unknown__body">何か問題があります。もう一度やり直してください。</string>
-  <string name="in_app_notification__sync_error__create_convo__button">続ける</string>
-  <!--Timestamp formatting -->
-  <string name="timestamp__just_now">ちょうど今</string>
-  <plurals name="timestamp__x_minutes_ago">
-    <item quantity="other">%1$d 分前</item>
-  </plurals>
-  <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
-  <!-- Example: FRIDAY, MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__no_year">MM/dd E, %1$s</string>
-  <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year">YYYY/MM/dd E, %1$s</string>
-  <!-- Example: MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__no_year_no_weekday">MMM d, %1$s</string>
-  <!-- Example: MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
-  <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <!-- MONDAY -->
-  <!-- MARCH 2 -->
-  <!-- MARCH 2, 2015 -->
-  <!-- 23:15 -->
-  <string name="timestamp_pattern__24h_format">HH:mm</string>
-  <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="country">国</string>
-  <string name="register">登録</string>
-  <string name="password_placeholder">パスワード</string>
-  <string name="email_placeholder">メール</string>
-  <string name="name_placeholder">名前</string>
-  <!-- Strings -->
-  <string name="edit_phone_number">電話番号を編集</string>
-  <string name="i_have_an_account">ログイン</string>
-  <plurals name="welcome__resend__timer_label">
-    <item quantity="other">%1$d 秒で新しいコードをリクエストすることができます</item>
-  </plurals>
-  <string name="welcome__resend__manual">再送信</string>
-  <string name="welcome__resend__callme">電話してください</string>
-  <string name="activation_code_info_manual">送信した確認コードを入力してください \n&lt;b&gt;%s&lt;/b&gt;</string>
-  <string name="enter_name">あなたを何と呼べばいいですか?</string>
-  <string name="enter_name_hint">氏名を入力します</string>
-  <string name="new_reg__password__forgot">パスワードをお忘れですか?</string>
-  <string name="phone_sign_in">電話</string>
-  <string name="email_sign_in">メール</string>
-  <string name="edit_email">メールを編集</string>
-  <string name="hello">&lt;b&gt;%s&lt;/b&gt; さん、こんにちは</string>
-  <string name="sign_in">ログイン</string>
-  <string name="new_reg__password_length">%1$s 文字以上で</string>
-  <string name="username__set__toast_error">ユーザーネームのアップデートエラー</string>
-  <!-- Giphy -->
-  <string name="giphy_preview__search_hint">Giphy を検索</string>
-  <string name="giphy_preview__error">GIF が見つかりません。</string>
-  <string name="giphy_preview__message_via_random_trending">Giphy.com から</string>
-  <string name="giphy_preview__message_via_search">%s · giphy.com から</string>
-  <string name="service_giphy_name">Giphy</string>
-  <!--Sketch-->
-  <string name="drawing__tip__picture__message">色をタップしてブラシのサイズを変更します。\n\nシェイクして写真を削除します。</string>
-  <string name="drawing__tip__message">色をタップしてブラシのサイズを変更します。\n\n長押しして領域を塗りつぶします。</string>
-  <string name="sketch__emoji_keyboard__size_label__small">小</string>
-  <string name="sketch__emoji_keyboard__size_label__medium">中</string>
-  <string name="sketch__emoji_keyboard__size_label__large">大</string>
-  <string name="toolbar__sketch__action_close">閉じる</string>
-  <string name="drawing__text_hint">メッセージを入力します</string>
-  <!-- Location sharing -->
-  <string name="location_sharing__tip">地図をドラッグして場所を変更します</string>
-  <string name="location_sharing__permission_error">現在の場所を取得できません。アクセスを拒否されました</string>
-  <string name="location_sharing__send_button">送信</string>
-  <string name="location_sharing__enable_system_location__title">場所を使用しますか?</string>
-  <string name="location_sharing__enable_system_location__message">現在位置を表示するために、設定で場所を有効にしてください</string>
-  <string name="location_sharing__enable_system_location__confirm">設定</string>
-  <string name="location_sharing__enable_system_location__cancel">キャンセル</string>
-  <string name="location_sharing__missing_play_services">場所を共有するため Google Play サービスが必要です</string>
-  <!-- From SyncEngine -->
-  <string name="new_reg__phone_signup__create_account">アカウントを作成</string>
-  <!-- OTR -->
-  <string name="otr__remove_device__title">%1$s を削除</string>
-  <string name="otr__remove_device__message">パスワードを入力してください</string>
-  <string name="otr__remove_device__default">デバイス</string>
-  <string name="otr__remove_device__button_delete">OK</string>
-  <string name="otr__remove_device__button_cancel">キャンセル</string>
-  <string name="otr__remove_device__error">パスワードが間違っています</string>
-  <string name="otr__error_dialog__cannot_register__message">このデバイスで Wire を使用するため、他のデバイスを 1 つ削除してください。</string>
-  <string name="otr__error_dialog__cannot_register__manage_devices_button">デバイスを管理</string>
-  <string name="otr__error_dialog__cannot_register__log_out_button">ログアウト</string>
-  <!-- OTR Participants -->
-  <string name="otr__participant__device_header">Wire はそれぞれのデバイスに固有のフィンガープリントを付与します。それを %1$s と比較して、会話を確認します。</string>
-  <string name="otr__participant__device_header__no_devices">%1$s は古いバージョンの Wire を使用しています。デバイスは表示されません。</string>
-  <string name="otr__participant__device_header__link_text">_なぜ会話を確認するのですか? _</string>
-  <string name="otr__participant__device_class__unknown">不明</string>
-  <string name="otr__participant__device_class__phone">電話</string>
-  <string name="otr__participant__device_class__tablet">タブレット</string>
-  <string name="otr__participant__device_class__desktop">デスクトップ コンピューター</string>
-  <string name="otr__participant__tab_details">詳細</string>
-  <string name="otr__participant__tab_devices">デバイス</string>
-  <string name="otr__participant__single_device__my_fingerprint_link">自分のデバイスのフィンガープリントを表示</string>
-  <string name="otr__participant__single_device__reset_session_link">セッションをリセット</string>
-  <string name="otr__participant__my_device__description">お使いのデバイスのフィンガープリント</string>
-  <string name="otr__participant__my_device__show_all_devices_link">自分のすべてのデバイスを表示</string>
-  <string name="otr__participant__single_device__description">%1$s のデバイスに表示されるフィンガー プリントと一致することを確認します。</string>
-  <string name="otr__participant__single_device__how_to_link">_どうすればいいですか?_</string>
-  <string name="otr__device_id">ID: %s</string>
-  <string name="otr__first_launch__header">このデバイスで Wire を使用するの初めてです。</string>
-  <string name="otr__first_launch__sub_header">プライバシー上の理由から、会話の履歴はここに表示されません。</string>
-  <string name="otr__first_launch__button">OK</string>
-  <string name="otr__signin__info_text">ログイン</string>
-  <string name="otr__reset_session__message_ok">セッションはリセットされました</string>
-  <string name="otr__reset_session__message_fail">セッションをリセットできませんでした</string>
-  <string name="otr__reset_session__button_ok">OK</string>
-  <string name="otr__reset_session__button_fail">もう一度試す</string>
-  <string name="advanced_image_download_wifi_info">この写真は、Wi-Fiに再接続したときに表示されます</string>
-  <string name="change_settings">設定を変更</string>
-  <string name="conversation_list__action_join_call">参加する</string>
-  <!-- Conversation Toolbar -->
-  <string name="conversation_toolbar__collection">コレクション</string>
-  <string name="conversation_toolbar__call_video">ビデオ通話</string>
-  <string name="conversation_toolbar__call_audio">音声通話</string>
-  <!-- Asset upload errors -->
-  <string name="asset_upload_error__not_found__title">ファイルが見つかりません</string>
-  <string name="asset_upload_error__not_found__message">指定したファイルを取得できません</string>
-  <string name="asset_upload_error__not_found__button">OK</string>
-  <string name="asset_upload_error__file_too_large__title">ファイルが大きすぎます</string>
-  <string name="asset_upload_error__file_too_large__message_default">大きいファイルのアップロードはサポートされていません。</string>
-  <string name="asset_upload_error__file_too_large__message">%1$s までのファイルを送信できます。</string>
-  <string name="asset_upload_error__file_too_large__button">OK</string>
-  <string name="asset_upload_warning__large_file__title">Wi-Fi を使用していません</string>
-  <string name="asset_upload_warning__large_file__message_default">モバイル ネットワーク経由で大きなファイルを送信してもよろしいですか?</string>
-  <string name="asset_upload_warning__large_file__message">モバイル ネットワーク経由で %1$s を送信してもよろしいですか?</string>
-  <!-- Video message errors -->
-  <string name="audio_message_error__missing_audio_permissions">音声メッセージを送信するには、オーディオを録音するアクセス許可を付与してください。</string>
-  <!-- Audio bit rate mode -->
-  <string name="audio_message__constant_bit_rate">固定ビットレート</string>
-  <!-- no contacts -->
-  <string name="no_conversation_in_list__header">まだ会話が存在しません。
-</string>
-  <string name="all_archived__header">全てアーカイブ済み</string>
-  <string name="no_conversation_in_list__message">会話を開始またはグループを作成します。</string>
-  <string name="cursor__type_a_message">メッセージを入力します</string>
-  <string name="cursor__ephemeral_message">タイマーメッセージ</string>
-  <string name="tooltip_record">ビデオを記録</string>
-  <string name="tooltip_camera">写真を追加</string>
-  <string name="tooltip_sketch">画像を描く</string>
-  <string name="tooltip_ping">Ping</string>
-  <string name="tooltip_emoji">絵文字</string>
-  <string name="tooltip_location">場所</string>
-  <string name="tooltip_more">その他の操作</string>
-  <string name="tooltip_audio_message">長押しして音声メッセージを送信します</string>
-  <string name="tooltip_file">ファイルを送信</string>
-  <string name="tooltip_gif">GIF</string>
-  <string name="tooltip_mention">Add Mention</string>
-  <!-- Delete -->
-  <string name="conversation__message_action__delete_for_me">自分宛のみ削除しますか?</string>
-  <string name="conversation__message_action__delete_for_everyone">すべての人宛を削除しますか?</string>
-  <string name="conversation__message_action__delete_details">この操作は元に戻すことができません。</string>
-  <string name="conversation__message_action__delete__dialog__cancel">キャンセル</string>
-  <string name="conversation__message_action__delete__dialog__ok">削除</string>
-  <string name="conversation__message_action__delete__confirmation">メッセージを削除しました</string>
-  <string name="conversation__action_mode__copy__description">%1$s からのメッセージ</string>
-  <string name="conversation__action_mode__copy__toast">コピーしました</string>
-  <string name="conversation__action_mode__fwd__dialog__title">コンテンツの準備中</string>
-  <string name="conversation__action_mode__fwd__dialog__message">しばらくお待ちください&#8230;</string>
-  <string name="conversation__action_mode__fwd__chooser__title">共有する</string>
-  <!-- video message preview -->
-  <string name="audio_message__recording__slide_control__slide_hint">上にスワイプして送信します</string>
-  <string name="audio_message__recording__slide_control__tap_hint">タップすると送信します</string>
-  <string name="audio_message__recording__tap_to_record">タップしてメッセージを記録します\nその後 _GLYPH_ することができます</string>
-  <string name="audio_message__recording__failure__title">音声を録音できません</string>
-  <string name="audio_message__recording__failure__message">もう一度やり直してください。</string>
-  <string name="audio_message__recording__limit_reached__title">録音を停止しました</string>
-  <string name="audio_message__recording__limit_reached__message">音声メッセージは 25MB に制限されています。このメッセージを送信しますか?</string>
-  <string name="audio_message__recording__limit_reached__confirmation">送信</string>
-  <string name="hint_change_filter">上記のフィルターを選択します。</string>
-  <string name="message_bottom_menu_action_forward">共有</string>
-  <string name="message_bottom_menu_action_copy">コピー</string>
-  <string name="message_bottom_menu_action_edit">編集</string>
-  <string name="message_bottom_menu_action_like">いいね！</string>
-  <string name="message_bottom_menu_action_unlike">いいね！取消</string>
-  <string name="message_bottom_menu_action_save">保存</string>
-  <string name="message_bottom_menu_action_open">開く</string>
-  <string name="message_bottom_menu_action_delete">削除</string>
-  <string name="message_bottom_menu_action_delete_local">自分宛を削除</string>
-  <string name="message_bottom_menu_action_delete_global">すべての人宛を削除</string>
-  <string name="message_bottom_menu_action_reveal">会話で表示する</string>
-  <string name="likes_list__header">いいね！しました</string>
-  <string name="message_bottom_menu_action_save_ok">写真を保存しました</string>
-  <string name="message_footer__tap_to_like">タップしていいね！</string>
-  <plurals name="message_footer__number_of_likes">
-    <item quantity="other">%1$d 人</item>
-  </plurals>
-  <string name="message_footer__status__sending">送信中&#8230;</string>
-  <string name="message_footer__status__sent">%1$s \u30FB 送信しました</string>
-  <string name="message_footer__status__delivered">%1$s \u30FB 配信しました</string>
-  <string name="message_footer__status__failed">送信に失敗しました。_再送信_</string>
-  <string name="message_footer__status__deleted">%1$s \u30FB 削除しました</string>
-  <string name="ephemeral_message__timeout_selection_info">メッセージが消えるまでの時間を設定する</string>
-  <string name="usernames__take_over__summary">Wireでのユーザーネームを選ぶ。もっと知る。</string>
-  <string name="usernames__take_over__choose">自分のものを選ぶ</string>
-  <string name="usernames__take_over__keep">これにする</string>
-  <string name="ephemeral_message__timeout__off">オフ</string>
-  <string name="ephemeral_message__options_header">タイマーメッセージ</string>
-  <string name="guests_option_on">オン</string>
-  <plurals name="unit_years">
-    <item quantity="other">%1$s 年</item>
-  </plurals>
-  <plurals name="unit_weeks">
-    <item quantity="other">%1$s 週</item>
-  </plurals>
-  <plurals name="unit_days">
-    <item quantity="other">%1$s 日</item>
-  </plurals>
-  <plurals name="unit_hours">
-    <item quantity="other">%1$s 時</item>
-  </plurals>
-  <plurals name="unit_minutes">
-    <item quantity="other">%1$s 分</item>
-  </plurals>
-  <plurals name="unit_seconds">
-    <item quantity="other">%1$s 秒</item>
-  </plurals>
-  <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
-  <string name="ephemeral_message_footer_single_unit">残り %1$s</string>
-  <string name="collection_header_pictures">写真</string>
-  <string name="collection_header_files">ファイル</string>
-  <string name="collection_header_links">リンク</string>
-  <string name="collection_header_today">今日</string>
-  <string name="collection_header_yesterday">昨日</string>
-  <string name="collection_empty">コレクションにアイテムはありません</string>
-  <string name="collection_all">全てを表示 %1$s</string>
-  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_search_hint">送信...</string>
-  <string name="search__box__hint_text">テキストメッセージを検索する</string>
-  <string name="search__no_results">結果はありません</string>
-  <!-- Conversation List -->
-  <plurals name="conversation_list__new_message_count">
-    <item quantity="other">%1$s messages</item>
-  </plurals>
-  <plurals name="conversation_list__pings_count">
-    <item quantity="other">%1$s がPingしました</item>
-  </plurals>
-  <plurals name="conversation_list__new_likes_count">
-    <item quantity="other">%1$s ♥</item>
-  </plurals>
-  <plurals name="conversation_list__missed_calls_plural">
-    <item quantity="other">%1$s件の不在着信</item>
-  </plurals>
-  <string name="conversation_list__missed_calls_count">不在着信</string>
-  <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
-  <plurals name="conversation_list__mentions_count">
-    <item quantity="other">%1$s mentions</item>
-  </plurals>
-  <string name="conversation_list__unsent_message_long">⚠️ 未送信メッセージ</string>
-  <string name="conversation_list__unsent_message_short">⚠</string>
-  <string name="conversation_list__shared__image">写真を共有しました</string>
-  <string name="conversation_list__shared__file">ファイルを共有しました</string>
-  <string name="conversation_list__shared__video">ビデオを共有します</string>
-  <string name="conversation_list__shared__audio">音声メッセージを共有しました</string>
-  <string name="conversation_list__shared__location">場所を共有しました</string>
-  <string name="conversation_list__missed_call">不在着信</string>
-  <string name="conversation_list__pinged">Ping しました</string>
-  <string name="conversation_list__ephemeral">Someone sent a message</string>
-  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
-  <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
-  <string name="conversation_list__typing">メッセージを入力中</string>
-  <string name="conversation_list__someone">誰か</string>
-  <string name="conversation_list__added">[[%1$s]] が追加されました</string>
-  <string name="conversation_list__added_you">[[%1$s]] あなたを追加しました</string>
-  <string name="conversation_list__left_you">あなたは退出しました</string>
-  <string name="conversation_list__removed_you">[[%1$s]] あなたを削除しました</string>
-  <string name="conversation_list__header__title">会話</string>
-  <string name="conversation_list__header__archive_title">アーカイブ</string>
-  <string name="guest_indicator">ゲスト</string>
-  <string name="participant_tab_guest_indicator_label">ゲスト</string>
-  <string name="availability_none">なし</string>
-  <string name="availability_available">利用できます</string>
-  <string name="availability_away">不在</string>
-  <string name="availability_busy">取り込み中</string>
-  <string name="availability_text_available">%1$s は連絡可能です。</string>
-  <string name="availability_text_away">%1$s は離席中です。</string>
-  <string name="availability_text_busy">%1$s は取り込み中です。</string>
-  <string name="availability_setstatus">待ち受け状態を設定します。</string>
-  <string name="preferences_profile_new">新しいチームまたはアカウント</string>
-  <string name="preferences_profile_add_account">アカウントを追加</string>
-  <string name="preferences_profile_create_team">新しいチームを作成</string>
-  <string name="preferences_profile_in_team">%1$s 中</string>
-  <string name="new_devices_dialog_title">あなたの Wire アカウントにデバイスを接続しました。</string>
-  <string name="new_devices_dialog_info">これを行わなかった場合は、デバイスを削除し、あなたのパスワードをリセットします。</string>
-  <string name="new_devices_dialog_manage_devices">デバイスを管理</string>
-  <string name="teams_set_email_title">アカウント</string>
-  <string name="teams_set_email_subtitle">業務用メールアドレスを入力してください。</string>
-  <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
-  <string name="teams_set_email_about">もっと詳しく知る</string>
-  <string name="teams_set_password_title">パスワード設定</string>
-  <string name="teams_set_password_hint">最低8 文字以上</string>
-  <string name="teams_set_username_title">ユーザー名を設定</string>
-  <string name="teams_set_username_hint">ユーザー名</string>
-  <string name="teams_set_team_name_title">チーム名</string>
-  <string name="teams_set_team_name_subtitle">後でいつでも変更することができます。</string>
-  <string name="teams_set_team_name_hint">チーム名</string>
-  <string name="teams_set_team_name_about">Wire チームとはなんですか？</string>
-  <string name="teams_verify_email_title">メール受信しました。</string>
-  <string name="teams_verify_email_subtitle">%1$s に送信された確認コードを入力してください。</string>
-  <string name="teams_verify_email_resend">コードを再送信</string>
-  <string name="teams_verify_email_change">メール アドレスを変更</string>
-  <string name="teams_set_name_title">あなたの名前</string>
-  <string name="teams_set_name_hint">フルネーム</string>
-  <string name="app_entry_create_account">人</string>
-  <string name="app_entry_create_account_sub">アカウントを作成</string>
-  <string name="app_entry_create_team">プロ</string>
-  <string name="app_entry_create_team_sub">新しいチームを作成</string>
-  <string name="app_entry_login_sub">既にアカウントをお持ちですか？</string>
-  <string name="app_entry_login">ログイン</string>
-  <string name="app_entry_tc_dialog_title">利用規約</string>
-  <string name="app_entry_tc_dialog_message">引き続き同意する必要があります。</string>
-  <string name="app_entry_notifications_dialog_title">通知センター</string>
-  <string name="app_entry_notifications_dialog_message">通知には、通知、音、アイコン バッジなどがあります。これらは、[設定]で変更できます。</string>
-  <string name="app_entry_dialog_accept">応答</string>
-  <string name="app_entry_dialog_cancel">キャンセル</string>
-  <string name="app_entry_dialog_log_in">ログイン</string>
-  <string name="app_entry_dialog_no_thanks">不要です</string>
-  <string name="app_entry_dialog_not_now">後で</string>
-  <string name="app_entry_dialog_view">見る</string>
-  <string name="app_entry_dialog_privacy_policy">プライバシー ポリシー</string>
-  <string name="app_entry_email_sent">メール送信済</string>
-  <string name="teams_set_username_subtitle">ユーザー名は他のユーザがあなたを見つけるのに役立ちます。</string>
-  <string name="app_entry_sso_dialog_title">企業ログイン</string>
-  <string name="app_entry_sso_dialog_message">企業用シングルサインオン アクセスコードを入力します。</string>
-  <string name="app_entry_sso_input_hint"></string>
-  <string name="pick_user_teams_invite">チームに招待する</string>
-  <string name="teams_invitations_skip">スキップ</string>
-  <string name="teams_invitations_done">完了</string>
-  <string name="teams_invitations_error_too_many">招待数の上限に達しました。</string>
-  <string name="teams_invitations_error_already_sent">送信済</string>
-  <string name="teams_invitations_error_generic">問題が生じたようです。もう一度やり直してください。</string>
-  <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
-  <string name="teams_invitations_error_invalid_email">有効なメール アドレスを入力してください。</string>
-  <string name="teams_invitations_error_email_exists">このメール アドレスは既に使用されています。</string>
-  <string name="teams_invitations_error_no_internet">インターネット接続なし</string>
-  <string name="invitation_screen_title">チームを作成します</string>
-  <string name="invitation_screen_subtitle">同僚を招待します</string>
-  <string name="open_service_conversation_button_text">会話を始めます</string>
-  <string name="remove_service_button_text">サービスを削除</string>
-  <string name="integrations_create_conversation">会話を作成</string>
-  <string name="no_matches_found">一致するものが見つかりません</string>
-  <string name="loading_services">サービスを読み込んでいます&#8230;</string>
-  <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
-  <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
-  <string name="create_group_conversation">グループを作成します</string>
-  <string name="create_guest_room_conversation">ゲストルームを作成する</string>
-  <string name="manage_services">サービスを管理</string>
-  <string name="next_button">次へ</string>
-  <string name="skip_button">スキップ</string>
-  <string name="done_button">完了</string>
-  <string name="new_group_header">グループを作成</string>
-  <string name="add_participants_empty_header">参加者を追加</string>
-  <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
-  <string name="new_conv_no_results">見つかりませんでした</string>
-  <string name="new_conv_no_contacts">No contacts</string>
-  <string name="participants_divider_services">サービス (%1$s)</string>
-  <string name="participants_divider_people">人 (%1$s)</string>
-  <string name="group_name_hint">グループ名</string>
-  <string name="allow_guests_toggle_text">Allow guests and services</string>
-  <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
-  <string name="allow_guests">Allow guests and services</string>
-  <string name="guest_options_title">Guests and services</string>
-  <string name="ephemeral_options_title">タイマーメッセージ</string>
-  <string name="ephemeral_explanation_text">この会話のすべての参加者は、タイマーメッセージが有効になります</string>
-  <string name="show_all_participants">全てを表示 (%1$s)</string>
-  <string name="allow_guests_error_title">何か問題があります</string>
-  <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
-  <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
-  <string name="allow_guests_warning_confirm">削除</string>
-  <string name="guests_are_present">ゲストユーザーが存在</string>
-  <string name="services_are_present">SERVICES ARE ACTIVE</string>
-  <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
-  <string name="participants_details_header_title">詳細</string>
-  <string name="invitation_link_description">Wire を持っていない場合でも、誰でもリンクから会話に参加できます。</string>
-  <string name="create_link_button">リンクを作成</string>
-  <string name="copy_link_button">リンクをコピー</string>
-  <string name="share_link_button">リンクを共有</string>
-  <string name="revoke_link_button">リンク取消...</string>
-  <string name="invitation_link_title">リンクで他のユーザーを招待します</string>
-  <string name="link_copied_toast">リンクをコピーしました!</string>
-  <string name="revoke_link_message">新しいゲストはこのリンクに参加することができません。現在のゲストはアクセス可能です。</string>
-  <string name="revoke_link_confirm">リンク取消</string>
-  <string name="invite_button_description">外部ユーザは、あなたのチームの会話に参加できます。</string>
-  <string name="invite_people">招待する</string>
-  <string name="guest_room_name">ゲストルーム</string>
-  <string name="guest_time_left_hours">%1$s 時間経過</string>
-  <string name="guest_time_left_hours_minutes">%1$s.%2$s 時間 経過</string>
-  <string name="guest_time_left_minutes">残り%1$s 分未満</string>
-  <string name="backup_description">あなたの会話履歴をバックアップして保存します。        \nこれにより、もしデバイスをなくしたり、新しいデバイスに切り替えた場合でも、会話記録をリストアすることができます。</string>
-  <string name="pref_account_backup_title">会話をバックアップする</string>
-  <string name="add_email_address">メールアドレスを追加</string>
-  <string name="set_a_password">パスワードを設定</string>
-  <string name="email_and_password_explanation">Wire 上で複数のデバイスを使う為、メールアドレスとパスワードが必要です。</string>
-  <string name="new_device_password">新しいデバイス</string>
-  <string name="new_device_password_explanation">あなたの Wire アカウントのパスワードを入力してください。\n%1$s</string>
-  <string name="restore_from_backup_button">バックアップからリストア</string>
-  <string name="second_launch__header">前にこのデバイスのワイヤーを使用しました。</string>
-  <string name="second_launch__sub_header">長時間経過すると、幾つかのメッセージはここには表示されません。</string>
-  <string name="restore_override_alert_title">リストア履歴</string>
-  <string name="restore_override_alert_text">リストアするとバックアップされた内容で、デバイスの会話履歴を上書きします。また、同じプラットフォームで作成されたバックアップデータからのみリストア可能です。</string>
-  <string name="restore_override_alert_ok">バックアップファイルを選択します。</string>
-  <string name="back_up_progress">バックアップ中...</string>
-  <string name="back_up_progress_complete">完了</string>
-  <string name="restore_progress">リストア中...</string>
-  <string name="pref_account_backup_warning_title">メールアドレスとパスワードを設定します。</string>
-  <string name="pref_account_backup_warning_message">会話履歴をバックアップするために、Eメールアドレスとパスワードが必要です。[設定] - [アカウント] から入力してください。</string>
-  <string name="pref_account_backup_warning_ok">OK</string>
-  <string name="export_generic_error_title">ファイルを保存できませんでした</string>
-  <string name="export_generic_error_text">保存に必要な空き容量がないか、アクセス権限がありません。</string>
-  <string name="backup_button">今すぐバックアップする</string>
-  <string name="backup_import_error_unknown_title">何か問題があります</string>
-  <string name="backup_import_error_unknown">あなたの履歴はリストアできませんでした。</string>
-  <string name="backup_import_error_unsupported_version_title">互換性のないバックアップ</string>
-  <string name="backup_import_error_unsupported_version">このバックアップデータは、新しいまたは古すぎる Wire で作成されたため、リストアできません。</string>
-  <string name="backup_import_error_wrong_account_title">バックアップに不備があります</string>
-  <string name="backup_import_error_wrong_account">別のアカウントからの履歴はリストアできません。</string>
-  <string name="video_paused">ビデオ停止中</string>
-  <string name="calling_degraded_title">新しいデバイス</string>
-  <string name="call_info_text">グループ会話には 300 人まで参加できます。ビデオ通話はあなたと他３名と通話できます。</string>
-  <string name="markdown_link_dialog_title">リンクを開く</string>
-  <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
-  <string name="markdown_link_dialog_confirmation">OK</string>
-  <string name="markdown_link_dialog_cancel">キャンセル</string>
-  <string name="max_participants_alert_title">このグループは満員です</string>
-  <string name="max_participants_create_alert_message">グループ会話には 300 人まで参加することができます。</string>
-  <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
-  <string name="sso_signin_button">企業ログイン</string>
-  <string name="sso_signin_error_title">何か問題があります</string>
-  <string name="sso_signin_error_message">詳細については、チームの管理者にお問い合わせください (Error %1$s)</string>
-  <string name="sso_signin_error_try_again_message">しばらくしてからもう一度お試しください (Error %1$s)</string>
-  <string name="sso_signin_wrong_code_title">無効なコード</string>
-  <string name="sso_signin_wrong_code_message">企業 シングルサインオン アクセスコードを確認して、もう一度やりなおしてください。</string>
-  <string name="participant_search_hint">名前で検索</string>
-  <string name="participant_search_title">友人</string>
-  <string name="generic_service_warning">Services have access to the content of this conversation</string>
-  <string name="add_services_button_text">サービスを管理</string>
-  <string name="wire_notification_name">Wire Notification</string>
-  <string name="wire_ping_name">Wire Ping</string>
+    </plurals>
+    <string name="other_set_message_timer">[[%1$s]] が タイマーメッセージを [[%2$s]] に設定しました</string>
+    <string name="you_set_message_timer">[[You]] が タイマーメッセージを [[%1$s]] に設定しました</string>
+    <string name="other_turned_off_message_timer">[[%1$s]] が タイマーメッセージをオフにしました</string>
+    <string name="you_turned_off_message_timer">[[You]] がタイマーメッセージをオフにしました</string>
+    <!-- Others -->
+    <string name="app_name">Wire</string>
+    <string name="content__system__item_separator">,</string>
+    <string name="content__system__last_item_separator">と</string>
+    <string name="content__system__you">あなた</string>
+    <plurals name="content__system__other_members">
+        <item quantity="other">他 %1$s 名</item>
+    </plurals>
+    <!-- System notifications -->
+    <string name="system_notification__silence_call">辞退</string>
+    <string name="system_notification__join_call">承諾</string>
+    <string name="system_notification__leave_call">通話を終了</string>
+    <string name="system_notification__calling_one">発信中...</string>
+    <string name="system_notification__calling_group">%1$s からの着信中...</string>
+    <string name="system_notification__video_calling_one">ビデオ通話で呼出中...</string>
+    <string name="system_notification__video_calling_group">%1$s をビデオ通話で呼出中...</string>
+    <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
+    <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
+    <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+    <string name="ws_foreground_notification_summary">Tap here for more information.</string>
+    <!-- Notification actions -->
+    <string name="notification__action__call">呼び出し</string>
+    <string name="notification__action__reply">返信</string>
+    <!-- Quick reply -->
+    <string name="quick_reply__counter">%1$d / %2$d</string>
+    <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
+    <string name="quick_reply__open_wire">Wire を開く</string>
+    <!-- Save image notification -->
+    <string name="notification__image_saving__content__title">Wire の写真を保存しました。</string>
+    <string name="notification__image_saving__content__subtitle">タップして表示します。</string>
+    <string name="notification__image_saving__action__share">共有</string>
+    <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
+    <dimen name="notification__image_saving__image_width">512dp</dimen>
+    <!-- forced update -->
+    <string name="forced_update__header">重要な更新</string>
+    <string name="forced_update__sub_header">Wire の最新バージョンをインストールしてください</string>
+    <string name="forced_update__download_button">ダウンロード</string>
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- Sharing -->
+    <string name="sharing__image_preview__confirm_action">送信</string>
+    <string name="sharing__user_not_logged_in__dialog__title">ログインしてください</string>
+    <string name="sharing__user_not_logged_in__dialog__message">Wire を開き、ログインして共有してください。</string>
+    <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
+    <!-- Sync errors -->
+    <string name="in_app_notification__sync_error__create_group_convo__title">作成できません</string>
+    <string name="in_app_notification__sync_error__create_group_convo__body">%1$s との会話を作成できませんでした。</string>
+    <string name="in_app_notification__sync_error__add_user__body">%1$s は会話への追加を希望していません。</string>
+    <string name="in_app_notification__sync_error__add_multiple_user__body">選択した人の一人は会話への追加を希望していません。</string>
+    <string name="in_app_notification__sync_error__unknown__body">何か問題があります。もう一度やり直してください。</string>
+    <string name="in_app_notification__sync_error__create_convo__button">続ける</string>
+    <!--Timestamp formatting -->
+    <string name="timestamp__just_now">ちょうど今</string>
+    <plurals name="timestamp__x_minutes_ago">
+        <item quantity="other">%1$d 分前</item>
+    </plurals>
+    <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
+    <!-- Example: FRIDAY, MAR 9, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__no_year">MM/dd E, %1$s</string>
+    <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__with_year">YYYY/MM/dd E, %1$s</string>
+    <!-- Example: MAR 9, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__no_year_no_weekday">MMM d, %1$s</string>
+    <!-- Example: MAR 9, 2015, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
+    <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
+    <!-- MONDAY -->
+    <!-- MARCH 2 -->
+    <!-- MARCH 2, 2015 -->
+    <!-- 23:15 -->
+    <string name="timestamp_pattern__24h_format">HH:mm</string>
+    <string name="timestamp_pattern__12h_format">hh:mm a</string>
+    <string name="country">国</string>
+    <string name="register">登録</string>
+    <string name="password_placeholder">パスワード</string>
+    <string name="email_placeholder">メール</string>
+    <string name="name_placeholder">名前</string>
+    <!-- Strings -->
+    <string name="edit_phone_number">電話番号を編集</string>
+    <string name="i_have_an_account">ログイン</string>
+    <plurals name="welcome__resend__timer_label">
+        <item quantity="other">%1$d 秒で新しいコードをリクエストすることができます</item>
+    </plurals>
+    <string name="welcome__resend__manual">再送信</string>
+    <string name="welcome__resend__callme">電話してください</string>
+    <string name="activation_code_info_manual">送信した確認コードを入力してください \n&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="enter_name">あなたを何と呼べばいいですか?</string>
+    <string name="enter_name_hint">氏名を入力します</string>
+    <string name="new_reg__password__forgot">パスワードをお忘れですか?</string>
+    <string name="phone_sign_in">電話</string>
+    <string name="email_sign_in">メール</string>
+    <string name="edit_email">メールを編集</string>
+    <string name="hello">&lt;b&gt;%s&lt;/b&gt; さん、こんにちは</string>
+    <string name="sign_in">ログイン</string>
+    <string name="new_reg__password_length">%1$s 文字以上で</string>
+    <string name="username__set__toast_error">ユーザーネームのアップデートエラー</string>
+    <!-- Giphy -->
+    <string name="giphy_preview__search_hint">Giphy を検索</string>
+    <string name="giphy_preview__error">GIF が見つかりません。</string>
+    <string name="giphy_preview__message_via_random_trending">Giphy.com から</string>
+    <string name="giphy_preview__message_via_search">%s · giphy.com から</string>
+    <string name="service_giphy_name">Giphy</string>
+    <!--Sketch-->
+    <string name="drawing__tip__picture__message">色をタップしてブラシのサイズを変更します。\n\nシェイクして写真を削除します。</string>
+    <string name="drawing__tip__message">色をタップしてブラシのサイズを変更します。\n\n長押しして領域を塗りつぶします。</string>
+    <string name="sketch__emoji_keyboard__size_label__small">小</string>
+    <string name="sketch__emoji_keyboard__size_label__medium">中</string>
+    <string name="sketch__emoji_keyboard__size_label__large">大</string>
+    <string name="toolbar__sketch__action_close">閉じる</string>
+    <string name="drawing__text_hint">メッセージを入力します</string>
+    <!-- Location sharing -->
+    <string name="location_sharing__tip">地図をドラッグして場所を変更します</string>
+    <string name="location_sharing__permission_error">現在の場所を取得できません。アクセスを拒否されました</string>
+    <string name="location_sharing__send_button">送信</string>
+    <string name="location_sharing__enable_system_location__title">場所を使用しますか?</string>
+    <string name="location_sharing__enable_system_location__message">現在位置を表示するために、設定で場所を有効にしてください</string>
+    <string name="location_sharing__enable_system_location__confirm">設定</string>
+    <string name="location_sharing__enable_system_location__cancel">キャンセル</string>
+    <string name="location_sharing__missing_play_services">場所を共有するため Google Play サービスが必要です</string>
+    <!-- From SyncEngine -->
+    <string name="new_reg__phone_signup__create_account">アカウントを作成</string>
+    <!-- OTR -->
+    <string name="otr__remove_device__title">%1$s を削除</string>
+    <string name="otr__remove_device__message">パスワードを入力してください</string>
+    <string name="otr__remove_device__default">デバイス</string>
+    <string name="otr__remove_device__button_delete">OK</string>
+    <string name="otr__remove_device__button_cancel">キャンセル</string>
+    <string name="otr__remove_device__error">パスワードが間違っています</string>
+    <string name="otr__error_dialog__cannot_register__message">このデバイスで Wire を使用するため、他のデバイスを 1 つ削除してください。</string>
+    <string name="otr__error_dialog__cannot_register__manage_devices_button">デバイスを管理</string>
+    <string name="otr__error_dialog__cannot_register__log_out_button">ログアウト</string>
+    <!-- OTR Participants -->
+    <string name="otr__participant__device_header">Wire はそれぞれのデバイスに固有のフィンガープリントを付与します。それを %1$s と比較して、会話を確認します。</string>
+    <string name="otr__participant__device_header__no_devices">%1$s は古いバージョンの Wire を使用しています。デバイスは表示されません。</string>
+    <string name="otr__participant__device_header__link_text">_なぜ会話を確認するのですか? _</string>
+    <string name="otr__participant__device_class__unknown">不明</string>
+    <string name="otr__participant__device_class__phone">電話</string>
+    <string name="otr__participant__device_class__tablet">タブレット</string>
+    <string name="otr__participant__device_class__desktop">デスクトップ コンピューター</string>
+    <string name="otr__participant__tab_details">詳細</string>
+    <string name="otr__participant__tab_devices">デバイス</string>
+    <string name="otr__participant__single_device__my_fingerprint_link">自分のデバイスのフィンガープリントを表示</string>
+    <string name="otr__participant__single_device__reset_session_link">セッションをリセット</string>
+    <string name="otr__participant__my_device__description">お使いのデバイスのフィンガープリント</string>
+    <string name="otr__participant__my_device__show_all_devices_link">自分のすべてのデバイスを表示</string>
+    <string name="otr__participant__single_device__description">%1$s のデバイスに表示されるフィンガー プリントと一致することを確認します。</string>
+    <string name="otr__participant__single_device__how_to_link">_どうすればいいですか?_</string>
+    <string name="otr__device_id">ID: %s</string>
+    <string name="otr__first_launch__header">このデバイスで Wire を使用するの初めてです。</string>
+    <string name="otr__first_launch__sub_header">プライバシー上の理由から、会話の履歴はここに表示されません。</string>
+    <string name="otr__first_launch__button">OK</string>
+    <string name="otr__signin__info_text">ログイン</string>
+    <string name="otr__reset_session__message_ok">セッションはリセットされました</string>
+    <string name="otr__reset_session__message_fail">セッションをリセットできませんでした</string>
+    <string name="otr__reset_session__button_ok">OK</string>
+    <string name="otr__reset_session__button_fail">もう一度試す</string>
+    <string name="advanced_image_download_wifi_info">この写真は、Wi-Fiに再接続したときに表示されます</string>
+    <string name="change_settings">設定を変更</string>
+    <string name="conversation_list__action_join_call">参加する</string>
+    <!-- Conversation Toolbar -->
+    <string name="conversation_toolbar__collection">コレクション</string>
+    <string name="conversation_toolbar__call_video">ビデオ通話</string>
+    <string name="conversation_toolbar__call_audio">音声通話</string>
+    <!-- Asset upload errors -->
+    <string name="asset_upload_error__not_found__title">ファイルが見つかりません</string>
+    <string name="asset_upload_error__not_found__message">指定したファイルを取得できません</string>
+    <string name="asset_upload_error__not_found__button">OK</string>
+    <string name="asset_upload_error__file_too_large__title">ファイルが大きすぎます</string>
+    <string name="asset_upload_error__file_too_large__message_default">大きいファイルのアップロードはサポートされていません。</string>
+    <string name="asset_upload_error__file_too_large__message">%1$s までのファイルを送信できます。</string>
+    <string name="asset_upload_error__file_too_large__button">OK</string>
+    <string name="asset_upload_warning__large_file__title">Wi-Fi を使用していません</string>
+    <string name="asset_upload_warning__large_file__message_default">モバイル ネットワーク経由で大きなファイルを送信してもよろしいですか?</string>
+    <string name="asset_upload_warning__large_file__message">モバイル ネットワーク経由で %1$s を送信してもよろしいですか?</string>
+    <!-- Video message errors -->
+    <string name="audio_message_error__missing_audio_permissions">音声メッセージを送信するには、オーディオを録音するアクセス許可を付与してください。</string>
+    <!-- Audio bit rate mode -->
+    <string name="audio_message__constant_bit_rate">固定ビットレート</string>
+    <!-- no contacts -->
+    <string name="no_conversation_in_list__header">まだ会話が存在しません。</string>
+    <string name="all_archived__header">全てアーカイブ済み</string>
+    <string name="no_conversation_in_list__message">会話を開始またはグループを作成します。</string>
+    <string name="cursor__type_a_message">メッセージを入力します</string>
+    <string name="cursor__ephemeral_message">タイマーメッセージ</string>
+    <string name="tooltip_record">ビデオを記録</string>
+    <string name="tooltip_camera">写真を追加</string>
+    <string name="tooltip_sketch">画像を描く</string>
+    <string name="tooltip_ping">Ping</string>
+    <string name="tooltip_emoji">絵文字</string>
+    <string name="tooltip_location">場所</string>
+    <string name="tooltip_more">その他の操作</string>
+    <string name="tooltip_audio_message">長押しして音声メッセージを送信します</string>
+    <string name="tooltip_file">ファイルを送信</string>
+    <string name="tooltip_gif">GIF</string>
+    <string name="tooltip_mention">Add Mention</string>
+    <!-- Delete -->
+    <string name="conversation__message_action__delete_for_me">自分宛のみ削除しますか?</string>
+    <string name="conversation__message_action__delete_for_everyone">すべての人宛を削除しますか?</string>
+    <string name="conversation__message_action__delete_details">この操作は元に戻すことができません。</string>
+    <string name="conversation__message_action__delete__dialog__cancel">キャンセル</string>
+    <string name="conversation__message_action__delete__dialog__ok">削除</string>
+    <string name="conversation__message_action__delete__confirmation">メッセージを削除しました</string>
+    <string name="conversation__action_mode__copy__description">%1$s からのメッセージ</string>
+    <string name="conversation__action_mode__copy__toast">コピーしました</string>
+    <string name="conversation__action_mode__fwd__dialog__title">コンテンツの準備中</string>
+    <string name="conversation__action_mode__fwd__dialog__message">しばらくお待ちください&#8230;</string>
+    <string name="conversation__action_mode__fwd__chooser__title">共有する</string>
+    <!-- video message preview -->
+    <string name="audio_message__recording__slide_control__slide_hint">上にスワイプして送信します</string>
+    <string name="audio_message__recording__slide_control__tap_hint">タップすると送信します</string>
+    <string name="audio_message__recording__tap_to_record">タップしてメッセージを記録します\nその後 _GLYPH_ することができます</string>
+    <string name="audio_message__recording__failure__title">音声を録音できません</string>
+    <string name="audio_message__recording__failure__message">もう一度やり直してください。</string>
+    <string name="audio_message__recording__limit_reached__title">録音を停止しました</string>
+    <string name="audio_message__recording__limit_reached__message">音声メッセージは 25MB に制限されています。このメッセージを送信しますか?</string>
+    <string name="audio_message__recording__limit_reached__confirmation">送信</string>
+    <string name="hint_change_filter">上記のフィルターを選択します。</string>
+    <string name="message_bottom_menu_action_forward">共有</string>
+    <string name="message_bottom_menu_action_copy">コピー</string>
+    <string name="message_bottom_menu_action_edit">編集</string>
+    <string name="message_bottom_menu_action_like">いいね！</string>
+    <string name="message_bottom_menu_action_unlike">いいね！取消</string>
+    <string name="message_bottom_menu_action_save">保存</string>
+    <string name="message_bottom_menu_action_open">開く</string>
+    <string name="message_bottom_menu_action_delete">削除</string>
+    <string name="message_bottom_menu_action_delete_local">自分宛を削除</string>
+    <string name="message_bottom_menu_action_delete_global">すべての人宛を削除</string>
+    <string name="message_bottom_menu_action_reveal">会話で表示する</string>
+    <string name="message_bottom_menu_action_reply">返信</string>
+    <string name="likes_list__header">いいね！しました</string>
+    <string name="message_bottom_menu_action_save_ok">写真を保存しました</string>
+    <string name="message_footer__tap_to_like">タップしていいね！</string>
+    <plurals name="message_footer__number_of_likes">
+        <item quantity="other">%1$d 人</item>
+    </plurals>
+    <string name="message_footer__status__sending">送信中&#8230;</string>
+    <string name="message_footer__status__sent">%1$s \u30FB 送信しました</string>
+    <string name="message_footer__status__delivered">%1$s \u30FB 配信しました</string>
+    <string name="message_footer__status__failed">送信に失敗しました。_再送信_</string>
+    <string name="message_footer__status__deleted">%1$s \u30FB 削除しました</string>
+    <string name="ephemeral_message__timeout_selection_info">メッセージが消えるまでの時間を設定する</string>
+    <string name="usernames__take_over__summary">Wireでのユーザーネームを選ぶ。もっと知る。</string>
+    <string name="usernames__take_over__choose">自分のものを選ぶ</string>
+    <string name="usernames__take_over__keep">これにする</string>
+    <string name="ephemeral_message__timeout__off">オフ</string>
+    <string name="ephemeral_message__options_header">タイマーメッセージ</string>
+    <string name="guests_option_on">オン</string>
+    <plurals name="unit_years">
+        <item quantity="other">%1$s 年</item>
+    </plurals>
+    <plurals name="unit_weeks">
+        <item quantity="other">%1$s 週</item>
+    </plurals>
+    <plurals name="unit_days">
+        <item quantity="other">%1$s 日</item>
+    </plurals>
+    <plurals name="unit_hours">
+        <item quantity="other">%1$s 時</item>
+    </plurals>
+    <plurals name="unit_minutes">
+        <item quantity="other">%1$s 分</item>
+    </plurals>
+    <plurals name="unit_seconds">
+        <item quantity="other">%1$s 秒</item>
+    </plurals>
+    <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
+    <string name="ephemeral_message_footer_single_unit">残り %1$s</string>
+    <string name="collection_header_pictures">写真</string>
+    <string name="collection_header_files">ファイル</string>
+    <string name="collection_header_links">リンク</string>
+    <string name="collection_header_today">今日</string>
+    <string name="collection_header_yesterday">昨日</string>
+    <string name="collection_empty">コレクションにアイテムはありません</string>
+    <string name="collection_all">全てを表示 %1$s</string>
+    <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+    <string name="multi_share_search_hint">送信...</string>
+    <string name="search__box__hint_text">テキストメッセージを検索する</string>
+    <string name="search__no_results">結果はありません</string>
+    <!-- Conversation List -->
+    <plurals name="conversation_list__new_message_count">
+        <item quantity="other">%1$s messages</item>
+    </plurals>
+    <plurals name="conversation_list__pings_count">
+        <item quantity="other">%1$s がPingしました</item>
+    </plurals>
+    <plurals name="conversation_list__new_likes_count">
+        <item quantity="other">%1$s ♥</item>
+    </plurals>
+    <plurals name="conversation_list__missed_calls_plural">
+        <item quantity="other">%1$s件の不在着信</item>
+    </plurals>
+    <string name="conversation_list__missed_calls_count">不在着信</string>
+    <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
+    <plurals name="conversation_list__mentions_count">
+        <item quantity="other">%1$s mentions</item>
+    </plurals>
+    <plurals name="conversation_list__quotes_count">
+        <item quantity="other">%1$s replies</item>
+    </plurals>
+    <string name="conversation_list__unsent_message_long">⚠️ 未送信メッセージ</string>
+    <string name="conversation_list__unsent_message_short">⚠</string>
+    <string name="conversation_list__shared__image">写真を共有しました</string>
+    <string name="conversation_list__shared__file">ファイルを共有しました</string>
+    <string name="conversation_list__shared__video">ビデオを共有します</string>
+    <string name="conversation_list__shared__audio">音声メッセージを共有しました</string>
+    <string name="conversation_list__shared__location">場所を共有しました</string>
+    <string name="conversation_list__missed_call">不在着信</string>
+    <string name="conversation_list__pinged">Ping しました</string>
+    <string name="conversation_list__ephemeral">Someone sent a message</string>
+    <string name="conversation_list__single_eph_and_mention">あなたへのメンション</string>
+    <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
+    <string name="conversation_list__single_eph_and_quote">あなたへの返信</string>
+    <string name="conversation_list__group_eph_and_quote">Someone replied to you</string>
+    <string name="conversation_list__typing">メッセージを入力中</string>
+    <string name="conversation_list__someone">誰か</string>
+    <string name="conversation_list__added">[[%1$s]] が追加されました</string>
+    <string name="conversation_list__added_you">[[%1$s]] あなたを追加しました</string>
+    <string name="conversation_list__left_you">あなたは退出しました</string>
+    <string name="conversation_list__removed_you">[[%1$s]] あなたを削除しました</string>
+    <string name="conversation_list__header__title">会話</string>
+    <string name="conversation_list__header__archive_title">アーカイブ</string>
+    <string name="conversation_list__single_with_quote">Reply: %1$s</string>
+    <string name="conversation_list__group_with_quote">Reply from %1$s: %2$s</string>
+    <string name="conversation_list__single_without_quote">%1$s</string>
+    <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
+    <string name="guest_indicator">ゲスト</string>
+    <string name="participant_tab_guest_indicator_label">ゲスト</string>
+    <string name="availability_none">なし</string>
+    <string name="availability_available">利用できます</string>
+    <string name="availability_away">不在</string>
+    <string name="availability_busy">取り込み中</string>
+    <string name="availability_text_available">%1$s は連絡可能です。</string>
+    <string name="availability_text_away">%1$s は離席中です。</string>
+    <string name="availability_text_busy">%1$s は取り込み中です。</string>
+    <string name="availability_setstatus">待ち受け状態を設定します。</string>
+    <string name="preferences_profile_new">新しいチームまたはアカウント</string>
+    <string name="preferences_profile_add_account">アカウントを追加</string>
+    <string name="preferences_profile_create_team">新しいチームを作成</string>
+    <string name="preferences_profile_in_team">%1$s 中</string>
+    <string name="new_devices_dialog_title">あなたの Wire アカウントにデバイスを接続しました。</string>
+    <string name="new_devices_dialog_info">これを行わなかった場合は、デバイスを削除し、あなたのパスワードをリセットします。</string>
+    <string name="new_devices_dialog_manage_devices">デバイスを管理</string>
+    <string name="teams_set_email_title">アカウント</string>
+    <string name="teams_set_email_subtitle">業務用メールアドレスを入力してください。</string>
+    <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
+    <string name="teams_set_email_about">もっと詳しく知る</string>
+    <string name="teams_set_password_title">パスワード設定</string>
+    <string name="teams_set_password_hint">最低8 文字以上</string>
+    <string name="teams_set_username_title">ユーザー名を設定</string>
+    <string name="teams_set_username_hint">ユーザー名</string>
+    <string name="teams_set_team_name_title">チーム名</string>
+    <string name="teams_set_team_name_subtitle">後でいつでも変更することができます。</string>
+    <string name="teams_set_team_name_hint">チーム名</string>
+    <string name="teams_set_team_name_about">Wire チームとはなんですか？</string>
+    <string name="teams_verify_email_title">メール受信しました。</string>
+    <string name="teams_verify_email_subtitle">%1$s に送信された確認コードを入力してください。</string>
+    <string name="teams_verify_email_resend">コードを再送信</string>
+    <string name="teams_verify_email_change">メール アドレスを変更</string>
+    <string name="teams_set_name_title">あなたの名前</string>
+    <string name="teams_set_name_hint">フルネーム</string>
+    <string name="app_entry_create_account">人</string>
+    <string name="app_entry_create_account_sub">アカウントを作成</string>
+    <string name="app_entry_create_team">プロ</string>
+    <string name="app_entry_create_team_sub">新しいチームを作成</string>
+    <string name="app_entry_login_sub">既にアカウントをお持ちですか？</string>
+    <string name="app_entry_login">ログイン</string>
+    <string name="app_entry_tc_dialog_title">利用規約</string>
+    <string name="app_entry_tc_dialog_message">引き続き同意する必要があります。</string>
+    <string name="app_entry_notifications_dialog_title">通知センター</string>
+    <string name="app_entry_notifications_dialog_message">通知には、通知、音、アイコン バッジなどがあります。これらは、[設定]で変更できます。</string>
+    <string name="app_entry_dialog_accept">応答</string>
+    <string name="app_entry_dialog_cancel">キャンセル</string>
+    <string name="app_entry_dialog_log_in">ログイン</string>
+    <string name="app_entry_dialog_no_thanks">不要です</string>
+    <string name="app_entry_dialog_not_now">後で</string>
+    <string name="app_entry_dialog_view">見る</string>
+    <string name="app_entry_dialog_privacy_policy">プライバシー ポリシー</string>
+    <string name="app_entry_email_sent">メール送信済</string>
+    <string name="teams_set_username_subtitle">ユーザー名は他のユーザがあなたを見つけるのに役立ちます。</string>
+    <string name="app_entry_sso_dialog_title">企業ログイン</string>
+    <string name="app_entry_sso_dialog_message">企業用シングルサインオン アクセスコードを入力します。</string>
+    <string name="app_entry_sso_input_hint"></string>
+    <string name="pick_user_teams_invite">チームに招待する</string>
+    <string name="teams_invitations_skip">スキップ</string>
+    <string name="teams_invitations_done">完了</string>
+    <string name="teams_invitations_error_too_many">招待数の上限に達しました。</string>
+    <string name="teams_invitations_error_already_sent">送信済</string>
+    <string name="teams_invitations_error_generic">問題が生じたようです。もう一度やり直してください。</string>
+    <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
+    <string name="teams_invitations_error_invalid_email">有効なメール アドレスを入力してください。</string>
+    <string name="teams_invitations_error_email_exists">このメール アドレスは既に使用されています。</string>
+    <string name="teams_invitations_error_no_internet">インターネット接続なし</string>
+    <string name="invitation_screen_title">チームを作成します</string>
+    <string name="invitation_screen_subtitle">同僚を招待します</string>
+    <string name="open_service_conversation_button_text">会話を始めます</string>
+    <string name="remove_service_button_text">サービスを削除</string>
+    <string name="integrations_create_conversation">会話を作成</string>
+    <string name="no_matches_found">一致するものが見つかりません</string>
+    <string name="loading_services">サービスを読み込んでいます&#8230;</string>
+    <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
+    <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
+    <string name="create_group_conversation">グループを作成します</string>
+    <string name="create_guest_room_conversation">ゲストルームを作成する</string>
+    <string name="manage_services">サービスを管理</string>
+    <string name="next_button">次へ</string>
+    <string name="skip_button">スキップ</string>
+    <string name="done_button">完了</string>
+    <string name="new_group_header">グループを作成</string>
+    <string name="add_participants_empty_header">参加者を追加</string>
+    <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
+    <string name="new_conv_no_results">見つかりませんでした</string>
+    <string name="new_conv_no_contacts">No contacts</string>
+    <string name="participants_divider_services">サービス (%1$s)</string>
+    <string name="participants_divider_people">人 (%1$s)</string>
+    <string name="group_name_hint">グループ名</string>
+    <string name="allow_guests_toggle_text">Allow guests and services</string>
+    <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
+    <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
+    <string name="allow_guests">Allow guests and services</string>
+    <string name="guest_options_title">Guests and services</string>
+    <string name="ephemeral_options_title">タイマーメッセージ</string>
+    <string name="notifications_options_title">通知センター</string>
+    <string name="ephemeral_explanation_text">この会話のすべての参加者は、タイマーメッセージが有効になります</string>
+    <string name="notifications_explanation_text">You can be notified about everything (including audio and video calls) or only when you are mentioned.</string>
+    <string name="show_all_participants">全てを表示 (%1$s)</string>
+    <string name="allow_guests_error_title">何か問題があります</string>
+    <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
+    <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
+    <string name="allow_guests_warning_confirm">削除</string>
+    <string name="guests_are_present">ゲストユーザーが存在</string>
+    <string name="services_are_present">SERVICES ARE ACTIVE</string>
+    <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
+    <string name="participants_details_header_title">詳細</string>
+    <string name="invitation_link_description">Wire を持っていない場合でも、誰でもリンクから会話に参加できます。</string>
+    <string name="create_link_button">リンクを作成</string>
+    <string name="copy_link_button">リンクをコピー</string>
+    <string name="share_link_button">リンクを共有</string>
+    <string name="revoke_link_button">リンク取消...</string>
+    <string name="invitation_link_title">リンクで他のユーザーを招待します</string>
+    <string name="link_copied_toast">リンクをコピーしました!</string>
+    <string name="revoke_link_message">新しいゲストはこのリンクに参加することができません。現在のゲストはアクセス可能です。</string>
+    <string name="revoke_link_confirm">リンク取消</string>
+    <string name="invite_button_description">外部ユーザは、あなたのチームの会話に参加できます。</string>
+    <string name="invite_people">招待する</string>
+    <string name="guest_room_name">ゲストルーム</string>
+    <string name="guest_time_left_hours">%1$s 時間経過</string>
+    <string name="guest_time_left_hours_minutes">%1$s.%2$s 時間 経過</string>
+    <string name="guest_time_left_minutes">残り%1$s 分未満</string>
+    <string name="backup_description">あなたの会話履歴をバックアップして保存します。        \nこれにより、もしデバイスをなくしたり、新しいデバイスに切り替えた場合でも、会話記録をリストアすることができます。</string>
+    <string name="pref_account_backup_title">会話をバックアップする</string>
+    <string name="add_email_address">メールアドレスを追加</string>
+    <string name="set_a_password">パスワードを設定</string>
+    <string name="email_and_password_explanation">Wire 上で複数のデバイスを使う為、メールアドレスとパスワードが必要です。</string>
+    <string name="new_device_password">新しいデバイス</string>
+    <string name="new_device_password_explanation">あなたの Wire アカウントのパスワードを入力してください。\n%1$s</string>
+    <string name="restore_from_backup_button">バックアップからリストア</string>
+    <string name="second_launch__header">前にこのデバイスのワイヤーを使用しました。</string>
+    <string name="second_launch__sub_header">長時間経過すると、幾つかのメッセージはここには表示されません。</string>
+    <string name="restore_override_alert_title">リストア履歴</string>
+    <string name="restore_override_alert_text">リストアするとバックアップされた内容で、デバイスの会話履歴を上書きします。また、同じプラットフォームで作成されたバックアップデータからのみリストア可能です。</string>
+    <string name="restore_override_alert_ok">バックアップファイルを選択します。</string>
+    <string name="back_up_progress">バックアップ中...</string>
+    <string name="back_up_progress_complete">完了</string>
+    <string name="restore_progress">リストア中...</string>
+    <string name="pref_account_backup_warning_title">メールアドレスとパスワードを設定します。</string>
+    <string name="pref_account_backup_warning_message">会話履歴をバックアップするために、Eメールアドレスとパスワードが必要です。[設定] - [アカウント] から入力してください。</string>
+    <string name="pref_account_backup_warning_ok">OK</string>
+    <string name="export_generic_error_title">ファイルを保存できませんでした</string>
+    <string name="export_generic_error_text">保存に必要な空き容量がないか、アクセス権限がありません。</string>
+    <string name="backup_button">今すぐバックアップする</string>
+    <string name="backup_import_error_unknown_title">何か問題があります</string>
+    <string name="backup_import_error_unknown">あなたの履歴はリストアできませんでした。</string>
+    <string name="backup_import_error_unsupported_version_title">互換性のないバックアップ</string>
+    <string name="backup_import_error_unsupported_version">このバックアップデータは、新しいまたは古すぎる Wire で作成されたため、リストアできません。</string>
+    <string name="backup_import_error_wrong_account_title">バックアップに不備があります</string>
+    <string name="backup_import_error_wrong_account">別のアカウントからの履歴はリストアできません。</string>
+    <string name="video_paused">ビデオ停止中</string>
+    <string name="calling_degraded_title">新しいデバイス</string>
+    <string name="call_info_text">グループ会話には 300 人まで参加できます。ビデオ通話はあなたと他３名と通話できます。</string>
+    <string name="markdown_link_dialog_title">リンクを開く</string>
+    <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
+    <string name="markdown_link_dialog_confirmation">OK</string>
+    <string name="markdown_link_dialog_cancel">キャンセル</string>
+    <string name="max_participants_alert_title">このグループは満員です</string>
+    <string name="max_participants_create_alert_message">グループ会話には 300 人まで参加することができます。</string>
+    <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
+    <string name="sso_signin_button">企業ログイン</string>
+    <string name="sso_signin_error_title">何か問題があります</string>
+    <string name="sso_signin_error_message">詳細については、チームの管理者にお問い合わせください (Error %1$s)</string>
+    <string name="sso_signin_error_try_again_message">しばらくしてからもう一度お試しください (Error %1$s)</string>
+    <string name="sso_signin_wrong_code_title">無効なコード</string>
+    <string name="sso_signin_wrong_code_message">企業 シングルサインオン アクセスコードを確認して、もう一度やりなおしてください。</string>
+    <string name="participant_search_hint">名前で検索</string>
+    <string name="participant_search_title">友人</string>
+    <string name="generic_service_warning">Services have access to the content of this conversation</string>
+    <string name="add_services_button_text">サービスを管理</string>
+    <string name="wire_notification_name">Wire Notification</string>
+    <string name="wire_ping_name">Wire Ping</string>
+    <string name="reply_self_name">あなた</string>
+    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_video">ビデオ</string>
+    <string name="reply_message_type_audio">AUDIO MESSAGE</string>
+    <string name="reply_message_type_location">LOCATION</string>
+    <string name="reply_message_type_asset">ATTACHMENT</string>
+    <string name="reply_message_type_unknown">You cannot see this message.</string>
+    <string name="quote_timestamp_message">Original message from %s</string>
 </resources>

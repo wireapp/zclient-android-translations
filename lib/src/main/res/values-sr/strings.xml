@@ -20,1036 +20,1062 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!--*********************************************** ERRORS ***********************************************-->
-  <string name="generic_error_header">Нешто је пошло наопако</string>
-  <string name="generic_error_message">Покушајте поново</string>
-  <string name="internet_connectivity_error_header">Нема везе са интернетом</string>
-  <string name="internet_connectivity_error_message">Проверите везу са интернетом и покушајте поново</string>
-  <string name="too_many_attempts_header">Превише покушаја</string>
-  <string name="login_later_message">Покушајте пријаву касније</string>
-  <string name="email_exists_header">Адреса е-поште се већ користи</string>
-  <string name="email_exists_message">This email address has already been registered</string>
-  <string name="email_invalid_header">Неисправна адреса е-поште</string>
-  <string name="email_invalid_message">Унесите важећу адресу е-поште</string>
-  <string name="invalid_credentials_header">Неисправни подаци</string>
-  <string name="invalid_credentials_message">Проверите детаље и покушајте поново</string>
-  <string name="phone_exists_header">Број телефона је употребљен</string>
-  <string name="phone_exists_message">Број телефона који сте навели је већ регистрован. Покушајте поново</string>
-  <string name="phone_invalid_format_header">Неисправан број телефона</string>
-  <string name="phone_invalid_format_message">Унесите исправан број телефона</string>
-  <string name="phone_password_exists_header">Лозинка постоји</string>
-  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
-  <string name="invalid_code_header">Погрешан код</string>
-  <string name="incorrect_code_header">Неисправан код</string>
-  <string name="wrong_code_message">Унесите исправан код</string>
-  <string name="phone_pending_login_header">Код је већ послат</string>
-  <string name="phone_pending_login_message">Већ смо вам послали код путем СМС-а. Тапните на „Понови“ након 10 минута да добијете нови.</string>
-  <string name="phone_budget_exhausted_header">Превише захтева</string>
-  <string name="phone_budget_exhausted_message">Покушајте поново касније.</string>
-  <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_settings">Поставке</string>
-  <string name="camera_not_available">КАМЕРА НИЈЕ ДОСТУПНА</string>
-  <string name="camera_permissions_denied_title">Камера није доступна</string>
-  <string name="camera_permissions_denied_message">Да бисте сликали и слали фотографије, дајте дозволу за приступ камери</string>
-  <!-- Registration and Sign in -->
-  <string name="welcome__terms_of_service">НАСТАВЉАЈУЋИ, СЛАЖЕТЕ СЕ СА _УСЛОВИМА КОРИШЋЕЊА_</string>
-  <string name="profile__name__guidance__tooshort__title">БАР 2 ЗНАКА</string>
-  <string name="profile__email__placeholder">E-пошта</string>
-  <string name="profile__password__placeholder">Лозинка</string>
-  <string name="profile__password__guidance__tooshort__title">БАР 8 ЗНАКОВА</string>
-  <string name="profile__email__verify__instructions">Послали смо поруку на \n[[%1$s]]. \nИспратите везу за оверу ваше адресе.</string>
-  <string name="profile__email__verify__didnt_get">Нисте добили поруку?</string>
-  <string name="profile__email__verify__resend">Понови</string>
-  <string name="profile__guidance__invalid_email">Адреса е-поште коју сте унели није исправна. Проверите и покушајте поново</string>
-  <string name="new_reg__code_resent">Нови код вам је послат путем СМС-а</string>
-  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
-  <string name="new_reg__code_resent__call">Сачекајте позив</string>
-  <string name="new_reg__default_country">rs</string>
-  <!-- consider updating this for every new language -->
-  <string name="your_phone_number">Ваш број телефона</string>
-  <!-- Receive email/sms invitation -->
-  <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 SEARCH</string>
-  <string name="pick_user_search_hint">SEARCH</string>
-  <string name="choose_conversation">SEARCH</string>
-  <string name="people_picker__top_users_header_title">Најчешће контактирани</string>
-  <string name="people_picker__search_result_conversations_header_title">Групе</string>
-  <string name="people_picker__search_result_team_conversations_header_title">Групе %1$s</string>
-  <string name="people_picker__search_result_connections_header_title">Контакти</string>
-  <string name="people_picker__search_result_others_header_title">Повежи се</string>
-  <string name="people_picker__search_result__expander_title">Прикажи свих %1$s ↓</string>
-  <string name="people_picker__search_people">КОНТАКТИ</string>
-  <string name="people_picker__search_services">SERVICES</string>
-  <string name="receive_news_and_offers_request_title">Newsletter</string>
-  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
-  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
-  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
-  <string name="crashes_and_analytics_request_no">Не</string>
-  <string name="crashes_and_analytics_request_agree">I Agree</string>
-  <!-- Bots / Integrations / Services -->
-  <string name="integrations_picker__section_title">Услуге</string>
-  <string name="integrations_errors_add_service">Adding service not possible</string>
-  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
-  <string name="conversation_errors_full">The conversation is full</string>
-  <!-- start ui / people picker, contacts sharing -->
-  <string name="people_picker__share_contacts__title">Дели контакте</string>
-  <string name="people_picker__share_contacts__message">Вајер може да пронађе ваше пријатеље ако поделите контакте.</string>
-  <string name="people_picker__share_contacts__yay">Дозволи</string>
-  <string name="people_picker__share_contacts__nah">Одбиј</string>
-  <string name="people_picker__share_contacts__nevvah">Не питај више</string>
-  <!-- Invite -->
-  <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Обавестите пријатеље.</string>
-  <string name="people_picker__invite__share_text__header">%1$s жели да се повежете на Вајеру</string>
-  <string name="people_picker__invite__share_text__body">Ја сам на Вајеру. Потражи %1$s или посети get.wire.com</string>
-  <!-- Conversation: Quick menu -->
-  <string name="conversation_quick_menu__conversation_button__single_label">ОТВОРИ</string>
-  <!-- Conversation: System messages -->
-  <string name="content__system__other_joined">[[%1$s]] joined</string>
-  <string name="content__system__you_joined">[[You]] joined</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
-  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
-  <!-- Add people -->
-  <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
-  <plurals name="content__system__someone_added_people_with_others">
-    <item quantity="one">[[%1$s]] added %2$s and _%3$s other to the conversation_</item>
-    <item quantity="few">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
-    <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
-  </plurals>
-  <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
-  <plurals name="content__system__someone_added_people_and_you_with_others">
-    <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
-    <item quantity="few">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
-    <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
-  </plurals>
-  <string name="content__system__you_added_people">You added %1$s to the conversation</string>
-  <plurals name="content__system__you_added_people_with_others">
-    <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
-    <item quantity="few">You added %1$s and _%2$s others to the conversation_</item>
-    <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
-  </plurals>
-  <!-- Remove people -->
-  <string name="content__system__other_removed_other">[[%1$s]] уклони %2$s</string>
-  <string name="content__system__other_removed_you">[[%1$s]] вас уклони</string>
-  <string name="content__system__you_removed_other">You removed %1$s</string>
-  <string name="content__system__you_left">[[Ви]] изађосте</string>
-  <string name="content__system__other_left">[[%1$s]] изађе</string>
-  <!-- Create conversation -->
-  <string name="content__system__you_started_conversation">You started the conversation</string>
-  <string name="content__system__other_started_conversation">%1$s started the conversation</string>
-  <string name="content__system__with_you_only">with you</string>
-  <string name="content__system__with_list_only">with %1$s</string>
-  <plurals name="content__system__with_others_only">
-    <item quantity="one">with %1$s and _%2$s other_</item>
-    <item quantity="few">with %1$s and _%2$s others_</item>
-    <item quantity="other">with %1$s and _%2$s others_</item>
-  </plurals>
-  <string name="content__system__with_list_and_you">with %1$s and you</string>
-  <plurals name="content__system__with_others_and_you">
-    <item quantity="one">with %1$s, you and _%2$s other_</item>
-    <item quantity="few">with %1$s, you and _%2$s others_</item>
-    <item quantity="other">with %1$s, you and _%2$s others_</item>
-  </plurals>
-  <!-- Conversation: missed call -->
-  <string name="content__missed_call__you_called">[[ВИ]] СТЕ ПОЗВАЛИ</string>
-  <string name="content__missed_call__xxx_called">[[%1$s]] ПОЗВА</string>
-  <string name="content__you_pinged">[[ВИ]] СТЕ ПИНГОВАЛИ</string>
-  <string name="content__xxx_pinged">[[%1$s]] ПИНГОВАШЕ</string>
-  <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__message_error">ПОРУКА КОРИСНИКА [[%1$s]] НИЈЕ ПРИМЉЕНА. _ЗАШТО?_</string>
-  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
-  <string name="content__otr__identity_changed_error">ИДЕНТИТЕТ УРЕЂАЈА [[%1$s]] ЈЕ ПРОМЕЊЕН. НЕИСПОРУЧЕНА ПОРУКА. _ПОГЛЕДАЈТЕ ЗАШТО_</string>
-  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
-  <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
-  <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
-  <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
-  <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
-  <string name="content__otr__start_this_device__message">САДА КОРИСТИТЕ _ОВАЈ УРЕЂАЈ_</string>
-  <string name="content__otr__all_fingerprints_verified">СВИ ОТИСЦИ СУ ПРОВЕРЕНИ</string>
-  <string name="content__otr__lost_history">ОВАЈ УРЕЂАЈ НИСТЕ КОРИСТИЛИ НЕКО ВРЕМЕ. НЕКЕ ПОРУКЕ СЕ НЕЋЕ ПРИКАЗАТИ ОВДЕ.</string>
-  <string name="content__otr__unverified_device__message">ПОНИШТИЛИ СТЕ ВЕРИФИКАЦИЈУ ЗА УРЕЂАЈ _КОРИСНИКА %1$s_</string>
-  <string name="content__otr__your_unverified_device__message">ПОНИШТИЛИ СТЕ ВЕРИФИКАЦИЈУ ЗА _ВАШ УРЕЂАЈ_</string>
-  <string name="content__otr__new_member__message">НОВА ОСОБА СЕ ПРИДРУЖИЛА. _ПРОВЕРИТЕ УРЕЂАЈЕ_</string>
-  <!-- File transfer -->
-  <string name="content__file__status__default">%1$s</string>
-  <string name="content__file__status__uploading__minimized">ОТПРЕМАМ&#8230;</string>
-  <string name="content__file__status__cancelled__minimized">ОТКАЗАНО&#8230;</string>
-  <string name="content__file__status__downloading__minimized">ПРЕУЗИМАМ&#8230;</string>
-  <string name="content__file__status__download_failed__minimized">ПРЕУЗИМАЊЕ НЕУСПЕШНО</string>
-  <string name="content__file__status__upload_failed__minimized">ОТПРЕМАЊЕ НЕУСПЕШНО</string>
-  <string name="content__file__status__uploading">%1$s · ОТПРЕМАМ&#8230;</string>
-  <string name="content__file__status__cancelled">%1$s · ОТКАЗАНО&#8230;</string>
-  <string name="content__file__status__downloading">%1$s · ПРЕУЗИМАМ&#8230;</string>
-  <string name="content__file__status__download_failed">%1$s · ПРЕУЗИМАЊЕ НЕУСПЕШНО</string>
-  <string name="content__file__status__upload_failed">%1$s · ОТПРЕМАЊЕ НЕУСПЕШНО</string>
-  <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
-  <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
-  <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · ОТПРЕМАМ&#8230;</string>
-  <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · ОТКАЗАНО&#8230;</string>
-  <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · ПРЕУЗИМАМ&#8230;</string>
-  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · ПРЕУЗИМАЊЕ НЕУСПЕШНО</string>
-  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · ОТПРЕМАЊЕ НЕУСПЕШНО</string>
-  <string name="content__file__action__open">ОТВОРИ</string>
-  <string name="content__file__action__save">САЧУВАЈ</string>
-  <string name="content__file__action__open__no_app_found">Нема апликације за отварање ове врсте фајла</string>
-  <string name="content__file__action__save_completed">Фајл успешно сачуван</string>
-  <string name="content__file__action__save_error">Не могу да сачувам фајл</string>
-  <string name="content__location__no_map_placeholder">ЛОКАЦИЈА ЋЕ СЕ ПОЈАВИТИ НА МАПИ КАДА СЕ ВРАТИТЕ НА ВЕЗУ.</string>
-  <!-- Conversation actions -->
-  <string name="conversation__action__delete">Delete content&#8230;</string>
-  <string name="conversation__action__archive">Архивирај</string>
-  <string name="conversation__action__unarchive">Деархивирај</string>
-  <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
-  <string name="conversation__action__create_group">НАПРАВИ ГРУПУ</string>
-  <string name="conversation__action__notifications">Notifications&#8230;</string>
-  <string name="conversation__action__silence">Ућуткај</string>
-  <string name="conversation__action__unsilence">Укључи звук</string>
-  <string name="conversation__action__leave">Leave group&#8230;</string>
-  <string name="conversation__action__call">Позив</string>
-  <string name="conversation__action__picture">Слика</string>
-  <string name="conversation__action__block">Block&#8230;</string>
-  <string name="conversation__action__unblock">Одблокирај</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
-  <string name="conversation__action__notifications_everything">Everything</string>
-  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
-  <string name="conversation__action__notifications_nothing">Nothing</string>
-  <string name="conversation__action__notifications_title">Notify me about:</string>
-  <!-- Conversation: Profile Popover -->
-  <!-- Calling/voice -->
-  <string name="calling__slow_connection__title">Спор интернет</string>
-  <string name="calling__slow_connection__message">Ваша интернет веза је преспора да бисте сад позвали. Покушајте касније.</string>
-  <string name="calling__cannot_start__title">Microphone required</string>
-  <string name="calling__cannot_start__message">Да позовете, прекините текући позив.</string>
-  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
-  <string name="calling__cannot_start__cancel__message">ОТКАЖИ</string>
-  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
-  <string name="calling__video_call__slow_connection__message">Можда ћете имати сметње током позива</string>
-  <string name="incoming__controls__ongoing__speaker">ЗВУЧНИК</string>
-  <string name="incoming__controls__ongoing__mute">УЋУТКАЈ</string>
-  <string name="incoming__controls__ongoing__video">ВИДЕО</string>
-  <string name="incoming__controls__ongoing__flip">FLIP</string>
-  <string name="ongoing__poor_connection_message">ВИДЕО ЗАУСТАВЉЕН ЗБОГ ЛОШЕ ВЕЗЕ</string>
-  <string name="calling__self_preview_unavailable_long">КАМЕРА НИЈЕ ДОСТУПНА</string>
-  <string name="calling__header__joining">Повезивање&#8230;</string>
-  <string name="calling__header__outgoing_subtitle">Звони&#8230;</string>
-  <string name="calling__header__outgoing_video_subtitle">Звони&#8230;</string>
-  <string name="calling__header__incoming_subtitle">Позивање&#8230;</string>
-  <string name="calling__header__incoming_subtitle__video">Позивање&#8230;</string>
-  <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
-  <string name="call_banner_joining">Повезивање&#8230;</string>
-  <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
-  <string name="call_banner_incoming">%1$s is calling&#8230;</string>
-  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
-  <string name="calling_ongoing_call_title">Актуелни позив</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
-  <!-- Calling in group conversation -->
-  <string name="group_calling_title">Позовите</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
-  <string name="group_calling_confirm">Позив</string>
-  <!-- Connect request -->
-  <string name="connect__message">Здраво%1$s\nПовежимо се на Вајеру\n%2$s</string>
-  <string name="connect_request__sub_header__pending_label">На чекању</string>
-  <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
-  <string name="connect_request__unblock__button__text">Одблокирај</string>
-  <string name="send_connect_request__connect_button__text">CONNECT</string>
-  <plurals name="connect_inbox__link__name">
-    <item quantity="one">%1$s особа чека</item>
-    <item quantity="few">%1$s особе чекају</item>
-    <item quantity="other">%1$s особа чека</item>
-  </plurals>
-  <string name="connect_request__ignore_button__text">Игнориши</string>
-  <string name="content__message__connect_request__footer">ПОВЕЗАНО</string>
-  <string name="content__message__connect_request__auto_connect__footer">АУТО-ПОВЕЗИВАЊЕ. _ПОГЛЕДАЈТЕ ВИШЕ_</string>
-  <!-- Otr-->
-  <plurals name="conversation__degraded_confirmation__header__single_user">
-    <item quantity="one">%1$s користи нови уређај.</item>
-    <item quantity="few">%1$s користе нови уређај.</item>
-    <item quantity="other">%1$s користи нови уређај.</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__header__someone">Неко користи нови уређај.</string>
-  <string name="conversation__degraded_confirmation__header__multiple_user">%1$s и %2$s користе нове уређаје.</string>
-  <plurals name="conversation__degraded_confirmation__message">
-    <item quantity="one">Још увек желите да пошаљете своју поруку?</item>
-    <item quantity="few">Још увек желите да пошаљете своје поруке?</item>
-    <item quantity="other">Још увек желите да пошаљете своје поруке?</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__positive_action">Ипак пошаљи</string>
-  <plurals name="conversation__degraded_confirmation__negative_action">
-    <item quantity="one">Прикажи уређај</item>
-    <item quantity="few">Прикажи особе</item>
-    <item quantity="other">Прикажи особе</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__negative_action_self">Приказује ваше уређаје</string>
-  <string name="conversation_degraded_confirmation__header__you">Ви</string>
-  <!-- Picture selection confirmation -->
-  <string name="confirmation_menu__confirm_done">У реду</string>
-  <string name="confirmation_menu__cancel">ОТКАЖИ</string>
-  <!-- ADD TO CONVERSATION offline -->
-  <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <!-- Leave conversation -->
-  <string name="confirmation_menu__meta_remove">Напустити разговор?</string>
-  <string name="confirmation_menu__meta_remove_text">Нећете моћи да шаљете и примате поруке у овом разговору.</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <!-- Remove from conversation dialogue -->
-  <string name="confirmation_menu__header">Уклонити?</string>
-  <string name="confirmation_menu_text_with_name">%1$s неће моћи да шаље или прима поруке у овом разговору.</string>
-  <string name="confirmation_menu__confirm_remove">УКЛОНИ</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <!-- Block someone dialogue -->
-  <string name="confirmation_menu__block_header">Блокирати?</string>
-  <string name="confirmation_menu__block_text_with_name">%1$s неће моћи да вас контактира или позове на групне разговоре.</string>
-  <string name="confirmation_menu__confirm_block">Блокирај</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <string name="connect_request__footer__blocked_label">Блокирано</string>
-  <!-- Delete conversation -->
-  <string name="confirmation_menu__meta_delete">Обрисати садржај?</string>
-  <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
-  <!-- Rich media -->
-  <string name="content__youtube__error__text">видео није нађен</string>
-  <string name="mediaplayer__message__onsoundcloud">на СаундКлауду</string>
-  <string name="mediaplayer__message__onspotify">на Спотифају</string>
-  <!-- Invite banner -->
-  <!-- Self profile -->
-  <!-- Options and settings -->
-  <string name="settings_title">Поставке</string>
-  <!-- Options menu -->
-  <!-- Manage Team -->
-  <string name="pref_manage_team_title">Управљај тимом</string>
-  <!-- About screen -->
-  <string name="pref_category_title">Поставке</string>
-  <string name="pref_developer_screen_title">Поставке за програмере</string>
-  <string name="pref_dev_avs_screen_title">АВС поставке</string>
-  <string name="pref_profile_screen_title">Профил</string>
-  <!-- Account -->
-  <string name="pref_account_screen_title">Налог</string>
-  <string name="pref_account_name_title">Име</string>
-  <string name="pref_account_edit_name_title">Уреди име</string>
-  <string name="pref_account_details_category_title">Инфо</string>
-  <string name="pref_account_actions_category_title">Радње</string>
-  <string name="pref_account_appearance_category_title">Изглед</string>
-  <string name="pref_account_personal_information_category_title">Personal Information</string>
-  <string name="pref_account_conversations_category_title">History</string>
-  <string name="pref_account_username_title">Корисничко име</string>
-  <string name="pref_account_phone_title">Телефон</string>
-  <string name="pref_account_add_phone_title">Додајте број телефона</string>
-  <string name="pref_account_email_title">E-пошта</string>
-  <string name="pref_account_add_email_title">Додајте е-пошту</string>
-  <string name="pref_account_delete">Обриши</string>
-  <string name="pref_account_sign_out_title">Одјави се</string>
-  <string name="pref_account_color_title">Боја</string>
-  <string name="pref_account_picture_title">Слика</string>
-  <string name="pref_account_delete_title">Обриши налог</string>
-  <string name="pref_account_delete_warning_title">Обриши налог</string>
-  <string name="pref_account_delete_warning_message_email">Послаћемо поруку на:\n[[%1$s]]\nСледите везу у њој за трајно брисање вашег налога.</string>
-  <string name="pref_account_delete_warning_message_sms">Послаћемо СМС на:\n[[%1$s]]\nСледите везу у њој за трајно брисање вашег налога.</string>
-  <string name="pref_account_delete_warning_verify">У реду</string>
-  <string name="pref_account_delete_warning_cancel">Откажи</string>
-  <string name="pref_account_sign_out_warning_message">Заиста желите да се одјавите?</string>
-  <string name="pref_account_sign_out_warning_verify">Одјави се</string>
-  <string name="pref_account_sign_out_warning_cancel">Откажи</string>
-  <string name="pref_account_password_title">Ресетуј лозинку</string>
-  <string name="pref_account_edit_name_empty_warning">Има мора имати најмање 2 знака</string>
-  <string name="pref_account_edit_name_empty_verify">У реду</string>
-  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
-  <!-- Data Usage Permissions -->
-  <string name="pref_advanced_send_anonymous_data_title">Send Anonymous Data</string>
-  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
-  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
-  <!-- Options -->
-  <string name="pref_options_dark_theme_title">Тамна тема</string>
-  <string name="pref_options_screen_title">Опције</string>
-  <string name="pref_options_contacts_title">Дели контакте</string>
-  <string name="pref_options_contacts_summary">Ово помаже да се повежете са људима. Сви подаци су анонимни и не делимо их ни са ким.</string>
-  <string name="pref_options_vbr_title">Кодирање са променљивим протоком</string>
-  <string name="pref_options_vbr_summary">Ово чини да гласовни позиви троше мање података и раде боље на споријим везама. Искључите да користите кодирање сталним протоком.</string>
-  <string name="pref_options_alerts_category_title">Упозорења</string>
-  <string name="pref_options_calls_category_title">Позиви</string>
-  <string name="pref_options_sounds_title">Звуци</string>
-  <string name="pref_options_sounds_all">сви</string>
-  <string name="pref_options_sounds_new_conversations_and_talks_only">прва порука, пинг, позиви</string>
-  <string name="pref_options_sounds_none">без</string>
-  <string name="pref_options_vibration_title">Вибрација</string>
-  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
-  <string name="pref_options_ringtones_category_title">Звуци</string>
-  <string name="pref_options_ringtones_ringtone_title">Тон звона</string>
-  <string name="pref_options_ringtones_text_title">Тон поруке</string>
-  <string name="pref_options_ringtones_ping_title">Пинг</string>
-  <string name="pref_options_ringtones_default_summary">Вајеров подразумевани</string>
-  <string name="pref_options_ringtones_silent">Тихо</string>
-  <string name="pref_options_image_download_title">Преузми слике</string>
-  <string name="pref_options_image_download_always">увек</string>
-  <string name="pref_options_image_download_wifi">само бежична веза</string>
-  <string name="pref_options_media_category_title">Медији</string>
-  <string name="pref_options_requested_category_title">По захтеву корисника</string>
-  <string name="pref_options_cursor_send_button_title">Дугме за слање</string>
-  <string name="pref_options_cursor_send_button_summary">Искључите да шаљете тастатуром.</string>
-  <!-- Devices -->
-  <string name="pref_devices_screen_title">Уређаји</string>
-  <string name="pref_devices_current_device_category_title">Тренутни уређај</string>
-  <string name="pref_devices_other_devices_category_title">Остали уређаји</string>
-  <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
-  <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
-  <string name="pref_devices_device_id">ИД: %1$s</string>
-  <string name="pref_devices_device_verified">Верификован</string>
-  <string name="pref_devices_device_not_verified">Није верификован</string>
-  <string name="pref_devices_warning_summary">Ако не препознајете уређај изнад, уклоните га и ресетујте лозинку.</string>
-  <string name="pref_devices_device_screen_title">Детаљи уређаја</string>
-  <string name="pref_devices_device_fingerprint_category_title">Отисак кључа</string>
-  <string name="pref_devices_device_fingerprint_summary">Вајер сваком уређају додељује јединствени отисак. Упоредите отиске да проверите ваше уређаје и разговоре.</string>
-  <string name="pref_devices_device_actions_category_title">Радње</string>
-  <string name="pref_devices_device_reset_session_title">Ресетуј сесију</string>
-  <string name="pref_devices_device_reset_session_summary">Ако се отисци не поклапају, ресетујте сесију, на обе стране, да генеришете нове кључеве шифровања.</string>
-  <string name="pref_devices_device_remove_title">Уклони уређај</string>
-  <string name="pref_devices_device_remove_summary">Уклоните уређај ако га више не користите. Бићете одмах одјављени са њега.</string>
-  <string name="pref_devices_device_fingerprint_copy_description">Отисак</string>
-  <string name="pref_devices_device_fingerprint_copy_toast">Отисак копиран</string>
-  <!-- Advanced -->
-  <string name="pref_advanced_screen_title">Напредно</string>
-  <string name="pref_advanced_debug_report_title">Пошаљите извештај о грешци</string>
-  <string name="pref_advanced_debug_report_summary">Ово помаже Вајер подршци да открије проблем.</string>
-  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
-  <string name="pref_advanced_reset_push_summary">If you experience problems with push notifications, Wire Support may ask you to reset this token.</string>
-  <string name="pref_advanced_reset_push_completed">Push token has been reset</string>
-  <string name="debug_report__title">Вајеров извештај о грешци — %1$s</string>
-  <string name="debug_report__body">Опишите кораке који доводе до овог проблема, дајте снимке екрана ако је могуће и пошаљите ову поруку.\n\n</string>
-  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+    <!--*********************************************** ERRORS ***********************************************-->
+    <string name="generic_error_header">Нешто је пошло наопако</string>
+    <string name="generic_error_message">Покушајте поново</string>
+    <string name="internet_connectivity_error_header">Нема везе са интернетом</string>
+    <string name="internet_connectivity_error_message">Проверите везу са интернетом и покушајте поново</string>
+    <string name="too_many_attempts_header">Превише покушаја</string>
+    <string name="login_later_message">Покушајте пријаву касније</string>
+    <string name="email_exists_header">Адреса е-поште се већ користи</string>
+    <string name="email_exists_message">This email address has already been registered</string>
+    <string name="email_invalid_header">Неисправна адреса е-поште</string>
+    <string name="email_invalid_message">Унесите важећу адресу е-поште</string>
+    <string name="invalid_credentials_header">Неисправни подаци</string>
+    <string name="invalid_credentials_message">Проверите детаље и покушајте поново</string>
+    <string name="phone_exists_header">Број телефона је употребљен</string>
+    <string name="phone_exists_message">Број телефона који сте навели је већ регистрован. Покушајте поново</string>
+    <string name="phone_invalid_format_header">Неисправан број телефона</string>
+    <string name="phone_invalid_format_message">Унесите исправан број телефона</string>
+    <string name="phone_password_exists_header">Лозинка постоји</string>
+    <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
+    <string name="invalid_code_header">Погрешан код</string>
+    <string name="incorrect_code_header">Неисправан код</string>
+    <string name="wrong_code_message">Унесите исправан код</string>
+    <string name="phone_pending_login_header">Код је већ послат</string>
+    <string name="phone_pending_login_message">Већ смо вам послали код путем СМС-а. Тапните на „Понови“ након 10 минута да добијете нови.</string>
+    <string name="phone_budget_exhausted_header">Превише захтева</string>
+    <string name="phone_budget_exhausted_message">Покушајте поново касније.</string>
+    <!--*********************************************** ERRORS ***********************************************-->
+    <string name="permissions_denied_dialog_settings">Поставке</string>
+    <string name="camera_not_available">КАМЕРА НИЈЕ ДОСТУПНА</string>
+    <string name="camera_permissions_denied_title">Камера није доступна</string>
+    <string name="camera_permissions_denied_message">Да бисте сликали и слали фотографије, дајте дозволу за приступ камери</string>
+    <!-- Registration and Sign in -->
+    <string name="welcome__terms_of_service">НАСТАВЉАЈУЋИ, СЛАЖЕТЕ СЕ СА _УСЛОВИМА КОРИШЋЕЊА_</string>
+    <string name="profile__name__guidance__tooshort__title">БАР 2 ЗНАКА</string>
+    <string name="profile__email__placeholder">E-пошта</string>
+    <string name="profile__password__placeholder">Лозинка</string>
+    <string name="profile__password__guidance__tooshort__title">БАР 8 ЗНАКОВА</string>
+    <string name="profile__email__verify__instructions">Послали смо поруку на \n[[%1$s]]. \nИспратите везу за оверу ваше адресе.</string>
+    <string name="profile__email__verify__didnt_get">Нисте добили поруку?</string>
+    <string name="profile__email__verify__resend">Понови</string>
+    <string name="profile__guidance__invalid_email">Адреса е-поште коју сте унели није исправна. Проверите и покушајте поново</string>
+    <string name="new_reg__code_resent">Нови код вам је послат путем СМС-а</string>
+    <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
+    <string name="new_reg__code_resent__call">Сачекајте позив</string>
+    <string name="new_reg__default_country">rs</string>
+    <!-- consider updating this for every new language -->
+    <string name="your_phone_number">Ваш број телефона</string>
+    <!-- Receive email/sms invitation -->
+    <!-- People picker/start UI -->
+    <string name="pick_user_search_focus">\u0020 SEARCH</string>
+    <string name="pick_user_search_hint">SEARCH</string>
+    <string name="choose_conversation">SEARCH</string>
+    <string name="people_picker__top_users_header_title">Најчешће контактирани</string>
+    <string name="people_picker__search_result_conversations_header_title">Групе</string>
+    <string name="people_picker__search_result_team_conversations_header_title">Групе %1$s</string>
+    <string name="people_picker__search_result_connections_header_title">Контакти</string>
+    <string name="people_picker__search_result_others_header_title">Повежи се</string>
+    <string name="people_picker__search_result__expander_title">Прикажи свих %1$s ↓</string>
+    <string name="people_picker__search_people">КОНТАКТИ</string>
+    <string name="people_picker__search_services">SERVICES</string>
+    <string name="receive_news_and_offers_request_title">Newsletter</string>
+    <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+    <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+    <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+    <string name="crashes_and_analytics_request_no">Не</string>
+    <string name="crashes_and_analytics_request_agree">I Agree</string>
+    <!-- Bots / Integrations / Services -->
+    <string name="integrations_picker__section_title">Услуге</string>
+    <string name="integrations_errors_add_service">Adding service not possible</string>
+    <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
+    <string name="conversation_errors_full">The conversation is full</string>
+    <!-- start ui / people picker, contacts sharing -->
+    <string name="people_picker__share_contacts__title">Дели контакте</string>
+    <string name="people_picker__share_contacts__message">Вајер може да пронађе ваше пријатеље ако поделите контакте.</string>
+    <string name="people_picker__share_contacts__yay">Дозволи</string>
+    <string name="people_picker__share_contacts__nah">Одбиј</string>
+    <string name="people_picker__share_contacts__nevvah">Не питај више</string>
+    <!-- Invite -->
+    <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
+    <string name="people_picker__invite__share_details_dialog">Обавестите пријатеље.</string>
+    <string name="people_picker__invite__share_text__header">%1$s жели да се повежете на Вајеру</string>
+    <string name="people_picker__invite__share_text__body">Ја сам на Вајеру. Потражи %1$s или посети get.wire.com</string>
+    <!-- Conversation: Quick menu -->
+    <string name="conversation_quick_menu__conversation_button__single_label">ОТВОРИ</string>
+    <!-- Conversation: System messages -->
+    <string name="content__system__other_joined">[[%1$s]] joined</string>
+    <string name="content__system__you_joined">[[You]] joined</string>
+    <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
+    <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
+    <!-- Add people -->
+    <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
+    <plurals name="content__system__someone_added_people_with_others">
+        <item quantity="one">[[%1$s]] added %2$s and _%3$s other to the conversation_</item>
+        <item quantity="few">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+        <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+    </plurals>
+    <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
+    <plurals name="content__system__someone_added_people_and_you_with_others">
+        <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
+        <item quantity="few">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+        <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+    </plurals>
+    <string name="content__system__you_added_people">You added %1$s to the conversation</string>
+    <plurals name="content__system__you_added_people_with_others">
+        <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
+        <item quantity="few">You added %1$s and _%2$s others to the conversation_</item>
+        <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
+    </plurals>
+    <!-- Remove people -->
+    <string name="content__system__other_removed_other">[[%1$s]] уклони %2$s</string>
+    <string name="content__system__other_removed_you">[[%1$s]] вас уклони</string>
+    <string name="content__system__you_removed_other">You removed %1$s</string>
+    <string name="content__system__you_left">[[Ви]] изађосте</string>
+    <string name="content__system__other_left">[[%1$s]] изађе</string>
+    <!-- Create conversation -->
+    <string name="content__system__you_started_conversation">You started the conversation</string>
+    <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+    <string name="content__system__with_you_only">with you</string>
+    <string name="content__system__with_list_only">with %1$s</string>
+    <plurals name="content__system__with_others_only">
+        <item quantity="one">with %1$s and _%2$s other_</item>
+        <item quantity="few">with %1$s and _%2$s others_</item>
+        <item quantity="other">with %1$s and _%2$s others_</item>
+    </plurals>
+    <string name="content__system__with_list_and_you">with %1$s and you</string>
+    <plurals name="content__system__with_others_and_you">
+        <item quantity="one">with %1$s, you and _%2$s other_</item>
+        <item quantity="few">with %1$s, you and _%2$s others_</item>
+        <item quantity="other">with %1$s, you and _%2$s others_</item>
+    </plurals>
+    <!-- Conversation: missed call -->
+    <string name="content__missed_call__you_called">[[ВИ]] СТЕ ПОЗВАЛИ</string>
+    <string name="content__missed_call__xxx_called">[[%1$s]] ПОЗВА</string>
+    <string name="content__you_pinged">[[ВИ]] СТЕ ПИНГОВАЛИ</string>
+    <string name="content__xxx_pinged">[[%1$s]] ПИНГОВАШЕ</string>
+    <!-- Conversation: E2EE system messages -->
+    <string name="content__otr__message_error">ПОРУКА КОРИСНИКА [[%1$s]] НИЈЕ ПРИМЉЕНА. _ЗАШТО?_</string>
+    <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
+    <string name="content__otr__identity_changed_error">ИДЕНТИТЕТ УРЕЂАЈА [[%1$s]] ЈЕ ПРОМЕЊЕН. НЕИСПОРУЧЕНА ПОРУКА. _ПОГЛЕДАЈТЕ ЗАШТО_</string>
+    <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
+    <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
+    <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
+    <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
+    <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
+    <string name="content__otr__start_this_device__message">САДА КОРИСТИТЕ _ОВАЈ УРЕЂАЈ_</string>
+    <string name="content__otr__all_fingerprints_verified">СВИ ОТИСЦИ СУ ПРОВЕРЕНИ</string>
+    <string name="content__otr__lost_history">ОВАЈ УРЕЂАЈ НИСТЕ КОРИСТИЛИ НЕКО ВРЕМЕ. НЕКЕ ПОРУКЕ СЕ НЕЋЕ ПРИКАЗАТИ ОВДЕ.</string>
+    <string name="content__otr__unverified_device__message">ПОНИШТИЛИ СТЕ ВЕРИФИКАЦИЈУ ЗА УРЕЂАЈ _КОРИСНИКА %1$s_</string>
+    <string name="content__otr__your_unverified_device__message">ПОНИШТИЛИ СТЕ ВЕРИФИКАЦИЈУ ЗА _ВАШ УРЕЂАЈ_</string>
+    <string name="content__otr__new_member__message">НОВА ОСОБА СЕ ПРИДРУЖИЛА. _ПРОВЕРИТЕ УРЕЂАЈЕ_</string>
+    <!-- File transfer -->
+    <string name="content__file__status__default">%1$s</string>
+    <string name="content__file__status__uploading__minimized">ОТПРЕМАМ&#8230;</string>
+    <string name="content__file__status__cancelled__minimized">ОТКАЗАНО&#8230;</string>
+    <string name="content__file__status__downloading__minimized">ПРЕУЗИМАМ&#8230;</string>
+    <string name="content__file__status__download_failed__minimized">ПРЕУЗИМАЊЕ НЕУСПЕШНО</string>
+    <string name="content__file__status__upload_failed__minimized">ОТПРЕМАЊЕ НЕУСПЕШНО</string>
+    <string name="content__file__status__uploading">%1$s · ОТПРЕМАМ&#8230;</string>
+    <string name="content__file__status__cancelled">%1$s · ОТКАЗАНО&#8230;</string>
+    <string name="content__file__status__downloading">%1$s · ПРЕУЗИМАМ&#8230;</string>
+    <string name="content__file__status__download_failed">%1$s · ПРЕУЗИМАЊЕ НЕУСПЕШНО</string>
+    <string name="content__file__status__upload_failed">%1$s · ОТПРЕМАЊЕ НЕУСПЕШНО</string>
+    <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
+    <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
+    <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · ОТПРЕМАМ&#8230;</string>
+    <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · ОТКАЗАНО&#8230;</string>
+    <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · ПРЕУЗИМАМ&#8230;</string>
+    <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · ПРЕУЗИМАЊЕ НЕУСПЕШНО</string>
+    <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · ОТПРЕМАЊЕ НЕУСПЕШНО</string>
+    <string name="content__file__action__open">ОТВОРИ</string>
+    <string name="content__file__action__save">САЧУВАЈ</string>
+    <string name="content__file__action__open__no_app_found">Нема апликације за отварање ове врсте фајла</string>
+    <string name="content__file__action__save_completed">Фајл успешно сачуван</string>
+    <string name="content__file__action__save_error">Не могу да сачувам фајл</string>
+    <string name="content__location__no_map_placeholder">ЛОКАЦИЈА ЋЕ СЕ ПОЈАВИТИ НА МАПИ КАДА СЕ ВРАТИТЕ НА ВЕЗУ.</string>
+    <!-- Conversation actions -->
+    <string name="conversation__action__delete">Delete content&#8230;</string>
+    <string name="conversation__action__archive">Архивирај</string>
+    <string name="conversation__action__unarchive">Деархивирај</string>
+    <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
+    <string name="conversation__action__create_group">НАПРАВИ ГРУПУ</string>
+    <string name="conversation__action__notifications">Notifications&#8230;</string>
+    <string name="conversation__action__silence">Ућуткај</string>
+    <string name="conversation__action__unsilence">Укључи звук</string>
+    <string name="conversation__action__leave">Leave group&#8230;</string>
+    <string name="conversation__action__call">Позив</string>
+    <string name="conversation__action__picture">Слика</string>
+    <string name="conversation__action__block">Block&#8230;</string>
+    <string name="conversation__action__unblock">Одблокирај</string>
+    <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
+    <string name="conversation__action__leave_only">\tLeave group</string>
+    <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
+    <string name="conversation__action__delete_only">\tDelete content</string>
+    <string name="conversation__action__notifications_everything">Everything</string>
+    <string name="conversation__action__notifications_mentions_and_replies">Mentions and Replies</string>
+    <string name="conversation__action__notifications_nothing">Nothing</string>
+    <string name="conversation__action__notifications_title">Notify me about:</string>
+    <!-- Conversation: Profile Popover -->
+    <!-- Calling/voice -->
+    <string name="calling__slow_connection__title">Спор интернет</string>
+    <string name="calling__slow_connection__message">Ваша интернет веза је преспора да бисте сад позвали. Покушајте касније.</string>
+    <string name="calling__cannot_start__title">Microphone required</string>
+    <string name="calling__cannot_start__message">Да позовете, прекините текући позив.</string>
+    <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+    <string name="calling__cannot_start__cancel__message">ОТКАЖИ</string>
+    <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
+    <string name="calling__video_call__slow_connection__message">Можда ћете имати сметње током позива</string>
+    <string name="incoming__controls__ongoing__speaker">ЗВУЧНИК</string>
+    <string name="incoming__controls__ongoing__mute">УЋУТКАЈ</string>
+    <string name="incoming__controls__ongoing__video">ВИДЕО</string>
+    <string name="incoming__controls__ongoing__flip">FLIP</string>
+    <string name="ongoing__poor_connection_message">ВИДЕО ЗАУСТАВЉЕН ЗБОГ ЛОШЕ ВЕЗЕ</string>
+    <string name="calling__self_preview_unavailable_long">КАМЕРА НИЈЕ ДОСТУПНА</string>
+    <string name="calling__header__joining">Повезивање&#8230;</string>
+    <string name="calling__header__outgoing_subtitle">Звони&#8230;</string>
+    <string name="calling__header__outgoing_video_subtitle">Звони&#8230;</string>
+    <string name="calling__header__incoming_subtitle">Позивање&#8230;</string>
+    <string name="calling__header__incoming_subtitle__video">Позивање&#8230;</string>
+    <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
+    <string name="call_banner_joining">Повезивање&#8230;</string>
+    <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
+    <string name="call_banner_incoming">%1$s is calling&#8230;</string>
+    <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
+    <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
+    <string name="calling_ongoing_call_title">Актуелни позив</string>
+    <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+    <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+    <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+    <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+    <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
+    <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+    <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
+    <!-- Calling in group conversation -->
+    <string name="group_calling_title">Позовите</string>
+    <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+    <string name="group_calling_confirm">Позив</string>
+    <!-- Connect request -->
+    <string name="connect__message">Здраво%1$s\nПовежимо се на Вајеру\n%2$s</string>
+    <string name="connect_request__sub_header__pending_label">На чекању</string>
+    <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
+    <string name="connect_request__unblock__button__text">Одблокирај</string>
+    <string name="send_connect_request__connect_button__text">CONNECT</string>
+    <plurals name="connect_inbox__link__name">
+        <item quantity="one">%1$s особа чека</item>
+        <item quantity="few">%1$s особе чекају</item>
+        <item quantity="other">%1$s особа чека</item>
+    </plurals>
+    <string name="connect_request__ignore_button__text">Игнориши</string>
+    <string name="content__message__connect_request__footer">ПОВЕЗАНО</string>
+    <string name="content__message__connect_request__auto_connect__footer">АУТО-ПОВЕЗИВАЊЕ. _ПОГЛЕДАЈТЕ ВИШЕ_</string>
+    <!-- Otr-->
+    <plurals name="conversation__degraded_confirmation__header__single_user">
+        <item quantity="one">%1$s користи нови уређај.</item>
+        <item quantity="few">%1$s користе нови уређај.</item>
+        <item quantity="other">%1$s користи нови уређај.</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__header__someone">Неко користи нови уређај.</string>
+    <string name="conversation__degraded_confirmation__header__multiple_user">%1$s и %2$s користе нове уређаје.</string>
+    <plurals name="conversation__degraded_confirmation__message">
+        <item quantity="one">Још увек желите да пошаљете своју поруку?</item>
+        <item quantity="few">Још увек желите да пошаљете своје поруке?</item>
+        <item quantity="other">Још увек желите да пошаљете своје поруке?</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__positive_action">Ипак пошаљи</string>
+    <plurals name="conversation__degraded_confirmation__negative_action">
+        <item quantity="one">Прикажи уређај</item>
+        <item quantity="few">Прикажи особе</item>
+        <item quantity="other">Прикажи особе</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__negative_action_self">Приказује ваше уређаје</string>
+    <string name="conversation_degraded_confirmation__header__you">Ви</string>
+    <!-- Picture selection confirmation -->
+    <string name="confirmation_menu__confirm_done">У реду</string>
+    <string name="confirmation_menu__cancel">ОТКАЖИ</string>
+    <!-- ADD TO CONVERSATION offline -->
+    <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
+    <!-- Leave conversation -->
+    <string name="confirmation_menu__meta_remove">Напустити разговор?</string>
+    <string name="confirmation_menu__meta_remove_text">Нећете моћи да шаљете и примате поруке у овом разговору.</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <!-- Remove from conversation dialogue -->
+    <string name="confirmation_menu__header">Уклонити?</string>
+    <string name="confirmation_menu_text_with_name">%1$s неће моћи да шаље или прима поруке у овом разговору.</string>
+    <string name="confirmation_menu__confirm_remove">УКЛОНИ</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <!-- Block someone dialogue -->
+    <string name="confirmation_menu__block_header">Блокирати?</string>
+    <string name="confirmation_menu__block_text_with_name">%1$s неће моћи да вас контактира или позове на групне разговоре.</string>
+    <string name="confirmation_menu__confirm_block">Блокирај</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <string name="connect_request__footer__blocked_label">Блокирано</string>
+    <!-- Delete conversation -->
+    <string name="confirmation_menu__meta_delete">Обрисати садржај?</string>
+    <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
+    <!-- Rich media -->
+    <string name="content__youtube__error__text">видео није нађен</string>
+    <string name="mediaplayer__message__onsoundcloud">на СаундКлауду</string>
+    <string name="mediaplayer__message__onspotify">на Спотифају</string>
+    <!-- Invite banner -->
+    <!-- Self profile -->
+    <!-- Options and settings -->
+    <string name="settings_title">Поставке</string>
+    <!-- Options menu -->
+    <!-- Manage Team -->
+    <string name="pref_manage_team_title">Управљај тимом</string>
+    <!-- About screen -->
+    <string name="pref_category_title">Поставке</string>
+    <string name="pref_developer_screen_title">Поставке за програмере</string>
+    <string name="pref_dev_avs_screen_title">АВС поставке</string>
+    <string name="pref_profile_screen_title">Профил</string>
+    <!-- Account -->
+    <string name="pref_account_screen_title">Налог</string>
+    <string name="pref_account_name_title">Име</string>
+    <string name="pref_account_edit_name_title">Уреди име</string>
+    <string name="pref_account_details_category_title">Инфо</string>
+    <string name="pref_account_actions_category_title">Радње</string>
+    <string name="pref_account_appearance_category_title">Изглед</string>
+    <string name="pref_account_personal_information_category_title">Personal Information</string>
+    <string name="pref_account_conversations_category_title">History</string>
+    <string name="pref_account_username_title">Корисничко име</string>
+    <string name="pref_account_phone_title">Телефон</string>
+    <string name="pref_account_add_phone_title">Додајте број телефона</string>
+    <string name="pref_account_email_title">E-пошта</string>
+    <string name="pref_account_add_email_title">Додајте е-пошту</string>
+    <string name="pref_account_delete">Обриши</string>
+    <string name="pref_account_sign_out_title">Одјави се</string>
+    <string name="pref_account_color_title">Боја</string>
+    <string name="pref_account_picture_title">Слика</string>
+    <string name="pref_account_delete_title">Обриши налог</string>
+    <string name="pref_account_delete_warning_title">Обриши налог</string>
+    <string name="pref_account_delete_warning_message_email">Послаћемо поруку на:\n[[%1$s]]\nСледите везу у њој за трајно брисање вашег налога.</string>
+    <string name="pref_account_delete_warning_message_sms">Послаћемо СМС на:\n[[%1$s]]\nСледите везу у њој за трајно брисање вашег налога.</string>
+    <string name="pref_account_delete_warning_verify">У реду</string>
+    <string name="pref_account_delete_warning_cancel">Откажи</string>
+    <string name="pref_account_sign_out_warning_message">Заиста желите да се одјавите?</string>
+    <string name="pref_account_sign_out_warning_verify">Одјави се</string>
+    <string name="pref_account_sign_out_warning_cancel">Откажи</string>
+    <string name="pref_account_password_title">Ресетуј лозинку</string>
+    <string name="pref_account_edit_name_empty_warning">Има мора имати најмање 2 знака</string>
+    <string name="pref_account_edit_name_empty_verify">У реду</string>
+    <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+    <string name="pref_backup_screen_title">Back Up Conversations</string>
+    <!-- Data Usage Permissions -->
+    <string name="pref_advanced_send_anonymous_data_title">Send Anonymous Data</string>
+    <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
+    <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+    <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
+    <!-- Options -->
+    <string name="pref_options_dark_theme_title">Тамна тема</string>
+    <string name="pref_options_screen_title">Опције</string>
+    <string name="pref_options_contacts_title">Дели контакте</string>
+    <string name="pref_options_contacts_summary">Ово помаже да се повежете са људима. Сви подаци су анонимни и не делимо их ни са ким.</string>
+    <string name="pref_options_vbr_title">Кодирање са променљивим протоком</string>
+    <string name="pref_options_vbr_summary">Ово чини да гласовни позиви троше мање података и раде боље на споријим везама. Искључите да користите кодирање сталним протоком.</string>
+    <string name="pref_options_alerts_category_title">Упозорења</string>
+    <string name="pref_options_calls_category_title">Позиви</string>
+    <string name="pref_options_sounds_title">Звуци</string>
+    <string name="pref_options_sounds_all">сви</string>
+    <string name="pref_options_sounds_new_conversations_and_talks_only">прва порука, пинг, позиви</string>
+    <string name="pref_options_sounds_none">без</string>
+    <string name="pref_options_vibration_title">Вибрација</string>
+    <string name="pref_options_vibration_title_o">Vibrate on ring</string>
+    <string name="pref_options_ringtones_category_title">Звуци</string>
+    <string name="pref_options_ringtones_ringtone_title">Тон звона</string>
+    <string name="pref_options_ringtones_text_title">Тон поруке</string>
+    <string name="pref_options_ringtones_ping_title">Пинг</string>
+    <string name="pref_options_ringtones_default_summary">Вајеров подразумевани</string>
+    <string name="pref_options_ringtones_silent">Тихо</string>
+    <string name="pref_options_image_download_title">Преузми слике</string>
+    <string name="pref_options_image_download_always">увек</string>
+    <string name="pref_options_image_download_wifi">само бежична веза</string>
+    <string name="pref_options_media_category_title">Медији</string>
+    <string name="pref_options_requested_category_title">По захтеву корисника</string>
+    <string name="pref_options_cursor_send_button_title">Дугме за слање</string>
+    <string name="pref_options_cursor_send_button_summary">Искључите да шаљете тастатуром.</string>
+    <!-- Devices -->
+    <string name="pref_devices_screen_title">Уређаји</string>
+    <string name="pref_devices_current_device_category_title">Тренутни уређај</string>
+    <string name="pref_devices_other_devices_category_title">Остали уређаји</string>
+    <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
+    <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
+    <string name="pref_devices_device_id">ИД: %1$s</string>
+    <string name="pref_devices_device_verified">Верификован</string>
+    <string name="pref_devices_device_not_verified">Није верификован</string>
+    <string name="pref_devices_warning_summary">Ако не препознајете уређај изнад, уклоните га и ресетујте лозинку.</string>
+    <string name="pref_devices_device_screen_title">Детаљи уређаја</string>
+    <string name="pref_devices_device_fingerprint_category_title">Отисак кључа</string>
+    <string name="pref_devices_device_fingerprint_summary">Вајер сваком уређају додељује јединствени отисак. Упоредите отиске да проверите ваше уређаје и разговоре.</string>
+    <string name="pref_devices_device_actions_category_title">Радње</string>
+    <string name="pref_devices_device_reset_session_title">Ресетуј сесију</string>
+    <string name="pref_devices_device_reset_session_summary">Ако се отисци не поклапају, ресетујте сесију, на обе стране, да генеришете нове кључеве шифровања.</string>
+    <string name="pref_devices_device_remove_title">Уклони уређај</string>
+    <string name="pref_devices_device_remove_summary">Уклоните уређај ако га више не користите. Бићете одмах одјављени са њега.</string>
+    <string name="pref_devices_device_fingerprint_copy_description">Отисак</string>
+    <string name="pref_devices_device_fingerprint_copy_toast">Отисак копиран</string>
+    <!-- Advanced -->
+    <string name="pref_advanced_screen_title">Напредно</string>
+    <string name="pref_advanced_debug_report_title">Пошаљите извештај о грешци</string>
+    <string name="pref_advanced_debug_report_summary">Ово помаже Вајер подршци да открије проблем.</string>
+    <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
+    <string name="pref_advanced_reset_push_summary">If you experience problems with push notifications, Wire Support may ask you to reset this token.</string>
+    <string name="pref_advanced_reset_push_completed">Push token has been reset</string>
+    <string name="debug_report__title">Вајеров извештај о грешци — %1$s</string>
+    <string name="debug_report__body">Опишите кораке који доводе до овог проблема, дајте снимке екрана ако је могуће и пошаљите ову поруку.\n\n</string>
+    <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+    <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
-  <!-- Support -->
-  <string name="pref_support_screen_title">Подршка</string>
-  <string name="pref_support_website_title">Веб сајт Вајер подршке</string>
-  <string name="pref_support_contact_title">Контактирај подршку</string>
-  <!-- About -->
-  <string name="pref_about_screen_title">О програму</string>
-  <string name="pref_about_website_title">Веб сајт Вајера</string>
-  <string name="pref_about_tos_title">Услови коришћења</string>
-  <string name="pref_about_privacy_policy_title">Политика приватности</string>
-  <string name="pref_about_licenses_title">Информације о лиценци</string>
-  <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
-  <string name="pref_about_version_title">Верзија %s</string>
-  <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
-  <!-- Pref invite -->
-  <string name="pref_invite_title">Позовите људе у Вајер</string>
-  <!-- Preference Account Actions -->
-  <string name="pref__account_action__phone_verification__title">Оверите број телефона</string>
-  <string name="pref__account_action__phone_verification__description">Унесите верификациони код који смо послали на %s</string>
-  <string name="pref__account_action__phone_verification__code">Кôд</string>
-  <string name="pref__account_action__phone_verification__question">Не приказује се код?</string>
-  <string name="pref__account_action__phone_verification__resend"><u>Пошаљи поново</u></string>
-  <string name="pref__account_action__phone_verification__change"><u>Измени број телефона</u></string>
-  <string name="pref__account_action__email_verification__title">Овери адресу е-поште</string>
-  <string name="pref__account_action__email_verification__description">Проверите сандуче е-поште и следите упутства.</string>
-  <string name="pref__account_action__email_verification__question">Не стиже е-пошта?</string>
-  <string name="pref__account_action__email_verification__resend">&lt;u&gt;Пошаљи поново на %s&lt;/u&gt;</string>
-  <string name="pref__account_action__email_verification__change"><u>Измени е-адресу</u></string>
-  <string name="pref__account_action__dialog__add_email_password__password">Лозинка</string>
-  <string name="pref__account_action__dialog__add_email_password__email">E-пошта</string>
-  <string name="pref__account_action__dialog__add_email_password__title">Додај адресу е-поште</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Неисправна адреса е-поште</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_password">Бар 8 знакова</string>
-  <string name="pref__account_action__dialog__edit_phone__title">Уреди број телефона</string>
-  <string name="pref__account_action__dialog__add_phone__title">Додај број телефона</string>
-  <string name="pref__account_action__dialog__add_phone__error__country">Погрешан код земље</string>
-  <string name="pref__account_action__dialog__add_phone__error__number">Неисправан број телефона</string>
-  <string name="pref__account_action__dialog__add_phone__confirm__title">Потврди број</string>
-  <string name="pref__account_action__dialog__add_phone__confirm__message">Послаћемо код обавештења на:\n%s</string>
-  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Уклони</string>
-  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Заиста желите да уклоните %s из вашег Вајер налога?</string>
-  <string name="pref__account_action__dialog__delete_phone__error">Не могу да избришем број телефона</string>
-  <string name="pref__account_action__dialog__change_email__title">Уреди адресу е-поште</string>
-  <string name="pref__account_action__dialog__change_username__rules">Бар 2 знака. Само a-z, 0-9 и _</string>
-  <string name="pref__account_action__dialog__change_username__title">Корисничко име</string>
-  <string name="pref__account_action__dialog__change_username__error_already_taken">Већ заузето</string>
-  <string name="pref__account_action__dialog__change_username__error_unknown">Грешка везе, покушајте поново</string>
-  <!-- No Internet connection -->
-  <string name="system_status__no_internet">НЕМА ИНТЕРНЕТА</string>
-  <!-- SHARING -->
-  <string name="alert_dialog__confirmation">У реду</string>
-  <string name="alert_dialog__no_network__header">Не постоји веза са интернетом</string>
-  <string name="sign_up__set_picture__choose">Изаберите своју</string>
-  <string name="sign_up__set_picture__keep">Остави ову</string>
-  <string name="sign_up__set_picture__guidance">Вајер је много лепши са сликом.</string>
-  <string name="sign_up__set_picture__loading">Учитавам слику</string>
-  <string name="leave_conversation_failed__message">Морате бити на вези да бисте напустили разговор. Проверите везу и покушајте поново.</string>
-  <string name="remove_from_conversation__no_network__message">Морате бити на вези да бисте уклонили људе из разговора. Проверите везу и покушајте поново.</string>
-  <string name="calling__call_drop__message">Морате бити на вези да бисте позивали. Проверите везу и покушајте поново.</string>
-  <!-- Lockscreen and notifications -->
-  <string name="message_notifications_channel_name">Messages</string>
-  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
-  <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="ping_notifications_channel_name">Pings</string>
-  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
-  <string name="ongoing_channel_name">Background notifications</string>
-  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
-  <string name="foreground_service_notification_name">Maintain connection to server</string>
-  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <plurals name="notification__new_messages__multiple">
-    <item quantity="one">%1$d порука у %2$s разговора</item>
-    <item quantity="few">%1$d поруке у %2$s разговора</item>
-    <item quantity="other">%1$d порука у %2$s разговора</item>
-  </plurals>
-  <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
-  <string name="notification__message__group__prefix__text">%1$s у %2$s: \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
-  <string name="notification__message__one_to_one__wanted_to_talk">Позваше</string>
-  <string name="notification__message__one_to_one__pinged">Пинг</string>
-  <string name="notification__message__one_to_one__shared_picture">подели слику</string>
-  <string name="notification__message__one_to_one__shared_file">подели фајл</string>
-  <string name="notification__message__one_to_one__shared_video">подели видео</string>
-  <string name="notification__message__one_to_one__shared_audio">подели звучну поруку</string>
-  <string name="notification__message__one_to_one__shared_location">подели локацију</string>
-  <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__group__prefix__other">%1$s у %2$s \u0020</string>
-  <string name="notification__message__group__renamed_conversation">преименова разговор у %1$s</string>
-  <string name="notification__message__group__add">додаде људе у разговор</string>
-  <string name="notification__message__group__remove">уклони људе из разговора</string>
-  <string name="notification__message__single__accept_request">Ви и %1$s сте сада повезани</string>
-  <string name="notification__message__group__default_conversation_name">групни разговор</string>
-  <string name="notification__message__send_failed">Неуспешно слање поруке</string>
-  <string name="notification__message__ephemeral">Sent a message</string>
-  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
-  <string name="notification__message__liked">\u2764 ‘%1$s’</string>
-  <string name="notification__message__liked_message">\u2764 вашу поруку</string>
-  <string name="notification__message__liked_picture">\u2764 вашу слику</string>
-  <!-- ephemeral -->
-  <string name="notification__message__ephemeral_someone">Неко</string>
-  <plurals name="notification__message__ephemeral">
-    <item quantity="one">Неко вам је послао поруку</item>
-    <item quantity="few">Неко вам је послао %1$d поруке</item>
-    <item quantity="other">Неко вам је послао %1$d порука</item>
-  </plurals>
-  <string name="other_set_message_timer">[[%1$s]] set the message timer to [[%2$s]]</string>
-  <string name="you_set_message_timer">[[You]] set the message timer to [[%1$s]]</string>
-  <string name="other_turned_off_message_timer">[[%1$s]] turned off the message timer</string>
-  <string name="you_turned_off_message_timer">[[You]] turned off the message timer</string>
-  <!-- Others -->
-  <string name="app_name">Вајер</string>
-  <string name="content__system__item_separator">,</string>
-  <string name="content__system__last_item_separator">и</string>
-  <string name="content__system__you">ви</string>
-  <plurals name="content__system__other_members">
-    <item quantity="one">%1$s other</item>
-    <item quantity="few">%1$s others</item>
-    <item quantity="other">%1$s others</item>
-  </plurals>
-  <!-- System notifications -->
-  <string name="system_notification__silence_call">Одбиј</string>
-  <string name="system_notification__join_call">Прихвати</string>
-  <string name="system_notification__leave_call">Заврши позив</string>
-  <string name="system_notification__calling_one">Позивање&#8230;</string>
-  <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
-  <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
-  <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
-  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
-  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
-  <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
-  <string name="ws_foreground_notification_summary">Tap here for more information.</string>
-  <!-- Notification actions -->
-  <string name="notification__action__call">Позив</string>
-  <string name="notification__action__reply">Одговори</string>
-  <!-- Quick reply -->
-  <string name="quick_reply__counter">%1$d од %2$d</string>
-  <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
-  <string name="quick_reply__open_wire">Отвори Вајер</string>
-  <!-- Save image notification -->
-  <string name="notification__image_saving__content__title">Вајер слика сачувана.</string>
-  <string name="notification__image_saving__content__subtitle">Додирните да погледате.</string>
-  <string name="notification__image_saving__action__share">Подели</string>
-  <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
-  <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <!-- forced update -->
-  <string name="forced_update__header">Важно ажурирање</string>
-  <string name="forced_update__sub_header">Инсталирајте последњу верзију Вајера.</string>
-  <string name="forced_update__download_button">Преузми</string>
-  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Sharing -->
-  <string name="sharing__image_preview__confirm_action">ШАЉИ</string>
-  <string name="sharing__user_not_logged_in__dialog__title">Пријавите се</string>
-  <string name="sharing__user_not_logged_in__dialog__message">Отворите Вајер и пријавите се да поделите.</string>
-  <string name="sharing__user_not_logged_in__dialog__confirm">У реду</string>
-  <!-- Sync errors -->
-  <string name="in_app_notification__sync_error__create_group_convo__title">Не могу да направим</string>
-  <string name="in_app_notification__sync_error__create_group_convo__body">Не могу да започнем разговор са %1$s</string>
-  <string name="in_app_notification__sync_error__add_user__body">%1$s не жели да се прикључи разговору.</string>
-  <string name="in_app_notification__sync_error__add_multiple_user__body">Једна од изабраних особа не жели да учествује у разговору.</string>
-  <string name="in_app_notification__sync_error__unknown__body">Нешто је пошло наопако. Покушајте поново.</string>
-  <string name="in_app_notification__sync_error__create_convo__button">Настави</string>
-  <!--Timestamp formatting -->
-  <string name="timestamp__just_now">управо сада</string>
-  <plurals name="timestamp__x_minutes_ago">
-    <item quantity="one">пре %1$d минута</item>
-    <item quantity="few">пре %1$d минута</item>
-    <item quantity="other">пре %1$d минута</item>
-  </plurals>
-  <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
-  <!-- Example: FRIDAY, MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__no_year">EEE, d MMM, %1$s</string>
-  <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year">EEE, d MMM, YYYY, %1$s</string>
-  <!-- Example: MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__no_year_no_weekday">d MMM, %1$s</string>
-  <!-- Example: MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year_no_weekday">d MMM, YYYY, %1$s</string>
-  <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <!-- MONDAY -->
-  <!-- MARCH 2 -->
-  <!-- MARCH 2, 2015 -->
-  <!-- 23:15 -->
-  <string name="timestamp_pattern__24h_format">HH:mm</string>
-  <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="country">Земља</string>
-  <string name="register">Региструј се</string>
-  <string name="password_placeholder">Лозинка</string>
-  <string name="email_placeholder">E-пошта</string>
-  <string name="name_placeholder">Име</string>
-  <!-- Strings -->
-  <string name="edit_phone_number">УРЕДИТЕ БРОЈ ТЕЛЕФОНА</string>
-  <string name="i_have_an_account">ПРИЈАВА</string>
-  <plurals name="welcome__resend__timer_label">
-    <item quantity="one">МОЖЕТЕ ЗАТРАЖИТИ НОВИ КОД ЗА %1$d СЕКУНД</item>
-    <item quantity="few">МОЖЕТЕ ЗАТРАЖИТИ НОВИ КОД ЗА %1$d СЕКУНДЕ</item>
-    <item quantity="other">МОЖЕТЕ ЗАТРАЖИТИ НОВИ КОД ЗА %1$d СЕКУНДИ</item>
-  </plurals>
-  <string name="welcome__resend__manual">ПОНОВИ</string>
-  <string name="welcome__resend__callme">ПОЗОВИ МЕ</string>
-  <string name="activation_code_info_manual">Унесите верификациони код који смо послали на \n&lt;b&gt;%s&lt;/b&gt;</string>
-  <string name="enter_name">Како се зовете?</string>
-  <string name="enter_name_hint">унесите пуно име</string>
-  <string name="new_reg__password__forgot">Заборавили сте лозинку?</string>
-  <string name="phone_sign_in">Телефон</string>
-  <string name="email_sign_in">E-пошта</string>
-  <string name="edit_email">Уреди е-пошту</string>
-  <string name="hello">Здраво, &lt;b&gt;%s&lt;/b&gt;</string>
-  <string name="sign_in">Пријави се</string>
-  <string name="new_reg__password_length">БАР %1$s ЗНАКОВА</string>
-  <string name="username__set__toast_error">Грешка ажурирања корисничког имена</string>
-  <!-- Giphy -->
-  <string name="giphy_preview__search_hint">Претражи Giphy</string>
-  <string name="giphy_preview__error">НЕМА ГИФОВА</string>
-  <string name="giphy_preview__message_via_random_trending">преко giphy.com</string>
-  <string name="giphy_preview__message_via_search">%s · преко giphy.com</string>
-  <string name="service_giphy_name">Giphy</string>
-  <!--Sketch-->
-  <string name="drawing__tip__picture__message">ТАПНИТЕ НА БОЈУ ДА ПРОМЕНИТЕ ДЕБЉИНУ ЧЕТКИЦЕ\n\nПРОТРЕСИТЕ ДА УКЛОНИТЕ СЛИКЕ.</string>
-  <string name="drawing__tip__message">ТАПНИТЕ НА БОЈУ ДА ПРОМЕНИТЕ ДЕБЉИНУ ЧЕТКИЦЕ\n\nПРИТИСНИТЕ И ЗАДРЖИТЕ ДА ОБОЈИТЕ ОБЛАСТ.</string>
-  <string name="sketch__emoji_keyboard__size_label__small">МАЛИ</string>
-  <string name="sketch__emoji_keyboard__size_label__medium">СРЕДЊИ</string>
-  <string name="sketch__emoji_keyboard__size_label__large">ВЕЛИКИ</string>
-  <string name="toolbar__sketch__action_close">Затвори</string>
-  <string name="drawing__text_hint">УКУЦАЈТЕ ПОРУКУ</string>
-  <!-- Location sharing -->
-  <string name="location_sharing__tip">Вуците мапу да померите локацију</string>
-  <string name="location_sharing__permission_error">Не могу да одредим тренутну локацију, немам дозволе</string>
-  <string name="location_sharing__send_button">ШАЉИ</string>
-  <string name="location_sharing__enable_system_location__title">Користити локацију?</string>
-  <string name="location_sharing__enable_system_location__message">Укључите локацију у поставкама за приказ тренутне позиције</string>
-  <string name="location_sharing__enable_system_location__confirm">Поставке</string>
-  <string name="location_sharing__enable_system_location__cancel">Откажи</string>
-  <string name="location_sharing__missing_play_services">Гуглове Плеј услуге су неопходне за дељење локације</string>
-  <!-- From SyncEngine -->
-  <string name="new_reg__phone_signup__create_account">Направи налог</string>
-  <!-- OTR -->
-  <string name="otr__remove_device__title">Уклони %1$s</string>
-  <string name="otr__remove_device__message">Унесите своју лозинку</string>
-  <string name="otr__remove_device__default">уређај</string>
-  <string name="otr__remove_device__button_delete">У реду</string>
-  <string name="otr__remove_device__button_cancel">Откажи</string>
-  <string name="otr__remove_device__error">Погрешна лозинка</string>
-  <string name="otr__error_dialog__cannot_register__message">Уклоните неки од ваших уређаја да бисте користили Вајер на овом.</string>
-  <string name="otr__error_dialog__cannot_register__manage_devices_button">Управљај уређајима</string>
-  <string name="otr__error_dialog__cannot_register__log_out_button">Одјави се</string>
-  <!-- OTR Participants -->
-  <string name="otr__participant__device_header">Вајер сваком уређају додељује јединствени отисак. Упоредите их са %1$s и проверите ваш разговор.</string>
-  <string name="otr__participant__device_header__no_devices">%1$s користи стару верзију Вајера. Овде нема уређаја.</string>
-  <string name="otr__participant__device_header__link_text">_Зашто проверавати разговоре?_</string>
-  <string name="otr__participant__device_class__unknown">Непознато</string>
-  <string name="otr__participant__device_class__phone">Телефон</string>
-  <string name="otr__participant__device_class__tablet">Таблет</string>
-  <string name="otr__participant__device_class__desktop">Рачунар</string>
-  <string name="otr__participant__tab_details">Детаљи</string>
-  <string name="otr__participant__tab_devices">Уређаји</string>
-  <string name="otr__participant__single_device__my_fingerprint_link">Прикажи отисак мог уређаја</string>
-  <string name="otr__participant__single_device__reset_session_link">Ресетуј сесију</string>
-  <string name="otr__participant__my_device__description">Отисак вашег уређаја</string>
-  <string name="otr__participant__my_device__show_all_devices_link">Прикажи све моје уређаје</string>
-  <string name="otr__participant__single_device__description">Проверите да се ово поклапа са отиском на уређају %1$s.</string>
-  <string name="otr__participant__single_device__how_to_link">_Како ово радим?_</string>
-  <string name="otr__device_id">ИД: %s</string>
-  <string name="otr__first_launch__header">Ово је први пут да Вајер користите на овом уређају.</string>
-  <string name="otr__first_launch__sub_header">Ради приватности, ранији разговори неће се приказивати овде.</string>
-  <string name="otr__first_launch__button">У реду</string>
-  <string name="otr__signin__info_text">Пријави се</string>
-  <string name="otr__reset_session__message_ok">Сесија је ресетована</string>
-  <string name="otr__reset_session__message_fail">Не могу да ресетујем сесију</string>
-  <string name="otr__reset_session__button_ok">У реду</string>
-  <string name="otr__reset_session__button_fail">Покушај поново</string>
-  <string name="advanced_image_download_wifi_info">Слика ће се појавити када опет будете на бежичној мрежи</string>
-  <string name="change_settings">Измени поставке</string>
-  <string name="conversation_list__action_join_call">ПРИДРУЖИ СЕ</string>
-  <!-- Conversation Toolbar -->
-  <string name="conversation_toolbar__collection">Збирка</string>
-  <string name="conversation_toolbar__call_video">Видео позив</string>
-  <string name="conversation_toolbar__call_audio">Гласовни позив</string>
-  <!-- Asset upload errors -->
-  <string name="asset_upload_error__not_found__title">Фајл није нађен</string>
-  <string name="asset_upload_error__not_found__message">Не могу да добавим наведени фајл</string>
-  <string name="asset_upload_error__not_found__button">У реду</string>
-  <string name="asset_upload_error__file_too_large__title">Фајл је превелик</string>
-  <string name="asset_upload_error__file_too_large__message_default">Отпремање великих фајлова није подржано.</string>
-  <string name="asset_upload_error__file_too_large__message">Можете слати фајлове до %1$s</string>
-  <string name="asset_upload_error__file_too_large__button">У реду</string>
-  <string name="asset_upload_warning__large_file__title">Нисте на бежичној вези</string>
-  <string name="asset_upload_warning__large_file__message_default">Заиста желите да пошаљете велики фајл преко мобилне мреже?</string>
-  <string name="asset_upload_warning__large_file__message">Заиста желите да пошаљете %1$s преко мобилне мреже?</string>
-  <!-- Video message errors -->
-  <string name="audio_message_error__missing_audio_permissions">Да бисте слали звучне записе, дозволите снимање звука.</string>
-  <!-- Audio bit rate mode -->
-  <string name="audio_message__constant_bit_rate">СТАЛНИ ПРОТОК</string>
-  <!-- no contacts -->
-  <string name="no_conversation_in_list__header">Још нема разговора</string>
-  <string name="all_archived__header">Све је архивирано</string>
-  <string name="no_conversation_in_list__message">Започните разговор или направите групу.</string>
-  <string name="cursor__type_a_message">УКУЦАЈТЕ ПОРУКУ</string>
-  <string name="cursor__ephemeral_message">ТЕМПИРАНА ПОРУКА</string>
-  <string name="tooltip_record">Сними видео</string>
-  <string name="tooltip_camera">Додај фотографију</string>
-  <string name="tooltip_sketch">Нацртај слику</string>
-  <string name="tooltip_ping">Пинг</string>
-  <string name="tooltip_emoji">Емоџи</string>
-  <string name="tooltip_location">Локација</string>
-  <string name="tooltip_more">још радњи</string>
-  <string name="tooltip_audio_message">Тапните и задржите за слање звучне поруке</string>
-  <string name="tooltip_file">Пошаљи фајл</string>
-  <string name="tooltip_gif">Гиф</string>
-  <string name="tooltip_mention">Add Mention</string>
-  <!-- Delete -->
-  <string name="conversation__message_action__delete_for_me">Обрисати само за мене?</string>
-  <string name="conversation__message_action__delete_for_everyone">Избрисати за све?</string>
-  <string name="conversation__message_action__delete_details">Ово се не може опозвати.</string>
-  <string name="conversation__message_action__delete__dialog__cancel">Откажи</string>
-  <string name="conversation__message_action__delete__dialog__ok">Обриши</string>
-  <string name="conversation__message_action__delete__confirmation">Порука избрисана</string>
-  <string name="conversation__action_mode__copy__description">Порука корисника %1$s</string>
-  <string name="conversation__action_mode__copy__toast">Копирано</string>
-  <string name="conversation__action_mode__fwd__dialog__title">Припремам садржај</string>
-  <string name="conversation__action_mode__fwd__dialog__message">Сачекајте&#8230;</string>
-  <string name="conversation__action_mode__fwd__chooser__title">Делите помоћу</string>
-  <!-- video message preview -->
-  <string name="audio_message__recording__slide_control__slide_hint">ПРЕВУЦИТЕ ГОРЕ ЗА СЛАЊЕ</string>
-  <string name="audio_message__recording__slide_control__tap_hint">ТАПНИТЕ ЗА СЛАЊЕ</string>
-  <string name="audio_message__recording__tap_to_record">Тапните да снимите поруку\nможете је _GLYPH_ након тога</string>
-  <string name="audio_message__recording__failure__title">Не могу да снимим звук</string>
-  <string name="audio_message__recording__failure__message">Покушајте поново.</string>
-  <string name="audio_message__recording__limit_reached__title">Снимање заустављено</string>
-  <string name="audio_message__recording__limit_reached__message">Звучне поруке су ограничене на 25Mb. Да шаљем ову поруку?</string>
-  <string name="audio_message__recording__limit_reached__confirmation">ШАЉИ</string>
-  <string name="hint_change_filter">Изаберите филтер изнад</string>
-  <string name="message_bottom_menu_action_forward">Подели</string>
-  <string name="message_bottom_menu_action_copy">Копирај</string>
-  <string name="message_bottom_menu_action_edit">Уређивање</string>
-  <string name="message_bottom_menu_action_like">Свиђа ми се</string>
-  <string name="message_bottom_menu_action_unlike">Не свиђа ми се</string>
-  <string name="message_bottom_menu_action_save">Сачувај</string>
-  <string name="message_bottom_menu_action_open">Отвори</string>
-  <string name="message_bottom_menu_action_delete">Обриши</string>
-  <string name="message_bottom_menu_action_delete_local">Обриши за мене</string>
-  <string name="message_bottom_menu_action_delete_global">Обриши за све</string>
-  <string name="message_bottom_menu_action_reveal">Откриј у разговору</string>
-  <string name="likes_list__header">Воли</string>
-  <string name="message_bottom_menu_action_save_ok">Слика сачувана</string>
-  <string name="message_footer__tap_to_like">тапните да лајкујете</string>
-  <plurals name="message_footer__number_of_likes">
-    <item quantity="one">%1$d особа</item>
-    <item quantity="few">%1$d особе</item>
-    <item quantity="other">%1$d особа</item>
-  </plurals>
-  <string name="message_footer__status__sending">Шаљем&#8230;</string>
-  <string name="message_footer__status__sent">%1$s \u30FB послато</string>
-  <string name="message_footer__status__delivered">%1$s \u30FB испоручено</string>
-  <string name="message_footer__status__failed">Слање неуспешно. _Понови_</string>
-  <string name="message_footer__status__deleted">%1$s \u30FB обрисано</string>
-  <string name="ephemeral_message__timeout_selection_info">ПОДЕСИТЕ ВРЕМЕ НЕСТАНКА ПОРУКЕ</string>
-  <string name="usernames__take_over__summary">Заузмите ваше име на Вајеру. _Погледајте још_</string>
-  <string name="usernames__take_over__choose">ИЗАБЕРИТЕ СВОЈЕ</string>
-  <string name="usernames__take_over__keep">ОСТАВИ ОВО</string>
-  <string name="ephemeral_message__timeout__off">Искључено</string>
-  <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
-  <string name="guests_option_on">On</string>
-  <plurals name="unit_years">
-    <item quantity="one">%1$s year</item>
-    <item quantity="few">%1$s years</item>
-    <item quantity="other">%1$s years</item>
-  </plurals>
-  <plurals name="unit_weeks">
-    <item quantity="one">%1$s week</item>
-    <item quantity="few">%1$s weeks</item>
-    <item quantity="other">%1$s weeks</item>
-  </plurals>
-  <plurals name="unit_days">
-    <item quantity="one">%1$s day</item>
-    <item quantity="few">%1$s days</item>
-    <item quantity="other">%1$s days</item>
-  </plurals>
-  <plurals name="unit_hours">
-    <item quantity="one">%1$s hour</item>
-    <item quantity="few">%1$s hours</item>
-    <item quantity="other">%1$s hours</item>
-  </plurals>
-  <plurals name="unit_minutes">
-    <item quantity="one">%1$s minute</item>
-    <item quantity="few">%1$s minutes</item>
-    <item quantity="other">%1$s minutes</item>
-  </plurals>
-  <plurals name="unit_seconds">
-    <item quantity="one">%1$s second</item>
-    <item quantity="few">%1$s seconds</item>
-    <item quantity="other">%1$s seconds</item>
-  </plurals>
-  <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
-  <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
-  <string name="collection_header_pictures">СЛИКЕ</string>
-  <string name="collection_header_files">ФАЈЛОВИ</string>
-  <string name="collection_header_links">ВЕЗЕ</string>
-  <string name="collection_header_today">ДАНАС</string>
-  <string name="collection_header_yesterday">ЈУЧЕ</string>
-  <string name="collection_empty">НЕМА СТАВКИ У ЗБИРЦИ</string>
-  <string name="collection_all">Прикажи све %1$s</string>
-  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_search_hint">ПОШАЉИ&#8230;</string>
-  <string name="search__box__hint_text">ПРЕТРАЖИ ТЕКСТ ПОРУКА</string>
-  <string name="search__no_results">Нема резултата.</string>
-  <!-- Conversation List -->
-  <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s message</item>
-    <item quantity="few">%1$s messages</item>
-    <item quantity="other">%1$s messages</item>
-  </plurals>
-  <plurals name="conversation_list__pings_count">
-    <item quantity="one">%1$s пинг</item>
-    <item quantity="few">%1$s пинга</item>
-    <item quantity="other">%1$s пингова</item>
-  </plurals>
-  <plurals name="conversation_list__new_likes_count">
-    <item quantity="one">%1$s ♥</item>
-    <item quantity="few">%1$s ♥</item>
-    <item quantity="other">%1$s ♥</item>
-  </plurals>
-  <plurals name="conversation_list__missed_calls_plural">
-    <item quantity="one">%1$s пропуштен позив</item>
-    <item quantity="few">%1$s пропуштена позива</item>
-    <item quantity="other">%1$s пропуштена позива</item>
-  </plurals>
-  <string name="conversation_list__missed_calls_count">Пропуштен позив</string>
-  <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
-  <plurals name="conversation_list__mentions_count">
-    <item quantity="one">%1$s mention</item>
-    <item quantity="few">%1$s mentions</item>
-    <item quantity="other">%1$s mentions</item>
-  </plurals>
-  <string name="conversation_list__unsent_message_long">⚠ непослата порука</string>
-  <string name="conversation_list__unsent_message_short">⚠</string>
-  <string name="conversation_list__shared__image">подели слику</string>
-  <string name="conversation_list__shared__file">подели фајл</string>
-  <string name="conversation_list__shared__video">подели видео</string>
-  <string name="conversation_list__shared__audio">подели звучну поруку</string>
-  <string name="conversation_list__shared__location">подели локацију</string>
-  <string name="conversation_list__missed_call">Пропуштен позив</string>
-  <string name="conversation_list__pinged">пингова</string>
-  <string name="conversation_list__ephemeral">Someone sent a message</string>
-  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
-  <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
-  <string name="conversation_list__typing">куца поруку&#8230;</string>
-  <string name="conversation_list__someone">Неко</string>
-  <string name="conversation_list__added">[[%1$s]] се придружи</string>
-  <string name="conversation_list__added_you">[[%1$s]] вас додаде</string>
-  <string name="conversation_list__left_you">изашли сте</string>
-  <string name="conversation_list__removed_you">[[%1$s]] вас уклони</string>
-  <string name="conversation_list__header__title">РАЗГОВОРИ</string>
-  <string name="conversation_list__header__archive_title">АРХИВЕ</string>
-  <string name="guest_indicator">ГОСТ</string>
-  <string name="participant_tab_guest_indicator_label">Гост</string>
-  <string name="availability_none">без</string>
-  <string name="availability_available">На располагању</string>
-  <string name="availability_away">нисам ту</string>
-  <string name="availability_busy">заузет</string>
-  <string name="availability_text_available">%1$s IS AVAILABLE</string>
-  <string name="availability_text_away">%1$s IS AWAY</string>
-  <string name="availability_text_busy">%1$s IS BUSY</string>
-  <string name="availability_setstatus">SET A STATUS</string>
-  <string name="preferences_profile_new">Нови тим или налог</string>
-  <string name="preferences_profile_add_account">Додај налог</string>
-  <string name="preferences_profile_create_team">Направи тим</string>
-  <string name="preferences_profile_in_team"> %1$s</string>
-  <string name="new_devices_dialog_title">Повезали сте уређај са вашим Вајер налогом</string>
-  <string name="new_devices_dialog_info">Ако нисте ви ово урадили, уклоните уређај и ресетујте лозинку.</string>
-  <string name="new_devices_dialog_manage_devices">Управљај уређајима</string>
-  <string name="teams_set_email_title">Your account</string>
-  <string name="teams_set_email_subtitle">Enter your work email address.</string>
-  <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
-  <string name="teams_set_email_about">LEARN MORE</string>
-  <string name="teams_set_password_title">Постави лозинку</string>
-  <string name="teams_set_password_hint">БАР 8 ЗНАКОВА</string>
-  <string name="teams_set_username_title">Set username</string>
-  <string name="teams_set_username_hint">КОРИСНИЧКО ИМЕ</string>
-  <string name="teams_set_team_name_title">Name your team</string>
-  <string name="teams_set_team_name_subtitle">You can always change it later.</string>
-  <string name="teams_set_team_name_hint">TEAM NAME</string>
-  <string name="teams_set_team_name_about">WHAT IS WIRE FOR TEAMS?</string>
-  <string name="teams_verify_email_title">You\'ve got mail</string>
-  <string name="teams_verify_email_subtitle">Enter the verification code we sent to %1$s.</string>
-  <string name="teams_verify_email_resend">RESEND CODE</string>
-  <string name="teams_verify_email_change">CHANGE EMAIL</string>
-  <string name="teams_set_name_title">Your name</string>
-  <string name="teams_set_name_hint">FULL NAME</string>
-  <string name="app_entry_create_account">Лично</string>
-  <string name="app_entry_create_account_sub">create an account</string>
-  <string name="app_entry_create_team">Pro</string>
-  <string name="app_entry_create_team_sub">create a team</string>
-  <string name="app_entry_login_sub">Already have an account?</string>
-  <string name="app_entry_login">Пријави се</string>
-  <string name="app_entry_tc_dialog_title">Terms of Service</string>
-  <string name="app_entry_tc_dialog_message">You must accept to continue</string>
-  <string name="app_entry_notifications_dialog_title">Обавештења</string>
-  <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
-  <string name="app_entry_dialog_accept">ПРИХВАТИ</string>
-  <string name="app_entry_dialog_cancel">ОТКАЖИ</string>
-  <string name="app_entry_dialog_log_in">ПРИЈАВА</string>
-  <string name="app_entry_dialog_no_thanks">NO, THANKS</string>
-  <string name="app_entry_dialog_not_now">NOT NOW</string>
-  <string name="app_entry_dialog_view">VIEW</string>
-  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
-  <string name="app_entry_email_sent">Email sent</string>
-  <string name="teams_set_username_subtitle">Usernames help people find you.</string>
-  <string name="app_entry_sso_dialog_title">Company login</string>
-  <string name="app_entry_sso_dialog_message">Enter the company SSO access code.</string>
-  <string name="app_entry_sso_input_hint"></string>
-  <string name="pick_user_teams_invite">Invite people to join the team</string>
-  <string name="teams_invitations_skip">SKIP</string>
-  <string name="teams_invitations_done">DONE</string>
-  <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
-  <string name="teams_invitations_error_already_sent">Already sent</string>
-  <string name="teams_invitations_error_generic">Нешто је пошло наопако. Покушајте поново</string>
-  <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
-  <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
-  <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
-  <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
-  <string name="invitation_screen_title">Build your team</string>
-  <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
-  <string name="open_service_conversation_button_text">Отвори разговор</string>
-  <string name="remove_service_button_text">Remove Service</string>
-  <string name="integrations_create_conversation">Create a new conversation</string>
-  <string name="no_matches_found">No matches found</string>
-  <string name="loading_services">Loading services&#8230;</string>
-  <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
-  <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
-  <string name="create_group_conversation">Направи групу</string>
-  <string name="create_guest_room_conversation">Create guest room</string>
-  <string name="manage_services">Manage Services</string>
-  <string name="next_button">NEXT</string>
-  <string name="skip_button">SKIP</string>
-  <string name="done_button">DONE</string>
-  <string name="new_group_header">НАПРАВИ ГРУПУ</string>
-  <string name="add_participants_empty_header">ADD PARTICIPANTS</string>
-  <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
-  <string name="new_conv_no_results">Нема резултата</string>
-  <string name="new_conv_no_contacts">No contacts</string>
-  <string name="participants_divider_services">SERVICES (%1$s)</string>
-  <string name="participants_divider_people">PEOPLE (%1$s)</string>
-  <string name="group_name_hint">GROUP NAME</string>
-  <string name="allow_guests_toggle_text">Allow guests and services</string>
-  <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
-  <string name="allow_guests">Allow guests and services</string>
-  <string name="guest_options_title">Guests and services</string>
-  <string name="ephemeral_options_title">Timed messages</string>
-  <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
-  <string name="show_all_participants">Show all (%1$s)</string>
-  <string name="allow_guests_error_title">Нешто је пошло наопако</string>
-  <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
-  <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
-  <string name="allow_guests_warning_confirm">Уклони</string>
-  <string name="guests_are_present">GUESTS ARE PRESENT</string>
-  <string name="services_are_present">SERVICES ARE ACTIVE</string>
-  <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
-  <string name="participants_details_header_title">DETAILS</string>
-  <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
-  <string name="create_link_button">Create Link</string>
-  <string name="copy_link_button">Copy Link</string>
-  <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link&#8230;</string>
-  <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
-  <string name="link_copied_toast">Link Copied!</string>
-  <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
-  <string name="revoke_link_confirm">Revoke Link</string>
-  <string name="invite_button_description">People outside your team can join this conversation.</string>
-  <string name="invite_people">Позови људе</string>
-  <string name="guest_room_name">Guest room</string>
-  <string name="guest_time_left_hours">%1$sh left</string>
-  <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
-  <string name="guest_time_left_minutes">Less than %1$sm left</string>
-  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+    <!-- Support -->
+    <string name="pref_support_screen_title">Подршка</string>
+    <string name="pref_support_website_title">Веб сајт Вајер подршке</string>
+    <string name="pref_support_contact_title">Контактирај подршку</string>
+    <!-- About -->
+    <string name="pref_about_screen_title">О програму</string>
+    <string name="pref_about_website_title">Веб сајт Вајера</string>
+    <string name="pref_about_tos_title">Услови коришћења</string>
+    <string name="pref_about_privacy_policy_title">Политика приватности</string>
+    <string name="pref_about_licenses_title">Информације о лиценци</string>
+    <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
+    <string name="pref_about_version_title">Верзија %s</string>
+    <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
+    <!-- Pref invite -->
+    <string name="pref_invite_title">Позовите људе у Вајер</string>
+    <!-- Preference Account Actions -->
+    <string name="pref__account_action__phone_verification__title">Оверите број телефона</string>
+    <string name="pref__account_action__phone_verification__description">Унесите верификациони код који смо послали на %s</string>
+    <string name="pref__account_action__phone_verification__code">Кôд</string>
+    <string name="pref__account_action__phone_verification__question">Не приказује се код?</string>
+    <string name="pref__account_action__phone_verification__resend"><u>Пошаљи поново</u></string>
+    <string name="pref__account_action__phone_verification__change"><u>Измени број телефона</u></string>
+    <string name="pref__account_action__email_verification__title">Овери адресу е-поште</string>
+    <string name="pref__account_action__email_verification__description">Проверите сандуче е-поште и следите упутства.</string>
+    <string name="pref__account_action__email_verification__question">Не стиже е-пошта?</string>
+    <string name="pref__account_action__email_verification__resend">&lt;u&gt;Пошаљи поново на %s&lt;/u&gt;</string>
+    <string name="pref__account_action__email_verification__change"><u>Измени е-адресу</u></string>
+    <string name="pref__account_action__dialog__add_email_password__password">Лозинка</string>
+    <string name="pref__account_action__dialog__add_email_password__email">E-пошта</string>
+    <string name="pref__account_action__dialog__add_email_password__title">Додај адресу е-поште</string>
+    <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Неисправна адреса е-поште</string>
+    <string name="pref__account_action__dialog__add_email_password__error__invalid_password">Бар 8 знакова</string>
+    <string name="pref__account_action__dialog__edit_phone__title">Уреди број телефона</string>
+    <string name="pref__account_action__dialog__add_phone__title">Додај број телефона</string>
+    <string name="pref__account_action__dialog__add_phone__error__country">Погрешан код земље</string>
+    <string name="pref__account_action__dialog__add_phone__error__number">Неисправан број телефона</string>
+    <string name="pref__account_action__dialog__add_phone__confirm__title">Потврди број</string>
+    <string name="pref__account_action__dialog__add_phone__confirm__message">Послаћемо код обавештења на:\n%s</string>
+    <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Уклони</string>
+    <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Заиста желите да уклоните %s из вашег Вајер налога?</string>
+    <string name="pref__account_action__dialog__delete_phone__error">Не могу да избришем број телефона</string>
+    <string name="pref__account_action__dialog__change_email__title">Уреди адресу е-поште</string>
+    <string name="pref__account_action__dialog__change_username__rules">Бар 2 знака. Само a-z, 0-9 и _</string>
+    <string name="pref__account_action__dialog__change_username__title">Корисничко име</string>
+    <string name="pref__account_action__dialog__change_username__error_already_taken">Већ заузето</string>
+    <string name="pref__account_action__dialog__change_username__error_unknown">Грешка везе, покушајте поново</string>
+    <!-- No Internet connection -->
+    <string name="system_status__no_internet">НЕМА ИНТЕРНЕТА</string>
+    <!-- SHARING -->
+    <string name="alert_dialog__confirmation">У реду</string>
+    <string name="alert_dialog__no_network__header">Не постоји веза са интернетом</string>
+    <string name="sign_up__set_picture__choose">Изаберите своју</string>
+    <string name="sign_up__set_picture__keep">Остави ову</string>
+    <string name="sign_up__set_picture__guidance">Вајер је много лепши са сликом.</string>
+    <string name="sign_up__set_picture__loading">Учитавам слику</string>
+    <string name="leave_conversation_failed__message">Морате бити на вези да бисте напустили разговор. Проверите везу и покушајте поново.</string>
+    <string name="remove_from_conversation__no_network__message">Морате бити на вези да бисте уклонили људе из разговора. Проверите везу и покушајте поново.</string>
+    <string name="calling__call_drop__message">Морате бити на вези да бисте позивали. Проверите везу и покушајте поново.</string>
+    <!-- Lockscreen and notifications -->
+    <string name="message_notifications_channel_name">Messages</string>
+    <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
+    <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+    <string name="ping_notifications_channel_name">Pings</string>
+    <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
+    <string name="ongoing_channel_name">Background notifications</string>
+    <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
+    <string name="foreground_service_notification_name">Maintain connection to server</string>
+    <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
+    <plurals name="notification__new_messages__multiple">
+        <item quantity="one">%1$d порука у %2$s разговора</item>
+        <item quantity="few">%1$d поруке у %2$s разговора</item>
+        <item quantity="other">%1$d порука у %2$s разговора</item>
+    </plurals>
+    <!-- %1$s == username, %2$s == conversation -->
+    <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
+    <string name="notification__message__group__prefix__text">%1$s у %2$s: \u0020</string>
+    <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+    <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text_one2one">Reply: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">Reply from %1$s: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">Reply from %1$s in %2$s: \u0020</string>
+    <string name="notification__message__one_to_one__wanted_to_talk">Позваше</string>
+    <string name="notification__message__one_to_one__pinged">Пинг</string>
+    <string name="notification__message__one_to_one__shared_picture">подели слику</string>
+    <string name="notification__message__one_to_one__shared_file">подели фајл</string>
+    <string name="notification__message__one_to_one__shared_video">подели видео</string>
+    <string name="notification__message__one_to_one__shared_audio">подели звучну поруку</string>
+    <string name="notification__message__one_to_one__shared_location">подели локацију</string>
+    <!-- %1$s == username, %2$s == conversation -->
+    <string name="notification__message__group__prefix__other">%1$s у %2$s \u0020</string>
+    <string name="notification__message__group__renamed_conversation">преименова разговор у %1$s</string>
+    <string name="notification__message__group__add">додаде људе у разговор</string>
+    <string name="notification__message__group__remove">уклони људе из разговора</string>
+    <string name="notification__message__single__accept_request">Ви и %1$s сте сада повезани</string>
+    <string name="notification__message__group__default_conversation_name">групни разговор</string>
+    <string name="notification__message__send_failed">Неуспешно слање поруке</string>
+    <string name="notification__message__ephemeral">Sent a message</string>
+    <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
+    <string name="notification__message_with_quote__ephemeral">Replied to you</string>
+    <string name="notification__message__liked">\u2764 ‘%1$s’</string>
+    <string name="notification__message__liked_message">\u2764 вашу поруку</string>
+    <string name="notification__message__liked_picture">\u2764 вашу слику</string>
+    <!-- ephemeral -->
+    <string name="notification__message__ephemeral_someone">Неко</string>
+    <plurals name="notification__message__ephemeral">
+        <item quantity="one">Неко вам је послао поруку</item>
+        <item quantity="few">Неко вам је послао %1$d поруке</item>
+        <item quantity="other">Неко вам је послао %1$d порука</item>
+    </plurals>
+    <string name="other_set_message_timer">[[%1$s]] set the message timer to [[%2$s]]</string>
+    <string name="you_set_message_timer">[[You]] set the message timer to [[%1$s]]</string>
+    <string name="other_turned_off_message_timer">[[%1$s]] turned off the message timer</string>
+    <string name="you_turned_off_message_timer">[[You]] turned off the message timer</string>
+    <!-- Others -->
+    <string name="app_name">Вајер</string>
+    <string name="content__system__item_separator">,</string>
+    <string name="content__system__last_item_separator">и</string>
+    <string name="content__system__you">ви</string>
+    <plurals name="content__system__other_members">
+        <item quantity="one">%1$s other</item>
+        <item quantity="few">%1$s others</item>
+        <item quantity="other">%1$s others</item>
+    </plurals>
+    <!-- System notifications -->
+    <string name="system_notification__silence_call">Одбиј</string>
+    <string name="system_notification__join_call">Прихвати</string>
+    <string name="system_notification__leave_call">Заврши позив</string>
+    <string name="system_notification__calling_one">Позивање&#8230;</string>
+    <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
+    <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
+    <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
+    <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
+    <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
+    <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+    <string name="ws_foreground_notification_summary">Tap here for more information.</string>
+    <!-- Notification actions -->
+    <string name="notification__action__call">Позив</string>
+    <string name="notification__action__reply">Одговори</string>
+    <!-- Quick reply -->
+    <string name="quick_reply__counter">%1$d од %2$d</string>
+    <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
+    <string name="quick_reply__open_wire">Отвори Вајер</string>
+    <!-- Save image notification -->
+    <string name="notification__image_saving__content__title">Вајер слика сачувана.</string>
+    <string name="notification__image_saving__content__subtitle">Додирните да погледате.</string>
+    <string name="notification__image_saving__action__share">Подели</string>
+    <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
+    <dimen name="notification__image_saving__image_width">512dp</dimen>
+    <!-- forced update -->
+    <string name="forced_update__header">Важно ажурирање</string>
+    <string name="forced_update__sub_header">Инсталирајте последњу верзију Вајера.</string>
+    <string name="forced_update__download_button">Преузми</string>
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- Sharing -->
+    <string name="sharing__image_preview__confirm_action">ШАЉИ</string>
+    <string name="sharing__user_not_logged_in__dialog__title">Пријавите се</string>
+    <string name="sharing__user_not_logged_in__dialog__message">Отворите Вајер и пријавите се да поделите.</string>
+    <string name="sharing__user_not_logged_in__dialog__confirm">У реду</string>
+    <!-- Sync errors -->
+    <string name="in_app_notification__sync_error__create_group_convo__title">Не могу да направим</string>
+    <string name="in_app_notification__sync_error__create_group_convo__body">Не могу да започнем разговор са %1$s</string>
+    <string name="in_app_notification__sync_error__add_user__body">%1$s не жели да се прикључи разговору.</string>
+    <string name="in_app_notification__sync_error__add_multiple_user__body">Једна од изабраних особа не жели да учествује у разговору.</string>
+    <string name="in_app_notification__sync_error__unknown__body">Нешто је пошло наопако. Покушајте поново.</string>
+    <string name="in_app_notification__sync_error__create_convo__button">Настави</string>
+    <!--Timestamp formatting -->
+    <string name="timestamp__just_now">управо сада</string>
+    <plurals name="timestamp__x_minutes_ago">
+        <item quantity="one">пре %1$d минута</item>
+        <item quantity="few">пре %1$d минута</item>
+        <item quantity="other">пре %1$d минута</item>
+    </plurals>
+    <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
+    <!-- Example: FRIDAY, MAR 9, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__no_year">EEE, d MMM, %1$s</string>
+    <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__with_year">EEE, d MMM, YYYY, %1$s</string>
+    <!-- Example: MAR 9, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__no_year_no_weekday">d MMM, %1$s</string>
+    <!-- Example: MAR 9, 2015, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__with_year_no_weekday">d MMM, YYYY, %1$s</string>
+    <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
+    <!-- MONDAY -->
+    <!-- MARCH 2 -->
+    <!-- MARCH 2, 2015 -->
+    <!-- 23:15 -->
+    <string name="timestamp_pattern__24h_format">HH:mm</string>
+    <string name="timestamp_pattern__12h_format">hh:mm a</string>
+    <string name="country">Земља</string>
+    <string name="register">Региструј се</string>
+    <string name="password_placeholder">Лозинка</string>
+    <string name="email_placeholder">E-пошта</string>
+    <string name="name_placeholder">Име</string>
+    <!-- Strings -->
+    <string name="edit_phone_number">УРЕДИТЕ БРОЈ ТЕЛЕФОНА</string>
+    <string name="i_have_an_account">ПРИЈАВА</string>
+    <plurals name="welcome__resend__timer_label">
+        <item quantity="one">МОЖЕТЕ ЗАТРАЖИТИ НОВИ КОД ЗА %1$d СЕКУНД</item>
+        <item quantity="few">МОЖЕТЕ ЗАТРАЖИТИ НОВИ КОД ЗА %1$d СЕКУНДЕ</item>
+        <item quantity="other">МОЖЕТЕ ЗАТРАЖИТИ НОВИ КОД ЗА %1$d СЕКУНДИ</item>
+    </plurals>
+    <string name="welcome__resend__manual">ПОНОВИ</string>
+    <string name="welcome__resend__callme">ПОЗОВИ МЕ</string>
+    <string name="activation_code_info_manual">Унесите верификациони код који смо послали на \n&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="enter_name">Како се зовете?</string>
+    <string name="enter_name_hint">унесите пуно име</string>
+    <string name="new_reg__password__forgot">Заборавили сте лозинку?</string>
+    <string name="phone_sign_in">Телефон</string>
+    <string name="email_sign_in">E-пошта</string>
+    <string name="edit_email">Уреди е-пошту</string>
+    <string name="hello">Здраво, &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="sign_in">Пријави се</string>
+    <string name="new_reg__password_length">БАР %1$s ЗНАКОВА</string>
+    <string name="username__set__toast_error">Грешка ажурирања корисничког имена</string>
+    <!-- Giphy -->
+    <string name="giphy_preview__search_hint">Претражи Giphy</string>
+    <string name="giphy_preview__error">НЕМА ГИФОВА</string>
+    <string name="giphy_preview__message_via_random_trending">преко giphy.com</string>
+    <string name="giphy_preview__message_via_search">%s · преко giphy.com</string>
+    <string name="service_giphy_name">Giphy</string>
+    <!--Sketch-->
+    <string name="drawing__tip__picture__message">ТАПНИТЕ НА БОЈУ ДА ПРОМЕНИТЕ ДЕБЉИНУ ЧЕТКИЦЕ\n\nПРОТРЕСИТЕ ДА УКЛОНИТЕ СЛИКЕ.</string>
+    <string name="drawing__tip__message">ТАПНИТЕ НА БОЈУ ДА ПРОМЕНИТЕ ДЕБЉИНУ ЧЕТКИЦЕ\n\nПРИТИСНИТЕ И ЗАДРЖИТЕ ДА ОБОЈИТЕ ОБЛАСТ.</string>
+    <string name="sketch__emoji_keyboard__size_label__small">МАЛИ</string>
+    <string name="sketch__emoji_keyboard__size_label__medium">СРЕДЊИ</string>
+    <string name="sketch__emoji_keyboard__size_label__large">ВЕЛИКИ</string>
+    <string name="toolbar__sketch__action_close">Затвори</string>
+    <string name="drawing__text_hint">УКУЦАЈТЕ ПОРУКУ</string>
+    <!-- Location sharing -->
+    <string name="location_sharing__tip">Вуците мапу да померите локацију</string>
+    <string name="location_sharing__permission_error">Не могу да одредим тренутну локацију, немам дозволе</string>
+    <string name="location_sharing__send_button">ШАЉИ</string>
+    <string name="location_sharing__enable_system_location__title">Користити локацију?</string>
+    <string name="location_sharing__enable_system_location__message">Укључите локацију у поставкама за приказ тренутне позиције</string>
+    <string name="location_sharing__enable_system_location__confirm">Поставке</string>
+    <string name="location_sharing__enable_system_location__cancel">Откажи</string>
+    <string name="location_sharing__missing_play_services">Гуглове Плеј услуге су неопходне за дељење локације</string>
+    <!-- From SyncEngine -->
+    <string name="new_reg__phone_signup__create_account">Направи налог</string>
+    <!-- OTR -->
+    <string name="otr__remove_device__title">Уклони %1$s</string>
+    <string name="otr__remove_device__message">Унесите своју лозинку</string>
+    <string name="otr__remove_device__default">уређај</string>
+    <string name="otr__remove_device__button_delete">У реду</string>
+    <string name="otr__remove_device__button_cancel">Откажи</string>
+    <string name="otr__remove_device__error">Погрешна лозинка</string>
+    <string name="otr__error_dialog__cannot_register__message">Уклоните неки од ваших уређаја да бисте користили Вајер на овом.</string>
+    <string name="otr__error_dialog__cannot_register__manage_devices_button">Управљај уређајима</string>
+    <string name="otr__error_dialog__cannot_register__log_out_button">Одјави се</string>
+    <!-- OTR Participants -->
+    <string name="otr__participant__device_header">Вајер сваком уређају додељује јединствени отисак. Упоредите их са %1$s и проверите ваш разговор.</string>
+    <string name="otr__participant__device_header__no_devices">%1$s користи стару верзију Вајера. Овде нема уређаја.</string>
+    <string name="otr__participant__device_header__link_text">_Зашто проверавати разговоре?_</string>
+    <string name="otr__participant__device_class__unknown">Непознато</string>
+    <string name="otr__participant__device_class__phone">Телефон</string>
+    <string name="otr__participant__device_class__tablet">Таблет</string>
+    <string name="otr__participant__device_class__desktop">Рачунар</string>
+    <string name="otr__participant__tab_details">Детаљи</string>
+    <string name="otr__participant__tab_devices">Уређаји</string>
+    <string name="otr__participant__single_device__my_fingerprint_link">Прикажи отисак мог уређаја</string>
+    <string name="otr__participant__single_device__reset_session_link">Ресетуј сесију</string>
+    <string name="otr__participant__my_device__description">Отисак вашег уређаја</string>
+    <string name="otr__participant__my_device__show_all_devices_link">Прикажи све моје уређаје</string>
+    <string name="otr__participant__single_device__description">Проверите да се ово поклапа са отиском на уређају %1$s.</string>
+    <string name="otr__participant__single_device__how_to_link">_Како ово радим?_</string>
+    <string name="otr__device_id">ИД: %s</string>
+    <string name="otr__first_launch__header">Ово је први пут да Вајер користите на овом уређају.</string>
+    <string name="otr__first_launch__sub_header">Ради приватности, ранији разговори неће се приказивати овде.</string>
+    <string name="otr__first_launch__button">У реду</string>
+    <string name="otr__signin__info_text">Пријави се</string>
+    <string name="otr__reset_session__message_ok">Сесија је ресетована</string>
+    <string name="otr__reset_session__message_fail">Не могу да ресетујем сесију</string>
+    <string name="otr__reset_session__button_ok">У реду</string>
+    <string name="otr__reset_session__button_fail">Покушај поново</string>
+    <string name="advanced_image_download_wifi_info">Слика ће се појавити када опет будете на бежичној мрежи</string>
+    <string name="change_settings">Измени поставке</string>
+    <string name="conversation_list__action_join_call">ПРИДРУЖИ СЕ</string>
+    <!-- Conversation Toolbar -->
+    <string name="conversation_toolbar__collection">Збирка</string>
+    <string name="conversation_toolbar__call_video">Видео позив</string>
+    <string name="conversation_toolbar__call_audio">Гласовни позив</string>
+    <!-- Asset upload errors -->
+    <string name="asset_upload_error__not_found__title">Фајл није нађен</string>
+    <string name="asset_upload_error__not_found__message">Не могу да добавим наведени фајл</string>
+    <string name="asset_upload_error__not_found__button">У реду</string>
+    <string name="asset_upload_error__file_too_large__title">Фајл је превелик</string>
+    <string name="asset_upload_error__file_too_large__message_default">Отпремање великих фајлова није подржано.</string>
+    <string name="asset_upload_error__file_too_large__message">Можете слати фајлове до %1$s</string>
+    <string name="asset_upload_error__file_too_large__button">У реду</string>
+    <string name="asset_upload_warning__large_file__title">Нисте на бежичној вези</string>
+    <string name="asset_upload_warning__large_file__message_default">Заиста желите да пошаљете велики фајл преко мобилне мреже?</string>
+    <string name="asset_upload_warning__large_file__message">Заиста желите да пошаљете %1$s преко мобилне мреже?</string>
+    <!-- Video message errors -->
+    <string name="audio_message_error__missing_audio_permissions">Да бисте слали звучне записе, дозволите снимање звука.</string>
+    <!-- Audio bit rate mode -->
+    <string name="audio_message__constant_bit_rate">СТАЛНИ ПРОТОК</string>
+    <!-- no contacts -->
+    <string name="no_conversation_in_list__header">Још нема разговора</string>
+    <string name="all_archived__header">Све је архивирано</string>
+    <string name="no_conversation_in_list__message">Започните разговор или направите групу.</string>
+    <string name="cursor__type_a_message">УКУЦАЈТЕ ПОРУКУ</string>
+    <string name="cursor__ephemeral_message">ТЕМПИРАНА ПОРУКА</string>
+    <string name="tooltip_record">Сними видео</string>
+    <string name="tooltip_camera">Додај фотографију</string>
+    <string name="tooltip_sketch">Нацртај слику</string>
+    <string name="tooltip_ping">Пинг</string>
+    <string name="tooltip_emoji">Емоџи</string>
+    <string name="tooltip_location">Локација</string>
+    <string name="tooltip_more">још радњи</string>
+    <string name="tooltip_audio_message">Тапните и задржите за слање звучне поруке</string>
+    <string name="tooltip_file">Пошаљи фајл</string>
+    <string name="tooltip_gif">Гиф</string>
+    <string name="tooltip_mention">Add Mention</string>
+    <!-- Delete -->
+    <string name="conversation__message_action__delete_for_me">Обрисати само за мене?</string>
+    <string name="conversation__message_action__delete_for_everyone">Избрисати за све?</string>
+    <string name="conversation__message_action__delete_details">Ово се не може опозвати.</string>
+    <string name="conversation__message_action__delete__dialog__cancel">Откажи</string>
+    <string name="conversation__message_action__delete__dialog__ok">Обриши</string>
+    <string name="conversation__message_action__delete__confirmation">Порука избрисана</string>
+    <string name="conversation__action_mode__copy__description">Порука корисника %1$s</string>
+    <string name="conversation__action_mode__copy__toast">Копирано</string>
+    <string name="conversation__action_mode__fwd__dialog__title">Припремам садржај</string>
+    <string name="conversation__action_mode__fwd__dialog__message">Сачекајте&#8230;</string>
+    <string name="conversation__action_mode__fwd__chooser__title">Делите помоћу</string>
+    <!-- video message preview -->
+    <string name="audio_message__recording__slide_control__slide_hint">ПРЕВУЦИТЕ ГОРЕ ЗА СЛАЊЕ</string>
+    <string name="audio_message__recording__slide_control__tap_hint">ТАПНИТЕ ЗА СЛАЊЕ</string>
+    <string name="audio_message__recording__tap_to_record">Тапните да снимите поруку\nможете је _GLYPH_ након тога</string>
+    <string name="audio_message__recording__failure__title">Не могу да снимим звук</string>
+    <string name="audio_message__recording__failure__message">Покушајте поново.</string>
+    <string name="audio_message__recording__limit_reached__title">Снимање заустављено</string>
+    <string name="audio_message__recording__limit_reached__message">Звучне поруке су ограничене на 25Mb. Да шаљем ову поруку?</string>
+    <string name="audio_message__recording__limit_reached__confirmation">ШАЉИ</string>
+    <string name="hint_change_filter">Изаберите филтер изнад</string>
+    <string name="message_bottom_menu_action_forward">Подели</string>
+    <string name="message_bottom_menu_action_copy">Копирај</string>
+    <string name="message_bottom_menu_action_edit">Уређивање</string>
+    <string name="message_bottom_menu_action_like">Свиђа ми се</string>
+    <string name="message_bottom_menu_action_unlike">Не свиђа ми се</string>
+    <string name="message_bottom_menu_action_save">Сачувај</string>
+    <string name="message_bottom_menu_action_open">Отвори</string>
+    <string name="message_bottom_menu_action_delete">Обриши</string>
+    <string name="message_bottom_menu_action_delete_local">Обриши за мене</string>
+    <string name="message_bottom_menu_action_delete_global">Обриши за све</string>
+    <string name="message_bottom_menu_action_reveal">Откриј у разговору</string>
+    <string name="message_bottom_menu_action_reply">Одговори</string>
+    <string name="likes_list__header">Воли</string>
+    <string name="message_bottom_menu_action_save_ok">Слика сачувана</string>
+    <string name="message_footer__tap_to_like">тапните да лајкујете</string>
+    <plurals name="message_footer__number_of_likes">
+        <item quantity="one">%1$d особа</item>
+        <item quantity="few">%1$d особе</item>
+        <item quantity="other">%1$d особа</item>
+    </plurals>
+    <string name="message_footer__status__sending">Шаљем&#8230;</string>
+    <string name="message_footer__status__sent">%1$s \u30FB послато</string>
+    <string name="message_footer__status__delivered">%1$s \u30FB испоручено</string>
+    <string name="message_footer__status__failed">Слање неуспешно. _Понови_</string>
+    <string name="message_footer__status__deleted">%1$s \u30FB обрисано</string>
+    <string name="ephemeral_message__timeout_selection_info">ПОДЕСИТЕ ВРЕМЕ НЕСТАНКА ПОРУКЕ</string>
+    <string name="usernames__take_over__summary">Заузмите ваше име на Вајеру. _Погледајте још_</string>
+    <string name="usernames__take_over__choose">ИЗАБЕРИТЕ СВОЈЕ</string>
+    <string name="usernames__take_over__keep">ОСТАВИ ОВО</string>
+    <string name="ephemeral_message__timeout__off">Искључено</string>
+    <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
+    <string name="guests_option_on">On</string>
+    <plurals name="unit_years">
+        <item quantity="one">%1$s year</item>
+        <item quantity="few">%1$s years</item>
+        <item quantity="other">%1$s years</item>
+    </plurals>
+    <plurals name="unit_weeks">
+        <item quantity="one">%1$s week</item>
+        <item quantity="few">%1$s weeks</item>
+        <item quantity="other">%1$s weeks</item>
+    </plurals>
+    <plurals name="unit_days">
+        <item quantity="one">%1$s day</item>
+        <item quantity="few">%1$s days</item>
+        <item quantity="other">%1$s days</item>
+    </plurals>
+    <plurals name="unit_hours">
+        <item quantity="one">%1$s hour</item>
+        <item quantity="few">%1$s hours</item>
+        <item quantity="other">%1$s hours</item>
+    </plurals>
+    <plurals name="unit_minutes">
+        <item quantity="one">%1$s minute</item>
+        <item quantity="few">%1$s minutes</item>
+        <item quantity="other">%1$s minutes</item>
+    </plurals>
+    <plurals name="unit_seconds">
+        <item quantity="one">%1$s second</item>
+        <item quantity="few">%1$s seconds</item>
+        <item quantity="other">%1$s seconds</item>
+    </plurals>
+    <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
+    <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
+    <string name="collection_header_pictures">СЛИКЕ</string>
+    <string name="collection_header_files">ФАЈЛОВИ</string>
+    <string name="collection_header_links">ВЕЗЕ</string>
+    <string name="collection_header_today">ДАНАС</string>
+    <string name="collection_header_yesterday">ЈУЧЕ</string>
+    <string name="collection_empty">НЕМА СТАВКИ У ЗБИРЦИ</string>
+    <string name="collection_all">Прикажи све %1$s</string>
+    <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+    <string name="multi_share_search_hint">ПОШАЉИ&#8230;</string>
+    <string name="search__box__hint_text">ПРЕТРАЖИ ТЕКСТ ПОРУКА</string>
+    <string name="search__no_results">Нема резултата.</string>
+    <!-- Conversation List -->
+    <plurals name="conversation_list__new_message_count">
+        <item quantity="one">%1$s message</item>
+        <item quantity="few">%1$s messages</item>
+        <item quantity="other">%1$s messages</item>
+    </plurals>
+    <plurals name="conversation_list__pings_count">
+        <item quantity="one">%1$s пинг</item>
+        <item quantity="few">%1$s пинга</item>
+        <item quantity="other">%1$s пингова</item>
+    </plurals>
+    <plurals name="conversation_list__new_likes_count">
+        <item quantity="one">%1$s ♥</item>
+        <item quantity="few">%1$s ♥</item>
+        <item quantity="other">%1$s ♥</item>
+    </plurals>
+    <plurals name="conversation_list__missed_calls_plural">
+        <item quantity="one">%1$s пропуштен позив</item>
+        <item quantity="few">%1$s пропуштена позива</item>
+        <item quantity="other">%1$s пропуштена позива</item>
+    </plurals>
+    <string name="conversation_list__missed_calls_count">Пропуштен позив</string>
+    <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
+    <plurals name="conversation_list__mentions_count">
+        <item quantity="one">%1$s mention</item>
+        <item quantity="few">%1$s mentions</item>
+        <item quantity="other">%1$s mentions</item>
+    </plurals>
+    <plurals name="conversation_list__quotes_count">
+        <item quantity="one">%1$s reply</item>
+        <item quantity="few">%1$s replies</item>
+        <item quantity="other">%1$s replies</item>
+    </plurals>
+    <string name="conversation_list__unsent_message_long">⚠ непослата порука</string>
+    <string name="conversation_list__unsent_message_short">⚠</string>
+    <string name="conversation_list__shared__image">подели слику</string>
+    <string name="conversation_list__shared__file">подели фајл</string>
+    <string name="conversation_list__shared__video">подели видео</string>
+    <string name="conversation_list__shared__audio">подели звучну поруку</string>
+    <string name="conversation_list__shared__location">подели локацију</string>
+    <string name="conversation_list__missed_call">Пропуштен позив</string>
+    <string name="conversation_list__pinged">пингова</string>
+    <string name="conversation_list__ephemeral">Someone sent a message</string>
+    <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
+    <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
+    <string name="conversation_list__single_eph_and_quote">Replied to you</string>
+    <string name="conversation_list__group_eph_and_quote">Someone replied to you</string>
+    <string name="conversation_list__typing">куца поруку&#8230;</string>
+    <string name="conversation_list__someone">Неко</string>
+    <string name="conversation_list__added">[[%1$s]] се придружи</string>
+    <string name="conversation_list__added_you">[[%1$s]] вас додаде</string>
+    <string name="conversation_list__left_you">изашли сте</string>
+    <string name="conversation_list__removed_you">[[%1$s]] вас уклони</string>
+    <string name="conversation_list__header__title">РАЗГОВОРИ</string>
+    <string name="conversation_list__header__archive_title">АРХИВЕ</string>
+    <string name="conversation_list__single_with_quote">Reply: %1$s</string>
+    <string name="conversation_list__group_with_quote">Reply from %1$s: %2$s</string>
+    <string name="conversation_list__single_without_quote">%1$s</string>
+    <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
+    <string name="guest_indicator">ГОСТ</string>
+    <string name="participant_tab_guest_indicator_label">Гост</string>
+    <string name="availability_none">без</string>
+    <string name="availability_available">На располагању</string>
+    <string name="availability_away">нисам ту</string>
+    <string name="availability_busy">заузет</string>
+    <string name="availability_text_available">%1$s IS AVAILABLE</string>
+    <string name="availability_text_away">%1$s IS AWAY</string>
+    <string name="availability_text_busy">%1$s IS BUSY</string>
+    <string name="availability_setstatus">SET A STATUS</string>
+    <string name="preferences_profile_new">Нови тим или налог</string>
+    <string name="preferences_profile_add_account">Додај налог</string>
+    <string name="preferences_profile_create_team">Направи тим</string>
+    <string name="preferences_profile_in_team"> %1$s</string>
+    <string name="new_devices_dialog_title">Повезали сте уређај са вашим Вајер налогом</string>
+    <string name="new_devices_dialog_info">Ако нисте ви ово урадили, уклоните уређај и ресетујте лозинку.</string>
+    <string name="new_devices_dialog_manage_devices">Управљај уређајима</string>
+    <string name="teams_set_email_title">Your account</string>
+    <string name="teams_set_email_subtitle">Enter your work email address.</string>
+    <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
+    <string name="teams_set_email_about">LEARN MORE</string>
+    <string name="teams_set_password_title">Постави лозинку</string>
+    <string name="teams_set_password_hint">БАР 8 ЗНАКОВА</string>
+    <string name="teams_set_username_title">Set username</string>
+    <string name="teams_set_username_hint">КОРИСНИЧКО ИМЕ</string>
+    <string name="teams_set_team_name_title">Name your team</string>
+    <string name="teams_set_team_name_subtitle">You can always change it later.</string>
+    <string name="teams_set_team_name_hint">TEAM NAME</string>
+    <string name="teams_set_team_name_about">WHAT IS WIRE FOR TEAMS?</string>
+    <string name="teams_verify_email_title">You\'ve got mail</string>
+    <string name="teams_verify_email_subtitle">Enter the verification code we sent to %1$s.</string>
+    <string name="teams_verify_email_resend">RESEND CODE</string>
+    <string name="teams_verify_email_change">CHANGE EMAIL</string>
+    <string name="teams_set_name_title">Your name</string>
+    <string name="teams_set_name_hint">FULL NAME</string>
+    <string name="app_entry_create_account">Лично</string>
+    <string name="app_entry_create_account_sub">create an account</string>
+    <string name="app_entry_create_team">Pro</string>
+    <string name="app_entry_create_team_sub">create a team</string>
+    <string name="app_entry_login_sub">Already have an account?</string>
+    <string name="app_entry_login">Пријави се</string>
+    <string name="app_entry_tc_dialog_title">Terms of Service</string>
+    <string name="app_entry_tc_dialog_message">You must accept to continue</string>
+    <string name="app_entry_notifications_dialog_title">Обавештења</string>
+    <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
+    <string name="app_entry_dialog_accept">ПРИХВАТИ</string>
+    <string name="app_entry_dialog_cancel">ОТКАЖИ</string>
+    <string name="app_entry_dialog_log_in">ПРИЈАВА</string>
+    <string name="app_entry_dialog_no_thanks">NO, THANKS</string>
+    <string name="app_entry_dialog_not_now">NOT NOW</string>
+    <string name="app_entry_dialog_view">VIEW</string>
+    <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
+    <string name="app_entry_email_sent">Email sent</string>
+    <string name="teams_set_username_subtitle">Usernames help people find you.</string>
+    <string name="app_entry_sso_dialog_title">Company login</string>
+    <string name="app_entry_sso_dialog_message">Enter the company SSO access code.</string>
+    <string name="app_entry_sso_input_hint"></string>
+    <string name="pick_user_teams_invite">Invite people to join the team</string>
+    <string name="teams_invitations_skip">SKIP</string>
+    <string name="teams_invitations_done">DONE</string>
+    <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
+    <string name="teams_invitations_error_already_sent">Already sent</string>
+    <string name="teams_invitations_error_generic">Нешто је пошло наопако. Покушајте поново</string>
+    <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
+    <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
+    <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
+    <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
+    <string name="invitation_screen_title">Build your team</string>
+    <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
+    <string name="open_service_conversation_button_text">Отвори разговор</string>
+    <string name="remove_service_button_text">Remove Service</string>
+    <string name="integrations_create_conversation">Create a new conversation</string>
+    <string name="no_matches_found">No matches found</string>
+    <string name="loading_services">Loading services&#8230;</string>
+    <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
+    <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
+    <string name="create_group_conversation">Направи групу</string>
+    <string name="create_guest_room_conversation">Create guest room</string>
+    <string name="manage_services">Manage Services</string>
+    <string name="next_button">NEXT</string>
+    <string name="skip_button">SKIP</string>
+    <string name="done_button">DONE</string>
+    <string name="new_group_header">НАПРАВИ ГРУПУ</string>
+    <string name="add_participants_empty_header">ADD PARTICIPANTS</string>
+    <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
+    <string name="new_conv_no_results">Нема резултата</string>
+    <string name="new_conv_no_contacts">No contacts</string>
+    <string name="participants_divider_services">SERVICES (%1$s)</string>
+    <string name="participants_divider_people">PEOPLE (%1$s)</string>
+    <string name="group_name_hint">GROUP NAME</string>
+    <string name="allow_guests_toggle_text">Allow guests and services</string>
+    <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
+    <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
+    <string name="allow_guests">Allow guests and services</string>
+    <string name="guest_options_title">Guests and services</string>
+    <string name="ephemeral_options_title">Timed messages</string>
+    <string name="notifications_options_title">Обавештења</string>
+    <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
+    <string name="notifications_explanation_text">You can be notified about everything (including audio and video calls) or only when you are mentioned.</string>
+    <string name="show_all_participants">Show all (%1$s)</string>
+    <string name="allow_guests_error_title">Нешто је пошло наопако</string>
+    <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
+    <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
+    <string name="allow_guests_warning_confirm">Уклони</string>
+    <string name="guests_are_present">GUESTS ARE PRESENT</string>
+    <string name="services_are_present">SERVICES ARE ACTIVE</string>
+    <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
+    <string name="participants_details_header_title">DETAILS</string>
+    <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
+    <string name="create_link_button">Create Link</string>
+    <string name="copy_link_button">Copy Link</string>
+    <string name="share_link_button">Share Link</string>
+    <string name="revoke_link_button">Revoke Link&#8230;</string>
+    <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
+    <string name="link_copied_toast">Link Copied!</string>
+    <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
+    <string name="revoke_link_confirm">Revoke Link</string>
+    <string name="invite_button_description">People outside your team can join this conversation.</string>
+    <string name="invite_people">Позови људе</string>
+    <string name="guest_room_name">Guest room</string>
+    <string name="guest_time_left_hours">%1$sh left</string>
+    <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
+    <string name="guest_time_left_minutes">Less than %1$sm left</string>
+    <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
         \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-  <string name="pref_account_backup_title">Back up conversations</string>
-  <string name="add_email_address">Add your email address</string>
-  <string name="set_a_password">Set a password</string>
-  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
-  <string name="new_device_password">Нови уређај</string>
-  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
-  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
-  <string name="second_launch__header">You\'ve used Wire on this device before.</string>
-  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
-  <string name="restore_override_alert_title">Restore history</string>
-  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
-  <string name="restore_override_alert_ok">Choose Backup File</string>
-  <string name="back_up_progress">BACKING UP&#8230;</string>
-  <string name="back_up_progress_complete">COMPLETE</string>
-  <string name="restore_progress">RESTORING&#8230;</string>
-  <string name="pref_account_backup_warning_title">Set an email and password.</string>
-  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
-  <string name="pref_account_backup_warning_ok">У реду</string>
-  <string name="export_generic_error_title">The file could not be saved</string>
-  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
-  <string name="backup_button">Back Up Now</string>
-  <string name="backup_import_error_unknown_title">Нешто је пошло наопако</string>
-  <string name="backup_import_error_unknown">Your history could not be restored.</string>
-  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
-  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
-  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
-  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
-  <string name="video_paused">Video paused</string>
-  <string name="calling_degraded_title">Нови уређај</string>
-  <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="markdown_link_dialog_title">Visit Link</string>
-  <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
-  <string name="markdown_link_dialog_confirmation">У реду</string>
-  <string name="markdown_link_dialog_cancel">ОТКАЖИ</string>
-  <string name="max_participants_alert_title">The group is full</string>
-  <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
-  <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
-  <string name="sso_signin_button">Company log in</string>
-  <string name="sso_signin_error_title">Нешто је пошло наопако</string>
-  <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
-  <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
-  <string name="sso_signin_wrong_code_title">Погрешан код</string>
-  <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
-  <string name="participant_search_hint">SEARCH FOR NAMES</string>
-  <string name="participant_search_title">КОНТАКТИ</string>
-  <string name="generic_service_warning">Services have access to the content of this conversation</string>
-  <string name="add_services_button_text">Manage services</string>
-  <string name="wire_notification_name">Wire Notification</string>
-  <string name="wire_ping_name">Вајер пинг</string>
+    <string name="pref_account_backup_title">Back up conversations</string>
+    <string name="add_email_address">Add your email address</string>
+    <string name="set_a_password">Set a password</string>
+    <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+    <string name="new_device_password">Нови уређај</string>
+    <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+    <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+    <string name="second_launch__header">You\'ve used Wire on this device before.</string>
+    <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+    <string name="restore_override_alert_title">Restore history</string>
+    <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+    <string name="restore_override_alert_ok">Choose Backup File</string>
+    <string name="back_up_progress">BACKING UP&#8230;</string>
+    <string name="back_up_progress_complete">COMPLETE</string>
+    <string name="restore_progress">RESTORING&#8230;</string>
+    <string name="pref_account_backup_warning_title">Set an email and password.</string>
+    <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+    <string name="pref_account_backup_warning_ok">У реду</string>
+    <string name="export_generic_error_title">The file could not be saved</string>
+    <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+    <string name="backup_button">Back Up Now</string>
+    <string name="backup_import_error_unknown_title">Нешто је пошло наопако</string>
+    <string name="backup_import_error_unknown">Your history could not be restored.</string>
+    <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+    <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+    <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+    <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
+    <string name="video_paused">Video paused</string>
+    <string name="calling_degraded_title">Нови уређај</string>
+    <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
+    <string name="markdown_link_dialog_title">Visit Link</string>
+    <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
+    <string name="markdown_link_dialog_confirmation">У реду</string>
+    <string name="markdown_link_dialog_cancel">ОТКАЖИ</string>
+    <string name="max_participants_alert_title">The group is full</string>
+    <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
+    <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
+    <string name="sso_signin_button">Company log in</string>
+    <string name="sso_signin_error_title">Нешто је пошло наопако</string>
+    <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
+    <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
+    <string name="sso_signin_wrong_code_title">Погрешан код</string>
+    <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
+    <string name="participant_search_hint">SEARCH FOR NAMES</string>
+    <string name="participant_search_title">КОНТАКТИ</string>
+    <string name="generic_service_warning">Services have access to the content of this conversation</string>
+    <string name="add_services_button_text">Manage services</string>
+    <string name="wire_notification_name">Wire Notification</string>
+    <string name="wire_ping_name">Вајер пинг</string>
+    <string name="reply_self_name">Ви</string>
+    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_video">ВИДЕО</string>
+    <string name="reply_message_type_audio">AUDIO MESSAGE</string>
+    <string name="reply_message_type_location">LOCATION</string>
+    <string name="reply_message_type_asset">ATTACHMENT</string>
+    <string name="reply_message_type_unknown">You cannot see this message.</string>
+    <string name="quote_timestamp_message">Original message from %s</string>
 </resources>

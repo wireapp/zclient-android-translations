@@ -20,1010 +20,1035 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!--*********************************************** ERRORS ***********************************************-->
-  <string name="generic_error_header">یک مشکلی بوجود آمده است</string>
-  <string name="generic_error_message">لطفا دوباره امتجان کنید</string>
-  <string name="internet_connectivity_error_header">اینترنت قطع است</string>
-  <string name="internet_connectivity_error_message">لطفا از اتصال اینترنت خود اطمینان حاصل و دوباره امتحان کنید</string>
-  <string name="too_many_attempts_header">تعداد درخواست‌ها زیاد و حد گذشته است</string>
-  <string name="login_later_message">لطفا بعدا وارد شوید</string>
-  <string name="email_exists_header">این ایمیل آدرس قبلا در سیستم ثبت شده است</string>
-  <string name="email_exists_message">این آدرس ایمیل قبلا ثبت شده است</string>
-  <string name="email_invalid_header">ایمیل آدرس معتبر نیست</string>
-  <string name="email_invalid_message">لطفا یک آدرس ایمیل معتبر وارد کنید</string>
-  <string name="invalid_credentials_header">اطلاعات وارد شده قابل پردازش نیست</string>
-  <string name="invalid_credentials_message">لطفا اطلاعات خود را تایید کنید و دوباره امتحان کنید</string>
-  <string name="phone_exists_header">این شماره تلفن قبلا در سیستم ثبت شده است</string>
-  <string name="phone_exists_message">این شماره تلفن قبلا در سیستم ثبت شده است. لطفا شماره تلفن دیگری را امتحان کنید</string>
-  <string name="phone_invalid_format_header">شماره تلفن معتبر نیست</string>
-  <string name="phone_invalid_format_message">لطفا یک شماره تلفن معتبر وارد کنید</string>
-  <string name="phone_password_exists_header">رمز عبور وجود دارد</string>
-  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
-  <string name="invalid_code_header">کد وارد شده معتبر نیست</string>
-  <string name="incorrect_code_header">کد وارد شده درست نیست</string>
-  <string name="wrong_code_message">لطفا کد معتبری که برای شما ارسال شده است را وارد کنید</string>
-  <string name="phone_pending_login_header">کد برای شما ارسال شده است</string>
-  <string name="phone_pending_login_message">با برای شما یک کد پیامک کردیم. اگر بعد از ۱۰ دقیقه چیزی دریافت نکردین، روی ارسال مجدد بزنید تا کد جدیدی ارسال شود.</string>
-  <string name="phone_budget_exhausted_header">درخواست‌ها بیش از حد</string>
-  <string name="phone_budget_exhausted_message">لطفا بعدا دوباره تلاش کنید.</string>
-  <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_settings">تنظیمات</string>
-  <string name="camera_not_available">دوربین در دسترس نیست</string>
-  <string name="camera_permissions_denied_title">دوربین در دسترس نیست</string>
-  <string name="camera_permissions_denied_message">برای عکس گرفتن و ارسال آن ها، دسترسی به دوربین لازم است</string>
-  <!-- Registration and Sign in -->
-  <string name="welcome__terms_of_service">با ادامه دادن این روند شما _قوانین و مقررات_ ما را تایید کرده‌اید.</string>
-  <string name="profile__name__guidance__tooshort__title">حداقل دارای دو حرف باشه</string>
-  <string name="profile__email__placeholder">ایمیل</string>
-  <string name="profile__password__placeholder">پسورد</string>
-  <string name="profile__password__guidance__tooshort__title">حداقل دارای ۸ حرف باشه</string>
-  <string name="profile__email__verify__instructions">ما ایمیلی برای \n[[%1$s]] ارسال کردیم. \n روی پیوند داخل ایمیل برای تایید حسابتان کلیک کنید.</string>
-  <string name="profile__email__verify__didnt_get">آیا ایمیل تاییدیه حساب Wire را دریافت نکردین؟</string>
-  <string name="profile__email__verify__resend">دوباره برام بفرست</string>
-  <string name="profile__guidance__invalid_email">آدرس ایمیلی که وارد کرده‌اید، معتبر نیست. لطفا دوباره بررسی و امتحان کنید</string>
-  <string name="new_reg__code_resent">کد جدید برای شما از طریق پیام کوتاه ارسال</string>
-  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
-  <string name="new_reg__code_resent__call">منتظر یک تماس تلفنی خودکار از طرف ما باشید</string>
-  <string name="new_reg__default_country">ir</string>
-  <!-- consider updating this for every new language -->
-  <string name="your_phone_number">شماره تلفن شما</string>
-  <!-- Receive email/sms invitation -->
-  <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 SEARCH</string>
-  <string name="pick_user_search_hint">SEARCH</string>
-  <string name="choose_conversation">SEARCH</string>
-  <string name="people_picker__top_users_header_title">کاربران محبوب</string>
-  <string name="people_picker__search_result_conversations_header_title">گروه‌ها</string>
-  <string name="people_picker__search_result_team_conversations_header_title">گروه‌های %1$s</string>
-  <string name="people_picker__search_result_connections_header_title">دفترچه تلفن</string>
-  <string name="people_picker__search_result_others_header_title">درخواست دوستی</string>
-  <string name="people_picker__search_result__expander_title">نمایش همه %1$s ↓</string>
-  <string name="people_picker__search_people">افراد</string>
-  <string name="people_picker__search_services">SERVICES</string>
-  <string name="receive_news_and_offers_request_title">Newsletter</string>
-  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
-  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
-  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
-  <string name="crashes_and_analytics_request_no">خیر</string>
-  <string name="crashes_and_analytics_request_agree">I Agree</string>
-  <!-- Bots / Integrations / Services -->
-  <string name="integrations_picker__section_title">سرویس‌ها</string>
-  <string name="integrations_errors_add_service">Adding service not possible</string>
-  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
-  <string name="conversation_errors_full">The conversation is full</string>
-  <!-- start ui / people picker, contacts sharing -->
-  <string name="people_picker__share_contacts__title">به‌اشتراک گذاشتن دوستان</string>
-  <string name="people_picker__share_contacts__message">اگر شما مخاطبین خود را به اشتراک بگذارید، وایر در یافتن دوستانتان به شما کمک میکند.</string>
-  <string name="people_picker__share_contacts__yay">اجازه</string>
-  <string name="people_picker__share_contacts__nah">رد کردن</string>
-  <string name="people_picker__share_contacts__nevvah">دوباره پرسیده نشود</string>
-  <!-- Invite -->
-  <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Wire را با دیگر دوستان خود به اشتراک بگذارید.</string>
-  <string name="people_picker__invite__share_text__header">%1$s تمایل دارد با شما در Wire صحبت کند</string>
-  <string name="people_picker__invite__share_text__body">من از وایر استفاده می‌کنم، %1$susername را جست‌جو کنید یا به get.wire.com بروید.</string>
-  <!-- Conversation: Quick menu -->
-  <string name="conversation_quick_menu__conversation_button__single_label">انتخاب فایل</string>
-  <!-- Conversation: System messages -->
-  <string name="content__system__other_joined">[[%1$s]] joined</string>
-  <string name="content__system__you_joined">[[You]] joined</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
-  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
-  <!-- Add people -->
-  <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
-  <plurals name="content__system__someone_added_people_with_others">
-    <item quantity="one">[[%1$s]] added %2$s and _%3$s other to the conversation_</item>
-    <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
-  </plurals>
-  <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
-  <plurals name="content__system__someone_added_people_and_you_with_others">
-    <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
-    <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
-  </plurals>
-  <string name="content__system__you_added_people">You added %1$s to the conversation</string>
-  <plurals name="content__system__you_added_people_with_others">
-    <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
-    <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
-  </plurals>
-  <!-- Remove people -->
-  <string name="content__system__other_removed_other">[[%1$s]] کاربر %2$s را حذف کرد</string>
-  <string name="content__system__other_removed_you">[[%1$s]] شما را حذف کرد</string>
-  <string name="content__system__you_removed_other">You removed %1$s</string>
-  <string name="content__system__you_left">شما از گروه خارج شدید.</string>
-  <string name="content__system__other_left">[[%1$s]] رفت</string>
-  <!-- Create conversation -->
-  <string name="content__system__you_started_conversation">You started the conversation</string>
-  <string name="content__system__other_started_conversation">%1$s started the conversation</string>
-  <string name="content__system__with_you_only">with you</string>
-  <string name="content__system__with_list_only">with %1$s</string>
-  <plurals name="content__system__with_others_only">
-    <item quantity="one">with %1$s and _%2$s other_</item>
-    <item quantity="other">with %1$s and _%2$s others_</item>
-  </plurals>
-  <string name="content__system__with_list_and_you">with %1$s and you</string>
-  <plurals name="content__system__with_others_and_you">
-    <item quantity="one">with %1$s, you and _%2$s other_</item>
-    <item quantity="other">with %1$s, you and _%2$s others_</item>
-  </plurals>
-  <!-- Conversation: missed call -->
-  <string name="content__missed_call__you_called">شما تماس گرفته‌اید</string>
-  <string name="content__missed_call__xxx_called">[[%1$s]] زنگ زده بود</string>
-  <string name="content__you_pinged">شما پینگ شدی</string>
-  <string name="content__xxx_pinged">%1$s صدا زد</string>
-  <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__message_error">پیامی که [[%1$s]] ارسال کرد، نرسید. _چرا؟_</string>
-  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
-  <string name="content__otr__identity_changed_error">هویت شناسایی دستگاه [[%1$s]] تغییر کرد. پیام به گیرنده نرسید. _بیشتر بخوانید_</string>
-  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
-  <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
-  <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
-  <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
-  <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
-  <string name="content__otr__start_this_device__message">شما شروع به استفاده از _این دستگاه_ کرده‌اید</string>
-  <string name="content__otr__all_fingerprints_verified">تمام اثرانگشت‌ها تایید شدند</string>
-  <string name="content__otr__lost_history">شما از این دستگاه به‌مدت خیلی طولانی استفاده نکردید. ممکن است برخی از پیام‌ها اینجا نمایش داده نشوند.</string>
-  <string name="content__otr__unverified_device__message">شما یکی از دستگاه‌های %1$s را از حالت تایید خارج کرده‌اید</string>
-  <string name="content__otr__your_unverified_device__message">شما یکی از _دستگاه‌های خود_ را از حالت تایید خارج کردید</string>
-  <string name="content__otr__new_member__message">فرد جدیدی عضو شد._تایید دستگاه ها_</string>
-  <!-- File transfer -->
-  <string name="content__file__status__default">%1$s</string>
-  <string name="content__file__status__uploading__minimized">درحال بارگزاری...</string>
-  <string name="content__file__status__cancelled__minimized">لغو شد...</string>
-  <string name="content__file__status__downloading__minimized">درحال دانلود&#8230;</string>
-  <string name="content__file__status__download_failed__minimized">دانلود انجام نشد</string>
-  <string name="content__file__status__upload_failed__minimized">آپلود انجام نشد</string>
-  <string name="content__file__status__uploading">%1$s · درحال بارگذاری...</string>
-  <string name="content__file__status__cancelled">%1$s · لغو شد...</string>
-  <string name="content__file__status__downloading">%1$s · درحال دانلود...</string>
-  <string name="content__file__status__download_failed">%1$s · دانلود انجام نشد</string>
-  <string name="content__file__status__upload_failed">%1$s · آپلود انجام نشد</string>
-  <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
-  <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
-  <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · بارگذاری&#8230;</string>
-  <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · لغو شد&#8230;</string>
-  <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · درحال دانلود&#8230;</string>
-  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · دانلود انجام نشد</string>
-  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · آپلود انجام نشد</string>
-  <string name="content__file__action__open">انتخاب فایل</string>
-  <string name="content__file__action__save">ذخیره</string>
-  <string name="content__file__action__open__no_app_found">هیچ اپلیکیشنی برای باز کردن این فایل پیدا نشد</string>
-  <string name="content__file__action__save_completed">فایل بصورت موفقیت آمیز ذخیره شد</string>
-  <string name="content__file__action__save_error">اشکال در ذخیره فایل</string>
-  <string name="content__location__no_map_placeholder">موقعیت مکانی روی نقشه مشخص و نمایان شد وقتی شما دوباره آنلاین شوید.</string>
-  <!-- Conversation actions -->
-  <string name="conversation__action__delete">Delete content&#8230;</string>
-  <string name="conversation__action__archive">بایگانی</string>
-  <string name="conversation__action__unarchive">خروج از بایگانی</string>
-  <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
-  <string name="conversation__action__create_group">ایجاد گروه</string>
-  <string name="conversation__action__notifications">Notifications&#8230;</string>
-  <string name="conversation__action__silence">بی‌صدا</string>
-  <string name="conversation__action__unsilence">همراه با صدا</string>
-  <string name="conversation__action__leave">Leave group&#8230;</string>
-  <string name="conversation__action__call">تماس</string>
-  <string name="conversation__action__picture">نمایه</string>
-  <string name="conversation__action__block">Block&#8230;</string>
-  <string name="conversation__action__unblock">خارج کردن از مسدود بودن</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
-  <string name="conversation__action__notifications_everything">Everything</string>
-  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
-  <string name="conversation__action__notifications_nothing">Nothing</string>
-  <string name="conversation__action__notifications_title">Notify me about:</string>
-  <!-- Conversation: Profile Popover -->
-  <!-- Calling/voice -->
-  <string name="calling__slow_connection__title">سرعت اینترنت کم است</string>
-  <string name="calling__slow_connection__message">سرعت اینترنت شما برای تماس برقرار کردن کافی نیست. لطفا در فرصت دیگری دوباره امتحان کنید.</string>
-  <string name="calling__cannot_start__title">Microphone required</string>
-  <string name="calling__cannot_start__message">برای تماس گرفتن، نیاز است تا تماس فعلی را قطع کنید.</string>
-  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
-  <string name="calling__cannot_start__cancel__message">لغو</string>
-  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
-  <string name="calling__video_call__slow_connection__message">شما ممکن است به دلیل سرعت کم اینترنت، تجربه خوبی در حین مکالمه نداشته باشید</string>
-  <string name="incoming__controls__ongoing__speaker">فعال کردن بلندگو</string>
-  <string name="incoming__controls__ongoing__mute">بی‌صدا</string>
-  <string name="incoming__controls__ongoing__video">ویدیو</string>
-  <string name="incoming__controls__ongoing__flip">FLIP</string>
-  <string name="ongoing__poor_connection_message">ویدیو به دلیل سرعت کم اینترنت قطع شد</string>
-  <string name="calling__self_preview_unavailable_long">دوربین در دسترس نیست</string>
-  <string name="calling__header__joining">در حال اتصال&#8230;</string>
-  <string name="calling__header__outgoing_subtitle">در‌حال تماس&#8230;</string>
-  <string name="calling__header__outgoing_video_subtitle">در‌حال تماس&#8230;</string>
-  <string name="calling__header__incoming_subtitle">در حال برقراری تماس ...</string>
-  <string name="calling__header__incoming_subtitle__video">در حال برقراری تماس ...</string>
-  <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
-  <string name="call_banner_joining">در حال اتصال&#8230;</string>
-  <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
-  <string name="call_banner_incoming">%1$s is calling&#8230;</string>
-  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
-  <string name="calling_ongoing_call_title">Ongoing call</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
-  <!-- Calling in group conversation -->
-  <string name="group_calling_title">شروع یک تماس</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
-  <string name="group_calling_confirm">تماس</string>
-  <!-- Connect request -->
-  <string name="connect__message">سلام %1$s, \nبیا باهم تو Wire گپ بزنیم.\n%2$s</string>
-  <string name="connect_request__sub_header__pending_label">درحال انتظار</string>
-  <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
-  <string name="connect_request__unblock__button__text">خارج کردن از مسدود بودن</string>
-  <string name="send_connect_request__connect_button__text">CONNECT</string>
-  <plurals name="connect_inbox__link__name">
-    <item quantity="one">1 نفر در انتظار است</item>
-    <item quantity="other">%1$s در انتظار هستند</item>
-  </plurals>
-  <string name="connect_request__ignore_button__text">نادیده گرفتن</string>
-  <string name="content__message__connect_request__footer">ارتباط برقرار شد</string>
-  <string name="content__message__connect_request__auto_connect__footer">بصورت خودکار ارتباط برقرار شد. _در مورد این امکان بیشتر بدانید_</string>
-  <!-- Otr-->
-  <plurals name="conversation__degraded_confirmation__header__single_user">
-    <item quantity="one">%1$s شروع به استفاده از Wire روی یک دستگاه جدید کرد.</item>
-    <item quantity="other">%1$s شروع به استفاده از Wire روی چند دستگاه جدید کرد.</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__header__someone">شخصی شروع به استفاده از Wire روی یک دستگاه جدید کرد.</string>
-  <string name="conversation__degraded_confirmation__header__multiple_user">%1$s و %2$s شروع به کار کردن با Wire روی دستگاه‌های جدید کردند.</string>
-  <plurals name="conversation__degraded_confirmation__message">
-    <item quantity="one">هنوز تمایل به ارسال پیام خود دارید؟</item>
-    <item quantity="other">هنوز تمایل به ارسال پیام‌های خود دارید؟</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__positive_action">بفرست مشکلی نیست</string>
-  <plurals name="conversation__degraded_confirmation__negative_action">
-    <item quantity="one">نمایش دستگاه‌</item>
-    <item quantity="other">نمایش دستگاه‌‌ها</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__negative_action_self">نمایش دستگاه‌های شما</string>
-  <string name="conversation_degraded_confirmation__header__you">شما</string>
-  <!-- Picture selection confirmation -->
-  <string name="confirmation_menu__confirm_done">تایید</string>
-  <string name="confirmation_menu__cancel">لغو</string>
-  <!-- ADD TO CONVERSATION offline -->
-  <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <!-- Leave conversation -->
-  <string name="confirmation_menu__meta_remove">می‌خواهید از گفتگو خارج شوید؟</string>
-  <string name="confirmation_menu__meta_remove_text">شما قادر به ارسال و دریافت پیام در این گفتگو نخواهید بود.</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <!-- Remove from conversation dialogue -->
-  <string name="confirmation_menu__header">حذف؟</string>
-  <string name="confirmation_menu_text_with_name">%1$s قادر به ارسال و دریافت پیام در این گفتگو نخواهد بود.</string>
-  <string name="confirmation_menu__confirm_remove">حذف</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <!-- Block someone dialogue -->
-  <string name="confirmation_menu__block_header">مسدود شود؟</string>
-  <string name="confirmation_menu__block_text_with_name">%1$s قادر به تماس با شما یا اضافه کردن شما به مکالمات گروهی نخواهد بود.</string>
-  <string name="confirmation_menu__confirm_block">مسدود کردن</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <string name="connect_request__footer__blocked_label">مسدود شد</string>
-  <!-- Delete conversation -->
-  <string name="confirmation_menu__meta_delete">این محتوا را حذف می‌کنید؟</string>
-  <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
-  <!-- Rich media -->
-  <string name="content__youtube__error__text">ویدیو پیدا نشد</string>
-  <string name="mediaplayer__message__onsoundcloud">در ساوندکلاود</string>
-  <string name="mediaplayer__message__onspotify">در اسپاتیفای</string>
-  <!-- Invite banner -->
-  <!-- Self profile -->
-  <!-- Options and settings -->
-  <string name="settings_title">تنظیمات</string>
-  <!-- Options menu -->
-  <!-- Manage Team -->
-  <string name="pref_manage_team_title">مدیریت تیم</string>
-  <!-- About screen -->
-  <string name="pref_category_title">تنظیمات</string>
-  <string name="pref_developer_screen_title">تنظیمات بخش توسعه دهندگان</string>
-  <string name="pref_dev_avs_screen_title">تنظیمات AVS</string>
-  <string name="pref_profile_screen_title">پروفایل</string>
-  <!-- Account -->
-  <string name="pref_account_screen_title">حساب کاربری</string>
-  <string name="pref_account_name_title">نام</string>
-  <string name="pref_account_edit_name_title">ویرایش نام</string>
-  <string name="pref_account_details_category_title">اطلاعات بیشتر</string>
-  <string name="pref_account_actions_category_title">اقدامات</string>
-  <string name="pref_account_appearance_category_title">ظاهر</string>
-  <string name="pref_account_personal_information_category_title">Personal Information</string>
-  <string name="pref_account_conversations_category_title">History</string>
-  <string name="pref_account_username_title">نام کاربری</string>
-  <string name="pref_account_phone_title">تلفن</string>
-  <string name="pref_account_add_phone_title">اضافه کردن شماره تلفن</string>
-  <string name="pref_account_email_title">ایمیل</string>
-  <string name="pref_account_add_email_title">اضافه کردن ایمیل</string>
-  <string name="pref_account_delete">حذف</string>
-  <string name="pref_account_sign_out_title">خروج</string>
-  <string name="pref_account_color_title">رنگ</string>
-  <string name="pref_account_picture_title">نمایه</string>
-  <string name="pref_account_delete_title">حذف حساب کاربری</string>
-  <string name="pref_account_delete_warning_title">حذف حساب کاربری</string>
-  <string name="pref_account_delete_warning_message_email">ما یک ایمیل به \n[[%1$s]]\n ارسال کردیم، با استفاده از پیوند داخل ایمیل می‌توانید برای همیشه حساب خود را حذف کنید.</string>
-  <string name="pref_account_delete_warning_message_sms">ما یک پیامک به \n[[%1$s]]\n ارسال کردیم، با استفاده از پیوند داخل پیامک می‌توانید برای همیشه حساب خود را حذف کنید.</string>
-  <string name="pref_account_delete_warning_verify">تایید</string>
-  <string name="pref_account_delete_warning_cancel">انصراف</string>
-  <string name="pref_account_sign_out_warning_message">آیا مطمئن هستید شما می‌خواهید از برنامه خارج شوید؟</string>
-  <string name="pref_account_sign_out_warning_verify">خروج</string>
-  <string name="pref_account_sign_out_warning_cancel">انصراف</string>
-  <string name="pref_account_password_title">راه اندازی مجدد رمز عبور</string>
-  <string name="pref_account_edit_name_empty_warning">نام باید بیشتر از 2 کارکتر داشته باشد</string>
-  <string name="pref_account_edit_name_empty_verify">تایید</string>
-  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
-  <!-- Data Usage Permissions -->
-  <string name="pref_advanced_send_anonymous_data_title">Send Anonymous Data</string>
-  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
-  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
-  <!-- Options -->
-  <string name="pref_options_dark_theme_title">ظاهر تیره</string>
-  <string name="pref_options_screen_title">گزینه‌ها</string>
-  <string name="pref_options_contacts_title">به‌اشتراک گذاشتن دوستان</string>
-  <string name="pref_options_contacts_summary">این امکان به شما کمک می‌کند تا با دیگران در ارتباط باشید. دقت کنید که ما این اطلاعات را مخفی کردیم و با هیچ‌کس به اشتراک نمی‌گذاریم.</string>
-  <string name="pref_options_vbr_title">رمزگذاری متغیر نرخ بیت</string>
-  <string name="pref_options_vbr_summary">این باعث استفاده کمتر تماس صوتی از داده شده و بر روی شبکه هایی با سرعت کم بهتر کار میکند. برای رمزگذاری ثابت نرخ بیت غیر فعال کنید.</string>
-  <string name="pref_options_alerts_category_title">هشدارها</string>
-  <string name="pref_options_calls_category_title">تماس ها</string>
-  <string name="pref_options_sounds_title">صدا</string>
-  <string name="pref_options_sounds_all">همه گزینه‌ها</string>
-  <string name="pref_options_sounds_new_conversations_and_talks_only">اولین پیام، پینگ‌ها و تماس‌ها</string>
-  <string name="pref_options_sounds_none">هیچ‌کدام</string>
-  <string name="pref_options_vibration_title">لرزش</string>
-  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
-  <string name="pref_options_ringtones_category_title">صدا</string>
-  <string name="pref_options_ringtones_ringtone_title">آهنگ پیشواز</string>
-  <string name="pref_options_ringtones_text_title">صدای پیامک</string>
-  <string name="pref_options_ringtones_ping_title">Ping</string>
-  <string name="pref_options_ringtones_default_summary">پیش‌فرض Wire</string>
-  <string name="pref_options_ringtones_silent">سکوت</string>
-  <string name="pref_options_image_download_title">دانلود تصاویر</string>
-  <string name="pref_options_image_download_always">همیشه</string>
-  <string name="pref_options_image_download_wifi">تنها روی Wi-Fi</string>
-  <string name="pref_options_media_category_title">رسانه</string>
-  <string name="pref_options_requested_category_title">بر اساس تقاضاهای محبوب</string>
-  <string name="pref_options_cursor_send_button_title">دکمه ارسال</string>
-  <string name="pref_options_cursor_send_button_summary">غیرفعال کردن دکمه ارسال روی صفحه کلید.</string>
-  <!-- Devices -->
-  <string name="pref_devices_screen_title">دستگاه‌ها</string>
-  <string name="pref_devices_current_device_category_title">همین دستگاه</string>
-  <string name="pref_devices_other_devices_category_title">دستگاه‌های دیگر</string>
-  <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
-  <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
-  <string name="pref_devices_device_id">ID: %1$s</string>
-  <string name="pref_devices_device_verified">تایید شده</string>
-  <string name="pref_devices_device_not_verified">تایید نشده است</string>
-  <string name="pref_devices_warning_summary">اگر شما دستگا‌ه‌های بالا را نمیشناسید، آن را حذف کنید و رمز عبور خود را تغییر دهید.</string>
-  <string name="pref_devices_device_screen_title">جزییات اطلاعات دستگاه</string>
-  <string name="pref_devices_device_fingerprint_category_title">کلید اثرانگشت</string>
-  <string name="pref_devices_device_fingerprint_summary">Wire به هر دستگاه یک اثرانگشت الکترونیکی می‌دهد. اثرانگشت‌ها را با هم مقایسه کنید تا بتوانید دستگاه و گفتگوهای خود را تایید کنید.</string>
-  <string name="pref_devices_device_actions_category_title">اقدامات</string>
-  <string name="pref_devices_device_reset_session_title">راه اندازی مجدد session</string>
-  <string name="pref_devices_device_reset_session_summary">اگر اثر انگشت‌ها با هم مطابقت ندارند، یک کلید رمزگذاری جدید برای دو طرف ایجاد کنید.</string>
-  <string name="pref_devices_device_remove_title">حذف دستگاه</string>
-  <string name="pref_devices_device_remove_summary">این دستگاه را اگر حذف کنید دیگر نمی‌تواند از حساب شما استفاده کند. بلافاصله از حساب کاربری شما خارج می‌شود.</string>
-  <string name="pref_devices_device_fingerprint_copy_description">اثرانگشت</string>
-  <string name="pref_devices_device_fingerprint_copy_toast">کلید اثرانگشت کپی شد</string>
-  <!-- Advanced -->
-  <string name="pref_advanced_screen_title">پیشرفته</string>
-  <string name="pref_advanced_debug_report_title">گزارش اشکال زدایی را بفرستید</string>
-  <string name="pref_advanced_debug_report_summary">این به Wire کمک می‌کند تا مشکلات را تشخیص دهد.</string>
-  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
-  <string name="pref_advanced_reset_push_summary">اگر شما با نوتیفیکیشن ها مشکلی دارید، واحد پشتیبانی وایر ممکن است از شما درخواست بازنشانی این توکن را کند.</string>
-  <string name="pref_advanced_reset_push_completed">توکن ها بازنشانی شدند</string>
-  <string name="debug_report__title">گزارش اشکال‌زدایی - %1$s</string>
-  <string name="debug_report__body">لطفا تمام مراحلی که ما باید انجام بدیم تا به این خطا برسیم را برای ما بگویید. اگر لازم بود لطفا برای ما اسکرین‌شات هم ضمیمه و ایمیل کنید.\n\n</string>
-  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+    <!--*********************************************** ERRORS ***********************************************-->
+    <string name="generic_error_header">یک مشکلی بوجود آمده است</string>
+    <string name="generic_error_message">لطفا دوباره امتجان کنید</string>
+    <string name="internet_connectivity_error_header">اینترنت قطع است</string>
+    <string name="internet_connectivity_error_message">لطفا از اتصال اینترنت خود اطمینان حاصل و دوباره امتحان کنید</string>
+    <string name="too_many_attempts_header">تعداد درخواست‌ها زیاد و حد گذشته است</string>
+    <string name="login_later_message">لطفا بعدا وارد شوید</string>
+    <string name="email_exists_header">این ایمیل آدرس قبلا در سیستم ثبت شده است</string>
+    <string name="email_exists_message">این آدرس ایمیل قبلا ثبت شده است</string>
+    <string name="email_invalid_header">ایمیل آدرس معتبر نیست</string>
+    <string name="email_invalid_message">لطفا یک آدرس ایمیل معتبر وارد کنید</string>
+    <string name="invalid_credentials_header">اطلاعات وارد شده قابل پردازش نیست</string>
+    <string name="invalid_credentials_message">لطفا اطلاعات خود را تایید کنید و دوباره امتحان کنید</string>
+    <string name="phone_exists_header">این شماره تلفن قبلا در سیستم ثبت شده است</string>
+    <string name="phone_exists_message">این شماره تلفن قبلا در سیستم ثبت شده است. لطفا شماره تلفن دیگری را امتحان کنید</string>
+    <string name="phone_invalid_format_header">شماره تلفن معتبر نیست</string>
+    <string name="phone_invalid_format_message">لطفا یک شماره تلفن معتبر وارد کنید</string>
+    <string name="phone_password_exists_header">رمز عبور وجود دارد</string>
+    <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
+    <string name="invalid_code_header">کد وارد شده معتبر نیست</string>
+    <string name="incorrect_code_header">کد وارد شده درست نیست</string>
+    <string name="wrong_code_message">لطفا کد معتبری که برای شما ارسال شده است را وارد کنید</string>
+    <string name="phone_pending_login_header">کد برای شما ارسال شده است</string>
+    <string name="phone_pending_login_message">با برای شما یک کد پیامک کردیم. اگر بعد از ۱۰ دقیقه چیزی دریافت نکردین، روی ارسال مجدد بزنید تا کد جدیدی ارسال شود.</string>
+    <string name="phone_budget_exhausted_header">درخواست‌ها بیش از حد</string>
+    <string name="phone_budget_exhausted_message">لطفا بعدا دوباره تلاش کنید.</string>
+    <!--*********************************************** ERRORS ***********************************************-->
+    <string name="permissions_denied_dialog_settings">تنظیمات</string>
+    <string name="camera_not_available">دوربین در دسترس نیست</string>
+    <string name="camera_permissions_denied_title">دوربین در دسترس نیست</string>
+    <string name="camera_permissions_denied_message">برای عکس گرفتن و ارسال آن ها، دسترسی به دوربین لازم است</string>
+    <!-- Registration and Sign in -->
+    <string name="welcome__terms_of_service">با ادامه دادن این روند شما _قوانین و مقررات_ ما را تایید کرده‌اید.</string>
+    <string name="profile__name__guidance__tooshort__title">حداقل دارای دو حرف باشه</string>
+    <string name="profile__email__placeholder">ایمیل</string>
+    <string name="profile__password__placeholder">پسورد</string>
+    <string name="profile__password__guidance__tooshort__title">حداقل دارای ۸ حرف باشه</string>
+    <string name="profile__email__verify__instructions">ما ایمیلی برای \n[[%1$s]] ارسال کردیم. \n روی پیوند داخل ایمیل برای تایید حسابتان کلیک کنید.</string>
+    <string name="profile__email__verify__didnt_get">آیا ایمیل تاییدیه حساب Wire را دریافت نکردین؟</string>
+    <string name="profile__email__verify__resend">دوباره برام بفرست</string>
+    <string name="profile__guidance__invalid_email">آدرس ایمیلی که وارد کرده‌اید، معتبر نیست. لطفا دوباره بررسی و امتحان کنید</string>
+    <string name="new_reg__code_resent">کد جدید برای شما از طریق پیام کوتاه ارسال</string>
+    <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
+    <string name="new_reg__code_resent__call">منتظر یک تماس تلفنی خودکار از طرف ما باشید</string>
+    <string name="new_reg__default_country">ir</string>
+    <!-- consider updating this for every new language -->
+    <string name="your_phone_number">شماره تلفن شما</string>
+    <!-- Receive email/sms invitation -->
+    <!-- People picker/start UI -->
+    <string name="pick_user_search_focus">\u0020 SEARCH</string>
+    <string name="pick_user_search_hint">SEARCH</string>
+    <string name="choose_conversation">SEARCH</string>
+    <string name="people_picker__top_users_header_title">کاربران محبوب</string>
+    <string name="people_picker__search_result_conversations_header_title">گروه‌ها</string>
+    <string name="people_picker__search_result_team_conversations_header_title">گروه‌های %1$s</string>
+    <string name="people_picker__search_result_connections_header_title">دفترچه تلفن</string>
+    <string name="people_picker__search_result_others_header_title">درخواست دوستی</string>
+    <string name="people_picker__search_result__expander_title">نمایش همه %1$s ↓</string>
+    <string name="people_picker__search_people">افراد</string>
+    <string name="people_picker__search_services">SERVICES</string>
+    <string name="receive_news_and_offers_request_title">Newsletter</string>
+    <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+    <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+    <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+    <string name="crashes_and_analytics_request_no">خیر</string>
+    <string name="crashes_and_analytics_request_agree">I Agree</string>
+    <!-- Bots / Integrations / Services -->
+    <string name="integrations_picker__section_title">سرویس‌ها</string>
+    <string name="integrations_errors_add_service">Adding service not possible</string>
+    <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
+    <string name="conversation_errors_full">The conversation is full</string>
+    <!-- start ui / people picker, contacts sharing -->
+    <string name="people_picker__share_contacts__title">به‌اشتراک گذاشتن دوستان</string>
+    <string name="people_picker__share_contacts__message">اگر شما مخاطبین خود را به اشتراک بگذارید، وایر در یافتن دوستانتان به شما کمک میکند.</string>
+    <string name="people_picker__share_contacts__yay">اجازه</string>
+    <string name="people_picker__share_contacts__nah">رد کردن</string>
+    <string name="people_picker__share_contacts__nevvah">دوباره پرسیده نشود</string>
+    <!-- Invite -->
+    <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
+    <string name="people_picker__invite__share_details_dialog">Wire را با دیگر دوستان خود به اشتراک بگذارید.</string>
+    <string name="people_picker__invite__share_text__header">%1$s تمایل دارد با شما در Wire صحبت کند</string>
+    <string name="people_picker__invite__share_text__body">من از وایر استفاده می‌کنم، %1$susername را جست‌جو کنید یا به get.wire.com بروید.</string>
+    <!-- Conversation: Quick menu -->
+    <string name="conversation_quick_menu__conversation_button__single_label">انتخاب فایل</string>
+    <!-- Conversation: System messages -->
+    <string name="content__system__other_joined">[[%1$s]] joined</string>
+    <string name="content__system__you_joined">[[You]] joined</string>
+    <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
+    <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
+    <!-- Add people -->
+    <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
+    <plurals name="content__system__someone_added_people_with_others">
+        <item quantity="one">[[%1$s]] added %2$s and _%3$s other to the conversation_</item>
+        <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+    </plurals>
+    <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
+    <plurals name="content__system__someone_added_people_and_you_with_others">
+        <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
+        <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+    </plurals>
+    <string name="content__system__you_added_people">You added %1$s to the conversation</string>
+    <plurals name="content__system__you_added_people_with_others">
+        <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
+        <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
+    </plurals>
+    <!-- Remove people -->
+    <string name="content__system__other_removed_other">[[%1$s]] کاربر %2$s را حذف کرد</string>
+    <string name="content__system__other_removed_you">[[%1$s]] شما را حذف کرد</string>
+    <string name="content__system__you_removed_other">You removed %1$s</string>
+    <string name="content__system__you_left">شما از گروه خارج شدید.</string>
+    <string name="content__system__other_left">[[%1$s]] رفت</string>
+    <!-- Create conversation -->
+    <string name="content__system__you_started_conversation">You started the conversation</string>
+    <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+    <string name="content__system__with_you_only">with you</string>
+    <string name="content__system__with_list_only">with %1$s</string>
+    <plurals name="content__system__with_others_only">
+        <item quantity="one">with %1$s and _%2$s other_</item>
+        <item quantity="other">with %1$s and _%2$s others_</item>
+    </plurals>
+    <string name="content__system__with_list_and_you">with %1$s and you</string>
+    <plurals name="content__system__with_others_and_you">
+        <item quantity="one">with %1$s, you and _%2$s other_</item>
+        <item quantity="other">with %1$s, you and _%2$s others_</item>
+    </plurals>
+    <!-- Conversation: missed call -->
+    <string name="content__missed_call__you_called">شما تماس گرفته‌اید</string>
+    <string name="content__missed_call__xxx_called">[[%1$s]] زنگ زده بود</string>
+    <string name="content__you_pinged">شما پینگ شدی</string>
+    <string name="content__xxx_pinged">%1$s صدا زد</string>
+    <!-- Conversation: E2EE system messages -->
+    <string name="content__otr__message_error">پیامی که [[%1$s]] ارسال کرد، نرسید. _چرا؟_</string>
+    <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
+    <string name="content__otr__identity_changed_error">هویت شناسایی دستگاه [[%1$s]] تغییر کرد. پیام به گیرنده نرسید. _بیشتر بخوانید_</string>
+    <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
+    <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
+    <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
+    <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
+    <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
+    <string name="content__otr__start_this_device__message">شما شروع به استفاده از _این دستگاه_ کرده‌اید</string>
+    <string name="content__otr__all_fingerprints_verified">تمام اثرانگشت‌ها تایید شدند</string>
+    <string name="content__otr__lost_history">شما از این دستگاه به‌مدت خیلی طولانی استفاده نکردید. ممکن است برخی از پیام‌ها اینجا نمایش داده نشوند.</string>
+    <string name="content__otr__unverified_device__message">شما یکی از دستگاه‌های %1$s را از حالت تایید خارج کرده‌اید</string>
+    <string name="content__otr__your_unverified_device__message">شما یکی از _دستگاه‌های خود_ را از حالت تایید خارج کردید</string>
+    <string name="content__otr__new_member__message">فرد جدیدی عضو شد._تایید دستگاه ها_</string>
+    <!-- File transfer -->
+    <string name="content__file__status__default">%1$s</string>
+    <string name="content__file__status__uploading__minimized">درحال بارگزاری...</string>
+    <string name="content__file__status__cancelled__minimized">لغو شد...</string>
+    <string name="content__file__status__downloading__minimized">درحال دانلود&#8230;</string>
+    <string name="content__file__status__download_failed__minimized">دانلود انجام نشد</string>
+    <string name="content__file__status__upload_failed__minimized">آپلود انجام نشد</string>
+    <string name="content__file__status__uploading">%1$s · درحال بارگذاری...</string>
+    <string name="content__file__status__cancelled">%1$s · لغو شد...</string>
+    <string name="content__file__status__downloading">%1$s · درحال دانلود...</string>
+    <string name="content__file__status__download_failed">%1$s · دانلود انجام نشد</string>
+    <string name="content__file__status__upload_failed">%1$s · آپلود انجام نشد</string>
+    <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
+    <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
+    <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · بارگذاری&#8230;</string>
+    <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · لغو شد&#8230;</string>
+    <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · درحال دانلود&#8230;</string>
+    <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · دانلود انجام نشد</string>
+    <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · آپلود انجام نشد</string>
+    <string name="content__file__action__open">انتخاب فایل</string>
+    <string name="content__file__action__save">ذخیره</string>
+    <string name="content__file__action__open__no_app_found">هیچ اپلیکیشنی برای باز کردن این فایل پیدا نشد</string>
+    <string name="content__file__action__save_completed">فایل بصورت موفقیت آمیز ذخیره شد</string>
+    <string name="content__file__action__save_error">اشکال در ذخیره فایل</string>
+    <string name="content__location__no_map_placeholder">موقعیت مکانی روی نقشه مشخص و نمایان شد وقتی شما دوباره آنلاین شوید.</string>
+    <!-- Conversation actions -->
+    <string name="conversation__action__delete">Delete content&#8230;</string>
+    <string name="conversation__action__archive">بایگانی</string>
+    <string name="conversation__action__unarchive">خروج از بایگانی</string>
+    <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
+    <string name="conversation__action__create_group">ایجاد گروه</string>
+    <string name="conversation__action__notifications">Notifications&#8230;</string>
+    <string name="conversation__action__silence">بی‌صدا</string>
+    <string name="conversation__action__unsilence">همراه با صدا</string>
+    <string name="conversation__action__leave">Leave group&#8230;</string>
+    <string name="conversation__action__call">تماس</string>
+    <string name="conversation__action__picture">نمایه</string>
+    <string name="conversation__action__block">Block&#8230;</string>
+    <string name="conversation__action__unblock">خارج کردن از مسدود بودن</string>
+    <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
+    <string name="conversation__action__leave_only">\tLeave group</string>
+    <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
+    <string name="conversation__action__delete_only">\tDelete content</string>
+    <string name="conversation__action__notifications_everything">Everything</string>
+    <string name="conversation__action__notifications_mentions_and_replies">Mentions and Replies</string>
+    <string name="conversation__action__notifications_nothing">Nothing</string>
+    <string name="conversation__action__notifications_title">Notify me about:</string>
+    <!-- Conversation: Profile Popover -->
+    <!-- Calling/voice -->
+    <string name="calling__slow_connection__title">سرعت اینترنت کم است</string>
+    <string name="calling__slow_connection__message">سرعت اینترنت شما برای تماس برقرار کردن کافی نیست. لطفا در فرصت دیگری دوباره امتحان کنید.</string>
+    <string name="calling__cannot_start__title">Microphone required</string>
+    <string name="calling__cannot_start__message">برای تماس گرفتن، نیاز است تا تماس فعلی را قطع کنید.</string>
+    <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+    <string name="calling__cannot_start__cancel__message">لغو</string>
+    <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
+    <string name="calling__video_call__slow_connection__message">شما ممکن است به دلیل سرعت کم اینترنت، تجربه خوبی در حین مکالمه نداشته باشید</string>
+    <string name="incoming__controls__ongoing__speaker">فعال کردن بلندگو</string>
+    <string name="incoming__controls__ongoing__mute">بی‌صدا</string>
+    <string name="incoming__controls__ongoing__video">ویدیو</string>
+    <string name="incoming__controls__ongoing__flip">FLIP</string>
+    <string name="ongoing__poor_connection_message">ویدیو به دلیل سرعت کم اینترنت قطع شد</string>
+    <string name="calling__self_preview_unavailable_long">دوربین در دسترس نیست</string>
+    <string name="calling__header__joining">در حال اتصال&#8230;</string>
+    <string name="calling__header__outgoing_subtitle">در‌حال تماس&#8230;</string>
+    <string name="calling__header__outgoing_video_subtitle">در‌حال تماس&#8230;</string>
+    <string name="calling__header__incoming_subtitle">در حال برقراری تماس ...</string>
+    <string name="calling__header__incoming_subtitle__video">در حال برقراری تماس ...</string>
+    <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
+    <string name="call_banner_joining">در حال اتصال&#8230;</string>
+    <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
+    <string name="call_banner_incoming">%1$s is calling&#8230;</string>
+    <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
+    <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
+    <string name="calling_ongoing_call_title">Ongoing call</string>
+    <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+    <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+    <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+    <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+    <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
+    <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+    <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
+    <!-- Calling in group conversation -->
+    <string name="group_calling_title">شروع یک تماس</string>
+    <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+    <string name="group_calling_confirm">تماس</string>
+    <!-- Connect request -->
+    <string name="connect__message">سلام %1$s, \nبیا باهم تو Wire گپ بزنیم.\n%2$s</string>
+    <string name="connect_request__sub_header__pending_label">درحال انتظار</string>
+    <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
+    <string name="connect_request__unblock__button__text">خارج کردن از مسدود بودن</string>
+    <string name="send_connect_request__connect_button__text">CONNECT</string>
+    <plurals name="connect_inbox__link__name">
+        <item quantity="one">1 نفر در انتظار است</item>
+        <item quantity="other">%1$s در انتظار هستند</item>
+    </plurals>
+    <string name="connect_request__ignore_button__text">نادیده گرفتن</string>
+    <string name="content__message__connect_request__footer">ارتباط برقرار شد</string>
+    <string name="content__message__connect_request__auto_connect__footer">بصورت خودکار ارتباط برقرار شد. _در مورد این امکان بیشتر بدانید_</string>
+    <!-- Otr-->
+    <plurals name="conversation__degraded_confirmation__header__single_user">
+        <item quantity="one">%1$s شروع به استفاده از Wire روی یک دستگاه جدید کرد.</item>
+        <item quantity="other">%1$s شروع به استفاده از Wire روی چند دستگاه جدید کرد.</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__header__someone">شخصی شروع به استفاده از Wire روی یک دستگاه جدید کرد.</string>
+    <string name="conversation__degraded_confirmation__header__multiple_user">%1$s و %2$s شروع به کار کردن با Wire روی دستگاه‌های جدید کردند.</string>
+    <plurals name="conversation__degraded_confirmation__message">
+        <item quantity="one">هنوز تمایل به ارسال پیام خود دارید؟</item>
+        <item quantity="other">هنوز تمایل به ارسال پیام‌های خود دارید؟</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__positive_action">بفرست مشکلی نیست</string>
+    <plurals name="conversation__degraded_confirmation__negative_action">
+        <item quantity="one">نمایش دستگاه‌</item>
+        <item quantity="other">نمایش دستگاه‌‌ها</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__negative_action_self">نمایش دستگاه‌های شما</string>
+    <string name="conversation_degraded_confirmation__header__you">شما</string>
+    <!-- Picture selection confirmation -->
+    <string name="confirmation_menu__confirm_done">تایید</string>
+    <string name="confirmation_menu__cancel">لغو</string>
+    <!-- ADD TO CONVERSATION offline -->
+    <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
+    <!-- Leave conversation -->
+    <string name="confirmation_menu__meta_remove">می‌خواهید از گفتگو خارج شوید؟</string>
+    <string name="confirmation_menu__meta_remove_text">شما قادر به ارسال و دریافت پیام در این گفتگو نخواهید بود.</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <!-- Remove from conversation dialogue -->
+    <string name="confirmation_menu__header">حذف؟</string>
+    <string name="confirmation_menu_text_with_name">%1$s قادر به ارسال و دریافت پیام در این گفتگو نخواهد بود.</string>
+    <string name="confirmation_menu__confirm_remove">حذف</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <!-- Block someone dialogue -->
+    <string name="confirmation_menu__block_header">مسدود شود؟</string>
+    <string name="confirmation_menu__block_text_with_name">%1$s قادر به تماس با شما یا اضافه کردن شما به مکالمات گروهی نخواهد بود.</string>
+    <string name="confirmation_menu__confirm_block">مسدود کردن</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <string name="connect_request__footer__blocked_label">مسدود شد</string>
+    <!-- Delete conversation -->
+    <string name="confirmation_menu__meta_delete">این محتوا را حذف می‌کنید؟</string>
+    <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
+    <!-- Rich media -->
+    <string name="content__youtube__error__text">ویدیو پیدا نشد</string>
+    <string name="mediaplayer__message__onsoundcloud">در ساوندکلاود</string>
+    <string name="mediaplayer__message__onspotify">در اسپاتیفای</string>
+    <!-- Invite banner -->
+    <!-- Self profile -->
+    <!-- Options and settings -->
+    <string name="settings_title">تنظیمات</string>
+    <!-- Options menu -->
+    <!-- Manage Team -->
+    <string name="pref_manage_team_title">مدیریت تیم</string>
+    <!-- About screen -->
+    <string name="pref_category_title">تنظیمات</string>
+    <string name="pref_developer_screen_title">تنظیمات بخش توسعه دهندگان</string>
+    <string name="pref_dev_avs_screen_title">تنظیمات AVS</string>
+    <string name="pref_profile_screen_title">پروفایل</string>
+    <!-- Account -->
+    <string name="pref_account_screen_title">حساب کاربری</string>
+    <string name="pref_account_name_title">نام</string>
+    <string name="pref_account_edit_name_title">ویرایش نام</string>
+    <string name="pref_account_details_category_title">اطلاعات بیشتر</string>
+    <string name="pref_account_actions_category_title">اقدامات</string>
+    <string name="pref_account_appearance_category_title">ظاهر</string>
+    <string name="pref_account_personal_information_category_title">Personal Information</string>
+    <string name="pref_account_conversations_category_title">History</string>
+    <string name="pref_account_username_title">نام کاربری</string>
+    <string name="pref_account_phone_title">تلفن</string>
+    <string name="pref_account_add_phone_title">اضافه کردن شماره تلفن</string>
+    <string name="pref_account_email_title">ایمیل</string>
+    <string name="pref_account_add_email_title">اضافه کردن ایمیل</string>
+    <string name="pref_account_delete">حذف</string>
+    <string name="pref_account_sign_out_title">خروج</string>
+    <string name="pref_account_color_title">رنگ</string>
+    <string name="pref_account_picture_title">نمایه</string>
+    <string name="pref_account_delete_title">حذف حساب کاربری</string>
+    <string name="pref_account_delete_warning_title">حذف حساب کاربری</string>
+    <string name="pref_account_delete_warning_message_email">ما یک ایمیل به \n[[%1$s]]\n ارسال کردیم، با استفاده از پیوند داخل ایمیل می‌توانید برای همیشه حساب خود را حذف کنید.</string>
+    <string name="pref_account_delete_warning_message_sms">ما یک پیامک به \n[[%1$s]]\n ارسال کردیم، با استفاده از پیوند داخل پیامک می‌توانید برای همیشه حساب خود را حذف کنید.</string>
+    <string name="pref_account_delete_warning_verify">تایید</string>
+    <string name="pref_account_delete_warning_cancel">انصراف</string>
+    <string name="pref_account_sign_out_warning_message">آیا مطمئن هستید شما می‌خواهید از برنامه خارج شوید؟</string>
+    <string name="pref_account_sign_out_warning_verify">خروج</string>
+    <string name="pref_account_sign_out_warning_cancel">انصراف</string>
+    <string name="pref_account_password_title">راه اندازی مجدد رمز عبور</string>
+    <string name="pref_account_edit_name_empty_warning">نام باید بیشتر از 2 کارکتر داشته باشد</string>
+    <string name="pref_account_edit_name_empty_verify">تایید</string>
+    <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+    <string name="pref_backup_screen_title">Back Up Conversations</string>
+    <!-- Data Usage Permissions -->
+    <string name="pref_advanced_send_anonymous_data_title">Send Anonymous Data</string>
+    <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
+    <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+    <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
+    <!-- Options -->
+    <string name="pref_options_dark_theme_title">ظاهر تیره</string>
+    <string name="pref_options_screen_title">گزینه‌ها</string>
+    <string name="pref_options_contacts_title">به‌اشتراک گذاشتن دوستان</string>
+    <string name="pref_options_contacts_summary">این امکان به شما کمک می‌کند تا با دیگران در ارتباط باشید. دقت کنید که ما این اطلاعات را مخفی کردیم و با هیچ‌کس به اشتراک نمی‌گذاریم.</string>
+    <string name="pref_options_vbr_title">رمزگذاری متغیر نرخ بیت</string>
+    <string name="pref_options_vbr_summary">این باعث استفاده کمتر تماس صوتی از داده شده و بر روی شبکه هایی با سرعت کم بهتر کار میکند. برای رمزگذاری ثابت نرخ بیت غیر فعال کنید.</string>
+    <string name="pref_options_alerts_category_title">هشدارها</string>
+    <string name="pref_options_calls_category_title">تماس ها</string>
+    <string name="pref_options_sounds_title">صدا</string>
+    <string name="pref_options_sounds_all">همه گزینه‌ها</string>
+    <string name="pref_options_sounds_new_conversations_and_talks_only">اولین پیام، پینگ‌ها و تماس‌ها</string>
+    <string name="pref_options_sounds_none">هیچ‌کدام</string>
+    <string name="pref_options_vibration_title">لرزش</string>
+    <string name="pref_options_vibration_title_o">Vibrate on ring</string>
+    <string name="pref_options_ringtones_category_title">صدا</string>
+    <string name="pref_options_ringtones_ringtone_title">آهنگ پیشواز</string>
+    <string name="pref_options_ringtones_text_title">صدای پیامک</string>
+    <string name="pref_options_ringtones_ping_title">Ping</string>
+    <string name="pref_options_ringtones_default_summary">پیش‌فرض Wire</string>
+    <string name="pref_options_ringtones_silent">سکوت</string>
+    <string name="pref_options_image_download_title">دانلود تصاویر</string>
+    <string name="pref_options_image_download_always">همیشه</string>
+    <string name="pref_options_image_download_wifi">تنها روی Wi-Fi</string>
+    <string name="pref_options_media_category_title">رسانه</string>
+    <string name="pref_options_requested_category_title">بر اساس تقاضاهای محبوب</string>
+    <string name="pref_options_cursor_send_button_title">دکمه ارسال</string>
+    <string name="pref_options_cursor_send_button_summary">غیرفعال کردن دکمه ارسال روی صفحه کلید.</string>
+    <!-- Devices -->
+    <string name="pref_devices_screen_title">دستگاه‌ها</string>
+    <string name="pref_devices_current_device_category_title">همین دستگاه</string>
+    <string name="pref_devices_other_devices_category_title">دستگاه‌های دیگر</string>
+    <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
+    <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
+    <string name="pref_devices_device_id">ID: %1$s</string>
+    <string name="pref_devices_device_verified">تایید شده</string>
+    <string name="pref_devices_device_not_verified">تایید نشده است</string>
+    <string name="pref_devices_warning_summary">اگر شما دستگا‌ه‌های بالا را نمیشناسید، آن را حذف کنید و رمز عبور خود را تغییر دهید.</string>
+    <string name="pref_devices_device_screen_title">جزییات اطلاعات دستگاه</string>
+    <string name="pref_devices_device_fingerprint_category_title">کلید اثرانگشت</string>
+    <string name="pref_devices_device_fingerprint_summary">Wire به هر دستگاه یک اثرانگشت الکترونیکی می‌دهد. اثرانگشت‌ها را با هم مقایسه کنید تا بتوانید دستگاه و گفتگوهای خود را تایید کنید.</string>
+    <string name="pref_devices_device_actions_category_title">اقدامات</string>
+    <string name="pref_devices_device_reset_session_title">راه اندازی مجدد session</string>
+    <string name="pref_devices_device_reset_session_summary">اگر اثر انگشت‌ها با هم مطابقت ندارند، یک کلید رمزگذاری جدید برای دو طرف ایجاد کنید.</string>
+    <string name="pref_devices_device_remove_title">حذف دستگاه</string>
+    <string name="pref_devices_device_remove_summary">این دستگاه را اگر حذف کنید دیگر نمی‌تواند از حساب شما استفاده کند. بلافاصله از حساب کاربری شما خارج می‌شود.</string>
+    <string name="pref_devices_device_fingerprint_copy_description">اثرانگشت</string>
+    <string name="pref_devices_device_fingerprint_copy_toast">کلید اثرانگشت کپی شد</string>
+    <!-- Advanced -->
+    <string name="pref_advanced_screen_title">پیشرفته</string>
+    <string name="pref_advanced_debug_report_title">گزارش اشکال زدایی را بفرستید</string>
+    <string name="pref_advanced_debug_report_summary">این به Wire کمک می‌کند تا مشکلات را تشخیص دهد.</string>
+    <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
+    <string name="pref_advanced_reset_push_summary">اگر شما با نوتیفیکیشن ها مشکلی دارید، واحد پشتیبانی وایر ممکن است از شما درخواست بازنشانی این توکن را کند.</string>
+    <string name="pref_advanced_reset_push_completed">توکن ها بازنشانی شدند</string>
+    <string name="debug_report__title">گزارش اشکال‌زدایی - %1$s</string>
+    <string name="debug_report__body">لطفا تمام مراحلی که ما باید انجام بدیم تا به این خطا برسیم را برای ما بگویید. اگر لازم بود لطفا برای ما اسکرین‌شات هم ضمیمه و ایمیل کنید.\n\n</string>
+    <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+    <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
-  <!-- Support -->
-  <string name="pref_support_screen_title">پشتیبانی</string>
-  <string name="pref_support_website_title">پشتیبانی در وب‌سایت Wire</string>
-  <string name="pref_support_contact_title">با پشتیبانی تماس بگیرید</string>
-  <!-- About -->
-  <string name="pref_about_screen_title">درباره</string>
-  <string name="pref_about_website_title">وب‌سایت Wire</string>
-  <string name="pref_about_tos_title">شرایط و مقررات استفاده</string>
-  <string name="pref_about_privacy_policy_title">سیاست حفظ از حریم خصوصی</string>
-  <string name="pref_about_licenses_title">اطلاعات مجوز</string>
-  <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
-  <string name="pref_about_version_title">نسخه‌ %s</string>
-  <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
-  <!-- Pref invite -->
-  <string name="pref_invite_title">دوستانتان را برای پیوستن به وایر دعوت کنید</string>
-  <!-- Preference Account Actions -->
-  <string name="pref__account_action__phone_verification__title">تایید کردن شماره تلفن</string>
-  <string name="pref__account_action__phone_verification__description">کد تاییدیه که ما برای %s پیامک کردیم را وارد کنید</string>
-  <string name="pref__account_action__phone_verification__code">کد</string>
-  <string name="pref__account_action__phone_verification__question">هیچ کدی دریافت نشد؟</string>
-  <string name="pref__account_action__phone_verification__resend"><u>دوباره بفرست</u></string>
-  <string name="pref__account_action__phone_verification__change"><u>تغییر دادن شماره تلفن</u></string>
-  <string name="pref__account_action__email_verification__title">تایید کردن ایمیل آدرس</string>
-  <string name="pref__account_action__email_verification__description">صندوق ایمیل خود را بررسی و دستورالعمل‌های داخل ایمیل را دنبال کنید.</string>
-  <string name="pref__account_action__email_verification__question">هیچ ایمیلی دریافت نکردین؟</string>
-  <string name="pref__account_action__email_verification__resend">&lt;u&gt;دوباره بفرست به %s&lt;/u&gt;</string>
-  <string name="pref__account_action__email_verification__change"><u>تغییر ایمیل آدرس</u></string>
-  <string name="pref__account_action__dialog__add_email_password__password">پسورد</string>
-  <string name="pref__account_action__dialog__add_email_password__email">ایمیل</string>
-  <string name="pref__account_action__dialog__add_email_password__title">اضافه کردن ایمیل آدرس</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_email">ایمیل آدرس معتبر نیست</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_password">حداقل دارای ۸ حرف باشد</string>
-  <string name="pref__account_action__dialog__edit_phone__title">ویرایش شماره تلفن</string>
-  <string name="pref__account_action__dialog__add_phone__title">اضافه کردن شماره تلفن</string>
-  <string name="pref__account_action__dialog__add_phone__error__country">پیش‌شماره کشور معتبر نیست</string>
-  <string name="pref__account_action__dialog__add_phone__error__number">شماره تلفن معتبر نیست</string>
-  <string name="pref__account_action__dialog__add_phone__confirm__title">شماره تلفن را تایید کنید</string>
-  <string name="pref__account_action__dialog__add_phone__confirm__message">ما یک اعلان برای شماره \n%s ارسال می‌کنیم</string>
-  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">حذف</string>
-  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">آیا شما مطمئنید که میخواهید %s را از اکانت وایر خود حذف کنید?</string>
-  <string name="pref__account_action__dialog__delete_phone__error">ناتوان از حذف شماره موبایل</string>
-  <string name="pref__account_action__dialog__change_email__title">ویرایش ایمیل آدرس</string>
-  <string name="pref__account_action__dialog__change_username__rules">حداق 2 کاراکتر. فقط حروف a تا z, ارقام 0 تا 9، و _ مورد قبول میباشد</string>
-  <string name="pref__account_action__dialog__change_username__title">نام کاربری</string>
-  <string name="pref__account_action__dialog__change_username__error_already_taken">در حال حاضر موجود نیست</string>
-  <string name="pref__account_action__dialog__change_username__error_unknown">خطای اتصال، لطفا دوباره تلاش کنید</string>
-  <!-- No Internet connection -->
-  <string name="system_status__no_internet">اینترنت قطع است</string>
-  <!-- SHARING -->
-  <string name="alert_dialog__confirmation">تایید</string>
-  <string name="alert_dialog__no_network__header">اینترنت قطع است</string>
-  <string name="sign_up__set_picture__choose">انتخاب عکس از گالری</string>
-  <string name="sign_up__set_picture__keep">همین رو نگه دار</string>
-  <string name="sign_up__set_picture__guidance">Wire با عکس، زیباتر خواهد شد.</string>
-  <string name="sign_up__set_picture__loading">درحال بارگذاری عکس</string>
-  <string name="leave_conversation_failed__message">برای اینکه از یک گفتگو خارج شوید، ابتدا شما باید آنلاین باشید. لطفا وضعیت اینترنت خود را بررسی کنید.</string>
-  <string name="remove_from_conversation__no_network__message">برای حذف کاربری از گفتگو، شما ابتدا باید آنلاین باشید. لطفا وضعیت اینترنت خود را بررسی کنید.</string>
-  <string name="calling__call_drop__message">برای برقراری تماس شما نیاز دارید که ابتدا آنلاین باشید. لطفا وضعیت اینترنت خود را بررسی کنید.</string>
-  <!-- Lockscreen and notifications -->
-  <string name="message_notifications_channel_name">Messages</string>
-  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
-  <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="ping_notifications_channel_name">Pings</string>
-  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
-  <string name="ongoing_channel_name">Background notifications</string>
-  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
-  <string name="foreground_service_notification_name">Maintain connection to server</string>
-  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <plurals name="notification__new_messages__multiple">
-    <item quantity="one">پیامی در %2$s گفتگو</item>
-    <item quantity="other">%1$d پیام در %2$s گفتگو</item>
-  </plurals>
-  <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
-  <string name="notification__message__group__prefix__text">%1$s در %2$s: \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
-  <string name="notification__message__one_to_one__wanted_to_talk">زنگ زد</string>
-  <string name="notification__message__one_to_one__pinged">صدا زد</string>
-  <string name="notification__message__one_to_one__shared_picture">یک عکس به‌اشتراک گذاشت</string>
-  <string name="notification__message__one_to_one__shared_file">فایلی به اشتراک گذاشت</string>
-  <string name="notification__message__one_to_one__shared_video">ویدیویی به اشتراک گذاشت</string>
-  <string name="notification__message__one_to_one__shared_audio">پیام صوتی را به اشتراک گذاشت</string>
-  <string name="notification__message__one_to_one__shared_location">موقعیت جغرافیایی خود را به اشتراک گذاشت</string>
-  <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__group__prefix__other">%1$s در %2$s \u0020</string>
-  <string name="notification__message__group__renamed_conversation">نام اتاق گفتگو را به %1$s تغییر داد</string>
-  <string name="notification__message__group__add">افراد دیگر را به این گفتگو اضافه شدند</string>
-  <string name="notification__message__group__remove">حذف افراد از این گروه</string>
-  <string name="notification__message__single__accept_request">شما و %1$s اکنون متصل شده اید</string>
-  <string name="notification__message__group__default_conversation_name">گفتگوی گروهی</string>
-  <string name="notification__message__send_failed">پیام فرستاده نشد</string>
-  <string name="notification__message__ephemeral">Sent a message</string>
-  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
-  <string name="notification__message__liked">\u2764 ‘%1$s’</string>
-  <string name="notification__message__liked_message">\"\u2764 شما را پسندید.\"</string>
-  <string name="notification__message__liked_picture">\u2764 عکس شما</string>
-  <!-- ephemeral -->
-  <string name="notification__message__ephemeral_someone">شخصی</string>
-  <plurals name="notification__message__ephemeral">
-    <item quantity="one">کسی برای شما پیام ارسال کرده</item>
-    <item quantity="other">کسی برای شما %1$d پیام ارسال کرده</item>
-  </plurals>
-  <string name="other_set_message_timer">[[%1$s]] set the message timer to [[%2$s]]</string>
-  <string name="you_set_message_timer">[[You]] set the message timer to [[%1$s]]</string>
-  <string name="other_turned_off_message_timer">[[%1$s]] turned off the message timer</string>
-  <string name="you_turned_off_message_timer">[[You]] turned off the message timer</string>
-  <!-- Others -->
-  <string name="app_name">Wire وایر</string>
-  <string name="content__system__item_separator">,</string>
-  <string name="content__system__last_item_separator">و</string>
-  <string name="content__system__you">شما</string>
-  <plurals name="content__system__other_members">
-    <item quantity="one">%1$s other</item>
-    <item quantity="other">%1$s others</item>
-  </plurals>
-  <!-- System notifications -->
-  <string name="system_notification__silence_call">رد کن</string>
-  <string name="system_notification__join_call">میپذیرم</string>
-  <string name="system_notification__leave_call">قطع کردن تماس</string>
-  <string name="system_notification__calling_one">در حال برقراری تماس ...</string>
-  <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
-  <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
-  <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
-  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
-  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
-  <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
-  <string name="ws_foreground_notification_summary">Tap here for more information.</string>
-  <!-- Notification actions -->
-  <string name="notification__action__call">تماس</string>
-  <string name="notification__action__reply">جواب</string>
-  <!-- Quick reply -->
-  <string name="quick_reply__counter">%1$d از %2$d</string>
-  <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
-  <string name="quick_reply__open_wire">Wire را باز کنید</string>
-  <!-- Save image notification -->
-  <string name="notification__image_saving__content__title">Wire تصویر ذخیره شد.</string>
-  <string name="notification__image_saving__content__subtitle">برای نمایش لمس کنید.</string>
-  <string name="notification__image_saving__action__share">به‌اشتراک بگذارید</string>
-  <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
-  <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <!-- forced update -->
-  <string name="forced_update__header">بروزرسانی مهم</string>
-  <string name="forced_update__sub_header">لطفا آخرین نسخه اپلیکیشن Wire را نصب کنید.</string>
-  <string name="forced_update__download_button">دانلود</string>
-  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Sharing -->
-  <string name="sharing__image_preview__confirm_action">بفرست</string>
-  <string name="sharing__user_not_logged_in__dialog__title">لطفا ابتدا وارد شوید</string>
-  <string name="sharing__user_not_logged_in__dialog__message">Wire را باز کنید، وارد شوید و با دیگران به‌اشتراک بگذارید.</string>
-  <string name="sharing__user_not_logged_in__dialog__confirm">تایید</string>
-  <!-- Sync errors -->
-  <string name="in_app_notification__sync_error__create_group_convo__title">خطا در ایجاد گروه</string>
-  <string name="in_app_notification__sync_error__create_group_convo__body">امکان ایجاد گفتگو با %1$s فراهم نیست</string>
-  <string name="in_app_notification__sync_error__add_user__body">%1$s تمایلی به اضافه شدن به این گفتگو ندارد.</string>
-  <string name="in_app_notification__sync_error__add_multiple_user__body">یکی از کسانی که شما انتخاب کردید، تمایلی ندارد به مکالمه اضافه شود.</string>
-  <string name="in_app_notification__sync_error__unknown__body">یک خطای ناگهانی رخ داد. لطفا دوباره امتحان کنید.</string>
-  <string name="in_app_notification__sync_error__create_convo__button">ادامه</string>
-  <!--Timestamp formatting -->
-  <string name="timestamp__just_now">همین الان</string>
-  <plurals name="timestamp__x_minutes_ago">
-    <item quantity="one">%1$d دقیقه پیش</item>
-    <item quantity="other">%1$d دقیقه پیش</item>
-  </plurals>
-  <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
-  <!-- Example: FRIDAY, MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__no_year">EEE, MMM d, %1$s</string>
-  <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year">EEE, MMM d, YYYY, %1$s</string>
-  <!-- Example: MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__no_year_no_weekday">MMM d, %1$s</string>
-  <!-- Example: MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
-  <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <!-- MONDAY -->
-  <!-- MARCH 2 -->
-  <!-- MARCH 2, 2015 -->
-  <!-- 23:15 -->
-  <string name="timestamp_pattern__24h_format">HH:mm</string>
-  <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="country">کشور</string>
-  <string name="register">ثبت نام</string>
-  <string name="password_placeholder">پسورد</string>
-  <string name="email_placeholder">ایمیل</string>
-  <string name="name_placeholder">نام</string>
-  <!-- Strings -->
-  <string name="edit_phone_number">ویرایش شماره تلفن</string>
-  <string name="i_have_an_account">وارد شدن</string>
-  <plurals name="welcome__resend__timer_label">
-    <item quantity="one">شما می‌توانید کد جدید را در %1$d ثانیه درخواست بدهید</item>
-    <item quantity="other">شما می‌توانید کد جدید را در %1$d ثانیه درخواست بدهید</item>
-  </plurals>
-  <string name="welcome__resend__manual">دوباره ارسال کن</string>
-  <string name="welcome__resend__callme">دوباره با من تماس بگیر</string>
-  <string name="activation_code_info_manual">اطلاعات روبرو را ملاحظه کنید. ما یک کد تاییدیه ارسال کردیم، لطفا آن‌را اینجا برای ما وارد کنید. \n&lt;b&gt;%s&lt;/b&gt;</string>
-  <string name="enter_name">ما شما را چی صدا بزنیم؟</string>
-  <string name="enter_name_hint">نام کامل خود را وارد کنید</string>
-  <string name="new_reg__password__forgot">رمزعبور را فراوش کرده‌اید؟</string>
-  <string name="phone_sign_in">تلفن</string>
-  <string name="email_sign_in">ایمیل</string>
-  <string name="edit_email">ویرایش ایمیل</string>
-  <string name="hello">سلام، &lt;b&gt;%s&lt;/b&gt;</string>
-  <string name="sign_in">وارد شدن</string>
-  <string name="new_reg__password_length">حداقل %1$s کاراکتر</string>
-  <string name="username__set__toast_error">خطا در بروز رسانی نام کاربری</string>
-  <!-- Giphy -->
-  <string name="giphy_preview__search_hint">جستجو در Giphy</string>
-  <string name="giphy_preview__error">هیچ تصویر متحرکی پیدا نشد.</string>
-  <string name="giphy_preview__message_via_random_trending">Via giphy.com</string>
-  <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
-  <string name="service_giphy_name">Giphy</string>
-  <!--Sketch-->
-  <string name="drawing__tip__picture__message">روی رنگ‌ها لمس کنید تا بتوانید اندازه قلم را تغییر دهد.\n\n گوشی را تکان دهید تا عکس حذف شود.</string>
-  <string name="drawing__tip__message">روی رنگ‌ها لمس کنید تا بتوانید اندازه قلم را تغییر دهد.\n\n یکجا نگه‌ دارید تا محدوده خالی پر شود.</string>
-  <string name="sketch__emoji_keyboard__size_label__small">کوچیک</string>
-  <string name="sketch__emoji_keyboard__size_label__medium">معمولی</string>
-  <string name="sketch__emoji_keyboard__size_label__large">بزرگ</string>
-  <string name="toolbar__sketch__action_close">بستن</string>
-  <string name="drawing__text_hint">یک پیام بنویسید</string>
-  <!-- Location sharing -->
-  <string name="location_sharing__tip">روی نقشه می‌توانید موقعیت جغرافیایی خود را جابجا کنید</string>
-  <string name="location_sharing__permission_error">متاسفانه قادر به تشخیص موقعیت مکانی هم‌اکنون شما نیست. دسترسی امکان پذیر نیست.</string>
-  <string name="location_sharing__send_button">بفرست</string>
-  <string name="location_sharing__enable_system_location__title">استفاده از موقعیت مکانی؟</string>
-  <string name="location_sharing__enable_system_location__message">فعال کردن موقعیت مکانی در تنظیمات برای نمایش موقعیت فعلی</string>
-  <string name="location_sharing__enable_system_location__confirm">تنظیمات</string>
-  <string name="location_sharing__enable_system_location__cancel">انصراف</string>
-  <string name="location_sharing__missing_play_services">سرویس گوگل برای به‌اشتراک گذاشتن موقعیت مکانی شما لازم است</string>
-  <!-- From SyncEngine -->
-  <string name="new_reg__phone_signup__create_account">ایجاد یک حساب کاربری جدید</string>
-  <!-- OTR -->
-  <string name="otr__remove_device__title">حذف %1$s</string>
-  <string name="otr__remove_device__message">رمزعبوری انتخاب کنید</string>
-  <string name="otr__remove_device__default">دستگاه</string>
-  <string name="otr__remove_device__button_delete">تایید</string>
-  <string name="otr__remove_device__button_cancel">انصراف</string>
-  <string name="otr__remove_device__error">رمزعبور اشتباه است</string>
-  <string name="otr__error_dialog__cannot_register__message">یکی از دستگاه‌هایی که Wire را در آن فعال دارید را حذف کنید تا بتوانید از این دستگاه استفاده کنید.</string>
-  <string name="otr__error_dialog__cannot_register__manage_devices_button">مدیریت دستگاه‌ها</string>
-  <string name="otr__error_dialog__cannot_register__log_out_button">خروج</string>
-  <!-- OTR Participants -->
-  <string name="otr__participant__device_header">Wire به هر دستگاه یک اثرانگشت الکترونیکی می‌دهد. این را با %1$s مقایسه و گفتگوی امن را تایید کنید.</string>
-  <string name="otr__participant__device_header__no_devices">%1$s درحال استفاده از نسخه قدیمی از Wire است. هیچ دستگاهی برای نمایش وجود ندارد.</string>
-  <string name="otr__participant__device_header__link_text">_چرا مکالمه‌های خود را تایید کنیم؟_</string>
-  <string name="otr__participant__device_class__unknown">ناشناخته</string>
-  <string name="otr__participant__device_class__phone">تلفن</string>
-  <string name="otr__participant__device_class__tablet">تبلت</string>
-  <string name="otr__participant__device_class__desktop">کامپیوتر</string>
-  <string name="otr__participant__tab_details">جزئیات</string>
-  <string name="otr__participant__tab_devices">دستگاه‌ها</string>
-  <string name="otr__participant__single_device__my_fingerprint_link">اثرانگشت دستگاه من را نشان بده</string>
-  <string name="otr__participant__single_device__reset_session_link">راه اندازی مجدد جلسه</string>
-  <string name="otr__participant__my_device__description">اثرانگشت دستگاه شما</string>
-  <string name="otr__participant__my_device__show_all_devices_link">نمایش تمام دستگاه‌های من</string>
-  <string name="otr__participant__single_device__description">بررسی کن که این اثر انگشت با اثر انگشت دستگاه %1$s یکی است.</string>
-  <string name="otr__participant__single_device__how_to_link">_چطوری این کار را انجام بدم؟_</string>
-  <string name="otr__device_id">ID: %s</string>
-  <string name="otr__first_launch__header">این برای بار اول است که شما از Wire روی این دستگاه استفاده می‌کنید.</string>
-  <string name="otr__first_launch__sub_header">بدلیل حفط حریم خصوصی، تاریخچه گفتگوی شما اینجا نمایش داده نخواهد شد.</string>
-  <string name="otr__first_launch__button">تایید</string>
-  <string name="otr__signin__info_text">وارد شوید</string>
-  <string name="otr__reset_session__message_ok">session از ابتدا راه اندازی شد</string>
-  <string name="otr__reset_session__message_fail">امکان راه اندازی مجدد session وجود ندارد</string>
-  <string name="otr__reset_session__button_ok">تایید</string>
-  <string name="otr__reset_session__button_fail">دوباره امتحان کنید</string>
-  <string name="advanced_image_download_wifi_info">زمانیکه دوباره به Wi-Fi متصل شوید، تصویر نشان داده میشود</string>
-  <string name="change_settings">تغییر تنظیمات</string>
-  <string name="conversation_list__action_join_call">عضویت</string>
-  <!-- Conversation Toolbar -->
-  <string name="conversation_toolbar__collection">مجموعه</string>
-  <string name="conversation_toolbar__call_video">تماس ویدیویی</string>
-  <string name="conversation_toolbar__call_audio">تماس صوتی</string>
-  <!-- Asset upload errors -->
-  <string name="asset_upload_error__not_found__title">فایلی پیدا نشد</string>
-  <string name="asset_upload_error__not_found__message">فایل ارسال شده قابل بازیابی نیست</string>
-  <string name="asset_upload_error__not_found__button">تایید</string>
-  <string name="asset_upload_error__file_too_large__title">حجم فایل مورد نظر زیاد است</string>
-  <string name="asset_upload_error__file_too_large__message_default">آپلود و ارسال فایل با حجم زیاد مقدور نیست.</string>
-  <string name="asset_upload_error__file_too_large__message">شما امکان ارسال فایل تا سقف %1$s را دارید.</string>
-  <string name="asset_upload_error__file_too_large__button">تایید</string>
-  <string name="asset_upload_warning__large_file__title">شما به Wi-Fi متصل نیستید</string>
-  <string name="asset_upload_warning__large_file__message_default">آیا شما مطمئن هستید شما می‌خواهید این فایل سنگین را از طریق اینترنت سیم‌کارت خود ارسال کنید؟</string>
-  <string name="asset_upload_warning__large_file__message">آیا شما مطمئن هستید که می‌خواهید %1$s را از طریق اینترنت سیم‌کارت خود ارسال کنید؟</string>
-  <!-- Video message errors -->
-  <string name="audio_message_error__missing_audio_permissions">برای ارسال پیام صوتی، دسترسی به میکروفن الزامی است.</string>
-  <!-- Audio bit rate mode -->
-  <string name="audio_message__constant_bit_rate">نرخ بیت ثابت</string>
-  <!-- no contacts -->
-  <string name="no_conversation_in_list__header">هیچ گفتگویی وجود ندارد</string>
-  <string name="all_archived__header">همه چیز بایگانی شده</string>
-  <string name="no_conversation_in_list__message">یک مکالمه را شروع کنید یا یک گروه ایجاد کنید.</string>
-  <string name="cursor__type_a_message">یک پیام بنویسید</string>
-  <string name="cursor__ephemeral_message">پیام موقت</string>
-  <string name="tooltip_record">یک ویدیو ضبط کنید</string>
-  <string name="tooltip_camera">یک تصویر اضافه کنید</string>
-  <string name="tooltip_sketch">یک نقاشی بکشید</string>
-  <string name="tooltip_ping">Ping</string>
-  <string name="tooltip_emoji">شکلک</string>
-  <string name="tooltip_location">موقعیت جغرافیایی</string>
-  <string name="tooltip_more">اقدامات بیشتر</string>
-  <string name="tooltip_audio_message">اینجا را نگه دارید تا بتونید یک پیام صوتی را ضبط و ارسال کنید</string>
-  <string name="tooltip_file">ارسال فایل</string>
-  <string name="tooltip_gif">Gif</string>
-  <string name="tooltip_mention">Add Mention</string>
-  <!-- Delete -->
-  <string name="conversation__message_action__delete_for_me">فقط برای خودم حذف بشه؟</string>
-  <string name="conversation__message_action__delete_for_everyone">از دستگاه‌های دوستانم حذف بشه؟</string>
-  <string name="conversation__message_action__delete_details">این کار قابل بازگشت نیست.</string>
-  <string name="conversation__message_action__delete__dialog__cancel">انصراف</string>
-  <string name="conversation__message_action__delete__dialog__ok">حذف</string>
-  <string name="conversation__message_action__delete__confirmation">پیام حذف شد</string>
-  <string name="conversation__action_mode__copy__description">پیامی از %1$s</string>
-  <string name="conversation__action_mode__copy__toast">کپی شد</string>
-  <string name="conversation__action_mode__fwd__dialog__title">درحال پردازش محتویات</string>
-  <string name="conversation__action_mode__fwd__dialog__message">لطفا کمی صبر کنید...</string>
-  <string name="conversation__action_mode__fwd__chooser__title">به اشتراک گذاشتن با</string>
-  <!-- video message preview -->
-  <string name="audio_message__recording__slide_control__slide_hint">دستتون رو بردارید تا قبل ارسال گوش بدین</string>
-  <string name="audio_message__recording__slide_control__tap_hint">بفرست</string>
-  <string name="audio_message__recording__tap_to_record">برای ضبط اینجا رو تاچ کنید.\n سپس قادر به _GLYPH_ آن خواهید بود</string>
-  <string name="audio_message__recording__failure__title">امکان ضبط صدا نیست</string>
-  <string name="audio_message__recording__failure__message">لطفا دوباره امتحان کنید.</string>
-  <string name="audio_message__recording__limit_reached__title">ضبط متوقف شد</string>
-  <string name="audio_message__recording__limit_reached__message">پیام‌های صوتی محدود به ۲۵ مگابایت هستند. این پیام رو بفرستم؟</string>
-  <string name="audio_message__recording__limit_reached__confirmation">بفرست</string>
-  <string name="hint_change_filter">فیلتر بالا را تغییر دهید</string>
-  <string name="message_bottom_menu_action_forward">به‌اشتراک بگذارید</string>
-  <string name="message_bottom_menu_action_copy">کپی</string>
-  <string name="message_bottom_menu_action_edit">ویرایش</string>
-  <string name="message_bottom_menu_action_like">می‌پسندم</string>
-  <string name="message_bottom_menu_action_unlike">نمی‌پسندم</string>
-  <string name="message_bottom_menu_action_save">ذخيره</string>
-  <string name="message_bottom_menu_action_open">باز کردن</string>
-  <string name="message_bottom_menu_action_delete">حذف</string>
-  <string name="message_bottom_menu_action_delete_local">تنها برای من حذف کن</string>
-  <string name="message_bottom_menu_action_delete_global">از دستگاه‌های دوستانم حذف کن</string>
-  <string name="message_bottom_menu_action_reveal">آشکار کردن در مکالمه</string>
-  <string name="likes_list__header">پسندیده شده توسط</string>
-  <string name="message_bottom_menu_action_save_ok">تصویر ذخیره شد</string>
-  <string name="message_footer__tap_to_like">برای پسندیدن دوبار اینجا را لمس کنید</string>
-  <plurals name="message_footer__number_of_likes">
-    <item quantity="one">%1$d فرد</item>
-    <item quantity="other">%1$d فرد</item>
-  </plurals>
-  <string name="message_footer__status__sending">در حال ارسال&#8230;</string>
-  <string name="message_footer__status__sent">%1$s \u30FB ارسال شد</string>
-  <string name="message_footer__status__delivered">%1$s \u30FB دریافت شد</string>
-  <string name="message_footer__status__failed">خطایی رخ داد _دوباره بفرست_</string>
-  <string name="message_footer__status__deleted">%1$s \u30FB حذف شد</string>
-  <string name="ephemeral_message__timeout_selection_info">تنظیم زمان برای ناپدید شدن پیام موقت</string>
-  <string name="usernames__take_over__summary">نام منحصر به فرد خود را در وایر بردارید. _ آگاهی بیشتر._</string>
-  <string name="usernames__take_over__choose">خود را انتخاب کنید</string>
-  <string name="usernames__take_over__keep">این را نگه داشتن</string>
-  <string name="ephemeral_message__timeout__off">خاموش</string>
-  <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
-  <string name="guests_option_on">On</string>
-  <plurals name="unit_years">
-    <item quantity="one">%1$s year</item>
-    <item quantity="other">%1$s years</item>
-  </plurals>
-  <plurals name="unit_weeks">
-    <item quantity="one">%1$s week</item>
-    <item quantity="other">%1$s weeks</item>
-  </plurals>
-  <plurals name="unit_days">
-    <item quantity="one">%1$s day</item>
-    <item quantity="other">%1$s days</item>
-  </plurals>
-  <plurals name="unit_hours">
-    <item quantity="one">%1$s hour</item>
-    <item quantity="other">%1$s hours</item>
-  </plurals>
-  <plurals name="unit_minutes">
-    <item quantity="one">%1$s minute</item>
-    <item quantity="other">%1$s minutes</item>
-  </plurals>
-  <plurals name="unit_seconds">
-    <item quantity="one">%1$s second</item>
-    <item quantity="other">%1$s seconds</item>
-  </plurals>
-  <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
-  <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
-  <string name="collection_header_pictures">تصاویر</string>
-  <string name="collection_header_files">فایل‌ها</string>
-  <string name="collection_header_links">لینک‌ها</string>
-  <string name="collection_header_today">امروز</string>
-  <string name="collection_header_yesterday">دیروز</string>
-  <string name="collection_empty">موردی در مجموعه موجود نیست</string>
-  <string name="collection_all">نمایش همه %1$s</string>
-  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_search_hint">ارسال به&#8230;</string>
-  <string name="search__box__hint_text">جستجوی پیام های متنی</string>
-  <string name="search__no_results">نتیجه‌ای یافت نشد.</string>
-  <!-- Conversation List -->
-  <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s message</item>
-    <item quantity="other">%1$s messages</item>
-  </plurals>
-  <plurals name="conversation_list__pings_count">
-    <item quantity="one">%1$s پینگ</item>
-    <item quantity="other">%1$s پینگ ها</item>
-  </plurals>
-  <plurals name="conversation_list__new_likes_count">
-    <item quantity="one">%1$s ♥</item>
-    <item quantity="other">%1$s ♥</item>
-  </plurals>
-  <plurals name="conversation_list__missed_calls_plural">
-    <item quantity="one">%1$s تماس از دست رفته</item>
-    <item quantity="other">%1$s تماس های از دست رفته</item>
-  </plurals>
-  <string name="conversation_list__missed_calls_count">تماس از دست رفته</string>
-  <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
-  <plurals name="conversation_list__mentions_count">
-    <item quantity="one">%1$s mention</item>
-    <item quantity="other">%1$s mentions</item>
-  </plurals>
-  <string name="conversation_list__unsent_message_long">⚠ پیام ارسال نشده</string>
-  <string name="conversation_list__unsent_message_short">⚠</string>
-  <string name="conversation_list__shared__image">یک عکس به‌اشتراک گذاشت</string>
-  <string name="conversation_list__shared__file">فایلی به اشتراک گذاشت</string>
-  <string name="conversation_list__shared__video">ویدیویی به اشتراک گذاشت</string>
-  <string name="conversation_list__shared__audio">پیام صوتی را به اشتراک گذاشت</string>
-  <string name="conversation_list__shared__location">موقعیت جغرافیایی خود را به اشتراک گذاشت</string>
-  <string name="conversation_list__missed_call">تماس از دست رفته</string>
-  <string name="conversation_list__pinged">صدا زد</string>
-  <string name="conversation_list__ephemeral">Someone sent a message</string>
-  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
-  <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
-  <string name="conversation_list__typing">در حال نوشتن پیام&#8230;</string>
-  <string name="conversation_list__someone">شخصی</string>
-  <string name="conversation_list__added">[[%1$s]] افزوده شد</string>
-  <string name="conversation_list__added_you">[[%1$s]] شما را اضافه کرد</string>
-  <string name="conversation_list__left_you">شما ترک کردید</string>
-  <string name="conversation_list__removed_you">[[%1$s]] شما را حذف کرد</string>
-  <string name="conversation_list__header__title">مکالمات</string>
-  <string name="conversation_list__header__archive_title">آرشیو</string>
-  <string name="guest_indicator">مهمان</string>
-  <string name="participant_tab_guest_indicator_label">مهمان</string>
-  <string name="availability_none">هیچ‌کدام</string>
-  <string name="availability_available">در دسترس</string>
-  <string name="availability_away">خارج از دسترس</string>
-  <string name="availability_busy">مشغول</string>
-  <string name="availability_text_available">%1$s در دسترس است</string>
-  <string name="availability_text_away">%1$s خارج از دسترس است</string>
-  <string name="availability_text_busy">%1$s مشغول است</string>
-  <string name="availability_setstatus">تنظیم وضعیت</string>
-  <string name="preferences_profile_new">حساب کاربری یا تیم جدید</string>
-  <string name="preferences_profile_add_account">افزودن حساب کاربری</string>
-  <string name="preferences_profile_create_team">ایجاد یک تیم</string>
-  <string name="preferences_profile_in_team">در %1$s</string>
-  <string name="new_devices_dialog_title">شما یک دستگاه دیگر را به حساب وایر خود متصل کردید</string>
-  <string name="new_devices_dialog_info">اگر شما این کار را انجام ندادید. دستگاه را حذف کنید و رمزعبور را تغییر دهید.</string>
-  <string name="new_devices_dialog_manage_devices">مدیریت دستگاه‌ها</string>
-  <string name="teams_set_email_title">حساب کاربری شما</string>
-  <string name="teams_set_email_subtitle">آدرس ایمیل کار خود را وارد کنید.</string>
-  <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
-  <string name="teams_set_email_about">بیشتر بدانید</string>
-  <string name="teams_set_password_title">رمز عبور را تنظیم کنید</string>
-  <string name="teams_set_password_hint">حداقل دارای ۸ حرف باشه</string>
-  <string name="teams_set_username_title">نام کاربری را تنظیم کنید</string>
-  <string name="teams_set_username_hint">نام کاربری</string>
-  <string name="teams_set_team_name_title">نام تیم شما</string>
-  <string name="teams_set_team_name_subtitle">شما همیشه می‌توانید آن را بعدا تغییر دهید.</string>
-  <string name="teams_set_team_name_hint">نام تیم</string>
-  <string name="teams_set_team_name_about">WHAT IS WIRE FOR TEAMS?</string>
-  <string name="teams_verify_email_title">شما ایمیل دریافت کردید</string>
-  <string name="teams_verify_email_subtitle">کد تاییدیه که ما برای %1$s پیامک کردیم را وارد کنید.</string>
-  <string name="teams_verify_email_resend">ارسال مجدد کد</string>
-  <string name="teams_verify_email_change">تغییر ایمیل</string>
-  <string name="teams_set_name_title">نام شما</string>
-  <string name="teams_set_name_hint">نام کامل</string>
-  <string name="app_entry_create_account">شخصی</string>
-  <string name="app_entry_create_account_sub">create an account</string>
-  <string name="app_entry_create_team">Pro</string>
-  <string name="app_entry_create_team_sub">create a team</string>
-  <string name="app_entry_login_sub">در حال حاضر شما یک حساب کاربری دارید؟</string>
-  <string name="app_entry_login">وارد شوید</string>
-  <string name="app_entry_tc_dialog_title">شرایط استفاده از خدمات</string>
-  <string name="app_entry_tc_dialog_message">شما باید قبول کنید که ادامه یابد</string>
-  <string name="app_entry_notifications_dialog_title">آگاه‌سازی‌ها</string>
-  <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
-  <string name="app_entry_dialog_accept">قبول کردن تماس</string>
-  <string name="app_entry_dialog_cancel">لغو</string>
-  <string name="app_entry_dialog_log_in">وارد شدن</string>
-  <string name="app_entry_dialog_no_thanks">NO, THANKS</string>
-  <string name="app_entry_dialog_not_now">NOT NOW</string>
-  <string name="app_entry_dialog_view">VIEW</string>
-  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
-  <string name="app_entry_email_sent">ایمیل فرستاده شد</string>
-  <string name="teams_set_username_subtitle">نام‌های کاربری به افراد دیگر کمک می‌کند تا شما را پیدا کنند.</string>
-  <string name="app_entry_sso_dialog_title">Company login</string>
-  <string name="app_entry_sso_dialog_message">Enter the company SSO access code.</string>
-  <string name="app_entry_sso_input_hint"></string>
-  <string name="pick_user_teams_invite">Invite people to join the team</string>
-  <string name="teams_invitations_skip">SKIP</string>
-  <string name="teams_invitations_done">DONE</string>
-  <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
-  <string name="teams_invitations_error_already_sent">Already sent</string>
-  <string name="teams_invitations_error_generic">یک خطای ناگهانی رخ داد، لطفا دوباره امتحان کنی</string>
-  <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
-  <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
-  <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
-  <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
-  <string name="invitation_screen_title">تیم خود را بسازید</string>
-  <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
-  <string name="open_service_conversation_button_text">بار کردن گفتگو</string>
-  <string name="remove_service_button_text">Remove Service</string>
-  <string name="integrations_create_conversation">Create a new conversation</string>
-  <string name="no_matches_found">No matches found</string>
-  <string name="loading_services">Loading services&#8230;</string>
-  <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
-  <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
-  <string name="create_group_conversation">ایجاد گروه</string>
-  <string name="create_guest_room_conversation">Create guest room</string>
-  <string name="manage_services">Manage Services</string>
-  <string name="next_button">NEXT</string>
-  <string name="skip_button">SKIP</string>
-  <string name="done_button">DONE</string>
-  <string name="new_group_header">ایجاد گروه</string>
-  <string name="add_participants_empty_header">ADD PARTICIPANTS</string>
-  <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
-  <string name="new_conv_no_results">No results</string>
-  <string name="new_conv_no_contacts">No contacts</string>
-  <string name="participants_divider_services">SERVICES (%1$s)</string>
-  <string name="participants_divider_people">PEOPLE (%1$s)</string>
-  <string name="group_name_hint">GROUP NAME</string>
-  <string name="allow_guests_toggle_text">Allow guests and services</string>
-  <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
-  <string name="allow_guests">Allow guests and services</string>
-  <string name="guest_options_title">Guests and services</string>
-  <string name="ephemeral_options_title">Timed messages</string>
-  <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
-  <string name="show_all_participants">Show all (%1$s)</string>
-  <string name="allow_guests_error_title">یک مشکلی بوجود آمده است</string>
-  <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
-  <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
-  <string name="allow_guests_warning_confirm">حذف</string>
-  <string name="guests_are_present">GUESTS ARE PRESENT</string>
-  <string name="services_are_present">SERVICES ARE ACTIVE</string>
-  <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
-  <string name="participants_details_header_title">DETAILS</string>
-  <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
-  <string name="create_link_button">Create Link</string>
-  <string name="copy_link_button">Copy Link</string>
-  <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link&#8230;</string>
-  <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
-  <string name="link_copied_toast">Link Copied!</string>
-  <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
-  <string name="revoke_link_confirm">Revoke Link</string>
-  <string name="invite_button_description">People outside your team can join this conversation.</string>
-  <string name="invite_people">دعوت دوستان</string>
-  <string name="guest_room_name">Guest room</string>
-  <string name="guest_time_left_hours">%1$sh left</string>
-  <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
-  <string name="guest_time_left_minutes">Less than %1$sm left</string>
-  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+    <!-- Support -->
+    <string name="pref_support_screen_title">پشتیبانی</string>
+    <string name="pref_support_website_title">پشتیبانی در وب‌سایت Wire</string>
+    <string name="pref_support_contact_title">با پشتیبانی تماس بگیرید</string>
+    <!-- About -->
+    <string name="pref_about_screen_title">درباره</string>
+    <string name="pref_about_website_title">وب‌سایت Wire</string>
+    <string name="pref_about_tos_title">شرایط و مقررات استفاده</string>
+    <string name="pref_about_privacy_policy_title">سیاست حفظ از حریم خصوصی</string>
+    <string name="pref_about_licenses_title">اطلاعات مجوز</string>
+    <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
+    <string name="pref_about_version_title">نسخه‌ %s</string>
+    <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
+    <!-- Pref invite -->
+    <string name="pref_invite_title">دوستانتان را برای پیوستن به وایر دعوت کنید</string>
+    <!-- Preference Account Actions -->
+    <string name="pref__account_action__phone_verification__title">تایید کردن شماره تلفن</string>
+    <string name="pref__account_action__phone_verification__description">کد تاییدیه که ما برای %s پیامک کردیم را وارد کنید</string>
+    <string name="pref__account_action__phone_verification__code">کد</string>
+    <string name="pref__account_action__phone_verification__question">هیچ کدی دریافت نشد؟</string>
+    <string name="pref__account_action__phone_verification__resend"><u>دوباره بفرست</u></string>
+    <string name="pref__account_action__phone_verification__change"><u>تغییر دادن شماره تلفن</u></string>
+    <string name="pref__account_action__email_verification__title">تایید کردن ایمیل آدرس</string>
+    <string name="pref__account_action__email_verification__description">صندوق ایمیل خود را بررسی و دستورالعمل‌های داخل ایمیل را دنبال کنید.</string>
+    <string name="pref__account_action__email_verification__question">هیچ ایمیلی دریافت نکردین؟</string>
+    <string name="pref__account_action__email_verification__resend">&lt;u&gt;دوباره بفرست به %s&lt;/u&gt;</string>
+    <string name="pref__account_action__email_verification__change"><u>تغییر ایمیل آدرس</u></string>
+    <string name="pref__account_action__dialog__add_email_password__password">پسورد</string>
+    <string name="pref__account_action__dialog__add_email_password__email">ایمیل</string>
+    <string name="pref__account_action__dialog__add_email_password__title">اضافه کردن ایمیل آدرس</string>
+    <string name="pref__account_action__dialog__add_email_password__error__invalid_email">ایمیل آدرس معتبر نیست</string>
+    <string name="pref__account_action__dialog__add_email_password__error__invalid_password">حداقل دارای ۸ حرف باشد</string>
+    <string name="pref__account_action__dialog__edit_phone__title">ویرایش شماره تلفن</string>
+    <string name="pref__account_action__dialog__add_phone__title">اضافه کردن شماره تلفن</string>
+    <string name="pref__account_action__dialog__add_phone__error__country">پیش‌شماره کشور معتبر نیست</string>
+    <string name="pref__account_action__dialog__add_phone__error__number">شماره تلفن معتبر نیست</string>
+    <string name="pref__account_action__dialog__add_phone__confirm__title">شماره تلفن را تایید کنید</string>
+    <string name="pref__account_action__dialog__add_phone__confirm__message">ما یک اعلان برای شماره \n%s ارسال می‌کنیم</string>
+    <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">حذف</string>
+    <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">آیا شما مطمئنید که میخواهید %s را از اکانت وایر خود حذف کنید?</string>
+    <string name="pref__account_action__dialog__delete_phone__error">ناتوان از حذف شماره موبایل</string>
+    <string name="pref__account_action__dialog__change_email__title">ویرایش ایمیل آدرس</string>
+    <string name="pref__account_action__dialog__change_username__rules">حداق 2 کاراکتر. فقط حروف a تا z, ارقام 0 تا 9، و _ مورد قبول میباشد</string>
+    <string name="pref__account_action__dialog__change_username__title">نام کاربری</string>
+    <string name="pref__account_action__dialog__change_username__error_already_taken">در حال حاضر موجود نیست</string>
+    <string name="pref__account_action__dialog__change_username__error_unknown">خطای اتصال، لطفا دوباره تلاش کنید</string>
+    <!-- No Internet connection -->
+    <string name="system_status__no_internet">اینترنت قطع است</string>
+    <!-- SHARING -->
+    <string name="alert_dialog__confirmation">تایید</string>
+    <string name="alert_dialog__no_network__header">اینترنت قطع است</string>
+    <string name="sign_up__set_picture__choose">انتخاب عکس از گالری</string>
+    <string name="sign_up__set_picture__keep">همین رو نگه دار</string>
+    <string name="sign_up__set_picture__guidance">Wire با عکس، زیباتر خواهد شد.</string>
+    <string name="sign_up__set_picture__loading">درحال بارگذاری عکس</string>
+    <string name="leave_conversation_failed__message">برای اینکه از یک گفتگو خارج شوید، ابتدا شما باید آنلاین باشید. لطفا وضعیت اینترنت خود را بررسی کنید.</string>
+    <string name="remove_from_conversation__no_network__message">برای حذف کاربری از گفتگو، شما ابتدا باید آنلاین باشید. لطفا وضعیت اینترنت خود را بررسی کنید.</string>
+    <string name="calling__call_drop__message">برای برقراری تماس شما نیاز دارید که ابتدا آنلاین باشید. لطفا وضعیت اینترنت خود را بررسی کنید.</string>
+    <!-- Lockscreen and notifications -->
+    <string name="message_notifications_channel_name">Messages</string>
+    <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
+    <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+    <string name="ping_notifications_channel_name">Pings</string>
+    <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
+    <string name="ongoing_channel_name">Background notifications</string>
+    <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
+    <string name="foreground_service_notification_name">Maintain connection to server</string>
+    <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
+    <plurals name="notification__new_messages__multiple">
+        <item quantity="one">پیامی در %2$s گفتگو</item>
+        <item quantity="other">%1$d پیام در %2$s گفتگو</item>
+    </plurals>
+    <!-- %1$s == username, %2$s == conversation -->
+    <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
+    <string name="notification__message__group__prefix__text">%1$s در %2$s: \u0020</string>
+    <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+    <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text_one2one">Reply: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">Reply from %1$s: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">Reply from %1$s in %2$s: \u0020</string>
+    <string name="notification__message__one_to_one__wanted_to_talk">زنگ زد</string>
+    <string name="notification__message__one_to_one__pinged">صدا زد</string>
+    <string name="notification__message__one_to_one__shared_picture">یک عکس به‌اشتراک گذاشت</string>
+    <string name="notification__message__one_to_one__shared_file">فایلی به اشتراک گذاشت</string>
+    <string name="notification__message__one_to_one__shared_video">ویدیویی به اشتراک گذاشت</string>
+    <string name="notification__message__one_to_one__shared_audio">پیام صوتی را به اشتراک گذاشت</string>
+    <string name="notification__message__one_to_one__shared_location">موقعیت جغرافیایی خود را به اشتراک گذاشت</string>
+    <!-- %1$s == username, %2$s == conversation -->
+    <string name="notification__message__group__prefix__other">%1$s در %2$s \u0020</string>
+    <string name="notification__message__group__renamed_conversation">نام اتاق گفتگو را به %1$s تغییر داد</string>
+    <string name="notification__message__group__add">افراد دیگر را به این گفتگو اضافه شدند</string>
+    <string name="notification__message__group__remove">حذف افراد از این گروه</string>
+    <string name="notification__message__single__accept_request">شما و %1$s اکنون متصل شده اید</string>
+    <string name="notification__message__group__default_conversation_name">گفتگوی گروهی</string>
+    <string name="notification__message__send_failed">پیام فرستاده نشد</string>
+    <string name="notification__message__ephemeral">Sent a message</string>
+    <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
+    <string name="notification__message_with_quote__ephemeral">Replied to you</string>
+    <string name="notification__message__liked">\u2764 ‘%1$s’</string>
+    <string name="notification__message__liked_message">\"\u2764 شما را پسندید.\"</string>
+    <string name="notification__message__liked_picture">\u2764 عکس شما</string>
+    <!-- ephemeral -->
+    <string name="notification__message__ephemeral_someone">شخصی</string>
+    <plurals name="notification__message__ephemeral">
+        <item quantity="one">کسی برای شما پیام ارسال کرده</item>
+        <item quantity="other">کسی برای شما %1$d پیام ارسال کرده</item>
+    </plurals>
+    <string name="other_set_message_timer">[[%1$s]] set the message timer to [[%2$s]]</string>
+    <string name="you_set_message_timer">[[You]] set the message timer to [[%1$s]]</string>
+    <string name="other_turned_off_message_timer">[[%1$s]] turned off the message timer</string>
+    <string name="you_turned_off_message_timer">[[You]] turned off the message timer</string>
+    <!-- Others -->
+    <string name="app_name">Wire وایر</string>
+    <string name="content__system__item_separator">,</string>
+    <string name="content__system__last_item_separator">و</string>
+    <string name="content__system__you">شما</string>
+    <plurals name="content__system__other_members">
+        <item quantity="one">%1$s other</item>
+        <item quantity="other">%1$s others</item>
+    </plurals>
+    <!-- System notifications -->
+    <string name="system_notification__silence_call">رد کن</string>
+    <string name="system_notification__join_call">میپذیرم</string>
+    <string name="system_notification__leave_call">قطع کردن تماس</string>
+    <string name="system_notification__calling_one">در حال برقراری تماس ...</string>
+    <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
+    <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
+    <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
+    <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
+    <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
+    <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+    <string name="ws_foreground_notification_summary">Tap here for more information.</string>
+    <!-- Notification actions -->
+    <string name="notification__action__call">تماس</string>
+    <string name="notification__action__reply">جواب</string>
+    <!-- Quick reply -->
+    <string name="quick_reply__counter">%1$d از %2$d</string>
+    <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
+    <string name="quick_reply__open_wire">Wire را باز کنید</string>
+    <!-- Save image notification -->
+    <string name="notification__image_saving__content__title">Wire تصویر ذخیره شد.</string>
+    <string name="notification__image_saving__content__subtitle">برای نمایش لمس کنید.</string>
+    <string name="notification__image_saving__action__share">به‌اشتراک بگذارید</string>
+    <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
+    <dimen name="notification__image_saving__image_width">512dp</dimen>
+    <!-- forced update -->
+    <string name="forced_update__header">بروزرسانی مهم</string>
+    <string name="forced_update__sub_header">لطفا آخرین نسخه اپلیکیشن Wire را نصب کنید.</string>
+    <string name="forced_update__download_button">دانلود</string>
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- Sharing -->
+    <string name="sharing__image_preview__confirm_action">بفرست</string>
+    <string name="sharing__user_not_logged_in__dialog__title">لطفا ابتدا وارد شوید</string>
+    <string name="sharing__user_not_logged_in__dialog__message">Wire را باز کنید، وارد شوید و با دیگران به‌اشتراک بگذارید.</string>
+    <string name="sharing__user_not_logged_in__dialog__confirm">تایید</string>
+    <!-- Sync errors -->
+    <string name="in_app_notification__sync_error__create_group_convo__title">خطا در ایجاد گروه</string>
+    <string name="in_app_notification__sync_error__create_group_convo__body">امکان ایجاد گفتگو با %1$s فراهم نیست</string>
+    <string name="in_app_notification__sync_error__add_user__body">%1$s تمایلی به اضافه شدن به این گفتگو ندارد.</string>
+    <string name="in_app_notification__sync_error__add_multiple_user__body">یکی از کسانی که شما انتخاب کردید، تمایلی ندارد به مکالمه اضافه شود.</string>
+    <string name="in_app_notification__sync_error__unknown__body">یک خطای ناگهانی رخ داد. لطفا دوباره امتحان کنید.</string>
+    <string name="in_app_notification__sync_error__create_convo__button">ادامه</string>
+    <!--Timestamp formatting -->
+    <string name="timestamp__just_now">همین الان</string>
+    <plurals name="timestamp__x_minutes_ago">
+        <item quantity="one">%1$d دقیقه پیش</item>
+        <item quantity="other">%1$d دقیقه پیش</item>
+    </plurals>
+    <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
+    <!-- Example: FRIDAY, MAR 9, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__no_year">EEE, MMM d, %1$s</string>
+    <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__with_year">EEE, MMM d, YYYY, %1$s</string>
+    <!-- Example: MAR 9, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__no_year_no_weekday">MMM d, %1$s</string>
+    <!-- Example: MAR 9, 2015, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, YYYY, %1$s</string>
+    <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
+    <!-- MONDAY -->
+    <!-- MARCH 2 -->
+    <!-- MARCH 2, 2015 -->
+    <!-- 23:15 -->
+    <string name="timestamp_pattern__24h_format">HH:mm</string>
+    <string name="timestamp_pattern__12h_format">hh:mm a</string>
+    <string name="country">کشور</string>
+    <string name="register">ثبت نام</string>
+    <string name="password_placeholder">پسورد</string>
+    <string name="email_placeholder">ایمیل</string>
+    <string name="name_placeholder">نام</string>
+    <!-- Strings -->
+    <string name="edit_phone_number">ویرایش شماره تلفن</string>
+    <string name="i_have_an_account">وارد شدن</string>
+    <plurals name="welcome__resend__timer_label">
+        <item quantity="one">شما می‌توانید کد جدید را در %1$d ثانیه درخواست بدهید</item>
+        <item quantity="other">شما می‌توانید کد جدید را در %1$d ثانیه درخواست بدهید</item>
+    </plurals>
+    <string name="welcome__resend__manual">دوباره ارسال کن</string>
+    <string name="welcome__resend__callme">دوباره با من تماس بگیر</string>
+    <string name="activation_code_info_manual">اطلاعات روبرو را ملاحظه کنید. ما یک کد تاییدیه ارسال کردیم، لطفا آن‌را اینجا برای ما وارد کنید. \n&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="enter_name">ما شما را چی صدا بزنیم؟</string>
+    <string name="enter_name_hint">نام کامل خود را وارد کنید</string>
+    <string name="new_reg__password__forgot">رمزعبور را فراوش کرده‌اید؟</string>
+    <string name="phone_sign_in">تلفن</string>
+    <string name="email_sign_in">ایمیل</string>
+    <string name="edit_email">ویرایش ایمیل</string>
+    <string name="hello">سلام، &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="sign_in">وارد شدن</string>
+    <string name="new_reg__password_length">حداقل %1$s کاراکتر</string>
+    <string name="username__set__toast_error">خطا در بروز رسانی نام کاربری</string>
+    <!-- Giphy -->
+    <string name="giphy_preview__search_hint">جستجو در Giphy</string>
+    <string name="giphy_preview__error">هیچ تصویر متحرکی پیدا نشد.</string>
+    <string name="giphy_preview__message_via_random_trending">Via giphy.com</string>
+    <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
+    <string name="service_giphy_name">Giphy</string>
+    <!--Sketch-->
+    <string name="drawing__tip__picture__message">روی رنگ‌ها لمس کنید تا بتوانید اندازه قلم را تغییر دهد.\n\n گوشی را تکان دهید تا عکس حذف شود.</string>
+    <string name="drawing__tip__message">روی رنگ‌ها لمس کنید تا بتوانید اندازه قلم را تغییر دهد.\n\n یکجا نگه‌ دارید تا محدوده خالی پر شود.</string>
+    <string name="sketch__emoji_keyboard__size_label__small">کوچیک</string>
+    <string name="sketch__emoji_keyboard__size_label__medium">معمولی</string>
+    <string name="sketch__emoji_keyboard__size_label__large">بزرگ</string>
+    <string name="toolbar__sketch__action_close">بستن</string>
+    <string name="drawing__text_hint">یک پیام بنویسید</string>
+    <!-- Location sharing -->
+    <string name="location_sharing__tip">روی نقشه می‌توانید موقعیت جغرافیایی خود را جابجا کنید</string>
+    <string name="location_sharing__permission_error">متاسفانه قادر به تشخیص موقعیت مکانی هم‌اکنون شما نیست. دسترسی امکان پذیر نیست.</string>
+    <string name="location_sharing__send_button">بفرست</string>
+    <string name="location_sharing__enable_system_location__title">استفاده از موقعیت مکانی؟</string>
+    <string name="location_sharing__enable_system_location__message">فعال کردن موقعیت مکانی در تنظیمات برای نمایش موقعیت فعلی</string>
+    <string name="location_sharing__enable_system_location__confirm">تنظیمات</string>
+    <string name="location_sharing__enable_system_location__cancel">انصراف</string>
+    <string name="location_sharing__missing_play_services">سرویس گوگل برای به‌اشتراک گذاشتن موقعیت مکانی شما لازم است</string>
+    <!-- From SyncEngine -->
+    <string name="new_reg__phone_signup__create_account">ایجاد یک حساب کاربری جدید</string>
+    <!-- OTR -->
+    <string name="otr__remove_device__title">حذف %1$s</string>
+    <string name="otr__remove_device__message">رمزعبوری انتخاب کنید</string>
+    <string name="otr__remove_device__default">دستگاه</string>
+    <string name="otr__remove_device__button_delete">تایید</string>
+    <string name="otr__remove_device__button_cancel">انصراف</string>
+    <string name="otr__remove_device__error">رمزعبور اشتباه است</string>
+    <string name="otr__error_dialog__cannot_register__message">یکی از دستگاه‌هایی که Wire را در آن فعال دارید را حذف کنید تا بتوانید از این دستگاه استفاده کنید.</string>
+    <string name="otr__error_dialog__cannot_register__manage_devices_button">مدیریت دستگاه‌ها</string>
+    <string name="otr__error_dialog__cannot_register__log_out_button">خروج</string>
+    <!-- OTR Participants -->
+    <string name="otr__participant__device_header">Wire به هر دستگاه یک اثرانگشت الکترونیکی می‌دهد. این را با %1$s مقایسه و گفتگوی امن را تایید کنید.</string>
+    <string name="otr__participant__device_header__no_devices">%1$s درحال استفاده از نسخه قدیمی از Wire است. هیچ دستگاهی برای نمایش وجود ندارد.</string>
+    <string name="otr__participant__device_header__link_text">_چرا مکالمه‌های خود را تایید کنیم؟_</string>
+    <string name="otr__participant__device_class__unknown">ناشناخته</string>
+    <string name="otr__participant__device_class__phone">تلفن</string>
+    <string name="otr__participant__device_class__tablet">تبلت</string>
+    <string name="otr__participant__device_class__desktop">کامپیوتر</string>
+    <string name="otr__participant__tab_details">جزئیات</string>
+    <string name="otr__participant__tab_devices">دستگاه‌ها</string>
+    <string name="otr__participant__single_device__my_fingerprint_link">اثرانگشت دستگاه من را نشان بده</string>
+    <string name="otr__participant__single_device__reset_session_link">راه اندازی مجدد جلسه</string>
+    <string name="otr__participant__my_device__description">اثرانگشت دستگاه شما</string>
+    <string name="otr__participant__my_device__show_all_devices_link">نمایش تمام دستگاه‌های من</string>
+    <string name="otr__participant__single_device__description">بررسی کن که این اثر انگشت با اثر انگشت دستگاه %1$s یکی است.</string>
+    <string name="otr__participant__single_device__how_to_link">_چطوری این کار را انجام بدم؟_</string>
+    <string name="otr__device_id">ID: %s</string>
+    <string name="otr__first_launch__header">این برای بار اول است که شما از Wire روی این دستگاه استفاده می‌کنید.</string>
+    <string name="otr__first_launch__sub_header">بدلیل حفط حریم خصوصی، تاریخچه گفتگوی شما اینجا نمایش داده نخواهد شد.</string>
+    <string name="otr__first_launch__button">تایید</string>
+    <string name="otr__signin__info_text">وارد شوید</string>
+    <string name="otr__reset_session__message_ok">session از ابتدا راه اندازی شد</string>
+    <string name="otr__reset_session__message_fail">امکان راه اندازی مجدد session وجود ندارد</string>
+    <string name="otr__reset_session__button_ok">تایید</string>
+    <string name="otr__reset_session__button_fail">دوباره امتحان کنید</string>
+    <string name="advanced_image_download_wifi_info">زمانیکه دوباره به Wi-Fi متصل شوید، تصویر نشان داده میشود</string>
+    <string name="change_settings">تغییر تنظیمات</string>
+    <string name="conversation_list__action_join_call">عضویت</string>
+    <!-- Conversation Toolbar -->
+    <string name="conversation_toolbar__collection">مجموعه</string>
+    <string name="conversation_toolbar__call_video">تماس ویدیویی</string>
+    <string name="conversation_toolbar__call_audio">تماس صوتی</string>
+    <!-- Asset upload errors -->
+    <string name="asset_upload_error__not_found__title">فایلی پیدا نشد</string>
+    <string name="asset_upload_error__not_found__message">فایل ارسال شده قابل بازیابی نیست</string>
+    <string name="asset_upload_error__not_found__button">تایید</string>
+    <string name="asset_upload_error__file_too_large__title">حجم فایل مورد نظر زیاد است</string>
+    <string name="asset_upload_error__file_too_large__message_default">آپلود و ارسال فایل با حجم زیاد مقدور نیست.</string>
+    <string name="asset_upload_error__file_too_large__message">شما امکان ارسال فایل تا سقف %1$s را دارید.</string>
+    <string name="asset_upload_error__file_too_large__button">تایید</string>
+    <string name="asset_upload_warning__large_file__title">شما به Wi-Fi متصل نیستید</string>
+    <string name="asset_upload_warning__large_file__message_default">آیا شما مطمئن هستید شما می‌خواهید این فایل سنگین را از طریق اینترنت سیم‌کارت خود ارسال کنید؟</string>
+    <string name="asset_upload_warning__large_file__message">آیا شما مطمئن هستید که می‌خواهید %1$s را از طریق اینترنت سیم‌کارت خود ارسال کنید؟</string>
+    <!-- Video message errors -->
+    <string name="audio_message_error__missing_audio_permissions">برای ارسال پیام صوتی، دسترسی به میکروفن الزامی است.</string>
+    <!-- Audio bit rate mode -->
+    <string name="audio_message__constant_bit_rate">نرخ بیت ثابت</string>
+    <!-- no contacts -->
+    <string name="no_conversation_in_list__header">هیچ گفتگویی وجود ندارد</string>
+    <string name="all_archived__header">همه چیز بایگانی شده</string>
+    <string name="no_conversation_in_list__message">یک مکالمه را شروع کنید یا یک گروه ایجاد کنید.</string>
+    <string name="cursor__type_a_message">یک پیام بنویسید</string>
+    <string name="cursor__ephemeral_message">پیام موقت</string>
+    <string name="tooltip_record">یک ویدیو ضبط کنید</string>
+    <string name="tooltip_camera">یک تصویر اضافه کنید</string>
+    <string name="tooltip_sketch">یک نقاشی بکشید</string>
+    <string name="tooltip_ping">Ping</string>
+    <string name="tooltip_emoji">شکلک</string>
+    <string name="tooltip_location">موقعیت جغرافیایی</string>
+    <string name="tooltip_more">اقدامات بیشتر</string>
+    <string name="tooltip_audio_message">اینجا را نگه دارید تا بتونید یک پیام صوتی را ضبط و ارسال کنید</string>
+    <string name="tooltip_file">ارسال فایل</string>
+    <string name="tooltip_gif">Gif</string>
+    <string name="tooltip_mention">Add Mention</string>
+    <!-- Delete -->
+    <string name="conversation__message_action__delete_for_me">فقط برای خودم حذف بشه؟</string>
+    <string name="conversation__message_action__delete_for_everyone">از دستگاه‌های دوستانم حذف بشه؟</string>
+    <string name="conversation__message_action__delete_details">این کار قابل بازگشت نیست.</string>
+    <string name="conversation__message_action__delete__dialog__cancel">انصراف</string>
+    <string name="conversation__message_action__delete__dialog__ok">حذف</string>
+    <string name="conversation__message_action__delete__confirmation">پیام حذف شد</string>
+    <string name="conversation__action_mode__copy__description">پیامی از %1$s</string>
+    <string name="conversation__action_mode__copy__toast">کپی شد</string>
+    <string name="conversation__action_mode__fwd__dialog__title">درحال پردازش محتویات</string>
+    <string name="conversation__action_mode__fwd__dialog__message">لطفا کمی صبر کنید...</string>
+    <string name="conversation__action_mode__fwd__chooser__title">به اشتراک گذاشتن با</string>
+    <!-- video message preview -->
+    <string name="audio_message__recording__slide_control__slide_hint">دستتون رو بردارید تا قبل ارسال گوش بدین</string>
+    <string name="audio_message__recording__slide_control__tap_hint">بفرست</string>
+    <string name="audio_message__recording__tap_to_record">برای ضبط اینجا رو تاچ کنید.\n سپس قادر به _GLYPH_ آن خواهید بود</string>
+    <string name="audio_message__recording__failure__title">امکان ضبط صدا نیست</string>
+    <string name="audio_message__recording__failure__message">لطفا دوباره امتحان کنید.</string>
+    <string name="audio_message__recording__limit_reached__title">ضبط متوقف شد</string>
+    <string name="audio_message__recording__limit_reached__message">پیام‌های صوتی محدود به ۲۵ مگابایت هستند. این پیام رو بفرستم؟</string>
+    <string name="audio_message__recording__limit_reached__confirmation">بفرست</string>
+    <string name="hint_change_filter">فیلتر بالا را تغییر دهید</string>
+    <string name="message_bottom_menu_action_forward">به‌اشتراک بگذارید</string>
+    <string name="message_bottom_menu_action_copy">کپی</string>
+    <string name="message_bottom_menu_action_edit">ویرایش</string>
+    <string name="message_bottom_menu_action_like">می‌پسندم</string>
+    <string name="message_bottom_menu_action_unlike">نمی‌پسندم</string>
+    <string name="message_bottom_menu_action_save">ذخيره</string>
+    <string name="message_bottom_menu_action_open">باز کردن</string>
+    <string name="message_bottom_menu_action_delete">حذف</string>
+    <string name="message_bottom_menu_action_delete_local">تنها برای من حذف کن</string>
+    <string name="message_bottom_menu_action_delete_global">از دستگاه‌های دوستانم حذف کن</string>
+    <string name="message_bottom_menu_action_reveal">آشکار کردن در مکالمه</string>
+    <string name="message_bottom_menu_action_reply">جواب</string>
+    <string name="likes_list__header">پسندیده شده توسط</string>
+    <string name="message_bottom_menu_action_save_ok">تصویر ذخیره شد</string>
+    <string name="message_footer__tap_to_like">برای پسندیدن دوبار اینجا را لمس کنید</string>
+    <plurals name="message_footer__number_of_likes">
+        <item quantity="one">%1$d فرد</item>
+        <item quantity="other">%1$d فرد</item>
+    </plurals>
+    <string name="message_footer__status__sending">در حال ارسال&#8230;</string>
+    <string name="message_footer__status__sent">%1$s \u30FB ارسال شد</string>
+    <string name="message_footer__status__delivered">%1$s \u30FB دریافت شد</string>
+    <string name="message_footer__status__failed">خطایی رخ داد _دوباره بفرست_</string>
+    <string name="message_footer__status__deleted">%1$s \u30FB حذف شد</string>
+    <string name="ephemeral_message__timeout_selection_info">تنظیم زمان برای ناپدید شدن پیام موقت</string>
+    <string name="usernames__take_over__summary">نام منحصر به فرد خود را در وایر بردارید. _ آگاهی بیشتر._</string>
+    <string name="usernames__take_over__choose">خود را انتخاب کنید</string>
+    <string name="usernames__take_over__keep">این را نگه داشتن</string>
+    <string name="ephemeral_message__timeout__off">خاموش</string>
+    <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
+    <string name="guests_option_on">On</string>
+    <plurals name="unit_years">
+        <item quantity="one">%1$s year</item>
+        <item quantity="other">%1$s years</item>
+    </plurals>
+    <plurals name="unit_weeks">
+        <item quantity="one">%1$s week</item>
+        <item quantity="other">%1$s weeks</item>
+    </plurals>
+    <plurals name="unit_days">
+        <item quantity="one">%1$s day</item>
+        <item quantity="other">%1$s days</item>
+    </plurals>
+    <plurals name="unit_hours">
+        <item quantity="one">%1$s hour</item>
+        <item quantity="other">%1$s hours</item>
+    </plurals>
+    <plurals name="unit_minutes">
+        <item quantity="one">%1$s minute</item>
+        <item quantity="other">%1$s minutes</item>
+    </plurals>
+    <plurals name="unit_seconds">
+        <item quantity="one">%1$s second</item>
+        <item quantity="other">%1$s seconds</item>
+    </plurals>
+    <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
+    <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
+    <string name="collection_header_pictures">تصاویر</string>
+    <string name="collection_header_files">فایل‌ها</string>
+    <string name="collection_header_links">لینک‌ها</string>
+    <string name="collection_header_today">امروز</string>
+    <string name="collection_header_yesterday">دیروز</string>
+    <string name="collection_empty">موردی در مجموعه موجود نیست</string>
+    <string name="collection_all">نمایش همه %1$s</string>
+    <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+    <string name="multi_share_search_hint">ارسال به&#8230;</string>
+    <string name="search__box__hint_text">جستجوی پیام های متنی</string>
+    <string name="search__no_results">نتیجه‌ای یافت نشد.</string>
+    <!-- Conversation List -->
+    <plurals name="conversation_list__new_message_count">
+        <item quantity="one">%1$s message</item>
+        <item quantity="other">%1$s messages</item>
+    </plurals>
+    <plurals name="conversation_list__pings_count">
+        <item quantity="one">%1$s پینگ</item>
+        <item quantity="other">%1$s پینگ ها</item>
+    </plurals>
+    <plurals name="conversation_list__new_likes_count">
+        <item quantity="one">%1$s ♥</item>
+        <item quantity="other">%1$s ♥</item>
+    </plurals>
+    <plurals name="conversation_list__missed_calls_plural">
+        <item quantity="one">%1$s تماس از دست رفته</item>
+        <item quantity="other">%1$s تماس های از دست رفته</item>
+    </plurals>
+    <string name="conversation_list__missed_calls_count">تماس از دست رفته</string>
+    <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
+    <plurals name="conversation_list__mentions_count">
+        <item quantity="one">%1$s mention</item>
+        <item quantity="other">%1$s mentions</item>
+    </plurals>
+    <plurals name="conversation_list__quotes_count">
+        <item quantity="one">%1$s reply</item>
+        <item quantity="other">%1$s replies</item>
+    </plurals>
+    <string name="conversation_list__unsent_message_long">⚠ پیام ارسال نشده</string>
+    <string name="conversation_list__unsent_message_short">⚠</string>
+    <string name="conversation_list__shared__image">یک عکس به‌اشتراک گذاشت</string>
+    <string name="conversation_list__shared__file">فایلی به اشتراک گذاشت</string>
+    <string name="conversation_list__shared__video">ویدیویی به اشتراک گذاشت</string>
+    <string name="conversation_list__shared__audio">پیام صوتی را به اشتراک گذاشت</string>
+    <string name="conversation_list__shared__location">موقعیت جغرافیایی خود را به اشتراک گذاشت</string>
+    <string name="conversation_list__missed_call">تماس از دست رفته</string>
+    <string name="conversation_list__pinged">صدا زد</string>
+    <string name="conversation_list__ephemeral">Someone sent a message</string>
+    <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
+    <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
+    <string name="conversation_list__single_eph_and_quote">Replied to you</string>
+    <string name="conversation_list__group_eph_and_quote">Someone replied to you</string>
+    <string name="conversation_list__typing">در حال نوشتن پیام&#8230;</string>
+    <string name="conversation_list__someone">شخصی</string>
+    <string name="conversation_list__added">[[%1$s]] افزوده شد</string>
+    <string name="conversation_list__added_you">[[%1$s]] شما را اضافه کرد</string>
+    <string name="conversation_list__left_you">شما ترک کردید</string>
+    <string name="conversation_list__removed_you">[[%1$s]] شما را حذف کرد</string>
+    <string name="conversation_list__header__title">مکالمات</string>
+    <string name="conversation_list__header__archive_title">آرشیو</string>
+    <string name="conversation_list__single_with_quote">Reply: %1$s</string>
+    <string name="conversation_list__group_with_quote">Reply from %1$s: %2$s</string>
+    <string name="conversation_list__single_without_quote">%1$s</string>
+    <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
+    <string name="guest_indicator">مهمان</string>
+    <string name="participant_tab_guest_indicator_label">مهمان</string>
+    <string name="availability_none">هیچ‌کدام</string>
+    <string name="availability_available">در دسترس</string>
+    <string name="availability_away">خارج از دسترس</string>
+    <string name="availability_busy">مشغول</string>
+    <string name="availability_text_available">%1$s در دسترس است</string>
+    <string name="availability_text_away">%1$s خارج از دسترس است</string>
+    <string name="availability_text_busy">%1$s مشغول است</string>
+    <string name="availability_setstatus">تنظیم وضعیت</string>
+    <string name="preferences_profile_new">حساب کاربری یا تیم جدید</string>
+    <string name="preferences_profile_add_account">افزودن حساب کاربری</string>
+    <string name="preferences_profile_create_team">ایجاد یک تیم</string>
+    <string name="preferences_profile_in_team">در %1$s</string>
+    <string name="new_devices_dialog_title">شما یک دستگاه دیگر را به حساب وایر خود متصل کردید</string>
+    <string name="new_devices_dialog_info">اگر شما این کار را انجام ندادید. دستگاه را حذف کنید و رمزعبور را تغییر دهید.</string>
+    <string name="new_devices_dialog_manage_devices">مدیریت دستگاه‌ها</string>
+    <string name="teams_set_email_title">حساب کاربری شما</string>
+    <string name="teams_set_email_subtitle">آدرس ایمیل کار خود را وارد کنید.</string>
+    <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
+    <string name="teams_set_email_about">بیشتر بدانید</string>
+    <string name="teams_set_password_title">رمز عبور را تنظیم کنید</string>
+    <string name="teams_set_password_hint">حداقل دارای ۸ حرف باشه</string>
+    <string name="teams_set_username_title">نام کاربری را تنظیم کنید</string>
+    <string name="teams_set_username_hint">نام کاربری</string>
+    <string name="teams_set_team_name_title">نام تیم شما</string>
+    <string name="teams_set_team_name_subtitle">شما همیشه می‌توانید آن را بعدا تغییر دهید.</string>
+    <string name="teams_set_team_name_hint">نام تیم</string>
+    <string name="teams_set_team_name_about">WHAT IS WIRE FOR TEAMS?</string>
+    <string name="teams_verify_email_title">شما ایمیل دریافت کردید</string>
+    <string name="teams_verify_email_subtitle">کد تاییدیه که ما برای %1$s پیامک کردیم را وارد کنید.</string>
+    <string name="teams_verify_email_resend">ارسال مجدد کد</string>
+    <string name="teams_verify_email_change">تغییر ایمیل</string>
+    <string name="teams_set_name_title">نام شما</string>
+    <string name="teams_set_name_hint">نام کامل</string>
+    <string name="app_entry_create_account">شخصی</string>
+    <string name="app_entry_create_account_sub">create an account</string>
+    <string name="app_entry_create_team">Pro</string>
+    <string name="app_entry_create_team_sub">create a team</string>
+    <string name="app_entry_login_sub">در حال حاضر شما یک حساب کاربری دارید؟</string>
+    <string name="app_entry_login">وارد شوید</string>
+    <string name="app_entry_tc_dialog_title">شرایط استفاده از خدمات</string>
+    <string name="app_entry_tc_dialog_message">شما باید قبول کنید که ادامه یابد</string>
+    <string name="app_entry_notifications_dialog_title">آگاه‌سازی‌ها</string>
+    <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
+    <string name="app_entry_dialog_accept">قبول کردن تماس</string>
+    <string name="app_entry_dialog_cancel">لغو</string>
+    <string name="app_entry_dialog_log_in">وارد شدن</string>
+    <string name="app_entry_dialog_no_thanks">NO, THANKS</string>
+    <string name="app_entry_dialog_not_now">NOT NOW</string>
+    <string name="app_entry_dialog_view">VIEW</string>
+    <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
+    <string name="app_entry_email_sent">ایمیل فرستاده شد</string>
+    <string name="teams_set_username_subtitle">نام‌های کاربری به افراد دیگر کمک می‌کند تا شما را پیدا کنند.</string>
+    <string name="app_entry_sso_dialog_title">Company login</string>
+    <string name="app_entry_sso_dialog_message">Enter the company SSO access code.</string>
+    <string name="app_entry_sso_input_hint"></string>
+    <string name="pick_user_teams_invite">Invite people to join the team</string>
+    <string name="teams_invitations_skip">SKIP</string>
+    <string name="teams_invitations_done">DONE</string>
+    <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
+    <string name="teams_invitations_error_already_sent">Already sent</string>
+    <string name="teams_invitations_error_generic">یک خطای ناگهانی رخ داد، لطفا دوباره امتحان کنی</string>
+    <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
+    <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
+    <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
+    <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
+    <string name="invitation_screen_title">تیم خود را بسازید</string>
+    <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
+    <string name="open_service_conversation_button_text">بار کردن گفتگو</string>
+    <string name="remove_service_button_text">Remove Service</string>
+    <string name="integrations_create_conversation">Create a new conversation</string>
+    <string name="no_matches_found">No matches found</string>
+    <string name="loading_services">Loading services&#8230;</string>
+    <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
+    <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
+    <string name="create_group_conversation">ایجاد گروه</string>
+    <string name="create_guest_room_conversation">Create guest room</string>
+    <string name="manage_services">Manage Services</string>
+    <string name="next_button">NEXT</string>
+    <string name="skip_button">SKIP</string>
+    <string name="done_button">DONE</string>
+    <string name="new_group_header">ایجاد گروه</string>
+    <string name="add_participants_empty_header">ADD PARTICIPANTS</string>
+    <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
+    <string name="new_conv_no_results">No results</string>
+    <string name="new_conv_no_contacts">No contacts</string>
+    <string name="participants_divider_services">SERVICES (%1$s)</string>
+    <string name="participants_divider_people">PEOPLE (%1$s)</string>
+    <string name="group_name_hint">GROUP NAME</string>
+    <string name="allow_guests_toggle_text">Allow guests and services</string>
+    <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
+    <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
+    <string name="allow_guests">Allow guests and services</string>
+    <string name="guest_options_title">Guests and services</string>
+    <string name="ephemeral_options_title">Timed messages</string>
+    <string name="notifications_options_title">آگاه‌سازی‌ها</string>
+    <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
+    <string name="notifications_explanation_text">You can be notified about everything (including audio and video calls) or only when you are mentioned.</string>
+    <string name="show_all_participants">Show all (%1$s)</string>
+    <string name="allow_guests_error_title">یک مشکلی بوجود آمده است</string>
+    <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
+    <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
+    <string name="allow_guests_warning_confirm">حذف</string>
+    <string name="guests_are_present">GUESTS ARE PRESENT</string>
+    <string name="services_are_present">SERVICES ARE ACTIVE</string>
+    <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
+    <string name="participants_details_header_title">DETAILS</string>
+    <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
+    <string name="create_link_button">Create Link</string>
+    <string name="copy_link_button">Copy Link</string>
+    <string name="share_link_button">Share Link</string>
+    <string name="revoke_link_button">Revoke Link&#8230;</string>
+    <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
+    <string name="link_copied_toast">Link Copied!</string>
+    <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
+    <string name="revoke_link_confirm">Revoke Link</string>
+    <string name="invite_button_description">People outside your team can join this conversation.</string>
+    <string name="invite_people">دعوت دوستان</string>
+    <string name="guest_room_name">Guest room</string>
+    <string name="guest_time_left_hours">%1$sh left</string>
+    <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
+    <string name="guest_time_left_minutes">Less than %1$sm left</string>
+    <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
         \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-  <string name="pref_account_backup_title">Back up conversations</string>
-  <string name="add_email_address">Add your email address</string>
-  <string name="set_a_password">Set a password</string>
-  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
-  <string name="new_device_password">دستگاه جدید</string>
-  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
-  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
-  <string name="second_launch__header">You\'ve used Wire on this device before.</string>
-  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
-  <string name="restore_override_alert_title">Restore history</string>
-  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
-  <string name="restore_override_alert_ok">Choose Backup File</string>
-  <string name="back_up_progress">BACKING UP&#8230;</string>
-  <string name="back_up_progress_complete">COMPLETE</string>
-  <string name="restore_progress">RESTORING&#8230;</string>
-  <string name="pref_account_backup_warning_title">Set an email and password.</string>
-  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
-  <string name="pref_account_backup_warning_ok">تایید</string>
-  <string name="export_generic_error_title">The file could not be saved</string>
-  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
-  <string name="backup_button">Back Up Now</string>
-  <string name="backup_import_error_unknown_title">یک مشکلی بوجود آمده است</string>
-  <string name="backup_import_error_unknown">Your history could not be restored.</string>
-  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
-  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
-  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
-  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
-  <string name="video_paused">Video paused</string>
-  <string name="calling_degraded_title">دستگاه جدید</string>
-  <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="markdown_link_dialog_title">Visit Link</string>
-  <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
-  <string name="markdown_link_dialog_confirmation">تایید</string>
-  <string name="markdown_link_dialog_cancel">لغو</string>
-  <string name="max_participants_alert_title">The group is full</string>
-  <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
-  <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
-  <string name="sso_signin_button">Company log in</string>
-  <string name="sso_signin_error_title">یک مشکلی بوجود آمده است</string>
-  <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
-  <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
-  <string name="sso_signin_wrong_code_title">کد وارد شده معتبر نیست</string>
-  <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
-  <string name="participant_search_hint">SEARCH FOR NAMES</string>
-  <string name="participant_search_title">افراد</string>
-  <string name="generic_service_warning">Services have access to the content of this conversation</string>
-  <string name="add_services_button_text">Manage services</string>
-  <string name="wire_notification_name">Wire Notification</string>
-  <string name="wire_ping_name">Wire Ping</string>
+    <string name="pref_account_backup_title">Back up conversations</string>
+    <string name="add_email_address">Add your email address</string>
+    <string name="set_a_password">Set a password</string>
+    <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+    <string name="new_device_password">دستگاه جدید</string>
+    <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+    <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+    <string name="second_launch__header">You\'ve used Wire on this device before.</string>
+    <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+    <string name="restore_override_alert_title">Restore history</string>
+    <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+    <string name="restore_override_alert_ok">Choose Backup File</string>
+    <string name="back_up_progress">BACKING UP&#8230;</string>
+    <string name="back_up_progress_complete">COMPLETE</string>
+    <string name="restore_progress">RESTORING&#8230;</string>
+    <string name="pref_account_backup_warning_title">Set an email and password.</string>
+    <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+    <string name="pref_account_backup_warning_ok">تایید</string>
+    <string name="export_generic_error_title">The file could not be saved</string>
+    <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+    <string name="backup_button">Back Up Now</string>
+    <string name="backup_import_error_unknown_title">یک مشکلی بوجود آمده است</string>
+    <string name="backup_import_error_unknown">Your history could not be restored.</string>
+    <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+    <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+    <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+    <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
+    <string name="video_paused">Video paused</string>
+    <string name="calling_degraded_title">دستگاه جدید</string>
+    <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
+    <string name="markdown_link_dialog_title">Visit Link</string>
+    <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
+    <string name="markdown_link_dialog_confirmation">تایید</string>
+    <string name="markdown_link_dialog_cancel">لغو</string>
+    <string name="max_participants_alert_title">The group is full</string>
+    <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
+    <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
+    <string name="sso_signin_button">Company log in</string>
+    <string name="sso_signin_error_title">یک مشکلی بوجود آمده است</string>
+    <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
+    <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
+    <string name="sso_signin_wrong_code_title">کد وارد شده معتبر نیست</string>
+    <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
+    <string name="participant_search_hint">SEARCH FOR NAMES</string>
+    <string name="participant_search_title">افراد</string>
+    <string name="generic_service_warning">Services have access to the content of this conversation</string>
+    <string name="add_services_button_text">Manage services</string>
+    <string name="wire_notification_name">Wire Notification</string>
+    <string name="wire_ping_name">Wire Ping</string>
+    <string name="reply_self_name">شما</string>
+    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_video">ویدیو</string>
+    <string name="reply_message_type_audio">AUDIO MESSAGE</string>
+    <string name="reply_message_type_location">LOCATION</string>
+    <string name="reply_message_type_asset">ATTACHMENT</string>
+    <string name="reply_message_type_unknown">You cannot see this message.</string>
+    <string name="quote_timestamp_message">Original message from %s</string>
 </resources>

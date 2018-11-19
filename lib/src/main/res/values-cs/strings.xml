@@ -20,1062 +20,1089 @@
 
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!--*********************************************** ERRORS ***********************************************-->
-  <string name="generic_error_header">Něco se pokazilo</string>
-  <string name="generic_error_message">Please try again</string>
-  <string name="internet_connectivity_error_header">Nejste připojeni k Internetu</string>
-  <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
-  <string name="too_many_attempts_header">Příliš mnoho pokusů</string>
-  <string name="login_later_message">Please try to log in later</string>
-  <string name="email_exists_header">Emailová adresa je již používána</string>
-  <string name="email_exists_message">This email address has already been registered</string>
-  <string name="email_invalid_header">Neplatná emailová adresa</string>
-  <string name="email_invalid_message">Zadejte prosím platnou emailovou adresu</string>
-  <string name="invalid_credentials_header">Neplatná informace</string>
-  <string name="invalid_credentials_message">Zkontrolujte své údaje a zkuste znovu</string>
-  <string name="phone_exists_header">Telefonní číslo je již obsazeno</string>
-  <string name="phone_exists_message">The phone number you provided has already been registered. Please try again</string>
-  <string name="phone_invalid_format_header">Neplatné telefonní číslo</string>
-  <string name="phone_invalid_format_message">Uveďte prosím platné telefonní číslo</string>
-  <string name="phone_password_exists_header">Heslo existuje</string>
-  <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
-  <string name="invalid_code_header">Neplatný kód</string>
-  <string name="incorrect_code_header">Neplatný kód</string>
-  <string name="wrong_code_message">Zadejte prosím platný kód</string>
-  <string name="phone_pending_login_header">Kód byl již odeslán</string>
-  <string name="phone_pending_login_message">Již jsme vám poslali kód prostřednictvím SMS. Pro získání nového klepněte po 10 minutách na tlačítko znovu odeslat.</string>
-  <string name="phone_budget_exhausted_header">Příliš mnoho požadavků</string>
-  <string name="phone_budget_exhausted_message">Zkuste to prosím později.</string>
-  <!--*********************************************** ERRORS ***********************************************-->
-  <string name="permissions_denied_dialog_settings">Nastavení</string>
-  <string name="camera_not_available">KAMERA NENÍ K DISPOZICI</string>
-  <string name="camera_permissions_denied_title">Kamera není dostupná</string>
-  <string name="camera_permissions_denied_message">Pro focení a odesílání fotografií je třeba povolit přístup ke kameře</string>
-  <!-- Registration and Sign in -->
-  <string name="welcome__terms_of_service">POKRAČOVÁNÍM SOUHLASÍTE S _TERMS USE_.</string>
-  <string name="profile__name__guidance__tooshort__title">ALESPOŇ 2 ZNAKY</string>
-  <string name="profile__email__placeholder">Email</string>
-  <string name="profile__password__placeholder">Heslo</string>
-  <string name="profile__password__guidance__tooshort__title">ALESPOŇ 8 ZNAKŮ</string>
-  <string name="profile__email__verify__instructions">Poslali jsme e-mail na \n[[%1$s]]. \nPro ověření svojí adresy klikněte na odkaz.</string>
-  <string name="profile__email__verify__didnt_get">Nedostal(a) jste zprávu?</string>
-  <string name="profile__email__verify__resend">Znovu odeslat</string>
-  <string name="profile__guidance__invalid_email">The email address you entered is not valid. Please verify and try again</string>
-  <string name="new_reg__code_resent">Nový kód byl zaslán prostřednictvím SMS</string>
-  <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
-  <string name="new_reg__code_resent__call">Čekejte na hovor</string>
-  <string name="new_reg__default_country">de</string>
-  <!-- consider updating this for every new language -->
-  <string name="your_phone_number">Vaše telefonní číslo</string>
-  <!-- Receive email/sms invitation -->
-  <!-- People picker/start UI -->
-  <string name="pick_user_search_focus">\u0020 SEARCH</string>
-  <string name="pick_user_search_hint">SEARCH</string>
-  <string name="choose_conversation">SEARCH</string>
-  <string name="people_picker__top_users_header_title">Nejaktivnější kontakty</string>
-  <string name="people_picker__search_result_conversations_header_title">Skupiny</string>
-  <string name="people_picker__search_result_team_conversations_header_title">%1$s skupiny</string>
-  <string name="people_picker__search_result_connections_header_title">Kontakty</string>
-  <string name="people_picker__search_result_others_header_title">Připojit</string>
-  <string name="people_picker__search_result__expander_title">Zobrazit všechny %1$s ↓</string>
-  <string name="people_picker__search_people">LIDÉ</string>
-  <string name="people_picker__search_services">SERVICES</string>
-  <string name="receive_news_and_offers_request_title">Newsletter</string>
-  <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
-  <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
-  <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
-  <string name="crashes_and_analytics_request_no">Ne</string>
-  <string name="crashes_and_analytics_request_agree">I Agree</string>
-  <!-- Bots / Integrations / Services -->
-  <string name="integrations_picker__section_title">Služby</string>
-  <string name="integrations_errors_add_service">Adding service not possible</string>
-  <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
-  <string name="conversation_errors_full">The conversation is full</string>
-  <!-- start ui / people picker, contacts sharing -->
-  <string name="people_picker__share_contacts__title">Sdílet kontakty</string>
-  <string name="people_picker__share_contacts__message">Pokud nasdílíte své kontakty, Wire vám pomůže najít přátele.</string>
-  <string name="people_picker__share_contacts__yay">Povolit</string>
-  <string name="people_picker__share_contacts__nah">Zakázat</string>
-  <string name="people_picker__share_contacts__nevvah">Již se znovu neptat</string>
-  <!-- Invite -->
-  <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-  <string name="people_picker__invite__share_details_dialog">Sdílejte Wire s přáteli.</string>
-  <string name="people_picker__invite__share_text__header">%1$s se chce spojit přes Wire</string>
-  <string name="people_picker__invite__share_text__body">Jsem na Wire, hledejte %1$s nebo navštivte get.wire.com</string>
-  <!-- Conversation: Quick menu -->
-  <string name="conversation_quick_menu__conversation_button__single_label">OTEVŘÍT</string>
-  <!-- Conversation: System messages -->
-  <string name="content__system__other_joined">[[%1$s]] joined</string>
-  <string name="content__system__you_joined">[[You]] joined</string>
-  <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
-  <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
-  <!-- Add people -->
-  <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
-  <plurals name="content__system__someone_added_people_with_others">
-    <item quantity="one">[[%1$s]] added %2$s and _%3$s other to the conversation_</item>
-    <item quantity="few">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
-    <item quantity="many">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
-    <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
-  </plurals>
-  <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
-  <plurals name="content__system__someone_added_people_and_you_with_others">
-    <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
-    <item quantity="few">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
-    <item quantity="many">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
-    <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
-  </plurals>
-  <string name="content__system__you_added_people">You added %1$s to the conversation</string>
-  <plurals name="content__system__you_added_people_with_others">
-    <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
-    <item quantity="few">You added %1$s and _%2$s others to the conversation_</item>
-    <item quantity="many">You added %1$s and _%2$s others to the conversation_</item>
-    <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
-  </plurals>
-  <!-- Remove people -->
-  <string name="content__system__other_removed_other">[[%1$s]] odebral %2$s</string>
-  <string name="content__system__other_removed_you">[[%1$s]] vás odebral(a)</string>
-  <string name="content__system__you_removed_other">You removed %1$s</string>
-  <string name="content__system__you_left">[[Vy]] jste opustil(a) skupinu</string>
-  <string name="content__system__other_left">[[%1$s]] opustil(a) skupinu</string>
-  <!-- Create conversation -->
-  <string name="content__system__you_started_conversation">You started the conversation</string>
-  <string name="content__system__other_started_conversation">%1$s started the conversation</string>
-  <string name="content__system__with_you_only">with you</string>
-  <string name="content__system__with_list_only">with %1$s</string>
-  <plurals name="content__system__with_others_only">
-    <item quantity="one">with %1$s and _%2$s other_</item>
-    <item quantity="few">with %1$s and _%2$s others_</item>
-    <item quantity="many">with %1$s and _%2$s others_</item>
-    <item quantity="other">with %1$s and _%2$s others_</item>
-  </plurals>
-  <string name="content__system__with_list_and_you">with %1$s and you</string>
-  <plurals name="content__system__with_others_and_you">
-    <item quantity="one">with %1$s, you and _%2$s other_</item>
-    <item quantity="few">with %1$s, you and _%2$s others_</item>
-    <item quantity="many">with %1$s, you and _%2$s others_</item>
-    <item quantity="other">with %1$s, you and _%2$s others_</item>
-  </plurals>
-  <!-- Conversation: missed call -->
-  <string name="content__missed_call__you_called">VOLAL(A) [[JSTE]]</string>
-  <string name="content__missed_call__xxx_called">[[%1$s]] VOLAL(A)</string>
-  <string name="content__you_pinged">PINGNUL(A) [[JSTE]]</string>
-  <string name="content__xxx_pinged">[[%1$s]] PINGNUL(A)</string>
-  <!-- Conversation: E2EE system messages -->
-  <string name="content__otr__message_error">VZKAZ OD [[%1$s]] NEBYL PŘIJAT. _PROČ? _</string>
-  <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
-  <string name="content__otr__identity_changed_error">[[%1$s]] IDENTITA ZAŘÍZENÍ SE ZMĚNILA. NEDORUČENÁ ZPRÁVA. _ZJISTI VÍCE_</string>
-  <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
-  <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
-  <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
-  <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
-  <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
-  <string name="content__otr__start_this_device__message">[[VY]] JSTE ZAČAL(A) POUŽÍVAT _TOTO ZAŘÍZENÍ_</string>
-  <string name="content__otr__all_fingerprints_verified">VŠECHNY OTISKY JSOU OVĚŘOVÁNY</string>
-  <string name="content__otr__lost_history">TOTO ZAŘÍZENÍ JSTE NĚJAKOU DOBU NEPOUŽÍVAL(A). NĚKTERÉ ZPRÁVY SE ZDE NEMUSÍ ZOBRAZIT.</string>
-  <string name="content__otr__unverified_device__message">[[VY]] MÁTE NEOVĚŘENO JEDNO Z _%1$s ZAŘÍZENÍ_</string>
-  <string name="content__otr__your_unverified_device__message">[[VY]] MÁTE NEOVĚŘENO JEDNO Z _VAŠICH ZAŘÍZENÍ_</string>
-  <string name="content__otr__new_member__message">NOVÍ LIDÉ SE PŘIPOJILI. _OVĚŘIT ZAŘÍZENÍ_</string>
-  <!-- File transfer -->
-  <string name="content__file__status__default">%1$s</string>
-  <string name="content__file__status__uploading__minimized">NAHRÁVÁNÍ&#8230;</string>
-  <string name="content__file__status__cancelled__minimized">ZRUŠENO&#8230;</string>
-  <string name="content__file__status__downloading__minimized">STAHOVÁNÍ&#8230;</string>
-  <string name="content__file__status__download_failed__minimized">STAHOVÁNÍ SELHALO</string>
-  <string name="content__file__status__upload_failed__minimized">NAHRÁVÁNÍ SELHALO</string>
-  <string name="content__file__status__uploading">%1$s · NAHRÁVÁNÍ&#8230;</string>
-  <string name="content__file__status__cancelled">%1$s · ZRUŠENO&#8230;</string>
-  <string name="content__file__status__downloading">%1$s · STAHOVÁNÍ...</string>
-  <string name="content__file__status__download_failed">%1$s · STAHOVÁNÍ SELHALO</string>
-  <string name="content__file__status__upload_failed">%1$s · NAHRÁVÁNÍ SELHALO</string>
-  <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
-  <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
-  <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · NAHRÁVÁNÍ&#8230;</string>
-  <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · ZRUŠENO&#8230;</string>
-  <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · STAHOVÁNÍ&#8230;</string>
-  <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · STAHOVÁNÍ SELHALO</string>
-  <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · NAHRÁVÁNÍ SELHALO</string>
-  <string name="content__file__action__open">OTEVŘÍT</string>
-  <string name="content__file__action__save">ULOŽIT</string>
-  <string name="content__file__action__open__no_app_found">K otevření toho souboru nebyla nalezena žádná aplikace</string>
-  <string name="content__file__action__save_completed">Soubor úspěšně uložen</string>
-  <string name="content__file__action__save_error">Soubor nelze uložit</string>
-  <string name="content__location__no_map_placeholder">POLOHA SE ZOBRAZÍ NA MAPĚ AŽ BUDETE ONLINE.</string>
-  <!-- Conversation actions -->
-  <string name="conversation__action__delete">Delete content&#8230;</string>
-  <string name="conversation__action__archive">Archivovat</string>
-  <string name="conversation__action__unarchive">Obnovit</string>
-  <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
-  <string name="conversation__action__create_group">VYTVOŘIT SKUPINU</string>
-  <string name="conversation__action__notifications">Notifications&#8230;</string>
-  <string name="conversation__action__silence">Ztlumit</string>
-  <string name="conversation__action__unsilence">Zapnout zvuk</string>
-  <string name="conversation__action__leave">Leave group&#8230;</string>
-  <string name="conversation__action__call">Hovor</string>
-  <string name="conversation__action__picture">Obrázek</string>
-  <string name="conversation__action__block">Block&#8230;</string>
-  <string name="conversation__action__unblock">Odblokovat</string>
-  <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-  <string name="conversation__action__leave_only">\tLeave group</string>
-  <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-  <string name="conversation__action__delete_only">\tDelete content</string>
-  <string name="conversation__action__notifications_everything">Everything</string>
-  <string name="conversation__action__notifications_mentions_only">Only mentions</string>
-  <string name="conversation__action__notifications_nothing">Nothing</string>
-  <string name="conversation__action__notifications_title">Notify me about:</string>
-  <!-- Conversation: Profile Popover -->
-  <!-- Calling/voice -->
-  <string name="calling__slow_connection__title">Pomalý Internet</string>
-  <string name="calling__slow_connection__message">Připojení k Internetu je pro volání momentálně příliš pomalé. Zkuste prosím později.</string>
-  <string name="calling__cannot_start__title">Microphone required</string>
-  <string name="calling__cannot_start__message">Chcete-li volat, zavěste vaše aktuální volání.</string>
-  <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
-  <string name="calling__cannot_start__cancel__message">ZRUŠIT</string>
-  <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
-  <string name="calling__video_call__slow_connection__message">Během hovoru se mohou vyskytnout potíže</string>
-  <string name="incoming__controls__ongoing__speaker">REPRODUKTOR</string>
-  <string name="incoming__controls__ongoing__mute">ZTLUMIT</string>
-  <string name="incoming__controls__ongoing__video">VIDEO</string>
-  <string name="incoming__controls__ongoing__flip">FLIP</string>
-  <string name="ongoing__poor_connection_message">VIDEO ZASTAVENO Z DŮVODU ŠPATNÉHO SPOJENÍ</string>
-  <string name="calling__self_preview_unavailable_long">KAMERA NENÍ K DISPOZICI</string>
-  <string name="calling__header__joining">Připojuji&#8230;</string>
-  <string name="calling__header__outgoing_subtitle">Zvoní&#8230;</string>
-  <string name="calling__header__outgoing_video_subtitle">Zvoní&#8230;</string>
-  <string name="calling__header__incoming_subtitle">Volá&#8230;</string>
-  <string name="calling__header__incoming_subtitle__video">Volá&#8230;</string>
-  <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
-  <string name="call_banner_joining">Připojuji&#8230;</string>
-  <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
-  <string name="call_banner_incoming">%1$s is calling&#8230;</string>
-  <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
-  <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
-  <string name="calling_ongoing_call_title">Probíhající hovor</string>
-  <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-  <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
-  <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-  <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-  <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
-  <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-  <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
-  <!-- Calling in group conversation -->
-  <string name="group_calling_title">Zahájit hovor</string>
-  <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
-  <string name="group_calling_confirm">Hovor</string>
-  <!-- Connect request -->
-  <string name="connect__message">Ahoj %1$s, \nSpojme se přes Wre. \n%2$s</string>
-  <string name="connect_request__sub_header__pending_label">Nevyřízené</string>
-  <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
-  <string name="connect_request__unblock__button__text">Odblokovat</string>
-  <string name="send_connect_request__connect_button__text">CONNECT</string>
-  <plurals name="connect_inbox__link__name">
-    <item quantity="one">1 čekající osoba</item>
-    <item quantity="few">%1$s lidé čekají</item>
-    <item quantity="many">%1$s people waiting</item>
-    <item quantity="other">%1$s lidí čeká</item>
-  </plurals>
-  <string name="connect_request__ignore_button__text">Ignorovat</string>
-  <string name="content__message__connect_request__footer">PŘIPOJENO</string>
-  <string name="content__message__connect_request__auto_connect__footer">AUTOMATICKY PŘIPOJENO. _ZJISTIT VÍCE_</string>
-  <!-- Otr-->
-  <plurals name="conversation__degraded_confirmation__header__single_user">
-    <item quantity="one">%1$s začal(a) používat nové zařízení.</item>
-    <item quantity="few">%1$s začali používat nová zařízení.</item>
-    <item quantity="many">%1$s started using new devices.</item>
-    <item quantity="other">%1$s začali používat nová zařízení.</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__header__someone">Někdo začal používat nové zařízení.</string>
-  <string name="conversation__degraded_confirmation__header__multiple_user">%1$s a %2$s začali používat nová zařízení.</string>
-  <plurals name="conversation__degraded_confirmation__message">
-    <item quantity="one">Chcete přesto odeslat svou zprávu?</item>
-    <item quantity="few">Chcete přesto odeslat své zprávy?</item>
-    <item quantity="many">Chcete přesto odeslat své zprávy?</item>
-    <item quantity="other">Chcete přesto odeslat své zprávy?</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__positive_action">Přesto odeslat</string>
-  <plurals name="conversation__degraded_confirmation__negative_action">
-    <item quantity="one">Zobrazit zařízení</item>
-    <item quantity="few">Zobrazit lidi</item>
-    <item quantity="many">Show people</item>
-    <item quantity="other">Zobrazit lidi</item>
-  </plurals>
-  <string name="conversation__degraded_confirmation__negative_action_self">Zobrazit vaše zařízení</string>
-  <string name="conversation_degraded_confirmation__header__you">Vy</string>
-  <!-- Picture selection confirmation -->
-  <string name="confirmation_menu__confirm_done">OK</string>
-  <string name="confirmation_menu__cancel">ZRUŠIT</string>
-  <!-- ADD TO CONVERSATION offline -->
-  <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
-  <!-- Leave conversation -->
-  <string name="confirmation_menu__meta_remove">Opustit konverzaci?</string>
-  <string name="confirmation_menu__meta_remove_text">Nebudete moci odesílat ani přijímat zprávy v této konverzaci.</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <!-- Remove from conversation dialogue -->
-  <string name="confirmation_menu__header">Odstranit?</string>
-  <string name="confirmation_menu_text_with_name">%1$s nebude moci odesílat ani přijímat zprávy v této konverzaci.</string>
-  <string name="confirmation_menu__confirm_remove">ODSTRANIT</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <!-- Block someone dialogue -->
-  <string name="confirmation_menu__block_header">Blokovat?</string>
-  <string name="confirmation_menu__block_text_with_name">%1$s vás nebude moci kontaktovat nebo přizvat ke skupinové konverzaci.</string>
-  <string name="confirmation_menu__confirm_block">Blokovat</string>
-  <!-- RE-USING: confirmation_menu.cancel -->
-  <string name="connect_request__footer__blocked_label">Blokováno</string>
-  <!-- Delete conversation -->
-  <string name="confirmation_menu__meta_delete">Vymazat obsah?</string>
-  <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
-  <!-- Rich media -->
-  <string name="content__youtube__error__text">video nenalezeno</string>
-  <string name="mediaplayer__message__onsoundcloud">na Soundcloudu</string>
-  <string name="mediaplayer__message__onspotify">na Spotify</string>
-  <!-- Invite banner -->
-  <!-- Self profile -->
-  <!-- Options and settings -->
-  <string name="settings_title">Nastavení</string>
-  <!-- Options menu -->
-  <!-- Manage Team -->
-  <string name="pref_manage_team_title">Manage Team</string>
-  <!-- About screen -->
-  <string name="pref_category_title">Nastavení</string>
-  <string name="pref_developer_screen_title">Nastavení pro vývojáře</string>
-  <string name="pref_dev_avs_screen_title">Nastavení AVS</string>
-  <string name="pref_profile_screen_title">Profil</string>
-  <!-- Account -->
-  <string name="pref_account_screen_title">Účet</string>
-  <string name="pref_account_name_title">Jméno</string>
-  <string name="pref_account_edit_name_title">Upravit jméno</string>
-  <string name="pref_account_details_category_title">Info</string>
-  <string name="pref_account_actions_category_title">Akce</string>
-  <string name="pref_account_appearance_category_title">Vzhled</string>
-  <string name="pref_account_personal_information_category_title">Personal Information</string>
-  <string name="pref_account_conversations_category_title">History</string>
-  <string name="pref_account_username_title">Uživatelské jméno</string>
-  <string name="pref_account_phone_title">Telefon</string>
-  <string name="pref_account_add_phone_title">Přidat telefonní číslo</string>
-  <string name="pref_account_email_title">Email</string>
-  <string name="pref_account_add_email_title">Přidat e-mail</string>
-  <string name="pref_account_delete">Smazat</string>
-  <string name="pref_account_sign_out_title">Odhlásit se</string>
-  <string name="pref_account_color_title">Barva</string>
-  <string name="pref_account_picture_title">Obrázek</string>
-  <string name="pref_account_delete_title">Smazat účet</string>
-  <string name="pref_account_delete_warning_title">Smazat účet</string>
-  <string name="pref_account_delete_warning_message_email">Zašleme vám email na:\n[[%1$s]]\nPro trvalé smazání svého účtu otevřete zaslaný odkaz.</string>
-  <string name="pref_account_delete_warning_message_sms">Zašleme vám SMS na:\n[[%1$s]]\nPro trvalé smazání svého účtu otevřete zaslaný odkaz.</string>
-  <string name="pref_account_delete_warning_verify">OK</string>
-  <string name="pref_account_delete_warning_cancel">Zrušit</string>
-  <string name="pref_account_sign_out_warning_message">Opravdu se chcete odhlásit?</string>
-  <string name="pref_account_sign_out_warning_verify">Odhlásit se</string>
-  <string name="pref_account_sign_out_warning_cancel">Zrušit</string>
-  <string name="pref_account_password_title">Resetovat heslo</string>
-  <string name="pref_account_edit_name_empty_warning">Jméno musí mít 2 nebo více znaků</string>
-  <string name="pref_account_edit_name_empty_verify">OK</string>
-  <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
-  <string name="pref_backup_screen_title">Back Up Conversations</string>
-  <!-- Data Usage Permissions -->
-  <string name="pref_advanced_send_anonymous_data_title">Sdílet anonymní údaje</string>
-  <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
-  <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
-  <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
-  <!-- Options -->
-  <string name="pref_options_dark_theme_title">Tmavý motiv</string>
-  <string name="pref_options_screen_title">Nastavení</string>
-  <string name="pref_options_contacts_title">Sdílet kontakty</string>
-  <string name="pref_options_contacts_summary">Sdílením svých kontaktů si zjednodušíte propojení s ostatními. Všechny informace anonymizujeme a nikdy je neposkytujeme nikomu dalšímu.</string>
-  <string name="pref_options_vbr_title">Proměnlivý datový tok (VBR)</string>
-  <string name="pref_options_vbr_summary">Toto umožňuje využít pro hlasové hovory méně dat a funguje lépe v pomalejších sítích. Vypněte pro použití konstantního datového toku.</string>
-  <string name="pref_options_alerts_category_title">Upozornění</string>
-  <string name="pref_options_calls_category_title">Hovory</string>
-  <string name="pref_options_sounds_title">Zvuky</string>
-  <string name="pref_options_sounds_all">Vše</string>
-  <string name="pref_options_sounds_new_conversations_and_talks_only">První zpráva, ping, volání</string>
-  <string name="pref_options_sounds_none">Žádné</string>
-  <string name="pref_options_vibration_title">Vibrace</string>
-  <string name="pref_options_vibration_title_o">Vibrate on ring</string>
-  <string name="pref_options_ringtones_category_title">Zvuky</string>
-  <string name="pref_options_ringtones_ringtone_title">Vyzvánění</string>
-  <string name="pref_options_ringtones_text_title">Zvuk zprávy</string>
-  <string name="pref_options_ringtones_ping_title">Odezva</string>
-  <string name="pref_options_ringtones_default_summary">Výchozí nastavení Wire</string>
-  <string name="pref_options_ringtones_silent">Tichý</string>
-  <string name="pref_options_image_download_title">Stáhnout obrázky</string>
-  <string name="pref_options_image_download_always">Vždy</string>
-  <string name="pref_options_image_download_wifi">Pouze Wi-Fi</string>
-  <string name="pref_options_media_category_title">Média</string>
-  <string name="pref_options_requested_category_title">Podle popularity poptávky</string>
-  <string name="pref_options_cursor_send_button_title">Tlačítko Odeslat</string>
-  <string name="pref_options_cursor_send_button_summary">Zakázat odesílání zpráv pomocí klávesnice.</string>
-  <!-- Devices -->
-  <string name="pref_devices_screen_title">Přístroje</string>
-  <string name="pref_devices_current_device_category_title">Aktuální zařízení</string>
-  <string name="pref_devices_other_devices_category_title">Další zařízení</string>
-  <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
-  <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
-  <string name="pref_devices_device_id">ID: %1$s</string>
-  <string name="pref_devices_device_verified">Ověreno</string>
-  <string name="pref_devices_device_not_verified">Neověřeno</string>
-  <string name="pref_devices_warning_summary">Pokud nepoznáváte některé ze zařízení výše, odstraňte jej a změňte si heslo.</string>
-  <string name="pref_devices_device_screen_title">Podrobnosti o zařízení</string>
-  <string name="pref_devices_device_fingerprint_category_title">Otisk prstu</string>
-  <string name="pref_devices_device_fingerprint_summary">Aplikace Wire přiděluje každému přístroji unikátní identifikátor. Jejich porovnáním ověříte své přístroje a konverzace.</string>
-  <string name="pref_devices_device_actions_category_title">Akce</string>
-  <string name="pref_devices_device_reset_session_title">Resetovat sezení</string>
-  <string name="pref_devices_device_reset_session_summary">Pokud se identifikátory neshodují, začněte novou relaci pro vygenerování nových klíčů na obou stranách.</string>
-  <string name="pref_devices_device_remove_title">Odstranit zařízení</string>
-  <string name="pref_devices_device_remove_summary">Jestliže jste přestali používat toto zařízení, odeberte jej. Poté z něj budete okamžitě odhlášeni.</string>
-  <string name="pref_devices_device_fingerprint_copy_description">Otisk prstu</string>
-  <string name="pref_devices_device_fingerprint_copy_toast">Otisk prstu zkopírován</string>
-  <!-- Advanced -->
-  <string name="pref_advanced_screen_title">Pokročilé</string>
-  <string name="pref_advanced_debug_report_title">Odeslat zprávu o ladění</string>
-  <string name="pref_advanced_debug_report_summary">Pomáhá podpoře Wire diagnostikovat problémy.</string>
-  <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
-  <string name="pref_advanced_reset_push_summary">Pokud máte potíže s push notifikacemi, podpora Wire vás může požádat o obnovení tohoto tokenu.</string>
-  <string name="pref_advanced_reset_push_completed">Token byl obnoven</string>
-  <string name="debug_report__title">Wire zpráva o ladění - %1$s</string>
-  <string name="debug_report__body">Popište, prosím, kroky potřebné k reprodukci problému, pokud možno i se screenshoty, a odešlete na tento email.\n\n</string>
-  <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
-  <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+    <!--*********************************************** ERRORS ***********************************************-->
+    <string name="generic_error_header">Něco se pokazilo</string>
+    <string name="generic_error_message">Please try again</string>
+    <string name="internet_connectivity_error_header">Nejste připojeni k Internetu</string>
+    <string name="internet_connectivity_error_message">Please check your Internet connection and try again</string>
+    <string name="too_many_attempts_header">Příliš mnoho pokusů</string>
+    <string name="login_later_message">Please try to log in later</string>
+    <string name="email_exists_header">Emailová adresa je již používána</string>
+    <string name="email_exists_message">This email address has already been registered</string>
+    <string name="email_invalid_header">Neplatná emailová adresa</string>
+    <string name="email_invalid_message">Zadejte prosím platnou emailovou adresu</string>
+    <string name="invalid_credentials_header">Neplatná informace</string>
+    <string name="invalid_credentials_message">Zkontrolujte své údaje a zkuste znovu</string>
+    <string name="phone_exists_header">Telefonní číslo je již obsazeno</string>
+    <string name="phone_exists_message">The phone number you provided has already been registered. Please try again</string>
+    <string name="phone_invalid_format_header">Neplatné telefonní číslo</string>
+    <string name="phone_invalid_format_message">Uveďte prosím platné telefonní číslo</string>
+    <string name="phone_password_exists_header">Heslo existuje</string>
+    <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
+    <string name="invalid_code_header">Neplatný kód</string>
+    <string name="incorrect_code_header">Neplatný kód</string>
+    <string name="wrong_code_message">Zadejte prosím platný kód</string>
+    <string name="phone_pending_login_header">Kód byl již odeslán</string>
+    <string name="phone_pending_login_message">Již jsme vám poslali kód prostřednictvím SMS. Pro získání nového klepněte po 10 minutách na tlačítko znovu odeslat.</string>
+    <string name="phone_budget_exhausted_header">Příliš mnoho požadavků</string>
+    <string name="phone_budget_exhausted_message">Zkuste to prosím později.</string>
+    <!--*********************************************** ERRORS ***********************************************-->
+    <string name="permissions_denied_dialog_settings">Nastavení</string>
+    <string name="camera_not_available">KAMERA NENÍ K DISPOZICI</string>
+    <string name="camera_permissions_denied_title">Kamera není dostupná</string>
+    <string name="camera_permissions_denied_message">Pro focení a odesílání fotografií je třeba povolit přístup ke kameře</string>
+    <!-- Registration and Sign in -->
+    <string name="welcome__terms_of_service">POKRAČOVÁNÍM SOUHLASÍTE S _TERMS USE_.</string>
+    <string name="profile__name__guidance__tooshort__title">ALESPOŇ 2 ZNAKY</string>
+    <string name="profile__email__placeholder">Email</string>
+    <string name="profile__password__placeholder">Heslo</string>
+    <string name="profile__password__guidance__tooshort__title">ALESPOŇ 8 ZNAKŮ</string>
+    <string name="profile__email__verify__instructions">Poslali jsme e-mail na \n[[%1$s]]. \nPro ověření svojí adresy klikněte na odkaz.</string>
+    <string name="profile__email__verify__didnt_get">Nedostal(a) jste zprávu?</string>
+    <string name="profile__email__verify__resend">Znovu odeslat</string>
+    <string name="profile__guidance__invalid_email">The email address you entered is not valid. Please verify and try again</string>
+    <string name="new_reg__code_resent">Nový kód byl zaslán prostřednictvím SMS</string>
+    <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
+    <string name="new_reg__code_resent__call">Čekejte na hovor</string>
+    <string name="new_reg__default_country">de</string>
+    <!-- consider updating this for every new language -->
+    <string name="your_phone_number">Vaše telefonní číslo</string>
+    <!-- Receive email/sms invitation -->
+    <!-- People picker/start UI -->
+    <string name="pick_user_search_focus">\u0020 SEARCH</string>
+    <string name="pick_user_search_hint">SEARCH</string>
+    <string name="choose_conversation">SEARCH</string>
+    <string name="people_picker__top_users_header_title">Nejaktivnější kontakty</string>
+    <string name="people_picker__search_result_conversations_header_title">Skupiny</string>
+    <string name="people_picker__search_result_team_conversations_header_title">%1$s skupiny</string>
+    <string name="people_picker__search_result_connections_header_title">Kontakty</string>
+    <string name="people_picker__search_result_others_header_title">Připojit</string>
+    <string name="people_picker__search_result__expander_title">Zobrazit všechny %1$s ↓</string>
+    <string name="people_picker__search_people">LIDÉ</string>
+    <string name="people_picker__search_services">SERVICES</string>
+    <string name="receive_news_and_offers_request_title">Newsletter</string>
+    <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+    <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
+    <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+    <string name="crashes_and_analytics_request_no">Ne</string>
+    <string name="crashes_and_analytics_request_agree">I Agree</string>
+    <!-- Bots / Integrations / Services -->
+    <string name="integrations_picker__section_title">Služby</string>
+    <string name="integrations_errors_add_service">Adding service not possible</string>
+    <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
+    <string name="conversation_errors_full">The conversation is full</string>
+    <!-- start ui / people picker, contacts sharing -->
+    <string name="people_picker__share_contacts__title">Sdílet kontakty</string>
+    <string name="people_picker__share_contacts__message">Pokud nasdílíte své kontakty, Wire vám pomůže najít přátele.</string>
+    <string name="people_picker__share_contacts__yay">Povolit</string>
+    <string name="people_picker__share_contacts__nah">Zakázat</string>
+    <string name="people_picker__share_contacts__nevvah">Již se znovu neptat</string>
+    <!-- Invite -->
+    <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
+    <string name="people_picker__invite__share_details_dialog">Sdílejte Wire s přáteli.</string>
+    <string name="people_picker__invite__share_text__header">%1$s se chce spojit přes Wire</string>
+    <string name="people_picker__invite__share_text__body">Jsem na Wire, hledejte %1$s nebo navštivte get.wire.com</string>
+    <!-- Conversation: Quick menu -->
+    <string name="conversation_quick_menu__conversation_button__single_label">OTEVŘÍT</string>
+    <!-- Conversation: System messages -->
+    <string name="content__system__other_joined">[[%1$s]] joined</string>
+    <string name="content__system__you_joined">[[You]] joined</string>
+    <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
+    <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
+    <!-- Add people -->
+    <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
+    <plurals name="content__system__someone_added_people_with_others">
+        <item quantity="one">[[%1$s]] added %2$s and _%3$s other to the conversation_</item>
+        <item quantity="few">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+        <item quantity="many">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+        <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+    </plurals>
+    <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
+    <plurals name="content__system__someone_added_people_and_you_with_others">
+        <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
+        <item quantity="few">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+        <item quantity="many">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+        <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+    </plurals>
+    <string name="content__system__you_added_people">You added %1$s to the conversation</string>
+    <plurals name="content__system__you_added_people_with_others">
+        <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
+        <item quantity="few">You added %1$s and _%2$s others to the conversation_</item>
+        <item quantity="many">You added %1$s and _%2$s others to the conversation_</item>
+        <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
+    </plurals>
+    <!-- Remove people -->
+    <string name="content__system__other_removed_other">[[%1$s]] odebral %2$s</string>
+    <string name="content__system__other_removed_you">[[%1$s]] vás odebral(a)</string>
+    <string name="content__system__you_removed_other">You removed %1$s</string>
+    <string name="content__system__you_left">[[Vy]] jste opustil(a) skupinu</string>
+    <string name="content__system__other_left">[[%1$s]] opustil(a) skupinu</string>
+    <!-- Create conversation -->
+    <string name="content__system__you_started_conversation">You started the conversation</string>
+    <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+    <string name="content__system__with_you_only">with you</string>
+    <string name="content__system__with_list_only">with %1$s</string>
+    <plurals name="content__system__with_others_only">
+        <item quantity="one">with %1$s and _%2$s other_</item>
+        <item quantity="few">with %1$s and _%2$s others_</item>
+        <item quantity="many">with %1$s and _%2$s others_</item>
+        <item quantity="other">with %1$s and _%2$s others_</item>
+    </plurals>
+    <string name="content__system__with_list_and_you">with %1$s and you</string>
+    <plurals name="content__system__with_others_and_you">
+        <item quantity="one">with %1$s, you and _%2$s other_</item>
+        <item quantity="few">with %1$s, you and _%2$s others_</item>
+        <item quantity="many">with %1$s, you and _%2$s others_</item>
+        <item quantity="other">with %1$s, you and _%2$s others_</item>
+    </plurals>
+    <!-- Conversation: missed call -->
+    <string name="content__missed_call__you_called">VOLAL(A) [[JSTE]]</string>
+    <string name="content__missed_call__xxx_called">[[%1$s]] VOLAL(A)</string>
+    <string name="content__you_pinged">PINGNUL(A) [[JSTE]]</string>
+    <string name="content__xxx_pinged">[[%1$s]] PINGNUL(A)</string>
+    <!-- Conversation: E2EE system messages -->
+    <string name="content__otr__message_error">VZKAZ OD [[%1$s]] NEBYL PŘIJAT. _PROČ? _</string>
+    <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
+    <string name="content__otr__identity_changed_error">[[%1$s]] IDENTITA ZAŘÍZENÍ SE ZMĚNILA. NEDORUČENÁ ZPRÁVA. _ZJISTI VÍCE_</string>
+    <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
+    <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
+    <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
+    <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
+    <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
+    <string name="content__otr__start_this_device__message">[[VY]] JSTE ZAČAL(A) POUŽÍVAT _TOTO ZAŘÍZENÍ_</string>
+    <string name="content__otr__all_fingerprints_verified">VŠECHNY OTISKY JSOU OVĚŘOVÁNY</string>
+    <string name="content__otr__lost_history">TOTO ZAŘÍZENÍ JSTE NĚJAKOU DOBU NEPOUŽÍVAL(A). NĚKTERÉ ZPRÁVY SE ZDE NEMUSÍ ZOBRAZIT.</string>
+    <string name="content__otr__unverified_device__message">[[VY]] MÁTE NEOVĚŘENO JEDNO Z _%1$s ZAŘÍZENÍ_</string>
+    <string name="content__otr__your_unverified_device__message">[[VY]] MÁTE NEOVĚŘENO JEDNO Z _VAŠICH ZAŘÍZENÍ_</string>
+    <string name="content__otr__new_member__message">NOVÍ LIDÉ SE PŘIPOJILI. _OVĚŘIT ZAŘÍZENÍ_</string>
+    <!-- File transfer -->
+    <string name="content__file__status__default">%1$s</string>
+    <string name="content__file__status__uploading__minimized">NAHRÁVÁNÍ&#8230;</string>
+    <string name="content__file__status__cancelled__minimized">ZRUŠENO&#8230;</string>
+    <string name="content__file__status__downloading__minimized">STAHOVÁNÍ&#8230;</string>
+    <string name="content__file__status__download_failed__minimized">STAHOVÁNÍ SELHALO</string>
+    <string name="content__file__status__upload_failed__minimized">NAHRÁVÁNÍ SELHALO</string>
+    <string name="content__file__status__uploading">%1$s · NAHRÁVÁNÍ&#8230;</string>
+    <string name="content__file__status__cancelled">%1$s · ZRUŠENO&#8230;</string>
+    <string name="content__file__status__downloading">%1$s · STAHOVÁNÍ...</string>
+    <string name="content__file__status__download_failed">%1$s · STAHOVÁNÍ SELHALO</string>
+    <string name="content__file__status__upload_failed">%1$s · NAHRÁVÁNÍ SELHALO</string>
+    <!-- used when there's a non-empty file extension, e.g. "300KB · PDF" -->
+    <string name="content__file__status__default__size_and_extension">%1$s · %2$s</string>
+    <string name="content__file__status__uploading__size_and_extension">%1$s · %2$s · NAHRÁVÁNÍ&#8230;</string>
+    <string name="content__file__status__cancelled__size_and_extension">%1$s · %2$s · ZRUŠENO&#8230;</string>
+    <string name="content__file__status__downloading__size_and_extension">%1$s · %2$s · STAHOVÁNÍ&#8230;</string>
+    <string name="content__file__status__download_failed__size_and_extension">%1$s · %2$s · STAHOVÁNÍ SELHALO</string>
+    <string name="content__file__status__upload_failed__size_and_extension">%1$s · %2$s · NAHRÁVÁNÍ SELHALO</string>
+    <string name="content__file__action__open">OTEVŘÍT</string>
+    <string name="content__file__action__save">ULOŽIT</string>
+    <string name="content__file__action__open__no_app_found">K otevření toho souboru nebyla nalezena žádná aplikace</string>
+    <string name="content__file__action__save_completed">Soubor úspěšně uložen</string>
+    <string name="content__file__action__save_error">Soubor nelze uložit</string>
+    <string name="content__location__no_map_placeholder">POLOHA SE ZOBRAZÍ NA MAPĚ AŽ BUDETE ONLINE.</string>
+    <!-- Conversation actions -->
+    <string name="conversation__action__delete">Delete content&#8230;</string>
+    <string name="conversation__action__archive">Archivovat</string>
+    <string name="conversation__action__unarchive">Obnovit</string>
+    <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
+    <string name="conversation__action__create_group">VYTVOŘIT SKUPINU</string>
+    <string name="conversation__action__notifications">Notifications&#8230;</string>
+    <string name="conversation__action__silence">Ztlumit</string>
+    <string name="conversation__action__unsilence">Zapnout zvuk</string>
+    <string name="conversation__action__leave">Leave group&#8230;</string>
+    <string name="conversation__action__call">Hovor</string>
+    <string name="conversation__action__picture">Obrázek</string>
+    <string name="conversation__action__block">Block&#8230;</string>
+    <string name="conversation__action__unblock">Odblokovat</string>
+    <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
+    <string name="conversation__action__leave_only">\tLeave group</string>
+    <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
+    <string name="conversation__action__delete_only">\tDelete content</string>
+    <string name="conversation__action__notifications_everything">Everything</string>
+    <string name="conversation__action__notifications_mentions_and_replies">Mentions and Replies</string>
+    <string name="conversation__action__notifications_nothing">Nothing</string>
+    <string name="conversation__action__notifications_title">Notify me about:</string>
+    <!-- Conversation: Profile Popover -->
+    <!-- Calling/voice -->
+    <string name="calling__slow_connection__title">Pomalý Internet</string>
+    <string name="calling__slow_connection__message">Připojení k Internetu je pro volání momentálně příliš pomalé. Zkuste prosím později.</string>
+    <string name="calling__cannot_start__title">Microphone required</string>
+    <string name="calling__cannot_start__message">Chcete-li volat, zavěste vaše aktuální volání.</string>
+    <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+    <string name="calling__cannot_start__cancel__message">ZRUŠIT</string>
+    <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
+    <string name="calling__video_call__slow_connection__message">Během hovoru se mohou vyskytnout potíže</string>
+    <string name="incoming__controls__ongoing__speaker">REPRODUKTOR</string>
+    <string name="incoming__controls__ongoing__mute">ZTLUMIT</string>
+    <string name="incoming__controls__ongoing__video">VIDEO</string>
+    <string name="incoming__controls__ongoing__flip">FLIP</string>
+    <string name="ongoing__poor_connection_message">VIDEO ZASTAVENO Z DŮVODU ŠPATNÉHO SPOJENÍ</string>
+    <string name="calling__self_preview_unavailable_long">KAMERA NENÍ K DISPOZICI</string>
+    <string name="calling__header__joining">Připojuji&#8230;</string>
+    <string name="calling__header__outgoing_subtitle">Zvoní&#8230;</string>
+    <string name="calling__header__outgoing_video_subtitle">Zvoní&#8230;</string>
+    <string name="calling__header__incoming_subtitle">Volá&#8230;</string>
+    <string name="calling__header__incoming_subtitle__video">Volá&#8230;</string>
+    <string name="calling__header__incoming_subtitle__group">%1$s is calling&#8230;</string>
+    <string name="call_banner_joining">Připojuji&#8230;</string>
+    <string name="call_banner_outgoing">Calling %1$S&#8230;</string>
+    <string name="call_banner_incoming">%1$s is calling&#8230;</string>
+    <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
+    <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
+    <string name="calling_ongoing_call_title">Probíhající hovor</string>
+    <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+    <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+    <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+    <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
+    <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
+    <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
+    <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
+    <!-- Calling in group conversation -->
+    <string name="group_calling_title">Zahájit hovor</string>
+    <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+    <string name="group_calling_confirm">Hovor</string>
+    <!-- Connect request -->
+    <string name="connect__message">Ahoj %1$s, \nSpojme se přes Wre. \n%2$s</string>
+    <string name="connect_request__sub_header__pending_label">Nevyřízené</string>
+    <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
+    <string name="connect_request__unblock__button__text">Odblokovat</string>
+    <string name="send_connect_request__connect_button__text">CONNECT</string>
+    <plurals name="connect_inbox__link__name">
+        <item quantity="one">1 čekající osoba</item>
+        <item quantity="few">%1$s lidé čekají</item>
+        <item quantity="many">%1$s people waiting</item>
+        <item quantity="other">%1$s lidí čeká</item>
+    </plurals>
+    <string name="connect_request__ignore_button__text">Ignorovat</string>
+    <string name="content__message__connect_request__footer">PŘIPOJENO</string>
+    <string name="content__message__connect_request__auto_connect__footer">AUTOMATICKY PŘIPOJENO. _ZJISTIT VÍCE_</string>
+    <!-- Otr-->
+    <plurals name="conversation__degraded_confirmation__header__single_user">
+        <item quantity="one">%1$s začal(a) používat nové zařízení.</item>
+        <item quantity="few">%1$s začali používat nová zařízení.</item>
+        <item quantity="many">%1$s started using new devices.</item>
+        <item quantity="other">%1$s začali používat nová zařízení.</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__header__someone">Někdo začal používat nové zařízení.</string>
+    <string name="conversation__degraded_confirmation__header__multiple_user">%1$s a %2$s začali používat nová zařízení.</string>
+    <plurals name="conversation__degraded_confirmation__message">
+        <item quantity="one">Chcete přesto odeslat svou zprávu?</item>
+        <item quantity="few">Chcete přesto odeslat své zprávy?</item>
+        <item quantity="many">Chcete přesto odeslat své zprávy?</item>
+        <item quantity="other">Chcete přesto odeslat své zprávy?</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__positive_action">Přesto odeslat</string>
+    <plurals name="conversation__degraded_confirmation__negative_action">
+        <item quantity="one">Zobrazit zařízení</item>
+        <item quantity="few">Zobrazit lidi</item>
+        <item quantity="many">Show people</item>
+        <item quantity="other">Zobrazit lidi</item>
+    </plurals>
+    <string name="conversation__degraded_confirmation__negative_action_self">Zobrazit vaše zařízení</string>
+    <string name="conversation_degraded_confirmation__header__you">Vy</string>
+    <!-- Picture selection confirmation -->
+    <string name="confirmation_menu__confirm_done">OK</string>
+    <string name="confirmation_menu__cancel">ZRUŠIT</string>
+    <!-- ADD TO CONVERSATION offline -->
+    <!-- CREATE GROUP CONVERSATION FROM 1:1 offline -->
+    <!-- Leave conversation -->
+    <string name="confirmation_menu__meta_remove">Opustit konverzaci?</string>
+    <string name="confirmation_menu__meta_remove_text">Nebudete moci odesílat ani přijímat zprávy v této konverzaci.</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <!-- Remove from conversation dialogue -->
+    <string name="confirmation_menu__header">Odstranit?</string>
+    <string name="confirmation_menu_text_with_name">%1$s nebude moci odesílat ani přijímat zprávy v této konverzaci.</string>
+    <string name="confirmation_menu__confirm_remove">ODSTRANIT</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <!-- Block someone dialogue -->
+    <string name="confirmation_menu__block_header">Blokovat?</string>
+    <string name="confirmation_menu__block_text_with_name">%1$s vás nebude moci kontaktovat nebo přizvat ke skupinové konverzaci.</string>
+    <string name="confirmation_menu__confirm_block">Blokovat</string>
+    <!-- RE-USING: confirmation_menu.cancel -->
+    <string name="connect_request__footer__blocked_label">Blokováno</string>
+    <!-- Delete conversation -->
+    <string name="confirmation_menu__meta_delete">Vymazat obsah?</string>
+    <string name="confirmation_menu__meta_delete_text">This will clear the conversation history on all your devices.</string>
+    <!-- Rich media -->
+    <string name="content__youtube__error__text">video nenalezeno</string>
+    <string name="mediaplayer__message__onsoundcloud">na Soundcloudu</string>
+    <string name="mediaplayer__message__onspotify">na Spotify</string>
+    <!-- Invite banner -->
+    <!-- Self profile -->
+    <!-- Options and settings -->
+    <string name="settings_title">Nastavení</string>
+    <!-- Options menu -->
+    <!-- Manage Team -->
+    <string name="pref_manage_team_title">Manage Team</string>
+    <!-- About screen -->
+    <string name="pref_category_title">Nastavení</string>
+    <string name="pref_developer_screen_title">Nastavení pro vývojáře</string>
+    <string name="pref_dev_avs_screen_title">Nastavení AVS</string>
+    <string name="pref_profile_screen_title">Profil</string>
+    <!-- Account -->
+    <string name="pref_account_screen_title">Účet</string>
+    <string name="pref_account_name_title">Jméno</string>
+    <string name="pref_account_edit_name_title">Upravit jméno</string>
+    <string name="pref_account_details_category_title">Info</string>
+    <string name="pref_account_actions_category_title">Akce</string>
+    <string name="pref_account_appearance_category_title">Vzhled</string>
+    <string name="pref_account_personal_information_category_title">Personal Information</string>
+    <string name="pref_account_conversations_category_title">History</string>
+    <string name="pref_account_username_title">Uživatelské jméno</string>
+    <string name="pref_account_phone_title">Telefon</string>
+    <string name="pref_account_add_phone_title">Přidat telefonní číslo</string>
+    <string name="pref_account_email_title">Email</string>
+    <string name="pref_account_add_email_title">Přidat e-mail</string>
+    <string name="pref_account_delete">Smazat</string>
+    <string name="pref_account_sign_out_title">Odhlásit se</string>
+    <string name="pref_account_color_title">Barva</string>
+    <string name="pref_account_picture_title">Obrázek</string>
+    <string name="pref_account_delete_title">Smazat účet</string>
+    <string name="pref_account_delete_warning_title">Smazat účet</string>
+    <string name="pref_account_delete_warning_message_email">Zašleme vám email na:\n[[%1$s]]\nPro trvalé smazání svého účtu otevřete zaslaný odkaz.</string>
+    <string name="pref_account_delete_warning_message_sms">Zašleme vám SMS na:\n[[%1$s]]\nPro trvalé smazání svého účtu otevřete zaslaný odkaz.</string>
+    <string name="pref_account_delete_warning_verify">OK</string>
+    <string name="pref_account_delete_warning_cancel">Zrušit</string>
+    <string name="pref_account_sign_out_warning_message">Opravdu se chcete odhlásit?</string>
+    <string name="pref_account_sign_out_warning_verify">Odhlásit se</string>
+    <string name="pref_account_sign_out_warning_cancel">Zrušit</string>
+    <string name="pref_account_password_title">Resetovat heslo</string>
+    <string name="pref_account_edit_name_empty_warning">Jméno musí mít 2 nebo více znaků</string>
+    <string name="pref_account_edit_name_empty_verify">OK</string>
+    <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
+    <string name="pref_backup_screen_title">Back Up Conversations</string>
+    <!-- Data Usage Permissions -->
+    <string name="pref_advanced_send_anonymous_data_title">Sdílet anonymní údaje</string>
+    <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
+    <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
+    <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
+    <!-- Options -->
+    <string name="pref_options_dark_theme_title">Tmavý motiv</string>
+    <string name="pref_options_screen_title">Nastavení</string>
+    <string name="pref_options_contacts_title">Sdílet kontakty</string>
+    <string name="pref_options_contacts_summary">Sdílením svých kontaktů si zjednodušíte propojení s ostatními. Všechny informace anonymizujeme a nikdy je neposkytujeme nikomu dalšímu.</string>
+    <string name="pref_options_vbr_title">Proměnlivý datový tok (VBR)</string>
+    <string name="pref_options_vbr_summary">Toto umožňuje využít pro hlasové hovory méně dat a funguje lépe v pomalejších sítích. Vypněte pro použití konstantního datového toku.</string>
+    <string name="pref_options_alerts_category_title">Upozornění</string>
+    <string name="pref_options_calls_category_title">Hovory</string>
+    <string name="pref_options_sounds_title">Zvuky</string>
+    <string name="pref_options_sounds_all">Vše</string>
+    <string name="pref_options_sounds_new_conversations_and_talks_only">První zpráva, ping, volání</string>
+    <string name="pref_options_sounds_none">Žádné</string>
+    <string name="pref_options_vibration_title">Vibrace</string>
+    <string name="pref_options_vibration_title_o">Vibrate on ring</string>
+    <string name="pref_options_ringtones_category_title">Zvuky</string>
+    <string name="pref_options_ringtones_ringtone_title">Vyzvánění</string>
+    <string name="pref_options_ringtones_text_title">Zvuk zprávy</string>
+    <string name="pref_options_ringtones_ping_title">Odezva</string>
+    <string name="pref_options_ringtones_default_summary">Výchozí nastavení Wire</string>
+    <string name="pref_options_ringtones_silent">Tichý</string>
+    <string name="pref_options_image_download_title">Stáhnout obrázky</string>
+    <string name="pref_options_image_download_always">Vždy</string>
+    <string name="pref_options_image_download_wifi">Pouze Wi-Fi</string>
+    <string name="pref_options_media_category_title">Média</string>
+    <string name="pref_options_requested_category_title">Podle popularity poptávky</string>
+    <string name="pref_options_cursor_send_button_title">Tlačítko Odeslat</string>
+    <string name="pref_options_cursor_send_button_summary">Zakázat odesílání zpráv pomocí klávesnice.</string>
+    <!-- Devices -->
+    <string name="pref_devices_screen_title">Přístroje</string>
+    <string name="pref_devices_current_device_category_title">Aktuální zařízení</string>
+    <string name="pref_devices_other_devices_category_title">Další zařízení</string>
+    <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
+    <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
+    <string name="pref_devices_device_id">ID: %1$s</string>
+    <string name="pref_devices_device_verified">Ověreno</string>
+    <string name="pref_devices_device_not_verified">Neověřeno</string>
+    <string name="pref_devices_warning_summary">Pokud nepoznáváte některé ze zařízení výše, odstraňte jej a změňte si heslo.</string>
+    <string name="pref_devices_device_screen_title">Podrobnosti o zařízení</string>
+    <string name="pref_devices_device_fingerprint_category_title">Otisk prstu</string>
+    <string name="pref_devices_device_fingerprint_summary">Aplikace Wire přiděluje každému přístroji unikátní identifikátor. Jejich porovnáním ověříte své přístroje a konverzace.</string>
+    <string name="pref_devices_device_actions_category_title">Akce</string>
+    <string name="pref_devices_device_reset_session_title">Resetovat sezení</string>
+    <string name="pref_devices_device_reset_session_summary">Pokud se identifikátory neshodují, začněte novou relaci pro vygenerování nových klíčů na obou stranách.</string>
+    <string name="pref_devices_device_remove_title">Odstranit zařízení</string>
+    <string name="pref_devices_device_remove_summary">Jestliže jste přestali používat toto zařízení, odeberte jej. Poté z něj budete okamžitě odhlášeni.</string>
+    <string name="pref_devices_device_fingerprint_copy_description">Otisk prstu</string>
+    <string name="pref_devices_device_fingerprint_copy_toast">Otisk prstu zkopírován</string>
+    <!-- Advanced -->
+    <string name="pref_advanced_screen_title">Pokročilé</string>
+    <string name="pref_advanced_debug_report_title">Odeslat zprávu o ladění</string>
+    <string name="pref_advanced_debug_report_summary">Pomáhá podpoře Wire diagnostikovat problémy.</string>
+    <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
+    <string name="pref_advanced_reset_push_summary">Pokud máte potíže s push notifikacemi, podpora Wire vás může požádat o obnovení tohoto tokenu.</string>
+    <string name="pref_advanced_reset_push_completed">Token byl obnoven</string>
+    <string name="debug_report__title">Wire zpráva o ladění - %1$s</string>
+    <string name="debug_report__body">Popište, prosím, kroky potřebné k reprodukci problému, pokud možno i se screenshoty, a odešlete na tento email.\n\n</string>
+    <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+    <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
-  <!-- Support -->
-  <string name="pref_support_screen_title">Podpora</string>
-  <string name="pref_support_website_title">Webové stránky podpory</string>
-  <string name="pref_support_contact_title">Kontaktovat podporu</string>
-  <!-- About -->
-  <string name="pref_about_screen_title">O aplikaci</string>
-  <string name="pref_about_website_title">Wire webové stránky</string>
-  <string name="pref_about_tos_title">Podmínky používání</string>
-  <string name="pref_about_privacy_policy_title">Zásady ochrany osobních údajů</string>
-  <string name="pref_about_licenses_title">Informace o licenci</string>
-  <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
-  <string name="pref_about_version_title">Verze %s</string>
-  <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
-  <!-- Pref invite -->
-  <string name="pref_invite_title">Pozvat lidi do aplikace Wire</string>
-  <!-- Preference Account Actions -->
-  <string name="pref__account_action__phone_verification__title">Ověřit telefonní číslo</string>
-  <string name="pref__account_action__phone_verification__description">Zadejte ověřovací kód, který jsme poslali na %s</string>
-  <string name="pref__account_action__phone_verification__code">Kód</string>
-  <string name="pref__account_action__phone_verification__question">Kód nedošel?</string>
-  <string name="pref__account_action__phone_verification__resend"><u>Odelat kód znovu</u></string>
-  <string name="pref__account_action__phone_verification__change"><u>Změnit telefonní číslo</u></string>
-  <string name="pref__account_action__email_verification__title">Ověřit e-mailovou adresu</string>
-  <string name="pref__account_action__email_verification__description">Zkontrolujte doručenou poštu a postupujte dle instrukcí.</string>
-  <string name="pref__account_action__email_verification__question">Žádný email nedošel?</string>
-  <string name="pref__account_action__email_verification__resend">&lt;u&gt;Přeposlat na %s&lt;/u&gt;</string>
-  <string name="pref__account_action__email_verification__change"><u>Změnit e-mail</u></string>
-  <string name="pref__account_action__dialog__add_email_password__password">Heslo</string>
-  <string name="pref__account_action__dialog__add_email_password__email">Email</string>
-  <string name="pref__account_action__dialog__add_email_password__title">Přidat e-mailovou adresu</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Neplatná emailová adresa</string>
-  <string name="pref__account_action__dialog__add_email_password__error__invalid_password">Alespoň 8 znaků</string>
-  <string name="pref__account_action__dialog__edit_phone__title">Upravit telefonní číslo</string>
-  <string name="pref__account_action__dialog__add_phone__title">Přidat telefonní číslo</string>
-  <string name="pref__account_action__dialog__add_phone__error__country">Neplatný kód země</string>
-  <string name="pref__account_action__dialog__add_phone__error__number">Neplatné telefonní číslo</string>
-  <string name="pref__account_action__dialog__add_phone__confirm__title">Potvrdit číslo</string>
-  <string name="pref__account_action__dialog__add_phone__confirm__message">Zašleme vám kód upozornění na: \n%s</string>
-  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Odstranit</string>
-  <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Opravdu chcete odstranit %s z vašeho Wire účtu?</string>
-  <string name="pref__account_action__dialog__delete_phone__error">Nelze smazat telefonní číslo</string>
-  <string name="pref__account_action__dialog__change_email__title">Upravit e-mailovou adresu</string>
-  <string name="pref__account_action__dialog__change_username__rules">Alespoň 2 znaky. Pouze a–z, 0–9, a _</string>
-  <string name="pref__account_action__dialog__change_username__title">Uživatelské jméno</string>
-  <string name="pref__account_action__dialog__change_username__error_already_taken">Již uděleno</string>
-  <string name="pref__account_action__dialog__change_username__error_unknown">Chyba připojení, zkuste to prosím znovu</string>
-  <!-- No Internet connection -->
-  <string name="system_status__no_internet">BEZ INTERNETU</string>
-  <!-- SHARING -->
-  <string name="alert_dialog__confirmation">OK</string>
-  <string name="alert_dialog__no_network__header">Nejste připojeni k Internetu</string>
-  <string name="sign_up__set_picture__choose">Vyberte své vlastní</string>
-  <string name="sign_up__set_picture__keep">Ponechat tento</string>
-  <string name="sign_up__set_picture__guidance">Wire je o tolik hezčí s obrázkem.</string>
-  <string name="sign_up__set_picture__loading">Načítání fotografie</string>
-  <string name="leave_conversation_failed__message">Pro opuštění konverzace musíte být online. Zkontrolujte připojení a zkuste to znovu.</string>
-  <string name="remove_from_conversation__no_network__message">Pro odebrání lidí z konverzace musíte být online. Zkontrolujte připojení a zkuste to znovu.</string>
-  <string name="calling__call_drop__message">Pro uskutečnení hovoru musíte být online. Zkontrolujte připojení a zkuste to znovu.</string>
-  <!-- Lockscreen and notifications -->
-  <string name="message_notifications_channel_name">Zprávy</string>
-  <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
-  <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-  <string name="ping_notifications_channel_name">Pings</string>
-  <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
-  <string name="ongoing_channel_name">Background notifications</string>
-  <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
-  <string name="foreground_service_notification_name">Maintain connection to server</string>
-  <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
-  <plurals name="notification__new_messages__multiple">
-    <item quantity="one">Zpráva v %2$s konverzaci</item>
-    <item quantity="few">%1$d zprávy ve %2$s konverzacích</item>
-    <item quantity="many">%1$d messages in %2$s conversations</item>
-    <item quantity="other">%1$d zpráv ve %2$s konverzacích</item>
-  </plurals>
-  <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
-  <string name="notification__message__group__prefix__text">%1$s v %2$s: \u0020</string>
-  <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
-  <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
-  <string name="notification__message__one_to_one__wanted_to_talk">Volal(a)</string>
-  <string name="notification__message__one_to_one__pinged">Pingnut</string>
-  <string name="notification__message__one_to_one__shared_picture">Sdílel(a) obrázek</string>
-  <string name="notification__message__one_to_one__shared_file">Sdílel(a) soubor</string>
-  <string name="notification__message__one_to_one__shared_video">Sdílel(a) video</string>
-  <string name="notification__message__one_to_one__shared_audio">Sdílel(a) zvukovou zprávu</string>
-  <string name="notification__message__one_to_one__shared_location">Sdílel(a) polohu</string>
-  <!-- %1$s == username, %2$s == conversation -->
-  <string name="notification__message__group__prefix__other">%1$s v %2$s \u0020</string>
-  <string name="notification__message__group__renamed_conversation">přejmenoval(a) konverzaci na %1$s</string>
-  <string name="notification__message__group__add">přidal(a) lidi do konverzace</string>
-  <string name="notification__message__group__remove">odebral lidi z konverzace</string>
-  <string name="notification__message__single__accept_request">Vy a %1$s jste nyní spojeni</string>
-  <string name="notification__message__group__default_conversation_name">skupinová konverzace</string>
-  <string name="notification__message__send_failed">Message failed to send</string>
-  <string name="notification__message__ephemeral">Sent a message</string>
-  <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
-  <string name="notification__message__liked">\u2764 ‘%1$s’</string>
-  <string name="notification__message__liked_message">\u2764 vaši zprávu</string>
-  <string name="notification__message__liked_picture">\u2764 your picture</string>
-  <!-- ephemeral -->
-  <string name="notification__message__ephemeral_someone">Někdo</string>
-  <plurals name="notification__message__ephemeral">
-    <item quantity="one">Někdo vám poslal zprávu</item>
-    <item quantity="few">Někdo vám poslal %1$d zprávy</item>
-    <item quantity="many">Someone sent you %1$d messages</item>
-    <item quantity="other">Někdo vám poslal %1$d zpráv</item>
-  </plurals>
-  <string name="other_set_message_timer">[[%1$s]] set the message timer to [[%2$s]]</string>
-  <string name="you_set_message_timer">[[You]] set the message timer to [[%1$s]]</string>
-  <string name="other_turned_off_message_timer">[[%1$s]] turned off the message timer</string>
-  <string name="you_turned_off_message_timer">[[You]] turned off the message timer</string>
-  <!-- Others -->
-  <string name="app_name">Wire</string>
-  <string name="content__system__item_separator">,</string>
-  <string name="content__system__last_item_separator">a</string>
-  <string name="content__system__you">jste</string>
-  <plurals name="content__system__other_members">
-    <item quantity="one">%1$s other</item>
-    <item quantity="few">%1$s others</item>
-    <item quantity="many">%1$s others</item>
-    <item quantity="other">%1$s others</item>
-  </plurals>
-  <!-- System notifications -->
-  <string name="system_notification__silence_call">Zamítnout</string>
-  <string name="system_notification__join_call">Přijmout</string>
-  <string name="system_notification__leave_call">Ukončit hovor</string>
-  <string name="system_notification__calling_one">Volá&#8230;</string>
-  <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
-  <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
-  <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
-  <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
-  <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
-  <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
-  <string name="ws_foreground_notification_summary">Tap here for more information.</string>
-  <!-- Notification actions -->
-  <string name="notification__action__call">Hovor</string>
-  <string name="notification__action__reply">Odpovědět</string>
-  <!-- Quick reply -->
-  <string name="quick_reply__counter">%1$d z %2$d</string>
-  <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
-  <string name="quick_reply__open_wire">Otevřít Wire</string>
-  <!-- Save image notification -->
-  <string name="notification__image_saving__content__title">Obrázek profilu uložen.</string>
-  <string name="notification__image_saving__content__subtitle">Dotykem zobrazte.</string>
-  <string name="notification__image_saving__action__share">Sdílet</string>
-  <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
-  <dimen name="notification__image_saving__image_width">512dp</dimen>
-  <!-- forced update -->
-  <string name="forced_update__header">Důležitá aktualizace</string>
-  <string name="forced_update__sub_header">Nainstalujte si prosím nejnovější verzi Wire.</string>
-  <string name="forced_update__download_button">Stáhnout</string>
-  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Sharing -->
-  <string name="sharing__image_preview__confirm_action">ODESLAT</string>
-  <string name="sharing__user_not_logged_in__dialog__title">Přihlaste se, prosím</string>
-  <string name="sharing__user_not_logged_in__dialog__message">Pro sdílení otevřete Wire a přihlaste se.</string>
-  <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
-  <!-- Sync errors -->
-  <string name="in_app_notification__sync_error__create_group_convo__title">Nelze vytvořit</string>
-  <string name="in_app_notification__sync_error__create_group_convo__body">Nelze vytvořit konverzaci s %1$s</string>
-  <string name="in_app_notification__sync_error__add_user__body">%1$s nechce být přidán(a) do konverzace.</string>
-  <string name="in_app_notification__sync_error__add_multiple_user__body">Jeden z lidí které jste vybrali nechce být přidán do konverzace.</string>
-  <string name="in_app_notification__sync_error__unknown__body">Něco se pokazilo. Zkuste prosím znovu.</string>
-  <string name="in_app_notification__sync_error__create_convo__button">Pokračovat</string>
-  <!--Timestamp formatting -->
-  <string name="timestamp__just_now">Právě teď</string>
-  <plurals name="timestamp__x_minutes_ago">
-    <item quantity="one">před minutou</item>
-    <item quantity="few">před %1$d minutami</item>
-    <item quantity="many">%1$d minutes ago</item>
-    <item quantity="other">před %1$d minutami</item>
-  </plurals>
-  <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
-  <!-- Example: FRIDAY, MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__no_year">EEE d. MMM %1$s</string>
-  <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year">EEE d. MMM YYYY %1$s</string>
-  <!-- Example: MAR 9, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__no_year_no_weekday">d. MMM %1$s</string>
-  <!-- Example: MAR 9, 2015, 11:29 -->
-  <string name="timestamp_pattern__date_and_time__with_year_no_weekday">d MMM YYYY %1$s</string>
-  <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
-  <!-- MONDAY -->
-  <!-- MARCH 2 -->
-  <!-- MARCH 2, 2015 -->
-  <!-- 23:15 -->
-  <string name="timestamp_pattern__24h_format">HH:mm</string>
-  <string name="timestamp_pattern__12h_format">hh:mm a</string>
-  <string name="country">Země</string>
-  <string name="register">Registrovat se</string>
-  <string name="password_placeholder">Heslo</string>
-  <string name="email_placeholder">Email</string>
-  <string name="name_placeholder">Jméno</string>
-  <!-- Strings -->
-  <string name="edit_phone_number">UPRAVIT TELEFONNÍ ČÍSLO</string>
-  <string name="i_have_an_account">PŘIHLÁSIT SE</string>
-  <plurals name="welcome__resend__timer_label">
-    <item quantity="one">MŮŽETE POŽÁDAT O NOVÝ KÓD ZA %1$d SEKUNDU</item>
-    <item quantity="few">MŮŽETE POŽÁDAT O NOVÝ KÓD ZA %1$d SEKUNDY</item>
-    <item quantity="many">YOU CAN REQUEST A NEW CODE IN %1$d SECONDS</item>
-    <item quantity="other">MŮŽETE POŽÁDAT O NOVÝ KÓD ZA %1$d SEKUND</item>
-  </plurals>
-  <string name="welcome__resend__manual">ZNOVU ODESLAT</string>
-  <string name="welcome__resend__callme">ZAVOLEJTE MI</string>
-  <string name="activation_code_info_manual">Zadejte ověřovací kód, který jsme poslali na \n&lt;b&gt;%s&lt;/b&gt;</string>
-  <string name="enter_name">Jak vám máme říkat?</string>
-  <string name="enter_name_hint">Zadejte celé jméno</string>
-  <string name="new_reg__password__forgot">Zapomněli jste heslo?</string>
-  <string name="phone_sign_in">Telefon</string>
-  <string name="email_sign_in">Email</string>
-  <string name="edit_email">Upravit Email</string>
-  <string name="hello">Dobrý den, &lt;b&gt;%s&lt;/b&gt;</string>
-  <string name="sign_in">Přihlásit se</string>
-  <string name="new_reg__password_length">ALESPOŇ %1$s ZNAKY</string>
-  <string name="username__set__toast_error">Chyba při aktualizaci uživatelského jména</string>
-  <!-- Giphy -->
-  <string name="giphy_preview__search_hint">Hledat Giphy</string>
-  <string name="giphy_preview__error">ŽÁDNÉ GIFY NENALEZENY.</string>
-  <string name="giphy_preview__message_via_random_trending">Přes giphy.com</string>
-  <string name="giphy_preview__message_via_search">%s · přes giphy.com</string>
-  <string name="service_giphy_name">Giphy</string>
-  <!--Sketch-->
-  <string name="drawing__tip__picture__message">ŤUKNĚTE NA BARVU PRO ZMĚNU VELIKOSTI ŠTĚTCE.\n\nZATŘESTE PRO ODSTRANENÍ FOTEK.</string>
-  <string name="drawing__tip__message">ŤUKNĚTE NA BARVU PRO ZMĚNU VELIKOSTI ŠTĚTCE.\n\nSTISKNĚTE A PODRŽTE PRO VYPLNĚNÍ OBLASTI.</string>
-  <string name="sketch__emoji_keyboard__size_label__small">MALÉ</string>
-  <string name="sketch__emoji_keyboard__size_label__medium">STŘEDNÍ</string>
-  <string name="sketch__emoji_keyboard__size_label__large">VELKÉ</string>
-  <string name="toolbar__sketch__action_close">Zavřít</string>
-  <string name="drawing__text_hint">NAPIŠTE ZPRÁVU</string>
-  <!-- Location sharing -->
-  <string name="location_sharing__tip">Pro změnu polohy přetáhněte mapu</string>
-  <string name="location_sharing__permission_error">Nelze načíst aktuální polohu, nedostatek oprávnění</string>
-  <string name="location_sharing__send_button">ODESLAT</string>
-  <string name="location_sharing__enable_system_location__title">Použít polohu?</string>
-  <string name="location_sharing__enable_system_location__message">Pro zobrazení aktuální polohy povolte zjišťování polohy v nastavení</string>
-  <string name="location_sharing__enable_system_location__confirm">Nastavení</string>
-  <string name="location_sharing__enable_system_location__cancel">Zrušit</string>
-  <string name="location_sharing__missing_play_services">Pro sdílení polohy jsou zapotřebí Služby Google Play</string>
-  <!-- From SyncEngine -->
-  <string name="new_reg__phone_signup__create_account">Vytvořit účet</string>
-  <!-- OTR -->
-  <string name="otr__remove_device__title">Odstranit %1$s</string>
-  <string name="otr__remove_device__message">Zadejte své heslo</string>
-  <string name="otr__remove_device__default">zařízení</string>
-  <string name="otr__remove_device__button_delete">OK</string>
-  <string name="otr__remove_device__button_cancel">Zrušit</string>
-  <string name="otr__remove_device__error">Špatné heslo</string>
-  <string name="otr__error_dialog__cannot_register__message">Odeberte jedno ze svých zařízení abyste mohli začít používat Wire i zde.</string>
-  <string name="otr__error_dialog__cannot_register__manage_devices_button">Spravovat zařízení</string>
-  <string name="otr__error_dialog__cannot_register__log_out_button">Odhlásit se</string>
-  <!-- OTR Participants -->
-  <string name="otr__participant__device_header">Wire přiřazuje každému zařízení jedinečný identifikátor. Porovnejte je s %1$s a ověřte svou konverzaci.</string>
-  <string name="otr__participant__device_header__no_devices">%1$s používá starší verzi aplikace Wire. Nejsou zde zobrazena žádná zařízení.</string>
-  <string name="otr__participant__device_header__link_text">_Proč ověřovat konverzace?_</string>
-  <string name="otr__participant__device_class__unknown">Neznámé</string>
-  <string name="otr__participant__device_class__phone">Telefon</string>
-  <string name="otr__participant__device_class__tablet">Tablet</string>
-  <string name="otr__participant__device_class__desktop">Stolní počítač</string>
-  <string name="otr__participant__tab_details">Podrobnosti</string>
-  <string name="otr__participant__tab_devices">Přístroje</string>
-  <string name="otr__participant__single_device__my_fingerprint_link">Zorazit identifikátor mého zařízení</string>
-  <string name="otr__participant__single_device__reset_session_link">Resetovat sezení</string>
-  <string name="otr__participant__my_device__description">Identifikátor vašeho zařízení</string>
-  <string name="otr__participant__my_device__show_all_devices_link">Zobrazit všechna zařízení</string>
-  <string name="otr__participant__single_device__description">Ověřte, zda to odpovídá identifikátoru zobrazenému na si %1$s zařízení.</string>
-  <string name="otr__participant__single_device__how_to_link">_Jak to mám udělat?_</string>
-  <string name="otr__device_id">ID: %s</string>
-  <string name="otr__first_launch__header">Toto je poprvé, co používáte Wire na tomto zařízení.</string>
-  <string name="otr__first_launch__sub_header">Z důvodů ochrany soukromí se zde nezobrazí historie vaší konverzace.</string>
-  <string name="otr__first_launch__button">OK</string>
-  <string name="otr__signin__info_text">Přihlásit se</string>
-  <string name="otr__reset_session__message_ok">Relace byla resetována</string>
-  <string name="otr__reset_session__message_fail">Nelze resetovat relaci</string>
-  <string name="otr__reset_session__button_ok">OK</string>
-  <string name="otr__reset_session__button_fail">Zkusit znovu</string>
-  <string name="advanced_image_download_wifi_info">Obrázek se zobrazí až budete znovu online</string>
-  <string name="change_settings">Změnit nastavení</string>
-  <string name="conversation_list__action_join_call">PŘIPOJIT</string>
-  <!-- Conversation Toolbar -->
-  <string name="conversation_toolbar__collection">Sbírka</string>
-  <string name="conversation_toolbar__call_video">Videohovor</string>
-  <string name="conversation_toolbar__call_audio">Hlasový hovor</string>
-  <!-- Asset upload errors -->
-  <string name="asset_upload_error__not_found__title">Soubor nenalezen</string>
-  <string name="asset_upload_error__not_found__message">Nepodařilo se nalézt zadaný soubor</string>
-  <string name="asset_upload_error__not_found__button">OK</string>
-  <string name="asset_upload_error__file_too_large__title">Soubor je příliš velký</string>
-  <string name="asset_upload_error__file_too_large__message_default">Odesílání velkých souborů není podporováno.</string>
-  <string name="asset_upload_error__file_too_large__message">Můžete posílat soubory až do %1$s.</string>
-  <string name="asset_upload_error__file_too_large__button">OK</string>
-  <string name="asset_upload_warning__large_file__title">Nejste na Wi-Fi</string>
-  <string name="asset_upload_warning__large_file__message_default">Jste si jist(á), že chcete odeslat velký soubor pomocí mobilní sítě?</string>
-  <string name="asset_upload_warning__large_file__message">Jste si jist(á), že chcete odeslat %1$s pomocí mobilní sítě?</string>
-  <!-- Video message errors -->
-  <string name="audio_message_error__missing_audio_permissions">Pokud chcete posílat zvukové zprávy, udělte oprávnění pro záznam zvuku.</string>
-  <!-- Audio bit rate mode -->
-  <string name="audio_message__constant_bit_rate">KONSTANTNÍ DATOVÝ TOK</string>
-  <!-- no contacts -->
-  <string name="no_conversation_in_list__header">Zatím žádné konverzace</string>
-  <string name="all_archived__header">Vše archivováno</string>
-  <string name="no_conversation_in_list__message">Zahájit konverzaci nebo vytvořte skupinu.</string>
-  <string name="cursor__type_a_message">NAPIŠTE ZPRÁVU</string>
-  <string name="cursor__ephemeral_message">ČASOVANÁ ZPRÁVA</string>
-  <string name="tooltip_record">Nahrát video</string>
-  <string name="tooltip_camera">Přidat fotku</string>
-  <string name="tooltip_sketch">Nakreslit obrázek</string>
-  <string name="tooltip_ping">Odezva</string>
-  <string name="tooltip_emoji">Emoji</string>
-  <string name="tooltip_location">Poloha</string>
-  <string name="tooltip_more">Další akce</string>
-  <string name="tooltip_audio_message">Klepnutím a podržením zvukovou zprávu odešlete</string>
-  <string name="tooltip_file">Odeslat soubor</string>
-  <string name="tooltip_gif">Gif</string>
-  <string name="tooltip_mention">Add Mention</string>
-  <!-- Delete -->
-  <string name="conversation__message_action__delete_for_me">Smazat pouze u mně?</string>
-  <string name="conversation__message_action__delete_for_everyone">Smazat u všech?</string>
-  <string name="conversation__message_action__delete_details">Tuto operaci nelze vrátit.</string>
-  <string name="conversation__message_action__delete__dialog__cancel">Zrušit</string>
-  <string name="conversation__message_action__delete__dialog__ok">Smazat</string>
-  <string name="conversation__message_action__delete__confirmation">Zpráva smazána</string>
-  <string name="conversation__action_mode__copy__description">Zpráva od %1$s</string>
-  <string name="conversation__action_mode__copy__toast">Zkopírováno</string>
-  <string name="conversation__action_mode__fwd__dialog__title">Příprava obsahu</string>
-  <string name="conversation__action_mode__fwd__dialog__message">Prosím čekejte&#8230;</string>
-  <string name="conversation__action_mode__fwd__chooser__title">Sdílet s</string>
-  <!-- video message preview -->
-  <string name="audio_message__recording__slide_control__slide_hint">TAŽENÍM NAHORU ODESLAT</string>
-  <string name="audio_message__recording__slide_control__tap_hint">ŤUKNUTÍM ODESLAT</string>
-  <string name="audio_message__recording__tap_to_record">Dotykem nahrajte zprávu\n můžete ji poté _GLYPH_</string>
-  <string name="audio_message__recording__failure__title">Nelze zaznamenávat zvuk</string>
-  <string name="audio_message__recording__failure__message">Zkuste to prosím znovu.</string>
-  <string name="audio_message__recording__limit_reached__title">Nahrávání zastaveno</string>
-  <string name="audio_message__recording__limit_reached__message">Zvukové zprávy je omezena na 25MB. Odeslat tuto zprávu?</string>
-  <string name="audio_message__recording__limit_reached__confirmation">ODESLAT</string>
-  <string name="hint_change_filter">Vyberte filtr výše</string>
-  <string name="message_bottom_menu_action_forward">Sdílet</string>
-  <string name="message_bottom_menu_action_copy">Vložit</string>
-  <string name="message_bottom_menu_action_edit">Upravit</string>
-  <string name="message_bottom_menu_action_like">Líbí</string>
-  <string name="message_bottom_menu_action_unlike">Nelíbí</string>
-  <string name="message_bottom_menu_action_save">Uložit</string>
-  <string name="message_bottom_menu_action_open">Otevřít</string>
-  <string name="message_bottom_menu_action_delete">Smazat</string>
-  <string name="message_bottom_menu_action_delete_local">Smazat pro mě</string>
-  <string name="message_bottom_menu_action_delete_global">Smazat pro všechny</string>
-  <string name="message_bottom_menu_action_reveal">Odhalit v konverzaci</string>
-  <string name="likes_list__header">Toto se líbí</string>
-  <string name="message_bottom_menu_action_save_ok">Obrázek uložen</string>
-  <string name="message_footer__tap_to_like">Ťuknutím pochválit</string>
-  <plurals name="message_footer__number_of_likes">
-    <item quantity="one">%1$d lidí</item>
-    <item quantity="few">%1$d lidé</item>
-    <item quantity="many">%1$d lidí</item>
-    <item quantity="other">%1$d lidí</item>
-  </plurals>
-  <string name="message_footer__status__sending">Odesílá se&#8230;</string>
-  <string name="message_footer__status__sent">%1$s \u30FB Odesláno</string>
-  <string name="message_footer__status__delivered">%1$s \u30FB Doručeno</string>
-  <string name="message_footer__status__failed">Odesílání selhalo. _Opakovat_</string>
-  <string name="message_footer__status__deleted">%1$s \u30FB Smazáno</string>
-  <string name="ephemeral_message__timeout_selection_info">NASTAVIT ČAS DO ZMIZENÍ ZPRÁVY</string>
-  <string name="usernames__take_over__summary">Získajte Vaše jedinečné jméno na Wire. _Zjistěte více._</string>
-  <string name="usernames__take_over__choose">ZVOLTE SI VLASTNÍ</string>
-  <string name="usernames__take_over__keep">PONECHAT TENTO</string>
-  <string name="ephemeral_message__timeout__off">Vypnout</string>
-  <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
-  <string name="guests_option_on">On</string>
-  <plurals name="unit_years">
-    <item quantity="one">%1$s year</item>
-    <item quantity="few">%1$s years</item>
-    <item quantity="many">%1$s years</item>
-    <item quantity="other">%1$s years</item>
-  </plurals>
-  <plurals name="unit_weeks">
-    <item quantity="one">%1$s week</item>
-    <item quantity="few">%1$s weeks</item>
-    <item quantity="many">%1$s weeks</item>
-    <item quantity="other">%1$s weeks</item>
-  </plurals>
-  <plurals name="unit_days">
-    <item quantity="one">%1$s day</item>
-    <item quantity="few">%1$s days</item>
-    <item quantity="many">%1$s days</item>
-    <item quantity="other">%1$s days</item>
-  </plurals>
-  <plurals name="unit_hours">
-    <item quantity="one">%1$s hour</item>
-    <item quantity="few">%1$s hours</item>
-    <item quantity="many">%1$s hours</item>
-    <item quantity="other">%1$s hours</item>
-  </plurals>
-  <plurals name="unit_minutes">
-    <item quantity="one">%1$s minute</item>
-    <item quantity="few">%1$s minutes</item>
-    <item quantity="many">%1$s minutes</item>
-    <item quantity="other">%1$s minutes</item>
-  </plurals>
-  <plurals name="unit_seconds">
-    <item quantity="one">%1$s second</item>
-    <item quantity="few">%1$s seconds</item>
-    <item quantity="many">%1$s seconds</item>
-    <item quantity="other">%1$s seconds</item>
-  </plurals>
-  <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
-  <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
-  <string name="collection_header_pictures">OBRÁZKY</string>
-  <string name="collection_header_files">SOUBORY</string>
-  <string name="collection_header_links">ODKAZY</string>
-  <string name="collection_header_today">DNES</string>
-  <string name="collection_header_yesterday">VČERA</string>
-  <string name="collection_empty">ŽÁDNÉ POLOŽKY VE SBÍRCE</string>
-  <string name="collection_all">Zobrazit všechny %1$s</string>
-  <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-  <string name="multi_share_search_hint">ODESLAT&#8230;</string>
-  <string name="search__box__hint_text">HLEDAT ZPRÁVY</string>
-  <string name="search__no_results">Žádné výsledky.</string>
-  <!-- Conversation List -->
-  <plurals name="conversation_list__new_message_count">
-    <item quantity="one">%1$s message</item>
-    <item quantity="few">%1$s messages</item>
-    <item quantity="many">%1$s messages</item>
-    <item quantity="other">%1$s messages</item>
-  </plurals>
-  <plurals name="conversation_list__pings_count">
-    <item quantity="one">%1$s ping</item>
-    <item quantity="few">%1$s pingy</item>
-    <item quantity="many">%1$s pings</item>
-    <item quantity="other">%1$s pingy</item>
-  </plurals>
-  <plurals name="conversation_list__new_likes_count">
-    <item quantity="one">%1$s ♥</item>
-    <item quantity="few">%1$s ♥</item>
-    <item quantity="many">%1$s ♥</item>
-    <item quantity="other">%1$s ♥</item>
-  </plurals>
-  <plurals name="conversation_list__missed_calls_plural">
-    <item quantity="one">%1$s zmeškaný hovor</item>
-    <item quantity="few">%1$s zmeškaných hovorů</item>
-    <item quantity="many">%1$s zmeškaných hovorů</item>
-    <item quantity="other">%1$s zmeškaných hovorů</item>
-  </plurals>
-  <string name="conversation_list__missed_calls_count">Zmeškaný hovor</string>
-  <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
-  <plurals name="conversation_list__mentions_count">
-    <item quantity="one">%1$s mention</item>
-    <item quantity="few">%1$s mentions</item>
-    <item quantity="many">%1$s mentions</item>
-    <item quantity="other">%1$s mentions</item>
-  </plurals>
-  <string name="conversation_list__unsent_message_long">⚠️ Neodeslaná zpráva</string>
-  <string name="conversation_list__unsent_message_short">⚠</string>
-  <string name="conversation_list__shared__image">Sdílel(a) obrázek</string>
-  <string name="conversation_list__shared__file">Sdílel(a) soubor</string>
-  <string name="conversation_list__shared__video">Sdílel(a) video</string>
-  <string name="conversation_list__shared__audio">Sdílel(a) zvukovou zprávu</string>
-  <string name="conversation_list__shared__location">Sdílel(a) polohu</string>
-  <string name="conversation_list__missed_call">Zmeškaný hovor</string>
-  <string name="conversation_list__pinged">Pingnut</string>
-  <string name="conversation_list__ephemeral">Someone sent a message</string>
-  <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
-  <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
-  <string name="conversation_list__typing">Píše zprávu&#8230;</string>
-  <string name="conversation_list__someone">Někdo</string>
-  <string name="conversation_list__added">[[%1$s]] byl(a) přidán(a)</string>
-  <string name="conversation_list__added_you">[[%1$s]] vás přidal(a)</string>
-  <string name="conversation_list__left_you">Opustil jsi</string>
-  <string name="conversation_list__removed_you">[[%1$s]] vás odebral(a)</string>
-  <string name="conversation_list__header__title">KONVERZACE</string>
-  <string name="conversation_list__header__archive_title">ARCHIV</string>
-  <string name="guest_indicator">HOST</string>
-  <string name="participant_tab_guest_indicator_label">Host</string>
-  <string name="availability_none">Žádné</string>
-  <string name="availability_available">Dostupný</string>
-  <string name="availability_away">Away</string>
-  <string name="availability_busy">Busy</string>
-  <string name="availability_text_available">%1$s IS AVAILABLE</string>
-  <string name="availability_text_away">%1$s IS AWAY</string>
-  <string name="availability_text_busy">%1$s IS BUSY</string>
-  <string name="availability_setstatus">SET A STATUS</string>
-  <string name="preferences_profile_new">New Team or Account</string>
-  <string name="preferences_profile_add_account">Přidat účet</string>
-  <string name="preferences_profile_create_team">Vytvořit tým</string>
-  <string name="preferences_profile_in_team">v %1$s</string>
-  <string name="new_devices_dialog_title">Připojil(a) jste zařízení ke svému Wire účtu</string>
-  <string name="new_devices_dialog_info">Pokud jste to nebyli vy, odeberte použité zařízení a změňte si heslo.</string>
-  <string name="new_devices_dialog_manage_devices">Spravovat přístroje</string>
-  <string name="teams_set_email_title">Your account</string>
-  <string name="teams_set_email_subtitle">Enter your work email address.</string>
-  <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
-  <string name="teams_set_email_about">LEARN MORE</string>
-  <string name="teams_set_password_title">Set password</string>
-  <string name="teams_set_password_hint">ALESPOŇ 8 ZNAKŮ</string>
-  <string name="teams_set_username_title">Set username</string>
-  <string name="teams_set_username_hint">USERNAME</string>
-  <string name="teams_set_team_name_title">Name your team</string>
-  <string name="teams_set_team_name_subtitle">You can always change it later.</string>
-  <string name="teams_set_team_name_hint">TEAM NAME</string>
-  <string name="teams_set_team_name_about">WHAT IS WIRE FOR TEAMS?</string>
-  <string name="teams_verify_email_title">You\'ve got mail</string>
-  <string name="teams_verify_email_subtitle">Enter the verification code we sent to %1$s.</string>
-  <string name="teams_verify_email_resend">RESEND CODE</string>
-  <string name="teams_verify_email_change">CHANGE EMAIL</string>
-  <string name="teams_set_name_title">Your name</string>
-  <string name="teams_set_name_hint">FULL NAME</string>
-  <string name="app_entry_create_account">Osobní</string>
-  <string name="app_entry_create_account_sub">create an account</string>
-  <string name="app_entry_create_team">Pro</string>
-  <string name="app_entry_create_team_sub">create a team</string>
-  <string name="app_entry_login_sub">Already have an account?</string>
-  <string name="app_entry_login">Přihlásit se</string>
-  <string name="app_entry_tc_dialog_title">Terms of Service</string>
-  <string name="app_entry_tc_dialog_message">You must accept to continue</string>
-  <string name="app_entry_notifications_dialog_title">Upozornění</string>
-  <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
-  <string name="app_entry_dialog_accept">PŘIJMOUT</string>
-  <string name="app_entry_dialog_cancel">ZRUŠIT</string>
-  <string name="app_entry_dialog_log_in">PŘIHLÁSIT SE</string>
-  <string name="app_entry_dialog_no_thanks">NO, THANKS</string>
-  <string name="app_entry_dialog_not_now">NOT NOW</string>
-  <string name="app_entry_dialog_view">VIEW</string>
-  <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
-  <string name="app_entry_email_sent">Email sent</string>
-  <string name="teams_set_username_subtitle">Usernames help people find you.</string>
-  <string name="app_entry_sso_dialog_title">Company login</string>
-  <string name="app_entry_sso_dialog_message">Enter the company SSO access code.</string>
-  <string name="app_entry_sso_input_hint"></string>
-  <string name="pick_user_teams_invite">Invite people to join the team</string>
-  <string name="teams_invitations_skip">SKIP</string>
-  <string name="teams_invitations_done">DONE</string>
-  <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
-  <string name="teams_invitations_error_already_sent">Already sent</string>
-  <string name="teams_invitations_error_generic">Něco se pokazilo. Zkuste prosím znovu</string>
-  <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
-  <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
-  <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
-  <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
-  <string name="invitation_screen_title">Build your team</string>
-  <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
-  <string name="open_service_conversation_button_text">Otevřít konverzaci</string>
-  <string name="remove_service_button_text">Remove Service</string>
-  <string name="integrations_create_conversation">Create a new conversation</string>
-  <string name="no_matches_found">No matches found</string>
-  <string name="loading_services">Loading services&#8230;</string>
-  <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
-  <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
-  <string name="create_group_conversation">Vytvořit skupinu</string>
-  <string name="create_guest_room_conversation">Create guest room</string>
-  <string name="manage_services">Manage Services</string>
-  <string name="next_button">NEXT</string>
-  <string name="skip_button">SKIP</string>
-  <string name="done_button">DONE</string>
-  <string name="new_group_header">VYTVOŘIT SKUPINU</string>
-  <string name="add_participants_empty_header">ADD PARTICIPANTS</string>
-  <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
-  <string name="new_conv_no_results">Žádné výsledky</string>
-  <string name="new_conv_no_contacts">No contacts</string>
-  <string name="participants_divider_services">SERVICES (%1$s)</string>
-  <string name="participants_divider_people">PEOPLE (%1$s)</string>
-  <string name="group_name_hint">GROUP NAME</string>
-  <string name="allow_guests_toggle_text">Allow guests and services</string>
-  <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
-  <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
-  <string name="allow_guests">Allow guests and services</string>
-  <string name="guest_options_title">Guests and services</string>
-  <string name="ephemeral_options_title">Timed messages</string>
-  <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
-  <string name="show_all_participants">Show all (%1$s)</string>
-  <string name="allow_guests_error_title">Něco se pokazilo</string>
-  <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
-  <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
-  <string name="allow_guests_warning_confirm">Odstranit</string>
-  <string name="guests_are_present">GUESTS ARE PRESENT</string>
-  <string name="services_are_present">SERVICES ARE ACTIVE</string>
-  <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
-  <string name="participants_details_header_title">DETAILS</string>
-  <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
-  <string name="create_link_button">Create Link</string>
-  <string name="copy_link_button">Copy Link</string>
-  <string name="share_link_button">Share Link</string>
-  <string name="revoke_link_button">Revoke Link&#8230;</string>
-  <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
-  <string name="link_copied_toast">Link Copied!</string>
-  <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
-  <string name="revoke_link_confirm">Revoke Link</string>
-  <string name="invite_button_description">People outside your team can join this conversation.</string>
-  <string name="invite_people">Pozvat další</string>
-  <string name="guest_room_name">Guest room</string>
-  <string name="guest_time_left_hours">%1$sh left</string>
-  <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
-  <string name="guest_time_left_minutes">Less than %1$sm left</string>
-  <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+    <!-- Support -->
+    <string name="pref_support_screen_title">Podpora</string>
+    <string name="pref_support_website_title">Webové stránky podpory</string>
+    <string name="pref_support_contact_title">Kontaktovat podporu</string>
+    <!-- About -->
+    <string name="pref_about_screen_title">O aplikaci</string>
+    <string name="pref_about_website_title">Wire webové stránky</string>
+    <string name="pref_about_tos_title">Podmínky používání</string>
+    <string name="pref_about_privacy_policy_title">Zásady ochrany osobních údajů</string>
+    <string name="pref_about_licenses_title">Informace o licenci</string>
+    <string name="pref_about_licenses_url">@string/url_third_party_licences</string>
+    <string name="pref_about_version_title">Verze %s</string>
+    <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
+    <!-- Pref invite -->
+    <string name="pref_invite_title">Pozvat lidi do aplikace Wire</string>
+    <!-- Preference Account Actions -->
+    <string name="pref__account_action__phone_verification__title">Ověřit telefonní číslo</string>
+    <string name="pref__account_action__phone_verification__description">Zadejte ověřovací kód, který jsme poslali na %s</string>
+    <string name="pref__account_action__phone_verification__code">Kód</string>
+    <string name="pref__account_action__phone_verification__question">Kód nedošel?</string>
+    <string name="pref__account_action__phone_verification__resend"><u>Odelat kód znovu</u></string>
+    <string name="pref__account_action__phone_verification__change"><u>Změnit telefonní číslo</u></string>
+    <string name="pref__account_action__email_verification__title">Ověřit e-mailovou adresu</string>
+    <string name="pref__account_action__email_verification__description">Zkontrolujte doručenou poštu a postupujte dle instrukcí.</string>
+    <string name="pref__account_action__email_verification__question">Žádný email nedošel?</string>
+    <string name="pref__account_action__email_verification__resend">&lt;u&gt;Přeposlat na %s&lt;/u&gt;</string>
+    <string name="pref__account_action__email_verification__change"><u>Změnit e-mail</u></string>
+    <string name="pref__account_action__dialog__add_email_password__password">Heslo</string>
+    <string name="pref__account_action__dialog__add_email_password__email">Email</string>
+    <string name="pref__account_action__dialog__add_email_password__title">Přidat e-mailovou adresu</string>
+    <string name="pref__account_action__dialog__add_email_password__error__invalid_email">Neplatná emailová adresa</string>
+    <string name="pref__account_action__dialog__add_email_password__error__invalid_password">Alespoň 8 znaků</string>
+    <string name="pref__account_action__dialog__edit_phone__title">Upravit telefonní číslo</string>
+    <string name="pref__account_action__dialog__add_phone__title">Přidat telefonní číslo</string>
+    <string name="pref__account_action__dialog__add_phone__error__country">Neplatný kód země</string>
+    <string name="pref__account_action__dialog__add_phone__error__number">Neplatné telefonní číslo</string>
+    <string name="pref__account_action__dialog__add_phone__confirm__title">Potvrdit číslo</string>
+    <string name="pref__account_action__dialog__add_phone__confirm__message">Zašleme vám kód upozornění na: \n%s</string>
+    <string name="pref__account_action__dialog__delete_phone_or_email__confirm__title">Odstranit</string>
+    <string name="pref__account_action__dialog__delete_phone_or_email__confirm__message">Opravdu chcete odstranit %s z vašeho Wire účtu?</string>
+    <string name="pref__account_action__dialog__delete_phone__error">Nelze smazat telefonní číslo</string>
+    <string name="pref__account_action__dialog__change_email__title">Upravit e-mailovou adresu</string>
+    <string name="pref__account_action__dialog__change_username__rules">Alespoň 2 znaky. Pouze a–z, 0–9, a _</string>
+    <string name="pref__account_action__dialog__change_username__title">Uživatelské jméno</string>
+    <string name="pref__account_action__dialog__change_username__error_already_taken">Již uděleno</string>
+    <string name="pref__account_action__dialog__change_username__error_unknown">Chyba připojení, zkuste to prosím znovu</string>
+    <!-- No Internet connection -->
+    <string name="system_status__no_internet">BEZ INTERNETU</string>
+    <!-- SHARING -->
+    <string name="alert_dialog__confirmation">OK</string>
+    <string name="alert_dialog__no_network__header">Nejste připojeni k Internetu</string>
+    <string name="sign_up__set_picture__choose">Vyberte své vlastní</string>
+    <string name="sign_up__set_picture__keep">Ponechat tento</string>
+    <string name="sign_up__set_picture__guidance">Wire je o tolik hezčí s obrázkem.</string>
+    <string name="sign_up__set_picture__loading">Načítání fotografie</string>
+    <string name="leave_conversation_failed__message">Pro opuštění konverzace musíte být online. Zkontrolujte připojení a zkuste to znovu.</string>
+    <string name="remove_from_conversation__no_network__message">Pro odebrání lidí z konverzace musíte být online. Zkontrolujte připojení a zkuste to znovu.</string>
+    <string name="calling__call_drop__message">Pro uskutečnení hovoru musíte být online. Zkontrolujte připojení a zkuste to znovu.</string>
+    <!-- Lockscreen and notifications -->
+    <string name="message_notifications_channel_name">Zprávy</string>
+    <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
+    <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+    <string name="ping_notifications_channel_name">Pings</string>
+    <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
+    <string name="ongoing_channel_name">Background notifications</string>
+    <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
+    <string name="foreground_service_notification_name">Maintain connection to server</string>
+    <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
+    <plurals name="notification__new_messages__multiple">
+        <item quantity="one">Zpráva v %2$s konverzaci</item>
+        <item quantity="few">%1$d zprávy ve %2$s konverzacích</item>
+        <item quantity="many">%1$d messages in %2$s conversations</item>
+        <item quantity="other">%1$d zpráv ve %2$s konverzacích</item>
+    </plurals>
+    <!-- %1$s == username, %2$s == conversation -->
+    <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
+    <string name="notification__message__group__prefix__text">%1$s v %2$s: \u0020</string>
+    <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
+    <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text_one2one">Reply: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">Reply from %1$s: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">Reply from %1$s in %2$s: \u0020</string>
+    <string name="notification__message__one_to_one__wanted_to_talk">Volal(a)</string>
+    <string name="notification__message__one_to_one__pinged">Pingnut</string>
+    <string name="notification__message__one_to_one__shared_picture">Sdílel(a) obrázek</string>
+    <string name="notification__message__one_to_one__shared_file">Sdílel(a) soubor</string>
+    <string name="notification__message__one_to_one__shared_video">Sdílel(a) video</string>
+    <string name="notification__message__one_to_one__shared_audio">Sdílel(a) zvukovou zprávu</string>
+    <string name="notification__message__one_to_one__shared_location">Sdílel(a) polohu</string>
+    <!-- %1$s == username, %2$s == conversation -->
+    <string name="notification__message__group__prefix__other">%1$s v %2$s \u0020</string>
+    <string name="notification__message__group__renamed_conversation">přejmenoval(a) konverzaci na %1$s</string>
+    <string name="notification__message__group__add">přidal(a) lidi do konverzace</string>
+    <string name="notification__message__group__remove">odebral lidi z konverzace</string>
+    <string name="notification__message__single__accept_request">Vy a %1$s jste nyní spojeni</string>
+    <string name="notification__message__group__default_conversation_name">skupinová konverzace</string>
+    <string name="notification__message__send_failed">Message failed to send</string>
+    <string name="notification__message__ephemeral">Sent a message</string>
+    <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
+    <string name="notification__message_with_quote__ephemeral">Replied to you</string>
+    <string name="notification__message__liked">\u2764 ‘%1$s’</string>
+    <string name="notification__message__liked_message">\u2764 vaši zprávu</string>
+    <string name="notification__message__liked_picture">\u2764 your picture</string>
+    <!-- ephemeral -->
+    <string name="notification__message__ephemeral_someone">Někdo</string>
+    <plurals name="notification__message__ephemeral">
+        <item quantity="one">Někdo vám poslal zprávu</item>
+        <item quantity="few">Někdo vám poslal %1$d zprávy</item>
+        <item quantity="many">Someone sent you %1$d messages</item>
+        <item quantity="other">Někdo vám poslal %1$d zpráv</item>
+    </plurals>
+    <string name="other_set_message_timer">[[%1$s]] set the message timer to [[%2$s]]</string>
+    <string name="you_set_message_timer">[[You]] set the message timer to [[%1$s]]</string>
+    <string name="other_turned_off_message_timer">[[%1$s]] turned off the message timer</string>
+    <string name="you_turned_off_message_timer">[[You]] turned off the message timer</string>
+    <!-- Others -->
+    <string name="app_name">Wire</string>
+    <string name="content__system__item_separator">,</string>
+    <string name="content__system__last_item_separator">a</string>
+    <string name="content__system__you">jste</string>
+    <plurals name="content__system__other_members">
+        <item quantity="one">%1$s other</item>
+        <item quantity="few">%1$s others</item>
+        <item quantity="many">%1$s others</item>
+        <item quantity="other">%1$s others</item>
+    </plurals>
+    <!-- System notifications -->
+    <string name="system_notification__silence_call">Zamítnout</string>
+    <string name="system_notification__join_call">Přijmout</string>
+    <string name="system_notification__leave_call">Ukončit hovor</string>
+    <string name="system_notification__calling_one">Volá&#8230;</string>
+    <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
+    <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
+    <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
+    <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
+    <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
+    <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+    <string name="ws_foreground_notification_summary">Tap here for more information.</string>
+    <!-- Notification actions -->
+    <string name="notification__action__call">Hovor</string>
+    <string name="notification__action__reply">Odpovědět</string>
+    <!-- Quick reply -->
+    <string name="quick_reply__counter">%1$d z %2$d</string>
+    <string name="quick_reply__message_group">[[%1$s:]] %2$s</string>
+    <string name="quick_reply__open_wire">Otevřít Wire</string>
+    <!-- Save image notification -->
+    <string name="notification__image_saving__content__title">Obrázek profilu uložen.</string>
+    <string name="notification__image_saving__content__subtitle">Dotykem zobrazte.</string>
+    <string name="notification__image_saving__action__share">Sdílet</string>
+    <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
+    <dimen name="notification__image_saving__image_width">512dp</dimen>
+    <!-- forced update -->
+    <string name="forced_update__header">Důležitá aktualizace</string>
+    <string name="forced_update__sub_header">Nainstalujte si prosím nejnovější verzi Wire.</string>
+    <string name="forced_update__download_button">Stáhnout</string>
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- Sharing -->
+    <string name="sharing__image_preview__confirm_action">ODESLAT</string>
+    <string name="sharing__user_not_logged_in__dialog__title">Přihlaste se, prosím</string>
+    <string name="sharing__user_not_logged_in__dialog__message">Pro sdílení otevřete Wire a přihlaste se.</string>
+    <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
+    <!-- Sync errors -->
+    <string name="in_app_notification__sync_error__create_group_convo__title">Nelze vytvořit</string>
+    <string name="in_app_notification__sync_error__create_group_convo__body">Nelze vytvořit konverzaci s %1$s</string>
+    <string name="in_app_notification__sync_error__add_user__body">%1$s nechce být přidán(a) do konverzace.</string>
+    <string name="in_app_notification__sync_error__add_multiple_user__body">Jeden z lidí které jste vybrali nechce být přidán do konverzace.</string>
+    <string name="in_app_notification__sync_error__unknown__body">Něco se pokazilo. Zkuste prosím znovu.</string>
+    <string name="in_app_notification__sync_error__create_convo__button">Pokračovat</string>
+    <!--Timestamp formatting -->
+    <string name="timestamp__just_now">Právě teď</string>
+    <plurals name="timestamp__x_minutes_ago">
+        <item quantity="one">před minutou</item>
+        <item quantity="few">před %1$d minutami</item>
+        <item quantity="many">%1$d minutes ago</item>
+        <item quantity="other">před %1$d minutami</item>
+    </plurals>
+    <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
+    <!-- Example: FRIDAY, MAR 9, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__no_year">EEE d. MMM %1$s</string>
+    <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__with_year">EEE d. MMM YYYY %1$s</string>
+    <!-- Example: MAR 9, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__no_year_no_weekday">d. MMM %1$s</string>
+    <!-- Example: MAR 9, 2015, 11:29 -->
+    <string name="timestamp_pattern__date_and_time__with_year_no_weekday">d MMM YYYY %1$s</string>
+    <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
+    <!-- MONDAY -->
+    <!-- MARCH 2 -->
+    <!-- MARCH 2, 2015 -->
+    <!-- 23:15 -->
+    <string name="timestamp_pattern__24h_format">HH:mm</string>
+    <string name="timestamp_pattern__12h_format">hh:mm a</string>
+    <string name="country">Země</string>
+    <string name="register">Registrovat se</string>
+    <string name="password_placeholder">Heslo</string>
+    <string name="email_placeholder">Email</string>
+    <string name="name_placeholder">Jméno</string>
+    <!-- Strings -->
+    <string name="edit_phone_number">UPRAVIT TELEFONNÍ ČÍSLO</string>
+    <string name="i_have_an_account">PŘIHLÁSIT SE</string>
+    <plurals name="welcome__resend__timer_label">
+        <item quantity="one">MŮŽETE POŽÁDAT O NOVÝ KÓD ZA %1$d SEKUNDU</item>
+        <item quantity="few">MŮŽETE POŽÁDAT O NOVÝ KÓD ZA %1$d SEKUNDY</item>
+        <item quantity="many">YOU CAN REQUEST A NEW CODE IN %1$d SECONDS</item>
+        <item quantity="other">MŮŽETE POŽÁDAT O NOVÝ KÓD ZA %1$d SEKUND</item>
+    </plurals>
+    <string name="welcome__resend__manual">ZNOVU ODESLAT</string>
+    <string name="welcome__resend__callme">ZAVOLEJTE MI</string>
+    <string name="activation_code_info_manual">Zadejte ověřovací kód, který jsme poslali na \n&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="enter_name">Jak vám máme říkat?</string>
+    <string name="enter_name_hint">Zadejte celé jméno</string>
+    <string name="new_reg__password__forgot">Zapomněli jste heslo?</string>
+    <string name="phone_sign_in">Telefon</string>
+    <string name="email_sign_in">Email</string>
+    <string name="edit_email">Upravit Email</string>
+    <string name="hello">Dobrý den, &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="sign_in">Přihlásit se</string>
+    <string name="new_reg__password_length">ALESPOŇ %1$s ZNAKY</string>
+    <string name="username__set__toast_error">Chyba při aktualizaci uživatelského jména</string>
+    <!-- Giphy -->
+    <string name="giphy_preview__search_hint">Hledat Giphy</string>
+    <string name="giphy_preview__error">ŽÁDNÉ GIFY NENALEZENY.</string>
+    <string name="giphy_preview__message_via_random_trending">Přes giphy.com</string>
+    <string name="giphy_preview__message_via_search">%s · přes giphy.com</string>
+    <string name="service_giphy_name">Giphy</string>
+    <!--Sketch-->
+    <string name="drawing__tip__picture__message">ŤUKNĚTE NA BARVU PRO ZMĚNU VELIKOSTI ŠTĚTCE.\n\nZATŘESTE PRO ODSTRANENÍ FOTEK.</string>
+    <string name="drawing__tip__message">ŤUKNĚTE NA BARVU PRO ZMĚNU VELIKOSTI ŠTĚTCE.\n\nSTISKNĚTE A PODRŽTE PRO VYPLNĚNÍ OBLASTI.</string>
+    <string name="sketch__emoji_keyboard__size_label__small">MALÉ</string>
+    <string name="sketch__emoji_keyboard__size_label__medium">STŘEDNÍ</string>
+    <string name="sketch__emoji_keyboard__size_label__large">VELKÉ</string>
+    <string name="toolbar__sketch__action_close">Zavřít</string>
+    <string name="drawing__text_hint">NAPIŠTE ZPRÁVU</string>
+    <!-- Location sharing -->
+    <string name="location_sharing__tip">Pro změnu polohy přetáhněte mapu</string>
+    <string name="location_sharing__permission_error">Nelze načíst aktuální polohu, nedostatek oprávnění</string>
+    <string name="location_sharing__send_button">ODESLAT</string>
+    <string name="location_sharing__enable_system_location__title">Použít polohu?</string>
+    <string name="location_sharing__enable_system_location__message">Pro zobrazení aktuální polohy povolte zjišťování polohy v nastavení</string>
+    <string name="location_sharing__enable_system_location__confirm">Nastavení</string>
+    <string name="location_sharing__enable_system_location__cancel">Zrušit</string>
+    <string name="location_sharing__missing_play_services">Pro sdílení polohy jsou zapotřebí Služby Google Play</string>
+    <!-- From SyncEngine -->
+    <string name="new_reg__phone_signup__create_account">Vytvořit účet</string>
+    <!-- OTR -->
+    <string name="otr__remove_device__title">Odstranit %1$s</string>
+    <string name="otr__remove_device__message">Zadejte své heslo</string>
+    <string name="otr__remove_device__default">zařízení</string>
+    <string name="otr__remove_device__button_delete">OK</string>
+    <string name="otr__remove_device__button_cancel">Zrušit</string>
+    <string name="otr__remove_device__error">Špatné heslo</string>
+    <string name="otr__error_dialog__cannot_register__message">Odeberte jedno ze svých zařízení abyste mohli začít používat Wire i zde.</string>
+    <string name="otr__error_dialog__cannot_register__manage_devices_button">Spravovat zařízení</string>
+    <string name="otr__error_dialog__cannot_register__log_out_button">Odhlásit se</string>
+    <!-- OTR Participants -->
+    <string name="otr__participant__device_header">Wire přiřazuje každému zařízení jedinečný identifikátor. Porovnejte je s %1$s a ověřte svou konverzaci.</string>
+    <string name="otr__participant__device_header__no_devices">%1$s používá starší verzi aplikace Wire. Nejsou zde zobrazena žádná zařízení.</string>
+    <string name="otr__participant__device_header__link_text">_Proč ověřovat konverzace?_</string>
+    <string name="otr__participant__device_class__unknown">Neznámé</string>
+    <string name="otr__participant__device_class__phone">Telefon</string>
+    <string name="otr__participant__device_class__tablet">Tablet</string>
+    <string name="otr__participant__device_class__desktop">Stolní počítač</string>
+    <string name="otr__participant__tab_details">Podrobnosti</string>
+    <string name="otr__participant__tab_devices">Přístroje</string>
+    <string name="otr__participant__single_device__my_fingerprint_link">Zorazit identifikátor mého zařízení</string>
+    <string name="otr__participant__single_device__reset_session_link">Resetovat sezení</string>
+    <string name="otr__participant__my_device__description">Identifikátor vašeho zařízení</string>
+    <string name="otr__participant__my_device__show_all_devices_link">Zobrazit všechna zařízení</string>
+    <string name="otr__participant__single_device__description">Ověřte, zda to odpovídá identifikátoru zobrazenému na si %1$s zařízení.</string>
+    <string name="otr__participant__single_device__how_to_link">_Jak to mám udělat?_</string>
+    <string name="otr__device_id">ID: %s</string>
+    <string name="otr__first_launch__header">Toto je poprvé, co používáte Wire na tomto zařízení.</string>
+    <string name="otr__first_launch__sub_header">Z důvodů ochrany soukromí se zde nezobrazí historie vaší konverzace.</string>
+    <string name="otr__first_launch__button">OK</string>
+    <string name="otr__signin__info_text">Přihlásit se</string>
+    <string name="otr__reset_session__message_ok">Relace byla resetována</string>
+    <string name="otr__reset_session__message_fail">Nelze resetovat relaci</string>
+    <string name="otr__reset_session__button_ok">OK</string>
+    <string name="otr__reset_session__button_fail">Zkusit znovu</string>
+    <string name="advanced_image_download_wifi_info">Obrázek se zobrazí až budete znovu online</string>
+    <string name="change_settings">Změnit nastavení</string>
+    <string name="conversation_list__action_join_call">PŘIPOJIT</string>
+    <!-- Conversation Toolbar -->
+    <string name="conversation_toolbar__collection">Sbírka</string>
+    <string name="conversation_toolbar__call_video">Videohovor</string>
+    <string name="conversation_toolbar__call_audio">Hlasový hovor</string>
+    <!-- Asset upload errors -->
+    <string name="asset_upload_error__not_found__title">Soubor nenalezen</string>
+    <string name="asset_upload_error__not_found__message">Nepodařilo se nalézt zadaný soubor</string>
+    <string name="asset_upload_error__not_found__button">OK</string>
+    <string name="asset_upload_error__file_too_large__title">Soubor je příliš velký</string>
+    <string name="asset_upload_error__file_too_large__message_default">Odesílání velkých souborů není podporováno.</string>
+    <string name="asset_upload_error__file_too_large__message">Můžete posílat soubory až do %1$s.</string>
+    <string name="asset_upload_error__file_too_large__button">OK</string>
+    <string name="asset_upload_warning__large_file__title">Nejste na Wi-Fi</string>
+    <string name="asset_upload_warning__large_file__message_default">Jste si jist(á), že chcete odeslat velký soubor pomocí mobilní sítě?</string>
+    <string name="asset_upload_warning__large_file__message">Jste si jist(á), že chcete odeslat %1$s pomocí mobilní sítě?</string>
+    <!-- Video message errors -->
+    <string name="audio_message_error__missing_audio_permissions">Pokud chcete posílat zvukové zprávy, udělte oprávnění pro záznam zvuku.</string>
+    <!-- Audio bit rate mode -->
+    <string name="audio_message__constant_bit_rate">KONSTANTNÍ DATOVÝ TOK</string>
+    <!-- no contacts -->
+    <string name="no_conversation_in_list__header">Zatím žádné konverzace</string>
+    <string name="all_archived__header">Vše archivováno</string>
+    <string name="no_conversation_in_list__message">Zahájit konverzaci nebo vytvořte skupinu.</string>
+    <string name="cursor__type_a_message">NAPIŠTE ZPRÁVU</string>
+    <string name="cursor__ephemeral_message">ČASOVANÁ ZPRÁVA</string>
+    <string name="tooltip_record">Nahrát video</string>
+    <string name="tooltip_camera">Přidat fotku</string>
+    <string name="tooltip_sketch">Nakreslit obrázek</string>
+    <string name="tooltip_ping">Odezva</string>
+    <string name="tooltip_emoji">Emoji</string>
+    <string name="tooltip_location">Poloha</string>
+    <string name="tooltip_more">Další akce</string>
+    <string name="tooltip_audio_message">Klepnutím a podržením zvukovou zprávu odešlete</string>
+    <string name="tooltip_file">Odeslat soubor</string>
+    <string name="tooltip_gif">Gif</string>
+    <string name="tooltip_mention">Add Mention</string>
+    <!-- Delete -->
+    <string name="conversation__message_action__delete_for_me">Smazat pouze u mně?</string>
+    <string name="conversation__message_action__delete_for_everyone">Smazat u všech?</string>
+    <string name="conversation__message_action__delete_details">Tuto operaci nelze vrátit.</string>
+    <string name="conversation__message_action__delete__dialog__cancel">Zrušit</string>
+    <string name="conversation__message_action__delete__dialog__ok">Smazat</string>
+    <string name="conversation__message_action__delete__confirmation">Zpráva smazána</string>
+    <string name="conversation__action_mode__copy__description">Zpráva od %1$s</string>
+    <string name="conversation__action_mode__copy__toast">Zkopírováno</string>
+    <string name="conversation__action_mode__fwd__dialog__title">Příprava obsahu</string>
+    <string name="conversation__action_mode__fwd__dialog__message">Prosím čekejte&#8230;</string>
+    <string name="conversation__action_mode__fwd__chooser__title">Sdílet s</string>
+    <!-- video message preview -->
+    <string name="audio_message__recording__slide_control__slide_hint">TAŽENÍM NAHORU ODESLAT</string>
+    <string name="audio_message__recording__slide_control__tap_hint">ŤUKNUTÍM ODESLAT</string>
+    <string name="audio_message__recording__tap_to_record">Dotykem nahrajte zprávu\n můžete ji poté _GLYPH_</string>
+    <string name="audio_message__recording__failure__title">Nelze zaznamenávat zvuk</string>
+    <string name="audio_message__recording__failure__message">Zkuste to prosím znovu.</string>
+    <string name="audio_message__recording__limit_reached__title">Nahrávání zastaveno</string>
+    <string name="audio_message__recording__limit_reached__message">Zvukové zprávy je omezena na 25MB. Odeslat tuto zprávu?</string>
+    <string name="audio_message__recording__limit_reached__confirmation">ODESLAT</string>
+    <string name="hint_change_filter">Vyberte filtr výše</string>
+    <string name="message_bottom_menu_action_forward">Sdílet</string>
+    <string name="message_bottom_menu_action_copy">Vložit</string>
+    <string name="message_bottom_menu_action_edit">Upravit</string>
+    <string name="message_bottom_menu_action_like">Líbí</string>
+    <string name="message_bottom_menu_action_unlike">Nelíbí</string>
+    <string name="message_bottom_menu_action_save">Uložit</string>
+    <string name="message_bottom_menu_action_open">Otevřít</string>
+    <string name="message_bottom_menu_action_delete">Smazat</string>
+    <string name="message_bottom_menu_action_delete_local">Smazat pro mě</string>
+    <string name="message_bottom_menu_action_delete_global">Smazat pro všechny</string>
+    <string name="message_bottom_menu_action_reveal">Odhalit v konverzaci</string>
+    <string name="message_bottom_menu_action_reply">Odpovědět</string>
+    <string name="likes_list__header">Toto se líbí</string>
+    <string name="message_bottom_menu_action_save_ok">Obrázek uložen</string>
+    <string name="message_footer__tap_to_like">Ťuknutím pochválit</string>
+    <plurals name="message_footer__number_of_likes">
+        <item quantity="one">%1$d lidí</item>
+        <item quantity="few">%1$d lidé</item>
+        <item quantity="many">%1$d lidí</item>
+        <item quantity="other">%1$d lidí</item>
+    </plurals>
+    <string name="message_footer__status__sending">Odesílá se&#8230;</string>
+    <string name="message_footer__status__sent">%1$s \u30FB Odesláno</string>
+    <string name="message_footer__status__delivered">%1$s \u30FB Doručeno</string>
+    <string name="message_footer__status__failed">Odesílání selhalo. _Opakovat_</string>
+    <string name="message_footer__status__deleted">%1$s \u30FB Smazáno</string>
+    <string name="ephemeral_message__timeout_selection_info">NASTAVIT ČAS DO ZMIZENÍ ZPRÁVY</string>
+    <string name="usernames__take_over__summary">Získajte Vaše jedinečné jméno na Wire. _Zjistěte více._</string>
+    <string name="usernames__take_over__choose">ZVOLTE SI VLASTNÍ</string>
+    <string name="usernames__take_over__keep">PONECHAT TENTO</string>
+    <string name="ephemeral_message__timeout__off">Vypnout</string>
+    <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
+    <string name="guests_option_on">On</string>
+    <plurals name="unit_years">
+        <item quantity="one">%1$s year</item>
+        <item quantity="few">%1$s years</item>
+        <item quantity="many">%1$s years</item>
+        <item quantity="other">%1$s years</item>
+    </plurals>
+    <plurals name="unit_weeks">
+        <item quantity="one">%1$s week</item>
+        <item quantity="few">%1$s weeks</item>
+        <item quantity="many">%1$s weeks</item>
+        <item quantity="other">%1$s weeks</item>
+    </plurals>
+    <plurals name="unit_days">
+        <item quantity="one">%1$s day</item>
+        <item quantity="few">%1$s days</item>
+        <item quantity="many">%1$s days</item>
+        <item quantity="other">%1$s days</item>
+    </plurals>
+    <plurals name="unit_hours">
+        <item quantity="one">%1$s hour</item>
+        <item quantity="few">%1$s hours</item>
+        <item quantity="many">%1$s hours</item>
+        <item quantity="other">%1$s hours</item>
+    </plurals>
+    <plurals name="unit_minutes">
+        <item quantity="one">%1$s minute</item>
+        <item quantity="few">%1$s minutes</item>
+        <item quantity="many">%1$s minutes</item>
+        <item quantity="other">%1$s minutes</item>
+    </plurals>
+    <plurals name="unit_seconds">
+        <item quantity="one">%1$s second</item>
+        <item quantity="few">%1$s seconds</item>
+        <item quantity="many">%1$s seconds</item>
+        <item quantity="other">%1$s seconds</item>
+    </plurals>
+    <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
+    <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
+    <string name="collection_header_pictures">OBRÁZKY</string>
+    <string name="collection_header_files">SOUBORY</string>
+    <string name="collection_header_links">ODKAZY</string>
+    <string name="collection_header_today">DNES</string>
+    <string name="collection_header_yesterday">VČERA</string>
+    <string name="collection_empty">ŽÁDNÉ POLOŽKY VE SBÍRCE</string>
+    <string name="collection_all">Zobrazit všechny %1$s</string>
+    <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
+    <string name="multi_share_search_hint">ODESLAT&#8230;</string>
+    <string name="search__box__hint_text">HLEDAT ZPRÁVY</string>
+    <string name="search__no_results">Žádné výsledky.</string>
+    <!-- Conversation List -->
+    <plurals name="conversation_list__new_message_count">
+        <item quantity="one">%1$s message</item>
+        <item quantity="few">%1$s messages</item>
+        <item quantity="many">%1$s messages</item>
+        <item quantity="other">%1$s messages</item>
+    </plurals>
+    <plurals name="conversation_list__pings_count">
+        <item quantity="one">%1$s ping</item>
+        <item quantity="few">%1$s pingy</item>
+        <item quantity="many">%1$s pings</item>
+        <item quantity="other">%1$s pingy</item>
+    </plurals>
+    <plurals name="conversation_list__new_likes_count">
+        <item quantity="one">%1$s ♥</item>
+        <item quantity="few">%1$s ♥</item>
+        <item quantity="many">%1$s ♥</item>
+        <item quantity="other">%1$s ♥</item>
+    </plurals>
+    <plurals name="conversation_list__missed_calls_plural">
+        <item quantity="one">%1$s zmeškaný hovor</item>
+        <item quantity="few">%1$s zmeškaných hovorů</item>
+        <item quantity="many">%1$s zmeškaných hovorů</item>
+        <item quantity="other">%1$s zmeškaných hovorů</item>
+    </plurals>
+    <string name="conversation_list__missed_calls_count">Zmeškaný hovor</string>
+    <string name="conversation_list__missed_calls_count_group">Missed call from %1$s</string>
+    <plurals name="conversation_list__mentions_count">
+        <item quantity="one">%1$s mention</item>
+        <item quantity="few">%1$s mentions</item>
+        <item quantity="many">%1$s mentions</item>
+        <item quantity="other">%1$s mentions</item>
+    </plurals>
+    <plurals name="conversation_list__quotes_count">
+        <item quantity="one">%1$s reply</item>
+        <item quantity="few">%1$s replies</item>
+        <item quantity="many">%1$s replies</item>
+        <item quantity="other">%1$s replies</item>
+    </plurals>
+    <string name="conversation_list__unsent_message_long">⚠️ Neodeslaná zpráva</string>
+    <string name="conversation_list__unsent_message_short">⚠</string>
+    <string name="conversation_list__shared__image">Sdílel(a) obrázek</string>
+    <string name="conversation_list__shared__file">Sdílel(a) soubor</string>
+    <string name="conversation_list__shared__video">Sdílel(a) video</string>
+    <string name="conversation_list__shared__audio">Sdílel(a) zvukovou zprávu</string>
+    <string name="conversation_list__shared__location">Sdílel(a) polohu</string>
+    <string name="conversation_list__missed_call">Zmeškaný hovor</string>
+    <string name="conversation_list__pinged">Pingnut</string>
+    <string name="conversation_list__ephemeral">Someone sent a message</string>
+    <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
+    <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
+    <string name="conversation_list__single_eph_and_quote">Replied to you</string>
+    <string name="conversation_list__group_eph_and_quote">Someone replied to you</string>
+    <string name="conversation_list__typing">Píše zprávu&#8230;</string>
+    <string name="conversation_list__someone">Někdo</string>
+    <string name="conversation_list__added">[[%1$s]] byl(a) přidán(a)</string>
+    <string name="conversation_list__added_you">[[%1$s]] vás přidal(a)</string>
+    <string name="conversation_list__left_you">Opustil jsi</string>
+    <string name="conversation_list__removed_you">[[%1$s]] vás odebral(a)</string>
+    <string name="conversation_list__header__title">KONVERZACE</string>
+    <string name="conversation_list__header__archive_title">ARCHIV</string>
+    <string name="conversation_list__single_with_quote">Reply: %1$s</string>
+    <string name="conversation_list__group_with_quote">Reply from %1$s: %2$s</string>
+    <string name="conversation_list__single_without_quote">%1$s</string>
+    <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
+    <string name="guest_indicator">HOST</string>
+    <string name="participant_tab_guest_indicator_label">Host</string>
+    <string name="availability_none">Žádné</string>
+    <string name="availability_available">Dostupný</string>
+    <string name="availability_away">Away</string>
+    <string name="availability_busy">Busy</string>
+    <string name="availability_text_available">%1$s IS AVAILABLE</string>
+    <string name="availability_text_away">%1$s IS AWAY</string>
+    <string name="availability_text_busy">%1$s IS BUSY</string>
+    <string name="availability_setstatus">SET A STATUS</string>
+    <string name="preferences_profile_new">New Team or Account</string>
+    <string name="preferences_profile_add_account">Přidat účet</string>
+    <string name="preferences_profile_create_team">Vytvořit tým</string>
+    <string name="preferences_profile_in_team">v %1$s</string>
+    <string name="new_devices_dialog_title">Připojil(a) jste zařízení ke svému Wire účtu</string>
+    <string name="new_devices_dialog_info">Pokud jste to nebyli vy, odeberte použité zařízení a změňte si heslo.</string>
+    <string name="new_devices_dialog_manage_devices">Spravovat přístroje</string>
+    <string name="teams_set_email_title">Your account</string>
+    <string name="teams_set_email_subtitle">Enter your work email address.</string>
+    <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
+    <string name="teams_set_email_about">LEARN MORE</string>
+    <string name="teams_set_password_title">Set password</string>
+    <string name="teams_set_password_hint">ALESPOŇ 8 ZNAKŮ</string>
+    <string name="teams_set_username_title">Set username</string>
+    <string name="teams_set_username_hint">USERNAME</string>
+    <string name="teams_set_team_name_title">Name your team</string>
+    <string name="teams_set_team_name_subtitle">You can always change it later.</string>
+    <string name="teams_set_team_name_hint">TEAM NAME</string>
+    <string name="teams_set_team_name_about">WHAT IS WIRE FOR TEAMS?</string>
+    <string name="teams_verify_email_title">You\'ve got mail</string>
+    <string name="teams_verify_email_subtitle">Enter the verification code we sent to %1$s.</string>
+    <string name="teams_verify_email_resend">RESEND CODE</string>
+    <string name="teams_verify_email_change">CHANGE EMAIL</string>
+    <string name="teams_set_name_title">Your name</string>
+    <string name="teams_set_name_hint">FULL NAME</string>
+    <string name="app_entry_create_account">Osobní</string>
+    <string name="app_entry_create_account_sub">create an account</string>
+    <string name="app_entry_create_team">Pro</string>
+    <string name="app_entry_create_team_sub">create a team</string>
+    <string name="app_entry_login_sub">Already have an account?</string>
+    <string name="app_entry_login">Přihlásit se</string>
+    <string name="app_entry_tc_dialog_title">Terms of Service</string>
+    <string name="app_entry_tc_dialog_message">You must accept to continue</string>
+    <string name="app_entry_notifications_dialog_title">Upozornění</string>
+    <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
+    <string name="app_entry_dialog_accept">PŘIJMOUT</string>
+    <string name="app_entry_dialog_cancel">ZRUŠIT</string>
+    <string name="app_entry_dialog_log_in">PŘIHLÁSIT SE</string>
+    <string name="app_entry_dialog_no_thanks">NO, THANKS</string>
+    <string name="app_entry_dialog_not_now">NOT NOW</string>
+    <string name="app_entry_dialog_view">VIEW</string>
+    <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
+    <string name="app_entry_email_sent">Email sent</string>
+    <string name="teams_set_username_subtitle">Usernames help people find you.</string>
+    <string name="app_entry_sso_dialog_title">Company login</string>
+    <string name="app_entry_sso_dialog_message">Enter the company SSO access code.</string>
+    <string name="app_entry_sso_input_hint"></string>
+    <string name="pick_user_teams_invite">Invite people to join the team</string>
+    <string name="teams_invitations_skip">SKIP</string>
+    <string name="teams_invitations_done">DONE</string>
+    <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
+    <string name="teams_invitations_error_already_sent">Already sent</string>
+    <string name="teams_invitations_error_generic">Něco se pokazilo. Zkuste prosím znovu</string>
+    <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
+    <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
+    <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
+    <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
+    <string name="invitation_screen_title">Build your team</string>
+    <string name="invitation_screen_subtitle">Invite your colleagues to join.</string>
+    <string name="open_service_conversation_button_text">Otevřít konverzaci</string>
+    <string name="remove_service_button_text">Remove Service</string>
+    <string name="integrations_create_conversation">Create a new conversation</string>
+    <string name="no_matches_found">No matches found</string>
+    <string name="loading_services">Loading services&#8230;</string>
+    <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
+    <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
+    <string name="create_group_conversation">Vytvořit skupinu</string>
+    <string name="create_guest_room_conversation">Create guest room</string>
+    <string name="manage_services">Manage Services</string>
+    <string name="next_button">NEXT</string>
+    <string name="skip_button">SKIP</string>
+    <string name="done_button">DONE</string>
+    <string name="new_group_header">VYTVOŘIT SKUPINU</string>
+    <string name="add_participants_empty_header">ADD PARTICIPANTS</string>
+    <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
+    <string name="new_conv_no_results">Žádné výsledky</string>
+    <string name="new_conv_no_contacts">No contacts</string>
+    <string name="participants_divider_services">SERVICES (%1$s)</string>
+    <string name="participants_divider_people">PEOPLE (%1$s)</string>
+    <string name="group_name_hint">GROUP NAME</string>
+    <string name="allow_guests_toggle_text">Allow guests and services</string>
+    <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
+    <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
+    <string name="allow_guests">Allow guests and services</string>
+    <string name="guest_options_title">Guests and services</string>
+    <string name="ephemeral_options_title">Timed messages</string>
+    <string name="notifications_options_title">Upozornění</string>
+    <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
+    <string name="notifications_explanation_text">You can be notified about everything (including audio and video calls) or only when you are mentioned.</string>
+    <string name="show_all_participants">Show all (%1$s)</string>
+    <string name="allow_guests_error_title">Něco se pokazilo</string>
+    <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
+    <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
+    <string name="allow_guests_warning_confirm">Odstranit</string>
+    <string name="guests_are_present">GUESTS ARE PRESENT</string>
+    <string name="services_are_present">SERVICES ARE ACTIVE</string>
+    <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
+    <string name="participants_details_header_title">DETAILS</string>
+    <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
+    <string name="create_link_button">Create Link</string>
+    <string name="copy_link_button">Copy Link</string>
+    <string name="share_link_button">Share Link</string>
+    <string name="revoke_link_button">Revoke Link&#8230;</string>
+    <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
+    <string name="link_copied_toast">Link Copied!</string>
+    <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
+    <string name="revoke_link_confirm">Revoke Link</string>
+    <string name="invite_button_description">People outside your team can join this conversation.</string>
+    <string name="invite_people">Pozvat další</string>
+    <string name="guest_room_name">Guest room</string>
+    <string name="guest_time_left_hours">%1$sh left</string>
+    <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
+    <string name="guest_time_left_minutes">Less than %1$sm left</string>
+    <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
         \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-  <string name="pref_account_backup_title">Back up conversations</string>
-  <string name="add_email_address">Add your email address</string>
-  <string name="set_a_password">Set a password</string>
-  <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
-  <string name="new_device_password">Nové zařízení</string>
-  <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
-  <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
-  <string name="second_launch__header">You\'ve used Wire on this device before.</string>
-  <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
-  <string name="restore_override_alert_title">Restore history</string>
-  <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
-  <string name="restore_override_alert_ok">Choose Backup File</string>
-  <string name="back_up_progress">BACKING UP&#8230;</string>
-  <string name="back_up_progress_complete">COMPLETE</string>
-  <string name="restore_progress">RESTORING&#8230;</string>
-  <string name="pref_account_backup_warning_title">Set an email and password.</string>
-  <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
-  <string name="pref_account_backup_warning_ok">OK</string>
-  <string name="export_generic_error_title">The file could not be saved</string>
-  <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
-  <string name="backup_button">Back Up Now</string>
-  <string name="backup_import_error_unknown_title">Něco se pokazilo</string>
-  <string name="backup_import_error_unknown">Your history could not be restored.</string>
-  <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
-  <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
-  <string name="backup_import_error_wrong_account_title">Wrong backup</string>
-  <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
-  <string name="video_paused">Video paused</string>
-  <string name="calling_degraded_title">Nové zařízení</string>
-  <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
-  <string name="markdown_link_dialog_title">Visit Link</string>
-  <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
-  <string name="markdown_link_dialog_confirmation">OK</string>
-  <string name="markdown_link_dialog_cancel">ZRUŠIT</string>
-  <string name="max_participants_alert_title">The group is full</string>
-  <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
-  <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
-  <string name="sso_signin_button">Company log in</string>
-  <string name="sso_signin_error_title">Něco se pokazilo</string>
-  <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
-  <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
-  <string name="sso_signin_wrong_code_title">Neplatný kód</string>
-  <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
-  <string name="participant_search_hint">SEARCH FOR NAMES</string>
-  <string name="participant_search_title">LIDÉ</string>
-  <string name="generic_service_warning">Services have access to the content of this conversation</string>
-  <string name="add_services_button_text">Manage services</string>
-  <string name="wire_notification_name">Wire Notification</string>
-  <string name="wire_ping_name">Wire ping</string>
+    <string name="pref_account_backup_title">Back up conversations</string>
+    <string name="add_email_address">Add your email address</string>
+    <string name="set_a_password">Set a password</string>
+    <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+    <string name="new_device_password">Nové zařízení</string>
+    <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
+    <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+    <string name="second_launch__header">You\'ve used Wire on this device before.</string>
+    <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+    <string name="restore_override_alert_title">Restore history</string>
+    <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+    <string name="restore_override_alert_ok">Choose Backup File</string>
+    <string name="back_up_progress">BACKING UP&#8230;</string>
+    <string name="back_up_progress_complete">COMPLETE</string>
+    <string name="restore_progress">RESTORING&#8230;</string>
+    <string name="pref_account_backup_warning_title">Set an email and password.</string>
+    <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
+    <string name="pref_account_backup_warning_ok">OK</string>
+    <string name="export_generic_error_title">The file could not be saved</string>
+    <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+    <string name="backup_button">Back Up Now</string>
+    <string name="backup_import_error_unknown_title">Něco se pokazilo</string>
+    <string name="backup_import_error_unknown">Your history could not be restored.</string>
+    <string name="backup_import_error_unsupported_version_title">Incompatible backup</string>
+    <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+    <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+    <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
+    <string name="video_paused">Video paused</string>
+    <string name="calling_degraded_title">Nové zařízení</string>
+    <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
+    <string name="markdown_link_dialog_title">Visit Link</string>
+    <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
+    <string name="markdown_link_dialog_confirmation">OK</string>
+    <string name="markdown_link_dialog_cancel">ZRUŠIT</string>
+    <string name="max_participants_alert_title">The group is full</string>
+    <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
+    <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
+    <string name="sso_signin_button">Company log in</string>
+    <string name="sso_signin_error_title">Něco se pokazilo</string>
+    <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
+    <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
+    <string name="sso_signin_wrong_code_title">Neplatný kód</string>
+    <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
+    <string name="participant_search_hint">SEARCH FOR NAMES</string>
+    <string name="participant_search_title">LIDÉ</string>
+    <string name="generic_service_warning">Services have access to the content of this conversation</string>
+    <string name="add_services_button_text">Manage services</string>
+    <string name="wire_notification_name">Wire Notification</string>
+    <string name="wire_ping_name">Wire ping</string>
+    <string name="reply_self_name">Vy</string>
+    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_video">VIDEO</string>
+    <string name="reply_message_type_audio">AUDIO MESSAGE</string>
+    <string name="reply_message_type_location">LOCATION</string>
+    <string name="reply_message_type_asset">ATTACHMENT</string>
+    <string name="reply_message_type_unknown">You cannot see this message.</string>
+    <string name="quote_timestamp_message">Original message from %s</string>
 </resources>
