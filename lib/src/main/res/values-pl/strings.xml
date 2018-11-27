@@ -38,7 +38,7 @@
     <string name="phone_invalid_format_header">Nieprawidłowy numer telefonu</string>
     <string name="phone_invalid_format_message">Wprowadź poprawny numer telefonu</string>
     <string name="phone_password_exists_header">Hasło istnieje</string>
-    <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
+    <string name="phone_password_exists_message">To konto ma już skojarzone hasło i e-mail. Zaloguj się przez e-mail.</string>
     <string name="invalid_code_header">Nieprawidłowy kod</string>
     <string name="incorrect_code_header">Niepoprawny kod</string>
     <string name="wrong_code_message">Wprowadź kod</string>
@@ -62,16 +62,16 @@
     <string name="profile__email__verify__resend">Wyślij ponownie</string>
     <string name="profile__guidance__invalid_email">Wprowadzono niepoprawny e-mail. Sprawdź i spróbuj ponownie</string>
     <string name="new_reg__code_resent">Nowy kod został wysłany poprzez SMS</string>
-    <string name="new_reg__email_code_resent">A new code was sent to you via email</string>
+    <string name="new_reg__email_code_resent">Nowy kod został wysłany na Twój adres e-mail</string>
     <string name="new_reg__code_resent__call">Oczekiwanie na połączenie</string>
     <string name="new_reg__default_country">de</string>
     <!-- consider updating this for every new language -->
     <string name="your_phone_number">Twój numer telefonu</string>
     <!-- Receive email/sms invitation -->
     <!-- People picker/start UI -->
-    <string name="pick_user_search_focus">\u0020 SEARCH</string>
-    <string name="pick_user_search_hint">SEARCH</string>
-    <string name="choose_conversation">SEARCH</string>
+    <string name="pick_user_search_focus">\u0020 SZUKAJ</string>
+    <string name="pick_user_search_hint">SZUKAJ</string>
+    <string name="choose_conversation">SZUKAJ</string>
     <string name="people_picker__top_users_header_title">Osoby</string>
     <string name="people_picker__search_result_conversations_header_title">Grupy</string>
     <string name="people_picker__search_result_team_conversations_header_title">%1$s Grupy</string>
@@ -79,18 +79,18 @@
     <string name="people_picker__search_result_others_header_title">Połącz</string>
     <string name="people_picker__search_result__expander_title">Pokaż wszystkie %1$s ↓</string>
     <string name="people_picker__search_people">OSOBY</string>
-    <string name="people_picker__search_services">SERVICES</string>
+    <string name="people_picker__search_services">USŁUGI</string>
     <string name="receive_news_and_offers_request_title">Newsletter</string>
-    <string name="receive_news_and_offers_request_body">Do you want to receive news and product updates from Wire via email? You can unsubscribe at any time.</string>
+    <string name="receive_news_and_offers_request_body">Czy chcesz otrzymywać wiadomości i aktualności o Wire za pośrednictwem poczty elektronicznej? Możesz zrezygnować w dowolnym momencie.</string>
     <string name="crashes_and_analytics_request_title">Pomóż nam ulepszyć Wire</string>
-    <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+    <string name="crashes_and_analytics_request_body">Zgadzam się, by Wire mogło tworzyć i używać anonimowe raporty o błędach w celu ulepszania aplikacji. Mogę odwołać tę zgodę w dowolnym momencie.</string>
     <string name="crashes_and_analytics_request_no">Nie</string>
-    <string name="crashes_and_analytics_request_agree">I Agree</string>
+    <string name="crashes_and_analytics_request_agree">Zgadzam się</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">Usługi</string>
     <string name="integrations_errors_add_service">Dodanie usługi jest niemożliwe</string>
-    <string name="integrations_errors_service_unavailable">The service is unavailable at the moment</string>
-    <string name="conversation_errors_full">The conversation is full</string>
+    <string name="integrations_errors_service_unavailable">W tej chwili usługa jest niedostępna</string>
+    <string name="conversation_errors_full">Nie można dodać więcej uczestników</string>
     <!-- start ui / people picker, contacts sharing -->
     <string name="people_picker__share_contacts__title">Udostępnij kontakty</string>
     <string name="people_picker__share_contacts__message">Wire pomoże Ci odnaleźć twoich przyjaciół jeśli udostępnisz nam swoje kontakty.</string>
@@ -105,55 +105,55 @@
     <!-- Conversation: Quick menu -->
     <string name="conversation_quick_menu__conversation_button__single_label">OTWÓRZ</string>
     <!-- Conversation: System messages -->
-    <string name="content__system__other_joined">[[%1$s]] joined</string>
-    <string name="content__system__you_joined">[[You]] joined</string>
-    <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
-    <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
+    <string name="content__system__other_joined">[[%1$s]] dołączył</string>
+    <string name="content__system__you_joined">Dołączyłeś</string>
+    <string name="content__system__other_renamed_conv">[[%1$s]] zmienił nazwę konwersacji</string>
+    <string name="content__system__you_renamed_conv">Zmieniłeś nazwę konwersacji</string>
     <!-- Add people -->
-    <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
+    <string name="content__system__someone_added_people">[[%1$s]] dodał %2$s do rozmowy</string>
     <plurals name="content__system__someone_added_people_with_others">
-        <item quantity="one">[[%1$s]] added %2$s and _%3$s other to the conversation_</item>
-        <item quantity="few">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
-        <item quantity="many">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
-        <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+        <item quantity="one">[%1$s]] dodał %2$s i _%3$s inną osobę do rozmowy_</item>
+        <item quantity="few">[%1$s]] dodał %2$s i _%3$s inne osoby do rozmowy</item>
+        <item quantity="many">[%1$s]] dodał %2$s i _%3$s innych osobów do rozmowy</item>
+        <item quantity="other">[%1$s]] dodał %2$s i _%3$s innych osób do rozmowy</item>
     </plurals>
-    <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
+    <string name="content__system__someone_added_you">[[%1$s]] dodał Cię do rozmowy</string>
     <plurals name="content__system__someone_added_people_and_you_with_others">
-        <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
-        <item quantity="few">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
-        <item quantity="many">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
-        <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+        <item quantity="one">[[%1$s]] dodał %2$s, Ciebie i _%3$s inną osobę do rozmowy_</item>
+        <item quantity="few">[[%1$s]] dodał %2$s, Ciebie i _%3$s inne osoby do rozmowy</item>
+        <item quantity="many">[[%1$s]] dodał %2$s, Ciebie i _%3$s innych osób do rozmowy</item>
+        <item quantity="other">[[%1$s]] dodał %2$s, Ciebie i _%3$s innych osób do rozmowy</item>
     </plurals>
-    <string name="content__system__you_added_people">You added %1$s to the conversation</string>
+    <string name="content__system__you_added_people">Dodałeś %1$s do rozmowy</string>
     <plurals name="content__system__you_added_people_with_others">
-        <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
-        <item quantity="few">You added %1$s and _%2$s others to the conversation_</item>
-        <item quantity="many">You added %1$s and _%2$s others to the conversation_</item>
-        <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
+        <item quantity="one">Dodałeś %1$s i _%2$s inną osobę do rozmowy_</item>
+        <item quantity="few">Dodałeś %1$s i _%2$s inne osoby do rozmowy</item>
+        <item quantity="many">Dodałeś %1$s i _%2$s innych osób do rozmowy</item>
+        <item quantity="other">Dodałeś %1$s i _%2$s innych osób do rozmowy</item>
     </plurals>
     <!-- Remove people -->
     <string name="content__system__other_removed_other">[[%1$s]] usunął %2$s</string>
     <string name="content__system__other_removed_you">[[%1$s]] Cię usunął/ęła</string>
-    <string name="content__system__you_removed_other">You removed %1$s</string>
+    <string name="content__system__you_removed_other">Usunąłeś/ęłaś użytkownika %1$s</string>
     <string name="content__system__you_left">Opuściłeś/aś rozmowę</string>
     <string name="content__system__other_left">[[%1$s]] opuścił/a rozmowę</string>
     <!-- Create conversation -->
-    <string name="content__system__you_started_conversation">You started the conversation</string>
-    <string name="content__system__other_started_conversation">%1$s started the conversation</string>
-    <string name="content__system__with_you_only">with you</string>
-    <string name="content__system__with_list_only">with %1$s</string>
+    <string name="content__system__you_started_conversation">Rozpocząłeś rozmowę</string>
+    <string name="content__system__other_started_conversation">%1$s rozpoczął rozmowę</string>
+    <string name="content__system__with_you_only">z Tobą</string>
+    <string name="content__system__with_list_only">z %1$s</string>
     <plurals name="content__system__with_others_only">
-        <item quantity="one">with %1$s and _%2$s other_</item>
-        <item quantity="few">with %1$s and _%2$s others_</item>
-        <item quantity="many">with %1$s and _%2$s others_</item>
-        <item quantity="other">with %1$s and _%2$s others_</item>
+        <item quantity="one">z %1$s i %2$s inną osobą</item>
+        <item quantity="few">z %1$s i %2$s innymi osobami</item>
+        <item quantity="many">z %1$s i %2$s innymi osobami</item>
+        <item quantity="other">z %1$s i %2$s innymi osobami</item>
     </plurals>
-    <string name="content__system__with_list_and_you">with %1$s and you</string>
+    <string name="content__system__with_list_and_you">z %1$s i Tobą</string>
     <plurals name="content__system__with_others_and_you">
-        <item quantity="one">with %1$s, you and _%2$s other_</item>
-        <item quantity="few">with %1$s, you and _%2$s others_</item>
-        <item quantity="many">with %1$s, you and _%2$s others_</item>
-        <item quantity="other">with %1$s, you and _%2$s others_</item>
+        <item quantity="one">z %1$s, Tobą i %2$s inną osobą</item>
+        <item quantity="few">z %1$s, Tobą i %2$s innymi osobami</item>
+        <item quantity="many">z %1$s, Tobą i %2$s innymi osobami</item>
+        <item quantity="other">z %1$s, Tobą i %2$s innymi osobami</item>
     </plurals>
     <!-- Conversation: missed call -->
     <string name="content__missed_call__you_called">[[TY]] dzwoniłeś</string>
@@ -162,13 +162,13 @@
     <string name="content__xxx_pinged">[[%1$s]] ZACZEPIŁ/A</string>
     <!-- Conversation: E2EE system messages -->
     <string name="content__otr__message_error">Nie otrzymano wiadomości od [[%1$s]]. _Dlaczego?_</string>
-    <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
+    <string name="content__otr__message_error_you">WIADOMOŚĆ OD CIEBIE NIE ZOSTAŁA DOSTARCZONA. _DLACZEGO?_</string>
     <string name="content__otr__identity_changed_error">[[%1$s]] zmienił tożsamość na urządzeniu. Niedostarczone wiadomości. _Dowiedz się więcej_</string>
-    <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
-    <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
-    <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
-    <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
-    <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
+    <string name="content__otr__identity_changed_error_you">ID URZĄDZENIA ULEGŁO ZMIANIE. WIADOMOŚĆ NIE ZOSTAŁA DOSTARCZONA. _WIĘCEJ_</string>
+    <string name="content__otr__someone_added_new_device__message">%1$s zaczął korzystać z _nowego urządzenia_</string>
+    <string name="content__otr__someone_and_you_added_new_device__message">%1$s i Ty zaczęliście korzystać z _nowego urządzenia_</string>
+    <string name="content__otr__someone_and_others_added_new_device__message">%1$s i %2$s inne osoby zaczęły korzystać z _nowego urządzenia_</string>
+    <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s inne osoby, i Ty, zaczęliście korzystać z _nowego urządzenia_</string>
     <string name="content__otr__start_this_device__message">[[YOU]] zaczął używać _TE URZĄDZENIE_</string>
     <string name="content__otr__all_fingerprints_verified">WSZYSTKIE UNIKALNE KLUCZE SĄ ZWERYFIKOWANE</string>
     <string name="content__otr__lost_history">NIE UŻYWAŁEŚ/AŚ TEGO URZĄDZENIA OD JAKIEGOŚ CZASU. NIEKTÓRE WIADOMOŚCI MOGĄ SIĘ TU NIE POJAWIĆ.</string>
@@ -201,24 +201,24 @@
     <string name="content__file__action__save_error">Nie można zapisać pliku</string>
     <string name="content__location__no_map_placeholder">LOKALIZACJA BĘDZIE WIDOCZNA NA MAPIE PO ODZYSKANIU DOSTĘPU DO INTERNETU.</string>
     <!-- Conversation actions -->
-    <string name="conversation__action__delete">Delete content&#8230;</string>
+    <string name="conversation__action__delete">Usuń zawartość&#8230;</string>
     <string name="conversation__action__archive">Archiwum</string>
     <string name="conversation__action__unarchive">Przywróć z archiwum</string>
-    <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
+    <string name="conversation__action__add_participants">DODAJ UCZESTNIKÓW</string>
     <string name="conversation__action__create_group">UTWÓRZ GRUPĘ</string>
-    <string name="conversation__action__notifications">Notifications&#8230;</string>
+    <string name="conversation__action__notifications">Powiadomienia&#8230;</string>
     <string name="conversation__action__silence">Wycisz</string>
     <string name="conversation__action__unsilence">Wyłącz wyciszenie</string>
-    <string name="conversation__action__leave">Leave group&#8230;</string>
+    <string name="conversation__action__leave">Opuść grupę&#8230;</string>
     <string name="conversation__action__call">Połączenie</string>
     <string name="conversation__action__picture">Zdjęcie profilowe</string>
-    <string name="conversation__action__block">Block&#8230;</string>
+    <string name="conversation__action__block">Zablokuj&#8230;</string>
     <string name="conversation__action__unblock">Odblokuj</string>
-    <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
-    <string name="conversation__action__leave_only">\tLeave group</string>
-    <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
-    <string name="conversation__action__delete_only">\tDelete content</string>
-    <string name="conversation__action__notifications_everything">Everything</string>
+    <string name="conversation__action__leave_and_delete">\tOpuść i usuń zawartość</string>
+    <string name="conversation__action__leave_only">\tOpuść grupę</string>
+    <string name="conversation__action__delete_and_leave">\tUsuń zawartość i opuść</string>
+    <string name="conversation__action__delete_only">\tUsuń zawartość</string>
+    <string name="conversation__action__notifications_everything">Wszystko</string>
     <string name="conversation__action__notifications_mentions_and_replies">Mentions and Replies</string>
     <string name="conversation__action__notifications_nothing">Nothing</string>
     <string name="conversation__action__notifications_title">Notify me about:</string>
@@ -1006,7 +1006,7 @@
     <string name="skip_button">SKIP</string>
     <string name="done_button">DONE</string>
     <string name="new_group_header">UTWÓRZ GRUPĘ</string>
-    <string name="add_participants_empty_header">ADD PARTICIPANTS</string>
+    <string name="add_participants_empty_header">DODAJ UCZESTNIKÓW</string>
     <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
     <string name="new_conv_no_results">Brak wyników</string>
     <string name="new_conv_no_contacts">No contacts</string>
