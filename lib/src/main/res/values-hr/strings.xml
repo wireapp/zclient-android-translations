@@ -72,7 +72,7 @@
     <string name="pick_user_search_focus">\u0020 PRETRAŽIVANJE</string>
     <string name="pick_user_search_hint">TRAŽI</string>
     <string name="choose_conversation">TRAŽI</string>
-    <string name="people_picker__top_users_header_title">Top veze</string>
+    <string name="people_picker__top_users_header_title">Najčešće kontaktirani</string>
     <string name="people_picker__search_result_conversations_header_title">Grupe</string>
     <string name="people_picker__search_result_team_conversations_header_title">%1$s Grupe</string>
     <string name="people_picker__search_result_connections_header_title">Kontakti</string>
@@ -106,9 +106,9 @@
     <string name="conversation_quick_menu__conversation_button__single_label">OTVORI</string>
     <!-- Conversation: System messages -->
     <string name="content__system__other_joined">[[%1$s]] se pridružio</string>
-    <string name="content__system__you_joined">[[You]] se pridružio</string>
+    <string name="content__system__you_joined">[[Vi]] ste se pridružili</string>
     <string name="content__system__other_renamed_conv">[[%1$s]] je preimenovao razgovor</string>
-    <string name="content__system__you_renamed_conv">[[You]] je preimenovao razgovor</string>
+    <string name="content__system__you_renamed_conv">[[Vi]] ste preimenovali razgovor</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] je dodao/la %2$s u razgovor</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -132,7 +132,7 @@
     <string name="content__system__other_removed_other">[[%1$s]] je uklonio/la %2$s</string>
     <string name="content__system__other_removed_you">[[%1$s]] te uklonio/la</string>
     <string name="content__system__you_removed_other">Vi ste uklonili %1$s</string>
-    <string name="content__system__you_left">[[Ti]] si izašao/la</string>
+    <string name="content__system__you_left">[[Vi]] ste napustili razgovor</string>
     <string name="content__system__other_left">[[%1$s]] je izašao/la</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Započeli ste razgovor</string>
@@ -151,7 +151,7 @@
         <item quantity="other">s%1$s, Vama i _%2$s osoba_</item>
     </plurals>
     <!-- Conversation: missed call -->
-    <string name="content__missed_call__you_called">[[TVOJ]] POZIV</string>
+    <string name="content__missed_call__you_called">[[VI]] STE ZVALI</string>
     <string name="content__missed_call__xxx_called">[[%1$s]] propušten poziv</string>
     <string name="content__you_pinged">[[VI]] STE POSLALI PING</string>
     <string name="content__xxx_pinged">[[%1$s]] PING</string>
@@ -197,8 +197,8 @@
     <string name="content__location__no_map_placeholder">LOKACIJA ĆE SE POJAVITI NA KARTI KAD BUDETE ONLINE.</string>
     <!-- Conversation actions -->
     <string name="conversation__action__delete">Izbriši sadržaj&#8230;</string>
-    <string name="conversation__action__archive">Arhiviraj</string>
-    <string name="conversation__action__unarchive">Dearhiviraj</string>
+    <string name="conversation__action__archive">Arhiva</string>
+    <string name="conversation__action__unarchive">Ukloni iz arhive</string>
     <string name="conversation__action__add_participants">DODAJ SUDIONIKE</string>
     <string name="conversation__action__create_group">IZRADI GRUPU</string>
     <string name="conversation__action__notifications">Obavijesti&#8230;</string>
@@ -509,21 +509,21 @@
     <string name="notification__message_with_quote__name__prefix__text">Odgovor od %1$s: \u0020</string>
     <string name="notification__message_with_quote__group__prefix__text">Odgovor od %1$s u %2$s: \u0020</string>
     <string name="notification__message__one_to_one__wanted_to_talk">Zvala/o</string>
-    <string name="notification__message__one_to_one__pinged">Pingala/o</string>
-    <string name="notification__message__one_to_one__shared_picture">Podijelila/o sliku</string>
-    <string name="notification__message__one_to_one__shared_file">Podijelila/o datoteku</string>
-    <string name="notification__message__one_to_one__shared_video">Podijelila/o video</string>
-    <string name="notification__message__one_to_one__shared_audio">Podijelila/o audio poruku</string>
-    <string name="notification__message__one_to_one__shared_location">Podijelila/o lokaciju</string>
+    <string name="notification__message__one_to_one__pinged">je poslao/la ping</string>
+    <string name="notification__message__one_to_one__shared_picture">je podijelio/la sliku</string>
+    <string name="notification__message__one_to_one__shared_file">je podijelio/la datoteku</string>
+    <string name="notification__message__one_to_one__shared_video">je podijelio/la video</string>
+    <string name="notification__message__one_to_one__shared_audio">je podijelio/la audio poruku</string>
+    <string name="notification__message__one_to_one__shared_location">je podijelio/la lokaciju</string>
     <!-- %1$s == username, %2$s == conversation -->
     <string name="notification__message__group__prefix__other">%1$s u %2$s \u0020</string>
-    <string name="notification__message__group__renamed_conversation">preimenovala/o razgovor u %1$s</string>
+    <string name="notification__message__group__renamed_conversation">je preimenovao/la razgovor u %1$s</string>
     <string name="notification__message__group__add">dodao/la je ljude u razgovor</string>
     <string name="notification__message__group__remove">uklonio/la je ljude iz razgovora</string>
     <string name="notification__message__single__accept_request">Vi i %1$s ste sada povezani</string>
     <string name="notification__message__group__default_conversation_name">grupni razgovor</string>
     <string name="notification__message__send_failed">Poruka ne uspješno poslana</string>
-    <string name="notification__message__ephemeral">Pošalji poruku</string>
+    <string name="notification__message__ephemeral">je poslao poruku</string>
     <string name="notification__message_with_mention__ephemeral">Spomenio te</string>
     <string name="notification__message_with_quote__ephemeral">Odgovorio ti</string>
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
@@ -537,9 +537,9 @@
         <item quantity="other">Netko Vam je poslao %1$d poruka</item>
     </plurals>
     <string name="other_set_message_timer">[[%1$s]] je postavio tajmer poruke na [[%2$s]]</string>
-    <string name="you_set_message_timer">[[You]] je postavio tajmer poruke na [[%1$s]]</string>
+    <string name="you_set_message_timer">[[Vi]] ste postavili tajmer poruke na [[%1$s]]</string>
     <string name="other_turned_off_message_timer">[[%1$s]] je isključio tajmer poruke</string>
-    <string name="you_turned_off_message_timer">[[You]] je isključio tajmer poruke</string>
+    <string name="you_turned_off_message_timer">[[Vi]] ste isključili tajmer poruke</string>
     <!-- Others -->
     <string name="app_name">Wire</string>
     <string name="content__system__item_separator">,</string>
@@ -624,13 +624,13 @@
     <string name="edit_phone_number">UREĐIVANJE TELEFONSKOG BROJA</string>
     <string name="i_have_an_account">PRIJAVI SE</string>
     <plurals name="welcome__resend__timer_label">
-        <item quantity="one">MOŽETE ZATRAŽITI NOVI KOD U %1$d SEKUNDI</item>
+        <item quantity="one">MOŽETE ZATRAŽITI NOVI KOD ZA %1$d SEKUNDI</item>
         <item quantity="few">MOŽETE ZATRAŽITI NOVI KOD U %1$d SEKUNDI</item>
         <item quantity="other">MOŽETE ZATRAŽITI NOVI KOD U %1$d SEKUNDI</item>
     </plurals>
     <string name="welcome__resend__manual">PONOVNO POŠALJI</string>
     <string name="welcome__resend__callme">NAZOVI ME</string>
-    <string name="activation_code_info_manual">Unesite kod za provjeru upućen \n&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="activation_code_info_manual">Unesite kod za provjeru upućen na \n&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="enter_name">Kako da te zovemo?</string>
     <string name="enter_name_hint">Unesite puno ime</string>
     <string name="new_reg__password__forgot">Zaboravili ste lozinku?</string>
@@ -644,8 +644,8 @@
     <!-- Giphy -->
     <string name="giphy_preview__search_hint">Pretraži Giphy</string>
     <string name="giphy_preview__error">NIJEDAN GIF NIJE PRONAĐEN.</string>
-    <string name="giphy_preview__message_via_random_trending">putem giphy.com</string>
-    <string name="giphy_preview__message_via_search">%s · preko giphy.com</string>
+    <string name="giphy_preview__message_via_random_trending">Putem giphy.com</string>
+    <string name="giphy_preview__message_via_search">%s · putem giphy.com</string>
     <string name="service_giphy_name">Giphy</string>
     <!--Sketch-->
     <string name="drawing__tip__picture__message">DODIRNITE BOJU ZA PROMJENU VELIČINE KISTA.\n\nPROTRESITE ZA UKLANJANJE SLIKE.</string>
@@ -658,7 +658,7 @@
     <!-- Location sharing -->
     <string name="location_sharing__tip">Povucite kartu za promjenu mjesta</string>
     <string name="location_sharing__permission_error">Nije moguće dohvatiti trenutnu lokaciju, dopuštenje je odbijeno</string>
-    <string name="location_sharing__send_button">POSLATI</string>
+    <string name="location_sharing__send_button">POŠALJI</string>
     <string name="location_sharing__enable_system_location__title">Koristiti lokaciju?</string>
     <string name="location_sharing__enable_system_location__message">Omogućite lokacijske usluge u postavkama za prikaz trenutne pozicije</string>
     <string name="location_sharing__enable_system_location__confirm">Postavke</string>
@@ -755,13 +755,13 @@
     <!-- video message preview -->
     <string name="audio_message__recording__slide_control__slide_hint">POVUCITE PREMA GORE ZA SLANJE</string>
     <string name="audio_message__recording__slide_control__tap_hint">DODIRNITE ZA SLANJE</string>
-    <string name="audio_message__recording__tap_to_record">Dodirnite za snimanje message\nmožete _GLYPH_ nakon toga</string>
+    <string name="audio_message__recording__tap_to_record">Dodirnite za snimanje poruke\nmožete je urediti nakon toga _GLYPH_</string>
     <string name="audio_message__recording__failure__title">Snimanje zvuka neuspješno</string>
     <string name="audio_message__recording__failure__message">Molimo Vas da pokušate ponovno.</string>
     <string name="audio_message__recording__limit_reached__title">Snimanje zaustavljeno</string>
     <string name="audio_message__recording__limit_reached__message">Zvučne poruke su ograničene do 25 MB. Poslati ovu poruku?</string>
     <string name="audio_message__recording__limit_reached__confirmation">POSLATI</string>
-    <string name="hint_change_filter">Odaberite filtar iznad</string>
+    <string name="hint_change_filter">Odaberite jedan od filtera iznad</string>
     <string name="message_bottom_menu_action_forward">Podijeli</string>
     <string name="message_bottom_menu_action_copy">Kopiraj</string>
     <string name="message_bottom_menu_action_edit">Promjeni</string>
@@ -783,13 +783,12 @@
         <item quantity="other">%1$d ljudi</item>
     </plurals>
     <string name="message_footer__status__sending">Slanje&#8230;</string>
-    <string name="message_footer__status__waiting_for_connection">Čekanje na vezu&#8230;</string>
     <string name="message_footer__status__sent">%1$s \u30FB Poslano</string>
     <string name="message_footer__status__delivered">%1$s \u30FB Isporučeno</string>
     <string name="message_footer__status__failed">Slanje nije uspjelo. _Ponovno pošalji_</string>
     <string name="message_footer__status__deleted">%1$s \u30FB Izbrisano</string>
     <string name="ephemeral_message__timeout_selection_info">POSTAVITE VRIJEME ZA NESTAJANJE PORUKE</string>
-    <string name="usernames__take_over__summary">Zgrabite svoje jedistveno ime na Wire. _Saznajte više._</string>
+    <string name="usernames__take_over__summary">Zgrabite svoje jedinstveno ime na Wireu. _Saznajte više._</string>
     <string name="usernames__take_over__choose">ODABERITE VLASTITO</string>
     <string name="usernames__take_over__keep">ZADRŽITE OVO</string>
     <string name="ephemeral_message__timeout__off">Isključi</string>
@@ -873,13 +872,13 @@
     </plurals>
     <string name="conversation_list__unsent_message_long">⚠ Poruka nije poslana</string>
     <string name="conversation_list__unsent_message_short">⚠</string>
-    <string name="conversation_list__shared__image">Podijelila/o sliku</string>
-    <string name="conversation_list__shared__file">Podijelila/o datoteku</string>
-    <string name="conversation_list__shared__video">Podijelila/o video</string>
-    <string name="conversation_list__shared__audio">Podijelila/o audio poruku</string>
-    <string name="conversation_list__shared__location">Podijelila/o lokaciju</string>
+    <string name="conversation_list__shared__image">je podijelio/la sliku</string>
+    <string name="conversation_list__shared__file">je podijelio/la datoteku</string>
+    <string name="conversation_list__shared__video">je podijelio/la video</string>
+    <string name="conversation_list__shared__audio">je podijelio/la audio poruku</string>
+    <string name="conversation_list__shared__location">je podijelio/la lokaciju</string>
     <string name="conversation_list__missed_call">Propušten poziv</string>
-    <string name="conversation_list__pinged">Pingala/o</string>
+    <string name="conversation_list__pinged">je poslao/la ping</string>
     <string name="conversation_list__ephemeral">Netko je poslao poruku</string>
     <string name="conversation_list__single_eph_and_mention">Spomenio te</string>
     <string name="conversation_list__group_eph_and_mention">Netko Vas je spomenuo</string>
@@ -892,7 +891,7 @@
     <string name="conversation_list__left_you">Vi ste otišli</string>
     <string name="conversation_list__removed_you">[[%1$s]] te uklonio/la</string>
     <string name="conversation_list__header__title">RAZGOVORI</string>
-    <string name="conversation_list__header__archive_title">ARHIVIRAJ</string>
+    <string name="conversation_list__header__archive_title">ARHIVA</string>
     <string name="conversation_list__single_with_quote">Odgovor: %1$s</string>
     <string name="conversation_list__group_with_quote">Odgovor od %1$s: %2$s</string>
     <string name="conversation_list__single_without_quote">%1$s</string>
@@ -942,7 +941,7 @@
     <string name="app_entry_tc_dialog_message">Morate potvrditi za nastavak</string>
     <string name="app_entry_notifications_dialog_title">Obavijesti</string>
     <string name="app_entry_notifications_dialog_message">Obavijesti mogu uključivati upozorenja, zvukove i značke ikona. One se mogu promijeniti u Postavkama.</string>
-    <string name="app_entry_dialog_accept">PRIHVATI POZIV</string>
+    <string name="app_entry_dialog_accept">PRIHVATI</string>
     <string name="app_entry_dialog_cancel">ODUSTANI</string>
     <string name="app_entry_dialog_log_in">PRIJAVI SE</string>
     <string name="app_entry_dialog_no_thanks">NE, HVALA</string>
@@ -976,14 +975,14 @@
     <string name="create_group_conversation">Stvorite grupu</string>
     <string name="create_guest_room_conversation">Stvorite sobu za goste</string>
     <string name="manage_services">Upravljanje uslugama</string>
-    <string name="next_button">SLIJEDEĆE</string>
+    <string name="next_button">SLJEDEĆE</string>
     <string name="skip_button">PRESKOČI</string>
     <string name="done_button">GOTOVO</string>
     <string name="new_group_header">IZRADI GRUPU</string>
     <string name="add_participants_empty_header">DODAJ SUDIONIKE</string>
     <string name="add_participants_count_header">DODAJ SUDIONIKE (%1$s)</string>
     <string name="new_conv_no_results">Nema rezultata</string>
-    <string name="new_conv_no_contacts">Nema kontakta</string>
+    <string name="new_conv_no_contacts">Nema kontakata</string>
     <string name="participants_divider_services">USLUGE (%1$s)</string>
     <string name="participants_divider_people">OSOBE (%1$s)</string>
     <string name="group_name_hint">NAZIV GRUPE</string>
@@ -1042,7 +1041,7 @@
     <string name="pref_account_backup_warning_ok">U redu</string>
     <string name="export_generic_error_title">Ne uspješno spremanje datoteke</string>
     <string name="export_generic_error_text">Možda nemate dovoljno prostora ili dozvolu za spremanje na tu lokaciju.</string>
-    <string name="backup_button">Izradi sig. kopiju sada</string>
+    <string name="backup_button">Izradi sigurnosnu kopiju sada</string>
     <string name="backup_import_error_unknown_title">Nešto je pošlo po zlu</string>
     <string name="backup_import_error_unknown">Vašu povijest nije moguće vratiti.</string>
     <string name="backup_import_error_unsupported_version_title">Ne kompatibilna sigurnosna kopija</string>

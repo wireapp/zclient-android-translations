@@ -112,18 +112,18 @@
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] ha aggiunto %2$s alla conversazione</string>
     <plurals name="content__system__someone_added_people_with_others">
-        <item quantity="one">[[%1$s]] added %2$s and _%3$s other to the conversation_</item>
-        <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+        <item quantity="one">%1$s ha aggiunto %2$s e _%3$s altro alla conversazione_</item>
+        <item quantity="other">%1$s ha aggiunto %2$s e _%3$s altri alla conversazione_</item>
     </plurals>
-    <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
+    <string name="content__system__someone_added_you">[[%1$s]] ti ha aggiunto alla conversazione</string>
     <plurals name="content__system__someone_added_people_and_you_with_others">
-        <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
-        <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+        <item quantity="one">[[%1$s]] ha aggiunto %2$s, te e _%3$s altro alla conversazione_</item>
+        <item quantity="other">[[%1$s]] ha aggiunto %2$s, te e _%3$s altri alla conversazione_</item>
     </plurals>
-    <string name="content__system__you_added_people">You added %1$s to the conversation</string>
+    <string name="content__system__you_added_people">Hai aggiunto %1$s alla conversazione</string>
     <plurals name="content__system__you_added_people_with_others">
-        <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
-        <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
+        <item quantity="one">Hai aggiunto %1$s e_%2$s altro alla conversazione_</item>
+        <item quantity="other">Hai aggiunto %1$s e_%2$s altri alla conversazione_</item>
     </plurals>
     <!-- Remove people -->
     <string name="content__system__other_removed_other">[[%1$s]] ha rimosso %2$s</string>
@@ -137,13 +137,13 @@
     <string name="content__system__with_you_only">con te</string>
     <string name="content__system__with_list_only">con %1$s</string>
     <plurals name="content__system__with_others_only">
-        <item quantity="one">with %1$s and _%2$s other_</item>
-        <item quantity="other">with %1$s and _%2$s others_</item>
+        <item quantity="one">con %1$s e_%2$s altro_</item>
+        <item quantity="other">con %1$s e_%2$s altri_</item>
     </plurals>
     <string name="content__system__with_list_and_you">con %1$s e te</string>
     <plurals name="content__system__with_others_and_you">
-        <item quantity="one">with %1$s, you and _%2$s other_</item>
-        <item quantity="other">with %1$s, you and _%2$s others_</item>
+        <item quantity="one">con %1$s, te e _%2$s altro_</item>
+        <item quantity="other">con %1$s, te e _%2$s altri_</item>
     </plurals>
     <!-- Conversation: missed call -->
     <string name="content__missed_call__you_called">[[TU]] HAI CHIAMATO</string>
@@ -152,13 +152,13 @@
     <string name="content__xxx_pinged">[[%1$s]] HA FATTO UN TRILLO</string>
     <!-- Conversation: E2EE system messages -->
     <string name="content__otr__message_error">UN MESSAGGIO DA [[%1$s]] NON È STATO RICEVUTO. _PERCHÈ?_</string>
-    <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
+    <string name="content__otr__message_error_you">UN MESSAGGIO DA TE NON È STATO RICEVUTO. _PERCHÈ?_</string>
     <string name="content__otr__identity_changed_error">L\'IDENTITÀ DEL DISPOSITIVO DI [[%1$s]] È CAMBIATA. MESSAGGIO NON CONSEGNATO _SCOPRI DI PIÙ_</string>
-    <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
-    <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
-    <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
-    <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
-    <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
+    <string name="content__otr__identity_changed_error_you">L\'IDENTITÀ DEL TUO DISPOSITIVO È CAMBIATA. MESSAGGIO NON CONSEGNATO _SCOPRI DI PIÙ_</string>
+    <string name="content__otr__someone_added_new_device__message">%1$s ha iniziato ad usare un _nuovo dispositivo_</string>
+    <string name="content__otr__someone_and_you_added_new_device__message">tu e %1$s avete iniziato ad usare un _nuovo dispositivo_</string>
+    <string name="content__otr__someone_and_others_added_new_device__message">%1$s e %2$s altri hanno iniziato ad usare un _nuovo dispositivo_</string>
+    <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s altri e te avete iniziato ad usare un _nuovo dispositivo_</string>
     <string name="content__otr__start_this_device__message">[[TU]] HAI INIZIATO AD USARE _QUESTO DISPOSITIVO_</string>
     <string name="content__otr__all_fingerprints_verified">TUTTE LE IMPRONTE DIGITALI SONO STATE VERIFICATE</string>
     <string name="content__otr__lost_history">NON HAI USATO QUESTO DISPOSITIVO PER UN PO\'. ALCUNI MESSAGGI POTREBBERO NON APPARIRE QUI.</string>
@@ -216,11 +216,11 @@
     <!-- Calling/voice -->
     <string name="calling__slow_connection__title">Internet lento</string>
     <string name="calling__slow_connection__message">La tua connessione Internet è troppo lenta per chiamare in questo momento. Riprova più tardi.</string>
-    <string name="calling__cannot_start__title">Microphone required</string>
+    <string name="calling__cannot_start__title">Microfono richiesto</string>
     <string name="calling__cannot_start__message">Per chiamare, chiudi la chiamata corrente.</string>
-    <string name="calling__cannot_start__no_permission__message">Go to Settings and allow Wire to access the microphone.</string>
+    <string name="calling__cannot_start__no_permission__message">Vai nelle impostazioni e consenti a Wire di accedere al microfono.</string>
     <string name="calling__cannot_start__cancel__message">ANNULLA</string>
-    <string name="calling__cannot_start__no_camera_permission__message">Wire doesn\'t have access to the camera</string>
+    <string name="calling__cannot_start__no_camera_permission__message">Wire non ha accesso alla fotocamera</string>
     <string name="calling__video_call__slow_connection__message">Potresti riscontrare problemi durante la chiamata</string>
     <string name="incoming__controls__ongoing__speaker">ALTOPARLANTE</string>
     <string name="incoming__controls__ongoing__mute">SILENZIA</string>
@@ -237,24 +237,24 @@
     <string name="call_banner_joining">Connessione in corso&#8230;</string>
     <string name="call_banner_outgoing">Chiamando %1$S&#8230;</string>
     <string name="call_banner_incoming">%1$s sta chiamando&#8230;</string>
-    <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
-    <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
+    <string name="call_banner_incoming_group">%1$s \u30FB %2$s sta chiamando&#8230;</string>
+    <string name="call_banner_tap_to_return_to_call">Clicca per tornare alla chiamata\u30FB%1$s</string>
     <string name="calling_ongoing_call_title">Chiamata in corso</string>
-    <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
+    <string name="calling_ongoing_call_start_message">Una chiamata è attiva in un\'altra conversazione.\nLa chiamata qui interromperà l\'altra chiamata.</string>
     <string name="calling_ongoing_call_start_anyway">CHIAMA COMUNQUE</string>
-    <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
+    <string name="calling_ongoing_call_join_message">Una chiamata è attiva in un\'altra conversazione.\nUnendoti a questa chiamata verrà interrotta quella in corso.</string>
     <string name="calling_ongoing_call_join_anyway">UNISCITI COMUNQUE</string>
     <string name="calling_ongoing_call_participants_header">PARTECIPANTI</string>
-    <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-    <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
+    <string name="calling_ongoing_call_audio_message">Non puoi registrare un messaggio audio durante una chiamata</string>
+    <string name="calling_ongoing_call_video_message">Non puoi registrare un video messaggio durante una chiamata</string>
     <!-- Calling in group conversation -->
     <string name="group_calling_title">Inizia una chiamata</string>
-    <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
+    <string name="group_calling_message" tools:ignore="PluralsCandidate">Questo chiamerà %1$s persone</string>
     <string name="group_calling_confirm">Chiama</string>
     <!-- Connect request -->
     <string name="connect__message">Ciao %1$s, \nConnettiamoci su Wire. \n%2$s</string>
     <string name="connect_request__sub_header__pending_label">In sospeso</string>
-    <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
+    <string name="connect_request__cancel_request__label">ANNULLA RICHIESTA DI CONNESSIONE</string>
     <string name="connect_request__unblock__button__text">Sblocca</string>
     <string name="send_connect_request__connect_button__text">CONNETTI</string>
     <plurals name="connect_inbox__link__name">
@@ -410,14 +410,14 @@
     <string name="pref_advanced_screen_title">Avanzate</string>
     <string name="pref_advanced_debug_report_title">Invia report di debug</string>
     <string name="pref_advanced_debug_report_summary">Questo aiuta il supporto di Wire a diagnosticare il problema.</string>
-    <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
+    <string name="pref_advanced_reset_push_title">Reimposta il token delle notifiche push</string>
     <string name="pref_advanced_reset_push_summary">Se si verificano problemi con le notifiche push, il supporto di Wire può chiedere di reimpostare questo token.</string>
     <string name="pref_advanced_reset_push_completed">Push Token è stata resettata</string>
     <string name="debug_report__title">Report di debug di Wire - %1$s</string>
     <string name="debug_report__body">Descrivi per favore i passaggi necessari per riprodurre il problema, se possibile mandaci uno screenshot e invia questa emaill.\n\n</string>
     <string name="pref_advanced_ws_foreground_title">Mantenere la connessione al server</string>
-    <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
-        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
+    <string name="pref_advanced_ws_foreground_summary">Abbiamo rilevato che i servizi di Google Play non sono installati. Wire cercherà di mantenere una connessione con il server aperto per ricevere notifiche mentre l\'applicazione non è in primo piano.
+         Disattivare questa impostazione può migliorare le prestazioni della batteria, ma non riceverai più notifiche quando Wire è in background. Questo vale per tutti gli account su questo dispositivo.</string>
     <!-- Support -->
     <string name="pref_support_screen_title">Supporto</string>
     <string name="pref_support_website_title">Sito assistenza clienti Wire</string>
@@ -478,14 +478,14 @@
     <string name="calling__call_drop__message">È necessario essere online per chiamare. Controlla la connessione e riprova.</string>
     <!-- Lockscreen and notifications -->
     <string name="message_notifications_channel_name">Messaggi</string>
-    <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
-    <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+    <string name="message_notifications_channel_description">Notifiche per tutti i tipi di messaggi, inclusi testo, immagini, messaggi audio e video.</string>
+    <string name="incoming_call_notifications_channel_name">Chiamate in arrivo</string>
     <string name="ping_notifications_channel_name">Fai un trillo</string>
-    <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
+    <string name="ping_notifications_channel_description">Notifiche quando altri utenti eseguono il ping dell\'utente</string>
     <string name="ongoing_channel_name">Notifiche in backgroud</string>
-    <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
+    <string name="ongoing_channel_description">Notifiche su processi in corso o azioni secondarie, come chiamate o salvataggio di un\'immagine</string>
     <string name="foreground_service_notification_name">Mantenere la connessione al server</string>
-    <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
+    <string name="foreground_service_notification_description">Questa notifica è necessaria per mantenere attiva la connessione al server mentre Wire è in background e Google Play Services non è installato.</string>
     <plurals name="notification__new_messages__multiple">
         <item quantity="one">Messaggio in %2$s conversazioni</item>
         <item quantity="other">%1$d messaggi in %2$s conversazioni</item>
@@ -493,11 +493,11 @@
     <!-- %1$s == username, %2$s == conversation -->
     <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
     <string name="notification__message__group__prefix__text">%1$s in %2$s: \u0020</string>
-    <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
-    <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
+    <string name="notification__message_with_mention__name__prefix__text">Menzione da %1$s: \u0020</string>
+    <string name="notification__message_with_mention__group__prefix__text">Menzione da %1$s in %2$s:\u0020</string>
     <string name="notification__message_with_quote__name__prefix__text_one2one">Risposta: \u0020</string>
-    <string name="notification__message_with_quote__name__prefix__text">Reply from %1$s: \u0020</string>
-    <string name="notification__message_with_quote__group__prefix__text">Reply from %1$s in %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">Risposta da %1$s: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">Risposta da %1$s in %2$s: \u0020</string>
     <string name="notification__message__one_to_one__wanted_to_talk">Ha chamato</string>
     <string name="notification__message__one_to_one__pinged">Ha fatto un trillo</string>
     <string name="notification__message__one_to_one__shared_picture">Ha condiviso un\'immagine</string>
@@ -525,10 +525,10 @@
         <item quantity="one">Qualcuno ti ha mandato un messaggio</item>
         <item quantity="other">Qualcuno ti ha mandato %1$d messaggi</item>
     </plurals>
-    <string name="other_set_message_timer">[[%1$s]] set the message timer to [[%2$s]]</string>
-    <string name="you_set_message_timer">[[You]] set the message timer to [[%1$s]]</string>
-    <string name="other_turned_off_message_timer">[[%1$s]] turned off the message timer</string>
-    <string name="you_turned_off_message_timer">[[You]] turned off the message timer</string>
+    <string name="other_set_message_timer">[[%1$s]] ha impostato il timer del messaggio a [[%2$s]]</string>
+    <string name="you_set_message_timer">[[You]] hai impostato il timer del messaggio a [[%1$s]]</string>
+    <string name="other_turned_off_message_timer">[[%1$s]] ha disattivato il timer dei messaggi</string>
+    <string name="you_turned_off_message_timer">[[You]] hai disattivato il timer dei messaggi</string>
     <!-- Others -->
     <string name="app_name">Wire</string>
     <string name="content__system__item_separator">,</string>
@@ -544,12 +544,12 @@
     <string name="system_notification__leave_call">Termina chiamata</string>
     <string name="system_notification__calling_one">Chiamata in corso&#8230;</string>
     <string name="system_notification__calling_group">%1$s sta chiamando&#8230;</string>
-    <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
-    <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
-    <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
-    <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
-    <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
-    <string name="ws_foreground_notification_summary">Tap here for more information.</string>
+    <string name="system_notification__video_calling_one">Chiamando con video&#8230;</string>
+    <string name="system_notification__video_calling_group">%1$s sta videochiamando&#8230;</string>
+    <string name="ws_foreground_notification_connected_title">Collegato al server Wire</string>
+    <string name="ws_foreground_notification_no_internet_title">In attesa di connessione Internet&#8230;</string>
+    <string name="ws_foreground_notification_connecting_title">Stabilendo una connessione&#8230;</string>
+    <string name="ws_foreground_notification_summary">Clicca qui per maggiori informazioni.</string>
     <!-- Notification actions -->
     <string name="notification__action__call">Chiama</string>
     <string name="notification__action__reply">Rispondi</string>
@@ -630,7 +630,7 @@
     <!-- Giphy -->
     <string name="giphy_preview__search_hint">Ricerca Giphy</string>
     <string name="giphy_preview__error">NESSUNA GIF TROVATA.</string>
-    <string name="giphy_preview__message_via_random_trending">via giphy.com</string>
+    <string name="giphy_preview__message_via_random_trending">Via giphy.com</string>
     <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
     <string name="service_giphy_name">Giphy</string>
     <!--Sketch-->
@@ -725,7 +725,7 @@
     <string name="tooltip_audio_message">Tocca e tieni premuto per inviare un messaggio audio</string>
     <string name="tooltip_file">Invia file</string>
     <string name="tooltip_gif">GIF</string>
-    <string name="tooltip_mention">Add Mention</string>
+    <string name="tooltip_mention">Aggiungi Menzione</string>
     <!-- Delete -->
     <string name="conversation__message_action__delete_for_me">Eliminare solo per me?</string>
     <string name="conversation__message_action__delete_for_everyone">Eliminare per tutti?</string>
@@ -768,7 +768,6 @@
         <item quantity="other">%1$d persone</item>
     </plurals>
     <string name="message_footer__status__sending">Invio in corso&#8230;</string>
-    <string name="message_footer__status__waiting_for_connection">Waiting for connection&#8230;</string>
     <string name="message_footer__status__sent">%1$s \u30FB Inviato</string>
     <string name="message_footer__status__delivered">%1$s \u30FB Consegnato</string>
     <string name="message_footer__status__failed">Invio non riuscito. _Rimanda_</string>
@@ -877,7 +876,7 @@
     <string name="availability_away">Assente</string>
     <string name="availability_busy">Occupato</string>
     <string name="availability_text_available">%1$s E\' DISPONIBILE</string>
-    <string name="availability_text_away">%1$s IS AWAY</string>
+    <string name="availability_text_away">%1$s E\' LONTANO</string>
     <string name="availability_text_busy">%1$s E\' OCCUPATO</string>
     <string name="availability_setstatus">IMPOSTA UNO STATO</string>
     <string name="preferences_profile_new">Nuovo team o account</string>
@@ -898,9 +897,9 @@
     <string name="teams_set_team_name_title">Dai un nome al tuo team</string>
     <string name="teams_set_team_name_subtitle">Potrai cambiarlo in seguito.</string>
     <string name="teams_set_team_name_hint">NOME DELLA SQUADRA</string>
-    <string name="teams_set_team_name_about">WHAT IS WIRE FOR TEAMS?</string>
+    <string name="teams_set_team_name_about">CHE COSA È WIRE PER I TEAM?</string>
     <string name="teams_verify_email_title">È arrivata una mail</string>
-    <string name="teams_verify_email_subtitle">Enter the verification code we sent to %1$s.</string>
+    <string name="teams_verify_email_subtitle">Inserisci il codice di verifica che abbiamo inviato a %1$s.</string>
     <string name="teams_verify_email_resend">REINVIA IL CODICE</string>
     <string name="teams_verify_email_change">CAMBIA E-MAIL</string>
     <string name="teams_set_name_title">Il tuo nome</string>
@@ -914,7 +913,7 @@
     <string name="app_entry_tc_dialog_title">Termini del servizio</string>
     <string name="app_entry_tc_dialog_message">Devi accettare per continuare</string>
     <string name="app_entry_notifications_dialog_title">Notifiche</string>
-    <string name="app_entry_notifications_dialog_message">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
+    <string name="app_entry_notifications_dialog_message">Le notifiche possono includere avvisi, suoni e badge icona. Questi possono essere configurati in Impostazioni.</string>
     <string name="app_entry_dialog_accept">ACCETTA</string>
     <string name="app_entry_dialog_cancel">ANNULLA</string>
     <string name="app_entry_dialog_log_in">LOG IN</string>
@@ -934,16 +933,16 @@
     <string name="teams_invitations_error_already_sent">Già inviato</string>
     <string name="teams_invitations_error_generic">Qualcosa è andato storto, si prega di riprovare</string>
     <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
-    <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
-    <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
-    <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
+    <string name="teams_invitations_error_invalid_email">SI PREGA DI INSERIRE UN INDIRIZZO EMAIL VALIDO</string>
+    <string name="teams_invitations_error_email_exists">QUESTO INDIRIZZO E-MAIL È GIÀ IN USO</string>
+    <string name="teams_invitations_error_no_internet">NESSUNA CONNESSIONE A INTERNET</string>
     <string name="invitation_screen_title">Costruisci il tuo team</string>
     <string name="invitation_screen_subtitle">Invita i tuoi colleghi ad unirsi.</string>
     <string name="open_service_conversation_button_text">Apri conversazione</string>
-    <string name="remove_service_button_text">Remove Service</string>
+    <string name="remove_service_button_text">Rimuovi Servizio</string>
     <string name="integrations_create_conversation">Crea una nuova conversazione</string>
-    <string name="no_matches_found">No matches found</string>
-    <string name="loading_services">Loading services&#8230;</string>
+    <string name="no_matches_found">Nessuna corrispondenza trovata</string>
+    <string name="loading_services">Caricamento servizi&#8230;</string>
     <string name="empty_services_list">I servizi aiutano a migliorare il tuo flusso di lavoro. Per attivarli, contatta il tuo amministratore.</string>
     <string name="empty_services_list_admin">I servizi aiutano a migliorare il tuo flusso di lavoro.</string>
     <string name="create_group_conversation">Crea gruppo</string>
@@ -967,23 +966,23 @@
     <string name="guest_options_title">Ospiti e servizi</string>
     <string name="ephemeral_options_title">Messaggi a tempo</string>
     <string name="notifications_options_title">Notifiche</string>
-    <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
-    <string name="notifications_explanation_text">You can be notified about everything (including audio and video calls) or only when you are mentioned.</string>
+    <string name="ephemeral_explanation_text">I messaggi a tempo verranno attivati per tutti i partecipanti a questa conversazione</string>
+    <string name="notifications_explanation_text">Puoi essere avvisato di tutto (incluse le chiamate audio e video) o solo quando sei menzionato.</string>
     <string name="show_all_participants">Mostra tutto (%1$s)</string>
     <string name="allow_guests_error_title">Qualcosa è andato storto</string>
-    <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
+    <string name="allow_guests_error_body">Impossibile consentire ospiti o servizi. Per favore riprova.</string>
     <string name="allow_guests_warning_body">Gli ospiti e i servizi attuali saranno rimossi dalla conversazione. Non saranno accettati nuovi ospiti e servizi.</string>
     <string name="allow_guests_warning_confirm">Rimuovi</string>
-    <string name="guests_are_present">GUESTS ARE PRESENT</string>
-    <string name="services_are_present">SERVICES ARE ACTIVE</string>
-    <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
+    <string name="guests_are_present">GLI OSPITI SONO PRESENTI</string>
+    <string name="services_are_present">I SERVIZI SONO ATTIVI</string>
+    <string name="guests_and_services_are_present">GLI OSPITI E I SERVIZI SONO PRESENTI</string>
     <string name="participants_details_header_title">DETTAGLI</string>
-    <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
+    <string name="invitation_link_description">Chiunque abbia il link può partecipare alla conversazione, anche se non ha Wire</string>
     <string name="create_link_button">Crea un link</string>
     <string name="copy_link_button">Copia link</string>
     <string name="share_link_button">Condividi link</string>
     <string name="revoke_link_button">Revoca il link&#8230;</string>
-    <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
+    <string name="invitation_link_title">INVITA ALTRI CON UN LINK</string>
     <string name="link_copied_toast">Link copiato!</string>
     <string name="revoke_link_message">I nuovi ospiti non saranno in grado di partecipare con questo link. Gli ospiti attuali avranno ancora accesso.</string>
     <string name="revoke_link_confirm">Revoca il link</string>
@@ -993,48 +992,48 @@
     <string name="guest_time_left_hours">%1$sh rimanenti</string>
     <string name="guest_time_left_hours_minutes">%1$s.%2$sh rimanenti</string>
     <string name="guest_time_left_minutes">Meno di %1$sm rimanenti</string>
-    <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
-    <string name="pref_account_backup_title">Back up conversations</string>
-    <string name="add_email_address">Add your email address</string>
-    <string name="set_a_password">Set a password</string>
-    <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
+    <string name="backup_description">Crea un backup per conservare la cronologia delle conversazioni. Puoi utilizzarlo per ripristinare la cronologia se perdi il dispositivo o se passi ad uno nuovo.
+        \nIl file di backup non è protetto dalla crittografia end-to-end di Wire, quindi memorizzalo in un luogo sicuro.</string>
+    <string name="pref_account_backup_title">Backup delle conversazioni</string>
+    <string name="add_email_address">Aggiungi il tuo indirizzo email</string>
+    <string name="set_a_password">Impostare una password</string>
+    <string name="email_and_password_explanation">Hai bisogno di un indirizzo email e una password per utilizzare Wire su più dispositivi.</string>
     <string name="new_device_password">Nuovo dispositivo</string>
-    <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
-    <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+    <string name="new_device_password_explanation">Inserisci la password per il tuo account Wire.\n%1$s</string>
+    <string name="restore_from_backup_button">RIPRISTINA DA BACKUP</string>
     <string name="second_launch__header">Hai utilizzato Wire su questo dispositivo prima.</string>
-    <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+    <string name="second_launch__sub_header">Se fosse molto tempo fa, alcuni messaggi potrebbero non apparire qui.</string>
     <string name="restore_override_alert_title">Ripristino della cronologia</string>
-    <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
+    <string name="restore_override_alert_text">I contenuti del backup sostituiranno la cronologia delle conversazioni su questo dispositivo. È possibile ripristinare la cronologia solo da un backup della stessa piattaforma.</string>
     <string name="restore_override_alert_ok">Scegli il file di backup</string>
-    <string name="back_up_progress">BACKING UP&#8230;</string>
-    <string name="back_up_progress_complete">COMPLETE</string>
-    <string name="restore_progress">RESTORING&#8230;</string>
+    <string name="back_up_progress">BACKUP IN CORSO&#8230;</string>
+    <string name="back_up_progress_complete">COMPLETARE</string>
+    <string name="restore_progress">RIPRISTINO&#8230;</string>
     <string name="pref_account_backup_warning_title">Imposta un indirizzo email e la password.</string>
     <string name="pref_account_backup_warning_message">Hai bisogno di una email e una password per eseguire il backup delle conversazioni. Potrai eseguirlo dalla schermata Account delle impostazioni.</string>
     <string name="pref_account_backup_warning_ok">OK</string>
-    <string name="export_generic_error_title">The file could not be saved</string>
-    <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
+    <string name="export_generic_error_title">Il file non può essere salvato</string>
+    <string name="export_generic_error_text">Potresti non avere abbastanza spazio o permesso per salvarlo lì.</string>
     <string name="backup_button">Esegui il backup ora</string>
     <string name="backup_import_error_unknown_title">Qualcosa è andato storto</string>
     <string name="backup_import_error_unknown">La tua cronologia non può essere ripristinata.</string>
     <string name="backup_import_error_unsupported_version_title">Backup incompatibile</string>
     <string name="backup_import_error_unsupported_version">Questo backup è stato creato con una versione più recente o obsoleta di Wire e non può essere ripristinato.</string>
-    <string name="backup_import_error_wrong_account_title">Wrong backup</string>
+    <string name="backup_import_error_wrong_account_title">Backup difettoso</string>
     <string name="backup_import_error_wrong_account">Non è possibile ripristinare le conversazioni da un altro account.</string>
     <string name="video_paused">Video in pausa</string>
     <string name="calling_degraded_title">Nuovo dispositivo</string>
-    <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
+    <string name="call_info_text">Fino a 300 persone possono partecipare a una conversazione di gruppo. Le videochiamate funzionano con altre 3 persone oltre a te.</string>
     <string name="markdown_link_dialog_title">Apri Link</string>
-    <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
+    <string name="markdown_link_dialog_message">Ti porterà su\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>
     <string name="markdown_link_dialog_cancel">ANNULLA</string>
     <string name="max_participants_alert_title">Il gruppo è pieno</string>
-    <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
-    <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
-    <string name="sso_signin_button">Company log in</string>
+    <string name="max_participants_create_alert_message">Un massimo di 300 persone può partecipare ad una conversazione.</string>
+    <string name="max_participants_add_alert_message">Un massimo di 300 persone può partecipare ad una conversazione. Al momento c\'è spazio solo per altri %1$s.</string>
+    <string name="sso_signin_button">Login aziendale</string>
     <string name="sso_signin_error_title">Qualcosa è andato storto</string>
-    <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
+    <string name="sso_signin_error_message">Contattare l\'amministratore del sistema per dettagli (Errore %1$s).</string>
     <string name="sso_signin_error_try_again_message">Per favore riprova più tardi (Errore %1$s).</string>
     <string name="sso_signin_wrong_code_title">Codice non valido</string>
     <string name="sso_signin_wrong_code_message">Verifica il tuo codice di accesso SSO aziendale e riprova.</string>
@@ -1042,7 +1041,7 @@
     <string name="participant_search_title">PERSONE</string>
     <string name="generic_service_warning">I servizi hanno accesso al contenuto di questa conversazione</string>
     <string name="add_services_button_text">Gestisci servizi</string>
-    <string name="wire_notification_name">Wire Notification</string>
+    <string name="wire_notification_name">Notifica di Wire</string>
     <string name="wire_ping_name">Trillo Wire</string>
     <string name="reply_self_name">Tu</string>
     <string name="reply_message_type_image">IMMAGINE</string>
