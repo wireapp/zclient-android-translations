@@ -109,6 +109,13 @@
     <string name="content__system__you_joined">[[你]]已加入</string>
     <string name="content__system__other_renamed_conv">[[%1$s]]重新命名了聊天室</string>
     <string name="content__system__you_renamed_conv">[[你]]重新命名了聊天室</string>
+    <!-- Read receipts: System messages -->
+    <string name="content__system__read_receipts_on">傳送讀取已啓用</string>
+    <string name="content__system__read_receipts_off">Read receipts are off</string>
+    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] turned read receipts on for everyone</string>
+    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] turned read receipts off for everyone</string>
+    <string name="content__system__read_receipts_you_turned_on">[[You]] turned read receipts on for everyone</string>
+    <string name="content__system__read_receipts_you_turned_off">[[You]] turned read receipts off for everyone</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] 已將 %2$s 添加到對話中</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -505,7 +512,7 @@
     <string name="notification__message__send_failed">訊息發送失敗</string>
     <string name="notification__message__ephemeral">發送一則消息</string>
     <string name="notification__message_with_mention__ephemeral">提及您</string>
-    <string name="notification__message_with_quote__ephemeral">回覆給您</string>
+    <string name="notification__message_with_quote__ephemeral">回覆你</string>
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">\u2764 您的訊息</string>
     <string name="notification__message__liked_picture">\u2764你的圖片</string>
@@ -746,8 +753,18 @@
     <string name="message_bottom_menu_action_delete_global">為每個人刪除</string>
     <string name="message_bottom_menu_action_reveal">在對話中顯示</string>
     <string name="message_bottom_menu_action_reply">回覆</string>
-    <string name="likes_list__header">被喜歡</string>
     <string name="message_bottom_menu_action_save_ok">相片已儲存</string>
+    <string name="message_bottom_menu_action_details">詳細資訊</string>
+    <string name="message_details_title">MESSAGE DETAILS</string>
+    <string name="message_liked_title">LIKED</string>
+    <string name="message_details_sent">已送出</string>
+    <string name="message_details_last_edited">已編輯</string>
+    <string name="tab_title_read">READ</string>
+    <string name="tab_title_likes">LIKED</string>
+    <string name="messages_reads_turned_off">發送此郵件時沒有打開讀取回條。</string>
+    <string name="messages_no_reads">目前還沒有人讀取這則訊息。</string>
+    <string name="messages_read_receipts_off">發送此郵件時沒有打開讀取回條。</string>
+    <string name="messages_no_likes">目前還沒有人讚好這則訊息。</string>
     <string name="message_footer__tap_to_like">點一下來按讚</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="other">%1$d人</item>
@@ -758,6 +775,9 @@
     <string name="message_footer__status__delivered">%1$s \u30FB 已送達</string>
     <string name="message_footer__status__failed">發送失敗。請_重試_</string>
     <string name="message_footer__status__deleted">%1$s \u30FB 已刪除</string>
+    <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__edited">Edited: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">設置訊息銷毀時間</string>
     <string name="usernames__take_over__summary">認領你在Wire的名稱ID._瞭解更多_</string>
     <string name="usernames__take_over__choose">自選</string>
@@ -934,7 +954,18 @@
     <string name="participants_divider_people">成員(%1$s)</string>
     <string name="group_name_hint">群組名</string>
     <string name="allow_guests_toggle_text">允許訪客和服務</string>
-    <string name="allow_guests_toggle_info_text">對團隊以外的人和服務公開此對話。您以後可隨時更改。</string>
+    <string name="allow_guests_toggle_info_text">開放這個對話與團隊以外的訪客及服務。</string>
+    <string name="read_receipts_toggle_text">讀取回條</string>
+    <string name="read_receipts_toggle_info_text">當這啓用時, 參與者可以看到他們在此對話中的消息何時已閱讀。</string>
+    <string name="read_receipts_info_title_enabled">你已啓用讀取回條</string>
+    <string name="read_receipts_info_title_disabled">您已停用讀取回條</string>
+    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when\nmessages are read.</string>
+    <string name="read_receipts_info_2">您可以在帳戶設置中更改此選項。</string>
+    <string name="create_conv_options_title_text">會話選項</string>
+    <string name="create_conv_options_subtitle_allow_guests">允許訪客</string>
+    <string name="create_conv_options_subtitle_read_receipts">讀取回條</string>
+    <string name="create_conv_options_subtitle_on">ON</string>
+    <string name="create_conv_options_subtitle_off">關閉</string>
     <string name="open_this_conversation_to_people_outside_your_team">開放這個對話與團隊以外的訪客及服務。</string>
     <string name="allow_guests">允許訪客和服務</string>
     <string name="guest_options_title">訪客和服務</string>
@@ -1017,11 +1048,14 @@
     <string name="wire_notification_name">Wire通知</string>
     <string name="wire_ping_name">Wire 招呼</string>
     <string name="reply_self_name">您</string>
-    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_image">影像</string>
     <string name="reply_message_type_video">視訊</string>
     <string name="reply_message_type_audio">AUDIO MESSAGE</string>
     <string name="reply_message_type_location">LOCATION</string>
     <string name="reply_message_type_asset">ATTACHMENT</string>
     <string name="reply_message_type_unknown">您不能看見這則訊息</string>
     <string name="quote_timestamp_message">Original message from %s</string>
+    <string name="read_receipts_remotely_enabled_title">您已啟用讀取回條</string>
+    <string name="read_receipts_remotely_disabled_title">您已關閉讀取回條</string>
+    <string name="read_receipts_remotely_changed_message">您可以在帳戶設置中更改此選項。</string>
 </resources>

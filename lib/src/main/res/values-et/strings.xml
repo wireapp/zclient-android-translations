@@ -54,13 +54,13 @@
     <!-- Registration and Sign in -->
     <string name="welcome__terms_of_service">JÄTKATES NÕUSTUD _KASUTUSTINGIMUSTEGA_.</string>
     <string name="profile__name__guidance__tooshort__title">VÄHEMALT 2 TÄHTE</string>
-    <string name="profile__email__placeholder">Epost</string>
+    <string name="profile__email__placeholder">E-post</string>
     <string name="profile__password__placeholder">Parool</string>
     <string name="profile__password__guidance__tooshort__title">VÄHEMALT 8 TÄHTE</string>
     <string name="profile__email__verify__instructions">Saatsime aadressile \n[[%1$s]] kirja. \nKliki seal oleval lingil, et aadress kinnitada.</string>
     <string name="profile__email__verify__didnt_get">Ei saanud kinnituskirja?</string>
     <string name="profile__email__verify__resend">Saada uuesti</string>
-    <string name="profile__guidance__invalid_email">Valesti sisestatud e-posti aadress. Kontrolli ja proovi uuesti</string>
+    <string name="profile__guidance__invalid_email">Sisestatud e-posti aadress ei ole kehtiv. Palun kontrolli ja proovi uuesti</string>
     <string name="new_reg__code_resent">Saatsime SMS-iga uue koodi</string>
     <string name="new_reg__email_code_resent">Saatsime sulle e-kirja teel uue koodi</string>
     <string name="new_reg__code_resent__call">Kohe teeme sulle kõne</string>
@@ -82,7 +82,7 @@
     <string name="people_picker__search_services">TEENUSED</string>
     <string name="receive_news_and_offers_request_title">Uudiskiri</string>
     <string name="receive_news_and_offers_request_body">Kas soovid saada Wire\'ilt uudiseid ja tooteuuendusi e-posti teel? Sa võid igal ajal tellimuse lõpetada.</string>
-    <string name="crashes_and_analytics_request_title">Aita Wire paremaks muuta</string>
+    <string name="crashes_and_analytics_request_title">Aita meil Wire\'i paremaks muuta</string>
     <string name="crashes_and_analytics_request_body">Nõustun, et Wire võib luua ja kasutada anonüümseid kasutus- ja veateateid, parandamaks Wire\'i rakendust. Ma saan selle nõusoleku igal ajal tühistada.</string>
     <string name="crashes_and_analytics_request_no">Ei</string>
     <string name="crashes_and_analytics_request_agree">Nõustun</string>
@@ -101,14 +101,21 @@
     <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
     <string name="people_picker__invite__share_details_dialog">Jaga Wire\'i oma sõpradega.</string>
     <string name="people_picker__invite__share_text__header">%1$s soovib Wire\'s suhelda</string>
-    <string name="people_picker__invite__share_text__body">Kasutan nüüd Wire\'it, otsi mu kasutajanime %1$s, või kui sul seda äppi veel pole, siis tõmba siit: get.wire.com</string>
+    <string name="people_picker__invite__share_text__body">Kasutan nüüd Wire\'i, otsi nime %1$s või külasta get.wire.com</string>
     <!-- Conversation: Quick menu -->
     <string name="conversation_quick_menu__conversation_button__single_label">AVA</string>
     <!-- Conversation: System messages -->
     <string name="content__system__other_joined">[[%1$s]] liitus</string>
-    <string name="content__system__you_joined">[[You]] liitusid</string>
+    <string name="content__system__you_joined">[[Sina]] liitusid</string>
     <string name="content__system__other_renamed_conv">[[%1$s]] nimetas vestluse ümber</string>
     <string name="content__system__you_renamed_conv">[[Sina]] nimetasid vestluse ümber</string>
+    <!-- Read receipts: System messages -->
+    <string name="content__system__read_receipts_on">Lugemiskinnitused on sees</string>
+    <string name="content__system__read_receipts_off">Lugemiskinnitused on väljas</string>
+    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] lülitas lugemiskinnitused kõigi jaoks sisse</string>
+    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] lülitas lugemiskinnitused kõigi jaoks välja</string>
+    <string name="content__system__read_receipts_you_turned_on">[[Sina] lülitasid lugemiskinnitused kõigi jaoks sisse</string>
+    <string name="content__system__read_receipts_you_turned_off">[[Sina] lülitasid lugemiskinnitused kõigi jaoks välja</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] lisas vestlusesse %2$s</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -127,9 +134,9 @@
     </plurals>
     <!-- Remove people -->
     <string name="content__system__other_removed_other">[[%1$s]] eemaldas %2$s</string>
-    <string name="content__system__other_removed_you">[[%1$s]] eemaldas su vestlusest</string>
+    <string name="content__system__other_removed_you">[[%1$s]] eemaldas sind</string>
     <string name="content__system__you_removed_other">Sina eemaldasid %1$s</string>
-    <string name="content__system__you_left">Lahkusid vestlusest</string>
+    <string name="content__system__you_left">[[Sina]] lahkusid vestlusest</string>
     <string name="content__system__other_left">[[%1$s]] lahkus</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Sina alustasid vestlust</string>
@@ -153,17 +160,17 @@
     <!-- Conversation: E2EE system messages -->
     <string name="content__otr__message_error">[[%1$s]] SÕNUM EI TULNUD KOHALE. _MIKS?_</string>
     <string name="content__otr__message_error_you">SINU SÕNUM EI TULNUD KOHALE. _MIKS?_</string>
-    <string name="content__otr__identity_changed_error">KASUTAJA [[%1$s]] SEADME ID MUUTUS. SÕNUMI SAATMINE EBAÕNNESTUS. _LISAINFO_</string>
+    <string name="content__otr__identity_changed_error">[[%1$s]] SEADME IDENTITEET MUUTUS. SÕNUMI SAATMINE EBAÕNNESTUS. _LISAINFO_</string>
     <string name="content__otr__identity_changed_error_you">SINU SEADME IDENTITEET MUUTUS. EDASTAMATA SÕNUM. _LISAINFO_</string>
     <string name="content__otr__someone_added_new_device__message">%1$s hakkas _uut seadet_ kasutama</string>
     <string name="content__otr__someone_and_you_added_new_device__message">%1$s ja sina hakkasid _uut seadet_ kasutama</string>
     <string name="content__otr__someone_and_others_added_new_device__message">%1$s ja %2$s teist inimest hakkasid _uut seadet_ kasutama</string>
     <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s teist inimest ja sina hakkasid _uut seadet_ kasutama</string>
-    <string name="content__otr__start_this_device__message">HAKKASID _SEDA SEADET_ KASUTAMA</string>
+    <string name="content__otr__start_this_device__message">[[SINA]] HAKKASID _SEDA SEADET_ KASUTAMA</string>
     <string name="content__otr__all_fingerprints_verified">KÕIK SÕRMEJÄLJED AUDENDITUD</string>
     <string name="content__otr__lost_history">SA POLE SEDA SELLES SEADMES WIRE\'T TÜKK AEGA KASUTANUD. MÕNED SÕNUMID EI PRUUGI OLLA KOHALE JÕUDNUD.</string>
-    <string name="content__otr__unverified_device__message">EEMALDASID KASUTAJA _%1$s SEADME_ KINNITUSE</string>
-    <string name="content__otr__your_unverified_device__message">EEMALDASID ÜHE _SEADME_ KINNITUSE</string>
+    <string name="content__otr__unverified_device__message">[[SINA]] EEMALDASID ÜHE _%1$s SEADME_ KINNITUSE</string>
+    <string name="content__otr__your_unverified_device__message">[[SINA]] EEMALDASID ÜHE _OMA SEADME_ KINNITUSE</string>
     <string name="content__otr__new_member__message">UUED INIMESED LIITUSID. _KINNITA SEADMED_</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
@@ -197,7 +204,7 @@
     <string name="conversation__action__add_participants">LISA OSALEJAID</string>
     <string name="conversation__action__create_group">LOO GRUPP</string>
     <string name="conversation__action__notifications">Teavitused&#8230;</string>
-    <string name="conversation__action__silence">Hääletu</string>
+    <string name="conversation__action__silence">Vaigista</string>
     <string name="conversation__action__unsilence">Heli sisse</string>
     <string name="conversation__action__leave">Lahku grupist&#8230;</string>
     <string name="conversation__action__call">Kõne</string>
@@ -341,8 +348,8 @@
     <string name="pref_account_picture_title">Profiilipilt</string>
     <string name="pref_account_delete_title">Kustuta konto</string>
     <string name="pref_account_delete_warning_title">Kustuta konto</string>
-    <string name="pref_account_delete_warning_message_email">Ssaadame kirja aadressile:\n[[%1$s]]\nKonto kustutamiseks kliki selles oleval lingil.</string>
-    <string name="pref_account_delete_warning_message_sms">Saadame SMS-i numbrile:\n[[%1$s]]\nKonto kustutamiseks toksi selles oleval lingil.</string>
+    <string name="pref_account_delete_warning_message_email">Saadame e-kirja aadressile:\n[[%1$s]]\nKonto kustutamiseks kliki selles oleval lingil.</string>
+    <string name="pref_account_delete_warning_message_sms">Saadame SMS-i numbrile:\n[[%1$s]]\nKonto kustutamiseks koputa selles oleval lingil.</string>
     <string name="pref_account_delete_warning_verify">OK</string>
     <string name="pref_account_delete_warning_cancel">Tühista</string>
     <string name="pref_account_sign_out_warning_message">Oled kindel, et soovid välja logida?</string>
@@ -389,7 +396,7 @@
     <!-- Devices -->
     <string name="pref_devices_screen_title">Seadmed</string>
     <string name="pref_devices_current_device_category_title">See seade</string>
-    <string name="pref_devices_other_devices_category_title">Muud seadmed</string>
+    <string name="pref_devices_other_devices_category_title">Teised seadmed</string>
     <string name="pref_devices_device_activation_summary">Aktiveeritud [[%1$s]]\n</string>
     <string name="pref_devices_device_activation_subtitle">Aktiveeritud [[%1$s]]</string>
     <string name="pref_devices_device_id">ID: %1$s</string>
@@ -546,7 +553,7 @@
     <string name="system_notification__calling_group">%1$s helistab&#8230;</string>
     <string name="system_notification__video_calling_one">Helistan videoga&#8230;</string>
     <string name="system_notification__video_calling_group">%1$s helistab videoga&#8230;</string>
-    <string name="ws_foreground_notification_connected_title">Wire serveriga ühendatud</string>
+    <string name="ws_foreground_notification_connected_title">Wire\'i serveriga ühendatud</string>
     <string name="ws_foreground_notification_no_internet_title">Internetiühenduse ootamine&#8230;</string>
     <string name="ws_foreground_notification_connecting_title">Ühenduse loomine&#8230;</string>
     <string name="ws_foreground_notification_summary">Koputa lisateabe saamiseks siia.</string>
@@ -588,7 +595,7 @@
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
-    <string name="timestamp_pattern__date_and_time__no_year">EEE, MMM d, %1$s</string>
+    <string name="timestamp_pattern__date_and_time__no_year">EEE, d. MMM, %1$s</string>
     <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
     <string name="timestamp_pattern__date_and_time__with_year">EEE, MMM d, YYYY, %1$s</string>
     <!-- Example: MAR 9, 11:29 -->
@@ -630,8 +637,8 @@
     <!-- Giphy -->
     <string name="giphy_preview__search_hint">Otsi Giphy’st</string>
     <string name="giphy_preview__error">EI LEIDNUD SOBIVAT GIF-i.</string>
-    <string name="giphy_preview__message_via_random_trending">via giphy.com</string>
-    <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
+    <string name="giphy_preview__message_via_random_trending">giphy.com kaudu</string>
+    <string name="giphy_preview__message_via_search">%s · giphy.com kaudu</string>
     <string name="service_giphy_name">Giphy</string>
     <!--Sketch-->
     <string name="drawing__tip__picture__message">TOKSA VÄRVIVALIKUT, ET PINTSLI SUURUST MUUTA.\n\nTAUSTAFOTO PEITMISEKS RAPUTA TELEFONI.</string>
@@ -760,8 +767,18 @@
     <string name="message_bottom_menu_action_delete_global">Kustuta kõigi jaoks</string>
     <string name="message_bottom_menu_action_reveal">Näita vestluses</string>
     <string name="message_bottom_menu_action_reply">Vasta</string>
-    <string name="likes_list__header">Neile meeldib</string>
     <string name="message_bottom_menu_action_save_ok">Pilt salvestatud</string>
+    <string name="message_bottom_menu_action_details">Üksikasjad</string>
+    <string name="message_details_title">SÕNUMI ÜKSIKASJAD</string>
+    <string name="message_liked_title">MEELDIS</string>
+    <string name="message_details_sent">Saadetud</string>
+    <string name="message_details_last_edited">Muudetud</string>
+    <string name="tab_title_read">LOETUD</string>
+    <string name="tab_title_likes">MEELDIS</string>
+    <string name="messages_reads_turned_off">Lugemiskinnitused ei olnud selle sõnumi saatmishetkel sees.</string>
+    <string name="messages_no_reads">Keegi pole seda sõnumit veel lugenud.</string>
+    <string name="messages_read_receipts_off">Lugemiskinnitused ei olnud selle sõnumi saatmishetkel sees.</string>
+    <string name="messages_no_likes">Keegi pole seda sõnumit veel meeldivaks märkinud.</string>
     <string name="message_footer__tap_to_like">Vajuta, kui meeldib</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="one">%1$d inimene</item>
@@ -773,6 +790,9 @@
     <string name="message_footer__status__delivered">%1$s \u30FB Kohale toimetatud</string>
     <string name="message_footer__status__failed">Saatmine ebaõnnestus. _Saada uuesti_</string>
     <string name="message_footer__status__deleted">%1$s \u30FB Kustutatud</string>
+    <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__edited">Muudetud: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">SEADISTA TAIMER</string>
     <string name="usernames__take_over__summary">Vali unikaalne kasutajanimi. _Täpsem info._</string>
     <string name="usernames__take_over__choose">MUUDA</string>
@@ -961,7 +981,18 @@
     <string name="participants_divider_people">INIMESED (%1$s)</string>
     <string name="group_name_hint">GRUPI NIMI</string>
     <string name="allow_guests_toggle_text">Luba külalisi ja teenuseid</string>
-    <string name="allow_guests_toggle_info_text">Ava see vestlus teenustele ja meeskonnast väljas olevatele inimestele. Sa saad seda alati hiljem muuta.</string>
+    <string name="allow_guests_toggle_info_text">Ava see vestlus teenustele ja meeskonnast väljas olevatele inimestele.</string>
+    <string name="read_receipts_toggle_text">Lugemiskinnitused</string>
+    <string name="read_receipts_toggle_info_text">Kui see on sees, saavad inimesed näha, kas nende vestluse sõnumid on loetud.</string>
+    <string name="read_receipts_info_title_enabled">SA LUBASID LUGEMISKINNITUSED</string>
+    <string name="read_receipts_info_title_disabled">SA KEELASID LUGEMISKINNITUSED</string>
+    <string name="read_receipts_info_1">Kui mõlemad osapooled lülitavad lugemiskinnitused sisse, saad sa näha,\nkas sõnumid on loetud.</string>
+    <string name="read_receipts_info_2">Sa saad seda valikut oma konto seadetes muuta.</string>
+    <string name="create_conv_options_title_text">Vestluse valikud</string>
+    <string name="create_conv_options_subtitle_allow_guests">Luba külalisi</string>
+    <string name="create_conv_options_subtitle_read_receipts">Lugemiskinnitused</string>
+    <string name="create_conv_options_subtitle_on">SEES</string>
+    <string name="create_conv_options_subtitle_off">VÄLJA</string>
     <string name="open_this_conversation_to_people_outside_your_team">Ava see vestlus teenustele ja meeskonnast väljas olevatele inimestele.</string>
     <string name="allow_guests">Luba külalisi ja teenuseid</string>
     <string name="guest_options_title">Külalised ja teenused</string>
@@ -993,8 +1024,8 @@
     <string name="guest_time_left_hours">%1$sh jäänud</string>
     <string name="guest_time_left_hours_minutes">%1$s.%2$sh jäänud</string>
     <string name="guest_time_left_minutes">Vähem kui %1$sm jäänud</string>
-    <string name="backup_description">Loo varundus, et säilitada oma vestlusajalugu. Sa saad seda kasutada, et taastada ajalugu, kui kaotad oma seadme või hakkad kasutama uut.
-        \nVarundusfail ei ole kaitstud Wire\'i otsast-otsani krüpteeringuga, seega hoia seda turvalises kohas.</string>
+    <string name="backup_description">Loo varundus, et säilitada oma vestlusajalugu. Sa saad seda kasutada, taastamaks ajalugu, kui kaotad oma seadme või alustad uue kasutamist.
+        \nVarundusfail ei ole kaitstud Wire\'i otspunktkrüpteeringuga, seega hoia seda turvalises kohas.</string>
     <string name="pref_account_backup_title">Varunda vestlused</string>
     <string name="add_email_address">Lisa oma e-posti aadress</string>
     <string name="set_a_password">Määra parool</string>
@@ -1043,7 +1074,7 @@
     <string name="generic_service_warning">Teenustel on ligipääs selle vestluse sisule</string>
     <string name="add_services_button_text">Halda teenuseid</string>
     <string name="wire_notification_name">Wire\'i teade</string>
-    <string name="wire_ping_name">Wire Ping</string>
+    <string name="wire_ping_name">Wire\'i ping</string>
     <string name="reply_self_name">Sina</string>
     <string name="reply_message_type_image">PILT</string>
     <string name="reply_message_type_video">VIDEO</string>
@@ -1052,4 +1083,7 @@
     <string name="reply_message_type_asset">MANUS</string>
     <string name="reply_message_type_unknown">Sa ei saa seda sõnumit näha.</string>
     <string name="quote_timestamp_message">Originaalsõnum kasutajalt %s</string>
+    <string name="read_receipts_remotely_enabled_title">Sa lubasid lugemiskinnitused</string>
+    <string name="read_receipts_remotely_disabled_title">Sa keelasid lugemiskinnitused</string>
+    <string name="read_receipts_remotely_changed_message">Sa saad seda valikut oma konto seadetes muuta.</string>
 </resources>

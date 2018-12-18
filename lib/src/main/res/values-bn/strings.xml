@@ -109,6 +109,13 @@
     <string name="content__system__you_joined">[[You]] joined</string>
     <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
     <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
+    <!-- Read receipts: System messages -->
+    <string name="content__system__read_receipts_on">Read receipts are on</string>
+    <string name="content__system__read_receipts_off">Read receipts are off</string>
+    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] turned read receipts on for everyone</string>
+    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] turned read receipts off for everyone</string>
+    <string name="content__system__read_receipts_you_turned_on">[[You]] turned read receipts on for everyone</string>
+    <string name="content__system__read_receipts_you_turned_off">[[You]] turned read receipts off for everyone</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] added %2$s to the conversation</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -760,8 +767,18 @@
     <string name="message_bottom_menu_action_delete_global">সকলের জন্য মুছে ফেলুন</string>
     <string name="message_bottom_menu_action_reveal">Reveal in conversation</string>
     <string name="message_bottom_menu_action_reply">উত্তর দিন</string>
-    <string name="likes_list__header">লাইক করেছেন</string>
     <string name="message_bottom_menu_action_save_ok">ছবিটি সংরক্ষণ করা হয়েছে</string>
+    <string name="message_bottom_menu_action_details">বিস্তারিত</string>
+    <string name="message_details_title">MESSAGE DETAILS</string>
+    <string name="message_liked_title">LIKED</string>
+    <string name="message_details_sent">Sent</string>
+    <string name="message_details_last_edited">Edited</string>
+    <string name="tab_title_read">READ</string>
+    <string name="tab_title_likes">LIKED</string>
+    <string name="messages_reads_turned_off">Read receipts were not on when this message was sent.</string>
+    <string name="messages_no_reads">No one has read this message yet.</string>
+    <string name="messages_read_receipts_off">Read receipts were not on when this message was sent.</string>
+    <string name="messages_no_likes">No one has liked this message yet.</string>
     <string name="message_footer__tap_to_like">পছন্দ করার জন্য স্পর্শ করুন</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="one">%1$d মানুষ</item>
@@ -773,6 +790,9 @@
     <string name="message_footer__status__delivered">%1$s \u30FB পাঠানো হয়েছে</string>
     <string name="message_footer__status__failed">প্রেরণ বিফল হয়েছে। _আবার পাঠান_</string>
     <string name="message_footer__status__deleted">%1$s \u30FB মুছে ফেলা হয়েছে</string>
+    <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__edited">Edited: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">SET A TIME FOR THE MESSAGE TO DISAPPEAR</string>
     <string name="usernames__take_over__summary">Claim your unique name on Wire. _Learn more._</string>
     <string name="usernames__take_over__choose">CHOOSE YOUR OWN</string>
@@ -961,7 +981,18 @@
     <string name="participants_divider_people">PEOPLE (%1$s)</string>
     <string name="group_name_hint">GROUP NAME</string>
     <string name="allow_guests_toggle_text">Allow guests and services</string>
-    <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team. You can always change it later.</string>
+    <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team.</string>
+    <string name="read_receipts_toggle_text">Read receipts</string>
+    <string name="read_receipts_toggle_info_text">When this is on, people can see when their messages in this conversation are read.</string>
+    <string name="read_receipts_info_title_enabled">YOU HAVE ENABLED READ RECEIPTS</string>
+    <string name="read_receipts_info_title_disabled">YOU HAVE DISABLED READ RECEIPTS</string>
+    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when\nmessages are read.</string>
+    <string name="read_receipts_info_2">You can change this option in your account settings.</string>
+    <string name="create_conv_options_title_text">Conversation options</string>
+    <string name="create_conv_options_subtitle_allow_guests">Allow guests</string>
+    <string name="create_conv_options_subtitle_read_receipts">Read receipts</string>
+    <string name="create_conv_options_subtitle_on">ON</string>
+    <string name="create_conv_options_subtitle_off">বন্ধ</string>
     <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
     <string name="allow_guests">Allow guests and services</string>
     <string name="guest_options_title">Guests and services</string>
@@ -1052,4 +1083,7 @@
     <string name="reply_message_type_asset">ATTACHMENT</string>
     <string name="reply_message_type_unknown">You cannot see this message.</string>
     <string name="quote_timestamp_message">Original message from %s</string>
+    <string name="read_receipts_remotely_enabled_title">You have enabled read receipts</string>
+    <string name="read_receipts_remotely_disabled_title">You have disabled read receipts</string>
+    <string name="read_receipts_remotely_changed_message">You can change this option in your account settings.</string>
 </resources>

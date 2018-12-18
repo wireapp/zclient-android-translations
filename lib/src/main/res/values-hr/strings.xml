@@ -109,6 +109,13 @@
     <string name="content__system__you_joined">[[Vi]] ste se pridružili</string>
     <string name="content__system__other_renamed_conv">[[%1$s]] je preimenovao razgovor</string>
     <string name="content__system__you_renamed_conv">[[Vi]] ste preimenovali razgovor</string>
+    <!-- Read receipts: System messages -->
+    <string name="content__system__read_receipts_on">Potvrde čitanja su uključene</string>
+    <string name="content__system__read_receipts_off">Potvrde čitanja su isključene</string>
+    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] je svima uključio potvrde čitanja</string>
+    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] je svima isključio potvrde čitanja</string>
+    <string name="content__system__read_receipts_you_turned_on">[[Vi]] ste svima uključili potvrde čitanja</string>
+    <string name="content__system__read_receipts_you_turned_off">[[Vi]] ste svima isključili potvrde čitanja</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] je dodao/la %2$s u razgovor</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -774,8 +781,18 @@
     <string name="message_bottom_menu_action_delete_global">Izbriši za sve</string>
     <string name="message_bottom_menu_action_reveal">Prikaži u razgovoru</string>
     <string name="message_bottom_menu_action_reply">Odgovor</string>
-    <string name="likes_list__header">Sviđa se</string>
     <string name="message_bottom_menu_action_save_ok">Fotografija je spremljena</string>
+    <string name="message_bottom_menu_action_details">Detalji</string>
+    <string name="message_details_title">DETALJI O PORUCI</string>
+    <string name="message_liked_title">SVIĐA SE</string>
+    <string name="message_details_sent">Poslano</string>
+    <string name="message_details_last_edited">Uređeno</string>
+    <string name="tab_title_read">PROČITANO</string>
+    <string name="tab_title_likes">SVIĐA SE</string>
+    <string name="messages_reads_turned_off">Potvrda čitanja nije bila uključena kada je ova poruka poslana.</string>
+    <string name="messages_no_reads">Nitko još nije pročitao ovu poruku.</string>
+    <string name="messages_read_receipts_off">Potvrda čitanja nije bila uključena kada je ova poruka poslana.</string>
+    <string name="messages_no_likes">Nikome se još nije svidjela poruka.</string>
     <string name="message_footer__tap_to_like">Sviđa mi se</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="one">%1$d ljudi</item>
@@ -788,6 +805,9 @@
     <string name="message_footer__status__delivered">%1$s \u30FB Isporučeno</string>
     <string name="message_footer__status__failed">Slanje nije uspjelo. _Ponovno pošalji_</string>
     <string name="message_footer__status__deleted">%1$s \u30FB Izbrisano</string>
+    <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__edited">Uređeno: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">POSTAVITE VRIJEME ZA NESTAJANJE PORUKE</string>
     <string name="usernames__take_over__summary">Zgrabite svoje jedinstveno ime na Wireu. _Saznajte više._</string>
     <string name="usernames__take_over__choose">ODABERITE VLASTITO</string>
@@ -988,7 +1008,18 @@
     <string name="participants_divider_people">OSOBE (%1$s)</string>
     <string name="group_name_hint">NAZIV GRUPE</string>
     <string name="allow_guests_toggle_text">Dopusti goste i usluge</string>
-    <string name="allow_guests_toggle_info_text">Otvorite ovaj razgovor uslugama i osobama izvan Vašeg tima. Uvijek možete promijeniti kasnije.</string>
+    <string name="allow_guests_toggle_info_text">Otvorite ovaj razgovor uslugama i osobama izvan Vašeg tima.</string>
+    <string name="read_receipts_toggle_text">Potvrde o čitanju</string>
+    <string name="read_receipts_toggle_info_text">Kada uključeno, osobe mogu vidjeti kada su njihove poruke pročitane u ovom razgovoru.</string>
+    <string name="read_receipts_info_title_enabled">OMOGUĆILI STE POTVRDE ČITANJA</string>
+    <string name="read_receipts_info_title_disabled">ONEMOGUĆILI STE POTVRDE ČITANJA</string>
+    <string name="read_receipts_info_1">Ukoliko obje strane uključe potvrde čitanja, možete vidjeti\nkada su poruke pročitane.</string>
+    <string name="read_receipts_info_2">Možete promijeniti ovu opciju u postavkama računa.</string>
+    <string name="create_conv_options_title_text">Mogućnosti razgovora</string>
+    <string name="create_conv_options_subtitle_allow_guests">Dopustite goste</string>
+    <string name="create_conv_options_subtitle_read_receipts">Potvrde o čitanju</string>
+    <string name="create_conv_options_subtitle_on">UKLJUČENO</string>
+    <string name="create_conv_options_subtitle_off">ISKLJUČENO</string>
     <string name="open_this_conversation_to_people_outside_your_team">Otvorite ovaj razgovor uslugama i osobama izvan Vašeg tima.</string>
     <string name="allow_guests">Dopusti goste i usluge</string>
     <string name="guest_options_title">Gosti i usluge</string>
@@ -1079,4 +1110,7 @@
     <string name="reply_message_type_asset">PRIVITAK</string>
     <string name="reply_message_type_unknown">Ovu poruku ne možete vidjeti.</string>
     <string name="quote_timestamp_message">Originalna poruka od %s</string>
+    <string name="read_receipts_remotely_enabled_title">Omogućili ste potvrde čitanja</string>
+    <string name="read_receipts_remotely_disabled_title">Onemogućili ste potvrde čitanja</string>
+    <string name="read_receipts_remotely_changed_message">Možete promijeniti ovu opciju u postavkama računa.</string>
 </resources>

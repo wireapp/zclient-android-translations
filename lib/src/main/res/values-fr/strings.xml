@@ -109,6 +109,13 @@
     <string name="content__system__you_joined">[[Vous]] avez rejoint</string>
     <string name="content__system__other_renamed_conv">[[%1$s]] a renommé la conversation</string>
     <string name="content__system__you_renamed_conv">[[Vous]] avez renommé la conversation</string>
+    <!-- Read receipts: System messages -->
+    <string name="content__system__read_receipts_on">Les accusés de lecture son activés</string>
+    <string name="content__system__read_receipts_off">Read receipts are off</string>
+    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] turned read receipts on for everyone</string>
+    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] turned read receipts off for everyone</string>
+    <string name="content__system__read_receipts_you_turned_on">[[You]] turned read receipts on for everyone</string>
+    <string name="content__system__read_receipts_you_turned_off">[[You]] turned read receipts off for everyone</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] a ajouté %2$s à la conversation</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -760,8 +767,18 @@
     <string name="message_bottom_menu_action_delete_global">Supprimer pour tout le monde</string>
     <string name="message_bottom_menu_action_reveal">Montrer dans la conversation</string>
     <string name="message_bottom_menu_action_reply">Répondre</string>
-    <string name="likes_list__header">Aimé par</string>
     <string name="message_bottom_menu_action_save_ok">Image enregistrée</string>
+    <string name="message_bottom_menu_action_details">Informations</string>
+    <string name="message_details_title">MESSAGE DETAILS</string>
+    <string name="message_liked_title">LIKED</string>
+    <string name="message_details_sent">Envoyé</string>
+    <string name="message_details_last_edited">Modifié</string>
+    <string name="tab_title_read">READ</string>
+    <string name="tab_title_likes">LIKED</string>
+    <string name="messages_reads_turned_off">Les accusés de lecture n’étaient pas activés quand ce message a été envoyé.</string>
+    <string name="messages_no_reads">Personne n’a encore lu ce message.</string>
+    <string name="messages_read_receipts_off">Les accusés de lecture n’étaient pas activés quand ce message a été envoyé.</string>
+    <string name="messages_no_likes">Personne n’a encore aimé ce message.</string>
     <string name="message_footer__tap_to_like">Appuyez pour aimer</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="one">%1$d personne</item>
@@ -773,6 +790,9 @@
     <string name="message_footer__status__delivered">%1$s \u30FB Distribué</string>
     <string name="message_footer__status__failed">L’envoi a échoué. _Renvoyer_</string>
     <string name="message_footer__status__deleted">%1$s \u30FB Supprimé</string>
+    <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__edited">Edited: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">DÉFINIR UNE DURÉE AVANT LA DISPARITION DU MESSAGE</string>
     <string name="usernames__take_over__summary">Choisissez votre nom d’utilisateur unique sur Wire. _En savoir plus._</string>
     <string name="usernames__take_over__choose">CHOISISSEZ LE VÔTRE</string>
@@ -961,7 +981,18 @@
     <string name="participants_divider_people">PERSONNES (%1$s)</string>
     <string name="group_name_hint">NOM DU GROUPE</string>
     <string name="allow_guests_toggle_text">Autoriser les invités et les services</string>
-    <string name="allow_guests_toggle_info_text">Rend accessible cette conversation à des personnes et services étrangers à votre équipe. Vous pouvez toujours changer cette option plus tard.</string>
+    <string name="allow_guests_toggle_info_text">Rendre cette conversation accessible à des personnes et services étrangères à votre équipe.</string>
+    <string name="read_receipts_toggle_text">Accusés de lecture</string>
+    <string name="read_receipts_toggle_info_text">Quand cette option est activée, les participants peuvent voir quand leurs messages ont été lus dans cette conversation.</string>
+    <string name="read_receipts_info_title_enabled">VOUS AVEZ ACTIVÉ LES ACCUSÉS DE LECTURE</string>
+    <string name="read_receipts_info_title_disabled">VOUS AVEZ DÉSACTIVÉ LES ACCUSÉS DE LECTURE</string>
+    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when\nmessages are read.</string>
+    <string name="read_receipts_info_2">Vous pouvez changer cette option dans les paramètres de votre compte.</string>
+    <string name="create_conv_options_title_text">Options</string>
+    <string name="create_conv_options_subtitle_allow_guests">Autoriser les non membres</string>
+    <string name="create_conv_options_subtitle_read_receipts">Accusés de lecture</string>
+    <string name="create_conv_options_subtitle_on">ON</string>
+    <string name="create_conv_options_subtitle_off">Désactivé</string>
     <string name="open_this_conversation_to_people_outside_your_team">Rendre cette conversation accessible à des personnes et services étrangères à votre équipe.</string>
     <string name="allow_guests">Autoriser les invités et les services</string>
     <string name="guest_options_title">Invités et services</string>
@@ -1051,4 +1082,7 @@
     <string name="reply_message_type_asset">PIÈCE JOINTE</string>
     <string name="reply_message_type_unknown">Vous ne pouvez pas voir ce message.</string>
     <string name="quote_timestamp_message">Message original de %s</string>
+    <string name="read_receipts_remotely_enabled_title">Vous avez activé les accusés de lecture</string>
+    <string name="read_receipts_remotely_disabled_title">Vous avez désactivé les accusés de lecture</string>
+    <string name="read_receipts_remotely_changed_message">Vous pouvez changer cette option dans les paramètres de votre compte.</string>
 </resources>

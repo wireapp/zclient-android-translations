@@ -109,6 +109,13 @@
     <string name="content__system__you_joined">[[You]] iscritto</string>
     <string name="content__system__other_renamed_conv">[[%1$s]] ha rinominato la conversazione</string>
     <string name="content__system__you_renamed_conv">[[You]] ha rinominato la conversazione</string>
+    <!-- Read receipts: System messages -->
+    <string name="content__system__read_receipts_on">Conferme di lettura attivate</string>
+    <string name="content__system__read_receipts_off">Le conferme di lettura sono disattivate</string>
+    <string name="content__system__read_receipts_someone_turned_on">%1$s ha attivato le conferme di lettura per tutti</string>
+    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] ha disattivato le conferme di lettura per tutti</string>
+    <string name="content__system__read_receipts_you_turned_on">[[You]] hai attivato le conferme di lettura per tutti</string>
+    <string name="content__system__read_receipts_you_turned_off">[[You]] hai disattivato le conferme di lettura per tutti</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] ha aggiunto %2$s alla conversazione</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -760,8 +767,18 @@
     <string name="message_bottom_menu_action_delete_global">Elimina per tutti</string>
     <string name="message_bottom_menu_action_reveal">Mostra nella conversazione</string>
     <string name="message_bottom_menu_action_reply">Rispondi</string>
-    <string name="likes_list__header">Piace a</string>
     <string name="message_bottom_menu_action_save_ok">Immagine salvata</string>
+    <string name="message_bottom_menu_action_details">Dettagli</string>
+    <string name="message_details_title">DETTAGLI DEL MESSAGGIO</string>
+    <string name="message_liked_title">PIACIUTO</string>
+    <string name="message_details_sent">Inviato</string>
+    <string name="message_details_last_edited">Modificato</string>
+    <string name="tab_title_read">LEGGERE</string>
+    <string name="tab_title_likes">PIACIUTO</string>
+    <string name="messages_reads_turned_off">Le conferme di lettura non erano abilitate quando questo messaggio è stato inviato.</string>
+    <string name="messages_no_reads">Nessuno ha ancora letto questo messaggio.</string>
+    <string name="messages_read_receipts_off">Le conferme di lettura non erano abilitate quando questo messaggio è stato inviato.</string>
+    <string name="messages_no_likes">Nessuno ha ancora messo mi piace a questo messaggio.</string>
     <string name="message_footer__tap_to_like">Tocca per mettere mi piace</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="one">%1$d persona</item>
@@ -773,6 +790,9 @@
     <string name="message_footer__status__delivered">%1$s \u30FB Consegnato</string>
     <string name="message_footer__status__failed">Invio non riuscito. _Rimanda_</string>
     <string name="message_footer__status__deleted">%1$s \u30FB Eliminato</string>
+    <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__edited">Modificato: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">IMPOSTA IL TIMER PER I MESSAGGI TEMPORANEI</string>
     <string name="usernames__take_over__summary">Rivendica il tuo username su Wire. _Scopri di più. _</string>
     <string name="usernames__take_over__choose">SCEGLI IL TUO</string>
@@ -961,7 +981,18 @@
     <string name="participants_divider_people">PERSONE (%1$s)</string>
     <string name="group_name_hint">NOME GRUPPO</string>
     <string name="allow_guests_toggle_text">Consenti ospiti e servizi</string>
-    <string name="allow_guests_toggle_info_text">Apri questa conversazione a servizi e persone fuori dal tuo team. Puoi sempre cambiare questa impostazione più tardi.</string>
+    <string name="allow_guests_toggle_info_text">Apri questa conversazione a servizi e persone esterne al tuo team.</string>
+    <string name="read_receipts_toggle_text">Conferme di lettura</string>
+    <string name="read_receipts_toggle_info_text">Quando è attivo, le persone potranno vedere quando i loro messaggi vengono letti in questa conversazione.</string>
+    <string name="read_receipts_info_title_enabled">HAI ABILITATO LE CONFERME DI LETTURA</string>
+    <string name="read_receipts_info_title_disabled">HAI DISABILITATO LE CONFERME DI LETTURA</string>
+    <string name="read_receipts_info_1">Se entrambe le parti attivano le conferme di lettura, puoi vedere quando\nmessaggi vengono letti.</string>
+    <string name="read_receipts_info_2">Puoi modificare questa opzione nelle impostazioni del tuo account.</string>
+    <string name="create_conv_options_title_text">Opzioni conversazione</string>
+    <string name="create_conv_options_subtitle_allow_guests">Consenti ospiti</string>
+    <string name="create_conv_options_subtitle_read_receipts">Conferme di lettura</string>
+    <string name="create_conv_options_subtitle_on">ACCESO</string>
+    <string name="create_conv_options_subtitle_off">SPENTO</string>
     <string name="open_this_conversation_to_people_outside_your_team">Apri questa conversazione a servizi e persone esterne al tuo team.</string>
     <string name="allow_guests">Consenti ospiti e servizi</string>
     <string name="guest_options_title">Ospiti e servizi</string>
@@ -1052,4 +1083,7 @@
     <string name="reply_message_type_asset">ALLEGATO</string>
     <string name="reply_message_type_unknown">Non puoi vedere questo messaggio.</string>
     <string name="quote_timestamp_message">Messaggio originale da %s</string>
+    <string name="read_receipts_remotely_enabled_title">Hai abilitato le conferme di lettura</string>
+    <string name="read_receipts_remotely_disabled_title">Hai disabilitato le conferme di lettura</string>
+    <string name="read_receipts_remotely_changed_message">Puoi modificare questa opzione nelle impostazioni del tuo account.</string>
 </resources>

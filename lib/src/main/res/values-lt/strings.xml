@@ -109,6 +109,13 @@
     <string name="content__system__you_joined">[[You]] prisijungėte</string>
     <string name="content__system__other_renamed_conv">[[%1$s]] pakeitė susirašinėjimo pavadinimą</string>
     <string name="content__system__you_renamed_conv">[[You]] pakeitei susirašinėjimo pavadinimą</string>
+    <!-- Read receipts: System messages -->
+    <string name="content__system__read_receipts_on">Perskaitymo patvirtinimai įjungti</string>
+    <string name="content__system__read_receipts_off">Read receipts are off</string>
+    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] turned read receipts on for everyone</string>
+    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] turned read receipts off for everyone</string>
+    <string name="content__system__read_receipts_you_turned_on">[[You]] turned read receipts on for everyone</string>
+    <string name="content__system__read_receipts_you_turned_off">[[You]] turned read receipts off for everyone</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] pridėjo pašnekovą %2$s prie susirašinėjimo</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -219,7 +226,7 @@
     <string name="conversation__action__delete_and_leave">\tIštrinti turinį ir išeiti</string>
     <string name="conversation__action__delete_only">\tIštrinti turinį</string>
     <string name="conversation__action__notifications_everything">Viską</string>
-    <string name="conversation__action__notifications_mentions_and_replies">Mentions and Replies</string>
+    <string name="conversation__action__notifications_mentions_and_replies">Paminėjimai ir atsakymai</string>
     <string name="conversation__action__notifications_nothing">Nieką</string>
     <string name="conversation__action__notifications_title">Pranešti apie:</string>
     <!-- Conversation: Profile Popover -->
@@ -535,7 +542,7 @@
     <string name="notification__message__send_failed">Nepavyko išsiųsti žinutės</string>
     <string name="notification__message__ephemeral">Atsiuntė jums žinutę</string>
     <string name="notification__message_with_mention__ephemeral">Jus paminėjo</string>
-    <string name="notification__message_with_quote__ephemeral">Replied to you</string>
+    <string name="notification__message_with_quote__ephemeral">Atsakyta jums</string>
     <string name="notification__message__liked">\u2764 „%1$s“</string>
     <string name="notification__message__liked_message">\u2764 jūsų žinutė</string>
     <string name="notification__message__liked_picture">\u2764 ant jūsų paveikslėlio</string>
@@ -788,8 +795,18 @@
     <string name="message_bottom_menu_action_delete_global">Ištrinti visiems</string>
     <string name="message_bottom_menu_action_reveal">Rodyti susirašinėjime</string>
     <string name="message_bottom_menu_action_reply">Atsakyti</string>
-    <string name="likes_list__header">Patinka</string>
     <string name="message_bottom_menu_action_save_ok">Paveikslėlis išsaugotas</string>
+    <string name="message_bottom_menu_action_details">Išsamiau</string>
+    <string name="message_details_title">MESSAGE DETAILS</string>
+    <string name="message_liked_title">LIKED</string>
+    <string name="message_details_sent">Išsiųsta</string>
+    <string name="message_details_last_edited">Pakeista</string>
+    <string name="tab_title_read">READ</string>
+    <string name="tab_title_likes">LIKED</string>
+    <string name="messages_reads_turned_off">Perskaitymo patvirtinimai nebuvo įjungti kai žinutė buvo išsiųsta.</string>
+    <string name="messages_no_reads">Niekas dar neperskaitė šios žinutės.</string>
+    <string name="messages_read_receipts_off">Perskaitymo patvirtinimai nebuvo įjungti kai žinutė buvo išsiųsta.</string>
+    <string name="messages_no_likes">Niekas dar nepažymėjo, kad patinka.</string>
     <string name="message_footer__tap_to_like">Bakstelėję pažymėsite, kad patinka</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="one">%1$d žmogus</item>
@@ -803,6 +820,9 @@
     <string name="message_footer__status__delivered">%1$s \u30FB pristatyta</string>
     <string name="message_footer__status__failed">Išsiųsti nepavyko. _Siųsti dar kartą_</string>
     <string name="message_footer__status__deleted">%1$s \u30FB Ištrinta</string>
+    <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
+    <string name="message_footer__status__edited">Edited: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">NUSTATYKITE PO KIEK LAIKO PRANEŠIMAS IŠNYKS</string>
     <string name="usernames__take_over__summary">Gaukite savo unikalų vardą „Wire“ platformoje. _Sužinokite daugiau._</string>
     <string name="usernames__take_over__choose">PASIRINITE SAVO</string>
@@ -910,7 +930,7 @@
     <string name="conversation_list__ephemeral">Kažkas atsiuntė žinutę</string>
     <string name="conversation_list__single_eph_and_mention">Jus paminėjo</string>
     <string name="conversation_list__group_eph_and_mention">Kažkas jus paminėjo</string>
-    <string name="conversation_list__single_eph_and_quote">Replied to you</string>
+    <string name="conversation_list__single_eph_and_quote">Atsakyta jums</string>
     <string name="conversation_list__group_eph_and_quote">Someone replied to you</string>
     <string name="conversation_list__typing">Rašo žinutę&#8230;</string>
     <string name="conversation_list__someone">Kažkas</string>
@@ -998,11 +1018,11 @@
     <string name="integrations_create_conversation">Kurti naują susirašinėjimą</string>
     <string name="no_matches_found">Atitikmenų nerasta</string>
     <string name="loading_services">Įkeliamos tarnybos&#8230;</string>
-    <string name="empty_services_list">Tarnybos yra pagalbininkai, kurie padeda pagerinti darbo eigą. Norėdami jomis naudotis, prašykite savo administratoriaus.</string>
-    <string name="empty_services_list_admin">Tarnybos yra pagalbininkai, kurie padeda pagerinti darbo eigą.</string>
+    <string name="empty_services_list">Paslaugos yra pagalbininkai, kurie padeda pagerinti darbo eigą. Norėdami jomis naudotis, prašykite savo administratoriaus.</string>
+    <string name="empty_services_list_admin">Paslaugos yra pagalbininkai, kurie padeda pagerinti darbo eigą.</string>
     <string name="create_group_conversation">Sukurti grupę</string>
     <string name="create_guest_room_conversation">Kurti kambarį svečiams</string>
-    <string name="manage_services">Valdyti tarnybas</string>
+    <string name="manage_services">Valdyti paslaugas</string>
     <string name="next_button">KITAS</string>
     <string name="skip_button">PRALEISTI</string>
     <string name="done_button">BAIGTA</string>
@@ -1015,10 +1035,21 @@
     <string name="participants_divider_people">ŽMONĖS (%1$s)</string>
     <string name="group_name_hint">GRUPĖS PAVADINIMAS</string>
     <string name="allow_guests_toggle_text">Leisti svečius ir tarnybas</string>
-    <string name="allow_guests_toggle_info_text">Atverkite šį susirašinėjimą paslaugoms ir žmonėms, kurie nėra jūsų komandoje. Vėliau bet kada galėsite tai pakeisti.</string>
-    <string name="open_this_conversation_to_people_outside_your_team">Leiskite šį susirašinėjimą matyti tarnyboms ir žmonėms, kurie nėra jūsų komandoje.</string>
+    <string name="allow_guests_toggle_info_text">Leiskite šį susirašinėjimą matyti tarnyboms ir žmonėms, kurie nėra jūsų komandoje.</string>
+    <string name="read_receipts_toggle_text">Perskaitymo patvirtinimai</string>
+    <string name="read_receipts_toggle_info_text">Įjungus, žmonės gali matyti ar jų žinutės buvo perskaitytos.</string>
+    <string name="read_receipts_info_title_enabled">JŪS ĮJUNGĖTE PERSKAITYMO PATVIRTINIMUS</string>
+    <string name="read_receipts_info_title_disabled">JŪS IŠUNGĖTE PERSKAITYMO PATVIRTINIMUS</string>
+    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when\nmessages are read.</string>
+    <string name="read_receipts_info_2">Galite pakeisti šį pasirinkimą savo paskyros nustatymuose.</string>
+    <string name="create_conv_options_title_text">Susirašinėjimo parinktys</string>
+    <string name="create_conv_options_subtitle_allow_guests">Leisti svečius</string>
+    <string name="create_conv_options_subtitle_read_receipts">Perskaitymo patvirtinimai</string>
+    <string name="create_conv_options_subtitle_on">ON</string>
+    <string name="create_conv_options_subtitle_off">IŠJUNGTA</string>
+    <string name="open_this_conversation_to_people_outside_your_team">Leiskite šį susirašinėjimą matyti paslaugoms ir žmonėms, kurie nėra jūsų komandoje.</string>
     <string name="allow_guests">Leisti svečius ir tarnybas</string>
-    <string name="guest_options_title">Svečiai ir tarnybos</string>
+    <string name="guest_options_title">Svečiai ir paslaugos</string>
     <string name="ephemeral_options_title">Laikinos žinutės</string>
     <string name="notifications_options_title">Pranešimai</string>
     <string name="ephemeral_explanation_text">Laikinos žinutės bus įjungtos visiems šio pokalbio dalyviams</string>
@@ -1026,7 +1057,7 @@
     <string name="show_all_participants">Rodyti visus (%1$s)</string>
     <string name="allow_guests_error_title">Kažkas nutiko</string>
     <string name="allow_guests_error_body">Nepavyko leisti svečių ar tarnybų. Pabandykite dar kartą.</string>
-    <string name="allow_guests_warning_body">Dabar esantys svečiai ir tarnybos bus pašalintos iš šio susirašinėjimo. Nauji svečiai ir tarnybos negalės prisijungti.</string>
+    <string name="allow_guests_warning_body">Dabar esantys svečiai ir paslaugos bus pašalintos iš šio susirašinėjimo. Nauji svečiai ir tarnybos negalės prisijungti.</string>
     <string name="allow_guests_warning_confirm">Šalinti</string>
     <string name="guests_are_present">YRA SVEČIŲ</string>
     <string name="services_are_present">TARNYBOS ĮJUNGTOS</string>
@@ -1094,7 +1125,7 @@
     <string name="sso_signin_wrong_code_message">Įsitikinkite, kad jūsų įmonės SSO prieigos kodas be klaidos, ir bandykite dar kartą.</string>
     <string name="participant_search_hint">IEŠKOTI VARDŲ</string>
     <string name="participant_search_title">ŽMONĖS</string>
-    <string name="generic_service_warning">Tarnybos turi galimybę matyti šio susirašinėjimo turinį</string>
+    <string name="generic_service_warning">Paslaugos turi galimybę matyti šio susirašinėjimo turinį</string>
     <string name="add_services_button_text">Valdyti tarnybas</string>
     <string name="wire_notification_name">Wire Notification</string>
     <string name="wire_ping_name">„Wire“ skambtelėjimas</string>
@@ -1104,6 +1135,9 @@
     <string name="reply_message_type_audio">AUDIO MESSAGE</string>
     <string name="reply_message_type_location">LOCATION</string>
     <string name="reply_message_type_asset">ATTACHMENT</string>
-    <string name="reply_message_type_unknown">You cannot see this message.</string>
+    <string name="reply_message_type_unknown">Jūs negalite matyti šitos žinutės.</string>
     <string name="quote_timestamp_message">Original message from %s</string>
+    <string name="read_receipts_remotely_enabled_title">Jūs įjungėte perskaitymo patvirtinimus</string>
+    <string name="read_receipts_remotely_disabled_title">Jūs išjungėte perskaitymo patvirtinimus</string>
+    <string name="read_receipts_remotely_changed_message">Galite pakeisti šį pasirinkimą savo paskyros nustatymuose.</string>
 </resources>
