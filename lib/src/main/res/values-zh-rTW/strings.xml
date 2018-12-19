@@ -578,7 +578,7 @@
     <!--Timestamp formatting -->
     <string name="timestamp__just_now">剛剛</string>
     <plurals name="timestamp__x_minutes_ago">
-        <item quantity="other">%1$d分鐘前</item>
+        <item quantity="other">%1$s minutes ago</item>
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -757,13 +757,13 @@
     <string name="message_bottom_menu_action_details">詳細資訊</string>
     <string name="message_details_title">MESSAGE DETAILS</string>
     <string name="message_liked_title">LIKED</string>
+    <string name="message_read_title">READ</string>
     <string name="message_details_sent">已送出</string>
     <string name="message_details_last_edited">已編輯</string>
     <string name="tab_title_read">READ</string>
     <string name="tab_title_likes">LIKED</string>
     <string name="messages_reads_turned_off">發送此郵件時沒有打開讀取回條。</string>
     <string name="messages_no_reads">目前還沒有人讀取這則訊息。</string>
-    <string name="messages_read_receipts_off">發送此郵件時沒有打開讀取回條。</string>
     <string name="messages_no_likes">目前還沒有人讚好這則訊息。</string>
     <string name="message_footer__tap_to_like">點一下來按讚</string>
     <plurals name="message_footer__number_of_likes">
@@ -959,7 +959,7 @@
     <string name="read_receipts_toggle_info_text">當這啓用時, 參與者可以看到他們在此對話中的消息何時已閱讀。</string>
     <string name="read_receipts_info_title_enabled">你已啓用讀取回條</string>
     <string name="read_receipts_info_title_disabled">您已停用讀取回條</string>
-    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when\nmessages are read.</string>
+    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when messages are read.</string>
     <string name="read_receipts_info_2">您可以在帳戶設置中更改此選項。</string>
     <string name="create_conv_options_title_text">會話選項</string>
     <string name="create_conv_options_subtitle_allow_guests">允許訪客</string>
@@ -1054,7 +1054,9 @@
     <string name="reply_message_type_location">LOCATION</string>
     <string name="reply_message_type_asset">ATTACHMENT</string>
     <string name="reply_message_type_unknown">您不能看見這則訊息</string>
-    <string name="quote_timestamp_message">Original message from %s</string>
+    <!--Two identical strings are needed for German translation-->
+    <string name="quote_timestamp_message_time">Original message from %s</string>
+    <string name="quote_timestamp_message_date">Original message from %s</string>
     <string name="read_receipts_remotely_enabled_title">您已啟用讀取回條</string>
     <string name="read_receipts_remotely_disabled_title">您已關閉讀取回條</string>
     <string name="read_receipts_remotely_changed_message">您可以在帳戶設置中更改此選項。</string>

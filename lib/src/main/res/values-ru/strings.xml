@@ -614,10 +614,10 @@
     <!--Timestamp formatting -->
     <string name="timestamp__just_now">Только что</string>
     <plurals name="timestamp__x_minutes_ago">
-        <item quantity="one">%1$d минуту назад</item>
-        <item quantity="few">%1$d минуты назад</item>
-        <item quantity="many">%1$d минут назад</item>
-        <item quantity="other">%1$d минут назад</item>
+        <item quantity="one">%1$s minute ago</item>
+        <item quantity="few">%1$s minutes ago</item>
+        <item quantity="many">%1$s minutes ago</item>
+        <item quantity="other">%1$s minutes ago</item>
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -796,16 +796,16 @@
     <string name="message_bottom_menu_action_reveal">Показать в разговоре</string>
     <string name="message_bottom_menu_action_reply">Ответить</string>
     <string name="message_bottom_menu_action_save_ok">Изображение сохранено</string>
-    <string name="message_bottom_menu_action_details">Детали</string>
+    <string name="message_bottom_menu_action_details">Профиль</string>
     <string name="message_details_title">ДЕТАЛИ СООБЩЕНИЯ</string>
     <string name="message_liked_title">ПОНРАВИЛОСЬ</string>
+    <string name="message_read_title">ПРОЧИТАНО</string>
     <string name="message_details_sent">Отправлено</string>
     <string name="message_details_last_edited">Отредактировано</string>
     <string name="tab_title_read">ПРОЧИТАНО</string>
     <string name="tab_title_likes">ПОНРАВИЛОСЬ</string>
     <string name="messages_reads_turned_off">Отчетов о прочтении не существовало, когда это сообщение было отправлено.</string>
     <string name="messages_no_reads">Сообщение еще никем не прочитано.</string>
-    <string name="messages_read_receipts_off">Отчетов о прочтении не существовало, когда это сообщение было отправлено.</string>
     <string name="messages_no_likes">Сообщение еще никому не понравилось.</string>
     <string name="message_footer__tap_to_like">Нажмите, чтобы лайкнуть</string>
     <plurals name="message_footer__number_of_likes">
@@ -1040,7 +1040,7 @@
     <string name="read_receipts_toggle_info_text">При включении ваши собеседники смогут видеть когда было прочитано их сообщение.</string>
     <string name="read_receipts_info_title_enabled">ВЫ ВКЛЮЧИЛИ ОТЧЕТЫ О ПРОЧТЕНИИ</string>
     <string name="read_receipts_info_title_disabled">ВЫ ОТКЛЮЧИЛИ ОТЧЕТЫ О ПРОЧТЕНИИ</string>
-    <string name="read_receipts_info_1">Если обе стороны включат отчеты о прочтении, вы сможете видеть когда были\nпрочитаны ваши сообщения.</string>
+    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when messages are read.</string>
     <string name="read_receipts_info_2">Вы можете изменить эту опцию в настройках своего аккаунта.</string>
     <string name="create_conv_options_title_text">Настройки разговора</string>
     <string name="create_conv_options_subtitle_allow_guests">Разрешить гостям</string>
@@ -1137,7 +1137,9 @@
     <string name="reply_message_type_location">МЕСТОПОЛОЖЕНИЕ</string>
     <string name="reply_message_type_asset">ВЛОЖЕНИЕ</string>
     <string name="reply_message_type_unknown">Вы не можете увидеть это сообщение.</string>
-    <string name="quote_timestamp_message">Исходное сообщение от %s</string>
+    <!--Two identical strings are needed for German translation-->
+    <string name="quote_timestamp_message_time">Исходное сообщение от %s</string>
+    <string name="quote_timestamp_message_date">Исходное сообщение от %s</string>
     <string name="read_receipts_remotely_enabled_title">Вы включили отчеты о прочтении</string>
     <string name="read_receipts_remotely_disabled_title">Вы отключили отчеты о прочтении</string>
     <string name="read_receipts_remotely_changed_message">Вы можете изменить эту опцию в настройках своего аккаунта.</string>

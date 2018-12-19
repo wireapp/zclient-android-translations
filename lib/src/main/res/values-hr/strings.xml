@@ -602,9 +602,9 @@
     <!--Timestamp formatting -->
     <string name="timestamp__just_now">Upravo</string>
     <plurals name="timestamp__x_minutes_ago">
-        <item quantity="one">prije %1$d minute</item>
-        <item quantity="few">prije %1$d minuta</item>
-        <item quantity="other">prije %1$d minuta</item>
+        <item quantity="one">%1$s minute ago</item>
+        <item quantity="few">%1$s minutes ago</item>
+        <item quantity="other">%1$s minutes ago</item>
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -785,13 +785,13 @@
     <string name="message_bottom_menu_action_details">Detalji</string>
     <string name="message_details_title">DETALJI O PORUCI</string>
     <string name="message_liked_title">SVIĐA SE</string>
+    <string name="message_read_title">PROČITANO</string>
     <string name="message_details_sent">Poslano</string>
     <string name="message_details_last_edited">Uređeno</string>
     <string name="tab_title_read">PROČITANO</string>
     <string name="tab_title_likes">SVIĐA SE</string>
     <string name="messages_reads_turned_off">Potvrda čitanja nije bila uključena kada je ova poruka poslana.</string>
     <string name="messages_no_reads">Nitko još nije pročitao ovu poruku.</string>
-    <string name="messages_read_receipts_off">Potvrda čitanja nije bila uključena kada je ova poruka poslana.</string>
     <string name="messages_no_likes">Nikome se još nije svidjela poruka.</string>
     <string name="message_footer__tap_to_like">Sviđa mi se</string>
     <plurals name="message_footer__number_of_likes">
@@ -1013,7 +1013,7 @@
     <string name="read_receipts_toggle_info_text">Kada uključeno, osobe mogu vidjeti kada su njihove poruke pročitane u ovom razgovoru.</string>
     <string name="read_receipts_info_title_enabled">OMOGUĆILI STE POTVRDE ČITANJA</string>
     <string name="read_receipts_info_title_disabled">ONEMOGUĆILI STE POTVRDE ČITANJA</string>
-    <string name="read_receipts_info_1">Ukoliko obje strane uključe potvrde čitanja, možete vidjeti\nkada su poruke pročitane.</string>
+    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when messages are read.</string>
     <string name="read_receipts_info_2">Možete promijeniti ovu opciju u postavkama računa.</string>
     <string name="create_conv_options_title_text">Mogućnosti razgovora</string>
     <string name="create_conv_options_subtitle_allow_guests">Dopustite goste</string>
@@ -1109,7 +1109,9 @@
     <string name="reply_message_type_location">LOKACIJA</string>
     <string name="reply_message_type_asset">PRIVITAK</string>
     <string name="reply_message_type_unknown">Ovu poruku ne možete vidjeti.</string>
-    <string name="quote_timestamp_message">Originalna poruka od %s</string>
+    <!--Two identical strings are needed for German translation-->
+    <string name="quote_timestamp_message_time">Originalna poruka od %s</string>
+    <string name="quote_timestamp_message_date">Originalna poruka od %s</string>
     <string name="read_receipts_remotely_enabled_title">Omogućili ste potvrde čitanja</string>
     <string name="read_receipts_remotely_disabled_title">Onemogućili ste potvrde čitanja</string>
     <string name="read_receipts_remotely_changed_message">Možete promijeniti ovu opciju u postavkama računa.</string>

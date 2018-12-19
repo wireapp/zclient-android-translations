@@ -590,8 +590,8 @@
     <!--Timestamp formatting -->
     <string name="timestamp__just_now">À l\'instant</string>
     <plurals name="timestamp__x_minutes_ago">
-        <item quantity="one">Il y a %1$d minute</item>
-        <item quantity="other">Il y a %1$d minutes</item>
+        <item quantity="one">%1$s minute ago</item>
+        <item quantity="other">%1$s minutes ago</item>
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -771,13 +771,13 @@
     <string name="message_bottom_menu_action_details">Informations</string>
     <string name="message_details_title">MESSAGE DETAILS</string>
     <string name="message_liked_title">LIKED</string>
+    <string name="message_read_title">READ</string>
     <string name="message_details_sent">Envoyé</string>
     <string name="message_details_last_edited">Modifié</string>
     <string name="tab_title_read">READ</string>
     <string name="tab_title_likes">LIKED</string>
     <string name="messages_reads_turned_off">Les accusés de lecture n’étaient pas activés quand ce message a été envoyé.</string>
     <string name="messages_no_reads">Personne n’a encore lu ce message.</string>
-    <string name="messages_read_receipts_off">Les accusés de lecture n’étaient pas activés quand ce message a été envoyé.</string>
     <string name="messages_no_likes">Personne n’a encore aimé ce message.</string>
     <string name="message_footer__tap_to_like">Appuyez pour aimer</string>
     <plurals name="message_footer__number_of_likes">
@@ -986,7 +986,7 @@
     <string name="read_receipts_toggle_info_text">Quand cette option est activée, les participants peuvent voir quand leurs messages ont été lus dans cette conversation.</string>
     <string name="read_receipts_info_title_enabled">VOUS AVEZ ACTIVÉ LES ACCUSÉS DE LECTURE</string>
     <string name="read_receipts_info_title_disabled">VOUS AVEZ DÉSACTIVÉ LES ACCUSÉS DE LECTURE</string>
-    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when\nmessages are read.</string>
+    <string name="read_receipts_info_1">Quand les deux participants ont activé les accusés de lecture, vous pouvez voir quand les messages sont lus.</string>
     <string name="read_receipts_info_2">Vous pouvez changer cette option dans les paramètres de votre compte.</string>
     <string name="create_conv_options_title_text">Options</string>
     <string name="create_conv_options_subtitle_allow_guests">Autoriser les non membres</string>
@@ -1081,7 +1081,9 @@
     <string name="reply_message_type_location">LOCALISATION</string>
     <string name="reply_message_type_asset">PIÈCE JOINTE</string>
     <string name="reply_message_type_unknown">Vous ne pouvez pas voir ce message.</string>
-    <string name="quote_timestamp_message">Message original de %s</string>
+    <!--Two identical strings are needed for German translation-->
+    <string name="quote_timestamp_message_time">Message original de %s</string>
+    <string name="quote_timestamp_message_date">Message original de %s</string>
     <string name="read_receipts_remotely_enabled_title">Vous avez activé les accusés de lecture</string>
     <string name="read_receipts_remotely_disabled_title">Vous avez désactivé les accusés de lecture</string>
     <string name="read_receipts_remotely_changed_message">Vous pouvez changer cette option dans les paramètres de votre compte.</string>

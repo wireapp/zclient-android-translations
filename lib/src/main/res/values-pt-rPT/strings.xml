@@ -590,8 +590,8 @@
     <!--Timestamp formatting -->
     <string name="timestamp__just_now">Agora mesmo</string>
     <plurals name="timestamp__x_minutes_ago">
-        <item quantity="one">%1$d minuto atrás</item>
-        <item quantity="other">%1$d minutos atrás</item>
+        <item quantity="one">%1$s minute ago</item>
+        <item quantity="other">%1$s minutes ago</item>
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -771,13 +771,13 @@
     <string name="message_bottom_menu_action_details">Detalhes</string>
     <string name="message_details_title">MESSAGE DETAILS</string>
     <string name="message_liked_title">LIKED</string>
+    <string name="message_read_title">READ</string>
     <string name="message_details_sent">Sent</string>
     <string name="message_details_last_edited">Edited</string>
     <string name="tab_title_read">READ</string>
     <string name="tab_title_likes">LIKED</string>
     <string name="messages_reads_turned_off">Read receipts were not on when this message was sent.</string>
     <string name="messages_no_reads">No one has read this message yet.</string>
-    <string name="messages_read_receipts_off">Read receipts were not on when this message was sent.</string>
     <string name="messages_no_likes">No one has liked this message yet.</string>
     <string name="message_footer__tap_to_like">Toque para gostar</string>
     <plurals name="message_footer__number_of_likes">
@@ -986,7 +986,7 @@
     <string name="read_receipts_toggle_info_text">When this is on, people can see when their messages in this conversation are read.</string>
     <string name="read_receipts_info_title_enabled">YOU HAVE ENABLED READ RECEIPTS</string>
     <string name="read_receipts_info_title_disabled">YOU HAVE DISABLED READ RECEIPTS</string>
-    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when\nmessages are read.</string>
+    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when messages are read.</string>
     <string name="read_receipts_info_2">You can change this option in your account settings.</string>
     <string name="create_conv_options_title_text">Conversation options</string>
     <string name="create_conv_options_subtitle_allow_guests">Permitir convidados</string>
@@ -1082,7 +1082,9 @@
     <string name="reply_message_type_location">LOCATION</string>
     <string name="reply_message_type_asset">ATTACHMENT</string>
     <string name="reply_message_type_unknown">You cannot see this message.</string>
-    <string name="quote_timestamp_message">Original message from %s</string>
+    <!--Two identical strings are needed for German translation-->
+    <string name="quote_timestamp_message_time">Original message from %s</string>
+    <string name="quote_timestamp_message_date">Original message from %s</string>
     <string name="read_receipts_remotely_enabled_title">You have enabled read receipts</string>
     <string name="read_receipts_remotely_disabled_title">You have disabled read receipts</string>
     <string name="read_receipts_remotely_changed_message">You can change this option in your account settings.</string>

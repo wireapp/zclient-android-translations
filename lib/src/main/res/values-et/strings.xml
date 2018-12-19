@@ -590,8 +590,8 @@
     <!--Timestamp formatting -->
     <string name="timestamp__just_now">Just nüüd</string>
     <plurals name="timestamp__x_minutes_ago">
-        <item quantity="one">%1$d minut tagasi</item>
-        <item quantity="other">%1$d minutit tagasi</item>
+        <item quantity="one">%1$s minut tagasi</item>
+        <item quantity="other">%1$s minutit tagasi</item>
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -771,13 +771,13 @@
     <string name="message_bottom_menu_action_details">Üksikasjad</string>
     <string name="message_details_title">SÕNUMI ÜKSIKASJAD</string>
     <string name="message_liked_title">MEELDIS</string>
+    <string name="message_read_title">LOETUD</string>
     <string name="message_details_sent">Saadetud</string>
     <string name="message_details_last_edited">Muudetud</string>
     <string name="tab_title_read">LOETUD</string>
     <string name="tab_title_likes">MEELDIS</string>
     <string name="messages_reads_turned_off">Lugemiskinnitused ei olnud selle sõnumi saatmishetkel sees.</string>
     <string name="messages_no_reads">Keegi pole seda sõnumit veel lugenud.</string>
-    <string name="messages_read_receipts_off">Lugemiskinnitused ei olnud selle sõnumi saatmishetkel sees.</string>
     <string name="messages_no_likes">Keegi pole seda sõnumit veel meeldivaks märkinud.</string>
     <string name="message_footer__tap_to_like">Vajuta, kui meeldib</string>
     <plurals name="message_footer__number_of_likes">
@@ -986,7 +986,7 @@
     <string name="read_receipts_toggle_info_text">Kui see on sees, saavad inimesed näha, kas nende vestluse sõnumid on loetud.</string>
     <string name="read_receipts_info_title_enabled">SA LUBASID LUGEMISKINNITUSED</string>
     <string name="read_receipts_info_title_disabled">SA KEELASID LUGEMISKINNITUSED</string>
-    <string name="read_receipts_info_1">Kui mõlemad osapooled lülitavad lugemiskinnitused sisse, saad sa näha,\nkas sõnumid on loetud.</string>
+    <string name="read_receipts_info_1">Kui mõlemad osapooled lülitavad lugemiskinnitused sisse, saad sa näha, kas sõnumid on loetud.</string>
     <string name="read_receipts_info_2">Sa saad seda valikut oma konto seadetes muuta.</string>
     <string name="create_conv_options_title_text">Vestluse valikud</string>
     <string name="create_conv_options_subtitle_allow_guests">Luba külalisi</string>
@@ -1082,7 +1082,9 @@
     <string name="reply_message_type_location">ASUKOHT</string>
     <string name="reply_message_type_asset">MANUS</string>
     <string name="reply_message_type_unknown">Sa ei saa seda sõnumit näha.</string>
-    <string name="quote_timestamp_message">Originaalsõnum kasutajalt %s</string>
+    <!--Two identical strings are needed for German translation-->
+    <string name="quote_timestamp_message_time">Originaalsõnum kasutajalt %s</string>
+    <string name="quote_timestamp_message_date">Originaalsõnum kasutajalt %s</string>
     <string name="read_receipts_remotely_enabled_title">Sa lubasid lugemiskinnitused</string>
     <string name="read_receipts_remotely_disabled_title">Sa keelasid lugemiskinnitused</string>
     <string name="read_receipts_remotely_changed_message">Sa saad seda valikut oma konto seadetes muuta.</string>

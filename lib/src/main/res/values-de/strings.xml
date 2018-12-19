@@ -590,8 +590,8 @@
     <!--Timestamp formatting -->
     <string name="timestamp__just_now">Gerade eben</string>
     <plurals name="timestamp__x_minutes_ago">
-        <item quantity="one">Vor %1$d Minute</item>
-        <item quantity="other">Vor %1$d Minuten</item>
+        <item quantity="one">vor %1$s Minute</item>
+        <item quantity="other">vor %1$s Minuten</item>
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -771,13 +771,13 @@
     <string name="message_bottom_menu_action_details">Details</string>
     <string name="message_details_title">NACHRICHTENDETAILS</string>
     <string name="message_liked_title">GEFÄLLT</string>
+    <string name="message_read_title">GELESEN</string>
     <string name="message_details_sent">Gesendet</string>
     <string name="message_details_last_edited">Bearbeitet</string>
     <string name="tab_title_read">GELESEN</string>
     <string name="tab_title_likes">GEFÄLLT</string>
     <string name="messages_reads_turned_off">Lesebestätigungen waren beim Senden dieser Nachricht nicht aktiviert.</string>
     <string name="messages_no_reads">Niemand hat diese Nachricht bisher gelesen.</string>
-    <string name="messages_read_receipts_off">Lesebestätigungen waren beim Senden dieser Nachricht nicht aktiviert.</string>
     <string name="messages_no_likes">Niemand hat diese Nachricht bisher mit Gefällt mir markiert.</string>
     <string name="message_footer__tap_to_like">Gefällt mir</string>
     <plurals name="message_footer__number_of_likes">
@@ -986,7 +986,7 @@
     <string name="read_receipts_toggle_info_text">Wenn diese Option aktiviert ist, können Sender sehen, wenn ihre Nachrichten gelesen werden.</string>
     <string name="read_receipts_info_title_enabled">LESEBESTÄTIGUNGEN AKTIV</string>
     <string name="read_receipts_info_title_disabled">LESEBESTÄTIGUNGEN AUS</string>
-    <string name="read_receipts_info_1">Wenn beide Seiten Lesebestätigungen aktivieren, können alle sehen, wenn \nNachrichten gelesen werden.</string>
+    <string name="read_receipts_info_1">Wenn beide Seiten Lesebestätigungen aktivieren, können alle sehen, wenn Nachrichten gelesen werden.</string>
     <string name="read_receipts_info_2">Diese Option kann in den Kontoeinstellungen geändert werden.</string>
     <string name="create_conv_options_title_text">Optionen</string>
     <string name="create_conv_options_subtitle_allow_guests">Gäste zulassen</string>
@@ -1083,7 +1083,9 @@ Die Backup-Datei wird nicht mit Wire Ende-zu-Ende-Verschlüsselung geschützt. A
     <string name="reply_message_type_location">STANDORT</string>
     <string name="reply_message_type_asset">ANHANG</string>
     <string name="reply_message_type_unknown">Diese Nachricht ist nicht sichtbar.</string>
-    <string name="quote_timestamp_message">Ursprüngliche Nachricht vom %s</string>
+    <!--Two identical strings are needed for German translation-->
+    <string name="quote_timestamp_message_time">Ursprüngliche Nachricht von %s</string>
+    <string name="quote_timestamp_message_date">Ursprüngliche Nachricht vom %s</string>
     <string name="read_receipts_remotely_enabled_title">Lesebestätigungen sind aktiviert</string>
     <string name="read_receipts_remotely_disabled_title">Lesebestätigungen sind deaktiviert</string>
     <string name="read_receipts_remotely_changed_message">Diese Option kann in den Kontoeinstellungen geändert werden.</string>
