@@ -110,12 +110,12 @@
     <string name="content__system__other_renamed_conv">[[%1$s]] перейменував(-ла)і розмову</string>
     <string name="content__system__you_renamed_conv">[[Ви]] перейменували розмову</string>
     <!-- Read receipts: System messages -->
-    <string name="content__system__read_receipts_on">Read receipts are on</string>
-    <string name="content__system__read_receipts_off">Read receipts are off</string>
-    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] turned read receipts on for everyone</string>
-    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] turned read receipts off for everyone</string>
-    <string name="content__system__read_receipts_you_turned_on">[[You]] turned read receipts on for everyone</string>
-    <string name="content__system__read_receipts_you_turned_off">[[You]] turned read receipts off for everyone</string>
+    <string name="content__system__read_receipts_on">Звіти про перегляд увімкнені</string>
+    <string name="content__system__read_receipts_off">Звіти про перегляд вимкнені</string>
+    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] увімкнув(-ла) звіти про перегляд для всіх</string>
+    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] вимкнув(-ла) звіти про перегляд для всіх</string>
+    <string name="content__system__read_receipts_you_turned_on">[[Ви]] увімкнули звіти про перегляд для всіх</string>
+    <string name="content__system__read_receipts_you_turned_off">[[Ви]] вимкнули звіти про перегляд для всіх</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] додав(-ла) %2$s до розмови</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -490,8 +490,8 @@
     <string name="pref__account_action__dialog__change_username__error_already_taken">Уже зарезервований</string>
     <string name="pref__account_action__dialog__change_username__error_unknown">Помилка підключення. Будь ласка, спробуйте ще раз</string>
     <string name="pref__account_privacy">Конфіденційність</string>
-    <string name="pref__account_send_read_receipts_title">Send Read Receipts</string>
-    <string name="pref__account_send_read_receipts_summary">When this is off, you won’t be able to see read receipts from other people. This setting does not apply to group conversations.</string>
+    <string name="pref__account_send_read_receipts_title">Надсилати звіти про перегляд</string>
+    <string name="pref__account_send_read_receipts_summary">Ви не зможете отримувати звіти про прочитування від інших учасників розмови, якщо дана опція вимкнена. Це налаштування не застосовується до групових розмов.</string>
     <!-- No Internet connection -->
     <string name="system_status__no_internet">НЕМАЄ ІНТЕРНЕТУ</string>
     <!-- SHARING -->
@@ -617,10 +617,10 @@
     <!--Timestamp formatting-->
     <string name="timestamp__just_now">Щойно</string>
     <plurals name="timestamp__x_minutes_ago_1">
-        <item quantity="one">%1$s minute ago</item>
-        <item quantity="few">%1$s minutes ago</item>
-        <item quantity="many">%1$s minutes ago</item>
-        <item quantity="other">%1$s minutes ago</item>
+        <item quantity="one">%1$s хвилину тому</item>
+        <item quantity="few">%1$s хвилини тому</item>
+        <item quantity="many">%1$s хвилин тому</item>
+        <item quantity="other">%1$s хвилин тому</item>
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -800,15 +800,15 @@
     <string name="message_bottom_menu_action_reply">Відповісти</string>
     <string name="message_bottom_menu_action_save_ok">Картинка збережена</string>
     <string name="message_bottom_menu_action_details">Подробиці</string>
-    <string name="message_details_title">MESSAGE DETAILS</string>
-    <string name="message_liked_title">LIKED</string>
-    <string name="message_read_title">READ</string>
-    <string name="message_details_sent">Надіслано</string>
-    <string name="message_details_last_edited">Відредаговано</string>
-    <string name="tab_title_read">READ</string>
-    <string name="tab_title_likes">LIKED</string>
-    <string name="messages_reads_turned_off">Read receipts were not on when this message was sent.</string>
-    <string name="messages_no_reads">No one has read this message yet.</string>
+    <string name="message_details_title">Деталі повідомлення</string>
+    <string name="message_liked_title">СПОДОБАЛОСЬ</string>
+    <string name="message_read_title">ПРОЧИТАНЕ</string>
+    <string name="message_details_sent">Надіслане</string>
+    <string name="message_details_last_edited">Відредаговане</string>
+    <string name="tab_title_read">ПРОЧИТАНЕ</string>
+    <string name="tab_title_likes">СПОДОБАЛОСЬ</string>
+    <string name="messages_reads_turned_off">Звіти про перегляд були вимкнені, коли це повідомлення було надіслано.</string>
+    <string name="messages_no_reads">Це повідомлення поки що ніхто не переглянув.</string>
     <string name="messages_no_likes">Це повідомлення поки що ніхто не лайкнув.</string>
     <string name="message_footer__tap_to_like">Торкніться, якщо сподобалося</string>
     <plurals name="message_footer__number_of_likes">
@@ -818,14 +818,14 @@
         <item quantity="other">%1$d учасників</item>
     </plurals>
     <string name="message_footer__status__sending">Надсилання&#8230;</string>
-    <string name="message_footer__status__waiting_for_connection">Waiting for connection&#8230;</string>
+    <string name="message_footer__status__waiting_for_connection">Очікування з\'єднання&#8230;</string>
     <string name="message_footer__status__sent">%1$s \u30FB Надіслане</string>
     <string name="message_footer__status__delivered">%1$s \u30FB доставлено</string>
     <string name="message_footer__status__failed">Помилка надсилання. _Повторити_</string>
     <string name="message_footer__status__deleted">%1$s \u30FB видалено</string>
     <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
     <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
-    <string name="message_footer__status__edited">Edited: %1$s</string>
+    <string name="message_footer__status__edited">Відредаговане: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">ВСТАНОВІТЬ ПЕРІОД, ПІСЛЯ ЯКОГО ПОВІДОМЛЕННЯ ЗНИКНЕ</string>
     <string name="usernames__take_over__summary">Виберіть собі Wire-нік. _Дізнатися більше._</string>
     <string name="usernames__take_over__choose">ВИБРАТИ ВЛАСНИЙ</string>
@@ -1039,17 +1039,17 @@
     <string name="group_name_hint">ІМ\'Я ГРУПОВОЇ РОЗМОВИ</string>
     <string name="allow_guests_toggle_text">Дозволити гостей та сервіси</string>
     <string name="allow_guests_toggle_info_text">Зробити цю розмову доступною для серівсів та людей поза межами вашої команди.</string>
-    <string name="read_receipts_toggle_text">Повідомлення про перегляд</string>
-    <string name="read_receipts_toggle_info_text">Якщо ця опція увімкнена, учасники розмови можуть бачити, коли їхні повідомлення в цій розмові були прочитані.</string>
-    <string name="read_receipts_info_title_enabled">ВИ УВІМКНУЛИ ЗВІТИ ПРО ПРОЧИТУВАННЯ</string>
-    <string name="read_receipts_info_title_disabled">ВИ ВИМКНУЛИ ЗВІТИ ПРО ПРОЧИТУВАННЯ</string>
-    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when messages are read.</string>
-    <string name="read_receipts_info_2">You can change this option in your account settings.</string>
+    <string name="read_receipts_toggle_text">Звіти про перегляд</string>
+    <string name="read_receipts_toggle_info_text">Якщо ця опція увімкнена, учасники розмови можуть бачити, коли їхні повідомлення в цій розмові були переглянуті.</string>
+    <string name="read_receipts_info_title_enabled">ВИ УВІМКНУЛИ НАДСИЛАННЯ ЗВІТІВ ПРО ПЕРЕГЛЯД</string>
+    <string name="read_receipts_info_title_disabled">ВИ ВИМКНУЛИ НАДСИЛАННЯ ЗВІТІВ ПРО ПЕРЕГЛЯД</string>
+    <string name="read_receipts_info_1">Якщо обидві сторони увімкнуть звіти про прочитування, то ви зможете бачити, коли повідомлення було прочитане.</string>
+    <string name="read_receipts_info_2">Дану опцію можна змінити в налаштуваннях акаунту.</string>
     <string name="create_conv_options_title_text">Налаштування розмови</string>
     <string name="create_conv_options_subtitle_allow_guests">Дозволити присутність гостей</string>
-    <string name="create_conv_options_subtitle_read_receipts">Повідомлення про перегляд</string>
-    <string name="create_conv_options_subtitle_on">ON</string>
-    <string name="create_conv_options_subtitle_off">Вимкнено</string>
+    <string name="create_conv_options_subtitle_read_receipts">Звіти про перегляд</string>
+    <string name="create_conv_options_subtitle_on">УВІМК</string>
+    <string name="create_conv_options_subtitle_off">ВИМК</string>
     <string name="open_this_conversation_to_people_outside_your_team">Зробити цю розмову доступною для серівсів та людей поза межами вашої команди.</string>
     <string name="allow_guests">Дозволити гостей та сервіси</string>
     <string name="guest_options_title">Гості та сервіси</string>
@@ -1142,7 +1142,7 @@
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Оригінальне повідомлення від %s</string>
     <string name="quote_timestamp_message_date">Оригінальне повідомлення від %s</string>
-    <string name="read_receipts_remotely_enabled_title">You have enabled read receipts</string>
-    <string name="read_receipts_remotely_disabled_title">You have disabled read receipts</string>
-    <string name="read_receipts_remotely_changed_message">You can change this option in your account settings.</string>
+    <string name="read_receipts_remotely_enabled_title">Ви увімкнули звіти про перегляд</string>
+    <string name="read_receipts_remotely_disabled_title">Ви вимкнули звіти про перегляд</string>
+    <string name="read_receipts_remotely_changed_message">Дану опцію можна змінити в налаштуваннях акаунту.</string>
 </resources>
