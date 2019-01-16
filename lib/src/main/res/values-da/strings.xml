@@ -85,7 +85,7 @@
     <string name="crashes_and_analytics_request_title">Help us make Wire better</string>
     <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
     <string name="crashes_and_analytics_request_no">Nej</string>
-    <string name="crashes_and_analytics_request_agree">I Agree</string>
+    <string name="crashes_and_analytics_request_agree">Besvar</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">Tjenester</string>
     <string name="integrations_errors_add_service">Tilføje tjeneste ikke muligt</string>
@@ -209,7 +209,7 @@
     <string name="conversation__action__leave">Forlad gruppen&#8230;</string>
     <string name="conversation__action__call">Ring op</string>
     <string name="conversation__action__picture">Billede</string>
-    <string name="conversation__action__block">Block&#8230;</string>
+    <string name="conversation__action__block">Bloker kontakt&#8230;</string>
     <string name="conversation__action__unblock">Fjern blokering</string>
     <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
     <string name="conversation__action__leave_only">\tLeave group</string>
@@ -524,7 +524,7 @@ Tjek din forbindelse og prøv igen.</string>
     <string name="notification__message__single__accept_request">%1$s og dig har nu oprettet forbindelse</string>
     <string name="notification__message__group__default_conversation_name">gruppesamtale</string>
     <string name="notification__message__send_failed">Message failed to send</string>
-    <string name="notification__message__ephemeral">Sent a message</string>
+    <string name="notification__message__ephemeral">Sendte dig en besked</string>
     <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
     <string name="notification__message_with_quote__ephemeral">Replied to you</string>
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
@@ -666,6 +666,7 @@ Tjek din forbindelse og prøv igen.</string>
     <!-- OTR -->
     <string name="otr__remove_device__title">Fjern %1$s</string>
     <string name="otr__remove_device__message">Angiv din adgangskode</string>
+    <string name="otr__remove_device__are_you_sure">Are you sure?</string>
     <string name="otr__remove_device__default">enhed</string>
     <string name="otr__remove_device__button_delete">OK</string>
     <string name="otr__remove_device__button_cancel">Annuller</string>
@@ -723,7 +724,7 @@ Tjek din forbindelse og prøv igen.</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Ingen samtaler</string>
     <string name="all_archived__header">Alt arkiveret</string>
-    <string name="no_conversation_in_list__message">Start a conversation or create a group.</string>
+    <string name="no_conversation_in_list__message">Ingen samtaler</string>
     <string name="cursor__type_a_message">SKRIV EN BESKED</string>
     <string name="cursor__ephemeral_message">TIDSINDSTILLET BESKED</string>
     <string name="tooltip_record">Optag en video</string>
@@ -984,8 +985,8 @@ Tjek din forbindelse og prøv igen.</string>
     <string name="participants_divider_services">SERVICES (%1$s)</string>
     <string name="participants_divider_people">PEOPLE (%1$s)</string>
     <string name="group_name_hint">GROUP NAME</string>
-    <string name="allow_guests_toggle_text">Allow guests and services</string>
-    <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team.</string>
+    <string name="allow_guests_toggle_text">Tillad gæster</string>
+    <string name="allow_guests_toggle_info_text">Åbn denne samtale for personer uden for dit team.</string>
     <string name="read_receipts_toggle_text">Read receipts</string>
     <string name="read_receipts_toggle_info_text">When this is on, people can see when their messages in this conversation are read.</string>
     <string name="read_receipts_info_title_enabled">YOU HAVE ENABLED READ RECEIPTS</string>
@@ -997,9 +998,9 @@ Tjek din forbindelse og prøv igen.</string>
     <string name="create_conv_options_subtitle_read_receipts">Read receipts</string>
     <string name="create_conv_options_subtitle_on">ON</string>
     <string name="create_conv_options_subtitle_off">FRA</string>
-    <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
-    <string name="allow_guests">Allow guests and services</string>
-    <string name="guest_options_title">Guests and services</string>
+    <string name="open_this_conversation_to_people_outside_your_team">Åbn denne samtale for personer uden for dit team.</string>
+    <string name="allow_guests">Tillad gæster</string>
+    <string name="guest_options_title">Gæst indstillinger</string>
     <string name="ephemeral_options_title">Timed messages</string>
     <string name="notifications_options_title">Notifikationer</string>
     <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
@@ -1007,7 +1008,7 @@ Tjek din forbindelse og prøv igen.</string>
     <string name="show_all_participants">Show all (%1$s)</string>
     <string name="allow_guests_error_title">Noget gik galt</string>
     <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
-    <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
+    <string name="allow_guests_warning_body">Aktuel gæst vil blive fjernet fra samtalen. Nye gæster vil ikke være tilladt.</string>
     <string name="allow_guests_warning_confirm">Fjern</string>
     <string name="guests_are_present">GUESTS ARE PRESENT</string>
     <string name="services_are_present">SERVICES ARE ACTIVE</string>
@@ -1064,7 +1065,7 @@ Tjek din forbindelse og prøv igen.</string>
     <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>
     <string name="markdown_link_dialog_cancel">ANNULLER</string>
-    <string name="max_participants_alert_title">The group is full</string>
+    <string name="max_participants_alert_title">Fuldt hus</string>
     <string name="max_participants_create_alert_message">Up to 300 people can join a conversation.</string>
     <string name="max_participants_add_alert_message">Up to 300 people can join a conversation. Currently there is only room for %1$s more.</string>
     <string name="sso_signin_button">Company log in</string>
