@@ -227,7 +227,7 @@
     <string name="conversation__action__delete_only">\tUsuń zawartość</string>
     <string name="conversation__action__notifications_everything">Wszystko</string>
     <string name="conversation__action__notifications_mentions_and_replies">Wzmianki i Odpowiedzi</string>
-    <string name="conversation__action__notifications_nothing">Nothing</string>
+    <string name="conversation__action__notifications_nothing">Brak</string>
     <string name="conversation__action__notifications_title">Powiadom mnie o:</string>
     <!-- Conversation: Profile Popover -->
     <!-- Calling/voice -->
@@ -242,7 +242,7 @@
     <string name="incoming__controls__ongoing__speaker">GŁOŚNIK</string>
     <string name="incoming__controls__ongoing__mute">WYCISZ</string>
     <string name="incoming__controls__ongoing__video">WIDEO</string>
-    <string name="incoming__controls__ongoing__flip">FLIP</string>
+    <string name="incoming__controls__ongoing__flip">OBRÓĆ</string>
     <string name="ongoing__poor_connection_message">Wideo zatrzymane z powodu słabego połączenia z Internetem</string>
     <string name="calling__self_preview_unavailable_long">APARAT NIEDOSTĘPNY</string>
     <string name="calling__header__joining">Łączenie&#8230;</string>
@@ -254,16 +254,16 @@
     <string name="call_banner_joining">Łączenie&#8230;</string>
     <string name="call_banner_outgoing">Dzwonię do %1$S&#8230;</string>
     <string name="call_banner_incoming">%1$s dzwoni&#8230;</string>
-    <string name="call_banner_incoming_group">%1$s \u30FB %2$s is calling&#8230;</string>
+    <string name="call_banner_incoming_group">Dzwoni %1$s \u30FB %2$s&#8230;</string>
     <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
     <string name="calling_ongoing_call_title">Bieżące połączenie</string>
     <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-    <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+    <string name="calling_ongoing_call_start_anyway">ZADZWOŃ MIMO WSZYSTKO</string>
     <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
-    <string name="calling_ongoing_call_join_anyway">JOIN ANYWAY</string>
-    <string name="calling_ongoing_call_participants_header">PARTICIPANTS</string>
-    <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-    <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
+    <string name="calling_ongoing_call_join_anyway">DOŁĄCZ MIMO WSZYSTKO</string>
+    <string name="calling_ongoing_call_participants_header">UCZESTNICY</string>
+    <string name="calling_ongoing_call_audio_message">Nie możesz nagrać wiadomości głosowej w trakcie rozmowy</string>
+    <string name="calling_ongoing_call_video_message">Nie możesz nagrać wiadomości wideo w trakcie rozmowy</string>
     <!-- Calling in group conversation -->
     <string name="group_calling_title">Rozpocznij połączenie</string>
     <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
@@ -271,9 +271,9 @@
     <!-- Connect request -->
     <string name="connect__message">Cześć! %1$s,\nPołączmy się przez Wire.\n%2$s</string>
     <string name="connect_request__sub_header__pending_label">W toku</string>
-    <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
+    <string name="connect_request__cancel_request__label">ANULUJ ŻĄDANIE POŁĄCZENIA</string>
     <string name="connect_request__unblock__button__text">Odblokuj</string>
-    <string name="send_connect_request__connect_button__text">CONNECT</string>
+    <string name="send_connect_request__connect_button__text">POŁĄCZ</string>
     <plurals name="connect_inbox__link__name">
         <item quantity="one">1 osoba czeka</item>
         <item quantity="few">%1$s ludzi oczekujących</item>
@@ -353,8 +353,8 @@
     <string name="pref_account_details_category_title">Informacja</string>
     <string name="pref_account_actions_category_title">Akcje</string>
     <string name="pref_account_appearance_category_title">Zachowanie</string>
-    <string name="pref_account_personal_information_category_title">Personal Information</string>
-    <string name="pref_account_conversations_category_title">History</string>
+    <string name="pref_account_personal_information_category_title">Dane osobowe</string>
+    <string name="pref_account_conversations_category_title">Historia</string>
     <string name="pref_account_username_title">Login</string>
     <string name="pref_account_phone_title">Numer telefonu</string>
     <string name="pref_account_add_phone_title">Dodaj numer telefonu</string>
@@ -377,7 +377,7 @@
     <string name="pref_account_edit_name_empty_warning">Nazwa musi zawierać przynajmniej 2 znaki</string>
     <string name="pref_account_edit_name_empty_verify">OK</string>
     <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
-    <string name="pref_backup_screen_title">Back Up Conversations</string>
+    <string name="pref_backup_screen_title">Zrób kopię zapasową rozmów</string>
     <!-- Data Usage Permissions -->
     <string name="pref_advanced_send_anonymous_data_title">Wysyłaj anonimowe dane</string>
     <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
@@ -440,7 +440,7 @@
     <string name="pref_advanced_reset_push_completed">Powiadomienia zostały zresetowane</string>
     <string name="debug_report__title">Wire raport debugowania - %1$s</string>
     <string name="debug_report__body">Prosimy, opisz czynności wymagane do odtworzenia problemu, jeśli to możliwe załącz zrzuty ekranu, i wyślij ten email.\n\n</string>
-    <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+    <string name="pref_advanced_ws_foreground_title">Utrzymuj połączenie z serwerem</string>
     <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
     <!-- Support -->
@@ -510,9 +510,9 @@
     <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
     <string name="ping_notifications_channel_name">Pings</string>
     <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
-    <string name="ongoing_channel_name">Background notifications</string>
+    <string name="ongoing_channel_name">Powiadomienia w tle</string>
     <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
-    <string name="foreground_service_notification_name">Maintain connection to server</string>
+    <string name="foreground_service_notification_name">Utrzymuj połączenie z serwerem</string>
     <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
     <plurals name="notification__new_messages__multiple">
         <item quantity="one">Wiadomość w %2$s rozmowach</item>
@@ -580,9 +580,9 @@
     <string name="system_notification__calling_group">%1$s dzwoni&#8230;</string>
     <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
     <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
-    <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
-    <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
-    <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+    <string name="ws_foreground_notification_connected_title">Połączono z serwerem Wire</string>
+    <string name="ws_foreground_notification_no_internet_title">Oczekiwanie na połączenie z Internetem&#8230;</string>
+    <string name="ws_foreground_notification_connecting_title">Nawiązywanie połączenia&#8230;</string>
     <string name="ws_foreground_notification_summary">Tap here for more information.</string>
     <!-- Notification actions -->
     <string name="notification__action__call">Połączenie</string>
@@ -801,7 +801,7 @@
     <string name="message_bottom_menu_action_reply">Odpowiedz</string>
     <string name="message_bottom_menu_action_save_ok">Obraz zapisany</string>
     <string name="message_bottom_menu_action_details">Szczegóły</string>
-    <string name="message_details_title">MESSAGE DETAILS</string>
+    <string name="message_details_title">SZCZEGÓŁY WIADOMOŚCI</string>
     <string name="message_liked_title">LIKED</string>
     <string name="message_read_title">READ</string>
     <string name="message_details_sent">Wyślij</string>
@@ -819,7 +819,7 @@
         <item quantity="other">%1$d osób</item>
     </plurals>
     <string name="message_footer__status__sending">Wysyłanie&#8230;</string>
-    <string name="message_footer__status__waiting_for_connection">Waiting for connection&#8230;</string>
+    <string name="message_footer__status__waiting_for_connection">Oczekiwanie na połączenie&#8230;</string>
     <string name="message_footer__status__sent">\u30FB %1$s wysłane</string>
     <string name="message_footer__status__delivered">\u30FB %1$s dostarczane</string>
     <string name="message_footer__status__failed">Wysyłanie nie powiodło się. _prześlij ponownie_</string>
@@ -986,7 +986,7 @@
     <string name="app_entry_create_account">Prywatnie</string>
     <string name="app_entry_create_account_sub">create an account</string>
     <string name="app_entry_create_team">Pro</string>
-    <string name="app_entry_create_team_sub">create a team</string>
+    <string name="app_entry_create_team_sub">utwórz zespół</string>
     <string name="app_entry_login_sub">Masz już konto?</string>
     <string name="app_entry_login">Logowanie</string>
     <string name="app_entry_tc_dialog_title">Zasady użytkowania</string>
@@ -996,8 +996,8 @@
     <string name="app_entry_dialog_accept">ZAAKCEPTUJ</string>
     <string name="app_entry_dialog_cancel">Anuluj</string>
     <string name="app_entry_dialog_log_in">Zaloguj się</string>
-    <string name="app_entry_dialog_no_thanks">NO, THANKS</string>
-    <string name="app_entry_dialog_not_now">NOT NOW</string>
+    <string name="app_entry_dialog_no_thanks">NIE, DZIĘKUJĘ</string>
+    <string name="app_entry_dialog_not_now">NIE TERAZ</string>
     <string name="app_entry_dialog_view">WIDOK</string>
     <string name="app_entry_dialog_privacy_policy">PRIVACY POLICY</string>
     <string name="app_entry_email_sent">Wiadomość e-mail wysłana</string>
@@ -1006,21 +1006,21 @@
     <string name="app_entry_sso_dialog_message">Enter the company SSO access code.</string>
     <string name="app_entry_sso_input_hint"></string>
     <string name="pick_user_teams_invite">Invite people to join the team</string>
-    <string name="teams_invitations_skip">SKIP</string>
-    <string name="teams_invitations_done">DONE</string>
+    <string name="teams_invitations_skip">POMIŃ</string>
+    <string name="teams_invitations_done">GOTOWE</string>
     <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
     <string name="teams_invitations_error_already_sent">Already sent</string>
     <string name="teams_invitations_error_generic">Coś poszło nie tak, spróbuj ponownie</string>
     <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
-    <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
-    <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
-    <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
+    <string name="teams_invitations_error_invalid_email">PROSZĘ PODAĆ POPRAWNY ADRES E-MAIL</string>
+    <string name="teams_invitations_error_email_exists">TEN ADRES E-MAIL JEST JUŻ W UŻYCIU</string>
+    <string name="teams_invitations_error_no_internet">BRAK POŁĄCZENIA Z INTERNETEM</string>
     <string name="invitation_screen_title">Zbuduj swój zespół</string>
     <string name="invitation_screen_subtitle">Zaproś znajomych.</string>
     <string name="open_service_conversation_button_text">Rozpocznij rozmowę</string>
     <string name="remove_service_button_text">Remove Service</string>
     <string name="integrations_create_conversation">Create a new conversation</string>
-    <string name="no_matches_found">No matches found</string>
+    <string name="no_matches_found">Nie znaleziono dopasowań</string>
     <string name="loading_services">Loading services&#8230;</string>
     <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
     <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
@@ -1028,8 +1028,8 @@
     <string name="create_guest_room_conversation">Create guest room</string>
     <string name="manage_services">Manage Services</string>
     <string name="next_button">NEXT</string>
-    <string name="skip_button">SKIP</string>
-    <string name="done_button">DONE</string>
+    <string name="skip_button">POMIŃ</string>
+    <string name="done_button">GOTOWE</string>
     <string name="new_group_header">UTWÓRZ GRUPĘ</string>
     <string name="add_participants_empty_header">DODAJ UCZESTNIKÓW</string>
     <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
@@ -1037,7 +1037,7 @@
     <string name="new_conv_no_contacts">No contacts</string>
     <string name="participants_divider_services">SERVICES (%1$s)</string>
     <string name="participants_divider_people">PEOPLE (%1$s)</string>
-    <string name="group_name_hint">GROUP NAME</string>
+    <string name="group_name_hint">NAZWA GRUPY</string>
     <string name="allow_guests_toggle_text">Allow guests and services</string>
     <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team.</string>
     <string name="read_receipts_toggle_text">Read receipts</string>
@@ -1063,10 +1063,10 @@
     <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
     <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
     <string name="allow_guests_warning_confirm">Usuń</string>
-    <string name="guests_are_present">GUESTS ARE PRESENT</string>
-    <string name="services_are_present">SERVICES ARE ACTIVE</string>
-    <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
-    <string name="participants_details_header_title">DETAILS</string>
+    <string name="guests_are_present">GOŚCIE SĄ OBECNI</string>
+    <string name="services_are_present">USŁUGI SĄ WŁĄCZONE</string>
+    <string name="guests_and_services_are_present">GOŚCIE I USŁUGI SĄ OBECNI</string>
+    <string name="participants_details_header_title">SZCZEGÓŁY</string>
     <string name="invitation_link_description">Anyone with the link can join the conversation, even if they don\'t have Wire</string>
     <string name="create_link_button">Create Link</string>
     <string name="copy_link_button">Copy Link</string>
@@ -1090,7 +1090,7 @@
     <string name="email_and_password_explanation">You need an email address and a password to use Wire on multiple devices.</string>
     <string name="new_device_password">Nowe urządzenie</string>
     <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
-    <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
+    <string name="restore_from_backup_button">PRZYWRÓĆ Z KOPII ZAPASOWEJ</string>
     <string name="second_launch__header">Używałeś wcześniej Wire na tym urządzeniu</string>
     <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
     <string name="restore_override_alert_title">Restore history</string>
@@ -1134,11 +1134,11 @@
     <string name="wire_notification_name">Wire Notification</string>
     <string name="wire_ping_name">Wire ping</string>
     <string name="reply_self_name">Ty</string>
-    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_image">OBRAZ</string>
     <string name="reply_message_type_video">WIDEO</string>
-    <string name="reply_message_type_audio">AUDIO MESSAGE</string>
-    <string name="reply_message_type_location">LOCATION</string>
-    <string name="reply_message_type_asset">ATTACHMENT</string>
+    <string name="reply_message_type_audio">WIADOMOŚĆ GŁOSOWA</string>
+    <string name="reply_message_type_location">POŁOŻENIE</string>
+    <string name="reply_message_type_asset">ZAŁĄCZNIK</string>
     <string name="reply_message_type_unknown">You cannot see this message.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Original message from %s</string>
