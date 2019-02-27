@@ -110,7 +110,7 @@
     <string name="content__system__other_renamed_conv">[[%1$s]] renamed the conversation</string>
     <string name="content__system__you_renamed_conv">[[You]] renamed the conversation</string>
     <!-- Read receipts: System messages -->
-    <string name="content__system__read_receipts_on">Read receipts are on</string>
+    <string name="content__system__read_receipts_on">已读提示已打开</string>
     <string name="content__system__read_receipts_off">Read receipts are off</string>
     <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] turned read receipts on for everyone</string>
     <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] turned read receipts off for everyone</string>
@@ -198,7 +198,7 @@
     <string name="conversation__action__unarchive">取消归档</string>
     <string name="conversation__action__add_participants">ADD PARTICIPANTS</string>
     <string name="conversation__action__create_group">建立群组</string>
-    <string name="conversation__action__notifications">Notifications&#8230;</string>
+    <string name="conversation__action__notifications">通知&#8230;</string>
     <string name="conversation__action__silence">静音</string>
     <string name="conversation__action__unsilence">关闭静音</string>
     <string name="conversation__action__leave">退出群组</string>
@@ -764,7 +764,7 @@
     <string name="message_liked_title">LIKED</string>
     <string name="message_read_title">READ</string>
     <string name="message_details_sent">发送</string>
-    <string name="message_details_last_edited">Edited</string>
+    <string name="message_details_last_edited">已编辑</string>
     <string name="tab_title_read">READ</string>
     <string name="tab_title_likes">LIKED</string>
     <string name="messages_reads_turned_off">Read receipts were not on when this message was sent.</string>
@@ -936,7 +936,7 @@
     <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
     <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
     <string name="invitation_screen_title">创建您的团队</string>
-    <string name="invitation_screen_subtitle">Your Wire team is ready to go. Invite your colleagues as members.</string>
+    <string name="invitation_screen_subtitle">您的Wire团队已准备就绪。邀请您的同事作为成员。</string>
     <string name="open_service_conversation_button_text">打开对话</string>
     <string name="remove_service_button_text">Remove Service</string>
     <string name="integrations_create_conversation">开始新对话</string>
@@ -958,8 +958,8 @@
     <string name="participants_divider_services">SERVICES (%1$s)</string>
     <string name="participants_divider_people">PEOPLE (%1$s)</string>
     <string name="group_name_hint">GROUP NAME</string>
-    <string name="allow_guests_toggle_text">允许访客</string>
-    <string name="allow_guests_toggle_info_text">开放这个对话与团队以外的访客。</string>
+    <string name="allow_guests_toggle_text">允许的访客与服务</string>
+    <string name="allow_guests_toggle_info_text">向团队外的服务和人员开放此对话</string>
     <string name="read_receipts_toggle_text">Read receipts</string>
     <string name="read_receipts_toggle_info_text">When this is on, people can see when their messages in this conversation are read.</string>
     <string name="read_receipts_info_title_enabled">YOU HAVE ENABLED READ RECEIPTS</string>
@@ -971,8 +971,8 @@
     <string name="create_conv_options_subtitle_read_receipts">Read receipts</string>
     <string name="create_conv_options_subtitle_on">ON</string>
     <string name="create_conv_options_subtitle_off">关闭</string>
-    <string name="open_this_conversation_to_people_outside_your_team">开放这个对话与团队以外的访客。</string>
-    <string name="allow_guests">允许访客</string>
+    <string name="open_this_conversation_to_people_outside_your_team">向团队外的服务和人员开放此对话</string>
+    <string name="allow_guests">允许的访客与服务</string>
     <string name="guest_options_title">访客选项</string>
     <string name="ephemeral_options_title">Timed messages</string>
     <string name="notifications_options_title">通知</string>
@@ -981,7 +981,7 @@
     <string name="show_all_participants">Show all (%1$s)</string>
     <string name="allow_guests_error_title">好像出了点问题。</string>
     <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
-    <string name="allow_guests_warning_body">当前的访客将从对话中删除。新访客将不被允许。</string>
+    <string name="allow_guests_warning_body">当前对话中的访客与服务将会被清除，新的访客与服务也不能再加入。</string>
     <string name="allow_guests_warning_confirm">移除</string>
     <string name="guests_are_present">GUESTS ARE PRESENT</string>
     <string name="services_are_present">SERVICES ARE ACTIVE</string>
@@ -991,7 +991,7 @@
     <string name="create_link_button">创建链接</string>
     <string name="copy_link_button">复制链接</string>
     <string name="share_link_button">分享链接</string>
-    <string name="revoke_link_button">Revoke Link&#8230;</string>
+    <string name="revoke_link_button">撤销链接&#8230;</string>
     <string name="invitation_link_title">INVITE OTHERS WITH A LINK</string>
     <string name="link_copied_toast">链接已复制！</string>
     <string name="revoke_link_message">新访客将无法加入此连结。 目前访客仍可使用。</string>
@@ -1013,7 +1013,7 @@
     <string name="restore_from_backup_button">RESTORE FROM BACKUP</string>
     <string name="second_launch__header">您曾在此设备使用过Wire。</string>
     <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
-    <string name="restore_override_alert_title">Restore history</string>
+    <string name="restore_override_alert_title">恢复历史</string>
     <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
     <string name="restore_override_alert_ok">Choose Backup File</string>
     <string name="back_up_progress">BACKING UP&#8230;</string>
@@ -1031,7 +1031,7 @@
     <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
     <string name="backup_import_error_wrong_account_title">Wrong backup</string>
     <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
-    <string name="video_paused">Video paused</string>
+    <string name="video_paused">视频已暂停</string>
     <string name="calling_degraded_title">新设备</string>
     <string name="call_info_text">Up to 300 people can join a group conversation. Video calls work with up to 3 other people and you.</string>
     <string name="markdown_link_dialog_title">打开链接</string>
@@ -1051,7 +1051,7 @@
     <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
     <string name="participant_search_hint">SEARCH FOR NAMES</string>
     <string name="participant_search_title">联系人</string>
-    <string name="generic_service_warning">Services have access to the content of this conversation</string>
+    <string name="generic_service_warning">服务有权访问此对话的内容</string>
     <string name="add_services_button_text">Manage services</string>
     <string name="wire_notification_name">Wire Notification</string>
     <string name="wire_ping_name">Wire 打招呼</string>
@@ -1061,7 +1061,7 @@
     <string name="reply_message_type_audio">AUDIO MESSAGE</string>
     <string name="reply_message_type_location">LOCATION</string>
     <string name="reply_message_type_asset">ATTACHMENT</string>
-    <string name="reply_message_type_unknown">You cannot see this message.</string>
+    <string name="reply_message_type_unknown">您不能看到此消息。</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Original message from %s</string>
     <string name="quote_timestamp_message_date">Original message from %s</string>
