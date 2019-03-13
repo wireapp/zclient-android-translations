@@ -64,7 +64,7 @@
     <string name="new_reg__code_resent">Naujas kodas jums buvo išsiųstas SMS žinute</string>
     <string name="new_reg__email_code_resent">Naujas kodas jums buvo išsiųstas el. paštu</string>
     <string name="new_reg__code_resent__call">Palaukite skambučio</string>
-    <string name="new_reg__default_country">de</string>
+    <string name="new_reg__default_country">lt</string>
     <!-- consider updating this for every new language -->
     <string name="your_phone_number">Jūsų telefono numeris</string>
     <!-- Receive email/sms invitation -->
@@ -111,11 +111,11 @@
     <string name="content__system__you_renamed_conv">[[You]] pervadinote pokalbį</string>
     <!-- Read receipts: System messages -->
     <string name="content__system__read_receipts_on">Perskaitymo patvirtinimai įjungti</string>
-    <string name="content__system__read_receipts_off">Read receipts are off</string>
-    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] turned read receipts on for everyone</string>
-    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] turned read receipts off for everyone</string>
-    <string name="content__system__read_receipts_you_turned_on">[[You]] turned read receipts on for everyone</string>
-    <string name="content__system__read_receipts_you_turned_off">[[You]] turned read receipts off for everyone</string>
+    <string name="content__system__read_receipts_off">Perskaitymo patvirtinimai išjungti</string>
+    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] visiems aktyvavo perskaitymo patvirtinimus</string>
+    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] visiems išjungė perskaitymo patvirtinimus</string>
+    <string name="content__system__read_receipts_you_turned_on">[[You]] visiems aktyvavote perskaitymo patvirtinimus</string>
+    <string name="content__system__read_receipts_you_turned_off">[[You]] visiems išjungėte perskaitymo patvirtinimus</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] pridėjo pašnekovą %2$s prie susirašinėjimo</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -213,7 +213,7 @@
     <string name="conversation__action__unarchive">Išarchyvuoti</string>
     <string name="conversation__action__add_participants">PRIDĖTI PAŠNEKOVŲ</string>
     <string name="conversation__action__create_group">SUKURTI GRUPĘ</string>
-    <string name="conversation__action__open_conversation">OPEN CONVERSATION</string>
+    <string name="conversation__action__open_conversation">ATVERTI SUSIRAŠINĖJIMĄ</string>
     <string name="conversation__action__notifications">Pranešimai&#8230;</string>
     <string name="conversation__action__silence">Išjungti mikrofoną</string>
     <string name="conversation__action__unsilence">Įjungti pranešimus</string>
@@ -417,8 +417,8 @@
     <string name="pref_devices_screen_title">Įrenginiai</string>
     <string name="pref_devices_current_device_category_title">Šis įrenginys</string>
     <string name="pref_devices_other_devices_category_title">Kiti įrenginiai</string>
-    <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
-    <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
+    <string name="pref_devices_device_activation_summary">Aktyvinti [[%1$s]]\n</string>
+    <string name="pref_devices_device_activation_subtitle">Aktyvinti [[%1$s]]</string>
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Patvirtintas</string>
     <string name="pref_devices_device_not_verified">Nepatvirtintas</string>
@@ -443,8 +443,8 @@
     <string name="debug_report__title">„Wire“ klaidos ataskaita - %1$s</string>
     <string name="debug_report__body">Aprašykite žingsnius, kuriais galėtume atkurti nesklandumą, jei įmanoma pridėkite ekrano nuotraukų ir išsiųskite šį laišką.\n\n</string>
     <string name="pref_advanced_ws_foreground_title">Palaikyti ryšį su serveriu</string>
-    <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
-        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
+    <string name="pref_advanced_ws_foreground_summary">Aptikome, kad neturite „Google Play Services“. „Wire“ bandys išlaikyti ryšį su serveriu, kad gautumėte pranešimus, kol programa veiks fone.
+        Išjungus šį nustatymą, baterijos veikimas gali pagerėti, bet nebegausite pranešimų, kai „Wire“ veiks fone. Tai taikoma visoms paskyroms šiame įrenginyje.</string>
     <!-- Support -->
     <string name="pref_support_screen_title">Palaikymas</string>
     <string name="pref_support_website_title">„Wire“ pagalbos svetainė</string>
@@ -493,7 +493,7 @@
     <string name="pref__account_action__dialog__change_username__error_unknown">Ryšio klaida, bandykite dar kartą</string>
     <string name="pref__account_privacy">Privatumas</string>
     <string name="pref__account_send_read_receipts_title">Siųsti perskaitymo patvirtinimus</string>
-    <string name="pref__account_send_read_receipts_summary">When this is off, you won’t be able to see read receipts from other people. This setting does not apply to group conversations.</string>
+    <string name="pref__account_send_read_receipts_summary">Išjungus jūs nematysite perskaitymo patvirtinimų iš kitų žmonių. Šis nustatymas negalioja grupėse.</string>
     <!-- No Internet connection -->
     <string name="system_status__no_internet">NĖRA INTERNETO</string>
     <!-- SHARING -->
@@ -508,14 +508,14 @@
     <string name="calling__call_drop__message">Norint skambinti, turi būti ryšys. Patikrinkite interneto ryšį ir bandykite dar kartą.</string>
     <!-- Lockscreen and notifications -->
     <string name="message_notifications_channel_name">Žinutės</string>
-    <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
+    <string name="message_notifications_channel_description">Pranešimai apie visus žinučių tipus, įskaitant teksto, paveikslėlių, garso ir vaizdo žinučių.</string>
     <string name="incoming_call_notifications_channel_name">Gaunamas skambutis</string>
     <string name="ping_notifications_channel_name">Skambtelėjimai</string>
-    <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
+    <string name="ping_notifications_channel_description">Pranešimai apie skambtelėjimą jums</string>
     <string name="ongoing_channel_name">Pranešimai fone</string>
-    <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
+    <string name="ongoing_channel_description">Pranešimai apie vykstančius procesus ar antrinius veiksmus, tokius kaip skambučiai arba paveikslėlio išsaugojimas</string>
     <string name="foreground_service_notification_name">Palaikyti ryšį su serveriu</string>
-    <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
+    <string name="foreground_service_notification_description">Šis pranešimas yra būtinas, kad vyktų bendravimas su serveriu kol „Wire“ veikia fone vartotojams, nenaudojant „Google Play services“.</string>
     <plurals name="notification__new_messages__multiple">
         <item quantity="one">%2$s susirašinėjimuose yra pranešimas</item>
         <item quantity="few">%2$s susirašinėjimuose yra %1$d pranešimai</item>
@@ -525,11 +525,11 @@
     <!-- %1$s == username, %2$s == conversation -->
     <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
     <string name="notification__message__group__prefix__text">%1$s grupėje %2$s:\u0020</string>
-    <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
-    <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
-    <string name="notification__message_with_quote__name__prefix__text_one2one">Reply: \u0020</string>
-    <string name="notification__message_with_quote__name__prefix__text">Reply from %1$s: \u0020</string>
-    <string name="notification__message_with_quote__group__prefix__text">Reply from %1$s in %2$s: \u0020</string>
+    <string name="notification__message_with_mention__name__prefix__text">%1$s paminėjo: \u0020</string>
+    <string name="notification__message_with_mention__group__prefix__text">%1$s paminėjo susirašinėjime %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text_one2one">Atsakymas: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">%1$s atsakė: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">%1$s atsakė susirašinėjime %2$s: \u0020</string>
     <string name="notification__message__one_to_one__wanted_to_talk">Skambino</string>
     <string name="notification__message__one_to_one__pinged">Skambtelėjo</string>
     <string name="notification__message__one_to_one__shared_picture">Pasidalino paveikslu</string>
@@ -712,8 +712,8 @@
     <string name="otr__participant__device_class__tablet">Planšetinis kompiuteris</string>
     <string name="otr__participant__device_class__desktop">Stalinis kompiuteris</string>
     <string name="otr__participant__tab_details">IŠSAMIAU</string>
-    <string name="otr__participant__tab_devices">DEVICES</string>
-    <string name="otr__participant__information">INFORMATION</string>
+    <string name="otr__participant__tab_devices">ĮRENGINIAI</string>
+    <string name="otr__participant__information">INFORMACIJA</string>
     <string name="otr__participant__single_device__my_fingerprint_link">Rodyti mano įrenginio kontrolinį kodą</string>
     <string name="otr__participant__single_device__reset_session_link">Atstatyti seansą</string>
     <string name="otr__participant__my_device__description">Jūsų įrenginio kontrolinis kodas</string>
@@ -755,7 +755,7 @@
     <string name="no_conversation_in_list__header">Kol kas nėra pokalbių</string>
     <string name="all_archived__header">Viskas užarchyvuota</string>
     <string name="no_conversation_in_list__message">Pradėkite susirašinėjimą arba sukurkite grupę.</string>
-    <string name="default_deleted_username">Default</string>
+    <string name="default_deleted_username">Numatytasis</string>
     <string name="cursor__type_a_message">RAŠYKITE PRANEŠIMĄ</string>
     <string name="cursor__ephemeral_message">IŠNYKSTANTI ŽINUTĖ</string>
     <string name="tooltip_record">Padaryti vaizdo įrašą</string>
@@ -768,7 +768,7 @@
     <string name="tooltip_audio_message">Bakstelėkite ir laikykite garso žinutės siuntimui</string>
     <string name="tooltip_file">Siųsti failą</string>
     <string name="tooltip_gif">Gif</string>
-    <string name="tooltip_mention">Add Mention</string>
+    <string name="tooltip_mention">Pridėti paminėjimą</string>
     <!-- Delete -->
     <string name="conversation__message_action__delete_for_me">Ištrinti tik man?</string>
     <string name="conversation__message_action__delete_for_everyone">Ištrinti visiems?</string>
@@ -805,13 +805,13 @@
     <string name="message_bottom_menu_action_reply">Atsakyti</string>
     <string name="message_bottom_menu_action_save_ok">Paveikslėlis išsaugotas</string>
     <string name="message_bottom_menu_action_details">Išsamiau</string>
-    <string name="message_details_title">MESSAGE DETAILS</string>
-    <string name="message_liked_title">LIKED</string>
-    <string name="message_read_title">READ</string>
+    <string name="message_details_title">ŽINUTĖS DUOMENYS</string>
+    <string name="message_liked_title">PATIKO</string>
+    <string name="message_read_title">PERSKAITĖ</string>
     <string name="message_details_sent">Išsiųsta</string>
     <string name="message_details_last_edited">Pakeista</string>
-    <string name="tab_title_read">READ</string>
-    <string name="tab_title_likes">LIKED</string>
+    <string name="tab_title_read">PERSKAITYTA</string>
+    <string name="tab_title_likes">PATIKO</string>
     <string name="messages_reads_turned_off">Perskaitymo patvirtinimai nebuvo įjungti kai žinutė buvo išsiųsta.</string>
     <string name="messages_no_reads">Niekas dar neperskaitė šios žinutės.</string>
     <string name="messages_no_likes">Niekas dar nepažymėjo, kad patinka.</string>
@@ -830,7 +830,7 @@
     <string name="message_footer__status__deleted">%1$s \u30FB Ištrinta</string>
     <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
     <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
-    <string name="message_footer__status__edited">Edited: %1$s</string>
+    <string name="message_footer__status__edited">Pakeista: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">NUSTATYKITE PO KIEK LAIKO PRANEŠIMAS IŠNYKS</string>
     <string name="usernames__take_over__summary">Gaukite savo unikalų vardą „Wire“ platformoje. _Sužinokite daugiau._</string>
     <string name="usernames__take_over__choose">PASIRINITE SAVO</string>
@@ -889,10 +889,10 @@
     <string name="search__no_results">Rezultatų nėra.</string>
     <!-- Conversation List -->
     <plurals name="conversation_list__new_message_count">
-        <item quantity="one">%1$s message</item>
-        <item quantity="few">%1$s messages</item>
-        <item quantity="many">%1$s messages</item>
-        <item quantity="other">%1$s žinutė</item>
+        <item quantity="one">%1$s žinutė</item>
+        <item quantity="few">%1$s žinutės</item>
+        <item quantity="many">%1$s žinučių</item>
+        <item quantity="other">%1$s žinučių</item>
     </plurals>
     <plurals name="conversation_list__pings_count">
         <item quantity="one">%1$s skambtelėjimas</item>
@@ -915,16 +915,16 @@
     <string name="conversation_list__missed_calls_count">Praleistas skambutis</string>
     <string name="conversation_list__missed_calls_count_group">Praleistas skambutis nuo %1$s</string>
     <plurals name="conversation_list__mentions_count">
-        <item quantity="one">%1$s mention</item>
-        <item quantity="few">%1$s mentions</item>
-        <item quantity="many">%1$s mentions</item>
-        <item quantity="other">%1$s mentions</item>
+        <item quantity="one">%1$s paminėjimas</item>
+        <item quantity="few">%1$s paminėjimai</item>
+        <item quantity="many">%1$s paminėjimų</item>
+        <item quantity="other">%1$s paminėjimų</item>
     </plurals>
     <plurals name="conversation_list__quotes_count">
-        <item quantity="one">%1$s reply</item>
-        <item quantity="few">%1$s replies</item>
-        <item quantity="many">%1$s replies</item>
-        <item quantity="other">%1$s replies</item>
+        <item quantity="one">%1$s atsakymas</item>
+        <item quantity="few">%1$s atsakymai</item>
+        <item quantity="many">%1$s atsakymų</item>
+        <item quantity="other">%1$s atsakymų</item>
     </plurals>
     <string name="conversation_list__unsent_message_long">⚠ Neišsiųsta žinutė</string>
     <string name="conversation_list__unsent_message_short">⚠</string>
@@ -939,7 +939,7 @@
     <string name="conversation_list__single_eph_and_mention">Jus paminėjo</string>
     <string name="conversation_list__group_eph_and_mention">Kažkas jus paminėjo</string>
     <string name="conversation_list__single_eph_and_quote">Atsakyta jums</string>
-    <string name="conversation_list__group_eph_and_quote">Someone replied to you</string>
+    <string name="conversation_list__group_eph_and_quote">Kažkas atsakė į jūsų žinutę</string>
     <string name="conversation_list__typing">Rašo žinutę&#8230;</string>
     <string name="conversation_list__someone">Kažkas</string>
     <string name="conversation_list__added">[[%1$s]] buvo pridėtas</string>
@@ -948,8 +948,8 @@
     <string name="conversation_list__removed_you">[[%1$s]] jus pašalino</string>
     <string name="conversation_list__header__title">SUSIRAŠINĖJIMAI</string>
     <string name="conversation_list__header__archive_title">ARCHYVUOTI</string>
-    <string name="conversation_list__single_with_quote">Reply: %1$s</string>
-    <string name="conversation_list__group_with_quote">Reply from %1$s: %2$s</string>
+    <string name="conversation_list__single_with_quote">Atsakymas: %1$s</string>
+    <string name="conversation_list__group_with_quote">%1$s atsakė: %2$s</string>
     <string name="conversation_list__single_without_quote">%1$s</string>
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">SVEČIAS</string>
@@ -1048,12 +1048,12 @@
     <string name="read_receipts_toggle_info_text">Įjungus, žmonės gali matyti ar jų žinutės buvo perskaitytos.</string>
     <string name="read_receipts_info_title_enabled">JŪS ĮJUNGĖTE PERSKAITYMO PATVIRTINIMUS</string>
     <string name="read_receipts_info_title_disabled">JŪS IŠUNGĖTE PERSKAITYMO PATVIRTINIMUS</string>
-    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when messages are read.</string>
+    <string name="read_receipts_info_1">Jei abi pusės įjungs perskaitymo patvirtinimus, galėsite matyti, kada žinutės yra perskaitytos.</string>
     <string name="read_receipts_info_2">Galite pakeisti šį pasirinkimą savo paskyros nustatymuose.</string>
     <string name="create_conv_options_title_text">Susirašinėjimo parinktys</string>
     <string name="create_conv_options_subtitle_allow_guests">Leisti svečius</string>
     <string name="create_conv_options_subtitle_read_receipts">Perskaitymo patvirtinimai</string>
-    <string name="create_conv_options_subtitle_on">ON</string>
+    <string name="create_conv_options_subtitle_on">AKTYVUS</string>
     <string name="create_conv_options_subtitle_off">IŠJUNGTA</string>
     <string name="open_this_conversation_to_people_outside_your_team">Leiskite šį susirašinėjimą matyti paslaugoms ir žmonėms, kurie nėra jūsų komandoje.</string>
     <string name="allow_guests">Leisti svečius ir tarnybas</string>
@@ -1131,8 +1131,8 @@
     <string name="sso_signin_error_try_again_message">Bandykite dar kartą vėliau (klaida %1$s).</string>
     <string name="sso_signin_wrong_code_title">Netaisyklingas kodas</string>
     <string name="sso_signin_wrong_code_message">Įsitikinkite, kad jūsų įmonės SSO prieigos kodas be klaidos, ir bandykite dar kartą.</string>
-    <string name="sso_signin_max_accounts_title">Two accounts active</string>
-    <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
+    <string name="sso_signin_max_accounts_title">Aktyvios dvi paskyros</string>
+    <string name="sso_signin_max_accounts_message">Vienu metu galite būti prisijungęs iki dviejų paskyrų. Atsijunkite nuo vienos, kad galėtumėte pridėti kitą.</string>
     <string name="participant_search_hint">IEŠKOTI VARDŲ</string>
     <string name="participant_search_title">ŽMONĖS</string>
     <string name="generic_service_warning">Paslaugos turi galimybę matyti šio susirašinėjimo turinį</string>
@@ -1140,15 +1140,15 @@
     <string name="wire_notification_name">Wire pranešimas</string>
     <string name="wire_ping_name">„Wire“ skambtelėjimas</string>
     <string name="reply_self_name">Jūs</string>
-    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_image">PAVEIKSLĖLIS</string>
     <string name="reply_message_type_video">VAIZDAS</string>
-    <string name="reply_message_type_audio">AUDIO MESSAGE</string>
-    <string name="reply_message_type_location">LOCATION</string>
+    <string name="reply_message_type_audio">GARSO ŽINUTĖ</string>
+    <string name="reply_message_type_location">VIETA</string>
     <string name="reply_message_type_asset">PRIEDAS</string>
     <string name="reply_message_type_unknown">Jūs negalite matyti šitos žinutės.</string>
     <!--Two identical strings are needed for German translation-->
-    <string name="quote_timestamp_message_time">Original message from %s</string>
-    <string name="quote_timestamp_message_date">Original message from %s</string>
+    <string name="quote_timestamp_message_time">Pirminė žinutė, kurią parašė %s</string>
+    <string name="quote_timestamp_message_date">Pirminė žinutė, kurią parašė %s</string>
     <string name="read_receipts_remotely_enabled_title">Jūs įjungėte perskaitymo patvirtinimus</string>
     <string name="read_receipts_remotely_disabled_title">Jūs išjungėte perskaitymo patvirtinimus</string>
     <string name="read_receipts_remotely_changed_message">Galite pakeisti šį pasirinkimą savo paskyros nustatymuose.</string>

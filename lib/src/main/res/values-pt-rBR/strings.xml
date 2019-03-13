@@ -111,11 +111,11 @@
     <string name="content__system__you_renamed_conv">[[Você]] renomeou a conversa</string>
     <!-- Read receipts: System messages -->
     <string name="content__system__read_receipts_on">As confirmações de leitura estão ligadas</string>
-    <string name="content__system__read_receipts_off">Read receipts are off</string>
-    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] turned read receipts on for everyone</string>
-    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] turned read receipts off for everyone</string>
-    <string name="content__system__read_receipts_you_turned_on">[[You]] turned read receipts on for everyone</string>
-    <string name="content__system__read_receipts_you_turned_off">[[You]] turned read receipts off for everyone</string>
+    <string name="content__system__read_receipts_off">Confirmações de Leitura estão desativadas</string>
+    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] ativou as confirmações de leitura para todos</string>
+    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] desativou as confirmações de leitura para todos</string>
+    <string name="content__system__read_receipts_you_turned_on">[[Você]] ativou as confirmações de leitura para todos</string>
+    <string name="content__system__read_receipts_you_turned_off">[[Você]] desativou as confirmações de leitura para todos</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] adicionou %2$s à conversa</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -203,7 +203,7 @@
     <string name="conversation__action__unarchive">Desarquivar</string>
     <string name="conversation__action__add_participants">ADICIONAR PARTICIPANTES</string>
     <string name="conversation__action__create_group">CRIAR GRUPO</string>
-    <string name="conversation__action__open_conversation">OPEN CONVERSATION</string>
+    <string name="conversation__action__open_conversation">ABRIR CONVERSA</string>
     <string name="conversation__action__notifications">Notificações&#8230;</string>
     <string name="conversation__action__silence">Silenciar</string>
     <string name="conversation__action__unsilence">Notificar</string>
@@ -595,8 +595,8 @@
     <!--Timestamp formatting-->
     <string name="timestamp__just_now">Agora</string>
     <plurals name="timestamp__x_minutes_ago_1">
-        <item quantity="one">%1$s minute ago</item>
-        <item quantity="other">%1$s minutes ago</item>
+        <item quantity="one">%1$s minuto atrás</item>
+        <item quantity="other">%1$s minutos atrás</item>
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -667,7 +667,7 @@
     <!-- OTR -->
     <string name="otr__remove_device__title">Remover %1$s</string>
     <string name="otr__remove_device__message">Digite sua senha</string>
-    <string name="otr__remove_device__are_you_sure">Are you sure?</string>
+    <string name="otr__remove_device__are_you_sure">Tem certeza?</string>
     <string name="otr__remove_device__default">dispositivo</string>
     <string name="otr__remove_device__button_delete">OK</string>
     <string name="otr__remove_device__button_cancel">Cancelar</string>
@@ -684,8 +684,8 @@
     <string name="otr__participant__device_class__tablet">Tablet</string>
     <string name="otr__participant__device_class__desktop">Computador</string>
     <string name="otr__participant__tab_details">DETALHES</string>
-    <string name="otr__participant__tab_devices">DEVICES</string>
-    <string name="otr__participant__information">INFORMATION</string>
+    <string name="otr__participant__tab_devices">DISPOSITIVOS</string>
+    <string name="otr__participant__information">INFORMAÇÃO</string>
     <string name="otr__participant__single_device__my_fingerprint_link">Mostrar a minha impressão digital do dispositivo</string>
     <string name="otr__participant__single_device__reset_session_link">Redefinir sessão</string>
     <string name="otr__participant__my_device__description">Sua impressão digital do dispositivo</string>
@@ -727,7 +727,7 @@
     <string name="no_conversation_in_list__header">Não há conversas ainda</string>
     <string name="all_archived__header">Tudo foi arquivado</string>
     <string name="no_conversation_in_list__message">Iniciar uma conversa ou criar um grupo.</string>
-    <string name="default_deleted_username">Default</string>
+    <string name="default_deleted_username">Padrão</string>
     <string name="cursor__type_a_message">DIGITE UMA MENSAGEM</string>
     <string name="cursor__ephemeral_message">MENSAGEM COM TEMPO LIMITE</string>
     <string name="tooltip_record">Gravar vídeo</string>
@@ -777,13 +777,13 @@
     <string name="message_bottom_menu_action_reply">Responder</string>
     <string name="message_bottom_menu_action_save_ok">Foto salva</string>
     <string name="message_bottom_menu_action_details">Detalhes</string>
-    <string name="message_details_title">MESSAGE DETAILS</string>
-    <string name="message_liked_title">LIKED</string>
-    <string name="message_read_title">READ</string>
+    <string name="message_details_title">DETALHES DA MENSAGEM</string>
+    <string name="message_liked_title">CURTIDO</string>
+    <string name="message_read_title">LIDO</string>
     <string name="message_details_sent">Enviado</string>
     <string name="message_details_last_edited">Editado</string>
-    <string name="tab_title_read">READ</string>
-    <string name="tab_title_likes">LIKED</string>
+    <string name="tab_title_read">LIDO</string>
+    <string name="tab_title_likes">CURTIDO</string>
     <string name="messages_reads_turned_off">As confirmações de leitura não estavam ativadas quando esta mensagem foi enviada.</string>
     <string name="messages_no_reads">Ninguém leu esta mensagem ainda.</string>
     <string name="messages_no_likes">Ninguém curtiu esta mensagem ainda.</string>
@@ -793,14 +793,14 @@
         <item quantity="other">%1$d pessoas</item>
     </plurals>
     <string name="message_footer__status__sending">Enviando&#8230;</string>
-    <string name="message_footer__status__waiting_for_connection">Waiting for connection&#8230;</string>
+    <string name="message_footer__status__waiting_for_connection">Aguardando conexão&#8230;</string>
     <string name="message_footer__status__sent">%1$s \u30FB Enviada</string>
     <string name="message_footer__status__delivered">%1$s \u30FB Entregue</string>
     <string name="message_footer__status__failed">Envio falhou. _Reenviar_</string>
     <string name="message_footer__status__deleted">%1$s \u30FB Excluída</string>
     <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
     <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
-    <string name="message_footer__status__edited">Edited: %1$s</string>
+    <string name="message_footer__status__edited">Editado: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">DEFINA UM TEMPO PARA A MENSAGEM DESAPARECER</string>
     <string name="usernames__take_over__summary">Reivindicar seu nome único no Wire. _Saiba mais._</string>
     <string name="usernames__take_over__choose">ESCOLHA O SEU PRÓPRIO</string>
@@ -966,7 +966,7 @@
     <string name="teams_invitations_error_email_exists">ESTE ENDEREÇO DE E-MAIL JÁ ESTÁ EM USO</string>
     <string name="teams_invitations_error_no_internet">SEM CONEXÃO COM À INTERNET</string>
     <string name="invitation_screen_title">Crie sua equipe</string>
-    <string name="invitation_screen_subtitle">Your Wire team is ready to go. Invite your colleagues as members.</string>
+    <string name="invitation_screen_subtitle">Sua equipe do Wire está pronta. Convide seus colegas como membros.</string>
     <string name="open_service_conversation_button_text">Abrir Conversa</string>
     <string name="remove_service_button_text">Remover serviço</string>
     <string name="integrations_create_conversation">Criar uma nova conversa</string>
@@ -999,7 +999,7 @@
     <string name="create_conv_options_title_text">Opções de conversa</string>
     <string name="create_conv_options_subtitle_allow_guests">Permitir convidados</string>
     <string name="create_conv_options_subtitle_read_receipts">Recibos de Leitura</string>
-    <string name="create_conv_options_subtitle_on">ON</string>
+    <string name="create_conv_options_subtitle_on">LIGADO</string>
     <string name="create_conv_options_subtitle_off">DESLIGADO</string>
     <string name="open_this_conversation_to_people_outside_your_team">Abra esta conversa para serviços e pessoas fora da sua equipe.</string>
     <string name="allow_guests">Permitir que os hóspedes e serviços</string>
@@ -1077,8 +1077,8 @@
     <string name="sso_signin_error_try_again_message">Por favor, tente novamente mais tarde (Erro %1$s).</string>
     <string name="sso_signin_wrong_code_title">Código inválido</string>
     <string name="sso_signin_wrong_code_message">Por favor, verifique se o seu código de acesso SSO da empresa e tente novamente.</string>
-    <string name="sso_signin_max_accounts_title">Two accounts active</string>
-    <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
+    <string name="sso_signin_max_accounts_title">Duas contas ativas</string>
+    <string name="sso_signin_max_accounts_message">Você apenas pode estar conectado com duas contas de uma vez. Saia de uma para adicionar outra.</string>
     <string name="participant_search_hint">PESQUISE POR NOMES</string>
     <string name="participant_search_title">PESSOAS</string>
     <string name="generic_service_warning">Serviços têm acesso ao conteúdo dessa conversa</string>

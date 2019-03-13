@@ -24,12 +24,12 @@
     <string name="generic_error_header">Une erreur est survenue</string>
     <string name="generic_error_message">Veuillez réessayer</string>
     <string name="internet_connectivity_error_header">Pas de connexion internet</string>
-    <string name="internet_connectivity_error_message">Vérifiez votre connexion Internet et réessayez</string>
+    <string name="internet_connectivity_error_message">Veuillez vérifier votre connexion internet et réessayer</string>
     <string name="too_many_attempts_header">Trop de tentatives</string>
     <string name="login_later_message">Veuillez essayer de vous connecter plus tard</string>
     <string name="email_exists_header">Adresse e-mail déjà utilisée</string>
     <string name="email_exists_message">Cette adresse électronique est déjà enregistrée</string>
-    <string name="email_invalid_header">Adresse e-mail invalide</string>
+    <string name="email_invalid_header">Adresse e-mail non valide</string>
     <string name="email_invalid_message">Veuillez saisir une adresse e-mail valide</string>
     <string name="invalid_credentials_header">Information non valide</string>
     <string name="invalid_credentials_message">Veuillez vérifier vos informations et réessayez</string>
@@ -81,7 +81,7 @@
     <string name="people_picker__search_people">PERSONNES</string>
     <string name="people_picker__search_services">SERVICES</string>
     <string name="receive_news_and_offers_request_title">Newsletter</string>
-    <string name="receive_news_and_offers_request_body">Voulez-vous recevoir les actualités, ainsi que les mises-à-jour de Wire par e-mail? Vous pouvez vous y désabonner à tout moment.</string>
+    <string name="receive_news_and_offers_request_body">Voulez-vous recevoir les actualités, ainsi que les mises à jour de Wire par e-mail ? Vous pouvez vous y désabonner à tout moment.</string>
     <string name="crashes_and_analytics_request_title">Aidez-nous à améliorer Wire</string>
     <string name="crashes_and_analytics_request_body">Wire peut créer et utiliser des rapports d\'utilisation et d\'erreurs anonymes afin d\'améliorer l\'application. Vous pouvez révoquer votre autorisation à tout moment.</string>
     <string name="crashes_and_analytics_request_no">Non</string>
@@ -111,11 +111,11 @@
     <string name="content__system__you_renamed_conv">[[Vous]] avez renommé la conversation</string>
     <!-- Read receipts: System messages -->
     <string name="content__system__read_receipts_on">Les accusés de lecture son activés</string>
-    <string name="content__system__read_receipts_off">Read receipts are off</string>
-    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] turned read receipts on for everyone</string>
-    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] turned read receipts off for everyone</string>
-    <string name="content__system__read_receipts_you_turned_on">[[You]] turned read receipts on for everyone</string>
-    <string name="content__system__read_receipts_you_turned_off">[[You]] turned read receipts off for everyone</string>
+    <string name="content__system__read_receipts_off">Les accusés de réception sont désactivés</string>
+    <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] a activé les accusés de réception pour tout le monde</string>
+    <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] a désactivé les accusés de réception pour tout le monde</string>
+    <string name="content__system__read_receipts_you_turned_on">[[Vous]] avez activé les accusés de réception pour tout le monde</string>
+    <string name="content__system__read_receipts_you_turned_off">[[Vous]] avez désactivé les accusés de réception pour tout le monde</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] a ajouté %2$s à la conversation</string>
     <plurals name="content__system__someone_added_people_with_others">
@@ -203,7 +203,7 @@
     <string name="conversation__action__unarchive">Restaurer</string>
     <string name="conversation__action__add_participants">AJOUTER DES PARTICIPANTS</string>
     <string name="conversation__action__create_group">CRÉER UN GROUPE</string>
-    <string name="conversation__action__open_conversation">OPEN CONVERSATION</string>
+    <string name="conversation__action__open_conversation">OUVRIR CONVERSATION</string>
     <string name="conversation__action__notifications">Notifications&#8230;</string>
     <string name="conversation__action__silence">Mettre en sourdine</string>
     <string name="conversation__action__unsilence">Désactiver la sourdine</string>
@@ -426,7 +426,7 @@
     <string name="debug_report__body">Veuillez décrire les étapes nécessaires pour reproduire le problème, fournir des captures d’écran si possible et envoyer cet e-mail.\n\n</string>
     <string name="pref_advanced_ws_foreground_title">Maintenir la connexion au serveur</string>
     <string name="pref_advanced_ws_foreground_summary">Nous avons détecté que les services Google Play ne sont pas installés. Wire essayera de maintenir une connexion avec le serveur pour recevoir les notifications quand l\'application n\'est pas au premier plan.
-        La désactivation de ce pramètre peut améliorer les performances de la batterie, mais vous ne recevrez plus de notifications lorsque Wire est en arrière-plan. Ceci s\'applique à tous les comptes sur cet appareil.</string>
+        La désactivation de ce paramètre peut améliorer les performances de la batterie, mais vous ne recevrez plus de notifications lorsque Wire est en arrière-plan. Ceci s\'applique à tous les comptes sur cet appareil.</string>
     <!-- Support -->
     <string name="pref_support_screen_title">Assistance</string>
     <string name="pref_support_website_title">Site d\'assistance de Wire</string>
@@ -560,7 +560,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="system_notification__video_calling_one">Appel vidéo&#8230;</string>
     <string name="system_notification__video_calling_group">%1$s a commencé un appel vidéo&#8230;</string>
     <string name="ws_foreground_notification_connected_title">Connecté au serveur Wire</string>
-    <string name="ws_foreground_notification_no_internet_title">En attente d\'une connexion Internet&#8230;</string>
+    <string name="ws_foreground_notification_no_internet_title">En attente d\'une connexion internet&#8230;</string>
     <string name="ws_foreground_notification_connecting_title">Établissement de la connexion&#8230;</string>
     <string name="ws_foreground_notification_summary">Cliquez ici pour plus d\'informations.</string>
     <!-- Notification actions -->
@@ -596,8 +596,8 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <!--Timestamp formatting-->
     <string name="timestamp__just_now">À l\'instant</string>
     <plurals name="timestamp__x_minutes_ago_1">
-        <item quantity="one">%1$s minute ago</item>
-        <item quantity="other">%1$s minutes ago</item>
+        <item quantity="one">Il y a %1$s minute</item>
+        <item quantity="other">Il y a %1$s minutes</item>
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -668,7 +668,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <!-- OTR -->
     <string name="otr__remove_device__title">Supprimer %1$s</string>
     <string name="otr__remove_device__message">Saisissez votre mot de passe</string>
-    <string name="otr__remove_device__are_you_sure">Are you sure?</string>
+    <string name="otr__remove_device__are_you_sure">Êtes-vous sûr ?</string>
     <string name="otr__remove_device__default">appareil</string>
     <string name="otr__remove_device__button_delete">OK</string>
     <string name="otr__remove_device__button_cancel">Annuler</string>
@@ -685,7 +685,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="otr__participant__device_class__tablet">Tablette</string>
     <string name="otr__participant__device_class__desktop">Ordinateur</string>
     <string name="otr__participant__tab_details">DÉTAILS</string>
-    <string name="otr__participant__tab_devices">DEVICES</string>
+    <string name="otr__participant__tab_devices">APPAREILS</string>
     <string name="otr__participant__information">INFORMATION</string>
     <string name="otr__participant__single_device__my_fingerprint_link">Afficher l\'empreinte de mon appareil</string>
     <string name="otr__participant__single_device__reset_session_link">Réinitialiser la session</string>
@@ -728,7 +728,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="no_conversation_in_list__header">Aucune conversation</string>
     <string name="all_archived__header">Tout a été archivé</string>
     <string name="no_conversation_in_list__message">Commencez une conversation ou créez un groupe.</string>
-    <string name="default_deleted_username">Default</string>
+    <string name="default_deleted_username">Défaut</string>
     <string name="cursor__type_a_message">ÉCRIVEZ UN MESSAGE</string>
     <string name="cursor__ephemeral_message">MESSAGE ÉPHÉMÈRE</string>
     <string name="tooltip_record">Enregistrer une vidéo</string>
@@ -801,7 +801,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="message_footer__status__deleted">%1$s \u30FB Supprimé</string>
     <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
     <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
-    <string name="message_footer__status__edited">Edited: %1$s</string>
+    <string name="message_footer__status__edited">Modifié : %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">DÉFINIR UNE DURÉE AVANT LA DISPARITION DU MESSAGE</string>
     <string name="usernames__take_over__summary">Choisissez votre nom d’utilisateur unique sur Wire. _En savoir plus._</string>
     <string name="usernames__take_over__choose">CHOISISSEZ LE VÔTRE</string>
@@ -990,7 +990,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="participants_divider_people">PERSONNES (%1$s)</string>
     <string name="group_name_hint">NOM DU GROUPE</string>
     <string name="allow_guests_toggle_text">Autoriser les invités et les services</string>
-    <string name="allow_guests_toggle_info_text">Rendre cette conversation accessible à des personnes et services étrangères à votre équipe.</string>
+    <string name="allow_guests_toggle_info_text">Rendre cette conversation accessible à des personnes et services étrangers à votre équipe.</string>
     <string name="read_receipts_toggle_text">Accusés de lecture</string>
     <string name="read_receipts_toggle_info_text">Quand cette option est activée, les participants peuvent voir quand leurs messages ont été lus dans cette conversation.</string>
     <string name="read_receipts_info_title_enabled">VOUS AVEZ ACTIVÉ LES ACCUSÉS DE LECTURE</string>
@@ -998,11 +998,11 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="read_receipts_info_1">Si les deux participants ont activé les accusés de lecture, vous pouvez voir quand les messages sont lus.</string>
     <string name="read_receipts_info_2">Vous pouvez changer cette option dans les paramètres de votre compte.</string>
     <string name="create_conv_options_title_text">Options</string>
-    <string name="create_conv_options_subtitle_allow_guests">Autoriser les non membres</string>
+    <string name="create_conv_options_subtitle_allow_guests">Autoriser les non-membres</string>
     <string name="create_conv_options_subtitle_read_receipts">Accusés de lecture</string>
     <string name="create_conv_options_subtitle_on">ON</string>
     <string name="create_conv_options_subtitle_off">Désactivé</string>
-    <string name="open_this_conversation_to_people_outside_your_team">Rendre cette conversation accessible à des personnes et services étrangères à votre équipe.</string>
+    <string name="open_this_conversation_to_people_outside_your_team">Rendre cette conversation accessible à des personnes et services étrangers à votre équipe.</string>
     <string name="allow_guests">Autoriser les invités et les services</string>
     <string name="guest_options_title">Invités et services</string>
     <string name="ephemeral_options_title">Messages temporaires</string>
@@ -1049,8 +1049,8 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="back_up_progress">SAUVEGARDE DES DONNÉES&#8230;</string>
     <string name="back_up_progress_complete">TERMINÉ</string>
     <string name="restore_progress">RESTAURATION EN COURS&#8230;</string>
-    <string name="pref_account_backup_warning_title">Définir une adresse email et un mot de passe.</string>
-    <string name="pref_account_backup_warning_message">Vous devez définir une adresse email et un mot de passe pour pouvoir faire une sauvegarde de vos conversations. Vous pouvez les définir dans la section \"Compte\" des Paramètres.</string>
+    <string name="pref_account_backup_warning_title">Définir une adresse e-mail et un mot de passe.</string>
+    <string name="pref_account_backup_warning_message">Vous devez définir une adresse e-mail et un mot de passe pour pouvoir faire une sauvegarde de vos conversations. Vous pouvez les définir dans la section « Compte » des Paramètres.</string>
     <string name="pref_account_backup_warning_ok">OK</string>
     <string name="export_generic_error_title">Le fichier n\'a pas pu être sauvegardé</string>
     <string name="export_generic_error_text">Vous n\'avez peut-être pas assez d\'espace ou la permission de l\'enregistrer ici.</string>
@@ -1077,8 +1077,8 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="sso_signin_error_try_again_message">Veuillez réessayer plus tard (erreur %1$s).</string>
     <string name="sso_signin_wrong_code_title">Code non valide</string>
     <string name="sso_signin_wrong_code_message">Vérifiez le code d\'accès SSO de votre entreprise et réessayez.</string>
-    <string name="sso_signin_max_accounts_title">Two accounts active</string>
-    <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
+    <string name="sso_signin_max_accounts_title">Deux comptes actifs</string>
+    <string name="sso_signin_max_accounts_message">Vous ne pouvez vous connecter qu’à deux comptes à la fois. Déconnectez-vous de l’un d’entre eux pour en ajouter un autre.</string>
     <string name="participant_search_hint">RECHERCHE PAR NOM</string>
     <string name="participant_search_title">PERSONNES</string>
     <string name="generic_service_warning">Les services ont accès au contenu de la conversation</string>
