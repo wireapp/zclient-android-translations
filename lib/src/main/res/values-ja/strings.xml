@@ -26,13 +26,14 @@
     <string name="internet_connectivity_error_header">インターネット接続がありません</string>
     <string name="internet_connectivity_error_message">インターネット接続を確認して、もう一度やり直してください。</string>
     <string name="too_many_attempts_header">試行回数が多すぎます</string>
-    <string name="login_later_message">後でログインしてみてください。</string>
+    <string name="email_login_later_message">PLEASE TRY TO LOG IN LATER</string>
+    <string name="phone_login_later_message">後でログインしてみてください。</string>
     <string name="email_exists_header">メールアドレスは使われています。</string>
-    <string name="email_exists_message">このメールアドレスは既に登録されています</string>
+    <string name="email_exists_message">THIS EMAIL ADDRESS HAS ALREADY BEEN REGISTERED</string>
     <string name="email_invalid_header">無効なメールアドレス</string>
-    <string name="email_invalid_message">有効なメール アドレスを入力してください</string>
+    <string name="email_invalid_message">有効なメール アドレスを入力してください。</string>
     <string name="invalid_credentials_header">無効な情報</string>
-    <string name="invalid_credentials_message">詳細を確認して、もう一度やり直してください。</string>
+    <string name="invalid_credentials_message">PLEASE VERIFY YOUR DETAILS AND TRY AGAIN</string>
     <string name="phone_exists_header">電話番号はすでに使用されています</string>
     <string name="phone_exists_message">指定した電話番号はすでに登録されています。もう一度やり直してください。</string>
     <string name="phone_invalid_format_header">無効な電話番号</string>
@@ -41,7 +42,7 @@
     <string name="phone_password_exists_message">このアカウントはすでにパスワードとメールアドレスで関連付けられています。メールアドレスでログインしてください。</string>
     <string name="invalid_code_header">無効なコード</string>
     <string name="incorrect_code_header">間違ったコード</string>
-    <string name="wrong_code_message">有効なコードを入力してください。</string>
+    <string name="wrong_code_message">PLEASE ENTER A VALID CODE</string>
     <string name="phone_pending_login_header">コードはすでに送信されています</string>
     <string name="phone_pending_login_message">すでに SMS 経由でコードを送信しました。新しいものを取得するには 10 分後に、再送信をタップします。</string>
     <string name="phone_budget_exhausted_header">リクエストが多すぎます</string>
@@ -198,7 +199,7 @@
     <string name="conversation__action__unarchive">解答する</string>
     <string name="conversation__action__add_participants">参加者を追加</string>
     <string name="conversation__action__create_group">グループを作成</string>
-    <string name="conversation__action__open_conversation">会話を開きます</string>
+    <string name="conversation__action__open_conversation">会話を開く</string>
     <string name="conversation__action__notifications">通知&#8230;</string>
     <string name="conversation__action__silence">ミュート</string>
     <string name="conversation__action__unsilence">ミュート解除します。</string>
@@ -408,10 +409,10 @@
     <string name="pref_devices_device_fingerprint_copy_toast">重要なフィンガープリントをコピーしました</string>
     <!-- Advanced -->
     <string name="pref_advanced_screen_title">さらに</string>
-    <string name="pref_advanced_enable_logs_title">Collect usage data</string>
-    <string name="pref_advanced_enable_logs_subtitle">This stores troubleshooting information locally. Disabling this option will delete all local logs.</string>
-    <string name="pref_advanced_debug_report_title">Create debug report</string>
-    <string name="pref_advanced_debug_report_summary">You can submit this to Wire Support to help diagnose problems.</string>
+    <string name="pref_advanced_enable_logs_title">使用状況データの収集</string>
+    <string name="pref_advanced_enable_logs_subtitle">トラブルシューティング情報をローカルに保存します。このオプションを無効にすると、すべてのローカルログが削除されます。</string>
+    <string name="pref_advanced_debug_report_title">デバッグ報告の作成</string>
+    <string name="pref_advanced_debug_report_summary">報告を Wire サポートに送信して、問題の診断に役立てることができます。</string>
     <string name="pref_advanced_reset_push_title">プッシュ通知のトークンをリセットする</string>
     <string name="pref_advanced_reset_push_summary">プッシュ通知に関して問題があった場合、Wireサポートチームはあなたにトークンのリセットを求めることがあります。</string>
     <string name="pref_advanced_reset_push_completed">プッシュトークンがリセットされました。</string>
@@ -691,6 +692,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="otr__reset_session__message_fail">セッションをリセットできませんでした</string>
     <string name="otr__reset_session__button_ok">OK</string>
     <string name="otr__reset_session__button_fail">もう一度試す</string>
+    <string name="user_profile_email_field_name">メール</string>
     <string name="advanced_image_download_wifi_info">この写真は、Wi-Fiに再接続したときに表示されます</string>
     <string name="change_settings">設定を変更</string>
     <string name="conversation_list__action_join_call">参加する</string>
@@ -897,7 +899,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
     <string name="teams_set_email_about">もっと詳しく知る</string>
     <string name="teams_set_password_title">パスワード設定</string>
-    <string name="teams_set_password_hint">最低8 文字以上</string>
+    <string name="teams_set_password_hint">パスワード</string>
     <string name="teams_set_username_title">ユーザー名を設定</string>
     <string name="teams_set_username_hint">ユーザー名</string>
     <string name="teams_set_team_name_title">チーム名</string>
@@ -935,9 +937,9 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="pick_user_teams_invite">チームに招待する</string>
     <string name="teams_invitations_skip">スキップ</string>
     <string name="teams_invitations_done">完了</string>
-    <string name="teams_invitations_error_too_many">招待数の上限に達しました。</string>
-    <string name="teams_invitations_error_already_sent">送信済</string>
-    <string name="teams_invitations_error_generic">問題が生じたようです。もう一度やり直してください。</string>
+    <string name="teams_invitations_error_too_many">THE MAXIMUM NUMBER OF INVITATIONS HAS BEEN SENT</string>
+    <string name="teams_invitations_error_already_sent">ALREADY SENT</string>
+    <string name="teams_invitations_error_generic">SOMETHING WENT WRONG, PLEASE TRY AGAIN</string>
     <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
     <string name="teams_invitations_error_invalid_email">有効なメール アドレスを入力してください。</string>
     <string name="teams_invitations_error_email_exists">このメール アドレスは既に使用されています。</string>
@@ -1072,6 +1074,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="deep_link_conversation_error_message">You may not have permission with this account or the person may not be on Wire.</string>
     <string name="deep_link_user_error_title">Wire can\'t find this person.</string>
     <string name="deep_link_user_error_message">You may not have permission with this account or it no longer exists.</string>
+    <string name="password_policy_hint">Use at least %1$s characters, with one lowercase letter, one capital letter, a number, and a special character.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">%s からのオリジナルメッセージ</string>
     <string name="quote_timestamp_message_date">%s からのオリジナルメッセージ</string>

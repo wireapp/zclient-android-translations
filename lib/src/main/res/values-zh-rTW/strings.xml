@@ -26,13 +26,14 @@
     <string name="internet_connectivity_error_header">沒有網路連線</string>
     <string name="internet_connectivity_error_message">請檢查您的網路連線，然後重試</string>
     <string name="too_many_attempts_header">您已嘗試太多次</string>
-    <string name="login_later_message">請稍候再嘗試登入</string>
+    <string name="email_login_later_message">請嘗試在稍後登入</string>
+    <string name="phone_login_later_message">請稍候再嘗試登入</string>
     <string name="email_exists_header">此電子郵件信箱已經被使用</string>
-    <string name="email_exists_message">這個電郵地址已經註冊</string>
+    <string name="email_exists_message">THIS EMAIL ADDRESS HAS ALREADY BEEN REGISTERED</string>
     <string name="email_invalid_header">無效的電子郵件信箱</string>
-    <string name="email_invalid_message">請輸入有效的電子郵件信箱</string>
+    <string name="email_invalid_message">請輸入有效的電子郵件地址</string>
     <string name="invalid_credentials_header">不正確的資訊</string>
-    <string name="invalid_credentials_message">請檢查您的資訊後再重試</string>
+    <string name="invalid_credentials_message">PLEASE VERIFY YOUR DETAILS AND TRY AGAIN</string>
     <string name="phone_exists_header">電話號碼已被使用</string>
     <string name="phone_exists_message">這電話號碼已被註冊，請嘗試其他號碼。</string>
     <string name="phone_invalid_format_header">不正確的電話號碼</string>
@@ -41,7 +42,7 @@
     <string name="phone_password_exists_message">此帳號已有密碼和電子郵件連結了。請使用電子郵件登錄。</string>
     <string name="invalid_code_header">驗證碼無效</string>
     <string name="incorrect_code_header">不正確的代碼</string>
-    <string name="wrong_code_message">請輸入一個有效的代碼</string>
+    <string name="wrong_code_message">PLEASE ENTER A VALID CODE</string>
     <string name="phone_pending_login_header">已發送代碼</string>
     <string name="phone_pending_login_message">我們已透過手機簡訊發送代碼到您的手機。如需新代碼需等候 10 分鐘後再點擊重新發送。</string>
     <string name="phone_budget_exhausted_header">請求次數過多</string>
@@ -198,7 +199,7 @@
     <string name="conversation__action__unarchive">解除封存</string>
     <string name="conversation__action__add_participants">加入參與者</string>
     <string name="conversation__action__create_group">建立群組</string>
-    <string name="conversation__action__open_conversation">OPEN CONVERSATION</string>
+    <string name="conversation__action__open_conversation">開啟聊天室</string>
     <string name="conversation__action__notifications">通知&#8230;</string>
     <string name="conversation__action__silence">靜音</string>
     <string name="conversation__action__unsilence">開啟訊息通知</string>
@@ -207,7 +208,7 @@
     <string name="conversation__action__picture">大頭照</string>
     <string name="conversation__action__block">封鎖...</string>
     <string name="conversation__action__unblock">解除封鎖</string>
-    <string name="conversation__action__remove_member">Remove from group&#8230;</string>
+    <string name="conversation__action__remove_member">從群組中移除&#8230;</string>
     <string name="conversation__action__leave_and_delete">\t離開並刪除內容</string>
     <string name="conversation__action__leave_only">\t離開群組</string>
     <string name="conversation__action__delete_and_leave">\t刪除內容並離開</string>
@@ -408,9 +409,9 @@
     <string name="pref_devices_device_fingerprint_copy_toast">已複製指紋識別</string>
     <!-- Advanced -->
     <string name="pref_advanced_screen_title">進階</string>
-    <string name="pref_advanced_enable_logs_title">Collect usage data</string>
+    <string name="pref_advanced_enable_logs_title">收集使用資料</string>
     <string name="pref_advanced_enable_logs_subtitle">This stores troubleshooting information locally. Disabling this option will delete all local logs.</string>
-    <string name="pref_advanced_debug_report_title">Create debug report</string>
+    <string name="pref_advanced_debug_report_title">建立除錯報告</string>
     <string name="pref_advanced_debug_report_summary">You can submit this to Wire Support to help diagnose problems.</string>
     <string name="pref_advanced_reset_push_title">重置推送通知的 Token</string>
     <string name="pref_advanced_reset_push_summary">如果您有推送通知的問題，Wire客服可能會請您重設此token。</string>
@@ -689,6 +690,7 @@
     <string name="otr__reset_session__message_fail">無法重設session</string>
     <string name="otr__reset_session__button_ok">確認</string>
     <string name="otr__reset_session__button_fail">再試一次</string>
+    <string name="user_profile_email_field_name">電子郵件</string>
     <string name="advanced_image_download_wifi_info">當您再次連接Wi-Fi時，這張圖片會再次顯示。</string>
     <string name="change_settings">更改設定</string>
     <string name="conversation_list__action_join_call">加入</string>
@@ -895,7 +897,7 @@
     <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
     <string name="teams_set_email_about">瞭解更多</string>
     <string name="teams_set_password_title">設定密碼</string>
-    <string name="teams_set_password_hint">至少八個字元</string>
+    <string name="teams_set_password_hint">密碼</string>
     <string name="teams_set_username_title">設置使用者名稱</string>
     <string name="teams_set_username_hint">使用者名稱</string>
     <string name="teams_set_team_name_title">為您的團隊命名</string>
@@ -933,9 +935,9 @@
     <string name="pick_user_teams_invite">邀請其他人加入團隊</string>
     <string name="teams_invitations_skip">略過</string>
     <string name="teams_invitations_done">完成</string>
-    <string name="teams_invitations_error_too_many">已達到邀請上限。</string>
-    <string name="teams_invitations_error_already_sent">已經傳送</string>
-    <string name="teams_invitations_error_generic">出了點問題，請再試一次</string>
+    <string name="teams_invitations_error_too_many">THE MAXIMUM NUMBER OF INVITATIONS HAS BEEN SENT</string>
+    <string name="teams_invitations_error_already_sent">ALREADY SENT</string>
+    <string name="teams_invitations_error_generic">SOMETHING WENT WRONG, PLEASE TRY AGAIN</string>
     <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
     <string name="teams_invitations_error_invalid_email">請輸入有效的電子郵件地址</string>
     <string name="teams_invitations_error_email_exists">此電子郵件地址已在使用中</string>
@@ -1070,6 +1072,7 @@
     <string name="deep_link_conversation_error_message">您可能沒有此帳戶的許可，或該人可能不在線上。</string>
     <string name="deep_link_user_error_title">Wire找不到這個人。</string>
     <string name="deep_link_user_error_message">您可能沒有此帳戶的權限或此帳戶已不再存在。</string>
+    <string name="password_policy_hint">Use at least %1$s characters, with one lowercase letter, one capital letter, a number, and a special character.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Original message from %s</string>
     <string name="quote_timestamp_message_date">Original message from %s</string>

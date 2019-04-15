@@ -26,13 +26,14 @@
     <string name="internet_connectivity_error_header">没有互联网讯号</string>
     <string name="internet_connectivity_error_message">请检查您的网络连接，然后重试</string>
     <string name="too_many_attempts_header">您尝试太多次了</string>
-    <string name="login_later_message">请稍后尝试登录</string>
+    <string name="email_login_later_message">PLEASE TRY TO LOG IN LATER</string>
+    <string name="phone_login_later_message">请稍后尝试登录</string>
     <string name="email_exists_header">邮箱地址已被使用。</string>
-    <string name="email_exists_message">此邮箱已被注冊.</string>
+    <string name="email_exists_message">THIS EMAIL ADDRESS HAS ALREADY BEEN REGISTERED</string>
     <string name="email_invalid_header">无效的邮箱地址</string>
-    <string name="email_invalid_message">请输入有效的电邮箱地址</string>
+    <string name="email_invalid_message">PLEASE ENTER A VALID EMAIL ADDRESS</string>
     <string name="invalid_credentials_header">无效信息</string>
-    <string name="invalid_credentials_message">请检查您提供的资料然后重试。</string>
+    <string name="invalid_credentials_message">PLEASE VERIFY YOUR DETAILS AND TRY AGAIN</string>
     <string name="phone_exists_header">手机号码已被使用</string>
     <string name="phone_exists_message">该手机号码已被注册，请尝试其他号码。</string>
     <string name="phone_invalid_format_header">无效的手机号码</string>
@@ -41,7 +42,7 @@
     <string name="phone_password_exists_message">此帐户已经具有密码和电子邮件相关联。通过电子邮件，请登录。</string>
     <string name="invalid_code_header">验证码无效</string>
     <string name="incorrect_code_header">验证码不正确</string>
-    <string name="wrong_code_message">请输入有效的验证码</string>
+    <string name="wrong_code_message">PLEASE ENTER A VALID CODE</string>
     <string name="phone_pending_login_header">验证码已发送</string>
     <string name="phone_pending_login_message">我们已经将验证码通过短信发送给您。如需重新获取验证码，请等候10分钟后点击重新发送。</string>
     <string name="phone_budget_exhausted_header">请求次数过多</string>
@@ -207,7 +208,7 @@
     <string name="conversation__action__picture">头像</string>
     <string name="conversation__action__block">封锁...</string>
     <string name="conversation__action__unblock">解除封锁</string>
-    <string name="conversation__action__remove_member">从本组取消</string>
+    <string name="conversation__action__remove_member">从群组中移除&#8230;</string>
     <string name="conversation__action__leave_and_delete">\tLeave and delete content</string>
     <string name="conversation__action__leave_only">\tLeave group</string>
     <string name="conversation__action__delete_and_leave">\tDelete content and leave</string>
@@ -482,7 +483,7 @@
     <string name="remove_from_conversation__no_network__message">您必须在线才能从聊天室移除参与者。检查您的网络，然后重试。</string>
     <string name="calling__call_drop__message">使用语音通话，您必须连接到互联网。请检查您的网路然后重试。</string>
     <!-- Lockscreen and notifications -->
-    <string name="message_notifications_channel_name">短消息</string>
+    <string name="message_notifications_channel_name">信息</string>
     <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
     <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
     <string name="ping_notifications_channel_name">Pings</string>
@@ -689,6 +690,7 @@
     <string name="otr__reset_session__message_fail">无法重设session</string>
     <string name="otr__reset_session__button_ok">好</string>
     <string name="otr__reset_session__button_fail">再试一次</string>
+    <string name="user_profile_email_field_name">电子邮件</string>
     <string name="advanced_image_download_wifi_info">图片会在您重新连接 Wi-Fi 后显示。</string>
     <string name="change_settings">更改设置</string>
     <string name="conversation_list__action_join_call">加入</string>
@@ -856,7 +858,7 @@
     <string name="conversation_list__shared__location">分享了位置</string>
     <string name="conversation_list__missed_call">未接电话</string>
     <string name="conversation_list__pinged">打了招呼</string>
-    <string name="conversation_list__ephemeral">有人发送了一则信息。</string>
+    <string name="conversation_list__ephemeral">有人发送了一则信息</string>
     <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
     <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
     <string name="conversation_list__single_eph_and_quote">Replied to you</string>
@@ -895,7 +897,7 @@
     <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
     <string name="teams_set_email_about">了解更多</string>
     <string name="teams_set_password_title">设置密码</string>
-    <string name="teams_set_password_hint">至少需要8个字符</string>
+    <string name="teams_set_password_hint">密码</string>
     <string name="teams_set_username_title">设置用户名</string>
     <string name="teams_set_username_hint">用户名</string>
     <string name="teams_set_team_name_title">为你的团队命名</string>
@@ -908,7 +910,7 @@
     <string name="teams_verify_email_change">更改邮件地址</string>
     <string name="teams_set_name_title">您的名字</string>
     <string name="teams_set_name_hint">全名</string>
-    <string name="app_entry_create_account">个人信息</string>
+    <string name="app_entry_create_account">个人应用</string>
     <string name="app_entry_create_account_sub">新增帐户</string>
     <string name="app_entry_create_team">Pro</string>
     <string name="app_entry_create_team_sub">创建团队</string>
@@ -933,9 +935,9 @@
     <string name="pick_user_teams_invite">邀请好友使用Wire</string>
     <string name="teams_invitations_skip">SKIP</string>
     <string name="teams_invitations_done">DONE</string>
-    <string name="teams_invitations_error_too_many">已达到发送邀请的最大数量</string>
-    <string name="teams_invitations_error_already_sent">Already sent</string>
-    <string name="teams_invitations_error_generic">出了点问题，请再试一次</string>
+    <string name="teams_invitations_error_too_many">THE MAXIMUM NUMBER OF INVITATIONS HAS BEEN SENT</string>
+    <string name="teams_invitations_error_already_sent">ALREADY SENT</string>
+    <string name="teams_invitations_error_generic">SOMETHING WENT WRONG, PLEASE TRY AGAIN</string>
     <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
     <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
     <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
@@ -1071,6 +1073,7 @@
     <string name="deep_link_conversation_error_message">You may not have permission with this account or the person may not be on Wire.</string>
     <string name="deep_link_user_error_title">Wire can\'t find this person.</string>
     <string name="deep_link_user_error_message">You may not have permission with this account or it no longer exists.</string>
+    <string name="password_policy_hint">Use at least %1$s characters, with one lowercase letter, one capital letter, a number, and a special character.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Original message from %s</string>
     <string name="quote_timestamp_message_date">Original message from %s</string>

@@ -26,13 +26,14 @@
     <string name="internet_connectivity_error_header">Отсутствует подключение к интернету</string>
     <string name="internet_connectivity_error_message">Проверьте подключение к интернету и повторите попытку</string>
     <string name="too_many_attempts_header">Слишком много попыток</string>
-    <string name="login_later_message">Попробуйте войти позже</string>
+    <string name="email_login_later_message">ПОЖАЛУЙСТА, ПОПРОБУЙТЕ АВТОРИЗОВАТЬСЯ ПОЗЖЕ</string>
+    <string name="phone_login_later_message">Пожалуйста, попробуйте авторизоваться позже</string>
     <string name="email_exists_header">Такой email уже используется</string>
-    <string name="email_exists_message">Этот адрес email уже зарегистрирован</string>
+    <string name="email_exists_message">ЭТОТ АДРЕС EMAIL УЖЕ ЗАРЕГИСТРИРОВАН</string>
     <string name="email_invalid_header">Неправильный email</string>
-    <string name="email_invalid_message">Пожалуйста, введите корректный email</string>
+    <string name="email_invalid_message">ПОЖАЛУЙСТА, УКАЖИТЕ ДЕЙСТВИТЕЛЬНЫЙ АДРЕС EMAIL</string>
     <string name="invalid_credentials_header">Неверная информация</string>
-    <string name="invalid_credentials_message">Проверьте введенные данные и повторите попытку</string>
+    <string name="invalid_credentials_message">ПОЖАЛУЙСТА, ПРОВЕРЬТЕ ВАШУ ИНФОРМАЦИЮ И ПОПРОБУЙТЕ СНОВА</string>
     <string name="phone_exists_header">Номер телефона уже используется</string>
     <string name="phone_exists_message">Введенный вами номер телефона уже зарегистрирован. Повторите попытку</string>
     <string name="phone_invalid_format_header">Недопустимый номер телефона</string>
@@ -41,7 +42,7 @@
     <string name="phone_password_exists_message">Эта учетная запись уже имеет пароль и связанный с ней email. Для входа используйте email.</string>
     <string name="invalid_code_header">Неверный код</string>
     <string name="incorrect_code_header">Неправильный код</string>
-    <string name="wrong_code_message">Пожалуйста, введите правильный код</string>
+    <string name="wrong_code_message">ПОЖАЛУЙСТА, ВВЕДИТЕ ДЕЙСТВИТЕЛЬНЫЙ КОД</string>
     <string name="phone_pending_login_header">Код уже отправлен</string>
     <string name="phone_pending_login_message">Мы уже отправили вам код в SMS. Для получения нового кода нажмите \'Отправить повторно\' через 10 минут.</string>
     <string name="phone_budget_exhausted_header">Слишком много запросов</string>
@@ -107,7 +108,7 @@
     <!-- Conversation: System messages -->
     <string name="content__system__other_joined">[[%1$s]] присоединился</string>
     <string name="content__system__you_joined">[[Вы]] вошли</string>
-    <string name="content__system__other_renamed_conv">[[%1$s]] переименовал разговор</string>
+    <string name="content__system__other_renamed_conv">[[%1$s]] переименовал(а) разговор</string>
     <string name="content__system__you_renamed_conv">[[Вы]] переименовали разговор</string>
     <!-- Read receipts: System messages -->
     <string name="content__system__read_receipts_on">Отчеты о прочтении включены</string>
@@ -119,24 +120,24 @@
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] добавил в разговор %2$s</string>
     <plurals name="content__system__someone_added_people_with_others">
-        <item quantity="one">[[%1$s]] добавил(а) %2$s и _%3$s в разговор_</item>
-        <item quantity="few">[[%1$s]] добавил(а) %2$s и _%3$s в разговор_</item>
-        <item quantity="many">[[%1$s]] добавил(а) %2$s и _%3$s в разговор_</item>
-        <item quantity="other">[[%1$s]] добавил(а) %2$s и _%3$s в разговор_</item>
+        <item quantity="one">[[%1$s]] добавил(а) %2$s и еще _%3$s в разговор_</item>
+        <item quantity="few">[[%1$s]] добавил(а) %2$s и еще _%3$s в разговор_</item>
+        <item quantity="many">[[%1$s]] добавил(а) %2$s и еще _%3$s в разговор_</item>
+        <item quantity="other">[[%1$s]] добавил(а) %2$s и еще _%3$s в разговор_</item>
     </plurals>
     <string name="content__system__someone_added_you">[[%1$s]] добавил вас в разговор</string>
     <plurals name="content__system__someone_added_people_and_you_with_others">
-        <item quantity="one">[[%1$s]] добавил(а) %2$s, вас и _%3$s в разговор_</item>
-        <item quantity="few">[[%1$s]] добавил(а) %2$s, вас и _%3$s в разговор_</item>
-        <item quantity="many">[[%1$s]] добавил(а) %2$s, вас и _%3$s в разговор_</item>
-        <item quantity="other">[[%1$s]] добавил(а) %2$s, вас и _%3$s в разговор_</item>
+        <item quantity="one">[[%1$s]] добавил(а) %2$s, вас и еще _%3$s в разговор_</item>
+        <item quantity="few">[[%1$s]] добавил(а) %2$s, вас и еще _%3$s в разговор_</item>
+        <item quantity="many">[[%1$s]] добавил(а) %2$s, вас и еще _%3$s в разговор_</item>
+        <item quantity="other">[[%1$s]] добавил(а) %2$s, вас и еще _%3$s в разговор_</item>
     </plurals>
     <string name="content__system__you_added_people">Вы добавили в разговор %1$s</string>
     <plurals name="content__system__you_added_people_with_others">
-        <item quantity="one">Вы добавили в разговор_ %1$s и _%2$s</item>
-        <item quantity="few">Вы добавили в разговор_ %1$s и _%2$s</item>
-        <item quantity="many">Вы добавили в разговор_ %1$s и _%2$s</item>
-        <item quantity="other">Вы добавили в разговор_ %1$s и _%2$s</item>
+        <item quantity="one">Вы добавили в разговор_ %1$s и еще _%2$s</item>
+        <item quantity="few">Вы добавили в разговор_ %1$s и еще _%2$s</item>
+        <item quantity="many">Вы добавили в разговор_ %1$s и еще _%2$s</item>
+        <item quantity="other">Вы добавили в разговор_ %1$s и еще _%2$s</item>
     </plurals>
     <!-- Remove people -->
     <string name="content__system__other_removed_other">[[%1$s]] удалил(а) %2$s</string>
@@ -146,21 +147,21 @@
     <string name="content__system__other_left">[[%1$s]] вышел(ла)</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Вы начали разговор</string>
-    <string name="content__system__other_started_conversation">%1$s начал разговор</string>
+    <string name="content__system__other_started_conversation">%1$s начал(а) разговор</string>
     <string name="content__system__with_you_only">с вами</string>
     <string name="content__system__with_list_only">с %1$s</string>
     <plurals name="content__system__with_others_only">
-        <item quantity="one">с %1$s и _%2$s</item>
-        <item quantity="few">с %1$s и _%2$s</item>
-        <item quantity="many">с %1$s и _%2$s</item>
-        <item quantity="other">с %1$s и _%2$s</item>
+        <item quantity="one">с %1$s и _еще %2$s_</item>
+        <item quantity="few">с %1$s и _еще %2$s_</item>
+        <item quantity="many">с %1$s и _еще %2$s_</item>
+        <item quantity="other">с %1$s и _еще %2$s_</item>
     </plurals>
     <string name="content__system__with_list_and_you">с %1$s и вами</string>
     <plurals name="content__system__with_others_and_you">
-        <item quantity="one">с %1$s, вами и _%2$s</item>
-        <item quantity="few">с %1$s, вами и _%2$s</item>
-        <item quantity="many">с %1$s, вами и _%2$s</item>
-        <item quantity="other">с %1$s, вами и _%2$s</item>
+        <item quantity="one">с %1$s, вами и _еще %2$s_</item>
+        <item quantity="few">с %1$s, вами и _еще %2$s_</item>
+        <item quantity="many">с %1$s, вами и _еще %2$s_</item>
+        <item quantity="other">с %1$s, вами и _еще %2$s_</item>
     </plurals>
     <!-- Conversation: missed call -->
     <string name="content__missed_call__you_called">[[ВЫ]] ЗВОНИЛИ</string>
@@ -174,8 +175,8 @@
     <string name="content__otr__identity_changed_error_you">ИДЕНТИФИКАТОР ВАШЕГО УСТРОЙСТВА ИЗМЕНИЛСЯ. СООБЩЕНИЕ НЕ ДОСТАВЛЕНО. _УЗНАТЬ БОЛЬШЕ_</string>
     <string name="content__otr__someone_added_new_device__message">%1$s начал(а) использовать _новое устройство_</string>
     <string name="content__otr__someone_and_you_added_new_device__message">%1$s и вы начали использовать _новое устройство_</string>
-    <string name="content__otr__someone_and_others_added_new_device__message">%1$s и %2$s начали использовать _новое устройство_</string>
-    <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s и вы начали использовать _новое устройство_</string>
+    <string name="content__otr__someone_and_others_added_new_device__message">%1$s и еще %2$s начали использовать _новое устройство_</string>
+    <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, еще %2$s и вы начали использовать _новое устройство_</string>
     <string name="content__otr__start_this_device__message">[[ВЫ]] НАЧАЛИ ИСПОЛЬЗОВАТЬ _ЭТО УСТРОЙСТВО_</string>
     <string name="content__otr__all_fingerprints_verified">ВСЕ ОТПЕЧАТКИ ВЕРИФИЦИРОВАНЫ</string>
     <string name="content__otr__lost_history">ВЫ НЕ ИСПОЛЬЗОВАЛИ ЭТО УСТРОЙСТВО ПРОДОЛЖИТЕЛЬНОЕ ВРЕМЯ. НЕКОТОРЫЕ СООБЩЕНИЯ МОГУТ НЕ ОТОБРАЖАТЬСЯ.</string>
@@ -303,9 +304,9 @@
     <string name="conversation__degraded_confirmation__positive_action">Отправить</string>
     <plurals name="conversation__degraded_confirmation__negative_action">
         <item quantity="one">Показать устройство</item>
-        <item quantity="few">Показать контакты</item>
-        <item quantity="many">Показать контакты</item>
-        <item quantity="other">Показать контакты</item>
+        <item quantity="few">Показать участников</item>
+        <item quantity="many">Показать участников</item>
+        <item quantity="other">Показать участников</item>
     </plurals>
     <string name="conversation__degraded_confirmation__negative_action_self">Показать ваши устройства</string>
     <string name="conversation_degraded_confirmation__header__you">Вы</string>
@@ -571,10 +572,10 @@
     <string name="content__system__last_item_separator">и</string>
     <string name="content__system__you">вы</string>
     <plurals name="content__system__other_members">
-        <item quantity="one">%1$s другой</item>
-        <item quantity="few">%1$s других</item>
-        <item quantity="many">%1$s других</item>
-        <item quantity="other">%1$s других</item>
+        <item quantity="one">еще %1$s</item>
+        <item quantity="few">еще %1$s</item>
+        <item quantity="many">еще %1$s</item>
+        <item quantity="other">еще %1$s</item>
     </plurals>
     <!-- System notifications -->
     <string name="system_notification__silence_call">Отклонить</string>
@@ -731,6 +732,7 @@
     <string name="otr__reset_session__message_fail">Не удается сбросить сессию</string>
     <string name="otr__reset_session__button_ok">OK</string>
     <string name="otr__reset_session__button_fail">Повторить</string>
+    <string name="user_profile_email_field_name">Email</string>
     <string name="advanced_image_download_wifi_info">Изображение появится, когда вы снова подключитесь к Wi-Fi</string>
     <string name="change_settings">Изменить настройки</string>
     <string name="conversation_list__action_join_call">ПРИСОЕДИНИТЬСЯ</string>
@@ -909,10 +911,10 @@
         <item quantity="other">%1$s ♥</item>
     </plurals>
     <plurals name="conversation_list__missed_calls_plural">
-        <item quantity="one">%1$s пропущенный звонок</item>
-        <item quantity="few">%1$s пропущенных звонка</item>
-        <item quantity="many">%1$s пропущенных звонков</item>
-        <item quantity="other">%1$s пропущенных звонков</item>
+        <item quantity="one">%1$s пропущенный вызов</item>
+        <item quantity="few">%1$s пропущенных вызова</item>
+        <item quantity="many">%1$s пропущенных вызовов</item>
+        <item quantity="other">%1$s пропущенных вызовов</item>
     </plurals>
     <string name="conversation_list__missed_calls_count">Пропущенный вызов</string>
     <string name="conversation_list__missed_calls_count_group">Пропущенный вызов от %1$s</string>
@@ -976,7 +978,7 @@
     <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
     <string name="teams_set_email_about">ПОДРОБНЕЕ</string>
     <string name="teams_set_password_title">Установить пароль</string>
-    <string name="teams_set_password_hint">НЕ МЕНЕЕ 8 СИМВОЛОВ</string>
+    <string name="teams_set_password_hint">Пароль</string>
     <string name="teams_set_username_title">Задать имя пользователя</string>
     <string name="teams_set_username_hint">ИМЯ ПОЛЬЗОВАТЕЛЯ</string>
     <string name="teams_set_team_name_title">Назовите команду</string>
@@ -1014,9 +1016,9 @@
     <string name="pick_user_teams_invite">Пригласите пользователей в команду</string>
     <string name="teams_invitations_skip">ПРОПУСТИТЬ</string>
     <string name="teams_invitations_done">ГОТОВО</string>
-    <string name="teams_invitations_error_too_many">Было отправлено максимальное количество приглашений</string>
-    <string name="teams_invitations_error_already_sent">Уже отправлено</string>
-    <string name="teams_invitations_error_generic">Что-то пошло не так. Пожалуйста, попробуйте еще раз</string>
+    <string name="teams_invitations_error_too_many">БЫЛО ОТПРАВЛЕНО МАКСИМАЛЬНОЕ КОЛИЧЕСТВО ПРИГЛАШЕНИЙ</string>
+    <string name="teams_invitations_error_already_sent">УЖЕ ОТПРАВЛЕНО</string>
+    <string name="teams_invitations_error_generic">ЧТО-ТО ПОШЛО НЕ ТАК. ПОЖАЛУЙСТА, ПОПРОБУЙТЕ ЕЩЕ РАЗ</string>
     <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
     <string name="teams_invitations_error_invalid_email">УКАЖИТЕ ДЕЙСТВИТЕЛЬНЫЙ EMAIL</string>
     <string name="teams_invitations_error_email_exists">ЭТОТ АДРЕС EMAIL УЖЕ ИСПОЛЬЗУЕТСЯ</string>
@@ -1153,6 +1155,7 @@
     <string name="deep_link_conversation_error_message">Возможно, у вас нет разрешения на использование этой учетной записи, либо этот человек отсутствует в Wire.</string>
     <string name="deep_link_user_error_title">Wire не может найти этого человека.</string>
     <string name="deep_link_user_error_message">Возможно, у вас нет разрешения на использование этой учетной записи или она больше не существует.</string>
+    <string name="password_policy_hint">Используйте как минимум %1$s символов, включая одну строчную букву, одну заглавную букву, цифру и специальный символ.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Исходное сообщение от %s</string>
     <string name="quote_timestamp_message_date">Исходное сообщение от %s</string>

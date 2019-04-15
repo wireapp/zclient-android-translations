@@ -26,13 +26,14 @@
     <string name="internet_connectivity_error_header">Nincs internet kapcsolat</string>
     <string name="internet_connectivity_error_message">Ellenőrizd az internetkapcsolatod és próbáld újra</string>
     <string name="too_many_attempts_header">Túl sok sikertelen próbálkozás</string>
-    <string name="login_later_message">Kérjük, próbáld meg később</string>
+    <string name="email_login_later_message">PLEASE TRY TO LOG IN LATER</string>
+    <string name="phone_login_later_message">Kérjük, próbáld meg később</string>
     <string name="email_exists_header">Ez az e-mail cím már foglalt</string>
-    <string name="email_exists_message">Ez az email cím már használatban van</string>
+    <string name="email_exists_message">THIS EMAIL ADDRESS HAS ALREADY BEEN REGISTERED</string>
     <string name="email_invalid_header">Érvénytelen e-mail cím</string>
-    <string name="email_invalid_message">Kérjük, add meg a valós e-mail címedet</string>
+    <string name="email_invalid_message">ADJON MEG EGY ÉRVÉNYES E-MAIL CÍMET</string>
     <string name="invalid_credentials_header">Érvénytelen információ</string>
-    <string name="invalid_credentials_message">Kérjük, ellenőrizd az adataid, majd próbáld meg újra</string>
+    <string name="invalid_credentials_message">PLEASE VERIFY YOUR DETAILS AND TRY AGAIN</string>
     <string name="phone_exists_header">Ez a telefonszám már regisztrálva van</string>
     <string name="phone_exists_message">A megadott telefonszám már regisztrált. Kérjük, próbáld meg újra</string>
     <string name="phone_invalid_format_header">Érvénytelen telefonszám</string>
@@ -41,7 +42,7 @@
     <string name="phone_password_exists_message">Ehhez a fiókhoz már tartozik e-mail cím és jelszó. Kérjük, jelentkezz be az e-mail címeddel.</string>
     <string name="invalid_code_header">Érvénytelen kód</string>
     <string name="incorrect_code_header">Helytelen kód</string>
-    <string name="wrong_code_message">Kérjük, adj meg egy érvényes kódot</string>
+    <string name="wrong_code_message">PLEASE ENTER A VALID CODE</string>
     <string name="phone_pending_login_header">A kódot már elküldtük</string>
     <string name="phone_pending_login_message">Már elküldtük neked a kódot SMS-ben. Ha új kódot szeretnél kérni, koppints az Újraküldés gombra 10 perc elteltével.</string>
     <string name="phone_budget_exhausted_header">Túl sok kérelem</string>
@@ -704,6 +705,7 @@
     <string name="otr__reset_session__message_fail">A munkamenetet nem sikerült alaphelyzetbe állítani</string>
     <string name="otr__reset_session__button_ok">OK</string>
     <string name="otr__reset_session__button_fail">Újra próbál</string>
+    <string name="user_profile_email_field_name">E-mail</string>
     <string name="advanced_image_download_wifi_info">A kép majd akkor jelenik meg, ha Wi-Fi kapcsolaton leszel</string>
     <string name="change_settings">Beállítások módosítása</string>
     <string name="conversation_list__action_join_call">CSATLAKOZÁS</string>
@@ -923,7 +925,7 @@
     <string name="teams_set_email_hint">TE@CÉGED.HU</string>
     <string name="teams_set_email_about">TOVÁBBI INFÓ</string>
     <string name="teams_set_password_title">Jelszó megadása</string>
-    <string name="teams_set_password_hint">LEGALÁBB 8 KARAKTER</string>
+    <string name="teams_set_password_hint">Jelszó</string>
     <string name="teams_set_username_title">Felhasználónév megadása</string>
     <string name="teams_set_username_hint">FELHASZNÁLÓNÉV</string>
     <string name="teams_set_team_name_title">Nevezd el a csapatod</string>
@@ -961,9 +963,9 @@
     <string name="pick_user_teams_invite">Hívj meg másokat a csapatba</string>
     <string name="teams_invitations_skip">KIHAGY</string>
     <string name="teams_invitations_done">Kész</string>
-    <string name="teams_invitations_error_too_many">Elérte a maximálisan kiküldhető meghívók számát</string>
-    <string name="teams_invitations_error_already_sent">A kódot már elküldtük</string>
-    <string name="teams_invitations_error_generic">Hoppá... valami hiba történt, kérjük, próbáld meg újra!</string>
+    <string name="teams_invitations_error_too_many">THE MAXIMUM NUMBER OF INVITATIONS HAS BEEN SENT</string>
+    <string name="teams_invitations_error_already_sent">ALREADY SENT</string>
+    <string name="teams_invitations_error_generic">SOMETHING WENT WRONG, PLEASE TRY AGAIN</string>
     <string name="teams_invite_email_hint">KOLLÉGÁD@CÉGED.HU</string>
     <string name="teams_invitations_error_invalid_email">ADJON MEG EGY ÉRVÉNYES E-MAIL CÍMET</string>
     <string name="teams_invitations_error_email_exists">EZ AZ E-MAIL CÍM MÁR HASZNÁLATBAN VAN</string>
@@ -1099,6 +1101,7 @@
     <string name="deep_link_conversation_error_message">You may not have permission with this account or the person may not be on Wire.</string>
     <string name="deep_link_user_error_title">Wire can\'t find this person.</string>
     <string name="deep_link_user_error_message">You may not have permission with this account or it no longer exists.</string>
+    <string name="password_policy_hint">Use at least %1$s characters, with one lowercase letter, one capital letter, a number, and a special character.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Original message from %s</string>
     <string name="quote_timestamp_message_date">Original message from %s</string>

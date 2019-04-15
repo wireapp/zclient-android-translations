@@ -26,13 +26,14 @@
     <string name="internet_connectivity_error_header">اینترنت قطع است</string>
     <string name="internet_connectivity_error_message">لطفا از اتصال اینترنت خود اطمینان حاصل و دوباره امتحان کنید</string>
     <string name="too_many_attempts_header">تعداد درخواست‌ها زیاد و حد گذشته است</string>
-    <string name="login_later_message">لطفا بعدا وارد شوید</string>
+    <string name="email_login_later_message">PLEASE TRY TO LOG IN LATER</string>
+    <string name="phone_login_later_message">لطفا بعدا وارد شوید</string>
     <string name="email_exists_header">این ایمیل آدرس قبلا در سیستم ثبت شده است</string>
-    <string name="email_exists_message">این آدرس ایمیل قبلا ثبت شده است</string>
+    <string name="email_exists_message">THIS EMAIL ADDRESS HAS ALREADY BEEN REGISTERED</string>
     <string name="email_invalid_header">ایمیل آدرس معتبر نیست</string>
-    <string name="email_invalid_message">لطفا یک آدرس ایمیل معتبر وارد کنید</string>
+    <string name="email_invalid_message">PLEASE ENTER A VALID EMAIL ADDRESS</string>
     <string name="invalid_credentials_header">اطلاعات وارد شده قابل پردازش نیست</string>
-    <string name="invalid_credentials_message">لطفا اطلاعات خود را تایید کنید و دوباره امتحان کنید</string>
+    <string name="invalid_credentials_message">PLEASE VERIFY YOUR DETAILS AND TRY AGAIN</string>
     <string name="phone_exists_header">این شماره تلفن قبلا در سیستم ثبت شده است</string>
     <string name="phone_exists_message">این شماره تلفن قبلا در سیستم ثبت شده است. لطفا شماره تلفن دیگری را امتحان کنید</string>
     <string name="phone_invalid_format_header">شماره تلفن معتبر نیست</string>
@@ -41,7 +42,7 @@
     <string name="phone_password_exists_message">This account already has a password and email associated. Please log in by email.</string>
     <string name="invalid_code_header">کد وارد شده معتبر نیست</string>
     <string name="incorrect_code_header">کد وارد شده درست نیست</string>
-    <string name="wrong_code_message">لطفا کد معتبری که برای شما ارسال شده است را وارد کنید</string>
+    <string name="wrong_code_message">PLEASE ENTER A VALID CODE</string>
     <string name="phone_pending_login_header">کد برای شما ارسال شده است</string>
     <string name="phone_pending_login_message">با برای شما یک کد پیامک کردیم. اگر بعد از ۱۰ دقیقه چیزی دریافت نکردین، روی ارسال مجدد بزنید تا کد جدیدی ارسال شود.</string>
     <string name="phone_budget_exhausted_header">درخواست‌ها بیش از حد</string>
@@ -703,6 +704,7 @@
     <string name="otr__reset_session__message_fail">امکان راه اندازی مجدد session وجود ندارد</string>
     <string name="otr__reset_session__button_ok">تایید</string>
     <string name="otr__reset_session__button_fail">دوباره امتحان کنید</string>
+    <string name="user_profile_email_field_name">ایمیل</string>
     <string name="advanced_image_download_wifi_info">زمانیکه دوباره به Wi-Fi متصل شوید، تصویر نشان داده میشود</string>
     <string name="change_settings">تغییر تنظیمات</string>
     <string name="conversation_list__action_join_call">عضویت</string>
@@ -922,7 +924,7 @@
     <string name="teams_set_email_hint">YOU@YOURCOMPANY.COM</string>
     <string name="teams_set_email_about">بیشتر بدانید</string>
     <string name="teams_set_password_title">رمز عبور را تنظیم کنید</string>
-    <string name="teams_set_password_hint">حداقل دارای ۸ حرف باشه</string>
+    <string name="teams_set_password_hint">پسورد</string>
     <string name="teams_set_username_title">نام کاربری را تنظیم کنید</string>
     <string name="teams_set_username_hint">نام کاربری</string>
     <string name="teams_set_team_name_title">نام تیم شما</string>
@@ -960,9 +962,9 @@
     <string name="pick_user_teams_invite">دعوت افراد تا وارد این تیم شوند</string>
     <string name="teams_invitations_skip">SKIP</string>
     <string name="teams_invitations_done">DONE</string>
-    <string name="teams_invitations_error_too_many">The maximum number of invitations has been sent</string>
-    <string name="teams_invitations_error_already_sent">Already sent</string>
-    <string name="teams_invitations_error_generic">یک خطای ناگهانی رخ داد، لطفا دوباره امتحان کنی</string>
+    <string name="teams_invitations_error_too_many">THE MAXIMUM NUMBER OF INVITATIONS HAS BEEN SENT</string>
+    <string name="teams_invitations_error_already_sent">ALREADY SENT</string>
+    <string name="teams_invitations_error_generic">SOMETHING WENT WRONG, PLEASE TRY AGAIN</string>
     <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
     <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
     <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
@@ -1098,6 +1100,7 @@
     <string name="deep_link_conversation_error_message">You may not have permission with this account or the person may not be on Wire.</string>
     <string name="deep_link_user_error_title">Wire can\'t find this person.</string>
     <string name="deep_link_user_error_message">You may not have permission with this account or it no longer exists.</string>
+    <string name="password_policy_hint">Use at least %1$s characters, with one lowercase letter, one capital letter, a number, and a special character.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Original message from %s</string>
     <string name="quote_timestamp_message_date">Original message from %s</string>
