@@ -26,14 +26,14 @@
     <string name="internet_connectivity_error_header">Nėra interneto ryšio</string>
     <string name="internet_connectivity_error_message">Patikrinkite savo interneto ryšį ir bandykite dar kartą</string>
     <string name="too_many_attempts_header">Per daug bandymų</string>
-    <string name="email_login_later_message">PLEASE TRY TO LOG IN LATER</string>
+    <string name="email_login_later_message">PABANDYKITE PRISIJUNGTI VĖLIAU</string>
     <string name="phone_login_later_message">Bandykite prisijungti vėliau</string>
     <string name="email_exists_header">El. pašto adresas jau užimtas</string>
-    <string name="email_exists_message">THIS EMAIL ADDRESS HAS ALREADY BEEN REGISTERED</string>
+    <string name="email_exists_message">ŠIS EL. PAŠTO ADRESAS JAU YRA UŽREGISTRUOTAS</string>
     <string name="email_invalid_header">Neteisingas el. pašto adresas</string>
     <string name="email_invalid_message">ĮRAŠYKITE TINKAMĄ EL. PAŠTO ADRESĄ</string>
     <string name="invalid_credentials_header">Neteisinga informacija</string>
-    <string name="invalid_credentials_message">PLEASE VERIFY YOUR DETAILS AND TRY AGAIN</string>
+    <string name="invalid_credentials_message">PATIKRINKITE SAVO INFORMACIJĄ IR BANDYKITE DAR KARTĄ</string>
     <string name="phone_exists_header">Telefono numeris jau naudojamas</string>
     <string name="phone_exists_message">Nurodytas telefono numeris jau yra užregistruotas. Bandykite dar kartą</string>
     <string name="phone_invalid_format_header">Neteisingas telefono numeris</string>
@@ -42,7 +42,7 @@
     <string name="phone_password_exists_message">Paskyra jau turi slaptažodį ir priskirtą el. pašto adresą. Prisijunkite el. paštu.</string>
     <string name="invalid_code_header">Netaisyklingas kodas</string>
     <string name="incorrect_code_header">Neteisingas kodas</string>
-    <string name="wrong_code_message">PLEASE ENTER A VALID CODE</string>
+    <string name="wrong_code_message">ĮVESKITE TEISINGĄ KODĄ</string>
     <string name="phone_pending_login_header">Kodas jau išsiųstas</string>
     <string name="phone_pending_login_message">Kodą jau išsiuntėme jums SMS žinute. Spustelėkite „Siųsti dar kartą“ po 10 minučių ir gausite naują kodą.</string>
     <string name="phone_budget_exhausted_header">Per daug bandymų</string>
@@ -438,7 +438,7 @@
     <string name="pref_advanced_screen_title">Papildomi</string>
     <string name="pref_advanced_enable_logs_title">Collect usage data</string>
     <string name="pref_advanced_enable_logs_subtitle">This stores troubleshooting information locally. Disabling this option will delete all local logs.</string>
-    <string name="pref_advanced_debug_report_title">Create debug report</string>
+    <string name="pref_advanced_debug_report_title">Sukurti derinimo ataskaitą</string>
     <string name="pref_advanced_debug_report_summary">You can submit this to Wire Support to help diagnose problems.</string>
     <string name="pref_advanced_reset_push_title">Sukurti naujienų pranešimų tarnybos atpažinimo ženklą iš naujo</string>
     <string name="pref_advanced_reset_push_summary">Jei susiduriate su naujienų pranešimo tarnybos nesklandumais, „Wire“ pagalbos centras gali paprašyti nustatyti atpažinimo ženklą iš naujo.</string>
@@ -992,7 +992,7 @@
     <string name="teams_set_name_title">Jūsų vardas</string>
     <string name="teams_set_name_hint">VARDAS PAVARDĖ</string>
     <string name="app_entry_create_account">Asmeninis</string>
-    <string name="app_entry_create_account_sub">Chat privately with groups of friends and family</string>
+    <string name="app_entry_create_account_sub">Saugiai bendraukite su draugų grupėmis ar šeima</string>
     <string name="app_entry_create_team">Pro</string>
     <string name="app_entry_create_team_sub">Secure collaboration for businesses, institutions and professional organizations</string>
     <string name="app_entry_login_sub">Jau turite paskyrą?</string>
@@ -1016,9 +1016,9 @@
     <string name="pick_user_teams_invite">Kvieskite žmonių prisijungti prie komandos</string>
     <string name="teams_invitations_skip">PRALEISTI</string>
     <string name="teams_invitations_done">BAIGTA</string>
-    <string name="teams_invitations_error_too_many">THE MAXIMUM NUMBER OF INVITATIONS HAS BEEN SENT</string>
-    <string name="teams_invitations_error_already_sent">ALREADY SENT</string>
-    <string name="teams_invitations_error_generic">SOMETHING WENT WRONG, PLEASE TRY AGAIN</string>
+    <string name="teams_invitations_error_too_many">IŠSIŲSTAS DIDŽIAUSIAS PAKVIETIMŲ KIEKIS</string>
+    <string name="teams_invitations_error_already_sent">JAU IŠSIŲSTAS</string>
+    <string name="teams_invitations_error_generic">KAŽKAS NUTIKO, BANDYKITE DAR KARTĄ</string>
     <string name="teams_invite_email_hint">KOLEGA@TAVOORGANIZACIJA.LT</string>
     <string name="teams_invitations_error_invalid_email">ĮRAŠYKITE TINKAMĄ EL. PAŠTO ADRESĄ</string>
     <string name="teams_invitations_error_email_exists">EL. PAŠTO ADRESAS JAU NAUDOJAMAS</string>
@@ -1150,11 +1150,26 @@
     <string name="reply_message_type_location">VIETA</string>
     <string name="reply_message_type_asset">PRIEDAS</string>
     <string name="reply_message_type_unknown">Jūs negalite matyti šitos žinutės.</string>
-    <string name="deep_link_conversation_error_title">Wire can\'t open this conversation.</string>
+    <string name="deep_link_generic_error_title">Neteisinga nuoroda.</string>
+    <string name="deep_link_generic_error_message">Jūsų atverta nuoroda yra neteisinga.</string>
+    <string name="deep_link_conversation_error_title">Wire negali atverti šio pokalbio.</string>
     <string name="deep_link_conversation_error_message">You may not have permission with this account or the person may not be on Wire.</string>
-    <string name="deep_link_user_error_title">Wire can\'t find this person.</string>
+    <string name="deep_link_user_error_title">Wire nepavyksta rasti šio žmogaus.</string>
     <string name="deep_link_user_error_message">You may not have permission with this account or it no longer exists.</string>
     <string name="password_policy_hint">Use at least %1$s characters, with one lowercase letter, one capital letter, a number, and a special character.</string>
+    <!-- Custom Backend -->
+    <string name="custom_backend_info_title">Prisijungta prie \"%1$s\"</string>
+    <string name="custom_backend_info_show_more">RODYTI DAUGIAU</string>
+    <string name="custom_backend_dialog_ok">GERAI</string>
+    <string name="custom_backend_dialog_cancel">Atsisakyti</string>
+    <string name="custom_backend_dialog_connect">Užmegzti kontaktą</string>
+    <string name="custom_backend_dialog_confirmation_title">Prisijungti prie serverio</string>
+    <string name="custom_backend_dialog_confirmation_message">Ši konfigūracija prijungs programėlę prie trečiosios šalies serverio: %1$s</string>
+    <string name="custom_backend_dialog_info_title">Jūs esate prisijungę prie trečiosios šalies serverio: \"%1$s\"</string>
+    <string name="custom_backend_dialog_network_error_title">Serveris neatsako</string>
+    <string name="custom_backend_dialog_network_error_message">Patikrinkite savo interneto ryšį bei nuorodą ir bandykite dar kartą.</string>
+    <string name="custom_backend_dialog_logged_in_error_title">Nepavyksta perjungti serverius</string>
+    <string name="custom_backend_dialog_logged_in_error_message">Jūs jau esate prisijungę.\nNorėdami prisijungti prie šio serverio, atsijunkite iš visų paskyrų ir bandykite dar kartą.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Pirminė žinutė, kurią parašė %s</string>
     <string name="quote_timestamp_message_date">Pirminė žinutė, kurią parašė %s</string>

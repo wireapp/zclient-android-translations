@@ -447,7 +447,7 @@
     <string name="debug_report__body">Пожалуйста, опишите шаги для воспроизведения проблемы, если возможно, приложите скриншоты.\n\n</string>
     <string name="pref_advanced_ws_foreground_title">Поддерживать подключение к серверу</string>
     <string name="pref_advanced_ws_foreground_summary">Мы определили, что у вас не установлены сервисы Google Play. Для получения уведомлений в фоновом режиме Wire будет поддерживать соединение с сервером.
-        Отключение этой опции может несколько уменьшить влияние Wire на батарею устройства, однако вы не сможете получать уведомления при работе Wire в фоновом режиме. Опция применяется ко всем зарегистрированным аккаунтам на этом устройстве.</string>
+        Отключение этой опции может несколько уменьшить влияние Wire на батарею устройства, однако вы не сможете получать уведомления при работе Wire в фоновом режиме. Это относится ко всем учетным записям на данном устройстве.</string>
     <!-- Support -->
     <string name="pref_support_screen_title">Служба поддержки</string>
     <string name="pref_support_website_title">Cайт поддержки Wire</string>
@@ -837,7 +837,7 @@
     <string name="message_footer__status__edited">Изменено: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">УСТАНОВИТЕ ВРЕМЯ ДЕЙСТВИЯ СООБЩЕНИЯ</string>
     <string name="usernames__take_over__summary">Зарегистрируйте свое уникальное имя в Wire. _Подробнее._</string>
-    <string name="usernames__take_over__choose">ВЫБЕРИТЕ ФОТОГРАФИЮ</string>
+    <string name="usernames__take_over__choose">ВЫБРАТЬ СВОЕ</string>
     <string name="usernames__take_over__keep">ОСТАВИТЬ ЭТО</string>
     <string name="ephemeral_message__timeout__off">Отключено</string>
     <string name="ephemeral_message__options_header">ВРЕМЕННЫЕ СООБЩЕНИЯ</string>
@@ -1151,11 +1151,26 @@
     <string name="reply_message_type_location">МЕСТОПОЛОЖЕНИЕ</string>
     <string name="reply_message_type_asset">ВЛОЖЕНИЕ</string>
     <string name="reply_message_type_unknown">Вы не можете увидеть это сообщение.</string>
+    <string name="deep_link_generic_error_title">Недействительная ссылка.</string>
+    <string name="deep_link_generic_error_message">Открытая вами ссылка недействительна.</string>
     <string name="deep_link_conversation_error_title">Wire не может открыть этот разговор.</string>
     <string name="deep_link_conversation_error_message">Возможно, у вас нет разрешения на использование этой учетной записи, либо этот человек отсутствует в Wire.</string>
     <string name="deep_link_user_error_title">Wire не может найти этого человека.</string>
     <string name="deep_link_user_error_message">Возможно, у вас нет разрешения на использование этой учетной записи или она больше не существует.</string>
     <string name="password_policy_hint">Используйте как минимум %1$s символов, включая одну строчную букву, одну заглавную букву, цифру и специальный символ.</string>
+    <!-- Custom Backend -->
+    <string name="custom_backend_info_title">Подключен к \"%1$s\"</string>
+    <string name="custom_backend_info_show_more">ПОКАЗАТЬ ЕЩЕ</string>
+    <string name="custom_backend_dialog_ok">OK</string>
+    <string name="custom_backend_dialog_cancel">Отмена</string>
+    <string name="custom_backend_dialog_connect">Подключиться</string>
+    <string name="custom_backend_dialog_confirmation_title">Подключиться к серверу</string>
+    <string name="custom_backend_dialog_confirmation_message">Эта конфигурация подключит приложение к стороннему серверу: %1$s</string>
+    <string name="custom_backend_dialog_info_title">Вы подключены к стороннему серверу: \"%1$s\"</string>
+    <string name="custom_backend_dialog_network_error_title">Сервер не отвечает</string>
+    <string name="custom_backend_dialog_network_error_message">Пожалуйста, убедитесь в наличии доступа к сети интернет, проверьте ссылку и попробуйте снова.</string>
+    <string name="custom_backend_dialog_logged_in_error_title">Невозможно переключить серверы</string>
+    <string name="custom_backend_dialog_logged_in_error_message">Вы уже авторизованы.\nЧтобы подключиться к этому серверу, выйдите из всех учетных записей и повторите попытку.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Исходное сообщение от %s</string>
     <string name="quote_timestamp_message_date">Исходное сообщение от %s</string>
