@@ -24,7 +24,7 @@
     <string name="generic_error_header">Щось пішло не так</string>
     <string name="generic_error_message">Будь ласка, спробуйте ще раз</string>
     <string name="internet_connectivity_error_header">Відсутнє з\'єднання з Інтернетом</string>
-    <string name="internet_connectivity_error_message">Перевірте підключення до Інтернету та спробуйте ще раз</string>
+    <string name="internet_connectivity_error_message">Перевірте з\'єднання з інтернетом та спробуйте ще раз</string>
     <string name="too_many_attempts_header">Зроблено забагато спроб</string>
     <string name="email_login_later_message">БУДЬ ЛАСКА, СПРОБУЙТЕ УВІЙТИ ПІЗНІШЕ</string>
     <string name="phone_login_later_message">Будь ласка, спробуйте увійти пізніше</string>
@@ -248,13 +248,13 @@
     <string name="incoming__controls__ongoing__flip">ПЕРЕКЛ. КАМЕРУ</string>
     <string name="ongoing__poor_connection_message">ВІДЕО ЗУПИНЕНО ЧЕРЕЗ ПОГАНИЙ ЗВ\'ЯЗОК</string>
     <string name="calling__self_preview_unavailable_long">КАМЕРА НЕДОСТУПНА</string>
-    <string name="calling__header__joining">Підключення&#8230;</string>
+    <string name="calling__header__joining">З\'єднання&#8230;</string>
     <string name="calling__header__outgoing_subtitle">Дзвінок&#8230;</string>
     <string name="calling__header__outgoing_video_subtitle">Дзвінок&#8230;</string>
     <string name="calling__header__incoming_subtitle">Дзвінок&#8230;</string>
     <string name="calling__header__incoming_subtitle__video">Дзвінок&#8230;</string>
     <string name="calling__header__incoming_subtitle__group">%1$s дзвонить&#8230;</string>
-    <string name="call_banner_joining">Підключення&#8230;</string>
+    <string name="call_banner_joining">З\'єднання&#8230;</string>
     <string name="call_banner_outgoing">Дзвінок до %1$s&#8230;</string>
     <string name="call_banner_incoming">%1$s дзвонить&#8230;</string>
     <string name="call_banner_incoming_group">%1$s \u30FB %2$s дзвонить&#8230;</string>
@@ -272,7 +272,7 @@
     <string name="group_calling_message" tools:ignore="PluralsCandidate">Ви подзвоните %1$s учасникам</string>
     <string name="group_calling_confirm">Аудіодзвінок</string>
     <!-- Connect request -->
-    <string name="connect__message">Ппивіт %1$s,\nДавай спікуватися в Wire.\n%2$s</string>
+    <string name="connect__message">Привіт %1$s,\nДавай спікуватися в Wire.\n%2$s</string>
     <string name="connect_request__sub_header__pending_label">Очікує підтвердження</string>
     <string name="connect_request__cancel_request__label">СКАСУВАТИ ЗАПИТ НА ДОДАВАННЯ</string>
     <string name="connect_request__unblock__button__text">Розблокувати</string>
@@ -445,9 +445,9 @@
     <string name="pref_advanced_reset_push_completed">Push-токен був оновлений</string>
     <string name="debug_report__title">Налагоджувальний звіт Wire - %1$s</string>
     <string name="debug_report__body">Будь ласка, опишіть кроки, необхідні для відтворення проблеми, та додайти знімки екрану, якщо це можливо, і відправте цей email.\n\n</string>
-    <string name="pref_advanced_ws_foreground_title">Зберігати підключення до сервера</string>
+    <string name="pref_advanced_ws_foreground_title">Зберігати з\'єднання з сервером</string>
     <string name="pref_advanced_ws_foreground_summary">Ми визначили, що у вас не встановлені сервіси Google Play. Wire для Android спробує зберегти з\'єднання з сервером Wire активним, щоб отримувати нотифікації, якщо додаток знаходиться в фоновому режимі.
-       Вимкнення цього налаштування допоможе покращити енергоефективність Wire, проте ви більше не зможете отримувати нотифікації, якщо Wire буде знаходитись в фоновому режимі. Це стосується всіх акаунтів на даному пристрої.</string>
+       Вимкнення цього налаштування допоможе покращити енергоефективність Wire, проте ви більше не зможете отримувати сповіщення, якщо Wire буде знаходитись в фоновому режимі. Це стосується всіх акаунтів на даному пристрої.</string>
     <!-- Support -->
     <string name="pref_support_screen_title">Підтримка</string>
     <string name="pref_support_website_title">Сайт підтримки Wire</string>
@@ -492,7 +492,7 @@
     <string name="pref__account_action__dialog__change_username__rules">Мінімум 2 символи з множини a—z, 0—9, та _</string>
     <string name="pref__account_action__dialog__change_username__title">Нік</string>
     <string name="pref__account_action__dialog__change_username__error_already_taken">Уже зарезервований</string>
-    <string name="pref__account_action__dialog__change_username__error_unknown">Помилка підключення. Будь ласка, спробуйте ще раз</string>
+    <string name="pref__account_action__dialog__change_username__error_unknown">Помилка з\'єднання. Будь ласка, спробуйте ще раз</string>
     <string name="pref__account_privacy">Конфіденційність</string>
     <string name="pref__account_send_read_receipts_title">Надсилати звіти про перегляд</string>
     <string name="pref__account_send_read_receipts_summary">Ви не зможете отримувати звіти про перегляд від інших учасників розмови, якщо дана опція вимкнена. Це налаштування не застосовується до групових розмов.</string>
@@ -505,9 +505,9 @@
     <string name="sign_up__set_picture__keep">Залишити це</string>
     <string name="sign_up__set_picture__guidance">Wire виглядає краще з вашою фотографією.</string>
     <string name="sign_up__set_picture__loading">Завантаження фото</string>
-    <string name="leave_conversation_failed__message">Ви повинні бути онлайн, щоб вийти з розмови. Перевірте підключення та спробуйте ще раз.</string>
-    <string name="remove_from_conversation__no_network__message">Ви повинні бути онлайн, щоб видаляти учасників з розмови. Перевірте підключення та спробуйте ще раз.</string>
-    <string name="calling__call_drop__message">Ви повинні бути онлайн, щоб подзвонити. Перевірте підключення та спробуйте ще раз.</string>
+    <string name="leave_conversation_failed__message">Ви повинні бути онлайн, щоб вийти з розмови. Перевірте з\'єднання та спробуйте ще раз.</string>
+    <string name="remove_from_conversation__no_network__message">Ви повинні бути онлайн, щоб видаляти учасників з розмови. Перевірте з\'єднання та спробуйте ще раз.</string>
+    <string name="calling__call_drop__message">Ви повинні бути онлайн, щоб подзвонити. Перевірте з\'єднання та спробуйте ще раз.</string>
     <!-- Lockscreen and notifications -->
     <string name="message_notifications_channel_name">Повідомлення</string>
     <string name="message_notifications_channel_description">Нотифікації для всіх типів повідомлень, включаючи текст, картинки, аудіо- та відеоповідомлення.</string>
@@ -516,8 +516,8 @@
     <string name="ping_notifications_channel_description">Нотифікації при отриманні пінгів</string>
     <string name="ongoing_channel_name">Фонові нотифікації</string>
     <string name="ongoing_channel_description">Нотифікації для активних процесів та інших подій, таких як дзвінки або збереження картинок</string>
-    <string name="foreground_service_notification_name">Зберігати підключення до сервера</string>
-    <string name="foreground_service_notification_description">Дана нотифікація необхідна для того, щоб зберігати підключення до серверу Wire активним під час того як Wire знаходиться в фоновому режимі без наявності сервісів Google Play.</string>
+    <string name="foreground_service_notification_name">Зберігати з\'єднання з сервером</string>
+    <string name="foreground_service_notification_description">Дане сповіщення необхідне для того, щоб зберігати з\'єднання з сервером Wire активним під час того як Wire знаходиться в фоновому режимі без наявності сервісів Google Play.</string>
     <plurals name="notification__new_messages__multiple">
         <item quantity="one">Повідомлення в %2$s розмові</item>
         <item quantity="few">%1$d повідомлення в %2$s розмовах</item>
@@ -584,8 +584,8 @@
     <string name="system_notification__calling_group">%1$s дзвонить&#8230;</string>
     <string name="system_notification__video_calling_one">Дзвонить з відео&#8230;</string>
     <string name="system_notification__video_calling_group">%1$s дзвонить з відео&#8230;</string>
-    <string name="ws_foreground_notification_connected_title">Підкючення до серверу Wire завершене</string>
-    <string name="ws_foreground_notification_no_internet_title">Очікування підключення до Інтернету&#8230;</string>
+    <string name="ws_foreground_notification_connected_title">З\'єднання з сервером Wire завершене</string>
+    <string name="ws_foreground_notification_no_internet_title">Очікування з\'єднання з інтернетом&#8230;</string>
     <string name="ws_foreground_notification_connecting_title">Встановлюю з\'єднання&#8230;</string>
     <string name="ws_foreground_notification_summary">Торкніться тут для отримання детальної інформації.</string>
     <!-- Notification actions -->
@@ -1157,18 +1157,18 @@
     <string name="deep_link_user_error_message">У вас відсутні необхідні права доступу для цього акаунту або його було видалено.</string>
     <string name="password_policy_hint">Введіть як мінімум %1$s символів, що містять хоча б одну малу літеру, одну велику літеру та один спецсимвол.</string>
     <!-- Custom Backend -->
-    <string name="custom_backend_info_title">Connected to \"%1$s\"</string>
-    <string name="custom_backend_info_show_more">SHOW MORE</string>
+    <string name="custom_backend_info_title">З\'єднання з \"%1$s\"</string>
+    <string name="custom_backend_info_show_more">ПОКАЗАТИ БІЛЬШЕ</string>
     <string name="custom_backend_dialog_ok">OK</string>
     <string name="custom_backend_dialog_cancel">Скасувати</string>
-    <string name="custom_backend_dialog_connect">Додати в контакти</string>
-    <string name="custom_backend_dialog_confirmation_title">Під\'єднатися до сервера</string>
-    <string name="custom_backend_dialog_confirmation_message">This configuration will connect the app to a third-party server: %1$s</string>
-    <string name="custom_backend_dialog_info_title">You are connected to a third-party server: \"%1$s\"</string>
+    <string name="custom_backend_dialog_connect">Додати до контактів</string>
+    <string name="custom_backend_dialog_confirmation_title">З\'єднатися із сервером</string>
+    <string name="custom_backend_dialog_confirmation_message">З цією конфігурацією ви під\'єднаєте додаток до серверу третьої сторони: %1$s</string>
+    <string name="custom_backend_dialog_info_title">Ви з\'єднані з сервером третьої сторони: \"%1$s\"</string>
     <string name="custom_backend_dialog_network_error_title">Сервер не відповідає</string>
-    <string name="custom_backend_dialog_network_error_message">Будь ласка, перевірте ваше підключення до інтернету та спробуйте ще раз.</string>
-    <string name="custom_backend_dialog_logged_in_error_title">Can\'t switch servers</string>
-    <string name="custom_backend_dialog_logged_in_error_message">You are already logged in.\nTo connect to this server, log out of all accounts and try again.</string>
+    <string name="custom_backend_dialog_network_error_message">Будь ласка, перевірте ваше інтернет-з\'єднання та спробуйте ще раз.</string>
+    <string name="custom_backend_dialog_logged_in_error_title">Не вдалося переключити сервер</string>
+    <string name="custom_backend_dialog_logged_in_error_message">Ви вже увійшли.\nВийдіть з усіх акаунтів та повторіть спробу, щоб переключитися на інший сервер.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Оригінальне повідомлення від %s</string>
     <string name="quote_timestamp_message_date">Оригінальне повідомлення від %s</string>
