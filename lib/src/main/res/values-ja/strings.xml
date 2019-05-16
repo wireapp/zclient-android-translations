@@ -886,6 +886,21 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="availability_text_away">%1$s は離席中です。</string>
     <string name="availability_text_busy">%1$s は取り込み中です。</string>
     <string name="availability_setstatus">待ち受け状態を設定します。</string>
+    <string name="availability_notification_warning_away_title">不在に設定しました</string>
+    <string name="availability_notification_warning_away">他の人によってあなたが不在に設定されました。通話着信やメッセージに関する通知は受信されません。</string>
+    <string name="availability_notification_warning_busy_title">取り込み中に設定しました</string>
+    <string name="availability_notification_warning_busy">他の人によってあなたが取り込み中に設定されました。
+ミュートされていない会話のメンション、返信、および通話着信についてのみ通知を受信します。</string>
+    <string name="availability_notification_warning_available_title">利用可能に設定しました</string>
+    <string name="availability_notification_warning_available">他の人によってあなたが利用可能に設定されました。各会話の通知設定に従って、通話着信およびメッセージの通知を受信します。</string>
+    <string name="availability_notification_warning_nostatus_title">ステータスが設定されていません</string>
+    <string name="availability_notification_warning_nostatus">各会話の通知設定に従って、音声通話着信およびメッセージ通知を受信します。</string>
+    <string name="availability_notification_dont_show">この情報を二度と表示しない</string>
+    <string name="availability_notification_ok">Ok</string>
+    <string name="availability_notification_blocked_title">Notifications are disabled in %1$s</string>
+    <string name="availability_notification_blocked">Status affects notifications now. You\'re set to \"Away\" and won\'t receive any notifications.</string>
+    <string name="availability_notification_changed_title">Notifications have changed in %1$s</string>
+    <string name="availability_notification_changed">Status affects notifications now. You\'re set to \"Busy\" and will only receive notifications when someone mentions you or replies to one of your messages.</string>
     <string name="preferences_profile_new">新しいチームまたはアカウント</string>
     <string name="preferences_profile_add_account">アカウントを追加</string>
     <string name="preferences_profile_create_team">新しいチームを作成</string>
@@ -1069,12 +1084,12 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="reply_message_type_location">位置情報</string>
     <string name="reply_message_type_asset">添付ファイル</string>
     <string name="reply_message_type_unknown">このメッセージを見ることができません。</string>
-    <string name="deep_link_generic_error_title">Invalid link.</string>
-    <string name="deep_link_generic_error_message">The link you opened is not valid.</string>
-    <string name="deep_link_conversation_error_title">Wire can\'t open this conversation.</string>
+    <string name="deep_link_generic_error_title">リンクが無効です</string>
+    <string name="deep_link_generic_error_message">あなたが開いたリンクは有効ではありません。</string>
+    <string name="deep_link_conversation_error_title">Wire はこの会話を開けませんでした</string>
     <string name="deep_link_conversation_error_message">You may not have permission with this account or the person may not be on Wire.</string>
-    <string name="deep_link_user_error_title">Wire can\'t find this person.</string>
-    <string name="deep_link_user_error_message">You may not have permission with this account or it no longer exists.</string>
+    <string name="deep_link_user_error_title">Wire は この人物を見つけられませんでした。</string>
+    <string name="deep_link_user_error_message">このアカウントへの権限が無いか、アカウントは存在していません。</string>
     <string name="password_policy_hint">Use at least %1$s characters, with one lowercase letter, one capital letter, a number, and a special character.</string>
     <!-- Custom Backend -->
     <string name="custom_backend_info_title">Connected to \"%1$s\"</string>
@@ -1082,11 +1097,11 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="custom_backend_dialog_ok">OK</string>
     <string name="custom_backend_dialog_cancel">キャンセル</string>
     <string name="custom_backend_dialog_connect">つながる</string>
-    <string name="custom_backend_dialog_confirmation_title">Connect to server</string>
+    <string name="custom_backend_dialog_confirmation_title">サーバーに接続</string>
     <string name="custom_backend_dialog_confirmation_message">This configuration will connect the app to a third-party server: %1$s</string>
     <string name="custom_backend_dialog_info_title">You are connected to a third-party server: \"%1$s\"</string>
-    <string name="custom_backend_dialog_network_error_title">The server is not responding</string>
-    <string name="custom_backend_dialog_network_error_message">Please check your internet connection, verify the link and try again.</string>
+    <string name="custom_backend_dialog_network_error_title">サーバーが応答しません。</string>
+    <string name="custom_backend_dialog_network_error_message">インターネット接続を確認し、リンクを確認してもう一度やり直してください</string>
     <string name="custom_backend_dialog_logged_in_error_title">Can\'t switch servers</string>
     <string name="custom_backend_dialog_logged_in_error_message">You are already logged in.\nTo connect to this server, log out of all accounts and try again.</string>
     <!--Two identical strings are needed for German translation-->

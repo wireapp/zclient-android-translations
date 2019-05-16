@@ -32,8 +32,8 @@
     <string name="email_exists_message">ЭТОТ АДРЕС EMAIL УЖЕ ЗАРЕГИСТРИРОВАН</string>
     <string name="email_invalid_header">Неправильный email</string>
     <string name="email_invalid_message">ПОЖАЛУЙСТА, УКАЖИТЕ ДЕЙСТВИТЕЛЬНЫЙ АДРЕС EMAIL</string>
-    <string name="invalid_credentials_header">Неверная информация</string>
-    <string name="invalid_credentials_message">ПОЖАЛУЙСТА, ПРОВЕРЬТЕ ВАШУ ИНФОРМАЦИЮ И ПОПРОБУЙТЕ СНОВА</string>
+    <string name="invalid_credentials_header">Некорректная информация</string>
+    <string name="invalid_credentials_message">ПОЖАЛУЙСТА, ПРОВЕРЬТЕ ВАШИ ДАННЫЕ И ПОВТОРИТЕ ПОПЫТКУ</string>
     <string name="phone_exists_header">Номер телефона уже используется</string>
     <string name="phone_exists_message">Введенный вами номер телефона уже зарегистрирован. Повторите попытку</string>
     <string name="phone_invalid_format_header">Недопустимый номер телефона</string>
@@ -100,7 +100,7 @@
     <string name="people_picker__share_contacts__nevvah">Больше не спрашивать</string>
     <!-- Invite -->
     <!-- Should not use newline in the dialog message, not supported by all devices, text will be cut off -->
-    <string name="people_picker__invite__share_details_dialog">Поделитесь Wire с своими друзьями.</string>
+    <string name="people_picker__invite__share_details_dialog">Поделитесь Wire со своими друзьями.</string>
     <string name="people_picker__invite__share_text__header">%1$s хочет добавить вас в Wire</string>
     <string name="people_picker__invite__share_text__body">Я использую Wire. Ищи меня там по нику %1$s или зайди на сайт get.wire.com</string>
     <!-- Conversation: Quick menu -->
@@ -713,7 +713,7 @@
     <string name="otr__participant__device_class__phone">Телефон</string>
     <string name="otr__participant__device_class__tablet">Планшет</string>
     <string name="otr__participant__device_class__desktop">Настольный компьютер</string>
-    <string name="otr__participant__tab_details">ДЕТАЛИ</string>
+    <string name="otr__participant__tab_details">ДАННЫЕ</string>
     <string name="otr__participant__tab_devices">УСТРОЙСТВА</string>
     <string name="otr__participant__information">ИНФОРМАЦИЯ</string>
     <string name="otr__participant__single_device__my_fingerprint_link">Показать отпечаток моего устройства</string>
@@ -807,8 +807,8 @@
     <string name="message_bottom_menu_action_reveal">Показать в разговоре</string>
     <string name="message_bottom_menu_action_reply">Ответить</string>
     <string name="message_bottom_menu_action_save_ok">Изображение сохранено</string>
-    <string name="message_bottom_menu_action_details">Детали</string>
-    <string name="message_details_title">ДЕТАЛИ СООБЩЕНИЯ</string>
+    <string name="message_bottom_menu_action_details">Данные</string>
+    <string name="message_details_title">ДАННЫЕ СООБЩЕНИЯ</string>
     <string name="message_liked_title">ПОНРАВИЛОСЬ</string>
     <string name="message_read_title">ПРОЧИТАНО</string>
     <string name="message_details_sent">Отправлено</string>
@@ -965,6 +965,20 @@
     <string name="availability_text_away">%1$s ОТОШЕЛ</string>
     <string name="availability_text_busy">%1$s ЗАНЯТ</string>
     <string name="availability_setstatus">УСТАНОВИТЬ СТАТУС</string>
+    <string name="availability_notification_warning_away_title">Вы установили \'Отошел\'</string>
+    <string name="availability_notification_warning_away">Для других пользователей будет отображаться статус \'Отошел\'. Вы не будете получать уведомления о любых входящих звонках или сообщениях.</string>
+    <string name="availability_notification_warning_busy_title">Вы установили \'Занят\'</string>
+    <string name="availability_notification_warning_busy">Для других пользователей будет отображаться статус \'Занят\'. Вы будете получать уведомления только об упоминаниях, ответах и звонках в разговорах, уведомления для которых не отключены.</string>
+    <string name="availability_notification_warning_available_title">Вы установили \'Доступен\'</string>
+    <string name="availability_notification_warning_available">Для других пользователей будет отображаться статус \'Доступен\'. Вы будете получать уведомления о входящих вызовах и сообщениях в соответствии с настройками уведомлений в каждом разговоре.</string>
+    <string name="availability_notification_warning_nostatus_title">Нет установленного статуса</string>
+    <string name="availability_notification_warning_nostatus">Вы будете получать уведомления о входящих вызовах и сообщениях в соответствии с настройками уведомлений в каждом разговоре.</string>
+    <string name="availability_notification_dont_show">Не показывать это предупреждение в дальнейшем</string>
+    <string name="availability_notification_ok">OK</string>
+    <string name="availability_notification_blocked_title">Уведомления отключены в %1$s</string>
+    <string name="availability_notification_blocked">Статус теперь влияет на уведомления. Вы установили \'Отошел\' и не будете получать уведомления.</string>
+    <string name="availability_notification_changed_title">Уведомления были изменены в %1$s</string>
+    <string name="availability_notification_changed">Статус теперь влияет на уведомления. Вы установили \'Занят\' и будете получать уведомления только тогда, когда кто-то вас упомянет или ответит на одно из ваших сообщений.</string>
     <string name="preferences_profile_new">Новая команда или аккаунт</string>
     <string name="preferences_profile_add_account">Добавить аккаунт</string>
     <string name="preferences_profile_create_team">Создать команду</string>
@@ -1073,7 +1087,7 @@
     <string name="guests_are_present">ПРИСУТСТВУЮТ ГОСТИ</string>
     <string name="services_are_present">СЕРВИСЫ АКТИВНЫ</string>
     <string name="guests_and_services_are_present">ПРИСУТСТВУЮТ ГОСТИ И СЕРВИСЫ</string>
-    <string name="participants_details_header_title">ДЕТАЛИ</string>
+    <string name="participants_details_header_title">ДАННЫЕ</string>
     <string name="invitation_link_description">Любой, у кого есть ссылка, может присоединиться к разговору, даже если у него нет Wire</string>
     <string name="create_link_button">Создать ссылку</string>
     <string name="copy_link_button">Скопировать ссылку</string>
@@ -1131,7 +1145,7 @@
     <string name="max_participants_add_alert_message">К разговору может присоединиться до 300 человек. На текущий момент в комнате есть места еще для %1$s.</string>
     <string name="sso_signin_button">Вход для компаний</string>
     <string name="sso_signin_error_title">Что-то пошло не так</string>
-    <string name="sso_signin_error_message">Пожалуйста, свяжитесь с администратором вашей команды (Ошибка %1$s).</string>
+    <string name="sso_signin_error_message">Для получения более подробной информации обратитесь к администратору вашей команды (Ошибка %1$s).</string>
     <string name="sso_signin_error_try_again_message">Пожалуйста, повторите попытку позже (Ошибка %1$s).</string>
     <string name="sso_signin_wrong_code_title">Неверный код</string>
     <string name="sso_signin_wrong_code_message">Проверьте код доступа SSO вашей компании и повторите попытку.</string>
