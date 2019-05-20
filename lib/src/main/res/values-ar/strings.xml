@@ -29,7 +29,7 @@
     <string name="email_login_later_message">يرجى إعادة محاولة تسجيل الدخول لاحقًا</string>
     <string name="phone_login_later_message">الرجاء محاولة تسجيل الدخول فيما بعد</string>
     <string name="email_exists_header">البريد الإلكتروني مستخدم قبلا</string>
-    <string name="email_exists_message">THIS EMAIL ADDRESS HAS ALREADY BEEN REGISTERED</string>
+    <string name="email_exists_message">عنوان البريد الإلكتروني مُستخدَم مِن قَبل</string>
     <string name="email_invalid_header">عنوان البريد إلكتروني غير فعال</string>
     <string name="email_invalid_message">يرجى إدخال عنوان بريد إلكتروني صالح</string>
     <string name="invalid_credentials_header">معلومات غير صحيحة</string>
@@ -136,7 +136,7 @@
         <item quantity="many">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
         <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
     </plurals>
-    <string name="content__system__you_added_people">You added %1$s to the conversation</string>
+    <string name="content__system__you_added_people">لقد أضفتَ %1$s إلى المحادثة</string>
     <plurals name="content__system__you_added_people_with_others">
         <item quantity="zero">You added %1$s and _%2$s others to the conversation_</item>
         <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
@@ -164,7 +164,7 @@
         <item quantity="many">with %1$s and _%2$s others_</item>
         <item quantity="other">with %1$s and _%2$s others_</item>
     </plurals>
-    <string name="content__system__with_list_and_you">with %1$s and you</string>
+    <string name="content__system__with_list_and_you">مع %1$s وأنت</string>
     <plurals name="content__system__with_others_and_you">
         <item quantity="zero">with %1$s, you and _%2$s others_</item>
         <item quantity="one">with %1$s, you and _%2$s other_</item>
@@ -235,7 +235,7 @@
     <string name="conversation__action__unblock">إلغاء حظر</string>
     <string name="conversation__action__remove_member">أزل من المجموعة&#8230;</string>
     <string name="conversation__action__leave_and_delete">\tالمغادرة ثم حذف المحتوى</string>
-    <string name="conversation__action__leave_only">\tLeave group</string>
+    <string name="conversation__action__leave_only">\tغادر الفريق</string>
     <string name="conversation__action__delete_and_leave">\tحذف المحتوى ثم المغادرة</string>
     <string name="conversation__action__delete_only">\tحذف المحتوى</string>
     <string name="conversation__action__notifications_everything">كل شيء</string>
@@ -343,9 +343,11 @@
     <string name="confirmation_menu__confirm_remove">إزالة</string>
     <!-- RE-USING: confirmation_menu.cancel -->
     <!-- Block someone dialogue -->
-    <string name="confirmation_menu__block_header">حظر </string>
+    <string name="confirmation_menu__block_header">"حظر 
+"</string>
     <string name="confirmation_menu__block_text_with_name">%1$s لن يتمكن من التواصل معك أو إضافتك إلى محادثات جماعية.</string>
-    <string name="confirmation_menu__confirm_block">حظر </string>
+    <string name="confirmation_menu__confirm_block">"حظر 
+"</string>
     <!-- RE-USING: confirmation_menu.cancel -->
     <string name="connect_request__footer__blocked_label">تم حظر</string>
     <!-- Delete conversation -->
@@ -418,7 +420,7 @@
     <string name="pref_options_sounds_new_conversations_and_talks_only">أول رسالة ، بنغ أو مكالمة</string>
     <string name="pref_options_sounds_none">لا شيء</string>
     <string name="pref_options_vibration_title">اهتزاز</string>
-    <string name="pref_options_vibration_title_o">Vibrate on ring</string>
+    <string name="pref_options_vibration_title_o">الاهتزاز عند الرنين</string>
     <string name="pref_options_ringtones_category_title">الأصوات</string>
     <string name="pref_options_ringtones_ringtone_title">نغمة الرنين</string>
     <string name="pref_options_ringtones_text_title">نغمة النص</string>
@@ -449,8 +451,8 @@
     <string name="pref_devices_device_reset_session_title">إعادة تعيين الجلسة</string>
     <string name="pref_devices_device_reset_session_summary">في حالة عدم تطابق بصمات الأجهزة، قم بتحديث الجلسة لإنشاء مفاتيح تشفير جديدة على كلا الجانبين.</string>
     <string name="pref_devices_device_remove_title">إزالة الجهاز</string>
-    <string name="pref_devices_device_remove_summary">أزل هذا الجهاز في حال لم تعد تستخدمه.
-سوف يتم تسجيل خروجك من هذا الجهاز فورًا.</string>
+    <string name="pref_devices_device_remove_summary">"أزل هذا الجهاز في حال لم تعد تستخدمه.
+سوف يتم تسجيل خروجك من هذا الجهاز فورًا."</string>
     <string name="pref_devices_device_fingerprint_copy_description">مفتاح البصمة</string>
     <string name="pref_devices_device_fingerprint_copy_toast">تم نسخ مفتاح البصمة</string>
     <!-- Advanced -->
@@ -465,8 +467,8 @@
     <string name="debug_report__title">تقرير واير لتصحيح الأخطاء -%1$s</string>
     <string name="debug_report__body">يرجى وصف الخطوات المطلوبة لإعادة إنشاء المشكلة، وتزويدنا بصور (سكرين شوت) و إرسالها لهذا البريد الإلكتروني. \n\n</string>
     <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
-    <string name="pref_advanced_ws_foreground_summary">We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
-        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
+    <string name="pref_advanced_ws_foreground_summary">"We have detected that Google Play Services are not installed. Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device."</string>
     <!-- Support -->
     <string name="pref_support_screen_title">الدعم</string>
     <string name="pref_support_website_title">الموقع الإلكتروني للدعم في واير </string>
@@ -533,7 +535,7 @@
     <string name="incoming_call_notifications_channel_name">المكالمات الواردة</string>
     <string name="ping_notifications_channel_name">Pings</string>
     <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
-    <string name="ongoing_channel_name">Background notifications</string>
+    <string name="ongoing_channel_name">الإشعارات في الخلفية</string>
     <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
     <string name="foreground_service_notification_name">Maintain connection to server</string>
     <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
@@ -548,11 +550,11 @@
     <!-- %1$s == username, %2$s == conversation -->
     <string name="notification__message__name__prefix__text">%1$s: \u0020</string>
     <string name="notification__message__group__prefix__text">%1$s في %2$s: \u0020</string>
-    <string name="notification__message_with_mention__name__prefix__text">Mention from %1$s: \u0020</string>
-    <string name="notification__message_with_mention__group__prefix__text">Mention from %1$s in %2$s: \u0020</string>
-    <string name="notification__message_with_quote__name__prefix__text_one2one">Reply: \u0020</string>
-    <string name="notification__message_with_quote__name__prefix__text">Reply from %1$s: \u0020</string>
-    <string name="notification__message_with_quote__group__prefix__text">Reply from %1$s in %2$s: \u0020</string>
+    <string name="notification__message_with_mention__name__prefix__text">إشارة مِن%1$s: \u0020</string>
+    <string name="notification__message_with_mention__group__prefix__text">إشارة مِن %1$s على %2$s: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text_one2one">رد: \u0020</string>
+    <string name="notification__message_with_quote__name__prefix__text">رد مِن %1$s: \u0020</string>
+    <string name="notification__message_with_quote__group__prefix__text">رد مِن %1$s على %2$s: \u0020</string>
     <string name="notification__message__one_to_one__wanted_to_talk">اتصل بك</string>
     <string name="notification__message__one_to_one__pinged">بينغ</string>
     <string name="notification__message__one_to_one__shared_picture">شارك صورة</string>
@@ -567,13 +569,13 @@
     <string name="notification__message__group__remove">قام بإزالة أشخاص من المحادثة</string>
     <string name="notification__message__single__accept_request">الآن متصل أنت و %1$s</string>
     <string name="notification__message__group__default_conversation_name">محادثة جماعية</string>
-    <string name="notification__message__send_failed">Message failed to send</string>
+    <string name="notification__message__send_failed">فشل في ارسال الرسالة</string>
     <string name="notification__message__ephemeral">أرسل لك رسالة</string>
     <string name="notification__message_with_mention__ephemeral">أشار إليك</string>
     <string name="notification__message_with_quote__ephemeral">%s قام بالرد عليك</string>
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">\u2764 رسالتك</string>
-    <string name="notification__message__liked_picture">\u2764 your picture</string>
+    <string name="notification__message__liked_picture">\u2764 صورتك</string>
     <!-- ephemeral -->
     <string name="notification__message__ephemeral_someone">شخص ما</string>
     <plurals name="notification__message__ephemeral">
@@ -657,7 +659,8 @@
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
     <string name="timestamp_pattern__date_and_time__no_year">EEE, MMM d, %1$s</string>
     <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
-    <string name="timestamp_pattern__date_and_time__with_year">EEE, MMM d, YYYY, %1$s</string>
+    <string name="timestamp_pattern__date_and_time__with_year">"EEE, MMM d, YYYY, %1$s
+"</string>
     <!-- Example: MAR 9, 11:29 -->
     <string name="timestamp_pattern__date_and_time__no_year_no_weekday">ششش ي، %1$s</string>
     <!-- Example: MAR 9, 2015, 11:29 -->
@@ -714,7 +717,8 @@
     <string name="drawing__text_hint">اكتب رسالة</string>
     <!-- Location sharing -->
     <string name="location_sharing__tip">اسحب الخريطة لتغيير الموقع</string>
-    <string name="location_sharing__permission_error">غير قادر على استرداد الموقع الحالي، لم يتم إعطاء الإذن.</string>
+    <string name="location_sharing__permission_error">"غير قادر على استرداد الموقع الحالي، لم يتم إعطاء الإذن.
+"</string>
     <string name="location_sharing__send_button">إرسال</string>
     <string name="location_sharing__enable_system_location__title">استخدام الموقع؟</string>
     <string name="location_sharing__enable_system_location__message">فعل الموقع في الإعدادات لعرض موقعك الحالي.</string>
@@ -1158,8 +1162,8 @@
     <string name="guest_time_left_hours">%1$sh left</string>
     <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
     <string name="guest_time_left_minutes">Less than %1$sm left</string>
-    <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place.</string>
+    <string name="backup_description">"Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
+        \nThe backup file is not protected by Wire end-to-end encryption, so store it in a safe place."</string>
     <string name="pref_account_backup_title">أجرِ نَسخًا احتياطيًا للمحادثات</string>
     <string name="add_email_address">أضف عنوان بريدك الإلكتروني</string>
     <string name="set_a_password">تعيين كلمة السر</string>
@@ -1222,7 +1226,7 @@
     <string name="deep_link_generic_error_message">إنّ الرابط الدي قمتَ بفتحه عير صالح.</string>
     <string name="deep_link_conversation_error_title">لا يمكن لواير فتح هذه المحادثة.</string>
     <string name="deep_link_conversation_error_message">You may not have permission with this account or the person may not be on Wire.</string>
-    <string name="deep_link_user_error_title">Wire can\'t find this person.</string>
+    <string name="deep_link_user_error_title">لم يتمكّن Wire مِن العثور على هذا الشخص.</string>
     <string name="deep_link_user_error_message">You may not have permission with this account or it no longer exists.</string>
     <string name="password_policy_hint">Use at least %1$s characters, with one lowercase letter, one capital letter, a number, and a special character.</string>
     <!-- Custom Backend -->
@@ -1241,7 +1245,7 @@
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">الرسالة الأصلية مِن %s</string>
     <string name="quote_timestamp_message_date">الرسالة الأصلية مِن %s</string>
-    <string name="read_receipts_remotely_enabled_title">You have enabled read receipts</string>
+    <string name="read_receipts_remotely_enabled_title">لقد نشَّطتَ إيصالات القراءة</string>
     <string name="read_receipts_remotely_disabled_title">لقد عطّلتَ إيصالات القراءة</string>
     <string name="read_receipts_remotely_changed_message">يمكنك تغيير هذا الخيار في إعدادات حسابك.</string>
 </resources>
