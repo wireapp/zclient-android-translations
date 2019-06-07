@@ -436,18 +436,18 @@
     <string name="pref_devices_device_fingerprint_copy_toast">Rakto kontrolinis kodas nukopijuotas</string>
     <!-- Advanced -->
     <string name="pref_advanced_screen_title">Papildomi</string>
-    <string name="pref_advanced_enable_logs_title">Collect usage data</string>
-    <string name="pref_advanced_enable_logs_subtitle">This stores troubleshooting information locally. Disabling this option will delete all local logs.</string>
+    <string name="pref_advanced_enable_logs_title">Rinkto naudojimo duomenis</string>
+    <string name="pref_advanced_enable_logs_subtitle">Tai išsaugo trikčių informaciją lokaliai. Išjungus šį pasirinkimą, visi lokalūs žurnalai bus ištrinti.</string>
     <string name="pref_advanced_debug_report_title">Sukurti derinimo ataskaitą</string>
-    <string name="pref_advanced_debug_report_summary">You can submit this to Wire Support to help diagnose problems.</string>
+    <string name="pref_advanced_debug_report_summary">Tai galite pateikti „Wire“ pagalbos centrui nesklandumo sprendimo radimui.</string>
     <string name="pref_advanced_reset_push_title">Sukurti naujienų pranešimų tarnybos atpažinimo ženklą iš naujo</string>
     <string name="pref_advanced_reset_push_summary">Jei susiduriate su naujienų pranešimo tarnybos nesklandumais, „Wire“ pagalbos centras gali paprašyti nustatyti atpažinimo ženklą iš naujo.</string>
     <string name="pref_advanced_reset_push_completed">Naujienų pranešimų tarnybos atpažinimo ženklas nustatytas iš naujo</string>
     <string name="debug_report__title">„Wire“ klaidos ataskaita - %1$s</string>
     <string name="debug_report__body">Aprašykite žingsnius, kuriais galėtume atkurti nesklandumą, jei įmanoma pridėkite ekrano nuotraukų ir išsiųskite šį laišką.\n\n</string>
     <string name="pref_advanced_ws_foreground_title">Palaikyti ryšį su serveriu</string>
-    <string name="pref_advanced_ws_foreground_summary">"Aptikome, kad neturite „Google Play Services“. „Wire“ bandys išlaikyti ryšį su serveriu, kad gautumėte pranešimus, kol programa veiks fone.
-        Išjungus šį nustatymą, baterijos veikimas gali pagerėti, bet nebegausite pranešimų, kai „Wire“ veiks fone. Tai taikoma visoms paskyroms šiame įrenginyje."</string>
+    <string name="pref_advanced_ws_foreground_summary">Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
+        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
     <!-- Support -->
     <string name="pref_support_screen_title">Palaikymas</string>
     <string name="pref_support_website_title">„Wire“ pagalbos svetainė</string>
@@ -965,20 +965,20 @@
     <string name="availability_text_away">%1$s YRA PASIŠALINĘS</string>
     <string name="availability_text_busy">%1$s YRA UŽSIĖMĘS</string>
     <string name="availability_setstatus">NURODYTI BŪSENĄ</string>
-    <string name="availability_notification_warning_away_title">You are set to Away</string>
-    <string name="availability_notification_warning_away">You will appear as Away to other people. You will not receive notifications about any incoming calls or messages.</string>
-    <string name="availability_notification_warning_busy_title">You are set to Busy</string>
-    <string name="availability_notification_warning_busy">You will appear as Busy to other people. You will only receive notifications for mentions, replies, and calls in conversations that are not muted.</string>
-    <string name="availability_notification_warning_available_title">You are set to Available</string>
-    <string name="availability_notification_warning_available">Kitiems žmonėms būsite rodomi kaip Pasiekiama(-s). Jūs gausite pranešimus apie gaunamus skambučius ir žinutes pagal kiekviename pokalbyje nustatytą pranešimų nustatymą.</string>
-    <string name="availability_notification_warning_nostatus_title">Nenustatyta jokia būsena</string>
-    <string name="availability_notification_warning_nostatus">You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
-    <string name="availability_notification_dont_show">Daugiau neberodyti šios informacijos</string>
+    <string name="availability_notification_warning_away_title">Pasišalinote</string>
+    <string name="availability_notification_warning_away">Kiti žmonės matys jus kaip pasišalinusį. Negausite perspėjimų apie skambučius ir žinutes.</string>
+    <string name="availability_notification_warning_busy_title">Užsiėmęs</string>
+    <string name="availability_notification_warning_busy">Kiti žmonės matys jus kaip užsiėmusį. Gausite perspėjimų apie paminėjimus, atsakymus ir skambučius susirašinėjimuose kurie nėra nutildyti.</string>
+    <string name="availability_notification_warning_available_title">Pasiekiamas</string>
+    <string name="availability_notification_warning_available">Kiti žmonės matys jus kaip pasiekiamą. Gausite pranešimus apie gaunamus skambučius ir žinutes pagal kiekviename susirašinėjime nustatytą pranešimų nustatymą.</string>
+    <string name="availability_notification_warning_nostatus_title">Būsenos nėra</string>
+    <string name="availability_notification_warning_nostatus">Gausite pranešimus apie gaunamus skambučius ir žinutes pagal kiekviename pokalbyje nustatytą pranešimų nustatymą.</string>
+    <string name="availability_notification_dont_show">Daugiau šios informacijos neberodyti</string>
     <string name="availability_notification_ok">Gerai</string>
-    <string name="availability_notification_blocked_title">Notifications are disabled in %1$s</string>
-    <string name="availability_notification_blocked">Status affects notifications now. You\'re set to \"Away\" and won\'t receive any notifications.</string>
-    <string name="availability_notification_changed_title">Notifications have changed in %1$s</string>
-    <string name="availability_notification_changed">Status affects notifications now. You\'re set to \"Busy\" and will only receive notifications when someone mentions you or replies to one of your messages.</string>
+    <string name="availability_notification_blocked_title">Pranešimai pokalbjye %1$s išjungti</string>
+    <string name="availability_notification_blocked">Būsena pakeičia pranešimų rodymą. Pasirinkite „Pasišalinęs“ ir negausite pranešimų.</string>
+    <string name="availability_notification_changed_title">Pranešimai pokalbyje %1$s buvo pakeisti</string>
+    <string name="availability_notification_changed">Būsena pakeičia pranešimų rodymą. Pakeitėte į „Užsiėmęs“ ir gausite pranešimus jei kas nors jus paminės ar kas nors atsakys į jūsų žinutę.</string>
     <string name="preferences_profile_new">Nauja komanda ar paskyra</string>
     <string name="preferences_profile_add_account">Pridėti paskyrą</string>
     <string name="preferences_profile_create_team">Sukurti komandą</string>
@@ -1007,7 +1007,7 @@
     <string name="app_entry_create_account">Asmeninis</string>
     <string name="app_entry_create_account_sub">Saugiai bendraukite su draugų grupėmis ar šeima</string>
     <string name="app_entry_create_team">Pro</string>
-    <string name="app_entry_create_team_sub">Secure collaboration for businesses, institutions and professional organizations</string>
+    <string name="app_entry_create_team_sub">Saugus bendradarbiavimas verslui, institucijoms ir profesionalioms organizacijoms</string>
     <string name="app_entry_login_sub">Jau turite paskyrą?</string>
     <string name="app_entry_login">Prisijungti</string>
     <string name="app_entry_tc_dialog_title">Paslaugos teikimo sąlygos</string>
@@ -1103,8 +1103,8 @@
     <string name="guest_time_left_hours">Liko %1$s val.</string>
     <string name="guest_time_left_hours_minutes">Liko %1$s val. %2$s min.</string>
     <string name="guest_time_left_minutes">Liko mažiau nei %1$s min.</string>
-    <string name="backup_description">"Kurkite atsarginę kopiją, kad išsaugotumėte susirašinėjimo praeitį. Jei prarasite savo įrenginį arba pasikeisite nauju, tai galėsite panaudoti praeitis atstatymui.
-        \nAtsarginės kopijos failas nėra apsaugotas „Wire“ kodavimo, dėl to jūs turite parinkti jam saugią vietą."</string>
+    <string name="backup_description">Kurkite atsarginę kopiją, kad išsaugotumėte susirašinėjimo praeitį. Jei prarasite savo įrenginį arba pasikeisite nauju, tai galėsite panaudoti praeitis atstatymui.
+        \nAtsarginės kopijos failas nėra apsaugotas „Wire“ kodavimo, dėl to jūs turite parinkti jam saugią vietą.</string>
     <string name="pref_account_backup_title">Kurti susirašinėjimų atsarginę kopiją</string>
     <string name="add_email_address">Pridėkite savo el. pašto adresą</string>
     <string name="set_a_password">Nustatykite slaptažodį</string>
@@ -1164,12 +1164,12 @@
     <string name="reply_message_type_asset">PRIEDAS</string>
     <string name="reply_message_type_unknown">Jūs negalite matyti šitos žinutės.</string>
     <string name="deep_link_generic_error_title">Neteisinga nuoroda.</string>
-    <string name="deep_link_generic_error_message">Jūsų atverta nuoroda yra neteisinga.</string>
-    <string name="deep_link_conversation_error_title">Wire negali atverti šio pokalbio.</string>
-    <string name="deep_link_conversation_error_message">Gali būti, kad neturite leidimo šiai paskyrai arba žmogus nesinaudoja Wire.</string>
-    <string name="deep_link_user_error_title">Wire nepavyksta rasti šio žmogaus.</string>
-    <string name="deep_link_user_error_message">Gali būti, kad neturite leidimo šiai paskyrai arba jos daugiau nebėra.</string>
-    <string name="password_policy_hint">Use at least %1$s characters, with one lowercase letter, one capital letter, a number, and a special character.</string>
+    <string name="deep_link_generic_error_message">Atverta nuoroda neteisinga.</string>
+    <string name="deep_link_conversation_error_title">„Wire“ negali atverti šio pokalbio.</string>
+    <string name="deep_link_conversation_error_message">Gali būti, kad neturite šiai paskyrai teisių arba žmogus nesinaudoja „Wire“.</string>
+    <string name="deep_link_user_error_title">„Wire“ nepavyksta rasti šio žmogaus.</string>
+    <string name="deep_link_user_error_message">Gali būti, kad šiai paskyrai neturite teisių arba jos nebėra.</string>
+    <string name="password_policy_hint">Naudokite bent %1$s simbolius, iš kurių viena būtų mažoji raidė, viena didžioji raidė, vienas skaitmuo ir specialus simbolis.</string>
     <!-- Custom Backend -->
     <string name="custom_backend_info_title">Prisijungta prie \"%1$s\"</string>
     <string name="custom_backend_info_show_more">RODYTI DAUGIAU</string>
