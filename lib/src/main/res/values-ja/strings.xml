@@ -418,9 +418,13 @@
     <string name="pref_advanced_reset_push_completed">プッシュトークンがリセットされました。</string>
     <string name="debug_report__title">Wire デバッグ報告 - %1$s</string>
     <string name="debug_report__body">問題を再現するための手順を教えてください。可能であればスクリーンショットを提供して、このメールを送信してください。\n\n</string>
-    <string name="pref_advanced_ws_foreground_title">サーバーへの接続を維持します。</string>
-    <string name="pref_advanced_ws_foreground_summary">Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
-        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
+    <string name="pref_advanced_ws_foreground_title">サーバーへの接続を維持する</string>
+    <string name="pref_advanced_ws_foreground_summary">この設定をオンにすると、Wireが起動されていない間もサーバーとの接続を維持し、通知を受信可能になります。
+この設定をオフにすると、バッテリーのパフォーマンスが向上しますが、Wireがバックグラウンドで動作している間は通知を受信できなくなります。
+この設定は、このデバイス上のすべてのアカウントに適用されます。</string>
+    <string name="pref_advanced_full_sync_title">完全な同期を行う</string>
+    <string name="pref_advanced_full_sync_summary">サーバーとの完全な同期を行います。</string>
+    <string name="pref_advanced_full_sync_popup">完全な同期を行ってよろしいですか？ この操作にはしばらく時間がかかる場合があります。</string>
     <!-- Support -->
     <string name="pref_support_screen_title">サポート</string>
     <string name="pref_support_website_title">Wire サポート ウェブサイト</string>
@@ -489,7 +493,7 @@
     <string name="ping_notifications_channel_description">他のユーザーがあなたへ Ping したときに通知します。</string>
     <string name="ongoing_channel_name">バックグラウンド通知</string>
     <string name="ongoing_channel_description">通話または画像保存中のような進行中の処理または、派生するアクション時に通知します</string>
-    <string name="foreground_service_notification_name">サーバーへの接続を維持します。</string>
+    <string name="foreground_service_notification_name">サーバーへの接続を維持する</string>
     <string name="foreground_service_notification_description">この通知は、Google Playサービスがインストールされておらず Wireアプリ がバックグラウンドの間は、サーバーへの接続を維持する必要があります。</string>
     <plurals name="notification__new_messages__multiple">
         <item quantity="other">%2$s の会話に %1$d メッセージ</item>
