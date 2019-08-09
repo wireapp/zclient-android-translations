@@ -40,10 +40,10 @@ publishing {
     publications {
 
         repositories.maven {
-            url 'http://192.168.120.33:8081/nexus/content/repositories/releases/'
+            url System.getenv("NEXUS_REPOSITORY_HOST") + '/nexus/content/repositories/releases/'
             credentials {
-                username "deployment"
-                password "deployment123"
+                username System.getenv("NEXUS_REPOSITORY_USERNAME")
+                password System.getenv("NEXUS_REPOSITORY_PASSWORD")
             }
         }
 
