@@ -387,7 +387,6 @@
     <string name="pref_advanced_receive_news_and_offers_title">Отримувати новини</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Отримувати новини та інформацію про оновлення Wire по електронній пошті.</string>
     <!-- Options -->
-    <string name="pref_options_dark_theme_title">Темна тема</string>
     <string name="pref_options_screen_title">Налаштування</string>
     <string name="pref_options_contacts_title">Поділитись контактами</string>
     <string name="pref_options_contacts_summary">Це допоможе Вам зв\'язатись з іншими людьми. Вся інформація анонімна та не передається третім особам.</string>
@@ -407,6 +406,9 @@
     <string name="pref_options_ringtones_ping_title">Надіслати пінг</string>
     <string name="pref_options_ringtones_default_summary">Стандартний рінгтон Wire</string>
     <string name="pref_options_ringtones_silent">Без звуку</string>
+    <string name="pref_options_dark_theme_title">Темна тема</string>
+    <string name="pref_options_hide_screen_title">Приховати вміст екрану</string>
+    <string name="pref_options_hide_screen_summary">Вміст Wire бульше не буде показуватись при переключенні додатків</string>
     <string name="pref_options_image_download_title">Скачувати картинки</string>
     <string name="pref_options_image_download_always">Завжди</string>
     <string name="pref_options_image_download_wifi">Тільки в мережі Wi-Fi</string>
@@ -446,11 +448,11 @@
     <string name="debug_report__title">Налагоджувальний звіт Wire - %1$s</string>
     <string name="debug_report__body">Будь ласка, опишіть кроки, необхідні для відтворення проблеми, та додайти знімки екрану, якщо це можливо, і відправте цей email.\n\n</string>
     <string name="pref_advanced_ws_foreground_title">Зберігати з\'єднання з сервером</string>
-    <string name="pref_advanced_ws_foreground_summary">Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
-        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
-    <string name="pref_advanced_full_sync_title">Perform full synchronization</string>
-    <string name="pref_advanced_full_sync_summary">This performs a full synchronization with the server.</string>
-    <string name="pref_advanced_full_sync_popup">Are you sure? The full synchronization may take a while.</string>
+    <string name="pref_advanced_ws_foreground_summary">Wire спробує зберегти з\'єднання з сервером активним, щоб отримувати нотифікації, якщо додаток знаходиться в фоновому режимі.
+       Вимкнення цього налаштування допоможе покращити енергоефективність, проте ви більше не зможете отримувати сповіщення, якщо Wire буде знаходитись в фоновому режимі. Це стосується всіх акаунтів на даному пристрої.</string>
+    <string name="pref_advanced_full_sync_title">Виконати повну синхронізацію</string>
+    <string name="pref_advanced_full_sync_summary">Буде виконано повну синхронізацію з сервером.</string>
+    <string name="pref_advanced_full_sync_popup">Ви впевнені? Повна синхронізація може зайняти трохи часу.</string>
     <!-- Support -->
     <string name="pref_support_screen_title">Підтримка</string>
     <string name="pref_support_website_title">Сайт підтримки Wire</string>
@@ -1137,14 +1139,14 @@
     <string name="backup_import_error_wrong_account">Ви не можете відновити історію з іншого акаунту.</string>
     <string name="video_paused">Відео призупинене</string>
     <string name="calling_degraded_title">Новий пристрій</string>
-    <string name="call_info_text">Up to %1$s people can join a group conversation. Video calls work with up to 3 other people and you.</string>
+    <string name="call_info_text">До цієї розмови може прєднатись не більше %1$s учасників. Відеодзвінки будуть працювати тільки в розмовах. що містять до чотирьох учасників, включно з вами.</string>
     <string name="markdown_link_dialog_title">Перейдіть за лінком</string>
     <string name="markdown_link_dialog_message">Це перенаправить вас на\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>
     <string name="markdown_link_dialog_cancel">СКАСУВАТИ</string>
     <string name="max_participants_alert_title">Розмова переповнена</string>
-    <string name="max_participants_create_alert_message">Up to %1$s people can join a conversation.</string>
-    <string name="max_participants_add_alert_message">Up to %1$s people can join a conversation. Currently there is only room for %2$s more.</string>
+    <string name="max_participants_create_alert_message">До розмови може приєднатися до %1$s учасників.</string>
+    <string name="max_participants_add_alert_message">До розмови може приєднатися до %1$s учаснків. В даний час є місце тільки для %2$s учасників.</string>
     <string name="sso_signin_button">Вхід для компаній</string>
     <string name="sso_signin_error_title">Щось пішло не так</string>
     <string name="sso_signin_error_message">Будь ласка, зверніться до адміністратора команди, щоб отримати детальну інформацію (помилка %1$s).</string>
@@ -1186,8 +1188,8 @@
     <string name="custom_backend_dialog_network_error_message">Будь ласка, перевірте ваше інтернет-з\'єднання та спробуйте ще раз.</string>
     <string name="custom_backend_dialog_logged_in_error_title">Не вдалося переключити сервер</string>
     <string name="custom_backend_dialog_logged_in_error_message">Ви вже увійшли.\nВийдіть з усіх акаунтів та повторіть спробу, щоб переключитися на інший сервер.</string>
-    <string name="root_detected_dialog_title">Jailbreak/root detected</string>
-    <string name="root_detected_dialog_message">You can not use Wire on this device.</string>
+    <string name="root_detected_dialog_title">Вияалено Jailbreak/root</string>
+    <string name="root_detected_dialog_message">Ви не можете використовувати Wire на даному пристрої.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Оригінальне повідомлення від %s</string>
     <string name="quote_timestamp_message_date">Оригінальне повідомлення від %s</string>
@@ -1195,8 +1197,8 @@
     <string name="read_receipts_remotely_disabled_title">Ви вимкнули звіти про перегляд</string>
     <string name="read_receipts_remotely_changed_message">Дану опцію можна змінити в налаштуваннях акаунту.</string>
     <!--TODO: remove after release 3.36-->
-    <string name="android_4_warning_title">Wire 3.36 is the last version that can be installed on Android 4.</string>
-    <string name="android_4_warning_message">To be able to install later versions, please update to Android 5 or higher.</string>
+    <string name="android_4_warning_title">Wire 3.36 є останньою версією, що підтримує Android 4.</string>
+    <string name="android_4_warning_message">Будь ласка, оновіться до Android версії 5 або вище, щоб мати можливість користуватися свіжими версіями додатку.</string>
     <string name="android_4_warning_action_ok">OK</string>
-    <string name="android_4_warning_action_dont_show_again">Don\'t show again</string>
+    <string name="android_4_warning_action_dont_show_again">Не показувати знову</string>
 </resources>
