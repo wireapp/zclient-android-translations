@@ -434,6 +434,8 @@
     <string name="pref_options_requested_category_title">الأكثر شعبية</string>
     <string name="pref_options_cursor_send_button_title">زر الإرسال</string>
     <string name="pref_options_cursor_send_button_summary">تعطي الإرسال عن طريق لوحة المفاتيح.</string>
+    <string name="pref_options_app_lock_title">Lock with Passphrase</string>
+    <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Password or Biometrics.</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">الأجهزة</string>
     <string name="pref_devices_current_device_category_title">الجهاز الحالي</string>
@@ -1251,9 +1253,15 @@
     <string name="read_receipts_remotely_enabled_title">لقد نشَّطتَ إيصالات القراءة</string>
     <string name="read_receipts_remotely_disabled_title">لقد عطّلتَ إيصالات القراءة</string>
     <string name="read_receipts_remotely_changed_message">يمكنك تغيير هذا الخيار في إعدادات حسابك.</string>
-    <!--TODO: remove after release 3.36-->
-    <string name="android_4_warning_title">Wire 3.36 is the last version that can be installed on Android 4.</string>
-    <string name="android_4_warning_message">To be able to install later versions, please update to Android 5 or higher.</string>
-    <string name="android_4_warning_action_ok">موافق</string>
-    <string name="android_4_warning_action_dont_show_again">لا تُظهر مجدّدًا</string>
+    <string name="app_lock_locked_title">Wire is locked due to inactivity</string>
+    <string name="app_lock_locked_message">Please enter your device credentials.</string>
+    <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passphrase in your device settings.</string>
+    <string name="app_lock_setup_dialog_button">افتح الإعدادات</string>
+    <string name="security_policy_title">سياسة الأمان لـ Wire</string>
+    <string name="security_policy_description">يسمح لواير بجعل جهازك أكثر أمانا.</string>
+    <string name="security_policy_setup_dialog_title">تنشيط سياسة الأمان</string>
+    <string name="security_policy_setup_dialog_message">يحتاج واير إلى صلاحيات المدير لضبط سياسات الأمان.</string>
+    <string name="security_policy_setup_dialog_button">افتح الإعدادات</string>
+    <string name="security_policy_invalid_password_dialog_title">صلابة الكلمة السرية غير كافية</string>
+    <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum 12 characters.</string>
 </resources>

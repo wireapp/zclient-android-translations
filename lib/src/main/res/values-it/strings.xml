@@ -398,6 +398,8 @@
     <string name="pref_options_requested_category_title">A grande richiesta</string>
     <string name="pref_options_cursor_send_button_title">Pulsante Invia</string>
     <string name="pref_options_cursor_send_button_summary">Disattiva per inviare tramite la tastiera.</string>
+    <string name="pref_options_app_lock_title">Blocca con Frase segreta</string>
+    <string name="pref_options_app_lock_summary">Blocca Wire dopo %1$s secondi in background. Sblocca con Pin, Segno, Password o Biometriche.</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Dispositivi</string>
     <string name="pref_devices_current_device_category_title">Dispositivo corrente</string>
@@ -1142,9 +1144,15 @@
     <string name="read_receipts_remotely_enabled_title">Hai abilitato le conferme di lettura</string>
     <string name="read_receipts_remotely_disabled_title">Hai disabilitato le conferme di lettura</string>
     <string name="read_receipts_remotely_changed_message">Puoi modificare questa opzione nelle impostazioni del tuo account.</string>
-    <!--TODO: remove after release 3.36-->
-    <string name="android_4_warning_title">Wire 3.36 è l\'ultima versione che può essere installata su Android 4.</string>
-    <string name="android_4_warning_message">Per poter installare versioni successive, si prega di aggiornare ad Android 5 o superiore.</string>
-    <string name="android_4_warning_action_ok">OK</string>
-    <string name="android_4_warning_action_dont_show_again">Non visualizzare di nuovo</string>
+    <string name="app_lock_locked_title">Wire è bloccato a causa di inattività</string>
+    <string name="app_lock_locked_message">Inserisci le credenziali del dispositivo.</string>
+    <string name="app_lock_setup_dialog_messsage">Per sbloccare Wire, imposta una frase segreta nelle impostazioni del dispositivo.</string>
+    <string name="app_lock_setup_dialog_button">Apri impostazioni</string>
+    <string name="security_policy_title">Criteri di sicurezza Wire</string>
+    <string name="security_policy_description">Consenti a Wire di rendere il tuo dispositivo più sicuro.</string>
+    <string name="security_policy_setup_dialog_title">Abilita politica di sicurezza</string>
+    <string name="security_policy_setup_dialog_message">Wire ha bisogno dei privilegi di amministratore per impostare le politiche di sicurezza.</string>
+    <string name="security_policy_setup_dialog_button">Apri impostazioni</string>
+    <string name="security_policy_invalid_password_dialog_title">Sicurezza password insufficiente</string>
+    <string name="security_policy_invalid_password_dialog_message">Il dispositivo deve avere una password con almeno 12 caratteri.</string>
 </resources>

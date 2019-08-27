@@ -389,8 +389,8 @@
     <string name="pref_options_ringtones_default_summary">Wire varsayılan</string>
     <string name="pref_options_ringtones_silent">Sessiz</string>
     <string name="pref_options_dark_theme_title">Karanlık tema</string>
-    <string name="pref_options_hide_screen_title">Hide screen content</string>
-    <string name="pref_options_hide_screen_summary">Wire\'s contents will not longer be visible in the task switcher</string>
+    <string name="pref_options_hide_screen_title">Ekran içeriğini gizle</string>
+    <string name="pref_options_hide_screen_summary">Wire\'ın içeriği görev değiştiricide artık görünmeyecek</string>
     <string name="pref_options_image_download_title">Resimleri indir</string>
     <string name="pref_options_image_download_always">Her zaman</string>
     <string name="pref_options_image_download_wifi">Yalnızca Wi-Fi</string>
@@ -398,6 +398,8 @@
     <string name="pref_options_requested_category_title">Yoğun talep üzerine</string>
     <string name="pref_options_cursor_send_button_title">Gönder butonu</string>
     <string name="pref_options_cursor_send_button_summary">Klavye ile göndermeyi devre dışı bırak.</string>
+    <string name="pref_options_app_lock_title">Parola ile Kilitle</string>
+    <string name="pref_options_app_lock_summary">Wire\'ı arka planda %1$s saniye sonra kilitle. Pin, Desen, Şifre veya Biyometri ile kilidini açın.</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Cihazlar</string>
     <string name="pref_devices_current_device_category_title">Şu anki cihaz</string>
@@ -1142,9 +1144,15 @@
     <string name="read_receipts_remotely_enabled_title">Okundu bilgisini etkinleştirdiniz</string>
     <string name="read_receipts_remotely_disabled_title">Okundu bilgisini devre dışı bıraktınız</string>
     <string name="read_receipts_remotely_changed_message">Bu seçeneği hesap ayarlarınızdan değiştirebilirsiniz.</string>
-    <!--TODO: remove after release 3.36-->
-    <string name="android_4_warning_title">Wire 3.36, Android 4\'e yüklenebilecek en son sürümdür.</string>
-    <string name="android_4_warning_message">Daha sonraki sürümleri yükleyebilmek için lütfen Android 5 veya üstü bir sürüme güncelleyin.</string>
-    <string name="android_4_warning_action_ok">TAMAM</string>
-    <string name="android_4_warning_action_dont_show_again">Bir daha gösterme</string>
+    <string name="app_lock_locked_title">Wire hareketsizlik nedeniyle kilitlendi</string>
+    <string name="app_lock_locked_message">Lütfen cihazınızın kimlik bilgilerini girin.</string>
+    <string name="app_lock_setup_dialog_messsage">Wire\'ın kilidini açmak için cihaz ayarlarınızda bir parola ayarlayın.</string>
+    <string name="app_lock_setup_dialog_button">Ayarları aç</string>
+    <string name="security_policy_title">Wire Security Policy</string>
+    <string name="security_policy_description">Allow Wire to make your device more secure.</string>
+    <string name="security_policy_setup_dialog_title">Enable Security Policy</string>
+    <string name="security_policy_setup_dialog_message">Wire needs admin privileges to set security policies.</string>
+    <string name="security_policy_setup_dialog_button">Ayarları aç</string>
+    <string name="security_policy_invalid_password_dialog_title">Password strength insufficient</string>
+    <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum 12 characters.</string>
 </resources>

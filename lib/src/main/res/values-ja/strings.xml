@@ -380,8 +380,8 @@
     <string name="pref_options_ringtones_default_summary">Wire デフォルト</string>
     <string name="pref_options_ringtones_silent">サイレント</string>
     <string name="pref_options_dark_theme_title">ダークテーマ</string>
-    <string name="pref_options_hide_screen_title">Hide screen content</string>
-    <string name="pref_options_hide_screen_summary">Wire\'s contents will not longer be visible in the task switcher</string>
+    <string name="pref_options_hide_screen_title">コンテンツ表示の防止</string>
+    <string name="pref_options_hide_screen_summary">Wireのコンテンツがタスク画面に表示されなくなります。</string>
     <string name="pref_options_image_download_title">写真をダウンロード</string>
     <string name="pref_options_image_download_always">常に</string>
     <string name="pref_options_image_download_wifi">Wi-Fi のみ</string>
@@ -389,6 +389,8 @@
     <string name="pref_options_requested_category_title">人気の高い順</string>
     <string name="pref_options_cursor_send_button_title">送信ボタン</string>
     <string name="pref_options_cursor_send_button_summary">キーボードからの送信を無効にします。</string>
+    <string name="pref_options_app_lock_title">パスフレーズでロック</string>
+    <string name="pref_options_app_lock_summary">バックグラウンドに移動した%1$s秒後にWireをロックします。PIN、パターン、パスワードまたは生体認証でロックを解除可能です。</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">デバイス</string>
     <string name="pref_devices_current_device_category_title">現在のデバイス</string>
@@ -1109,17 +1111,23 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="custom_backend_dialog_network_error_message">インターネット接続を確認し、リンクを確認してもう一度やり直してください</string>
     <string name="custom_backend_dialog_logged_in_error_title">サーバを変更することができません</string>
     <string name="custom_backend_dialog_logged_in_error_message">You are already logged in.\nTo connect to this server, log out of all accounts and try again.</string>
-    <string name="root_detected_dialog_title">Jailbreak/root detected</string>
-    <string name="root_detected_dialog_message">You can not use Wire on this device.</string>
+    <string name="root_detected_dialog_title">脱獄/Root化 を検知しました。</string>
+    <string name="root_detected_dialog_message">このデバイスではWireを利用できません。</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">%s からのオリジナルメッセージ</string>
     <string name="quote_timestamp_message_date">%s からのオリジナルメッセージ</string>
     <string name="read_receipts_remotely_enabled_title">開封通知を有効にします</string>
     <string name="read_receipts_remotely_disabled_title">開封通知を無効にします</string>
     <string name="read_receipts_remotely_changed_message">あなたの アカウント設定 から、この設定を変更することができます。</string>
-    <!--TODO: remove after release 3.36-->
-    <string name="android_4_warning_title">Wire 3.36 is the last version that can be installed on Android 4.</string>
-    <string name="android_4_warning_message">To be able to install later versions, please update to Android 5 or higher.</string>
-    <string name="android_4_warning_action_ok">OK</string>
-    <string name="android_4_warning_action_dont_show_again">Don\'t show again</string>
+    <string name="app_lock_locked_title">Wire is locked due to inactivity</string>
+    <string name="app_lock_locked_message">Please enter your device credentials.</string>
+    <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passphrase in your device settings.</string>
+    <string name="app_lock_setup_dialog_button">設定を開く</string>
+    <string name="security_policy_title">Wire Security Policy</string>
+    <string name="security_policy_description">Allow Wire to make your device more secure.</string>
+    <string name="security_policy_setup_dialog_title">Enable Security Policy</string>
+    <string name="security_policy_setup_dialog_message">Wire needs admin privileges to set security policies.</string>
+    <string name="security_policy_setup_dialog_button">設定を開く</string>
+    <string name="security_policy_invalid_password_dialog_title">Password strength insufficient</string>
+    <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum 12 characters.</string>
 </resources>

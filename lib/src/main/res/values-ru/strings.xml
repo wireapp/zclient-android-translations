@@ -416,6 +416,8 @@
     <string name="pref_options_requested_category_title">По многочисленным просьбам</string>
     <string name="pref_options_cursor_send_button_title">Кнопка \'Отправить\'</string>
     <string name="pref_options_cursor_send_button_summary">Отключает отправку с помощью Enter.</string>
+    <string name="pref_options_app_lock_title">Блокировка парольной фразой</string>
+    <string name="pref_options_app_lock_summary">Блокировать Wire через %1$s секунд работы в фоновом режиме. Разблокируйте с помощью Pin-кода, графического ключа, пароля или биометрии.</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Устройства</string>
     <string name="pref_devices_current_device_category_title">Текущее устройство</string>
@@ -1197,9 +1199,15 @@
     <string name="read_receipts_remotely_enabled_title">Вы включили отчеты о прочтении</string>
     <string name="read_receipts_remotely_disabled_title">У вас отключены отчеты о прочтении</string>
     <string name="read_receipts_remotely_changed_message">Вы можете изменить эту опцию в настройках своего аккаунта.</string>
-    <!--TODO: remove after release 3.36-->
-    <string name="android_4_warning_title">Wire 3.36 - последняя версия, которую можно установить на Android 4.</string>
-    <string name="android_4_warning_message">Для установки более поздних версий требуется Android 5 или выше.</string>
-    <string name="android_4_warning_action_ok">OK</string>
-    <string name="android_4_warning_action_dont_show_again">Не показывать снова</string>
+    <string name="app_lock_locked_title">Wire заблокирован из-за неактивности</string>
+    <string name="app_lock_locked_message">Пожалуйста, введите учетные данные вашего устройства.</string>
+    <string name="app_lock_setup_dialog_messsage">Чтобы разблокировать Wire, установите парольную фразу в настройках вашего устройства.</string>
+    <string name="app_lock_setup_dialog_button">Открыть настройки</string>
+    <string name="security_policy_title">Wire Security Policy</string>
+    <string name="security_policy_description">Allow Wire to make your device more secure.</string>
+    <string name="security_policy_setup_dialog_title">Enable Security Policy</string>
+    <string name="security_policy_setup_dialog_message">Wire needs admin privileges to set security policies.</string>
+    <string name="security_policy_setup_dialog_button">Открыть настройки</string>
+    <string name="security_policy_invalid_password_dialog_title">Password strength insufficient</string>
+    <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum 12 characters.</string>
 </resources>

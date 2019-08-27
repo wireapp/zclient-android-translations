@@ -389,8 +389,8 @@
     <string name="pref_options_ringtones_default_summary">Sons par défaut</string>
     <string name="pref_options_ringtones_silent">Silencieux</string>
     <string name="pref_options_dark_theme_title">Thème sombre</string>
-    <string name="pref_options_hide_screen_title">Hide screen content</string>
-    <string name="pref_options_hide_screen_summary">Wire\'s contents will not longer be visible in the task switcher</string>
+    <string name="pref_options_hide_screen_title">Masquer le contenu de l’écran</string>
+    <string name="pref_options_hide_screen_summary">Le contenu de Wire ne sera plus visible dans le gestionnaire de tâches</string>
     <string name="pref_options_image_download_title">Télécharger les images</string>
     <string name="pref_options_image_download_always">Toujours</string>
     <string name="pref_options_image_download_wifi">Wi-Fi seulement</string>
@@ -398,6 +398,8 @@
     <string name="pref_options_requested_category_title">À la demande générale</string>
     <string name="pref_options_cursor_send_button_title">Bouton d\'envoi</string>
     <string name="pref_options_cursor_send_button_summary">Désactiver pour envoyer en appuyant sur la touche entrée.</string>
+    <string name="pref_options_app_lock_title">Verrouiller avec une phrase de passe</string>
+    <string name="pref_options_app_lock_summary">Verrouiller Zire après %1$s secondes en arrière-plan. Déverrouillage avec code pin, motif, mot de passe ou empreintes digitales.</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Appareils</string>
     <string name="pref_devices_current_device_category_title">Cet appareil</string>
@@ -1134,17 +1136,23 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="custom_backend_dialog_network_error_message">Veuillez vérifier votre connexion internet, vérifier le lien et essayer à nouveau.</string>
     <string name="custom_backend_dialog_logged_in_error_title">Impossible de changer de serveur</string>
     <string name="custom_backend_dialog_logged_in_error_message">Vous êtes déjà connecté.\nPour vous connecter à ce serveur, veuillez vous déconnecter de tous vos comptes et essayer à nouveau.</string>
-    <string name="root_detected_dialog_title">Jailbreak/root detected</string>
-    <string name="root_detected_dialog_message">You can not use Wire on this device.</string>
+    <string name="root_detected_dialog_title">Jailbreak/root detecté</string>
+    <string name="root_detected_dialog_message">Vous ne pouvez pas utiliser Wire sur cet appareil.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Message original de %s</string>
     <string name="quote_timestamp_message_date">Message original de %s</string>
     <string name="read_receipts_remotely_enabled_title">Vous avez activé les accusés de lecture</string>
     <string name="read_receipts_remotely_disabled_title">Vous avez désactivé les accusés de lecture</string>
     <string name="read_receipts_remotely_changed_message">Vous pouvez changer cette option dans les paramètres de votre compte.</string>
-    <!--TODO: remove after release 3.36-->
-    <string name="android_4_warning_title">Wire 3.36 is the last version that can be installed on Android 4.</string>
-    <string name="android_4_warning_message">To be able to install later versions, please update to Android 5 or higher.</string>
-    <string name="android_4_warning_action_ok">OK</string>
-    <string name="android_4_warning_action_dont_show_again">Don\'t show again</string>
+    <string name="app_lock_locked_title">Wire a été verrouillé en raison de l’inactivité</string>
+    <string name="app_lock_locked_message">Veuillez entre vos identifiants d’appareil.</string>
+    <string name="app_lock_setup_dialog_messsage">Pour déverrouiller Wire, veuillez configurer une phrase de passe dans les paramètres de votre appareil.</string>
+    <string name="app_lock_setup_dialog_button">Ouvrir les paramètres</string>
+    <string name="security_policy_title">Wire Security Policy</string>
+    <string name="security_policy_description">Allow Wire to make your device more secure.</string>
+    <string name="security_policy_setup_dialog_title">Enable Security Policy</string>
+    <string name="security_policy_setup_dialog_message">Wire needs admin privileges to set security policies.</string>
+    <string name="security_policy_setup_dialog_button">Ouvrir les paramètres</string>
+    <string name="security_policy_invalid_password_dialog_title">Password strength insufficient</string>
+    <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum 12 characters.</string>
 </resources>

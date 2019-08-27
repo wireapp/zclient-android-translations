@@ -398,6 +398,8 @@
     <string name="pref_options_requested_category_title">Auf allgemeinen Wunsch</string>
     <string name="pref_options_cursor_send_button_title">Send-Button</string>
     <string name="pref_options_cursor_send_button_summary">Deaktivieren, um mit Enter Nachrichten zu senden.</string>
+    <string name="pref_options_app_lock_title">Mit Kennwort sperren</string>
+    <string name="pref_options_app_lock_summary">Wire nach %1$s Sekunden im Hintergrund sperren. Mit Pin, Muster, Passwort oder Biometrie entsperren.</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Geräte</string>
     <string name="pref_devices_current_device_category_title">Aktuelles Gerät</string>
@@ -1144,9 +1146,15 @@ Die Backup-Datei wird nicht mit Wire Ende-zu-Ende-Verschlüsselung geschützt. A
     <string name="read_receipts_remotely_enabled_title">Lesebestätigungen sind aktiviert</string>
     <string name="read_receipts_remotely_disabled_title">Lesebestätigungen sind deaktiviert</string>
     <string name="read_receipts_remotely_changed_message">Diese Option kann in den Kontoeinstellungen geändert werden.</string>
-    <!--TODO: remove after release 3.36-->
-    <string name="android_4_warning_title">Wire 3.36 ist die letzte Version, die auf Android 4 installiert werden kann.</string>
-    <string name="android_4_warning_message">Um spätere Versionen installieren zu können, bitte auf Android 5 oder höher aktualisieren.</string>
-    <string name="android_4_warning_action_ok">Verstanden</string>
-    <string name="android_4_warning_action_dont_show_again">Nicht erneut anzeigen</string>
+    <string name="app_lock_locked_title">Wire ist wegen Inaktivität gesperrt</string>
+    <string name="app_lock_locked_message">Bitte die Anmeldedaten für dieses Gerät eingeben.</string>
+    <string name="app_lock_setup_dialog_messsage">Um Wire zu entsperren, bitte ein Kennwort in den Geräteeinstellungen festlegen.</string>
+    <string name="app_lock_setup_dialog_button">Einstellungen öffnen</string>
+    <string name="security_policy_title">Wire-Sicherheitsrichtlinien</string>
+    <string name="security_policy_description">Wire erlauben, das Gerät sicherer zu machen.</string>
+    <string name="security_policy_setup_dialog_title">Sicherheitsrichtlinien aktivieren</string>
+    <string name="security_policy_setup_dialog_message">Wire benötigt Administratorrechte, um Sicherheitsrichtlinien festzulegen.</string>
+    <string name="security_policy_setup_dialog_button">Einstellungen öffnen</string>
+    <string name="security_policy_invalid_password_dialog_title">Passwortstärke nicht ausreichend</string>
+    <string name="security_policy_invalid_password_dialog_message">Das Gerät muss über ein Passwort mit mindestens 12 Zeichen verfügen.</string>
 </resources>
