@@ -26,14 +26,14 @@
     <string name="internet_connectivity_error_header">Bez pripojenia k internetu</string>
     <string name="internet_connectivity_error_message">Prosím skontrolujte svoje internetové pripojenie a skúste to znova</string>
     <string name="too_many_attempts_header">Príliš veľa pokusov</string>
-    <string name="email_login_later_message">PLEASE TRY TO LOG IN LATER</string>
+    <string name="email_login_later_message">PROSÍM SKÚSTE SA PRIHLÁSIŤ NESKÔR</string>
     <string name="phone_login_later_message">Skúste sa prihlásiť neskôr</string>
     <string name="email_exists_header">E-mailová adresa sa už používa</string>
-    <string name="email_exists_message">THIS EMAIL ADDRESS HAS ALREADY BEEN REGISTERED</string>
+    <string name="email_exists_message">TÁTO EMAILOVÁ ADRESA UŽ BOLA REGISTROVANÁ</string>
     <string name="email_invalid_header">Neplatná e-mailová adresa</string>
-    <string name="email_invalid_message">PLEASE ENTER A VALID EMAIL ADDRESS</string>
+    <string name="email_invalid_message">PROSÍM ZADAJTE PLATNÚ EMAILOVÚ ADRESU</string>
     <string name="invalid_credentials_header">Neplatná informácia</string>
-    <string name="invalid_credentials_message">PLEASE VERIFY YOUR DETAILS AND TRY AGAIN</string>
+    <string name="invalid_credentials_message">PROSÍM OVERTE VAŠE ÚDAJE A SKÚSTE ZNOVU</string>
     <string name="phone_exists_header">Telefónne číslo, ktoré už bolo prijaté</string>
     <string name="phone_exists_message">Telefónne číslo, ktoré ste zadali, už bolo zaregistrované. Prosím skúste to znova</string>
     <string name="phone_invalid_format_header">Neplatné telefónne číslo</string>
@@ -416,6 +416,8 @@
     <string name="pref_options_requested_category_title">Populárnej požiadavky</string>
     <string name="pref_options_cursor_send_button_title">Tlačidlo odoslať</string>
     <string name="pref_options_cursor_send_button_summary">Zakázať odosielanie pomocou klávesnice.</string>
+    <string name="pref_options_message_previews">Message Previews</string>
+    <string name="pref_options_message_previews_summary">Display message content in notifications.</string>
     <string name="pref_options_app_lock_title">Lock with Passphrase</string>
     <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Password or Biometrics.</string>
     <!-- Devices -->
@@ -546,6 +548,7 @@
     <string name="notification__message__one_to_one__shared_video">Zdieľal video</string>
     <string name="notification__message__one_to_one__shared_audio">Zdieľal zvukovú správu</string>
     <string name="notification__message__one_to_one__shared_location">Zdieľal umiestnenie</string>
+    <string name="notification__message_one_to_one_message_preview">Poslal Vám správu</string>
     <!-- %1$s == username, %2$s == conversation -->
     <string name="notification__message__group__prefix__other">%1$s v %2$s \u0020</string>
     <string name="notification__message__group__renamed_conversation">premenoval rozhovor na %1$s</string>
@@ -1045,7 +1048,7 @@
     <string name="teams_invitations_error_already_sent">ALREADY SENT</string>
     <string name="teams_invitations_error_generic">SOMETHING WENT WRONG, PLEASE TRY AGAIN</string>
     <string name="teams_invite_email_hint">COLLEAGUE@YOURCOMPANY.COM</string>
-    <string name="teams_invitations_error_invalid_email">PLEASE ENTER A VALID EMAIL ADDRESS</string>
+    <string name="teams_invitations_error_invalid_email">PROSÍM ZADAJTE PLATNÚ EMAILOVÚ ADRESU</string>
     <string name="teams_invitations_error_email_exists">THIS EMAIL ADDRESS IS ALREADY IN USE</string>
     <string name="teams_invitations_error_no_internet">NO INTERNET CONNECTION</string>
     <string name="invitation_screen_title">Build your team</string>
@@ -1213,5 +1216,5 @@
     <string name="security_policy_setup_dialog_message">Wire needs admin privileges to set security policies.</string>
     <string name="security_policy_setup_dialog_button">Open settings</string>
     <string name="security_policy_invalid_password_dialog_title">Password strength insufficient</string>
-    <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum 12 characters.</string>
+    <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum %1$s characters, at least one each of digit, uppercase, lowercase, and special symbol.</string>
 </resources>
