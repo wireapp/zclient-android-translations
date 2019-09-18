@@ -417,9 +417,9 @@
     <string name="pref_options_cursor_send_button_title">Кнопка \"Надіслати\"</string>
     <string name="pref_options_cursor_send_button_summary">Вимкнути надсилання з клавіатури.</string>
     <string name="pref_options_message_previews">Попередній перегляд сповіщень</string>
-    <string name="pref_options_message_previews_summary">Display message content in notifications.</string>
-    <string name="pref_options_app_lock_title">Lock with Passphrase</string>
-    <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Password or Biometrics.</string>
+    <string name="pref_options_message_previews_summary">Показувати вміст повідомлень в сповіщеннях.</string>
+    <string name="pref_options_app_lock_title">Блокування з паролем</string>
+    <string name="pref_options_app_lock_summary">Заблокувати Wire через %1$s секунд в фоновому режимі. Розблокувати додаток можна з допомогою пін-коду, послідовності жестів, паролю або біометрики.</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Пристрої</string>
     <string name="pref_devices_current_device_category_title">Поточний пристрій</string>
@@ -1036,11 +1036,11 @@
     <string name="app_entry_sso_dialog_title">Вхід для компаній</string>
     <string name="app_entry_sso_dialog_message">Введіть код доступу для вашої компанії.</string>
     <string name="app_entry_sso_input_hint"></string>
-    <string name="action_button_state_play">play</string>
-    <string name="action_button_state_pause">pause</string>
-    <string name="action_button_state_close">close</string>
-    <string name="action_button_state_redo">redo</string>
-    <string name="action_button_state_none">none</string>
+    <string name="action_button_state_play">відтворити</string>
+    <string name="action_button_state_pause">призупинити</string>
+    <string name="action_button_state_close">закрити</string>
+    <string name="action_button_state_redo">повторити</string>
+    <string name="action_button_state_none">немає</string>
     <string name="pick_user_teams_invite">Запросіть колег приєднатися до команди</string>
     <string name="teams_invitations_skip">ПРОПУСТИТИ</string>
     <string name="teams_invitations_done">ГОТОВО</string>
@@ -1118,11 +1118,11 @@
     <string name="guest_time_left_hours">Залишилося %1$s год</string>
     <string name="guest_time_left_hours_minutes">Залишилося %1$s.%2$s год</string>
     <string name="guest_time_left_minutes">Залишилось менше %1$s хв</string>
-    <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        \n\nChoose a strong password to protect the backup file.</string>
+    <string name="backup_description">Створіть резервну копію для збереження історії розмов. Ви можете використовувати цю функціональність, щоб відновити історію, якщо ви втратите ваш пристрій або перейдете на новий.
+        \n\nОберіть надійний пароль для захисту файлу резервної копії.</string>
     <string name="pref_account_backup_title">Зробити резервну копію розмов</string>
     <string name="backup_password_dialog_title">Задати пароль</string>
-    <string name="backup_password_dialog_message">The backup will be compressed, and if you set a password, also encrypted. Make sure to store it in a secure place.</string>
+    <string name="backup_password_dialog_message">Резервна копія буде архівована, а також зашифрована, якщо ви встановите пароль. Переконайтесь, що копія буде зберігатись в безпечному місці.</string>
     <string name="backup_password_dialog_ok">OK</string>
     <string name="backup_password_dialog_no_password">Скасувати</string>
     <string name="add_email_address">Додати адресу електронної пошти</string>
@@ -1210,15 +1210,15 @@
     <string name="read_receipts_remotely_enabled_title">Ви увімкнули звіти про перегляд</string>
     <string name="read_receipts_remotely_disabled_title">Ви вимкнули звіти про перегляд</string>
     <string name="read_receipts_remotely_changed_message">Дану опцію можна змінити в налаштуваннях акаунту.</string>
-    <string name="app_lock_locked_title">Wire is locked due to inactivity</string>
-    <string name="app_lock_locked_message">Please enter your device credentials.</string>
-    <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passphrase in your device settings.</string>
-    <string name="app_lock_setup_dialog_button">Open settings</string>
-    <string name="security_policy_title">Wire Security Policy</string>
-    <string name="security_policy_description">Allow Wire to make your device more secure.</string>
-    <string name="security_policy_setup_dialog_title">Enable Security Policy</string>
-    <string name="security_policy_setup_dialog_message">Wire needs admin privileges to set security policies.</string>
-    <string name="security_policy_setup_dialog_button">Open settings</string>
-    <string name="security_policy_invalid_password_dialog_title">Password strength insufficient</string>
-    <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum %1$s characters, at least one each of digit, uppercase, lowercase, and special symbol.</string>
+    <string name="app_lock_locked_title">Wire було заблоковано через відсутність активності</string>
+    <string name="app_lock_locked_message">Будь ласка, введіть дані для автентифікації на цьому пристрої.</string>
+    <string name="app_lock_setup_dialog_messsage">Встановіть пароль в налаштуваннях вашого пристрою, щоб розблокувати Wire.</string>
+    <string name="app_lock_setup_dialog_button">Відкрити налаштування</string>
+    <string name="security_policy_title">Політика безпеки Wire</string>
+    <string name="security_policy_description">Дозволити Wire зробити ваш пристрій безпечнішим.</string>
+    <string name="security_policy_setup_dialog_title">Увімкнути політику приватності</string>
+    <string name="security_policy_setup_dialog_message">Wire потребує привілегій адміністратора, щоб встановити політики безпеки.</string>
+    <string name="security_policy_setup_dialog_button">Відкрити налаштування</string>
+    <string name="security_policy_invalid_password_dialog_title">Пароль недостатньо стійкий</string>
+    <string name="security_policy_invalid_password_dialog_message">Ваш пристрій мусить мати пароль з мінімальною довжиною %1$s символів, мінімум однією цифрою, буквою в нижньому та верхньому реєстрі, а також спецсимволом.</string>
 </resources>
