@@ -84,7 +84,7 @@
     <string name="receive_news_and_offers_request_title">Newsletter</string>
     <string name="receive_news_and_offers_request_body">您想通过电子邮件接收来自 Wire 的新闻和产品更新吗？您可以随时取消订阅。</string>
     <string name="crashes_and_analytics_request_title">帮助我们改善Wire</string>
-    <string name="crashes_and_analytics_request_body">I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.</string>
+    <string name="crashes_and_analytics_request_body">我同意，Wire可以创建和使用匿名的使用和错误报告来改进Wire应用。我随时可以撤销此授权。</string>
     <string name="crashes_and_analytics_request_no">否</string>
     <string name="crashes_and_analytics_request_agree">我接受</string>
     <!-- Bots / Integrations / Services -->
@@ -216,7 +216,7 @@
     <string name="conversation__action__notifications_everything">Everything</string>
     <string name="conversation__action__notifications_mentions_and_replies">提及与回复</string>
     <string name="conversation__action__notifications_nothing">Nothing</string>
-    <string name="conversation__action__notifications_title">Notify me about:</string>
+    <string name="conversation__action__notifications_title">通知我：</string>
     <!-- Conversation: Profile Popover -->
     <!-- Calling/voice -->
     <string name="calling__slow_connection__title">网络速度缓慢</string>
@@ -329,8 +329,8 @@
     <string name="pref_account_details_category_title">个人信息</string>
     <string name="pref_account_actions_category_title">操作</string>
     <string name="pref_account_appearance_category_title">外观</string>
-    <string name="pref_account_personal_information_category_title">Personal Information</string>
-    <string name="pref_account_conversations_category_title">History</string>
+    <string name="pref_account_personal_information_category_title">个人资料</string>
+    <string name="pref_account_conversations_category_title">历史记录</string>
     <string name="pref_account_username_title">用户名</string>
     <string name="pref_account_phone_title">电话</string>
     <string name="pref_account_add_phone_title">新增手机号码</string>
@@ -393,6 +393,8 @@
     <string name="pref_options_message_previews_summary">Display message content in notifications.</string>
     <string name="pref_options_app_lock_title">Lock with Passphrase</string>
     <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Password or Biometrics.</string>
+    <string name="pref_options_incognito_keyboard">Incognito keyboard</string>
+    <string name="pref_options_incognito_keyboard_summary">The keyboard will not show suggestions when composing messages</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">设备</string>
     <string name="pref_devices_current_device_category_title">当前的设备</string>
@@ -528,7 +530,7 @@
     <string name="notification__message__group__default_conversation_name">群组聊天室</string>
     <string name="notification__message__send_failed">消息发送失败</string>
     <string name="notification__message__ephemeral">发送消息</string>
-    <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
+    <string name="notification__message_with_mention__ephemeral">你被提及</string>
     <string name="notification__message_with_quote__ephemeral">回复了你</string>
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">\u2764 您的信息</string>
@@ -868,8 +870,8 @@
     <string name="conversation_list__missed_call">未接电话</string>
     <string name="conversation_list__pinged">打了招呼</string>
     <string name="conversation_list__ephemeral">有人发送了一则信息</string>
-    <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
-    <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
+    <string name="conversation_list__single_eph_and_mention">你被提及</string>
+    <string name="conversation_list__group_eph_and_mention">有人提到你</string>
     <string name="conversation_list__single_eph_and_quote">回复了你</string>
     <string name="conversation_list__group_eph_and_quote">有人回复了您</string>
     <string name="conversation_list__typing">输入信息</string>
@@ -894,15 +896,15 @@
     <string name="availability_text_away">%1$s 暂时离开</string>
     <string name="availability_text_busy">%1$s 当前正忙</string>
     <string name="availability_setstatus">设置状态</string>
-    <string name="availability_notification_warning_away_title">You are set to Away</string>
-    <string name="availability_notification_warning_away">You will appear as Away to other people. You will not receive notifications about any incoming calls or messages.</string>
-    <string name="availability_notification_warning_busy_title">You are set to Busy</string>
+    <string name="availability_notification_warning_away_title">您设置为离开</string>
+    <string name="availability_notification_warning_away">您将对其他人显示为离开。您将不会收到任何电话或消息的通知。</string>
+    <string name="availability_notification_warning_busy_title">您已设置为忙碌</string>
     <string name="availability_notification_warning_busy">You will appear as Busy to other people. You will only receive notifications for mentions, replies, and calls in conversations that are not muted.</string>
-    <string name="availability_notification_warning_available_title">You are set to Available</string>
+    <string name="availability_notification_warning_available_title">您已设置为在线</string>
     <string name="availability_notification_warning_available">You will appear as Available to other people. You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
-    <string name="availability_notification_warning_nostatus_title">No status set</string>
+    <string name="availability_notification_warning_nostatus_title">没有设置状态</string>
     <string name="availability_notification_warning_nostatus">You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
-    <string name="availability_notification_dont_show">Do not display this information again</string>
+    <string name="availability_notification_dont_show">不再显示此信息</string>
     <string name="availability_notification_ok">确认</string>
     <string name="availability_notification_blocked_title">Notifications are disabled in %1$s</string>
     <string name="availability_notification_blocked">Status affects notifications now. You\'re set to \"Away\" and won\'t receive any notifications.</string>
@@ -935,7 +937,7 @@
     <string name="teams_set_name_hint">全名</string>
     <string name="app_entry_create_account">个人应用</string>
     <string name="app_entry_create_account_sub">与朋友和家庭团体私密聊天</string>
-    <string name="app_entry_create_team">Pro</string>
+    <string name="app_entry_create_team">专业版</string>
     <string name="app_entry_create_team_sub">Secure collaboration for businesses, institutions and professional organizations</string>
     <string name="app_entry_login_sub">已有帐户？</string>
     <string name="app_entry_login">登录</string>
@@ -953,7 +955,7 @@
     <string name="app_entry_email_sent">邮件已发送</string>
     <string name="teams_set_username_subtitle">设置用户名以便其他人能找到您。</string>
     <string name="app_entry_sso_dialog_title">Company login</string>
-    <string name="app_entry_sso_dialog_message">Enter the company SSO access code.</string>
+    <string name="app_entry_sso_dialog_message">输入公司SSO访问代码。</string>
     <string name="app_entry_sso_input_hint"></string>
     <string name="action_button_state_play">play</string>
     <string name="action_button_state_pause">pause</string>
@@ -995,15 +997,15 @@
     <string name="group_name_hint">GROUP NAME</string>
     <string name="allow_guests_toggle_text">允许的访客与服务</string>
     <string name="allow_guests_toggle_info_text">向团队外的服务和人员开放此对话</string>
-    <string name="read_receipts_toggle_text">Read receipts</string>
+    <string name="read_receipts_toggle_text">已读回执</string>
     <string name="read_receipts_toggle_info_text">When this is on, people can see when their messages in this conversation are read.</string>
     <string name="read_receipts_info_title_enabled">YOU HAVE ENABLED READ RECEIPTS</string>
     <string name="read_receipts_info_title_disabled">YOU HAVE DISABLED READ RECEIPTS</string>
-    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when messages are read.</string>
-    <string name="read_receipts_info_2">You can change this option in your account settings.</string>
-    <string name="create_conv_options_title_text">Conversation options</string>
+    <string name="read_receipts_info_1">如果双方都打开阅读回执，您可以看到消息是否已读。</string>
+    <string name="read_receipts_info_2">您可以在您的帐户设置中更改此选项。</string>
+    <string name="create_conv_options_title_text">对话选项</string>
     <string name="create_conv_options_subtitle_allow_guests">允许访客</string>
-    <string name="create_conv_options_subtitle_read_receipts">Read receipts</string>
+    <string name="create_conv_options_subtitle_read_receipts">已读回执</string>
     <string name="create_conv_options_subtitle_on">ON</string>
     <string name="create_conv_options_subtitle_off">关闭</string>
     <string name="open_this_conversation_to_people_outside_your_team">向团队外的服务和人员开放此对话</string>
@@ -1054,20 +1056,20 @@
     <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
     <string name="restore_override_alert_title">恢复历史</string>
     <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
-    <string name="restore_override_alert_ok">Choose Backup File</string>
+    <string name="restore_override_alert_ok">选择备份文件</string>
     <string name="back_up_progress">BACKING UP&#8230;</string>
     <string name="back_up_progress_complete">COMPLETE</string>
     <string name="restore_progress">RESTORING&#8230;</string>
-    <string name="pref_account_backup_warning_title">Set an email and password.</string>
+    <string name="pref_account_backup_warning_title">设置电子邮件和密码。</string>
     <string name="pref_account_backup_warning_message">You need an email and a password in order to back up your conversation history. You can do it from the account page in Settings.</string>
     <string name="pref_account_backup_warning_ok">好</string>
     <string name="export_generic_error_title">无法保存文件</string>
     <string name="export_generic_error_text">You may not have enough space or permission to save it there.</string>
-    <string name="backup_button">Back Up Now</string>
+    <string name="backup_button">立即返回</string>
     <string name="backup_import_error_unknown_title">好像出了点问题。</string>
     <string name="backup_import_error_unknown">您的历史无法恢复。</string>
     <string name="backup_import_error_unsupported_version_title">不兼容的备份</string>
-    <string name="backup_import_error_unsupported_version">This backup was created by a newer or outdated version of Wire and cannot be restored here.</string>
+    <string name="backup_import_error_unsupported_version">此备份是由更新版本或已过时的Wire创建的，无法在此恢复。</string>
     <string name="backup_import_error_wrong_account_title">错误的备份</string>
     <string name="backup_import_error_wrong_account">你不能恢复其他帐号的历史记录。</string>
     <string name="video_paused">视频已暂停</string>
@@ -1085,7 +1087,7 @@
     <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
     <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
     <string name="sso_signin_wrong_code_title">验证码无效</string>
-    <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
+    <string name="sso_signin_wrong_code_message">请验证您的公司SSO访问代码并重试。</string>
     <string name="sso_signin_max_accounts_title">Two accounts active</string>
     <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
     <string name="participant_search_hint">SEARCH FOR NAMES</string>
@@ -1101,7 +1103,7 @@
     <string name="reply_message_type_location">LOCATION</string>
     <string name="reply_message_type_asset">ATTACHMENT</string>
     <string name="reply_message_type_unknown">您不能看到此消息。</string>
-    <string name="deep_link_generic_error_title">Invalid link.</string>
+    <string name="deep_link_generic_error_title">无效的链接。</string>
     <string name="deep_link_generic_error_message">The link you opened is not valid.</string>
     <string name="deep_link_conversation_error_title">Wire can\'t open this conversation.</string>
     <string name="deep_link_conversation_error_message">You may not have permission with this account or the person may not be on Wire.</string>
@@ -1114,10 +1116,10 @@
     <string name="custom_backend_dialog_ok">好</string>
     <string name="custom_backend_dialog_cancel">取消</string>
     <string name="custom_backend_dialog_connect">添加好友</string>
-    <string name="custom_backend_dialog_confirmation_title">Connect to server</string>
+    <string name="custom_backend_dialog_confirmation_title">连接到服务器</string>
     <string name="custom_backend_dialog_confirmation_message">This configuration will connect the app to a third-party server: %1$s</string>
     <string name="custom_backend_dialog_info_title">You are connected to a third-party server: \"%1$s\"</string>
-    <string name="custom_backend_dialog_network_error_title">The server is not responding</string>
+    <string name="custom_backend_dialog_network_error_title">服务器无响应</string>
     <string name="custom_backend_dialog_network_error_message">Please check your internet connection, verify the link and try again.</string>
     <string name="custom_backend_dialog_logged_in_error_title">Can\'t switch servers</string>
     <string name="custom_backend_dialog_logged_in_error_message">You are already logged in.\nTo connect to this server, log out of all accounts and try again.</string>
@@ -1128,7 +1130,7 @@
     <string name="quote_timestamp_message_date">Original message from %s</string>
     <string name="read_receipts_remotely_enabled_title">您已启用已读回执</string>
     <string name="read_receipts_remotely_disabled_title">您已禁用已读回执</string>
-    <string name="read_receipts_remotely_changed_message">You can change this option in your account settings.</string>
+    <string name="read_receipts_remotely_changed_message">您可以在您的帐户设置中更改此选项。</string>
     <string name="app_lock_locked_title">Wire is locked due to inactivity</string>
     <string name="app_lock_locked_message">Please enter your device credentials.</string>
     <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passphrase in your device settings.</string>
@@ -1140,6 +1142,6 @@
     <string name="security_policy_setup_dialog_button">Open settings</string>
     <string name="security_policy_invalid_password_dialog_title">Password strength insufficient</string>
     <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum %1$s characters, at least one each of digit, uppercase, lowercase, and special symbol.</string>
-    <string name="invalid_cookie_dialog_title">Your session expired</string>
-    <string name="invalid_cookie_dialog_message">The application did not communicate with the server for a long period of time, or your session has been remotely invalidated.</string>
+    <string name="invalid_cookie_dialog_title">会话已过期</string>
+    <string name="invalid_cookie_dialog_message">应用程序长期未与服务器通信，或您的会话已被拒绝。</string>
 </resources>
