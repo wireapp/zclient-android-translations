@@ -27,7 +27,7 @@
     <string name="internet_connectivity_error_message">Lütfen internet bağlantınızı kontrol edin ve yeniden deneyin</string>
     <string name="too_many_attempts_header">Çok fazla deneme</string>
     <string name="email_login_later_message">LÜTFEN DAHA SONRA GİRİŞ YAPMAYI DENEYİN</string>
-    <string name="phone_login_later_message">Lütfen giriş yapmayı daha sonra tekrar deneyin</string>
+    <string name="phone_login_later_message">Lütfen daha sonra giriş yapmayı deneyin</string>
     <string name="email_exists_header">E-posta adresi zaten kullanımda</string>
     <string name="email_exists_message">BU E-POSTA ADRESİ ZATEN KAYITLI</string>
     <string name="email_invalid_header">Geçersiz e-posta adresi</string>
@@ -107,20 +107,20 @@
     <string name="conversation_quick_menu__conversation_button__single_label">AÇ</string>
     <!-- Conversation: System messages -->
     <string name="content__system__other_joined">[[%1$s]] katıldı</string>
-    <string name="content__system__you_joined">[[You]] katıldı</string>
+    <string name="content__system__you_joined">[[You]] katıldın</string>
     <string name="content__system__other_renamed_conv">[[%1$s]] sohbeti yeniden adlandırdı</string>
-    <string name="content__system__you_renamed_conv">[[You]] sohbeti yeniden adlandırdı</string>
+    <string name="content__system__you_renamed_conv">[[You]] sohbeti yeniden adlandırdın</string>
     <!-- Read receipts: System messages -->
     <string name="content__system__read_receipts_on">Okundu bilgisi açık</string>
     <string name="content__system__read_receipts_off">Okundu bilgisi kapalı</string>
     <string name="content__system__read_receipts_someone_turned_on">[[%1$s]] herkes için okundu bilgisi açık</string>
     <string name="content__system__read_receipts_someone_turned_off">[[%1$s]] herkes için okundu bilgileri kapalı</string>
-    <string name="content__system__read_receipts_you_turned_on">[[You]] herkes için okundu bilgisi açık</string>
-    <string name="content__system__read_receipts_you_turned_off">[[You]] herkes için okundu bilgisi kapalı</string>
+    <string name="content__system__read_receipts_you_turned_on">[[You]] herkes için okundu bilgin açık</string>
+    <string name="content__system__read_receipts_you_turned_off">[[You]] herkes için okundu bilgin kapalı</string>
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] sohbete %2$s kullanıcısını ekledi</string>
     <plurals name="content__system__someone_added_people_with_others">
-        <item quantity="one">[[%1$s]] sohbete %2$s ve _diğer %3$s kişiyi ekledi_</item>
+        <item quantity="one">[[%1$s]] sohbete %2$s ve _%3$s kullanıcısını ekledi_</item>
         <item quantity="other">[[%1$s]] sohbete %2$s ve _%3$s kullanıcılarını ekledi_</item>
     </plurals>
     <string name="content__system__someone_added_you">[[%1$s]] sizi sohbete ekledi</string>
@@ -248,7 +248,7 @@
     <string name="call_banner_outgoing">%1$S Aranıyor&#8230;</string>
     <string name="call_banner_incoming">%1$s arıyor&#8230;</string>
     <string name="call_banner_incoming_group">%1$s \u30FB %2$s arıyor&#8230;</string>
-    <string name="call_banner_tap_to_return_to_call">Aramaya geri dönmek için dokunun \u30FB %1$s</string>
+    <string name="call_banner_tap_to_return_to_call">\u30FB %1$s kişisini geri aramak için dokunun</string>
     <string name="calling_ongoing_call_title">Devam eden arama</string>
     <string name="calling_ongoing_call_start_message">Bir arama başka bir sohbette etkin.\nBurada arama yapmak diğer aramayı sonlandırın.</string>
     <string name="calling_ongoing_call_start_anyway">YİNE DE ARA</string>
@@ -390,7 +390,7 @@
     <string name="pref_options_ringtones_silent">Sessiz</string>
     <string name="pref_options_dark_theme_title">Karanlık tema</string>
     <string name="pref_options_hide_screen_title">Ekran içeriğini gizle</string>
-    <string name="pref_options_hide_screen_summary">Wire\'ın içeriği görev değiştiricide artık görünmeyecek</string>
+    <string name="pref_options_hide_screen_summary">Wire\'ın içeriği artık görev değiştiricide görünmez</string>
     <string name="pref_options_image_download_title">Resimleri indir</string>
     <string name="pref_options_image_download_always">Her zaman</string>
     <string name="pref_options_image_download_wifi">Yalnızca Wi-Fi</string>
@@ -402,8 +402,8 @@
     <string name="pref_options_message_previews_summary">Mesaj içeriğini bildirimlerde görüntüle.</string>
     <string name="pref_options_app_lock_title">Parola ile Kilitle</string>
     <string name="pref_options_app_lock_summary">Wire\'ı arka planda %1$s saniye sonra kilitle. Pin, Desen, Şifre veya Biyometri ile kilidini açın.</string>
-    <string name="pref_options_incognito_keyboard">Incognito keyboard</string>
-    <string name="pref_options_incognito_keyboard_summary">The keyboard will not show suggestions when composing messages</string>
+    <string name="pref_options_incognito_keyboard">Gizli klavye</string>
+    <string name="pref_options_incognito_keyboard_summary">Mesaj yazarken klavye önerileri gösterilmez</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Cihazlar</string>
     <string name="pref_devices_current_device_category_title">Şu anki cihaz</string>
@@ -676,6 +676,10 @@
     <string name="location_sharing__enable_system_location__confirm">Ayarlar</string>
     <string name="location_sharing__enable_system_location__cancel">İptal</string>
     <string name="location_sharing__missing_play_services">Konum paylaşımı için Google Play Hizmetleri gerekli</string>
+    <string name="location_sharing__permission__message">Wire\'ın konumunuza erişmesine izin vermek istiyor musunuz?</string>
+    <string name="location_sharing__permission__title">Konum paylaşımı</string>
+    <string name="location_sharing__permission__cancel">İptal</string>
+    <string name="location_sharing__permission__continue">TAMAM</string>
     <!-- From SyncEngine -->
     <string name="new_reg__phone_signup__create_account">Hesap oluşturun</string>
     <!-- OTR -->
@@ -795,8 +799,8 @@
     <string name="message_details_title">MESAJ AYRINTILARI</string>
     <string name="message_liked_title">BEĞENİLEN</string>
     <string name="message_read_title">OKUNAN</string>
-    <string name="message_details_sent">Şimdi Çevrimiçi</string>
-    <string name="message_details_last_edited">Düzenlendi</string>
+    <string name="message_details_sent">Gönderilen</string>
+    <string name="message_details_last_edited">Düzenlenen</string>
     <string name="tab_title_read">OKUNAN</string>
     <string name="tab_title_likes">BEĞENİLEN</string>
     <string name="messages_reads_turned_off">Bu mesaj gönderildiğinde okuma bilgisi açık değildi.</string>
@@ -845,7 +849,7 @@
     </plurals>
     <plurals name="unit_seconds">
         <item quantity="one">%1$s saniye</item>
-        <item quantity="other">%1$s sa</item>
+        <item quantity="other">%1$s saniye</item>
     </plurals>
     <string name="ephemeral_message_footer_multiple_units">Kalan %1$s ve %2$s</string>
     <string name="ephemeral_message_footer_single_unit">%1$s kaldı</string>
@@ -944,7 +948,7 @@
     <string name="new_devices_dialog_title">Wire hesabınıza bir cihaz bağladınız</string>
     <string name="new_devices_dialog_info">Eğer bunu yapan siz değilseniz, cihazı silin ve şifrenizi sıfırlayın.</string>
     <string name="new_devices_dialog_manage_devices">Cihazları yönet</string>
-    <string name="teams_set_email_title">Sizin heabınız</string>
+    <string name="teams_set_email_title">Hesabınız</string>
     <string name="teams_set_email_subtitle">İş e-postanızı girin.</string>
     <string name="teams_set_email_hint">SIZ@SIZINFIRMANIZ.COM</string>
     <string name="teams_set_email_about">DAHA FAZLA BİLGİ EDİNİN</string>
@@ -964,7 +968,7 @@
     <string name="teams_set_name_hint">TAM AD</string>
     <string name="app_entry_create_account">Kişisel</string>
     <string name="app_entry_create_account_sub">Arkadaş veya aile gruplarıyla özel olarak sohbet et</string>
-    <string name="app_entry_create_team">Profesyonel</string>
+    <string name="app_entry_create_team">Pro</string>
     <string name="app_entry_create_team_sub">İşletmeler, kurumlar ve profesyonel kuruluşlar için güvenli işbirliği</string>
     <string name="app_entry_login_sub">Zaten bir hesabınız var mı?</string>
     <string name="app_entry_login">Giriş yapın</string>
@@ -980,7 +984,7 @@
     <string name="app_entry_dialog_view">GÖRÜNTÜLE</string>
     <string name="app_entry_dialog_privacy_policy">GİZLİLİK POLİTİKASI</string>
     <string name="app_entry_email_sent">E-posta gönderildi</string>
-    <string name="teams_set_username_subtitle">Kullanıcı adları, insanları bulmanızda yardımcı olabilir.</string>
+    <string name="teams_set_username_subtitle">Kullanıcı adları insanları bulmanızda yardımcı olabilir.</string>
     <string name="app_entry_sso_dialog_title">Şirket girişi</string>
     <string name="app_entry_sso_dialog_message">Şirket SSO erişim kodunu girin.</string>
     <string name="app_entry_sso_input_hint"></string>
@@ -1066,11 +1070,11 @@
     <string name="guest_time_left_hours">%1$ssa kaldı</string>
     <string name="guest_time_left_hours_minutes">%1$s.%2$ssa kaldı</string>
     <string name="guest_time_left_minutes">%1$s dakikadan az kaldı</string>
-    <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
-        \n\nChoose a strong password to protect the backup file.</string>
+    <string name="backup_description">Konuşma geçmişinizi korumak için bir yedek oluşturun. Cihazınızı kaybederseniz veya yenisine geçerseniz, geçmişi geri yüklemek için bunu kullanabilirsiniz.
+        \n\nYedek dosyayı korumak için güçlü bir şifre seçin.</string>
     <string name="pref_account_backup_title">Sohbetleri yedekle</string>
     <string name="backup_password_dialog_title">Şifre ayarlayın</string>
-    <string name="backup_password_dialog_message">The backup will be compressed, and if you set a password, also encrypted. Make sure to store it in a secure place.</string>
+    <string name="backup_password_dialog_message">Yedekleme sıkıştırılır ve bir şifre belirlerseniz şifrelenir. Güvenli bir yerde sakladığınızdan emin olun.</string>
     <string name="backup_password_dialog_ok">TAMAM</string>
     <string name="backup_password_dialog_no_password">İptal</string>
     <string name="add_email_address">E-posta adresinizi ekleyin</string>

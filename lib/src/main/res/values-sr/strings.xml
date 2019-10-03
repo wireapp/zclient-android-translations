@@ -210,7 +210,7 @@
     <string name="conversation__action__add_participants">ДОДАТИ УЧЕСНИКЕ</string>
     <string name="conversation__action__create_group">НАПРАВИ ГРУПУ</string>
     <string name="conversation__action__open_conversation">ЗАПОЧНИ РАЗГОВОР</string>
-    <string name="conversation__action__notifications">Обавештења</string>
+    <string name="conversation__action__notifications">Обавештења&#8230;</string>
     <string name="conversation__action__silence">Ућуткај</string>
     <string name="conversation__action__unsilence">Укључи звук</string>
     <string name="conversation__action__leave">Напусти групу ...</string>
@@ -374,9 +374,9 @@
     <string name="pref_backup_screen_title">Израда резервних копија разговора</string>
     <!-- Data Usage Permissions -->
     <string name="pref_advanced_send_anonymous_data_title">Пошаљите анонимне податке</string>
-    <string name="pref_advanced_send_anonymous_data_summary">Помозите у побољшању Wire слањем анонимних извјештаја о употреби и паду.</string>
+    <string name="pref_advanced_send_anonymous_data_summary">Помозите у побољшању Wire  слањем анонимних извјештаја о употреби и паду.</string>
     <string name="pref_advanced_receive_news_and_offers_title">примајте новости</string>
-    <string name="pref_advanced_receive_news_and_offers_summary">Примајте вести и ажурирања производа од компаније Wire путем е-поште.</string>
+    <string name="pref_advanced_receive_news_and_offers_summary">Примајте вести и ажурирања производа од компаније  Wire путем е-поште.</string>
     <!-- Options -->
     <string name="pref_options_screen_title">Опције</string>
     <string name="pref_options_contacts_title">Дели контакте</string>
@@ -411,8 +411,8 @@
     <string name="pref_options_message_previews_summary">Прикажите садржај поруке у обавештењима.</string>
     <string name="pref_options_app_lock_title">Закључајте са лозинком</string>
     <string name="pref_options_app_lock_summary">Закључајте Wire након %1$s секунде у позадини. Откључајте ПИН-ом, узорком, лозинком или биометријом.</string>
-    <string name="pref_options_incognito_keyboard">Incognito keyboard</string>
-    <string name="pref_options_incognito_keyboard_summary">The keyboard will not show suggestions when composing messages</string>
+    <string name="pref_options_incognito_keyboard">Скривена тастатура</string>
+    <string name="pref_options_incognito_keyboard_summary">Тастатура неће приказивати предлоге приликом куцања порука</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Уређаји</string>
     <string name="pref_devices_current_device_category_title">Тренутни уређај</string>
@@ -496,8 +496,8 @@
     <string name="pref__account_action__dialog__change_username__error_already_taken">Већ заузето</string>
     <string name="pref__account_action__dialog__change_username__error_unknown">Грешка везе, покушајте поново</string>
     <string name="pref__account_privacy">Проверити</string>
-    <string name="pref__account_send_read_receipts_title">Send Read Receipts</string>
-    <string name="pref__account_send_read_receipts_summary">When this is off, you won’t be able to see read receipts from other people. This setting does not apply to group conversations.</string>
+    <string name="pref__account_send_read_receipts_title">Пошаљи потврде за читање</string>
+    <string name="pref__account_send_read_receipts_summary">Када је ово искључено, нећете моћи да видите потврде од других људи. Ово подешавање се не односи на групне разговоре.</string>
     <!-- No Internet connection -->
     <string name="system_status__no_internet">НЕМА ИНТЕРНЕТА</string>
     <!-- SHARING -->
@@ -551,7 +551,7 @@
     <string name="notification__message__send_failed">Неуспешно слање поруке</string>
     <string name="notification__message__ephemeral">вам посла поруку</string>
     <string name="notification__message_with_mention__ephemeral">Поменули су вас</string>
-    <string name="notification__message_with_quote__ephemeral">Одговор за вас</string>
+    <string name="notification__message_with_quote__ephemeral">Одговорио сам вам</string>
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">\u2764 вашу поруку</string>
     <string name="notification__message__liked_picture">\u2764 вашу слику</string>
@@ -690,6 +690,10 @@
     <string name="location_sharing__enable_system_location__confirm">Поставке</string>
     <string name="location_sharing__enable_system_location__cancel">Откажи</string>
     <string name="location_sharing__missing_play_services">Гуглове Плеј услуге су неопходне за дељење локације</string>
+    <string name="location_sharing__permission__message">Да ли желите да омогућите Wire да приступи вашој локацији?</string>
+    <string name="location_sharing__permission__title">Дељење локације</string>
+    <string name="location_sharing__permission__cancel">Откажи</string>
+    <string name="location_sharing__permission__continue">У реду</string>
     <!-- From SyncEngine -->
     <string name="new_reg__phone_signup__create_account">Направи налог</string>
     <!-- OTR -->
@@ -813,9 +817,9 @@
     <string name="message_details_last_edited">Измена</string>
     <string name="tab_title_read">Читање</string>
     <string name="tab_title_likes">лајковано</string>
-    <string name="messages_reads_turned_off">Потврда читања није била укључена када је та порука послана.</string>
+    <string name="messages_reads_turned_off">Читати потврде нису биле укључене када је та порука послана.</string>
     <string name="messages_no_reads">Још нико није прочитао ову поруку.</string>
-    <string name="messages_no_likes">Нико још није liked ову поруку</string>
+    <string name="messages_no_likes">Нико још није волео ову поруку</string>
     <string name="message_footer__tap_to_like">тапните да лајкујете</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="one">%1$d особа</item>
@@ -837,7 +841,7 @@
     <string name="usernames__take_over__keep">ОСТАВИ ОВО</string>
     <string name="ephemeral_message__timeout__off">Искључено</string>
     <string name="ephemeral_message__options_header">ВРЕМЕНСКЕ ПОРУКЕ</string>
-    <string name="guests_option_on">Укључено</string>
+    <string name="guests_option_on">укључено</string>
     <plurals name="unit_years">
         <item quantity="one">%1$s year</item>
         <item quantity="few">%1$s years</item>
@@ -944,18 +948,18 @@
     <string name="participant_tab_guest_indicator_label">Гост</string>
     <string name="availability_none">без</string>
     <string name="availability_available">На располагању</string>
-    <string name="availability_away">невидљив</string>
+    <string name="availability_away">скривен</string>
     <string name="availability_busy">заузет</string>
     <string name="availability_text_available">%1$s ЈЕ ДОСТУПАН</string>
     <string name="availability_text_away">%1$s НИЈЕ ТУ</string>
     <string name="availability_text_busy">%1$s ЈЕ ЗАУЗЕТ</string>
     <string name="availability_setstatus">ПОСТАВИТЕ СТАТУС</string>
     <string name="availability_notification_warning_away_title">Постављени сте на невидљив</string>
-    <string name="availability_notification_warning_away">Појавићете се као невидљив. Нећете примати обавештења о долазним позивима или порукама.</string>
-    <string name="availability_notification_warning_busy_title">Постављени сте на заузет</string>
+    <string name="availability_notification_warning_away">Појавићете се као далеко од других људи. Нећете примати обавештења о долазним позивима или порукама.</string>
+    <string name="availability_notification_warning_busy_title">Постављени сте на заузето</string>
     <string name="availability_notification_warning_busy">Изгледаћете као заузети за друге људе. Обавијести ћете примати само за спомињања, одговоре и позиве у разговорима који нису искључени.</string>
-    <string name="availability_notification_warning_available_title">Постављени сте на Доступан</string>
-    <string name="availability_notification_warning_available">Изгледаћете као Доступан другим људима. Добићете обавештења о долазним позивима и порукама у складу са поставком Обавештења у сваком разговору.</string>
+    <string name="availability_notification_warning_available_title">Постављени сте на Доступно</string>
+    <string name="availability_notification_warning_available">Изгледаћете као Доступно другим људима. Добићете обавештења о долазним позивима и порукама у складу са поставком Обавештења у сваком разговору.</string>
     <string name="availability_notification_warning_nostatus_title">Није постављен статус</string>
     <string name="availability_notification_warning_nostatus">Добићете обавештења о долазним позивима и порукама у складу са поставком Обавештења у сваком разговору.</string>
     <string name="availability_notification_dont_show">Не приказујте поново ове информације</string>
@@ -987,7 +991,7 @@
     <string name="teams_verify_email_subtitle">Унесите верификациони код који смо послали %1$s.</string>
     <string name="teams_verify_email_resend">ПОНОВО ПОШАЉИ КОД</string>
     <string name="teams_verify_email_change">ПРОМЕНА Е-МАИЛ</string>
-    <string name="teams_set_name_title">Ваше име</string>
+    <string name="teams_set_name_title">Твоје име</string>
     <string name="teams_set_name_hint">ПУНО ИМЕ</string>
     <string name="app_entry_create_account">Лично</string>
     <string name="app_entry_create_account_sub">Приватно разговарајте са групама пријатељима и породицом</string>
@@ -1016,7 +1020,7 @@
     <string name="action_button_state_close">затворено</string>
     <string name="action_button_state_redo">напред</string>
     <string name="action_button_state_none">ниједан</string>
-    <string name="pick_user_teams_invite">Позовите људе да се придруже групи</string>
+    <string name="pick_user_teams_invite">Позовите људе да се придруже тиму</string>
     <string name="teams_invitations_skip">прескочи</string>
     <string name="teams_invitations_done">ГОТОВО</string>
     <string name="teams_invitations_error_too_many">НАЈПОВОЉНИЈИ БРОЈ ПОЗИВА</string>
@@ -1033,8 +1037,8 @@
     <string name="integrations_create_conversation">Креирајте нови разговор</string>
     <string name="no_matches_found">Без подударања</string>
     <string name="loading_services">Учитавање услуга&#8230;</string>
-    <string name="empty_services_list">Услуге су помоћ која може побољшати ваш рад. Да бисте их омогућили, питајте свог администратора.</string>
-    <string name="empty_services_list_admin">Услуге су помоћ која може побољшати ваш рад.</string>
+    <string name="empty_services_list">Услуге су помоћ која може побољшати вашу брзину рада. Да бисте их омогућили, питајте свог администратора.</string>
+    <string name="empty_services_list_admin">Услуге су помоћ која може побољшати ваш радни ток.</string>
     <string name="create_group_conversation">Направи групу</string>
     <string name="create_guest_room_conversation">Направите собу за госте</string>
     <string name="manage_services">Управљање услугама</string>
@@ -1049,13 +1053,13 @@
     <string name="participants_divider_services">УСЛУГЕ (%1$s)</string>
     <string name="participants_divider_people">КОНТАКТИ (%1$s)</string>
     <string name="group_name_hint">ИМЕ ГРУПЕ</string>
-    <string name="allow_guests_toggle_text">Дозволите госте у услугама</string>
+    <string name="allow_guests_toggle_text">Дозволи гостима и услугама</string>
     <string name="allow_guests_toggle_info_text">Отворите овај разговор службама и људима ван ваше групе.</string>
     <string name="read_receipts_toggle_text">Прочитајте потврде</string>
     <string name="read_receipts_toggle_info_text">Када је ово укључено, људи могу видети када се читају њихове поруке у овом разговору.</string>
     <string name="read_receipts_info_title_enabled">ИМАТЕ УКЉУЧЕНЕ ПРОЧИТАНЕ ПРИЈЕМЕ</string>
     <string name="read_receipts_info_title_disabled">ИМАТЕ ИСКЉУЧЕНЕ ПРОЧИТАНЕ ПРИЈЕМЕ</string>
-    <string name="read_receipts_info_1">Ако обе стране укључе потврде за читање, можете видети када сu поруке прочитане.</string>
+    <string name="read_receipts_info_1">Ако обе стране укључе потврде за читање, можете видети када се поруке читају.</string>
     <string name="read_receipts_info_2">Ову опцију можете да промените у подешавањима налога.</string>
     <string name="create_conv_options_title_text">Опције разговора</string>
     <string name="create_conv_options_subtitle_allow_guests">Дозволи гостима</string>
@@ -1087,7 +1091,7 @@
     <string name="link_copied_toast">Линк је копиран!</string>
     <string name="revoke_link_message">Нови гости се неће моћи придружити овом линку. Садашњи гости и даље ће имати приступ.</string>
     <string name="revoke_link_confirm">Поништи линк</string>
-    <string name="invite_button_description">Особе ван ваше групе могу се придружити овом разговору.</string>
+    <string name="invite_button_description">Особе ван вашег тима могу се придружити овом разговору.</string>
     <string name="invite_people">Позови људе</string>
     <string name="guest_room_name">Гостинска соба</string>
     <string name="guest_time_left_hours">%1$sh лево</string>
@@ -1124,7 +1128,7 @@
     <string name="backup_import_error_unknown">Није могуће вратити историју.</string>
     <string name="backup_import_error_unsupported_version_title">Некомпатибилна резервна копија</string>
     <string name="backup_import_error_unsupported_version">Ова резервна копија је креирана новијом или застарелом верзијом Wire и овде се не може вратити.</string>
-    <string name="backup_import_error_wrong_account_title">Погрешно резервна копија</string>
+    <string name="backup_import_error_wrong_account_title">Погрешно резервно копирање</string>
     <string name="backup_import_error_wrong_account">Не можете да вратите историју са другог налога.</string>
     <string name="video_paused">Видео је паузиран</string>
     <string name="calling_degraded_title">Нови уређај</string>

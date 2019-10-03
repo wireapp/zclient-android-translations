@@ -407,8 +407,8 @@
     <string name="pref_options_ringtones_default_summary">Wire по умолчанию</string>
     <string name="pref_options_ringtones_silent">Беззвучный</string>
     <string name="pref_options_dark_theme_title">Темная тема</string>
-    <string name="pref_options_hide_screen_title">Скрыть содержимое экрана</string>
-    <string name="pref_options_hide_screen_summary">Содержимое Wire больше не будет отображаться при переключении приложений</string>
+    <string name="pref_options_hide_screen_title">Скрыть контент экрана</string>
+    <string name="pref_options_hide_screen_summary">Контент Wire не будет отображаться при переключении приложений</string>
     <string name="pref_options_image_download_title">Загружать изображения</string>
     <string name="pref_options_image_download_always">Всегда</string>
     <string name="pref_options_image_download_wifi">Только через Wi-Fi</string>
@@ -417,11 +417,11 @@
     <string name="pref_options_cursor_send_button_title">Кнопка \'Отправить\'</string>
     <string name="pref_options_cursor_send_button_summary">Отключает отправку с помощью Enter.</string>
     <string name="pref_options_message_previews">Предварительный просмотр сообщений</string>
-    <string name="pref_options_message_previews_summary">Показывать содержимое сообщения в уведомлениях.</string>
+    <string name="pref_options_message_previews_summary">Показывать контент сообщения в уведомлениях.</string>
     <string name="pref_options_app_lock_title">Блокировка парольной фразой</string>
-    <string name="pref_options_app_lock_summary">Блокировать Wire через %1$s секунд работы в фоновом режиме. Разблокируйте с помощью Pin-кода, графического ключа, пароля или биометрии.</string>
-    <string name="pref_options_incognito_keyboard">Incognito keyboard</string>
-    <string name="pref_options_incognito_keyboard_summary">The keyboard will not show suggestions when composing messages</string>
+    <string name="pref_options_app_lock_summary">Заблокировать Wire через %1$s секунд работы в фоновом режиме.</string>
+    <string name="pref_options_incognito_keyboard">Инкогнито клавиатура</string>
+    <string name="pref_options_incognito_keyboard_summary">The keyboard will not show suggestions when typing messages</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Устройства</string>
     <string name="pref_devices_current_device_category_title">Текущее устройство</string>
@@ -455,7 +455,7 @@
     <string name="debug_report__body">Пожалуйста, опишите шаги для воспроизведения проблемы, если возможно, приложите скриншоты.\n\n</string>
     <string name="pref_advanced_ws_foreground_title">Поддерживать подключение к серверу</string>
     <string name="pref_advanced_ws_foreground_summary">Для получения уведомлений в фоновом режиме Wire будет поддерживать соединение с сервером.
-        Отключение этой опции может несколько уменьшить влияние Wire на батарею устройства, однако вы не сможете получать уведомления при работе Wire в фоновом режиме. Это относится ко всем учетным записям на данном устройстве.</string>
+        Отключение этой опции может несколько уменьшить влияние Wire на батарею устройства, однако у вас могут возникнуть проблемы с получением уведомлений при работе Wire в фоновом режиме. Этот параметр применяется ко всем учетным записям на данном устройстве.</string>
     <string name="pref_advanced_full_sync_title">Выполнить полную синхронизацию</string>
     <string name="pref_advanced_full_sync_summary">Будет выполнена полная синхронизация с сервером.</string>
     <string name="pref_advanced_full_sync_popup">Вы уверены? Полная синхронизация может занять некоторое время.</string>
@@ -599,7 +599,7 @@
     <string name="ws_foreground_notification_connected_title">Подключено к серверу Wire</string>
     <string name="ws_foreground_notification_no_internet_title">Ожидание подключения&#8230;</string>
     <string name="ws_foreground_notification_connecting_title">Соединение&#8230;</string>
-    <string name="ws_foreground_notification_summary">Нажмите для получения дополнительной информации.</string>
+    <string name="ws_foreground_notification_summary"></string>
     <!-- Notification actions -->
     <string name="notification__action__call">Звонок</string>
     <string name="notification__action__reply">Ответить</string>
@@ -704,6 +704,10 @@
     <string name="location_sharing__enable_system_location__confirm">Настройки</string>
     <string name="location_sharing__enable_system_location__cancel">Отмена</string>
     <string name="location_sharing__missing_play_services">Для геолокации необходимы Google Play Services</string>
+    <string name="location_sharing__permission__message">Вы хотите разрешить Wire доступ к вашему местоположению?</string>
+    <string name="location_sharing__permission__title">Поделиться местоположением</string>
+    <string name="location_sharing__permission__cancel">Отмена</string>
+    <string name="location_sharing__permission__continue">OK</string>
     <!-- From SyncEngine -->
     <string name="new_reg__phone_signup__create_account">Создать учетную запись</string>
     <!-- OTR -->
@@ -718,13 +722,13 @@
     <string name="otr__error_dialog__cannot_register__manage_devices_button">Управление</string>
     <string name="otr__error_dialog__cannot_register__log_out_button">Выйти</string>
     <!-- OTR Participants -->
-    <string name="otr__participant__device_header">Wire дает каждому устройству уникальный отпечаток. Сравните их с %1$s и верифицируйте вашу беседу.</string>
+    <string name="otr__participant__device_header">Wire присваивает каждому устройству уникальный отпечаток. Сравните их с %1$s и верифицируйте вашу беседу.</string>
     <string name="otr__participant__device_header__no_devices">%1$s использует устаревшую версию Wire. Устройства не отображаются.</string>
     <string name="otr__participant__device_header__link_text">_Зачем верифицировать беседы?_</string>
     <string name="otr__participant__device_class__unknown">Неизвестное</string>
     <string name="otr__participant__device_class__phone">Телефон</string>
     <string name="otr__participant__device_class__tablet">Планшет</string>
-    <string name="otr__participant__device_class__desktop">Настольный компьютер</string>
+    <string name="otr__participant__device_class__desktop">Компьютер</string>
     <string name="otr__participant__tab_details">ДАННЫЕ</string>
     <string name="otr__participant__tab_devices">УСТРОЙСТВА</string>
     <string name="otr__participant__information">ИНФОРМАЦИЯ</string>
@@ -1136,7 +1140,7 @@
     <string name="second_launch__header">Вы уже использовали Wire на этом устройстве.</string>
     <string name="second_launch__sub_header">Если это было давно, некоторые сообщения могут не отображаться.</string>
     <string name="restore_override_alert_title">Восстановить историю</string>
-    <string name="restore_override_alert_text">Содержимое резервной копии заменит историю бесед на этом устройстве.
+    <string name="restore_override_alert_text">Контент резервной копии заменит историю бесед на этом устройстве.
 Восстановить историю можно только из резервной копии для одной и той же платформы.</string>
     <string name="restore_override_alert_ok">Выберите резервную копию</string>
     <string name="back_up_progress">РЕЗЕРВНОЕ КОПИРОВАНИЕ&#8230;</string>
