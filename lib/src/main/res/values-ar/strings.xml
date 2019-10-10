@@ -153,7 +153,7 @@
     <string name="content__system__other_left">[[%1$s]] غادر</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">لقد بدأتَ المحادثة</string>
-    <string name="content__system__other_started_conversation">%1$s started the conversation</string>
+    <string name="content__system__other_started_conversation">بدأ %1$s المحادثة</string>
     <string name="content__system__with_you_only">معك</string>
     <string name="content__system__with_list_only">مع %1$s</string>
     <plurals name="content__system__with_others_only">
@@ -234,6 +234,8 @@
     <string name="conversation__action__block">حظر&#8230;</string>
     <string name="conversation__action__unblock">إلغاء حظر</string>
     <string name="conversation__action__remove_member">أزل من المجموعة&#8230;</string>
+    <string name="conversation__action__add_to_favorites">إضافة إلى المفضلة</string>
+    <string name="conversation__action__remove_from_favorites">إزالة من المفضلة</string>
     <string name="conversation__action__leave_and_delete">\tالمغادرة ثم حذف المحتوى</string>
     <string name="conversation__action__leave_only">\tغادر الفريق</string>
     <string name="conversation__action__delete_and_leave">\tحذف المحتوى ثم المغادرة</string>
@@ -255,7 +257,7 @@
     <string name="incoming__controls__ongoing__speaker">السماعات الخارجية</string>
     <string name="incoming__controls__ongoing__mute">كتم الصوت</string>
     <string name="incoming__controls__ongoing__video">فيديو</string>
-    <string name="incoming__controls__ongoing__flip">FLIP</string>
+    <string name="incoming__controls__ongoing__flip">تدوير</string>
     <string name="ongoing__poor_connection_message">توقف الفيديو  بسبب ضعف الاتصال بالإنترنت</string>
     <string name="calling__self_preview_unavailable_long">الكاميرا غير متاحة</string>
     <string name="calling__header__joining">جارٍ الربط&#8230;</string>
@@ -271,7 +273,7 @@
     <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
     <string name="calling_ongoing_call_title">المكالمة الجارية</string>
     <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
-    <string name="calling_ongoing_call_start_anyway">CALL ANYWAY</string>
+    <string name="calling_ongoing_call_start_anyway">كلّم على أية حال</string>
     <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
     <string name="calling_ongoing_call_join_anyway">إنضم على أي حال</string>
     <string name="calling_ongoing_call_participants_header">المشاركون</string>
@@ -623,8 +625,8 @@
     <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
     <string name="ws_foreground_notification_connected_title">متصل بخادم Wire</string>
     <string name="ws_foreground_notification_no_internet_title">في انتظار الاتصال بالإنترنت&#8230;</string>
-    <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
-    <string name="ws_foreground_notification_summary">Tap here for more information.</string>
+    <string name="ws_foreground_notification_connecting_title">جارٍ انشاء اتصال&#8230;</string>
+    <string name="ws_foreground_notification_summary">اضغط هنا لمعلومات أكثر.</string>
     <!-- Notification actions -->
     <string name="notification__action__call">اتصال</string>
     <string name="notification__action__reply">رد</string>
@@ -880,7 +882,7 @@
     <string name="message_footer__status__deleted">\u30FB %1$s حذفت</string>
     <string name="message_footer__status__read">%1$s \u30FB @ %2$s</string>
     <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
-    <string name="message_footer__status__edited">Edited: %1$s</string>
+    <string name="message_footer__status__edited">عُدّل: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">قم بتعيين وقت للرسالة لتختفي</string>
     <string name="usernames__take_over__summary">الحصول على اسم فريد خاص بك على واير. _تعلم أكثر. _</string>
     <string name="usernames__take_over__choose">اختر الخاص بك</string>
@@ -1097,11 +1099,11 @@
     <string name="app_entry_sso_dialog_title">التسجيل عبر الشركة</string>
     <string name="app_entry_sso_dialog_message">Enter the company SSO access code.</string>
     <string name="app_entry_sso_input_hint"></string>
-    <string name="action_button_state_play">play</string>
-    <string name="action_button_state_pause">pause</string>
-    <string name="action_button_state_close">close</string>
-    <string name="action_button_state_redo">redo</string>
-    <string name="action_button_state_none">none</string>
+    <string name="action_button_state_play">تشغيل</string>
+    <string name="action_button_state_pause">إيقاف مؤقت</string>
+    <string name="action_button_state_close">أغلق</string>
+    <string name="action_button_state_redo">الإعادة</string>
+    <string name="action_button_state_none">لا شيء</string>
     <string name="pick_user_teams_invite">ادعُ أشخاصًا إلى الانضمام إلى الفريق</string>
     <string name="teams_invitations_skip">تخطي</string>
     <string name="teams_invitations_done">تم</string>
@@ -1129,7 +1131,7 @@
     <string name="done_button">تم</string>
     <string name="new_group_header">إنشاء مجموعة</string>
     <string name="add_participants_empty_header">إضافة مشاركين</string>
-    <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
+    <string name="add_participants_count_header">أضف مشاركين (%1$s)</string>
     <string name="new_conv_no_results">لا توجد نتائج</string>
     <string name="new_conv_no_contacts">ليس لديك مراسِلون</string>
     <string name="participants_divider_services">خدمات (%1$s)</string>
@@ -1155,7 +1157,7 @@
     <string name="notifications_options_title">الإشعارات</string>
     <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
     <string name="notifications_explanation_text">You can be notified about everything (including audio and video calls) or only when you are mentioned.</string>
-    <string name="show_all_participants">Show all (%1$s)</string>
+    <string name="show_all_participants">اظهر الكل (%1$s)</string>
     <string name="allow_guests_error_title">حدث خطأ</string>
     <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
     <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
@@ -1282,6 +1284,9 @@
     <string name="security_policy_setup_dialog_button">افتح الإعدادات</string>
     <string name="security_policy_invalid_password_dialog_title">صلابة الكلمة السرية غير كافية</string>
     <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum %1$s characters, at least one each of digit, uppercase, lowercase, and special symbol.</string>
-    <string name="invalid_cookie_dialog_title">Your session expired</string>
+    <string name="invalid_cookie_dialog_title">انتهت مدة صلاحية جلستك</string>
     <string name="invalid_cookie_dialog_message">The application did not communicate with the server for a long period of time, or your session has been remotely invalidated.</string>
+    <string name="conversation_folder_name_favorites">Favorites</string>
+    <string name="conversation_folder_name_group">المجموعات</string>
+    <string name="conversation_folder_name_one_to_one">أشخاص</string>
 </resources>

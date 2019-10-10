@@ -22,28 +22,28 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!--*********************************************** ERRORS ***********************************************-->
     <string name="generic_error_header">Coś poszło nie tak</string>
-    <string name="generic_error_message">Spróbuj ponownie</string>
+    <string name="generic_error_message">Proszę spróbować ponownie</string>
     <string name="internet_connectivity_error_header">Brak połączenia z Internetem</string>
-    <string name="internet_connectivity_error_message">Sprawdź swoje połączenie z internetem i spróbuj ponownie</string>
-    <string name="too_many_attempts_header">Zbyt dużo prób</string>
-    <string name="email_login_later_message">PLEASE TRY TO LOG IN LATER</string>
-    <string name="phone_login_later_message">Spróbuj zalogować się później</string>
-    <string name="email_exists_header">Adres e-mail już istnieje</string>
-    <string name="email_exists_message">THIS EMAIL ADDRESS HAS ALREADY BEEN REGISTERED</string>
+    <string name="internet_connectivity_error_message">Proszę sprawdzić połączenie z Internetem i spróbować ponownie</string>
+    <string name="too_many_attempts_header">Za dużo prób</string>
+    <string name="email_login_later_message">PROSZĘ SPRÓBOWAĆ ZALOGOWAĆ SIĘ PÓŹNIEJ</string>
+    <string name="phone_login_later_message">Proszę spróbować zalogować się później</string>
+    <string name="email_exists_header">Adres e-mail jest już w użyciu</string>
+    <string name="email_exists_message">TEN ADRES E-MAIL ZOSTAŁ JUŻ ZAREJESTROWANY</string>
     <string name="email_invalid_header">Nieprawidłowy adres e-mail</string>
     <string name="email_invalid_message">PROSZĘ PODAĆ POPRAWNY ADRES E-MAIL</string>
-    <string name="invalid_credentials_header">Niepoprawna informacja</string>
-    <string name="invalid_credentials_message">PLEASE VERIFY YOUR DETAILS AND TRY AGAIN</string>
+    <string name="invalid_credentials_header">Niepoprawne dane</string>
+    <string name="invalid_credentials_message">PROSZĘ SPRAWDZIĆ SWOJE DETALE I SPRÓBOWAĆ PONOWNIE</string>
     <string name="phone_exists_header">Ten numer telefonu jest już w użyciu</string>
-    <string name="phone_exists_message">Podany numer telefonu został już zarejestrowany. Spróbuj ponownie</string>
+    <string name="phone_exists_message">Podany numer telefonu został już zarejestrowany. Proszę spróbować ponownie</string>
     <string name="phone_invalid_format_header">Nieprawidłowy numer telefonu</string>
-    <string name="phone_invalid_format_message">Wprowadź poprawny numer telefonu</string>
+    <string name="phone_invalid_format_message">Proszę wprowadzić poprawny numer telefonu</string>
     <string name="phone_password_exists_header">Hasło istnieje</string>
     <string name="phone_password_exists_message">To konto ma już skojarzone hasło i e-mail. Zaloguj się przez e-mail.</string>
     <string name="invalid_code_header">Nieprawidłowy kod</string>
     <string name="incorrect_code_header">Niepoprawny kod</string>
-    <string name="wrong_code_message">PLEASE ENTER A VALID CODE</string>
-    <string name="phone_pending_login_header">Kod został wysłany</string>
+    <string name="wrong_code_message">PROSZĘ PODAĆ POPRAWNY KOD</string>
+    <string name="phone_pending_login_header">Kod został już wysłany</string>
     <string name="phone_pending_login_message">Wysłaliśmy już kod SMS. Wyślij ponownie po 10 minutach, aby uzyskać nowy kod.</string>
     <string name="phone_budget_exhausted_header">Zbyt wiele żądań</string>
     <string name="phone_budget_exhausted_message">Proszę spróbować ponownie później.</string>
@@ -61,7 +61,7 @@
     <string name="profile__email__verify__instructions">Wysłaliśmy e-mail na \n[[%1$s]]. \nSprawdź e-mail, by zweryfikować adres.</string>
     <string name="profile__email__verify__didnt_get">Nie dostałeś/aś wiadomości?</string>
     <string name="profile__email__verify__resend">Wyślij ponownie</string>
-    <string name="profile__guidance__invalid_email">Wprowadzono niepoprawny e-mail. Sprawdź i spróbuj ponownie</string>
+    <string name="profile__guidance__invalid_email">Wprowadzono niepoprawny e-mail. Proszę go sprawdzić i spróbować ponownie</string>
     <string name="new_reg__code_resent">Nowy kod został wysłany poprzez SMS</string>
     <string name="new_reg__email_code_resent">Nowy kod został wysłany na Twój adres e-mail</string>
     <string name="new_reg__code_resent__call">Oczekiwanie na połączenie</string>
@@ -81,12 +81,12 @@
     <string name="people_picker__search_result__expander_title">Pokaż wszystkie %1$s ↓</string>
     <string name="people_picker__search_people">OSOBY</string>
     <string name="people_picker__search_services">USŁUGI</string>
-    <string name="receive_news_and_offers_request_title">Newsletter</string>
+    <string name="receive_news_and_offers_request_title">Biuletyn informacyjny</string>
     <string name="receive_news_and_offers_request_body">Czy chcesz otrzymywać wiadomości i aktualności o Wire za pośrednictwem poczty elektronicznej? Możesz zrezygnować w dowolnym momencie.</string>
     <string name="crashes_and_analytics_request_title">Pomóż nam ulepszyć Wire</string>
     <string name="crashes_and_analytics_request_body">Zgadzam się, by Wire mogło tworzyć i używać anonimowe raporty o błędach w celu ulepszania aplikacji. Mogę odwołać tę zgodę w dowolnym momencie.</string>
     <string name="crashes_and_analytics_request_no">Nie</string>
-    <string name="crashes_and_analytics_request_agree">Odbierz</string>
+    <string name="crashes_and_analytics_request_agree">Zgadzam się</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">Usługi</string>
     <string name="integrations_errors_add_service">Dodanie usługi jest niemożliwe</string>
@@ -209,27 +209,29 @@
     <string name="content__file__action__save_error">Nie można zapisać pliku</string>
     <string name="content__location__no_map_placeholder">LOKALIZACJA BĘDZIE WIDOCZNA NA MAPIE PO ODZYSKANIU DOSTĘPU DO INTERNETU.</string>
     <!-- Conversation actions -->
-    <string name="conversation__action__delete">Usuń zawartość&#8230;</string>
-    <string name="conversation__action__archive">Archiwum</string>
+    <string name="conversation__action__delete">Usuń treść&#8230;</string>
+    <string name="conversation__action__archive">Archiwizuj</string>
     <string name="conversation__action__unarchive">Przywróć z archiwum</string>
     <string name="conversation__action__add_participants">DODAJ UCZESTNIKÓW</string>
     <string name="conversation__action__create_group">UTWÓRZ GRUPĘ</string>
-    <string name="conversation__action__open_conversation">OPEN CONVERSATION</string>
+    <string name="conversation__action__open_conversation">OTWÓRZ KONWERSACJĘ</string>
     <string name="conversation__action__notifications">Powiadomienia&#8230;</string>
     <string name="conversation__action__silence">Wycisz</string>
     <string name="conversation__action__unsilence">Wyłącz wyciszenie</string>
     <string name="conversation__action__leave">Opuść grupę&#8230;</string>
-    <string name="conversation__action__call">Połączenie</string>
-    <string name="conversation__action__picture">Zdjęcie profilowe</string>
+    <string name="conversation__action__call">Zadzwoń</string>
+    <string name="conversation__action__picture">Pokaż zdjęcie</string>
     <string name="conversation__action__block">Zablokuj&#8230;</string>
     <string name="conversation__action__unblock">Odblokuj</string>
-    <string name="conversation__action__remove_member">Remove from group&#8230;</string>
-    <string name="conversation__action__leave_and_delete">\tOpuść i usuń zawartość</string>
+    <string name="conversation__action__remove_member">Usuń z grupy&#8230;</string>
+    <string name="conversation__action__add_to_favorites">Add to Favorites</string>
+    <string name="conversation__action__remove_from_favorites">Remove from Favorites</string>
+    <string name="conversation__action__leave_and_delete">\tOpuść i usuń treść</string>
     <string name="conversation__action__leave_only">\tOpuść grupę</string>
-    <string name="conversation__action__delete_and_leave">\tUsuń zawartość i opuść</string>
-    <string name="conversation__action__delete_only">\tUsuń zawartość</string>
+    <string name="conversation__action__delete_and_leave">\tUsuń treść i opuść</string>
+    <string name="conversation__action__delete_only">\tUsuń treść</string>
     <string name="conversation__action__notifications_everything">Wszystko</string>
-    <string name="conversation__action__notifications_mentions_and_replies">Wzmianki i Odpowiedzi</string>
+    <string name="conversation__action__notifications_mentions_and_replies">Wzmianki i odpowiedzi</string>
     <string name="conversation__action__notifications_nothing">Brak</string>
     <string name="conversation__action__notifications_title">Powiadom mnie o:</string>
     <!-- Conversation: Profile Popover -->
@@ -239,26 +241,26 @@
     <string name="calling__cannot_start__title">Wymagany mikrofon</string>
     <string name="calling__cannot_start__message">Aby zadzwonić, zawieś aktualne połączenie.</string>
     <string name="calling__cannot_start__no_permission__message">Przejdź do ustawień i nadaj Wire dostęp do mikrofonu.</string>
-    <string name="calling__cannot_start__cancel__message">Anuluj</string>
+    <string name="calling__cannot_start__cancel__message">ANULUJ</string>
     <string name="calling__cannot_start__no_camera_permission__message">Wire nie ma dostępu do kamery</string>
     <string name="calling__video_call__slow_connection__message">Możesz doświadczyć problemów z połączeniem</string>
     <string name="incoming__controls__ongoing__speaker">GŁOŚNIK</string>
     <string name="incoming__controls__ongoing__mute">WYCISZ</string>
     <string name="incoming__controls__ongoing__video">WIDEO</string>
-    <string name="incoming__controls__ongoing__flip">OBRÓĆ</string>
+    <string name="incoming__controls__ongoing__flip">RZUĆ</string>
     <string name="ongoing__poor_connection_message">Wideo zatrzymane z powodu słabego połączenia z Internetem</string>
     <string name="calling__self_preview_unavailable_long">APARAT NIEDOSTĘPNY</string>
     <string name="calling__header__joining">Łączenie&#8230;</string>
-    <string name="calling__header__outgoing_subtitle">Dzwoni&#8230;</string>
-    <string name="calling__header__outgoing_video_subtitle">Dzwoni&#8230;</string>
-    <string name="calling__header__incoming_subtitle">Dzwoni&#8230;</string>
-    <string name="calling__header__incoming_subtitle__video">Dzwoni&#8230;</string>
+    <string name="calling__header__outgoing_subtitle">Dzwonię&#8230;</string>
+    <string name="calling__header__outgoing_video_subtitle">Dzwonię&#8230;</string>
+    <string name="calling__header__incoming_subtitle">Połączenie przychodzące&#8230;</string>
+    <string name="calling__header__incoming_subtitle__video">Połączenie przychodzące&#8230;</string>
     <string name="calling__header__incoming_subtitle__group">%1$s dzwoni&#8230;</string>
     <string name="call_banner_joining">Łączenie&#8230;</string>
     <string name="call_banner_outgoing">Dzwonię do %1$S&#8230;</string>
     <string name="call_banner_incoming">%1$s dzwoni&#8230;</string>
     <string name="call_banner_incoming_group">Dzwoni %1$s \u30FB %2$s&#8230;</string>
-    <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
+    <string name="call_banner_tap_to_return_to_call">Wróć do połączenia \u30FB %1$s</string>
     <string name="calling_ongoing_call_title">Bieżące połączenie</string>
     <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
     <string name="calling_ongoing_call_start_anyway">ZADZWOŃ MIMO WSZYSTKO</string>
@@ -449,15 +451,15 @@
     <string name="pref_advanced_debug_report_title">Create debug report</string>
     <string name="pref_advanced_debug_report_summary">You can submit this to Wire Support to help diagnose problems.</string>
     <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
-    <string name="pref_advanced_reset_push_summary">Jeśli masz problemy z powiadomieniami, pomoc Wire może poprosić o zresetowanie powiadomień.</string>
-    <string name="pref_advanced_reset_push_completed">Powiadomienia zostały zresetowane</string>
+    <string name="pref_advanced_reset_push_summary">Jeśli masz problemy z powiadomieniami push, pomoc techniczna Wire może poprosić o zresetowanie tego tokenu.</string>
+    <string name="pref_advanced_reset_push_completed">Token powiadomień push został zresetowany</string>
     <string name="debug_report__title">Wire raport debugowania - %1$s</string>
     <string name="debug_report__body">Prosimy, opisz czynności wymagane do odtworzenia problemu, jeśli to możliwe załącz zrzuty ekranu, i wyślij ten email.\n\n</string>
     <string name="pref_advanced_ws_foreground_title">Utrzymuj połączenie z serwerem</string>
     <string name="pref_advanced_ws_foreground_summary">Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
-    <string name="pref_advanced_full_sync_title">Perform full synchronization</string>
-    <string name="pref_advanced_full_sync_summary">This performs a full synchronization with the server.</string>
+    <string name="pref_advanced_full_sync_title">Wykonaj pełną synchronizację</string>
+    <string name="pref_advanced_full_sync_summary">Wykonuje pełną synchronizację z serwerem.</string>
     <string name="pref_advanced_full_sync_popup">Are you sure? The full synchronization may take a while.</string>
     <!-- Support -->
     <string name="pref_support_screen_title">Wsparcie</string>
@@ -505,7 +507,7 @@
     <string name="pref__account_action__dialog__change_username__error_already_taken">Jest już w użyciu</string>
     <string name="pref__account_action__dialog__change_username__error_unknown">Błąd połączenia, spróbuj ponownie</string>
     <string name="pref__account_privacy">Prywatność</string>
-    <string name="pref__account_send_read_receipts_title">Send Read Receipts</string>
+    <string name="pref__account_send_read_receipts_title">Wysyłaj potwierdzenia przeczytania</string>
     <string name="pref__account_send_read_receipts_summary">When this is off, you won’t be able to see read receipts from other people. This setting does not apply to group conversations.</string>
     <!-- No Internet connection -->
     <string name="system_status__no_internet">Brak Internetu</string>
@@ -522,9 +524,9 @@
     <!-- Lockscreen and notifications -->
     <string name="message_notifications_channel_name">Wiadomości</string>
     <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
-    <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
-    <string name="ping_notifications_channel_name">Pings</string>
-    <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
+    <string name="incoming_call_notifications_channel_name">Połączenia przychodzące</string>
+    <string name="ping_notifications_channel_name">Zaczepki</string>
+    <string name="ping_notifications_channel_description">Powiadomienia kiedy inni użytkownicy Cię zaczepiają</string>
     <string name="ongoing_channel_name">Powiadomienia w tle</string>
     <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
     <string name="foreground_service_notification_name">Utrzymuj połączenie z serwerem</string>
@@ -684,7 +686,7 @@
     <!-- Giphy -->
     <string name="giphy_preview__search_hint">Szukaj Giphy</string>
     <string name="giphy_preview__error">NIE ZNALEZIONO GIFÓW.</string>
-    <string name="giphy_preview__message_via_random_trending">dzięki giphy.com</string>
+    <string name="giphy_preview__message_via_random_trending">poprzez giphy.com</string>
     <string name="giphy_preview__message_via_search">%s · przez giphy.com</string>
     <string name="service_giphy_name">Giphy</string>
     <!--Sketch-->
@@ -730,8 +732,8 @@
     <string name="otr__participant__device_class__tablet">Tablet</string>
     <string name="otr__participant__device_class__desktop">Komputer stacjonarny</string>
     <string name="otr__participant__tab_details">SZCZEGÓŁY</string>
-    <string name="otr__participant__tab_devices">DEVICES</string>
-    <string name="otr__participant__information">INFORMATION</string>
+    <string name="otr__participant__tab_devices">URZĄDZENIA</string>
+    <string name="otr__participant__information">INFORMACJE</string>
     <string name="otr__participant__single_device__my_fingerprint_link">Pokaż unikalny klucz moich urządzeń</string>
     <string name="otr__participant__single_device__reset_session_link">Resetuj sesję</string>
     <string name="otr__participant__my_device__description">Twój unikalny klucz</string>
@@ -827,7 +829,7 @@
     <string name="message_details_title">SZCZEGÓŁY WIADOMOŚCI</string>
     <string name="message_liked_title">LIKED</string>
     <string name="message_read_title">READ</string>
-    <string name="message_details_sent">Wyślij</string>
+    <string name="message_details_sent">Wysłane</string>
     <string name="message_details_last_edited">Edited</string>
     <string name="tab_title_read">READ</string>
     <string name="tab_title_likes">LIKED</string>
@@ -854,7 +856,7 @@
     <string name="usernames__take_over__summary">Ubiegaj się o swoją unikalną nazwę w Wire. _Dowiedz się więcej._</string>
     <string name="usernames__take_over__choose">WYBIERZ SWOJE WŁASNE</string>
     <string name="usernames__take_over__keep">ZACHOWAJ TO</string>
-    <string name="ephemeral_message__timeout__off">Wyłącz</string>
+    <string name="ephemeral_message__timeout__off">Wyłączony</string>
     <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
     <string name="guests_option_on">On</string>
     <plurals name="unit_years">
@@ -916,7 +918,7 @@
     <plurals name="conversation_list__pings_count">
         <item quantity="one">%1$s zaczepienie</item>
         <item quantity="few">%1$s zaczepienia</item>
-        <item quantity="many">%1$s pings</item>
+        <item quantity="many">%1$s zaczepień</item>
         <item quantity="other">%1$s zaczepień</item>
     </plurals>
     <plurals name="conversation_list__new_likes_count">
@@ -1003,31 +1005,31 @@
     <string name="new_devices_dialog_info">Jeśli nie rozpoznajesz urządzenia, Usuń urządzenie i zresetuj hasło.</string>
     <string name="new_devices_dialog_manage_devices">Zarządzaj urządzeniami</string>
     <string name="teams_set_email_title">Twoje konto</string>
-    <string name="teams_set_email_subtitle">Podaj swój służbowy e-mail.</string>
+    <string name="teams_set_email_subtitle">Podaj swój służbowy adres e-mail.</string>
     <string name="teams_set_email_hint">TY@TWOJAFIRMA.PL</string>
     <string name="teams_set_email_about">DOWIEDZ SIĘ WIĘCEJ</string>
     <string name="teams_set_password_title">Ustaw hasło</string>
     <string name="teams_set_password_hint">Hasło</string>
     <string name="teams_set_username_title">Ustaw nazwę użytkownika</string>
     <string name="teams_set_username_hint">NAZWA UŻYTKOWNIKA</string>
-    <string name="teams_set_team_name_title">Nazwij twoją drużynę</string>
-    <string name="teams_set_team_name_subtitle">Możesz zawsze zmienić go później.</string>
+    <string name="teams_set_team_name_title">Nazwij swój zespół</string>
+    <string name="teams_set_team_name_subtitle">Zawsze możesz to później zmienić.</string>
     <string name="teams_set_team_name_hint">NAZWA ZESPOŁU</string>
     <string name="teams_set_team_name_about">CZYM JEST WIRE DLA ZESPOŁÓW?</string>
-    <string name="teams_verify_email_title">Masz wiadomość</string>
+    <string name="teams_verify_email_title">Masz wiadomość e-mail</string>
     <string name="teams_verify_email_subtitle">Wpisz kod weryfikacyjny wysłany do %1$s.</string>
     <string name="teams_verify_email_resend">WYŚLIJ PONOWNIE KOD</string>
     <string name="teams_verify_email_change">ZMIEŃ ADRES E-MAIL</string>
     <string name="teams_set_name_title">Twoja nazwa</string>
-    <string name="teams_set_name_hint">PEŁNE IMIĘ I NAZWISKO</string>
-    <string name="app_entry_create_account">Prywatnie</string>
+    <string name="teams_set_name_hint">IMIĘ I NAZWISKO</string>
+    <string name="app_entry_create_account">Osobiste</string>
     <string name="app_entry_create_account_sub">Chat privately with groups of friends and family</string>
     <string name="app_entry_create_team">Pro</string>
     <string name="app_entry_create_team_sub">Secure collaboration for businesses, institutions and professional organizations</string>
     <string name="app_entry_login_sub">Masz już konto?</string>
-    <string name="app_entry_login">Logowanie</string>
-    <string name="app_entry_tc_dialog_title">Zasady użytkowania</string>
-    <string name="app_entry_tc_dialog_message">Aby kontynuować, musisz zaakceptować</string>
+    <string name="app_entry_login">Zaloguj się</string>
+    <string name="app_entry_tc_dialog_title">Warunki świadczenia usług</string>
+    <string name="app_entry_tc_dialog_message">Musisz wyrazić zgodę, aby przejść dalej</string>
     <string name="app_entry_notifications_dialog_title">Powiadomienia</string>
     <string name="app_entry_notifications_dialog_message">Powiadomienia mogą zawierać alerty, dźwięki i ikony. Można je skonfigurować w ustawieniach.</string>
     <string name="app_entry_dialog_accept">ZAAKCEPTUJ</string>
@@ -1137,7 +1139,7 @@
     <string name="new_device_password">Nowe urządzenie</string>
     <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
     <string name="restore_from_backup_button">PRZYWRÓĆ Z KOPII ZAPASOWEJ</string>
-    <string name="second_launch__header">Używałeś wcześniej Wire na tym urządzeniu</string>
+    <string name="second_launch__header">Używałeś(aś) wcześniej Wire na tym urządzeniu.</string>
     <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
     <string name="restore_override_alert_title">Restore history</string>
     <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
@@ -1163,7 +1165,7 @@
     <string name="markdown_link_dialog_title">Visit Link</string>
     <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>
-    <string name="markdown_link_dialog_cancel">Anuluj</string>
+    <string name="markdown_link_dialog_cancel">ANULUJ</string>
     <string name="max_participants_alert_title">Zbyt wielu uczestników rozmowy</string>
     <string name="max_participants_create_alert_message">Up to %1$s people can join a conversation.</string>
     <string name="max_participants_add_alert_message">Up to %1$s people can join a conversation. Currently there is only room for %2$s more.</string>
@@ -1180,7 +1182,7 @@
     <string name="generic_service_warning">Services have access to the content of this conversation</string>
     <string name="add_services_button_text">Manage services</string>
     <string name="wire_notification_name">Wire Notification</string>
-    <string name="wire_ping_name">Wire ping</string>
+    <string name="wire_ping_name">Zaczepka Wire</string>
     <string name="reply_self_name">Ty</string>
     <string name="reply_message_type_image">OBRAZ</string>
     <string name="reply_message_type_video">WIDEO</string>
@@ -1229,4 +1231,7 @@
     <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum %1$s characters, at least one each of digit, uppercase, lowercase, and special symbol.</string>
     <string name="invalid_cookie_dialog_title">Your session expired</string>
     <string name="invalid_cookie_dialog_message">The application did not communicate with the server for a long period of time, or your session has been remotely invalidated.</string>
+    <string name="conversation_folder_name_favorites">Favorites</string>
+    <string name="conversation_folder_name_group">Grupy</string>
+    <string name="conversation_folder_name_one_to_one">Osoby</string>
 </resources>
