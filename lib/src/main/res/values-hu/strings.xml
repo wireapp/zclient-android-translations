@@ -216,6 +216,8 @@
     <string name="conversation__action__remove_member">Eltávolítás a csoportból</string>
     <string name="conversation__action__add_to_favorites">Add to Favorites</string>
     <string name="conversation__action__remove_from_favorites">Remove from Favorites</string>
+    <string name="conversation__action__move_to_folder">Move to&#8230;</string>
+    <string name="conversation__action__remove_from_folder">Remove from \"%1$s\"</string>
     <string name="conversation__action__leave_and_delete">\tKilépés és tartalom törlése</string>
     <string name="conversation__action__leave_only">\tKilépés a csoportból</string>
     <string name="conversation__action__delete_and_leave">\tTartalom törlése és kilépés</string>
@@ -506,10 +508,10 @@
     <!-- Lockscreen and notifications -->
     <string name="message_notifications_channel_name">Üzenetek</string>
     <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
-    <string name="incoming_call_notifications_channel_name">Incoming Calls</string>
+    <string name="incoming_call_notifications_channel_name">Bejövő hívások</string>
     <string name="ping_notifications_channel_name">Pings</string>
     <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
-    <string name="ongoing_channel_name">Background notifications</string>
+    <string name="ongoing_channel_name">Háttér értesítések</string>
     <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
     <string name="foreground_service_notification_name">Maintain connection to server</string>
     <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
@@ -547,6 +549,8 @@
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">\u2764-t küldött az üzenetedre</string>
     <string name="notification__message__liked_picture">\u2764-t küldött a fotódra</string>
+    <string name="notification__message__conversation_deleted">Someone deleted the group</string>
+    <string name="notification__message__conversation_deleted_by">%1$s deleted the group</string>
     <!-- ephemeral -->
     <string name="notification__message__ephemeral_someone">Valaki</string>
     <plurals name="notification__message__ephemeral">
@@ -572,11 +576,11 @@
     <string name="system_notification__leave_call">Hívás befejezése</string>
     <string name="system_notification__calling_one">Hívás&#8230;</string>
     <string name="system_notification__calling_group">%1$s hív&#8230;</string>
-    <string name="system_notification__video_calling_one">Calling with video&#8230;</string>
+    <string name="system_notification__video_calling_one">Hívás videóval&#8230;</string>
     <string name="system_notification__video_calling_group">%1$s is calling with video&#8230;</string>
-    <string name="ws_foreground_notification_connected_title">Connected to Wire server</string>
-    <string name="ws_foreground_notification_no_internet_title">Waiting for Internet connection&#8230;</string>
-    <string name="ws_foreground_notification_connecting_title">Establishing connection&#8230;</string>
+    <string name="ws_foreground_notification_connected_title">Csatlakoztatva a Wire szerveréhez</string>
+    <string name="ws_foreground_notification_no_internet_title">Várakozás az internet kapcsolatra&#8230;</string>
+    <string name="ws_foreground_notification_connecting_title">Kapcsolat létrehozása&#8230;</string>
     <string name="ws_foreground_notification_summary">Tap here for more information.</string>
     <!-- Notification actions -->
     <string name="notification__action__call">Hívás</string>
@@ -611,8 +615,8 @@
     <!--Timestamp formatting-->
     <string name="timestamp__just_now">Épp most</string>
     <plurals name="timestamp__x_minutes_ago_1">
-        <item quantity="one">%1$s minute ago</item>
-        <item quantity="other">%1$s minutes ago</item>
+        <item quantity="one">%1$s perccel ezelőtt</item>
+        <item quantity="other">%1$s perccel ezelött</item>
     </plurals>
     <!-- http://joda-time.sourceforge.net/apidocs/org/joda/time/format/DateTimeFormat.html -->
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
@@ -680,7 +684,7 @@
     <string name="location_sharing__enable_system_location__cancel">Mégsem</string>
     <string name="location_sharing__missing_play_services">A helymegosztáshoz a Google Play Services telepítésére van szükség</string>
     <string name="location_sharing__permission__message">Do you want to allow Wire to access your location?</string>
-    <string name="location_sharing__permission__title">Location sharing</string>
+    <string name="location_sharing__permission__title">Helymegosztás</string>
     <string name="location_sharing__permission__cancel">Mégsem</string>
     <string name="location_sharing__permission__continue">OK</string>
     <!-- From SyncEngine -->
@@ -688,7 +692,7 @@
     <!-- OTR -->
     <string name="otr__remove_device__title">%1$s eszköz eltávolítása</string>
     <string name="otr__remove_device__message">Add meg a jelszavad</string>
-    <string name="otr__remove_device__are_you_sure">Are you sure?</string>
+    <string name="otr__remove_device__are_you_sure">Biztos benne?</string>
     <string name="otr__remove_device__default">eszköz</string>
     <string name="otr__remove_device__button_delete">OK</string>
     <string name="otr__remove_device__button_cancel">Mégsem</string>
@@ -705,8 +709,8 @@
     <string name="otr__participant__device_class__tablet">Táblagép</string>
     <string name="otr__participant__device_class__desktop">Asztali számítógép</string>
     <string name="otr__participant__tab_details">RÉSZLETEK</string>
-    <string name="otr__participant__tab_devices">DEVICES</string>
-    <string name="otr__participant__information">INFORMATION</string>
+    <string name="otr__participant__tab_devices">ESZKÖZÖK</string>
+    <string name="otr__participant__information">INFORMÁCIÓ</string>
     <string name="otr__participant__single_device__my_fingerprint_link">Eszköz ujjlenyomatának megjelenítése</string>
     <string name="otr__participant__single_device__reset_session_link">Visszaállítás</string>
     <string name="otr__participant__my_device__description">Saját eszköz ujjlenyomata</string>
@@ -749,7 +753,7 @@
     <string name="no_conversation_in_list__header">Még nincsenek beszélgetések</string>
     <string name="all_archived__header">Minden archiválva</string>
     <string name="no_conversation_in_list__message">Indíts egy beszélgetést vagy hozz létre egy csoportot.</string>
-    <string name="default_deleted_username">Default</string>
+    <string name="default_deleted_username">Alapértelmezett</string>
     <string name="cursor__type_a_message">ÜZENET ÍRÁSA...</string>
     <string name="cursor__ephemeral_message">IDŐZÍTETT ÜZENET ÍRÁSA...</string>
     <string name="tooltip_record">Videó Felvétele</string>
@@ -832,27 +836,27 @@
     <string name="guests_option_on">Be</string>
     <plurals name="unit_years">
         <item quantity="one">%1$s év</item>
-        <item quantity="other">%1$s years</item>
+        <item quantity="other">%1$s év</item>
     </plurals>
     <plurals name="unit_weeks">
         <item quantity="one">%1$s hét</item>
-        <item quantity="other">%1$s weeks</item>
+        <item quantity="other">%1$s hét</item>
     </plurals>
     <plurals name="unit_days">
         <item quantity="one">%1$s nap</item>
-        <item quantity="other">%1$s days</item>
+        <item quantity="other">%1$s nap</item>
     </plurals>
     <plurals name="unit_hours">
         <item quantity="one">%1$s óra</item>
-        <item quantity="other">%1$s hours</item>
+        <item quantity="other">%1$s óra</item>
     </plurals>
     <plurals name="unit_minutes">
         <item quantity="one">%1$s perc</item>
-        <item quantity="other">%1$s minutes</item>
+        <item quantity="other">%1$s perc</item>
     </plurals>
     <plurals name="unit_seconds">
         <item quantity="one">%1$s másodperc</item>
-        <item quantity="other">%1$s seconds</item>
+        <item quantity="other">%1$s másodperc</item>
     </plurals>
     <string name="ephemeral_message_footer_multiple_units">%1$s and %2$s remaining</string>
     <string name="ephemeral_message_footer_single_unit">%1$s remaining</string>
@@ -915,6 +919,7 @@
     <string name="conversation_list__left_you">Kiléptél</string>
     <string name="conversation_list__removed_you">[[%1$s]] eltávolított téged</string>
     <string name="conversation_list__header__title">BESZÉLGETÉSEK</string>
+    <string name="conversation_list__header__folders_title">FOLDERS</string>
     <string name="conversation_list__header__archive_title">ARCHÍVUM</string>
     <string name="conversation_list__single_with_quote">Reply: %1$s</string>
     <string name="conversation_list__group_with_quote">Reply from %1$s: %2$s</string>
@@ -982,7 +987,7 @@
     <string name="app_entry_dialog_accept">ELFOGADÁS</string>
     <string name="app_entry_dialog_cancel">MÉGSEM</string>
     <string name="app_entry_dialog_log_in">BEJELENTKEZÉS</string>
-    <string name="app_entry_dialog_no_thanks">NO, THANKS</string>
+    <string name="app_entry_dialog_no_thanks">KÖSZÖNÖM, NEM</string>
     <string name="app_entry_dialog_not_now">MOST NEM</string>
     <string name="app_entry_dialog_view">NÉZET</string>
     <string name="app_entry_dialog_privacy_policy">ADATVÉDELMI IRÁNYELVEK</string>
@@ -991,10 +996,10 @@
     <string name="app_entry_sso_dialog_title">Company login</string>
     <string name="app_entry_sso_dialog_message">Enter the company SSO access code.</string>
     <string name="app_entry_sso_input_hint"></string>
-    <string name="action_button_state_play">play</string>
-    <string name="action_button_state_pause">pause</string>
-    <string name="action_button_state_close">close</string>
-    <string name="action_button_state_redo">redo</string>
+    <string name="action_button_state_play">Lejátszás</string>
+    <string name="action_button_state_pause">szünet</string>
+    <string name="action_button_state_close">bezár</string>
+    <string name="action_button_state_redo">ismét</string>
     <string name="action_button_state_none">none</string>
     <string name="pick_user_teams_invite">Hívj meg másokat a csapatba</string>
     <string name="teams_invitations_skip">KIHAGY</string>
@@ -1131,13 +1136,13 @@
     <string name="wire_notification_name">Wire Notification</string>
     <string name="wire_ping_name">Wire Kopogás</string>
     <string name="reply_self_name">Te</string>
-    <string name="reply_message_type_image">IMAGE</string>
+    <string name="reply_message_type_image">KÉP</string>
     <string name="reply_message_type_video">VIDEÓ</string>
-    <string name="reply_message_type_audio">AUDIO MESSAGE</string>
+    <string name="reply_message_type_audio">HANG ÜZENET</string>
     <string name="reply_message_type_location">LOCATION</string>
     <string name="reply_message_type_asset">ATTACHMENT</string>
     <string name="reply_message_type_unknown">You cannot see this message.</string>
-    <string name="deep_link_generic_error_title">Invalid link.</string>
+    <string name="deep_link_generic_error_title">Érvénytelen hivatkozás.</string>
     <string name="deep_link_generic_error_message">The link you opened is not valid.</string>
     <string name="deep_link_conversation_error_title">Wire can\'t open this conversation.</string>
     <string name="deep_link_conversation_error_message">You may not have permission with this account or the person may not be on Wire.</string>
@@ -1168,17 +1173,25 @@
     <string name="app_lock_locked_title">Wire is locked due to inactivity</string>
     <string name="app_lock_locked_message">Please enter your device credentials.</string>
     <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passphrase in your device settings.</string>
-    <string name="app_lock_setup_dialog_button">Open settings</string>
+    <string name="app_lock_setup_dialog_button">Beállítások megnyitása</string>
     <string name="security_policy_title">Wire Security Policy</string>
     <string name="security_policy_description">Allow Wire to make your device more secure.</string>
     <string name="security_policy_setup_dialog_title">Enable Security Policy</string>
     <string name="security_policy_setup_dialog_message">Wire needs admin privileges to set security policies.</string>
-    <string name="security_policy_setup_dialog_button">Open settings</string>
+    <string name="security_policy_setup_dialog_button">Beállítások megnyitása</string>
     <string name="security_policy_invalid_password_dialog_title">Password strength insufficient</string>
     <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum %1$s characters, at least one each of digit, uppercase, lowercase, and special symbol.</string>
     <string name="invalid_cookie_dialog_title">Your session expired</string>
     <string name="invalid_cookie_dialog_message">The application did not communicate with the server for a long period of time, or your session has been remotely invalidated.</string>
-    <string name="conversation_folder_name_favorites">Favorites</string>
+    <string name="conversation_folder_name_favorites">Kedvencek</string>
     <string name="conversation_folder_name_group">Csoportok</string>
     <string name="conversation_folder_name_one_to_one">Partner</string>
+    <string name="folders_move_to">MOVE TO</string>
+    <string name="folders_no_custom_folder_found">Create a new folder by pressing the + button</string>
+    <string name="folders_create_new_folder">CREATE NEW FOLDER</string>
+    <string name="folders_create_new_folder_action">LÉTREHOZÁSA</string>
+    <string name="folders_create_new_folder_info">Move the conversation \"%1$s\" to a new folder.</string>
+    <string name="folders_folder_name_hint">MAPPA NEVE</string>
+    <string name="folders_folder_name_error_text">Maximum %s karakter</string>
+    <string name="folders_move_to_folder_close">Bezárás</string>
 </resources>

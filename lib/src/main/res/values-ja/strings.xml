@@ -211,6 +211,8 @@
     <string name="conversation__action__remove_member">グループから削除</string>
     <string name="conversation__action__add_to_favorites">お気に入りに追加</string>
     <string name="conversation__action__remove_from_favorites">お気に入りから削除</string>
+    <string name="conversation__action__move_to_folder">Move to&#8230;</string>
+    <string name="conversation__action__remove_from_folder">%1$s から削除</string>
     <string name="conversation__action__leave_and_delete">\t退出してアカウントを削除する</string>
     <string name="conversation__action__leave_only">\tグループを離れる</string>
     <string name="conversation__action__delete_and_leave">\tコンテンツを削除して退出する</string>
@@ -538,6 +540,8 @@
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">\u2764 あなたのメッセージ</string>
     <string name="notification__message__liked_picture">\u2764 あなたの画像</string>
+    <string name="notification__message__conversation_deleted">誰かがグループを削除しました</string>
+    <string name="notification__message__conversation_deleted_by">%1$s がグループを削除しました</string>
     <!-- ephemeral -->
     <string name="notification__message__ephemeral_someone">誰か</string>
     <plurals name="notification__message__ephemeral">
@@ -889,6 +893,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="conversation_list__left_you">あなたは退出しました</string>
     <string name="conversation_list__removed_you">[[%1$s]] あなたを削除しました</string>
     <string name="conversation_list__header__title">会話</string>
+    <string name="conversation_list__header__folders_title">フォルダ</string>
     <string name="conversation_list__header__archive_title">アーカイブ</string>
     <string name="conversation_list__single_with_quote">返信: %1$s</string>
     <string name="conversation_list__group_with_quote">%2$s 内 %1$s: からの返信</string>
@@ -1154,5 +1159,13 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="invalid_cookie_dialog_message">The application did not communicate with the server for a long period of time, or your session has been remotely invalidated.</string>
     <string name="conversation_folder_name_favorites">お気に入り</string>
     <string name="conversation_folder_name_group">グループ</string>
-    <string name="conversation_folder_name_one_to_one">ピープル</string>
+    <string name="conversation_folder_name_one_to_one">メンバー</string>
+    <string name="folders_move_to">MOVE TO</string>
+    <string name="folders_no_custom_folder_found">Create a new folder by pressing the + button</string>
+    <string name="folders_create_new_folder">新規フォルダを作成</string>
+    <string name="folders_create_new_folder_action">作成</string>
+    <string name="folders_create_new_folder_info">Move the conversation \"%1$s\" to a new folder.</string>
+    <string name="folders_folder_name_hint">フォルダ名</string>
+    <string name="folders_folder_name_error_text">最大 %s 文字</string>
+    <string name="folders_move_to_folder_close">閉じる</string>
 </resources>

@@ -236,6 +236,8 @@
     <string name="conversation__action__remove_member">أزل من المجموعة&#8230;</string>
     <string name="conversation__action__add_to_favorites">إضافة إلى المفضلة</string>
     <string name="conversation__action__remove_from_favorites">إزالة من المفضلة</string>
+    <string name="conversation__action__move_to_folder">انقله إلى&#8230;</string>
+    <string name="conversation__action__remove_from_folder">إزلة مِن \"%1$s\"</string>
     <string name="conversation__action__leave_and_delete">\tالمغادرة ثم حذف المحتوى</string>
     <string name="conversation__action__leave_only">\tغادر الفريق</string>
     <string name="conversation__action__delete_and_leave">\tحذف المحتوى ثم المغادرة</string>
@@ -286,7 +288,7 @@
     <!-- Connect request -->
     <string name="connect__message">مرحبا %1$s ، هيا لنتصل عبر واير. %2$s</string>
     <string name="connect_request__sub_header__pending_label">معلق</string>
-    <string name="connect_request__cancel_request__label">CANCEL CONNECTION REQUEST</string>
+    <string name="connect_request__cancel_request__label">إلغاء طلب الاتصال</string>
     <string name="connect_request__unblock__button__text">إلغاء حظر</string>
     <string name="send_connect_request__connect_button__text">إتصل</string>
     <plurals name="connect_inbox__link__name">
@@ -438,7 +440,7 @@
     <string name="pref_options_cursor_send_button_summary">تعطي الإرسال عن طريق لوحة المفاتيح.</string>
     <string name="pref_options_message_previews">استعراض الرسائل</string>
     <string name="pref_options_message_previews_summary">Display message content in notifications.</string>
-    <string name="pref_options_app_lock_title">Lock with Passphrase</string>
+    <string name="pref_options_app_lock_title">اقفله بعبارة سرية</string>
     <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Password or Biometrics.</string>
     <string name="pref_options_incognito_keyboard">وضع المجهول للوحة المفاتيح</string>
     <string name="pref_options_incognito_keyboard_summary">The keyboard will not show suggestions when typing messages</string>
@@ -474,10 +476,10 @@
     <string name="pref_advanced_reset_push_completed">تم إعادة تعيين أذون التدفق</string>
     <string name="debug_report__title">تقرير واير لتصحيح الأخطاء -%1$s</string>
     <string name="debug_report__body">يرجى وصف الخطوات المطلوبة لإعادة إنشاء المشكلة، وتزويدنا بصور (سكرين شوت) و إرسالها لهذا البريد الإلكتروني. \n\n</string>
-    <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
+    <string name="pref_advanced_ws_foreground_title">الإبقاء على الاتصال بالخادم</string>
     <string name="pref_advanced_ws_foreground_summary">Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
-    <string name="pref_advanced_full_sync_title">Perform full synchronization</string>
+    <string name="pref_advanced_full_sync_title">القيام بمزامنة كاملة</string>
     <string name="pref_advanced_full_sync_summary">This performs a full synchronization with the server.</string>
     <string name="pref_advanced_full_sync_popup">Are you sure? The full synchronization may take a while.</string>
     <!-- Support -->
@@ -548,7 +550,7 @@
     <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
     <string name="ongoing_channel_name">الإشعارات في الخلفية</string>
     <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
-    <string name="foreground_service_notification_name">Maintain connection to server</string>
+    <string name="foreground_service_notification_name">الإبقاء على الاتصال بالخادم</string>
     <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
     <plurals name="notification__new_messages__multiple">
         <item quantity="zero">%1$d رسائل في %2$s  محادثات</item>
@@ -588,6 +590,8 @@
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">\u2764 رسالتك</string>
     <string name="notification__message__liked_picture">\u2764 صورتك</string>
+    <string name="notification__message__conversation_deleted">Someone deleted the group</string>
+    <string name="notification__message__conversation_deleted_by">%1$s deleted the group</string>
     <!-- ephemeral -->
     <string name="notification__message__ephemeral_someone">شخص ما</string>
     <plurals name="notification__message__ephemeral">
@@ -1023,6 +1027,7 @@
     <string name="conversation_list__left_you">أنت غادرت</string>
     <string name="conversation_list__removed_you">[[%1$s]] قام بإزالتك</string>
     <string name="conversation_list__header__title">المحادثات</string>
+    <string name="conversation_list__header__folders_title">المجلدات</string>
     <string name="conversation_list__header__archive_title">حفظ في الأرشيف</string>
     <string name="conversation_list__single_with_quote">رد على: %1$s</string>
     <string name="conversation_list__group_with_quote">رد مِن %1$s: %2$s</string>
@@ -1094,7 +1099,7 @@
     <string name="app_entry_dialog_not_now">ليس الآن</string>
     <string name="app_entry_dialog_view">إعرض</string>
     <string name="app_entry_dialog_privacy_policy">سياسة الخصوصية</string>
-    <string name="app_entry_email_sent">Email sent</string>
+    <string name="app_entry_email_sent">تم ارسال البريد الإلكتروني</string>
     <string name="teams_set_username_subtitle">إسم المستخدم يُسهّل على الآخرين العثور عليك.</string>
     <string name="app_entry_sso_dialog_title">التسجيل عبر الشركة</string>
     <string name="app_entry_sso_dialog_message">Enter the company SSO access code.</string>
@@ -1162,7 +1167,7 @@
     <string name="allow_guests_error_body">Could not allow guests nor services. Please try again.</string>
     <string name="allow_guests_warning_body">Current guests and services will be removed from the conversation. New guests and services will not be allowed.</string>
     <string name="allow_guests_warning_confirm">إزالة</string>
-    <string name="guests_are_present">GUESTS ARE PRESENT</string>
+    <string name="guests_are_present">هناك ضيوف</string>
     <string name="services_are_present">الخدمات نشطة</string>
     <string name="guests_and_services_are_present">GUESTS AND SERVICES ARE PRESENT</string>
     <string name="participants_details_header_title">التفاصيل</string>
@@ -1178,9 +1183,9 @@
     <string name="invite_button_description">يمكن لأشخاص خارج فريقكم مِن الدخول إلى هذه المحادثة.</string>
     <string name="invite_people">دعوة أُناس</string>
     <string name="guest_room_name">غرفة الضيوف</string>
-    <string name="guest_time_left_hours">%1$sh left</string>
-    <string name="guest_time_left_hours_minutes">%1$s.%2$sh left</string>
-    <string name="guest_time_left_minutes">Less than %1$sm left</string>
+    <string name="guest_time_left_hours">لم يتبقّى إلّا %1$s سا</string>
+    <string name="guest_time_left_hours_minutes">%1$s.%2$s سا متبقية</string>
+    <string name="guest_time_left_minutes">أقل مِن %1$s د متبقية</string>
     <string name="backup_description">Create a backup to preserve your conversation history. You can use this to restore history if you lose your device or switch to a new one.
         \n\nChoose a strong password to protect the backup file.</string>
     <string name="pref_account_backup_title">أجرِ نَسخًا احتياطيًا للمحادثات</string>
@@ -1266,14 +1271,14 @@
     <string name="custom_backend_dialog_logged_in_error_title">تعذّر تبديل الخوادم</string>
     <string name="custom_backend_dialog_logged_in_error_message">You are already logged in.\nTo connect to this server, log out of all accounts and try again.</string>
     <string name="root_detected_dialog_title">Jailbreak/root detected</string>
-    <string name="root_detected_dialog_message">You can not use Wire on this device.</string>
+    <string name="root_detected_dialog_message">لا يمكنك استخدام Wire على هذا الجهاز.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">الرسالة الأصلية مِن %s</string>
     <string name="quote_timestamp_message_date">الرسالة الأصلية مِن %s</string>
     <string name="read_receipts_remotely_enabled_title">لقد نشَّطتَ إيصالات القراءة</string>
     <string name="read_receipts_remotely_disabled_title">لقد عطّلتَ إيصالات القراءة</string>
     <string name="read_receipts_remotely_changed_message">يمكنك تغيير هذا الخيار في إعدادات حسابك.</string>
-    <string name="app_lock_locked_title">Wire is locked due to inactivity</string>
+    <string name="app_lock_locked_title">تم تأمين Wire بسبب خمول النشاط</string>
     <string name="app_lock_locked_message">Please enter your device credentials.</string>
     <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passphrase in your device settings.</string>
     <string name="app_lock_setup_dialog_button">افتح الإعدادات</string>
@@ -1286,7 +1291,15 @@
     <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum %1$s characters, at least one each of digit, uppercase, lowercase, and special symbol.</string>
     <string name="invalid_cookie_dialog_title">انتهت مدة صلاحية جلستك</string>
     <string name="invalid_cookie_dialog_message">The application did not communicate with the server for a long period of time, or your session has been remotely invalidated.</string>
-    <string name="conversation_folder_name_favorites">Favorites</string>
+    <string name="conversation_folder_name_favorites">المفضلة</string>
     <string name="conversation_folder_name_group">المجموعات</string>
     <string name="conversation_folder_name_one_to_one">أشخاص</string>
+    <string name="folders_move_to">النقل إلى</string>
+    <string name="folders_no_custom_folder_found">انشئ مجلدا جديدا بالضغط على زر +</string>
+    <string name="folders_create_new_folder">انشئ مجلّدًا جديدًا</string>
+    <string name="folders_create_new_folder_action">إنشاء</string>
+    <string name="folders_create_new_folder_info">نقل المحادثة \"%1$s\" إلى مجلد جديد.</string>
+    <string name="folders_folder_name_hint">اسم المجلد</string>
+    <string name="folders_folder_name_error_text">الحد الأقصى %s حروف</string>
+    <string name="folders_move_to_folder_close">إغلاق</string>
 </resources>
