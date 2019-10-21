@@ -79,7 +79,7 @@
     <string name="people_picker__search_result_connections_header_title">Contacts</string>
     <string name="people_picker__search_result_others_header_title">Se connecter</string>
     <string name="people_picker__search_result__expander_title">Tout afficher (%1$s) ↓</string>
-    <string name="people_picker__search_people">PERSONNES</string>
+    <string name="people_picker__search_people">CONTACTS</string>
     <string name="people_picker__search_services">SERVICES</string>
     <string name="receive_news_and_offers_request_title">Newsletter</string>
     <string name="receive_news_and_offers_request_body">Voulez-vous recevoir les actualités, ainsi que les mises à jour de Wire par e-mail ? Vous pouvez vous désabonner à tout moment.</string>
@@ -120,7 +120,7 @@
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] a ajouté %2$s à la conversation</string>
     <plurals name="content__system__someone_added_people_with_others">
-        <item quantity="one">[[%1$s]] a ajouté %2$s et _%3$s autre personne à la conversation_</item>
+        <item quantity="one">[[%1$s]] a ajouté %2$s et _%3$s autre contact à la conversation_</item>
         <item quantity="other">[[%1$s]] a ajouté %2$s et _%3$s autres personnes à la conversation_</item>
     </plurals>
     <string name="content__system__someone_added_you">[[%1$s]] vous a ajouté à la conversation</string>
@@ -165,14 +165,14 @@
     <string name="content__otr__identity_changed_error_you">L\'IDENTITÉ DE VOTRE APPAREIL A CHANGÉ. MESSAGE NON DISTRIBUÉ. _EN SAVOIR PLUS_</string>
     <string name="content__otr__someone_added_new_device__message">%1$s utilise un _nouvel appareil_</string>
     <string name="content__otr__someone_and_you_added_new_device__message">%1$s et vous utilisez un nouvel appareil</string>
-    <string name="content__otr__someone_and_others_added_new_device__message">%1$s et %2$s et d\'autres participants utilisent un _nouvel appareil_</string>
+    <string name="content__otr__someone_and_others_added_new_device__message">%1$s et %2$s autres utilisent un _nouvel appareil_</string>
     <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s autres et vous utilisez un _nouvel appareil_</string>
     <string name="content__otr__start_this_device__message">[[VOUS]] AVEZ COMMENCÉ À UTILISER _CET APPAREIL _</string>
     <string name="content__otr__all_fingerprints_verified">TOUTES LES EMPREINTES SONT VÉRIFIÉES</string>
     <string name="content__otr__lost_history">VOUS N\'AVEZ PAS UTILISÉ CET APPAREIL DEPUIS UN MOMENT. CERTAINS MESSAGES POURRAIENT NE PAS APPARAÎTRE ICI.</string>
     <string name="content__otr__unverified_device__message">[[VOUS]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DES _APPAREILS DE %1$s_</string>
     <string name="content__otr__your_unverified_device__message">[[VOUS]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DE _VOS APPAREILS_</string>
-    <string name="content__otr__new_member__message">DE NOUVELLES PERSONNES SONT ARRIVÉES. _VÉRIFIER LES APPAREILS_</string>
+    <string name="content__otr__new_member__message">DE NOUVEAUX CONTACTS ONT REJOINT LA CONVERSATION. _VÉRIFIER LES APPAREILS_</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
     <string name="content__file__status__uploading__minimized">ENVOI EN COURS&#8230;</string>
@@ -458,7 +458,7 @@
     <string name="pref_about_version_title">Version %s</string>
     <string name="pref_about_copyright_title">\u00A9 Wire Swiss GmbH</string>
     <!-- Pref invite -->
-    <string name="pref_invite_title">Invitez des personnes à rejoindre Wire</string>
+    <string name="pref_invite_title">Invitez des contacts à rejoindre Wire</string>
     <!-- Preference Account Actions -->
     <string name="pref__account_action__phone_verification__title">Vérifier le numéro de téléphone</string>
     <string name="pref__account_action__phone_verification__description">Saisissez le code de vérification que nous avons envoyé au %s</string>
@@ -504,7 +504,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="sign_up__set_picture__guidance">Wire est tellement plus beau avec une image.</string>
     <string name="sign_up__set_picture__loading">Chargement de la photo</string>
     <string name="leave_conversation_failed__message">Vous devez être en ligne pour quitter la conversation. Vérifiez votre connexion et réessayez.</string>
-    <string name="remove_from_conversation__no_network__message">Vous devez être en ligne pour exclure une personne d\'une conversation. Vérifiez votre connexion et réessayez.</string>
+    <string name="remove_from_conversation__no_network__message">Vous devez être en ligne pour exclure un contact d\'une conversation. Vérifiez votre connexion et réessayez.</string>
     <string name="calling__call_drop__message">Vous devez être en ligne pour appeler. Vérifiez votre connexion et réessayez.</string>
     <!-- Lockscreen and notifications -->
     <string name="message_notifications_channel_name">Messages</string>
@@ -539,8 +539,8 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <!-- %1$s == username, %2$s == conversation -->
     <string name="notification__message__group__prefix__other">%1$s dans %2$s \u0020</string>
     <string name="notification__message__group__renamed_conversation">a renommé la conversation : %1$s</string>
-    <string name="notification__message__group__add">a ajouté des personnes à la conversation</string>
-    <string name="notification__message__group__remove">a exclu des personnes de la conversation</string>
+    <string name="notification__message__group__add">a ajouté des contacts à la conversation</string>
+    <string name="notification__message__group__remove">a exclu des contacts de la conversation</string>
     <string name="notification__message__single__accept_request">Vous êtes maintenant connecté à %1$s</string>
     <string name="notification__message__group__default_conversation_name">conversation de groupe</string>
     <string name="notification__message__send_failed">Échec de l’envoi de message</string>
@@ -610,7 +610,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="in_app_notification__sync_error__create_group_convo__title">Création impossible</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">Impossible de créer une conversation avec %1$s</string>
     <string name="in_app_notification__sync_error__add_user__body">%1$s ne veut pas être ajouté aux conversations.</string>
-    <string name="in_app_notification__sync_error__add_multiple_user__body">Une des personnes sélectionnées ne veut pas être ajoutée aux conversations.</string>
+    <string name="in_app_notification__sync_error__add_multiple_user__body">Un des contacts sélectionnés ne veut pas être ajouté aux conversations.</string>
     <string name="in_app_notification__sync_error__unknown__body">Une erreur est survenue, veuillez réessayer.</string>
     <string name="in_app_notification__sync_error__create_convo__button">Continuer</string>
     <!--Timestamp formatting-->
@@ -815,7 +815,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="messages_no_likes">Personne n’a encore aimé ce message.</string>
     <string name="message_footer__tap_to_like">Appuyez pour aimer</string>
     <plurals name="message_footer__number_of_likes">
-        <item quantity="one">%1$d personne</item>
+        <item quantity="one">%1$d contact</item>
         <item quantity="other">%1$d personnes</item>
     </plurals>
     <string name="message_footer__status__sending">Envoi&#8230;</string>
@@ -1007,7 +1007,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="teams_invitations_error_too_many">LE NOMBRE MAXIMUM D’INVITATIONS A ÉTÉ ENVOYÉ</string>
     <string name="teams_invitations_error_already_sent">DÉJÀ ENVOYÉ</string>
     <string name="teams_invitations_error_generic">QUELQUE CHOSE S’EST MAL PASSÉ, VEUILLEZ RÉESSAYER</string>
-    <string name="teams_invite_email_hint">COLLABORATEUR@VOTREENTREPRISE.COM</string>
+    <string name="teams_invite_email_hint">NOM@ENTREPRISE.COM</string>
     <string name="teams_invitations_error_invalid_email">VEUILLEZ SAISIR UNE ADRESSE EMAIL VALIDE</string>
     <string name="teams_invitations_error_email_exists">CETTE ADRESSE E-MAIL EST DÉJÀ UTILISÉE</string>
     <string name="teams_invitations_error_no_internet">AUCUNE CONNEXION INTERNET</string>
@@ -1032,7 +1032,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="new_conv_no_results">Aucun résultat</string>
     <string name="new_conv_no_contacts">Aucun contact</string>
     <string name="participants_divider_services">SERVICES (%1$s)</string>
-    <string name="participants_divider_people">PERSONNES (%1$s)</string>
+    <string name="participants_divider_people">CONTACTS (%1$s)</string>
     <string name="group_name_hint">NOM DU GROUPE</string>
     <string name="allow_guests_toggle_text">Autoriser les invités et les services</string>
     <string name="allow_guests_toggle_info_text">Rendre cette conversation accessible à des personnes et services étrangers à votre équipe.</string>
@@ -1047,7 +1047,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="create_conv_options_subtitle_read_receipts">Accusés de lecture</string>
     <string name="create_conv_options_subtitle_on">Activé</string>
     <string name="create_conv_options_subtitle_off">Désactivé</string>
-    <string name="open_this_conversation_to_people_outside_your_team">Rendre cette conversation accessible à des personnes et services externes à votre équipe.</string>
+    <string name="open_this_conversation_to_people_outside_your_team">Rendre cette conversation accessible à des contacts et services externes à votre équipe.</string>
     <string name="allow_guests">Autoriser les invités et les services</string>
     <string name="guest_options_title">Invités et services</string>
     <string name="ephemeral_options_title">Messages éphémères</string>
@@ -1073,7 +1073,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="revoke_link_message">Les invités ne pourront plus rejoindre la conversation avec ce lien. Les invités ayant déjà rejoint la conversation conserveront leurs accès.</string>
     <string name="revoke_link_confirm">Révoquer le lien</string>
     <string name="invite_button_description">Des personnes étrangères à votre équipe peuvent rejoindre la conversation.</string>
-    <string name="invite_people">Inviter des personnes</string>
+    <string name="invite_people">Inviter des contacts</string>
     <string name="guest_room_name">Espace invité</string>
     <string name="guest_time_left_hours">Plus que %1$s h</string>
     <string name="guest_time_left_hours_minutes">Plus que %1$s:%2$s h</string>
@@ -1130,7 +1130,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="sso_signin_max_accounts_title">Deux comptes actifs</string>
     <string name="sso_signin_max_accounts_message">Vous ne pouvez vous connecter qu’à deux comptes à la fois. Déconnectez-vous de l’un d’entre eux pour en ajouter un autre.</string>
     <string name="participant_search_hint">RECHERCHE PAR NOM</string>
-    <string name="participant_search_title">PERSONNES</string>
+    <string name="participant_search_title">CONTACTS</string>
     <string name="generic_service_warning">Des services ont accès au contenu de cette conversation</string>
     <string name="add_services_button_text">Gérer les services</string>
     <string name="wire_notification_name">Notification Wire</string>
