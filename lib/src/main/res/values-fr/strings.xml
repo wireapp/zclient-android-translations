@@ -164,14 +164,14 @@
     <string name="content__otr__identity_changed_error">L\'IDENTITÉ DE L\'APPAREIL DE [[%1$s]] A CHANGÉ. MESSAGE NON DISTRIBUÉ. _EN SAVOIR PLUS_</string>
     <string name="content__otr__identity_changed_error_you">L\'IDENTITÉ DE VOTRE APPAREIL A CHANGÉ. MESSAGE NON DISTRIBUÉ. _EN SAVOIR PLUS_</string>
     <string name="content__otr__someone_added_new_device__message">%1$s utilise un _nouvel appareil_</string>
-    <string name="content__otr__someone_and_you_added_new_device__message">%1$s et vous utilisez un nouvel appareil</string>
+    <string name="content__otr__someone_and_you_added_new_device__message">%1$s et vous utilisez un _nouvel appareil_</string>
     <string name="content__otr__someone_and_others_added_new_device__message">%1$s et %2$s autres utilisent un _nouvel appareil_</string>
     <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s autres et vous utilisez un _nouvel appareil_</string>
     <string name="content__otr__start_this_device__message">[[VOUS]] AVEZ COMMENCÉ À UTILISER _CET APPAREIL _</string>
     <string name="content__otr__all_fingerprints_verified">TOUTES LES EMPREINTES SONT VÉRIFIÉES</string>
     <string name="content__otr__lost_history">VOUS N\'AVEZ PAS UTILISÉ CET APPAREIL DEPUIS UN MOMENT. CERTAINS MESSAGES POURRAIENT NE PAS APPARAÎTRE ICI.</string>
     <string name="content__otr__unverified_device__message">[[VOUS]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DES _APPAREILS DE %1$s_</string>
-    <string name="content__otr__your_unverified_device__message">[[VOUS]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DE _VOS APPAREILS_</string>
+    <string name="content__otr__your_unverified_device__message">[[YOU]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DE _VOS APPAREILS_</string>
     <string name="content__otr__new_member__message">DE NOUVEAUX CONTACTS ONT REJOINT LA CONVERSATION. _VÉRIFIER LES APPAREILS_</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
@@ -283,7 +283,7 @@
         <item quantity="one">%1$s utilise un nouvel appareil.</item>
         <item quantity="other">%1$s utilisent de nouveaux appareils.</item>
     </plurals>
-    <string name="conversation__degraded_confirmation__header__someone">Quelqu\'un utilise un nouvel appareil.</string>
+    <string name="conversation__degraded_confirmation__header__someone">Un participant utilise un nouvel appareil.</string>
     <string name="conversation__degraded_confirmation__header__multiple_user">%1$s et %2$s utilisent de nouveaux appareils.</string>
     <plurals name="conversation__degraded_confirmation__message">
         <item quantity="one">Voulez-vous quand même envoyer votre message ?</item>
@@ -318,7 +318,7 @@
     <string name="connect_request__footer__blocked_label">Bloqué</string>
     <!-- Delete conversation -->
     <string name="confirmation_menu__meta_delete">Supprimer le contenu ?</string>
-    <string name="confirmation_menu__meta_delete_text">Ceci effacera la conversation sur tous vos appareils.</string>
+    <string name="confirmation_menu__meta_delete_text">Ceci effacera cette conversation sur tous vos appareils.</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">vidéo introuvable</string>
     <string name="mediaplayer__message__onsoundcloud">sur SoundCloud</string>
@@ -420,14 +420,14 @@
     <string name="pref_devices_warning_summary">Si vous ne reconnaissez pas l’un des appareils ci-dessus, supprimez-le et changez votre mot de passe.</string>
     <string name="pref_devices_device_screen_title">Informations de l’appareil</string>
     <string name="pref_devices_device_fingerprint_category_title">Empreinte</string>
-    <string name="pref_devices_device_fingerprint_summary">Wire donne à chaque appareil une empreinte unique. Comparez-les et vérifiez vos appareils et conversations.</string>
+    <string name="pref_devices_device_fingerprint_summary">Wire donne à chaque appareil une empreinte numérique unique. Comparez-les et vérifiez vos appareils et conversations.</string>
     <string name="pref_devices_device_actions_category_title">Actions</string>
     <string name="pref_devices_device_reset_session_title">Réinitialiser la session</string>
     <string name="pref_devices_device_reset_session_summary">Si les empreintes ne correspondent pas, réinitialisez la session afin de générer de nouvelles clés de chiffrement des deux côtés.</string>
     <string name="pref_devices_device_remove_title">Supprimer l’appareil</string>
     <string name="pref_devices_device_remove_summary">Supprimez cet appareil si vous ne l\'utilisez plus. Vous serez déconnecté de cet appareil immédiatement.</string>
     <string name="pref_devices_device_fingerprint_copy_description">Empreinte</string>
-    <string name="pref_devices_device_fingerprint_copy_toast">Empreinte copiée</string>
+    <string name="pref_devices_device_fingerprint_copy_toast">Empreinte numérique copiée</string>
     <!-- Advanced -->
     <string name="pref_advanced_screen_title">Avancé</string>
     <string name="pref_advanced_enable_logs_title">Collecte des données d’utilisation</string>
@@ -701,7 +701,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="otr__error_dialog__cannot_register__manage_devices_button">Gérer les appareils</string>
     <string name="otr__error_dialog__cannot_register__log_out_button">Se déconnecter</string>
     <!-- OTR Participants -->
-    <string name="otr__participant__device_header">Wire donne à chaque appareil une empreinte unique. Comparez-les avec %1$s et vérifiez votre conversation.</string>
+    <string name="otr__participant__device_header">Wire donne à chaque appareil une empreinte numérique unique. Comparez-les avec %1$s et vérifiez votre conversation.</string>
     <string name="otr__participant__device_header__no_devices">%1$s utilise une ancienne version de Wire. Aucun appareil n\'est affiché ici.</string>
     <string name="otr__participant__device_header__link_text">_Pourquoi vérifier les conversations ?_</string>
     <string name="otr__participant__device_class__unknown">Inconnu</string>
@@ -711,11 +711,11 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="otr__participant__tab_details">DÉTAILS</string>
     <string name="otr__participant__tab_devices">APPAREILS</string>
     <string name="otr__participant__information">INFORMATION</string>
-    <string name="otr__participant__single_device__my_fingerprint_link">Afficher l\'empreinte de mon appareil</string>
+    <string name="otr__participant__single_device__my_fingerprint_link">Afficher l\'empreinte numérique de mon appareil</string>
     <string name="otr__participant__single_device__reset_session_link">Réinitialiser la session</string>
-    <string name="otr__participant__my_device__description">Empreinte de votre appareil</string>
+    <string name="otr__participant__my_device__description">Empreinte numérique de votre appareil</string>
     <string name="otr__participant__my_device__show_all_devices_link">Afficher tous mes appareils</string>
-    <string name="otr__participant__single_device__description">Vérifiez que cela correspond à l\'empreinte affichée sur l\'appareil de %1$s.</string>
+    <string name="otr__participant__single_device__description">Vérifiez que cela correspond à l\'empreinte numérique affichée sur l\'appareil de %1$s.</string>
     <string name="otr__participant__single_device__how_to_link">_Comment faire ?_</string>
     <string name="otr__device_id">ID : %s</string>
     <string name="otr__first_launch__header">C\'est la première fois que vous utilisez Wire sur cet appareil.</string>
@@ -925,8 +925,8 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="conversation_list__group_with_quote">Réponse de %1$s : %2$s</string>
     <string name="conversation_list__single_without_quote">%1$s</string>
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
-    <string name="guest_indicator">INVITÉ</string>
-    <string name="participant_tab_guest_indicator_label">Invité</string>
+    <string name="guest_indicator">EXTERNE</string>
+    <string name="participant_tab_guest_indicator_label">Externe</string>
     <string name="availability_none">Aucun</string>
     <string name="availability_available">Disponible</string>
     <string name="availability_away">Absent(e)</string>
@@ -1021,7 +1021,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="empty_services_list">Les services sont des programmes qui peuvent améliorer votre flux de travail. Pour les activer, contactez votre administrateur.</string>
     <string name="empty_services_list_admin">Les services sont des programmes qui peuvent améliorer votre flux de travail.</string>
     <string name="create_group_conversation">Créer un groupe</string>
-    <string name="create_guest_room_conversation">Créer un espace pour invités</string>
+    <string name="create_guest_room_conversation">Créer une Guest Room</string>
     <string name="manage_services">Gérer les Services</string>
     <string name="next_button">SUIVANT</string>
     <string name="skip_button">IGNORER</string>
@@ -1034,8 +1034,8 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="participants_divider_services">SERVICES (%1$s)</string>
     <string name="participants_divider_people">CONTACTS (%1$s)</string>
     <string name="group_name_hint">NOM DU GROUPE</string>
-    <string name="allow_guests_toggle_text">Autoriser les invités et les services</string>
-    <string name="allow_guests_toggle_info_text">Rendre cette conversation accessible à des personnes et services étrangers à votre équipe.</string>
+    <string name="allow_guests_toggle_text">Autoriser les contacts externes et les services</string>
+    <string name="allow_guests_toggle_info_text">Rendre cette conversation accessible à des contacts et services externes à votre équipe.</string>
     <string name="read_receipts_toggle_text">Accusés de lecture</string>
     <string name="read_receipts_toggle_info_text">Quand cette option est activée, les participants peuvent voir quand leurs messages ont été lus dans cette conversation.</string>
     <string name="read_receipts_info_title_enabled">VOUS AVEZ ACTIVÉ LES ACCUSÉS DE LECTURE</string>
@@ -1048,20 +1048,20 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="create_conv_options_subtitle_on">Activé</string>
     <string name="create_conv_options_subtitle_off">Désactivé</string>
     <string name="open_this_conversation_to_people_outside_your_team">Rendre cette conversation accessible à des contacts et services externes à votre équipe.</string>
-    <string name="allow_guests">Autoriser les invités et les services</string>
-    <string name="guest_options_title">Invités et services</string>
+    <string name="allow_guests">Autoriser les contacts externes et les services</string>
+    <string name="guest_options_title">Contacts externes et services</string>
     <string name="ephemeral_options_title">Messages éphémères</string>
     <string name="notifications_options_title">Notifications</string>
     <string name="ephemeral_explanation_text">Les messages temporaires seront activés pour tous les participants de cette conversation</string>
     <string name="notifications_explanation_text">Vous pouvez choisir d\'être notifié pour tous les évènements (y compris les appels audios et vidéos) ou uniquement lorsque vous êtes mentionné.</string>
     <string name="show_all_participants">Tout afficher (%1$s)</string>
     <string name="allow_guests_error_title">Une erreur est survenue</string>
-    <string name="allow_guests_error_body">Impossible d\'accepter des invités ou des services. Veuillez réessayer.</string>
+    <string name="allow_guests_error_body">Impossible d\'accepter des contacts externes ou des services. Veuillez réessayer.</string>
     <string name="allow_guests_warning_body">Tous les contacts externes et services seront supprimés de la conversation. Ajouter à nouveaux des contacts externes ou services ne sera pas autorisé.</string>
     <string name="allow_guests_warning_confirm">Supprimer</string>
     <string name="guests_are_present">DES CONTACTS EXTERNES SONT PRÉSENTS</string>
     <string name="services_are_present">DES SERVICES SONT ACTIFS</string>
-    <string name="guests_and_services_are_present">DES INVITÉS ET SERVICES SONT PRÉSENTS</string>
+    <string name="guests_and_services_are_present">DES CONTACTS EXTERNES ET SERVICES SONT PRÉSENTS</string>
     <string name="participants_details_header_title">DÉTAILS</string>
     <string name="invitation_link_description">N\'importe qui avec le lien peut rejoindre la conversation, même s\'ils n\'utilisent pas Wire</string>
     <string name="create_link_button">Créer le lien</string>
@@ -1070,11 +1070,11 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="revoke_link_button">Révoquer le lien&#8230;</string>
     <string name="invitation_link_title">INVITER DES CONTACTS PAR LIEN</string>
     <string name="link_copied_toast">Lien copié!</string>
-    <string name="revoke_link_message">Les invités ne pourront plus rejoindre la conversation avec ce lien. Les invités ayant déjà rejoint la conversation conserveront leurs accès.</string>
+    <string name="revoke_link_message">Les contacts externes ne pourront plus rejoindre la conversation avec ce lien. Les contacts externes ayant déjà rejoint la conversation conserveront leurs accès.</string>
     <string name="revoke_link_confirm">Révoquer le lien</string>
     <string name="invite_button_description">Des personnes étrangères à votre équipe peuvent rejoindre la conversation.</string>
     <string name="invite_people">Inviter des contacts</string>
-    <string name="guest_room_name">Espace invité</string>
+    <string name="guest_room_name">Guest Room</string>
     <string name="guest_time_left_hours">Plus que %1$s h</string>
     <string name="guest_time_left_hours_minutes">Plus que %1$s:%2$s h</string>
     <string name="guest_time_left_minutes">Plus que %1$s m</string>
@@ -1096,7 +1096,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="restore_override_alert_title">Restaurer l\'historique</string>
     <string name="restore_override_alert_text">Le contenu de la sauvegarde remplacera l\'historique des conversations sur cet appareil. Vous ne pouvez restaurer l\'historique qu\'à partir d\'une sauvegarde de la même plate-forme.</string>
     <string name="restore_override_alert_ok">Sélectionner un fichier de sauvegarde</string>
-    <string name="back_up_progress">SAUVEGARDE DES DONNÉES&#8230;</string>
+    <string name="back_up_progress">SAUVEGARDE EN COURS&#8230;</string>
     <string name="back_up_progress_complete">TERMINÉ</string>
     <string name="restore_progress">RESTAURATION EN COURS&#8230;</string>
     <string name="pref_account_backup_warning_title">Définir une adresse e-mail et un mot de passe.</string>
