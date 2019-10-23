@@ -214,7 +214,7 @@
     <string name="conversation__action__block">Letilt&#8230;</string>
     <string name="conversation__action__unblock">Tiltás feloldása</string>
     <string name="conversation__action__remove_member">Eltávolítás a csoportból</string>
-    <string name="conversation__action__add_to_favorites">Add to Favorites</string>
+    <string name="conversation__action__add_to_favorites">Hozzáadás a kedvencekhez</string>
     <string name="conversation__action__remove_from_favorites">Eltávolítás kedvencekből</string>
     <string name="conversation__action__move_to_folder">Áthelyezés ide&#8230;</string>
     <string name="conversation__action__remove_from_folder">Remove from \"%1$s\"</string>
@@ -393,7 +393,7 @@
     <string name="pref_options_ringtones_default_summary">Wire alapértelmezett</string>
     <string name="pref_options_ringtones_silent">Néma</string>
     <string name="pref_options_dark_theme_title">Sötét téma</string>
-    <string name="pref_options_hide_screen_title">Hide screen content</string>
+    <string name="pref_options_hide_screen_title">A képernyő tartalmának elrejtése</string>
     <string name="pref_options_hide_screen_summary">Wire\'s contents will no longer be visible in the task switcher</string>
     <string name="pref_options_image_download_title">Képek letöltése</string>
     <string name="pref_options_image_download_always">Bármikor</string>
@@ -404,16 +404,16 @@
     <string name="pref_options_cursor_send_button_summary">Bekapcsolva Enter gomb lesz a billentyűzeten, hogy többsoros üzeneteket küldhess. Kikapcsolva Küldés gomb lesz a billentyűzeten.</string>
     <string name="pref_options_message_previews">Üzenetek Előnézete</string>
     <string name="pref_options_message_previews_summary">Display message content in notifications.</string>
-    <string name="pref_options_app_lock_title">Lock with Passphrase</string>
-    <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Password or Biometrics.</string>
-    <string name="pref_options_incognito_keyboard">Incognito keyboard</string>
+    <string name="pref_options_app_lock_title">Zárolás jelszóval</string>
+    <string name="pref_options_app_lock_summary">Zárja le a Wire-t %1$s másodperc után a háttérben. Oldjad fel Pin-kóddal, mintával, jelszóval vagy biometrikus adatokkal.</string>
+    <string name="pref_options_incognito_keyboard">Inkognitó billentyűzet</string>
     <string name="pref_options_incognito_keyboard_summary">The keyboard will not show suggestions when typing messages</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Eszközök</string>
     <string name="pref_devices_current_device_category_title">Ez az eszköz</string>
     <string name="pref_devices_other_devices_category_title">Egyéb eszközök</string>
-    <string name="pref_devices_device_activation_summary">Activated [[%1$s]]\n</string>
-    <string name="pref_devices_device_activation_subtitle">Activated [[%1$s]]</string>
+    <string name="pref_devices_device_activation_summary">Aktiválva [[%1$s]]\n</string>
+    <string name="pref_devices_device_activation_subtitle">Aktiválva [[%1$s]]</string>
     <string name="pref_devices_device_id">AZONOSÍTÓ (ID): %1$s</string>
     <string name="pref_devices_device_verified">Ellenőrizve</string>
     <string name="pref_devices_device_not_verified">Nincs ellenőrizve</string>
@@ -430,21 +430,21 @@
     <string name="pref_devices_device_fingerprint_copy_toast">Az Eszközazonosító ujjlenyomat a vágólapra másolva</string>
     <!-- Advanced -->
     <string name="pref_advanced_screen_title">Haladó beállítások</string>
-    <string name="pref_advanced_enable_logs_title">Collect usage data</string>
-    <string name="pref_advanced_enable_logs_subtitle">This stores troubleshooting information locally. Disabling this option will delete all local logs.</string>
+    <string name="pref_advanced_enable_logs_title">Felhasználási adatokat összegyűjtése</string>
+    <string name="pref_advanced_enable_logs_subtitle">Ez helyileg tárolja a hibaelhárítási információkat. Ennek a beállításnak a letiltásával az összes helyi napló törlődik.</string>
     <string name="pref_advanced_debug_report_title">Create debug report</string>
-    <string name="pref_advanced_debug_report_summary">You can submit this to Wire Support to help diagnose problems.</string>
+    <string name="pref_advanced_debug_report_summary">Ezt beküldheted a Wire Support-ra a problémák diagnosztizálása érdekében.</string>
     <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
     <string name="pref_advanced_reset_push_summary">Ha problémákat tapasztalsz a Push Értesítésekkel, akkor a Wire Ügyfélszolgálat megkérhet, hogy állítsd alaphelyzetbe ezt a tokent.</string>
     <string name="pref_advanced_reset_push_completed">Push Token visszaállítva alaphelyzetbe</string>
     <string name="debug_report__title">Wire hibakeresés jelentés - %1$s</string>
     <string name="debug_report__body">Kérjük, írd le a probléma előidézéséhez vezető lépéseket. Ha tudsz, csatolj képernyőképet, majd küldd el ezt az e-mailt. \n\n</string>
-    <string name="pref_advanced_ws_foreground_title">Maintain connection to server</string>
-    <string name="pref_advanced_ws_foreground_summary">Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
-        Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
-    <string name="pref_advanced_full_sync_title">Perform full synchronization</string>
-    <string name="pref_advanced_full_sync_summary">This performs a full synchronization with the server.</string>
-    <string name="pref_advanced_full_sync_popup">Are you sure? The full synchronization may take a while.</string>
+    <string name="pref_advanced_ws_foreground_title">Fenntartja a kapcsolatot a szerverrel</string>
+    <string name="pref_advanced_ws_foreground_summary">A Wire megpróbálja nyitva tartani a kapcsolatot a szerverrel az értesítések fogadására, amíg az alkalmazás nincs az előtérben.
+        Ennek a beállításnak a kikapcsolása javíthatja az akkumulátor teljesítményét, de már nem kap értesítést, ha a Wire a háttérben van. Ez az eszköz összes fiókjára vonatkozik.</string>
+    <string name="pref_advanced_full_sync_title">Végezz teljes szinkronizálást</string>
+    <string name="pref_advanced_full_sync_summary">Ez teljes szinkronizálást hajt végre a szerverrel.</string>
+    <string name="pref_advanced_full_sync_popup">Biztos vagy ebben? A teljes szinkronizálás eltarthat egy ideig.</string>
     <!-- Support -->
     <string name="pref_support_screen_title">Ügyfélszolgálat</string>
     <string name="pref_support_website_title">Wire ügyfélszolgálat weboldala</string>
@@ -491,8 +491,8 @@
     <string name="pref__account_action__dialog__change_username__error_already_taken">Már foglalt</string>
     <string name="pref__account_action__dialog__change_username__error_unknown">Csatlakozási hiba, próbáld meg újra</string>
     <string name="pref__account_privacy">Adatvédelem</string>
-    <string name="pref__account_send_read_receipts_title">Send Read Receipts</string>
-    <string name="pref__account_send_read_receipts_summary">When this is off, you won’t be able to see read receipts from other people. This setting does not apply to group conversations.</string>
+    <string name="pref__account_send_read_receipts_title">Olvasási visszaigazolás küldése</string>
+    <string name="pref__account_send_read_receipts_summary">Ha ez ki van kapcsolva, akkor nem fogod látni a másoktól származó olvasási visszaigazolást. Ez a beállítás nem vonatkozik a csoportos beszélgetésekre.</string>
     <!-- No Internet connection -->
     <string name="system_status__no_internet">NINCS INTERNET</string>
     <!-- SHARING -->
@@ -513,7 +513,7 @@
     <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
     <string name="ongoing_channel_name">Háttér értesítések</string>
     <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
-    <string name="foreground_service_notification_name">Maintain connection to server</string>
+    <string name="foreground_service_notification_name">Fenntartja a kapcsolatot a szerverrel</string>
     <string name="foreground_service_notification_description">This notification is necessary to keep the connection to the server alive while Wire is in the background and Google Play Services are not installed.</string>
     <plurals name="notification__new_messages__multiple">
         <item quantity="one">Üzenet %2$s beszélgetésben</item>
@@ -810,8 +810,8 @@
     <string name="message_details_last_edited">Edited</string>
     <string name="tab_title_read">READ</string>
     <string name="tab_title_likes">LIKED</string>
-    <string name="messages_reads_turned_off">Read receipts were not on when this message was sent.</string>
-    <string name="messages_no_reads">No one has read this message yet.</string>
+    <string name="messages_reads_turned_off">Az olvasási visszaigazolás nem voltak bekapcsolva, amikor ezt az üzenetet elküldték.</string>
+    <string name="messages_no_reads">Még senki nem olvasta el az üzenetet.</string>
     <string name="messages_no_likes">No one has liked this message yet.</string>
     <string name="message_footer__tap_to_like">Ha tetszik, koppints</string>
     <plurals name="message_footer__number_of_likes">
@@ -907,11 +907,11 @@
     <string name="conversation_list__shared__location">Megosztott egy helyet</string>
     <string name="conversation_list__missed_call">Nem fogadott hívás</string>
     <string name="conversation_list__pinged">Kopogott</string>
-    <string name="conversation_list__ephemeral">Someone sent a message</string>
+    <string name="conversation_list__ephemeral">Valaki egy üzenetet küldött</string>
     <string name="conversation_list__single_eph_and_mention">Megemlített téged</string>
     <string name="conversation_list__group_eph_and_mention">Valaki megemlített téged</string>
     <string name="conversation_list__single_eph_and_quote">Replied to you</string>
-    <string name="conversation_list__group_eph_and_quote">Someone replied to you</string>
+    <string name="conversation_list__group_eph_and_quote">Valaki válaszolt neked</string>
     <string name="conversation_list__typing">Üzenet írása&#8230;</string>
     <string name="conversation_list__someone">Valaki</string>
     <string name="conversation_list__added">[[%1$s]] hozzáadva</string>
@@ -941,7 +941,7 @@
     <string name="availability_notification_warning_busy">You will appear as Busy to other people. You will only receive notifications for mentions, replies, and calls in conversations that are not muted.</string>
     <string name="availability_notification_warning_available_title">You are set to Available</string>
     <string name="availability_notification_warning_available">You will appear as Available to other people. You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
-    <string name="availability_notification_warning_nostatus_title">No status set</string>
+    <string name="availability_notification_warning_nostatus_title">Nincs állapot megadva</string>
     <string name="availability_notification_warning_nostatus">You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
     <string name="availability_notification_dont_show">Do not display this information again</string>
     <string name="availability_notification_ok">Ok</string>
@@ -1022,7 +1022,7 @@
     <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
     <string name="create_group_conversation">Csoport létrehozása</string>
     <string name="create_guest_room_conversation">Vendégszoba létrehozása</string>
-    <string name="manage_services">Manage Services</string>
+    <string name="manage_services">Szolgáltatások kezelése</string>
     <string name="next_button">KÖVETKEZŐ</string>
     <string name="skip_button">KIHAGY</string>
     <string name="done_button">Kész</string>
@@ -1036,21 +1036,21 @@
     <string name="group_name_hint">CSOPORT NEVE</string>
     <string name="allow_guests_toggle_text">Vendégek engedélyezése</string>
     <string name="allow_guests_toggle_info_text">Megnyitja a beszélgetést a csapatodon kívüli partnerek számára is.</string>
-    <string name="read_receipts_toggle_text">Read receipts</string>
-    <string name="read_receipts_toggle_info_text">When this is on, people can see when their messages in this conversation are read.</string>
+    <string name="read_receipts_toggle_text">Olvasási visszaigazolás</string>
+    <string name="read_receipts_toggle_info_text">Amikor ez be van kapcsolva, az emberek láthatják, mikor olvasták el a beszélgetés üzeneteit.</string>
     <string name="read_receipts_info_title_enabled">YOU HAVE ENABLED READ RECEIPTS</string>
     <string name="read_receipts_info_title_disabled">YOU HAVE DISABLED READ RECEIPTS</string>
-    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when messages are read.</string>
-    <string name="read_receipts_info_2">You can change this option in your account settings.</string>
+    <string name="read_receipts_info_1">Ha mindkét fél bekapcsolja az olvasási visszaigazolást, láthatod mikor olvasta el az üzeneteket.</string>
+    <string name="read_receipts_info_2">Ezt a beállítást a fiókbeállításokban módosíthatod.</string>
     <string name="create_conv_options_title_text">Conversation options</string>
     <string name="create_conv_options_subtitle_allow_guests">Vendégek engedélyezése</string>
-    <string name="create_conv_options_subtitle_read_receipts">Read receipts</string>
+    <string name="create_conv_options_subtitle_read_receipts">Olvasási visszaigazolás</string>
     <string name="create_conv_options_subtitle_on">ON</string>
     <string name="create_conv_options_subtitle_off">Soha</string>
     <string name="open_this_conversation_to_people_outside_your_team">Megnyitja a beszélgetést a csapatodon kívüli partnerek számára is.</string>
     <string name="allow_guests">Vendégek engedélyezése</string>
     <string name="guest_options_title">Vendég opciók</string>
-    <string name="ephemeral_options_title">Timed messages</string>
+    <string name="ephemeral_options_title">Időzített üzenetek</string>
     <string name="notifications_options_title">Értesítések</string>
     <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
     <string name="notifications_explanation_text">You can be notified about everything (including audio and video calls) or only when you are mentioned.</string>
@@ -1121,7 +1121,7 @@
     <string name="max_participants_alert_title">Telt ház</string>
     <string name="max_participants_create_alert_message">Up to %1$s people can join a conversation.</string>
     <string name="max_participants_add_alert_message">Up to %1$s people can join a conversation. Currently there is only room for %2$s more.</string>
-    <string name="sso_signin_button">Company log in</string>
+    <string name="sso_signin_button">Vállalati bejelentkezés</string>
     <string name="sso_signin_error_title">Valami nem stimmel</string>
     <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
     <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
@@ -1132,7 +1132,7 @@
     <string name="participant_search_hint">KERESÉS NÉV SZERINT</string>
     <string name="participant_search_title">PARTNEREK</string>
     <string name="generic_service_warning">Services have access to the content of this conversation</string>
-    <string name="add_services_button_text">Manage services</string>
+    <string name="add_services_button_text">Szolgáltatások kezelése</string>
     <string name="wire_notification_name">Wire Notification</string>
     <string name="wire_ping_name">Wire Kopogás</string>
     <string name="reply_self_name">Te</string>
@@ -1155,7 +1155,7 @@
     <string name="custom_backend_dialog_ok">OK</string>
     <string name="custom_backend_dialog_cancel">Mégsem</string>
     <string name="custom_backend_dialog_connect">Csatlakozás</string>
-    <string name="custom_backend_dialog_confirmation_title">Connect to server</string>
+    <string name="custom_backend_dialog_confirmation_title">Csatlakozás a szerverhez</string>
     <string name="custom_backend_dialog_confirmation_message">This configuration will connect the app to a third-party server: %1$s</string>
     <string name="custom_backend_dialog_info_title">You are connected to a third-party server: \"%1$s\"</string>
     <string name="custom_backend_dialog_network_error_title">The server is not responding</string>
@@ -1167,9 +1167,9 @@
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">Original message from %s</string>
     <string name="quote_timestamp_message_date">Original message from %s</string>
-    <string name="read_receipts_remotely_enabled_title">You have enabled read receipts</string>
-    <string name="read_receipts_remotely_disabled_title">You have disabled read receipts</string>
-    <string name="read_receipts_remotely_changed_message">You can change this option in your account settings.</string>
+    <string name="read_receipts_remotely_enabled_title">Engedélyezted az olvasási visszaigazolást</string>
+    <string name="read_receipts_remotely_disabled_title">Letiltottad az olvasási visszaigazolást</string>
+    <string name="read_receipts_remotely_changed_message">Ezt a beállítást a fiókbeállításokban módosíthatod.</string>
     <string name="app_lock_locked_title">Wire is locked due to inactivity</string>
     <string name="app_lock_locked_message">Please enter your device credentials.</string>
     <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passphrase in your device settings.</string>
@@ -1187,7 +1187,7 @@
     <string name="conversation_folder_name_group">Csoportok</string>
     <string name="conversation_folder_name_one_to_one">Partner</string>
     <string name="folders_move_to">MOVE TO</string>
-    <string name="folders_no_custom_folder_found">Create a new folder by pressing the + button</string>
+    <string name="folders_no_custom_folder_found">Hozz létre új mappát a + gomb megnyomásával</string>
     <string name="folders_create_new_folder">CREATE NEW FOLDER</string>
     <string name="folders_create_new_folder_action">LÉTREHOZÁSA</string>
     <string name="folders_create_new_folder_info">Move the conversation \"%1$s\" to a new folder.</string>
