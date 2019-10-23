@@ -126,12 +126,12 @@
     <string name="content__system__someone_added_you">[[%1$s]] vous a ajouté à la conversation</string>
     <plurals name="content__system__someone_added_people_and_you_with_others">
         <item quantity="one">[[%1$s]] vous a ajouté, ainsi que %2$s et _%3$s contact à la conversation_</item>
-        <item quantity="other">[[%1$s]] vous a ajouté ainsi que %2$s et _%3$s contacts à la conversation_</item>
+        <item quantity="other">[[%1$s]] vous a ajouté, ainsi que %2$s et _%3$s contacts à la conversation_</item>
     </plurals>
     <string name="content__system__you_added_people">Vous avez ajouté %1$s à la conversation</string>
     <plurals name="content__system__you_added_people_with_others">
-        <item quantity="one">Vous avez ajouté %1$s et _%2$s autre personne à la conversation_</item>
-        <item quantity="other">Vous avez ajouté %1$s et _%2$s autres personnes à la conversation_</item>
+        <item quantity="one">Vous avez ajouté %1$s et _%2$s autre contact à la conversation_</item>
+        <item quantity="other">Vous avez ajouté %1$s et _%2$s autres contacts à la conversation_</item>
     </plurals>
     <!-- Remove people -->
     <string name="content__system__other_removed_other">[[%1$s]] a exclu %2$s</string>
@@ -168,11 +168,11 @@
     <string name="content__otr__someone_and_others_added_new_device__message">%1$s et %2$s autres utilisent un _nouvel appareil_</string>
     <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s autres et vous utilisez un _nouvel appareil_</string>
     <string name="content__otr__start_this_device__message">[[VOUS]] AVEZ COMMENCÉ À UTILISER _CET APPAREIL _</string>
-    <string name="content__otr__all_fingerprints_verified">TOUTES LES EMPREINTES SONT VÉRIFIÉES</string>
+    <string name="content__otr__all_fingerprints_verified">TOUTES LES EMPREINTES NUMÉRIQUES SONT VÉRIFIÉES</string>
     <string name="content__otr__lost_history">VOUS N\'AVEZ PAS UTILISÉ CET APPAREIL DEPUIS UN MOMENT. CERTAINS MESSAGES POURRAIENT NE PAS APPARAÎTRE ICI.</string>
     <string name="content__otr__unverified_device__message">[[VOUS]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DES _APPAREILS DE %1$s_</string>
     <string name="content__otr__your_unverified_device__message">[[YOU]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DE _VOS APPAREILS_</string>
-    <string name="content__otr__new_member__message">DE NOUVEAUX CONTACTS ONT REJOINT LA CONVERSATION. _VÉRIFIER LES APPAREILS_</string>
+    <string name="content__otr__new_member__message">DE NOUVEAUX CONTACTS SONT ARRIVÉS. _VÉRIFIER LES APPAREILS_</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
     <string name="content__file__status__uploading__minimized">ENVOI EN COURS&#8230;</string>
@@ -419,14 +419,14 @@
     <string name="pref_devices_device_not_verified">Non vérifié</string>
     <string name="pref_devices_warning_summary">Si vous ne reconnaissez pas l’un des appareils ci-dessus, supprimez-le et changez votre mot de passe.</string>
     <string name="pref_devices_device_screen_title">Informations de l’appareil</string>
-    <string name="pref_devices_device_fingerprint_category_title">Empreinte</string>
+    <string name="pref_devices_device_fingerprint_category_title">Empreinte numérique</string>
     <string name="pref_devices_device_fingerprint_summary">Wire donne à chaque appareil une empreinte numérique unique. Comparez-les et vérifiez vos appareils et conversations.</string>
     <string name="pref_devices_device_actions_category_title">Actions</string>
     <string name="pref_devices_device_reset_session_title">Réinitialiser la session</string>
     <string name="pref_devices_device_reset_session_summary">Si les empreintes ne correspondent pas, réinitialisez la session afin de générer de nouvelles clés de chiffrement des deux côtés.</string>
     <string name="pref_devices_device_remove_title">Supprimer l’appareil</string>
     <string name="pref_devices_device_remove_summary">Supprimez cet appareil si vous ne l\'utilisez plus. Vous serez déconnecté de cet appareil immédiatement.</string>
-    <string name="pref_devices_device_fingerprint_copy_description">Empreinte</string>
+    <string name="pref_devices_device_fingerprint_copy_description">Empreinte numérique</string>
     <string name="pref_devices_device_fingerprint_copy_toast">Empreinte numérique copiée</string>
     <!-- Advanced -->
     <string name="pref_advanced_screen_title">Avancé</string>
@@ -992,7 +992,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="app_entry_dialog_view">VOIR</string>
     <string name="app_entry_dialog_privacy_policy">POLITIQUE DE CONFIDENTIALITÉ</string>
     <string name="app_entry_email_sent">E-mail envoyé</string>
-    <string name="teams_set_username_subtitle">Les noms d\'utilisateur aident les gens à vous trouver.</string>
+    <string name="teams_set_username_subtitle">Les noms d\'utilisateurs aident vos contacts à vous trouver.</string>
     <string name="app_entry_sso_dialog_title">Connexion d\'entreprise</string>
     <string name="app_entry_sso_dialog_message">Entrez le code d’accès SSO de votre entreprise.</string>
     <string name="app_entry_sso_input_hint"></string>
@@ -1052,7 +1052,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="guest_options_title">Contacts externes et services</string>
     <string name="ephemeral_options_title">Messages éphémères</string>
     <string name="notifications_options_title">Notifications</string>
-    <string name="ephemeral_explanation_text">Les messages temporaires seront activés pour tous les participants de cette conversation</string>
+    <string name="ephemeral_explanation_text">Les messages éphémères seront activés pour tous les participants de cette conversation</string>
     <string name="notifications_explanation_text">Vous pouvez choisir d\'être notifié pour tous les évènements (y compris les appels audios et vidéos) ou uniquement lorsque vous êtes mentionné.</string>
     <string name="show_all_participants">Tout afficher (%1$s)</string>
     <string name="allow_guests_error_title">Une erreur est survenue</string>
@@ -1072,7 +1072,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="link_copied_toast">Lien copié!</string>
     <string name="revoke_link_message">Les contacts externes ne pourront plus rejoindre la conversation avec ce lien. Les contacts externes ayant déjà rejoint la conversation conserveront leurs accès.</string>
     <string name="revoke_link_confirm">Révoquer le lien</string>
-    <string name="invite_button_description">Des personnes étrangères à votre équipe peuvent rejoindre la conversation.</string>
+    <string name="invite_button_description">Des contacts externes à votre équipe peuvent rejoindre la conversation.</string>
     <string name="invite_people">Inviter des contacts</string>
     <string name="guest_room_name">Guest Room</string>
     <string name="guest_time_left_hours">Plus que %1$s h</string>
