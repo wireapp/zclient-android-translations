@@ -219,8 +219,8 @@
     <string name="content__file__action__save_error">غير قادر على حفظ الملف</string>
     <string name="content__location__no_map_placeholder">الموقع سوف يظهر على الخريطة عندما تتصل بالإنترنت مرة أخرى</string>
     <!-- Conversation actions -->
-    <string name="conversation__action__clear_content">Clear content&#8230;</string>
-    <string name="conversation__action__delete_group">Delete group</string>
+    <string name="conversation__action__clear_content">حذف المحتوى&#8230;</string>
+    <string name="conversation__action__delete_group">Delete group&#8230;</string>
     <string name="conversation__action__archive">حفظ في الأرشيف</string>
     <string name="conversation__action__unarchive">إلغاء الأرشفة</string>
     <string name="conversation__action__add_participants">إضافة مشاركين</string>
@@ -353,9 +353,13 @@
     <string name="confirmation_menu__confirm_block">حظر </string>
     <!-- RE-USING: confirmation_menu.cancel -->
     <string name="connect_request__footer__blocked_label">تم حظر</string>
-    <!-- Delete conversation -->
-    <string name="confirmation_menu__meta_delete">حذف المحتوى؟</string>
+    <!-- Clear conversation -->
+    <string name="confirmation_menu__clear_popup_title">Clear content?</string>
     <string name="confirmation_menu__meta_delete_text">هذا سيمسح تاريخ المحادثة على كل أجهزتك.</string>
+    <!-- Delete conversation -->
+    <string name="confirmation_menu__delete_popup_title">Delete group conversation?</string>
+    <string name="confirmation_menu__delete_popup_text">This will delete the group and all content for all participants on all devices. There is no option to restore the content. All participants will be notified.</string>
+    <string name="confirmation_menu__delete_popup_positive_button">DELETE GROUP</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">لم يتم العثور على الفيديو</string>
     <string name="mediaplayer__message__onsoundcloud">على سوندكلود</string>
@@ -1303,7 +1307,7 @@
     <string name="folders_folder_name_hint">اسم المجلد</string>
     <string name="folders_folder_name_error_text">الحد الأقصى %s حروف</string>
     <string name="folders_move_to_folder_close">إغلاق</string>
-    <string name="delete_group_conversation_error_title">Group not deleted</string>
+    <string name="delete_group_conversation_error_title">لم يُحذَف الفريق</string>
     <string name="delete_group_conversation_error_message">An error occurred while trying to delete the group. Please try again.</string>
     <string name="delete_group_conversation_error_message_with_group_name">An error occurred while trying to delete the group %1$s. Please try again.</string>
 </resources>

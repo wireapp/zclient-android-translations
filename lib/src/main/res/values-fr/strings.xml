@@ -121,7 +121,7 @@
     <string name="content__system__someone_added_people">[[%1$s]] a ajouté %2$s à la conversation</string>
     <plurals name="content__system__someone_added_people_with_others">
         <item quantity="one">[[%1$s]] a ajouté %2$s et _%3$s autre contact à la conversation_</item>
-        <item quantity="other">[[%1$s]] a ajouté %2$s et _%3$s autres personnes à la conversation_</item>
+        <item quantity="other">[[%1$s]] a ajouté %2$s et _%3$s autres contacts à la conversation_</item>
     </plurals>
     <string name="content__system__someone_added_you">[[%1$s]] vous a ajouté à la conversation</string>
     <plurals name="content__system__someone_added_people_and_you_with_others">
@@ -172,7 +172,7 @@
     <string name="content__otr__lost_history">VOUS N\'AVEZ PAS UTILISÉ CET APPAREIL DEPUIS UN MOMENT. CERTAINS MESSAGES POURRAIENT NE PAS APPARAÎTRE ICI.</string>
     <string name="content__otr__unverified_device__message">[[VOUS]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DES _APPAREILS DE %1$s_</string>
     <string name="content__otr__your_unverified_device__message">[[YOU]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DE _VOS APPAREILS_</string>
-    <string name="content__otr__new_member__message">DE NOUVEAUX CONTACTS SONT ARRIVÉS. _VÉRIFIER LES APPAREILS_</string>
+    <string name="content__otr__new_member__message">DE NOUVEAUX CONTACTS ONT ÉTÉ AJOUTÉS. _VÉRIFIER LEURS APPAREILS_</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
     <string name="content__file__status__uploading__minimized">ENVOI EN COURS&#8230;</string>
@@ -200,7 +200,7 @@
     <string name="content__location__no_map_placeholder">LA POSITION APPARAÎTRA SUR LA CARTE QUAND VOUS SEREZ À NOUVEAU EN LIGNE.</string>
     <!-- Conversation actions -->
     <string name="conversation__action__clear_content">Supprimer le contenu&#8230;</string>
-    <string name="conversation__action__delete_group">Supprimer ce groupe</string>
+    <string name="conversation__action__delete_group">Supprimer ce groupe&#8230;</string>
     <string name="conversation__action__archive">Archiver</string>
     <string name="conversation__action__unarchive">Restaurer</string>
     <string name="conversation__action__add_participants">AJOUTER DES PARTICIPANTS</string>
@@ -219,10 +219,10 @@
     <string name="conversation__action__remove_from_favorites">Retirer des favoris</string>
     <string name="conversation__action__move_to_folder">Déplacer vers&#8230;</string>
     <string name="conversation__action__remove_from_folder">Supprimer de \"%1$s\"</string>
-    <string name="conversation__action__leave_and_clear">\tLeave and clear content</string>
+    <string name="conversation__action__leave_and_clear">\tQuitter et supprimer le contenu</string>
     <string name="conversation__action__leave_only">\tQuitter le groupe</string>
-    <string name="conversation__action__clear_and_leave">\tClear content and leave</string>
-    <string name="conversation__action__clear_only">\tClear content</string>
+    <string name="conversation__action__clear_and_leave">\tSupprimer le contenu et quitter</string>
+    <string name="conversation__action__clear_only">\tSupprimer le contenu</string>
     <string name="conversation__action__notifications_everything">Toutes</string>
     <string name="conversation__action__notifications_mentions_and_replies">Mentions et Réponses</string>
     <string name="conversation__action__notifications_nothing">Aucune</string>
@@ -317,9 +317,13 @@
     <string name="confirmation_menu__confirm_block">Bloquer</string>
     <!-- RE-USING: confirmation_menu.cancel -->
     <string name="connect_request__footer__blocked_label">Bloqué</string>
+    <!-- Clear conversation -->
+    <string name="confirmation_menu__clear_popup_title">Voulez-vous effacer le contenu?</string>
+    <string name="confirmation_menu__meta_delete_text">Cette conversation sera effacée sur tous vos appareils.</string>
     <!-- Delete conversation -->
-    <string name="confirmation_menu__meta_delete">Supprimer le contenu ?</string>
-    <string name="confirmation_menu__meta_delete_text">Ceci effacera cette conversation sur tous vos appareils.</string>
+    <string name="confirmation_menu__delete_popup_title">Supprimer cette conversation de groupe?</string>
+    <string name="confirmation_menu__delete_popup_text">Ce groupe sera supprimé ainsi que tout son contenu pour tous les participants sur tous les appareils. Il n\'y a aucune option pour restaurer le contenu. Tous les participants seront notifiés.</string>
+    <string name="confirmation_menu__delete_popup_positive_button">SUPPRIMER CE GROUPE</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">vidéo introuvable</string>
     <string name="mediaplayer__message__onsoundcloud">sur SoundCloud</string>
@@ -421,7 +425,7 @@
     <string name="pref_devices_warning_summary">Si vous ne reconnaissez pas l’un des appareils ci-dessus, supprimez-le et changez votre mot de passe.</string>
     <string name="pref_devices_device_screen_title">Informations de l’appareil</string>
     <string name="pref_devices_device_fingerprint_category_title">Empreinte numérique</string>
-    <string name="pref_devices_device_fingerprint_summary">Wire donne à chaque appareil une empreinte numérique unique. Comparez-les et vérifiez vos appareils et conversations.</string>
+    <string name="pref_devices_device_fingerprint_summary">Wire attribue à chaque appareil une empreinte numérique unique. Comparez-les et vérifiez vos appareils et conversations.</string>
     <string name="pref_devices_device_actions_category_title">Actions</string>
     <string name="pref_devices_device_reset_session_title">Réinitialiser la session</string>
     <string name="pref_devices_device_reset_session_summary">Si les empreintes ne correspondent pas, réinitialisez la session afin de générer de nouvelles clés de chiffrement des deux côtés.</string>
@@ -516,7 +520,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="ongoing_channel_name">Notifications en arrière-plan</string>
     <string name="ongoing_channel_description">Notifications concernant les actions en cours ou les actions secondaires, comme les appels ou la sauvegarde d\'une image</string>
     <string name="foreground_service_notification_name">Maintenir la connexion au serveur</string>
-    <string name="foreground_service_notification_description">Cette notification est nécessaire pour maintenir la connexion au serveur pendant que Wire est en arrière-plan, pour les utilisateurs n\'ayant pas les services Google Play installés.</string>
+    <string name="foreground_service_notification_description">Cette notification est nécessaire pour maintenir la connexion au serveur pendant que Wire est en arrière-plan, lorsque les services Google Play ne sont pas installés.</string>
     <plurals name="notification__new_messages__multiple">
         <item quantity="one">Message dans %2$s conversations</item>
         <item quantity="other">%1$d messages dans %2$s conversations</item>
@@ -611,7 +615,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="in_app_notification__sync_error__create_group_convo__title">Création impossible</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">Impossible de créer une conversation avec %1$s</string>
     <string name="in_app_notification__sync_error__add_user__body">%1$s ne veut pas être ajouté aux conversations.</string>
-    <string name="in_app_notification__sync_error__add_multiple_user__body">Un des contacts sélectionnés ne veut pas être ajouté aux conversations.</string>
+    <string name="in_app_notification__sync_error__add_multiple_user__body">Un des contacts sélectionnés a refusé de se joindre à ces conversations.</string>
     <string name="in_app_notification__sync_error__unknown__body">Une erreur est survenue, veuillez réessayer.</string>
     <string name="in_app_notification__sync_error__create_convo__button">Continuer</string>
     <!--Timestamp formatting-->
@@ -702,7 +706,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="otr__error_dialog__cannot_register__manage_devices_button">Gérer les appareils</string>
     <string name="otr__error_dialog__cannot_register__log_out_button">Se déconnecter</string>
     <!-- OTR Participants -->
-    <string name="otr__participant__device_header">Wire donne à chaque appareil une empreinte numérique unique. Comparez-les avec %1$s et vérifiez votre conversation.</string>
+    <string name="otr__participant__device_header">Wire attribue à chaque appareil une empreinte numérique unique. Comparez-les avec %1$s et vérifiez votre conversation.</string>
     <string name="otr__participant__device_header__no_devices">%1$s utilise une ancienne version de Wire. Aucun appareil n\'est affiché ici.</string>
     <string name="otr__participant__device_header__link_text">_Pourquoi vérifier les conversations ?_</string>
     <string name="otr__participant__device_class__unknown">Inconnu</string>
@@ -817,7 +821,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="message_footer__tap_to_like">Appuyez pour aimer</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="one">%1$d contact</item>
-        <item quantity="other">%1$d personnes</item>
+        <item quantity="other">%1$d contacts</item>
     </plurals>
     <string name="message_footer__status__sending">Envoi&#8230;</string>
     <string name="message_footer__status__waiting_for_connection">En attente de connexion&#8230;</string>
@@ -926,7 +930,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="conversation_list__group_with_quote">Réponse de %1$s : %2$s</string>
     <string name="conversation_list__single_without_quote">%1$s</string>
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
-    <string name="guest_indicator">EXTERNE</string>
+    <string name="guest_indicator">CONTACT EXTERNE</string>
     <string name="participant_tab_guest_indicator_label">Externe</string>
     <string name="availability_none">Aucun</string>
     <string name="availability_available">Disponible</string>
@@ -993,7 +997,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="app_entry_dialog_view">VOIR</string>
     <string name="app_entry_dialog_privacy_policy">POLITIQUE DE CONFIDENTIALITÉ</string>
     <string name="app_entry_email_sent">E-mail envoyé</string>
-    <string name="teams_set_username_subtitle">Les noms d\'utilisateurs aident vos contacts à vous trouver.</string>
+    <string name="teams_set_username_subtitle">Votre nom d\'utilisateur aide vos contacts à vous retrouver.</string>
     <string name="app_entry_sso_dialog_title">Connexion d\'entreprise</string>
     <string name="app_entry_sso_dialog_message">Entrez le code d’accès SSO de votre entreprise.</string>
     <string name="app_entry_sso_input_hint"></string>
@@ -1196,6 +1200,6 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="folders_folder_name_error_text">%s caractères maximum</string>
     <string name="folders_move_to_folder_close">Fermer</string>
     <string name="delete_group_conversation_error_title">Groupe non supprimé</string>
-    <string name="delete_group_conversation_error_message">An error occurred while trying to delete the group. Please try again.</string>
-    <string name="delete_group_conversation_error_message_with_group_name">An error occurred while trying to delete the group %1$s. Please try again.</string>
+    <string name="delete_group_conversation_error_message">Une erreur s\'est produite lors de la suppression du groupe. Veuillez réessayer.</string>
+    <string name="delete_group_conversation_error_message_with_group_name">Une erreur s\'est produite lors de la suppression du groupe %1$s. Veuillez réessayer.</string>
 </resources>
