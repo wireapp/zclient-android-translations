@@ -87,6 +87,12 @@
     <string name="crashes_and_analytics_request_body">我同意Wire可以創建並使用匿名使用及錯誤報告以改進軟體品質。 我可以隨時撤銷此授權。</string>
     <string name="crashes_and_analytics_request_no">不好</string>
     <string name="crashes_and_analytics_request_agree">我同意</string>
+    <!-- Request Password dialog -->
+    <string name="request_password_ok">確認</string>
+    <string name="request_password_cancel">取消</string>
+    <string name="request_password_biometric_description">Unlock using biometric authentication.</string>
+    <string name="request_password_biometric_cancel">取消</string>
+    <string name="request_password_error">錯誤的密碼</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">服務</string>
     <string name="integrations_errors_add_service">無法添加服務</string>
@@ -194,8 +200,8 @@
     <string name="content__file__action__save_error">無法儲存檔案。</string>
     <string name="content__location__no_map_placeholder">您的位置將在您重新連線時顯示在地圖上。</string>
     <!-- Conversation actions -->
-    <string name="conversation__action__clear_content">Clear content&#8230;</string>
-    <string name="conversation__action__delete_group">Delete group&#8230;</string>
+    <string name="conversation__action__clear_content">清除內容&#8230;</string>
+    <string name="conversation__action__delete_group">刪除群組&#8230;</string>
     <string name="conversation__action__archive">封存</string>
     <string name="conversation__action__unarchive">解除封存</string>
     <string name="conversation__action__add_participants">加入參與者</string>
@@ -314,7 +320,7 @@
     <!-- Delete conversation -->
     <string name="confirmation_menu__delete_popup_title">要刪除群組對話嗎?</string>
     <string name="confirmation_menu__delete_popup_text">This will delete the group and all content for all participants on all devices. There is no option to restore the content. All participants will be notified.</string>
-    <string name="confirmation_menu__delete_popup_positive_button">DELETE GROUP</string>
+    <string name="confirmation_menu__delete_popup_positive_button">刪除群組</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">找不到該影片</string>
     <string name="mediaplayer__message__onsoundcloud">打開SoundCloud</string>
@@ -400,9 +406,9 @@
     <string name="pref_options_cursor_send_button_summary">關閉發送按鍵</string>
     <string name="pref_options_message_previews">訊息預覽</string>
     <string name="pref_options_message_previews_summary">Display message content in notifications.</string>
-    <string name="pref_options_app_lock_title">Lock with Passphrase</string>
+    <string name="pref_options_app_lock_title">使用密碼鎖定</string>
     <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Password or Biometrics.</string>
-    <string name="pref_options_incognito_keyboard">Incognito keyboard</string>
+    <string name="pref_options_incognito_keyboard">無痕鍵盤</string>
     <string name="pref_options_incognito_keyboard_summary">The keyboard will not show suggestions when typing messages</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">設備</string>
@@ -438,7 +444,7 @@
     <string name="pref_advanced_ws_foreground_title">維護與伺服器的連接</string>
     <string name="pref_advanced_ws_foreground_summary">Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
-    <string name="pref_advanced_full_sync_title">Perform full synchronization</string>
+    <string name="pref_advanced_full_sync_title">執行完整同步</string>
     <string name="pref_advanced_full_sync_summary">This performs a full synchronization with the server.</string>
     <string name="pref_advanced_full_sync_popup">Are you sure? The full synchronization may take a while.</string>
     <!-- Support -->
@@ -914,7 +920,7 @@
     <string name="availability_setstatus">設置狀態</string>
     <string name="availability_notification_warning_away_title">You are set to Away</string>
     <string name="availability_notification_warning_away">You will appear as Away to other people. You will not receive notifications about any incoming calls or messages.</string>
-    <string name="availability_notification_warning_busy_title">You are set to Busy</string>
+    <string name="availability_notification_warning_busy_title">您設置為忙碌</string>
     <string name="availability_notification_warning_busy">You will appear as Busy to other people. You will only receive notifications for mentions, replies, and calls in conversations that are not muted.</string>
     <string name="availability_notification_warning_available_title">You are set to Available</string>
     <string name="availability_notification_warning_available">You will appear as Available to other people. You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
@@ -1148,7 +1154,7 @@
     <string name="read_receipts_remotely_disabled_title">您已關閉讀取回條</string>
     <string name="read_receipts_remotely_changed_message">您可以在帳戶設置中更改此選項。</string>
     <string name="app_lock_locked_title">Wire is locked due to inactivity</string>
-    <string name="app_lock_locked_message">Please enter your device credentials.</string>
+    <string name="app_lock_locked_message">Please enter your account password.</string>
     <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passphrase in your device settings.</string>
     <string name="app_lock_setup_dialog_button">Open settings</string>
     <string name="security_policy_title">Wire Security Policy</string>

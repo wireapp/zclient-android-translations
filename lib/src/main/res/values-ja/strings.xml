@@ -87,6 +87,12 @@
     <string name="crashes_and_analytics_request_body">私はWireに対して、匿名の利用状況およびアプリを改善するためのエラーレポートを提供することに同意します。私はこの同意をいつでも取り消すことができます。</string>
     <string name="crashes_and_analytics_request_no">いいえ</string>
     <string name="crashes_and_analytics_request_agree">同意する</string>
+    <!-- Request Password dialog -->
+    <string name="request_password_ok">OK</string>
+    <string name="request_password_cancel">キャンセル</string>
+    <string name="request_password_biometric_description">生体認証を使ってロックを解除します。</string>
+    <string name="request_password_biometric_cancel">キャンセル</string>
+    <string name="request_password_error">パスワードが間違っています</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">サービス</string>
     <string name="integrations_errors_add_service">サービスの追加はできません。</string>
@@ -151,8 +157,8 @@
     <!-- Conversation: missed call -->
     <string name="content__missed_call__you_called">[[あなた]] 呼び出しました</string>
     <string name="content__missed_call__xxx_called">[[%1$s]] 呼び出しました</string>
-    <string name="content__you_pinged">[[あなた]] PING しました</string>
-    <string name="content__xxx_pinged">[[%1$s]] PING しました</string>
+    <string name="content__you_pinged">[[あなた]] が ping しました</string>
+    <string name="content__xxx_pinged">[[%1$s]] が ping しました</string>
     <!-- Conversation: E2EE system messages -->
     <string name="content__otr__message_error">[[%1$s]] からのメッセージは受信されませんでした。 _なぜ?_</string>
     <string name="content__otr__message_error_you">あなたからのメッセージは受信されませんでした。_WHY? _</string>
@@ -197,7 +203,7 @@
     <string name="conversation__action__clear_content">コンテンツを削除&#8230;</string>
     <string name="conversation__action__delete_group">グループを削除&#8230;</string>
     <string name="conversation__action__archive">アーカイブ</string>
-    <string name="conversation__action__unarchive">解答する</string>
+    <string name="conversation__action__unarchive">アーカイブを解除</string>
     <string name="conversation__action__add_participants">参加者を追加</string>
     <string name="conversation__action__create_group">グループを作成</string>
     <string name="conversation__action__open_conversation">会話を開く</string>
@@ -207,7 +213,7 @@
     <string name="conversation__action__leave">グループを退出...</string>
     <string name="conversation__action__call">通話</string>
     <string name="conversation__action__picture">写真</string>
-    <string name="conversation__action__block">ブロック...</string>
+    <string name="conversation__action__block">ブロック&#8230;</string>
     <string name="conversation__action__unblock">ブロック解除</string>
     <string name="conversation__action__remove_member">グループから削除</string>
     <string name="conversation__action__add_to_favorites">お気に入りに追加</string>
@@ -298,12 +304,12 @@
     <string name="confirmation_menu__meta_remove_text">この会話でメッセージを送受信することはできません。</string>
     <!-- RE-USING: confirmation_menu.cancel -->
     <!-- Remove from conversation dialogue -->
-    <string name="confirmation_menu__header">削除しますか?</string>
+    <string name="confirmation_menu__header">削除しますか？</string>
     <string name="confirmation_menu_text_with_name">%1$s は、この会話でメッセージを送受信することはできません。</string>
     <string name="confirmation_menu__confirm_remove">削除</string>
     <!-- RE-USING: confirmation_menu.cancel -->
     <!-- Block someone dialogue -->
-    <string name="confirmation_menu__block_header">ブロックしますか?</string>
+    <string name="confirmation_menu__block_header">ブロックしますか？</string>
     <string name="confirmation_menu__block_text_with_name">%1$s は、あなたにコンタクトをすることやグループ会話にあなたを追加することができません。</string>
     <string name="confirmation_menu__confirm_block">ブロック</string>
     <!-- RE-USING: confirmation_menu.cancel -->
@@ -325,7 +331,7 @@
     <string name="settings_title">設定</string>
     <!-- Options menu -->
     <!-- Manage Team -->
-    <string name="pref_manage_team_title">チームを管理する</string>
+    <string name="pref_manage_team_title">チームを管理</string>
     <!-- About screen -->
     <string name="pref_category_title">設定</string>
     <string name="pref_developer_screen_title">開発者向けの設定</string>
@@ -385,7 +391,7 @@
     <string name="pref_options_ringtones_category_title">サウンド</string>
     <string name="pref_options_ringtones_ringtone_title">電話着信音</string>
     <string name="pref_options_ringtones_text_title">メッセージ着信音</string>
-    <string name="pref_options_ringtones_ping_title">Ping</string>
+    <string name="pref_options_ringtones_ping_title">ping</string>
     <string name="pref_options_ringtones_default_summary">Wire デフォルト</string>
     <string name="pref_options_ringtones_silent">サイレント</string>
     <string name="pref_options_dark_theme_title">ダークテーマ</string>
@@ -506,8 +512,8 @@
     <string name="message_notifications_channel_name">メッセージ</string>
     <string name="message_notifications_channel_description">テキスト、画像、オーディオとビデオメッセージを含む、すべての種類のメッセージを通知します。</string>
     <string name="incoming_call_notifications_channel_name">着信中</string>
-    <string name="ping_notifications_channel_name">Ping</string>
-    <string name="ping_notifications_channel_description">他のユーザーがあなたへ Ping したときに通知します。</string>
+    <string name="ping_notifications_channel_name">ping</string>
+    <string name="ping_notifications_channel_description">他のユーザーがあなたへ ping したときに通知します。</string>
     <string name="ongoing_channel_name">バックグラウンド通知</string>
     <string name="ongoing_channel_description">通話または画像保存中のような進行中の処理または、派生するアクション時に通知します</string>
     <string name="foreground_service_notification_name">サーバーへの接続を維持する</string>
@@ -524,7 +530,7 @@
     <string name="notification__message_with_quote__name__prefix__text">%1$s: \u0020 からの返信</string>
     <string name="notification__message_with_quote__group__prefix__text">%2$s の %1$s: \u0020 からの返信</string>
     <string name="notification__message__one_to_one__wanted_to_talk">呼び出しました</string>
-    <string name="notification__message__one_to_one__pinged">Ping しました</string>
+    <string name="notification__message__one_to_one__pinged">ping しました</string>
     <string name="notification__message__one_to_one__shared_picture">写真を共有しました</string>
     <string name="notification__message__one_to_one__shared_file">ファイルを共有しました</string>
     <string name="notification__message__one_to_one__shared_video">ビデオを共有します</string>
@@ -751,7 +757,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="tooltip_record">ビデオを記録</string>
     <string name="tooltip_camera">写真を追加</string>
     <string name="tooltip_sketch">画像を描く</string>
-    <string name="tooltip_ping">Ping</string>
+    <string name="tooltip_ping">ping</string>
     <string name="tooltip_emoji">絵文字</string>
     <string name="tooltip_location">場所</string>
     <string name="tooltip_more">その他の操作</string>
@@ -796,15 +802,15 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="message_bottom_menu_action_save_ok">写真を保存しました</string>
     <string name="message_bottom_menu_action_details">詳細</string>
     <string name="message_details_title">メッセージ詳細</string>
-    <string name="message_liked_title">いいね しました</string>
+    <string name="message_liked_title">いいね！ しました</string>
     <string name="message_read_title">開封</string>
     <string name="message_details_sent">送信</string>
     <string name="message_details_last_edited">編集済</string>
     <string name="tab_title_read">開封</string>
-    <string name="tab_title_likes">いいね しました</string>
+    <string name="tab_title_likes">いいね！ しました</string>
     <string name="messages_reads_turned_off">このメッセージが送信された時、開封通知はオフでした。</string>
     <string name="messages_no_reads">まだ、誰もこのメッセージを読んでいません。</string>
-    <string name="messages_no_likes">まだ、誰もこのメッセージにいいねしていません。</string>
+    <string name="messages_no_likes">まだ、誰もこのメッセージに「いいね！」していません。</string>
     <string name="message_footer__tap_to_like">タップしていいね！</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="other">%1$d 人</item>
@@ -829,13 +835,13 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
         <item quantity="other">%1$s 年</item>
     </plurals>
     <plurals name="unit_weeks">
-        <item quantity="other">%1$s 週</item>
+        <item quantity="other">%1$s 週間</item>
     </plurals>
     <plurals name="unit_days">
         <item quantity="other">%1$s 日</item>
     </plurals>
     <plurals name="unit_hours">
-        <item quantity="other">%1$s 時</item>
+        <item quantity="other">%1$s 時間</item>
     </plurals>
     <plurals name="unit_minutes">
         <item quantity="other">%1$s 分</item>
@@ -861,7 +867,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
         <item quantity="other">%1$s 件のメッセージ</item>
     </plurals>
     <plurals name="conversation_list__pings_count">
-        <item quantity="other">%1$s がPingしました</item>
+        <item quantity="other">%1$s が ping しました</item>
     </plurals>
     <plurals name="conversation_list__new_likes_count">
         <item quantity="other">%1$s ♥</item>
@@ -885,13 +891,13 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="conversation_list__shared__audio">音声メッセージを共有しました</string>
     <string name="conversation_list__shared__location">場所を共有しました</string>
     <string name="conversation_list__missed_call">不在着信</string>
-    <string name="conversation_list__pinged">Ping しました</string>
+    <string name="conversation_list__pinged">ping しました</string>
     <string name="conversation_list__ephemeral">誰かがメッセージを送信しました</string>
     <string name="conversation_list__single_eph_and_mention">あなたへのメンション</string>
     <string name="conversation_list__group_eph_and_mention">誰かがあなたにメンションしました</string>
     <string name="conversation_list__single_eph_and_quote">あなたへの返信</string>
     <string name="conversation_list__group_eph_and_quote">誰かがあなたに返信しました</string>
-    <string name="conversation_list__typing">メッセージを入力中</string>
+    <string name="conversation_list__typing">メッセージを入力中&#8230;</string>
     <string name="conversation_list__someone">誰か</string>
     <string name="conversation_list__added">[[%1$s]] が追加されました</string>
     <string name="conversation_list__added_you">[[%1$s]] あなたを追加しました</string>
@@ -1025,7 +1031,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="create_conv_options_title_text">会話のオプション</string>
     <string name="create_conv_options_subtitle_allow_guests">ゲストアクセスを許可</string>
     <string name="create_conv_options_subtitle_read_receipts">開封通知</string>
-    <string name="create_conv_options_subtitle_on">ON</string>
+    <string name="create_conv_options_subtitle_on">オン</string>
     <string name="create_conv_options_subtitle_off">オフ</string>
     <string name="open_this_conversation_to_people_outside_your_team">サービスとチーム外の人々にこの会話を公開します。</string>
     <string name="allow_guests">ゲストとサービスを許可します</string>
@@ -1049,7 +1055,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="share_link_button">リンクを共有</string>
     <string name="revoke_link_button">リンク取消...</string>
     <string name="invitation_link_title">リンクで他のユーザーを招待します</string>
-    <string name="link_copied_toast">リンクをコピーしました!</string>
+    <string name="link_copied_toast">リンクをコピーしました。</string>
     <string name="revoke_link_message">新しいゲストはこのリンクに参加することができません。現在のゲストはアクセス可能です。</string>
     <string name="revoke_link_confirm">リンク取消</string>
     <string name="invite_button_description">外部ユーザは、あなたのチームの会話に参加できます。</string>
@@ -1133,7 +1139,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="custom_backend_info_show_more">さらに表示</string>
     <string name="custom_backend_dialog_ok">OK</string>
     <string name="custom_backend_dialog_cancel">キャンセル</string>
-    <string name="custom_backend_dialog_connect">つながる</string>
+    <string name="custom_backend_dialog_connect">接続</string>
     <string name="custom_backend_dialog_confirmation_title">サーバーに接続</string>
     <string name="custom_backend_dialog_confirmation_message">This configuration will connect the app to a third-party server: %1$s</string>
     <string name="custom_backend_dialog_info_title">You are connected to a third-party server: \"%1$s\"</string>
@@ -1150,7 +1156,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="read_receipts_remotely_disabled_title">開封通知を無効にします</string>
     <string name="read_receipts_remotely_changed_message">あなたの アカウント設定 から、この設定を変更することができます。</string>
     <string name="app_lock_locked_title">Wireはロックされています</string>
-    <string name="app_lock_locked_message">デバイスの資格情報を入力してください。</string>
+    <string name="app_lock_locked_message">あなたのアカウントのパスワードを入力してください。</string>
     <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passphrase in your device settings.</string>
     <string name="app_lock_setup_dialog_button">設定を開く</string>
     <string name="security_policy_title">Wire セキュリティポリシー</string>
