@@ -90,7 +90,7 @@
     <!-- Request Password dialog -->
     <string name="request_password_ok">OK</string>
     <string name="request_password_cancel">Cancelar</string>
-    <string name="request_password_biometric_description">Unlock using biometric authentication.</string>
+    <string name="request_password_biometric_description">Desbloquear con autenticación biométrica.</string>
     <string name="request_password_biometric_cancel">Cancelar</string>
     <string name="request_password_error">Contraseña incorrecta</string>
     <!-- Bots / Integrations / Services -->
@@ -126,15 +126,15 @@
     <!-- Add people -->
     <string name="content__system__someone_added_people">[[%1$s]] añadió %2$s a la conversación</string>
     <plurals name="content__system__someone_added_people_with_others">
-        <item quantity="one">[[%1$s]] added %2$s and _%3$s other to the conversation_</item>
+        <item quantity="one">[[%1$s]] añadió %2$s y _ otros%3$s a la conversación_</item>
         <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
     </plurals>
-    <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
+    <string name="content__system__someone_added_you">[[%1$s]] te añadió a la conversación</string>
     <plurals name="content__system__someone_added_people_and_you_with_others">
-        <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
+        <item quantity="one">[[%1$s]] añadió %2$s a tí y a otros _%3$s a la conversación_</item>
         <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
     </plurals>
-    <string name="content__system__you_added_people">You added %1$s to the conversation</string>
+    <string name="content__system__you_added_people">Has añadido a %1$s a la conversación</string>
     <plurals name="content__system__you_added_people_with_others">
         <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
         <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
@@ -142,7 +142,7 @@
     <!-- Remove people -->
     <string name="content__system__other_removed_other">[[%1$s]] ha eliminado a %2$s</string>
     <string name="content__system__other_removed_you">[[%1$s]] te ha eliminado</string>
-    <string name="content__system__you_removed_other">You removed %1$s</string>
+    <string name="content__system__you_removed_other">Eliminaste a %1$s</string>
     <string name="content__system__you_left">[[Tú]] saliste</string>
     <string name="content__system__other_left">[[%1$s]] salió</string>
     <!-- Create conversation -->
@@ -205,8 +205,8 @@
     <string name="content__file__action__save_error">Imposible guardar el archivo</string>
     <string name="content__location__no_map_placeholder">LA UBICACIÓN APARECERÁ EN EL MAPA CUANDO TENGAS CONEXIÓN.</string>
     <!-- Conversation actions -->
-    <string name="conversation__action__clear_content">Clear content&#8230;</string>
-    <string name="conversation__action__delete_group">Delete group&#8230;</string>
+    <string name="conversation__action__clear_content">Eliminar el contenido&#8230;</string>
+    <string name="conversation__action__delete_group">Eliminar grupo&#8230;</string>
     <string name="conversation__action__archive">Archivar</string>
     <string name="conversation__action__unarchive">Desarchivar</string>
     <string name="conversation__action__add_participants">AGREGAR PARTICIPANTES</string>
@@ -221,11 +221,11 @@
     <string name="conversation__action__block">Bloquear&#8230;</string>
     <string name="conversation__action__unblock">Desbloquear</string>
     <string name="conversation__action__remove_member">Remover del grupo&#8230;</string>
-    <string name="conversation__action__add_to_favorites">Add to Favorites</string>
-    <string name="conversation__action__remove_from_favorites">Remove from Favorites</string>
-    <string name="conversation__action__move_to_folder">Move to&#8230;</string>
-    <string name="conversation__action__remove_from_folder">Remove from \"%1$s\"</string>
-    <string name="conversation__action__leave_and_clear">\tLeave and clear content</string>
+    <string name="conversation__action__add_to_favorites">Agregar a Favoritos</string>
+    <string name="conversation__action__remove_from_favorites">Eliminar de Favoritos</string>
+    <string name="conversation__action__move_to_folder">Mover a&#8230;</string>
+    <string name="conversation__action__remove_from_folder">Eliminar de \"%1$s\"</string>
+    <string name="conversation__action__leave_and_clear">\tSalir y eliminar contenido</string>
     <string name="conversation__action__leave_only">\tSalir del grupo</string>
     <string name="conversation__action__clear_and_leave">\tClear content and leave</string>
     <string name="conversation__action__clear_only">\tClear content</string>
@@ -324,12 +324,12 @@
     <!-- RE-USING: confirmation_menu.cancel -->
     <string name="connect_request__footer__blocked_label">Bloqueado</string>
     <!-- Clear conversation -->
-    <string name="confirmation_menu__clear_popup_title">Clear content?</string>
+    <string name="confirmation_menu__clear_popup_title">¿Desea eliminar el contenido?</string>
     <string name="confirmation_menu__meta_delete_text">Esto borrará el historial de conversaciones en todos sus dispositivos.</string>
     <!-- Delete conversation -->
-    <string name="confirmation_menu__delete_popup_title">Delete group conversation?</string>
-    <string name="confirmation_menu__delete_popup_text">This will delete the group and all content for all participants on all devices. There is no option to restore the content. All participants will be notified.</string>
-    <string name="confirmation_menu__delete_popup_positive_button">DELETE GROUP</string>
+    <string name="confirmation_menu__delete_popup_title">¿Desea eliminar la conversación?</string>
+    <string name="confirmation_menu__delete_popup_text">Esta opción eliminará el grupo y el contenido para todos los participantes desde cualquier dispositivo. El contenido no podrá restaurarse. Se notificará a todos los participantes.</string>
+    <string name="confirmation_menu__delete_popup_positive_button">ELIMINAR GRUPO</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">video no encontrado</string>
     <string name="mediaplayer__message__onsoundcloud">en SoundCloud</string>
@@ -404,7 +404,7 @@
     <string name="pref_options_ringtones_default_summary">Wire por defecto</string>
     <string name="pref_options_ringtones_silent">Silencio</string>
     <string name="pref_options_dark_theme_title">Tema oscuro</string>
-    <string name="pref_options_hide_screen_title">Hide screen content</string>
+    <string name="pref_options_hide_screen_title">Ocultar el contenido de pantalla</string>
     <string name="pref_options_hide_screen_summary">Wire\'s contents will no longer be visible in the task switcher</string>
     <string name="pref_options_image_download_title">Descargar fotos</string>
     <string name="pref_options_image_download_always">Siempre</string>
