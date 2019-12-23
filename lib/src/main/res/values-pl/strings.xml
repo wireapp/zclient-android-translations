@@ -991,6 +991,8 @@
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">GOŚĆ</string>
     <string name="participant_tab_guest_indicator_label">Gość</string>
+    <string name="participant_tab_external_indicator_label">EXTERNAL</string>
+    <string name="participant_tab_group_admin_indicator_label">GROUP ADMIN</string>
     <string name="availability_none">Żaden</string>
     <string name="availability_available">&amp;Dostępny(a)</string>
     <string name="availability_away">Nieobecny(a)</string>
@@ -1095,8 +1097,20 @@
     <string name="add_participants_count_header">DODAJ UCZESTNICTWA (%1$s)</string>
     <string name="new_conv_no_results">Brak wyników</string>
     <string name="new_conv_no_contacts">Żadnych kontaktów</string>
-    <string name="participants_divider_services">USŁUGI (%1$s)</string>
-    <string name="participants_divider_people">LUDZI (%1$s)</string>
+    <plurals name="participants_divider_services">
+        <item quantity="one">USŁUGI (%1$s)</item>
+        <item quantity="few">USŁUGI (%1$s)</item>
+        <item quantity="many">USŁUGI (%1$s)</item>
+        <item quantity="other">USŁUGI (%1$s)</item>
+    </plurals>
+    <string name="participants_divider_people">GROUP MEMBERS (%1$s)</string>
+    <string name="participants_divider_admins">GROUP ADMINS (%1$s)</string>
+    <string name="participants_divider_people_no_number">GROUP MEMBERS</string>
+    <string name="participants_divider_admins_no_number">GROUP ADMINS</string>
+    <string name="participants_divider_options">OPTIONS</string>
+    <string name="participants_no_admins">There are no admins.</string>
+    <string name="participants_no_results_1">Brak pasujących wyników.</string>
+    <string name="participants_no_results_2">Try entering a different name.</string>
     <string name="group_name_hint">NAZWA GRUPY</string>
     <string name="allow_guests_toggle_text">Zezwól gościom i usługom</string>
     <string name="allow_guests_toggle_info_text">Otwórz tę rozmowę dla usług i osób spoza twojej drużyny.</string>
@@ -1111,6 +1125,8 @@
     <string name="create_conv_options_subtitle_read_receipts">Read receipts</string>
     <string name="create_conv_options_subtitle_on">ON</string>
     <string name="create_conv_options_subtitle_off">WYŁĄCZ</string>
+    <string name="participant_group_admin_toggle_text">Group admin</string>
+    <string name="participant_group_admin_toggle_info_text">When this is on, the admin can add or remove people and services, update group settings, and change a participant’s role.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Otwórz tę rozmowę dla usług i osób spoza twojej drużyny.</string>
     <string name="allow_guests">Zezwól gościom i usługom</string>
     <string name="guest_options_title">Guests and services</string>
@@ -1194,7 +1210,7 @@
     <string name="sso_signin_max_accounts_title">Two accounts active</string>
     <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
     <string name="participant_search_hint">SEARCH FOR NAMES</string>
-    <string name="participant_search_title">OSOBY</string>
+    <string name="participant_search_title">UCZESTNICY</string>
     <string name="generic_service_warning">Services have access to the content of this conversation</string>
     <string name="add_services_button_text">Manage services</string>
     <string name="wire_notification_name">Wire Notification</string>

@@ -938,6 +938,8 @@ Lahti lukustada saad PINi, mustri, parooli või biomeetriaga.</string>
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">KÜLALINE</string>
     <string name="participant_tab_guest_indicator_label">Külaline</string>
+    <string name="participant_tab_external_indicator_label">VÄLINE</string>
+    <string name="participant_tab_group_admin_indicator_label">GRUPI ADMIN</string>
     <string name="availability_none">Puudub</string>
     <string name="availability_available">Saadaval</string>
     <string name="availability_away">Eemal</string>
@@ -1042,8 +1044,18 @@ Lahti lukustada saad PINi, mustri, parooli või biomeetriaga.</string>
     <string name="add_participants_count_header">LISA OSALEJAID (%1$s)</string>
     <string name="new_conv_no_results">Tulemusi pole</string>
     <string name="new_conv_no_contacts">Kontakte pole</string>
-    <string name="participants_divider_services">TEENUSED (%1$s)</string>
-    <string name="participants_divider_people">INIMESED (%1$s)</string>
+    <plurals name="participants_divider_services">
+        <item quantity="one">TEENUSED (%1$s)</item>
+        <item quantity="other">TEENUSED (%1$s)</item>
+    </plurals>
+    <string name="participants_divider_people">GRUPI LIIKMED (%1$s)</string>
+    <string name="participants_divider_admins">GRUPI ADMINID (%1$s)</string>
+    <string name="participants_divider_people_no_number">GRUPI LIIKMED</string>
+    <string name="participants_divider_admins_no_number">GRUPI ADMINID</string>
+    <string name="participants_divider_options">VALIKUD</string>
+    <string name="participants_no_admins">Adminid puuduvad.</string>
+    <string name="participants_no_results_1">Tulemusi ei leitud.</string>
+    <string name="participants_no_results_2">Proovi mõnda teist nime.</string>
     <string name="group_name_hint">GRUPI NIMI</string>
     <string name="allow_guests_toggle_text">Luba külalisi ja teenuseid</string>
     <string name="allow_guests_toggle_info_text">Ava see vestlus teenustele ja meeskonnast väljas olevatele inimestele.</string>
@@ -1058,6 +1070,8 @@ Lahti lukustada saad PINi, mustri, parooli või biomeetriaga.</string>
     <string name="create_conv_options_subtitle_read_receipts">Lugemiskinnitused</string>
     <string name="create_conv_options_subtitle_on">SEES</string>
     <string name="create_conv_options_subtitle_off">VÄLJAS</string>
+    <string name="participant_group_admin_toggle_text">Grupi admin</string>
+    <string name="participant_group_admin_toggle_info_text">Selle lubamisel saab admin lisada või eemaldada inimesi ning teenuseid, uuendada grupi seadeid ja muuta osalejate rolle.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Ava see vestlus teenustele ja meeskonnast väljas olevatele inimestele.</string>
     <string name="allow_guests">Luba külalisi ja teenuseid</string>
     <string name="guest_options_title">Külalised ja teenused</string>
@@ -1141,7 +1155,7 @@ Lahti lukustada saad PINi, mustri, parooli või biomeetriaga.</string>
     <string name="sso_signin_max_accounts_title">Kaks aktiivset kontot</string>
     <string name="sso_signin_max_accounts_message">Korraga saad kasutada vaid kahte kontot. Lisakonto kasutamiseks pead ühega olemasolevatest välja logima.</string>
     <string name="participant_search_hint">OTSI NIMESID</string>
-    <string name="participant_search_title">INIMESED</string>
+    <string name="participant_search_title">OSALEJAD</string>
     <string name="generic_service_warning">Teenustel on ligipääs selle vestluse sisule</string>
     <string name="add_services_button_text">Halda teenuseid</string>
     <string name="wire_notification_name">Wire\'i teade</string>

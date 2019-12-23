@@ -910,6 +910,8 @@
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">訪客</string>
     <string name="participant_tab_guest_indicator_label">訪客</string>
+    <string name="participant_tab_external_indicator_label">EXTERNAL</string>
+    <string name="participant_tab_group_admin_indicator_label">GROUP ADMIN</string>
     <string name="availability_none">無</string>
     <string name="availability_available">在線</string>
     <string name="availability_away">離開</string>
@@ -918,11 +920,11 @@
     <string name="availability_text_away">%1$s已離開</string>
     <string name="availability_text_busy">%1$s忙碌中</string>
     <string name="availability_setstatus">設置狀態</string>
-    <string name="availability_notification_warning_away_title">You are set to Away</string>
+    <string name="availability_notification_warning_away_title">您設置為離開</string>
     <string name="availability_notification_warning_away">You will appear as Away to other people. You will not receive notifications about any incoming calls or messages.</string>
     <string name="availability_notification_warning_busy_title">您設置為忙碌</string>
     <string name="availability_notification_warning_busy">You will appear as Busy to other people. You will only receive notifications for mentions, replies, and calls in conversations that are not muted.</string>
-    <string name="availability_notification_warning_available_title">You are set to Available</string>
+    <string name="availability_notification_warning_available_title">您設置為在線</string>
     <string name="availability_notification_warning_available">You will appear as Available to other people. You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
     <string name="availability_notification_warning_nostatus_title">目前沒有設定狀態</string>
     <string name="availability_notification_warning_nostatus">You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
@@ -1014,8 +1016,17 @@
     <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
     <string name="new_conv_no_results">沒有找到</string>
     <string name="new_conv_no_contacts">沒有聯絡人</string>
-    <string name="participants_divider_services">服務 (%1$s)</string>
-    <string name="participants_divider_people">成員(%1$s)</string>
+    <plurals name="participants_divider_services">
+        <item quantity="other">服務 (%1$s)</item>
+    </plurals>
+    <string name="participants_divider_people">GROUP MEMBERS (%1$s)</string>
+    <string name="participants_divider_admins">GROUP ADMINS (%1$s)</string>
+    <string name="participants_divider_people_no_number">GROUP MEMBERS</string>
+    <string name="participants_divider_admins_no_number">GROUP ADMINS</string>
+    <string name="participants_divider_options">OPTIONS</string>
+    <string name="participants_no_admins">沒有管理員</string>
+    <string name="participants_no_results_1">沒有搜尋結果</string>
+    <string name="participants_no_results_2">Try entering a different name.</string>
     <string name="group_name_hint">群組名</string>
     <string name="allow_guests_toggle_text">允許訪客和服務</string>
     <string name="allow_guests_toggle_info_text">開放這個對話與團隊以外的訪客及服務。</string>
@@ -1030,6 +1041,8 @@
     <string name="create_conv_options_subtitle_read_receipts">讀取回條</string>
     <string name="create_conv_options_subtitle_on">ON</string>
     <string name="create_conv_options_subtitle_off">關閉</string>
+    <string name="participant_group_admin_toggle_text">群組管理員</string>
+    <string name="participant_group_admin_toggle_info_text">When this is on, the admin can add or remove people and services, update group settings, and change a participant’s role.</string>
     <string name="open_this_conversation_to_people_outside_your_team">開放這個對話與團隊以外的訪客及服務。</string>
     <string name="allow_guests">允許訪客和服務</string>
     <string name="guest_options_title">訪客和服務</string>
@@ -1113,7 +1126,7 @@
     <string name="sso_signin_max_accounts_title">Two accounts active</string>
     <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
     <string name="participant_search_hint">搜索名稱</string>
-    <string name="participant_search_title">聯絡人</string>
+    <string name="participant_search_title">參與者</string>
     <string name="generic_service_warning">服務可以存取這個對話內容</string>
     <string name="add_services_button_text">管理服務</string>
     <string name="wire_notification_name">Wire通知</string>

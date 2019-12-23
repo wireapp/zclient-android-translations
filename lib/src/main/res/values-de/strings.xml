@@ -938,6 +938,8 @@ Gilt nicht für Gruppen.</string>
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">GAST</string>
     <string name="participant_tab_guest_indicator_label">Gast</string>
+    <string name="participant_tab_external_indicator_label">EXTERN</string>
+    <string name="participant_tab_group_admin_indicator_label">GRUPPEN-ADMIN</string>
     <string name="availability_none">Kein Status</string>
     <string name="availability_available">Verfügbar</string>
     <string name="availability_away">Abwesend</string>
@@ -1042,8 +1044,18 @@ Gilt nicht für Gruppen.</string>
     <string name="add_participants_count_header">TEILNEHMER HINZUFÜGEN (%1$s)</string>
     <string name="new_conv_no_results">Keine Ergebnisse</string>
     <string name="new_conv_no_contacts">Keine Kontakte</string>
-    <string name="participants_divider_services">DIENSTE (%1$s)</string>
-    <string name="participants_divider_people">PERSONEN (%1$s)</string>
+    <plurals name="participants_divider_services">
+        <item quantity="one">DIENSTE (%1$s)</item>
+        <item quantity="other">DIENSTE (%1$s)</item>
+    </plurals>
+    <string name="participants_divider_people">GRUPPEN-MITGLIEDER (%1$s)</string>
+    <string name="participants_divider_admins">GRUPPEN-ADMINS (%1$s)</string>
+    <string name="participants_divider_people_no_number">GRUPPEN-MITGLIEDER</string>
+    <string name="participants_divider_admins_no_number">GRUPPEN-ADMINS</string>
+    <string name="participants_divider_options">OPTIONEN</string>
+    <string name="participants_no_admins">Es gibt keine Admins.</string>
+    <string name="participants_no_results_1">Keine passenden Ergebnisse.</string>
+    <string name="participants_no_results_2">Bitte einen anderen Namen angeben.</string>
     <string name="group_name_hint">GRUPPENNAME</string>
     <string name="allow_guests_toggle_text">Gäste und Dienste zulassen</string>
     <string name="allow_guests_toggle_info_text">Öffne diese Unterhaltung für Dienste und Personen außerhalb des Teams.</string>
@@ -1058,6 +1070,8 @@ Gilt nicht für Gruppen.</string>
     <string name="create_conv_options_subtitle_read_receipts">Lesebestätigungen</string>
     <string name="create_conv_options_subtitle_on">EIN</string>
     <string name="create_conv_options_subtitle_off">AUS</string>
+    <string name="participant_group_admin_toggle_text">Gruppen-Admin</string>
+    <string name="participant_group_admin_toggle_info_text">Wenn diese Option aktiviert ist, kann der Admin Personen und Dienste hinzufügen oder entfernen, Einstellungen aktualisieren und die Rolle eines Teilnehmers ändern.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Öffne diese Unterhaltung für Dienste und Personen außerhalb des Teams.</string>
     <string name="allow_guests">Gäste und Dienste zulassen</string>
     <string name="guest_options_title">Gäste und Dienste</string>
@@ -1142,7 +1156,7 @@ Gilt nicht für Gruppen.</string>
     <string name="sso_signin_max_accounts_title">Zwei Konten sind aktiv</string>
     <string name="sso_signin_max_accounts_message">Man kann zugleich mit zwei Konten angemeldet sein. Um ein neues Konto hinzuzufügen, bitte aus einem ausloggen.</string>
     <string name="participant_search_hint">NACH NAMEN SUCHEN</string>
-    <string name="participant_search_title">PERSONEN</string>
+    <string name="participant_search_title">TEILNEHMER</string>
     <string name="generic_service_warning">Dienste haben Zugriff auf den Inhalt dieser Unterhaltung</string>
     <string name="add_services_button_text">Dienste verwalten</string>
     <string name="wire_notification_name">Wire Benachrichtigung</string>

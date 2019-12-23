@@ -991,6 +991,8 @@
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">HOST</string>
     <string name="participant_tab_guest_indicator_label">Host</string>
+    <string name="participant_tab_external_indicator_label">EXTERNAL</string>
+    <string name="participant_tab_group_admin_indicator_label">GROUP ADMIN</string>
     <string name="availability_none">Žádné</string>
     <string name="availability_available">Dostupný</string>
     <string name="availability_away">Nepřítomný</string>
@@ -1095,8 +1097,20 @@
     <string name="add_participants_count_header">PŘIDAT ÚČASTNÍKA (%1$s)</string>
     <string name="new_conv_no_results">Žádné výsledky</string>
     <string name="new_conv_no_contacts">Žádné kontakty</string>
-    <string name="participants_divider_services">SLUŽBY (%1$s)</string>
-    <string name="participants_divider_people">LIDÉ (%1$s)</string>
+    <plurals name="participants_divider_services">
+        <item quantity="one">SLUŽBY (%1$s)</item>
+        <item quantity="few">SLUŽBY (%1$s)</item>
+        <item quantity="many">SLUŽBY (%1$s)</item>
+        <item quantity="other">SLUŽBY (%1$s)</item>
+    </plurals>
+    <string name="participants_divider_people">GROUP MEMBERS (%1$s)</string>
+    <string name="participants_divider_admins">GROUP ADMINS (%1$s)</string>
+    <string name="participants_divider_people_no_number">GROUP MEMBERS</string>
+    <string name="participants_divider_admins_no_number">GROUP ADMINS</string>
+    <string name="participants_divider_options">OPTIONS</string>
+    <string name="participants_no_admins">There are no admins.</string>
+    <string name="participants_no_results_1">Žádné odpovídající výsledky.</string>
+    <string name="participants_no_results_2">Try entering a different name.</string>
     <string name="group_name_hint">NÁZEV SKUPINY</string>
     <string name="allow_guests_toggle_text">Povolit hosty a služby</string>
     <string name="allow_guests_toggle_info_text">Otevřete tuto konverzaci službám a lidem mimo váš tým.</string>
@@ -1111,6 +1125,8 @@
     <string name="create_conv_options_subtitle_read_receipts">Potvrzení o přečtení</string>
     <string name="create_conv_options_subtitle_on">ZAPNUTO</string>
     <string name="create_conv_options_subtitle_off">VYPNUTO</string>
+    <string name="participant_group_admin_toggle_text">Group admin</string>
+    <string name="participant_group_admin_toggle_info_text">When this is on, the admin can add or remove people and services, update group settings, and change a participant’s role.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Otevřete tuto konverzaci službám a lidem mimo váš tým.</string>
     <string name="allow_guests">Povolit hosty a služby</string>
     <string name="guest_options_title">Hosté a služby</string>
@@ -1194,7 +1210,7 @@
     <string name="sso_signin_max_accounts_title">Dva účty aktivní</string>
     <string name="sso_signin_max_accounts_message">Můžete být přihlášeni pouze na dvou účtech najednou. Abyste přidali další, musíte se z jednoho odhlásit.</string>
     <string name="participant_search_hint">HLEDAT DLE NÁZVU</string>
-    <string name="participant_search_title">LIDÉ</string>
+    <string name="participant_search_title">ÚČASTNÍCI</string>
     <string name="generic_service_warning">Služby mají přístup k obsahu této konverzace</string>
     <string name="add_services_button_text">Spravovat služby</string>
     <string name="wire_notification_name">Upozornění Wire</string>

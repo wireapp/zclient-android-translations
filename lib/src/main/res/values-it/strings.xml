@@ -90,7 +90,7 @@
     <!-- Request Password dialog -->
     <string name="request_password_ok">OK</string>
     <string name="request_password_cancel">Annulla</string>
-    <string name="request_password_biometric_description">Unlock using biometric authentication.</string>
+    <string name="request_password_biometric_description">Sblocca usando l\'autenticazione biometrica.</string>
     <string name="request_password_biometric_cancel">Annulla</string>
     <string name="request_password_error">Password errata</string>
     <!-- Bots / Integrations / Services -->
@@ -328,7 +328,7 @@
     <string name="confirmation_menu__meta_delete_text">La cronologia delle conversazioni verrà cancellata da tutti i tuoi dispositivi.</string>
     <!-- Delete conversation -->
     <string name="confirmation_menu__delete_popup_title">Eliminare la conversazione di gruppo?</string>
-    <string name="confirmation_menu__delete_popup_text">This will delete the group and all content for all participants on all devices. There is no option to restore the content. All participants will be notified.</string>
+    <string name="confirmation_menu__delete_popup_text">Questo cancellerà il gruppo e tutti i contenuti per tutti i partecipanti su tutti i dispositivi. Non c\'è l\'opzione per ripristinare il contenuto. Tutti i partecipanti saranno avvisati.</string>
     <string name="confirmation_menu__delete_popup_positive_button">ELIMINA GRUPPO</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">video non trovato</string>
@@ -937,6 +937,8 @@
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">OSPITE</string>
     <string name="participant_tab_guest_indicator_label">Ospite</string>
+    <string name="participant_tab_external_indicator_label">ESTERNO</string>
+    <string name="participant_tab_group_admin_indicator_label">GRUPPO ADMIN</string>
     <string name="availability_none">Nessuno</string>
     <string name="availability_available">Disponibile</string>
     <string name="availability_away">Assente</string>
@@ -1041,8 +1043,18 @@
     <string name="add_participants_count_header">AGGIUNGI PARTECIPANTI (%1$s)</string>
     <string name="new_conv_no_results">Nessun risultato trovato</string>
     <string name="new_conv_no_contacts">Nessun contatto</string>
-    <string name="participants_divider_services">SERVIZI (%1$s)</string>
-    <string name="participants_divider_people">PERSONE (%1$s)</string>
+    <plurals name="participants_divider_services">
+        <item quantity="one">SERVIZI (%1$s)</item>
+        <item quantity="other">SERVIZI (%1$s)</item>
+    </plurals>
+    <string name="participants_divider_people">MEMBRI GRUPPO (%1$s)</string>
+    <string name="participants_divider_admins">ADMIN GRUPPO (%1$s)</string>
+    <string name="participants_divider_people_no_number">MEMBRI GRUPPO</string>
+    <string name="participants_divider_admins_no_number">GRUPPO ADMIN</string>
+    <string name="participants_divider_options">OPZIONI</string>
+    <string name="participants_no_admins">Non ci sono amministratori.</string>
+    <string name="participants_no_results_1">Nessun risultato.</string>
+    <string name="participants_no_results_2">Prova a inserire un nome diverso.</string>
     <string name="group_name_hint">NOME GRUPPO</string>
     <string name="allow_guests_toggle_text">Consenti ospiti e servizi</string>
     <string name="allow_guests_toggle_info_text">Apri questa conversazione a servizi e persone esterne al tuo team.</string>
@@ -1057,6 +1069,8 @@
     <string name="create_conv_options_subtitle_read_receipts">Conferme di lettura</string>
     <string name="create_conv_options_subtitle_on">ACCESO</string>
     <string name="create_conv_options_subtitle_off">SPENTO</string>
+    <string name="participant_group_admin_toggle_text">Amministratore del gruppo</string>
+    <string name="participant_group_admin_toggle_info_text">Quando è attivo, l\'amministratore può aggiungere o rimuovere persone e servizi, aggiornare le impostazioni di gruppo e modificare il ruolo di un partecipante.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Apri questa conversazione a servizi e persone esterne al tuo team.</string>
     <string name="allow_guests">Consenti ospiti e servizi</string>
     <string name="guest_options_title">Ospiti e servizi</string>
@@ -1140,7 +1154,7 @@
     <string name="sso_signin_max_accounts_title">Due account attivi</string>
     <string name="sso_signin_max_accounts_message">Puoi connetterti solo con due account per volta. Esci da un account per aggiungerne un altro.</string>
     <string name="participant_search_hint">CERCA PER NOMI</string>
-    <string name="participant_search_title">PERSONE</string>
+    <string name="participant_search_title">PARTECIPANTI</string>
     <string name="generic_service_warning">I servizi hanno accesso al contenuto di questa conversazione</string>
     <string name="add_services_button_text">Gestisci servizi</string>
     <string name="wire_notification_name">Notifica di Wire</string>
@@ -1181,7 +1195,7 @@
     <string name="read_receipts_remotely_disabled_title">Hai disabilitato le conferme di lettura</string>
     <string name="read_receipts_remotely_changed_message">Puoi modificare questa opzione nelle impostazioni del tuo account.</string>
     <string name="app_lock_locked_title">Wire è bloccato a causa di inattività</string>
-    <string name="app_lock_locked_message">Please enter your account password.</string>
+    <string name="app_lock_locked_message">Inserisci la password del tuo account.</string>
     <string name="app_lock_setup_dialog_messsage">Per sbloccare Wire, imposta una frase segreta nelle impostazioni del dispositivo.</string>
     <string name="app_lock_setup_dialog_button">Apri impostazioni</string>
     <string name="security_policy_title">Criteri di sicurezza Wire</string>

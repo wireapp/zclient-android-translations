@@ -938,6 +938,8 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">CONTACT EXTERNE</string>
     <string name="participant_tab_guest_indicator_label">Externe</string>
+    <string name="participant_tab_external_indicator_label">EXTERNE</string>
+    <string name="participant_tab_group_admin_indicator_label">ADMIN DU GROUPE</string>
     <string name="availability_none">Aucun</string>
     <string name="availability_available">Disponible</string>
     <string name="availability_away">Absent(e)</string>
@@ -1042,8 +1044,18 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="add_participants_count_header">AJOUTER DES PARTICIPANTS (%1$s)</string>
     <string name="new_conv_no_results">Aucun résultat</string>
     <string name="new_conv_no_contacts">Aucun contact</string>
-    <string name="participants_divider_services">SERVICES (%1$s)</string>
-    <string name="participants_divider_people">CONTACTS (%1$s)</string>
+    <plurals name="participants_divider_services">
+        <item quantity="one">SERVICES (%1$s)</item>
+        <item quantity="other">SERVICES (%1$s)</item>
+    </plurals>
+    <string name="participants_divider_people">MEMBRES DU GROUPE (%1$s)</string>
+    <string name="participants_divider_admins">ADMINS DU GROUPE (%1$s)</string>
+    <string name="participants_divider_people_no_number">MEMBRES DU GROUPE</string>
+    <string name="participants_divider_admins_no_number">ADMINS DU GROUPE</string>
+    <string name="participants_divider_options">OPTIONS</string>
+    <string name="participants_no_admins">Il n\'y a aucun administrateur.</string>
+    <string name="participants_no_results_1">Aucun résultat correspondant.</string>
+    <string name="participants_no_results_2">Essayez d\'entrer un nom différent.</string>
     <string name="group_name_hint">NOM DU GROUPE</string>
     <string name="allow_guests_toggle_text">Autoriser les contacts externes et les services</string>
     <string name="allow_guests_toggle_info_text">Rendre cette conversation accessible à des contacts et services externes à votre équipe.</string>
@@ -1058,6 +1070,8 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="create_conv_options_subtitle_read_receipts">Accusés de lecture</string>
     <string name="create_conv_options_subtitle_on">Activé</string>
     <string name="create_conv_options_subtitle_off">Désactivé</string>
+    <string name="participant_group_admin_toggle_text">Admin du groupe</string>
+    <string name="participant_group_admin_toggle_info_text">Lorsque cette option est activée, l\'administrateur peut ajouter ou supprimer des contacts et des services, mettre à jour les paramètres du groupe et modifier le rôle des participants.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Rendre cette conversation accessible à des contacts et services externes à votre équipe.</string>
     <string name="allow_guests">Autoriser les contacts externes et les services</string>
     <string name="guest_options_title">Contacts externes et services</string>
@@ -1141,7 +1155,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="sso_signin_max_accounts_title">Deux comptes actifs</string>
     <string name="sso_signin_max_accounts_message">Vous ne pouvez vous connecter qu’à deux comptes à la fois. Déconnectez-vous de l’un d’entre eux pour en ajouter un autre.</string>
     <string name="participant_search_hint">RECHERCHE PAR NOM</string>
-    <string name="participant_search_title">CONTACTS</string>
+    <string name="participant_search_title">PARTICIPANTS</string>
     <string name="generic_service_warning">Des services ont accès au contenu de cette conversation</string>
     <string name="add_services_button_text">Gérer les services</string>
     <string name="wire_notification_name">Notification Wire</string>

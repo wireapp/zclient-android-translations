@@ -964,6 +964,8 @@
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">GOST</string>
     <string name="participant_tab_guest_indicator_label">Gost</string>
+    <string name="participant_tab_external_indicator_label">EXTERNAL</string>
+    <string name="participant_tab_group_admin_indicator_label">GROUP ADMIN</string>
     <string name="availability_none">Ništa</string>
     <string name="availability_available">Dostupno</string>
     <string name="availability_away">Odsutan</string>
@@ -1068,8 +1070,19 @@
     <string name="add_participants_count_header">DODAJ SUDIONIKE (%1$s)</string>
     <string name="new_conv_no_results">Nema rezultata</string>
     <string name="new_conv_no_contacts">Nema kontakata</string>
-    <string name="participants_divider_services">USLUGE (%1$s)</string>
-    <string name="participants_divider_people">OSOBE (%1$s)</string>
+    <plurals name="participants_divider_services">
+        <item quantity="one">USLUGE (%1$s)</item>
+        <item quantity="few">USLUGE (%1$s)</item>
+        <item quantity="other">USLUGE (%1$s)</item>
+    </plurals>
+    <string name="participants_divider_people">GROUP MEMBERS (%1$s)</string>
+    <string name="participants_divider_admins">GROUP ADMINS (%1$s)</string>
+    <string name="participants_divider_people_no_number">GROUP MEMBERS</string>
+    <string name="participants_divider_admins_no_number">GROUP ADMINS</string>
+    <string name="participants_divider_options">OPTIONS</string>
+    <string name="participants_no_admins">There are no admins.</string>
+    <string name="participants_no_results_1">Nema traženih rezulata.</string>
+    <string name="participants_no_results_2">Try entering a different name.</string>
     <string name="group_name_hint">NAZIV GRUPE</string>
     <string name="allow_guests_toggle_text">Dopusti goste i usluge</string>
     <string name="allow_guests_toggle_info_text">Otvorite ovaj razgovor uslugama i osobama izvan Vašeg tima.</string>
@@ -1084,6 +1097,8 @@
     <string name="create_conv_options_subtitle_read_receipts">Potvrde o čitanju</string>
     <string name="create_conv_options_subtitle_on">UKLJUČENO</string>
     <string name="create_conv_options_subtitle_off">ISKLJUČENO</string>
+    <string name="participant_group_admin_toggle_text">Group admin</string>
+    <string name="participant_group_admin_toggle_info_text">When this is on, the admin can add or remove people and services, update group settings, and change a participant’s role.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Otvorite ovaj razgovor uslugama i osobama izvan Vašeg tima.</string>
     <string name="allow_guests">Dopusti goste i usluge</string>
     <string name="guest_options_title">Gosti i usluge</string>
@@ -1167,7 +1182,7 @@
     <string name="sso_signin_max_accounts_title">Dva računa aktivna</string>
     <string name="sso_signin_max_accounts_message">Možete biti prijavljeni samo s dva računa odjednom. Odjavite se s jednog za dodavanje drugog računa.</string>
     <string name="participant_search_hint">TRAŽENJE IMENA</string>
-    <string name="participant_search_title">LJUDI</string>
+    <string name="participant_search_title">SUDIONICI</string>
     <string name="generic_service_warning">Usluge imaju pristup sadržaju ovog razgovora</string>
     <string name="add_services_button_text">Upravljanje uslugama</string>
     <string name="wire_notification_name">Wire obavijesti</string>

@@ -371,7 +371,7 @@
     <string name="pref_account_details_category_title">Информация</string>
     <string name="pref_account_actions_category_title">Действия</string>
     <string name="pref_account_appearance_category_title">Внешний вид</string>
-    <string name="pref_account_personal_information_category_title">Личная информация</string>
+    <string name="pref_account_personal_information_category_title">Личные данные</string>
     <string name="pref_account_conversations_category_title">История</string>
     <string name="pref_account_username_title">Имя пользователя</string>
     <string name="pref_account_phone_title">Телефон</string>
@@ -521,7 +521,7 @@
     <string name="pref__account_action__dialog__change_username__error_unknown">Ошибка соединения, пожалуйста, попробуйте снова</string>
     <string name="pref__account_privacy">Конфиденциальность</string>
     <string name="pref__account_send_read_receipts_title">Отправлять отчеты о прочтении</string>
-    <string name="pref__account_send_read_receipts_summary">Если этот параметр выключен, вы не сможете увидеть отчеты о прочтении от ваших собеседников. Этот параметр не применяется к групповым беседам.</string>
+    <string name="pref__account_send_read_receipts_summary">При отключении этой настройки, вы не сможете видеть отчеты о прочтении от ваших собеседников. Этот параметр не применяется к групповым беседам.</string>
     <!-- No Internet connection -->
     <string name="system_status__no_internet">ОТСУТСТВУЕТ ПОДКЛЮЧЕНИЕ К ИНТЕРНЕТУ</string>
     <!-- SHARING -->
@@ -842,7 +842,7 @@
     <string name="message_bottom_menu_action_save_ok">Изображение сохранено</string>
     <string name="message_bottom_menu_action_details">Данные</string>
     <string name="message_details_title">ДАННЫЕ СООБЩЕНИЯ</string>
-    <string name="message_liked_title">ПОНРАВИЛОСЬ</string>
+    <string name="message_liked_title">НРАВИТСЯ</string>
     <string name="message_read_title">ПРОЧИТАНО</string>
     <string name="message_details_sent">Отправлено</string>
     <string name="message_details_last_edited">Отредактировано</string>
@@ -850,7 +850,7 @@
     <string name="tab_title_likes">НРАВИТСЯ</string>
     <string name="messages_reads_turned_off">Отчетов о прочтении не существовало, когда это сообщение было отправлено.</string>
     <string name="messages_no_reads">Сообщение еще никем не прочитано.</string>
-    <string name="messages_no_likes">Сообщение еще никому не понравилось.</string>
+    <string name="messages_no_likes">Это сообщение никому еще не понравилось.</string>
     <string name="message_footer__tap_to_like">Нажмите, чтобы лайкнуть</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="one">%1$d участник</item>
@@ -991,6 +991,8 @@
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">ГОСТЬ</string>
     <string name="participant_tab_guest_indicator_label">Гость</string>
+    <string name="participant_tab_external_indicator_label">ВНЕШНИЙ</string>
+    <string name="participant_tab_group_admin_indicator_label">АДМИНИСТРАТОР ГРУППЫ</string>
     <string name="availability_none">Нет</string>
     <string name="availability_available">Доступен</string>
     <string name="availability_away">Отошел</string>
@@ -1076,7 +1078,7 @@
     <string name="teams_invitations_error_email_exists">ЭТОТ АДРЕС EMAIL УЖЕ ИСПОЛЬЗУЕТСЯ</string>
     <string name="teams_invitations_error_no_internet">НЕТ ПОДКЛЮЧЕНИЯ К ИНТЕРНЕТУ</string>
     <string name="invitation_screen_title">Создайте свою команду</string>
-    <string name="invitation_screen_subtitle">Ваша команда Wire готова к работе. Пригласите своих коллег в качестве членов.</string>
+    <string name="invitation_screen_subtitle">Ваша команда Wire готова к работе. Пригласите своих коллег в качестве ее участников.</string>
     <string name="open_service_conversation_button_text">Открыть беседу</string>
     <string name="remove_service_button_text">Удалить сервис</string>
     <string name="integrations_create_conversation">Создать новую беседу</string>
@@ -1095,8 +1097,20 @@
     <string name="add_participants_count_header">ДОБАВИТЬ УЧАСТНИКОВ (%1$s)</string>
     <string name="new_conv_no_results">Нет результатов</string>
     <string name="new_conv_no_contacts">Нет контактов</string>
-    <string name="participants_divider_services">СЕРВИСЫ (%1$s)</string>
-    <string name="participants_divider_people">УЧАСТНИКИ (%1$s)</string>
+    <plurals name="participants_divider_services">
+        <item quantity="one">СЕРВИСЫ (%1$s)</item>
+        <item quantity="few">СЕРВИСЫ (%1$s)</item>
+        <item quantity="many">СЕРВИСЫ (%1$s)</item>
+        <item quantity="other">СЕРВИСЫ (%1$s)</item>
+    </plurals>
+    <string name="participants_divider_people">УЧАСТНИКИ ГРУППЫ (%1$s)</string>
+    <string name="participants_divider_admins">АДМИНИСТРАТОРЫ ГРУППЫ (%1$s)</string>
+    <string name="participants_divider_people_no_number">УЧАСТНИКИ ГРУППЫ</string>
+    <string name="participants_divider_admins_no_number">АДМИНИСТРАТОРЫ ГРУППЫ</string>
+    <string name="participants_divider_options">ПАРАМЕТРЫ</string>
+    <string name="participants_no_admins">Здесь нет администраторов.</string>
+    <string name="participants_no_results_1">Совпадений не найдено.</string>
+    <string name="participants_no_results_2">Попробуйте ввести другое имя.</string>
     <string name="group_name_hint">ИМЯ ГРУППЫ</string>
     <string name="allow_guests_toggle_text">Разрешить гостей и сервисы</string>
     <string name="allow_guests_toggle_info_text">Открыть эту беседу для сервисов и людей не из вашей команды.</string>
@@ -1111,6 +1125,8 @@
     <string name="create_conv_options_subtitle_read_receipts">Отчеты о прочтении</string>
     <string name="create_conv_options_subtitle_on">ВКЛ</string>
     <string name="create_conv_options_subtitle_off">ВЫКЛ</string>
+    <string name="participant_group_admin_toggle_text">Администратор группы</string>
+    <string name="participant_group_admin_toggle_info_text">Если эта опция включена, администратор может добавлять или удалять пользователей и сервисы, обновлять настройки групп и изменять роль участников.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Открыть эту беседу для сервисов и людей не из вашей команды.</string>
     <string name="allow_guests">Разрешить гостей и сервисы</string>
     <string name="guest_options_title">Гости и сервисы</string>

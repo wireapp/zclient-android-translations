@@ -218,7 +218,7 @@
     <string name="conversation__action__remove_member">从群组中移除&#8230;</string>
     <string name="conversation__action__add_to_favorites">Add to Favorites</string>
     <string name="conversation__action__remove_from_favorites">从收藏移除</string>
-    <string name="conversation__action__move_to_folder">Move to&#8230;</string>
+    <string name="conversation__action__move_to_folder">移至 ...</string>
     <string name="conversation__action__remove_from_folder">Remove from \"%1$s\"</string>
     <string name="conversation__action__leave_and_clear">\tLeave and clear content</string>
     <string name="conversation__action__leave_only">\tLeave group</string>
@@ -910,6 +910,8 @@
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">客人</string>
     <string name="participant_tab_guest_indicator_label">游客</string>
+    <string name="participant_tab_external_indicator_label">EXTERNAL</string>
+    <string name="participant_tab_group_admin_indicator_label">GROUP ADMIN</string>
     <string name="availability_none">无</string>
     <string name="availability_available">在线</string>
     <string name="availability_away">离开</string>
@@ -1014,8 +1016,17 @@
     <string name="add_participants_count_header">ADD PARTICIPANTS (%1$s)</string>
     <string name="new_conv_no_results">没有找到</string>
     <string name="new_conv_no_contacts">No contacts</string>
-    <string name="participants_divider_services">SERVICES (%1$s)</string>
-    <string name="participants_divider_people">PEOPLE (%1$s)</string>
+    <plurals name="participants_divider_services">
+        <item quantity="other">SERVICES (%1$s)</item>
+    </plurals>
+    <string name="participants_divider_people">GROUP MEMBERS (%1$s)</string>
+    <string name="participants_divider_admins">GROUP ADMINS (%1$s)</string>
+    <string name="participants_divider_people_no_number">GROUP MEMBERS</string>
+    <string name="participants_divider_admins_no_number">GROUP ADMINS</string>
+    <string name="participants_divider_options">OPTIONS</string>
+    <string name="participants_no_admins">没有管理员。</string>
+    <string name="participants_no_results_1">没有搜寻结果</string>
+    <string name="participants_no_results_2">Try entering a different name.</string>
     <string name="group_name_hint">GROUP NAME</string>
     <string name="allow_guests_toggle_text">允许的访客与服务</string>
     <string name="allow_guests_toggle_info_text">向团队外的服务和人员开放此对话</string>
@@ -1030,6 +1041,8 @@
     <string name="create_conv_options_subtitle_read_receipts">已读回执</string>
     <string name="create_conv_options_subtitle_on">ON</string>
     <string name="create_conv_options_subtitle_off">关闭</string>
+    <string name="participant_group_admin_toggle_text">群组管理员</string>
+    <string name="participant_group_admin_toggle_info_text">When this is on, the admin can add or remove people and services, update group settings, and change a participant’s role.</string>
     <string name="open_this_conversation_to_people_outside_your_team">向团队外的服务和人员开放此对话</string>
     <string name="allow_guests">允许的访客与服务</string>
     <string name="guest_options_title">访客选项</string>
@@ -1113,7 +1126,7 @@
     <string name="sso_signin_max_accounts_title">Two accounts active</string>
     <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
     <string name="participant_search_hint">SEARCH FOR NAMES</string>
-    <string name="participant_search_title">联系人</string>
+    <string name="participant_search_title">PARTICIPANTS</string>
     <string name="generic_service_warning">服务有权访问此对话的内容</string>
     <string name="add_services_button_text">管理服务</string>
     <string name="wire_notification_name">Wire Notification</string>
@@ -1170,7 +1183,7 @@
     <string name="conversation_folder_name_group">群组</string>
     <string name="conversation_folder_name_one_to_one">联系人</string>
     <string name="folders_move_to">MOVE TO</string>
-    <string name="folders_no_custom_folder_found">Create a new folder by pressing the + button</string>
+    <string name="folders_no_custom_folder_found">按 + 按钮创建新文件夹</string>
     <string name="folders_create_new_folder">CREATE NEW FOLDER</string>
     <string name="folders_create_new_folder_action">建立</string>
     <string name="folders_create_new_folder_info">Move the conversation \"%1$s\" to a new folder.</string>
