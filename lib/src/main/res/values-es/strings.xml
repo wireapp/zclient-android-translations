@@ -136,8 +136,8 @@
     </plurals>
     <string name="content__system__you_added_people">Has añadido a %1$s a la conversación</string>
     <plurals name="content__system__you_added_people_with_others">
-        <item quantity="one">You added %1$s and _%2$s other to the conversation_</item>
-        <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
+        <item quantity="one">Has añadido a %1$s y _%2$s más a la conversación</item>
+        <item quantity="other">Has añadido a %1$s y _%2$s más a la conversación</item>
     </plurals>
     <!-- Remove people -->
     <string name="content__system__other_removed_other">[[%1$s]] ha eliminado a %2$s</string>
@@ -332,8 +332,6 @@
     <string name="confirmation_menu__delete_popup_positive_button">ELIMINAR GRUPO</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">video no encontrado</string>
-    <string name="mediaplayer__message__onsoundcloud">en SoundCloud</string>
-    <string name="mediaplayer__message__onspotify">en Spotify</string>
     <!-- Invite banner -->
     <!-- Self profile -->
     <!-- Options and settings -->
@@ -583,7 +581,7 @@
     </plurals>
     <!-- System notifications -->
     <string name="system_notification__silence_call">Rechazar</string>
-    <string name="system_notification__join_call">Aceptar</string>
+    <string name="system_notification__join_call">Open Call</string>
     <string name="system_notification__leave_call">Finalizar llamada</string>
     <string name="system_notification__calling_one">Llamando&#8230;</string>
     <string name="system_notification__calling_group">%1$s está llamando&#8230;</string>
@@ -879,6 +877,7 @@
     <string name="collection_all">Mostrar todos los %1$s</string>
     <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
     <string name="multi_share_search_hint">ENVIAR A&#8230;</string>
+    <string name="single_selector_search_hint">"SELECT CONVERSATION…"</string>
     <string name="search__box__hint_text">BUSCAR MENSAJES DE TEXTO</string>
     <string name="search__no_results">Ningún resultado.</string>
     <!-- Conversation List -->
@@ -1149,10 +1148,15 @@
     <string name="sso_signin_error_title">Algo salió mal</string>
     <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
     <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
+    <string name="enterprise_signin_domain_not_found_error">This email cannot be used for enterprise login. Please enter the SSO code to proceed.</string>
+    <string name="enterprise_signin_email_sso_invalid_input_error">Please enter a valid email or SSO access code.</string>
+    <string name="enterprise_signin_sso_invalid_input_error">Please enter a valid SSO access code.</string>
+    <string name="enterprise_signin_email_multiple_servers_not_supported">This email is linked to a different server, but the app can only be connected to one server at a time. Please log out of all Wire accounts on this device and try to log in again.</string>
     <string name="sso_signin_wrong_code_title">Código no válido</string>
     <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
     <string name="sso_signin_max_accounts_title">Dos cuentas activas</string>
     <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
+    <string name="custom_backend_welcome">Welcome to\n%1$s workspace</string>
     <string name="participant_search_hint">BUSCAR POR NOMBRES</string>
     <string name="participant_search_title">PARTICIPANTES</string>
     <string name="generic_service_warning">Hay servicios con acceso al contenido de esta conversación</string>
@@ -1221,4 +1225,27 @@
     <string name="delete_group_conversation_error_title">Group not deleted</string>
     <string name="delete_group_conversation_error_message">An error occurred while trying to delete the group. Please try again.</string>
     <string name="delete_group_conversation_error_message_with_group_name">An error occurred while trying to delete the group %1$s. Please try again.</string>
+    <!-- Shortcuts -->
+    <string name="shortcut_create_group_label">Crear Grupo</string>
+    <string name="shortcut_share_a_photo_label">Share Photo</string>
+    <string name="shortcut_new_message_label">New Message</string>
+    <!-- Settings Account - Edit Phone -->
+    <string name="edit_phone_dialog_country_code_error">Código de país no válido</string>
+    <string name="edit_phone_dialog_phone_number_error">Número de teléfono no válido</string>
+    <!-- SSO Login -->
+    <string name="sso_login_dialog_title">Enterprise Login</string>
+    <string name="sso_login_dialog_message">Please enter your SSO code:</string>
+    <string name="email_sso_login_dialog_message">Please enter your email or SSO code:</string>
+    <!-- Welcome -->
+    <string name="welcome_to_wire">Welcome to Wire</string>
+    <string name="welcome_enterprise_log_in">Enterprise Login</string>
+    <string name="welcome_custom_backend_log_in_email">LOG IN WITH EMAIL</string>
+    <string name="welcome_custom_backend_log_in_sso">LOG IN WITH SSO</string>
+    <!-- Updated edit handle screen -->
+    <string name="edit_account_handle_error_already_taken">No disponible</string>
+    <string name="edit_account_handle_error_too_short">Al menos 2 caracteres</string>
+    <string name="edit_account_handle_error_invalid_characters">Por favor solo use: a–z, 0–9, y _ </string>
+    <string name="edit_account_handle_error_unknown_error">Algo salió mal, por favor vuelve a intentarlo.</string>
+    <string name="edit_phone_remove_phone_number">Remove phone number</string>
+    <string name="edit_phone_save_phone_number">Guardar</string>
 </resources>

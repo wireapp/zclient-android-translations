@@ -90,7 +90,7 @@
     <!-- Request Password dialog -->
     <string name="request_password_ok">موافق</string>
     <string name="request_password_cancel">إلغاء</string>
-    <string name="request_password_biometric_description">Unlock using biometric authentication.</string>
+    <string name="request_password_biometric_description">فك القفل بمصادقة البصمة.</string>
     <string name="request_password_biometric_cancel">إلغاء</string>
     <string name="request_password_error">كلمة مرور خاطئة</string>
     <!-- Bots / Integrations / Services -->
@@ -131,16 +131,16 @@
         <item quantity="two">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
         <item quantity="few">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
         <item quantity="many">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
-        <item quantity="other">[[%1$s]] added %2$s and _%3$s others to the conversation_</item>
+        <item quantity="other">[[%1$s]] أضاف %2$s و_%3$s آخرين إلى المحادثة_</item>
     </plurals>
-    <string name="content__system__someone_added_you">[[%1$s]] added you to the conversation</string>
+    <string name="content__system__someone_added_you">[[%1$s]] أضافك إلى المحادثة</string>
     <plurals name="content__system__someone_added_people_and_you_with_others">
         <item quantity="zero">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
         <item quantity="one">[[%1$s]] added %2$s, you and _%3$s other to the conversation_</item>
         <item quantity="two">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
         <item quantity="few">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
         <item quantity="many">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
-        <item quantity="other">[[%1$s]] added %2$s, you and _%3$s others to the conversation_</item>
+        <item quantity="other">[[%1$s]] أضافك وأضاف %2$s و_%3$s آخرين إلى المحادثة_</item>
     </plurals>
     <string name="content__system__you_added_people">لقد أضفتَ %1$s إلى المحادثة</string>
     <plurals name="content__system__you_added_people_with_others">
@@ -149,7 +149,7 @@
         <item quantity="two">You added %1$s and _%2$s others to the conversation_</item>
         <item quantity="few">You added %1$s and _%2$s others to the conversation_</item>
         <item quantity="many">You added %1$s and _%2$s others to the conversation_</item>
-        <item quantity="other">You added %1$s and _%2$s others to the conversation_</item>
+        <item quantity="other">أنت أضفت %1$s و _%2$s آخرين للمحادثة_</item>
     </plurals>
     <!-- Remove people -->
     <string name="content__system__other_removed_other">[[%1$s]] أزال %2$s</string>
@@ -186,10 +186,10 @@
     <string name="content__xxx_pinged">[[%1$s]] بينغ</string>
     <!-- Conversation: E2EE system messages -->
     <string name="content__otr__message_error">لم يتم تلقي رسالة من [[%1$s]]  _لماذا؟_</string>
-    <string name="content__otr__message_error_you">A MESSAGE FROM YOU WAS NOT RECEIVED. _WHY?_</string>
+    <string name="content__otr__message_error_you">لم تصل الرسالة منك. _لماذا؟_</string>
     <string name="content__otr__identity_changed_error">هوية جهاز [[%1$s]] تغيرت. رسالة لم يتم تسليمها. _اعرف المزيد_</string>
-    <string name="content__otr__identity_changed_error_you">YOUR DEVICE IDENTITY CHANGED. UNDELIVERED MESSAGE. _LEARN MORE_</string>
-    <string name="content__otr__someone_added_new_device__message">%1$s started using a _new device_</string>
+    <string name="content__otr__identity_changed_error_you">هوية جهازك تغيّرت. لم تصل الرسالة. _اعرف أكثر_</string>
+    <string name="content__otr__someone_added_new_device__message">%1$s بدأ باستخدام _جهاز جديد_</string>
     <string name="content__otr__someone_and_you_added_new_device__message">%1$s and you started using a _new device_</string>
     <string name="content__otr__someone_and_others_added_new_device__message">%1$s and %2$s others started using a _new device_</string>
     <string name="content__otr__someone_others_and_you_added_new_device__message">%1$s, %2$s others and you started using a _new device_</string>
@@ -226,7 +226,7 @@
     <string name="content__location__no_map_placeholder">الموقع سوف يظهر على الخريطة عندما تتصل بالإنترنت مرة أخرى</string>
     <!-- Conversation actions -->
     <string name="conversation__action__clear_content">حذف المحتوى&#8230;</string>
-    <string name="conversation__action__delete_group">Delete group&#8230;</string>
+    <string name="conversation__action__delete_group">احذف المجموعة&#8230;</string>
     <string name="conversation__action__archive">حفظ في الأرشيف</string>
     <string name="conversation__action__unarchive">إلغاء الأرشفة</string>
     <string name="conversation__action__add_participants">إضافة مشاركين</string>
@@ -245,10 +245,10 @@
     <string name="conversation__action__remove_from_favorites">إزالة من المفضلة</string>
     <string name="conversation__action__move_to_folder">انقله إلى&#8230;</string>
     <string name="conversation__action__remove_from_folder">إزلة مِن \"%1$s\"</string>
-    <string name="conversation__action__leave_and_clear">\tLeave and clear content</string>
+    <string name="conversation__action__leave_and_clear">\tغادر ثم امسح المحتوى</string>
     <string name="conversation__action__leave_only">\tغادر الفريق</string>
-    <string name="conversation__action__clear_and_leave">\tClear content and leave</string>
-    <string name="conversation__action__clear_only">\tClear content</string>
+    <string name="conversation__action__clear_and_leave">\tامسح المحتوى ثم غادر</string>
+    <string name="conversation__action__clear_only">\tامسح المحتوى</string>
     <string name="conversation__action__notifications_everything">كل شيء</string>
     <string name="conversation__action__notifications_mentions_and_replies">الإشارات والردود</string>
     <string name="conversation__action__notifications_nothing">لا شيء</string>
@@ -279,15 +279,15 @@
     <string name="call_banner_outgoing">جارٍ الاتصال بـ %1$S&#8230;</string>
     <string name="call_banner_incoming">%1$s يتّصل&#8230;</string>
     <string name="call_banner_incoming_group">%1$s \u30FB %2$s يتصل&#8230;</string>
-    <string name="call_banner_tap_to_return_to_call">Tap to return to call \u30FB %1$s</string>
+    <string name="call_banner_tap_to_return_to_call">اضغط للعودة إلى المكالمة\u30FB%1$s</string>
     <string name="calling_ongoing_call_title">المكالمة الجارية</string>
     <string name="calling_ongoing_call_start_message">A call is active in another conversation.\nCalling here will hang up the other call.</string>
     <string name="calling_ongoing_call_start_anyway">كلّم على أية حال</string>
     <string name="calling_ongoing_call_join_message">A call is active in another conversation.\nJoining this call will hang up the other one.</string>
     <string name="calling_ongoing_call_join_anyway">إنضم على أي حال</string>
     <string name="calling_ongoing_call_participants_header">المشاركون</string>
-    <string name="calling_ongoing_call_audio_message">You can\'t record an audio message while on a call</string>
-    <string name="calling_ongoing_call_video_message">You can\'t record a video message while on a call</string>
+    <string name="calling_ongoing_call_audio_message">لا يمكنك تسجيل رسالة صوتية أثناء مكالمة</string>
+    <string name="calling_ongoing_call_video_message">لا يمكنك تسجيل رسالة مرئية أثناء مكالمة</string>
     <!-- Calling in group conversation -->
     <string name="group_calling_title">بدء مكالمة</string>
     <string name="group_calling_message" tools:ignore="PluralsCandidate">This will call %1$s people</string>
@@ -360,16 +360,14 @@
     <!-- RE-USING: confirmation_menu.cancel -->
     <string name="connect_request__footer__blocked_label">تم حظر</string>
     <!-- Clear conversation -->
-    <string name="confirmation_menu__clear_popup_title">Clear content?</string>
+    <string name="confirmation_menu__clear_popup_title">مسح المحتوى؟</string>
     <string name="confirmation_menu__meta_delete_text">هذا سيمسح تاريخ المحادثة على كل أجهزتك.</string>
     <!-- Delete conversation -->
-    <string name="confirmation_menu__delete_popup_title">Delete group conversation?</string>
-    <string name="confirmation_menu__delete_popup_text">This will delete the group and all content for all participants on all devices. There is no option to restore the content. All participants will be notified.</string>
-    <string name="confirmation_menu__delete_popup_positive_button">DELETE GROUP</string>
+    <string name="confirmation_menu__delete_popup_title">حذف محادثة المجموعة؟</string>
+    <string name="confirmation_menu__delete_popup_text">هذا سوف يحذف المجموعة وكامل المحتوى لكل المشاركين على جميع الأجهزة. ليس هناك خيار لاستعادة المحتوى. سيتم إشعار المشاركين جميعهم.</string>
+    <string name="confirmation_menu__delete_popup_positive_button">حذف المجموعة</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">لم يتم العثور على الفيديو</string>
-    <string name="mediaplayer__message__onsoundcloud">على سوندكلود</string>
-    <string name="mediaplayer__message__onspotify">في سبوتيفي</string>
     <!-- Invite banner -->
     <!-- Self profile -->
     <!-- Options and settings -->
@@ -481,8 +479,8 @@
     <string name="pref_advanced_enable_logs_title">حصاد بيانات عن الإستخدام</string>
     <string name="pref_advanced_enable_logs_subtitle">This stores troubleshooting information locally. Disabling this option will delete all local logs.</string>
     <string name="pref_advanced_debug_report_title">إنشاء تقرير عن خطأ</string>
-    <string name="pref_advanced_debug_report_summary">You can submit this to Wire Support to help diagnose problems.</string>
-    <string name="pref_advanced_reset_push_title">Reset push notifications token</string>
+    <string name="pref_advanced_debug_report_summary">يمكنك تقديم هذا لدعم واير للمساعدة في تشخيص المشاكل.</string>
+    <string name="pref_advanced_reset_push_title">إعادة تعيين أذون تدفق الإشعارات</string>
     <string name="pref_advanced_reset_push_summary">في حال وجود مشكلة في تدفق الإشعارات، من المحتمل أن يخبرك Wire Support بإعادة تعيين هذه الأذون.</string>
     <string name="pref_advanced_reset_push_completed">تم إعادة تعيين أذون التدفق</string>
     <string name="debug_report__title">تقرير واير لتصحيح الأخطاء -%1$s</string>
@@ -491,7 +489,7 @@
     <string name="pref_advanced_ws_foreground_summary">Wire will try to keep a connection with the server open to receive notifications while the application is not in the foreground.
         Turning this setting off may improve battery performance, but you will no longer receive notifications when Wire is in the background. This applies to all accounts on this device.</string>
     <string name="pref_advanced_full_sync_title">القيام بمزامنة كاملة</string>
-    <string name="pref_advanced_full_sync_summary">This performs a full synchronization with the server.</string>
+    <string name="pref_advanced_full_sync_summary">هذا يؤدي مزامنة كاملة مع الخادم.</string>
     <string name="pref_advanced_full_sync_popup">Are you sure? The full synchronization may take a while.</string>
     <!-- Support -->
     <string name="pref_support_screen_title">الدعم</string>
@@ -557,8 +555,8 @@
     <string name="message_notifications_channel_name">الرسائل</string>
     <string name="message_notifications_channel_description">Notifications for all message types, including text, images, audio and video messages.</string>
     <string name="incoming_call_notifications_channel_name">المكالمات الواردة</string>
-    <string name="ping_notifications_channel_name">Pings</string>
-    <string name="ping_notifications_channel_description">Notifications when other users ping you</string>
+    <string name="ping_notifications_channel_name">النكزات</string>
+    <string name="ping_notifications_channel_description">الإشعارات عندما ينكزك المستخدمون الآخرون</string>
     <string name="ongoing_channel_name">الإشعارات في الخلفية</string>
     <string name="ongoing_channel_description">Notifications about ongoing processes or secondary actions, such as calls or saving an image</string>
     <string name="foreground_service_notification_name">الإبقاء على الاتصال بالخادم</string>
@@ -601,8 +599,8 @@
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">\u2764 رسالتك</string>
     <string name="notification__message__liked_picture">\u2764 صورتك</string>
-    <string name="notification__message__conversation_deleted">Someone deleted the group</string>
-    <string name="notification__message__conversation_deleted_by">%1$s deleted the group</string>
+    <string name="notification__message__conversation_deleted">أحدهم حذف المجموعة</string>
+    <string name="notification__message__conversation_deleted_by">%1$s حذف المجموعة</string>
     <!-- ephemeral -->
     <string name="notification__message__ephemeral_someone">شخص ما</string>
     <plurals name="notification__message__ephemeral">
@@ -632,7 +630,7 @@
     </plurals>
     <!-- System notifications -->
     <string name="system_notification__silence_call">رفض</string>
-    <string name="system_notification__join_call">قبول</string>
+    <string name="system_notification__join_call">Open Call</string>
     <string name="system_notification__leave_call">إنهاء المكالمة</string>
     <string name="system_notification__calling_one">يتصل بك</string>
     <string name="system_notification__calling_group">%1$s يتّصل&#8230;</string>
@@ -877,9 +875,9 @@
     <string name="message_details_last_edited">تم تعديله</string>
     <string name="tab_title_read">مقروء</string>
     <string name="tab_title_likes">أعجِب</string>
-    <string name="messages_reads_turned_off">Read receipts were not on when this message was sent.</string>
-    <string name="messages_no_reads">No one has read this message yet.</string>
-    <string name="messages_no_likes">No one has liked this message yet.</string>
+    <string name="messages_reads_turned_off">إيصالات القراءة لم تكن فعالة عندما أُرسلت هذه الرسالة.</string>
+    <string name="messages_no_reads">لم يقرأ أحد هذه الرسالة بعد.</string>
+    <string name="messages_no_likes">لم يُعجب أحد بهذه الرسالة بعد.</string>
     <string name="message_footer__tap_to_like">انقر للإعجاب</string>
     <plurals name="message_footer__number_of_likes">
         <item quantity="zero">لا أشخاص</item>
@@ -964,6 +962,7 @@
     <string name="collection_all">إظهار جميع %1$s</string>
     <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
     <string name="multi_share_search_hint">إرسال إلى&#8230;</string>
+    <string name="single_selector_search_hint">"اختر محادثة…"</string>
     <string name="search__box__hint_text">البحث عن الرسائل النصية</string>
     <string name="search__no_results">لا توجد نتائج.</string>
     <!-- Conversation List -->
@@ -1046,8 +1045,8 @@
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">ضيف</string>
     <string name="participant_tab_guest_indicator_label">ضيف</string>
-    <string name="participant_tab_external_indicator_label">EXTERNAL</string>
-    <string name="participant_tab_group_admin_indicator_label">GROUP ADMIN</string>
+    <string name="participant_tab_external_indicator_label">خارجي</string>
+    <string name="participant_tab_group_admin_indicator_label">مدير المجموعة</string>
     <string name="availability_none">لا شيء</string>
     <string name="availability_available">متاح</string>
     <string name="availability_away">بعيد</string>
@@ -1057,17 +1056,17 @@
     <string name="availability_text_busy">%1$s مشغول</string>
     <string name="availability_setstatus">اختر حالة</string>
     <string name="availability_notification_warning_away_title">أنت الآن غائب</string>
-    <string name="availability_notification_warning_away">You will appear as Away to other people. You will not receive notifications about any incoming calls or messages.</string>
+    <string name="availability_notification_warning_away">ستظهر كغائب للأشخاص الآخرين. لن تتلق إشعارات عن أي مكالمات واردة أو رسائل.</string>
     <string name="availability_notification_warning_busy_title">أنت الآن مشغول</string>
-    <string name="availability_notification_warning_busy">You will appear as Busy to other people. You will only receive notifications for mentions, replies, and calls in conversations that are not muted.</string>
+    <string name="availability_notification_warning_busy">ستظهر كمشغول للأشخاص الآخرين. سوف تتلقى إشعارات فقط للردود، عند الإشارة إليك، أو مكالمات المحادثات غير المكتومة.</string>
     <string name="availability_notification_warning_available_title">أنت الآن متوفر</string>
-    <string name="availability_notification_warning_available">You will appear as Available to other people. You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
+    <string name="availability_notification_warning_available">ستظهر كمتاح للآخرين. سوف تتلقى إشعارات للمكالمات الواردة وللرسائل وفقًا إعدادات الإشعارات في كل محادثة.</string>
     <string name="availability_notification_warning_nostatus_title">لم تقم بتحديد الحالة</string>
     <string name="availability_notification_warning_nostatus">You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
     <string name="availability_notification_dont_show">لا تظهر هذه المعلومة مرة أخرى</string>
     <string name="availability_notification_ok">موافق</string>
     <string name="availability_notification_blocked_title">Notifications are disabled in %1$s</string>
-    <string name="availability_notification_blocked">Status affects notifications now. You\'re set to \"Away\" and won\'t receive any notifications.</string>
+    <string name="availability_notification_blocked">الحالة تؤثر في الإشعارات الآن. وضعك المفعّل هو \"غائب\" ولن تتلقّ أية إشعارات.</string>
     <string name="availability_notification_changed_title">Notifications have changed in %1$s</string>
     <string name="availability_notification_changed">Status affects notifications now. You\'re set to \"Busy\" and will only receive notifications when someone mentions you or replies to one of your messages.</string>
     <string name="preferences_profile_new">فريق أو حساب جديد</string>
@@ -1137,7 +1136,7 @@
     <string name="open_service_conversation_button_text">افتح المحادثة</string>
     <string name="remove_service_button_text">إزالة الخدمة</string>
     <string name="integrations_create_conversation">أنشئ محادثة جديدة</string>
-    <string name="no_matches_found">No matches found</string>
+    <string name="no_matches_found">لم يُعثر على تطابق</string>
     <string name="loading_services">تحميل الخدمات&#8230;</string>
     <string name="empty_services_list">Services are helpers that can improve your workflow. To enable them, ask your administrator.</string>
     <string name="empty_services_list_admin">Services are helpers that can improve your workflow.</string>
@@ -1162,20 +1161,20 @@
     </plurals>
     <string name="participants_divider_people">GROUP MEMBERS (%1$s)</string>
     <string name="participants_divider_admins">GROUP ADMINS (%1$s)</string>
-    <string name="participants_divider_people_no_number">GROUP MEMBERS</string>
-    <string name="participants_divider_admins_no_number">GROUP ADMINS</string>
-    <string name="participants_divider_options">OPTIONS</string>
+    <string name="participants_divider_people_no_number">أعضاء المجموعة</string>
+    <string name="participants_divider_admins_no_number">مدراء المجموعة</string>
+    <string name="participants_divider_options">خيارات</string>
     <string name="participants_no_admins">لا يوجد مشرفين.</string>
     <string name="participants_no_results_1">لا توجد نتائج مطابقة.</string>
-    <string name="participants_no_results_2">Try entering a different name.</string>
+    <string name="participants_no_results_2">جرب إدخال اسم مختلف.</string>
     <string name="group_name_hint">اسم المجموعة</string>
     <string name="allow_guests_toggle_text">اسمح بالضيوف</string>
-    <string name="allow_guests_toggle_info_text">Open this conversation to services and people outside your team.</string>
+    <string name="allow_guests_toggle_info_text">إتاحة هذه المحادثة للخدمات والأشخاص خارج فريقك.</string>
     <string name="read_receipts_toggle_text">إشعار بالقراءة</string>
     <string name="read_receipts_toggle_info_text">When this is on, people can see when their messages in this conversation are read.</string>
-    <string name="read_receipts_info_title_enabled">YOU HAVE ENABLED READ RECEIPTS</string>
+    <string name="read_receipts_info_title_enabled">لقد فعّلتَ إيصالات القراءة</string>
     <string name="read_receipts_info_title_disabled">لقد عطّلتَ إيصالات القراءة</string>
-    <string name="read_receipts_info_1">If both sides turn on read receipts, you can see when messages are read.</string>
+    <string name="read_receipts_info_1">إذا قام الطرفان بتفعيل إيصالات القراءة، ستتمكن من معرفة متى قُرِأت الرسائل.</string>
     <string name="read_receipts_info_2">يمكنك تغيير هذا الخيار في إعدادات حسابك.</string>
     <string name="create_conv_options_title_text">خيارات المحادثة</string>
     <string name="create_conv_options_subtitle_allow_guests">اسمح بالضيوف</string>
@@ -1183,13 +1182,13 @@
     <string name="create_conv_options_subtitle_on">شغال</string>
     <string name="create_conv_options_subtitle_off">إغلاق</string>
     <string name="participant_group_admin_toggle_text">مدير المجموعة</string>
-    <string name="participant_group_admin_toggle_info_text">When this is on, the admin can add or remove people and services, update group settings, and change a participant’s role.</string>
-    <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
+    <string name="participant_group_admin_toggle_info_text">عند تفعيل هذا، سيتمكن المدير من إضافة أو حذف الأشخاص والخدمات، تحديث إعدادات المجموعة، وتغيير دور المشاركين.</string>
+    <string name="open_this_conversation_to_people_outside_your_team">إتاحة هذه المحادثة للخدمات والأشخاص خارج فريقك.</string>
     <string name="allow_guests">اسمح بالضيوف</string>
     <string name="guest_options_title">خيارات الضيوف</string>
     <string name="ephemeral_options_title">الرسائل المؤقّتة</string>
     <string name="notifications_options_title">الإشعارات</string>
-    <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
+    <string name="ephemeral_explanation_text">سيتم تشغيل الرسائل المؤقته لجميع المشاركين في هذه المحادثة</string>
     <string name="notifications_explanation_text">You can be notified about everything (including audio and video calls) or only when you are mentioned.</string>
     <string name="show_all_participants">اظهر الكل (%1$s)</string>
     <string name="allow_guests_error_title">حدث خطأ</string>
@@ -1208,7 +1207,7 @@
     <string name="invitation_link_title">أدع الآخرين بواسطة رابط</string>
     <string name="link_copied_toast">نُسِخَ الرابط!</string>
     <string name="revoke_link_message">New guests will not be able to join with this link. Current guests will still have access.</string>
-    <string name="revoke_link_confirm">Revoke Link</string>
+    <string name="revoke_link_confirm">إلغاء الرابط</string>
     <string name="invite_button_description">يمكن لأشخاص خارج فريقكم مِن الدخول إلى هذه المحادثة.</string>
     <string name="invite_people">دعوة أُناس</string>
     <string name="guest_room_name">غرفة الضيوف</string>
@@ -1229,7 +1228,7 @@
     <string name="new_device_password_explanation">Enter the password for your Wire account.\n%1$s</string>
     <string name="restore_from_backup_button">استرجعها مِن نسخة احتياطية</string>
     <string name="second_launch__header">قمت بإستخدام Wire على هذا الجهاز من قبل.</string>
-    <string name="second_launch__sub_header">If that was long ago, some messages may not appear here.</string>
+    <string name="second_launch__sub_header">إذا كان هذا قبل وقت طويل، فلن تظهر بعض الرسائل هنا.</string>
     <string name="restore_override_alert_title">استعادة التاريخ</string>
     <string name="restore_override_alert_text">The backup contents will replace the conversation history on this device. You can only restore history from a backup of the same platform.</string>
     <string name="restore_override_alert_ok">اختيار ملف النسخة الاحتياطية</string>
@@ -1262,13 +1261,18 @@
     <string name="sso_signin_error_title">حدث خطأ</string>
     <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
     <string name="sso_signin_error_try_again_message">يرجى إعادة المحاولة لاحقا (خطأ %1$s).</string>
+    <string name="enterprise_signin_domain_not_found_error">This email cannot be used for enterprise login. Please enter the SSO code to proceed.</string>
+    <string name="enterprise_signin_email_sso_invalid_input_error">Please enter a valid email or SSO access code.</string>
+    <string name="enterprise_signin_sso_invalid_input_error">Please enter a valid SSO access code.</string>
+    <string name="enterprise_signin_email_multiple_servers_not_supported">This email is linked to a different server, but the app can only be connected to one server at a time. Please log out of all Wire accounts on this device and try to log in again.</string>
     <string name="sso_signin_wrong_code_title">رمز غيرفعال</string>
     <string name="sso_signin_wrong_code_message">Please verify your company SSO access code and try again.</string>
     <string name="sso_signin_max_accounts_title">حسابين نشطين</string>
     <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
+    <string name="custom_backend_welcome">Welcome to\n%1$s workspace</string>
     <string name="participant_search_hint">البحث عن أسماء</string>
     <string name="participant_search_title">المشاركون</string>
-    <string name="generic_service_warning">Services have access to the content of this conversation</string>
+    <string name="generic_service_warning">الخدمات لديها وصول لمحتوى هذه المحادثة</string>
     <string name="add_services_button_text">إدارة الخدمات</string>
     <string name="wire_notification_name">إشعار واير</string>
     <string name="wire_ping_name">رنين Wire</string>
@@ -1282,9 +1286,9 @@
     <string name="deep_link_generic_error_title">رابط غير صالح.</string>
     <string name="deep_link_generic_error_message">إنّ الرابط الدي قمتَ بفتحه عير صالح.</string>
     <string name="deep_link_conversation_error_title">لا يمكن لواير فتح هذه المحادثة.</string>
-    <string name="deep_link_conversation_error_message">You may not have permission with this account or the person may not be on Wire.</string>
+    <string name="deep_link_conversation_error_message">ربما ليست لديك صلاحية مع هذا الحساب أو أن الشخص ربما ليس على واير.</string>
     <string name="deep_link_user_error_title">لم يتمكّن Wire مِن العثور على هذا الشخص.</string>
-    <string name="deep_link_user_error_message">You may not have permission with this account or it no longer exists.</string>
+    <string name="deep_link_user_error_message">ربما ليست لديك صلاحية مع هذا الحساب أو أنه لم يعد موجودًا.</string>
     <string name="password_policy_hint">Use at least %1$s characters, with one lowercase letter, one capital letter, a number, and a special character.</string>
     <!-- Custom Backend -->
     <string name="custom_backend_info_title">متصل بـ \"%1$s\"</string>
@@ -1299,7 +1303,7 @@
     <string name="custom_backend_dialog_network_error_message">الرجاء التحقق من اتصال الإنترنت الخاص بك والتحقق مِن الربط ثم حاول مرة أخرى.</string>
     <string name="custom_backend_dialog_logged_in_error_title">تعذّر تبديل الخوادم</string>
     <string name="custom_backend_dialog_logged_in_error_message">You are already logged in.\nTo connect to this server, log out of all accounts and try again.</string>
-    <string name="root_detected_dialog_title">Jailbreak/root detected</string>
+    <string name="root_detected_dialog_title">تم رصد جيبلبريك أو رووت</string>
     <string name="root_detected_dialog_message">لا يمكنك استخدام Wire على هذا الجهاز.</string>
     <!--Two identical strings are needed for German translation-->
     <string name="quote_timestamp_message_time">الرسالة الأصلية مِن %s</string>
@@ -1308,8 +1312,8 @@
     <string name="read_receipts_remotely_disabled_title">لقد عطّلتَ إيصالات القراءة</string>
     <string name="read_receipts_remotely_changed_message">يمكنك تغيير هذا الخيار في إعدادات حسابك.</string>
     <string name="app_lock_locked_title">تم تأمين Wire بسبب خمول النشاط</string>
-    <string name="app_lock_locked_message">Please enter your account password.</string>
-    <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passphrase in your device settings.</string>
+    <string name="app_lock_locked_message">الرجاء ادخال كلمة مرورك.</string>
+    <string name="app_lock_setup_dialog_messsage">لفتح واير، أعِدّ مقطعًا سريًا في إعدادات جهازك.</string>
     <string name="app_lock_setup_dialog_button">افتح الإعدادات</string>
     <string name="security_policy_title">سياسة الأمان لـ Wire</string>
     <string name="security_policy_description">يسمح لواير بجعل جهازك أكثر أمانا.</string>
@@ -1319,7 +1323,7 @@
     <string name="security_policy_invalid_password_dialog_title">صلابة الكلمة السرية غير كافية</string>
     <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum %1$s characters, at least one each of digit, uppercase, lowercase, and special symbol.</string>
     <string name="invalid_cookie_dialog_title">انتهت مدة صلاحية جلستك</string>
-    <string name="invalid_cookie_dialog_message">The application did not communicate with the server for a long period of time, or your session has been remotely invalidated.</string>
+    <string name="invalid_cookie_dialog_message">إما أن التطبيق لم يتواصل مع الخادم لمدة طويلة، أو أن جلستك قد تم إبطالها عن بعد.</string>
     <string name="conversation_folder_name_favorites">المفضلة</string>
     <string name="conversation_folder_name_group">المجموعات</string>
     <string name="conversation_folder_name_one_to_one">أشخاص</string>
@@ -1332,6 +1336,29 @@
     <string name="folders_folder_name_error_text">الحد الأقصى %s حروف</string>
     <string name="folders_move_to_folder_close">إغلاق</string>
     <string name="delete_group_conversation_error_title">لم يُحذَف الفريق</string>
-    <string name="delete_group_conversation_error_message">An error occurred while trying to delete the group. Please try again.</string>
+    <string name="delete_group_conversation_error_message">حدث خطأ أثناء محاولة حذف المجموعة. الرجاء المحاولة لاحقًا.</string>
     <string name="delete_group_conversation_error_message_with_group_name">An error occurred while trying to delete the group %1$s. Please try again.</string>
+    <!-- Shortcuts -->
+    <string name="shortcut_create_group_label">إنشاء مجموعة</string>
+    <string name="shortcut_share_a_photo_label">شارك صورة</string>
+    <string name="shortcut_new_message_label">رسالة جديدة</string>
+    <!-- Settings Account - Edit Phone -->
+    <string name="edit_phone_dialog_country_code_error">رمز البلد غير صحيح</string>
+    <string name="edit_phone_dialog_phone_number_error">رقم الهاتف غير صحيح</string>
+    <!-- SSO Login -->
+    <string name="sso_login_dialog_title">Enterprise Login</string>
+    <string name="sso_login_dialog_message">Please enter your SSO code:</string>
+    <string name="email_sso_login_dialog_message">Please enter your email or SSO code:</string>
+    <!-- Welcome -->
+    <string name="welcome_to_wire">Welcome to Wire</string>
+    <string name="welcome_enterprise_log_in">Enterprise Login</string>
+    <string name="welcome_custom_backend_log_in_email">LOG IN WITH EMAIL</string>
+    <string name="welcome_custom_backend_log_in_sso">LOG IN WITH SSO</string>
+    <!-- Updated edit handle screen -->
+    <string name="edit_account_handle_error_already_taken">تمّ استخدامه</string>
+    <string name="edit_account_handle_error_too_short">استخدام على الأقل حرفين</string>
+    <string name="edit_account_handle_error_invalid_characters">Please only use: a–z, 0–9, and _ </string>
+    <string name="edit_account_handle_error_unknown_error">حدث خطأ، الرجاء المحاولة مرة أخرى.</string>
+    <string name="edit_phone_remove_phone_number">Remove phone number</string>
+    <string name="edit_phone_save_phone_number">حفظ</string>
 </resources>

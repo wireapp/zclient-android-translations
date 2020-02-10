@@ -332,8 +332,6 @@
     <string name="confirmation_menu__delete_popup_positive_button">GRUPPE LÖSCHEN</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">Video nicht gefunden</string>
-    <string name="mediaplayer__message__onsoundcloud">auf SoundCloud</string>
-    <string name="mediaplayer__message__onspotify">auf Spotify</string>
     <!-- Invite banner -->
     <!-- Self profile -->
     <!-- Options and settings -->
@@ -584,7 +582,7 @@ Gilt nicht für Gruppen.</string>
     </plurals>
     <!-- System notifications -->
     <string name="system_notification__silence_call">Ablehnen</string>
-    <string name="system_notification__join_call">Annehmen</string>
+    <string name="system_notification__join_call">Anruf öffnen</string>
     <string name="system_notification__leave_call">Anruf beenden</string>
     <string name="system_notification__calling_one">Ruft an&#8230;</string>
     <string name="system_notification__calling_group">%1$s ruft an&#8230;</string>
@@ -880,6 +878,7 @@ Gilt nicht für Gruppen.</string>
     <string name="collection_all">Zeige alle %1$s</string>
     <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
     <string name="multi_share_search_hint">SENDEN AN&#8230;</string>
+    <string name="single_selector_search_hint">"UNTERHALTUNG AUSWÄHLEN…"</string>
     <string name="search__box__hint_text">NACHRICHTEN DURCHSUCHEN</string>
     <string name="search__no_results">Keine Ergebnisse</string>
     <!-- Conversation List -->
@@ -1151,10 +1150,15 @@ Gilt nicht für Gruppen.</string>
     <string name="sso_signin_error_title">Ein Fehler ist aufgetreten</string>
     <string name="sso_signin_error_message">Bitte für Details an den Team-Administrator wenden (Fehler %1$s).</string>
     <string name="sso_signin_error_try_again_message">Bitte später nochmal versuchen (Fehler %1$s).</string>
+    <string name="enterprise_signin_domain_not_found_error">Diese E-Mail-Adresse kann hier nicht verwendet werden. Bitte geben Sie den SSO-Code ein, um fortzufahren.</string>
+    <string name="enterprise_signin_email_sso_invalid_input_error">Bitte eine gültige E-Mail-Adresse oder den SSO-Code eingeben.</string>
+    <string name="enterprise_signin_sso_invalid_input_error">Bitte einen gültigen SSO-Code eingeben.</string>
+    <string name="enterprise_signin_email_multiple_servers_not_supported">Diese E-Mail ist mit einem anderen Server verknüpft. Die App kann aber jeweils nur mit einem Server verbunden sein. Bitte melden Sie sich von allen Wire-Konten auf diesem Gerät ab und versuchen es erneut.</string>
     <string name="sso_signin_wrong_code_title">Ungültiger Code</string>
     <string name="sso_signin_wrong_code_message">Bitte den SSO-Zugangscode des Unternehmens überprüfen und erneut versuchen.</string>
     <string name="sso_signin_max_accounts_title">Zwei Konten sind aktiv</string>
     <string name="sso_signin_max_accounts_message">Man kann zugleich mit zwei Konten angemeldet sein. Um ein neues Konto hinzuzufügen, bitte aus einem ausloggen.</string>
+    <string name="custom_backend_welcome">Willkommen im\n%1$s Arbeitsbereich</string>
     <string name="participant_search_hint">NACH NAMEN SUCHEN</string>
     <string name="participant_search_title">TEILNEHMER</string>
     <string name="generic_service_warning">Dienste haben Zugriff auf den Inhalt dieser Unterhaltung</string>
@@ -1223,4 +1227,27 @@ Gilt nicht für Gruppen.</string>
     <string name="delete_group_conversation_error_title">Gruppe wurde nicht gelöscht</string>
     <string name="delete_group_conversation_error_message">Beim Löschen der Gruppe ist ein Fehler aufgetreten. Bitte erneut versuchen.</string>
     <string name="delete_group_conversation_error_message_with_group_name">Beim Löschen der Gruppe %1$s ist ein Fehler aufgetreten. Bitte erneut versuchen.</string>
+    <!-- Shortcuts -->
+    <string name="shortcut_create_group_label">Gruppe erstellen</string>
+    <string name="shortcut_share_a_photo_label">Foto teilen</string>
+    <string name="shortcut_new_message_label">Neue Nachricht</string>
+    <!-- Settings Account - Edit Phone -->
+    <string name="edit_phone_dialog_country_code_error">Ungültige Ländervorwahl</string>
+    <string name="edit_phone_dialog_phone_number_error">Ungültige Telefonnummer</string>
+    <!-- SSO Login -->
+    <string name="sso_login_dialog_title">Login für Unternehmen</string>
+    <string name="sso_login_dialog_message">Bitte den SSO-Code eingeben:</string>
+    <string name="email_sso_login_dialog_message">Bitte E-Mail-Adresse oder SSO-Code eingeben:</string>
+    <!-- Welcome -->
+    <string name="welcome_to_wire">Willkommen bei Wire</string>
+    <string name="welcome_enterprise_log_in">Login für Unternehmen</string>
+    <string name="welcome_custom_backend_log_in_email">LOGIN MIT E-MAIL-ADRESSE</string>
+    <string name="welcome_custom_backend_log_in_sso">LOGIN MIT SSO</string>
+    <!-- Updated edit handle screen -->
+    <string name="edit_account_handle_error_already_taken">Bereits vergeben</string>
+    <string name="edit_account_handle_error_too_short">Mindestens 2 Zeichen</string>
+    <string name="edit_account_handle_error_invalid_characters">Bitte nur a–z, 0–9 und _ verwenden.</string>
+    <string name="edit_account_handle_error_unknown_error">Ein Fehler ist aufgetreten. Bitte erneut versuchen.</string>
+    <string name="edit_phone_remove_phone_number">Telefonnummer entfernen</string>
+    <string name="edit_phone_save_phone_number">Speichern</string>
 </resources>

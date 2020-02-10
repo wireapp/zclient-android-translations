@@ -81,7 +81,7 @@
     <string name="people_picker__search_result__expander_title">显示全部 %1$s ↓</string>
     <string name="people_picker__search_people">联系人</string>
     <string name="people_picker__search_services">服务</string>
-    <string name="receive_news_and_offers_request_title">Newsletter</string>
+    <string name="receive_news_and_offers_request_title">电子简报</string>
     <string name="receive_news_and_offers_request_body">您想通过电子邮件接收来自 Wire 的新闻和产品更新吗？您可以随时取消订阅。</string>
     <string name="crashes_and_analytics_request_title">帮助我们改善Wire</string>
     <string name="crashes_and_analytics_request_body">我同意，Wire可以创建和使用匿名的使用和错误报告来改进Wire应用。我随时可以撤销此授权。</string>
@@ -216,7 +216,7 @@
     <string name="conversation__action__block">封锁...</string>
     <string name="conversation__action__unblock">解除封锁</string>
     <string name="conversation__action__remove_member">从群组中移除&#8230;</string>
-    <string name="conversation__action__add_to_favorites">Add to Favorites</string>
+    <string name="conversation__action__add_to_favorites">添加到收藏</string>
     <string name="conversation__action__remove_from_favorites">从收藏移除</string>
     <string name="conversation__action__move_to_folder">移至 ...</string>
     <string name="conversation__action__remove_from_folder">Remove from \"%1$s\"</string>
@@ -323,8 +323,6 @@
     <string name="confirmation_menu__delete_popup_positive_button">DELETE GROUP</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">找不到该影片</string>
-    <string name="mediaplayer__message__onsoundcloud">打开SoundCloud</string>
-    <string name="mediaplayer__message__onspotify">打开Spotify</string>
     <!-- Invite banner -->
     <!-- Self profile -->
     <!-- Options and settings -->
@@ -571,7 +569,7 @@
     </plurals>
     <!-- System notifications -->
     <string name="system_notification__silence_call">拒绝</string>
-    <string name="system_notification__join_call">接听</string>
+    <string name="system_notification__join_call">Open Call</string>
     <string name="system_notification__leave_call">结束通话</string>
     <string name="system_notification__calling_one">正在呼叫...</string>
     <string name="system_notification__calling_group">%1$s is calling&#8230;</string>
@@ -858,6 +856,7 @@
     <string name="collection_all">显示 %1$s</string>
     <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
     <string name="multi_share_search_hint">发送给...</string>
+    <string name="single_selector_search_hint">"SELECT CONVERSATION…"</string>
     <string name="search__box__hint_text">搜索文本消息</string>
     <string name="search__no_results">没有结果。</string>
     <!-- Conversation List -->
@@ -1121,10 +1120,15 @@
     <string name="sso_signin_error_title">好像出了点问题。</string>
     <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
     <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
+    <string name="enterprise_signin_domain_not_found_error">This email cannot be used for enterprise login. Please enter the SSO code to proceed.</string>
+    <string name="enterprise_signin_email_sso_invalid_input_error">Please enter a valid email or SSO access code.</string>
+    <string name="enterprise_signin_sso_invalid_input_error">Please enter a valid SSO access code.</string>
+    <string name="enterprise_signin_email_multiple_servers_not_supported">This email is linked to a different server, but the app can only be connected to one server at a time. Please log out of all Wire accounts on this device and try to log in again.</string>
     <string name="sso_signin_wrong_code_title">验证码无效</string>
     <string name="sso_signin_wrong_code_message">请验证您的公司SSO访问代码并重试。</string>
     <string name="sso_signin_max_accounts_title">Two accounts active</string>
     <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
+    <string name="custom_backend_welcome">Welcome to\n%1$s workspace</string>
     <string name="participant_search_hint">SEARCH FOR NAMES</string>
     <string name="participant_search_title">PARTICIPANTS</string>
     <string name="generic_service_warning">服务有权访问此对话的内容</string>
@@ -1193,4 +1197,27 @@
     <string name="delete_group_conversation_error_title">Group not deleted</string>
     <string name="delete_group_conversation_error_message">An error occurred while trying to delete the group. Please try again.</string>
     <string name="delete_group_conversation_error_message_with_group_name">An error occurred while trying to delete the group %1$s. Please try again.</string>
+    <!-- Shortcuts -->
+    <string name="shortcut_create_group_label">创建群聊</string>
+    <string name="shortcut_share_a_photo_label">Share Photo</string>
+    <string name="shortcut_new_message_label">New Message</string>
+    <!-- Settings Account - Edit Phone -->
+    <string name="edit_phone_dialog_country_code_error">不正确的国家代码</string>
+    <string name="edit_phone_dialog_phone_number_error">无效的手机号码</string>
+    <!-- SSO Login -->
+    <string name="sso_login_dialog_title">企业登录</string>
+    <string name="sso_login_dialog_message">Please enter your SSO code:</string>
+    <string name="email_sso_login_dialog_message">Please enter your email or SSO code:</string>
+    <!-- Welcome -->
+    <string name="welcome_to_wire">Welcome to Wire</string>
+    <string name="welcome_enterprise_log_in">企业登录</string>
+    <string name="welcome_custom_backend_log_in_email">LOG IN WITH EMAIL</string>
+    <string name="welcome_custom_backend_log_in_sso">LOG IN WITH SSO</string>
+    <!-- Updated edit handle screen -->
+    <string name="edit_account_handle_error_already_taken">已经被占用</string>
+    <string name="edit_account_handle_error_too_short">至少2个字符</string>
+    <string name="edit_account_handle_error_invalid_characters">Please only use: a–z, 0–9, and _ </string>
+    <string name="edit_account_handle_error_unknown_error">出了点问题，请再试一次。</string>
+    <string name="edit_phone_remove_phone_number">Remove phone number</string>
+    <string name="edit_phone_save_phone_number">保存</string>
 </resources>

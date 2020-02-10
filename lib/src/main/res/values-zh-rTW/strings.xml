@@ -33,7 +33,7 @@
     <string name="email_invalid_header">無效的電子郵件信箱</string>
     <string name="email_invalid_message">請輸入有效的電子郵件地址</string>
     <string name="invalid_credentials_header">不正確的資訊</string>
-    <string name="invalid_credentials_message">PLEASE VERIFY YOUR DETAILS AND TRY AGAIN</string>
+    <string name="invalid_credentials_message">請驗證您的詳細信息並再次嘗試</string>
     <string name="phone_exists_header">電話號碼已被使用</string>
     <string name="phone_exists_message">這電話號碼已被註冊，請嘗試其他號碼。</string>
     <string name="phone_invalid_format_header">不正確的電話號碼</string>
@@ -42,7 +42,7 @@
     <string name="phone_password_exists_message">此帳號已有密碼和電子郵件連結了。請使用電子郵件登錄。</string>
     <string name="invalid_code_header">驗證碼無效</string>
     <string name="incorrect_code_header">不正確的代碼</string>
-    <string name="wrong_code_message">PLEASE ENTER A VALID CODE</string>
+    <string name="wrong_code_message">請輸入有效的驗證碼</string>
     <string name="phone_pending_login_header">已發送代碼</string>
     <string name="phone_pending_login_message">我們已透過手機簡訊發送代碼到您的手機。如需新代碼需等候 10 分鐘後再點擊重新發送。</string>
     <string name="phone_budget_exhausted_header">請求次數過多</string>
@@ -90,7 +90,7 @@
     <!-- Request Password dialog -->
     <string name="request_password_ok">確認</string>
     <string name="request_password_cancel">取消</string>
-    <string name="request_password_biometric_description">Unlock using biometric authentication.</string>
+    <string name="request_password_biometric_description">使用生物特徵認證進行解鎖。</string>
     <string name="request_password_biometric_cancel">取消</string>
     <string name="request_password_error">錯誤的密碼</string>
     <!-- Bots / Integrations / Services -->
@@ -323,8 +323,6 @@
     <string name="confirmation_menu__delete_popup_positive_button">刪除群組</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">找不到該影片</string>
-    <string name="mediaplayer__message__onsoundcloud">打開SoundCloud</string>
-    <string name="mediaplayer__message__onspotify">打開Spotify</string>
     <!-- Invite banner -->
     <!-- Self profile -->
     <!-- Options and settings -->
@@ -571,7 +569,7 @@
     </plurals>
     <!-- System notifications -->
     <string name="system_notification__silence_call">拒絕通話</string>
-    <string name="system_notification__join_call">接聽</string>
+    <string name="system_notification__join_call">Open Call</string>
     <string name="system_notification__leave_call">結束通話</string>
     <string name="system_notification__calling_one">呼叫中...</string>
     <string name="system_notification__calling_group">%1$s來電&#8230;</string>
@@ -858,6 +856,7 @@
     <string name="collection_all">顯示%1$s</string>
     <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
     <string name="multi_share_search_hint">發送給...</string>
+    <string name="single_selector_search_hint">"SELECT CONVERSATION…"</string>
     <string name="search__box__hint_text">搜索文字訊息</string>
     <string name="search__no_results">沒有結果。</string>
     <!-- Conversation List -->
@@ -1121,10 +1120,15 @@
     <string name="sso_signin_error_title">出現錯誤</string>
     <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
     <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
+    <string name="enterprise_signin_domain_not_found_error">This email cannot be used for enterprise login. Please enter the SSO code to proceed.</string>
+    <string name="enterprise_signin_email_sso_invalid_input_error">Please enter a valid email or SSO access code.</string>
+    <string name="enterprise_signin_sso_invalid_input_error">Please enter a valid SSO access code.</string>
+    <string name="enterprise_signin_email_multiple_servers_not_supported">This email is linked to a different server, but the app can only be connected to one server at a time. Please log out of all Wire accounts on this device and try to log in again.</string>
     <string name="sso_signin_wrong_code_title">驗證碼無效</string>
     <string name="sso_signin_wrong_code_message">請核對您的公司單一登錄(SSO)存取碼，然後重試。</string>
     <string name="sso_signin_max_accounts_title">Two accounts active</string>
     <string name="sso_signin_max_accounts_message">You can only be logged in with two accounts at once. Log out from one to add another.</string>
+    <string name="custom_backend_welcome">Welcome to\n%1$s workspace</string>
     <string name="participant_search_hint">搜索名稱</string>
     <string name="participant_search_title">參與者</string>
     <string name="generic_service_warning">服務可以存取這個對話內容</string>
@@ -1183,7 +1187,7 @@
     <string name="conversation_folder_name_group">群組</string>
     <string name="conversation_folder_name_one_to_one">聯絡人</string>
     <string name="folders_move_to">MOVE TO</string>
-    <string name="folders_no_custom_folder_found">Create a new folder by pressing the + button</string>
+    <string name="folders_no_custom_folder_found">按+按鈕創建一個新文件夾</string>
     <string name="folders_create_new_folder">CREATE NEW FOLDER</string>
     <string name="folders_create_new_folder_action">建立</string>
     <string name="folders_create_new_folder_info">Move the conversation \"%1$s\" to a new folder.</string>
@@ -1193,4 +1197,27 @@
     <string name="delete_group_conversation_error_title">Group not deleted</string>
     <string name="delete_group_conversation_error_message">An error occurred while trying to delete the group. Please try again.</string>
     <string name="delete_group_conversation_error_message_with_group_name">An error occurred while trying to delete the group %1$s. Please try again.</string>
+    <!-- Shortcuts -->
+    <string name="shortcut_create_group_label">建立群組</string>
+    <string name="shortcut_share_a_photo_label">Share Photo</string>
+    <string name="shortcut_new_message_label">New Message</string>
+    <!-- Settings Account - Edit Phone -->
+    <string name="edit_phone_dialog_country_code_error">不正確的國家代碼</string>
+    <string name="edit_phone_dialog_phone_number_error">不正確的手機號碼</string>
+    <!-- SSO Login -->
+    <string name="sso_login_dialog_title">Enterprise Login</string>
+    <string name="sso_login_dialog_message">Please enter your SSO code:</string>
+    <string name="email_sso_login_dialog_message">Please enter your email or SSO code:</string>
+    <!-- Welcome -->
+    <string name="welcome_to_wire">Welcome to Wire</string>
+    <string name="welcome_enterprise_log_in">Enterprise Login</string>
+    <string name="welcome_custom_backend_log_in_email">LOG IN WITH EMAIL</string>
+    <string name="welcome_custom_backend_log_in_sso">LOG IN WITH SSO</string>
+    <!-- Updated edit handle screen -->
+    <string name="edit_account_handle_error_already_taken">已經被用了</string>
+    <string name="edit_account_handle_error_too_short">至少2個字元</string>
+    <string name="edit_account_handle_error_invalid_characters">Please only use: a–z, 0–9, and _ </string>
+    <string name="edit_account_handle_error_unknown_error">出了點問題，請再試一次。</string>
+    <string name="edit_phone_remove_phone_number">Remove phone number</string>
+    <string name="edit_phone_save_phone_number">儲存</string>
 </resources>

@@ -350,8 +350,6 @@
     <string name="confirmation_menu__delete_popup_positive_button">DELETE GROUP</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">video nenalezeno</string>
-    <string name="mediaplayer__message__onsoundcloud">na Soundcloudu</string>
-    <string name="mediaplayer__message__onspotify">na Spotify</string>
     <!-- Invite banner -->
     <!-- Self profile -->
     <!-- Options and settings -->
@@ -607,7 +605,7 @@
     </plurals>
     <!-- System notifications -->
     <string name="system_notification__silence_call">Zamítnout</string>
-    <string name="system_notification__join_call">Přijmout</string>
+    <string name="system_notification__join_call">Open Call</string>
     <string name="system_notification__leave_call">Ukončit hovor</string>
     <string name="system_notification__calling_one">Volá&#8230;</string>
     <string name="system_notification__calling_group">%1$s volá&#8230;</string>
@@ -921,6 +919,7 @@
     <string name="collection_all">Zobrazit všechny %1$s</string>
     <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
     <string name="multi_share_search_hint">ODESLAT&#8230;</string>
+    <string name="single_selector_search_hint">"SELECT CONVERSATION…"</string>
     <string name="search__box__hint_text">HLEDAT ZPRÁVY</string>
     <string name="search__no_results">Žádné výsledky.</string>
     <!-- Conversation List -->
@@ -1205,10 +1204,15 @@
     <string name="sso_signin_error_title">Něco se pokazilo</string>
     <string name="sso_signin_error_message">Pro více detailů prosím kontaktujte svého administrátora (Error %1$s).</string>
     <string name="sso_signin_error_try_again_message">Zkuste to prosím později (Error %1$s).</string>
+    <string name="enterprise_signin_domain_not_found_error">This email cannot be used for enterprise login. Please enter the SSO code to proceed.</string>
+    <string name="enterprise_signin_email_sso_invalid_input_error">Please enter a valid email or SSO access code.</string>
+    <string name="enterprise_signin_sso_invalid_input_error">Please enter a valid SSO access code.</string>
+    <string name="enterprise_signin_email_multiple_servers_not_supported">This email is linked to a different server, but the app can only be connected to one server at a time. Please log out of all Wire accounts on this device and try to log in again.</string>
     <string name="sso_signin_wrong_code_title">Neplatný kód</string>
     <string name="sso_signin_wrong_code_message">Ověřte prosím přístupový kód SSO vaší společnosti a zkuste to znovu.</string>
     <string name="sso_signin_max_accounts_title">Dva účty aktivní</string>
     <string name="sso_signin_max_accounts_message">Můžete být přihlášeni pouze na dvou účtech najednou. Abyste přidali další, musíte se z jednoho odhlásit.</string>
+    <string name="custom_backend_welcome">Welcome to\n%1$s workspace</string>
     <string name="participant_search_hint">HLEDAT DLE NÁZVU</string>
     <string name="participant_search_title">ÚČASTNÍCI</string>
     <string name="generic_service_warning">Služby mají přístup k obsahu této konverzace</string>
@@ -1263,11 +1267,11 @@
     <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum %1$s characters, at least one each of digit, uppercase, lowercase, and special symbol.</string>
     <string name="invalid_cookie_dialog_title">Your session expired</string>
     <string name="invalid_cookie_dialog_message">The application did not communicate with the server for a long period of time, or your session has been remotely invalidated.</string>
-    <string name="conversation_folder_name_favorites">Favorites</string>
+    <string name="conversation_folder_name_favorites">Oblíbené</string>
     <string name="conversation_folder_name_group">Skupiny</string>
     <string name="conversation_folder_name_one_to_one">Kontakty</string>
     <string name="folders_move_to">MOVE TO</string>
-    <string name="folders_no_custom_folder_found">Create a new folder by pressing the + button</string>
+    <string name="folders_no_custom_folder_found">Vytvořit novou složku stisknutím tlačítka +</string>
     <string name="folders_create_new_folder">CREATE NEW FOLDER</string>
     <string name="folders_create_new_folder_action">CREATE</string>
     <string name="folders_create_new_folder_info">Move the conversation \"%1$s\" to a new folder.</string>
@@ -1277,4 +1281,27 @@
     <string name="delete_group_conversation_error_title">Group not deleted</string>
     <string name="delete_group_conversation_error_message">An error occurred while trying to delete the group. Please try again.</string>
     <string name="delete_group_conversation_error_message_with_group_name">An error occurred while trying to delete the group %1$s. Please try again.</string>
+    <!-- Shortcuts -->
+    <string name="shortcut_create_group_label">Vytvořit skupinu</string>
+    <string name="shortcut_share_a_photo_label">Share Photo</string>
+    <string name="shortcut_new_message_label">New Message</string>
+    <!-- Settings Account - Edit Phone -->
+    <string name="edit_phone_dialog_country_code_error">Neplatný kód země</string>
+    <string name="edit_phone_dialog_phone_number_error">Neplatné telefonní číslo</string>
+    <!-- SSO Login -->
+    <string name="sso_login_dialog_title">Enterprise Login</string>
+    <string name="sso_login_dialog_message">Please enter your SSO code:</string>
+    <string name="email_sso_login_dialog_message">Please enter your email or SSO code:</string>
+    <!-- Welcome -->
+    <string name="welcome_to_wire">Welcome to Wire</string>
+    <string name="welcome_enterprise_log_in">Enterprise Login</string>
+    <string name="welcome_custom_backend_log_in_email">LOG IN WITH EMAIL</string>
+    <string name="welcome_custom_backend_log_in_sso">LOG IN WITH SSO</string>
+    <!-- Updated edit handle screen -->
+    <string name="edit_account_handle_error_already_taken">Již uděleno</string>
+    <string name="edit_account_handle_error_too_short">Alespoň 2 znaky</string>
+    <string name="edit_account_handle_error_invalid_characters">Please only use: a–z, 0–9, and _ </string>
+    <string name="edit_account_handle_error_unknown_error">Něco se pokazilo. Zkuste prosím znovu.</string>
+    <string name="edit_phone_remove_phone_number">Remove phone number</string>
+    <string name="edit_phone_save_phone_number">Uložit</string>
 </resources>

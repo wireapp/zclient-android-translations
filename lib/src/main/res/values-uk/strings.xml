@@ -350,8 +350,6 @@
     <string name="confirmation_menu__delete_popup_positive_button">ВИДАЛИТИ ГРУПУ</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">відео не знайдено</string>
-    <string name="mediaplayer__message__onsoundcloud">в SoundCloud</string>
-    <string name="mediaplayer__message__onspotify">в Spotify</string>
     <!-- Invite banner -->
     <!-- Self profile -->
     <!-- Options and settings -->
@@ -607,7 +605,7 @@
     </plurals>
     <!-- System notifications -->
     <string name="system_notification__silence_call">Скасувати</string>
-    <string name="system_notification__join_call">Прийняти</string>
+    <string name="system_notification__join_call">Приєднатись до дзвінка</string>
     <string name="system_notification__leave_call">Завершити дзвінок</string>
     <string name="system_notification__calling_one">Дзвінок&#8230;</string>
     <string name="system_notification__calling_group">%1$s дзвонить&#8230;</string>
@@ -659,11 +657,11 @@
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
     <string name="timestamp_pattern__date_and_time__no_year">EEE, d MMMM, %1$s</string>
     <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
-    <string name="timestamp_pattern__date_and_time__with_year">EEE, MMM d, yyyy, %1$s</string>
+    <string name="timestamp_pattern__date_and_time__with_year">EEE, yyyy.MMM.d, %1$s</string>
     <!-- Example: MAR 9, 11:29 -->
     <string name="timestamp_pattern__date_and_time__no_year_no_weekday">d MMM, %1$s</string>
     <!-- Example: MAR 9, 2015, 11:29 -->
-    <string name="timestamp_pattern__date_and_time__with_year_no_weekday">MMM d, yyyy, %1$s</string>
+    <string name="timestamp_pattern__date_and_time__with_year_no_weekday">yyyy.MMM.d, %1$s</string>
     <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
     <!-- MONDAY -->
     <!-- MARCH 2 -->
@@ -921,6 +919,7 @@
     <string name="collection_all">Показати всі %1$s</string>
     <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
     <string name="multi_share_search_hint">НАДІСЛАТИ ДО&#8230;</string>
+    <string name="single_selector_search_hint">"ОБЕРІТЬ РОЗМОВУ…"</string>
     <string name="search__box__hint_text">ПОШУК ТЕКСТОВИХ ПОВІДОМЛЕНЬ</string>
     <string name="search__no_results">Нікого не знайдено.</string>
     <!-- Conversation List -->
@@ -991,8 +990,8 @@
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">ГІСТЬ</string>
     <string name="participant_tab_guest_indicator_label">Гість</string>
-    <string name="participant_tab_external_indicator_label">EXTERNAL</string>
-    <string name="participant_tab_group_admin_indicator_label">GROUP ADMIN</string>
+    <string name="participant_tab_external_indicator_label">ЗОВНІШНІ УЧАСНИКИ</string>
+    <string name="participant_tab_group_admin_indicator_label">АДМІНІСТРАТОР ГРУПИ</string>
     <string name="availability_none">Не вказано</string>
     <string name="availability_available">Онлайн</string>
     <string name="availability_away">Не на місці</string>
@@ -1103,14 +1102,14 @@
         <item quantity="many">СЕРВІСИ (%1$s)</item>
         <item quantity="other">СЕРВІСИ (%1$s)</item>
     </plurals>
-    <string name="participants_divider_people">GROUP MEMBERS (%1$s)</string>
-    <string name="participants_divider_admins">GROUP ADMINS (%1$s)</string>
-    <string name="participants_divider_people_no_number">GROUP MEMBERS</string>
-    <string name="participants_divider_admins_no_number">GROUP ADMINS</string>
-    <string name="participants_divider_options">OPTIONS</string>
+    <string name="participants_divider_people">УЧАСНИКИ ГРУПИ (%1$s)</string>
+    <string name="participants_divider_admins">АДМІНІСТРАТОРИ ГРУПИ (%1$s)</string>
+    <string name="participants_divider_people_no_number">УЧАСНИКИ ГРУПИ</string>
+    <string name="participants_divider_admins_no_number">АДМІНІСТРАТОРИ ГРУПИ</string>
+    <string name="participants_divider_options">НАЛАШТУВАННЯ</string>
     <string name="participants_no_admins">Немає адміністраторів.</string>
     <string name="participants_no_results_1">Співпадінь не знайдено.</string>
-    <string name="participants_no_results_2">Try entering a different name.</string>
+    <string name="participants_no_results_2">Спробуйте ввести інше ім\'я.</string>
     <string name="group_name_hint">ІМ\'Я ГРУПОВОЇ РОЗМОВИ</string>
     <string name="allow_guests_toggle_text">Дозволити гостей та сервіси</string>
     <string name="allow_guests_toggle_info_text">Зробити цю розмову доступною для серівсів та людей поза межами вашої команди.</string>
@@ -1205,10 +1204,15 @@
     <string name="sso_signin_error_title">Щось пішло не так</string>
     <string name="sso_signin_error_message">Будь ласка, зверніться до адміністратора команди, щоб отримати детальну інформацію (помилка %1$s).</string>
     <string name="sso_signin_error_try_again_message">Будь ласка, спробуйте ще раз пізніше (помилка %1$s).</string>
+    <string name="enterprise_signin_domain_not_found_error">This email cannot be used for enterprise login. Please enter the SSO code to proceed.</string>
+    <string name="enterprise_signin_email_sso_invalid_input_error">Please enter a valid email or SSO access code.</string>
+    <string name="enterprise_signin_sso_invalid_input_error">Please enter a valid SSO access code.</string>
+    <string name="enterprise_signin_email_multiple_servers_not_supported">This email is linked to a different server, but the app can only be connected to one server at a time. Please log out of all Wire accounts on this device and try to log in again.</string>
     <string name="sso_signin_wrong_code_title">Невірний код</string>
     <string name="sso_signin_wrong_code_message">Будь ласка, упевніться, що це вірний SSO-код вашої команди, та повторіть спробу.</string>
     <string name="sso_signin_max_accounts_title">Два акаунти вже активні</string>
     <string name="sso_signin_max_accounts_message">Тільки два акаунти можуть одночасно бути активними. Вийдіть з одного активного акаунта, щоб додати інший.</string>
+    <string name="custom_backend_welcome">Welcome to\n%1$s workspace</string>
     <string name="participant_search_hint">ПОШУК ЗА ІМЕНЕМ</string>
     <string name="participant_search_title">УЧАСНИКИ</string>
     <string name="generic_service_warning">Сервіси мають доступ до вмісту цієї розмови</string>
@@ -1277,4 +1281,27 @@
     <string name="delete_group_conversation_error_title">Групу не видалено</string>
     <string name="delete_group_conversation_error_message">При вилученні групи \"%@\" сталася помилка. Будь ласка, спробуйте ще раз.</string>
     <string name="delete_group_conversation_error_message_with_group_name">При вилученні групи \"%1$s\" сталася помилка. Будь ласка, спробуйте ще раз.</string>
+    <!-- Shortcuts -->
+    <string name="shortcut_create_group_label">Створити групу</string>
+    <string name="shortcut_share_a_photo_label">Поділитися картинкою</string>
+    <string name="shortcut_new_message_label">Нове повідомлення</string>
+    <!-- Settings Account - Edit Phone -->
+    <string name="edit_phone_dialog_country_code_error">Невірний код країни</string>
+    <string name="edit_phone_dialog_phone_number_error">Невірний номер телефону</string>
+    <!-- SSO Login -->
+    <string name="sso_login_dialog_title">Enterprise Login</string>
+    <string name="sso_login_dialog_message">Please enter your SSO code:</string>
+    <string name="email_sso_login_dialog_message">Please enter your email or SSO code:</string>
+    <!-- Welcome -->
+    <string name="welcome_to_wire">Welcome to Wire</string>
+    <string name="welcome_enterprise_log_in">Enterprise Login</string>
+    <string name="welcome_custom_backend_log_in_email">LOG IN WITH EMAIL</string>
+    <string name="welcome_custom_backend_log_in_sso">LOG IN WITH SSO</string>
+    <!-- Updated edit handle screen -->
+    <string name="edit_account_handle_error_already_taken">Уже зарезервований</string>
+    <string name="edit_account_handle_error_too_short">Не менше 2 символів</string>
+    <string name="edit_account_handle_error_invalid_characters">Please only use: a–z, 0–9, and _ </string>
+    <string name="edit_account_handle_error_unknown_error">Ой, щось пішло не так! Будь ласка, спробуйте ще раз.</string>
+    <string name="edit_phone_remove_phone_number">Remove phone number</string>
+    <string name="edit_phone_save_phone_number">Зберегти</string>
 </resources>

@@ -36,7 +36,7 @@
     <string name="invalid_credentials_message">ПОЖАЛУЙСТА, ПРОВЕРЬТЕ ВАШИ ДАННЫЕ И ПОВТОРИТЕ ПОПЫТКУ</string>
     <string name="phone_exists_header">Номер телефона уже используется</string>
     <string name="phone_exists_message">Введенный вами номер телефона уже зарегистрирован. Повторите попытку</string>
-    <string name="phone_invalid_format_header">Недопустимый номер телефона</string>
+    <string name="phone_invalid_format_header">Некорректный номер телефона</string>
     <string name="phone_invalid_format_message">Пожалуйста, введите действительный номер телефона</string>
     <string name="phone_password_exists_header">Пароль существует</string>
     <string name="phone_password_exists_message">Эта учетная запись уже имеет пароль и связанный с ней email. Для входа используйте email.</string>
@@ -99,7 +99,7 @@
     <string name="integrations_errors_service_unavailable">В данный момент сервис недоступен</string>
     <string name="conversation_errors_full">Беседа переполнена</string>
     <!-- start ui / people picker, contacts sharing -->
-    <string name="people_picker__share_contacts__title">Пригласить друзей</string>
+    <string name="people_picker__share_contacts__title">Обмен контактами</string>
     <string name="people_picker__share_contacts__message">Wire помогает найти друзей, если вы делитесь своими контактами.</string>
     <string name="people_picker__share_contacts__yay">Разрешить</string>
     <string name="people_picker__share_contacts__nah">Отказать</string>
@@ -350,8 +350,6 @@
     <string name="confirmation_menu__delete_popup_positive_button">УДАЛИТЬ ГРУППУ</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">видео не найдено</string>
-    <string name="mediaplayer__message__onsoundcloud">в SoundCloud</string>
-    <string name="mediaplayer__message__onspotify">в Spotify</string>
     <!-- Invite banner -->
     <!-- Self profile -->
     <!-- Options and settings -->
@@ -403,10 +401,10 @@
     <string name="pref_advanced_receive_news_and_offers_summary">Получайте новости и обновления от Wire по электронной почте.</string>
     <!-- Options -->
     <string name="pref_options_screen_title">Настройки</string>
-    <string name="pref_options_contacts_title">Пригласить друзей</string>
+    <string name="pref_options_contacts_title">Обмен контактами</string>
     <string name="pref_options_contacts_summary">Это поможет найти людей, которых вы знаете. Мы анонимизируем всю информацию и не делимся ею с кем-либо еще.</string>
     <string name="pref_options_vbr_title">Кодирование с переменным битрейтом</string>
-    <string name="pref_options_vbr_summary">Это позволяет аудиозвонкам использовать меньше трафика и работать лучше при медленном соединении. Выключите, чтобы использовать кодирование с постоянным битрейтом.</string>
+    <string name="pref_options_vbr_summary">Это значительно снижает потребление данных при аудиозвонках и улучшает работу при медленном соединении. Выключите, чтобы использовать кодирование с постоянным битрейтом.</string>
     <string name="pref_options_alerts_category_title">Оповещения</string>
     <string name="pref_options_calls_category_title">Звонки</string>
     <string name="pref_options_sounds_title">Звуки</string>
@@ -607,7 +605,7 @@
     </plurals>
     <!-- System notifications -->
     <string name="system_notification__silence_call">Отклонить</string>
-    <string name="system_notification__join_call">Принять</string>
+    <string name="system_notification__join_call">Открыть вызов</string>
     <string name="system_notification__leave_call">Завершить звонок</string>
     <string name="system_notification__calling_one">Вызывает&#8230;</string>
     <string name="system_notification__calling_group">%1$s вызывает&#8230;</string>
@@ -921,6 +919,7 @@
     <string name="collection_all">Показать все %1$s</string>
     <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
     <string name="multi_share_search_hint">ОТПРАВИТЬ...</string>
+    <string name="single_selector_search_hint">"ВЫБРАТЬ БЕСЕДУ…"</string>
     <string name="search__box__hint_text">ПОИСК ТЕКСТОВЫХ СООБЩЕНИЙ</string>
     <string name="search__no_results">Нет результатов.</string>
     <!-- Conversation List -->
@@ -1126,7 +1125,7 @@
     <string name="create_conv_options_subtitle_on">ВКЛ</string>
     <string name="create_conv_options_subtitle_off">ВЫКЛ</string>
     <string name="participant_group_admin_toggle_text">Администратор группы</string>
-    <string name="participant_group_admin_toggle_info_text">Если эта опция включена, администратор может добавлять или удалять пользователей и сервисы, обновлять настройки групп и изменять роль участников.</string>
+    <string name="participant_group_admin_toggle_info_text">Администратор может добавлять или удалять людей и сервисы, обновлять настройки групп, а также изменять роли участников.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Открыть эту беседу для сервисов и людей не из вашей команды.</string>
     <string name="allow_guests">Разрешить гостей и сервисы</string>
     <string name="guest_options_title">Гости и сервисы</string>
@@ -1206,10 +1205,15 @@
     <string name="sso_signin_error_title">Что-то пошло не так</string>
     <string name="sso_signin_error_message">Для получения более подробной информации обратитесь к администратору вашей команды (Ошибка %1$s).</string>
     <string name="sso_signin_error_try_again_message">Пожалуйста, повторите попытку позже (Ошибка %1$s).</string>
+    <string name="enterprise_signin_domain_not_found_error">Этот email не может быть использован при авторизации организации. Пожалуйста, введите код SSO для продолжения.</string>
+    <string name="enterprise_signin_email_sso_invalid_input_error">Пожалуйста, введите действительный email или код доступа SSO.</string>
+    <string name="enterprise_signin_sso_invalid_input_error">Пожалуйста, введите действительный код доступа SSO.</string>
+    <string name="enterprise_signin_email_multiple_servers_not_supported">Этот email связан с другим сервером, при этом приложение одновременно может быть подключено только к одному серверу. Пожалуйста, выйдите из всех учетных записей Wire на этом устройстве и попробуйте войти снова.</string>
     <string name="sso_signin_wrong_code_title">Неверный код</string>
     <string name="sso_signin_wrong_code_message">Проверьте код доступа SSO вашей компании и повторите попытку.</string>
     <string name="sso_signin_max_accounts_title">Активны два аккаунта</string>
     <string name="sso_signin_max_accounts_message">Можно авторизоваться не более чем в двух аккаунтах одновременно. Выйдите из одного для добавления другого.</string>
+    <string name="custom_backend_welcome">Добро пожаловать в\n%1$s рабочее окружение</string>
     <string name="participant_search_hint">ПОИСК ПО ИМЕНИ</string>
     <string name="participant_search_title">УЧАСТНИКИ</string>
     <string name="generic_service_warning">Сервисы имеют доступ к содержимому этой беседы</string>
@@ -1278,4 +1282,27 @@
     <string name="delete_group_conversation_error_title">Группа не удалена</string>
     <string name="delete_group_conversation_error_message">Произошла ошибка при попытке удалить группу. Пожалуйста, попробуйте еще раз.</string>
     <string name="delete_group_conversation_error_message_with_group_name">Произошла ошибка при попытке удалить группу %1$s. Пожалуйста, попробуйте еще раз.</string>
+    <!-- Shortcuts -->
+    <string name="shortcut_create_group_label">Создать группу</string>
+    <string name="shortcut_share_a_photo_label">Поделиться фото</string>
+    <string name="shortcut_new_message_label">Новое сообщение</string>
+    <!-- Settings Account - Edit Phone -->
+    <string name="edit_phone_dialog_country_code_error">Неверный код страны</string>
+    <string name="edit_phone_dialog_phone_number_error">Некорректный номер телефона</string>
+    <!-- SSO Login -->
+    <string name="sso_login_dialog_title">Вход для организаций</string>
+    <string name="sso_login_dialog_message">Пожалуйста, введите ваш код SSO:</string>
+    <string name="email_sso_login_dialog_message">Пожалуйста, введите ваш email или код SSO:</string>
+    <!-- Welcome -->
+    <string name="welcome_to_wire">Добро пожаловать в Wire</string>
+    <string name="welcome_enterprise_log_in">Вход для организаций</string>
+    <string name="welcome_custom_backend_log_in_email">ВОЙТИ С ПОМОЩЬЮ EMAIL</string>
+    <string name="welcome_custom_backend_log_in_sso">ВОЙТИ С ПОМОЩЬЮ SSO</string>
+    <!-- Updated edit handle screen -->
+    <string name="edit_account_handle_error_already_taken">Уже занято</string>
+    <string name="edit_account_handle_error_too_short">Не менее 2 символов</string>
+    <string name="edit_account_handle_error_invalid_characters">Пожалуйста, используйте только a-z, 0-9 и _ </string>
+    <string name="edit_account_handle_error_unknown_error">Что-то пошло не так. Пожалуйста, попробуйте еще раз.</string>
+    <string name="edit_phone_remove_phone_number">Удалить номер телефона</string>
+    <string name="edit_phone_save_phone_number">Сохранить</string>
 </resources>
