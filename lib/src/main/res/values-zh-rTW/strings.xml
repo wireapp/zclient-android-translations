@@ -219,7 +219,7 @@
     <string name="conversation__action__remove_from_favorites">從我的最愛中移除</string>
     <string name="conversation__action__move_to_folder">移動到...</string>
     <string name="conversation__action__remove_from_folder">Remove from \"%1$s\"</string>
-    <string name="conversation__action__leave_and_clear">\tLeave and clear content</string>
+    <string name="conversation__action__leave_and_clear">\t離開並清除內容</string>
     <string name="conversation__action__leave_only">\t離開群組</string>
     <string name="conversation__action__clear_and_leave">\tClear content and leave</string>
     <string name="conversation__action__clear_only">\tClear content</string>
@@ -318,7 +318,7 @@
     <string name="confirmation_menu__meta_delete_text">這將清除所有設備上的會話歷史。</string>
     <!-- Delete conversation -->
     <string name="confirmation_menu__delete_popup_title">要刪除群組對話嗎?</string>
-    <string name="confirmation_menu__delete_popup_text">This will delete the group and all content for all participants on all devices. There is no option to restore the content. All participants will be notified.</string>
+    <string name="confirmation_menu__delete_popup_text">這將刪除本群組和所有設備上的所有參與者的所有內容。您將無法以任何方式恢復，並將通知所有參與者。</string>
     <string name="confirmation_menu__delete_popup_positive_button">刪除群組</string>
     <!-- Rich media -->
     <string name="content__youtube__error__text">找不到該影片</string>
@@ -919,13 +919,13 @@
     <string name="availability_text_busy">BUSY</string>
     <string name="availability_setstatus">設置狀態</string>
     <string name="availability_notification_warning_away_title">您設置為離開</string>
-    <string name="availability_notification_warning_away">You will appear as Away to other people. You will not receive notifications about any incoming calls or messages.</string>
+    <string name="availability_notification_warning_away">您將對其他人顯示為離開狀態。您將不會收到任何電話或消息的通知。</string>
     <string name="availability_notification_warning_busy_title">您設置為忙碌</string>
-    <string name="availability_notification_warning_busy">You will appear as Busy to other people. You will only receive notifications for mentions, replies, and calls in conversations that are not muted.</string>
+    <string name="availability_notification_warning_busy">您將對其他人顯示為忙碌。 在未靜音的對話中，您只會收到有關提及，回復和來電的通知。</string>
     <string name="availability_notification_warning_available_title">您設置為在線</string>
-    <string name="availability_notification_warning_available">You will appear as Available to other people. You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
+    <string name="availability_notification_warning_available">您將顯示為對其他人在線。 根據每個對話中的「通知」設置，您將收到有關來電和消息的通知。</string>
     <string name="availability_notification_warning_nostatus_title">目前沒有設定狀態</string>
-    <string name="availability_notification_warning_nostatus">You will receive notifications for incoming calls and for messages according to the Notifications setting in each conversation.</string>
+    <string name="availability_notification_warning_nostatus">根據每個對話中的「通知」設置，您將收到有關來電和消息的通知。</string>
     <string name="availability_notification_dont_show">不要再度顯示這個訊息</string>
     <string name="availability_notification_ok">確認</string>
     <string name="availability_notification_blocked_title">Notifications are disabled in %1$s</string>
@@ -1120,7 +1120,7 @@
     <string name="sso_signin_error_title">出現錯誤</string>
     <string name="sso_signin_error_message">Please contact your team administrator for details (Error %1$s).</string>
     <string name="sso_signin_error_try_again_message">Please try again later (Error %1$s).</string>
-    <string name="enterprise_signin_domain_not_found_error">This email cannot be used for enterprise login. Please enter the SSO code to proceed.</string>
+    <string name="enterprise_signin_domain_not_found_error">該郵箱無法用於企業登錄，請輸入單一登入（SSO）登錄碼來繼續操作。</string>
     <string name="enterprise_signin_email_sso_invalid_input_error">Please enter a valid email or SSO access code.</string>
     <string name="enterprise_signin_sso_invalid_input_error">Please enter a valid SSO access code.</string>
     <string name="enterprise_signin_email_multiple_servers_not_supported">This email is linked to a different server, but the app can only be connected to one server at a time. Please log out of all Wire accounts on this device and try to log in again.</string>
@@ -1160,7 +1160,7 @@
     <string name="custom_backend_dialog_info_title">You are connected to a third-party server: \"%1$s\"</string>
     <string name="custom_backend_dialog_network_error_title">伺服器沒有回應</string>
     <string name="custom_backend_dialog_network_error_message">請檢查您的網路連接，然後再試一次。</string>
-    <string name="custom_backend_not_found_error_title">This server can\'t be reached</string>
+    <string name="custom_backend_not_found_error_title">伺服器無法訪問</string>
     <string name="custom_backend_not_found_error_message">We can\'t connect to the server at %1$s.\nLet your server
         administrator know about this issue.</string>
     <string name="custom_backend_dialog_logged_in_error_title">Can\'t switch servers</string>
@@ -1185,7 +1185,7 @@
     <string name="security_policy_invalid_password_dialog_title">Password strength insufficient</string>
     <string name="security_policy_invalid_password_dialog_message">Your device must have a password with minimum %1$s characters, at least one each of digit, uppercase, lowercase, and special symbol.</string>
     <string name="invalid_cookie_dialog_title">你的登入階段已過期。</string>
-    <string name="invalid_cookie_dialog_message">The application did not communicate with the server for a long period of time, or your session has been remotely invalidated.</string>
+    <string name="invalid_cookie_dialog_message">應用程序長時間未與服務器通信，或您的會話已被遠端拒絕。</string>
     <string name="conversation_folder_name_favorites">我的最愛</string>
     <string name="conversation_folder_name_group">群組</string>
     <string name="conversation_folder_name_one_to_one">聯絡人</string>
@@ -1208,12 +1208,12 @@
     <string name="edit_phone_dialog_country_code_error">不正確的國家代碼</string>
     <string name="edit_phone_dialog_phone_number_error">不正確的手機號碼</string>
     <!-- SSO Login -->
-    <string name="sso_login_dialog_title">Enterprise Login</string>
-    <string name="sso_login_dialog_message">Please enter your SSO code:</string>
-    <string name="email_sso_login_dialog_message">Please enter your email or SSO code:</string>
+    <string name="sso_login_dialog_title">企業登錄</string>
+    <string name="sso_login_dialog_message">請輸入你的單一登入（SSO）：</string>
+    <string name="email_sso_login_dialog_message">請輸入你的 Email或單一登入（SSO）：</string>
     <!-- Welcome -->
     <string name="welcome_to_wire">Welcome to Wire</string>
-    <string name="welcome_enterprise_log_in">Enterprise Login</string>
+    <string name="welcome_enterprise_log_in">企業登錄</string>
     <string name="welcome_custom_backend_log_in_email">LOG IN WITH EMAIL</string>
     <string name="welcome_custom_backend_log_in_sso">LOG IN WITH SSO</string>
     <!-- Updated edit handle screen -->
@@ -1241,4 +1241,7 @@
     <string name="email_verification_description">輸入我們發送到 %s的驗證碼</string>
     <string name="email_verification_resend_code">重新發送檢證碼</string>
     <string name="email_verification_change_email">更改電子郵件地址</string>
+    <!-- Composite Message -->
+    <string name="composite_message_button_action_error">無法發送您的答案，請重試。</string>
+    <string name="composite_message_confirmed_button_content_description">%1$s confirmed</string>
 </resources>

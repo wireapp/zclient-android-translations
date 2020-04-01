@@ -214,7 +214,7 @@
     <string name="content__file__action__save_error">Nepavyko įrašyti failo</string>
     <string name="content__location__no_map_placeholder">VIETA PASIRODYS ŽEMĖLAPYJE KAI ATSIRAS RYŠYS.</string>
     <!-- Conversation actions -->
-    <string name="conversation__action__clear_content">Trinti turinį&#8230;</string>
+    <string name="conversation__action__clear_content">Trinti turinį</string>
     <string name="conversation__action__delete_group">Ištrinti grupę&#8230;</string>
     <string name="conversation__action__archive">Archyvuoti</string>
     <string name="conversation__action__unarchive">Išarchyvuoti</string>
@@ -996,8 +996,8 @@
     <string name="availability_away">Pasišalinęs</string>
     <string name="availability_busy">Užsiėmęs</string>
     <string name="availability_text_available">AVAILABLE</string>
-    <string name="availability_text_away">AWAY</string>
-    <string name="availability_text_busy">BUSY</string>
+    <string name="availability_text_away">PASITRAUKĘS</string>
+    <string name="availability_text_busy">UŽIMTA</string>
     <string name="availability_setstatus">NURODYTI BŪSENĄ</string>
     <string name="availability_notification_warning_away_title">Pasišalinote</string>
     <string name="availability_notification_warning_away">Kiti žmonės matys jus kaip pasišalinusį. Negausite perspėjimų apie skambučius ir žinutes.</string>
@@ -1309,19 +1309,22 @@
     <string name="edit_phone_dialog_confirm_phone_confirmation">Išsiųsime patvirtinimo kodą į:\n%s</string>
     <string name="edit_phone_save_phone_number">Įrašyti</string>
     <!-- Delete Account -->
-    <string name="delete_account_permanently_email_confirmation">We will send an email to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="delete_account_permanently_sms_confirmation">We will send an SMS to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="pref_account_delete_confirmed">Account deletion confirmed, please check your email.</string>
+    <string name="delete_account_permanently_email_confirmation">Mes išsiųsime el. laišką į:\n %1$s \nSpustelėję el. laiške esančią nuorodą ištrinsite savo paskyrą.</string>
+    <string name="delete_account_permanently_sms_confirmation">Mes išsiųsime SMS žinutę į:\n %1$s \nSpustelėję nuorodą ištrinsite savo paskyrą.</string>
+    <string name="pref_account_delete_confirmed">Paskyros ištrynimas patvirtintas, prašome patikrinti jūsų el. paštą.</string>
     <!-- Authentication (Shared strings between create account and login screens) -->
-    <string name="authentication_tab_layout_title_email">EMAIL</string>
-    <string name="authentication_tab_layout_title_phone">PHONE</string>
+    <string name="authentication_tab_layout_title_email">EL. PAŠTAS</string>
+    <string name="authentication_tab_layout_title_phone">TELEFONAS</string>
     <!-- Create Personal Account screen -->
     <string name="create_personal_account_title">Sukurti paskyrą</string>
-    <string name="create_personal_account_with_email_edit_text_hint">EMAIL</string>
-    <string name="create_personal_account_with_phone_edit_text_hint">PHONE NUMBER</string>
+    <string name="create_personal_account_with_email_edit_text_hint">EL. PAŠTAS</string>
+    <string name="create_personal_account_with_phone_edit_text_hint">TELEFONO NUMERIS</string>
     <!-- Email Verification screen -->
     <string name="email_verification_title">Gavote el. laišką</string>
     <string name="email_verification_description">Įrašykite patvirtinimo kodą, kuris buvo išsiųstas į %s</string>
     <string name="email_verification_resend_code">SIŲSTI KODĄ DAR KARTĄ</string>
     <string name="email_verification_change_email">KEISTI EL. PAŠTO ADRESĄ</string>
+    <!-- Composite Message -->
+    <string name="composite_message_button_action_error">Your answer can\'t be sent, please retry.</string>
+    <string name="composite_message_confirmed_button_content_description">%1$s confirmed</string>
 </resources>

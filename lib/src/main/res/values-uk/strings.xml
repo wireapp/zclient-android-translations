@@ -214,7 +214,7 @@
     <string name="content__file__action__save_error">Не вдалося зберегти файл</string>
     <string name="content__location__no_map_placeholder">ВАШЕ РОЗТАШУВАННЯ БУДЕ ВІДОБРАЖЕНЕ НА КАРТІ ЯК ТІЛЬКИ ДОДАТОК ПОВЕРНЕТЬСЯ В ОНЛАЙН-РЕЖИМ.</string>
     <!-- Conversation actions -->
-    <string name="conversation__action__clear_content">Очистити вміст&#8230;</string>
+    <string name="conversation__action__clear_content">Видалити вміст&#8230;</string>
     <string name="conversation__action__delete_group">Видалити групу&#8230;</string>
     <string name="conversation__action__archive">Архівувати</string>
     <string name="conversation__action__unarchive">Розархівувати</string>
@@ -995,9 +995,9 @@
     <string name="availability_available">Онлайн</string>
     <string name="availability_away">Не на місці</string>
     <string name="availability_busy">Не турбувати</string>
-    <string name="availability_text_available">AVAILABLE</string>
-    <string name="availability_text_away">AWAY</string>
-    <string name="availability_text_busy">BUSY</string>
+    <string name="availability_text_available">ПРИСУТНІЙ(-Я)</string>
+    <string name="availability_text_away">ВІДСУТНІЙ(-Я)</string>
+    <string name="availability_text_busy">ЗАЙНЯТИЙ(-А)</string>
     <string name="availability_setstatus">ВСТАНОВИТИ СТАТУС</string>
     <string name="availability_notification_warning_away_title">Зараз ви відсутні</string>
     <string name="availability_notification_warning_away">Ваш статус для інших людей буде встановлено як \"Відсутній(-я)\". Ви не будете отримувати сповіщень про вхідні дзвінки або повідомлення.</string>
@@ -1310,19 +1310,22 @@
     <string name="edit_phone_dialog_confirm_phone_confirmation">Ви вишлемо код підтвердження на:\n%s</string>
     <string name="edit_phone_save_phone_number">Зберегти</string>
     <!-- Delete Account -->
-    <string name="delete_account_permanently_email_confirmation">We will send an email to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="delete_account_permanently_sms_confirmation">We will send an SMS to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="pref_account_delete_confirmed">Account deletion confirmed, please check your email.</string>
+    <string name="delete_account_permanently_email_confirmation">Ми надішлемо вам email на:\n %1$s \nПерейдіть за посиланням для остаточного видалення акаунту.</string>
+    <string name="delete_account_permanently_sms_confirmation">Ми надішлемо вам SMS на:\n %1$s \nПерейдіть за посиланням для остаточного видалення акаунту.</string>
+    <string name="pref_account_delete_confirmed">Видалення облікового запису було підтверджене. Будь ласка, перевірте свою електронну пошту.</string>
     <!-- Authentication (Shared strings between create account and login screens) -->
-    <string name="authentication_tab_layout_title_email">EMAIL</string>
-    <string name="authentication_tab_layout_title_phone">PHONE</string>
+    <string name="authentication_tab_layout_title_email">ЕЛЕКТРОННА ПОШТА</string>
+    <string name="authentication_tab_layout_title_phone">ТЕЛЕФОН</string>
     <!-- Create Personal Account screen -->
     <string name="create_personal_account_title">Створити акаунт</string>
-    <string name="create_personal_account_with_email_edit_text_hint">EMAIL</string>
-    <string name="create_personal_account_with_phone_edit_text_hint">PHONE NUMBER</string>
+    <string name="create_personal_account_with_email_edit_text_hint">ЕЛЕКТРОННА ПОШТА</string>
+    <string name="create_personal_account_with_phone_edit_text_hint">НОМЕР ТЕЛЕФОНУ</string>
     <!-- Email Verification screen -->
     <string name="email_verification_title">Ви отримали нового листа</string>
     <string name="email_verification_description">Введіть код, який ми вислали на %s</string>
     <string name="email_verification_resend_code">НАДІСЛАТИ КОД ЩЕ РАЗ</string>
     <string name="email_verification_change_email">ЗМІНИТИ EMAIL</string>
+    <!-- Composite Message -->
+    <string name="composite_message_button_action_error">Ваша відповідь не може бути відправлена. Будь ласка, спробуйте ще раз.</string>
+    <string name="composite_message_confirmed_button_content_description">%1$s підтверджено</string>
 </resources>
