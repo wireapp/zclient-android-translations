@@ -1255,9 +1255,9 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="edit_phone_dialog_confirm_phone_confirmation">Nous enverrons un code de notification à :\n%s</string>
     <string name="edit_phone_save_phone_number">Enregistrer</string>
     <!-- Delete Account -->
-    <string name="delete_account_permanently_email_confirmation">We will send an email to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="delete_account_permanently_sms_confirmation">We will send an SMS to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="pref_account_delete_confirmed">Account deletion confirmed, please check your email.</string>
+    <string name="delete_account_permanently_email_confirmation">Nous allons envoyer un e-mail à :\n[[%1$s]]\nCliquez sur le lien pour supprimer définitivement votre compte.</string>
+    <string name="delete_account_permanently_sms_confirmation">Nous allons envoyer un SMS à :\n[[%1$s]]\nCliquez sur le lien pour supprimer définitivement votre compte.</string>
+    <string name="pref_account_delete_confirmed">Suppression du compte confirmée, veuillez vérifier vos emails.</string>
     <!-- Authentication (Shared strings between create account and login screens) -->
     <string name="authentication_tab_layout_title_email">COURRIEL</string>
     <string name="authentication_tab_layout_title_phone">TÉLÉPHONE</string>
@@ -1266,7 +1266,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="create_personal_account_with_email_edit_text_hint">EMAIL</string>
     <string name="create_personal_account_with_phone_edit_text_hint">NUMÉRO DE TÉLÉPHONE</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">Cette adresse e-mail n\'est pas autorisée.</string>
-    <string name="create_personal_account_with_email_email_in_use_error">This email address you used is already linked to an account.\nUse another email address or try to login if you own this account.</string>
+    <string name="create_personal_account_with_email_email_in_use_error">L\'adresse email que vous avez utilisé est déjà lié à un compte existant. Utilisez une autre adresse, ou essayez de vous connecter si ce compte vous appartient.</string>
     <!-- Create Personal Account - Email Verification screen -->
     <string name="email_verification_title">Vous avez reçu un e-mail</string>
     <string name="email_verification_description">Saisissez le code de vérification envoyé à %s</string>
@@ -1278,8 +1278,12 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="create_personal_account_name_input_edit_text_hint">NOM COMPLET</string>
     <!-- Create Personal Account - Password screen -->
     <string name="create_personal_account_password_input_title">Définir un mot de passe</string>
-    <string name="create_personal_account_password_input_edit_text_hint">PASSWORD</string>
+    <string name="create_personal_account_password_input_edit_text_hint">MOT DE PASSE</string>
+    <!-- Create Personal Account - Registration errors -->
+    <string name="create_personal_account_unauthorized_email_error">Unauthorized e-mail address.</string>
+    <string name="create_personal_account_invalid_activation_code_error">Invalid activation code.</string>
+    <string name="create_personal_account_email_in_use_error">The given e-mail address is in use.</string>
     <!-- Composite Message -->
-    <string name="composite_message_button_action_error">Your answer can\'t be sent, please retry.</string>
-    <string name="composite_message_confirmed_button_content_description">%1$s confirmed</string>
+    <string name="composite_message_button_action_error">Votre réponse ne peut pas être envoyée, veuillez réessayer</string>
+    <string name="composite_message_confirmed_button_content_description">%1$s confirmé</string>
 </resources>
