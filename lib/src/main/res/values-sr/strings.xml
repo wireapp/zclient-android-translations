@@ -962,15 +962,15 @@
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">ГОСТ</string>
     <string name="participant_tab_guest_indicator_label">Гост</string>
-    <string name="participant_tab_external_indicator_label">EXTERNAL</string>
-    <string name="participant_tab_group_admin_indicator_label">GROUP ADMIN</string>
+    <string name="participant_tab_external_indicator_label">спољашњи</string>
+    <string name="participant_tab_group_admin_indicator_label">ГРУПА АДМИН</string>
     <string name="availability_none">без</string>
     <string name="availability_available">На располагању</string>
     <string name="availability_away">Одсутан</string>
     <string name="availability_busy">Заузето</string>
-    <string name="availability_text_available">AVAILABLE</string>
-    <string name="availability_text_away">AWAY</string>
-    <string name="availability_text_busy">BUSY</string>
+    <string name="availability_text_available">НА РАСПОЛАГАЊУ</string>
+    <string name="availability_text_away">ДОБРО</string>
+    <string name="availability_text_busy">ЗАУЗЕТ</string>
     <string name="availability_setstatus">ПОСТАВИТЕ СТАТУС</string>
     <string name="availability_notification_warning_away_title">Постављени сте на невидљив</string>
     <string name="availability_notification_warning_away">Појавићете се као далеко од других људи. Нећете примати обавештења о долазним позивима или порукама.</string>
@@ -1077,7 +1077,7 @@
     <string name="participants_divider_admins">GROUP ADMINS (%1$s)</string>
     <string name="participants_divider_people_no_number">GROUP MEMBERS</string>
     <string name="participants_divider_admins_no_number">GROUP ADMINS</string>
-    <string name="participants_divider_options">OPTIONS</string>
+    <string name="participants_divider_options">ОПЦИЈЕ</string>
     <string name="participants_no_admins">Нема администратора</string>
     <string name="participants_no_results_1">Нема поклапања.</string>
     <string name="participants_no_results_2">Try entering a different name.</string>
@@ -1267,25 +1267,25 @@ Već ste prijavljen</string>
     <!-- SSO Login -->
     <string name="sso_login_dialog_title">Компанијска пријава</string>
     <string name="sso_login_dialog_message">Please enter your SSO code:</string>
-    <string name="email_sso_login_dialog_message">Please enter your email or SSO code:</string>
+    <string name="email_sso_login_dialog_message">Please enter your email or SSO code. If your email matches an enterprise installation of Wire, this app will connect to that server:</string>
     <!-- Welcome -->
-    <string name="welcome_to_wire">Welcome to Wire</string>
+    <string name="welcome_to_wire">Добродошли у Wire</string>
     <string name="welcome_enterprise_log_in">Компанијска пријава</string>
     <string name="welcome_custom_backend_log_in_email">LOG IN WITH EMAIL</string>
-    <string name="welcome_custom_backend_log_in_sso">LOG IN WITH SSO</string>
+    <string name="welcome_custom_backend_log_in_sso">ПРИЈАВИТЕ СЕ СА SSO</string>
     <!-- Updated edit handle screen -->
     <string name="edit_account_handle_error_already_taken">Већ заузето</string>
     <string name="edit_account_handle_error_too_short">бар 2 знака</string>
     <string name="edit_account_handle_error_invalid_characters">Please only use: a–z, 0–9, and _ </string>
     <string name="edit_account_handle_error_unknown_error">Нешто је пошло наопако. Покушајте поново.</string>
-    <string name="edit_phone_remove_phone_number">Remove phone number</string>
+    <string name="edit_phone_remove_phone_number">Уклоните број телефона</string>
     <string name="edit_phone_dialog_delete_phone_confirmation">Заиста желите да уклоните %s из вашег Вајер налога?</string>
     <string name="edit_phone_dialog_confirm_phone_confirmation">Послаћемо код обавештења на:\n%s</string>
     <string name="edit_phone_save_phone_number">Сачувај</string>
     <!-- Delete Account -->
     <string name="delete_account_permanently_email_confirmation">We will send an email to:\n %1$s \nFollow the link to permanently delete your account.</string>
     <string name="delete_account_permanently_sms_confirmation">We will send an SMS to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="pref_account_delete_confirmed">Account deletion confirmed, please check your email.</string>
+    <string name="pref_account_delete_confirmed">Потврђено је брисање рачуна, погледајте е-пошту.</string>
     <!-- Authentication (Shared strings between create account and login screens) -->
     <string name="authentication_tab_layout_title_email">ЕЛЕКТРОНСКА ПОШТА</string>
     <string name="authentication_tab_layout_title_phone">ТЕЛЕФОН</string>
@@ -1294,7 +1294,7 @@ Već ste prijavljen</string>
     <string name="create_personal_account_with_email_edit_text_hint">ЕЛЕКТРОНСКА ПОШТА</string>
     <string name="create_personal_account_with_phone_edit_text_hint">УРЕДИТЕ БРОЈ ТЕЛЕФОНА</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">Ова адреса е-поште није дозвољена.</string>
-    <string name="create_personal_account_with_email_email_in_use_error">This email address you used is already linked to an account.\nUse another email address or try to login if you own this account.</string>
+    <string name="create_personal_account_with_email_email_in_use_error">Ова адреса е-поште коју сте користили је већ повезана са налогом. \n Користите другу адресу е-поште или покушајте да се пријавите ако имате овај налог.</string>
     <!-- Create Personal Account - Email Verification screen -->
     <string name="email_verification_title">Имате пошту</string>
     <string name="email_verification_description">Унесите верификациони код који смо послали на %s</string>
@@ -1308,10 +1308,10 @@ Već ste prijavljen</string>
     <string name="create_personal_account_password_input_title">Постави лозинку</string>
     <string name="create_personal_account_password_input_edit_text_hint">LOZINKA</string>
     <!-- Create Personal Account - Registration errors -->
-    <string name="create_personal_account_unauthorized_email_error">Unauthorized e-mail address.</string>
-    <string name="create_personal_account_invalid_activation_code_error">Invalid activation code.</string>
-    <string name="create_personal_account_email_in_use_error">The given e-mail address is in use.</string>
+    <string name="create_personal_account_unauthorized_email_error">Неовлашћена адреса е-поште.</string>
+    <string name="create_personal_account_invalid_activation_code_error">Погрешан активациони код</string>
+    <string name="create_personal_account_email_in_use_error">Коришћена је е-маил адреса .</string>
     <!-- Composite Message -->
-    <string name="composite_message_button_action_error">Your answer can\'t be sent, please retry.</string>
+    <string name="composite_message_button_action_error">Ваш одговор не може бити послан, покушајте поново.</string>
     <string name="composite_message_confirmed_button_content_description">%1$s confirmed</string>
 </resources>
