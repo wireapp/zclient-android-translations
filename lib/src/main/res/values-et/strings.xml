@@ -196,6 +196,8 @@
     <string name="content__file__action__open__no_app_found">Sul puudub rakendus millega seda failitüüpi avada</string>
     <string name="content__file__action__save_completed">Fail edukalt salvestatud</string>
     <string name="content__file__action__save_error">Faili salvestamine ebaõnnestus.</string>
+    <string name="file_restrictions__sender_error">Sharing files with the .%1$s extension is not permitted by your organization</string>
+    <string name="file_restrictions__receiver_error">File from %1$s can\'t be opened.</string>
     <string name="content__location__no_map_placeholder">ASUKOHT ILMUB KAARDILE KUI INTERNETIÜHENDUS TAASTUB.</string>
     <!-- Conversation actions -->
     <string name="conversation__action__clear_content">Tühjenda sisu&#8230;</string>
@@ -253,9 +255,9 @@
     <string name="call_banner_incoming">%1$s helistab&#8230;</string>
     <string name="call_banner_incoming_group">%1$s \u30FB %2$s helistab&#8230;</string>
     <string name="call_banner_tap_to_return_to_call">Koputa kõnesse naasmiseks \u30FB %1$s</string>
-    <string name="call_error_unsupported_version_title">Please update Wire</string>
+    <string name="call_error_unsupported_version_title">Palun uuenda Wire\'i</string>
     <string name="call_error_unsupported_version_message">You received a call that isn\'t supported by this version of Wire.\n\nGet the latest version in the Play Store.</string>
-    <string name="call_error_unsupported_version_button_ok">Go to Play Store</string>
+    <string name="call_error_unsupported_version_button_ok">Mine Play poodi</string>
     <string name="call_error_unsupported_version_button_dismiss">Hiljem</string>
     <string name="calling_ongoing_call_title">Aktiivne kõne</string>
     <string name="calling_ongoing_call_start_message">Teises vestluses toimub juba kõne.\nSiin helistades lõpetad teise kõne.</string>
@@ -1074,7 +1076,7 @@ Lahti lukustada saad PINi, mustri, parooli või biomeetriaga.</string>
     <string name="ephemeral_explanation_text">Kustuvad sõnumid lülitatatakse sisse kõikide osalejate jaoks selles vestluses</string>
     <string name="notifications_explanation_text">Sind teavitatakse kõigest (s.h. hääl- ja videokõned) või ainult siis, kui sind mainitakse.</string>
     <string name="show_all_participants">Kuva kõik (%1$s)</string>
-    <string name="participant_was_removed_from_team">%s was removed from team</string>
+    <string name="participant_was_removed_from_team">%s eemaldati tiimist</string>
     <string name="allow_guests_error_title">Midagi läks valesti</string>
     <string name="allow_guests_error_body">Külaliste ja teenuste lubamine ebaõnnestus. Palun proovi uuesti.</string>
     <string name="allow_guests_warning_body">Praegused külalised ja teenused eemaldatakse vestlusest. Uusi külalisi ja teenuseid ei lubata.</string>
@@ -1267,12 +1269,21 @@ Lahti lukustada saad PINi, mustri, parooli või biomeetriaga.</string>
     <string name="create_personal_account_with_phone_edit_text_hint">TELEFONINUMBER</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">See e-posti aadress pole lubatud.</string>
     <string name="create_personal_account_with_email_email_in_use_error">This email address you used is already linked to an account.\nUse another email address or try to login if you own this account.</string>
-    <!-- Create Personal Account - Email Verification screen -->
-    <string name="email_verification_title">Sulle tuli kiri</string>
-    <string name="email_verification_description">Sisesta kinnituskood, mille saatsime e-postile %s</string>
-    <string name="email_verification_resend_code">SAADA KOOD UUESTI</string>
-    <string name="email_verification_change_email">MUUDA E-POSTI</string>
-    <string name="email_verification_invalid_code_error">Sisesta kehtiv kood</string>
+    <string name="create_personal_account_with_phone_phone_blacklisted_error">See telefoninumber pole lubatud.</string>
+    <string name="create_personal_account_with_phone_phone_in_use_error">This phone number you used is already linked to an account.\nUse another phone number or try to login if you own this account.</string>
+    <string name="create_personal_account_with_phone_default_country_name">Saksamaa</string>
+    <string name="create_personal_account_with_phone_default_country_code">+49</string>
+    <!-- Create Personal Account - Email Code screen -->
+    <string name="create_personal_account_email_code_title">Sulle tuli kiri</string>
+    <string name="create_personal_account_email_code_description">Sisesta kinnituskood, mille saatsime numbrile %s</string>
+    <string name="create_personal_account_email_code_change_email">MUUDA E-POSTI</string>
+    <string name="create_personal_account_email_code_resend_code">SAADA KOOD UUESTI</string>
+    <string name="create_personal_account_email_code_invalid_code_error">Sisesta kehtiv kood</string>
+    <!-- Create Personal Account - Phone Code screen -->
+    <string name="create_personal_account_phone_code_title">SMS-kood</string>
+    <string name="create_personal_account_phone_code_description">Sisesta kood, mille saatsime numbrile %s</string>
+    <string name="create_personal_account_phone_code_resend_code">SAADA KOOD UUESTI</string>
+    <string name="create_personal_account_phone_code_invalid_code_error">Sisesta kehtiv kood</string>
     <!-- Create Personal Account - Name screen -->
     <string name="create_personal_account_name_input_title">Sinu nimi</string>
     <string name="create_personal_account_name_input_edit_text_hint">TÄISNIMI</string>
@@ -1281,13 +1292,15 @@ Lahti lukustada saad PINi, mustri, parooli või biomeetriaga.</string>
     <string name="create_personal_account_password_input_edit_text_hint">PAROOL</string>
     <!-- Create Personal Account - Registration errors -->
     <string name="create_personal_account_unauthorized_email_error">Unauthorized e-mail address.</string>
-    <string name="create_personal_account_invalid_activation_code_error">Invalid activation code.</string>
     <string name="create_personal_account_email_in_use_error">The given e-mail address is in use.</string>
+    <string name="create_personal_account_invalid_activation_code_error">Invalid activation code.</string>
+    <string name="create_personal_account_unauthorized_phone_error">Unauthorized phone number.</string>
+    <string name="create_personal_account_phone_in_use_error">The given phone number is in use.</string>
     <!-- Composite Message -->
     <string name="composite_message_button_action_error">Your answer can\'t be sent, please retry.</string>
     <string name="composite_message_confirmed_button_content_description">%1$s kinnitatud</string>
     <!-- StartSSO Screen  -->
-    <string name="start_sso_leaving_wire">Redirecting&#8230;</string>
+    <string name="start_sso_leaving_wire">Suunamine&#8230;</string>
     <string name="start_sso_redirected_to">You are being redirected to your dedicated enterprise service.</string>
     <string name="start_sso_notice">Provide credentials only if you\'re sure this is your organization\'s login.</string>
 </resources>

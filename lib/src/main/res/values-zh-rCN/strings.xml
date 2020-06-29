@@ -191,6 +191,8 @@
     <string name="content__file__action__open__no_app_found">找不到可打开此文件类型的应用程序</string>
     <string name="content__file__action__save_completed">文件保存成功</string>
     <string name="content__file__action__save_error">无法保存文件</string>
+    <string name="file_restrictions__sender_error">Sharing files with the .%1$s extension is not permitted by your organization</string>
+    <string name="file_restrictions__receiver_error">File from %1$s can\'t be opened.</string>
     <string name="content__location__no_map_placeholder">您的位置将在您重新在线时显示在地图上。</string>
     <!-- Conversation actions -->
     <string name="conversation__action__clear_content">清除内容&#8230;</string>
@@ -1238,12 +1240,21 @@
     <string name="create_personal_account_with_phone_edit_text_hint">PHONE NUMBER</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">不允许使用此电子邮件地址。</string>
     <string name="create_personal_account_with_email_email_in_use_error">This email address you used is already linked to an account.\nUse another email address or try to login if you own this account.</string>
-    <!-- Create Personal Account - Email Verification screen -->
-    <string name="email_verification_title">您有新邮件</string>
-    <string name="email_verification_description">输入我们发送到 %s的验证码</string>
-    <string name="email_verification_resend_code">重新发送代码</string>
-    <string name="email_verification_change_email">更改邮件地址</string>
-    <string name="email_verification_invalid_code_error">请输入有效的验证码</string>
+    <string name="create_personal_account_with_phone_phone_blacklisted_error">不允许使用此号码。</string>
+    <string name="create_personal_account_with_phone_phone_in_use_error">This phone number you used is already linked to an account.\nUse another phone number or try to login if you own this account.</string>
+    <string name="create_personal_account_with_phone_default_country_name">德国</string>
+    <string name="create_personal_account_with_phone_default_country_code">+49</string>
+    <!-- Create Personal Account - Email Code screen -->
+    <string name="create_personal_account_email_code_title">您有新邮件</string>
+    <string name="create_personal_account_email_code_description">输入我们发送到 %s的验证码</string>
+    <string name="create_personal_account_email_code_change_email">更改邮件地址</string>
+    <string name="create_personal_account_email_code_resend_code">重新发送代码</string>
+    <string name="create_personal_account_email_code_invalid_code_error">请输入有效的验证码</string>
+    <!-- Create Personal Account - Phone Code screen -->
+    <string name="create_personal_account_phone_code_title">SMS code</string>
+    <string name="create_personal_account_phone_code_description">Enter the code we sent to %s</string>
+    <string name="create_personal_account_phone_code_resend_code">重新发送代码</string>
+    <string name="create_personal_account_phone_code_invalid_code_error">请输入有效的验证码</string>
     <!-- Create Personal Account - Name screen -->
     <string name="create_personal_account_name_input_title">您的名字</string>
     <string name="create_personal_account_name_input_edit_text_hint">全名</string>
@@ -1252,8 +1263,10 @@
     <string name="create_personal_account_password_input_edit_text_hint">PASSWORD</string>
     <!-- Create Personal Account - Registration errors -->
     <string name="create_personal_account_unauthorized_email_error">Unauthorized e-mail address.</string>
-    <string name="create_personal_account_invalid_activation_code_error">Invalid activation code.</string>
     <string name="create_personal_account_email_in_use_error">The given e-mail address is in use.</string>
+    <string name="create_personal_account_invalid_activation_code_error">Invalid activation code.</string>
+    <string name="create_personal_account_unauthorized_phone_error">Unauthorized phone number.</string>
+    <string name="create_personal_account_phone_in_use_error">The given phone number is in use.</string>
     <!-- Composite Message -->
     <string name="composite_message_button_action_error">您的答案无法发送，请重试。</string>
     <string name="composite_message_confirmed_button_content_description">%1$s confirmed</string>

@@ -196,6 +196,8 @@
     <string name="content__file__action__open__no_app_found">Keine App gefunden, um diesen Dateityp öffnen</string>
     <string name="content__file__action__save_completed">Datei erfolgreich gespeichert</string>
     <string name="content__file__action__save_error">Datei konnte nicht gespeichert werden</string>
+    <string name="file_restrictions__sender_error">Das Teilen von Dateien mit der Endung .%1$s wird von Ihrer Organisation nicht erlaubt.</string>
+    <string name="file_restrictions__receiver_error">Datei von %1$s kann nicht geöffnet werden.</string>
     <string name="content__location__no_map_placeholder">DER STANDORT WIRD AUF DER KARTE ANGEZEIGT, SOBALD DU WIEDER ONLINE BIST.</string>
     <!-- Conversation actions -->
     <string name="conversation__action__clear_content">Unterhaltungsverlauf löschen&#8230;</string>
@@ -1261,19 +1263,28 @@ Gilt nicht für Gruppen.</string>
     <string name="pref_account_delete_confirmed">Kontolöschung bestätigt, bitte Posteingang überprüfen.</string>
     <!-- Authentication (Shared strings between create account and login screens) -->
     <string name="authentication_tab_layout_title_email">E-MAIL-ADRESSE</string>
-    <string name="authentication_tab_layout_title_phone">PHONE</string>
+    <string name="authentication_tab_layout_title_phone">TELEFON</string>
     <!-- Create Personal Account - Main screen -->
     <string name="create_personal_account_title">Benutzerkonto erstellen</string>
     <string name="create_personal_account_with_email_edit_text_hint">E-MAIL-ADRESSE</string>
     <string name="create_personal_account_with_phone_edit_text_hint">TELEFONNUMMER</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">Diese E-Mail-Adresse ist nicht zulässig.</string>
     <string name="create_personal_account_with_email_email_in_use_error">Die für die Registrierung verwendete E-Mail-Adresse ist bereits mit einem Konto verknüpft.\nBitte andere E-Mail-Adresse nutzen oder versuchen, sich mit dieser E-Mail-Adresse einzuloggen.</string>
-    <!-- Create Personal Account - Email Verification screen -->
-    <string name="email_verification_title">Posteingang prüfen</string>
-    <string name="email_verification_description">Bitte den Bestätigungscode eingeben, den wir an %s gesendet haben</string>
-    <string name="email_verification_resend_code">CODE ERNEUT SENDEN</string>
-    <string name="email_verification_change_email">E-MAIL-ADRESSE ÄNDERN</string>
-    <string name="email_verification_invalid_code_error">Bitte einen gültigen Code eingeben</string>
+    <string name="create_personal_account_with_phone_phone_blacklisted_error">Diese Telefonnummer ist nicht zulässig.</string>
+    <string name="create_personal_account_with_phone_phone_in_use_error">Diese verwendete Telefonnummer ist bereits mit einem Konto verknüpft.\nBitte andere Telefonnummer nutzen oder versuchen, sich mit dieser Telefonnummer einzuloggen.</string>
+    <string name="create_personal_account_with_phone_default_country_name">Deutschland</string>
+    <string name="create_personal_account_with_phone_default_country_code">+49</string>
+    <!-- Create Personal Account - Email Code screen -->
+    <string name="create_personal_account_email_code_title">Posteingang prüfen</string>
+    <string name="create_personal_account_email_code_description">Bitte den Code eingeben, den wir an %s gesendet haben</string>
+    <string name="create_personal_account_email_code_change_email">E-MAIL-ADRESSE ÄNDERN</string>
+    <string name="create_personal_account_email_code_resend_code">CODE ERNEUT SENDEN</string>
+    <string name="create_personal_account_email_code_invalid_code_error">Bitte einen gültigen Code eingeben</string>
+    <!-- Create Personal Account - Phone Code screen -->
+    <string name="create_personal_account_phone_code_title">SMS-Code</string>
+    <string name="create_personal_account_phone_code_description">Bitte den Code eingeben, den wir an %s gesendet haben</string>
+    <string name="create_personal_account_phone_code_resend_code">CODE ERNEUT SENDEN</string>
+    <string name="create_personal_account_phone_code_invalid_code_error">Bitte einen gültigen Code eingeben</string>
     <!-- Create Personal Account - Name screen -->
     <string name="create_personal_account_name_input_title">Ihr Name</string>
     <string name="create_personal_account_name_input_edit_text_hint">VOLLSTÄNDIGER NAME</string>
@@ -1282,8 +1293,10 @@ Gilt nicht für Gruppen.</string>
     <string name="create_personal_account_password_input_edit_text_hint">PASSWORT</string>
     <!-- Create Personal Account - Registration errors -->
     <string name="create_personal_account_unauthorized_email_error">Nicht autorisierte E-Mail-Adresse.</string>
-    <string name="create_personal_account_invalid_activation_code_error">Ungültiger Aktivierungscode.</string>
     <string name="create_personal_account_email_in_use_error">Diese E-Mail-Adresse wird bereits verwendet.</string>
+    <string name="create_personal_account_invalid_activation_code_error">Ungültiger Aktivierungscode.</string>
+    <string name="create_personal_account_unauthorized_phone_error">Nicht autorisierte Telefonnummer.</string>
+    <string name="create_personal_account_phone_in_use_error">Die angegebene Telefonnummer wird bereits verwendet.</string>
     <!-- Composite Message -->
     <string name="composite_message_button_action_error">Ihre Antwort wurde nicht gesendet, bitte erneut versuchen.</string>
     <string name="composite_message_confirmed_button_content_description">%1$s bestätigt</string>

@@ -196,6 +196,8 @@
     <string name="content__file__action__open__no_app_found">Aucune application n\'a été trouvée pour ouvrir ce type de fichier</string>
     <string name="content__file__action__save_completed">Fichier enregistré avec succès</string>
     <string name="content__file__action__save_error">Impossible d\'enregistrer le fichier</string>
+    <string name="file_restrictions__sender_error">Le partage de fichiers avec l\'extension .%1$s n\'est pas autorisé par votre organisation</string>
+    <string name="file_restrictions__receiver_error">Impossible d\'ouvrir le fichier provenant de %1$s</string>
     <string name="content__location__no_map_placeholder">LA POSITION APPARAÎTRA SUR LA CARTE QUAND VOUS SEREZ À NOUVEAU EN LIGNE.</string>
     <!-- Conversation actions -->
     <string name="conversation__action__clear_content">Supprimer le contenu&#8230;</string>
@@ -254,9 +256,8 @@
     <string name="call_banner_incoming_group">%1$s \u30FB %2$s appelle&#8230;</string>
     <string name="call_banner_tap_to_return_to_call">Appuyez ici pour retourner à l\'appel \u30FB %1$s</string>
     <string name="call_error_unsupported_version_title">Veuillez mettre à jour Wire</string>
-    <string name="call_error_unsupported_version_message">Vous avez reçu un appel qui n’est pas compatible avec cette version de Wire.
-Téléchargez la dernière version depuis l’App Store.</string>
-    <string name="call_error_unsupported_version_button_ok">Aller sur l\'App Store</string>
+    <string name="call_error_unsupported_version_message">Vous avez reçu un appel qui n’est pas compatible avec cette version de Wire.\n\nTéléchargez la dernière version depuis le Play Store.</string>
+    <string name="call_error_unsupported_version_button_ok">Aller sur le Play Store</string>
     <string name="call_error_unsupported_version_button_dismiss">Plus tard</string>
     <string name="calling_ongoing_call_title">Appel en cours</string>
     <string name="calling_ongoing_call_start_message">Un appel est en cours dans une autre conversation.\nAppeler ici raccrochera l\'autre appel.</string>
@@ -1075,7 +1076,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="ephemeral_explanation_text">Les messages éphémères seront activés pour tous les participants de cette conversation</string>
     <string name="notifications_explanation_text">Vous pouvez choisir d\'être notifié pour tous les évènements (y compris les appels audios et vidéos) ou uniquement lorsque vous êtes mentionné.</string>
     <string name="show_all_participants">Tout afficher (%1$s)</string>
-    <string name="participant_was_removed_from_team">%@ a été supprimé(e) de l\'équipe</string>
+    <string name="participant_was_removed_from_team">%s a été supprimé(e) de l\'équipe</string>
     <string name="allow_guests_error_title">Une erreur est survenue</string>
     <string name="allow_guests_error_body">Impossible d\'accepter des contacts externes ou des services. Veuillez réessayer.</string>
     <string name="allow_guests_warning_body">Tous les contacts externes et services seront supprimés de la conversation. Ajouter à nouveaux des contacts externes ou services ne sera pas autorisé.</string>
@@ -1268,12 +1269,21 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="create_personal_account_with_phone_edit_text_hint">NUMÉRO DE TÉLÉPHONE</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">Cette adresse e-mail n\'est pas autorisée.</string>
     <string name="create_personal_account_with_email_email_in_use_error">L\'adresse email que vous avez utilisé est déjà lié à un compte existant. Utilisez une autre adresse, ou essayez de vous connecter si ce compte vous appartient.</string>
-    <!-- Create Personal Account - Email Verification screen -->
-    <string name="email_verification_title">Vous avez reçu un e-mail</string>
-    <string name="email_verification_description">Saisissez le code de vérification envoyé à %s</string>
-    <string name="email_verification_resend_code">RENVOYER LE CODE</string>
-    <string name="email_verification_change_email">CHANGER L\' ADRESSE E-MAIL</string>
-    <string name="email_verification_invalid_code_error">Veuillez fournir un code valide</string>
+    <string name="create_personal_account_with_phone_phone_blacklisted_error">Ce numéro de téléphone n\'est pas autorisé.</string>
+    <string name="create_personal_account_with_phone_phone_in_use_error">Le numéro de téléphone que vous avez utilisé pour vous inscrire est lié à un compte déjà existant.\nUtilisez un autre numéro, ou essayez de vous connecter si ce compte vous appartient.</string>
+    <string name="create_personal_account_with_phone_default_country_name">Allemagne</string>
+    <string name="create_personal_account_with_phone_default_country_code">+33</string>
+    <!-- Create Personal Account - Email Code screen -->
+    <string name="create_personal_account_email_code_title">Vous avez du courrier</string>
+    <string name="create_personal_account_email_code_description">Saisissez le code de vérification que nous avons envoyé au %s</string>
+    <string name="create_personal_account_email_code_change_email">CHANGER L\'ADRESSE E-MAIL</string>
+    <string name="create_personal_account_email_code_resend_code">RENVOYER LE CODE</string>
+    <string name="create_personal_account_email_code_invalid_code_error">Veuillez fournir un code valide</string>
+    <!-- Create Personal Account - Phone Code screen -->
+    <string name="create_personal_account_phone_code_title">Code SMS</string>
+    <string name="create_personal_account_phone_code_description">Entrez le code que nous avons envoyé au %s</string>
+    <string name="create_personal_account_phone_code_resend_code">RENVOYER LE CODE</string>
+    <string name="create_personal_account_phone_code_invalid_code_error">Veuillez fournir un code valide</string>
     <!-- Create Personal Account - Name screen -->
     <string name="create_personal_account_name_input_title">Votre nom</string>
     <string name="create_personal_account_name_input_edit_text_hint">NOM COMPLET</string>
@@ -1282,8 +1292,10 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="create_personal_account_password_input_edit_text_hint">MOT DE PASSE</string>
     <!-- Create Personal Account - Registration errors -->
     <string name="create_personal_account_unauthorized_email_error">Adresse e-mail non autorisée</string>
-    <string name="create_personal_account_invalid_activation_code_error">Code d\'activation invalide</string>
     <string name="create_personal_account_email_in_use_error">L\'adresse e-mail indiquée est déjà utilisée.</string>
+    <string name="create_personal_account_invalid_activation_code_error">Code d\'activation invalide</string>
+    <string name="create_personal_account_unauthorized_phone_error">Numéro de téléphone non autorisé.</string>
+    <string name="create_personal_account_phone_in_use_error">Le numéro de téléphone indiqué est déjà utilisé.</string>
     <!-- Composite Message -->
     <string name="composite_message_button_action_error">Votre réponse ne peut pas être envoyée, veuillez réessayer</string>
     <string name="composite_message_confirmed_button_content_description">%1$s confirmé</string>

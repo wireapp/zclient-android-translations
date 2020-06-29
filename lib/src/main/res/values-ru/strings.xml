@@ -206,6 +206,8 @@
     <string name="content__file__action__open__no_app_found">Не найдено приложение для открытия файлов этого типа</string>
     <string name="content__file__action__save_completed">Файл успешно сохранен</string>
     <string name="content__file__action__save_error">Невозможно сохранить файл</string>
+    <string name="file_restrictions__sender_error">Совместное использование файлов с расширением .%1$s запрещено вашей организацией</string>
+    <string name="file_restrictions__receiver_error">Файл от %1$s открыть невозможно.</string>
     <string name="content__location__no_map_placeholder">МЕСТОПОЛОЖЕНИЕ БУДЕТ ОТОБРАЖЕНО НА КАРТЕ, КОГДА ВЫ ВНОВЬ БУДЕТЕ ОНЛАЙН.</string>
     <!-- Conversation actions -->
     <string name="conversation__action__clear_content">Очистить контент&#8230;</string>
@@ -399,7 +401,7 @@
     <!-- Options -->
     <string name="pref_options_screen_title">Настройки</string>
     <string name="pref_options_vbr_title">Кодирование с переменным битрейтом</string>
-    <string name="pref_options_vbr_summary">Это значительно снижает потребление данных при аудиозвонках и улучшает работу при медленном соединении. Выключите, чтобы использовать кодирование с постоянным битрейтом.</string>
+    <string name="pref_options_vbr_summary">Данная опция позволяет аудиозвонкам экономить трафик и улучшает их качество в сетях с низкой скоростью передачи данных. Вы можете отключить ее, включив кодирование с постоянным битрейтом.</string>
     <string name="pref_options_alerts_category_title">Оповещения</string>
     <string name="pref_options_calls_category_title">Звонки</string>
     <string name="pref_options_sounds_title">Звуки</string>
@@ -415,8 +417,8 @@
     <string name="pref_options_ringtones_default_summary">Wire по умолчанию</string>
     <string name="pref_options_ringtones_silent">Беззвучный</string>
     <string name="pref_options_dark_theme_title">Темная тема</string>
-    <string name="pref_options_hide_screen_title">Скрыть контент экрана</string>
-    <string name="pref_options_hide_screen_summary">Контент Wire не будет отображаться при переключении приложений</string>
+    <string name="pref_options_hide_screen_title">Скрыть содержимое экрана</string>
+    <string name="pref_options_hide_screen_summary">Содержимое Wire не будет отображаться при переключении приложений</string>
     <string name="pref_options_image_download_title">Загружать изображения</string>
     <string name="pref_options_image_download_always">Всегда</string>
     <string name="pref_options_image_download_wifi">Только через Wi-Fi</string>
@@ -425,7 +427,7 @@
     <string name="pref_options_cursor_send_button_title">Кнопка \'Отправить\'</string>
     <string name="pref_options_cursor_send_button_summary">Отключает отправку с помощью Enter.</string>
     <string name="pref_options_message_previews">Предварительный просмотр сообщений</string>
-    <string name="pref_options_message_previews_summary">Показывать контент сообщения в уведомлениях.</string>
+    <string name="pref_options_message_previews_summary">Показывать содержимое сообщения в уведомлениях.</string>
     <string name="pref_options_app_lock_title">Блокировка парольной фразой</string>
     <string name="pref_options_app_lock_summary">Заблокировать Wire через %1$s секунд работы в фоновом режиме.</string>
     <string name="pref_options_incognito_keyboard">Инкогнито-клавиатура</string>
@@ -524,9 +526,9 @@
     <string name="sign_up__set_picture__keep">Оставить это</string>
     <string name="sign_up__set_picture__guidance">Wire выглядит лучше с вашей фотографией.</string>
     <string name="sign_up__set_picture__loading">Загрузка фото</string>
-    <string name="leave_conversation_failed__message">Вы должны быть онлайн, чтобы покинуть беседу. Проверьте подключение и повторите попытку.</string>
-    <string name="remove_from_conversation__no_network__message">Вы должны быть онлайн, чтобы удалять людей из беседы. Проверьте подключение и повторите попытку.</string>
-    <string name="calling__call_drop__message">Вы должны быть онлайн, чтобы позвонить. Проверьте подключение и повторите попытку.</string>
+    <string name="leave_conversation_failed__message">Для выхода из беседы вы должны быть в сети. Проверьте подключение и повторите попытку.</string>
+    <string name="remove_from_conversation__no_network__message">Для удаления участников беседы вы должны быть в сети. Проверьте подключение и повторите попытку.</string>
+    <string name="calling__call_drop__message">Для совершения вызовов вы должны быть в сети. Проверьте подключение и повторите попытку.</string>
     <!-- Lockscreen and notifications -->
     <string name="message_notifications_channel_name">Сообщения</string>
     <string name="message_notifications_channel_description">Уведомления обо всех типах сообщений, включая текст, изображения, аудио- и видеосообщения.</string>
@@ -619,7 +621,7 @@
     <string name="quick_reply__open_wire">Открыть Wire</string>
     <!-- Save image notification -->
     <string name="notification__image_saving__content__title">Ваше фото в Wire сохранено.</string>
-    <string name="notification__image_saving__content__subtitle">Коснитесь для просмотра.</string>
+    <string name="notification__image_saving__content__subtitle">Нажмите для просмотра.</string>
     <string name="notification__image_saving__action__share">Поделиться</string>
     <!-- See: https://code.google.com/p/android/issues/detail?id=36744 -->
     <dimen name="notification__image_saving__image_width">512dp</dimen>
@@ -698,8 +700,8 @@
     <string name="giphy_preview__message_via_search">%s · через giphy.com</string>
     <string name="service_giphy_name">Giphy</string>
     <!--Sketch-->
-    <string name="drawing__tip__picture__message">КОСНИТЕСЬ ЦВЕТА, ЧТОБЫ ИЗМЕНИТЬ РАЗМЕР ПЕРА.\n\nВСТРЯХНИТЕ УСТРОЙСТВО ДЛЯ УДАЛЕНИЯ ФОТО.</string>
-    <string name="drawing__tip__message">КОСНИТЕСЬ ЦВЕТА, ЧТОБЫ ИЗМЕНИТЬ РАЗМЕР ПЕРА.\n\nКОСНИТЕСЬ И УДЕРЖИВАЙТЕ, ЧТОБЫ ЗАКРАСИТЬ ФОН.</string>
+    <string name="drawing__tip__picture__message">НАЖИМАЙТЕ НА ЦВЕТ ДЛЯ ИЗМЕНЕНИЯ РАЗМЕРА КИСТИ.\n\nВСТРЯХНИТЕ УСТРОЙСТВО ДЛЯ УДАЛЕНИЯ ФОТО.</string>
+    <string name="drawing__tip__message">НАЖИМАЙТЕ НА ЦВЕТ ДЛЯ ИЗМЕНЕНИЯ РАЗМЕРА КИСТИ.\n\НАЖМИТЕ И УДЕРЖИВАЙТЕ, ЧТОБЫ ЗАКРАСИТЬ ФОН.</string>
     <string name="sketch__emoji_keyboard__size_label__small">МАЛЕНЬКИЕ</string>
     <string name="sketch__emoji_keyboard__size_label__medium">СРЕДНИЕ</string>
     <string name="sketch__emoji_keyboard__size_label__large">БОЛЬШИЕ</string>
@@ -813,7 +815,7 @@
     <!-- video message preview -->
     <string name="audio_message__recording__slide_control__slide_hint">ПРОВЕДИТЕ ВВЕРХ ДЛЯ ОТПРАВКИ</string>
     <string name="audio_message__recording__slide_control__tap_hint">НАЖМИТЕ ЧТОБЫ ОТПРАВИТЬ</string>
-    <string name="audio_message__recording__tap_to_record">Нажмите для записи сообщения\nвы сможете _GLYPH_ его позже</string>
+    <string name="audio_message__recording__tap_to_record">Нажмите для записи сообщения.\nПосле этого его можно будет _GLYPH_</string>
     <string name="audio_message__recording__failure__title">Не удается записать аудио</string>
     <string name="audio_message__recording__failure__message">Пожалуйста, попробуйте еще раз.</string>
     <string name="audio_message__recording__limit_reached__title">Запись остановлена</string>
@@ -1297,7 +1299,7 @@
     <string name="sso_login_dialog_message">Пожалуйста, введите ваш код SSO:</string>
     <string name="email_sso_login_dialog_message">Пожалуйста, введите ваш адрес email или код SSO. Если ваша электронная почта соответствует корпоративной установке Wire, то приложение подключится к этому серверу.</string>
     <!-- Welcome -->
-    <string name="welcome_to_wire">Добро пожаловать в Wire</string>
+    <string name="welcome_to_wire">Приветствуем вас в Wire</string>
     <string name="welcome_enterprise_log_in">Вход для организаций</string>
     <string name="welcome_custom_backend_log_in_email">ВОЙТИ С ПОМОЩЬЮ EMAIL</string>
     <string name="welcome_custom_backend_log_in_sso">ВОЙТИ С ПОМОЩЬЮ SSO</string>
@@ -1323,12 +1325,21 @@
     <string name="create_personal_account_with_phone_edit_text_hint">НОМЕР ТЕЛЕФОНА</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">Этот адрес email не разрешен.</string>
     <string name="create_personal_account_with_email_email_in_use_error">Адрес email, который вы использовали для регистрации, уже связан с учетной записью.\nИспользуйте другой email или попробуйте войти, если это ваша учетная запись.</string>
-    <!-- Create Personal Account - Email Verification screen -->
-    <string name="email_verification_title">Вам письмо</string>
-    <string name="email_verification_description">Введите код подтверждения, который мы отправили на %s</string>
-    <string name="email_verification_resend_code">ОТПРАВИТЬ КОД ЕЩЕ РАЗ</string>
-    <string name="email_verification_change_email">ИЗМЕНИТЬ EMAIL</string>
-    <string name="email_verification_invalid_code_error">Пожалуйста, введите правильный код</string>
+    <string name="create_personal_account_with_phone_phone_blacklisted_error">Этот номер телефона не разрешен.</string>
+    <string name="create_personal_account_with_phone_phone_in_use_error">Указанный номер уже связан с существующим аккаунтом. Используйте другой номер телефона или попробуйте авторизоваться, если вы являетесь владельцем этого аккаунта.</string>
+    <string name="create_personal_account_with_phone_default_country_name">Германия</string>
+    <string name="create_personal_account_with_phone_default_country_code">+49</string>
+    <!-- Create Personal Account - Email Code screen -->
+    <string name="create_personal_account_email_code_title">Вам письмо</string>
+    <string name="create_personal_account_email_code_description">Введите код подтверждения, который мы отправили на %s</string>
+    <string name="create_personal_account_email_code_change_email">ИЗМЕНИТЬ EMAIL</string>
+    <string name="create_personal_account_email_code_resend_code">ОТПРАВИТЬ КОД ЕЩЕ РАЗ</string>
+    <string name="create_personal_account_email_code_invalid_code_error">Пожалуйста, введите правильный код</string>
+    <!-- Create Personal Account - Phone Code screen -->
+    <string name="create_personal_account_phone_code_title">SMS-код</string>
+    <string name="create_personal_account_phone_code_description">Введите код, который мы отправили на %s</string>
+    <string name="create_personal_account_phone_code_resend_code">ОТПРАВИТЬ КОД ЕЩЕ РАЗ</string>
+    <string name="create_personal_account_phone_code_invalid_code_error">Пожалуйста, введите правильный код</string>
     <!-- Create Personal Account - Name screen -->
     <string name="create_personal_account_name_input_title">Ваше имя</string>
     <string name="create_personal_account_name_input_edit_text_hint">ПОЛНОЕ ИМЯ</string>
@@ -1337,8 +1348,10 @@
     <string name="create_personal_account_password_input_edit_text_hint">ПАРОЛЬ</string>
     <!-- Create Personal Account - Registration errors -->
     <string name="create_personal_account_unauthorized_email_error">Неавторизованный адрес электронной почты.</string>
-    <string name="create_personal_account_invalid_activation_code_error">Неправильный код активации.</string>
     <string name="create_personal_account_email_in_use_error">Этот адрес электронной почты уже используется.</string>
+    <string name="create_personal_account_invalid_activation_code_error">Неправильный код активации.</string>
+    <string name="create_personal_account_unauthorized_phone_error">Неавторизованный номер телефона.</string>
+    <string name="create_personal_account_phone_in_use_error">Указанный номер телефона уже используется.</string>
     <!-- Composite Message -->
     <string name="composite_message_button_action_error">Ваш ответ не может быть отправлен, пожалуйста, повторите попытку.</string>
     <string name="composite_message_confirmed_button_content_description">%1$s подтверждено</string>

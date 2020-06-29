@@ -191,6 +191,8 @@
     <string name="content__file__action__open__no_app_found">App untuk membuka jenis berkas ini tidak ditemukan</string>
     <string name="content__file__action__save_completed">Berkas berhasil disimpan</string>
     <string name="content__file__action__save_error">Tidak dapat menyimpan berkas</string>
+    <string name="file_restrictions__sender_error">Sharing files with the .%1$s extension is not permitted by your organization</string>
+    <string name="file_restrictions__receiver_error">File from %1$s can\'t be opened.</string>
     <string name="content__location__no_map_placeholder">LOKASI AKAN MUNCUL DI PETA KETIKA ANDA KEMBALI ONLINE.</string>
     <!-- Conversation actions -->
     <string name="conversation__action__clear_content">Clear content&#8230;</string>
@@ -1238,12 +1240,21 @@
     <string name="create_personal_account_with_phone_edit_text_hint">PHONE NUMBER</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">Alamat email ini tidak diperbolehkan</string>
     <string name="create_personal_account_with_email_email_in_use_error">This email address you used is already linked to an account.\nUse another email address or try to login if you own this account.</string>
-    <!-- Create Personal Account - Email Verification screen -->
-    <string name="email_verification_title">Anda punya surat</string>
-    <string name="email_verification_description">Masukkan kode verifikasi yang kami kirimkan ke %s</string>
-    <string name="email_verification_resend_code">RESEND CODE</string>
-    <string name="email_verification_change_email">CHANGE EMAIL</string>
-    <string name="email_verification_invalid_code_error">Harap masukkan kode yang valid</string>
+    <string name="create_personal_account_with_phone_phone_blacklisted_error">Nomor telepon ini tidak diperbolehkan</string>
+    <string name="create_personal_account_with_phone_phone_in_use_error">This phone number you used is already linked to an account.\nUse another phone number or try to login if you own this account.</string>
+    <string name="create_personal_account_with_phone_default_country_name">Jerman</string>
+    <string name="create_personal_account_with_phone_default_country_code">+49</string>
+    <!-- Create Personal Account - Email Code screen -->
+    <string name="create_personal_account_email_code_title">Anda punya surat</string>
+    <string name="create_personal_account_email_code_description">Masukkan kode verifikasi yang kami kirimkan ke %s</string>
+    <string name="create_personal_account_email_code_change_email">CHANGE EMAIL</string>
+    <string name="create_personal_account_email_code_resend_code">RESEND CODE</string>
+    <string name="create_personal_account_email_code_invalid_code_error">Harap masukkan kode yang valid</string>
+    <!-- Create Personal Account - Phone Code screen -->
+    <string name="create_personal_account_phone_code_title">SMS code</string>
+    <string name="create_personal_account_phone_code_description">Enter the code we sent to %s</string>
+    <string name="create_personal_account_phone_code_resend_code">RESEND CODE</string>
+    <string name="create_personal_account_phone_code_invalid_code_error">Harap masukkan kode yang valid</string>
     <!-- Create Personal Account - Name screen -->
     <string name="create_personal_account_name_input_title">Namamu</string>
     <string name="create_personal_account_name_input_edit_text_hint">FULL NAME</string>
@@ -1252,8 +1263,10 @@
     <string name="create_personal_account_password_input_edit_text_hint">PASSWORD</string>
     <!-- Create Personal Account - Registration errors -->
     <string name="create_personal_account_unauthorized_email_error">Unauthorized e-mail address.</string>
-    <string name="create_personal_account_invalid_activation_code_error">Invalid activation code.</string>
     <string name="create_personal_account_email_in_use_error">The given e-mail address is in use.</string>
+    <string name="create_personal_account_invalid_activation_code_error">Invalid activation code.</string>
+    <string name="create_personal_account_unauthorized_phone_error">Unauthorized phone number.</string>
+    <string name="create_personal_account_phone_in_use_error">The given phone number is in use.</string>
     <!-- Composite Message -->
     <string name="composite_message_button_action_error">Your answer can\'t be sent, please retry.</string>
     <string name="composite_message_confirmed_button_content_description">%1$s confirmed</string>
