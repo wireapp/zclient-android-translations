@@ -140,10 +140,17 @@
     </plurals>
     <!-- Remove people -->
     <string name="content__system__other_removed_other">[[%1$s]] видалив(-ла) %2$s</string>
+    <string name="content__system__other_removed_someone">[[%1$s]] видалив(-ла) когось</string>
+    <string name="content__system__someone_removed_other">Хтось видалив %2$s</string>
     <string name="content__system__other_removed_you">[[%1$s]] видалив(-ла) вас</string>
+    <string name="content__system__someone_removed_you">Хтось видалив вас</string>
     <string name="content__system__you_removed_other">Ви видалили %1$s</string>
+    <string name="content__system__you_removed_someone">Ви видалили когось</string>
     <string name="content__system__you_left">[[Ви]] вийшли</string>
     <string name="content__system__other_left">[[%1$s]] вийшов(-ла)</string>
+    <string name="content__system__someone_left">Хтось вийшов з групи</string>
+    <string name="content__system__other_was_removed">[[%1$s]] був(-ла) видалений(-а)</string>
+    <string name="content__system__someone_was_removed">Хтось був видалений</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Ви розпочали розмову</string>
     <string name="content__system__other_started_conversation">%1$s розпочав(-ла) розмову</string>
@@ -206,8 +213,8 @@
     <string name="content__file__action__open__no_app_found">Немає додатків, які відкривають файли цього типу</string>
     <string name="content__file__action__save_completed">Файл успішно збережено</string>
     <string name="content__file__action__save_error">Не вдалося зберегти файл</string>
-    <string name="file_restrictions__sender_error">Sharing files with the .%1$s extension is not permitted by your organization</string>
-    <string name="file_restrictions__receiver_error">File from %1$s can\'t be opened.</string>
+    <string name="file_restrictions__sender_error">Обмін файлами з розширенням .%1$s не дозволяється налаштуваннями безпеки вашої організації</string>
+    <string name="file_restrictions__receiver_error">Неможливо відкрити файл з %1$s.</string>
     <string name="content__location__no_map_placeholder">ВАШЕ РОЗТАШУВАННЯ БУДЕ ВІДОБРАЖЕНЕ НА КАРТІ ЯК ТІЛЬКИ ДОДАТОК ПОВЕРНЕТЬСЯ В ОНЛАЙН-РЕЖИМ.</string>
     <!-- Conversation actions -->
     <string name="conversation__action__clear_content">Видалити вміст&#8230;</string>
@@ -266,8 +273,8 @@
     <string name="call_banner_incoming_group">%1$s \u30FB %2$s дзвонить&#8230;</string>
     <string name="call_banner_tap_to_return_to_call">Торкніться, щоб повернутися до дзвінка \u30FB %1$s</string>
     <string name="call_error_unsupported_version_title">Будь ласка, оновіть Wire</string>
-    <string name="call_error_unsupported_version_message">You received a call that isn\'t supported by this version of Wire.\n\nGet the latest version in the Play Store.</string>
-    <string name="call_error_unsupported_version_button_ok">Go to Play Store</string>
+    <string name="call_error_unsupported_version_message">Ви отримали дзвінок, який не підтримується цією версією Wire.\n\nОновіть Wire з Play Store.</string>
+    <string name="call_error_unsupported_version_button_ok">Перейти в Play Store</string>
     <string name="call_error_unsupported_version_button_dismiss">Пізніше</string>
     <string name="calling_ongoing_call_title">Активний дзвінок</string>
     <string name="calling_ongoing_call_start_message">Інша розмова має активний дзвінок.\nДзвінок у цій розмові припиить його.</string>
@@ -1159,7 +1166,7 @@
         \n\nОберіть надійний пароль для захисту файлу резервної копії.</string>
     <string name="pref_account_backup_title">Зробити резервну копію розмов</string>
     <string name="backup_password_dialog_title">Задати пароль</string>
-    <string name="backup_password_dialog_message">Резервна копія буде архівована, а також зашифрована, якщо ви встановите пароль. Переконайтесь, що копія буде зберігатись в безпечному місці.</string>
+    <string name="backup_password_dialog_message">Резервна копія буде заархівована та зашифрована з паролем. Переконайтеся, що зберігаєте її в безпечному місці.</string>
     <string name="backup_password_dialog_ok">OK</string>
     <string name="backup_password_dialog_no_password">Скасувати</string>
     <string name="restore_password_dialog_title">Ця резервна копія захищена паролем.</string>
@@ -1191,7 +1198,7 @@
     <string name="backup_import_error_wrong_account">Ви не можете відновити історію з іншого акаунту.</string>
     <string name="video_paused">Відео призупинене</string>
     <string name="calling_degraded_title">Новий пристрій</string>
-    <string name="call_info_text">До цієї розмови може прєднатись не більше %1$s учасників. Відеодзвінки будуть працювати тільки в розмовах. що містять до чотирьох учасників, включно з вами.</string>
+    <string name="call_info_text">До цієї розмови може прєднатись не більше %1$s учасників. Відеодзвінки будуть працювати тільки в розмовах, що містять до %2$s учасників, окрім вас.</string>
     <string name="markdown_link_dialog_title">Перейдіть за лінком</string>
     <string name="markdown_link_dialog_message">Це перенаправить вас на\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>
@@ -1324,9 +1331,9 @@
     <string name="create_personal_account_with_phone_edit_text_hint">НОМЕР ТЕЛЕФОНУ</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">Дана email-адреса неприпустима.</string>
     <string name="create_personal_account_with_email_email_in_use_error">Адреса електронної пошти, яка використовується для реєстрації, вже зв\'язана з іншим акаунтом.\nСпробуйте використати іншу адресу або залогіньтесь, якщо ви є власником цього акаунту.</string>
-    <string name="create_personal_account_with_phone_phone_blacklisted_error">This phone number is not allowed.</string>
-    <string name="create_personal_account_with_phone_phone_in_use_error">This phone number you used is already linked to an account.\nUse another phone number or try to login if you own this account.</string>
-    <string name="create_personal_account_with_phone_default_country_name">Germany</string>
+    <string name="create_personal_account_with_phone_phone_blacklisted_error">Неприпустимий номер телефону.</string>
+    <string name="create_personal_account_with_phone_phone_in_use_error">Номер телефону, який ви використали, вже зв\'язано з іншим акаунтом.\nСпробуйте використати інший номер телефону або залогіньтесь, якщо ви є власником цього акаунту.</string>
+    <string name="create_personal_account_with_phone_default_country_name">Німеччина</string>
     <string name="create_personal_account_with_phone_default_country_code">+49</string>
     <!-- Create Personal Account - Email Code screen -->
     <string name="create_personal_account_email_code_title">Ви отримали нового листа</string>
@@ -1335,8 +1342,8 @@
     <string name="create_personal_account_email_code_resend_code">НАДІСЛАТИ КОД ЩЕ РАЗ</string>
     <string name="create_personal_account_email_code_invalid_code_error">Будь ласка, введіть правильний код</string>
     <!-- Create Personal Account - Phone Code screen -->
-    <string name="create_personal_account_phone_code_title">SMS code</string>
-    <string name="create_personal_account_phone_code_description">Enter the code we sent to %s</string>
+    <string name="create_personal_account_phone_code_title">SMS-код</string>
+    <string name="create_personal_account_phone_code_description">Введіть код, який ми надіслали через: %s</string>
     <string name="create_personal_account_phone_code_resend_code">НАДІСЛАТИ КОД ЩЕ РАЗ</string>
     <string name="create_personal_account_phone_code_invalid_code_error">Будь ласка, введіть правильний код</string>
     <!-- Create Personal Account - Name screen -->
@@ -1349,8 +1356,8 @@
     <string name="create_personal_account_unauthorized_email_error">Неавторизована адреса електронної пошти.</string>
     <string name="create_personal_account_email_in_use_error">Дана електронна адреса вже використовується.</string>
     <string name="create_personal_account_invalid_activation_code_error">Недійсний код активації.</string>
-    <string name="create_personal_account_unauthorized_phone_error">Unauthorized phone number.</string>
-    <string name="create_personal_account_phone_in_use_error">The given phone number is in use.</string>
+    <string name="create_personal_account_unauthorized_phone_error">Неавторизований номер телефону.</string>
+    <string name="create_personal_account_phone_in_use_error">Даний номер телефону вже використовується.</string>
     <!-- Composite Message -->
     <string name="composite_message_button_action_error">Ваша відповідь не може бути відправлена. Будь ласка, спробуйте ще раз.</string>
     <string name="composite_message_confirmed_button_content_description">%1$s підтверджено</string>
