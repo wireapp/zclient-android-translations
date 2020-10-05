@@ -295,6 +295,7 @@
     <string name="connect_request__ignore_button__text">Ignorieren</string>
     <string name="content__message__connect_request__footer">VERBUNDEN</string>
     <string name="content__message__connect_request__auto_connect__footer">AUTOMATISCH VERBUNDEN. _MEHR ERFAHREN_</string>
+    <string name="conversation_degraded_message">Der Anruf wurde unterbrochen, weil jemand nicht mehr als verifizierter Kontakt gilt.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s hat ein neues Gerät hinzugefügt.</item>
@@ -387,8 +388,10 @@
     <string name="pref_account_data_usage_permissions">Datennutzungsrechte</string>
     <string name="pref_backup_screen_title">Unterhaltungen sichern</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_data_title">Anonyme Nutzungsdaten senden</string>
-    <string name="pref_advanced_send_anonymous_data_summary">Anonymisierte Nutzungs- und Fehlerberichte schicken, um Wire zu verbessern.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Anonyme Daten zu einem Absturz senden</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Senden Sie anonyme Absturzberichte und grundlegende Daten wie Versionsnummer und Betriebssystem, damit Wire Probleme in der App identifizieren und lösen kann.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">Anonyme Nutzungsdaten senden</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Anhand der Nutzungsdaten kann Wire verstehen, wie die App genutzt wird und wie sie verbessert werden kann. Die Daten sind anonym und umfassen nicht den Inhalt Ihrer Kommunikation (wie Nachrichten, Dateien oder Anrufe).</string>
     <string name="pref_advanced_receive_news_and_offers_title">Newsletter abonnieren</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Neuigkeiten und Informationen zu Produktaktualisierungen von Wire per E-Mail erhalten.</string>
     <!-- Options -->
@@ -425,10 +428,6 @@
     <string name="pref_options_app_lock_summary">Wire nach %1$s Sekunden im Hintergrund sperren. Mit Pin, Muster, Passwort oder Biometrie entsperren.</string>
     <string name="pref_options_incognito_keyboard">Inkognito-Tastatur</string>
     <string name="pref_options_incognito_keyboard_summary">Die Tastatur zeigt beim Schreiben von Nachrichten keine Vorschläge an</string>
-    <string name="pref_options_conference_calls_category_title">Telefonkonferenzen</string>
-    <string name="pref_options_conference_calls_beta_program_title">Beta-Programm</string>
-    <string name="pref_options_conference_calls_beta_program_summary">Hiermit aktivieren Sie Audio- und Videokonferenzen. Dies ermöglicht eine höhere Teilnehmerzahl.</string>
-    <string name="conference_calling_badge_title">TELEFONKONFERENZ</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Geräte</string>
     <string name="pref_devices_current_device_category_title">Aktuelles Gerät</string>
@@ -1152,8 +1151,9 @@ Gilt nicht für Gruppen.</string>
     <string name="backup_import_error_wrong_account_title">Falsches Backup</string>
     <string name="backup_import_error_wrong_account">Der Gesprächsverlauf eines anderen Kontos kann nicht wiederhergestellt werden.</string>
     <string name="video_paused">Video wurde angehalten</string>
+    <string name="call_degraded_title">Anruf beendet</string>
     <string name="calling_degraded_title">Neues Gerät</string>
-    <string name="call_info_text">Bis zu %1$s Personen können an einer Unterhaltung teilnehmen. Videoanrufe funktionieren mit bis zu %2$s anderen Personen und Ihnen.</string>
+    <string name="call_info">Bis zu %1$s Personen können an einer Gruppenunterhaltung teilnehmen.</string>
     <string name="markdown_link_dialog_title">Link öffnen</string>
     <string name="markdown_link_dialog_message">Dieser Link öffnet\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">Verstanden</string>

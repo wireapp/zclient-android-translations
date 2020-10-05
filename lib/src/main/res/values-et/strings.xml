@@ -295,6 +295,7 @@
     <string name="connect_request__ignore_button__text">Ignoreeri</string>
     <string name="content__message__connect_request__footer">ÜHENDATUD</string>
     <string name="content__message__connect_request__auto_connect__footer">AUTOMAATSELT ÜHENDATUD. _ROHKEM INFOT_</string>
+    <string name="conversation_degraded_message">The call was disconnected because someone is no longer a verified contact.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s hakkas uut seadet kasutama.</item>
@@ -387,8 +388,10 @@
     <string name="pref_account_data_usage_permissions">Andmekasutuse õigused</string>
     <string name="pref_backup_screen_title">Varunda vestlused</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_data_title">Saada anonüümseid andmeid</string>
-    <string name="pref_advanced_send_anonymous_data_summary">Aita Wire\'i paremaks muuta, saates anonüümseid kasutus- ja vearaporteid.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Send anonymous crash reports</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Send anonymous crash reports and basic data like version number and operating system to help Wire identify and solve issues in the app.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">Send anonymous usage data</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Usage data allows Wire to understand how the app is being used and how it can be improved. The data is anonymous and does not include the content of your communications (such as messages, files or calls).</string>
     <string name="pref_advanced_receive_news_and_offers_title">Uudiskirja tellimine</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Soovin Wire\'ilt uudiseid ja tooteuuendusi e-posti teel.</string>
     <!-- Options -->
@@ -426,10 +429,6 @@
 Lahti lukustada saad PINi, mustri, parooli või biomeetriaga.</string>
     <string name="pref_options_incognito_keyboard">Inkognito klaviatuur</string>
     <string name="pref_options_incognito_keyboard_summary">Klaviatuur ei näita sõnumite kirjutamisel soovitusi</string>
-    <string name="pref_options_conference_calls_category_title">Conference Calls</string>
-    <string name="pref_options_conference_calls_beta_program_title">Beetaprogramm</string>
-    <string name="pref_options_conference_calls_beta_program_summary">When this is on, audio and video conference calling is enabled, which allows a higher number of participants.</string>
-    <string name="conference_calling_badge_title">CONFERENCE CALLING</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Seadmed</string>
     <string name="pref_devices_current_device_category_title">See seade</string>
@@ -1151,8 +1150,9 @@ Lahti lukustada saad PINi, mustri, parooli või biomeetriaga.</string>
     <string name="backup_import_error_wrong_account_title">Vale varundus</string>
     <string name="backup_import_error_wrong_account">Sa ei saa taastada teise konto ajalugu.</string>
     <string name="video_paused">Video pausil</string>
+    <string name="call_degraded_title">Call ended</string>
     <string name="calling_degraded_title">Wire uuel seadmel</string>
-    <string name="call_info_text">Up to %1$s people can join a group conversation. Video calls work with up to %2$s other people and you.</string>
+    <string name="call_info">Up to %1$s people can join a group conversation.</string>
     <string name="markdown_link_dialog_title">Külasta linki</string>
     <string name="markdown_link_dialog_message">See viib su aadressile\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>

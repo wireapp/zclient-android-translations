@@ -307,6 +307,7 @@
     <string name="connect_request__ignore_button__text">Ігнорувати</string>
     <string name="content__message__connect_request__footer">КОНТАКТ ДОДАНО</string>
     <string name="content__message__connect_request__auto_connect__footer">ДОДАНІ АВТОМАТИЧНО. _ДІЗНАТИСЬ БІЛЬШЕ_</string>
+    <string name="conversation_degraded_message">The call was disconnected because someone is no longer a verified contact.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s почав(-ла) використовувати новий пристрій.</item>
@@ -405,8 +406,10 @@
     <string name="pref_account_data_usage_permissions">Дозвіл на використання даних</string>
     <string name="pref_backup_screen_title">Зробити резервну копію розмов</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_data_title">Надсилати анонімну статистику</string>
-    <string name="pref_advanced_send_anonymous_data_summary">Допоможіть зробити Wire кращим, відправляючи анонімні звіти про використання та збої в роботі.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Send anonymous crash reports</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Send anonymous crash reports and basic data like version number and operating system to help Wire identify and solve issues in the app.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">Надсилати анонімну статистику про використання додатку</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Usage data allows Wire to understand how the app is being used and how it can be improved. The data is anonymous and does not include the content of your communications (such as messages, files or calls).</string>
     <string name="pref_advanced_receive_news_and_offers_title">Отримувати новини</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Отримувати новини та інформацію про оновлення Wire по електронній пошті.</string>
     <!-- Options -->
@@ -443,10 +446,6 @@
     <string name="pref_options_app_lock_summary">Заблокувати Wire через %1$s секунд в фоновому режимі. Розблокувати додаток можна з допомогою пін-коду, послідовності жестів, паролю або біометрики.</string>
     <string name="pref_options_incognito_keyboard">Анонімна клавіатура</string>
     <string name="pref_options_incognito_keyboard_summary">Клавіатура не буде показувати підказок вводу під час набору повідомлень</string>
-    <string name="pref_options_conference_calls_category_title">Конференц-дзвінки</string>
-    <string name="pref_options_conference_calls_beta_program_title">Бета-функціональність</string>
-    <string name="pref_options_conference_calls_beta_program_summary">Якщо дана опція увімкнена, дзвінки для аудіо- та відеоконференцій можуть вмістити більшу кількість учасників.</string>
-    <string name="conference_calling_badge_title">ДЗВІНКИ В КОНФЕРЕНЦІЯХ</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Пристрої</string>
     <string name="pref_devices_current_device_category_title">Поточний пристрій</string>
@@ -1206,8 +1205,9 @@
     <string name="backup_import_error_wrong_account_title">Несумісна резервна копія</string>
     <string name="backup_import_error_wrong_account">Ви не можете відновити історію з іншого акаунту.</string>
     <string name="video_paused">Відео призупинене</string>
+    <string name="call_degraded_title">Call ended</string>
     <string name="calling_degraded_title">Новий пристрій</string>
-    <string name="call_info_text">До цієї розмови може прєднатись не більше %1$s учасників. Відеодзвінки будуть працювати тільки в розмовах, що містять до %2$s учасників, окрім вас.</string>
+    <string name="call_info">Up to %1$s people can join a group conversation.</string>
     <string name="markdown_link_dialog_title">Перейдіть за лінком</string>
     <string name="markdown_link_dialog_message">Це перенаправить вас на\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>

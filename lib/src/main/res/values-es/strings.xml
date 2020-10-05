@@ -295,6 +295,7 @@
     <string name="connect_request__ignore_button__text">Ignorar</string>
     <string name="content__message__connect_request__footer">CONECTADO</string>
     <string name="content__message__connect_request__auto_connect__footer">AUTO-CONECTADO. _APRENDA MAS_</string>
+    <string name="conversation_degraded_message">The call was disconnected because someone is no longer a verified contact.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s comenzó a usar un nuevo dispositivo.</item>
@@ -387,8 +388,10 @@
     <string name="pref_account_data_usage_permissions">Permisos de uso de datos</string>
     <string name="pref_backup_screen_title">Copia de seguridad de conversaciones</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_data_title">Enviar datos anónimos</string>
-    <string name="pref_advanced_send_anonymous_data_summary">Ayude a mejorar Wire enviando informes anónimos de uso y de caídas.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Send anonymous crash reports</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Send anonymous crash reports and basic data like version number and operating system to help Wire identify and solve issues in the app.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">Enviar datos de uso anónimos</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Usage data allows Wire to understand how the app is being used and how it can be improved. The data is anonymous and does not include the content of your communications (such as messages, files or calls).</string>
     <string name="pref_advanced_receive_news_and_offers_title">Recibir boletín de noticias</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Reciba noticias y actualizaciones de productos de Wire por correo electrónico.</string>
     <!-- Options -->
@@ -425,10 +428,6 @@
     <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Password or Biometrics.</string>
     <string name="pref_options_incognito_keyboard">Incognito keyboard</string>
     <string name="pref_options_incognito_keyboard_summary">The keyboard will not show suggestions when typing messages</string>
-    <string name="pref_options_conference_calls_category_title">Conference Calls</string>
-    <string name="pref_options_conference_calls_beta_program_title">Beta Program</string>
-    <string name="pref_options_conference_calls_beta_program_summary">When this is on, audio and video conference calling is enabled, which allows a higher number of participants.</string>
-    <string name="conference_calling_badge_title">CONFERENCE CALLING</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Dispositivos</string>
     <string name="pref_devices_current_device_category_title">Dispositivo actual</string>
@@ -1150,8 +1149,9 @@
     <string name="backup_import_error_wrong_account_title">Copia de seguridad incorrecta</string>
     <string name="backup_import_error_wrong_account">No se puede restaurar el historial desde una cuenta diferente.</string>
     <string name="video_paused">Video en pausa</string>
+    <string name="call_degraded_title">Call ended</string>
     <string name="calling_degraded_title">Nuevo dispositivo</string>
-    <string name="call_info_text">Up to %1$s people can join a group conversation. Video calls work with up to %2$s other people and you.</string>
+    <string name="call_info">Up to %1$s people can join a group conversation.</string>
     <string name="markdown_link_dialog_title">Abrir enlace</string>
     <string name="markdown_link_dialog_message">Esto le llevará a\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>

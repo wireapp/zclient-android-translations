@@ -307,6 +307,7 @@
     <string name="connect_request__ignore_button__text">Nepaisyti</string>
     <string name="content__message__connect_request__footer">PRISIJUNGĖ</string>
     <string name="content__message__connect_request__auto_connect__footer">SUSIJUNGTA AUTOMATIŠKAI. _SUŽINOKITE DAUGIAU_</string>
+    <string name="conversation_degraded_message">The call was disconnected because someone is no longer a verified contact.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s pradėjo naudotis nauju įrenginiu.</item>
@@ -405,8 +406,10 @@
     <string name="pref_account_data_usage_permissions">Duomenų naudojimo leidimas</string>
     <string name="pref_backup_screen_title">Kurti susirašinėjimų atsarginę kopiją</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_data_title">Siųsti nuasmenintą informaciją</string>
-    <string name="pref_advanced_send_anonymous_data_summary">Pagerinkite „Wire“ siųsdami anoniminę naudojimosi ir trikčių ataskaitą.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Send anonymous crash reports</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Send anonymous crash reports and basic data like version number and operating system to help Wire identify and solve issues in the app.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">Send anonymous usage data</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Usage data allows Wire to understand how the app is being used and how it can be improved. The data is anonymous and does not include the content of your communications (such as messages, files or calls).</string>
     <string name="pref_advanced_receive_news_and_offers_title">Gaukite naujienlaiškį</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Gaukite naujienas ir produktų pakeitimo informaciją iš „Wire“ el. paštu.</string>
     <!-- Options -->
@@ -443,10 +446,6 @@
     <string name="pref_options_app_lock_summary">Užrakinti „Wire“ po %1$s sekundžių veikimo fone. Atrakinti naudojant PIN, raštą, slaptažodį ar biometrinius duomenis.</string>
     <string name="pref_options_incognito_keyboard">Nesekama klaviatūra</string>
     <string name="pref_options_incognito_keyboard_summary">Klaviatūra neberodys pasiūlymų rašant žinutes</string>
-    <string name="pref_options_conference_calls_category_title">Konferenciniai skambučiai</string>
-    <string name="pref_options_conference_calls_beta_program_title">Bandymo programa</string>
-    <string name="pref_options_conference_calls_beta_program_summary">Kai pasirinkimas aktyvus, garso ir vaizdo konferencijos įgalintos, ir daugiau žmonių gali dalyvauti. </string>
-    <string name="conference_calling_badge_title">CONFERENCE CALLING</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Įrenginiai</string>
     <string name="pref_devices_current_device_category_title">Šis įrenginys</string>
@@ -1205,8 +1204,9 @@
     <string name="backup_import_error_wrong_account_title">Netinkama atsarginė kopija</string>
     <string name="backup_import_error_wrong_account">Atkurti kitos paskyros atsarginės kopijos nepavyks.</string>
     <string name="video_paused">Vaizdas pristabdytas</string>
+    <string name="call_degraded_title">Call ended</string>
     <string name="calling_degraded_title">Naujas įrenginys</string>
-    <string name="call_info_text">Prie pokalbio gali prisijungti iki %1$s pašnekovų. Vaizdo skambučiai veikia grupėse iki %2$s pašnekovų ir jumis.</string>
+    <string name="call_info">Up to %1$s people can join a group conversation.</string>
     <string name="markdown_link_dialog_title">Atverti nuorodą</string>
     <string name="markdown_link_dialog_message">Nueisite į\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">GERAI</string>

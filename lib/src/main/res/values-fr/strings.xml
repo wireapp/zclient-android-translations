@@ -295,6 +295,7 @@
     <string name="connect_request__ignore_button__text">Ignorer</string>
     <string name="content__message__connect_request__footer">CONNECTÉ(E)</string>
     <string name="content__message__connect_request__auto_connect__footer">CONNECTÉ(E) AUTOMATIQUEMENT. _EN SAVOIR PLUS_</string>
+    <string name="conversation_degraded_message">L\'appel a été déconnecté car l\'un de vos contacts n\'est plus un contact vérifié.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s utilise un nouvel appareil.</item>
@@ -387,8 +388,10 @@
     <string name="pref_account_data_usage_permissions">Utilisation des Données Personnelles</string>
     <string name="pref_backup_screen_title">Sauvegarder les conversations</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_data_title">Envoyer des données anonymes</string>
-    <string name="pref_advanced_send_anonymous_data_summary">Vous pouvez aider à améliorer Wire en envoyant des données anonymes sur votre utilisation et des rapports d\'erreur.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Envoyer des données anonymes</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Aidez nous à améliorer Wire en envoyant des rapports d\'erreur anonymes et des données basiques comme le numéro de version et le système d\'exploitation pour aider Wire à identifier et résoudre les problèmes dans l\'application.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">Envoyer des données d\'utilisation anonymes</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Les données d\'utilisation permettent à Wire de comprendre comment l\'application est utilisée et comment elle peut être améliorée. Les données sont anonymes et n\'incluent pas le contenu de vos communications (messages, fichiers ou appels).</string>
     <string name="pref_advanced_receive_news_and_offers_title">Recevoir notre Newsletter</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Recevoir des e-mails sur les nouveautés de Wire.</string>
     <!-- Options -->
@@ -425,10 +428,6 @@
     <string name="pref_options_app_lock_summary">Verrouiller Wire après %1$s secondes en arrière-plan. Déverrouillage avec code pin, motif, mot de passe ou empreintes digitales.</string>
     <string name="pref_options_incognito_keyboard">Clavier en mode incognito</string>
     <string name="pref_options_incognito_keyboard_summary">Le clavier n’affichera plus de suggestions lors de la saisie de messages</string>
-    <string name="pref_options_conference_calls_category_title">Conférences téléphoniques</string>
-    <string name="pref_options_conference_calls_beta_program_title">Programme bêta</string>
-    <string name="pref_options_conference_calls_beta_program_summary">Quand cette option est activée, les appels audio et vidéo de conférences sont activés, ce qui permet un plus grand nombre de participants.</string>
-    <string name="conference_calling_badge_title">APPEL DE CONFÉRENCE</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Appareils</string>
     <string name="pref_devices_current_device_category_title">Cet appareil</string>
@@ -1151,8 +1150,9 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="backup_import_error_wrong_account_title">Fichier de sauvegarde non valide</string>
     <string name="backup_import_error_wrong_account">Vous ne pouvez pas restaurer l’historique d’un autre compte.</string>
     <string name="video_paused">Vidéo en pause</string>
+    <string name="call_degraded_title">Appel terminé</string>
     <string name="calling_degraded_title">Nouvel appareil</string>
-    <string name="call_info_text">Jusqu\'à %1$s personnes peuvent rejoindre une conversation de groupe. Les appels vidéo fonctionnent avec jusqu\'à %2$s autres personnes et vous.</string>
+    <string name="call_info">Une conversation de groupe peut inclure jusqu\'à %1$s contacts.</string>
     <string name="markdown_link_dialog_title">Ouvrir le lien</string>
     <string name="markdown_link_dialog_message">Vous allez être redirigé vers \n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>

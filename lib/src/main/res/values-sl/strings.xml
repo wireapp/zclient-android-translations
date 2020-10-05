@@ -307,6 +307,7 @@
     <string name="connect_request__ignore_button__text">Ignoriraj</string>
     <string name="content__message__connect_request__footer">POVEZAN</string>
     <string name="content__message__connect_request__auto_connect__footer">SAMODEJNO POVEZAN. _NAUČI SE VEČ_</string>
+    <string name="conversation_degraded_message">The call was disconnected because someone is no longer a verified contact.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s je začel(-a) z uporabo nove naprave.</item>
@@ -405,8 +406,10 @@
     <string name="pref_account_data_usage_permissions">Data Usage Permissions</string>
     <string name="pref_backup_screen_title">Back Up Conversations</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_data_title">Pošlji anonimne podatke</string>
-    <string name="pref_advanced_send_anonymous_data_summary">Help make Wire better by sending anonymous usage and crash reports.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Send anonymous crash reports</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Send anonymous crash reports and basic data like version number and operating system to help Wire identify and solve issues in the app.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">Send anonymous usage data</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Usage data allows Wire to understand how the app is being used and how it can be improved. The data is anonymous and does not include the content of your communications (such as messages, files or calls).</string>
     <string name="pref_advanced_receive_news_and_offers_title">Receive Newsletter</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Receive news and product updates from Wire via email.</string>
     <!-- Options -->
@@ -443,10 +446,6 @@
     <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Password or Biometrics.</string>
     <string name="pref_options_incognito_keyboard">Incognito keyboard</string>
     <string name="pref_options_incognito_keyboard_summary">The keyboard will not show suggestions when typing messages</string>
-    <string name="pref_options_conference_calls_category_title">Conference Calls</string>
-    <string name="pref_options_conference_calls_beta_program_title">Beta Program</string>
-    <string name="pref_options_conference_calls_beta_program_summary">When this is on, audio and video conference calling is enabled, which allows a higher number of participants.</string>
-    <string name="conference_calling_badge_title">CONFERENCE CALLING</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Naprave</string>
     <string name="pref_devices_current_device_category_title">Trenutna naprava</string>
@@ -1206,8 +1205,9 @@
     <string name="backup_import_error_wrong_account_title">Wrong backup</string>
     <string name="backup_import_error_wrong_account">You cannot restore history from a different account.</string>
     <string name="video_paused">Video paused</string>
+    <string name="call_degraded_title">Call ended</string>
     <string name="calling_degraded_title">Nova naprava</string>
-    <string name="call_info_text">Up to %1$s people can join a group conversation. Video calls work with up to %2$s other people and you.</string>
+    <string name="call_info">Up to %1$s people can join a group conversation.</string>
     <string name="markdown_link_dialog_title">Visit Link</string>
     <string name="markdown_link_dialog_message">This will take you to\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">V redu</string>

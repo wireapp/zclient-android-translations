@@ -307,6 +307,7 @@
     <string name="connect_request__ignore_button__text">Игнорировать</string>
     <string name="content__message__connect_request__footer">ДОБАВЛЕН(-А)</string>
     <string name="content__message__connect_request__auto_connect__footer">ДОБАВЛЕНЫ АВТОМАТИЧЕСКИ. _УЗНАТЬ БОЛЬШЕ_</string>
+    <string name="conversation_degraded_message">Вызов был прерван, поскольку кто-то больше не является верифицированным контактом.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s начал(-а) использовать новое устройство.</item>
@@ -405,8 +406,10 @@
     <string name="pref_account_data_usage_permissions">Разрешение на использование данных</string>
     <string name="pref_backup_screen_title">Резервная копия бесед</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_data_title">Отправлять анонимные данные</string>
-    <string name="pref_advanced_send_anonymous_data_summary">Помогите сделать Wire лучше, отправляя анонимные отчеты об использовании и сбоях.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Отправка анонимных отчетов о сбоях</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Отправлять анонимные сообщения о сбоях и базовые данные, такие как номер версии и операционная система, чтобы помочь Wire идентифицировать и решить проблемы с приложением.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">Отправка анонимных данных об использовании</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Данные об использовании позволяют Wire определить, как используется приложение и как его можно улучшить. Эти данные анонимны и не включают в себя содержимое вашего общения (такое как, сообщения, файлы или звонки).</string>
     <string name="pref_advanced_receive_news_and_offers_title">Получать рассылку</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Получайте новости и обновления от Wire по электронной почте.</string>
     <!-- Options -->
@@ -443,10 +446,6 @@
     <string name="pref_options_app_lock_summary">Заблокировать Wire через %1$s секунд работы в фоновом режиме.</string>
     <string name="pref_options_incognito_keyboard">Инкогнито-клавиатура</string>
     <string name="pref_options_incognito_keyboard_summary">Клавиатура не будет отображать предложения при создании сообщений</string>
-    <string name="pref_options_conference_calls_category_title">Групповые звонки</string>
-    <string name="pref_options_conference_calls_beta_program_title">Бета-программа</string>
-    <string name="pref_options_conference_calls_beta_program_summary">При включении этого параметра активируется возможность групповых аудио- и видеозвонков, что позволяет увеличить количество участников.</string>
-    <string name="conference_calling_badge_title">ГРУППОВОЙ ВЫЗОВ</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Устройства</string>
     <string name="pref_devices_current_device_category_title">Текущее устройство</string>
@@ -1207,8 +1206,9 @@
     <string name="backup_import_error_wrong_account_title">Несовместимая резервная копия</string>
     <string name="backup_import_error_wrong_account">Вы не можете восстановить историю из другой учетной записи.</string>
     <string name="video_paused">Видео приостановлено</string>
+    <string name="call_degraded_title">Вызов завершен</string>
     <string name="calling_degraded_title">Новое устройство</string>
-    <string name="call_info_text">К групповому разговору может присоединиться до %1$s человек. Видеозвонки возможны между вами и еще %2$s участниками.</string>
+    <string name="call_info">К групповой беседе могут присоединиться до %1$s человек.</string>
     <string name="markdown_link_dialog_title">Перейти по ссылке</string>
     <string name="markdown_link_dialog_message">Это приведет вас к\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>

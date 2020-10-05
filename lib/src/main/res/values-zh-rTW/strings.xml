@@ -289,6 +289,7 @@
     <string name="connect_request__ignore_button__text">忽略</string>
     <string name="content__message__connect_request__footer">已成為連絡人</string>
     <string name="content__message__connect_request__auto_connect__footer">自動加為連絡人。_瞭解更多_</string>
+    <string name="conversation_degraded_message">The call was disconnected because someone is no longer a verified contact.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="other">%1$s 開始使用新的設備。</item>
@@ -378,8 +379,10 @@
     <string name="pref_account_data_usage_permissions">資料使用許可</string>
     <string name="pref_backup_screen_title">備份對話</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_data_title">寄送匿名資料</string>
-    <string name="pref_advanced_send_anonymous_data_summary">發送匿名使用紀錄和崩潰報告以改善Wire。</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Send anonymous crash reports</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Send anonymous crash reports and basic data like version number and operating system to help Wire identify and solve issues in the app.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">傳送匿名使用資料</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Usage data allows Wire to understand how the app is being used and how it can be improved. The data is anonymous and does not include the content of your communications (such as messages, files or calls).</string>
     <string name="pref_advanced_receive_news_and_offers_title">接收新聞</string>
     <string name="pref_advanced_receive_news_and_offers_summary">接收Wire的新聞和產品更新電子郵件。</string>
     <!-- Options -->
@@ -416,10 +419,6 @@
     <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Password or Biometrics.</string>
     <string name="pref_options_incognito_keyboard">無痕鍵盤</string>
     <string name="pref_options_incognito_keyboard_summary">The keyboard will not show suggestions when typing messages</string>
-    <string name="pref_options_conference_calls_category_title">電話會議</string>
-    <string name="pref_options_conference_calls_beta_program_title">測試計畫</string>
-    <string name="pref_options_conference_calls_beta_program_summary">啟用此選項後，將啟用音頻和視頻電話會議，從而允許更多的參與者。</string>
-    <string name="conference_calling_badge_title">CONFERENCE CALLING</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">設備</string>
     <string name="pref_devices_current_device_category_title">目前的設備</string>
@@ -1122,8 +1121,9 @@
     <string name="backup_import_error_wrong_account_title">錯誤的備份</string>
     <string name="backup_import_error_wrong_account">無法還原其他帳戶歷史記錄到你的帳戶。</string>
     <string name="video_paused">影像已暫停</string>
+    <string name="call_degraded_title">Call ended</string>
     <string name="calling_degraded_title">新裝置</string>
-    <string name="call_info_text">Up to %1$s people can join a group conversation. Video calls work with up to %2$s other people and you.</string>
+    <string name="call_info">Up to %1$s people can join a group conversation.</string>
     <string name="markdown_link_dialog_title">瀏覽連結</string>
     <string name="markdown_link_dialog_message">這會帶你去\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">確認</string>

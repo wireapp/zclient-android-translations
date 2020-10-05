@@ -47,7 +47,7 @@
     <string name="phone_budget_exhausted_header">Çok fazla istek</string>
     <string name="phone_budget_exhausted_message">Lütfen daha sonra tekrar dene.</string>
     <string name="conversation_input_bar_message_too_long_title">Mesaj çok uzun</string>
-    <string name="conversation_input_bar_message_too_long_message">You can send messages up to %1$s characters long.</string>
+    <string name="conversation_input_bar_message_too_long_message">En fazla %1$s karakterlik mesajlar gönderebilirsiniz.</string>
     <string name="conversation_input_bar_dialog_ok">TAMAM</string>
     <!--*********************************************** ERRORS ***********************************************-->
     <string name="permissions_denied_dialog_settings">Ayarlar</string>
@@ -295,6 +295,7 @@
     <string name="connect_request__ignore_button__text">Yoksay</string>
     <string name="content__message__connect_request__footer">BAĞLANILDI</string>
     <string name="content__message__connect_request__auto_connect__footer">OTOMATİK BAĞLANILDI. _DAHASINI ÖĞRENİN_</string>
+    <string name="conversation_degraded_message">The call was disconnected because someone is no longer a verified contact.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s yeni bir cihaz kullanmaya başladı.</item>
@@ -387,8 +388,10 @@
     <string name="pref_account_data_usage_permissions">Veri Kullanımı İzinleri</string>
     <string name="pref_backup_screen_title">Sohbetleri Yedekle</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_data_title">Anonim Veri Yolla</string>
-    <string name="pref_advanced_send_anonymous_data_summary">İsimsiz kullanım ve kilitlenme raporları göndererek Wire\'ı iyileştirmeye yardımcı olun.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Send anonymous crash reports</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Send anonymous crash reports and basic data like version number and operating system to help Wire identify and solve issues in the app.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">Send anonymous usage data</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Usage data allows Wire to understand how the app is being used and how it can be improved. The data is anonymous and does not include the content of your communications (such as messages, files or calls).</string>
     <string name="pref_advanced_receive_news_and_offers_title">Bülten Alın</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Wire\'dan haberleri ve ürün güncellemelerini e-postayla alın.</string>
     <!-- Options -->
@@ -425,10 +428,6 @@
     <string name="pref_options_app_lock_summary">Wire\'ı arka planda %1$s saniye sonra kilitle. Pin, Desen, Şifre veya Biyometri ile kilidini açın.</string>
     <string name="pref_options_incognito_keyboard">Gizli klavye</string>
     <string name="pref_options_incognito_keyboard_summary">Mesaj yazarken klavye önerileri gösterilmez</string>
-    <string name="pref_options_conference_calls_category_title">Konferans Araması</string>
-    <string name="pref_options_conference_calls_beta_program_title">Beta Programı</string>
-    <string name="pref_options_conference_calls_beta_program_summary">When this is on, audio and video conference calling is enabled, which allows a higher number of participants.</string>
-    <string name="conference_calling_badge_title">CONFERENCE CALLING</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Cihazlar</string>
     <string name="pref_devices_current_device_category_title">Şu anki cihaz</string>
@@ -1150,8 +1149,9 @@
     <string name="backup_import_error_wrong_account_title">Yanlış yedek</string>
     <string name="backup_import_error_wrong_account">Geçmişi farklı bir hesaptan geri yükleyemezsiniz.</string>
     <string name="video_paused">Video duraklatıldı</string>
+    <string name="call_degraded_title">Call ended</string>
     <string name="calling_degraded_title">Yeni cihaz</string>
-    <string name="call_info_text">Up to %1$s people can join a group conversation. Video calls work with up to %2$s other people and you.</string>
+    <string name="call_info">Up to %1$s people can join a group conversation.</string>
     <string name="markdown_link_dialog_title">Bağlantıyı Ziyaret Et</string>
     <string name="markdown_link_dialog_message">Bu sizi \n%1$s\'ne götürecek</string>
     <string name="markdown_link_dialog_confirmation">TAMAM</string>

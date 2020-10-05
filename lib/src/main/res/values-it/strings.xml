@@ -295,6 +295,7 @@
     <string name="connect_request__ignore_button__text">Ignora</string>
     <string name="content__message__connect_request__footer">CONNESSO</string>
     <string name="content__message__connect_request__auto_connect__footer">CONNESSO AUTOMATICAMENTE. _SCOPRI DI PIÙ_</string>
+    <string name="conversation_degraded_message">La chiamata è stata disconnessa perché qualcuno non è più un contatto verificato.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s ha iniziato a usare un nuovo dispositivo.</item>
@@ -387,8 +388,10 @@
     <string name="pref_account_data_usage_permissions">Autorizzazioni all\'utilizzo dei dati</string>
     <string name="pref_backup_screen_title">Backup delle conversazioni</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_data_title">Inviare dati anonimi</string>
-    <string name="pref_advanced_send_anonymous_data_summary">Contribuisci a migliorare Wire inviando rapporti anonimi di utilizzo e crash anonimi.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Invia segnalazioni di crash anonimi</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Invia segnalazioni anonime di crash e dati di base come il numero di versione e il sistema operativo per aiutare Wire a identificare e risolvere i problemi nell\'app.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">Inviare dati di utilizzo anonimi</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">I dati di utilizzo permettono a Wire di capire come l\'applicazione viene utilizzata e come può essere migliorata. I dati sono anonimi e non includono il contenuto delle vostre comunicazioni (come messaggi, file o chiamate).</string>
     <string name="pref_advanced_receive_news_and_offers_title">Ricevi newsletter</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Ricevi notizie e aggiornamenti da Wire via email.</string>
     <!-- Options -->
@@ -425,10 +428,6 @@
     <string name="pref_options_app_lock_summary">Blocca Wire dopo %1$s secondi in background. Sblocca con Pin, Segno, Password o Biometriche.</string>
     <string name="pref_options_incognito_keyboard">Tastiera in incognito</string>
     <string name="pref_options_incognito_keyboard_summary">La tastiera non mostrerà i suggerimenti quando si scrivono messaggi</string>
-    <string name="pref_options_conference_calls_category_title">Chiamate conferenza</string>
-    <string name="pref_options_conference_calls_beta_program_title">Programma beta</string>
-    <string name="pref_options_conference_calls_beta_program_summary">Quando questo è attivato, le chiamate audio e video di conferenze sono abilitate, il che consente un numero maggiore di partecipanti.</string>
-    <string name="conference_calling_badge_title">CONFERENCE CALLING</string>
     <!-- Devices -->
     <string name="pref_devices_screen_title">Dispositivi</string>
     <string name="pref_devices_current_device_category_title">Dispositivo corrente</string>
@@ -769,7 +768,7 @@
     <string name="audio_message_error__missing_audio_permissions">Per inviare messaggi audio, consenti l\'accesso per registrare l\'audio.</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">BIT RATE COSTANTE</string>
-    <string name="audio_message_variable_bit_rate">VARIABLE BIT RATE</string>
+    <string name="audio_message_variable_bit_rate">TASSO DI BIT VARIABILE</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Nessuna conversazione</string>
     <string name="all_archived__header">Tutto archiviato</string>
@@ -1150,8 +1149,9 @@
     <string name="backup_import_error_wrong_account_title">Backup difettoso</string>
     <string name="backup_import_error_wrong_account">Non è possibile ripristinare le conversazioni da un altro account.</string>
     <string name="video_paused">Video in pausa</string>
+    <string name="call_degraded_title">Chiamata terminata</string>
     <string name="calling_degraded_title">Nuovo dispositivo</string>
-    <string name="call_info_text">Fino a %1$s persone possono partecipare a una conversazione di gruppo. Le videochiamate funzionano con fino a %2$s altre persone e te.</string>
+    <string name="call_info">Un massimo di %1$s persone possono partecipare ad una conversazione di gruppo.</string>
     <string name="markdown_link_dialog_title">Apri Link</string>
     <string name="markdown_link_dialog_message">Ti porterà su\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>
