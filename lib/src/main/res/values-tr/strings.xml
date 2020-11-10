@@ -137,17 +137,17 @@
     </plurals>
     <!-- Remove people -->
     <string name="content__system__other_removed_other">%2$s, [[%1$s]] tarafından silindi</string>
-    <string name="content__system__other_removed_someone">[[%1$s]] removed someone</string>
-    <string name="content__system__someone_removed_other">Someone removed %2$s</string>
+    <string name="content__system__other_removed_someone">[[%1$s]] birini çıkardı</string>
+    <string name="content__system__someone_removed_other">Birisi %2$s kişisini çıkardı</string>
     <string name="content__system__other_removed_you">[[%1$s]] seni gruptan çıkardı</string>
-    <string name="content__system__someone_removed_you">Someone removed you</string>
+    <string name="content__system__someone_removed_you">Birisi sizi çıkardı</string>
     <string name="content__system__you_removed_other">%1$s sildiniz</string>
-    <string name="content__system__you_removed_someone">You removed someone</string>
+    <string name="content__system__you_removed_someone">Birisini çıkardın</string>
     <string name="content__system__you_left">[[Sen]] ayrıldın</string>
     <string name="content__system__other_left">[[%1$s]] ayrıldı</string>
     <string name="content__system__someone_left">Biri ayrıldı</string>
-    <string name="content__system__other_was_removed">%1$s kaldırıldı</string>
-    <string name="content__system__someone_was_removed">Birisi kaldırıldı</string>
+    <string name="content__system__other_was_removed">%1$s çıkarıldı</string>
+    <string name="content__system__someone_was_removed">Birisi çıkarıldı</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Sohbeti başlattınız</string>
     <string name="content__system__other_started_conversation">%1$s sohbeti başlattı</string>
@@ -206,8 +206,8 @@
     <string name="content__file__action__open__no_app_found">Bu dosya türünü açacak uygulama bulunamadı</string>
     <string name="content__file__action__save_completed">Dosya başarıyla kaydedildi</string>
     <string name="content__file__action__save_error">Dosya kaydedilemiyor</string>
-    <string name="file_restrictions__sender_error">Sharing files with the .%1$s extension is not permitted by your organization</string>
-    <string name="file_restrictions__receiver_error">File from %1$s can\'t be opened.</string>
+    <string name="file_restrictions__sender_error">Kuruluşunuz, .%1$s uzantısıyla dosya paylaşmaya izin vermiyor</string>
+    <string name="file_restrictions__receiver_error">%1$s dosyası açılamıyor.</string>
     <string name="content__location__no_map_placeholder">YENİDEN ÇEVRİMİÇİ OLDUĞUNDA KONUM HARİTADA GÖRÜNECEK.</string>
     <!-- Conversation actions -->
     <string name="conversation__action__clear_content">İçeriği temizle&#8230;</string>
@@ -266,7 +266,7 @@
     <string name="call_banner_incoming_group">%1$s \u30FB %2$s arıyor&#8230;</string>
     <string name="call_banner_tap_to_return_to_call">\u30FB %1$s kişisini geri aramak için dokunun</string>
     <string name="call_error_unsupported_version_title">Lütfen Wire\'ı güncelleyin</string>
-    <string name="call_error_unsupported_version_message">You received a call that isn\'t supported by this version of Wire.\n\nGet the latest version in the Play Store.</string>
+    <string name="call_error_unsupported_version_message">Bu Wire sürümü tarafından desteklenmeyen bir çağrı aldınız.\n\nPlay Store\'daki en son sürümü edinin.</string>
     <string name="call_error_unsupported_version_button_ok">Play Store\'a git</string>
     <string name="call_error_unsupported_version_button_dismiss">Daha sonra</string>
     <string name="calling_ongoing_call_title">Devam eden arama</string>
@@ -295,7 +295,7 @@
     <string name="connect_request__ignore_button__text">Yoksay</string>
     <string name="content__message__connect_request__footer">BAĞLANILDI</string>
     <string name="content__message__connect_request__auto_connect__footer">OTOMATİK BAĞLANILDI. _DAHASINI ÖĞRENİN_</string>
-    <string name="conversation_degraded_message">The call was disconnected because someone is no longer a verified contact.</string>
+    <string name="conversation_degraded_message">Birisi artık doğrulanmış bir kişi olmadığı için çağrı kesildi.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s yeni bir cihaz kullanmaya başladı.</item>
@@ -388,10 +388,10 @@
     <string name="pref_account_data_usage_permissions">Veri Kullanımı İzinleri</string>
     <string name="pref_backup_screen_title">Sohbetleri Yedekle</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_crash_reports_title">Send anonymous crash reports</string>
-    <string name="pref_advanced_send_anonymous_crash_reports_summary">Send anonymous crash reports and basic data like version number and operating system to help Wire identify and solve issues in the app.</string>
-    <string name="pref_advanced_send_anonymous_usage_data_title">Send anonymous usage data</string>
-    <string name="pref_advanced_send_anonymous_usage_data_summary">Usage data allows Wire to understand how the app is being used and how it can be improved. The data is anonymous and does not include the content of your communications (such as messages, files or calls).</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Anonim çökme raporları gönder</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Wire\'ın uygulamadaki sorunları tanımlamasına ve çözmesine yardımcı olmak için anonim kilitlenme raporları, sürüm numarası ve işletim sistemi gibi temel verileri gönderin.</string>
+    <string name="pref_advanced_send_anonymous_usage_data_title">Anonim kullanım verileri gönder</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Kullanım verileri, Wire\'ın uygulamanın nasıl kullanıldığını ve nasıl geliştirilebileceğini anlamasını sağlar. Veriler anonimdir ve iletişiminizin içeriğini (mesajlar, dosyalar veya aramalar gibi) içermez.</string>
     <string name="pref_advanced_receive_news_and_offers_title">Bülten Alın</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Wire\'dan haberleri ve ürün güncellemelerini e-postayla alın.</string>
     <!-- Options -->
@@ -768,7 +768,7 @@
     <string name="audio_message_error__missing_audio_permissions">Sesli mesaj göndermek için ses kaydedilmesine izin ver.</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">SABİT BİT HIZI</string>
-    <string name="audio_message_variable_bit_rate">VARIABLE BIT RATE</string>
+    <string name="audio_message_variable_bit_rate">DEĞİŞKEN BİT HIZI</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Hiç konuşma yok</string>
     <string name="all_archived__header">Her şey arşivlendi</string>
@@ -1065,7 +1065,7 @@
     <string name="participants_divider_options">SEÇENEKLER</string>
     <string name="participants_no_admins">Yönetici yok.</string>
     <string name="participants_no_results_1">Eşleşen sonuç yok.</string>
-    <string name="participants_no_results_2">Try entering a different name.</string>
+    <string name="participants_no_results_2">Farklı bir isim girmeyi deneyin.</string>
     <string name="group_name_hint">GRUP ADI</string>
     <string name="allow_guests_toggle_text">Misafirlere ve hizmetlere izin ver</string>
     <string name="allow_guests_toggle_info_text">Bu konuşmayı ekibinizin dışındaki servislere ve insanlara da açın.</string>
@@ -1081,7 +1081,7 @@
     <string name="create_conv_options_subtitle_on">AÇIK</string>
     <string name="create_conv_options_subtitle_off">YOK</string>
     <string name="participant_group_admin_toggle_text">Grup yöneticisi</string>
-    <string name="participant_group_admin_toggle_info_text">When this is on, the admin can add or remove people and services, update group settings, and change a participant’s role.</string>
+    <string name="participant_group_admin_toggle_info_text">Bu açık olduğunda, yönetici kişi ve hizmet ekleyebilir veya çıkarabilir, grup ayarlarını güncelleyebilir ve bir katılımcının rolünü değiştirebilir.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Bu konuşmayı ekibinizin dışındaki servislere ve insanlara da açın.</string>
     <string name="allow_guests">Misafirlere ve hizmetlere izin ver</string>
     <string name="guest_options_title">Misafirler ve hizmetler</string>
@@ -1090,7 +1090,7 @@
     <string name="ephemeral_explanation_text">Bu konuşmadaki tüm katılımcılar için zamanlanmış mesajlar açılacaktır</string>
     <string name="notifications_explanation_text">Her şeyden (sesli ve görüntülü aramalar dahil) veya yalnızca sizden bahsettiğinizde haberdar olabilirsiniz.</string>
     <string name="show_all_participants">Tümünü göster (%1$s)</string>
-    <string name="participant_was_removed_from_team">%s was removed from team</string>
+    <string name="participant_was_removed_from_team">%s takımdan çıkarıldı</string>
     <string name="allow_guests_error_title">Bir şeyler yanlış gitti</string>
     <string name="allow_guests_error_body">Misafirlere veya hizmetlere izin verilemedi. Lütfen tekrar deneyin.</string>
     <string name="allow_guests_warning_body">Mevcut misafirler ve hizmetler sohbetten kaldırılacak. Yeni misafir ve hizmetlere izin verilmeyecektir.</string>
@@ -1118,7 +1118,7 @@
         \n\nYedek dosyayı korumak için güçlü bir şifre seçin.</string>
     <string name="pref_account_backup_title">Sohbetleri yedekle</string>
     <string name="backup_password_dialog_title">Şifre ayarlayın</string>
-    <string name="backup_password_dialog_message">The backup will be compressed and encrypted with a password. Make sure to store it in a secure place.</string>
+    <string name="backup_password_dialog_message">Yedekleme sıkıştırılacak ve bir şifre ile şifrelenecektir. Güvenli bir yerde sakladığınızdan emin olun.</string>
     <string name="backup_password_dialog_ok">TAMAM</string>
     <string name="backup_password_dialog_no_password">İptal</string>
     <string name="restore_password_dialog_title">Bu yedekleme şifre korumalıdır.</string>
@@ -1149,9 +1149,9 @@
     <string name="backup_import_error_wrong_account_title">Yanlış yedek</string>
     <string name="backup_import_error_wrong_account">Geçmişi farklı bir hesaptan geri yükleyemezsiniz.</string>
     <string name="video_paused">Video duraklatıldı</string>
-    <string name="call_degraded_title">Call ended</string>
+    <string name="call_degraded_title">Arama sona erdi</string>
     <string name="calling_degraded_title">Yeni cihaz</string>
-    <string name="call_info">Up to %1$s people can join a group conversation.</string>
+    <string name="call_info">Bir grup sohbetine en fazla %1$s kişi katılabilir.</string>
     <string name="markdown_link_dialog_title">Bağlantıyı Ziyaret Et</string>
     <string name="markdown_link_dialog_message">Bu sizi \n%1$s\'ne götürecek</string>
     <string name="markdown_link_dialog_confirmation">TAMAM</string>
@@ -1163,15 +1163,15 @@
     <string name="sso_signin_error_title">Bir şeyler yanlış gitti</string>
     <string name="sso_signin_error_message">Lütfen ayrıntılar için takım yöneticinize başvurun (Hata %1$s).</string>
     <string name="sso_signin_error_try_again_message">Lütfen daha sonra tekrar deneyin (Hata %1$s).</string>
-    <string name="enterprise_signin_domain_not_found_error">This email cannot be used for enterprise login. Please enter the SSO code to proceed.</string>
-    <string name="enterprise_signin_email_sso_invalid_input_error">Please enter a valid email or SSO access code.</string>
-    <string name="enterprise_signin_sso_invalid_input_error">Please enter a valid SSO access code.</string>
-    <string name="enterprise_signin_email_multiple_servers_not_supported">This email is linked to a different server, but the app can only be connected to one server at a time. Please log out of all Wire accounts on this device and try to log in again.</string>
+    <string name="enterprise_signin_domain_not_found_error">Bu e-posta, kurumsal giriş için kullanılamaz. Devam etmek için lütfen SSO kodunu girin.</string>
+    <string name="enterprise_signin_email_sso_invalid_input_error">Lütfen geçerli bir e-posta veya SSO erişim kodu girin.</string>
+    <string name="enterprise_signin_sso_invalid_input_error">Lütfen geçerli bir SSO erişim kodu girin.</string>
+    <string name="enterprise_signin_email_multiple_servers_not_supported">Bu e-posta farklı bir sunucuya bağlıdır, ancak uygulama aynı anda yalnızca bir sunucuya bağlanabilir. Lütfen bu cihazdaki tüm Wire hesaplarından çıkış yapın ve tekrar giriş yapmayı deneyin.</string>
     <string name="sso_signin_wrong_code_title">Geçersiz kod</string>
     <string name="sso_signin_wrong_code_message">Lütfen şirketinizin SSO erişim kodunu doğrulayın ve tekrar deneyin.</string>
     <string name="sso_signin_max_accounts_title">İki hesap aktif</string>
     <string name="sso_signin_max_accounts_message">Sadece aynı anda iki hesapla giriş yapabilirsiniz. Başka eklemek için birinden çıkış yapın.</string>
-    <string name="custom_backend_welcome">Welcome to\n%1$s workspace</string>
+    <string name="custom_backend_welcome">%1$s çalışma alanına\n hoş geldiniz</string>
     <string name="participant_search_hint">İSİMLERİ ARA</string>
     <string name="participant_search_title">KATILIMCILAR</string>
     <string name="generic_service_warning">Hizmetler bu sohbetin içeriğine erişebilir</string>
@@ -1199,13 +1199,13 @@
     <string name="custom_backend_dialog_cancel">İptal</string>
     <string name="custom_backend_dialog_connect">Bağlan</string>
     <string name="custom_backend_dialog_confirmation_title">Sunucuya bağlan</string>
-    <string name="custom_backend_dialog_confirmation_message">This action will connect the app to a custom server: %1$s</string>
+    <string name="custom_backend_dialog_confirmation_message">Bu işlem, uygulamayı özel bir sunucuya bağlayacak: %1$s</string>
     <string name="custom_backend_dialog_info_title">Üçüncü taraf bir sunucuya bağlısınız: \"%1$s\"</string>
     <string name="custom_backend_dialog_network_error_title">Sunucu yanıt vermiyor</string>
     <string name="custom_backend_dialog_network_error_message">Lütfen internet bağlantınızı kontrol edin, bağlantıyı doğrulayın ve tekrar deneyin.</string>
     <string name="custom_backend_not_found_error_title">Sunucuya ulaşılamıyor.</string>
-    <string name="custom_backend_not_found_error_message">We can\'t connect to the server at %1$s.\nLet your server
-        administrator know about this issue.</string>
+    <string name="custom_backend_not_found_error_message">%1$s sunucusuna bağlanamıyoruz.\nSunucu yöneticinize
+         bu sorun hakkında bilgi verin.</string>
     <string name="custom_backend_dialog_logged_in_error_title">Sunucu değiştirilemiyor</string>
     <string name="custom_backend_dialog_logged_in_error_message">Zaten giriş yaptınız.\nBu sunucuya bağlanmak için tüm hesaplardan çıkın ve tekrar deneyin.</string>
     <string name="root_detected_dialog_title">Jailbreak / root algılandı</string>
@@ -1256,7 +1256,7 @@
     <!-- SSO Login -->
     <string name="sso_login_dialog_title">Kurumsal Giriş</string>
     <string name="sso_login_dialog_message">Lütfen SSO kodunu girin:</string>
-    <string name="email_sso_login_dialog_message">Please enter your email or SSO code. If your email matches an enterprise installation of Wire, this app will connect to that server.</string>
+    <string name="email_sso_login_dialog_message">Lütfen e-postanızı veya SSO kodunuzu girin. E-postanız kurumsal bir Wire kurulumuyla eşleşiyorsa, bu uygulama o sunucuya bağlanacaktır.</string>
     <!-- Welcome -->
     <string name="welcome_to_wire">Wire\'a hoş geldiniz</string>
     <string name="welcome_enterprise_log_in">Kurumsal Giriş</string>
@@ -1265,16 +1265,16 @@
     <!-- Updated edit handle screen -->
     <string name="edit_account_handle_error_already_taken">Çoktan alınmış</string>
     <string name="edit_account_handle_error_too_short">En az 2 karakter</string>
-    <string name="edit_account_handle_error_invalid_characters">Please only use: a–z, 0–9, and _ </string>
+    <string name="edit_account_handle_error_invalid_characters">Lütfen yalnızca şunları kullanın: a–z, 0–9, ve _ </string>
     <string name="edit_account_handle_error_unknown_error">Bir şeyler ters gitti, lütfen tekrar deneyin.</string>
     <string name="edit_phone_remove_phone_number">Telefon numarasını kaldır</string>
     <string name="edit_phone_dialog_delete_phone_confirmation">%s numarasını Wire hesabınızdan kaldırmak istediğinizden emin misiniz?</string>
     <string name="edit_phone_dialog_confirm_phone_confirmation">%s\n numarasına bildirim kodu göndereceğiz</string>
     <string name="edit_phone_save_phone_number">Kaydet</string>
     <!-- Delete Account -->
-    <string name="delete_account_permanently_email_confirmation">We will send an email to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="delete_account_permanently_sms_confirmation">We will send an SMS to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="pref_account_delete_confirmed">Account deletion confirmed, please check your email.</string>
+    <string name="delete_account_permanently_email_confirmation">Şu adrese bir e-posta göndereceğiz:\n %1$s \nHesabınızı kalıcı olarak silmek için bağlantıyı takip edin.</string>
+    <string name="delete_account_permanently_sms_confirmation">Şu numaraya bir SMS göndereceğiz:\n %1$s \nHesabınızı kalıcı olarak silmek için bağlantıyı takip edin.</string>
+    <string name="pref_account_delete_confirmed">Hesap silme işlemi onaylandı, lütfen e-postanızı kontrol edin.</string>
     <!-- Authentication (Shared strings between create account and login screens) -->
     <string name="authentication_tab_layout_title_email">E-POSTA</string>
     <string name="authentication_tab_layout_title_phone">TELEFON</string>
@@ -1283,9 +1283,9 @@
     <string name="create_personal_account_with_email_edit_text_hint">E-POSTA</string>
     <string name="create_personal_account_with_phone_edit_text_hint">TELEFON NUMARASI</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">Bu e-posta adresi kabul edilemiyor.</string>
-    <string name="create_personal_account_with_email_email_in_use_error">This email address you used is already linked to an account.\nUse another email address or try to login if you own this account.</string>
+    <string name="create_personal_account_with_email_email_in_use_error">Kullandığınız bu e-posta adresi zaten bir hesaba bağlı.\nBaşka bir e-posta adresi kullanın veya bu hesaba sahipseniz giriş yapmayı deneyin.</string>
     <string name="create_personal_account_with_phone_phone_blacklisted_error">Bu telefon numarası kabul edilemiyor.</string>
-    <string name="create_personal_account_with_phone_phone_in_use_error">This phone number you used is already linked to an account.\nUse another phone number or try to login if you own this account.</string>
+    <string name="create_personal_account_with_phone_phone_in_use_error">Kullandığınız bu telefon numarası zaten bir hesaba bağlı.\nBaşka bir telefon numarası kullanın veya bu hesaba sahipseniz giriş yapmayı deneyin.</string>
     <string name="create_personal_account_with_phone_default_country_name">Almanya</string>
     <string name="create_personal_account_with_phone_default_country_code">+90</string>
     <!-- Create Personal Account - Email Code screen -->
@@ -1296,7 +1296,7 @@
     <string name="create_personal_account_email_code_invalid_code_error">Lütfen geçerli bir kod girin</string>
     <!-- Create Personal Account - Phone Code screen -->
     <string name="create_personal_account_phone_code_title">SMS kodu</string>
-    <string name="create_personal_account_phone_code_description">Enter the code we sent to %s</string>
+    <string name="create_personal_account_phone_code_description">%s numarasına gönderdiğimiz kodu girin</string>
     <string name="create_personal_account_phone_code_resend_code">KODU YENİDEN GÖNDER</string>
     <string name="create_personal_account_phone_code_invalid_code_error">Lütfen geçerli bir kod girin</string>
     <!-- Create Personal Account - Name screen -->
@@ -1306,16 +1306,16 @@
     <string name="create_personal_account_password_input_title">Şifre Ayarla</string>
     <string name="create_personal_account_password_input_edit_text_hint">ŞİFRE</string>
     <!-- Create Personal Account - Registration errors -->
-    <string name="create_personal_account_unauthorized_email_error">Unauthorized e-mail address.</string>
-    <string name="create_personal_account_email_in_use_error">The given e-mail address is in use.</string>
+    <string name="create_personal_account_unauthorized_email_error">Yetkisiz e-posta adresi.</string>
+    <string name="create_personal_account_email_in_use_error">Girilen e-posta adresi kullanımda.</string>
     <string name="create_personal_account_invalid_activation_code_error">Geçersiz etkinleştirme kodu.</string>
-    <string name="create_personal_account_unauthorized_phone_error">Unauthorized phone number.</string>
-    <string name="create_personal_account_phone_in_use_error">The given phone number is in use.</string>
+    <string name="create_personal_account_unauthorized_phone_error">Yetkisiz telefon numarası.</string>
+    <string name="create_personal_account_phone_in_use_error">Girilen telefon numarası kullanımda.</string>
     <!-- Composite Message -->
-    <string name="composite_message_button_action_error">Your answer can\'t be sent, please retry.</string>
+    <string name="composite_message_button_action_error">Yanıtınız gönderilemiyor, lütfen tekrar deneyin.</string>
     <string name="composite_message_confirmed_button_content_description">%1$s onaylandı</string>
     <!-- StartSSO Screen  -->
     <string name="start_sso_leaving_wire">Yönlendiriliyor&#8230;</string>
-    <string name="start_sso_redirected_to">You are being redirected to your dedicated enterprise service.</string>
-    <string name="start_sso_notice">Provide credentials only if you\'re sure this is your organization\'s login.</string>
+    <string name="start_sso_redirected_to">Özel kurumsal hizmetinize yönlendiriliyorsunuz.</string>
+    <string name="start_sso_notice">Kimlik bilgilerini yalnızca bunun kuruluşunuzun giriş bilgisi olduğundan eminseniz sağlayın.</string>
 </resources>
