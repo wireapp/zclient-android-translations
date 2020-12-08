@@ -47,7 +47,7 @@
     <string name="phone_budget_exhausted_header">Muitos pedidos!</string>
     <string name="phone_budget_exhausted_message">Por favor, tente novamente mais tarde.</string>
     <string name="conversation_input_bar_message_too_long_title">Mensagem muito longa</string>
-    <string name="conversation_input_bar_message_too_long_message">You can send messages up to %1$s characters long.</string>
+    <string name="conversation_input_bar_message_too_long_message">Você pode enviar mensagens com até %1$s caracteres.</string>
     <string name="conversation_input_bar_dialog_ok">OK</string>
     <!--*********************************************** ERRORS ***********************************************-->
     <string name="permissions_denied_dialog_settings">Configurações</string>
@@ -295,7 +295,7 @@
     <string name="connect_request__ignore_button__text">Ignorar</string>
     <string name="content__message__connect_request__footer">CONECTADO</string>
     <string name="content__message__connect_request__auto_connect__footer">AUTO-CONECTADO. _LEARN MORE_</string>
-    <string name="conversation_degraded_message">The call was disconnected because someone is no longer a verified contact.</string>
+    <string name="conversation_degraded_message">A chamada foi desconectada porque alguém não é mais um contato verificado.</string>
     <!-- Otr-->
     <plurals name="conversation__degraded_confirmation__header__single_user">
         <item quantity="one">%1$s começou a usar um novo dispositivo.</item>
@@ -388,12 +388,24 @@
     <string name="pref_account_data_usage_permissions">Permissões de Uso de Dados</string>
     <string name="pref_backup_screen_title">Backup de Conversas</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_crash_reports_title">Send anonymous crash reports</string>
-    <string name="pref_advanced_send_anonymous_crash_reports_summary">Send anonymous crash reports and basic data like version number and operating system to help Wire identify and solve issues in the app.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">Envie relatórios anônimos de falhas</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">Enviar relatórios de falha anônimos e dados básicos, como número de versão e sistema operacional para ajudar o Wire a identificar e resolver problemas no aplicativo.</string>
     <string name="pref_advanced_send_anonymous_usage_data_title">Enviar dados de uso anônimos</string>
-    <string name="pref_advanced_send_anonymous_usage_data_summary">Usage data allows Wire to understand how the app is being used and how it can be improved. The data is anonymous and does not include the content of your communications (such as messages, files or calls).</string>
+    <string name="pref_advanced_send_anonymous_usage_data_summary">Os dados de uso permitem que o Wire entenda como o aplicativo está sendo usado e como ele pode ser melhorado. Os dados são anônimos e não incluem o conteúdo de suas comunicações (como mensagens, arquivos ou chamadas).</string>
     <string name="pref_advanced_receive_news_and_offers_title">Receba nosso Newsletter</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Receba novidades e atualizações de produtos do Wire por e-mail.</string>
+    <!-- App Lock -->
+    <string name="pref_options_app_lock">Senha</string>
+    <string name="pref_options_app_lock_change">Alterar senha</string>
+    <string name="app_lock_locked_title">O Wire está bloqueado devido à inatividade</string>
+    <string name="app_lock_locked_message">Insira a senha da sua conta.</string>
+    <string name="app_lock_setup_dialog_messsage">Para desbloquear o Wire, configure uma senha nas configurações do seu dispositivo.</string>
+    <string name="new_password_dialog_title">Crie uma Senha</string>
+    <string name="new_password_dialog_button">Criar Senha</string>
+    <string name="new_password_dialog_title_change">Alterar Senha</string>
+    <string name="new_password_dialog_button_change">Alterar Senha</string>
+    <string name="new_password_dialog_message">Sua organização precisa bloquear seu aplicativo quando o Wire não está em uso para manter a equipe segura.\nCrie uma senha memorável, pois ela não pode ser recuperada.</string>
+    <string name="new_password_dialog_showhide_cd">Mostrar/ocultar senha</string>
     <!-- Options -->
     <string name="pref_options_screen_title">Opções</string>
     <string name="pref_options_vbr_title">Codificação com Taxa de Bits Variável</string>
@@ -768,7 +780,7 @@
     <string name="audio_message_error__missing_audio_permissions">Para enviar mensagens de áudio, conceda permissão para gravar áudio.</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">TAXA DE BITS CONSTANTE</string>
-    <string name="audio_message_variable_bit_rate">VARIABLE BIT RATE</string>
+    <string name="audio_message_variable_bit_rate">TAXA DE BIT VARIÁVEL</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Não há conversas ainda</string>
     <string name="all_archived__header">Tudo foi arquivado</string>
@@ -1069,7 +1081,7 @@
     <string name="group_name_hint">NOME DO GRUPO</string>
     <string name="allow_guests_toggle_text">Permitir que os hóspedes e serviços</string>
     <string name="allow_guests_toggle_info_text">Abra esta conversa para serviços e pessoas fora da sua equipe.</string>
-    <string name="read_receipts_toggle_text">Recibos de Leitura</string>
+    <string name="read_receipts_toggle_text">Confirmação de Leitura</string>
     <string name="read_receipts_toggle_info_text">Quando isso está ativado, as pessoas podem ver quando suas mensagens nessa conversa são lidas.</string>
     <string name="read_receipts_info_title_enabled">VOCÊ HABILITOU RECIBOS DE LEITURA</string>
     <string name="read_receipts_info_title_disabled">VOCÊ DESATIVOU RECIBOS DE LEITURA</string>
@@ -1077,14 +1089,14 @@
     <string name="read_receipts_info_2">Você pode alterar essa opção nas configurações da sua conta.</string>
     <string name="create_conv_options_title_text">Opções de conversa</string>
     <string name="create_conv_options_subtitle_allow_guests">Permitir convidados</string>
-    <string name="create_conv_options_subtitle_read_receipts">Recibos de Leitura</string>
+    <string name="create_conv_options_subtitle_read_receipts">Confirmação de Leitura</string>
     <string name="create_conv_options_subtitle_on">LIGADO</string>
     <string name="create_conv_options_subtitle_off">DESLIGADO</string>
     <string name="participant_group_admin_toggle_text">Administrador do Grupo</string>
-    <string name="participant_group_admin_toggle_info_text">Quando isso está ativado, o administrador pode adicionar ou remover pessoas e serviços, atualizar as configurações do grupo e alterar o papel de um participante.</string>
+    <string name="participant_group_admin_toggle_info_text">Quando está ativado, o administrador pode adicionar ou remover pessoas e serviços, atualizar as configurações do grupo e alterar a função de um participante.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Abra esta conversa para serviços e pessoas fora da sua equipe.</string>
     <string name="allow_guests">Permitir que os hóspedes e serviços</string>
-    <string name="guest_options_title">Hóspedes e serviços</string>
+    <string name="guest_options_title">Opções de convidados</string>
     <string name="ephemeral_options_title">Mensagens com tempo</string>
     <string name="notifications_options_title">Notificações</string>
     <string name="ephemeral_explanation_text">Mensagens com tempo serão ativadas para todos os participantes nesta conversa</string>
@@ -1093,7 +1105,7 @@
     <string name="participant_was_removed_from_team">%s foi removido da equipe</string>
     <string name="allow_guests_error_title">Algo deu errado</string>
     <string name="allow_guests_error_body">Não foi possível permitir convidados nem serviços. Por favor, tente novamente.</string>
-    <string name="allow_guests_warning_body">Os hóspedes e serviços atuais serão removidos da conversa. Novos hóspedes e serviços não serão permitidos.</string>
+    <string name="allow_guests_warning_body">Convidados atuais serão removidos da conversa. Novos convidados não serão permitidos.</string>
     <string name="allow_guests_warning_confirm">Remover</string>
     <string name="guests_are_present">OS CONVIDADOS ESTÃO PRESENTES</string>
     <string name="services_are_present">SERVIÇOS ESTÃO ATIVOS</string>
@@ -1149,21 +1161,21 @@
     <string name="backup_import_error_wrong_account_title">Backup errado</string>
     <string name="backup_import_error_wrong_account">Você não pode restaurar o histórico de uma conta diferente.</string>
     <string name="video_paused">Vídeo pausado</string>
-    <string name="call_degraded_title">Call ended</string>
+    <string name="call_degraded_title">Chamada encerrada</string>
     <string name="calling_degraded_title">Novo dispositivo</string>
-    <string name="call_info">Up to %1$s people can join a group conversation.</string>
+    <string name="call_info">Até %1$s pessoas podem participar de uma conversa em grupo.</string>
     <string name="markdown_link_dialog_title">Visitar Link</string>
     <string name="markdown_link_dialog_message">Isso levará você para\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>
     <string name="markdown_link_dialog_cancel">Cancelar</string>
-    <string name="max_participants_alert_title">O grupo está cheio</string>
+    <string name="max_participants_alert_title">Chamada cheia</string>
     <string name="max_participants_create_alert_message">Até %1$s pessoas podem participar de uma conversa.</string>
     <string name="max_participants_add_alert_message">Até %1$s pessoas podem participar de uma conversa. Atualmente, há apenas espaço para mais %2$s.</string>
     <string name="sso_signin_button">Inicio de Sessão Empresarial</string>
     <string name="sso_signin_error_title">Algo deu errado</string>
     <string name="sso_signin_error_message">Por favor, entre em contato com o administrador da sua equipe para obter detalhes (Erro %1$s).</string>
     <string name="sso_signin_error_try_again_message">Por favor, tente novamente mais tarde (Erro %1$s).</string>
-    <string name="enterprise_signin_domain_not_found_error">Este e-mail não pode ser usado para login corporativo. Por favor, insira o código SSO para continuar.</string>
+    <string name="enterprise_signin_domain_not_found_error">Este e-mail não pode ser usado para o acesso corporativo. Por favor, insira o código SSO para continuar.</string>
     <string name="enterprise_signin_email_sso_invalid_input_error">Por favor, insira um e-mail válido ou código de acesso SSO.</string>
     <string name="enterprise_signin_sso_invalid_input_error">Por favor, insira um código de acesso SSO válido.</string>
     <string name="enterprise_signin_email_multiple_servers_not_supported">Este email está vinculado a um servidor diferente, mas o aplicativo só pode ser conectado a um servidor de cada vez. Por favor, saia de todas as contas Wire neste dispositivo e tente se conectar novamente.</string>
@@ -1203,9 +1215,9 @@
     <string name="custom_backend_dialog_info_title">Você está conectado a um servidor de terceiros: \"%1$s\"</string>
     <string name="custom_backend_dialog_network_error_title">O servidor não está respondendo</string>
     <string name="custom_backend_dialog_network_error_message">Por favor, verifique sua conexão com a internet, verifique o link e tente novamente.</string>
-    <string name="custom_backend_not_found_error_title">Não é possível alcançar este servidor</string>
-    <string name="custom_backend_not_found_error_message">We can\'t connect to the server at %1$s.\nLet your server
-        administrator know about this issue.</string>
+    <string name="custom_backend_not_found_error_title">Este servidor não pode ser alcançado</string>
+    <string name="custom_backend_not_found_error_message">Não podemos conectar ao servidor em %1$s.\nDeixe seu servidor
+        administrador sabe sobre este problema.</string>
     <string name="custom_backend_dialog_logged_in_error_title">Não é possível mudar os servidores</string>
     <string name="custom_backend_dialog_logged_in_error_message">Você já está logado.\nPara conectar-se a este servidor, saia de todas as contas e tente novamente.</string>
     <string name="root_detected_dialog_title">Jailbreak/root detectado</string>
@@ -1216,10 +1228,6 @@
     <string name="read_receipts_remotely_enabled_title">Você ativou as confirmações de leitura</string>
     <string name="read_receipts_remotely_disabled_title">Você ativou as confirmações de leitura</string>
     <string name="read_receipts_remotely_changed_message">Você pode alterar essa opção nas configurações da sua conta.</string>
-    <string name="app_lock_locked_title">O Wire está bloqueado devido à inatividade</string>
-    <string name="app_lock_locked_message">Insira a senha da sua conta.</string>
-    <string name="app_lock_setup_dialog_messsage">Para desbloquear o Wire, configure uma senha nas configurações do seu dispositivo.</string>
-    <string name="app_lock_setup_dialog_button">Abrir configurações</string>
     <string name="security_policy_title">Política de Segurança do Wire</string>
     <string name="security_policy_description">Permitir que o Wire torne seu dispositivo mais seguro.</string>
     <string name="security_policy_setup_dialog_title">Habilitar Política de Segurança</string>
@@ -1233,59 +1241,59 @@
     <string name="conversation_folder_name_group">Grupos</string>
     <string name="conversation_folder_name_one_to_one">Pessoas</string>
     <string name="folders_move_to">MOVER PARA</string>
-    <string name="folders_no_custom_folder_found">Create a new folder by pressing the + button</string>
-    <string name="folders_create_new_folder">CREATE NEW FOLDER</string>
+    <string name="folders_no_custom_folder_found">Criar uma nova pasta pressionando o botão +</string>
+    <string name="folders_create_new_folder">CRIAR NOVA PASTA</string>
     <string name="folders_create_new_folder_action">CRIAR</string>
-    <string name="folders_create_new_folder_info">Move the conversation \"%1$s\" to a new folder.</string>
-    <string name="folders_folder_name_hint">FOLDER NAME</string>
-    <string name="folders_folder_name_error_text">Maximum %s characters</string>
+    <string name="folders_create_new_folder_info">Mova a conversa \"%1$s\" para uma nova pasta.</string>
+    <string name="folders_folder_name_hint">NOME DA PASTA</string>
+    <string name="folders_folder_name_error_text">Máximo de %s caracteres</string>
     <string name="folders_move_to_folder_close">Fechar</string>
-    <string name="delete_group_conversation_error_title">Group not deleted</string>
-    <string name="delete_group_conversation_error_message">An error occurred while trying to delete the group. Please try again.</string>
-    <string name="delete_group_conversation_error_message_with_group_name">An error occurred while trying to delete the group %1$s. Please try again.</string>
+    <string name="delete_group_conversation_error_title">Grupo não excluído</string>
+    <string name="delete_group_conversation_error_message">Ocorreu um erro ao tentar excluir o grupo. Por favor, tente novamente.</string>
+    <string name="delete_group_conversation_error_message_with_group_name">Ocorreu um erro ao tentar excluir o grupo %1$s. Por favor, tente novamente.</string>
     <!-- No Internet Connection -->
     <string name="no_internet_connection_title">Sem conexão de internet</string>
     <string name="no_internet_connection_message">Por favor, verifique sua conexão de Internet e tente novamente</string>
     <!-- Shortcuts -->
     <string name="shortcut_create_group_label">Criar Grupo</string>
-    <string name="shortcut_share_a_photo_label">Share Photo</string>
-    <string name="shortcut_new_message_label">New Message</string>
+    <string name="shortcut_share_a_photo_label">Compartilhar Foto</string>
+    <string name="shortcut_new_message_label">Nova Mensagem</string>
     <!-- Settings Account - Edit Phone -->
     <string name="edit_phone_dialog_country_code_error">Código de país inválido</string>
     <string name="edit_phone_dialog_phone_number_error">Número de telefone inválido</string>
     <!-- SSO Login -->
-    <string name="sso_login_dialog_title">Enterprise Login</string>
-    <string name="sso_login_dialog_message">Please enter your SSO code:</string>
-    <string name="email_sso_login_dialog_message">Please enter your email or SSO code. If your email matches an enterprise installation of Wire, this app will connect to that server.</string>
+    <string name="sso_login_dialog_title">Iniciar Sessão Empresarial</string>
+    <string name="sso_login_dialog_message">Por favor, digite o seu código SSO:</string>
+    <string name="email_sso_login_dialog_message">Por favor, insira seu e-mail ou código SSO. Se o seu e-mail corresponder a uma instalação empresarial do Wire, este aplicativo irá se conectar a esse servidor.</string>
     <!-- Welcome -->
-    <string name="welcome_to_wire">Welcome to Wire</string>
-    <string name="welcome_enterprise_log_in">Enterprise Login</string>
-    <string name="welcome_custom_backend_log_in_email">LOG IN WITH EMAIL</string>
-    <string name="welcome_custom_backend_log_in_sso">LOG IN WITH SSO</string>
+    <string name="welcome_to_wire">Bem-vindo ao Wire</string>
+    <string name="welcome_enterprise_log_in">Iniciar Sessão Empresarial</string>
+    <string name="welcome_custom_backend_log_in_email">INICIAR SESSÃO COM E-MAIL</string>
+    <string name="welcome_custom_backend_log_in_sso">INICIAR SESSÃO COM SSO</string>
     <!-- Updated edit handle screen -->
     <string name="edit_account_handle_error_already_taken">Já está sendo usado</string>
     <string name="edit_account_handle_error_too_short">Pelo menos 2 caracteres</string>
-    <string name="edit_account_handle_error_invalid_characters">Please only use: a–z, 0–9, and _ </string>
+    <string name="edit_account_handle_error_invalid_characters">Por favor, use apenas: a–z, 0–9, and _ </string>
     <string name="edit_account_handle_error_unknown_error">Algo deu errado, por favor tente novamente.</string>
-    <string name="edit_phone_remove_phone_number">Remove phone number</string>
+    <string name="edit_phone_remove_phone_number">Remover número de telefone</string>
     <string name="edit_phone_dialog_delete_phone_confirmation">Tem certeza que deseja remover %s de sua conta Wire?</string>
     <string name="edit_phone_dialog_confirm_phone_confirmation">Nós enviaremos um código de notificação para: \n%s</string>
     <string name="edit_phone_save_phone_number">Salvar</string>
     <!-- Delete Account -->
-    <string name="delete_account_permanently_email_confirmation">We will send an email to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="delete_account_permanently_sms_confirmation">We will send an SMS to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="pref_account_delete_confirmed">Account deletion confirmed, please check your email.</string>
+    <string name="delete_account_permanently_email_confirmation">Enviaremos um e-mail para:\n %1$s \nSiga o link para excluir permanentemente sua conta.</string>
+    <string name="delete_account_permanently_sms_confirmation">Enviaremos um SMS para:\n %1$s \nSiga o link para excluir permanentemente sua conta.</string>
+    <string name="pref_account_delete_confirmed">Exclusão da conta confirmada, verifique seu e-mail.</string>
     <!-- Authentication (Shared strings between create account and login screens) -->
-    <string name="authentication_tab_layout_title_email">EMAIL</string>
-    <string name="authentication_tab_layout_title_phone">PHONE</string>
+    <string name="authentication_tab_layout_title_email">E-MAIL</string>
+    <string name="authentication_tab_layout_title_phone">TELEFONE</string>
     <!-- Create Personal Account - Main screen -->
     <string name="create_personal_account_title">Criar uma conta</string>
-    <string name="create_personal_account_with_email_edit_text_hint">EMAIL</string>
-    <string name="create_personal_account_with_phone_edit_text_hint">PHONE NUMBER</string>
+    <string name="create_personal_account_with_email_edit_text_hint">E-MAIL</string>
+    <string name="create_personal_account_with_phone_edit_text_hint">NÚMERO DE TELEFONE</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">Este endereço de e-mail não é permitido.</string>
-    <string name="create_personal_account_with_email_email_in_use_error">This email address you used is already linked to an account.\nUse another email address or try to login if you own this account.</string>
+    <string name="create_personal_account_with_email_email_in_use_error">Este endereço de e-mail que você usou já está vinculado a uma conta.\nUse outro endereço de e-mail ou tente fazer o login se você for o proprietário desta conta.</string>
     <string name="create_personal_account_with_phone_phone_blacklisted_error">O número de telefone não é permitido.</string>
-    <string name="create_personal_account_with_phone_phone_in_use_error">This phone number you used is already linked to an account.\nUse another phone number or try to login if you own this account.</string>
+    <string name="create_personal_account_with_phone_phone_in_use_error">Este número de telefone que você usou já está vinculado a uma conta.\nUse outro número de telefone ou tente fazer o login se você for o proprietário desta conta.</string>
     <string name="create_personal_account_with_phone_default_country_name">Alemanha</string>
     <string name="create_personal_account_with_phone_default_country_code">+49</string>
     <!-- Create Personal Account - Email Code screen -->
@@ -1295,8 +1303,8 @@
     <string name="create_personal_account_email_code_resend_code">REENVIAR CÓDIGO</string>
     <string name="create_personal_account_email_code_invalid_code_error">Por favor, introduza um código válido</string>
     <!-- Create Personal Account - Phone Code screen -->
-    <string name="create_personal_account_phone_code_title">SMS code</string>
-    <string name="create_personal_account_phone_code_description">Enter the code we sent to %s</string>
+    <string name="create_personal_account_phone_code_title">Código SMS</string>
+    <string name="create_personal_account_phone_code_description">Digite o código que enviamos para %s</string>
     <string name="create_personal_account_phone_code_resend_code">REENVIAR CÓDIGO</string>
     <string name="create_personal_account_phone_code_invalid_code_error">Por favor, introduza um código válido</string>
     <!-- Create Personal Account - Name screen -->
@@ -1304,18 +1312,18 @@
     <string name="create_personal_account_name_input_edit_text_hint">NOME COMPLETO</string>
     <!-- Create Personal Account - Password screen -->
     <string name="create_personal_account_password_input_title">Definir Senha</string>
-    <string name="create_personal_account_password_input_edit_text_hint">PASSWORD</string>
+    <string name="create_personal_account_password_input_edit_text_hint">SENHA</string>
     <!-- Create Personal Account - Registration errors -->
-    <string name="create_personal_account_unauthorized_email_error">Unauthorized e-mail address.</string>
-    <string name="create_personal_account_email_in_use_error">The given e-mail address is in use.</string>
-    <string name="create_personal_account_invalid_activation_code_error">Invalid activation code.</string>
-    <string name="create_personal_account_unauthorized_phone_error">Unauthorized phone number.</string>
-    <string name="create_personal_account_phone_in_use_error">The given phone number is in use.</string>
+    <string name="create_personal_account_unauthorized_email_error">Endereço de e-mail não autorizado.</string>
+    <string name="create_personal_account_email_in_use_error">O endereço de e-mail fornecido está em uso.</string>
+    <string name="create_personal_account_invalid_activation_code_error">Código de ativação inválido.</string>
+    <string name="create_personal_account_unauthorized_phone_error">Número de telefone não autorizado.</string>
+    <string name="create_personal_account_phone_in_use_error">O número de telefone fornecido está em uso.</string>
     <!-- Composite Message -->
-    <string name="composite_message_button_action_error">Your answer can\'t be sent, please retry.</string>
-    <string name="composite_message_confirmed_button_content_description">%1$s confirmed</string>
+    <string name="composite_message_button_action_error">Sua resposta não pode ser enviada, por favor, tente novamente.</string>
+    <string name="composite_message_confirmed_button_content_description">%1$s confirmado</string>
     <!-- StartSSO Screen  -->
-    <string name="start_sso_leaving_wire">Redirecting&#8230;</string>
-    <string name="start_sso_redirected_to">You are being redirected to your dedicated enterprise service.</string>
-    <string name="start_sso_notice">Provide credentials only if you\'re sure this is your organization\'s login.</string>
+    <string name="start_sso_leaving_wire">Redirecionando&#8230;</string>
+    <string name="start_sso_redirected_to">Você está sendo redirecionado para o serviço de empresa dedicado.</string>
+    <string name="start_sso_notice">Forneça credenciais apenas se tiver certeza de que este é o login da sua organização.</string>
 </resources>
