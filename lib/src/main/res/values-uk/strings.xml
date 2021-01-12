@@ -250,8 +250,6 @@
     <string name="conversation__action__notifications_title">Повідомляти мене про:</string>
     <!-- Conversation: Profile Popover -->
     <!-- Calling/voice -->
-    <string name="calling__slow_connection__title">Повільний інтернет</string>
-    <string name="calling__slow_connection__message">Дуже повільне з\'єднання для здійснення дзвінка. Спробуйте ще раз, пізніше.</string>
     <string name="calling__cannot_start__title">Необхідний доступ до мікрофону</string>
     <string name="calling__cannot_start__message">Щоб зателефонувати, завершіть ваш поточний дзвінок.</string>
     <string name="calling__cannot_start__no_permission__message">Відкрийте налаштування та дозвольте Wire доступ до мікрофону.</string>
@@ -292,6 +290,9 @@
     <string name="group_calling_message" tools:ignore="PluralsCandidate">Ви подзвоните %1$s учасникам</string>
     <string name="group_calling_confirm">Аудіодзвінок</string>
     <string name="calling_self">%s (Ви)</string>
+    <string name="calling_no_active_speaker">Активні динаміки відсутні…</string>
+    <string name="calling_toggle_all">ВСІ</string>
+    <string name="calling_toggle_speakers">ДИНАМІКИ</string>
     <!-- Connect request -->
     <string name="connect__message">Привіт %1$s,\nДавай спікуватися в Wire.\n%2$s</string>
     <string name="connect_request__sub_header__pending_label">Очікує підтвердження</string>
@@ -414,16 +415,16 @@
     <string name="pref_advanced_receive_news_and_offers_summary">Отримувати новини та інформацію про оновлення Wire по електронній пошті.</string>
     <!-- App Lock -->
     <string name="pref_options_app_lock">Код допуску</string>
-    <string name="pref_options_app_lock_change">Change passcode</string>
+    <string name="pref_options_app_lock_change">Змінити код допуску</string>
     <string name="app_lock_locked_title">Wire було заблоковано через відсутність активності</string>
     <string name="app_lock_locked_message">Введіть пароль для вашого облікового запису.</string>
     <string name="app_lock_setup_dialog_messsage">Встановіть пароль в налаштуваннях вашого пристрою, щоб розблокувати Wire.</string>
-    <string name="new_password_dialog_title">Create a Passcode</string>
-    <string name="new_password_dialog_button">Create Passcode</string>
-    <string name="new_password_dialog_title_change">Change Passcode</string>
-    <string name="new_password_dialog_button_change">Change Passcode</string>
-    <string name="new_password_dialog_message">Your organization needs to lock your app when Wire is not in use to keep the Team safe.\nCreate a memorable passcode, as it cannot be recovered.</string>
-    <string name="new_password_dialog_showhide_cd">Show/hide the password</string>
+    <string name="new_password_dialog_title">Створити код допуску</string>
+    <string name="new_password_dialog_button">Створити код допуску</string>
+    <string name="new_password_dialog_title_change">Змінити код допуску</string>
+    <string name="new_password_dialog_button_change">Змінити код допуску</string>
+    <string name="new_password_dialog_message">Ваша організація має заблокувати додаток, якщо Wire не використовується, щоб забезпечити безпеку вашої команди.\nСтворіть код допуску, який легко запам\'ятовується, оскільки потім його неможливо буде відновити.</string>
+    <string name="new_password_dialog_showhide_cd">Показати/приховати пароль</string>
     <!-- Options -->
     <string name="pref_options_screen_title">Налаштування</string>
     <string name="pref_options_vbr_title">Змінний бітрейт</string>
