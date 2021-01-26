@@ -168,10 +168,12 @@
     <string name="content__you_pinged">[[TU]] HAI FATTO UN TRILLO</string>
     <string name="content__xxx_pinged">[[%1$s]] HA FATTO UN TRILLO</string>
     <!-- Conversation: E2EE system messages -->
-    <string name="content__otr__message_error">UN MESSAGGIO DA [[%1$s]] NON È STATO RICEVUTO. _PERCHÈ?_</string>
+    <string name="content__otr__message_error">A message from [[%1$s]] could not be decrypted.\n _FIX TO DECRYPT FUTURE MESSAGES_</string>
+    <string name="content__otr__message_error_fixed">You can now decrypt future messages from [[%1$s]]. To recover lost messages, [[ask %2$s to resend them.]]\n(FIXED ERROR: [[%3$s]] ID: %4$s)</string>
     <string name="content__otr__message_error_you">UN MESSAGGIO DA TE NON È STATO RICEVUTO. _PERCHÈ?_</string>
     <string name="content__otr__identity_changed_error">L\'IDENTITÀ DEL DISPOSITIVO DI [[%1$s]] È CAMBIATA. MESSAGGIO NON CONSEGNATO _SCOPRI DI PIÙ_</string>
     <string name="content__otr__identity_changed_error_you">L\'IDENTITÀ DEL TUO DISPOSITIVO È CAMBIATA. MESSAGGIO NON CONSEGNATO _SCOPRI DI PIÙ_</string>
+    <string name="content__session_reset">[[%1$s was unable to decrypt some of your messages but has solved the issue.]] This affected all conversations you share together.</string>
     <string name="content__otr__someone_added_new_device__message">%1$s ha iniziato ad usare un _nuovo dispositivo_</string>
     <string name="content__otr__someone_and_you_added_new_device__message">tu e %1$s avete iniziato ad usare un _nuovo dispositivo_</string>
     <string name="content__otr__someone_and_others_added_new_device__message">%1$s e %2$s altri hanno iniziato ad usare un _nuovo dispositivo_</string>
@@ -280,9 +282,9 @@
     <string name="group_calling_message" tools:ignore="PluralsCandidate">Questo chiamerà %1$s persone</string>
     <string name="group_calling_confirm">Chiama</string>
     <string name="calling_self">%s (Tu)</string>
-    <string name="calling_no_active_speaker">No active speakers...</string>
-    <string name="calling_toggle_all">ALL</string>
-    <string name="calling_toggle_speakers">SPEAKERS</string>
+    <string name="calling_no_active_speaker">Nessun altoparlante attivo...</string>
+    <string name="calling_toggle_all">TUTTI</string>
+    <string name="calling_toggle_speakers">SPEAKER</string>
     <!-- Connect request -->
     <string name="connect__message">Ciao %1$s, \nConnettiamoci su Wire. \n%2$s</string>
     <string name="connect_request__sub_header__pending_label">In sospeso</string>
@@ -397,16 +399,16 @@
     <string name="pref_advanced_receive_news_and_offers_summary">Ricevi notizie e aggiornamenti da Wire via email.</string>
     <!-- App Lock -->
     <string name="pref_options_app_lock">Codice di accesso</string>
-    <string name="pref_options_app_lock_change">Change passcode</string>
+    <string name="pref_options_app_lock_change">Cambia codice di accesso</string>
     <string name="app_lock_locked_title">Wire è bloccato a causa di inattività</string>
     <string name="app_lock_locked_message">Inserisci la password del tuo account.</string>
     <string name="app_lock_setup_dialog_messsage">Per sbloccare Wire, imposta una frase segreta nelle impostazioni del dispositivo.</string>
-    <string name="new_password_dialog_title">Create a Passcode</string>
-    <string name="new_password_dialog_button">Create Passcode</string>
-    <string name="new_password_dialog_title_change">Change Passcode</string>
-    <string name="new_password_dialog_button_change">Change Passcode</string>
+    <string name="new_password_dialog_title">Crea un codice di accesso</string>
+    <string name="new_password_dialog_button">Crea Codice</string>
+    <string name="new_password_dialog_title_change">Cambia codice di accesso</string>
+    <string name="new_password_dialog_button_change">Cambia codice di accesso</string>
     <string name="new_password_dialog_message">Your organization needs to lock your app when Wire is not in use to keep the Team safe.\nCreate a memorable passcode, as it cannot be recovered.</string>
-    <string name="new_password_dialog_showhide_cd">Show/hide the password</string>
+    <string name="new_password_dialog_showhide_cd">Mostra/nascondi la password</string>
     <!-- Options -->
     <string name="pref_options_screen_title">Opzioni</string>
     <string name="pref_options_vbr_title">Codifica con Bit Rate variabile</string>
