@@ -94,7 +94,7 @@
     <string name="request_password_cancel">Tühista</string>
     <string name="request_password_biometric_description">Ava lukk biomeetrilise autentimisega.</string>
     <string name="request_password_biometric_cancel">Tühista</string>
-    <string name="request_password_error">Vale parool</string>
+    <string name="request_password_error">Wrong passcode</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">Teenused</string>
     <string name="integrations_errors_add_service">Teenuse lisamine pole võimalik</string>
@@ -401,14 +401,15 @@
     <string name="pref_options_app_lock">Pääsukood</string>
     <string name="pref_options_app_lock_change">Change passcode</string>
     <string name="app_lock_locked_title">Wire on ebaaktiivsuse tõttu lukus</string>
-    <string name="app_lock_locked_message">Palun sisesta oma konto parool.</string>
-    <string name="app_lock_setup_dialog_messsage">Wire\'i lahti lukustamiseks määra salaväljend oma seadme seadetes.</string>
+    <string name="app_lock_locked_message">Please enter your account passcode.</string>
+    <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passcode in your device settings.</string>
     <string name="new_password_dialog_title">Create a Passcode</string>
     <string name="new_password_dialog_button">Create Passcode</string>
     <string name="new_password_dialog_title_change">Change Passcode</string>
     <string name="new_password_dialog_button_change">Change Passcode</string>
     <string name="new_password_dialog_message">Your organization needs to lock your app when Wire is not in use to keep the Team safe.\nCreate a memorable passcode, as it cannot be recovered.</string>
-    <string name="new_password_dialog_showhide_cd">Show/hide the password</string>
+    <string name="new_password_dialog_showhide_cd">Show/hide the passcode</string>
+    <string name="new_password_dialog_title_change_in_wire">There was a change in Wire</string>
     <!-- Options -->
     <string name="pref_options_screen_title">Valikud</string>
     <string name="pref_options_vbr_title">Muutuv bitisageduse kodeering</string>
@@ -439,9 +440,8 @@
     <string name="pref_options_cursor_send_button_summary">Keela, et saata klaviatuuri kaudu.</string>
     <string name="pref_options_message_previews">Sõnumi eelvaade</string>
     <string name="pref_options_message_previews_summary">Kuva teadetes sõnumi sisu.</string>
-    <string name="pref_options_app_lock_title">Lukusta salaväljendiga</string>
-    <string name="pref_options_app_lock_summary">Lukusta Wire peale %1$s sekundit taustal olekut.
-Lahti lukustada saad PINi, mustri, parooli või biomeetriaga.</string>
+    <string name="pref_options_app_lock_title">Lock with Passcode</string>
+    <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Passcode or Biometrics.</string>
     <string name="pref_options_incognito_keyboard">Inkognito klaviatuur</string>
     <string name="pref_options_incognito_keyboard_summary">Klaviatuur ei näita sõnumite kirjutamisel soovitusi</string>
     <!-- Devices -->
@@ -453,7 +453,7 @@ Lahti lukustada saad PINi, mustri, parooli või biomeetriaga.</string>
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Kinnitatud</string>
     <string name="pref_devices_device_not_verified">Pole kinnitatud</string>
-    <string name="pref_devices_warning_summary">Kui sa ei tunne mõnda ülalolevat seadet ära, eemalda see ja lähtesta oma parool.</string>
+    <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your passcode.</string>
     <string name="pref_devices_device_screen_title">Seadme detailid</string>
     <string name="pref_devices_device_fingerprint_category_title">Sõrmejälg</string>
     <string name="pref_devices_device_fingerprint_summary">Wire annab igale seadmele unikaalse sõrmejälje. Võrdle neid ja kinnita oma seadmed ning vestlused.</string>

@@ -94,7 +94,7 @@
     <string name="request_password_cancel">إلغاء</string>
     <string name="request_password_biometric_description">فك القفل بمصادقة البصمة.</string>
     <string name="request_password_biometric_cancel">إلغاء</string>
-    <string name="request_password_error">كلمة مرور خاطئة</string>
+    <string name="request_password_error">Wrong passcode</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">الخدمات</string>
     <string name="integrations_errors_add_service">إضافة الخدمة غير ممكن</string>
@@ -437,14 +437,15 @@
     <string name="pref_options_app_lock">رمز المرور</string>
     <string name="pref_options_app_lock_change">Change passcode</string>
     <string name="app_lock_locked_title">تم تأمين Wire بسبب خمول النشاط</string>
-    <string name="app_lock_locked_message">الرجاء ادخال كلمة مرورك.</string>
-    <string name="app_lock_setup_dialog_messsage">لفتح واير، أعِدّ مقطعًا سريًا في إعدادات جهازك.</string>
+    <string name="app_lock_locked_message">Please enter your account passcode.</string>
+    <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passcode in your device settings.</string>
     <string name="new_password_dialog_title">Create a Passcode</string>
     <string name="new_password_dialog_button">Create Passcode</string>
     <string name="new_password_dialog_title_change">Change Passcode</string>
     <string name="new_password_dialog_button_change">Change Passcode</string>
     <string name="new_password_dialog_message">Your organization needs to lock your app when Wire is not in use to keep the Team safe.\nCreate a memorable passcode, as it cannot be recovered.</string>
-    <string name="new_password_dialog_showhide_cd">Show/hide the password</string>
+    <string name="new_password_dialog_showhide_cd">Show/hide the passcode</string>
+    <string name="new_password_dialog_title_change_in_wire">There was a change in Wire</string>
     <!-- Options -->
     <string name="pref_options_screen_title">الخيارات</string>
     <string name="pref_options_vbr_title">ترميز بمعدل بت متغير</string>
@@ -475,8 +476,8 @@
     <string name="pref_options_cursor_send_button_summary">تعطي الإرسال عن طريق لوحة المفاتيح.</string>
     <string name="pref_options_message_previews">استعراض الرسائل</string>
     <string name="pref_options_message_previews_summary">أظهر محتوى الرسالة في الإشعارات.</string>
-    <string name="pref_options_app_lock_title">اقفله بعبارة سرية</string>
-    <string name="pref_options_app_lock_summary">أقفل واير بعد %1$s ثوانٍ في الخلفية. فكّ القفل باستخدام رمز، نمط، كلمة مرور أو البصمة.</string>
+    <string name="pref_options_app_lock_title">Lock with Passcode</string>
+    <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Passcode or Biometrics.</string>
     <string name="pref_options_incognito_keyboard">وضع المجهول للوحة المفاتيح</string>
     <string name="pref_options_incognito_keyboard_summary">لوحة المفاتيح لن تظهر اقتراحات أثناء كتابة الرسائل</string>
     <!-- Devices -->
@@ -488,7 +489,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">تم التحقق</string>
     <string name="pref_devices_device_not_verified">لم يتم التحقق</string>
-    <string name="pref_devices_warning_summary">إذا كنت لا تعرف الجهاز أعلاه، قم بإزالته وإعادة تعيين كلمة المرور الخاصة بك.</string>
+    <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your passcode.</string>
     <string name="pref_devices_device_screen_title">تفاصيل الجهاز</string>
     <string name="pref_devices_device_fingerprint_category_title">مفتاح البصمة</string>
     <string name="pref_devices_device_fingerprint_summary">واير يعطي كل جهاز بصمة فريدة. قم بمقارنة البصمات و تحقق من أجهزتك و محادثاتك.</string>

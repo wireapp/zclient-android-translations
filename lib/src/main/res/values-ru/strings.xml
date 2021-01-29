@@ -94,7 +94,7 @@
     <string name="request_password_cancel">Отмена</string>
     <string name="request_password_biometric_description">Разблокировать при помощи биометрии.</string>
     <string name="request_password_biometric_cancel">Отмена</string>
-    <string name="request_password_error">Неправильный пароль</string>
+    <string name="request_password_error">Неверный код доступа</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">Сервисы</string>
     <string name="integrations_errors_add_service">Добавление сервиса невозможно</string>
@@ -419,14 +419,15 @@
     <string name="pref_options_app_lock">Код доступа</string>
     <string name="pref_options_app_lock_change">Изменить код доступа</string>
     <string name="app_lock_locked_title">Wire заблокирован из-за неактивности</string>
-    <string name="app_lock_locked_message">Пожалуйста, введите пароль вашей учетной записи.</string>
-    <string name="app_lock_setup_dialog_messsage">Чтобы разблокировать Wire, установите парольную фразу в настройках вашего устройства.</string>
+    <string name="app_lock_locked_message">Please enter your account passcode.</string>
+    <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passcode in your device settings.</string>
     <string name="new_password_dialog_title">Создать код доступа</string>
     <string name="new_password_dialog_button">Создание кода доступа</string>
     <string name="new_password_dialog_title_change">Изменить код доступа</string>
     <string name="new_password_dialog_button_change">Изменить код доступа</string>
     <string name="new_password_dialog_message">Для обеспечения безопасности команды ваша организация будет блокировать ваше приложение, пока Wire не будет использоваться.\nСоздайте запоминающийся пароль, так как восстановить его будет невозможно.</string>
-    <string name="new_password_dialog_showhide_cd">Показать/скрыть пароль</string>
+    <string name="new_password_dialog_showhide_cd">Show/hide the passcode</string>
+    <string name="new_password_dialog_title_change_in_wire">В Wire произошли изменения</string>
     <!-- Options -->
     <string name="pref_options_screen_title">Настройки</string>
     <string name="pref_options_vbr_title">Кодирование с переменным битрейтом</string>
@@ -457,8 +458,8 @@
     <string name="pref_options_cursor_send_button_summary">Отключает отправку с помощью Enter.</string>
     <string name="pref_options_message_previews">Предварительный просмотр сообщений</string>
     <string name="pref_options_message_previews_summary">Показывать содержимое сообщения в уведомлениях.</string>
-    <string name="pref_options_app_lock_title">Блокировка парольной фразой</string>
-    <string name="pref_options_app_lock_summary">Заблокировать Wire через %1$s секунд работы в фоновом режиме.</string>
+    <string name="pref_options_app_lock_title">Lock with Passcode</string>
+    <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Passcode or Biometrics.</string>
     <string name="pref_options_incognito_keyboard">Инкогнито-клавиатура</string>
     <string name="pref_options_incognito_keyboard_summary">Клавиатура не будет отображать предложения при создании сообщений</string>
     <!-- Devices -->
@@ -470,7 +471,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Верифицировано</string>
     <string name="pref_devices_device_not_verified">Не верифицировано</string>
-    <string name="pref_devices_warning_summary">Если вам незнакомо какое-либо из устройств, удалите его и измените пароль.</string>
+    <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your passcode.</string>
     <string name="pref_devices_device_screen_title">Сведения об устройстве</string>
     <string name="pref_devices_device_fingerprint_category_title">Отпечаток ключа</string>
     <string name="pref_devices_device_fingerprint_summary">Wire присваивает каждому устройству уникальный отпечаток. Сравните их и верифицируйте ваши устройства и беседы.</string>

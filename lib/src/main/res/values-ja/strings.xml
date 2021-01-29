@@ -94,7 +94,7 @@
     <string name="request_password_cancel">キャンセル</string>
     <string name="request_password_biometric_description">生体認証を使ってロックを解除します。</string>
     <string name="request_password_biometric_cancel">キャンセル</string>
-    <string name="request_password_error">パスワードが間違っています</string>
+    <string name="request_password_error">パスコードが間違っています</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">サービス</string>
     <string name="integrations_errors_add_service">サービスの追加はできません。</string>
@@ -392,14 +392,15 @@
     <string name="pref_options_app_lock">パスコード</string>
     <string name="pref_options_app_lock_change">Change passcode</string>
     <string name="app_lock_locked_title">Wireはロックされています</string>
-    <string name="app_lock_locked_message">あなたのアカウントのパスワードを入力してください。</string>
-    <string name="app_lock_setup_dialog_messsage">Wireのロック解除には、デバイス設定からパスフレーズを設定します。</string>
+    <string name="app_lock_locked_message">Please enter your account passcode.</string>
+    <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passcode in your device settings.</string>
     <string name="new_password_dialog_title">Create a Passcode</string>
     <string name="new_password_dialog_button">Create Passcode</string>
     <string name="new_password_dialog_title_change">Change Passcode</string>
     <string name="new_password_dialog_button_change">Change Passcode</string>
     <string name="new_password_dialog_message">Your organization needs to lock your app when Wire is not in use to keep the Team safe.\nCreate a memorable passcode, as it cannot be recovered.</string>
-    <string name="new_password_dialog_showhide_cd">Show/hide the password</string>
+    <string name="new_password_dialog_showhide_cd">Show/hide the passcode</string>
+    <string name="new_password_dialog_title_change_in_wire">Wire に変更がありました。</string>
     <!-- Options -->
     <string name="pref_options_screen_title">オプション</string>
     <string name="pref_options_vbr_title">可変ビットレートエンコーディング</string>
@@ -430,8 +431,8 @@
     <string name="pref_options_cursor_send_button_summary">キーボードからの送信を無効にします。</string>
     <string name="pref_options_message_previews">メッセージプレビュー</string>
     <string name="pref_options_message_previews_summary">通知にメッセージ内容を表示します。</string>
-    <string name="pref_options_app_lock_title">パスフレーズでロック</string>
-    <string name="pref_options_app_lock_summary">バックグラウンドに移動した%1$s秒後にWireをロックします。PIN、パターン、パスワードまたは生体認証でロックを解除可能です。</string>
+    <string name="pref_options_app_lock_title">Lock with Passcode</string>
+    <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Passcode or Biometrics.</string>
     <string name="pref_options_incognito_keyboard">匿名キーボード</string>
     <string name="pref_options_incognito_keyboard_summary">メッセージ入力中にキーボードに変換候補が表示されなくなります。</string>
     <!-- Devices -->
@@ -443,7 +444,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">確認済</string>
     <string name="pref_devices_device_not_verified">未確認</string>
-    <string name="pref_devices_warning_summary">上のデバイスを知らない場合は、そのデバイスを削除して、パスワードをリセットしてください。</string>
+    <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your passcode.</string>
     <string name="pref_devices_device_screen_title">デバイスの詳細</string>
     <string name="pref_devices_device_fingerprint_category_title">重要なフィンガープリント</string>
     <string name="pref_devices_device_fingerprint_summary">Wireは各デバイスに固有のフィンガープリントを付与します。これを比較することでお使いのデバイスと会話を確認します。</string>
