@@ -396,8 +396,8 @@
     <string name="pref_account_picture_title">Изображение</string>
     <string name="pref_account_delete_title">Удалить аккаунт</string>
     <string name="pref_account_delete_warning_title">Удалить аккаунт</string>
-    <string name="pref_account_delete_warning_message_email">Мы отправим вам сообщение на email:\n[[%1$s]]\nПерейдите по ссылке, чтобы окончательно удалить свой аккаунт.</string>
-    <string name="pref_account_delete_warning_message_sms">Мы отправим вам SMS на:\n[[%1$s]]\nПерейдите по ссылке, чтобы окончательно удалить свой аккаунт.</string>
+    <string name="pref_account_delete_warning_message_email">Мы отправим email на:\n[[%1$s]]\nПерейдите по ссылке, чтобы окончательно удалить свой аккаунт.</string>
+    <string name="pref_account_delete_warning_message_sms">Мы отправим SMS на:\n[[%1$s]]\nПерейдите по ссылке, чтобы окончательно удалить свой аккаунт.</string>
     <string name="pref_account_delete_warning_verify">OK</string>
     <string name="pref_account_delete_warning_cancel">Отмена</string>
     <string name="pref_account_sign_out_warning_message">Вы уверены, что хотите выйти?</string>
@@ -419,14 +419,14 @@
     <string name="pref_options_app_lock">Код доступа</string>
     <string name="pref_options_app_lock_change">Изменить код доступа</string>
     <string name="app_lock_locked_title">Wire заблокирован из-за неактивности</string>
-    <string name="app_lock_locked_message">Please enter your account passcode.</string>
-    <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passcode in your device settings.</string>
+    <string name="app_lock_locked_message">Пожалуйста, введите код доступа вашей учетной записи.</string>
+    <string name="app_lock_setup_dialog_messsage">Чтобы разблокировать Wire, установите код доступа в настройках вашего устройства.</string>
     <string name="new_password_dialog_title">Создать код доступа</string>
     <string name="new_password_dialog_button">Создание кода доступа</string>
     <string name="new_password_dialog_title_change">Изменить код доступа</string>
     <string name="new_password_dialog_button_change">Изменить код доступа</string>
     <string name="new_password_dialog_message">Для обеспечения безопасности команды ваша организация будет блокировать ваше приложение, пока Wire не будет использоваться.\nСоздайте запоминающийся пароль, так как восстановить его будет невозможно.</string>
-    <string name="new_password_dialog_showhide_cd">Show/hide the passcode</string>
+    <string name="new_password_dialog_showhide_cd">Показать/скрыть код доступа</string>
     <string name="new_password_dialog_title_change_in_wire">В Wire произошли изменения</string>
     <!-- Options -->
     <string name="pref_options_screen_title">Настройки</string>
@@ -458,8 +458,8 @@
     <string name="pref_options_cursor_send_button_summary">Отключает отправку с помощью Enter.</string>
     <string name="pref_options_message_previews">Предварительный просмотр сообщений</string>
     <string name="pref_options_message_previews_summary">Показывать содержимое сообщения в уведомлениях.</string>
-    <string name="pref_options_app_lock_title">Lock with Passcode</string>
-    <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Passcode or Biometrics.</string>
+    <string name="pref_options_app_lock_title">Блокировка кодом доступа</string>
+    <string name="pref_options_app_lock_summary">Заблокировать Wire через %1$s секунд работы в фоновом режиме.</string>
     <string name="pref_options_incognito_keyboard">Инкогнито-клавиатура</string>
     <string name="pref_options_incognito_keyboard_summary">Клавиатура не будет отображать предложения при создании сообщений</string>
     <!-- Devices -->
@@ -471,7 +471,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Верифицировано</string>
     <string name="pref_devices_device_not_verified">Не верифицировано</string>
-    <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your passcode.</string>
+    <string name="pref_devices_warning_summary">Если вам незнакомо какое-либо из устройств, удалите его и измените код доступа.</string>
     <string name="pref_devices_device_screen_title">Сведения об устройстве</string>
     <string name="pref_devices_device_fingerprint_category_title">Отпечаток ключа</string>
     <string name="pref_devices_device_fingerprint_summary">Wire присваивает каждому устройству уникальный отпечаток. Сравните их и верифицируйте ваши устройства и беседы.</string>
@@ -1068,7 +1068,7 @@
     <string name="teams_set_name_title">Ваше имя</string>
     <string name="teams_set_name_hint">ПОЛНОЕ ИМЯ</string>
     <string name="app_entry_create_account">Personal</string>
-    <string name="app_entry_create_account_sub">Приватный чат с группами друзей и семьей</string>
+    <string name="app_entry_create_account_sub">Конфиденциальное общение с друзьями и семьей</string>
     <string name="app_entry_create_team">Pro</string>
     <string name="app_entry_create_team_sub">Безопасная совместная работа для предприятий, учреждений и профессиональных организаций</string>
     <string name="app_entry_login_sub">Уже зарегистрированы?</string>
@@ -1341,8 +1341,8 @@
     <string name="edit_phone_dialog_confirm_phone_confirmation">Мы отправим код на \n%s</string>
     <string name="edit_phone_save_phone_number">Сохранить</string>
     <!-- Delete Account -->
-    <string name="delete_account_permanently_email_confirmation">Мы отправим вам сообщение на email:\n %1$s \nПерейдите по ссылке, чтобы окончательно удалить свой аккаунт.</string>
-    <string name="delete_account_permanently_sms_confirmation">Мы отправим вам сообщение SMS на:\n %1$s \nПерейдите по ссылке, чтобы окончательно удалить свой аккаунт.</string>
+    <string name="delete_account_permanently_email_confirmation">Мы отправим email на:\n %1$s \nПерейдите по ссылке, чтобы окончательно удалить свой аккаунт.</string>
+    <string name="delete_account_permanently_sms_confirmation">Мы отправим SMS на:\n %1$s \nПерейдите по ссылке, чтобы окончательно удалить свой аккаунт.</string>
     <string name="pref_account_delete_confirmed">Удаление аккаунта подтверждено, пожалуйста, проверьте свою электронную почту.</string>
     <!-- Authentication (Shared strings between create account and login screens) -->
     <string name="authentication_tab_layout_title_email">ЭЛЕКТРОННАЯ ПОЧТА</string>
