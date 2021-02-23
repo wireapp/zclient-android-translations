@@ -94,7 +94,7 @@
     <string name="request_password_cancel">İptal</string>
     <string name="request_password_biometric_description">Biyometrik kimlik doğrulamayı kullanarak kilidini açın.</string>
     <string name="request_password_biometric_cancel">İptal</string>
-    <string name="request_password_error">Wrong passcode</string>
+    <string name="request_password_error">Yanlış Şifre</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">Servisler</string>
     <string name="integrations_errors_add_service">Hizmeti eklemek mümkün değil</string>
@@ -168,12 +168,12 @@
     <string name="content__you_pinged">[[SEN]] SESLENDİN</string>
     <string name="content__xxx_pinged">[[%1$s]] SESLENDİ</string>
     <!-- Conversation: E2EE system messages -->
-    <string name="content__otr__message_error">A message from [[%1$s]] could not be decrypted.\n _FIX TO DECRYPT FUTURE MESSAGES_</string>
-    <string name="content__otr__message_error_fixed">You can now decrypt future messages from [[%1$s]]. To recover lost messages, [[ask %2$s to resend them.]]\n(FIXED ERROR: [[%3$s]] ID: %4$s)</string>
+    <string name="content__otr__message_error">[[%1$s]] tarafından gönderilen bir mesajın şifresi çözülemedi.\n _GELECEKTEKİ MESAJLARININ ÇÖZÜMÜNÜ DÜZELTİN_</string>
+    <string name="content__otr__message_error_fixed">Artık [[%1$s]] adresinden gelecek mesajların şifresini çözebilirsiniz. Kayıp mesajları kurtarmak için [[%2$s]]\'den onları yeniden göndermesini isteyin.\n (ÇÖZÜLEN HATA: [[%3$s]] ID:%4$s)</string>
     <string name="content__otr__message_error_you">SİZDEN BİR MESAJ ALINMADI. _NEDEN ?_</string>
     <string name="content__otr__identity_changed_error">[[%1$s]] KİŞİSİNİN CİHAZ KİMLİĞİ DEĞİŞTİ. TESLİM EDİLEMEYEN MESAJ. _DAHASINI ÖĞRENİN_</string>
     <string name="content__otr__identity_changed_error_you">CİHAZINIZIN KİMLİĞİ DEĞİŞTİRİLDİ. MESAJ TESLİM EDİLEMEDİ. _DAHA FAZLA BİLGİ EDİN_</string>
-    <string name="content__session_reset">[[%1$s was unable to decrypt some of your messages but has solved the issue.]] This affected all conversations you share together.</string>
+    <string name="content__session_reset">[[%1$s, mesajlarınızdan bazılarının şifresini çözemedi ancak sorunu çözdü.]] Bu, paylaştığınız tüm konuşmaları etkiledi.</string>
     <string name="content__otr__someone_added_new_device__message">%1$s _yeni bir cihaz_ kullanmaya başladı</string>
     <string name="content__otr__someone_and_you_added_new_device__message">%1$s ve siz _yeni bir cihaz_ kullanmaya başladınız</string>
     <string name="content__otr__someone_and_others_added_new_device__message">%1$s %2$s diğer kişi _yeni bir cihaz_ kullanmaya başladı</string>
@@ -282,8 +282,8 @@
     <string name="group_calling_message" tools:ignore="PluralsCandidate">Bu %1$s kişiyi arayacak</string>
     <string name="group_calling_confirm">Ara</string>
     <string name="calling_self">%s (Siz)</string>
-    <string name="calling_no_active_speaker">No active speakers...</string>
-    <string name="calling_toggle_all">ALL</string>
+    <string name="calling_no_active_speaker">No active video speakers...</string>
+    <string name="calling_toggle_all">TÜMÜ</string>
     <string name="calling_toggle_speakers">SPEAKERS</string>
     <!-- Connect request -->
     <string name="connect__message">Selam %1$s,\nHadi Wire üzerinden bağlanalım.\n%2$s</string>
@@ -398,18 +398,18 @@
     <string name="pref_advanced_receive_news_and_offers_title">Bülten Alın</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Wire\'dan haberleri ve ürün güncellemelerini e-postayla alın.</string>
     <!-- App Lock -->
-    <string name="pref_options_app_lock">Şifre</string>
-    <string name="pref_options_app_lock_change">Change passcode</string>
+    <string name="pref_options_app_lock">Parola</string>
+    <string name="pref_options_app_lock_change">Şifreyi Değiştir</string>
     <string name="app_lock_locked_title">Wire hareketsizlik nedeniyle kilitlendi</string>
-    <string name="app_lock_locked_message">Please enter your account passcode.</string>
-    <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passcode in your device settings.</string>
-    <string name="new_password_dialog_title">Create a Passcode</string>
-    <string name="new_password_dialog_button">Create Passcode</string>
-    <string name="new_password_dialog_title_change">Change Passcode</string>
-    <string name="new_password_dialog_button_change">Change Passcode</string>
+    <string name="app_lock_locked_message">Lütfen hesap şifrenizi girin.</string>
+    <string name="app_lock_setup_dialog_messsage">Wire\'ın kilidini açmak için cihaz ayarlarınızda bir parola ayarlayın.</string>
+    <string name="new_password_dialog_title">Parola Oluşturun</string>
+    <string name="new_password_dialog_button">Parola Oluştur</string>
+    <string name="new_password_dialog_title_change">Parolayı Değiştir</string>
+    <string name="new_password_dialog_button_change">Parolayı Değiştir</string>
     <string name="new_password_dialog_message">Your organization needs to lock your app when Wire is not in use to keep the Team safe.\nCreate a memorable passcode, as it cannot be recovered.</string>
-    <string name="new_password_dialog_showhide_cd">Show/hide the passcode</string>
-    <string name="new_password_dialog_title_change_in_wire">There was a change in Wire</string>
+    <string name="new_password_dialog_showhide_cd">Parolayı göster/gizle</string>
+    <string name="new_password_dialog_title_change_in_wire">Wire\'da bir değişiklik oldu</string>
     <!-- Options -->
     <string name="pref_options_screen_title">Ayarlar</string>
     <string name="pref_options_vbr_title">Değişken Bit Hızı Kodlaması</string>
@@ -440,8 +440,8 @@
     <string name="pref_options_cursor_send_button_summary">Klavye ile göndermeyi devre dışı bırak.</string>
     <string name="pref_options_message_previews">Mesaj önizlemeleri</string>
     <string name="pref_options_message_previews_summary">Mesaj içeriğini bildirimlerde görüntüle.</string>
-    <string name="pref_options_app_lock_title">Lock with Passcode</string>
-    <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Passcode or Biometrics.</string>
+    <string name="pref_options_app_lock_title">Parola ile Kilitle</string>
+    <string name="pref_options_app_lock_summary">Wire\'ı arka planda %1$s saniye sonra kilitle. Pin, Desen, Parola veya Biyometri ile kilidini açın.</string>
     <string name="pref_options_incognito_keyboard">Gizli klavye</string>
     <string name="pref_options_incognito_keyboard_summary">Mesaj yazarken klavye önerileri gösterilmez</string>
     <!-- Devices -->
@@ -453,7 +453,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Doğrulandı</string>
     <string name="pref_devices_device_not_verified">Doğrulanmadı</string>
-    <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your passcode.</string>
+    <string name="pref_devices_warning_summary">Yukarıdaki cihazı tanımıyorsanız, onu kaldırın ve parolanızı sıfırlayın.</string>
     <string name="pref_devices_device_screen_title">Cihaz detayları</string>
     <string name="pref_devices_device_fingerprint_category_title">Anahtar Parmak İzi</string>
     <string name="pref_devices_device_fingerprint_summary">Wire her cihaza kendine has bir parmak izi verir. Cihazlarınızı ve konuşmalarınızı doğrulamak için parmak izlerinizi karşılaştırın.</string>
