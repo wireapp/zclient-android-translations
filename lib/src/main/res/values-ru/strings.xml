@@ -387,7 +387,7 @@
     <string name="pref_account_appearance_category_title">Внешний вид</string>
     <string name="pref_account_personal_information_category_title">Личные данные</string>
     <string name="pref_account_conversations_category_title">История</string>
-    <string name="pref_account_username_title">Имя пользователя</string>
+    <string name="pref_account_username_title">Псевдоним</string>
     <string name="pref_account_phone_title">Телефон</string>
     <string name="pref_account_add_phone_title">Добавить номер телефона</string>
     <string name="pref_account_email_title">Email</string>
@@ -543,7 +543,7 @@
     <string name="pref__account_action__dialog__delete_phone__error">Не удалось удалить номер телефона</string>
     <string name="pref__account_action__dialog__change_email__title">Изменить email</string>
     <string name="pref__account_action__dialog__change_username__rules">Не менее 2 символов. Только a–z, 0–9 и _</string>
-    <string name="pref__account_action__dialog__change_username__title">Имя пользователя</string>
+    <string name="pref__account_action__dialog__change_username__title">Псевдоним</string>
     <string name="pref__account_action__dialog__change_username__error_already_taken">Уже занято</string>
     <string name="pref__account_action__dialog__change_username__error_unknown">Ошибка соединения, пожалуйста, попробуйте снова</string>
     <string name="pref__account_privacy">Конфиденциальность</string>
@@ -724,7 +724,7 @@
     <string name="hello">Привет, &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="sign_in">Войти</string>
     <string name="new_reg__password_length">НЕ МЕНЕЕ %1$s СИМВОЛОВ</string>
-    <string name="username__set__toast_error">Ошибка обновления имени пользователя</string>
+    <string name="username__set__toast_error">Ошибка при обновлении псевдонима</string>
     <!-- Giphy -->
     <string name="giphy_preview__search_hint">Поиск Giphy</string>
     <string name="giphy_preview__error">GIF-ок НЕ НАЙДЕНО.</string>
@@ -896,9 +896,9 @@
     <string name="message_footer__status__read_group">%1$s \u30FB @ %2$s</string>
     <string name="message_footer__status__edited">Изменено: %1$s</string>
     <string name="ephemeral_message__timeout_selection_info">УСТАНОВИТЕ ВРЕМЯ ДЕЙСТВИЯ СООБЩЕНИЯ</string>
-    <string name="usernames__take_over__summary">Зарегистрируйте свое уникальное имя в Wire. _Подробнее._</string>
-    <string name="usernames__take_over__choose">ВЫБРАТЬ СВОЕ</string>
-    <string name="usernames__take_over__keep">ОСТАВИТЬ ЭТО</string>
+    <string name="usernames__take_over__summary">Выберите себе уникальный псевдоним в Wire. _Подробнее._</string>
+    <string name="usernames__take_over__choose">ВЫБРАТЬ СВОЙ</string>
+    <string name="usernames__take_over__keep">ОСТАВИТЬ ЭТОТ</string>
     <string name="ephemeral_message__timeout__off">Отключено</string>
     <string name="ephemeral_message__options_header">ВРЕМЕННЫЕ СООБЩЕНИЯ</string>
     <string name="guests_option_on">Вкл.</string>
@@ -1057,8 +1057,8 @@
     <string name="teams_set_email_about">ПОДРОБНЕЕ</string>
     <string name="teams_set_password_title">Установить пароль</string>
     <string name="teams_set_password_hint">Пароль</string>
-    <string name="teams_set_username_title">Задать имя пользователя</string>
-    <string name="teams_set_username_hint">ИМЯ ПОЛЬЗОВАТЕЛЯ</string>
+    <string name="teams_set_username_title">Задать псевдоним</string>
+    <string name="teams_set_username_hint">ПСЕВДОНИМ</string>
     <string name="teams_set_team_name_title">Назовите команду</string>
     <string name="teams_set_team_name_subtitle">Вы всегда сможете изменить название позже.</string>
     <string name="teams_set_team_name_hint">НАЗВАНИЕ КОМАНДЫ</string>
@@ -1087,7 +1087,7 @@
     <string name="app_entry_dialog_view">ПРОСМОТР</string>
     <string name="app_entry_dialog_privacy_policy">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</string>
     <string name="app_entry_email_sent">Письмо отправлено</string>
-    <string name="teams_set_username_subtitle">Имена пользователей помогают другим пользователям найти вас.</string>
+    <string name="teams_set_username_subtitle">Псевдонимы помогают другим пользователям найти вас.</string>
     <string name="app_entry_sso_dialog_title">Вход для компаний</string>
     <string name="app_entry_sso_dialog_message">Введите код доступа SSO вашей компании.</string>
     <string name="app_entry_sso_input_hint"></string>
@@ -1391,6 +1391,12 @@
     <string name="start_sso_notice">Указывайте учетные данные, только если вы уверены, что это форма авторизации вашей организации.</string>
     <!-- Legal Hold -->
     <string name="legal_hold_info_title">Правовая защита</string>
-    <string name="legal_hold_self_user_info_message">Для вашей учетной записи активирована правовая защита.\n\nВсе сообщения будут сохранены для последующего доступа, включая удаленные, отредактированные и просроченные.\n\nВаши собеседники будут уведомлены об этом.</string>
+    <string name="legal_hold_self_user_info_message">Legal Hold has been activated for your account.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.\n\nYour conversation partners will be aware of the recording.</string>
+    <string name="legal_hold_conversation_info_message">Legal Hold has been activated for at least one person in this conversation.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.</string>
     <string name="legal_hold_info_list_title">Субъекты правовой защиты</string>
+    <string name="legal_hold_request_dialog_title">Запрошена правовая защита</string>
+    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.</string>
+    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.\n\nEnter your password to confirm.</string>
+    <string name="legal_hold_request_dialog_positive_button_text">Принять</string>
+    <string name="legal_hold_request_dialog_negative_button_text">Не сейчас</string>
 </resources>
