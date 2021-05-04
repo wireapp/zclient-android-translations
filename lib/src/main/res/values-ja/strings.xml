@@ -47,7 +47,7 @@
     <string name="phone_budget_exhausted_header">リクエストが多すぎます</string>
     <string name="phone_budget_exhausted_message">あとで再び試してください</string>
     <string name="conversation_input_bar_message_too_long_title">メッセージが長すぎます</string>
-    <string name="conversation_input_bar_message_too_long_message">You can send messages up to %1$s characters long.</string>
+    <string name="conversation_input_bar_message_too_long_message">%1$s 文字までメッセージを送信することができます。</string>
     <string name="conversation_input_bar_dialog_ok">OK</string>
     <!--*********************************************** ERRORS ***********************************************-->
     <string name="permissions_denied_dialog_settings">設定</string>
@@ -134,17 +134,17 @@
     </plurals>
     <!-- Remove people -->
     <string name="content__system__other_removed_other">[[%1$s]] %2$s を削除しました</string>
-    <string name="content__system__other_removed_someone">[[%1$s]] removed someone</string>
-    <string name="content__system__someone_removed_other">Someone removed %2$s</string>
+    <string name="content__system__other_removed_someone">[[%1$s]] が誰かを削除しました</string>
+    <string name="content__system__someone_removed_other">誰かが %2$sを削除しました</string>
     <string name="content__system__other_removed_you">[[%1$s]] あなたを削除しました</string>
-    <string name="content__system__someone_removed_you">Someone removed you</string>
+    <string name="content__system__someone_removed_you">誰かがあなたを削除しました</string>
     <string name="content__system__you_removed_other">あなたは %1$s を削除しました</string>
-    <string name="content__system__you_removed_someone">You removed someone</string>
+    <string name="content__system__you_removed_someone">誰かを削除しました</string>
     <string name="content__system__you_left">[[あなた]] 退室しました</string>
     <string name="content__system__other_left">[[%1$s]] 退室しました</string>
-    <string name="content__system__someone_left">Someone left</string>
-    <string name="content__system__other_was_removed">%1$s was removed</string>
-    <string name="content__system__someone_was_removed">Someone was removed</string>
+    <string name="content__system__someone_left">誰かが退出しました</string>
+    <string name="content__system__other_was_removed">%1$s は削除されました</string>
+    <string name="content__system__someone_was_removed">誰かが削除されました</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">あなたが会話を開始しました。</string>
     <string name="content__system__other_started_conversation">%1$s が会話を開始しました。</string>
@@ -163,12 +163,12 @@
     <string name="content__you_pinged">[[あなた]] が ping しました</string>
     <string name="content__xxx_pinged">[[%1$s]] が ping しました</string>
     <!-- Conversation: E2EE system messages -->
-    <string name="content__otr__message_error">A message from [[%1$s]] could not be decrypted.\n _FIX TO DECRYPT FUTURE MESSAGES_</string>
-    <string name="content__otr__message_error_fixed">You can now decrypt future messages from [[%1$s]]. To recover lost messages, [[ask %2$s to resend them.]]\n(FIXED ERROR: [[%3$s]] ID: %4$s)</string>
+    <string name="content__otr__message_error">[%1$s]] からのメッセージは復号できませんでした。\n _FIX To DeCRYPT FUTURE MESSAGES_</string>
+    <string name="content__otr__message_error_fixed">以後、[[%1$s]] からのメッセージを復号できます。失ったメッセージを回復するには、[[ %2$s に再送して問い合わせてください。]]\n(FIXED ERROR: [[%3$s]] ID: %4$s)</string>
     <string name="content__otr__message_error_you">あなたからのメッセージは受信されませんでした。_WHY? _</string>
     <string name="content__otr__identity_changed_error">[[%1$s]] のデバイス ID を変更しました。配信不能なメッセージ。 _詳細_</string>
     <string name="content__otr__identity_changed_error_you">あなたの デバイス ID を変更しました。メッセージは配信されません。 _詳細_</string>
-    <string name="content__session_reset">[[%1$s was unable to decrypt some of your messages but has solved the issue.]] This affected all conversations you share together.</string>
+    <string name="content__session_reset">[%1$s はいくつかのメッセージを復号できませんでしたが、問題を解決しました。]] これはあなたが共有するすべての会話に影響を与えました。</string>
     <string name="content__otr__someone_added_new_device__message">%1$s が _新しいデバイス_ を使い始めました</string>
     <string name="content__otr__someone_and_you_added_new_device__message">%1$s と あなたが 新しいデバイス を使い始めました</string>
     <string name="content__otr__someone_and_others_added_new_device__message">%1$s と 他 %2$s が 新しいデバイス を使い始めました</string>
@@ -203,8 +203,8 @@
     <string name="content__file__action__open__no_app_found">この種類のファイルを開くアプリが見つかりません</string>
     <string name="content__file__action__save_completed">ファイルを正常に保存しました</string>
     <string name="content__file__action__save_error">ファイルを保存できません</string>
-    <string name="file_restrictions__sender_error">Sharing files with the .%1$s extension is not permitted by your organization</string>
-    <string name="file_restrictions__receiver_error">File from %1$s can\'t be opened.</string>
+    <string name="file_restrictions__sender_error">.%1$s 拡張子のファイルを共有することは、所属組織によって許可されていません</string>
+    <string name="file_restrictions__receiver_error">%1$s からのファイルを開くことができません。</string>
     <string name="content__location__no_map_placeholder">オンラインに戻ったとき、場所が地図に表示されます。</string>
     <!-- Conversation actions -->
     <string name="conversation__action__clear_content">コンテンツを削除</string>
@@ -261,8 +261,8 @@
     <string name="call_banner_incoming_group">%1$s \u30FB %2$s を呼び出し中...</string>
     <string name="call_banner_tap_to_return_to_call">タップで \u30FB %1$s を再度呼び出します</string>
     <string name="call_error_unsupported_version_title">Wire を更新してください</string>
-    <string name="call_error_unsupported_version_message">You received a call that isn\'t supported by this version of Wire.\n\nGet the latest version in the Play Store.</string>
-    <string name="call_error_unsupported_version_button_ok">Go to Play Store</string>
+    <string name="call_error_unsupported_version_message">着信した通話はこのバージョンのWireではサポートされていません。\n\nPlayストアで最新バージョンを入手してください。</string>
+    <string name="call_error_unsupported_version_button_ok">Play ストアに移動</string>
     <string name="call_error_unsupported_version_button_dismiss">後で</string>
     <string name="calling_ongoing_call_title">通話中</string>
     <string name="calling_ongoing_call_start_message">他の会話で通話中です。\nここで呼び出すと、その他の通話は終了します。</string>
@@ -276,13 +276,13 @@
     <string name="group_calling_title">通話を始める</string>
     <string name="group_calling_message" tools:ignore="PluralsCandidate">%1$s 人を呼び出す</string>
     <string name="group_calling_confirm">通話</string>
-    <string name="calling_self">%s (You)</string>
-    <string name="calling_no_active_speaker">No active video speakers...</string>
-    <string name="calling_toggle_all">ALL</string>
-    <string name="calling_toggle_speakers">SPEAKERS</string>
-    <string name="calling_double_tap_enter_fullscreen_message">Double tap on a tile for fullscreen</string>
-    <string name="calling_double_tap_exit_fullscreen_message">Double tap to go back, pinch to zoom</string>
-    <string name="calling_screenshare_zooming_message">Pinch to zoom</string>
+    <string name="calling_self">%s (あなた)</string>
+    <string name="calling_no_active_speaker">アクティブなビデオスピーカーがありません...</string>
+    <string name="calling_toggle_all">全て</string>
+    <string name="calling_toggle_speakers">スピーカー</string>
+    <string name="calling_double_tap_enter_fullscreen_message">タイルをダブルタップして全画面表示にする</string>
+    <string name="calling_double_tap_exit_fullscreen_message">ダブルタップで戻り、ピンチでズームします</string>
+    <string name="calling_screenshare_zooming_message">ピンチしてズーム</string>
     <!-- Connect request -->
     <string name="connect__message">%1$s さん、こんにちは。\nWire でつながりましょう。\n%2$s</string>
     <string name="connect_request__sub_header__pending_label">保留中</string>
@@ -385,24 +385,24 @@
     <string name="pref_account_data_usage_permissions">データ利用許可</string>
     <string name="pref_backup_screen_title">会話をバックアップする</string>
     <!-- Data Usage Permissions -->
-    <string name="pref_advanced_send_anonymous_crash_reports_title">Send anonymous crash reports</string>
-    <string name="pref_advanced_send_anonymous_crash_reports_summary">Send anonymous crash reports and basic data like version number and operating system to help Wire identify and solve issues in the app.</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_title">匿名のクラッシュ レポートを送信</string>
+    <string name="pref_advanced_send_anonymous_crash_reports_summary">匿名のクラッシュレポートとバージョン番号やオペレーティングシステムなどの基本的なデータを送信して、Wireがアプリ内の問題を特定して解決するのに役立てます。</string>
     <string name="pref_advanced_send_anonymous_usage_data_title">利用状況に関する匿名のデータを送信</string>
     <string name="pref_advanced_send_anonymous_usage_data_summary">使用データを使用すると、Wireはアプリがどのように使用されているかと、アプリがどのように改善されるかを理解することができます。 データは匿名であり、通信の内容(メッセージ、ファイル、通話など)は含まれません。</string>
     <string name="pref_advanced_receive_news_and_offers_title">ニュースレターを受け取る</string>
     <string name="pref_advanced_receive_news_and_offers_summary">電子メールで Wireからニュースや製品アップデート情報を受け取る。</string>
     <!-- App Lock -->
     <string name="pref_options_app_lock">パスコード</string>
-    <string name="pref_options_app_lock_change">Change passcode</string>
+    <string name="pref_options_app_lock_change">パスコードを変更</string>
     <string name="app_lock_locked_title">Wireはロックされています</string>
-    <string name="app_lock_locked_message">Please enter your account passcode.</string>
-    <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passcode in your device settings.</string>
-    <string name="new_password_dialog_title">Create a Passcode</string>
-    <string name="new_password_dialog_button">Create Passcode</string>
-    <string name="new_password_dialog_title_change">Change Passcode</string>
-    <string name="new_password_dialog_button_change">Change Passcode</string>
-    <string name="new_password_dialog_message">Your organization needs to lock your app when Wire is not in use to keep the Team safe.\nCreate a memorable passcode, as it cannot be recovered.</string>
-    <string name="new_password_dialog_showhide_cd">Show/hide the passcode</string>
+    <string name="app_lock_locked_message">あなたのアカウントのパスコードを入力してください。</string>
+    <string name="app_lock_setup_dialog_messsage">Wireのロック解除には、デバイス設定からパスコードを設定します。</string>
+    <string name="new_password_dialog_title">パスコードを作成</string>
+    <string name="new_password_dialog_button">パスコードを作成</string>
+    <string name="new_password_dialog_title_change">パスコードを変更</string>
+    <string name="new_password_dialog_button_change">パスコードを変更</string>
+    <string name="new_password_dialog_message">あなたの所属組織はチームを安全に保つために、Wireが使用されていない場合にはアプリをロックすることを求めています。\n現状では復元できないため、覚えられるパスコードを作成します。</string>
+    <string name="new_password_dialog_showhide_cd">パスコードの表示/非表示</string>
     <string name="new_password_dialog_title_change_in_wire">Wire に変更がありました。</string>
     <!-- Options -->
     <string name="pref_options_screen_title">オプション</string>
@@ -434,8 +434,8 @@
     <string name="pref_options_cursor_send_button_summary">キーボードからの送信を無効にします。</string>
     <string name="pref_options_message_previews">メッセージプレビュー</string>
     <string name="pref_options_message_previews_summary">通知にメッセージ内容を表示します。</string>
-    <string name="pref_options_app_lock_title">Lock with Passcode</string>
-    <string name="pref_options_app_lock_summary">Lock Wire after %1$s seconds in the background. Unlock with Pin, Pattern, Passcode or Biometrics.</string>
+    <string name="pref_options_app_lock_title">パスコードでロック</string>
+    <string name="pref_options_app_lock_summary">バックグラウンドに移動した%1$s秒後にWireをロックします。PIN、パターン、パスコードまたは生体認証でロックを解除可能です。</string>
     <string name="pref_options_incognito_keyboard">匿名キーボード</string>
     <string name="pref_options_incognito_keyboard_summary">メッセージ入力中にキーボードに変換候補が表示されなくなります。</string>
     <!-- Devices -->
@@ -447,7 +447,8 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">確認済</string>
     <string name="pref_devices_device_not_verified">未確認</string>
-    <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your passcode.</string>
+    <string name="pref_devices_device_legal_hold">Legal Hold device</string>
+    <string name="pref_devices_warning_summary">上のデバイスを知らない場合は、そのデバイスを削除して、パスコードをリセットしてください。</string>
     <string name="pref_devices_device_screen_title">デバイスの詳細</string>
     <string name="pref_devices_device_fingerprint_category_title">重要なフィンガープリント</string>
     <string name="pref_devices_device_fingerprint_summary">Wireは各デバイスに固有のフィンガープリントを付与します。これを比較することでお使いのデバイスと会話を確認します。</string>
@@ -734,6 +735,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="otr__participant__device_class__phone">電話</string>
     <string name="otr__participant__device_class__tablet">タブレット</string>
     <string name="otr__participant__device_class__desktop">デスクトップ コンピューター</string>
+    <string name="otr__participant__device_class__legal_hold">法的所有権</string>
     <string name="otr__participant__tab_details">詳細</string>
     <string name="otr__participant__tab_devices">デバイス</string>
     <string name="otr__participant__information">情報</string>
@@ -775,7 +777,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="audio_message_error__missing_audio_permissions">音声メッセージを送信するには、オーディオを録音するアクセス許可を付与してください。</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">固定ビットレート</string>
-    <string name="audio_message_variable_bit_rate">VARIABLE BIT RATE</string>
+    <string name="audio_message_variable_bit_rate">可変ビットレート</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">まだ会話が存在しません。</string>
     <string name="all_archived__header">全てアーカイブ済み</string>
@@ -942,15 +944,15 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="conversation_list__group_without_quote">[[%1$s]]: %2$s</string>
     <string name="guest_indicator">ゲスト</string>
     <string name="participant_tab_guest_indicator_label">ゲスト</string>
-    <string name="participant_tab_external_indicator_label">EXTERNAL</string>
+    <string name="participant_tab_external_indicator_label">外部</string>
     <string name="participant_tab_group_admin_indicator_label">グループ管理者</string>
     <string name="availability_none">なし</string>
     <string name="availability_available">利用できます</string>
     <string name="availability_away">不在</string>
     <string name="availability_busy">取り込み中</string>
-    <string name="availability_text_available">AVAILABLE</string>
-    <string name="availability_text_away">AWAY</string>
-    <string name="availability_text_busy">BUSY</string>
+    <string name="availability_text_available">利用可能</string>
+    <string name="availability_text_away">退席中</string>
+    <string name="availability_text_busy">取り込み中</string>
     <string name="availability_setstatus">待ち受け状態を設定します。</string>
     <string name="availability_notification_warning_away_title">不在に設定しました</string>
     <string name="availability_notification_warning_away">他の人によってあなたが不在に設定されました。通話着信やメッセージに関する通知は受信されません。</string>
@@ -1059,7 +1061,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="participants_divider_options">オプション</string>
     <string name="participants_no_admins">管理者がいません。</string>
     <string name="participants_no_results_1">一致する結果はありません。</string>
-    <string name="participants_no_results_2">Try entering a different name.</string>
+    <string name="participants_no_results_2">別の名前を入力してみてください。</string>
     <string name="group_name_hint">グループ名</string>
     <string name="allow_guests_toggle_text">ゲストとサービスを許可します</string>
     <string name="allow_guests_toggle_info_text">サービスとチーム外の人々にこの会話を公開します。</string>
@@ -1084,7 +1086,8 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="ephemeral_explanation_text">この会話のすべての参加者は、タイマーメッセージが有効になります</string>
     <string name="notifications_explanation_text">あなたは、すべて（オーディオとビデオ通話を含みます）または、メンションされた時のみに、通知をすることができます。</string>
     <string name="show_all_participants">全てを表示 (%1$s)</string>
-    <string name="participant_was_removed_from_team">%s was removed from team</string>
+    <string name="participant_was_removed_from_team">%s はチームから削除されました</string>
+    <string name="all_participants">Participants (%1$s)</string>
     <string name="allow_guests_error_title">何か問題があります</string>
     <string name="allow_guests_error_body">ゲストもサービスも許可できませんでした。もう一度お試しください。</string>
     <string name="allow_guests_warning_body">現在のゲストとサービスは、会話から削除されます。新しいゲストとサービスは許可されません。</string>
@@ -1111,7 +1114,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="backup_description">会話履歴のバックアップを作成します。デバイスを紛失したり、新しいデバイスに引き継いだりした場合は、会話履歴を復元するためにこのバックアップを利用できます。\n\nバックアップファイルを保護するため、強力なパスワードを利用してください。</string>
     <string name="pref_account_backup_title">会話をバックアップする</string>
     <string name="backup_password_dialog_title">パスワード設定</string>
-    <string name="backup_password_dialog_message">The backup will be compressed and encrypted with a password. Make sure to store it in a secure place.</string>
+    <string name="backup_password_dialog_message">バックアップは圧縮され、パスワードで暗号化されます。安全な場所に保存してください。</string>
     <string name="backup_password_dialog_ok">OK</string>
     <string name="backup_password_dialog_no_password">キャンセル</string>
     <string name="restore_password_dialog_title">このバックアップはパスワード保護されています。</string>
@@ -1144,7 +1147,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="video_paused">ビデオ停止中</string>
     <string name="call_degraded_title">通話終了</string>
     <string name="calling_degraded_title">新しいデバイス</string>
-    <string name="call_info">Up to %1$s people can join a group conversation.</string>
+    <string name="call_info">グループ会話には最大 %1$s 人が参加できます。</string>
     <string name="markdown_link_dialog_title">リンクを開く</string>
     <string name="markdown_link_dialog_message">アクセスしようとしています\n%1$s</string>
     <string name="markdown_link_dialog_confirmation">OK</string>
@@ -1157,14 +1160,14 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="sso_signin_error_message">詳細については、チームの管理者にお問い合わせください (Error %1$s)</string>
     <string name="sso_signin_error_try_again_message">しばらくしてからもう一度お試しください (Error %1$s)</string>
     <string name="enterprise_signin_domain_not_found_error">このメールアドレスは組織アカウントログインには使用できません。続行するにはシングルサインオンアクセスコードを入力してください</string>
-    <string name="enterprise_signin_email_sso_invalid_input_error">Please enter a valid email or SSO access code.</string>
-    <string name="enterprise_signin_sso_invalid_input_error">Please enter a valid SSO access code.</string>
-    <string name="enterprise_signin_email_multiple_servers_not_supported">This email is linked to a different server, but the app can only be connected to one server at a time. Please log out of all Wire accounts on this device and try to log in again.</string>
+    <string name="enterprise_signin_email_sso_invalid_input_error">有効なメールアドレスまたはシングルサインオンアクセスコードを入力してください</string>
+    <string name="enterprise_signin_sso_invalid_input_error">有効なシングルサインオンアクセスコードを入力してください</string>
+    <string name="enterprise_signin_email_multiple_servers_not_supported">このメールは別のサーバーにリンクされていますが。アプリは一度に1つのサーバーにのみ接続できます。 このデバイス上のすべてのWireアカウントからログアウトして、もう一度ログインしてください。</string>
     <string name="sso_signin_wrong_code_title">無効なコード</string>
     <string name="sso_signin_wrong_code_message">企業 シングルサインオン アクセスコードを確認して、もう一度やりなおしてください。</string>
     <string name="sso_signin_max_accounts_title">２つのアカウントがアクティブです</string>
     <string name="sso_signin_max_accounts_message">１度に２つのアカウントまでログインできます。新規にログインする為に、１つログアウトしてください。</string>
-    <string name="custom_backend_welcome">Welcome to\n%1$s workspace</string>
+    <string name="custom_backend_welcome">\n%1$s ワークスペースへようこそ</string>
     <string name="participant_search_hint">名前で検索</string>
     <string name="participant_search_title">参加者</string>
     <string name="generic_service_warning">サービスはこの会議のコンテンツにアクセスできます</string>
@@ -1192,13 +1195,13 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="custom_backend_dialog_cancel">キャンセル</string>
     <string name="custom_backend_dialog_connect">接続</string>
     <string name="custom_backend_dialog_confirmation_title">サーバーに接続</string>
-    <string name="custom_backend_dialog_confirmation_message">This action will connect the app to a custom server: %1$s</string>
+    <string name="custom_backend_dialog_confirmation_message">このアクションはアプリをカスタムサーバーに接続します: %1$s</string>
     <string name="custom_backend_dialog_info_title">サードパーティのサーバに接続中: \"%1$s\"</string>
     <string name="custom_backend_dialog_network_error_title">サーバーが応答しません。</string>
     <string name="custom_backend_dialog_network_error_message">インターネット接続を確認し、リンクを確認してもう一度やり直してください</string>
     <string name="custom_backend_not_found_error_title">このサーバーにはアクセスできません</string>
-    <string name="custom_backend_not_found_error_message">We can\'t connect to the server at %1$s.\nLet your server
-        administrator know about this issue.</string>
+    <string name="custom_backend_not_found_error_message">%1$sのサーバーに接続できません。\nあなたのサーバー
+        管理者にこの問題について知らせてください。</string>
     <string name="custom_backend_dialog_logged_in_error_title">サーバを変更することができません</string>
     <string name="custom_backend_dialog_logged_in_error_message">あなたはすでにログインしています。\nサーバに接続するには、すべてのアカウントでログアウトして、もう一度やり直してください。</string>
     <string name="root_detected_dialog_title">脱獄/Root化 を検知しました。</string>
@@ -1247,34 +1250,34 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="sso_login_dialog_message">シングルサインオンコードを入力してください</string>
     <string name="email_sso_login_dialog_message">メールアドレスまたはシングルサインオンコードを入力してください。組織で運用されている Wire にメールアドレスが適合する場合は、このアプリからサーバーへ接続できます。</string>
     <!-- Welcome -->
-    <string name="welcome_to_wire">Welcome to Wire</string>
+    <string name="welcome_to_wire">Wireにようこそ！</string>
     <string name="welcome_enterprise_log_in">組織アカウントログイン</string>
-    <string name="welcome_custom_backend_log_in_email">LOG IN WITH EMAIL</string>
-    <string name="welcome_custom_backend_log_in_sso">LOG IN WITH SSO</string>
+    <string name="welcome_custom_backend_log_in_email">メールアドレスでログイン</string>
+    <string name="welcome_custom_backend_log_in_sso">SSO でログイン</string>
     <!-- Updated edit handle screen -->
     <string name="edit_account_handle_error_already_taken">すでに利用されています</string>
     <string name="edit_account_handle_error_too_short">少なくとも2文字</string>
-    <string name="edit_account_handle_error_invalid_characters">Please only use: a–z, 0–9, and _ </string>
+    <string name="edit_account_handle_error_invalid_characters">a-z、0-9、_ のみ使用してください </string>
     <string name="edit_account_handle_error_unknown_error">何か問題があります。もう一度やり直してください。</string>
-    <string name="edit_phone_remove_phone_number">Remove phone number</string>
+    <string name="edit_phone_remove_phone_number">電話番号を削除</string>
     <string name="edit_phone_dialog_delete_phone_confirmation">本当にあなたの Wire アカウントから %s を削除しますか？</string>
     <string name="edit_phone_dialog_confirm_phone_confirmation">通知コードを送ります:\n%s</string>
     <string name="edit_phone_save_phone_number">保存</string>
     <!-- Delete Account -->
-    <string name="delete_account_permanently_email_confirmation">We will send an email to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="delete_account_permanently_sms_confirmation">We will send an SMS to:\n %1$s \nFollow the link to permanently delete your account.</string>
-    <string name="pref_account_delete_confirmed">Account deletion confirmed, please check your email.</string>
+    <string name="delete_account_permanently_email_confirmation">メールを送信します:\n %1$s \nリンクに従ってアカウントを完全に削除してください。</string>
+    <string name="delete_account_permanently_sms_confirmation">次の宛先にSMSを送信します:\n %1$s \nリンクに従ってアカウントを完全に削除してください。</string>
+    <string name="pref_account_delete_confirmed">アカウント削除が確認されました。メールアドレスを確認してください。</string>
     <!-- Authentication (Shared strings between create account and login screens) -->
     <string name="authentication_tab_layout_title_email">メールアドレス</string>
-    <string name="authentication_tab_layout_title_phone">PHONE</string>
+    <string name="authentication_tab_layout_title_phone">電話</string>
     <!-- Create Personal Account - Main screen -->
     <string name="create_personal_account_title">アカウントを作成</string>
     <string name="create_personal_account_with_email_edit_text_hint">メールアドレス</string>
-    <string name="create_personal_account_with_phone_edit_text_hint">PHONE NUMBER</string>
+    <string name="create_personal_account_with_phone_edit_text_hint">電話番号</string>
     <string name="create_personal_account_with_email_email_blacklisted_error">このメールアドレスは許可されていません</string>
-    <string name="create_personal_account_with_email_email_in_use_error">This email address you used is already linked to an account.\nUse another email address or try to login if you own this account.</string>
+    <string name="create_personal_account_with_email_email_in_use_error">このメールアドレスは既にアカウントにリンクされています。\n別のメールアドレスを使用するか、このアカウントを所有している場合はログインしてください。</string>
     <string name="create_personal_account_with_phone_phone_blacklisted_error">この電話番号は許可されていません</string>
-    <string name="create_personal_account_with_phone_phone_in_use_error">This phone number you used is already linked to an account.\nUse another phone number or try to login if you own this account.</string>
+    <string name="create_personal_account_with_phone_phone_in_use_error">この電話番号は既にアカウントにリンクされています。\n別の電話番号を使用するか、このアカウントを所有している場合はログインしてみてください。</string>
     <string name="create_personal_account_with_phone_default_country_name">ドイツ</string>
     <string name="create_personal_account_with_phone_default_country_code">+49</string>
     <!-- Create Personal Account - Email Code screen -->
@@ -1284,8 +1287,8 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="create_personal_account_email_code_resend_code">コードを再送信</string>
     <string name="create_personal_account_email_code_invalid_code_error">有効なコードを入力してください。</string>
     <!-- Create Personal Account - Phone Code screen -->
-    <string name="create_personal_account_phone_code_title">SMS code</string>
-    <string name="create_personal_account_phone_code_description">Enter the code we sent to %s</string>
+    <string name="create_personal_account_phone_code_title">SMSコード</string>
+    <string name="create_personal_account_phone_code_description">%sに送信したコードを入力してください</string>
     <string name="create_personal_account_phone_code_resend_code">コードを再送信</string>
     <string name="create_personal_account_phone_code_invalid_code_error">有効なコードを入力してください。</string>
     <!-- Create Personal Account - Name screen -->
@@ -1295,27 +1298,28 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="create_personal_account_password_input_title">パスワードを設定</string>
     <string name="create_personal_account_password_input_edit_text_hint">パスワード</string>
     <!-- Create Personal Account - Registration errors -->
-    <string name="create_personal_account_unauthorized_email_error">Unauthorized e-mail address.</string>
-    <string name="create_personal_account_email_in_use_error">The given e-mail address is in use.</string>
-    <string name="create_personal_account_invalid_activation_code_error">Invalid activation code.</string>
-    <string name="create_personal_account_unauthorized_phone_error">Unauthorized phone number.</string>
-    <string name="create_personal_account_phone_in_use_error">The given phone number is in use.</string>
+    <string name="create_personal_account_unauthorized_email_error">認証されていないメールアドレス</string>
+    <string name="create_personal_account_email_in_use_error">指定されたメールアドレスは使用中です。</string>
+    <string name="create_personal_account_invalid_activation_code_error">アクティベーションコードが無効です。</string>
+    <string name="create_personal_account_unauthorized_phone_error">不正な電話番号</string>
+    <string name="create_personal_account_phone_in_use_error">指定された電話番号は使用されています。</string>
     <!-- Composite Message -->
     <string name="composite_message_button_action_error">応答は送信できませんでした。もう一度送信してください。</string>
-    <string name="composite_message_confirmed_button_content_description">%1$s confirmed</string>
+    <string name="composite_message_confirmed_button_content_description">%1$s が確認されました</string>
     <!-- StartSSO Screen  -->
-    <string name="start_sso_leaving_wire">Redirecting&#8230;</string>
+    <string name="start_sso_leaving_wire">リダイレクト中&#8230;</string>
     <string name="start_sso_redirected_to">専用のエンタープライズサービスへリダイレクトされます。</string>
-    <string name="start_sso_notice">Provide credentials only if you\'re sure this is your organization\'s login.</string>
+    <string name="start_sso_notice">あなたの組織へのログインであると確信できる場合に限り、認証情報を提供してください。</string>
     <!-- Legal Hold -->
     <string name="legal_hold_info_title">法的所有権</string>
-    <string name="legal_hold_self_user_info_message">Legal Hold has been activated for your account.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.\n\nYour conversation partners will be aware of the recording.</string>
-    <string name="legal_hold_conversation_info_message">Legal Hold has been activated for at least one person in this conversation.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.</string>
+    <string name="legal_hold_self_user_info_message">あなたのアカウントの法的所有権が開始されました。\n\n削除されたメッセージ、編集されたメッセージ、時間指定されたメッセージなど、すべてのメッセージは将来のアクセスのために保存されます。\n\n会話の相手へ録音されることを知らせてください。</string>
+    <string name="legal_hold_conversation_info_message">この会話で少なくとも一人の人のために法的保留が有効になっています。\n\nすべてのメッセージは、削除、編集、およびタイミング付きメッセージを含む将来のアクセスのために保存されます。</string>
     <string name="legal_hold_info_list_title">法的所有権の対象</string>
     <string name="legal_hold_request_dialog_title">要求された法的所有権</string>
-    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.</string>
-    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.\n\nEnter your password to confirm.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">以下のフィンガープリントを持つデバイスによって今後すべてのメッセージが記録されます:\n%1$s\nこれはすべての会話で削除、編集、および時間設定のメッセージを含みます。</string>
+    <string name="legal_hold_request_dialog_message">以下のフィンガープリントを持つデバイスによって今後すべてのメッセージが記録されます:\n%1$s\nこれはすべての会話で削除、編集、および時間設定のメッセージを含みます。\n\n確認のためパスワードを入力してください。</string>
     <string name="legal_hold_request_dialog_positive_button_text">承諾</string>
     <string name="legal_hold_request_dialog_negative_button_text">後で</string>
     <string name="legal_hold_request_dialog_wrong_password_error">パスワードが間違っています</string>
+    <string name="legal_hold_all_subjects_title">LEGAL HOLD SUBJECTS</string>
 </resources>

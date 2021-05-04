@@ -282,12 +282,12 @@
     <string name="group_calling_message" tools:ignore="PluralsCandidate">Bu %1$s kişiyi arayacak</string>
     <string name="group_calling_confirm">Ara</string>
     <string name="calling_self">%s (Siz)</string>
-    <string name="calling_no_active_speaker">No active video speakers...</string>
+    <string name="calling_no_active_speaker">Aktif görüntülü arama katılımcısı yok...</string>
     <string name="calling_toggle_all">TÜMÜ</string>
-    <string name="calling_toggle_speakers">SPEAKERS</string>
-    <string name="calling_double_tap_enter_fullscreen_message">Double tap on a tile for fullscreen</string>
-    <string name="calling_double_tap_exit_fullscreen_message">Double tap to go back, pinch to zoom</string>
-    <string name="calling_screenshare_zooming_message">Pinch to zoom</string>
+    <string name="calling_toggle_speakers">KONUŞMACILAR</string>
+    <string name="calling_double_tap_enter_fullscreen_message">Tam ekrana geçmek için bir kutucuğa çift dokunun</string>
+    <string name="calling_double_tap_exit_fullscreen_message">Geri dönmek için çift dokunun, yakınlaştırmak için parmaklarınızı birbirine yaklaştırın</string>
+    <string name="calling_screenshare_zooming_message">Büyütmek için parmaklarınızı birbirine yaklaştırın</string>
     <!-- Connect request -->
     <string name="connect__message">Selam %1$s,\nHadi Wire üzerinden bağlanalım.\n%2$s</string>
     <string name="connect_request__sub_header__pending_label">Beklemede</string>
@@ -410,7 +410,7 @@
     <string name="new_password_dialog_button">Parola Oluştur</string>
     <string name="new_password_dialog_title_change">Parolayı Değiştir</string>
     <string name="new_password_dialog_button_change">Parolayı Değiştir</string>
-    <string name="new_password_dialog_message">Your organization needs to lock your app when Wire is not in use to keep the Team safe.\nCreate a memorable passcode, as it cannot be recovered.</string>
+    <string name="new_password_dialog_message">Ekibinizi güvende tutmak için Wire kullanılmadığında kuruluşunuzun uygulamanızı kilitlemesi gerekir.\nKurtarılamayacağı için unutmayacağınız bir şifre oluşturun.</string>
     <string name="new_password_dialog_showhide_cd">Parolayı göster/gizle</string>
     <string name="new_password_dialog_title_change_in_wire">Wire\'da bir değişiklik oldu</string>
     <!-- Options -->
@@ -456,6 +456,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Doğrulandı</string>
     <string name="pref_devices_device_not_verified">Doğrulanmadı</string>
+    <string name="pref_devices_device_legal_hold">Legal Hold device</string>
     <string name="pref_devices_warning_summary">Yukarıdaki cihazı tanımıyorsanız, onu kaldırın ve parolanızı sıfırlayın.</string>
     <string name="pref_devices_device_screen_title">Cihaz detayları</string>
     <string name="pref_devices_device_fingerprint_category_title">Anahtar Parmak İzi</string>
@@ -746,6 +747,7 @@
     <string name="otr__participant__device_class__phone">Telefon</string>
     <string name="otr__participant__device_class__tablet">Tablet</string>
     <string name="otr__participant__device_class__desktop">Masaüstü bilgisayar</string>
+    <string name="otr__participant__device_class__legal_hold">Kanuni Durdurma</string>
     <string name="otr__participant__tab_details">AYRINTILAR</string>
     <string name="otr__participant__tab_devices">CİHAZLAR</string>
     <string name="otr__participant__information">BİLGİ</string>
@@ -1110,6 +1112,7 @@
     <string name="notifications_explanation_text">Her şeyden (sesli ve görüntülü aramalar dahil) veya yalnızca sizden bahsettiğinizde haberdar olabilirsiniz.</string>
     <string name="show_all_participants">Tümünü göster (%1$s)</string>
     <string name="participant_was_removed_from_team">%s takımdan çıkarıldı</string>
+    <string name="all_participants">Participants (%1$s)</string>
     <string name="allow_guests_error_title">Bir şeyler yanlış gitti</string>
     <string name="allow_guests_error_body">Misafirlere veya hizmetlere izin verilemedi. Lütfen tekrar deneyin.</string>
     <string name="allow_guests_warning_body">Mevcut misafirler ve hizmetler sohbetten kaldırılacak. Yeni misafir ve hizmetlere izin verilmeyecektir.</string>
@@ -1335,13 +1338,14 @@
     <string name="start_sso_notice">Kimlik bilgilerini yalnızca bunun kuruluşunuzun giriş bilgisi olduğundan eminseniz sağlayın.</string>
     <!-- Legal Hold -->
     <string name="legal_hold_info_title">Kanuni Durdurma</string>
-    <string name="legal_hold_self_user_info_message">Legal Hold has been activated for your account.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.\n\nYour conversation partners will be aware of the recording.</string>
-    <string name="legal_hold_conversation_info_message">Legal Hold has been activated for at least one person in this conversation.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.</string>
+    <string name="legal_hold_self_user_info_message">Hesabınız için Yasal Tutma etkinleştirildi.\n\nSilinen, düzenlenmiş ve zamanlanmış mesajlar dahil olmak üzere tüm mesajlar ileride erişilebilecek şekilde korunur.\n\nKonuşma ortaklarınız kaydın farkında olacak.</string>
+    <string name="legal_hold_conversation_info_message">Yasal tutma bu konuşmada en az bir kişi için aktive edildi.\n\nSilinen, düzenlenmiş ve zamanlanmış mesajlar dahil olmak üzere tüm mesajlar ileride erişilebilecek şekilde korunur.</string>
     <string name="legal_hold_info_list_title">Yasal tutma konuları</string>
     <string name="legal_hold_request_dialog_title">Kanuni Durdurma istendi</string>
-    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.</string>
-    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.\n\nEnter your password to confirm.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">Gelecekteki tüm mesajlar parmak izi ile cihaz tarafından kaydedilecektir:\n%1$s\nBu, tüm sohbetlerden silinmiş, düzenlenmiş ve süreli mesajları içerir.</string>
+    <string name="legal_hold_request_dialog_message">Gelecekteki tüm mesajlar parmak izi ile cihaz tarafından kaydedilecektir:\n%1$s\nBu, tüm sohbetlerden silinmiş, düzenlenmiş ve süreli mesajları içerir.\n\nOnaylamak için şifrenizi girin.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Kabul et</string>
     <string name="legal_hold_request_dialog_negative_button_text">Henüz değil</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Yanlış parola</string>
+    <string name="legal_hold_all_subjects_title">LEGAL HOLD SUBJECTS</string>
 </resources>
