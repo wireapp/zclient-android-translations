@@ -169,11 +169,11 @@
     <string name="content__xxx_pinged">[[%1$s]] HA FATTO UN TRILLO</string>
     <!-- Conversation: E2EE system messages -->
     <string name="content__otr__message_error">Non è stato possibile decifrare un messaggio da [[%1$s]].\n _FIX TO DECRYPT FUTURE MESSAGES_</string>
-    <string name="content__otr__message_error_fixed">You can now decrypt future messages from [[%1$s]]. To recover lost messages, [[ask %2$s to resend them.]]\n(FIXED ERROR: [[%3$s]] ID: %4$s)</string>
+    <string name="content__otr__message_error_fixed">Ora puoi decifrare i futuri messaggi da [[%1$s]]. Per recuperare i messaggi persi, [[chiedi a %2$s di inviarli nuovamente. ]\n(ERRORE FISSO: [[%3$s]] ID: %4$s)</string>
     <string name="content__otr__message_error_you">UN MESSAGGIO DA TE NON È STATO RICEVUTO. _PERCHÈ?_</string>
     <string name="content__otr__identity_changed_error">L\'IDENTITÀ DEL DISPOSITIVO DI [[%1$s]] È CAMBIATA. MESSAGGIO NON CONSEGNATO _SCOPRI DI PIÙ_</string>
     <string name="content__otr__identity_changed_error_you">L\'IDENTITÀ DEL TUO DISPOSITIVO È CAMBIATA. MESSAGGIO NON CONSEGNATO _SCOPRI DI PIÙ_</string>
-    <string name="content__session_reset">[[%1$s was unable to decrypt some of your messages but has solved the issue.]] This affected all conversations you share together.</string>
+    <string name="content__session_reset">[[%1$s non è stato in grado di decifrare alcuni dei tuoi messaggi ma ha risolto il problema.]] Questo ha interessato tutte le conversazioni che condividete insieme.</string>
     <string name="content__otr__someone_added_new_device__message">%1$s ha iniziato ad usare un _nuovo dispositivo_</string>
     <string name="content__otr__someone_and_you_added_new_device__message">tu e %1$s avete iniziato ad usare un _nuovo dispositivo_</string>
     <string name="content__otr__someone_and_others_added_new_device__message">%1$s e %2$s altri hanno iniziato ad usare un _nuovo dispositivo_</string>
@@ -286,8 +286,8 @@
     <string name="calling_toggle_all">TUTTI</string>
     <string name="calling_toggle_speakers">SPEAKER</string>
     <string name="calling_double_tap_enter_fullscreen_message">Tocca due volte su un tile per schermo intero</string>
-    <string name="calling_double_tap_exit_fullscreen_message">Double tap to go back, pinch to zoom</string>
-    <string name="calling_screenshare_zooming_message">Pinch to zoom</string>
+    <string name="calling_double_tap_exit_fullscreen_message">Doppio tocco per tornare indietro, pizzica per ingrandire</string>
+    <string name="calling_screenshare_zooming_message">Pizzica per ingrandire</string>
     <!-- Connect request -->
     <string name="connect__message">Ciao %1$s, \nConnettiamoci su Wire. \n%2$s</string>
     <string name="connect_request__sub_header__pending_label">In sospeso</string>
@@ -410,7 +410,7 @@
     <string name="new_password_dialog_button">Crea Codice</string>
     <string name="new_password_dialog_title_change">Cambia codice di accesso</string>
     <string name="new_password_dialog_button_change">Cambia codice di accesso</string>
-    <string name="new_password_dialog_message">Your organization needs to lock your app when Wire is not in use to keep the Team safe.\nCreate a memorable passcode, as it cannot be recovered.</string>
+    <string name="new_password_dialog_message">La tua organizzazione deve bloccare la tua app quando Wire non è in uso per mantenere il Team al sicuro.\nCrea un codice di accesso facile da ricordare, perché non può essere recuperato.</string>
     <string name="new_password_dialog_showhide_cd">Mostra/nascondi il codice di accesso</string>
     <string name="new_password_dialog_title_change_in_wire">C\'è stato un cambiamento in Wire</string>
     <!-- Options -->
@@ -456,7 +456,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Verificato</string>
     <string name="pref_devices_device_not_verified">Non verificato</string>
-    <string name="pref_devices_device_legal_hold">Legal Hold device</string>
+    <string name="pref_devices_device_legal_hold">Dispositivo di blocco legale</string>
     <string name="pref_devices_warning_summary">Se non riconosci un dispositivo qui sopra, rimuovilo e reimposta il codice di accesso.</string>
     <string name="pref_devices_device_screen_title">Dettagli dispositivo</string>
     <string name="pref_devices_device_fingerprint_category_title">Impronta digitale della chiave</string>
@@ -1112,7 +1112,7 @@
     <string name="notifications_explanation_text">Puoi essere avvisato di tutto (incluse le chiamate audio e video) o solo quando sei menzionato.</string>
     <string name="show_all_participants">Mostra tutto (%1$s)</string>
     <string name="participant_was_removed_from_team">%s è stato rimosso dal team</string>
-    <string name="all_participants">Participants (%1$s)</string>
+    <string name="all_participants">Partecipanti (%1$s)</string>
     <string name="allow_guests_error_title">Qualcosa è andato storto</string>
     <string name="allow_guests_error_body">Impossibile consentire ospiti o servizi. Per favore riprova.</string>
     <string name="allow_guests_warning_body">Gli ospiti e i servizi attuali saranno rimossi dalla conversazione. Non saranno accettati nuovi ospiti e servizi.</string>
@@ -1338,14 +1338,15 @@
     <string name="start_sso_notice">Fornisci credenziali solo se sei sicuro che questo sia l\'accesso della tua organizzazione.</string>
     <!-- Legal Hold -->
     <string name="legal_hold_info_title">Sospensione legale</string>
-    <string name="legal_hold_self_user_info_message">Legal Hold has been activated for your account.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.\n\nYour conversation partners will be aware of the recording.</string>
-    <string name="legal_hold_conversation_info_message">Legal Hold has been activated for at least one person in this conversation.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.</string>
+    <string name="legal_hold_self_user_info_message">La sospensione legale è stata attivata per il tuo account.\n\nTutti i messaggi saranno preservati per eventuali accessi futuri, inclusi messaggi eliminati, modificati e ad invio programmato.\n\nI partecipanti alla conversazione saranno informati di questo cambiamento.</string>
+    <string name="legal_hold_conversation_info_message">La sospensione legale è stata attivata per almeno una persona in questa conversazione.\n\nTutti i messaggi saranno preservati per eventuali accessi futuri, inclusi messaggi eliminati, modificati e ad invio programmato.</string>
     <string name="legal_hold_info_list_title">Soggetti a conservazione legale</string>
     <string name="legal_hold_request_dialog_title">Sospensione legale richiesta</string>
-    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.</string>
-    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.\n\nEnter your password to confirm.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">Tutti i futuri messaggi verranno registrati dal dispositivo con l\'impronta digitale:\n%1$s\nQuesto include messaggi eliminati, modificati e ad invio programmato in tutte le conversazioni.</string>
+    <string name="legal_hold_request_dialog_message">Tutti i futuri messaggi verranno registrati dal dispositivo con l\'impronta digitale:\n%1$s\nQuesto include messaggi eliminati, modificati e ad invio programmato in tutte le conversazioni.\n\nInserisci la tua password per confermare.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Accetta</string>
     <string name="legal_hold_request_dialog_negative_button_text">Non ora</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Password errata</string>
-    <string name="legal_hold_all_subjects_title">LEGAL HOLD SUBJECTS</string>
+    <string name="legal_hold_all_subjects_title">SOGGETTI LEGALI DI RISERVA</string>
+    <string name="legal_hold_device_name">Sospensione legale</string>
 </resources>
