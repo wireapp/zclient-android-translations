@@ -154,6 +154,10 @@
     <string name="content__system__someone_left">Kažkas išėjo</string>
     <string name="content__system__other_was_removed">%1$s bus pašalintas</string>
     <string name="content__system__someone_was_removed">Kažkas buvo pašalintas</string>
+    <string name="content__system__legalhold_conflict__you_were_removed">[[You]] were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__someone_was_removed">Someone was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__other_was_removed">%1$s was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__others_were_removed">%1$s were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Jūs pradėjote susirašinėjimą</string>
     <string name="content__system__other_started_conversation">%1$s pradėjo susirašinėjimą</string>
@@ -194,6 +198,8 @@
     <string name="content__otr__unverified_device__message">[[JŪS]] NEPATVIRTINOTE VIENO IŠ _%1$s ĮRENGINIŲ_</string>
     <string name="content__otr__your_unverified_device__message">[[JŪS]] NEPATVIRTINOTE VIENO IŠ _SAVO ĮRENGINIŲ_</string>
     <string name="content__otr__new_member__message">PRISIJUNGĖ NAUJI ŽMONĖS. _PATVIRTINTI ĮRENGINIUS_</string>
+    <string name="content__otr__legalhold_enabled__message">This conversation is under legal hold. _LEARN MORE_</string>
+    <string name="content__otr__legalhold_disabled__message">Šio susirašinėjimo teisinis sulaikymas atšauktas</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
     <string name="content__file__status__uploading__minimized">ĮKELIAMA&#8230;</string>
@@ -338,6 +344,16 @@
     </plurals>
     <string name="conversation__degraded_confirmation__negative_action_self">Rodyti savo įrenginius</string>
     <string name="conversation_degraded_confirmation__header__you">Jūs</string>
+    <string name="conversation__legal_hold_confirmation__header">Susirašinėjimas gali būti teisiškai sulaikytas.</string>
+    <plurals name="conversation__legal_hold_confirmation__message">
+        <item quantity="one">Ar vis dar norite išsiųsti savo žinutę?</item>
+        <item quantity="few">Ar vis dar norite išsiųsti savo žinutes?</item>
+        <item quantity="many">Ar vis dar norite išsiųsti savo žinutes?</item>
+        <item quantity="other">Ar vis dar norite išsiųsti savo žinutes?</item>
+    </plurals>
+    <string name="conversation__legal_hold_confirmation__negative_action">What is legal hold?</string>
+    <string name="conversation__legal_hold_confirmation__neutral_action">Verify devices&#8230;</string>
+    <string name="conversation__legal_hold_confirmation__positive_action">Vis tiek siųsti</string>
     <!-- Picture selection confirmation -->
     <string name="confirmation_menu__confirm_done">GERAI</string>
     <string name="confirmation_menu__cancel">ATŠAUKTI</string>
@@ -474,7 +490,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Patvirtintas</string>
     <string name="pref_devices_device_not_verified">Nepatvirtintas</string>
-    <string name="pref_devices_device_legal_hold">Legal Hold device</string>
+    <string name="legal_hold_device_content_description">Legal Hold device</string>
     <string name="pref_devices_warning_summary">If you don\'t recognize a device above, remove it and reset your passcode.</string>
     <string name="pref_devices_device_screen_title">Išsamesnė įrenginio informacija</string>
     <string name="pref_devices_device_fingerprint_category_title">Rakto kontrolinis kodas</string>
@@ -1397,11 +1413,14 @@
     <string name="legal_hold_conversation_info_message">Legal Hold has been activated for at least one person in this conversation.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.</string>
     <string name="legal_hold_info_list_title">Legal Hold Subjects</string>
     <string name="legal_hold_request_dialog_title">Prašomas sulaikymas dėl teisinių priežasčių</string>
-    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.</string>
-    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.\n\nEnter your password to confirm.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.</string>
+    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.\nEnter your password to confirm.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Priimti</string>
     <string name="legal_hold_request_dialog_negative_button_text">Ne dabar</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Neteisingas slaptažodis</string>
     <string name="legal_hold_all_subjects_title">LEGAL HOLD SUBJECTS</string>
     <string name="legal_hold_device_name">Teisinis sulaikymas</string>
+    <string name="legal_hold_deactivated_dialog_title">Sulaikymas dėl teisinių priežasčių išjungtas</string>
+    <string name="legal_hold_deactivated_dialog_message">Naujos žinutės nebus išsaugotos.</string>
+    <string name="legal_hold_activated_dialog_title">Sulaikymas dėl teisinių priežasčių aktyvus</string>
 </resources>

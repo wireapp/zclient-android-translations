@@ -55,7 +55,7 @@
     <string name="camera_permissions_denied_title">Câmera não disponível</string>
     <string name="camera_permissions_denied_message">Para tirar e enviar fotos, conceda permissão de acesso a câmera</string>
     <!-- Registration and Sign in -->
-    <string name="welcome__terms_of_service">AO CONTINUAR, VOCÊ CONCORDA COM _TERMOS DE USO_.</string>
+    <string name="welcome__terms_of_service">AO CONTINUAR, VOCÊ CONCORDA COM OS _TERMOS DE USO_.</string>
     <string name="profile__name__guidance__tooshort__title">PELO MENOS 2 CARACTERES</string>
     <string name="profile__email__placeholder">E-mail</string>
     <string name="profile__password__placeholder">Senha</string>
@@ -72,9 +72,9 @@
     <string name="your_phone_number">O seu número de telefone</string>
     <!-- Receive email/sms invitation -->
     <!-- People picker/start UI -->
-    <string name="pick_user_search_focus">\u0020 PESQUISA</string>
-    <string name="pick_user_search_hint">PESQUISA</string>
-    <string name="choose_conversation">PESQUISA</string>
+    <string name="pick_user_search_focus">\u0020 PESQUISAR</string>
+    <string name="pick_user_search_hint">PESQUISAR</string>
+    <string name="choose_conversation">PESQUISAR</string>
     <string name="people_picker__top_users_header_title">Contatos frequentes</string>
     <string name="people_picker__search_result_conversations_header_title">Grupos</string>
     <string name="people_picker__search_result_team_conversations_header_title">Grupos de %1$s</string>
@@ -108,8 +108,8 @@
     <!-- Conversation: Quick menu -->
     <string name="conversation_quick_menu__conversation_button__single_label">ABRIR</string>
     <!-- Conversation: System messages -->
-    <string name="content__system__other_joined">[[%1$s]] juntou-se</string>
-    <string name="content__system__you_joined">[[You]] juntou-se</string>
+    <string name="content__system__other_joined">[[%1$s]] entrou</string>
+    <string name="content__system__you_joined">[[You]] entrou</string>
     <string name="content__system__other_renamed_conv">[[%1$s]] renomeou a conversa</string>
     <string name="content__system__you_renamed_conv">[[Você]] renomeou a conversa</string>
     <!-- Read receipts: System messages -->
@@ -148,6 +148,10 @@
     <string name="content__system__someone_left">Alguém saiu</string>
     <string name="content__system__other_was_removed">%1$s foi removido</string>
     <string name="content__system__someone_was_removed">Alguém foi removido</string>
+    <string name="content__system__legalhold_conflict__you_were_removed">[[Você]] foi removido desta conversa porque a retenção legal foi ativada. _SAIBA MAIS_</string>
+    <string name="content__system__legalhold_conflict__someone_was_removed">Alguém foi removido desta conversa porque a retenção legal foi ativada. _SAIBA MAIS_</string>
+    <string name="content__system__legalhold_conflict__other_was_removed">%1$s foi removido desta conversa porque a retenção legal foi ativada. _SAIBA MAIS_</string>
+    <string name="content__system__legalhold_conflict__others_were_removed">%1$s foram removidos desta conversa porque a retenção legal foi ativada. _SAIBA MAIS_</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Você iniciou uma conversa</string>
     <string name="content__system__other_started_conversation">%1$s iniciou uma conversa</string>
@@ -163,14 +167,14 @@
         <item quantity="other">com %1$s, você e _%2$s outros_</item>
     </plurals>
     <!-- Conversation: missed call -->
-    <string name="content__missed_call__you_called">[[VOCÊ]] LIGOU</string>
+    <string name="content__missed_call__you_called">[[VOCÊ]] CHAMOU</string>
     <string name="content__missed_call__xxx_called">[[%1$s]] CHAMOU</string>
     <string name="content__you_pinged">[[VOCÊ]] PINGOU</string>
     <string name="content__xxx_pinged">[[%1$s]] PINGOU</string>
     <!-- Conversation: E2EE system messages -->
     <string name="content__otr__message_error">Uma mensagem de [%1$s] não pôde ser descriptografada.\n_CORRIJA PARA DESCRIPTOGRAFAR MENSAGENS FUTURAS_</string>
-    <string name="content__otr__message_error_fixed">Agora você pode descriptografar mensagens futuras de [%1$s]. Para recuperar mensagens perdidas, [[peça %2$s para reenviá-las.]]\n(ERRO CORRIGIDO: [[%3$s]] ID: %4$s)</string>
-    <string name="content__otr__message_error_you">UMA MENSAGEM DE VOCÊ NÃO FOI RECEBIDA. _POR QUE?_</string>
+    <string name="content__otr__message_error_fixed">Agora você pode descriptografar mensagens futuras de [%1$s]. Para recuperar mensagens perdidas, [[peça para %2$s reenviá-las.]]\n(ERRO CORRIGIDO: [[%3$s]] ID: %4$s)</string>
+    <string name="content__otr__message_error_you">UMA MENSAGEM SUA NÃO FOI RECEBIDA. _POR QUE?_</string>
     <string name="content__otr__identity_changed_error">A IDENTIDADE DO DISPOSITIVO DE [[%1$s]] FOI MUDADA. MENSAGEM NÃO ENTREGUE. _SAIBA MAIS_</string>
     <string name="content__otr__identity_changed_error_you">SUA IDENTIDADE DO DISPOSITIVO MUDOU. MENSAGEM NÃO RECEBIDA. _SAIBA MAIS_</string>
     <string name="content__session_reset">[[%1$s não conseguiu descriptografar algumas de suas mensagens, mas resolveu o problema.]] Isso afetou todas as conversas que vocês compartilham.</string>
@@ -182,8 +186,10 @@
     <string name="content__otr__all_fingerprints_verified">TODAS AS IMPRESSÕES DIGITAIS SÃO VERIFICADAS</string>
     <string name="content__otr__lost_history">VOCÊ NÃO USOU ESTE DISPOSITIVO POR UM TEMPO. ALGUMAS MENSAGENS PODEM NÃO APARECER AQUI.</string>
     <string name="content__otr__unverified_device__message">[[VOCÊ]] DESAUTORIZOU UM DOS _DISPOSITIVOS DE %1$s_</string>
-    <string name="content__otr__your_unverified_device__message">[[VOCÊ]] RETIROU A VERIFICAÇÃO A _DOS SEUS DISPOSITIVOS_</string>
-    <string name="content__otr__new_member__message">NOVAS PESSOAS ENTRARAM. _VERIFIQUE DISPOSITIVOS_</string>
+    <string name="content__otr__your_unverified_device__message">[[VOCÊ]] RETIROU A VERIFICAÇÃO A UM DOS _SEUS DISPOSITIVOS_</string>
+    <string name="content__otr__new_member__message">NOVAS PESSOAS ENTRARAM. _VERIFIQUE OS DISPOSITIVOS_</string>
+    <string name="content__otr__legalhold_enabled__message">Esta conversa está com retenção legal. _SAIBA MAIS_</string>
+    <string name="content__otr__legalhold_disabled__message">A Retenção Legal está desativada para esta conversa</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
     <string name="content__file__status__uploading__minimized">ENVIANDO&#8230;</string>
@@ -221,7 +227,7 @@
     <string name="conversation__action__open_conversation">ABRIR CONVERSA</string>
     <string name="conversation__action__notifications">Notificações&#8230;</string>
     <string name="conversation__action__silence">Silenciar</string>
-    <string name="conversation__action__unsilence">Notificar</string>
+    <string name="conversation__action__unsilence">Dessilenciar</string>
     <string name="conversation__action__leave">Deixar grupo&#8230;</string>
     <string name="conversation__action__call">Chamada</string>
     <string name="conversation__action__picture">Foto</string>
@@ -244,12 +250,12 @@
     <!-- Calling/voice -->
     <string name="calling__cannot_start__title">Microfone necessário</string>
     <string name="calling__cannot_start__message">Para ligar, desligue a sua chamada atual.</string>
-    <string name="calling__cannot_start__no_permission__message">Vá para Ajustes e permita que o Wire acesse seu microfone.</string>
-    <string name="calling__cannot_start__cancel__message">Cancelar</string>
+    <string name="calling__cannot_start__no_permission__message">Vá para Configurações e permita que o Wire acesse seu microfone.</string>
+    <string name="calling__cannot_start__cancel__message">CANCELAR</string>
     <string name="calling__cannot_start__no_camera_permission__message">O Wire não tem acesso à câmera</string>
     <string name="calling__video_call__slow_connection__message">Você pode ter problemas durante a chamada</string>
     <string name="incoming__controls__ongoing__speaker">ALTO-FALANTE</string>
-    <string name="incoming__controls__ongoing__mute">SEM SOM</string>
+    <string name="incoming__controls__ongoing__mute">Silenciar</string>
     <string name="incoming__controls__ongoing__video">VÍDEO</string>
     <string name="incoming__controls__ongoing__flip">MUDAR</string>
     <string name="ongoing__poor_connection_message">O VÍDEO PAROU DEVIDO À CONEXÃO LENTA</string>
@@ -269,11 +275,11 @@
     <string name="call_error_unsupported_version_message">Você recebeu uma chamada que não é suportada por esta versão do Wire.\n\nObtenha a versão mais recente na Play Store.</string>
     <string name="call_error_unsupported_version_button_ok">Ir para a Play Store</string>
     <string name="call_error_unsupported_version_button_dismiss">Mais tarde</string>
-    <string name="calling_ongoing_call_title">Chamada em curso</string>
+    <string name="calling_ongoing_call_title">Chamada em andamento</string>
     <string name="calling_ongoing_call_start_message">Uma chamada está ativa em outra conversa. \nChamar aqui vai desligar a outra ligação.</string>
-    <string name="calling_ongoing_call_start_anyway">CHAMAR DE QUALQUER MANEIRA</string>
-    <string name="calling_ongoing_call_join_message">Uma chamada está ativa em outra conversa. \nJuntando-se aqui vai desligar a outra ligação.</string>
-    <string name="calling_ongoing_call_join_anyway">JUNTE-SE DE QUALQUER MANEIRA</string>
+    <string name="calling_ongoing_call_start_anyway">CHAMAR MESMO ASSIM</string>
+    <string name="calling_ongoing_call_join_message">Uma chamada está ativa em outra conversa.\nEntrar aqui vai encerrar a outra chamada.</string>
+    <string name="calling_ongoing_call_join_anyway">ENTRAR MESMO ASSIM</string>
     <string name="calling_ongoing_call_participants_header">PARTICIPANTES</string>
     <string name="calling_ongoing_call_audio_message">Você não pode gravar uma mensagem de áudio em uma chamada</string>
     <string name="calling_ongoing_call_video_message">Você não pode gravar uma mensagem de vídeo quando está em uma chamada</string>
@@ -287,7 +293,7 @@
     <string name="calling_toggle_speakers">Palestrantes</string>
     <string name="calling_double_tap_enter_fullscreen_message">Toque duas vezes em um bloco para tela cheia</string>
     <string name="calling_double_tap_exit_fullscreen_message">Toque duas vezes para voltar, aperte para dar zoom</string>
-    <string name="calling_screenshare_zooming_message">Aperte para ampliar</string>
+    <string name="calling_screenshare_zooming_message">Aperte para dar zoom</string>
     <!-- Connect request -->
     <string name="connect__message">Olá %1$s,\nVamos nos conectar no Wire.\n%2$s</string>
     <string name="connect_request__sub_header__pending_label">Pendente</string>
@@ -295,7 +301,7 @@
     <string name="connect_request__unblock__button__text">Desbloquear</string>
     <string name="send_connect_request__connect_button__text">CONECTAR</string>
     <plurals name="connect_inbox__link__name">
-        <item quantity="one">Uma pessoa esperando</item>
+        <item quantity="one">1 pessoa esperando</item>
         <item quantity="other">%1$s pessoas esperando</item>
     </plurals>
     <string name="connect_request__ignore_button__text">Ignorar</string>
@@ -310,16 +316,24 @@
     <string name="conversation__degraded_confirmation__header__someone">Alguém começou a usar um novo dispositivo.</string>
     <string name="conversation__degraded_confirmation__header__multiple_user">%1$s e %2$s começaram a usar novos dispositivos.</string>
     <plurals name="conversation__degraded_confirmation__message">
-        <item quantity="one">Ainda quer enviar sua mensagem?</item>
-        <item quantity="other">Ainda quer enviar suas mensagens?</item>
+        <item quantity="one">Você ainda deseja enviar sua mensagem?</item>
+        <item quantity="other">Você ainda deseja enviar suas mensagens?</item>
     </plurals>
-    <string name="conversation__degraded_confirmation__positive_action">Enviar assim mesmo</string>
+    <string name="conversation__degraded_confirmation__positive_action">Enviar mesmo assim</string>
     <plurals name="conversation__degraded_confirmation__negative_action">
         <item quantity="one">Mostrar dispositivo</item>
         <item quantity="other">Mostrar pessoas</item>
     </plurals>
     <string name="conversation__degraded_confirmation__negative_action_self">Mostrar seus dispositivos</string>
     <string name="conversation_degraded_confirmation__header__you">Você</string>
+    <string name="conversation__legal_hold_confirmation__header">A conversa está agora sujeita a Retenção Legal.</string>
+    <plurals name="conversation__legal_hold_confirmation__message">
+        <item quantity="one">Você ainda deseja enviar sua mensagem?</item>
+        <item quantity="other">Você ainda deseja enviar suas mensagens?</item>
+    </plurals>
+    <string name="conversation__legal_hold_confirmation__negative_action">O que é Retenção Legal?</string>
+    <string name="conversation__legal_hold_confirmation__neutral_action">Verificar dispositivos&#8230;</string>
+    <string name="conversation__legal_hold_confirmation__positive_action">Enviar mesmo assim</string>
     <!-- Picture selection confirmation -->
     <string name="confirmation_menu__confirm_done">OK</string>
     <string name="confirmation_menu__cancel">CANCELAR</string>
@@ -364,7 +378,7 @@
     <!-- Account -->
     <string name="pref_account_screen_title">Conta</string>
     <string name="pref_account_name_title">Nome</string>
-    <string name="pref_account_edit_name_title">Editar Nome</string>
+    <string name="pref_account_edit_name_title">Editar nome</string>
     <string name="pref_account_details_category_title">Informações</string>
     <string name="pref_account_actions_category_title">Ações</string>
     <string name="pref_account_appearance_category_title">Aparência</string>
@@ -375,14 +389,14 @@
     <string name="pref_account_add_phone_title">Adicionar número de telefone</string>
     <string name="pref_account_email_title">E-mail</string>
     <string name="pref_account_add_email_title">Adicionar e-mail</string>
-    <string name="pref_account_delete">Apagar</string>
+    <string name="pref_account_delete">Excluir</string>
     <string name="pref_account_sign_out_title">Encerrar sessão</string>
     <string name="pref_account_color_title">Cor</string>
     <string name="pref_account_picture_title">Foto</string>
     <string name="pref_account_delete_title">Excluir Conta</string>
     <string name="pref_account_delete_warning_title">Excluir conta</string>
-    <string name="pref_account_delete_warning_message_email">Nós enviaremos um email para:\n[[%1$s]]\n Siga o link para apagar permanentemente a sua conta.</string>
-    <string name="pref_account_delete_warning_message_sms">Nós enviaremos um SMS para:\n[[%1$s]]\n Siga o link para apagar permanentemente a sua conta.</string>
+    <string name="pref_account_delete_warning_message_email">Nós enviaremos um e-mail para:\n[[%1$s]]\nSiga o link para excluir permanentemente a sua conta.</string>
+    <string name="pref_account_delete_warning_message_sms">Nós enviaremos um SMS para:\n[[%1$s]]\nSiga o link para excluir permanentemente a sua conta.</string>
     <string name="pref_account_delete_warning_verify">OK</string>
     <string name="pref_account_delete_warning_cancel">Cancelar</string>
     <string name="pref_account_sign_out_warning_message">Tem certeza de que deseja encerrar a sessão?</string>
@@ -427,7 +441,7 @@
     <string name="pref_options_vibration_title_o">Vibrar ao tocar</string>
     <string name="pref_options_ringtones_category_title">Sons</string>
     <string name="pref_options_ringtones_ringtone_title">Toque</string>
-    <string name="pref_options_ringtones_text_title">Tom de alerta</string>
+    <string name="pref_options_ringtones_text_title">Tom de texto</string>
     <string name="pref_options_ringtones_ping_title">Ping</string>
     <string name="pref_options_ringtones_default_summary">Padrão Wire</string>
     <string name="pref_options_ringtones_silent">Silencioso</string>
@@ -439,7 +453,7 @@
     <string name="pref_options_image_download_wifi">Apenas Wi-Fi</string>
     <string name="pref_options_media_category_title">Mídia</string>
     <string name="pref_options_requested_category_title">Por demanda popular</string>
-    <string name="pref_options_cursor_send_button_title">Botão Enviar</string>
+    <string name="pref_options_cursor_send_button_title">Botão enviar</string>
     <string name="pref_options_cursor_send_button_summary">Desabilite para enviar através do teclado.</string>
     <string name="pref_options_message_previews">Pré-visualização de Mensagens</string>
     <string name="pref_options_message_previews_summary">Exibir conteúdo da mensagem nas notificações.</string>
@@ -456,15 +470,15 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Verificado</string>
     <string name="pref_devices_device_not_verified">Não verificado</string>
-    <string name="pref_devices_device_legal_hold">Dispositivos de Proteção Jurídica</string>
+    <string name="legal_hold_device_content_description">Dispositivos de Retenção Legal</string>
     <string name="pref_devices_warning_summary">Se você não reconhecer um dispositivo acima, remova-o e redefina seu código de acesso.</string>
     <string name="pref_devices_device_screen_title">Detalhes do dispositivo</string>
     <string name="pref_devices_device_fingerprint_category_title">Chave digital</string>
     <string name="pref_devices_device_fingerprint_summary">O Wire dá a cada dispositivo uma impressão digital exclusiva. Compare-os e verifique seus dispositivos e conversas.</string>
     <string name="pref_devices_device_actions_category_title">Ações</string>
     <string name="pref_devices_device_reset_session_title">Redefinir sessão</string>
-    <string name="pref_devices_device_reset_session_summary">Se as impressões digitais não corresponderem, reinicie a sessão para gerar novas chaves de criptografia em ambos os lados.</string>
-    <string name="pref_devices_device_remove_title">Remover o dispositivo</string>
+    <string name="pref_devices_device_reset_session_summary">Se as impressões digitais não corresponderem, redefina a sessão para gerar novas chaves de criptografia em ambos os lados.</string>
+    <string name="pref_devices_device_remove_title">Remover dispositivo</string>
     <string name="pref_devices_device_remove_summary">Remova este dispositivo se você parou de usá-lo. Você será desconectado deste dispositivo imediatamente.</string>
     <string name="pref_devices_device_fingerprint_copy_description">Chave Digital</string>
     <string name="pref_devices_device_fingerprint_copy_toast">Chave Digital Copiada</string>
@@ -505,12 +519,12 @@
     <string name="pref__account_action__phone_verification__code">Código</string>
     <string name="pref__account_action__phone_verification__question">Nenhum código aparecendo?</string>
     <string name="pref__account_action__phone_verification__resend"><u>Reenviar código</u></string>
-    <string name="pref__account_action__phone_verification__change"><u>Mudar número de telefone</u></string>
+    <string name="pref__account_action__phone_verification__change"><u>Alterar número de telefone</u></string>
     <string name="pref__account_action__email_verification__title">Verifique o endereço de e-mail</string>
     <string name="pref__account_action__email_verification__description">Verifique sua caixa de e-mail e siga as instruções.</string>
     <string name="pref__account_action__email_verification__question">Nenhum e-mail apareceu?</string>
     <string name="pref__account_action__email_verification__resend">&lt;u&gt;Reenviar para %s&lt;/u&gt;</string>
-    <string name="pref__account_action__email_verification__change"><u>Mudar e-mail</u></string>
+    <string name="pref__account_action__email_verification__change"><u>Alterar e-mail</u></string>
     <string name="pref__account_action__dialog__add_email_password__password">Senha</string>
     <string name="pref__account_action__dialog__add_email_password__email">E-mail</string>
     <string name="pref__account_action__dialog__add_email_password__title">Adicionar endereço de e-mail</string>
@@ -537,7 +551,7 @@
     <string name="system_status__no_internet">SEM INTERNET</string>
     <!-- SHARING -->
     <string name="alert_dialog__confirmation">OK</string>
-    <string name="alert_dialog__no_network__header">Sem conexão de internet</string>
+    <string name="alert_dialog__no_network__header">Sem Conexão com a Internet</string>
     <string name="sign_up__set_picture__choose">Escolha sua foto</string>
     <string name="sign_up__set_picture__keep">Manter essa</string>
     <string name="sign_up__set_picture__guidance">O Wire é muito mais legal com uma foto.</string>
@@ -567,7 +581,7 @@
     <string name="notification__message_with_quote__name__prefix__text_one2one">Resposta: \u0020</string>
     <string name="notification__message_with_quote__name__prefix__text">Resposta de %1$s: \u0020</string>
     <string name="notification__message_with_quote__group__prefix__text">Resposta de %1$s em %2$s: \u0020</string>
-    <string name="notification__message__one_to_one__wanted_to_talk">Ligou</string>
+    <string name="notification__message__one_to_one__wanted_to_talk">Chamou</string>
     <string name="notification__message__one_to_one__pinged">Pingou</string>
     <string name="notification__message__one_to_one__shared_picture">Compartilhou uma imagem</string>
     <string name="notification__message__one_to_one__shared_file">Compartilhou um arquivo</string>
@@ -582,7 +596,7 @@
     <string name="notification__message__group__remove">removeu pessoas da conversa</string>
     <string name="notification__message__single__accept_request">Você e %1$s agora estão conectados</string>
     <string name="notification__message__group__default_conversation_name">conversa em grupo</string>
-    <string name="notification__message__send_failed">Falha no envio da mensagem</string>
+    <string name="notification__message__send_failed">Falha ao enviar mensagem</string>
     <string name="notification__message__ephemeral">Enviou uma mensagem</string>
     <string name="notification__message_with_mention__ephemeral">Mencionou você</string>
     <string name="notification__message_with_quote__ephemeral">Respondeu a você</string>
@@ -594,13 +608,13 @@
     <!-- ephemeral -->
     <string name="notification__message__ephemeral_someone">Alguém</string>
     <plurals name="notification__message__ephemeral">
-        <item quantity="one">Alguém te mandou uma mensagem</item>
-        <item quantity="other">Alguém te mandou %1$d mensagens</item>
+        <item quantity="one">Alguém te enviou uma mensagem</item>
+        <item quantity="other">Alguém te enviou %1$d mensagens</item>
     </plurals>
-    <string name="other_set_message_timer">[[%1$s]] definiu o tempo da mensagem para [[%2$s]]</string>
-    <string name="you_set_message_timer">[[Você]] definiu o tempo da mensagem para [[%1$s]]</string>
-    <string name="other_turned_off_message_timer">[[%1$s]] desligou o tempo da mensagem</string>
-    <string name="you_turned_off_message_timer">[[Você]] desligou o tempo da mensagem</string>
+    <string name="other_set_message_timer">[[%1$s]] definiu as mensagens temporárias para [[%2$s]]</string>
+    <string name="you_set_message_timer">[[Você]] definiu as mensagens temporárias para [[%1$s]]</string>
+    <string name="other_turned_off_message_timer">[[%1$s]] desligou as mensagens temporárias</string>
+    <string name="you_turned_off_message_timer">[[Você]] desligou as mensagens temporárias</string>
     <!-- Others -->
     <string name="app_name">Wire</string>
     <string name="content__system__item_separator">,</string>
@@ -611,9 +625,9 @@
         <item quantity="other">%1$s outros</item>
     </plurals>
     <!-- System notifications -->
-    <string name="system_notification__silence_call">Rejeitar</string>
+    <string name="system_notification__silence_call">Recusar</string>
     <string name="system_notification__join_call">Abrir Chamada</string>
-    <string name="system_notification__leave_call">Finalizar chamada</string>
+    <string name="system_notification__leave_call">Encerrar chamada</string>
     <string name="system_notification__calling_one">Chamando&#8230;</string>
     <string name="system_notification__calling_group">%1$s está chamando&#8230;</string>
     <string name="system_notification__video_calling_one">Chamando com vídeo&#8230;</string>
@@ -662,11 +676,11 @@
     <!-- Example: FRIDAY, MAR 9, 11:29 -->
     <string name="timestamp_pattern__date_and_time__no_year">EEE, MMM d, %1$s</string>
     <!-- Example: FRIDAY, MAR 9, 2015, 11:29 -->
-    <string name="timestamp_pattern__date_and_time__with_year">EEE, d MMM yyyy, %1$s</string>
+    <string name="timestamp_pattern__date_and_time__with_year">EEE, d MMM, yyyy, %1$s</string>
     <!-- Example: MAR 9, 11:29 -->
     <string name="timestamp_pattern__date_and_time__no_year_no_weekday">d MMM, %1$s</string>
     <!-- Example: MAR 9, 2015, 11:29 -->
-    <string name="timestamp_pattern__date_and_time__with_year_no_weekday">d MMM yyyy, %1$s</string>
+    <string name="timestamp_pattern__date_and_time__with_year_no_weekday">d MMM, yyyy, %1$s</string>
     <!-- Example: MONDAY, 9 MARCH 2015 \u30FB 12:08 -->
     <!-- MONDAY -->
     <!-- MARCH 2 -->
@@ -688,19 +702,19 @@
     </plurals>
     <string name="welcome__resend__manual">REENVIAR</string>
     <string name="welcome__resend__callme">ME LIGUE</string>
-    <string name="activation_code_info_manual">Digite o código de verificação que enviámos para \n &lt; b &gt;%s &lt;/b &gt;</string>
+    <string name="activation_code_info_manual">Digite o código de verificação que enviámos para \n&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="enter_name">Como você quer ser chamado?</string>
-    <string name="enter_name_hint">Digite o nome completo</string>
+    <string name="enter_name_hint">Insira o Nome Completo</string>
     <string name="new_reg__password__forgot">Esqueceu a senha?</string>
     <string name="phone_sign_in">Telefone</string>
     <string name="email_sign_in">E-mail</string>
     <string name="edit_email">Editar o e-mail</string>
-    <string name="hello">Olá, &lt; b &gt;%s &lt;/b &gt;</string>
+    <string name="hello">Olá, &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="sign_in">Iniciar Sessão</string>
     <string name="new_reg__password_length">PELO MENOS %1$s CARACTERES</string>
     <string name="username__set__toast_error">Erro ao atualizar o nome de usuário</string>
     <!-- Giphy -->
-    <string name="giphy_preview__search_hint">Pesquisa Giphy</string>
+    <string name="giphy_preview__search_hint">Pesquisar Giphy</string>
     <string name="giphy_preview__error">NÃO FORAM ENCONTRADOS GIFS.</string>
     <string name="giphy_preview__message_via_random_trending">via giphy.com</string>
     <string name="giphy_preview__message_via_search">%s · via giphy.com</string>
@@ -747,7 +761,7 @@
     <string name="otr__participant__device_class__phone">Telefone</string>
     <string name="otr__participant__device_class__tablet">Tablet</string>
     <string name="otr__participant__device_class__desktop">Computador</string>
-    <string name="otr__participant__device_class__legal_hold">Proteção Jurídica</string>
+    <string name="otr__participant__device_class__legal_hold">Retenção Legal</string>
     <string name="otr__participant__tab_details">DETALHES</string>
     <string name="otr__participant__tab_devices">DISPOSITIVOS</string>
     <string name="otr__participant__information">INFORMAÇÃO</string>
@@ -772,7 +786,7 @@
     <string name="conversation_list__action_join_call">ENTRAR</string>
     <!-- Conversation Toolbar -->
     <string name="conversation_toolbar__collection">Coleção</string>
-    <string name="conversation_toolbar__call_video">Vídeo Chamada</string>
+    <string name="conversation_toolbar__call_video">Chamada de vídeo</string>
     <string name="conversation_toolbar__call_audio">Chamada de áudio</string>
     <!-- Asset upload errors -->
     <string name="asset_upload_error__not_found__title">Arquivo não encontrado</string>
@@ -788,7 +802,7 @@
     <!-- Video message errors -->
     <string name="audio_message_error__missing_audio_permissions">Para enviar mensagens de áudio, conceda permissão para gravar áudio.</string>
     <!-- Audio bit rate mode -->
-    <string name="audio_message_constant_bit_rate">TAXA DE BITS CONSTANTE</string>
+    <string name="audio_message_constant_bit_rate">TAXA DE BIT CONSTANTE</string>
     <string name="audio_message_variable_bit_rate">TAXA DE BIT VARIÁVEL</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Não há conversas ainda</string>
@@ -796,7 +810,7 @@
     <string name="no_conversation_in_list__message">Iniciar uma conversa ou criar um grupo.</string>
     <string name="default_deleted_username">Padrão</string>
     <string name="cursor__type_a_message">DIGITE UMA MENSAGEM</string>
-    <string name="cursor__ephemeral_message">MENSAGEM PROGRAMADA</string>
+    <string name="cursor__ephemeral_message">MENSAGENS TEMPORÁRIAS</string>
     <string name="tooltip_record">Gravar vídeo</string>
     <string name="tooltip_camera">Adicionar foto</string>
     <string name="tooltip_sketch">Desenhar</string>
@@ -813,12 +827,12 @@
     <string name="conversation__message_action__delete_for_everyone">Excluir para todos?</string>
     <string name="conversation__message_action__delete_details">Isto não pode ser desfeito.</string>
     <string name="conversation__message_action__delete__dialog__cancel">Cancelar</string>
-    <string name="conversation__message_action__delete__dialog__ok">Apagar</string>
+    <string name="conversation__message_action__delete__dialog__ok">Excluir</string>
     <string name="conversation__message_action__delete__confirmation">Mensagem excluída</string>
     <string name="conversation__action_mode__copy__description">Mensagem de %1$s</string>
     <string name="conversation__action_mode__copy__toast">Copiado</string>
     <string name="conversation__action_mode__fwd__dialog__title">Preparando conteúdo</string>
-    <string name="conversation__action_mode__fwd__dialog__message">Aguarde&#8230;</string>
+    <string name="conversation__action_mode__fwd__dialog__message">Por favor, aguarde&#8230;</string>
     <string name="conversation__action_mode__fwd__chooser__title">Compartilhar com</string>
     <!-- video message preview -->
     <string name="audio_message__recording__slide_control__slide_hint">DESLIZE PARA CIMA PARA ENVIAR</string>
@@ -826,7 +840,7 @@
     <string name="audio_message__recording__tap_to_record">Toque para gravar uma mensagem\nvocê pode _GLYPH_ depois disso</string>
     <string name="audio_message__recording__failure__title">Não é possível gravar áudio</string>
     <string name="audio_message__recording__failure__message">Por favor, tente novamente.</string>
-    <string name="audio_message__recording__limit_reached__title">Gravação parou</string>
+    <string name="audio_message__recording__limit_reached__title">A gravação parou</string>
     <string name="audio_message__recording__limit_reached__message">Mensagens de áudio são limitadas a 25MB. Enviar esta mensagem?</string>
     <string name="audio_message__recording__limit_reached__confirmation">ENVIAR</string>
     <string name="hint_change_filter">Escolha um filtro acima</string>
@@ -837,8 +851,8 @@
     <string name="message_bottom_menu_action_unlike">Descurtir</string>
     <string name="message_bottom_menu_action_save">Salvar</string>
     <string name="message_bottom_menu_action_open">Abrir</string>
-    <string name="message_bottom_menu_action_delete">Apagar</string>
-    <string name="message_bottom_menu_action_delete_local">Apagar para mim</string>
+    <string name="message_bottom_menu_action_delete">Excluir</string>
+    <string name="message_bottom_menu_action_delete_local">Excluir para mim</string>
     <string name="message_bottom_menu_action_delete_global">Excluir para todos</string>
     <string name="message_bottom_menu_action_reveal">Mostrar na conversa</string>
     <string name="message_bottom_menu_action_reply">Responder</string>
@@ -873,7 +887,7 @@
     <string name="usernames__take_over__choose">ESCOLHA O SEU PRÓPRIO</string>
     <string name="usernames__take_over__keep">MANTER ESSE</string>
     <string name="ephemeral_message__timeout__off">Desligar</string>
-    <string name="ephemeral_message__options_header">MENSAGENS PROGRAMADAS</string>
+    <string name="ephemeral_message__options_header">MENSAGENS TEMPORÁRIAS</string>
     <string name="guests_option_on">Ligado</string>
     <plurals name="unit_years">
         <item quantity="one">%1$s ano</item>
@@ -909,9 +923,9 @@
     <string name="collection_empty">NÃO HÁ ITENS NA COLEÇÃO</string>
     <string name="collection_all">Mostrar todos %1$s</string>
     <string name="multi_share_toast_sending">@string/message_footer__status__sending</string>
-    <string name="multi_share_search_hint">ENVIE PARA&#8230;</string>
+    <string name="multi_share_search_hint">ENVIAR PARA&#8230;</string>
     <string name="single_selector_search_hint">"SELECIONE UMA CONVERSA…"</string>
-    <string name="search__box__hint_text">PROCURAR MENSAGENS DE TEXTO</string>
+    <string name="search__box__hint_text">PESQUISAR MENSAGENS DE TEXTO</string>
     <string name="search__no_results">Sem resultados.</string>
     <!-- Conversation List -->
     <plurals name="conversation_list__new_message_count">
@@ -978,7 +992,7 @@
     <string name="availability_text_available">DISPONÍVEL</string>
     <string name="availability_text_away">AUSENTE</string>
     <string name="availability_text_busy">OCUPADO</string>
-    <string name="availability_setstatus">DEFINIR UM ESTADO</string>
+    <string name="availability_setstatus">DEFINIR UM STATUS</string>
     <string name="availability_notification_warning_away_title">Você está definido como Ausente</string>
     <string name="availability_notification_warning_away">Você aparecerá como Ausente para outras pessoas. Você não receberá notificações sobre quaisquer chamadas ou mensagens recebidas.</string>
     <string name="availability_notification_warning_busy_title">Você está definido como Ocupado</string>
@@ -1002,7 +1016,7 @@
     <string name="new_devices_dialog_manage_devices">Gerenciar dispositivos</string>
     <string name="teams_set_email_title">Sua conta</string>
     <string name="teams_set_email_subtitle">Digite seu endereço de e-mail empresarial.</string>
-    <string name="teams_set_email_hint">NOME@DOMINIO.ABC</string>
+    <string name="teams_set_email_hint">VOCÊ@SUAEMPRESA.COM</string>
     <string name="teams_set_email_about">SAIBA MAIS</string>
     <string name="teams_set_password_title">Definir senha</string>
     <string name="teams_set_password_hint">Senha</string>
@@ -1106,9 +1120,9 @@
     <string name="open_this_conversation_to_people_outside_your_team">Abra esta conversa para serviços e pessoas fora da sua equipe.</string>
     <string name="allow_guests">Permitir convidados e serviços</string>
     <string name="guest_options_title">Convidados e serviços</string>
-    <string name="ephemeral_options_title">Mensagens programadas</string>
+    <string name="ephemeral_options_title">Mensagens temporárias</string>
     <string name="notifications_options_title">Notificações</string>
-    <string name="ephemeral_explanation_text">As mensagens programadas serão ativadas para todos os participantes nesta conversa</string>
+    <string name="ephemeral_explanation_text">As mensagens temporárias serão ativadas para todos os participantes nesta conversa</string>
     <string name="notifications_explanation_text">Você pode ser notificado sobre tudo (incluindo chamadas de áudio e vídeo) ou apenas quando for mencionado.</string>
     <string name="show_all_participants">Mostrar todos (%1$s)</string>
     <string name="participant_was_removed_from_team">%s foi removido da equipe</string>
@@ -1194,7 +1208,7 @@
     <string name="sso_signin_max_accounts_title">Duas contas ativas</string>
     <string name="sso_signin_max_accounts_message">Você só pode estar conectado com duas contas ao mesmo tempo. Saia de uma para adicionar outra.</string>
     <string name="custom_backend_welcome">Bem-vindo ao\nespaço de trabalho %1$s</string>
-    <string name="participant_search_hint">PESQUISE POR NOMES</string>
+    <string name="participant_search_hint">PESQUISAR POR NOMES</string>
     <string name="participant_search_title">PARTICIPANTES</string>
     <string name="generic_service_warning">Os serviços têm acesso ao conteúdo desta conversa</string>
     <string name="add_services_button_text">Gerenciar serviços</string>
@@ -1284,7 +1298,7 @@
     <string name="edit_account_handle_error_already_taken">Já está sendo usado</string>
     <string name="edit_account_handle_error_too_short">Pelo menos 2 caracteres</string>
     <string name="edit_account_handle_error_invalid_characters">Por favor, use apenas: a–z, 0–9, and _ </string>
-    <string name="edit_account_handle_error_unknown_error">Alguma coisa deu errado. Por favor, tente novamente.</string>
+    <string name="edit_account_handle_error_unknown_error">Algo deu errado. Por favor, tente novamente.</string>
     <string name="edit_phone_remove_phone_number">Remover número de telefone</string>
     <string name="edit_phone_dialog_delete_phone_confirmation">Tem certeza de que deseja remover %s da sua conta Wire?</string>
     <string name="edit_phone_dialog_confirm_phone_confirmation">Nós enviaremos um código de notificação para: \n%s</string>
@@ -1305,7 +1319,7 @@
     <string name="create_personal_account_with_phone_phone_blacklisted_error">Este número de telefone não é permitido.</string>
     <string name="create_personal_account_with_phone_phone_in_use_error">Este número de telefone que você usou já está vinculado a uma conta.\nUse outro número de telefone ou tente fazer o login se você for o proprietário desta conta.</string>
     <string name="create_personal_account_with_phone_default_country_name">Alemanha</string>
-    <string name="create_personal_account_with_phone_default_country_code">+49</string>
+    <string name="create_personal_account_with_phone_default_country_code">+55</string>
     <!-- Create Personal Account - Email Code screen -->
     <string name="create_personal_account_email_code_title">Você tem um e-mail</string>
     <string name="create_personal_account_email_code_description">Digite o código de verificação que enviamos para %s</string>
@@ -1337,16 +1351,19 @@
     <string name="start_sso_redirected_to">Você está sendo redirecionado para seu serviço empresarial dedicado.</string>
     <string name="start_sso_notice">Forneça credenciais apenas se tiver certeza de que este é o login da sua organização.</string>
     <!-- Legal Hold -->
-    <string name="legal_hold_info_title">Proteção Jurídica</string>
-    <string name="legal_hold_self_user_info_message">A Proteção Jurídica foi ativada para sua conta.\n\nTodas as mensagens serão preservadas para acesso futuro, incluindo mensagens excluídas, editadas e programadas.\n\nSeus parceiros de conversa estarão cientes da gravação.</string>
-    <string name="legal_hold_conversation_info_message">A Proteção Jurídica foi ativada para pelo menos uma pessoa nesta conversa.\n\nTodas as mensagens serão preservadas para acesso futuro, incluindo mensagens excluídas, editadas e programadas.</string>
-    <string name="legal_hold_info_list_title">Assuntos de Proteção Jurídica</string>
-    <string name="legal_hold_request_dialog_title">Proteção Jurídica Solicitada</string>
-    <string name="legal_hold_request_dialog_message_for_sso">Todas as mensagens futuras serão gravadas pelo dispositivo com impressão digital:\n%1$s\nIsso inclui mensagens excluídas, editadas e programas em todas as conversas.</string>
-    <string name="legal_hold_request_dialog_message">Todas as mensagens futuras serão gravadas pelo dispositivo com impressão digital:\n%1$s\nIsso inclui mensagens excluídas, editadas e programadas em todas as conversas.\n\nInsira sua senha para confirmar.</string>
+    <string name="legal_hold_info_title">Retenção Legal</string>
+    <string name="legal_hold_self_user_info_message">A Retenção Legal foi ativada para sua conta.\n\nTodas as mensagens serão preservadas para acesso futuro, incluindo mensagens excluídas, editadas e temporárias.\n\nSeus parceiros de conversa estarão cientes da gravação.</string>
+    <string name="legal_hold_conversation_info_message">A Retenção Legal foi ativada para pelo menos uma pessoa nesta conversa.\n\nTodas as mensagens serão preservadas para acesso futuro, incluindo mensagens excluídas, editadas e temporárias.</string>
+    <string name="legal_hold_info_list_title">Assuntos de Retenção Legal</string>
+    <string name="legal_hold_request_dialog_title">Retenção Legal Solicitada</string>
+    <string name="legal_hold_request_dialog_message_for_sso">Todas as mensagens futuras serão gravadas pelo dispositivo com impressão digital:\n%1$sIsso inclui mensagens excluídas, editadas e temporárias em todas as conversas.</string>
+    <string name="legal_hold_request_dialog_message">Todas as mensagens futuras serão gravadas pelo dispositivo com impressão digital:\n%1$sIsso inclui mensagens excluídas, editadas e temporárias em todas as conversas.\nDigite sua senha para confirmar.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Aceitar</string>
     <string name="legal_hold_request_dialog_negative_button_text">Agora Não</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Senha incorreta</string>
-    <string name="legal_hold_all_subjects_title">ASSUNTOS DE PROTEÇÃO JURÍDICA</string>
-    <string name="legal_hold_device_name">Proteção Jurídica</string>
+    <string name="legal_hold_all_subjects_title">ASSUNTOS DE RETENÇÃO LEGAL</string>
+    <string name="legal_hold_device_name">Retenção Legal</string>
+    <string name="legal_hold_deactivated_dialog_title">A Retenção Legal está desativada</string>
+    <string name="legal_hold_deactivated_dialog_message">As mensagens futuras não serão gravadas.</string>
+    <string name="legal_hold_activated_dialog_title"> A Retenção Legal está ativada</string>
 </resources>

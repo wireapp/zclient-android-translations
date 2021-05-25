@@ -154,6 +154,10 @@
     <string name="content__system__someone_left">Хтось вийшов з групи</string>
     <string name="content__system__other_was_removed">[[%1$s]] був(-ла) видалений(-а)</string>
     <string name="content__system__someone_was_removed">Хтось був видалений</string>
+    <string name="content__system__legalhold_conflict__you_were_removed">[[You]] were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__someone_was_removed">Someone was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__other_was_removed">%1$s was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__others_were_removed">%1$s were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Ви розпочали розмову</string>
     <string name="content__system__other_started_conversation">%1$s розпочав(-ла) розмову</string>
@@ -194,6 +198,8 @@
     <string name="content__otr__unverified_device__message">[[ВИ]] ПОЗНАЧИЛИ ОДИН З _ПРИСТРОЇВ КОНТАКТУ %1$s_ ЯК НЕВЕРИФІКОВАНИЙ</string>
     <string name="content__otr__your_unverified_device__message">[[ВИ]] ПОЗНАЧИЛИ ОДИН З _ВАШИХ ПРИСТРОЇВ_ ЯК НЕВЕРИФІКОВАНИЙ</string>
     <string name="content__otr__new_member__message">ПРИЄДНАЛИСЯ НОВІ УЧАСНИКИ. _ВЕРИФІКУВАТИ ПРИСТРОЇ_</string>
+    <string name="content__otr__legalhold_enabled__message">This conversation is under legal hold. _LEARN MORE_</string>
+    <string name="content__otr__legalhold_disabled__message">Для даної розмови правовий захист деактивовано</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
     <string name="content__file__status__uploading__minimized">ЗАВАНТАЖЕННЯ&#8230;</string>
@@ -338,6 +344,16 @@
     </plurals>
     <string name="conversation__degraded_confirmation__negative_action_self">Показати мої пристрої</string>
     <string name="conversation_degraded_confirmation__header__you">Ви</string>
+    <string name="conversation__legal_hold_confirmation__header">Дана розмова тепер знаходиться під правовим захистом.</string>
+    <plurals name="conversation__legal_hold_confirmation__message">
+        <item quantity="one">Усе одно надіслати ваше повідомлення?</item>
+        <item quantity="few">Все одно надіслати ваші повідомлення?</item>
+        <item quantity="many">Все одно надіслати ваші повідомлення?</item>
+        <item quantity="other">Все одно надіслати ваші повідомлення?</item>
+    </plurals>
+    <string name="conversation__legal_hold_confirmation__negative_action">Що таке правовий захист?</string>
+    <string name="conversation__legal_hold_confirmation__neutral_action">Verify devices&#8230;</string>
+    <string name="conversation__legal_hold_confirmation__positive_action">Все одно надіслати</string>
     <!-- Picture selection confirmation -->
     <string name="confirmation_menu__confirm_done">OK</string>
     <string name="confirmation_menu__cancel">СКАСУВАТИ</string>
@@ -474,7 +490,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Верифікований</string>
     <string name="pref_devices_device_not_verified">Не верифікований</string>
-    <string name="pref_devices_device_legal_hold">Правовий захист пристрою</string>
+    <string name="legal_hold_device_content_description">Правовий захист пристрою</string>
     <string name="pref_devices_warning_summary">Якщо ви не впізнаєте пристрою вище, видаліть його та виконайте скидання коду доступу.</string>
     <string name="pref_devices_device_screen_title">Подробиці пристрою</string>
     <string name="pref_devices_device_fingerprint_category_title">Ідентифікатор</string>
@@ -1168,7 +1184,7 @@
     <string name="notifications_explanation_text">Ви можете отримувати нотифікації про всі події (включаючи аудіо- та відеодзвінки), або тільки тоді, коли вас згадують.</string>
     <string name="show_all_participants">Показати всіх (%1$s)</string>
     <string name="participant_was_removed_from_team">%s було видалено з команди</string>
-    <string name="all_participants">Participants (%1$s)</string>
+    <string name="all_participants">Учасники (%1$s)</string>
     <string name="allow_guests_error_title">Щось пішло не так</string>
     <string name="allow_guests_error_body">Не вдалося надати доступ гостям або сервісам. Будь ласка, спробуйте ще раз.</string>
     <string name="allow_guests_warning_body">Поточні гості та сервіси будуть вилучені з розмови. Нові гості та сервіси будуть не змозі приєднатися до неї.</string>
@@ -1398,11 +1414,14 @@
     <string name="legal_hold_conversation_info_message">В даній розмові правовий захист активовано, як мінімум, для одного учасника.\n\nВсі повідомлення будуть збережені для доступу в майбутньому, включно з видаленими, відредагованими та тимчасованими повідомленнями.</string>
     <string name="legal_hold_info_list_title">Суб\'єкти правового захисту</string>
     <string name="legal_hold_request_dialog_title">Отримано запит на правовий захист</string>
-    <string name="legal_hold_request_dialog_message_for_sso">Усі майбутні повідомлення будуть записані пристроєм з ідентифікатором:\n%1$s\nВключно з видаленими, відредагованими та тимчасовими повідомленнями в усіх розмовах.</string>
-    <string name="legal_hold_request_dialog_message">Усі майбутні повідомлення будуть записані пристроєм з ідентифікатором:\n%1$s\nВключно з видаленими, відредагованими та тимчасовими повідомленнями в усіх розмовах.\n\nВведіть ваш пароль для підтвердження.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.</string>
+    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.\nEnter your password to confirm.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Прийняти</string>
     <string name="legal_hold_request_dialog_negative_button_text">Не зараз</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Невірний пароль</string>
     <string name="legal_hold_all_subjects_title">СУБ\'ЄКТИ ПРАВОВОГО ЗАХИСТУ</string>
     <string name="legal_hold_device_name">Правовий захист</string>
+    <string name="legal_hold_deactivated_dialog_title">Правовий захист деактивовано</string>
+    <string name="legal_hold_deactivated_dialog_message">Майбутні повідомлення будуть записані.</string>
+    <string name="legal_hold_activated_dialog_title">Правовий захист активний</string>
 </resources>

@@ -148,6 +148,10 @@
     <string name="content__system__someone_left">Biri ayrıldı</string>
     <string name="content__system__other_was_removed">%1$s çıkarıldı</string>
     <string name="content__system__someone_was_removed">Birisi çıkarıldı</string>
+    <string name="content__system__legalhold_conflict__you_were_removed">[[You]] were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__someone_was_removed">Someone was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__other_was_removed">%1$s was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__others_were_removed">%1$s were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Sohbeti başlattınız</string>
     <string name="content__system__other_started_conversation">%1$s sohbeti başlattı</string>
@@ -184,6 +188,8 @@
     <string name="content__otr__unverified_device__message">[[SEN]], _%1$s KİŞİSİNİN CİHAZLARINDAN_ BİRİNİN DOĞRULAMASINI KALDIRDIN</string>
     <string name="content__otr__your_unverified_device__message">[[SEN]] _CİHAZLARINDAN_ BİRİNİN DOĞRULAMASINI KALDIRDIN</string>
     <string name="content__otr__new_member__message">YENİ İNSANLAR KATILDI. _CİHAZLARI DOĞRULA_</string>
+    <string name="content__otr__legalhold_enabled__message">This conversation is under legal hold. _LEARN MORE_</string>
+    <string name="content__otr__legalhold_disabled__message">Bu konuşma için yasal bekletme özelliği devre dışı bırakıldı</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
     <string name="content__file__status__uploading__minimized">KARŞIYA YÜKLENİYOR&#8230;</string>
@@ -320,6 +326,14 @@
     </plurals>
     <string name="conversation__degraded_confirmation__negative_action_self">Cihazlarını göster</string>
     <string name="conversation_degraded_confirmation__header__you">Sen</string>
+    <string name="conversation__legal_hold_confirmation__header">Konuşma şimdi yasal düzenlemeye tabidir.</string>
+    <plurals name="conversation__legal_hold_confirmation__message">
+        <item quantity="one">Hâlâ mesajınızı göndermek istiyor musunuz?</item>
+        <item quantity="other">Hâlâ mesajlarınızı göndermek istiyor musunuz?</item>
+    </plurals>
+    <string name="conversation__legal_hold_confirmation__negative_action">Yasal Tutma Nedir?</string>
+    <string name="conversation__legal_hold_confirmation__neutral_action">Verify devices&#8230;</string>
+    <string name="conversation__legal_hold_confirmation__positive_action">Yine de gönder</string>
     <!-- Picture selection confirmation -->
     <string name="confirmation_menu__confirm_done">TAMAM</string>
     <string name="confirmation_menu__cancel">İPTAL ET</string>
@@ -456,7 +470,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Doğrulandı</string>
     <string name="pref_devices_device_not_verified">Doğrulanmadı</string>
-    <string name="pref_devices_device_legal_hold">Legal Hold device</string>
+    <string name="legal_hold_device_content_description">Legal Hold device</string>
     <string name="pref_devices_warning_summary">Yukarıdaki cihazı tanımıyorsanız, onu kaldırın ve parolanızı sıfırlayın.</string>
     <string name="pref_devices_device_screen_title">Cihaz detayları</string>
     <string name="pref_devices_device_fingerprint_category_title">Anahtar Parmak İzi</string>
@@ -1342,11 +1356,14 @@
     <string name="legal_hold_conversation_info_message">Yasal tutma bu konuşmada en az bir kişi için aktive edildi.\n\nSilinen, düzenlenmiş ve zamanlanmış mesajlar dahil olmak üzere tüm mesajlar ileride erişilebilecek şekilde korunur.</string>
     <string name="legal_hold_info_list_title">Yasal tutma konuları</string>
     <string name="legal_hold_request_dialog_title">Kanuni Durdurma istendi</string>
-    <string name="legal_hold_request_dialog_message_for_sso">Gelecekteki tüm mesajlar parmak izi ile cihaz tarafından kaydedilecektir:\n%1$s\nBu, tüm sohbetlerden silinmiş, düzenlenmiş ve süreli mesajları içerir.</string>
-    <string name="legal_hold_request_dialog_message">Gelecekteki tüm mesajlar parmak izi ile cihaz tarafından kaydedilecektir:\n%1$s\nBu, tüm sohbetlerden silinmiş, düzenlenmiş ve süreli mesajları içerir.\n\nOnaylamak için şifrenizi girin.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.</string>
+    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.\nEnter your password to confirm.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Kabul et</string>
     <string name="legal_hold_request_dialog_negative_button_text">Henüz değil</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Yanlış parola</string>
     <string name="legal_hold_all_subjects_title">LEGAL HOLD SUBJECTS</string>
     <string name="legal_hold_device_name">Kanuni Durdurma</string>
+    <string name="legal_hold_deactivated_dialog_title">Yasal Bekletme Devre Dışı Bırakıldı</string>
+    <string name="legal_hold_deactivated_dialog_message">Gelecekteki mesajlar kaydedilmeyecektir.</string>
+    <string name="legal_hold_activated_dialog_title">Kanuni Durdurma Etkin</string>
 </resources>

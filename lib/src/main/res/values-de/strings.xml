@@ -148,6 +148,10 @@
     <string name="content__system__someone_left">Jemand hat die Unterhaltung verlassen</string>
     <string name="content__system__other_was_removed">%1$s wurde entfernt</string>
     <string name="content__system__someone_was_removed">Jemand wurde entfernt</string>
+    <string name="content__system__legalhold_conflict__you_were_removed">[[You]] wurden aus dieser Unterhaltung entfernt, da die gesetzliche Aufbewahrung aktiviert wurde. _MEHR ERFAHREN_</string>
+    <string name="content__system__legalhold_conflict__someone_was_removed">Jemand wurde aus dieser Unterhaltung entfernt, da die gesetzliche Aufbewahrung aktiviert wurde. _MEHR ERFAHREN_</string>
+    <string name="content__system__legalhold_conflict__other_was_removed">%1$s wurde aus dieser Unterhaltung entfernt, da die gesetzliche Aufbewahrung aktiviert wurde. _MEHR ERFAHREN_</string>
+    <string name="content__system__legalhold_conflict__others_were_removed">%1$s wurden aus dieser Unterhaltung entfernt, da die gesetzliche Aufbewahrung aktiviert wurde. _MEHR ERFAHREN_</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Sie haben die Unterhaltung begonnen</string>
     <string name="content__system__other_started_conversation">%1$s hat die Unterhaltung begonnen</string>
@@ -184,6 +188,8 @@
     <string name="content__otr__unverified_device__message">[[SIE]] HABEN DIE ÜBERPRÜFUNG VON _%1$ss GERÄTEN_ WIDERRUFEN</string>
     <string name="content__otr__your_unverified_device__message">[[SIE]] HABEN DIE ÜBERPRÜFUNG EINES _IHRER GERÄTE_ WIDERRUFEN</string>
     <string name="content__otr__new_member__message">NEUE PERSONEN HINZUGEFÜGT. _VERIFIZIERE GERÄTE_</string>
+    <string name="content__otr__legalhold_enabled__message">Diese Unterhaltung unterliegt der gesetzlichen Aufbewahrung. _MEHR ERFAHREN_</string>
+    <string name="content__otr__legalhold_disabled__message">Die gesetzliche Aufbewahrung wurde für diese Unterhaltung deaktiviert</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
     <string name="content__file__status__uploading__minimized">HOCHLADEN&#8230;</string>
@@ -320,6 +326,14 @@
     </plurals>
     <string name="conversation__degraded_confirmation__negative_action_self">Ihre Geräte anzeigen</string>
     <string name="conversation_degraded_confirmation__header__you">Sie</string>
+    <string name="conversation__legal_hold_confirmation__header">Die Unterhaltung unterliegt der gesetzlichen Aufbewahrung.</string>
+    <plurals name="conversation__legal_hold_confirmation__message">
+        <item quantity="one">Möchten Sie Ihre Nachricht trotzdem senden?</item>
+        <item quantity="other">Möchten Sie Ihre Nachrichten trotzdem senden?</item>
+    </plurals>
+    <string name="conversation__legal_hold_confirmation__negative_action">Was ist gesetzliche Aufbewahrung?</string>
+    <string name="conversation__legal_hold_confirmation__neutral_action">Geräte überprüfen&#8230;</string>
+    <string name="conversation__legal_hold_confirmation__positive_action">Trotzdem senden</string>
     <!-- Picture selection confirmation -->
     <string name="confirmation_menu__confirm_done">OK</string>
     <string name="confirmation_menu__cancel">ABBRECHEN</string>
@@ -456,7 +470,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Überprüft</string>
     <string name="pref_devices_device_not_verified">Nicht überprüft</string>
-    <string name="pref_devices_device_legal_hold">Gerät der gesetzlichen Aufbewahrung</string>
+    <string name="legal_hold_device_content_description">Gerät der gesetzlichen Aufbewahrung</string>
     <string name="pref_devices_warning_summary">Falls Sie eines dieser Geräte nicht erkennen, entfernen Sie es und setzen Sie Ihr Kennwort zurück.</string>
     <string name="pref_devices_device_screen_title">Gerätedetails</string>
     <string name="pref_devices_device_fingerprint_category_title">Schlüssel-Fingerabdruck</string>
@@ -1345,13 +1359,14 @@ Gilt nicht für Gruppen.</string>
     <string name="legal_hold_conversation_info_message">Die gesetzlichen Aufbewahrung wurde für mindestens eine Person dieser Unterhaltung aktiviert.\n\nAlle Nachrichten werden für den künftigen Zugriff aufbewahrt, einschließlich gelöschter, bearbeiteter und temporärer Nachrichten.</string>
     <string name="legal_hold_info_list_title">Personen, die der gesetzlichen Aufbewahrung unterliegen</string>
     <string name="legal_hold_request_dialog_title">Gesetzliche Aufbewahrung ersucht</string>
-    <string name="legal_hold_request_dialog_message_for_sso">Aufbewahrung aller künftigen Nachrichten vom Gerät mit Fingerabdruck:\n%1$s\n
-Einschließlich gelöschter, bearbeiteter und temporärer Nachrichten in allen Unterhaltungen.</string>
-    <string name="legal_hold_request_dialog_message">Aufbewahrung aller künftigen Nachrichten vom Gerät mit Fingerabdruck:\n%1$s\n
-Einschließlich gelöschter, bearbeiteter und temporärer Nachrichten in allen Unterhaltungen.\n\nGeben Sie zur Bestätigung Ihr Passwort ein.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">Aufbewahrung aller künftigen Nachrichten vom Gerät mit Fingerabdruck:\n%1$sEinschließlich gelöschter, bearbeiteter und temporärer Nachrichten in allen Unterhaltungen.</string>
+    <string name="legal_hold_request_dialog_message">Aufbewahrung aller künftigen Nachrichten vom Gerät mit Fingerabdruck:\n%1$sEinschließlich gelöschter, bearbeiteter und temporärer Nachrichten in allen Unterhaltungen.\nGeben Sie zur Bestätigung Ihr Passwort ein.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Annehmen</string>
     <string name="legal_hold_request_dialog_negative_button_text">Nicht jetzt</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Falsches Passwort</string>
     <string name="legal_hold_all_subjects_title">PERSONEN, DIE DER GESETZLICHEN AUFBEWAHRUNG UNTERLIEGEN</string>
     <string name="legal_hold_device_name">Gesetzliche Aufbewahrung</string>
+    <string name="legal_hold_deactivated_dialog_title">Gesetzliche Aufbewahrung wurde Deaktiviert</string>
+    <string name="legal_hold_deactivated_dialog_message">Künftige Nachrichten werden nicht aufgezeichnet.</string>
+    <string name="legal_hold_activated_dialog_title">Gesetzliche Aufbewahrung ist Aktiv</string>
 </resources>

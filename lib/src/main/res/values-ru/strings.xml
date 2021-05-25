@@ -154,6 +154,10 @@
     <string name="content__system__someone_left">Кто-то покинул</string>
     <string name="content__system__other_was_removed">%1$s был(-а) удален(-а)</string>
     <string name="content__system__someone_was_removed">Кто-то был удален</string>
+    <string name="content__system__legalhold_conflict__you_were_removed">[[Вы]] были удалены из этой беседы, поскольку были активированы юридические ограничения. _Подробнее_</string>
+    <string name="content__system__legalhold_conflict__someone_was_removed">Кто-то был удален из этой беседы, поскольку были активированы юридические ограничения. _Подробнее_</string>
+    <string name="content__system__legalhold_conflict__other_was_removed">%1$s был удален из этой беседы, поскольку были активированы юридические ограничения. _Подробнее_</string>
+    <string name="content__system__legalhold_conflict__others_were_removed">%1$s были удалены из этой беседы, поскольку были активированы юридические ограничения. _Подробнее_</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Вы начали беседу</string>
     <string name="content__system__other_started_conversation">%1$s начал(-а) беседу</string>
@@ -194,6 +198,8 @@
     <string name="content__otr__unverified_device__message">[[ВЫ]] ДЕВЕРИФИЦИРОВАЛИ ОДНО ИЗ _УСТРОЙСТВ %1$s_</string>
     <string name="content__otr__your_unverified_device__message">[[ВЫ]] ДЕВЕРИФИЦИРОВАЛИ ОДНО ИЗ _СВОИХ УСТРОЙСТВ_</string>
     <string name="content__otr__new_member__message">ПРИСОЕДИНИЛИСЬ НОВЫЕ УЧАСТНИКИ. _ВЕРИФИЦИРУЙТЕ УСТРОЙСТВА_</string>
+    <string name="content__otr__legalhold_enabled__message">Эта беседа находится под юридическими ограничениями. _ПОДРОБНЕЕ_</string>
+    <string name="content__otr__legalhold_disabled__message">Для этой беседы деактивированы юридические ограничения</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
     <string name="content__file__status__uploading__minimized">ВЫГРУЗКА&#8230;</string>
@@ -338,6 +344,16 @@
     </plurals>
     <string name="conversation__degraded_confirmation__negative_action_self">Показать ваши устройства</string>
     <string name="conversation_degraded_confirmation__header__you">Вы</string>
+    <string name="conversation__legal_hold_confirmation__header">Эта беседа теперь является предметом юридических ограничений.</string>
+    <plurals name="conversation__legal_hold_confirmation__message">
+        <item quantity="one">Вы все еще хотите отправить ваше сообщение?</item>
+        <item quantity="few">Вы все еще хотите отправить ваши сообщения?</item>
+        <item quantity="many">Вы все еще хотите отправить ваши сообщения?</item>
+        <item quantity="other">Вы все еще хотите отправить ваши сообщения?</item>
+    </plurals>
+    <string name="conversation__legal_hold_confirmation__negative_action">Что такое юридические ограничения?</string>
+    <string name="conversation__legal_hold_confirmation__neutral_action">Верифицируйте устройства&#8230;</string>
+    <string name="conversation__legal_hold_confirmation__positive_action">Отправить в любом случае</string>
     <!-- Picture selection confirmation -->
     <string name="confirmation_menu__confirm_done">OK</string>
     <string name="confirmation_menu__cancel">ОТМЕНА</string>
@@ -474,7 +490,7 @@
     <string name="pref_devices_device_id">ID: %1$s</string>
     <string name="pref_devices_device_verified">Верифицировано</string>
     <string name="pref_devices_device_not_verified">Не верифицировано</string>
-    <string name="pref_devices_device_legal_hold"> Правовая защита устройства</string>
+    <string name="legal_hold_device_content_description"> Юридические ограничения устройства</string>
     <string name="pref_devices_warning_summary">Если вам незнакомо какое-либо из устройств, удалите его и измените код доступа.</string>
     <string name="pref_devices_device_screen_title">Сведения об устройстве</string>
     <string name="pref_devices_device_fingerprint_category_title">Отпечаток ключа</string>
@@ -775,7 +791,7 @@
     <string name="otr__participant__device_class__phone">Телефон</string>
     <string name="otr__participant__device_class__tablet">Планшет</string>
     <string name="otr__participant__device_class__desktop">Компьютер</string>
-    <string name="otr__participant__device_class__legal_hold">Правовая защита</string>
+    <string name="otr__participant__device_class__legal_hold">Юридические ограничения</string>
     <string name="otr__participant__tab_details">ДАННЫЕ</string>
     <string name="otr__participant__tab_devices">УСТРОЙСТВА</string>
     <string name="otr__participant__information">ИНФОРМАЦИЯ</string>
@@ -1209,8 +1225,7 @@
     <string name="second_launch__header">Вы уже использовали Wire на этом устройстве.</string>
     <string name="second_launch__sub_header">Если это было давно, некоторые сообщения могут не отображаться.</string>
     <string name="restore_override_alert_title">Восстановить историю</string>
-    <string name="restore_override_alert_text">Контент резервной копии заменит историю бесед на этом устройстве.
-Восстановить историю можно только из резервной копии для одной и той же платформы.</string>
+    <string name="restore_override_alert_text">Содержимое резервной копии заменит историю бесед на этом устройстве. Восстановить историю можно только из резервной копии для одной и той же платформы.</string>
     <string name="restore_override_alert_ok">Выберите резервную копию</string>
     <string name="back_up_progress">РЕЗЕРВНОЕ КОПИРОВАНИЕ&#8230;</string>
     <string name="back_up_progress_complete">ЗАВЕРШЕНО</string>
@@ -1394,16 +1409,19 @@
     <string name="start_sso_redirected_to">Вы будете перенаправлены на специализированное обслуживание вашей организации.</string>
     <string name="start_sso_notice">Указывайте учетные данные, только если вы уверены, что это форма авторизации вашей организации.</string>
     <!-- Legal Hold -->
-    <string name="legal_hold_info_title">Правовая защита</string>
-    <string name="legal_hold_self_user_info_message">Для вашей учетной записи активирована правовая защита.\n\nВсе сообщения будут сохранены для последующего доступа, включая удаленные, отредактированные и просроченные.\n\nВаши собеседники будут уведомлены об этом.</string>
-    <string name="legal_hold_conversation_info_message">В этой беседе активирована правовая защита как минимум для одного участника.\n\nВсе сообщения будут сохранены для последующего доступа, включая удаленные, отредактированные и просроченные.</string>
-    <string name="legal_hold_info_list_title">Субъекты правовой защиты</string>
-    <string name="legal_hold_request_dialog_title">Запрошена правовая защита</string>
-    <string name="legal_hold_request_dialog_message_for_sso">Все будущие сообщения будут записываться устройством с отпечатком:\n%1$s\nСюда входят удаленные, отредактированные и просроченные сообщения во всех беседах.</string>
-    <string name="legal_hold_request_dialog_message">Все будущие сообщения будут записываться устройством с отпечатком:\n%1$s\nСюда входят удаленные, отредактированные и просроченные сообщения во всех беседах.\n\nВведите свой пароль для подтверждения.</string>
+    <string name="legal_hold_info_title">Юридические ограничения</string>
+    <string name="legal_hold_self_user_info_message">Для вашей учетной записи активированы юридические ограничения.\n\nВсе сообщения будут сохранены для последующего доступа, включая удаленные, отредактированные и просроченные.\n\nВаши собеседники будут уведомлены об этом.</string>
+    <string name="legal_hold_conversation_info_message">В этой беседе активированы юридические ограничения как минимум для одного участника.\n\nВсе сообщения будут сохранены для последующего доступа, включая удаленные, отредактированные и просроченные.</string>
+    <string name="legal_hold_info_list_title">Субъекты юридических ограничений</string>
+    <string name="legal_hold_request_dialog_title">Запрошены юридические ограничения</string>
+    <string name="legal_hold_request_dialog_message_for_sso">Все будущие сообщения будут записываться устройством с отпечатком:/n%1$sСюда входят удаленные, отредактированные и просроченные сообщения во всех беседах.</string>
+    <string name="legal_hold_request_dialog_message">Все будущие сообщения будут записываться устройством с отпечатком:\n%1$sСюда входят удаленные, отредактированные и просроченные сообщения во всех беседах.\nВведите свой пароль для подтверждения.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Принять</string>
     <string name="legal_hold_request_dialog_negative_button_text">Не сейчас</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Неправильный пароль</string>
     <string name="legal_hold_all_subjects_title">СУБЪЕКТЫ ПРАВОВОЙ ЗАЩИТЫ</string>
-    <string name="legal_hold_device_name">Правовая защита</string>
+    <string name="legal_hold_device_name">Юридические ограничения</string>
+    <string name="legal_hold_deactivated_dialog_title">Юридические ограничения деактивированы</string>
+    <string name="legal_hold_deactivated_dialog_message">Будущие сообщения не будут сохраняться.</string>
+    <string name="legal_hold_activated_dialog_title">Юридические ограничения активны</string>
 </resources>

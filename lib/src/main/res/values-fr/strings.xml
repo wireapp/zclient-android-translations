@@ -148,6 +148,10 @@
     <string name="content__system__someone_left">Quelqu\'un est parti</string>
     <string name="content__system__other_was_removed">%1$s a été retiré(e)</string>
     <string name="content__system__someone_was_removed">Quelqu\'un a été retiré</string>
+    <string name="content__system__legalhold_conflict__you_were_removed">[[You]] were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__someone_was_removed">Someone was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__other_was_removed">%1$s was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__others_were_removed">%1$s were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Vous avez démarré cette conversation</string>
     <string name="content__system__other_started_conversation">%1$s a débuté une conversation</string>
@@ -184,6 +188,8 @@
     <string name="content__otr__unverified_device__message">[[VOUS]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DES _APPAREILS DE %1$s_</string>
     <string name="content__otr__your_unverified_device__message">[[YOU]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DE _VOS APPAREILS_</string>
     <string name="content__otr__new_member__message">DE NOUVEAUX CONTACTS ONT ÉTÉ AJOUTÉS. _VÉRIFIER LEURS APPAREILS_</string>
+    <string name="content__otr__legalhold_enabled__message">This conversation is under legal hold. _LEARN MORE_</string>
+    <string name="content__otr__legalhold_disabled__message">Conservation à des fins juridiques désactivée</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
     <string name="content__file__status__uploading__minimized">ENVOI EN COURS&#8230;</string>
@@ -320,6 +326,14 @@
     </plurals>
     <string name="conversation__degraded_confirmation__negative_action_self">Afficher vos appareils</string>
     <string name="conversation_degraded_confirmation__header__you">Vous</string>
+    <string name="conversation__legal_hold_confirmation__header">La conversation est maintenant soumise à la conservation à des fins juridiques.</string>
+    <plurals name="conversation__legal_hold_confirmation__message">
+        <item quantity="one">Voulez-vous quand même envoyer votre message ?</item>
+        <item quantity="other">Voulez-vous toujours envoyer vos messages ?</item>
+    </plurals>
+    <string name="conversation__legal_hold_confirmation__negative_action">Qu’est-ce que la conservation à des fins juridiques ?</string>
+    <string name="conversation__legal_hold_confirmation__neutral_action">Verify devices&#8230;</string>
+    <string name="conversation__legal_hold_confirmation__positive_action">Envoyer quand même</string>
     <!-- Picture selection confirmation -->
     <string name="confirmation_menu__confirm_done">OK</string>
     <string name="confirmation_menu__cancel">ANNULER</string>
@@ -456,7 +470,7 @@
     <string name="pref_devices_device_id">ID : %1$s</string>
     <string name="pref_devices_device_verified">Vérifié</string>
     <string name="pref_devices_device_not_verified">Non vérifié</string>
-    <string name="pref_devices_device_legal_hold">Legal Hold device</string>
+    <string name="legal_hold_device_content_description">Legal Hold device</string>
     <string name="pref_devices_warning_summary">Si vous ne reconnaissez pas l’un des appareils ci-dessus, supprimez-le et changez votre code d\'accès.</string>
     <string name="pref_devices_device_screen_title">Informations de l’appareil</string>
     <string name="pref_devices_device_fingerprint_category_title">Empreinte numérique</string>
@@ -1343,11 +1357,14 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="legal_hold_conversation_info_message">Legal Hold has been activated for at least one person in this conversation.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.</string>
     <string name="legal_hold_info_list_title">Soumis à la conservation à des fins juridiques</string>
     <string name="legal_hold_request_dialog_title">Conservation à des fins juridiques demandée</string>
-    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.</string>
-    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$s\nThis includes deleted, edited and timed messages in all conversations.\n\nEnter your password to confirm.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.</string>
+    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.\nEnter your password to confirm.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Accepter</string>
     <string name="legal_hold_request_dialog_negative_button_text">Pas maintenant</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Mot de passe incorrect</string>
     <string name="legal_hold_all_subjects_title">LEGAL HOLD SUBJECTS</string>
     <string name="legal_hold_device_name">Conservation à des fins juridiques</string>
+    <string name="legal_hold_deactivated_dialog_title">Conservation à des fins juridiques désactivée</string>
+    <string name="legal_hold_deactivated_dialog_message">Les futurs messages ne seront pas enregistrés.</string>
+    <string name="legal_hold_activated_dialog_title">La conservation à des fins juridiques est active</string>
 </resources>
