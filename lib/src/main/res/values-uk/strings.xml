@@ -154,10 +154,10 @@
     <string name="content__system__someone_left">Хтось вийшов з групи</string>
     <string name="content__system__other_was_removed">[[%1$s]] був(-ла) видалений(-а)</string>
     <string name="content__system__someone_was_removed">Хтось був видалений</string>
-    <string name="content__system__legalhold_conflict__you_were_removed">[[You]] were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
-    <string name="content__system__legalhold_conflict__someone_was_removed">Someone was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
-    <string name="content__system__legalhold_conflict__other_was_removed">%1$s was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
-    <string name="content__system__legalhold_conflict__others_were_removed">%1$s were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__you_were_removed">[[Ви]] були видалені з цієї розмови, тому що активований правовий захист.</string>
+    <string name="content__system__legalhold_conflict__someone_was_removed">Хтось був видалений з цієї розмови, тому що активований правовий захист.</string>
+    <string name="content__system__legalhold_conflict__other_was_removed">%1$s були видалені з цієї розмови, тому що активовано правовий захист. _ДІЗНАТИСЯ БІЛЬШЕ_</string>
+    <string name="content__system__legalhold_conflict__others_were_removed">%1$s були видалені з цієї розмови, тому що було активовано правовий захист.</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Ви розпочали розмову</string>
     <string name="content__system__other_started_conversation">%1$s розпочав(-ла) розмову</string>
@@ -198,7 +198,7 @@
     <string name="content__otr__unverified_device__message">[[ВИ]] ПОЗНАЧИЛИ ОДИН З _ПРИСТРОЇВ КОНТАКТУ %1$s_ ЯК НЕВЕРИФІКОВАНИЙ</string>
     <string name="content__otr__your_unverified_device__message">[[ВИ]] ПОЗНАЧИЛИ ОДИН З _ВАШИХ ПРИСТРОЇВ_ ЯК НЕВЕРИФІКОВАНИЙ</string>
     <string name="content__otr__new_member__message">ПРИЄДНАЛИСЯ НОВІ УЧАСНИКИ. _ВЕРИФІКУВАТИ ПРИСТРОЇ_</string>
-    <string name="content__otr__legalhold_enabled__message">This conversation is under legal hold. _LEARN MORE_</string>
+    <string name="content__otr__legalhold_enabled__message">Ця розмова знаходиться під правовим захистом. _ДЕТАЛЬНІШЕ_</string>
     <string name="content__otr__legalhold_disabled__message">Для даної розмови правовий захист деактивовано</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
@@ -298,12 +298,13 @@
     <string name="group_calling_message" tools:ignore="PluralsCandidate">Ви подзвоните %1$s учасникам</string>
     <string name="group_calling_confirm">Аудіодзвінок</string>
     <string name="calling_self">%s (Ви)</string>
-    <string name="calling_no_active_speaker">Активні спікери відсутні...</string>
+    <string name="calling_no_active_video_speakers">Активні спікери відсутні...</string>
+    <string name="calling_no_active_speakers">Активні динаміки відсутні…</string>
     <string name="calling_toggle_all">ВСІ</string>
     <string name="calling_toggle_speakers">ДИНАМІКИ</string>
     <string name="calling_double_tap_enter_fullscreen_message">Торкніться двічі для повноекранного режиму</string>
     <string name="calling_double_tap_exit_fullscreen_message">Токніться двічі, щоб повернутись. Розведіть/зведіть пальці для збільшення/зменшення</string>
-    <string name="calling_screenshare_zooming_message">Зведіть або розведіть пальці для зміни масштабу</string>
+    <string name="calling_pinch_to_zoom_message">Зведіть або розведіть пальці для зміни масштабу</string>
     <!-- Connect request -->
     <string name="connect__message">Привіт %1$s,\nДавай спікуватися в Wire.\n%2$s</string>
     <string name="connect_request__sub_header__pending_label">Очікує підтвердження</string>
@@ -352,7 +353,7 @@
         <item quantity="other">Все одно надіслати ваші повідомлення?</item>
     </plurals>
     <string name="conversation__legal_hold_confirmation__negative_action">Що таке правовий захист?</string>
-    <string name="conversation__legal_hold_confirmation__neutral_action">Verify devices&#8230;</string>
+    <string name="conversation__legal_hold_confirmation__neutral_action">Верифікувати пристрої&#8230;</string>
     <string name="conversation__legal_hold_confirmation__positive_action">Все одно надіслати</string>
     <!-- Picture selection confirmation -->
     <string name="confirmation_menu__confirm_done">OK</string>
@@ -1414,8 +1415,8 @@
     <string name="legal_hold_conversation_info_message">В даній розмові правовий захист активовано, як мінімум, для одного учасника.\n\nВсі повідомлення будуть збережені для доступу в майбутньому, включно з видаленими, відредагованими та тимчасованими повідомленнями.</string>
     <string name="legal_hold_info_list_title">Суб\'єкти правового захисту</string>
     <string name="legal_hold_request_dialog_title">Отримано запит на правовий захист</string>
-    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.</string>
-    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.\nEnter your password to confirm.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">Усі майбутні повідомлення будуть записані пристроєм з ідентифікатором:\n%1$s\nВключно з видаленими, відредагованими та тимчасовими повідомленнями в усіх розмовах.</string>
+    <string name="legal_hold_request_dialog_message">Усі майбутні повідомлення будуть записані пристроєм з ідентифікатором:\n%1$s\nВключно з видаленими, відредагованими та тимчасовими повідомленнями в усіх розмовах.\n\nВведіть ваш пароль для підтвердження.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Прийняти</string>
     <string name="legal_hold_request_dialog_negative_button_text">Не зараз</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Невірний пароль</string>
@@ -1424,4 +1425,11 @@
     <string name="legal_hold_deactivated_dialog_title">Правовий захист деактивовано</string>
     <string name="legal_hold_deactivated_dialog_message">Майбутні повідомлення будуть записані.</string>
     <string name="legal_hold_activated_dialog_title">Правовий захист активний</string>
+    <string name="legal_hold_participant_missing_consent_alert_title">Неможливо додати гостей</string>
+    <string name="legal_hold_participant_missing_consent_alert_message">Тільки члени команди можуть бути додані до цієї розмови через правовий захист.</string>
+    <string name="legal_hold_participant_missing_consent_alert_negative_button">ДІЗНАТИСЯ БІЛЬШЕ</string>
+    <string name="legal_hold_user_blocked_message">Цей користувач заблокований через правовий захист. _ДІЗНАТИСЯ БІЛЬШЕ_</string>
+    <string name="legal_hold_cannot_connect_alert_title">Не вдалося додати користувача</string>
+    <string name="legal_hold_cannot_connect_alert_message">Ви не можете додати цього користувача через правовий захист.</string>
+    <string name="legal_hold_cannot_connect_alert_negative_button">ДІЗНАТИСЯ БІЛЬШЕ</string>
 </resources>

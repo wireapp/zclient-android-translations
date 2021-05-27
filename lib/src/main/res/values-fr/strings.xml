@@ -148,10 +148,10 @@
     <string name="content__system__someone_left">Quelqu\'un est parti</string>
     <string name="content__system__other_was_removed">%1$s a été retiré(e)</string>
     <string name="content__system__someone_was_removed">Quelqu\'un a été retiré</string>
-    <string name="content__system__legalhold_conflict__you_were_removed">[[You]] were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
-    <string name="content__system__legalhold_conflict__someone_was_removed">Someone was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
-    <string name="content__system__legalhold_conflict__other_was_removed">%1$s was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
-    <string name="content__system__legalhold_conflict__others_were_removed">%1$s were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__you_were_removed">[[Vous]] avez été retiré de cette conversation car la conservation à des fins juridiques a été activée. _EN SAVOIR PLUS_</string>
+    <string name="content__system__legalhold_conflict__someone_was_removed">Quelqu\'un a été retiré de cette conversation parce que la conservation à des fins juridiques a été activée. _EN SAVOIR PLUS_</string>
+    <string name="content__system__legalhold_conflict__other_was_removed">%1$s a été retiré de cette conversation parce que la conservation à des fins juridiques a été activée. _EN SAVOIR PLUS_</string>
+    <string name="content__system__legalhold_conflict__others_were_removed">%1$s ont été retirés de cette conversation parce que la conservation à des fins juridiques a été activée. _EN SAVOIR PLUS_</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">Vous avez démarré cette conversation</string>
     <string name="content__system__other_started_conversation">%1$s a débuté une conversation</string>
@@ -188,7 +188,7 @@
     <string name="content__otr__unverified_device__message">[[VOUS]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DES _APPAREILS DE %1$s_</string>
     <string name="content__otr__your_unverified_device__message">[[YOU]] AVEZ ANNULÉ LA VÉRIFICATION D\'UN DE _VOS APPAREILS_</string>
     <string name="content__otr__new_member__message">DE NOUVEAUX CONTACTS ONT ÉTÉ AJOUTÉS. _VÉRIFIER LEURS APPAREILS_</string>
-    <string name="content__otr__legalhold_enabled__message">This conversation is under legal hold. _LEARN MORE_</string>
+    <string name="content__otr__legalhold_enabled__message">Cette conversation est enregistrée à des fins juridiques. _EN SAVOIR PLUS_</string>
     <string name="content__otr__legalhold_disabled__message">Conservation à des fins juridiques désactivée</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
@@ -288,12 +288,13 @@
     <string name="group_calling_message" tools:ignore="PluralsCandidate">Cela appellera %1$s contacts</string>
     <string name="group_calling_confirm">Appeler</string>
     <string name="calling_self">%s (vous)</string>
-    <string name="calling_no_active_speaker">Aucun speaker vidéo actif...</string>
+    <string name="calling_no_active_video_speakers">Aucun speaker vidéo actif...</string>
+    <string name="calling_no_active_speakers">Aucun speaker actif...</string>
     <string name="calling_toggle_all">TOUS</string>
     <string name="calling_toggle_speakers">SPEAKERS</string>
     <string name="calling_double_tap_enter_fullscreen_message">Appuyez deux fois sur une cellule pour passer en plein écran</string>
     <string name="calling_double_tap_exit_fullscreen_message">Appuyez deux fois pour revenir en arrière, pincez pour zoomer</string>
-    <string name="calling_screenshare_zooming_message">Pincez pour zoomer</string>
+    <string name="calling_pinch_to_zoom_message">Pincez pour zoomer</string>
     <!-- Connect request -->
     <string name="connect__message">Bonjour %1$s,\nConnectons-nous sur Wire.\n%2$s</string>
     <string name="connect_request__sub_header__pending_label">En attente</string>
@@ -332,7 +333,7 @@
         <item quantity="other">Voulez-vous toujours envoyer vos messages ?</item>
     </plurals>
     <string name="conversation__legal_hold_confirmation__negative_action">Qu’est-ce que la conservation à des fins juridiques ?</string>
-    <string name="conversation__legal_hold_confirmation__neutral_action">Verify devices&#8230;</string>
+    <string name="conversation__legal_hold_confirmation__neutral_action">Vérifier les appareils&#8230;</string>
     <string name="conversation__legal_hold_confirmation__positive_action">Envoyer quand même</string>
     <!-- Picture selection confirmation -->
     <string name="confirmation_menu__confirm_done">OK</string>
@@ -470,7 +471,7 @@
     <string name="pref_devices_device_id">ID : %1$s</string>
     <string name="pref_devices_device_verified">Vérifié</string>
     <string name="pref_devices_device_not_verified">Non vérifié</string>
-    <string name="legal_hold_device_content_description">Legal Hold device</string>
+    <string name="legal_hold_device_content_description">Appareil de conservation à des fins juridiques</string>
     <string name="pref_devices_warning_summary">Si vous ne reconnaissez pas l’un des appareils ci-dessus, supprimez-le et changez votre code d\'accès.</string>
     <string name="pref_devices_device_screen_title">Informations de l’appareil</string>
     <string name="pref_devices_device_fingerprint_category_title">Empreinte numérique</string>
@@ -1353,12 +1354,12 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="start_sso_notice">Ne saisissez vos identifiants que si vous êtes sûr d\'être connecté à votre organisation.</string>
     <!-- Legal Hold -->
     <string name="legal_hold_info_title">Conservation à des fins juridiques</string>
-    <string name="legal_hold_self_user_info_message">Legal Hold has been activated for your account.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.\n\nYour conversation partners will be aware of the recording.</string>
-    <string name="legal_hold_conversation_info_message">Legal Hold has been activated for at least one person in this conversation.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.</string>
+    <string name="legal_hold_self_user_info_message">La conservation à des fins juridiques a été activée pour votre compte.\n\nTous vos messages seront enregistrés pour un accès futur, y compris les messages supprimés, modifiés et éphémères.\n\nVos contacts seront informés de l’enregistrement.</string>
+    <string name="legal_hold_conversation_info_message">La conservation à des fins juridiques été activée pour au moins un contact dans cette conversation.\n\nTous vos messages seront enregistrés pour un accès futur, y compris les messages supprimés, modifiés et éphémères.</string>
     <string name="legal_hold_info_list_title">Soumis à la conservation à des fins juridiques</string>
     <string name="legal_hold_request_dialog_title">Conservation à des fins juridiques demandée</string>
-    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.</string>
-    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.\nEnter your password to confirm.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">Tous les futurs messages seront enregistrés sur votre appareil avec l\'empreinte numérique suivante :\n%1$sCela inclut les messages supprimés, modifiés et éphémères dans toutes les conversations.</string>
+    <string name="legal_hold_request_dialog_message">Tous les futurs messages seront enregistrés sur votre appareil avec l\'empreinte numérique suivante :\n%1$sCela inclut les messages supprimés, modifiés et éphémères dans toutes les conversations.\nEntrez votre mot de passe pour confirmer.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Accepter</string>
     <string name="legal_hold_request_dialog_negative_button_text">Pas maintenant</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Mot de passe incorrect</string>
@@ -1367,4 +1368,11 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="legal_hold_deactivated_dialog_title">Conservation à des fins juridiques désactivée</string>
     <string name="legal_hold_deactivated_dialog_message">Les futurs messages ne seront pas enregistrés.</string>
     <string name="legal_hold_activated_dialog_title">La conservation à des fins juridiques est active</string>
+    <string name="legal_hold_participant_missing_consent_alert_title">Les invités ne peuvent pas être ajoutés</string>
+    <string name="legal_hold_participant_missing_consent_alert_message">En raison d\'une conservation à des fins juridiques, seuls les membres de l\'équipe peuvent être ajoutés à cette conversation.</string>
+    <string name="legal_hold_participant_missing_consent_alert_negative_button">EN SAVOIR PLUS</string>
+    <string name="legal_hold_user_blocked_message">Cet utilisateur est bloqué en raison de la conservation à des fins juridiques. _EN SAVOIR PLUS_</string>
+    <string name="legal_hold_cannot_connect_alert_title">Impossible de se connecter à cet utilisateur</string>
+    <string name="legal_hold_cannot_connect_alert_message">Vous ne pouvez pas vous connecter à cet utilisateur à cause de la conservation à des fins juridiques.</string>
+    <string name="legal_hold_cannot_connect_alert_negative_button">EN SAVOIR PLUS</string>
 </resources>
