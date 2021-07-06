@@ -79,7 +79,8 @@
     <string name="people_picker__search_result_conversations_header_title">Группы</string>
     <string name="people_picker__search_result_team_conversations_header_title">Группы %1$s</string>
     <string name="people_picker__search_result_connections_searched_header_title">Контакты</string>
-    <string name="people_picker__search_result_others_header_title">Связаться</string>
+    <string name="people_picker__search_result_others_header_title">Подключиться через Wire</string>
+    <string name="people_picker__search_result_others_header_federated">Подключиться через %1$s</string>
     <string name="people_picker__search_result__expander_title">Показать все %1$s ↓</string>
     <string name="people_picker__search_people">УЧАСТНИКИ</string>
     <string name="people_picker__search_services">СЕРВИСЫ</string>
@@ -312,7 +313,7 @@
     <string name="connect_request__unblock__button__text">Разблокировать</string>
     <string name="send_connect_request__connect_button__text">СВЯЗАТЬСЯ</string>
     <plurals name="connect_inbox__link__name">
-        <item quantity="one">%1$s участник ожидает</item>
+        <item quantity="one">1 участник ожидает</item>
         <item quantity="few">%1$s участника ожидает</item>
         <item quantity="many">%1$s участников ожидают</item>
         <item quantity="other">%1$s участников ожидают</item>
@@ -1136,6 +1137,8 @@
     <string name="loading_services">Загрузка сервисов&#8230;</string>
     <string name="empty_services_list">Сервисы - это помощники, которые могут улучшить ваш рабочий процесс. Чтобы включить их, обратитесь к администратору.</string>
     <string name="empty_services_list_admin">Сервисы - это помощники, которые могут улучшить ваш рабочий процесс.</string>
+    <string name="empty_services_content_description">Сервисы не найдены</string>
+    <string name="empty_search_content_description">Пользователи не найдены</string>
     <string name="create_group_conversation">Создать группу</string>
     <string name="create_guest_room_conversation">Создать гостевую комнату</string>
     <string name="manage_services">Управление сервисами</string>
@@ -1163,7 +1166,7 @@
     <string name="participants_no_results_2">Попробуйте ввести другое имя.</string>
     <string name="group_name_hint">НАЗВАНИЕ ГРУППЫ</string>
     <string name="allow_guests_toggle_text">Разрешить гостей и сервисы</string>
-    <string name="allow_guests_toggle_info_text">Открыть эту беседу для сервисов и людей не из вашей команды.</string>
+    <string name="allow_guests_toggle_info_text">Открыть эту беседу для сервисов и пользователей не из вашей команды.</string>
     <string name="read_receipts_toggle_text">Отчеты о прочтении</string>
     <string name="read_receipts_toggle_info_text">При включении ваши собеседники смогут видеть когда было прочитано их сообщение.</string>
     <string name="read_receipts_info_title_enabled">ВЫ ВКЛЮЧИЛИ ОТЧЕТЫ О ПРОЧТЕНИИ</string>
@@ -1176,8 +1179,8 @@
     <string name="create_conv_options_subtitle_on">ВКЛ</string>
     <string name="create_conv_options_subtitle_off">ВЫКЛ</string>
     <string name="participant_group_admin_toggle_text">Администратор группы</string>
-    <string name="participant_group_admin_toggle_info_text">Администратор может добавлять или удалять людей и сервисы, обновлять настройки групп, а также изменять роли участников.</string>
-    <string name="open_this_conversation_to_people_outside_your_team">Открыть эту беседу для сервисов и людей не из вашей команды.</string>
+    <string name="participant_group_admin_toggle_info_text">Если эта опция включена, администратор может добавлять или удалять пользователей и сервисы, обновлять настройки групп и изменять роль участников.</string>
+    <string name="open_this_conversation_to_people_outside_your_team">Открыть эту беседу для сервисов и пользователей не из вашей команды.</string>
     <string name="allow_guests">Разрешить гостей и сервисы</string>
     <string name="guest_options_title">Гости и сервисы</string>
     <string name="ephemeral_options_title">Временные сообщения</string>
@@ -1272,6 +1275,9 @@
     <string name="participant_search_title">УЧАСТНИКИ</string>
     <string name="generic_service_warning">Сервисы имеют доступ к содержимому этой беседы</string>
     <string name="add_services_button_text">Управление сервисами</string>
+    <string name="empty_search_button_text">Подробнее</string>
+    <string name="empty_search_same_domain_text">Найти пользователей в Wire, используя имя или @псевдоним</string>
+    <string name="empty_search_other_domains_text">Найти пользователей из другого домена по @username@domainname</string>
     <string name="wire_notification_name">Уведомление Wire</string>
     <string name="wire_ping_name">Пинг Wire</string>
     <string name="reply_self_name">Вы</string>

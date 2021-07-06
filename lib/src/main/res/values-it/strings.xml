@@ -79,7 +79,8 @@
     <string name="people_picker__search_result_conversations_header_title">Gruppi</string>
     <string name="people_picker__search_result_team_conversations_header_title">%1$s gruppi</string>
     <string name="people_picker__search_result_connections_searched_header_title">Contatti</string>
-    <string name="people_picker__search_result_others_header_title">Connetti</string>
+    <string name="people_picker__search_result_others_header_title">Connect with Wire</string>
+    <string name="people_picker__search_result_others_header_federated">Connect with %1$s</string>
     <string name="people_picker__search_result__expander_title">Mostra tutti %1$s ↓</string>
     <string name="people_picker__search_people">PERSONE</string>
     <string name="people_picker__search_services">SERVIZI</string>
@@ -333,7 +334,7 @@
         <item quantity="other">Vuoi comunque mandare i messaggi?</item>
     </plurals>
     <string name="conversation__legal_hold_confirmation__negative_action">Che cos\'è la conservazione legale?</string>
-    <string name="conversation__legal_hold_confirmation__neutral_action">Verify devices&#8230;</string>
+    <string name="conversation__legal_hold_confirmation__neutral_action">Verifica dispositivi&#8230;</string>
     <string name="conversation__legal_hold_confirmation__positive_action">Invia comunque</string>
     <!-- Picture selection confirmation -->
     <string name="confirmation_menu__confirm_done">OK</string>
@@ -1080,6 +1081,8 @@
     <string name="loading_services">Caricamento servizi&#8230;</string>
     <string name="empty_services_list">I servizi aiutano a migliorare il tuo flusso di lavoro. Per attivarli, contatta il tuo amministratore.</string>
     <string name="empty_services_list_admin">I servizi aiutano a migliorare il tuo flusso di lavoro.</string>
+    <string name="empty_services_content_description">Nessun servizio trovato</string>
+    <string name="empty_search_content_description">Nessun utente trovato</string>
     <string name="create_group_conversation">Crea gruppo</string>
     <string name="create_guest_room_conversation">Crea stanza degli ospiti</string>
     <string name="manage_services">Gestisci servizi</string>
@@ -1214,6 +1217,9 @@
     <string name="participant_search_title">PARTECIPANTI</string>
     <string name="generic_service_warning">I servizi hanno accesso al contenuto di questa conversazione</string>
     <string name="add_services_button_text">Gestisci servizi</string>
+    <string name="empty_search_button_text">Ulteriori informazioni</string>
+    <string name="empty_search_same_domain_text">Trova persone in Wire per nome o @username</string>
+    <string name="empty_search_other_domains_text">Trova persone da un altro dominio tramite @username@domainname</string>
     <string name="wire_notification_name">Notifica di Wire</string>
     <string name="wire_ping_name">Trillo Wire</string>
     <string name="reply_self_name">Tu</string>
@@ -1358,7 +1364,7 @@
     <string name="legal_hold_conversation_info_message">La sospensione legale è stata attivata per almeno una persona in questa conversazione.\n\nTutti i messaggi saranno preservati per eventuali accessi futuri, inclusi messaggi eliminati, modificati e ad invio programmato.</string>
     <string name="legal_hold_info_list_title">Soggetti a conservazione legale</string>
     <string name="legal_hold_request_dialog_title">Sospensione legale richiesta</string>
-    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">Tutti i futuri messaggi verranno registrati dal dispositivo con l\'impronta digitale:\n%1$s\nQuesto include messaggi eliminati, modificati e ad invio programmato in tutte le conversazioni.</string>
     <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.\nEnter your password to confirm.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Accetta</string>
     <string name="legal_hold_request_dialog_negative_button_text">Non ora</string>
@@ -1368,18 +1374,18 @@
     <string name="legal_hold_deactivated_dialog_title">Sospensione legale disattivata</string>
     <string name="legal_hold_deactivated_dialog_message">I messaggi futuri non verranno registrati.</string>
     <string name="legal_hold_activated_dialog_title">La sospensione legale è attiva</string>
-    <string name="legal_hold_participant_missing_consent_alert_title">Guests cannot be added</string>
+    <string name="legal_hold_participant_missing_consent_alert_title">Gli ospiti non possono essere aggiunti</string>
     <string name="legal_hold_participant_missing_consent_alert_message">Due to legal hold, only team members can be added to this conversation.</string>
     <string name="legal_hold_participant_missing_consent_alert_negative_button">SCOPRI DI PIÙ</string>
     <string name="legal_hold_user_blocked_message">This user is blocked due to legal hold. _LEARN MORE_</string>
-    <string name="legal_hold_cannot_connect_alert_title">Cannot connect to this user</string>
+    <string name="legal_hold_cannot_connect_alert_title">Impossibile connettersi a questo utente</string>
     <string name="legal_hold_cannot_connect_alert_message">You cannot connect to this user due to legal hold.</string>
     <string name="legal_hold_cannot_connect_alert_negative_button">SCOPRI DI PIÙ</string>
     <!-- Join Conversation via Deep Link -->
-    <string name="join_conversation_confirmation_message">You have been invited to a conversation:\n%s</string>
+    <string name="join_conversation_confirmation_message">Sei stato invitato a una conversazione:\n%s</string>
     <string name="join_conversation_confirmation_join_button_text">Entra</string>
     <string name="join_conversation_confirmation_cancel_button_text">Annulla</string>
-    <string name="join_conversation_conversation_join_error_title">You could not join the conversation</string>
-    <string name="join_conversation_invalid_link_error_message">The conversation link is invalid.</string>
-    <string name="join_conversation_member_limit_reached_error_message">The conversation is full.</string>
+    <string name="join_conversation_conversation_join_error_title">Impossibile partecipare alla conversazione</string>
+    <string name="join_conversation_invalid_link_error_message">Il collegamento della conversazione non è valido.</string>
+    <string name="join_conversation_member_limit_reached_error_message">La conversazione è piena.</string>
 </resources>
